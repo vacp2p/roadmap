@@ -12,7 +12,7 @@ tags:
 
 ### `waku:`
 * [[qa/waku/interop-testing-2024q4|interop-testing-2024q4 ]]
-
+* [[qa/waku/status-go-functional-testing-2024q4|status-go-functional-testing-2024q4 ]]
 
 ### `nomos:`
 

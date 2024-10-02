@@ -5,13 +5,13 @@ tags:
   - "qa"
   - "waku"  
 draft: false  
-description: Collaborated with Status QA to create a test framework using Status-backend for functional testing of Status-go, by integrating existing Status CLI tests into it.
+description: Collaborate with Status QA in creating a test framework that uses status-backend to do functional testing for status go, by integrating existing Status CLI tests into it.
 ---
 
 `vac:qa:waku:status-go-functional-testing-2024q4`
 
 ## Description
-Collaborated with Status QA to create a test framework using Status-backend for functional testing of Status-go, by integrating existing Status CLI tests into it.
+Collaborate with Status QA in creating a test framework that uses status-backend to do functional testing for status go, by integrating existing Status CLI tests into it.
 
 The Status Go devs have created a [new tool](https://github.com/status-im/status-go/pull/5847) for functional testing of Status Go features. <br/>
 Status QA and VAC QA will collaborate to build a testing framework around this tool and add new test coverage through this framework. <br/>

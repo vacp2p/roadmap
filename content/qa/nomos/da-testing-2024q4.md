@@ -15,7 +15,6 @@ description: Implement data availability test plans for the Nomos project and co
 ## Description
 Implement data availability test plans for the Nomos project and continuously updating them due to evolving specs.
 
-Implement the data availability test plan. <br/>
 Since this feature is still in development, tests will be conducted at multiple levels, including unit and integration tests. <br/>
 Given that the specifications for this feature are frequently changing, the test cases will need to be regularly updated to reflect those changes.
 

@@ -5,7 +5,7 @@ tags:
   - "qa"
   - "waku"  
 draft: false  
-description: Collaborate with Status QA in creation a test framework that uses status-backend to do functional testing for status go
+description: Collaborate with Status QA in creating a test framework that uses status-backend to do functional testing for status go
 ---
 
 `vac:qa:waku:status-go-functional-testing-2024q4`
@@ -44,7 +44,7 @@ The existing Status Go tests created by VAC QA and Status QA have been using the
 * end-date: 2024/11/11
 
 #### Description
-We have been asked to move all the tests we developed into the status-go repo since they have started a similar effort using Python.
+Move all the tests we developed into the status-go repo since Status QA has started a similar effort using Python.
 
 #### Deliverables
 * PR with the migrated tests  

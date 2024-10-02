@@ -34,9 +34,9 @@ The tests should validate Status features under normal and abnormal conditions a
 * end-date: 2024/10/21
 
 #### Description 
+Update the existing tests to use status-backend and ensure alignment with the Status Go testing framework.
 The existing Status Go tests created by VAC QA and Status QA have been using the status-cli or statusd tools, which are primarily CLI-based. <br/>
 Now, developers want to replace them with status-backend, a more advanced tool with a JSON-RPC based approach. <br/>
-We need to update the existing tests to use this new tool and ensure alignment with the Status Go testing framework.
 
 #### Deliverables 
 * PR with the updated tests

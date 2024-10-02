@@ -6,24 +6,28 @@ tags:
   - "qa"
   - "codex"  
 draft: false  
-description: Extend existing integration tests for the Codex project.
+description: Extend existing integration tests for the Codex project to ensure that all API endpoints are thoroughly tested, as the current tests only scratch the surface.
 
 ---
 
 `vac:qa:codex:integration-testing-2024q4`
 
 ## Description  
-Extend existing integration tests for the Codex project, as the current tests only scratch the surface. Codex has a rich API that requires thorough testing to ensure robustness across all endpoints and functionalities.
+Extend existing integration tests for the Codex project to ensure that all API endpoints are thoroughly tested, <br/>
+as the current tests only scratch the surface. 
+
+Codex has a [rich API](https://api.codex.storage) that requires thorough testing to ensure robustness across all endpoints and functionalities.
 
 **Alignment with VAC Narratives:**  
-By expanding the integration tests for Codex, VAC QA contributes to maintaining high standards of API quality, which directly supports the broader goal of ensuring spec adherence and improving the project's reliability. 
+By expanding the integration tests for Codex, VAC QA contributes to maintaining high standards of API quality, <br/>
+which directly supports the broader goal of ensuring spec adherence and improving the project's reliability. 
 
 
 ## Task List
 
-### Marketplace
+### Marketplace Endpoints
 
-* fully qualified name: `vac:qa:codex:integration-testing-2024q4:marketplace`
+* fully qualified name: `vac:qa:codex:integration-testing-2024q4:marketplace-endpoints`
 * owner: fbarbu15
 * status: not started
 * start-date: 2024/10/07
@@ -36,9 +40,9 @@ Add more coverage for the Marketplace endpoints to ensure all key functionalitie
 * PR link with added tests  
 * CI runs showing successful or failed executions with detailed reports
 
-### Data
+### Data Endpoints
 
-* fully qualified name: `vac:qa:codex:integration-testing-2024q4:data`
+* fully qualified name: `vac:qa:codex:integration-testing-2024q4:data-endpoints`
 * owner: fbarbu15
 * status: not started
 * start-date: 2024/10/21
@@ -51,9 +55,9 @@ Add more coverage for the Data endpoints, verifying that the various data-relate
 * PR link with added tests  
 * CI runs showing successful or failed executions with detailed reports
 
-### Node and Debug
+### Node and Debug Endpoints
 
-* fully qualified name: `vac:qa:codex:integration-testing-2024q4:node-and-debug`
+* fully qualified name: `vac:qa:codex:integration-testing-2024q4:node-and-debug-endpoints`
 * owner: fbarbu15
 * status: not started
 * start-date: 2024/11/04

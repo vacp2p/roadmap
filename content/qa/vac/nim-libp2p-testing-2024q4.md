@@ -6,14 +6,17 @@ tags:
   - "qa"
   - "vac"  
 draft: false  
-description: Extend nim-libp2p testing coverage, documentation and tooling
+description: Extend nim-libp2p testing coverage, documentation and tooling. 
 
 ---
 
 `vac:qa:vac:nim-libp2p-testing-2024q4`
 
 ## Description
-Create test plans, implement tests, and increase coverage for all the [modules](https://github.com/vacp2p/nim-libp2p?tab=readme-ov-file#modules) implemented in nim libp2p. Improve tooling around nim libp2p testing.
+Extend nim-libp2p testing coverage, documentation and tooling.
+
+Create test plans, implement tests, and increase coverage for all the [modules](https://github.com/vacp2p/nim-libp2p?tab=readme-ov-file#modules) implemented in nim libp2p. <br/>
+Improve tooling around nim libp2p testing.
 
 **Alignment with VAC Narratives:**
 - Nim-libp2p is a key component of the VAC ecosystem, and improving its testing coverage and tooling strengthens our internal expertise and the overall reliability of the network. 
@@ -31,7 +34,8 @@ Create test plans, implement tests, and increase coverage for all the [modules](
 * end-date: 2024/10/28
 
 #### Description
-Expand the gossipsub test coverage by following the test plan, check what's not covered, and implement new tests for those scenarios. Make sure the testing is thorough as this is one of the core components.
+Expand the gossipsub test coverage by following the test plan, check what's not covered, and implement new tests for those scenarios. <br/>
+Make sure the testing is thorough as this is one of the core components.
 
 #### Deliverables
 * PRs with links to added tests

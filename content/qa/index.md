@@ -9,7 +9,7 @@ tags:
 ---
 
 ### `ift:`
-* [[qa/ift/projects-qa-capabilities-2024q4|projects-qa-capabilities-2024q4 ]]
+* [[qa/ift/projects-qa-strategy-2024q4|projects-qa-strategy-2024q4 ]]
 
 ### `vac:`
 * [[qa/vac/nim-libp2p-testing-2024q4|nim-libp2p-testing-2024q4 ]]

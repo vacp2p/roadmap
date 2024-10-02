@@ -13,7 +13,7 @@ description: Extend Waku interop tests with focus on more advanced scenarios
 ## Description
 
 The interop testing framework already provides extensive coverage, running hundreds of tests across both nwaku and gowaku. Initially, the focus was on functional testing, targeting protocols in isolation. 
-For this milestone, we aim to extend coverage with more complex and edge-case scenarios. Enhancements include identifying negative test cases, running scenarios with multiple nodes, and improving CI execution speed by leveraging more powerful runners. Once the execution speed meets acceptable thresholds, we will integrate this expanded suite or a subset of tests into the nwaku/go-waku CI pipelines, ensuring PR-level validation.
+For this commitment, we aim to extend coverage with more complex and edge-case scenarios. Enhancements include identifying negative test cases, running scenarios with multiple nodes, and improving CI execution speed by leveraging more powerful runners. Once the execution speed meets acceptable thresholds, we will integrate this expanded suite or a subset of tests into the nwaku/go-waku CI pipelines, ensuring PR-level validation.
 
 **Alignment with VAC Narratives:**
 

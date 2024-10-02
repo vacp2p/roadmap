@@ -5,14 +5,19 @@ tags:
   - "qa"
   - "waku"  
 draft: false  
-description: Collaborate with Status QA in creating a test framework that uses status-backend to do functional testing for status go
+description: Collaborated with Status QA to create a test framework using Status-backend for functional testing of Status-go, by integrating existing Status CLI tests into it.
 ---
 
 `vac:qa:waku:status-go-functional-testing-2024q4`
 
 ## Description
+Collaborated with Status QA to create a test framework using Status-backend for functional testing of Status-go, by integrating existing Status CLI tests into it.
 
-The Status Go devs have created a [new tool](https://github.com/status-im/status-go/pull/5847) for functional testing of Status Go features. Status QA and VAC QA will collaborate to build a testing framework around this tool and add new test coverage through this framework. The tests should validate Status features under normal and abnormal conditions and usage. We will track test coverage to measure progress.
+The Status Go devs have created a [new tool](https://github.com/status-im/status-go/pull/5847) for functional testing of Status Go features. <br/>
+Status QA and VAC QA will collaborate to build a testing framework around this tool and add new test coverage through this framework. <br/>
+In the beginning, Status QA will move the statusd tests, while VAC QA will integrate the status-cli tests to set up the framework. <br/>
+After that, VAC QA will be responsible for the message tests, though this is still to be determined. <br/>
+The tests should validate Status features under normal and abnormal conditions and usage. We will track test coverage to measure progress.
 
 **Alignment with VAC Narratives:**
 - By helping create a robust functional testing framework for Status Go, VAC QA contributes directly to the narrative of internal collaboration and efficiency.
@@ -29,7 +34,9 @@ The Status Go devs have created a [new tool](https://github.com/status-im/status
 * end-date: 2024/10/21
 
 #### Description 
-The existing Status Go tests created by VAC QA and Status QA have been using the status-cli or statusd tools, which are primarily CLI-based. Now, developers want to replace them with status-backend, a more advanced tool with a JSON-RPC based approach. We need to update the existing tests to use this new tool and ensure alignment with the Status Go testing framework.
+The existing Status Go tests created by VAC QA and Status QA have been using the status-cli or statusd tools, which are primarily CLI-based. <br/>
+Now, developers want to replace them with status-backend, a more advanced tool with a JSON-RPC based approach. <br/>
+We need to update the existing tests to use this new tool and ensure alignment with the Status Go testing framework.
 
 #### Deliverables 
 * PR with the updated tests

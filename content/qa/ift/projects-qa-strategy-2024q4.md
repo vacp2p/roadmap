@@ -15,14 +15,17 @@ description: Document existing QA strategy for IFT projects.
 ## Description
 Document existing QA strategy for IFT projects.
 
-Create a knowledge base containing the QA strategy for all projects under the IFT umbrella.<br/>
-For each project, we will document the existing tests, coverage, how and when they are run, any identified gaps, and recommendations for improvement.
+Create a knowledge base containing the QA strategy for all projects under the IFT umbrella.
+For each project, we will document the existing tests, coverage, how and when they are run,
+any identified gaps, and recommendations for improvement.
 
-**Alignment with VAC Narratives:**  
-- By documenting and evaluating the QA strategy of each IFT project, VAC QA strengthens the overall efficiency and collaboration within the IFT ecosystem. 
-- This initiative will ensure that projects are aligned with the best practices, identify areas for improvement, and foster knowledge sharing across teams. 
-- It contributes to maintaining a high standard for both internal and external contributions by helping keep projects well-tested and reliable.
-
+**Alignment with VAC Narratives:**
+- By documenting and evaluating the QA strategy of each IFT project,
+  VAC QA strengthens the overall efficiency and collaboration within the IFT ecosystem.
+- This initiative will ensure that projects are aligned with best practices,
+  identify areas for improvement, and foster knowledge sharing across teams.
+- It contributes to maintaining a high standard for both internal and external contributions
+  by helping keep projects well-tested and reliable.
 
 ## Task List
 
@@ -34,10 +37,11 @@ For each project, we will document the existing tests, coverage, how and when th
 * start-date: 2024/10/07
 * end-date: 2024/10/21
 
-#### Description  
-Investigate and document Waku QA strategy, identify gaps, and provide recommendations for improvements.
+#### Description
+Investigate and document Waku QA strategy,
+identify gaps, and provide recommendations for improvements.
 
-#### Deliverables  
+#### Deliverables
 * Link with Notion page
 
 ### Nomos
@@ -48,10 +52,11 @@ Investigate and document Waku QA strategy, identify gaps, and provide recommenda
 * start-date: 2024/10/21
 * end-date: 2024/11/04
 
-#### Description  
-Investigate and document Nomos QA strategy, identify gaps, and provide recommendations for improvements.
+#### Description
+Investigate and document Nomos QA strategy,
+identify gaps, and provide recommendations for improvements.
 
-#### Deliverables  
+#### Deliverables
 * Link with Notion page
 
 ### Status
@@ -62,10 +67,11 @@ Investigate and document Nomos QA strategy, identify gaps, and provide recommend
 * start-date: 2024/11/04
 * end-date: 2024/11/22
 
-#### Description  
-Investigate and document Status QA strategy, identify gaps, and provide recommendations for improvements.
+#### Description
+Investigate and document Status QA strategy,
+identify gaps, and provide recommendations for improvements.
 
-#### Deliverables  
+#### Deliverables
 * Link with Notion page
 
 ### Keycard
@@ -76,10 +82,11 @@ Investigate and document Status QA strategy, identify gaps, and provide recommen
 * start-date: 2024/11/22
 * end-date: 2024/12/02
 
-#### Description  
-Investigate and document Keycard QA strategy, identify gaps, and provide recommendations for improvements.
+#### Description
+Investigate and document Keycard QA strategy,
+identify gaps, and provide recommendations for improvements.
 
-#### Deliverables  
+#### Deliverables
 * Link with Notion page
 
 ### Nimbus
@@ -90,8 +97,10 @@ Investigate and document Keycard QA strategy, identify gaps, and provide recomme
 * start-date: 2024/12/02
 * end-date: 2024/12/16
 
-#### Description  
-Investigate and document Nimbus QA strategy, identify gaps, and provide recommendations for improvements.
+#### Description
+Investigate and document Nimbus QA strategy,
+identify gaps, and provide recommendations for improvements.
 
-#### Deliverables  
+#### Deliverables
 * Link with Notion page
+

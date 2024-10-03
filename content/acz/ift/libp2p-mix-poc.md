@@ -6,20 +6,18 @@ tags:
   - "ift"
 draft: false
 description: "Publishing a raw RFC specifying libp2p mixnet protocol and implementing a PoC"
+
 ---
 
-`vac:acz:ift:libp2p-mix-poc-2024q4`
+`vac:acz:ift:libp2p-mix-poc`
 
+Publishing a raw RFC specifying libp2p mixnet protocol and implementing a PoC
 ## Description
 
-This Milestone entails designing an anonymization layer for gossipsub, and by extension, IFT projects.
+This commitment entails designing an anonymization layer for gossipsub, and by extension, IFT projects.
 The primary objective of this anonymization layer is to serve as a cohesive anonymization solution for gossip-based projects,
 with a specific focus on integrating it with the Logos projects Waku and Codex.
 
-Currently, we're uncertain whether the complete anonymization layer can be situated between gossipsub and the protocols of IFT projects.
-It appears more plausible that we'll establish a foundational element atop gossipsub,
-with project-specific components integrated into the projects themselves,
-or introduce an intermediary layer between the general gossip anonymization protocol and the project protocols.
 
 The Nomos team is crafting their own anonymization solution due to their unique requirements and their ability to leverage specific traffic patterns to enhance efficiency.
 Nonetheless, the overarching objective for our anonymization network is to render our solution modular, enabling the inclusion of traffic pattern plugins that Nomos can define.
@@ -33,17 +31,17 @@ Currently we view this anonymization solution as a P2P base layer, which the Vac
 This effort could potentially spawn an incubation project.
 This effort would act as a basis for the Validator Privacy Network incubation project.
 
-* report comparing various approaches to realizing a gossipsub anonymization layer for IFT projects
-    - this might entail identifying the need for in-project components (see description)
-    - has to provide arguments why the proposed approach is expected to provide sufficient anonymity guarantees
-* document describing benefits for each of Waku, Status, Codex, and Nimbus
-* Paper on arxiv.com
-    - including security/privacy analysis
-    - should offer improvements over Tor push.
-    - spam protection (integrate RLN)
-    - the proposed solution MUST be practically applicable, efficient, and relevant (product-market fit)
-* draft specification of the base functionality (a usable subset of the functionality)
-* PoC implementation of the base functionality
+
+By utilizing the de-mls-poc commitment, 
+we will reinforce the Conduit of Expertise narrative by:
+* Create a document describing the benefits of mixnet protocol for each of Waku, Status, Codex, and Nimbus
+* Implement a PoC shows the base functionality
+
+We will also strengthen the Premier Research Destination narrative by:
+* Create a proposal for the Ethereum Foundation (EF) to apply for EF grants to promote the mixnet PoC and 
+gain support from the Ethereum ecosystem.
+* Publish a paper on arxiv.com that includes security/privacy analysis with applicability and revelance(product-market fit), 
+offering improvements over Tor push. 
 
 - [x] https://github.com/vacp2p/rfc-index/pull/97/
 

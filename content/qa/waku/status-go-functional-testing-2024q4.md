@@ -13,7 +13,8 @@ description: Collaborate with Status QA in creating a test framework that uses s
 
 ## Description
 Collaborate with Status QA in creating a test framework that uses status-backend
-to do functional testing for status go, by integrating existing Status CLI tests into it.
+to do functional testing for status go,
+by integrating existing Status CLI tests into it.
 
 The Status Go devs have created a [new tool](https://github.com/status-im/status-go/pull/5847)
 for functional testing of Status Go features.
@@ -21,7 +22,8 @@ Status QA and VAC QA will collaborate to build a testing framework around this t
 and add new test coverage through this framework.
 In the beginning, Status QA will move the statusd tests,
 while VAC QA will integrate the status-cli tests to set up the framework.
-After that, VAC QA will be responsible for the message tests, though this is still to be determined.
+After that, VAC QA will be responsible for the message tests,
+though this is still to be determined.
 The tests should validate Status features under normal and abnormal conditions and usage.
 We will track test coverage to measure progress.
 

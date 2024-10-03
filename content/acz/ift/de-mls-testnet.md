@@ -16,7 +16,8 @@ Implementation of a de-mls testnet, extending the previous poc and writing the c
 
 de-mls is a decentralized scalable E2EE secure group messaging with Ethereum authentication. 
 
-By utilizing the de-mls-poc commitment, 
+With the de-mls-poc commitment, 
+
 we will reinforce the Conduit of Expertise narrative by:
 * Develop the foundational framework for a decentralized, scalable messaging application 
 authenticated through Ethereum, designed to support a large user base within the IFT ecosystem.

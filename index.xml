@@ -6,29 +6,35 @@
       <description>Last 10 notes on Vac R&D Roadmaps and Reports</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>de-mls-poc</title>
-    <link>https://roadmap.vac.dev/acz/ift/de-mls-poc</link>
-    <guid>https://roadmap.vac.dev/acz/ift/de-mls-poc</guid>
-    <description></description>
-    <pubDate>Mon, 30 Sep 2024 16:33:59 GMT</pubDate>
+    <title>de-mls Testnet</title>
+    <link>https://roadmap.vac.dev/acz/ift/de-mls-testnet</link>
+    <guid>https://roadmap.vac.dev/acz/ift/de-mls-testnet</guid>
+    <description>Implementation of a de-mls testnet, extending the previous poc and writing the corresponding RFC.</description>
+    <pubDate>Thu, 03 Oct 2024 19:50:32 GMT</pubDate>
   </item><item>
     <title>LibP2P mix protocol</title>
     <link>https://roadmap.vac.dev/acz/ift/libp2p-mix-poc</link>
     <guid>https://roadmap.vac.dev/acz/ift/libp2p-mix-poc</guid>
-    <description>vac:acz:ift:libp2p-mix-poc Description § This Milestone entails designing an anonymization layer for gossipsub, and by extension, IFT projects. The primary objective of this anonymization layer is to serve as a cohesive anonymization solution for gossip-based projects, with a specific focus on integrating it with the Logos projects Waku and Codex.</description>
-    <pubDate>Mon, 30 Sep 2024 16:33:59 GMT</pubDate>
+    <description>Publishing a raw RFC specifying libp2p mixnet protocol and implementing a PoC.</description>
+    <pubDate>Thu, 03 Oct 2024 19:50:32 GMT</pubDate>
   </item><item>
-    <title>zerokit-v0-6</title>
+    <title>Zerokit v.0.6</title>
     <link>https://roadmap.vac.dev/acz/ift/zerokit-v0-6</link>
     <guid>https://roadmap.vac.dev/acz/ift/zerokit-v0-6</guid>
-    <description></description>
-    <pubDate>Mon, 30 Sep 2024 16:33:59 GMT</pubDate>
+    <description>Implementation of the next release of Zerokit.</description>
+    <pubDate>Thu, 03 Oct 2024 19:50:32 GMT</pubDate>
   </item><item>
     <title>Applied Cryptography and Zero-knowledge Service Unit</title>
     <link>https://roadmap.vac.dev/acz/</link>
     <guid>https://roadmap.vac.dev/acz/</guid>
-    <description>vac:acz: § ift: § zerokit-v0.6 de-mls-poc libp2p-mix-poc waku: § RLN relay support codex: § nomos: § nes § nimbus: §.</description>
-    <pubDate>Mon, 30 Sep 2024 16:33:59 GMT</pubDate>
+    <description>vac:acz: § ift: § zerokit-v0.6 de-mls-testnet libp2p-mix-poc waku: § RLN relay support codex: § nomos: § nes § nimbus: §.</description>
+    <pubDate>Thu, 03 Oct 2024 19:50:32 GMT</pubDate>
+  </item><item>
+    <title>Nomos Consulting</title>
+    <link>https://roadmap.vac.dev/acz/nomos/consulting-2024q4</link>
+    <guid>https://roadmap.vac.dev/acz/nomos/consulting-2024q4</guid>
+    <description>Creating the review report on polynomial commitments and cryptographic protocols that Nomos uses.</description>
+    <pubDate>Thu, 03 Oct 2024 19:50:32 GMT</pubDate>
   </item><item>
     <title>proxy-re-encryption</title>
     <link>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/codex/proxy-re-encryption</link>
@@ -58,12 +64,6 @@
     <link>https://roadmap.vac.dev/archive/2024h1/vac/acz/rlnp2p/status/rln-usage</link>
     <guid>https://roadmap.vac.dev/archive/2024h1/vac/acz/rlnp2p/status/rln-usage</guid>
     <description>vac:acz:rlnp2p:status:rln-usage § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status RLN Usage: , 2024-05-13, 2024-06-13 status: 0% CC: Aaryamann Description § To describe an end-to-end user flow for a new user of the status app on how they can acquire an RLN membership.</description>
-    <pubDate>Mon, 30 Sep 2024 16:33:59 GMT</pubDate>
-  </item><item>
-    <title>Light RLN Verifiers</title>
-    <link>https://roadmap.vac.dev/archive/2024h1/vac/acz/rlnp2p/vac/light-rln-verifiers</link>
-    <guid>https://roadmap.vac.dev/archive/2024h1/vac/acz/rlnp2p/vac/light-rln-verifiers</guid>
-    <description>vac:acz:rlnp2p:vac:light-rln-verifiers § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Light RLN Verifiers: done, 2024-03-01, 2024-05-01 status: 100% CC: Aaryamann Description § Make use of cryptography techniques to improve trust assumptions and reduce off-chain complexity while verifying RLN proofs.</description>
     <pubDate>Mon, 30 Sep 2024 16:33:59 GMT</pubDate>
   </item>
     </channel>

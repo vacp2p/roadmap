@@ -5,11 +5,13 @@ tags:
   - "acz"
   - "ift"
 draft: false
-description: "Implementing testnet of the-mls by extending the previous poc and developing corresponding RFC"
+description: "Implementation of a de-mls testned, extending the previous poc and writing the corresponding RFC"
+
 ---
 
 `vac:acz:ift:de-mls-poc-2024q4`
 
+Implementation of a de-mls testned, extending the previous poc and writing the corresponding RFC
 ## Description
 
 de-mls is a decentralized scalable E2EE secure group messaging with Ethereum authentication. 

@@ -5,7 +5,7 @@ tags:
   - "acz"
   - "ift"
 draft: false
-description: "Creating an RFC then implementing a poc of custom mixnet protocol within the libp2p framework designed to enable anonymous communication in p2p networks"
+description: "Publishing a raw RFC specifying libp2p mixnet protocol and implementing a PoC"
 ---
 
 `vac:acz:ift:libp2p-mix-poc-2024q4`

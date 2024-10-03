@@ -20,7 +20,6 @@ tags:
 ### `codex:`
 
 ### `nomos:`
-* [ ] [[acz/nomos/consulting-2024q4|consulting-2024q4]]
 
 ### `nes`
 

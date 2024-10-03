@@ -32,7 +32,8 @@ ensuring PR-level validation.
 * The VAC QA team plays a key role in supporting internal collaboration
   and efficiency across projects by ensuring the quality of Waku’s interop framework.
 * By finding issues in specs during testing,
-  VAC strengthens the RFC culture, contributing to continuous improvement and community engagement.
+  VAC strengthens the RFC culture,
+  contributing to continuous improvement and community engagement.
 * By working with developers to address known issues and enhancing CI performance,
   VAC directly contributes to IFT's strategic objective of scaling capacity and efficiency
   through community-driven efforts.

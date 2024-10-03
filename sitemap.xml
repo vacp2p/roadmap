@@ -842,11 +842,26 @@
     <loc>https://roadmap.vac.dev/p2p/</loc>
     <lastmod>2024-09-30T16:33:59.572Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/qa/codex/integration-testing-2024q4</loc>
+    <lastmod>2024-10-03T19:41:16.843Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/qa/ift/projects-qa-strategy-2024q4</loc>
+    <lastmod>2024-10-03T19:41:16.843Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/qa/</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
+    <lastmod>2024-10-03T19:41:16.843Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/qa/nomos/da-testing-2024q4</loc>
+    <lastmod>2024-10-03T19:41:16.843Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/qa/vac/nim-libp2p-testing-2024q4</loc>
+    <lastmod>2024-10-03T19:41:16.843Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/waku/interop-testing-2024q4</loc>
-    <lastmod>2024-10-01T08:03:36.813Z</lastmod>
+    <lastmod>2024-10-03T19:41:16.843Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/qa/waku/status-go-functional-testing-2024q4</loc>
+    <lastmod>2024-10-03T19:41:16.843Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/</loc>
     <lastmod>2024-09-30T16:33:59.572Z</lastmod>

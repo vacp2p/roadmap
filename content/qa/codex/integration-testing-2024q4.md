@@ -39,8 +39,8 @@ and improving the project's reliability.
 * end-date: 2024/10/21
 
 #### Description
-Add more coverage for the Marketplace endpoints to ensure all key functionalities
-are thoroughly tested.
+Add more coverage for the Marketplace endpoints
+to ensure all key functionalities are thoroughly tested.
 
 #### Deliverables
 * PR link with added tests

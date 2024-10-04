@@ -869,74 +869,20 @@
     <loc>https://roadmap.vac.dev/rfc/</loc>
     <lastmod>2024-09-30T16:33:59.572Z</lastmod>
   </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/codex/contracts-formal-verification</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/codex/review-codex-contracts</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/finance/access-control-safe-support</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/status/community-contracts-ERC20</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/status/community-contracts-ERC721</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/status/community-contracts-batch-tx-ext</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/status/community-contracts-curation-dapp-contracts</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/status/community-contracts-deployer</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/status/community-contracts-maintenance</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/status/community-contracts-token-import</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/status/community-contracts-vault-token-airdrop</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/status/ens-usernames-maintenance</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/status/governance-contract-mvp</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/status/minime-token-enhancement</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/status/minime-token-maintenance</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/status/snt-optimism-bridge</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/status/staking-contract-maintenance</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/status/staking-contract-mvp</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/status/staking-contract-v1</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/status/swap-aggregator</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/vac/rln-contract-support</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/sc/g/vac/secureum-upskilling</loc>
-    <lastmod>2024-09-30T16:33:59.572Z</lastmod>
+    <loc>https://roadmap.vac.dev/sc/codex/formal-verification_2024q4</loc>
+    <lastmod>2024-10-04T15:55:41.891Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/</loc>
-    <lastmod>2023-09-21T00:00:00.000Z</lastmod>
+    <lastmod>2024-10-04T15:55:41.891Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/sc/status/staking-protocol-v1_2024q4</loc>
+    <lastmod>2024-10-04T15:55:41.891Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/sc/status/xp-nft-v1_2024q4</loc>
+    <lastmod>2024-10-04T15:55:41.891Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/sc/status/xp-token-v1_2024q4</loc>
+    <lastmod>2024-10-04T15:55:41.891Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/tags/component</loc>
     <lastmod>2024-09-30T16:33:59.572Z</lastmod>

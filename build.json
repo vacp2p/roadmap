@@ -1,15 +1,15 @@
 {
-    "timestamp": "2024-10-03T19:50:46Z",
+    "timestamp": "2024-10-04T15:55:56Z",
     "git": {
-        "commit": "f194994ee8969b4deff23d99c2b2637e4d2606b7",
+        "commit": "590275935ae189a3a6c8476f9220a853c13aa534",
         "branch": "origin/master",
         "url": "git@github.com:vacp2p/roadmap.git"
     },
     "build": {
-        "id": "17",
-        "number": "17",
+        "id": "18",
+        "number": "18",
         "name": "website/roadmap.vac.dev",
         "slave": "linux-02",
-        "url": "https://ci.infra.status.im/job/website/job/roadmap.vac.dev/17/"
+        "url": "https://ci.infra.status.im/job/website/job/roadmap.vac.dev/18/"
     }
 }

@@ -10,45 +10,64 @@ description: Initiating the process of documentation to raw RFC process for Nomo
 
 `ift:rfc:nomos:data-availability-raw-rfc-2024q4`
 
-Initiating the process of documentation to raw RFC process for Nomos Data Availability (DA).
+Initiating the process of documentation for the raw RFC process for Nomos Data 
+Availability (DA).
+
 ## Description
 
-This commitment revolves around supporting the delivery of a raw RFC for Nomos Data Availability through discussion, support and inquiring about the updates. The team plans to start establishing the RFC culture within the Nomos  ecosystem, in order to have standardized specifications within all IFT ecosystems.
+This commitment supports delivering a raw RFC for Nomos Data Availability (DA) 
+through discussions, support, and inquiries. 
+The goal is to establish RFC culture within the Nomos ecosystem,
+contributing to standardized specifications across the IFT ecosystem.
 
-This RFC will be focusing on Data Availability within Nomos, as it is currently undergoing initial implementation. During the commitment, depending on how the implementation and ongoing communication goes, it might be decided to split this RFC into several new ones or open different ones. 
+The RFC will focus on DA in Nomos as its initial implementation is ongoing. 
+Depending on the progress and communications, the RFC might be split into new 
+RFCs or different ones might be opened.
 
 **Alignment with VAC Narratives:**
 
-* The VAC RFC team plans to become a repository for RFCs regarding all the IFT projects.
-* By providing information and benefits of the RFC Culture, our goal is projects being incentivized to apply their RFCs to the team of rfc-editors, in the future.
-* One of our ideals is to have the broader web3 community utilize our RFCs to potentially implement within their projects and ecosystems (similar to how [IETF](https://www.ietf.org/) works). 
+- The VAC RFC team plans to be a repository for RFCs across all IFT projects.
+- By promoting the RFC culture, we aim to incentivize projects to apply their 
+  RFCs to the team of rfc-editors.
+- We aim for the broader web3 community to use our RFCs within their projects 
+  and ecosystems, similar to [IETF](https://www.ietf.org/).
 
 ## Task List
 
 ### DA Documentation Research
 
- fully qualified name: `ift:rfc:nomos:data-availability-raw-rfc-2024q4:da-documentation-research`
-* owner: cofson
-* status: not started
-* start-date: 2024/10/20
-* end-date: 2024/11/03
+- Fully qualified name: 
+  `ift:rfc:nomos:data-availability-raw-rfc-2024q4:da-documentation-research`
+- Owner: cofson
+- Status: not started
+- Start date: 2024/10/20
+- End date: 2024/11/03
 
 #### Description
-Reading through the initial DA documentation in order to grasp what the raw RFC should look like. Initialize communication with the Nomos team to have full understanding of the subject.
 
-#### Deliverables 
-* Plan for a raw RFC
+Research the initial DA documentation to understand what the raw RFC should 
+look like. Start communication with the Nomos team to fully understand the 
+subject.
+
+#### Deliverables
+
+- Plan for a raw RFC
+- Feedback from the Nomos team
 
 ### DA Raw RFC
 
- fully qualified name: `ift:rfc:nomos:data-availability-raw-rfc-2024q4:da-raw-rfc`
-* owner: cofson
-* status: not started
-* start-date: 2024/11/11
-* end-date: 2024/12/31
+- Fully qualified name: `ift:rfc:nomos:data-availability-raw-rfc-2024q4:da-raw-rfc`
+- Owner: cofson
+- Status: not started
+- Start date: 2024/11/11
+- End date: 2024/12/31
 
 #### Description
-Based on the documentation, discussion with the project team and the codebase, creating the initial raw RFC.
 
-#### Deliverables 
-* Raw RFC
+Based on the documentation, discussions with the project team, and the 
+codebase, create the initial raw RFC.
+
+#### Deliverables
+
+- Raw RFC
+- Feedback from the Nomos team

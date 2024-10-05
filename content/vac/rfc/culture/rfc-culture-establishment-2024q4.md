@@ -16,8 +16,9 @@ initially informing and discussing with teams within the IFT ecosystem.
 
 ## Description
 
-This commitment involves creating a plan using Notion documentation and 
-implementing RFC culture through communication with teams in the IFT ecosystem. 
+This commitment involves creating a plan using Notion documentation 
+and the initiation of implementing RFC culture 
+through communication with teams in the IFT ecosystem. 
 The effort will align with critical project milestones, ensuring that no 
 information is published prematurely. The focus will be on creating a task list 
 for communication and a go-to resource (in Notion) for information about RFC 

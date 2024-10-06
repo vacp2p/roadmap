@@ -5,9 +5,12 @@ tags:
   - "sc"
   - "status"
 draft: false
+description: Delivery of a first version of the SNT staking protocol for testnet deployment.
 ---
 
-`vac:sc:status:staking-protocol-v1_2024q4`
+`vac:sc:status:staking-protocol-v1`
+
+Delivery of a first version of the SNT staking protocol for testnet deployment.
 
 ## Description
 
@@ -35,8 +38,8 @@ so we can leverage this work to finalize a first version of the protocol.
 
 ### Merging existing solutions
 
-* fully qualified name: `vac:sc:status:staking-protocol-v1_2024q4:merging-existing-solutions`
-* owner: 
+* fully qualified name: `vac:sc:status:staking-protocol-v1:merging-existing-solutions`
+* owner: ricardo
 * status: not started
 * start-date: 2024/10/07
 * end-date: 2024/10/18
@@ -54,7 +57,7 @@ Namely the composition of `StakeVault` and `StakeManager` and its whitelisting c
 
 This bigger task is putting together a codebase that makes use of the `StakeVault` <-> `StakeManager` architecture, while also implementing the multiplier point system from the `staking-reward-streamer` solution.
 
-See [this GitHub issue]() for more details.
+See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues/13) for more details.
 
 #### Deliverables
 
@@ -62,7 +65,7 @@ See [this GitHub issue]() for more details.
 
 ### Upgradeability
 
-* fully qualified name: `vac:sc:status:staking-protocol-v1_2024q4:upgradeability`
+* fully qualified name: `vac:sc:status:staking-protocol-v1:upgradeability`
 * owner: 
 * status: not started
 * start-date: 2024/10/14
@@ -72,7 +75,7 @@ See [this GitHub issue]() for more details.
 
 Make the system upgradable, ideally using battle tested and standardized upgrade patterns.
 
-See [this GitHub issue]() for more details.
+See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues/20) for more details.
 
 #### Deliverables
 
@@ -81,7 +84,7 @@ See [this GitHub issue]() for more details.
 
 ### Testing
 
-* fully qualified name: `vac:sc:status:staking-protocol-v1_2024q4:testing`
+* fully qualified name: `vac:sc:status:staking-protocol-v1:testing`
 * owner: 
 * status: not started
 * start-date: 2024/10/07
@@ -92,7 +95,7 @@ See [this GitHub issue]() for more details.
 Create comprehensive test suite that ensure correctness and security of the staking protocol.
 Many of those exist already, so we don't have to start from scratch here.
 
-See [this GitHub issue]() for more details.
+See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues/17) for more details.
 
 #### Deliverables
 
@@ -100,7 +103,7 @@ See [this GitHub issue]() for more details.
 
 ### Formal verification
 
-* fully qualified name: `vac:sc:status:staking-protocol-v1_2024q4:formal-verification`
+* fully qualified name: `vac:sc:status:staking-protocol-v1:formal-verification`
 * owner: r4bbit
 * status: not started
 * start-date: 2024/10/07
@@ -109,7 +112,7 @@ See [this GitHub issue]() for more details.
 #### Description
 
 Formally verify the staking protocol and ensure its correctness and security.
-See [this GitHub issue]() for more details.
+See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues/19) for more details.
 
 
 #### Deliverables
@@ -119,7 +122,7 @@ See [this GitHub issue]() for more details.
 
 ### Documentation
 
-* fully qualified name: `vac:sc:status:staking-protocol-v1_2024q4:documentation`
+* fully qualified name: `vac:sc:status:staking-protocol-v1:documentation`
 * owner:
 * status: not started
 * start-date: 2024/12/02
@@ -132,7 +135,7 @@ This includes a high level overview of the components and how they are connected
 an explanation of the underlying algorithm and its fundamental math,
 and various user stories as examples to illustrate how the protocol behaves.
 
-See [this GitHub issue]() for more details.
+See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues/21) for more details.
 
 
 #### Deliverables

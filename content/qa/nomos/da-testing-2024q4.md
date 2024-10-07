@@ -37,7 +37,7 @@ the test cases will need to be regularly updated to reflect those changes.
 
 * fully qualified name: `vac:qa:nomos:da-testing-2024q4:basic-functionality-tests`
 * owner: romanzac
-* status: not started
+* status: started
 * start-date: 2024/10/07
 * end-date: 2024/10/21
 

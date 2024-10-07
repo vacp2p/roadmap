@@ -32,11 +32,11 @@ Improve tooling around nim libp2p testing.
 
 ## Task List
 
-### Gossipsub
+### Gossipsub Part 1
 
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:gossipsub`
-* owner: fbarbu15
-* status: not started
+* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:gossipsub-part-1`
+* owner: aya
+* status: started
 * start-date: 2024/10/07
 * end-date: 2024/10/28
 
@@ -44,53 +44,9 @@ Improve tooling around nim libp2p testing.
 Expand the gossipsub test coverage by following the test plan,
 checking what’s not covered, and implementing new tests for those scenarios.
 Make sure the testing is thorough, as this is one of the core components.
+In Q4 2024 we aim to merge all existing PRs 
+and we will resume work on this in Q1 2025.
 
 #### Deliverables
 * PRs with links to added tests
-
-### Pubsub
-
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:pubsub`
-* owner: fbarbu15
-* status: not started
-* start-date: 2024/10/28
-* end-date: 2024/11/18
-
-#### Description
-Expand the pubsub test coverage by following the test plan,
-checking what’s not covered, and implementing new tests for those scenarios.
-
-#### Deliverables
-* PRs with links to added tests
-
-### Floodsub
-
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:floodsub`
-* owner: fbarbu15
-* status: not started
-* start-date: 2024/11/18
-* end-date: 2024/12/02
-
-#### Description
-Expand the floodsub test coverage by following the test plan,
-checking what’s not covered, and implementing new tests for those scenarios.
-
-#### Deliverables
-* PRs with links to added tests
-
-### Test Plans
-
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:test-plans`
-* owner: fbarbu15
-* status: not started
-* start-date: 2024/12/02
-* end-date: 2024/12/24
-
-#### Description
-Add new test plans for identify / push identify, ping, mplex multiplexer,
-and others to be determined later.
-
-#### Deliverables
-* Link with the Notion pages
-
 

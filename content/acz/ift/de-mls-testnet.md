@@ -34,18 +34,56 @@ gain support from the Ethereum ecosystem.
 
 ## Task List
 
-### <task 1>
+### Login Specs
 
-* fully qualified name: <>
-* owner: 
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* fully qualified name: `vac:acz:ift:de-mls-testnet:login-specs`
+* owner: Ramses
+* status: not started
+* start-date: 2024/10/07
+* end-date: 2024/10/21
 
 #### Description
 
-Either an expressive description or a link to a github issue with an expressive description.
+Specification of scalable, implementable, and decentralized authentication mechanism as login phase for the RFC. 
 
 #### Deliverables
 
-List (can consist of a single Deliverable) of planned Deliverables and links to completed Deliverables.
+A specification document for scalable, implementable, and decentralized authentication mechanism as login phase for the RFC. 
+
+### Testnet API
+
+* fully qualified name: `vac:acz:ift:de-mls-testnet:testnet-api`
+* owner: Ekaterina
+* status: not started
+* start-date: 2024/12/02
+* end-date: 2024/12/16
+
+#### Description
+
+Expand the [PoC](https://github.com/vacp2p/de-mls) by replacing Redis to Waku node for 1-1 and group chat and 
+testing some cases such as queue commit and concurrent application message. 
+Lastly, adding the login phase to testnet application. 
+
+#### Deliverables
+
+Several PRs to the repository that will be created with related API implementation for de-mls tesnet as follows: 
+* Replacing Redis to Waku nodes 
+* Test modules including queue commit and concurrent messages 
+* Adding login phase as the researchers determined
+
+### EF Grant Application
+
+* fully qualified name: `vac:acz:ift:de-mls-testnet:ef-application`
+* owner: Ugur
+* status: not started
+* start-date: 2024/10/14
+* end-date: 2024/10/28
+
+#### Description
+
+Creating the grant application file including the answers of EF questions and having meetings in 
+office hours for possible questions.  
+
+#### Deliverables
+
+An submitting EF grants by the application document and keeping an eye the process.

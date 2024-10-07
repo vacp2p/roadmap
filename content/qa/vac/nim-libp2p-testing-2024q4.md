@@ -35,7 +35,7 @@ Improve tooling around nim libp2p testing.
 ### Gossipsub Part 1
 
 * fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:gossipsub-part-1`
-* owner: aya
+* owner: alex
 * status: started
 * start-date: 2024/10/07
 * end-date: 2024/10/28

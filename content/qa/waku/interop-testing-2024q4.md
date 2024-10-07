@@ -43,8 +43,8 @@ ensuring PR-level validation.
 ### Edge Cases
 
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:edge-cases`
-* owner: fbarbu15
-* status: not started
+* owner: aya
+* status: started
 * start-date: 2024/10/07
 * end-date: 2024/10/21
 

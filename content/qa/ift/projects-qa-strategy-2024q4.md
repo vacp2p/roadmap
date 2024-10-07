@@ -33,7 +33,7 @@ any identified gaps, and recommendations for improvement.
 
 * fully qualified name: `vac:qa:ift:projects-qa-strategy-2024q4:waku`
 * owner: fbarbu15
-* status: not started
+* status: started
 * start-date: 2024/10/07
 * end-date: 2024/10/21
 

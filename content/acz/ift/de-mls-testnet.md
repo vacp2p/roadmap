@@ -67,7 +67,8 @@ Lastly, adding the login phase to testnet application.
 #### Deliverables
 
 Several PRs to the repository that will be created with related API implementation for de-mls tesnet as follows: 
-* Replacing Redis to Waku nodes 
+* Replacing Redis with Waku nodes 
+
 * Test modules including queue commit and concurrent messages 
 * Adding login phase as the researchers determined
 

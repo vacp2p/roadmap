@@ -32,9 +32,9 @@ Improve tooling around nim libp2p testing.
 
 ## Task List
 
-### Gossipsub Part 1
+### Gossipsub Core
 
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:gossipsub-part-1`
+* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:gossipsub-core`
 * owner: alex
 * status: started
 * start-date: 2024/10/07
@@ -44,8 +44,8 @@ Improve tooling around nim libp2p testing.
 Expand the gossipsub test coverage by following the test plan,
 checking what’s not covered, and implementing new tests for those scenarios.
 Make sure the testing is thorough, as this is one of the core components.
-In Q4 2024 we aim to merge all existing PRs 
-and we will resume work on this in Q1 2025.
+In 2024q4, we aim to cover the core functionality of Gossipsub,
+and we will postpone further coverage until 2025q1.
 
 #### Deliverables
 * PRs with links to added tests

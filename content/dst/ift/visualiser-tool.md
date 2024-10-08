@@ -59,7 +59,7 @@ of distributed systems, initially Waku.
 It is intended to be "interesting and deep, not pretty or wide".
 
 #### Deliverables
-- [ ] https://github.com/vacp2p/dst-live-visualiser
+- [ ] https://github.com/vacp2p/10ksim
 
 ### live-visualiser
 * fully qualified name: `vac:dst:ift:visualiser-tool:live-visualiser`

@@ -10,7 +10,7 @@ description: Extend nim-libp2p testing coverage, documentation and tooling.
 
 ---
 
-`vac:qa:vac:nim-libp2p-testing-2024q4`
+`vac:qa:vac:nim-libp2p-testing-2025q1`
 
 ## Description
 Extend nim-libp2p testing coverage, documentation, and tooling.
@@ -32,29 +32,33 @@ Improve tooling around nim libp2p testing.
 
 ## Task List
 
-### Gossipsub Part 2
+### Gossipsub Extended
 
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:gossipsub-part-2`
+* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2025q1:gossipsub-extended`
 * owner: fbarbu15
 * status: not started
-* start-date: 2025/01/06
-* end-date: 2025/01/20
+* start-date: 
+* end-date: 
 
 #### Description
-Expand the gossipsub test coverage by following the test plan,
-checking what’s not covered, and implementing new tests for those scenarios.
-Make sure the testing is thorough, as this is one of the core components.
+In 2025 Q1, expand Gossipsub test coverage to include more advanced
+and edge-case scenarios that go beyond core functionality.
+This will cover additional use cases and less common interactions within the protocol,
+ensuring the robustness of Gossipsub in a wider range of environments.
+The extended tests will address any remaining gaps not covered in Q4 
+and aim to improve overall test completeness.
+
 
 #### Deliverables
 * PRs with links to added tests
 
 ### Pubsub
 
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:pubsub`
+* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2025q1:pubsub`
 * owner: fbarbu15
 * status: not started
-* start-date: 2024/10/28
-* end-date: 2024/11/18
+* start-date: 
+* end-date: 
 
 #### Description
 Expand the pubsub test coverage by following the test plan,
@@ -65,11 +69,11 @@ checking what’s not covered, and implementing new tests for those scenarios.
 
 ### Floodsub
 
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:floodsub`
+* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2025q1:floodsub`
 * owner: fbarbu15
 * status: not started
-* start-date: 2024/11/18
-* end-date: 2024/12/02
+* start-date: 
+* end-date: 
 
 #### Description
 Expand the floodsub test coverage by following the test plan,
@@ -80,11 +84,11 @@ checking what’s not covered, and implementing new tests for those scenarios.
 
 ### Test Plans
 
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:test-plans`
+* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2025q1:test-plans`
 * owner: fbarbu15
 * status: not started
-* start-date: 2024/12/02
-* end-date: 2024/12/24
+* start-date: 
+* end-date: 
 
 #### Description
 Add new test plans for identify / push identify, ping, mplex multiplexer,

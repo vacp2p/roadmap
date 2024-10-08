@@ -5,7 +5,7 @@ title: Vac Roadmap
 ## Vac R&D Service Units
 
 - `p2p:` [[p2p|Peer-to-peer]]
-- `tke:` [[tke|Token Engineering]]
+- `tke:` [[tke|Token Economics]]
 - `dst:` [[dst|Distributed Systems Testing]]
 - `qa:` [[qa|Quality Assurance]]
 - `acz:` [[acz|Applied Cryptography and Zero-knowledge]]

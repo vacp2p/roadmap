@@ -5,7 +5,7 @@ tags:
   - rfc
   - codex
 draft: false
-description: Provide the service of writing raw RFCs based on the documentation for Codex Marketplace and Codex Client through discussion and support.
+description: Write raw RFCs based on the documentation for Codex Marketplace and Codex Client through discussion and support.
 ---
 
 `ift:rfc:codex:marketplace-and-client-2024q4`

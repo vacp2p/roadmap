@@ -84,7 +84,7 @@ We will also provide support for the Premier Research destination narrative by:
 * owner: Wings
 * status: 80%
 * start-date: 2024/12/01
-* end-date: 2024/12/07
+* end-date: 2024/12/10
 
 #### Description
 
@@ -107,7 +107,7 @@ of the VacLab and its availability.
 * fully qualified name: `vac:dst:ift:vaclab:better-time-slicing`
 * owner: Wings
 * status: 0%
-* start-date: 2024/06/01
+* start-date: 2024/10/01
 * end-date: 2024/12/31
 
 #### Description

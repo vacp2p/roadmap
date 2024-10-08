@@ -80,8 +80,8 @@ These efforts will contribute in these ways to the Conduit of Expertise narrativ
 
 * fully qualified name: `vac:dst:waku:waku-scaling:high-scalability-waku-demonstration`
 * owner: Wings
-* status: 95%
-* start-date: 2024/03/01
+* status: 75%
+* start-date: 2024/10/01
 * end-date: 2024/11/01
 
 #### Description
@@ -123,7 +123,7 @@ that Waku can in fact scale to these sizes and perform reliably.
 * owner: Alberto
 * status: 0%
 * start-date: 2024/10/07
-* end-date: 2024/10/11
+* end-date: 2024/10/18
 
 #### Description
 Test the Store protocol at scale.
@@ -139,7 +139,7 @@ Test the Store protocol at scale.
 * fully qualified name: `vac:dst:waku:waku-scaling:high-churn-relay-store-reliability`
 * owner: Alberto
 * status: 0%
-* start-date: 2024/09/01
+* start-date: 2024/10/01
 * end-date: 2024/12/31
 
 #### Description
@@ -156,7 +156,7 @@ If nodes go online/offline, we should be able to retrieve missing messages from 
 * fully qualified name: `vac:dst:waku:waku-scaling:relay-discv5-resources-in-heterogenous-clusters`
 * owner: Wings
 * status: 0%
-* start-date: 2024/09/01
+* start-date: 2024/10/01
 * end-date: 2024/12/31
 
 #### Description
@@ -176,7 +176,7 @@ such as nwaku and go-waku.
 * fully qualified name: `vac:dst:waku:waku-scaling:waku-shard-reliability-vs-scale`
 * owner: Alberto
 * status: 0%
-* start-date: 2024/09/01
+* start-date: 2024/10/01
 * end-date: 2024/12/31
 
 #### Description
@@ -220,7 +220,7 @@ Test the Filter and lightpush protocols at scale.
 * fully qualified name: `vac:dst:waku:waku-scaling:measure-discv5-bandwidth-with-waku-discovery`
 * owner: Alberto
 * status: 0%
-* start-date: 2024/09/01
+* start-date: 2024/10/01
 * end-date: 2024/12/31
 
 #### Description
@@ -236,7 +236,7 @@ Measure the bandwidth usage of the Waku discovery protocol using the DiscV5 prot
 * fully qualified name: `vac:dst:waku:waku-scaling:partial-pex-experimental-analysis`
 * owner: Alberto
 * status: 0%
-* start-date: 2024/09/01
+* start-date: 2024/10/01
 * end-date: 2024/12/31
 
 #### Description
@@ -260,7 +260,7 @@ Measure overall bandwidth usage and record conclusions as to the impact of PeX.
 * fully qualified name: `vac:dst:waku:waku-scaling:mixed-environment-analysis`
 * owner: Alberto
 * status: 0%
-* start-date: 2024/09/01
+* start-date: 2024/10/01
 * end-date: 2024/12/31
 
 #### Description

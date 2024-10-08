@@ -46,7 +46,7 @@ that don't provide a visual way of analysing large scale behaviours.
 * fully qualified name: `vac:dst:ift:visualiser-tool:debug-visualiser`
 * owner: Alberto
 * status: 60%
-* start-date: 2024/06/01
+* start-date: 2024/10/01
 * end-date: 2024/12/31
 
 #### Description
@@ -59,13 +59,13 @@ of distributed systems, initially Waku.
 It is intended to be "interesting and deep, not pretty or wide".
 
 #### Deliverables
-- [ ] https://github.com/vacp2p/dst-live-visualiser
+- [ ] https://github.com/vacp2p/10ksim
 
 ### live-visualiser
 * fully qualified name: `vac:dst:ift:visualiser-tool:live-visualiser`
 * owner: Wings
 * status: 99%
-* start-date: 2024/06/01
+* start-date: 2024/10/01
 * end-date: 2024/12/31
 
 #### Description

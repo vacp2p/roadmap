@@ -49,7 +49,7 @@ Specifically, we will:
 * owner: Wings
 * status: 50%
 * start-date: 2024/10/01
-* end-date: 2024/10/11
+* end-date: 2024/10/18
 
 #### Description
 
@@ -81,7 +81,7 @@ This will build on prior work by DST that benefits from this work as well (ArgoC
 * owner: Wings
 * status: 0%
 * start-date: 2024/10/10
-* end-date: 2024/10/14
+* end-date: 2024/10/18
 
 Pick a BitTorrent client that is Dockerizable and scriptable. Current main candidate is Deluge, maybe qBittorrent.
 
@@ -105,7 +105,7 @@ Implement those controls and start using them to build towards the wider Commitm
 * owner: Wings
 * status: 0%
 * start-date: 2024/10/15
-* end-date: 2024/10/17
+* end-date: 2024/10/25
 
 Make a BitTorrent tracker work within Kubernetes and able to be controlled by API calls.
 

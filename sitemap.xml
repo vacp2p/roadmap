@@ -1,18 +1,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://roadmap.vac.dev/acz/ift/acz-research-destination-2024q4</loc>
+    <lastmod>2024-10-08T09:50:21.780Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/acz/ift/de-mls-testnet</loc>
-    <lastmod>2024-10-03T19:50:32.501Z</lastmod>
+    <lastmod>2024-10-08T09:50:21.780Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/acz/ift/libp2p-mix-poc</loc>
     <lastmod>2024-10-03T19:50:32.501Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/acz/ift/think-tank</loc>
+    <lastmod>2024-10-08T09:50:21.780Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/acz/ift/zerokit-v0-6</loc>
-    <lastmod>2024-10-03T19:50:32.501Z</lastmod>
+    <lastmod>2024-10-08T09:50:21.780Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/acz/</loc>
-    <lastmod>2024-10-03T19:50:32.501Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/acz/nomos/consulting-2024q4</loc>
-    <lastmod>2024-10-03T19:50:32.501Z</lastmod>
+    <lastmod>2024-10-08T09:50:21.780Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/codex/proxy-re-encryption</loc>
     <lastmod>2024-09-30T16:33:59.524Z</lastmod>

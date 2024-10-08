@@ -43,7 +43,7 @@ either in draft or raw states:
   `ift:rfc:waku:updates-of-certain-mature-and-poc-waku-rfcs-2024q4:10/WAKU2`
 - Owner: jimstir
 - Status: not started
-- Start date: 2024/04/15
+- Start date: 2024/10/01
 - End date: 2024/12/31
 
 #### Description
@@ -60,7 +60,7 @@ Waku v2 is a family of modular peer-to-peer protocols for secure communication.
   `ift:rfc:waku:updates-of-certain-mature-and-poc-waku-rfcs-2024q4:12/WAKU2-FILTER`
 - Owner: jimstir
 - Status: not started
-- Start date: 2024/04/15
+- Start date: 2024/10/01
 - End date: 2024/12/31
 
 #### Description
@@ -78,7 +78,7 @@ receives.
   `ift:rfc:waku:updates-of-certain-mature-and-poc-waku-rfcs-2024q4:13/WAKU2-STORE`
 - Owner: jimstir
 - Status: not started
-- Start date: 2024/04/15
+- Start date: 2024/10/01
 - End date: 2024/12/31
 
 #### Description
@@ -96,7 +96,7 @@ querying messages received through the relay protocol and stored by other nodes.
   `ift:rfc:waku:updates-of-certain-mature-and-poc-waku-rfcs-2024q4:14/WAKU2-MESSAGE`
 - Owner: jimstir
 - Status: not started
-- Start date: 2024/04/15
+- Start date: 2024/10/01
 - End date: 2024/12/31
 
 #### Description
@@ -114,7 +114,7 @@ specific security goals and provide Whisper/Waku v1 backward compatibility.
   `ift:rfc:waku:updates-of-certain-mature-and-poc-waku-rfcs-2024q4:17/WAKU2-RLN-RELAY`
 - Owner: jimstir
 - Status: not started
-- Start date: 2024/04/15
+- Start date: 2024/10/01
 - End date: 2024/12/31
 
 #### Description
@@ -132,7 +132,7 @@ Nullifiers (RLN).
   `ift:rfc:waku:updates-of-certain-mature-and-poc-waku-rfcs-2024q4:19/WAKU2-LIGHTPUSH`
 - Owner: jimstir
 - Status: not started
-- Start date: 2024/04/15
+- Start date: 2024/10/01
 - End date: 2024/12/31
 
 #### Description
@@ -150,7 +150,7 @@ publish messages in the Waku network and receive confirmation of delivery.
   `ift:rfc:waku:updates-of-certain-mature-and-poc-waku-rfcs-2024q4:34/WAKU2-PEER-EXCHANGE`
 - Owner: jimstir
 - Status: not started
-- Start date: 2024/04/15
+- Start date: 2024/10/01
 - End date: 2024/12/31
 
 #### Description
@@ -167,7 +167,7 @@ A peer discovery protocol for resource-restricted devices.
   `ift:rfc:waku:updates-of-certain-mature-and-poc-waku-rfcs-2024q4:15/WAKU-BRIDGE`
 - Owner: jimstir
 - Status: not started
-- Start date: 2024/04/15
+- Start date: 2024/10/01
 - End date: 2024/12/31
 
 #### Description

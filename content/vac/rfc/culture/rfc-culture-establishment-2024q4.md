@@ -6,13 +6,14 @@ tags:
   - ift
   - vac
 draft: false
-description: Creating a plan in Notion, compiling information about the RFC process, initial informing of the teams and the discussions with the teams in the IFT ecosystem.
+description: Creating a plan in Notion, compiling information about the RFC process, publishing a forum post, initially informing and discussing with teams within the IFT ecosystem.
 ---
 
-`ift:rfc:vac:culture-establishment-2024q4`
+`ift:rfc:vac:rfc-culture-establishment-2024q4`
 
-Creating a plan in Notion, compiling information about the RFC process, and 
-initially informing and discussing with teams within the IFT ecosystem.
+Creating a plan in Notion, compiling information about the RFC process,
+publishing a forum post, initially informing and discussing with teams
+within the IFT ecosystem.
 
 ## Description
 
@@ -69,3 +70,19 @@ channels to decide the best path forward.
 
 - Discord channel
 - Action plan as a Notion page
+
+### Forum Post
+
+- Fully qualified name: `ift:rfc:vac:culture-establishment-2024q4:forum-post`
+- Owner: cofson
+- Status: not started
+- Start date: 2024/11/11
+- End date: 2024/12/31
+
+#### Description
+
+Publish a forum post based on the Notion document and communication to the VAC forum.
+
+#### Deliverables
+
+- Forum post

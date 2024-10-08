@@ -80,7 +80,7 @@ These efforts will contribute in these ways to the Conduit of Expertise narrativ
 
 * fully qualified name: `vac:dst:waku:waku-scaling:high-scalability-waku-demonstration`
 * owner: Wings
-* status: 95%
+* status: 75%
 * start-date: 2024/03/01
 * end-date: 2024/11/01
 
@@ -123,7 +123,7 @@ that Waku can in fact scale to these sizes and perform reliably.
 * owner: Alberto
 * status: 0%
 * start-date: 2024/10/07
-* end-date: 2024/10/11
+* end-date: 2024/10/18
 
 #### Description
 Test the Store protocol at scale.
@@ -279,3 +279,26 @@ This should include connection and node churn impact on reliability for both rel
 - [ ] Analysis and actionable insights or conclusions.
 
 <!-- Most recently blocked by metrics scaling issues, nearly through them -->
+
+### Regression testing (recurring)
+
+* fully qualified name: <vac:dst:vac:libp2p-evaluation:regression-testing>
+* owner: Alberto
+* status: N/A
+* start-date: N/A
+* end-date: N/A
+
+#### Description
+Run different scenarios
+and collect evidence and data
+of libp2p's behaviour.
+
+Test for known regressions
+that have occurred in the past
+and ensure they don't happen again.
+
+#### Deliverables
+* Analysis done
+* Report published with all relevant details
+* RFC's GitHub issue updated
+  with links to the analysis and results.

@@ -35,7 +35,7 @@ Collaboration within our family of projects not only yield efficiencies, but als
 VAC contributes to both these goals as an internal conduit of expertise, as well as an RFC culture carrier. 
 
 Viable strategies for a conduit of expertise and culture carrier seem to include: VAC to maintain a repository on internal knowledge creation (via ie the IFT research calls),
-RFC culture (to lay the foundation for external contributions), and to identify and facilitate IFT project synergies (collaboration between project must be seen as a way to become more efficient). 
+RFC culture (to lay the foundation for external contributions), and to identify and facilitate IFT project synergies (collaboration between projects must be seen as a way to become more efficient). 
 
 ### 2 Premier Research destination [externally]
 

@@ -34,7 +34,8 @@ we aim to achieve:
 
 **Alignment with VAC Narratives:**
 
-- Through the service of writing raw RFCs with having the original documentation and codebase as the source, the VAC RFC team aims to be a repository for RFCs across all IFT projects.
+- Through the service of writing raw RFCs with having the original documentation and codebase as the source,
+the VAC RFC team aims to be a repository for RFCs across all IFT projects.
 - We aim to encourage projects to submit RFCs to the team of rfc-editors.
 - The long-term goal is to have the broader web3 community use our RFCs within 
   their projects, similar to how [IETF](https://www.ietf.org/) operates.

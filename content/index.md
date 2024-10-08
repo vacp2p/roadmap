@@ -19,7 +19,7 @@ title: Vac Roadmap
 
 ## Progress Updates
 - [weekly updates](tags/vac-updates)
-- [mothly reports](tags/vac-monthly)
+- [monthly reports](tags/vac-monthly)
 - [quaterly retrospects](tags/vac-retrospect)
 
 ## Vac Narratives
@@ -58,9 +58,9 @@ The following descibes a fully qualified task tag
 
 `vac:<unit>:<for_project>:<cname_reporting period>:<tname>`
 - `vac` indicates it is a vac commitment
-- `unit` indicates the vac unit `p2p`, `dst`, `tke`, `acz`, `sc`, `zkvm`, `dr`, `rfc`
+- `unit` indicates the vac unit `p2p`, `dst`, `qa` ,`tke`, `acz`, `sc`, `nes`, `rfc`
 - `for_project` indicates which Logos project the commitment is mainly for `nomos`, `waku`, `codex`, `nimbus`, `status`; or `ift` (meaning it is not project specific)
-- `cname` the name of the commitment the task is part of; extending the the name with a reporting period (e.g. `_2024q4`) indicates follow ups to previous commitments
+- `cname` the name of the commitment the task is part of; extending the name with a reporting period (e.g. `_2024q4`) indicates follow ups to previous commitments
 - `tname` the name of the task
 
 ## Archive

@@ -32,65 +32,21 @@ Improve tooling around nim libp2p testing.
 
 ## Task List
 
-### Gossipsub
+### Gossipsub Core
 
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:gossipsub`
-* owner: fbarbu15
-* status: not started
+* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:gossipsub-core`
+* owner: alex
+* status: started
 * start-date: 2024/10/07
 * end-date: 2024/10/28
 
 #### Description
-Expand the gossipsub test coverage by following the test plan,
-checking what’s not covered, and implementing new tests for those scenarios.
-Make sure the testing is thorough, as this is one of the core components.
+Expand the Gossipsub test coverage by focusing on the core functionality in 2024 Q4.
+This includes validating the essential components and ensuring they work as expected.
+The focus will be on high-priority scenarios that are critical to the operation of Gossipsub,
+ensuring stability and reliability.
+Thorough testing is key, as Gossipsub is one of the core components.
 
 #### Deliverables
 * PRs with links to added tests
-
-### Pubsub
-
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:pubsub`
-* owner: fbarbu15
-* status: not started
-* start-date: 2024/10/28
-* end-date: 2024/11/18
-
-#### Description
-Expand the pubsub test coverage by following the test plan,
-checking what’s not covered, and implementing new tests for those scenarios.
-
-#### Deliverables
-* PRs with links to added tests
-
-### Floodsub
-
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:floodsub`
-* owner: fbarbu15
-* status: not started
-* start-date: 2024/11/18
-* end-date: 2024/12/02
-
-#### Description
-Expand the floodsub test coverage by following the test plan,
-checking what’s not covered, and implementing new tests for those scenarios.
-
-#### Deliverables
-* PRs with links to added tests
-
-### Test Plans
-
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:test-plans`
-* owner: fbarbu15
-* status: not started
-* start-date: 2024/12/02
-* end-date: 2024/12/24
-
-#### Description
-Add new test plans for identify / push identify, ping, mplex multiplexer,
-and others to be determined later.
-
-#### Deliverables
-* Link with the Notion pages
-
 

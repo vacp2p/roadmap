@@ -38,8 +38,8 @@ We will track test coverage to measure progress.
 ### Migrate to Status Backend
 
 * fully qualified name: `vac:qa:waku:status-go-functional-testing-2024q4:migrate-to-status-backend`
-* owner: fbarbu15
-* status: not started
+* owner: shashankshampi
+* status: started
 * start-date: 2024/10/07
 * end-date: 2024/10/21
 

@@ -14,7 +14,9 @@ Bi-weekly learn up sessions about Ethereum Improvement Proposals (EIPs) and alik
 
 ## Description
 
-The smart contract service unit is running a bi-weekly learn up session about Ethereum Improvement Proposals (EIPs) and similar topics related to smart contract development and security. The goal is to learn more about the Ethereum ecosystem and to discuss the presented topics with the team and anyone else who wants to join.
+The smart contract service unit is running a bi-weekly learn up session about Ethereum Improvement Proposals (EIPs)
+ and similar topics related to smart contract development and security.
+ The goal is to learn more about the Ethereum ecosystem and to discuss the presented topics with the team and anyone else who wants to join.
 
 
 ## Task List

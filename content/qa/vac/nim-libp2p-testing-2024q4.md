@@ -41,11 +41,11 @@ Improve tooling around nim libp2p testing.
 * end-date: 2024/10/28
 
 #### Description
-Expand the gossipsub test coverage by following the test plan,
-checking what’s not covered, and implementing new tests for those scenarios.
-Make sure the testing is thorough, as this is one of the core components.
-In 2024q4, we aim to cover the core functionality of Gossipsub,
-and we will postpone further coverage until 2025q1.
+Expand the Gossipsub test coverage by focusing on the core functionality in 2024 Q4.
+This includes validating the essential components and ensuring they work as expected.
+The focus will be on high-priority scenarios that are critical to the operation of Gossipsub,
+ensuring stability and reliability.
+Thorough testing is key, as Gossipsub is one of the core components.
 
 #### Deliverables
 * PRs with links to added tests

@@ -8,10 +8,14 @@ tags:
 ## `vac:sc:`
 ---
 
+### `ift`:`
+- [ ] [[sc/ift/eip-discussions_2024q4]]
+
+
 ### `status:`
-- [ ] [[sc/status/staking-protocol-v1_2024q4]]
-- [ ] [[sc/status/xp-token-v1_2024q4]]
-- [ ] [[sc/status/xp-nft-v1_2024q4]]
+- [ ] [[sc/status/staking-protocol-v1]]
+- [ ] [[sc/status/xp-token-v1]]
+- [ ] [[sc/status/xp-nft-v1]]
 
 ### `codex:`
 

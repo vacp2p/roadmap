@@ -5,9 +5,12 @@ tags:
   - "sc"
   - "status"
 draft: false
+description: Development of a first version of the XP NFT contract for Status.
 ---
 
-`vac:sc:status:xp-nft-v1_2024q4`
+`vac:sc:status:xp-nft-v1`
+
+Development of a first version of the XP NFT contract for Status.
 
 ## Description
 
@@ -33,7 +36,7 @@ Here are the main features and requirements of the first version of this token:
 
 ### Token implementation
 
-* fully qualified name: `vac:sc:status:xp-nft-v1_2024q4:token-implementation`
+* fully qualified name: `vac:sc:status:xp-nft-v1:token-implementation`
 * owner: 
 * status: not started
 * start-date: 2024/10/18
@@ -45,7 +48,7 @@ Implement the XP token contract according to the requirements outlined above.
 For this version,
 the contract will exclusively rely on the staking protocol's multiplier points estimation to determine the amount of XP tokens a user has access to.
 
-See [this GitHub issue]() for more details.
+See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues/37) for more details.
 
 #### Deliverables
 
@@ -54,7 +57,7 @@ See [this GitHub issue]() for more details.
 
 ### Upgradeability
 
-* fully qualified name: `vac:sc:status:xp-nft-v1_2024q4:upgradeability`
+* fully qualified name: `vac:sc:status:xp-nft-v1:upgradeability`
 * owner: 
 * status: not started
 * start-date: 
@@ -64,7 +67,7 @@ See [this GitHub issue]() for more details.
 
 Make use of battle tested upgradeability patterns to ensure the XP NFT contract can be upgraded in the future.
 
-See [this GitHub issue]() for more details.
+See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues/38) for more details.
 
 #### Deliverables
 

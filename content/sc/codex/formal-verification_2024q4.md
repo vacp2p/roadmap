@@ -5,9 +5,12 @@ tags:
   - "sc"
   - "codex"
 draft: false
+description: Implementation of the first agreed upon formal verification rules for the Codex marketplace contracts.
 ---
 
 `vac:sc:codex:formal-verification_2024q4`
+
+Implementation of the first agreed upon formal verification rules for the Codex marketplace contracts.
 
 ## Description
 

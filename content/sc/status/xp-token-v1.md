@@ -5,9 +5,12 @@ tags:
   - "sc"
   - "status"
 draft: false
+description: Development of a first version of the XP token contract for Status.
 ---
 
-`vac:sc:status:xp-token-v1_2024q4`
+`vac:sc:status:xp-token-v1`
+
+Development of a first version of the XP token contract for Status.
 
 ## Description
 
@@ -31,7 +34,7 @@ Here are the main features and requirements of the first version of this token:
 
 ### Token implementation
 
-* fully qualified name: `vac:sc:status:xp-token-v1_2024q4:token-implementation`
+* fully qualified name: `vac:sc:status:xp-token-v1:token-implementation`
 * owner: 
 * status: not started
 * start-date: 2024/10/18
@@ -42,7 +45,7 @@ Here are the main features and requirements of the first version of this token:
 Implement the XP token contract according to the requirements outlined above.
 For this version, the contract will exclusively rely on the staking protocol's multiplier points estimation to determine the amount of XP tokens a user has access to.
 
-See [this GitHub issue]() for more details.
+See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues/34) for more details.
 
 #### Deliverables
 
@@ -51,7 +54,7 @@ See [this GitHub issue]() for more details.
 
 ### Formal verification
 
-* fully qualified name: `vac:sc:status:xp-token-v1_2024q4:formal-verification`
+* fully qualified name: `vac:sc:status:xp-token-v1:formal-verification`
 * owner: 
 * status: not started
 * start-date: 2024/10/21
@@ -60,7 +63,7 @@ See [this GitHub issue]() for more details.
 #### Description
 
 Formally verify the functionality, correctness and security of the XP token contract.
-See [this GitHub issue]() for more details.
+See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues/35) for more details.
 
 #### Deliverables
 
@@ -68,7 +71,7 @@ See [this GitHub issue]() for more details.
 
 ### Documentation
 
-* fully qualified name: `vac:sc:status:xp-token-v1_2024q4:documentation`
+* fully qualified name: `vac:sc:status:xp-token-v1:documentation`
 * owner:
 * status: not started
 * start-date: 2024/11/18
@@ -78,7 +81,7 @@ See [this GitHub issue]() for more details.
 
 Document the token contract and its functionality.
 
-See [this GitHub issue]() for more details.
+See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues/36) for more details.
 
 
 #### Deliverables

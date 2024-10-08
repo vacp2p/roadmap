@@ -32,21 +32,63 @@ for users looking to integrate RLN into their projects.
 
 ## Task List
 
-### <task 1>
+### Circom Witness rs
 
-* fully qualified name: <>
-* owner: 
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* fully qualified name: `vac:acz:ift:zerokit-v0-6:circom-witness-rs`
+* owner: Ekaterina
+* status: not started 
+* start-date: 2024/10/21
+* end-date: 2024/11/04
 
 #### Description
 
-Either an expressive description or a link to a github issue with an expressive description.
+Replace the zkey with https://github.com/philsippl/circom-witness-rs for faster witness generation. Benchmark and compare performance with the existing setup. 
+Example: https://github.com/philsippl/semaphore-witness-example
+rln-v2 circuits: https://github.com/Rate-Limiting-Nullifier/circom-rln
 
 #### Deliverables
 
-List (can consist of a single Deliverable) of planned Deliverables and links to completed Deliverables.
+PR to vacp2p/zerokit repo with related update for v0.6
+
+### RLN Timestamp & wasm 
+
+* fully qualified name: `vac:acz:ift:zerokit-v0-6:rln-timestamp-and-wasm`
+* owner: Ekaterina
+* status: not started 
+* start-date: 2024/11/04
+* end-date: 2024/11/18
+
+#### Description
+
+Including the timestamp in the RLN signal. 
+Problem statement from Waku: [chore(rln): move from epoch based gap to timestamp based. waku-org/nwaku#2972](https://github.com/waku-org/nwaku/issues/2972) and 
+audit the current implementation to find performance pitfalls. 
+Bump dependencies of wasmer and benchmark against current implementation.
+Results of the rln-wasm audit
+
+#### Deliverables
+
+PR to vacp2p/zerokit repo with related update for v0.6
+
+### Poseidon Hash
+
+* fully qualified name: `vac:acz:ift:zerokit-v0-6:poseidon-hash`
+* owner: Ekaterina
+* status: not started 
+* start-date: 2024/11/18
+* end-date: 2024/12/02
+
+#### Description
+
+[Generate Poseidon round parameters and constants #50](https://github.com/vacp2p/zerokit/issues/50)
+Only round parameters (easy) and 
+secure MDS matrices verification algorithms (hard) missing.
+Ensure that known answer tests match with the result of another implementation.
+Lastly solving the issue: [Docs fail to build on docs.rs](https://github.com/vacp2p/zerokit/issues/256) 
+
+#### Deliverables
+
+PR to vacp2p/zerokit repo with related update for v0.6
 
 
 

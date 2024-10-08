@@ -5,9 +5,9 @@ tags:
   - "dst"
   - "ift"
 draft: true
-description: "Preparing and publishing forum
-posts and public reports to share the
-results and insights gained from the DST team,
+description: "Preparing and publishing forum posts
+and public reports to share the results and insights
+gained from the DST team,
 aimed at informing the public and engaging the community."
 ---
 

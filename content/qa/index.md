@@ -12,7 +12,7 @@ tags:
 * [[qa/ift/projects-qa-strategy-2024q4|projects-qa-strategy-2024q4 ]]
 
 ### `vac:`
-* [[qa/ift/nim-libp2p-testing-2024q4|nim-libp2p-testing-2024q4 ]]
+* [[qa/vac/nim-libp2p-testing-2024q4|nim-libp2p-testing-2024q4 ]]
 
 ### `waku:`
 * [[qa/waku/interop-testing-2024q4|interop-testing-2024q4 ]]

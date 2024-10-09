@@ -42,7 +42,7 @@ to the teams we work with to allow them to make better decisions.
 
 ### ArgoCD Or Similar
 
-* fully qualified name: `vac:dst:ift:argocd-or-similar`
+* fully qualified name: `vac:dst:ift:deployer-tool:argocd-or-similar`
 * owner: Wings
 * status: 80%
 * start-date: 2024/10/04
@@ -62,7 +62,7 @@ with a Helm chart or plain manifests in it.
 
 ### Working Matrices
 
-* fully qualified name: <vac:dst:ift:working-matrices>
+* fully qualified name: <vac:dst:ift:deployer-tool:working-matrices>
 * owner: Wings
 * status: 0%
 * start-date: 2024/10/04

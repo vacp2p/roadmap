@@ -96,7 +96,7 @@ It consists of 50x nodes with 10xTB of data each for now.
 * owner: Wings
 * status: 0%
 * start-date: 2024/10/18
-* end-date: 2024/10/21
+* end-date: 2024/10/25
 
 #### Description
 

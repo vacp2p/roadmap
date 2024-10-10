@@ -46,7 +46,7 @@ that don't provide a visual way of analysing large scale behaviours.
 * fully qualified name: `vac:dst:ift:visualiser-tool:debug-visualiser`
 * owner: Alberto
 * status: 0%
-* start-date: 2024/06/01
+* start-date: 2024/10/01
 * end-date: 2024/12/31
 
 #### Description
@@ -68,12 +68,14 @@ essentially just making it production ready.
 We're so close to shipping this fully
 we decided we'll take it out of this process
 and just post about it at the right time.
+#### Deliverables
+- [ ] https://github.com/vacp2p/10ksim
 
 ### live-visualiser
 * fully qualified name: `vac:dst:ift:visualiser-tool:live-visualiser`
 * owner: Wings
 * status: 99%
-* start-date: 2024/06/01
+* start-date: 2024/10/01
 * end-date: 2024/12/31
 
 #### Description
@@ -91,4 +93,3 @@ especially for those previously not familiar with peer to peer technologies or n
 #### Deliverables
 
 - [ ] https://github.com/vacp2p/dst-live-visualiser
--->

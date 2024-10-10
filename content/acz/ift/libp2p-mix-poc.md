@@ -1,25 +1,23 @@
 ---
 title: LibP2P mix protocol
 tags:
-  - "2024Q4"
+  - "2024q4"
   - "acz"
   - "ift"
 draft: false
-description:
+description: "Publishing a raw RFC specifying libp2p mixnet protocol and implementing a PoC"
+
 ---
 
 `vac:acz:ift:libp2p-mix-poc`
 
+Publishing a raw RFC specifying libp2p mixnet protocol and implementing a PoC
 ## Description
 
-This Milestone entails designing an anonymization layer for gossipsub, and by extension, IFT projects.
+This commitment entails designing an anonymization layer for gossipsub, and by extension, IFT projects.
 The primary objective of this anonymization layer is to serve as a cohesive anonymization solution for gossip-based projects,
 with a specific focus on integrating it with the Logos projects Waku and Codex.
 
-Currently, we're uncertain whether the complete anonymization layer can be situated between gossipsub and the protocols of IFT projects.
-It appears more plausible that we'll establish a foundational element atop gossipsub,
-with project-specific components integrated into the projects themselves,
-or introduce an intermediary layer between the general gossip anonymization protocol and the project protocols.
 
 The Nomos team is crafting their own anonymization solution due to their unique requirements and their ability to leverage specific traffic patterns to enhance efficiency.
 Nonetheless, the overarching objective for our anonymization network is to render our solution modular, enabling the inclusion of traffic pattern plugins that Nomos can define.
@@ -33,38 +31,132 @@ Currently we view this anonymization solution as a P2P base layer, which the Vac
 This effort could potentially spawn an incubation project.
 This effort would act as a basis for the Validator Privacy Network incubation project.
 
-* report comparing various approaches to realizing a gossipsub anonymization layer for IFT projects
-    - this might entail identifying the need for in-project components (see description)
-    - has to provide arguments why the proposed approach is expected to provide sufficient anonymity guarantees
-* document describing benefits for each of Waku, Status, Codex, and Nimbus
-* Paper on arxiv.com
-    - including security/privacy analysis
-    - should offer improvements over Tor push.
-    - spam protection (integrate RLN)
-    - the proposed solution MUST be practically applicable, efficient, and relevant (product-market fit)
-* draft specification of the base functionality (a usable subset of the functionality)
-* PoC implementation of the base functionality
 
-- [x] https://github.com/vacp2p/rfc-index/pull/97/
+By utilizing the de-mls-poc commitment, 
+we will reinforce the Conduit of Expertise narrative by:
+* Create a document describing the benefits of mixnet protocol for each of Waku, Status, Codex, and Nimbus
+* Implement a PoC shows the base functionality
+
+We will also strengthen the Premier Research Destination narrative by:
+* Create a proposal for the Ethereum Foundation (EF) to apply for EF grants to promote the mixnet PoC and 
+gain support from the Ethereum ecosystem.
+* Publish a paper on arxiv.com that includes security/privacy analysis with applicability and revelance(product-market fit), 
+offering improvements over Tor push. 
 
 ## Task List
 
-### <task 1>
+### Libp2p Integration
 
-* fully qualified name: `vac:acz:ift:libp2p-mix-poc:<task1>`
-* owner:
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* fully qualified name: `vac:acz:ift:libp2p-mix-poc:libp2p-integration`
+* owner: Akshaya
+* status: not started
+* start-date: 2024/10/07
+* end-date: 2024/10/21
 
 #### Description
 
-Either an expressive description or a link to a github issue with an expressive description.
-
+Implement protocol handler logic for sender nodes including packet creation and wrapping. 
 
 #### Deliverables
 
-List (can consist of a single Deliverable) of planned Deliverables and links to completed Deliverables.
+* PR to vacp2p/mix repos with related implementation
+
+### Simulate Anonymized Ping
+
+* fully qualified name: `vac:acz:ift:libp2p-mix-poc:sim-anon-ping`
+* owner: Akshaya
+* status: not started
+* start-date: 2024/10/21
+* end-date: 2024/11/04
+
+#### Description
+
+Develop a network simulation framework and simulate the anonymized ping protocol with
+node configurations as the first PoC. 
+
+#### Deliverables
+
+* PR to vacp2p/mix repos with related implementation as follows
+	* Procedures for node setup and teardown
+	* Basic routing and message passing
+	* Define node roles (mix, sender, receiver)
+	* Integrate libp2p ping on designated nodes
+	* Enable sender nodes to route Ping through local mix
+	* Forward messages through the mix network
+	* Final delivery at the exit node.
+
+### Comparison and Benefits 
+
+* fully qualified name: `vac:acz:ift:libp2p-mix-poc:comp-and-benefits`
+* owner: Akshaya
+* status: not started
+* start-date: 2024/11/04
+* end-date: 2024/11/18
+
+#### Description
+
+Comparison mixnets between Nomos and our mixnet. 
+
+#### Deliverables
+
+* Report the result of comparison similarities and differences in terms of 
+privacy and effiency
+* Report the possible benefits of the mixent for Waku and Codex 
+
+### Gossibsub over Waku 
+
+* fully qualified name: `vac:acz:ift:libp2p-mix-poc:gossipsub-over-waku`
+* owner: Akshaya
+* status: not started
+* start-date: 2024/11/18
+* end-date: 2024/12/2
+
+#### Description
+
+Implementation the second PoC which is a basic gossibsub protocol with our mixnet over Waku nodes. 
+
+#### Deliverables
+
+* PR to vacp2p/mix repos with related implementation as follows
+	* TBD
+
+### Testing and Documentation 
+
+* fully qualified name: `vac:acz:ift:libp2p-mix-poc:test-and-doc`
+* owner: Akshaya
+* status: not started
+* start-date: 2024/12/2
+* end-date: 2024/12/9
+
+#### Description
+
+Implement logging for debugging and demonstration and test module including 
+functional tests for mix handlers, integration tests for libp2p protocol adapter, and
+End-to-end test of the mix network.
+
+#### Deliverables
+
+* PR to vacp2p/mix repos with test module
+* PR to vacp2p/mix repos with documentation.md 
+
+### Publishing a Paper 
+
+* fully qualified name: `vac:acz:ift:libp2p-mix-poc:publish-a-paper`
+* owner: Akshaya
+* status: not started
+* start-date: 2024/12/9
+* end-date: 2024/12/16
+
+#### Description
+
+Publish a paper on arxiv.com that includes security/privacy analysis with applicability and revelance(product-market fit), 
+offering improvements over Tor push. 
+
+#### Deliverables
+
+* A paper on arxiv.com
+
+
 
 
 

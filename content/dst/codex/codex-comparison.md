@@ -49,7 +49,7 @@ Specifically, we will:
 * owner: Wings
 * status: 50%
 * start-date: 2024/10/01
-* end-date: 2024/10/11
+* end-date: 2024/10/18
 
 #### Description
 
@@ -114,7 +114,7 @@ We will help them with it.
 * owner: Codex
 * status: 0%
 * start-date: 2024/10/15
-* end-date: 2024/10/17
+* end-date: 2024/10/25
 
 Make a BitTorrent tracker work within Kubernetes and able to be controlled by API calls.
 

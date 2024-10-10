@@ -54,7 +54,7 @@ These efforts will contribute in these ways to the Conduit of Expertise narrativ
 * Accelerate improvements to Waku,
   improving the developer community's experience and satisfaction
   both inside and outside of IFT's ecosystem,
-  through allowing repeatable, measureable and insights into Waku,
+  through allowing repeatable, measureable and realistic insights into Waku,
   all the way from theory to practice and back.
 
 * Improve the RFC culture by allowing for faster and easier development of RFCs
@@ -77,7 +77,8 @@ These efforts will contribute in these ways to the Conduit of Expertise narrativ
 ## Task List
 
 <!--
-This will occur 2025Q1, this is kept for latert
+This will occur 2025Q1, this is kept for later
+
 ### High Scalability Waku Demonstration
 
 * fully qualified name: `vac:dst:waku:waku-scaling:high-scalability-waku-demonstration`
@@ -85,9 +86,6 @@ This will occur 2025Q1, this is kept for latert
 * status: 95%
 * start-date: TBD
 * end-date: TBD
-
-#### Description
-Demonstrate a working, realistic, large scale Waku network.
 
 Measure its performance
 and attempt to support the assertion
@@ -118,7 +116,6 @@ that Waku can in fact scale to these sizes and perform reliably.
 - [ ] A useful set of measurements taken with the monitoring system and tooling we have available.
 
 - [ ] The monitoring system stays stable the entire time, providing useful information and metrics.
-
 -->
 
 ### Test Store Protocol At Scale
@@ -127,7 +124,7 @@ that Waku can in fact scale to these sizes and perform reliably.
 * owner: Alberto
 * status: 0%
 * start-date: 2024/10/07
-* end-date: 2024/10/11
+* end-date: 2024/10/18
 
 #### Description
 Test the Store protocol at scale.
@@ -143,7 +140,7 @@ Test the Store protocol at scale.
 * fully qualified name: `vac:dst:waku:waku-scaling:high-churn-relay-store-reliability`
 * owner: Alberto
 * status: 0%
-* start-date: 2024/09/01
+* start-date: 2024/10/01
 * end-date: 2024/12/31
 
 #### Description
@@ -160,7 +157,7 @@ If nodes go online/offline, we should be able to retrieve missing messages from 
 * fully qualified name: `vac:dst:waku:waku-scaling:relay-discv5-resources-in-heterogenous-clusters`
 * owner: Wings
 * status: 0%
-* start-date: 2024/09/01
+* start-date: 2024/10/01
 * end-date: 2024/12/31
 
 #### Description
@@ -180,7 +177,7 @@ such as nwaku and go-waku.
 * fully qualified name: `vac:dst:waku:waku-scaling:waku-shard-reliability-vs-scale`
 * owner: Alberto
 * status: 0%
-* start-date: 2024/09/01
+* start-date: 2024/10/01
 * end-date: 2024/12/31
 
 #### Description
@@ -224,7 +221,7 @@ Test the Filter and lightpush protocols at scale.
 * fully qualified name: `vac:dst:waku:waku-scaling:measure-discv5-bandwidth-with-waku-discovery`
 * owner: Alberto
 * status: 0%
-* start-date: 2024/09/01
+* start-date: 2024/10/01
 * end-date: 2024/12/31
 
 #### Description
@@ -240,7 +237,7 @@ Measure the bandwidth usage of the Waku discovery protocol using the DiscV5 prot
 * fully qualified name: `vac:dst:waku:waku-scaling:partial-pex-experimental-analysis`
 * owner: Alberto
 * status: 0%
-* start-date: 2024/09/01
+* start-date: 2024/10/01
 * end-date: 2024/12/31
 
 #### Description
@@ -264,7 +261,7 @@ Measure overall bandwidth usage and record conclusions as to the impact of PeX.
 * fully qualified name: `vac:dst:waku:waku-scaling:mixed-environment-analysis`
 * owner: Alberto
 * status: 0%
-* start-date: 2024/09/01
+* start-date: 2024/10/01
 * end-date: 2024/12/31
 
 #### Description
@@ -283,3 +280,4 @@ This should include connection and node churn impact on reliability for both rel
 - [ ] Analysis and actionable insights or conclusions.
 
 <!-- Most recently blocked by metrics scaling issues, nearly through them -->
+

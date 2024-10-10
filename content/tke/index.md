@@ -1,5 +1,5 @@
 ---
-title: Token Engineering Service Unit
+title: Token Economics Service Unit
 tags:
 - p2p
 - vac
@@ -8,18 +8,6 @@ tags:
 ## `vac:tke:`
 ---
 
+The Token Economics roadmap is maintained in notion.
 
-### `status:`
-* [[tke/status/snt-litepaper|snt-lightpaper]]
-
-### `codex:`
-* [[tke/codex/economic-analysis|economic-analysis]]
-
-### `nomos:`
-
-
-### `waku:`
-
-
-### `finance:`
 

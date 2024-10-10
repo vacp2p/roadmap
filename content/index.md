@@ -5,14 +5,13 @@ title: Vac Roadmap
 ## Vac R&D Service Units
 
 - `p2p:` [[p2p|Peer-to-peer]]
-- `tke:` [[tke|Token Engineering]]
+- `tke:` [[tke|Token Economics]]
 - `dst:` [[dst|Distributed Systems Testing]]
 - `qa:` [[qa|Quality Assurance]]
 - `acz:` [[acz|Applied Cryptography and Zero-knowledge]]
 - `sc:` [[sc|Smart Contracts]]
 - `nim:` [[nim|Nim]]
 - `rfc:` [[rfc|RFC (Specifications)]] 
-- `dr:` [[dr|Deep Research]]
 
 ## Incubator Projects
 
@@ -20,8 +19,8 @@ title: Vac Roadmap
 
 ## Progress Updates
 - [weekly updates](tags/vac-updates)
-- [mothly reports](tags/vac-monthly)
-- [quaterly retrospects](tags/vac-retrospect)
+- [monthly reports](tags/vac-monthly)
+- [quarterly retrospects](tags/vac-retrospect)
 
 ## Vac Narratives
 
@@ -36,7 +35,7 @@ Collaboration within our family of projects not only yield efficiencies, but als
 VAC contributes to both these goals as an internal conduit of expertise, as well as an RFC culture carrier. 
 
 Viable strategies for a conduit of expertise and culture carrier seem to include: VAC to maintain a repository on internal knowledge creation (via ie the IFT research calls),
-RFC culture (to lay the foundation for external contributions), and to identify and facilitate IFT project synergies (collaboration between project must be seen as a way to become more efficient). 
+RFC culture (to lay the foundation for external contributions), and to identify and facilitate IFT project synergies (collaboration between projects must be seen as a way to become more efficient). 
 
 ### 2 Premier Research destination [externally]
 
@@ -59,9 +58,9 @@ The following descibes a fully qualified task tag
 
 `vac:<unit>:<for_project>:<cname_reporting period>:<tname>`
 - `vac` indicates it is a vac commitment
-- `unit` indicates the vac unit `p2p`, `dst`, `tke`, `acz`, `sc`, `zkvm`, `dr`, `rfc`
+- `unit` indicates the vac unit `p2p`, `dst`, `qa` ,`tke`, `acz`, `sc`, `nes`, `rfc`
 - `for_project` indicates which Logos project the commitment is mainly for `nomos`, `waku`, `codex`, `nimbus`, `status`; or `ift` (meaning it is not project specific)
-- `cname` the name of the commitment the task is part of; extending the the name with a reporting period (e.g. `_2024q4`) indicates follow ups to previous commitments
+- `cname` the name of the commitment the task is part of; extending the name with a reporting period (e.g. `_2024q4`) indicates follow ups to previous commitments
 - `tname` the name of the task
 
 ## Archive

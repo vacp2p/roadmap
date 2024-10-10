@@ -10,8 +10,11 @@ tags:
 
 ### `ift:`
 * [ ] [[acz/ift/zerokit-v0-6|zerokit-v0.6]]
-* [ ] [[acz/ift/de-mls-poc|de-mls-poc]]
+* [ ] [[acz/ift/de-mls-testnet|de-mls-testnet]]
 * [ ] [[acz/ift/libp2p-mix-poc|libp2p-mix-poc]]
+* [ ] [[acz/ift/think-tank|think-tank]]
+* [ ] [[acz/ift/acz-research-destination-2024q4|acz-research-destination-2024q4]]
+
 
 ### `waku:`
 

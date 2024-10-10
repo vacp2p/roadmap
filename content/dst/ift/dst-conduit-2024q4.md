@@ -6,8 +6,7 @@ tags:
   - "ift"
 draft: false
 description: "Analysis of the scaling behavior of IFT projects
-and exploration of how they can gain advantages from large-scale deployments,
-facilitating cross-project collaboration."
+and exploration of how they can gain advantages from large-scale deployments."
 ---
 
 `vac:dst:ift:dst-conduit-2024q4`

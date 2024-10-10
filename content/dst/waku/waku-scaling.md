@@ -279,3 +279,26 @@ This should include connection and node churn impact on reliability for both rel
 - [ ] Analysis and actionable insights or conclusions.
 
 <!-- Most recently blocked by metrics scaling issues, nearly through them -->
+
+### Regression testing (recurring)
+
+* fully qualified name: <vac:dst:waku:waku-scaling:regression-testing>
+* owner: Alberto
+* status: N/A
+* start-date: N/A
+* end-date: N/A
+
+#### Description
+Run different scenarios
+and collect evidence and data
+of wakus's behaviour.
+
+Test for known regressions
+that have occurred in the past
+and ensure they don't happen again.
+
+#### Deliverables
+* Analysis done
+* Report published with all relevant details
+* RFC's GitHub issue updated
+  with links to the analysis and results.

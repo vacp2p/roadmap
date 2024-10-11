@@ -18,6 +18,9 @@ The smart contract service unit is running a bi-weekly learn up session about Et
  and similar topics related to smart contract development and security.
  The goal is to learn more about the Ethereum ecosystem and to discuss the presented topics with the team and anyone else who wants to join.
 
+By organizing these presentations and having discussions that are open to the entire IFT organization,
+the smart contracts team fosters a culture of knowledge sharing and continuous learning across teams,
+which should also improve collaborations with project teams.
 
 ## Task List
 

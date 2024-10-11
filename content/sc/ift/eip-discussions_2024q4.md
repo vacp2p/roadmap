@@ -20,7 +20,7 @@ The smart contract service unit is running a bi-weekly learn up session about Et
 
 By organizing these presentations and having discussions that are open to the entire IFT organization,
 the smart contracts team fosters a culture of knowledge sharing and continuous learning across teams,
-which should also improve collaborations with project teams.
+improving cross-project collaboration.
 
 ## Task List
 

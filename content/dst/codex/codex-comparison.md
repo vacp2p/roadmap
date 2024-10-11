@@ -9,18 +9,21 @@ description: "Measure Codex against BitTorrent and see how it compares."
 ---
 
 `vac:dst:codex:codex-comparison`
+
 Measure Codex against BitTorrent.
+
 ## Description
-We will compare Codex to other systems - for this initial phase, BitTorrent -
+We will assist Codex with creating a comparison against other systems -
+for this initial phase, BitTorrent -
 to see how it performs in comparison.
 
-We will compare on things such as:
+Together we will compare on things such as:
 * Time to first byte
 * Bandwidth usage
 * Stability
 * Reliability
 
-Most importantly we will do a head to head speed test
+We'll provide space and tools for Codex to build a speed test
 comparing download speeds of Codex against other systems.
 This will allow us to understand where Codex needs improvement
 and where it stands right now in terms of suitability for different use cases.
@@ -32,14 +35,16 @@ in comparison to common and popular systems in the "altruistic" space.
 
 Specifically, we will:
 
-* Accelerate Codex reaching competitiveness with BitTorrent or find out what is and isn't possible to do.
-* Answer the simple question: "Is Codex faster than BitTorrent?"
-  and in doing so, allow that to be a yes one day 😀
-* Test the reliability of Codex in automated and highly stressful benchmarks
-  that push its limits and reveal its shortcomings.
-* Improve the RFC culture by allowing us to reuse the work we do here
-  to build future scenarios that can test complicated situations
-  and requirements in a repeatable way.
+* Provide solutions for running the many complicated tests that Codex will need to perform.
+  * This will be in the form of automated deployment (ArgoCD)
+  * And matrices test deployment systems (via Matrices Deployments / Argo Workflow)
+  * And measurements (Prometheus, Grafana, VictoriaMetrics)
+  * Assistance with building a set of Helm charts that, together, form the test harness.
+  * Assistance with questions as to the best way to approach each subtask.
+* Allow Codex access to Kubernetes to run the tests.
+* Assist with, observe and help reason about the results of the testing.
+
+Finally, together we'll help in writing the final report at the end of the process.
 
 ## Task List
 

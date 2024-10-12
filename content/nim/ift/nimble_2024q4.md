@@ -15,7 +15,7 @@ description:
 
 ## Task List
 
-### <task 1>
+### <task Refactor Nimble>
 
 * fully qualified name: <>
 * owner: Juan
@@ -25,11 +25,56 @@ description:
 
 #### Description
 
-Either an expressive description or a link to a github issue with an expressive description.
+
+- Refactor the legacy solver and refactor the code so we can change the order of how things are done. Which will help us to improve code paths and add features like parsing first or download async, etc.
+  
+#### Deliverables
+
+- New `nimble` version that implements the new features.
+
+### <task Make local packages the new default>
+
+* fully qualified name: <>
+* owner: Juan
+* status: <not started or in progress (0%-99%) or done>
+* start-date: <yyyy/mm/dd>
+* end-date: <yyyy/mm/dd>
+
+#### Description
+- Make `local` packages the new default.
+- Cache/download `nim` binaries.
+- Other UX improvements.
 
 #### Deliverables
 
-List (can consist of a single Deliverable) of planned Deliverables and links to completed Deliverables.
+- New `nimble` version that implements the new features.
 
+### <task Parse deps without running nim>
 
+* fully qualified name: <>
+* owner: Juan
+* status: <not started or in progress (0%-99%) or done>
+* start-date: <yyyy/mm/dd>
+* end-date: <yyyy/mm/dd>
 
+#### Description
+
+- Parse deps without running `nim`.
+
+#### Deliverables
+
+- New `nimble` version that implements the new features.
+
+### <Task Fix bugs and issues>
+
+  * fully qualified name: <>
+* owner: Juan
+* status: <not started or in progress (0%-99%) or done>
+* start-date: <yyyy/mm/dd>
+* end-date: <yyyy/mm/dd>
+
+#### Description
+
+- Fix bugs and issues.
+
+#### Deliverables

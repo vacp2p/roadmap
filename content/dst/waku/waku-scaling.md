@@ -17,7 +17,7 @@ Confirm or reject our ideas."
 `vac:dst:waku:waku-scaling`
 
 ## Description
-Use realistic testing,
+Use realistic (running actual Waku nodes, no abstraction) testing,
 theoretical analysis and simulation
 to determine and improve Waku's scaling properties.
 Find the limits of Waku's capabilities

@@ -15,7 +15,8 @@ Preparation and conducting the ZK meetings
 ## Description
 
 This commitment involves the preparation and facilitation of two ZK meetings, 
-referred to as the Logos ZK calls. 
+referred to as the IFT ZK calls. 
+
 These meetings will be conducted with the participation 
 of all individuals involved with ZK within IFT. 
 

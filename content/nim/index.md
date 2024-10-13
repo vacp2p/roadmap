@@ -9,10 +9,7 @@ tags:
 ---
 
 ### `ift:`
-* [ ] [[nim/ift/nim-suggest_2024q4|nim-suggest_2024q4]]
+* [ ] [[nim/ift/nim-ide-tooling_2024q4|nim-ide-tooling_2024q4]]
 * [ ] [[nim/ift/nimble_2024q4|nimble_2024q4]]
 
-<!-- * [ ] [[nim/ift/compiler|compiler]] -->
-<!-- * [ ] [[nim/ift/editor|editor]] -->
-<!-- * [ ] [[nim/ift/lsp|lsp]] -->
 

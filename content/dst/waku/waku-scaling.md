@@ -5,7 +5,7 @@ tags:
   - "dst"
   - "waku"
 draft: false
-description: "Use real world testing,
+description: "Use testing,
 theoretical analysis and simulation
 to determine and improve Waku's scaling properties.
 Find the limits of Waku's capabilities
@@ -17,7 +17,7 @@ Confirm or reject our ideas."
 `vac:dst:waku:waku-scaling`
 
 ## Description
-Use real world testing,
+Use realistic (running actual Waku nodes, no abstraction) testing,
 theoretical analysis and simulation
 to determine and improve Waku's scaling properties.
 Find the limits of Waku's capabilities
@@ -39,7 +39,7 @@ provide a parallel to the Vac QA team's efforts -
 while their focus is on individual low level
 or individual parts of Waku
 and other software within the IFT ecosystem,
-ours will be on the real world behaviour of Waku as a whole system -
+ours will be on the realistic behaviour of Waku as a whole system -
 at different scales and with different configurations,
 mesh structure and shape -
 and how that maps to our theoretical work.
@@ -54,7 +54,7 @@ These efforts will contribute in these ways to the Conduit of Expertise narrativ
 * Accelerate improvements to Waku,
   improving the developer community's experience and satisfaction
   both inside and outside of IFT's ecosystem,
-  through allowing repeatable, measureable and real world insights into Waku,
+  through allowing repeatable, measureable and realistic insights into Waku,
   all the way from theory to practice and back.
 
 * Improve the RFC culture by allowing for faster and easier development of RFCs
@@ -76,16 +76,16 @@ These efforts will contribute in these ways to the Conduit of Expertise narrativ
 
 ## Task List
 
+<!--
+This will occur 2025Q1, this is kept for later
+
 ### High Scalability Waku Demonstration
 
 * fully qualified name: `vac:dst:waku:waku-scaling:high-scalability-waku-demonstration`
 * owner: Wings
-* status: 75%
-* start-date: 2024/10/01
-* end-date: 2024/11/01
-
-#### Description
-Demonstrate a working, real world, large scale Waku network.
+* status: 95%
+* start-date: TBD
+* end-date: TBD
 
 Measure its performance
 and attempt to support the assertion
@@ -116,6 +116,7 @@ that Waku can in fact scale to these sizes and perform reliably.
 - [ ] A useful set of measurements taken with the monitoring system and tooling we have available.
 
 - [ ] The monitoring system stays stable the entire time, providing useful information and metrics.
+-->
 
 ### Test Store Protocol At Scale
 
@@ -279,3 +280,4 @@ This should include connection and node churn impact on reliability for both rel
 - [ ] Analysis and actionable insights or conclusions.
 
 <!-- Most recently blocked by metrics scaling issues, nearly through them -->
+

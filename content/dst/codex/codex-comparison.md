@@ -5,22 +5,25 @@ tags:
   - "dst"
   - "codex"
 draft: false
-description: "Measure Codex against systems like IPFS, BitTorrent etc and see how it compares. Primarily BitTorrent."
+description: "Measure Codex against BitTorrent and see how it compares."
 ---
 
 `vac:dst:codex:codex-comparison`
-Measure Codex against systems like IPFS, BitTorrent etc and see how it compares. Primarily BitTorrent.
-## Description
-We will compare Codex to other systems like IPFS and BitTorrent 
-to see how it performs.
 
-We will compare on things such as:
+Measure Codex against BitTorrent.
+
+## Description
+We will assist Codex with creating a comparison against other systems -
+for this initial phase, BitTorrent -
+to see how it performs in comparison.
+
+Together we will compare on things such as:
 * Time to first byte
 * Bandwidth usage
 * Stability
 * Reliability
 
-Most importantly we will do a head to head speed test
+We'll provide space and tools for Codex to build a speed test
 comparing download speeds of Codex against other systems.
 This will allow us to understand where Codex needs improvement
 and where it stands right now in terms of suitability for different use cases.
@@ -32,14 +35,16 @@ in comparison to common and popular systems in the "altruistic" space.
 
 Specifically, we will:
 
-* Accelerate Codex reaching competitiveness with BitTorrent or find out what is and isn't possible to do.
-* Answer the simple question: "Is Codex faster than BitTorrent?"
-  and in doing so, allow that to be a yes one day 😀
-* Test the reliability of Codex in automated and highly stressful benchmarks
-  that push its limits and reveal its shortcomings.
-* Improve the RFC culture by allowing us to reuse the work we do here
-  to build future scenarios that can test complicated situations
-  and requirements in a repeatable way.
+* Provide solutions for running the many complicated tests that Codex will need to perform.
+  * This will be in the form of automated deployment (ArgoCD)
+  * And matrices test deployment systems (via Matrices Deployments / Argo Workflow)
+  * And measurements (Prometheus, Grafana, VictoriaMetrics)
+  * Assistance with building a set of Helm charts that, together, form the test harness.
+  * Assistance with questions as to the best way to approach each subtask.
+* Allow Codex access to Kubernetes to run the tests.
+* Assist with, observe and help reason about the results of the testing.
+
+Finally, together we'll help in writing the final report at the end of the process.
 
 ## Task List
 
@@ -75,64 +80,34 @@ in the course of a single test.
 
 This will build on prior work by DST that benefits from this work as well (ArgoCD work).
 
-### Control BitTorrent
+### How Fast Is Codex?
 
-* fully qualified name: <vac:dst:codex:codex-comparison:control-bittorrent>
+* fully qualified name: <vac:dst:codex:codex-scaling:how-fast-is-codex>
 * owner: Wings
 * status: 0%
-* start-date: 2024/10/10
-* end-date: 2024/10/18
-
-Pick a BitTorrent client that is Dockerizable and scriptable. Current main candidate is Deluge, maybe qBittorrent.
-
-Find a sane way to control and script BitTorrent behaviour 
-such as distributing a torrent file to the set of peers 
-that will be tested and automating stopping, starting, and otherwise manipulating torrents
-as a separate process from launching the initial client swarm. Flexibility and consistency is the goal.
-
-Implement those controls and start using them to build towards the wider Commitment.
-
-#### Deliverables
-
-* Selected BitTorrent client and explained reasons for choice.
-* Built a Dockerised image if there isn't one already.
-* Implemented this into a test scenario of some kind and proven that we can script a scenario.
-* A report on what we learned from the process.
-
-### k8sified Tracker
-
-* fully qualified name: <vac:dst:codex:codex-comparison:k8sified-tracker>
-* owner: Wings
-* status: 0%
-* start-date: 2024/10/15
+* start-date: 2024/10/18
 * end-date: 2024/10/25
 
-Make a BitTorrent tracker work within Kubernetes and able to be controlled by API calls.
+#### Description
 
-Most likely it will simply involve adding auth to an existing Deluge or similar API, and passing the request through the existing API.
+Related to Codex Comparison, 
+we simply want to find out fast Codex is, at various things 
+under different kinds of stress and load.
 
-#### Deliverables
+We will use the Base Capacity.
 
-* BitTorrent trackers compared, best one selected, reasons for best choice recorded.
-* Chosen tracker is dockerized.
-* Chosen tracker is scriptable.
-* Finished script and docker container can realistically be used in a test scenario.
+We will test and compare the following:
 
-### Build/Test Scenarios
+* Upload speed (1 client)
+* Download speed
+* Time to first byte
+* Time to 50%
+* Time to 90%
+* Time to 100
 
-* fully qualified name: <vac:dst:codex:codex-comparison:build-test-scenarios>
-* owner: Wings
-* status: 0%
-* start-date: <2024/10/15>
-* end-date: <2024/12/31>
+We would also like to collect all data from the items in this matrix:
 
-Use the work done in Matrices Deployments and Control BitTorrent to build and test a set of scenarios that can be used to test Codex.
-
-We will target these things to compare:
-
-**Modes**: BitTorrent, Codex Erasure-Coded, Codex Non-Erasure-Coded
-
-**Swarm Size**:
+**Benchmark conditions**:
   * total size: 2, 8, 16, 32
   * seeders: 1, 2, 4, 8, 16
   * file size: 
@@ -143,10 +118,50 @@ We will target these things to compare:
       5
      GB
 
-We will compare a matrix of file sizes, seeders, total size, and build a flexible test harness on top of Matrices Deployments and Control BitTorrent to run the tests.
+#### Deliverables
+
+- [ ] Reports from how each item in the matrix performed.
+- [ ] A general writeup
+
+
+### ArgoCD Or Similar
+
+* fully qualified name: `vac:dst:codex:codex-comparison:argocd-or-similar`
+* owner: Wings
+* status: 80%
+* start-date: 2024/10/04
+* end-date: 2024/12/31
+
+#### Description
+
+Get ArgoCD or a similar tool up and running.
+
+Use it to demonstrate deploying an nwaku simulation from a Git repo
+with a Helm chart or plain manifests in it. Use it to support Codex Comparison work.
 
 #### Deliverables
 
-* A completely automated end to end test scenario that can be used to test Codex against BitTorrent.
-* A report on the results of the tests and the conclusions we can draw from them.
-* Hard numbers on what Codex is capable of and how these swarm sizes and other parameters affect performance, latency and other metrics.
+* The demonstrated ability to run an nwaku simulation.
+* Deployed Codex comparison test harness.
+
+
+### Working Matrices
+
+* fully qualified name: <vac:dst:codex:codex-comparison:working-matrices>
+* owner: Wings
+* status: 0%
+* start-date: 2024/10/04
+* end-date: 2024/12/31
+
+#### Description
+
+Ensure that deployment matrices work once `ArgoCD Or Similar` is completed.
+
+Test some basic deployments and record findings.
+
+#### Deliverables
+
+* A report on the findings of the tests and the current state of the deployment matrices.
+* A deployment matrix tool or set of instructions/documentation.
+* Deployments tested and working with a 3x3 matrix of different configurations.
+* Used by us or Codex to test Codex and answer questions about it.

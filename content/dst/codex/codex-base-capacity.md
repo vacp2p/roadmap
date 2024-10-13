@@ -1,32 +1,23 @@
 ---
-title: Codex Scaling
+title: Codex Base Capacity
 tags:
   - "2024q4"
   - "dst"
   - "codex"
 draft: false
-description: "Improve Codex's scaling abilities
-and our understanding of these,
-using scientific testing and experiments,
-leading to better scaling.
-Compare to other systems.
-Support the testnet efforts by providing base capacity.
-Measure speed, latency, other metrics.
-Give hard numbers on Codex vs BitTorrent."
+description: "Provide base capacity for Codex and keep it reliable.
+Study its behaviour in the process of supporting it."
 ---
 
-`vac:dst:codex:codex-scaling`
+`vac:dst:codex:codex-base-capacity`
 
 ## Description
-Use real world testing, theoretical analysis and simulation
-to determine and improve Codex's scaling properties.
-
-Find the limits of Codex's capabilities and measure them in different scenarios.
+Provide base capacity for Codex and keep it reliable.
+Study its behaviour in the process of supporting it.
 
 We will allow Codex to scale to support large scale use cases,
-test how it behaves in large 100TB+ testnet deployments
-and in various deployment setups,
-and we will help make Codex more scalable in the first place.
+test how it behaves in large 100TB+ testnet deployments,
+and in various deployment setups.
 
 We will support the Conduit of Expertise narrative directly
 by providing valuable insights to Codex
@@ -63,7 +54,6 @@ to the Premier Research destination narrative
 by helping Codex build a stable base
 on which other research and interesting use cases can be built.
 
-
 ## Task List
 
 ### Production Quality Base Capacity
@@ -89,46 +79,3 @@ It consists of 50x nodes with 10xTB of data each for now.
 * Downloads/uploads tested and working for at least 3 selected nodes.
 * 🚧 Ongoing monitoring (not a one time thing)
 * ✅ 500TB of overall capacity provided to the network
-
-### How Fast Is Codex?
-
-* fully qualified name: <vac:dst:codex:codex-scaling:how-fast-is-codex>
-* owner: Wings
-* status: 0%
-* start-date: 2024/10/18
-* end-date: 2024/10/25
-
-#### Description
-
-Related to Codex Comparison, 
-we simply want to find out fast Codex is, at various things 
-under different kinds of stress and load.
-
-We will use the Base Capacity.
-
-We will test and compare the following:
-
-* Upload speed (1 client)
-* Download speed
-* Time to first byte
-* Time to 50%
-* Time to 90%
-* Time to 100
-
-We would also like to collect all data from the items in this matrix:
-
-**Benchmark conditions**:
-  * total size: 2, 8, 16, 32
-  * seeders: 1, 2, 4, 8, 16
-  * file size: 
-      100
-     MB, 
-      1
-     GB, 
-      5
-     GB
-
-#### Deliverables
-
-- [ ] Reports from how each item in the matrix performed.
-- [ ] A general writeup

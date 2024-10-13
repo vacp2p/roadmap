@@ -17,7 +17,7 @@ tags:
 * [ ] [[dst/waku/waku-scaling|waku-scaling]]
 
 ### `codex`
-* [ ] [[dst/codex/codex-scaling|codex-scaling]]
+* [ ] [[dst/codex/codex-base-capacity|codex-base-capacity]]
 * [ ] [[dst/codex/codex-comparison|codex-comparison]]
 
 <!--

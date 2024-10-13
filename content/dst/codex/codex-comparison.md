@@ -79,3 +79,89 @@ in the course of a single test.
 * Automated systems for running a matrix of tests and measuring them.
 
 This will build on prior work by DST that benefits from this work as well (ArgoCD work).
+
+### How Fast Is Codex?
+
+* fully qualified name: <vac:dst:codex:codex-scaling:how-fast-is-codex>
+* owner: Wings
+* status: 0%
+* start-date: 2024/10/18
+* end-date: 2024/10/25
+
+#### Description
+
+Related to Codex Comparison, 
+we simply want to find out fast Codex is, at various things 
+under different kinds of stress and load.
+
+We will use the Base Capacity.
+
+We will test and compare the following:
+
+* Upload speed (1 client)
+* Download speed
+* Time to first byte
+* Time to 50%
+* Time to 90%
+* Time to 100
+
+We would also like to collect all data from the items in this matrix:
+
+**Benchmark conditions**:
+  * total size: 2, 8, 16, 32
+  * seeders: 1, 2, 4, 8, 16
+  * file size: 
+      100
+     MB, 
+      1
+     GB, 
+      5
+     GB
+
+#### Deliverables
+
+- [ ] Reports from how each item in the matrix performed.
+- [ ] A general writeup
+
+
+### ArgoCD Or Similar
+
+* fully qualified name: `vac:dst:codex:codex-comparison:argocd-or-similar`
+* owner: Wings
+* status: 80%
+* start-date: 2024/10/04
+* end-date: 2024/12/31
+
+#### Description
+
+Get ArgoCD or a similar tool up and running.
+
+Use it to demonstrate deploying an nwaku simulation from a Git repo
+with a Helm chart or plain manifests in it. Use it to support Codex Comparison work.
+
+#### Deliverables
+
+* The demonstrated ability to run an nwaku simulation.
+* Deployed Codex comparison test harness.
+
+
+### Working Matrices
+
+* fully qualified name: <vac:dst:codex:codex-comparison:working-matrices>
+* owner: Wings
+* status: 0%
+* start-date: 2024/10/04
+* end-date: 2024/12/31
+
+#### Description
+
+Ensure that deployment matrices work once `ArgoCD Or Similar` is completed.
+
+Test some basic deployments and record findings.
+
+#### Deliverables
+
+* A report on the findings of the tests and the current state of the deployment matrices.
+* A deployment matrix tool or set of instructions/documentation.
+* Deployments tested and working with a 3x3 matrix of different configurations.
+* Used by us or Codex to test Codex and answer questions about it.

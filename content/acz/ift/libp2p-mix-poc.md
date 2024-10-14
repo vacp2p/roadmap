@@ -49,7 +49,7 @@ offering improvements over Tor push.
 
 * fully qualified name: `vac:acz:ift:libp2p-mix-poc:libp2p-integration`
 * owner: Akshaya
-* status: not started
+* status: in progress (70%)
 * start-date: 2024/10/07
 * end-date: 2024/10/21
 

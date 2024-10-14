@@ -38,7 +38,7 @@ gain support from the Ethereum ecosystem.
 
 * fully qualified name: `vac:acz:ift:de-mls-testnet:de-mls-rfc`
 * owner: Ramses
-* status: not started
+* status: in progress (70%)
 * start-date: 2024/10/07
 * end-date: 2024/10/21
 
@@ -49,11 +49,27 @@ Creation of a detailed RFC describing the protocol for a decentralized verison o
 
 Several PRs to the deMLS repository
 
+### Login Specs
+
+* fully qualified name: `vac:acz:ift:de-mls-testnet:login-specs`
+* owner: Ramses
+* status: in progress (25%)
+* start-date: 2024/10/14
+* end-date: 2024/10/28
+
+#### Description
+
+Specification of scalable, implementable, and decentralized authentication mechanism as login phase for the RFC. 
+
+#### Deliverables
+
+A specification document for scalable, implementable, and decentralized authentication mechanism as login phase for the RFC.
+
 ### EF Grant Application
 
 * fully qualified name: `vac:acz:ift:de-mls-testnet:ef-application`
 * owner: Ugur
-* status: not started
+* status: in progress (0%)
 * start-date: 2024/10/14
 * end-date: 2024/10/28
 
@@ -138,18 +154,4 @@ A blogpost to [vac-dev](https://vac.dev/rlog/)
 
 Several PRs to the DCGKA repository.
 
-### Login Specs
-
-* fully qualified name: `vac:acz:ift:de-mls-testnet:login-specs`
-* owner: Ramses
-* status: not started
-* start-date: 2024/12/02
-* end-date: 2024/12/16
-
-#### Description
-
-Specification of scalable, implementable, and decentralized authentication mechanism as login phase for the RFC. 
-
-#### Deliverables
-
-A specification document for scalable, implementable, and decentralized authentication mechanism as login phase for the RFC. 
+ 

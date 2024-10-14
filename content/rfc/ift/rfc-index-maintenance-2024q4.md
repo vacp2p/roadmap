@@ -3,7 +3,6 @@ title: rfc-index-maintenance
 tags:
   - 2024q4
   - rfc
-  - ift
   - vac
 draft: false
 description:

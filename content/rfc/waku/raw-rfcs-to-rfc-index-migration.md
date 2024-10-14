@@ -5,16 +5,16 @@ tags:
   - rfc
   - waku
 draft: false
-description: Decide which proof of concept RFCs should go to rfc-index.
+description: Decide which raw RFCs should go to rfc-index.
 ---
 
-`ift:rfc:waku:waku-poc-rfcs-to-rfc-index-migration`
+`ift:rfc:waku:raw-rfcs-to-rfc-index-migration`
 
-Decide which proof of concept RFCs can be moved to rfc-index.
+Decide which raw RFCs can be moved to rfc-index.
 
 ## Description
 
-This commitment focuses on determining which proof of concept RFCs in the 
+This commitment focuses on determining which raw RFCs in the 
 Waku [documentation](https://github.com/waku-org/specs) should be moved
 to the rfc-index.
 
@@ -31,7 +31,7 @@ to the rfc-index.
 ### Migration
 
 - Fully qualified name: 
-  `ift:rfc:waku:waku-poc-rfcs-to-rfc-index-migration:migration`
+  `ift:rfc:waku:raw-rfcs-to-rfc-index-migration:migration`
 - Owner: Filip
 - Status: not started
 - Start date: 2024/10/31

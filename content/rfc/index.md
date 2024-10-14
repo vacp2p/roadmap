@@ -10,6 +10,7 @@ tags:
 
 ### `ift:`
 * [ ] [[rfc-culture-establishment-2024q4.md|rfc-culture-establishment-2024q4]]
+* [ ] [[rfc-index-maintenance-2024q4.md|rfc-index-maintenance-2024q4]]
 
 ### `status:`
 
@@ -22,5 +23,5 @@ tags:
 
 ### `waku:`
 * [ ] [[rfc/waku/updates-of-mature-waku-rfcs-2024q4.md|updates-of-mature-waku-rfcs-2024q4]]
-* [ ] [[rfc/waku/waku-poc-rfcs-to-rfc-index-migration.md|waku-poc-rfcs-to-rfc-index-migration]]
+* [ ] [[rfc/waku/raw-rfcs-to-rfc-index-migration.md|raw-rfcs-to-rfc-index-migration]]
 

@@ -8,7 +8,7 @@ draft: false
 description: Through discussion and curation, support the process of auditing raw, draft, mature selected Waku RFCs.
 ---
 
-`ift:rfc:waku:updates-of-certain-mature-and-poc-waku-rfcs-2024q4`
+`ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4`
 
 Through discussion and curation, support the process of auditing raw, draft, mature selected Waku RFCs.
 
@@ -20,7 +20,6 @@ either in draft or raw states:
 - 12/WAKU2-FILTER 
 - 13/WAKU2-STORE 
 - 14/WAKU2-MESSAGE 
-- 17/WAKU2-RLN-RELAY
 - 19/WAKU2-LIGHTPUSH 
 - 34/WAKU2-PEER-EXCHANGE
 - 15/WAKU-BRIDGE
@@ -40,11 +39,11 @@ either in draft or raw states:
 ### 10/WAKU2
 
 - Fully qualified name: 
-  `ift:rfc:waku:updates-of-certain-mature-and-poc-waku-rfcs-2024q4:10/WAKU2`
+  `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:10/WAKU2`
 - Owner: jimstir
 - Status: not started
-- Start date: 2024/10/01
-- End date: 2024/12/31
+- Start date: 2024/11/25
+- End date: 2024/12/08
 
 #### Description
 
@@ -57,11 +56,11 @@ Waku v2 is a family of modular peer-to-peer protocols for secure communication.
 ### 12/WAKU2-FILTER
 
 - Fully qualified name: 
-  `ift:rfc:waku:updates-of-certain-mature-and-poc-waku-rfcs-2024q4:12/WAKU2-FILTER`
+  `ift:rfc:waku:updates-mature-waku-rfcs-2024q4:12/WAKU2-FILTER`
 - Owner: jimstir
 - Status: not started
-- Start date: 2024/10/01
-- End date: 2024/12/31
+- Start date: 2024/11/11
+- End date: 2024/11/25
 
 #### Description
 
@@ -75,11 +74,11 @@ receives.
 ### 13/WAKU2-STORE
 
 - Fully qualified name: 
-  `ift:rfc:waku:updates-of-certain-mature-and-poc-waku-rfcs-2024q4:13/WAKU2-STORE`
+  `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:13/WAKU2-STORE`
 - Owner: jimstir
 - Status: not started
-- Start date: 2024/10/01
-- End date: 2024/12/31
+- Start date: 2024/10/28
+- End date: 2024/11/11
 
 #### Description
 
@@ -93,11 +92,11 @@ querying messages received through the relay protocol and stored by other nodes.
 ### 14/WAKU2-MESSAGE
 
 - Fully qualified name: 
-  `ift:rfc:waku:updates-of-certain-mature-and-poc-waku-rfcs-2024q4:14/WAKU2-MESSAGE`
+  `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:14/WAKU2-MESSAGE`
 - Owner: jimstir
 - Status: not started
-- Start date: 2024/10/01
-- End date: 2024/12/31
+- Start date: 2024/10/28
+- End date: 2024/11/11
 
 #### Description
 
@@ -108,32 +107,14 @@ specific security goals and provide Whisper/Waku v1 backward compatibility.
 
 - Updated RFC document (potentially with an upgraded status).
 
-### 17/WAKU2-RLN-RELAY
-
-- Fully qualified name: 
-  `ift:rfc:waku:updates-of-certain-mature-and-poc-waku-rfcs-2024q4:17/WAKU2-RLN-RELAY`
-- Owner: jimstir
-- Status: not started
-- Start date: 2024/10/01
-- End date: 2024/12/31
-
-#### Description
-
-An extension of `11/WAKU2-RELAY`, providing spam protection using Rate Limiting 
-Nullifiers (RLN).
-
-#### Deliverables
-
-- Updated RFC document (potentially with an upgraded status).
-
 ### 19/WAKU2-LIGHTPUSH
 
 - Fully qualified name: 
-  `ift:rfc:waku:updates-of-certain-mature-and-poc-waku-rfcs-2024q4:19/WAKU2-LIGHTPUSH`
+  `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:19/WAKU2-LIGHTPUSH`
 - Owner: jimstir
 - Status: not started
-- Start date: 2024/10/01
-- End date: 2024/12/31
+- Start date: 2024/10/14
+- End date: 2024/10/28
 
 #### Description
 
@@ -147,11 +128,11 @@ publish messages in the Waku network and receive confirmation of delivery.
 ### 34/WAKU2-PEER-EXCHANGE
 
 - Fully qualified name: 
-  `ift:rfc:waku:updates-of-certain-mature-and-poc-waku-rfcs-2024q4:34/WAKU2-PEER-EXCHANGE`
+  `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:34/WAKU2-PEER-EXCHANGE`
 - Owner: jimstir
-- Status: not started
-- Start date: 2024/10/01
-- End date: 2024/12/31
+- Status: 80%
+- Start date: 2024/10/07
+- End date: 2024/12/21
 
 #### Description
 
@@ -164,11 +145,11 @@ A peer discovery protocol for resource-restricted devices.
 ### 15/WAKU-BRIDGE
 
 - Fully qualified name: 
-  `ift:rfc:waku:updates-of-certain-mature-and-poc-waku-rfcs-2024q4:15/WAKU-BRIDGE`
+  `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:15/WAKU-BRIDGE`
 - Owner: jimstir
 - Status: not started
-- Start date: 2024/10/01
-- End date: 2024/12/31
+- Start date: 2024/11/11
+- End date: 2024/11/25
 
 #### Description
 

@@ -35,8 +35,8 @@ and improving the project's reliability.
 * fully qualified name: `vac:qa:codex:integration-testing-2024q4:marketplace-endpoints`
 * owner: fbarbu15
 * status: not started
-* start-date: 2024/10/07
-* end-date: 2024/10/21
+* start-date: 2024/11/07
+* end-date: 2024/11/21
 
 #### Description
 Add more coverage for the Marketplace endpoints
@@ -51,8 +51,8 @@ to ensure all key functionalities are thoroughly tested.
 * fully qualified name: `vac:qa:codex:integration-testing-2024q4:data-endpoints`
 * owner: fbarbu15
 * status: not started
-* start-date: 2024/10/21
-* end-date: 2024/11/04
+* start-date: 2024/11/21
+* end-date: 2024/12/04
 
 #### Description
 Add more coverage for the Data endpoints,
@@ -68,8 +68,8 @@ perform correctly under different conditions.
 * fully qualified name: `vac:qa:codex:integration-testing-2024q4:node-and-debug-endpoints`
 * owner: fbarbu15
 * status: not started
-* start-date: 2024/11/04
-* end-date: 2024/11/22
+* start-date: 2024/12/04
+* end-date: 2024/12/22
 
 #### Description
 Add more coverage for the Node and Debug endpoints,

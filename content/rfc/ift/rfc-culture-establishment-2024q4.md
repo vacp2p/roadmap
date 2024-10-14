@@ -40,8 +40,8 @@ culture.
 - Fully qualified name: `ift:rfc:vac:culture-establishment-2024q4:notion-documentation`
 - Owner: cofson
 - Status: not started
-- Start date: 2024/10/15
-- End date: 2024/11/11
+- Start date: 2024/10/01
+- End date: 2024/10/20
 
 #### Description
 
@@ -58,8 +58,8 @@ team's services. Add subpages where more detailed information is needed.
 - Fully qualified name: `ift:rfc:vac:culture-establishment-2024q4:team-communication`
 - Owner: cofson
 - Status: not started
-- Start date: 2024/11/11
-- End date: 2024/12/31
+- Start date: 2024/11/01
+- End date: 2024/12/10
 
 #### Description
 

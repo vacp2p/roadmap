@@ -69,7 +69,7 @@ A specification document for scalable, implementable, and decentralized authenti
 
 * fully qualified name: `vac:acz:ift:de-mls-testnet:ef-application`
 * owner: Ugur
-* status: not started
+* status: in progress (0%)
 * start-date: 2024/10/14
 * end-date: 2024/10/28
 

@@ -50,7 +50,7 @@ A notion page containing the review by Ramses
 
 * fully qualified name: `vac:acz:ift:think-tank:zk-consulting-codex-1`
 * owner: Marvin
-* status: not started
+* status: in progress (10%)
 * start-date: 2024/10/07
 * end-date: 2024/12/02
 
@@ -67,7 +67,7 @@ On going explorative, provide notes on zero-knowledge techniques from the litera
 
 * fully qualified name: `vac:acz:ift:think-tank:zk-consulting-codex-2`
 * owner: Marvin
-* status: not started
+* status: in progress (0%)
 * start-date: 2024/10/07
 * end-date: 2024/12/02
 

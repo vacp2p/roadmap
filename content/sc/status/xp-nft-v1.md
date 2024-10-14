@@ -37,10 +37,10 @@ Here are the main features and requirements of the first version of this token:
 ### Token implementation
 
 * fully qualified name: `vac:sc:status:xp-nft-v1:token-implementation`
-* owner: 
-* status: not started
-* start-date: 2024/10/18
-* end-date: 2024/10/25
+* owner: Andrea
+* status: in progress (100%)
+* start-date: 2024/10/07
+* end-date: 2024/10/14
 
 #### Description
 
@@ -58,10 +58,10 @@ See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues
 ### Upgradeability
 
 * fully qualified name: `vac:sc:status:xp-nft-v1:upgradeability`
-* owner: 
-* status: not started
-* start-date: 
-* end-date: 
+* owner: Andrea
+* status: in progress (5%)
+* start-date: 2024/10/14
+* end-date: 2024/10/25
 
 #### Description
 

@@ -28,7 +28,7 @@ improving cross-project collaboration.
 
 * fully qualified name: `vac:sc:ift:eip-discussions_2024q4:2024q4`
 * owner: r4bbit
-* status: not started
+* status: in progress (15%)
 * start-date: 2024/10/07
 * end-date: 2024/12/27
 
@@ -43,8 +43,8 @@ Organize learn up session on a bi-weekly basis and ensure meetings are recorded 
 ### EIP Discussions 2024/10/18
 
 * fully qualified name: `vac:sc:ift:eip-discussions_2024q4:2024-10-18`
-* owner: 
-* status: not started
+* owner: Ricardo
+* status: in progress (40%)
 * start-date: 2024/10/07
 * end-date: 2024/10/18
 

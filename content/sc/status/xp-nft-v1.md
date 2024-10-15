@@ -38,7 +38,7 @@ Here are the main features and requirements of the first version of this token:
 
 * fully qualified name: `vac:sc:status:xp-nft-v1:token-implementation`
 * owner: Andrea
-* status: in progress (100%)
+* status: done
 * start-date: 2024/10/07
 * end-date: 2024/10/14
 

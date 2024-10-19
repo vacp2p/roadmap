@@ -44,7 +44,7 @@ Organize learn up session on a bi-weekly basis and ensure meetings are recorded 
 
 * fully qualified name: `vac:sc:ift:eip-discussions_2024q4:2024-10-18`
 * owner: Ricardo
-* status: in progress (40%)
+* status: done
 * start-date: 2024/10/07
 * end-date: 2024/10/18
 
@@ -54,7 +54,7 @@ Run a learn up session about either an EIP or similar topic of choice to present
 
 #### Deliverables
 
-- [ ] Recording of the session
+- [x] [Recording of the session](https://www.notion.so/Upgradeability-Patterns-1248f96fb65c80e2bef8ec7b5df8cf8f)
 
 ### EIP Discussions 2024/11/01
 

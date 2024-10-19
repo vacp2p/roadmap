@@ -52,8 +52,8 @@ See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues
 
 #### Deliverables
 
-- [ ] XP token contract implementation
-- [ ] Tests proving its functionality (or lack thereof)
+- [x] [XP token contract implementation](https://github.com/vacp2p/staking-reward-streamer/pull/12)
+- [x] [Tests proving its functionality (or lack thereof)](https://github.com/vacp2p/staking-reward-streamer/pull/12)
 
 ### Upgradeability
 

@@ -21,8 +21,8 @@ We're collaborating with the Codex team and the Certora team to formally verify 
 ### Finish implementing current rules
 
 * fully qualified name: `vac:sc:codex:formal-verification_2024q4:finish-current-rules`
-* owner: 
-* status: not started
+* owner: r4bbit
+* status: in progress (40%)
 * start-date: 2024/10/14
 * end-date: 2024/11/31
 

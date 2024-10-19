@@ -40,7 +40,7 @@ so we can leverage this work to finalize a first version of the protocol.
 
 * fully qualified name: `vac:sc:status:staking-protocol-v1:merging-existing-solutions`
 * owner: ricardo
-* status: in progress (15%)
+* status: in progress (30%)
 * start-date: 2024/10/07
 * end-date: 2024/10/18
 
@@ -86,7 +86,7 @@ See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues
 
 * fully qualified name: `vac:sc:status:staking-protocol-v1:testing`
 * owner: r4bbit 
-* status: in progress (40%)
+* status: in progress (50%)
 * start-date: 2024/10/07
 * end-date: 2024/10/18
 
@@ -105,7 +105,7 @@ See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues
 
 * fully qualified name: `vac:sc:status:staking-protocol-v1:formal-verification`
 * owner: r4bbit
-* status: in progress (15%)
+* status: in progress (30%)
 * start-date: 2024/10/07
 * end-date: 2024/10/18
 

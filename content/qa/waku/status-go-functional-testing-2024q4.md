@@ -39,9 +39,9 @@ We will track test coverage to measure progress.
 
 * fully qualified name: `vac:qa:waku:status-go-functional-testing-2024q4:migrate-to-status-backend`
 * owner: shashankshampi
-* status: in progress (10%)
+* status: in progress (30% - updated the end-date because we will do the migration and the move to status-go repo as part of the same task)
 * start-date: 2024/10/07
-* end-date: 2024/10/21
+* end-date: 2024/11/11
 
 #### Description
 Update the existing tests to use status-backend and ensure alignment
@@ -50,25 +50,11 @@ The existing Status Go tests created by VAC QA and Status QA
 have been using the status-cli or statusd tools, which are primarily CLI-based.
 Now, developers want to replace them with status-backend,
 a more advanced tool with a JSON-RPC based approach.
-
-#### Deliverables
-* PR with the updated tests
-* CI runs showing similar execution results with the new tool compared to the old one
-
-### All tests in status-go repo
-
-* fully qualified name: `vac:qa:waku:status-go-functional-testing-2024q4:all-tests-in-status-go-repo`
-* owner: fbarbu15
-* status: not started
-* start-date: 2024/10/21
-* end-date: 2024/11/11
-
-#### Description
 Move all the tests we developed into the status-go repo
 since Status QA has started a similar effort using Python.
 
 #### Deliverables
-* PR with the migrated tests
+* PR with the updated and migrated tests
 * CI runs within the new repo
 
 ### Message tests

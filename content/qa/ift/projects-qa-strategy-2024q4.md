@@ -50,7 +50,7 @@ identify gaps, and provide recommendations for improvements.
 
 * fully qualified name: `vac:qa:ift:projects-qa-strategy-2024q4:nomos`
 * owner: fbarbu15
-* status: started
+* status: in progress(0%)
 * start-date: 2024/10/21
 * end-date: 2024/11/04
 
@@ -65,7 +65,7 @@ identify gaps, and provide recommendations for improvements.
 
 * fully qualified name: `vac:qa:ift:projects-qa-strategy-2024q4:status`
 * owner: fbarbu15
-* status: in progress(0%)
+* status: not started
 * start-date: 2024/11/04
 * end-date: 2024/11/22
 

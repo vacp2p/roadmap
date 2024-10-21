@@ -33,7 +33,7 @@ and support projects being built on the Waku network.
 
 * fully qualified name: `vac:acz:waku:adding-timestamp`
 * owner: Ekaterina
-* status: not started
+* status: started (0%)
 * start-date: 2024/10/21
 * end-date: 2024/10/28
 

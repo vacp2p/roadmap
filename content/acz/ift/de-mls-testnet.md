@@ -40,7 +40,7 @@ gain support from the Ethereum ecosystem.
 * owner: Ramses
 * status: in progress (70%)
 * start-date: 2024/10/07
-* end-date: 2024/10/21
+* end-date: 2024/11/04
 
 #### Description 
 Creation of a detailed RFC describing the protocol for a decentralized verison of MLS. This proposal will include a login phase inspired by SIWE avoiding the centralized components of the latter. 
@@ -48,6 +48,22 @@ Creation of a detailed RFC describing the protocol for a decentralized verison o
 #### Deliverables 
 
 Several PRs to the deMLS repository
+
+### de-MLS Presentation
+
+* fully qualified name: `vac:acz:ift:de-mls-testnet:presentation`
+* owner: Ramses
+* status: in progress (60%)
+* start-date: 2024/10/14
+* end-date: 2024/10/23
+
+#### Description 
+Creation of a presentation of de-MLS for IFT research call. 
+
+#### Deliverables 
+
+A presentation that describes the RFC in terms of technical, usage, and implementation point of view. 
+
 
 ### Login Specs
 
@@ -69,9 +85,9 @@ A specification document for scalable, implementable, and decentralized authenti
 
 * fully qualified name: `vac:acz:ift:de-mls-testnet:ef-application`
 * owner: Ugur
-* status: in progress (0%)
+* status: in progress (30%)
 * start-date: 2024/10/14
-* end-date: 2024/10/28
+* end-date: 2024/11/04
 
 #### Description
 

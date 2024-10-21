@@ -14,8 +14,9 @@ description: "Publishing a reviewing document for the cryptography modules of IF
 Publishing a reviewing document for the cryptography modules of IFT projects
 ## Description
 
-Many IFT projects utilize the cryptography as one of the components their architecture. As ACZ team, 
-we collect all the cryptographical primitives into single commitment, review and compare them to detect potential 
+Many IFT projects utilize the cryptography as one of the components their architecture. 
+As ACZ team, we collect all the cryptographical primitives into single commitment, 
+review and compare them to detect potential 
 improvable and strong aspects.
 
 By utilizing the think-tank commitment, 
@@ -35,7 +36,7 @@ to initiate discussions and contribute to the benefit of the ecosystem.
 
 * fully qualified name: `vac:acz:ift:think-tank:crypto-think-tank`
 * owner: Ramses
-* status: not started
+* status: done
 * start-date: 2024/10/21
 * end-date: 2024/11/04
 
@@ -44,7 +45,8 @@ Code review for a KZG implementation performed by Waku and Nomos.
 
 #### Deliverables 
 
-A notion page containing the review by Ramses
+[A notion page](https://www.notion.so/WiP-Code-review-Nomos-library-1068f96fb65c80338499c9f06e702b41) 
+containing the review by Ramses
 
 ### ZK Consulting Codex 1
 
@@ -67,7 +69,7 @@ On going explorative, provide notes on zero-knowledge techniques from the litera
 
 * fully qualified name: `vac:acz:ift:think-tank:zk-consulting-codex-2`
 * owner: Marvin
-* status: in progress (0%)
+* status: in progress (13%)
 * start-date: 2024/10/07
 * end-date: 2024/12/02
 

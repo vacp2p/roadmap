@@ -1,5 +1,5 @@
 ---
-title: Logos ZK Calls
+title: IFT ZK Calls
 tags:
   - "2024q4"
   - "acz"
@@ -9,7 +9,7 @@ description: "Preparation and conducting the ZK meetings"
 
 ---
 
-`vac:acz:ift:logos-zk-calls`
+`vac:acz:ift:ift-zk-calls`
 
 Preparation and conducting the ZK meetings
 ## Description
@@ -32,11 +32,11 @@ We will also strengthen the Premier Research Destination narrative by:
 
 ## Task List
 
-### Logos ZK Call 1
+### IFT ZK Call 1
 
-* fully qualified name: `vac:acz:ift:logos-zk-calls:logos-zk-call-1`
+* fully qualified name: `vac:acz:ift:ift-zk-calls:ift-zk-call-1`
 * owner: Marvin
-* status: not started
+* status: started (10%)
 * start-date: 2024/10/28
 * end-date: 2024/11/04
 
@@ -48,9 +48,9 @@ Preparing the agenda and possible speakers for the ZK call on 4th November.
 
 A document of a summary of the ZK call 1 meeting to [ZK Notion page](https://www.notion.so/ZK-Call-1198f96fb65c80c7baaac966b3e57ea2). 
 
-### Logos ZK Call 2
+### IFT ZK Call 2
 
-* fully qualified name: `vac:acz:ift:logos-zk-calls:logos-zk-call-2`
+* fully qualified name: `vac:acz:ift:ift-zk-calls:ift-zk-call-2`
 * owner: Marvin
 * status: not started
 * start-date: 2024/11/25

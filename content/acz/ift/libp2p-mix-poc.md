@@ -16,7 +16,7 @@ Publishing a raw RFC specifying libp2p mixnet protocol and implementing a PoC
 
 This commitment entails designing an anonymization layer for gossipsub, and by extension, IFT projects.
 The primary objective of this anonymization layer is to serve as a cohesive anonymization solution for gossip-based projects,
-with a specific focus on integrating it with the Logos projects Waku and Codex.
+with a specific focus on integrating it with the IFT projects Waku and Codex.
 
 
 The Nomos team is crafting their own anonymization solution due to their unique requirements and their ability to leverage specific traffic patterns to enhance efficiency.
@@ -49,9 +49,9 @@ offering improvements over Tor push.
 
 * fully qualified name: `vac:acz:ift:libp2p-mix-poc:libp2p-integration`
 * owner: Akshaya
-* status: in progress (70%)
+* status: in progress (85%)
 * start-date: 2024/10/07
-* end-date: 2024/10/21
+* end-date: 2024/10/28
 
 #### Description
 
@@ -66,7 +66,7 @@ Implement protocol handler logic for sender nodes including packet creation and 
 * fully qualified name: `vac:acz:ift:libp2p-mix-poc:sim-anon-ping`
 * owner: Akshaya
 * status: not started
-* start-date: 2024/10/21
+* start-date: 2024/10/28
 * end-date: 2024/11/04
 
 #### Description

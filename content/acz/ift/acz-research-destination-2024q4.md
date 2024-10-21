@@ -30,7 +30,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:acz-research-destination:zk-think-tank`
 * owner: Marvin
-* status: in progress (10%)
+* status: in progress (15%)
 * start-date: 2024/10/07
 * end-date: 2024/12/02
 
@@ -44,3 +44,4 @@ as well as the community as large.
 * A notions page to maintain current (and accurate) information on each of IFT's usage of ZK techniques.
 * Organize ZK notes in an accessible manner for IFT CCs to get a clear overview or deep dive depending on their needs.
 * Write 101-blog on ZK techniques to [vac-dev](https://vac.dev/rlog/).
+  * Fiat-Shamir blog post: https://vac.dev/rlog/vac101-fiat-shamir/

@@ -14,6 +14,7 @@ tags:
 
 ### `waku`
 * [ ] [[dst/waku/waku-scaling|waku-scaling]]
+* [ ] [[dst/waku/waku-evaluation|waku-evaluation]]
 
 ### `codex`
 * [ ] [[dst/codex/codex-base-capacity|codex-base-capacity]]

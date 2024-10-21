@@ -75,3 +75,7 @@ and ensure they don't happen again.
 * Report published with all relevant details
 * Vac Roadmap updated regularly
   with links to the analysis and results.
+
+##### Deliverable reports
+* [ ] [Waku v0.32 regression testing](https://www.notion.so/Waku-regression-testing-v0-32-bd02464a483d402bac92ba4c7086e232)
+* [ ] [Waku v0.33 regression testing](https://www.notion.so/Waku-regression-testing-v0-33-10d8f96fb65c802c846bd3a46ad389eb)

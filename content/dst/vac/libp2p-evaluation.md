@@ -59,9 +59,9 @@ to the Premier Research destination narrative by:
 
 * fully qualified name: <vac:dst:vac:libp2p-evaluation:regression-testing>
 * owner: Alberto
-* status: N/A
-* start-date: N/A
-* end-date: N/A
+* status: Ongoing
+* start-date: 2024-10-01
+* end-date: 2024-12-31
 
 #### Description
 Run different scenarios

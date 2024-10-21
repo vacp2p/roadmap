@@ -9,7 +9,6 @@ tags:
 ---
 
 ### `ift`
-* [ ] [[dst/ift/deployer-tool|deployer-tool]]
 * [ ] [[dst/ift/visualiser-tool|visualiser-tool]]
 * [ ] [[dst/ift/vaclab|vaclab]]
 

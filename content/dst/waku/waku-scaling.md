@@ -130,7 +130,7 @@ that Waku can in fact scale to these sizes and perform reliably.
 Test the Store protocol at scale.
 
 #### Deliverables
-- [ ] A report on the results of the test,
+- [x] [A report on the results](https://www.notion.so/Test-Store-Protocol-At-Scale-1228f96fb65c80ed9eb8ca7b1d69061d) of the test,
   including analysis, data and metrics.
 - [ ] A list of any issues encountered.
 - [ ] Hard data and metrics from the simulation.

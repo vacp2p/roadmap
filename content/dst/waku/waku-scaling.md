@@ -170,7 +170,7 @@ in heterogenous clusters
 involving different node implementations
 such as nwaku and go-waku.
 
-### Deliverables
+#### Deliverables
 - [ ] A report on the results of each test, including analysis, data and metrics.
 - [ ] A list of any issues encountered.
 - [ ] Hard data and metrics from the simulation.
@@ -188,7 +188,7 @@ Test waku shard behaviour and stability with various of numbers of shards.
 
 Choose a matrix to test for and then test for it.
 
-### Deliverables
+#### Deliverables
 - [ ] Matrix/exact deployment script defined
 - [ ] A report on the results of each test, including analysis, data and metrics.
 - [ ] A list of any issues encountered.
@@ -214,7 +214,7 @@ and the discoveries we make during the course of this work.
 #### Description
 Test the Filter and lightpush protocols at scale.
 
-### Deliverables
+#### Deliverables
 - [ ] A report on the current reliability and performance of the protocols at scale.
 - [ ] Filed any issues encountered.
 - [ ] Hard data and metrics from the simulation.
@@ -230,7 +230,7 @@ Test the Filter and lightpush protocols at scale.
 #### Description
 Measure the bandwidth usage of the Waku discovery protocol using the DiscV5 protocol.
 
-### Deliverables
+#### Deliverables
 - [ ] A report on what you've learnt
 - [ ] Hard data and metrics from the simulation.
 - [ ] A documentation page with analysis and results and notes.

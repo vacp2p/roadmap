@@ -33,7 +33,7 @@ any identified gaps, and recommendations for improvement.
 
 * fully qualified name: `vac:qa:ift:projects-qa-strategy-2024q4:waku`
 * owner: fbarbu15
-* status: in progress (30%)
+* status: done
 * start-date: 2024/10/07
 * end-date: 2024/10/21
 
@@ -42,13 +42,15 @@ Investigate and document Waku QA strategy,
 identify gaps, and provide recommendations for improvements.
 
 #### Deliverables
-* Link with Notion page
+* [js-waku](https://www.notion.so/JS-WAKU-VAC-QA-Testing-Coverage-Report-11f8f96fb65c8075acb1f10415916d51)
+* [nwaku](https://www.notion.so/NWAKU-VAC-QA-Testing-Coverage-Report-1238f96fb65c80c7bb3ced6d72421a35)
+* [go-waku](https://www.notion.so/GO-WAKU-VAC-QA-Testing-Coverage-Report-1228f96fb65c80de9667e708e2583963)
 
 ### Nomos
 
 * fully qualified name: `vac:qa:ift:projects-qa-strategy-2024q4:nomos`
 * owner: fbarbu15
-* status: not started
+* status: in progress(0%)
 * start-date: 2024/10/21
 * end-date: 2024/11/04
 

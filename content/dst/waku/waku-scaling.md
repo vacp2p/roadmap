@@ -122,7 +122,7 @@ that Waku can in fact scale to these sizes and perform reliably.
 
 * fully qualified name: `vac:dst:waku:waku-scaling:test-store-protocol-at-scale`
 * owner: Alberto
-* status: 0%
+* status: 100%
 * start-date: 2024/10/07
 * end-date: 2024/10/18
 
@@ -130,10 +130,13 @@ that Waku can in fact scale to these sizes and perform reliably.
 Test the Store protocol at scale.
 
 #### Deliverables
-- [ ] A report on the results of the test,
+- [x] [A report on the results](https://www.notion.so/Test-Store-Protocol-At-Scale-1228f96fb65c80ed9eb8ca7b1d69061d) of the test,
   including analysis, data and metrics.
-- [ ] A list of any issues encountered.
-- [ ] Hard data and metrics from the simulation.
+- [x] [A list of any issues encountered](https://www.notion.so/Test-Store-Protocol-At-Scale-1228f96fb65c80ed9eb8ca7b1d69061d?pvs=4#1228f96fb65c8059a79cebe3b13e8ebb) (no issues reported).
+- [x] [Hard data and metrics from the simulation](https://www.notion.so/Test-Store-Protocol-At-Scale-1228f96fb65c80ed9eb8ca7b1d69061d?pvs=4#1228f96fb65c8059a79cebe3b13e8ebb).
+
+#### Status
+Fully delivered.
 
 ### High Churn Relay+Store Reliability
 
@@ -167,7 +170,7 @@ in heterogenous clusters
 involving different node implementations
 such as nwaku and go-waku.
 
-### Deliverables
+#### Deliverables
 - [ ] A report on the results of each test, including analysis, data and metrics.
 - [ ] A list of any issues encountered.
 - [ ] Hard data and metrics from the simulation.
@@ -185,7 +188,7 @@ Test waku shard behaviour and stability with various of numbers of shards.
 
 Choose a matrix to test for and then test for it.
 
-### Deliverables
+#### Deliverables
 - [ ] Matrix/exact deployment script defined
 - [ ] A report on the results of each test, including analysis, data and metrics.
 - [ ] A list of any issues encountered.
@@ -211,7 +214,7 @@ and the discoveries we make during the course of this work.
 #### Description
 Test the Filter and lightpush protocols at scale.
 
-### Deliverables
+#### Deliverables
 - [ ] A report on the current reliability and performance of the protocols at scale.
 - [ ] Filed any issues encountered.
 - [ ] Hard data and metrics from the simulation.
@@ -227,7 +230,7 @@ Test the Filter and lightpush protocols at scale.
 #### Description
 Measure the bandwidth usage of the Waku discovery protocol using the DiscV5 protocol.
 
-### Deliverables
+#### Deliverables
 - [ ] A report on what you've learnt
 - [ ] Hard data and metrics from the simulation.
 - [ ] A documentation page with analysis and results and notes.

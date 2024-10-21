@@ -37,9 +37,9 @@ the test cases will need to be regularly updated to reflect those changes.
 
 * fully qualified name: `vac:qa:nomos:da-testing-2024q4:basic-functionality-tests`
 * owner: romanzac
-* status: in progress (50%)
+* status: in progress (70% - blocked for now because of external task: `Code review of Nomos library by Ramses`)
 * start-date: 2024/10/07
-* end-date: 2024/10/21
+* end-date: 2024/11/08
 
 #### Description
 Add integration tests to build on top of existing unit tests for data availability,
@@ -53,7 +53,7 @@ focusing on functionality and using nomos-cli as the initiating node.
 
 * fully qualified name: `vac:qa:nomos:da-testing-2024q4:dispersal-storage-tests`
 * owner: romanzac
-* status: not started
+* status: in progress (15%)
 * start-date: 2024/10/21
 * end-date: 2024/11/04
 
@@ -101,10 +101,11 @@ to reconstruct or retrieve data.
 * owner: romanzac
 * status: not started
 * start-date: 2024/12/02
-* end-date: 2024/12/13
+* end-date: 2024/12/20
 
 #### Description
 Add edge case integration tests to cover unusual system behavior.
+Test edge cases for behaviours implemented for dispersal, replication and sampling.
 
 #### Deliverables
 * PR link with added tests

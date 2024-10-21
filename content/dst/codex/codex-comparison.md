@@ -132,7 +132,7 @@ We would also like to collect all data from the items in this matrix:
 
 * fully qualified name: `vac:dst:codex:codex-comparison:argocd-or-similar`
 * owner: Wings
-* status: 80%
+* status: 95%
 * start-date: 2024/10/04
 * end-date: 2024/12/31
 
@@ -148,6 +148,10 @@ with a Helm chart or plain manifests in it. Use it to support Codex Comparison w
 * The demonstrated ability to run an nwaku simulation.
 * Deployed Codex comparison test harness.
 
+#### Status
+* We have demonstrated the ability to run nwaku, spawning a deployment from a GitHub issue
+* Deploying a Codex comparison harness is next
+* as is full documentation.
 
 ### Working Matrices
 

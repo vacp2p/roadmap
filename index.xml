@@ -10,25 +10,31 @@
     <link>https://roadmap.vac.dev/acz/ift/acz-research-destination-2024q4</link>
     <guid>https://roadmap.vac.dev/acz/ift/acz-research-destination-2024q4</guid>
     <description>Providing ACZ research informative materials for the ecosystem.</description>
-    <pubDate>Tue, 08 Oct 2024 09:50:21 GMT</pubDate>
+    <pubDate>Mon, 14 Oct 2024 16:50:47 GMT</pubDate>
   </item><item>
     <title>de-mls Testnet</title>
     <link>https://roadmap.vac.dev/acz/ift/de-mls-testnet</link>
     <guid>https://roadmap.vac.dev/acz/ift/de-mls-testnet</guid>
     <description>Implementation of a de-mls testnet, extending the previous poc and writing the corresponding RFC.</description>
-    <pubDate>Tue, 08 Oct 2024 09:50:21 GMT</pubDate>
+    <pubDate>Mon, 14 Oct 2024 16:50:47 GMT</pubDate>
   </item><item>
     <title>LibP2P mix protocol</title>
     <link>https://roadmap.vac.dev/acz/ift/libp2p-mix-poc</link>
     <guid>https://roadmap.vac.dev/acz/ift/libp2p-mix-poc</guid>
     <description>Publishing a raw RFC specifying libp2p mixnet protocol and implementing a PoC.</description>
-    <pubDate>Thu, 03 Oct 2024 19:50:32 GMT</pubDate>
+    <pubDate>Mon, 14 Oct 2024 16:50:47 GMT</pubDate>
+  </item><item>
+    <title>Logos ZK Calls</title>
+    <link>https://roadmap.vac.dev/acz/ift/logos-zk-calls-2024q4</link>
+    <guid>https://roadmap.vac.dev/acz/ift/logos-zk-calls-2024q4</guid>
+    <description>Preparation and conducting the ZK meetings.</description>
+    <pubDate>Sun, 13 Oct 2024 11:20:14 GMT</pubDate>
   </item><item>
     <title>Think tank</title>
     <link>https://roadmap.vac.dev/acz/ift/think-tank</link>
     <guid>https://roadmap.vac.dev/acz/ift/think-tank</guid>
     <description>Publishing a reviewing document for the cryptography modules of IFT projects.</description>
-    <pubDate>Tue, 08 Oct 2024 09:50:21 GMT</pubDate>
+    <pubDate>Mon, 14 Oct 2024 16:50:47 GMT</pubDate>
   </item><item>
     <title>Zerokit v.0.6</title>
     <link>https://roadmap.vac.dev/acz/ift/zerokit-v0-6</link>
@@ -39,32 +45,26 @@
     <title>Applied Cryptography and Zero-knowledge Service Unit</title>
     <link>https://roadmap.vac.dev/acz/</link>
     <guid>https://roadmap.vac.dev/acz/</guid>
-    <description>vac:acz: § ift: § zerokit-v0.6 de-mls-testnet libp2p-mix-poc think-tank acz-research-destination-2024q4 waku: § RLN relay support codex: § nomos: § nes § nimbus: §.</description>
-    <pubDate>Tue, 08 Oct 2024 09:50:21 GMT</pubDate>
+    <description>vac:acz: § ift: § zerokit-v0.6 de-mls-testnet libp2p-mix-poc think-tank acz-research-destination-2024q4 logos-zk-calls-2024q4 waku: § waku-rln-relay codex: § nomos: § nes § nescience-consulting nimbus: §.</description>
+    <pubDate>Sun, 13 Oct 2024 11:20:14 GMT</pubDate>
+  </item><item>
+    <title>Nescience Consulting</title>
+    <link>https://roadmap.vac.dev/acz/nes/nescience-consulting</link>
+    <guid>https://roadmap.vac.dev/acz/nes/nescience-consulting</guid>
+    <description>Creating a review document on the specification and architecture of the Nescience node.</description>
+    <pubDate>Sun, 13 Oct 2024 11:20:14 GMT</pubDate>
+  </item><item>
+    <title>Waku RLN Relay</title>
+    <link>https://roadmap.vac.dev/acz/waku/waku-rln-relay</link>
+    <guid>https://roadmap.vac.dev/acz/waku/waku-rln-relay</guid>
+    <description>Providing implementation support to Waku RLN relay for solving the related issues.</description>
+    <pubDate>Sun, 13 Oct 2024 11:20:14 GMT</pubDate>
   </item><item>
     <title>proxy-re-encryption</title>
     <link>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/codex/proxy-re-encryption</link>
     <guid>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/codex/proxy-re-encryption</guid>
     <description>vac:acz:consulting:codex:proxy-re-encryption § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Proxy Re-Encryption: , 2024-05-27, 2024-09-30 status: 50% CC: Ramses + 1 Description § To embed and assist codex with their proxy re-encryption primitive.</description>
     <pubDate>Mon, 30 Sep 2024 16:33:59 GMT</pubDate>
-  </item><item>
-    <title>Nescience ZK Consulting</title>
-    <link>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/nescience/zk-consulting</link>
-    <guid>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/nescience/zk-consulting</guid>
-    <description>vac:acz:consulting:nes:zk-consulting § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Nescience ZK Consulting: , 2024-01-01, 2024-12-31 status: 30% CC: Ugur Description § To assist the Nescience team with their ZK needs.</description>
-    <pubDate>Mon, 30 Sep 2024 16:33:59 GMT</pubDate>
-  </item><item>
-    <title>init</title>
-    <link>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/nomos/init</link>
-    <guid>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/nomos/init</guid>
-    <description>init cryptography consulting for nomos.</description>
-    <pubDate>Mon, 30 Sep 2024 16:33:59 GMT</pubDate>
-  </item><item>
-    <title>Applied Cryptography and Zero-knowledge Service Unit</title>
-    <link>https://roadmap.vac.dev/archive/2024h1/vac/acz/</link>
-    <guid>https://roadmap.vac.dev/archive/2024h1/vac/acz/</guid>
-    <description>vac:acz: § rlnp2p:waku: § production-readiness rln-membership-management rln-relay-enhancements rln-relay-enhancements_02 rln-relay-erc20 rlnv2-relay-integration rln-multi-epoch-constraints rlnv2-e2e rlnp2p:vac: § rln-doc-and-outreach light-rln-verifiers rln-light-clients rlnp2p:status: § rln-usage zerokit:vac: § zerokit-v0.</description>
-    <pubDate>Thu, 04 Jul 2024 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -132,8 +132,11 @@ Test the Store protocol at scale.
 #### Deliverables
 - [x] [A report on the results](https://www.notion.so/Test-Store-Protocol-At-Scale-1228f96fb65c80ed9eb8ca7b1d69061d) of the test,
   including analysis, data and metrics.
-- [ ] A list of any issues encountered.
-- [ ] Hard data and metrics from the simulation.
+- [x] [A list of any issues encountered](https://www.notion.so/Test-Store-Protocol-At-Scale-1228f96fb65c80ed9eb8ca7b1d69061d?pvs=4#1228f96fb65c8059a79cebe3b13e8ebb) (no issues reported).
+- [x] [Hard data and metrics from the simulation](https://www.notion.so/Test-Store-Protocol-At-Scale-1228f96fb65c80ed9eb8ca7b1d69061d?pvs=4#1228f96fb65c8059a79cebe3b13e8ebb).
+
+#### Status
+Fully delivered.
 
 ### High Churn Relay+Store Reliability
 

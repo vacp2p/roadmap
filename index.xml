@@ -10,31 +10,31 @@
     <link>https://roadmap.vac.dev/acz/ift/acz-research-destination-2024q4</link>
     <guid>https://roadmap.vac.dev/acz/ift/acz-research-destination-2024q4</guid>
     <description>Providing ACZ research informative materials for the ecosystem.</description>
-    <pubDate>Mon, 14 Oct 2024 16:50:47 GMT</pubDate>
+    <pubDate>Fri, 25 Oct 2024 16:56:33 GMT</pubDate>
   </item><item>
     <title>de-mls Testnet</title>
     <link>https://roadmap.vac.dev/acz/ift/de-mls-testnet</link>
     <guid>https://roadmap.vac.dev/acz/ift/de-mls-testnet</guid>
     <description>Implementation of a de-mls testnet, extending the previous poc and writing the corresponding RFC.</description>
-    <pubDate>Mon, 14 Oct 2024 16:50:47 GMT</pubDate>
+    <pubDate>Fri, 25 Oct 2024 16:56:33 GMT</pubDate>
+  </item><item>
+    <title>IFT ZK Calls</title>
+    <link>https://roadmap.vac.dev/acz/ift/ift-zk-calls-2024q4</link>
+    <guid>https://roadmap.vac.dev/acz/ift/ift-zk-calls-2024q4</guid>
+    <description>Preparation and conducting the ZK meetings.</description>
+    <pubDate>Fri, 25 Oct 2024 16:56:33 GMT</pubDate>
   </item><item>
     <title>LibP2P mix protocol</title>
     <link>https://roadmap.vac.dev/acz/ift/libp2p-mix-poc</link>
     <guid>https://roadmap.vac.dev/acz/ift/libp2p-mix-poc</guid>
     <description>Publishing a raw RFC specifying libp2p mixnet protocol and implementing a PoC.</description>
-    <pubDate>Mon, 14 Oct 2024 16:50:47 GMT</pubDate>
-  </item><item>
-    <title>Logos ZK Calls</title>
-    <link>https://roadmap.vac.dev/acz/ift/logos-zk-calls-2024q4</link>
-    <guid>https://roadmap.vac.dev/acz/ift/logos-zk-calls-2024q4</guid>
-    <description>Preparation and conducting the ZK meetings.</description>
-    <pubDate>Sun, 13 Oct 2024 11:20:14 GMT</pubDate>
+    <pubDate>Fri, 25 Oct 2024 16:56:33 GMT</pubDate>
   </item><item>
     <title>Think tank</title>
     <link>https://roadmap.vac.dev/acz/ift/think-tank</link>
     <guid>https://roadmap.vac.dev/acz/ift/think-tank</guid>
     <description>Publishing a reviewing document for the cryptography modules of IFT projects.</description>
-    <pubDate>Mon, 14 Oct 2024 16:50:47 GMT</pubDate>
+    <pubDate>Fri, 25 Oct 2024 16:56:33 GMT</pubDate>
   </item><item>
     <title>Zerokit v.0.6</title>
     <link>https://roadmap.vac.dev/acz/ift/zerokit-v0-6</link>
@@ -45,8 +45,8 @@
     <title>Applied Cryptography and Zero-knowledge Service Unit</title>
     <link>https://roadmap.vac.dev/acz/</link>
     <guid>https://roadmap.vac.dev/acz/</guid>
-    <description>vac:acz: § ift: § zerokit-v0.6 de-mls-testnet libp2p-mix-poc think-tank acz-research-destination-2024q4 logos-zk-calls-2024q4 waku: § waku-rln-relay codex: § nomos: § nes § nescience-consulting nimbus: §.</description>
-    <pubDate>Sun, 13 Oct 2024 11:20:14 GMT</pubDate>
+    <description>vac:acz: § ift: § zerokit-v0.6 de-mls-testnet libp2p-mix-poc think-tank acz-research-destination-2024q4 ift-zk-calls-2024q4 waku: § waku-rln-relay codex: § nomos: § nes § nescience-consulting nimbus: §.</description>
+    <pubDate>Fri, 25 Oct 2024 16:56:33 GMT</pubDate>
   </item><item>
     <title>Nescience Consulting</title>
     <link>https://roadmap.vac.dev/acz/nes/nescience-consulting</link>
@@ -58,7 +58,7 @@
     <link>https://roadmap.vac.dev/acz/waku/waku-rln-relay</link>
     <guid>https://roadmap.vac.dev/acz/waku/waku-rln-relay</guid>
     <description>Providing implementation support to Waku RLN relay for solving the related issues.</description>
-    <pubDate>Sun, 13 Oct 2024 11:20:14 GMT</pubDate>
+    <pubDate>Fri, 25 Oct 2024 16:56:33 GMT</pubDate>
   </item><item>
     <title>proxy-re-encryption</title>
     <link>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/codex/proxy-re-encryption</link>

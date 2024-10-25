@@ -39,7 +39,7 @@ culture.
 
 - Fully qualified name: `ift:rfc:vac:culture-establishment-2024q4:notion-documentation`
 - Owner: cofson
-- Status: not started
+- Status: 20%
 - Start date: 2024/10/01
 - End date: 2024/10/20
 

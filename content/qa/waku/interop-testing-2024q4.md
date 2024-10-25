@@ -44,9 +44,9 @@ ensuring PR-level validation.
 
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:edge-cases`
 * owner: aya
-* status: in progress (10%)
+* status: in progress (70% - delayed because of onboarding new CC)
 * start-date: 2024/10/07
-* end-date: 2024/10/21
+* end-date: 2024/10/28
 
 #### Description
 Expand the coverage to include negative scenarios,
@@ -63,8 +63,8 @@ such as protocol failures, unexpected data, or unexpected node behavior.
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:e2e-scenarios`
 * owner: fbarbu15
 * status: not started
-* start-date: 2024/10/21
-* end-date: 2024/11/04
+* start-date: 2024/10/28
+* end-date: 2024/11/06
 
 #### Description
 Design and implement end-to-end test scenarios involving at least 4-5 nodes.
@@ -82,7 +82,7 @@ to ensure performance stability.
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:known-issues`
 * owner: fbarbu15
 * status: not started
-* start-date: 2024/11/04
+* start-date: 2024/11/06
 * end-date: 2024/11/18
 
 #### Description

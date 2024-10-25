@@ -9,12 +9,12 @@ tags:
 ---
 
 ### `ift`
-* [ ] [[dst/ift/deployer-tool|deployer-tool]]
 * [ ] [[dst/ift/visualiser-tool|visualiser-tool]]
 * [ ] [[dst/ift/vaclab|vaclab]]
 
 ### `waku`
 * [ ] [[dst/waku/waku-scaling|waku-scaling]]
+* [ ] [[dst/waku/waku-evaluation|waku-evaluation]]
 
 ### `codex`
 * [ ] [[dst/codex/codex-base-capacity|codex-base-capacity]]

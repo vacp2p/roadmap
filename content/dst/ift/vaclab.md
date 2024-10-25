@@ -110,8 +110,8 @@ Already done:
 * fully qualified name: `vac:dst:ift:vaclab:better-time-slicing`
 * owner: Wings
 * status: 0%
-* start-date: 2024/10/01
-* end-date: 2024/12/31
+* start-date: 2024/12/01
+* end-date: 2024/12/14
 
 #### Description
 Do a better job of time slicing the lab.

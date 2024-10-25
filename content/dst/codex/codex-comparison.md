@@ -52,7 +52,7 @@ Finally, together we'll help in writing the final report at the end of the proce
 
 * fully qualified name: <vac:dst:codex:codex-comparison:matrices-deployments>
 * owner: Wings
-* status: 50%
+* status: 90%
 * start-date: 2024/10/01
 * end-date: 2024/10/18
 
@@ -79,6 +79,10 @@ in the course of a single test.
 * Automated systems for running a matrix of tests and measuring them.
 
 This will build on prior work by DST that benefits from this work as well (ArgoCD work).
+
+#### Status
+* We have working deployments for Waku, which will be adapted to Codex soon
+* We have a theoretically working system for matrices deployments, with a few tweaks and tests needed
 
 ### How Fast Is Codex?
 
@@ -128,7 +132,7 @@ We would also like to collect all data from the items in this matrix:
 
 * fully qualified name: `vac:dst:codex:codex-comparison:argocd-or-similar`
 * owner: Wings
-* status: 80%
+* status: 95%
 * start-date: 2024/10/04
 * end-date: 2024/12/31
 
@@ -144,12 +148,16 @@ with a Helm chart or plain manifests in it. Use it to support Codex Comparison w
 * The demonstrated ability to run an nwaku simulation.
 * Deployed Codex comparison test harness.
 
+#### Status
+* We have demonstrated the ability to run nwaku, spawning a deployment from a GitHub issue
+* Deploying a Codex comparison harness is next
+* as is full documentation.
 
 ### Working Matrices
 
 * fully qualified name: <vac:dst:codex:codex-comparison:working-matrices>
 * owner: Wings
-* status: 0%
+* status: 90%
 * start-date: 2024/10/04
 * end-date: 2024/12/31
 
@@ -165,3 +173,7 @@ Test some basic deployments and record findings.
 * A deployment matrix tool or set of instructions/documentation.
 * Deployments tested and working with a 3x3 matrix of different configurations.
 * Used by us or Codex to test Codex and answer questions about it.
+
+#### Status
+* We have a working system for matrices deployments, with a few tweaks and tests needed
+* Needs heterogenous support added

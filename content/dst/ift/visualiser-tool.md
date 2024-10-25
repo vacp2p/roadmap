@@ -46,8 +46,8 @@ that don't provide a visual way of analysing large scale behaviours.
 * fully qualified name: `vac:dst:ift:visualiser-tool:debug-visualiser`
 * owner: Alberto
 * status: 0%
-* start-date: 2024/10/01
-* end-date: 2024/12/31
+* start-date: 2024/11/15
+* end-date: 2024/12/10
 
 #### Description
 

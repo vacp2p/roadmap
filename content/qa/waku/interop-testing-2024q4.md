@@ -44,7 +44,7 @@ ensuring PR-level validation.
 
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:edge-cases`
 * owner: aya
-* status: in progress (70% - missed the deadline because Aya's onboarding into waku interop tests wasn't taken into account when I initially estimated this task)
+* status: in progress (70% - delayed because of onboarding new CC)
 * start-date: 2024/10/07
 * end-date: 2024/10/28
 

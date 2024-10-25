@@ -37,7 +37,7 @@ the test cases will need to be regularly updated to reflect those changes.
 
 * fully qualified name: `vac:qa:nomos:da-testing-2024q4:basic-functionality-tests`
 * owner: romanzac
-* status: in progress (70% - blocked for now because of external task: `Code review of Nomos library by Ramses`)
+* status: in progress (70%)
 * start-date: 2024/10/07
 * end-date: 2024/11/08
 

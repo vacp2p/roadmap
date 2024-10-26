@@ -36,12 +36,14 @@ We will also strengthen the Premier Research Destination narrative by:
 
 #### Description 
 
-Maintain clear documentation of zero-knowledge techniques that can be easily accessed and used by all of IFT's teams, 
-as well as the community as large.
+Provide comprehensive documentation of zero-knowledge techniques used and developed by IFT teams 
+that is accessible and user-friendly to all IFT teams and the broader community. 
+This task is important to diffuse the ZK how-know across the IFT. 
 
 #### Deliverables 
 
 * A notions page to maintain current (and accurate) information on each of IFT's usage of ZK techniques.
-* Organize ZK notes in an accessible manner for IFT CCs to get a clear overview or deep dive depending on their needs.
+* A notions page that organizes ZK notes in an accessible manner for IFT CCs 
+to get a clear overview or deep dive depending on their needs.
 * Write 101-blog on ZK techniques to [vac-dev](https://vac.dev/rlog/).
   * Fiat-Shamir blog post: https://vac.dev/rlog/vac101-fiat-shamir/

@@ -32,13 +32,13 @@ to initiate discussions and contribute to the benefit of the ecosystem.
 
 ## Task List
 
-### Crypto Think Tank 
+### Crypto Consulting
 
-* fully qualified name: `vac:acz:ift:think-tank:crypto-think-tank`
+* fully qualified name: `vac:acz:ift:think-tank:crypto-consulting`
 * owner: Ramses
 * status: done
-* start-date: 2024/10/21
-* end-date: 2024/11/04
+* start-date: 2024/10/14
+* end-date: 2024/10/21
 
 #### Description 
 Code review for a KZG implementation performed by Waku and Nomos.
@@ -47,6 +47,27 @@ Code review for a KZG implementation performed by Waku and Nomos.
 
 [A notion page](https://www.notion.so/WiP-Code-review-Nomos-library-1068f96fb65c80338499c9f06e702b41) 
 containing the review by Ramses
+
+### Crypto Think Tank 
+
+* fully qualified name: `vac:acz:ift:think-tank:crypto-think-tank`
+* owner: Ramses
+* status: done
+* start-date: 2024/10/21
+* end-date: 2024/11/25
+
+#### Description 
+
+Provide comprehensive documentation of cryptographic techniques used and developed by IFT teams 
+that is accessible and user-friendly to all IFT teams and the broader community. 
+This task is important to diffuse the cryptographic components' how-know across the IFT. 
+ 
+#### Deliverables 
+
+* A notions page to maintain current (and accurate) information on each of IFT's usage of cryptographical components
+such as creating randomness, signature, commitment,  encryption schemes and cryptograhic primitives.
+* A notions page that organizes cryptographical component notes in an accessible manner for IFT CCs 
+to get a clear overview or deep dive depending on their needs.
 
 ### ZK Consulting Codex 1
 

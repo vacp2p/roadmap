@@ -44,7 +44,7 @@ ensuring PR-level validation.
 
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:edge-cases`
 * owner: aya
-* status: in progress (70% - delayed because of onboarding new CC)
+* status: done
 * start-date: 2024/10/07
 * end-date: 2024/10/28
 
@@ -55,14 +55,24 @@ Focus on edge cases that might not be triggered in normal operational flows,
 such as protocol failures, unexpected data, or unexpected node behavior.
 
 #### Deliverables
-* PR link with added edge-case tests
-* CI runs showing successful or failed executions with detailed reports
+PRs:
+* https://github.com/waku-org/waku-interop-tests/pull/76
+* https://github.com/waku-org/waku-interop-tests/pull/81
+* https://github.com/waku-org/waku-interop-tests/pull/79
+  
+CI Runs:
+* https://github.com/waku-org/waku-interop-tests/actions/runs/11540778495
+* https://github.com/waku-org/waku-interop-tests/actions/runs/11539734974
+  
+Issues found:
+* https://github.com/waku-org/nwaku/issues/3135
+* https://github.com/waku-org/nwaku/issues/3128
 
 ### E2E Scenarios
 
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:e2e-scenarios`
-* owner: fbarbu15
-* status: not started
+* owner: aya
+* status: in progress (10%)
 * start-date: 2024/10/28
 * end-date: 2024/11/06
 

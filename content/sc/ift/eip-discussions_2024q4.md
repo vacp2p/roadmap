@@ -28,7 +28,7 @@ improving cross-project collaboration.
 
 * fully qualified name: `vac:sc:ift:eip-discussions_2024q4:2024q4`
 * owner: r4bbit
-* status: in progress (15%)
+* status: in progress (20%)
 * start-date: 2024/10/07
 * end-date: 2024/12/27
 

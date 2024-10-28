@@ -36,7 +36,7 @@ Here are the main features and requirements of the first version of this token:
 
 * fully qualified name: `vac:sc:status:xp-token-v1:token-implementation`
 * owner: Andrea
-* status: in progress (50%)
+* status: in progress (65%)
 * start-date: 2024/10/18
 * end-date: 2024/10/25
 

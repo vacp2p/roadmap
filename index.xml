@@ -10,37 +10,37 @@
     <link>https://roadmap.vac.dev/acz/ift/acz-research-destination-2024q4</link>
     <guid>https://roadmap.vac.dev/acz/ift/acz-research-destination-2024q4</guid>
     <description>Providing ACZ research informative materials for the ecosystem.</description>
-    <pubDate>Mon, 28 Oct 2024 10:38:22 GMT</pubDate>
+    <pubDate>Wed, 30 Oct 2024 14:34:10 GMT</pubDate>
   </item><item>
     <title>de-mls Testnet</title>
     <link>https://roadmap.vac.dev/acz/ift/de-mls-testnet</link>
     <guid>https://roadmap.vac.dev/acz/ift/de-mls-testnet</guid>
     <description>Implementation of a de-mls testnet, extending the previous poc and writing the corresponding RFC.</description>
-    <pubDate>Fri, 25 Oct 2024 16:56:33 GMT</pubDate>
+    <pubDate>Wed, 30 Oct 2024 14:34:10 GMT</pubDate>
   </item><item>
     <title>IFT ZK Calls</title>
     <link>https://roadmap.vac.dev/acz/ift/ift-zk-calls-2024q4</link>
     <guid>https://roadmap.vac.dev/acz/ift/ift-zk-calls-2024q4</guid>
     <description>Preparation and conducting the ZK meetings.</description>
-    <pubDate>Fri, 25 Oct 2024 16:56:33 GMT</pubDate>
+    <pubDate>Wed, 30 Oct 2024 14:34:10 GMT</pubDate>
   </item><item>
     <title>LibP2P mix protocol</title>
     <link>https://roadmap.vac.dev/acz/ift/libp2p-mix-poc</link>
     <guid>https://roadmap.vac.dev/acz/ift/libp2p-mix-poc</guid>
     <description>Publishing a raw RFC specifying libp2p mixnet protocol and implementing a PoC.</description>
-    <pubDate>Fri, 25 Oct 2024 16:56:33 GMT</pubDate>
+    <pubDate>Wed, 30 Oct 2024 14:34:10 GMT</pubDate>
   </item><item>
     <title>Think tank</title>
     <link>https://roadmap.vac.dev/acz/ift/think-tank</link>
     <guid>https://roadmap.vac.dev/acz/ift/think-tank</guid>
     <description>Publishing a reviewing document for the cryptography modules of IFT projects.</description>
-    <pubDate>Mon, 28 Oct 2024 10:38:22 GMT</pubDate>
+    <pubDate>Wed, 30 Oct 2024 14:34:10 GMT</pubDate>
   </item><item>
     <title>Zerokit v.0.6</title>
     <link>https://roadmap.vac.dev/acz/ift/zerokit-v0-6</link>
     <guid>https://roadmap.vac.dev/acz/ift/zerokit-v0-6</guid>
     <description>Implementation of the next release of Zerokit.</description>
-    <pubDate>Tue, 08 Oct 2024 09:50:21 GMT</pubDate>
+    <pubDate>Wed, 30 Oct 2024 14:34:10 GMT</pubDate>
   </item><item>
     <title>Applied Cryptography and Zero-knowledge Service Unit</title>
     <link>https://roadmap.vac.dev/acz/</link>

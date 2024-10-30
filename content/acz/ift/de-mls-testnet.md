@@ -38,12 +38,13 @@ gain support from the Ethereum ecosystem.
 
 * fully qualified name: `vac:acz:ift:de-mls-testnet:de-mls-rfc`
 * owner: Ramses
-* status: in progress (70%)
+* status: in progress (85%)
 * start-date: 2024/10/07
 * end-date: 2024/11/04
 
 #### Description 
-Creation of a detailed RFC describing the protocol for a decentralized verison of MLS. This proposal will include a login phase inspired by SIWE avoiding the centralized components of the latter. 
+Creation of a detailed RFC describing the protocol for a decentralized verison of MLS. 
+This proposal will include a login phase inspired by SIWE avoiding the centralized components of the latter. 
 
 #### Deliverables 
 
@@ -53,7 +54,7 @@ Several PRs to the deMLS repository
 
 * fully qualified name: `vac:acz:ift:de-mls-testnet:presentation`
 * owner: Ramses
-* status: in progress (60%)
+* status: done
 * start-date: 2024/10/14
 * end-date: 2024/10/23
 
@@ -62,14 +63,15 @@ Creation of a presentation of de-MLS for IFT research call.
 
 #### Deliverables 
 
-A presentation that describes the RFC in terms of technical, usage, and implementation point of view. 
+A presentation that describes the RFC in terms of technical, usage, and implementation point of view in 
+[notion](https://www.notion.so/Applied-Cryptography-ZK-870520f131954b90b1837ec4749f890f?pvs=4#12d8f96fb65c80f49f11e8e6fe7fc974)
 
 
 ### Login Specs
 
 * fully qualified name: `vac:acz:ift:de-mls-testnet:login-specs`
 * owner: Ramses
-* status: in progress (25%)
+* status: in progress (90%)
 * start-date: 2024/10/14
 * end-date: 2024/10/28
 
@@ -87,7 +89,7 @@ A specification document for scalable, implementable, and decentralized authenti
 * owner: Ugur
 * status: in progress (30%)
 * start-date: 2024/10/14
-* end-date: 2024/11/04
+* end-date: 2024/11/18
 
 #### Description
 
@@ -102,7 +104,7 @@ An submitting EF grants by the application document and keeping an eye the proce
 
 * fully qualified name: `vac:acz:ift:de-mls-testnet:testnet-api`
 * owner: Ekaterina
-* status: not started
+* status: in progress (20%)
 * start-date: 2024/10/21
 * end-date: 2024/11/04
 
@@ -164,7 +166,8 @@ A blogpost to [vac-dev](https://vac.dev/rlog/)
 * end-date: 2024/12/01
 
 #### Description 
- Creation of a detailed RFC describing an alternative approach using DCGKA for a decentralized communication protocol. This approach avoid the use of smart contracts and includes a login phase inspired by SIWE. 
+ Creation of a detailed RFC describing an alternative approach using DCGKA for a decentralized communication protocol. 
+ This approach avoid the use of smart contracts and includes a login phase inspired by SIWE. 
 
 #### Deliverables 
 

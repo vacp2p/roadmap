@@ -32,24 +32,6 @@ for users looking to integrate RLN into their projects.
 
 ## Task List
 
-### Circom Witness rs
-
-* fully qualified name: `vac:acz:ift:zerokit-v0-6:circom-witness-rs`
-* owner: Ekaterina
-* status: not started 
-* start-date: 2024/10/21
-* end-date: 2024/11/04
-
-#### Description
-
-Replace the zkey with https://github.com/philsippl/circom-witness-rs for faster witness generation. Benchmark and compare performance with the existing setup. 
-Example: https://github.com/philsippl/semaphore-witness-example
-rln-v2 circuits: https://github.com/Rate-Limiting-Nullifier/circom-rln
-
-#### Deliverables
-
-PR to vacp2p/zerokit repo with related update for v0.6
-
 ### RLN Timestamp & wasm 
 
 * fully qualified name: `vac:acz:ift:zerokit-v0-6:rln-timestamp-and-wasm`
@@ -90,5 +72,22 @@ Lastly solving the issue: [Docs fail to build on docs.rs](https://github.com/vac
 
 PR to vacp2p/zerokit repo with related update for v0.6
 
+### Circom Witness rs
+
+* fully qualified name: `vac:acz:ift:zerokit-v0-6:circom-witness-rs`
+* owner: Ekaterina
+* status: not started 
+* start-date: 2024/12/02
+* end-date: 2024/12/16
+
+#### Description
+
+Replace the zkey with https://github.com/philsippl/circom-witness-rs for faster witness generation. Benchmark and compare performance with the existing setup. 
+Example: https://github.com/philsippl/semaphore-witness-example
+rln-v2 circuits: https://github.com/Rate-Limiting-Nullifier/circom-rln
+
+#### Deliverables
+
+PR to vacp2p/zerokit repo with related update for v0.6
 
 

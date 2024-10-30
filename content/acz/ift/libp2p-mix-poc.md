@@ -49,7 +49,7 @@ offering improvements over Tor push.
 
 * fully qualified name: `vac:acz:ift:libp2p-mix-poc:libp2p-integration`
 * owner: Akshaya
-* status: in progress (85%)
+* status: done
 * start-date: 2024/10/07
 * end-date: 2024/10/28
 
@@ -60,12 +60,16 @@ Implement protocol handler logic for sender nodes including packet creation and 
 #### Deliverables
 
 * PR to vacp2p/mix repos with related implementation
+	* [destination and make mix handler generic commit](https://github.com/vacp2p/mix/commit/b91185a3b8d549021081c637c94b79bc374399b4)
+	* [mix message and serialization commit](https://github.com/vacp2p/mix/commit/3dd51144b1a4d035dd4c3fa3c16a18ea538d0956)
+	* [sender logic commit](https://github.com/vacp2p/mix/commit/c954b993589ea173eca18707509545b923a3cdbb)
+	* [fragmentation commit](https://github.com/vacp2p/mix/commit/2d0f69859fead80b4782b1014ca68803db3a502b)
 
 ### Simulate Anonymized Ping
 
 * fully qualified name: `vac:acz:ift:libp2p-mix-poc:sim-anon-ping`
 * owner: Akshaya
-* status: not started
+* status: in progress (10%)
 * start-date: 2024/10/28
 * end-date: 2024/11/04
 

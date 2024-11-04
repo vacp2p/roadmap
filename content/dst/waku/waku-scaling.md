@@ -207,7 +207,7 @@ and the discoveries we make during the course of this work.
 
 * fully qualified name: `vac:dst:waku:waku-scaling:filter-lightpush-tests`
 * owner: Alberto
-* status: 0%
+* status: 100%
 * start-date: 2024/10/18
 * end-date: 2024/10/25
 
@@ -215,9 +215,14 @@ and the discoveries we make during the course of this work.
 Test the Filter and lightpush protocols at scale.
 
 #### Deliverables
-- [ ] A report on the current reliability and performance of the protocols at scale.
-- [ ] Filed any issues encountered.
-- [ ] Hard data and metrics from the simulation.
+- [X] A report on the current reliability and performance of the protocols at scale.
+  - [Private Report](https://www.notion.so/Filter-and-lightpush-tests-12a8f96fb65c8073bb7dd9ba465a67cb)
+  - [Public Report](https://zealous-polka-dc7.notion.site/Filter-and-lightpush-tests-12a8f96fb65c8041818bcd24b3b819c1)
+- [X] Filed any issues encountered.
+  - [Connections issue](https://github.com/waku-org/nwaku/issues/3163)
+  - [Documentation issue](https://github.com/waku-org/waku-rest-api/pull/15)
+- [X] Hard data and metrics from the simulation.
+  - [Data](https://www.notion.so/Filter-and-lightpush-tests-12a8f96fb65c8073bb7dd9ba465a67cb?pvs=4#12a8f96fb65c807db16cf565c269bf4a)
 
 ### Measure DiscV5 bandwidth with Waku discovery
 

@@ -122,7 +122,7 @@ that Waku can in fact scale to these sizes and perform reliably.
 
 * fully qualified name: `vac:dst:waku:waku-scaling:test-store-protocol-at-scale`
 * owner: Alberto
-* status: 100%
+* status: Done
 * start-date: 2024/10/07
 * end-date: 2024/10/18
 
@@ -207,7 +207,7 @@ and the discoveries we make during the course of this work.
 
 * fully qualified name: `vac:dst:waku:waku-scaling:filter-lightpush-tests`
 * owner: Alberto
-* status: 100%
+* status: Done
 * start-date: 2024/10/18
 * end-date: 2024/10/25
 

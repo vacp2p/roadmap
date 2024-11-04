@@ -216,8 +216,7 @@ Test the Filter and lightpush protocols at scale.
 
 #### Deliverables
 - [X] A report on the current reliability and performance of the protocols at scale.
-  - [Private Report](https://www.notion.so/Filter-and-lightpush-tests-12a8f96fb65c8073bb7dd9ba465a67cb)
-  - [Public Report](https://zealous-polka-dc7.notion.site/Filter-and-lightpush-tests-12a8f96fb65c8041818bcd24b3b819c1)
+  - [Report](https://zealous-polka-dc7.notion.site/Filter-and-lightpush-tests-12a8f96fb65c8041818bcd24b3b819c1)
 - [X] Filed any issues encountered.
   - [Connections issue](https://github.com/waku-org/nwaku/issues/3163)
   - [Documentation issue](https://github.com/waku-org/waku-rest-api/pull/15)

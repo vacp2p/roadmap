@@ -52,7 +52,7 @@ containing the review by Ramses
 
 * fully qualified name: `vac:acz:ift:think-tank:crypto-think-tank`
 * owner: Ramses
-* status: done
+* status: in progress (20%)
 * start-date: 2024/10/21
 * end-date: 2024/11/25
 
@@ -73,7 +73,7 @@ to get a clear overview or deep dive depending on their needs.
 
 * fully qualified name: `vac:acz:ift:think-tank:zk-consulting-codex-1`
 * owner: Marvin
-* status: in progress (20%)
+* status: in progress (30%)
 * start-date: 2024/10/07
 * end-date: 2024/12/02
 
@@ -90,7 +90,7 @@ On going explorative, provide notes on zero-knowledge techniques from the litera
 
 * fully qualified name: `vac:acz:ift:think-tank:zk-consulting-codex-2`
 * owner: Marvin
-* status: in progress (23%)
+* status: in progress (33%)
 * start-date: 2024/10/07
 * end-date: 2024/12/02
 

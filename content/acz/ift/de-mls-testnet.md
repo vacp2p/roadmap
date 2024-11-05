@@ -38,7 +38,7 @@ gain support from the Ethereum ecosystem.
 
 * fully qualified name: `vac:acz:ift:de-mls-testnet:de-mls-rfc`
 * owner: Ramses
-* status: in progress (85%)
+* status: in progress (95%)
 * start-date: 2024/10/07
 * end-date: 2024/11/04
 
@@ -71,7 +71,7 @@ A presentation that describes the RFC in terms of technical, usage, and implemen
 
 * fully qualified name: `vac:acz:ift:de-mls-testnet:login-specs`
 * owner: Ramses
-* status: in progress (90%)
+* status: in progress (95%)
 * start-date: 2024/10/14
 * end-date: 2024/10/28
 
@@ -104,9 +104,9 @@ An submitting EF grants by the application document and keeping an eye the proce
 
 * fully qualified name: `vac:acz:ift:de-mls-testnet:testnet-api`
 * owner: Ekaterina
-* status: in progress (20%)
+* status: in progress (30%)
 * start-date: 2024/10/21
-* end-date: 2024/11/04
+* end-date: 2024/11/11
 
 #### Description
 

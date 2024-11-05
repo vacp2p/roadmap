@@ -50,7 +50,7 @@ identify gaps, and provide recommendations for improvements.
 
 * fully qualified name: `vac:qa:ift:projects-qa-strategy-2024q4:nomos`
 * owner: fbarbu15
-* status: in progress(60%)
+* status: done
 * start-date: 2024/10/21
 * end-date: 2024/11/04
 
@@ -59,7 +59,7 @@ Investigate and document Nomos QA strategy,
 identify gaps, and provide recommendations for improvements.
 
 #### Deliverables
-* Link with Notion page
+* Nomos Test Coverage [report](https://www.notion.so/Nomos-VAC-QA-Test-Coverage-Report-12e8f96fb65c807d8c45dd2dce6df31b)
 
 ### Status
 

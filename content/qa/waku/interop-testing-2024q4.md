@@ -72,7 +72,7 @@ Issues found:
 
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:e2e-scenarios`
 * owner: aya
-* status: in progress (10%)
+* status: in progress (70%)
 * start-date: 2024/10/28
 * end-date: 2024/11/06
 
@@ -90,8 +90,8 @@ to ensure performance stability.
 ### Known Issues
 
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:known-issues`
-* owner: fbarbu15
-* status: not started
+* owner: aya
+* status: in progress (10%)
 * start-date: 2024/11/06
 * end-date: 2024/11/18
 

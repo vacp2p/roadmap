@@ -72,7 +72,7 @@ Issues found:
 
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:e2e-scenarios`
 * owner: aya
-* status: in progress (10%)
+* status: done
 * start-date: 2024/10/28
 * end-date: 2024/11/06
 
@@ -84,14 +84,26 @@ Incorporate the validation of node metrics at the conclusion of each test
 to ensure performance stability.
 
 #### Deliverables
-* PR with E2E test suite
-* CI runs with successful multi-node E2E test executions
+PRs:
+- https://github.com/waku-org/waku-interop-tests/pull/85
+- https://github.com/waku-org/waku-interop-tests/pull/80
+- https://github.com/waku-org/waku-interop-tests/pull/86
+
+CI Runs:
+- https://github.com/waku-org/waku-interop-tests/actions/runs/11763131690
+- https://github.com/waku-org/waku-interop-tests/actions/runs/11762708653
+- https://github.com/waku-org/waku-interop-tests/actions/runs/11716675132
+- https://github.com/waku-org/waku-interop-tests/actions/runs/11722193214
+
+Issues found:
+- https://github.com/waku-org/nwaku/issues/3168
+- https://github.com/waku-org/nwaku/issues/3169
 
 ### Known Issues
 
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:known-issues`
-* owner: fbarbu15
-* status: not started
+* owner: aya
+* status: in progress (25%)
 * start-date: 2024/11/06
 * end-date: 2024/11/18
 

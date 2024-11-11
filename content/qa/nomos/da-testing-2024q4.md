@@ -37,7 +37,7 @@ the test cases will need to be regularly updated to reflect those changes.
 
 * fully qualified name: `vac:qa:nomos:da-testing-2024q4:basic-functionality-tests`
 * owner: romanzac
-* status: in progress (80%)
+* status: done
 * start-date: 2024/10/07
 * end-date: 2024/11/08
 
@@ -46,8 +46,28 @@ Add integration tests to build on top of existing unit tests for data availabili
 focusing on functionality and using nomos-cli as the initiating node.
 
 #### Deliverables
-* PR link with added tests
-* CI runs showing successful or failed executions with detailed reports
+##### PRs:
+  - [PR #819](https://github.com/logos-co/nomos-node/pull/819) - pending on issue 902
+    - TC1.16: Verify that Dispersal can prepare data correctly.
+    - TC1.17: Verify that Dispersal can send and await response correctly.  
+    - TC1.26: Ensure that DA nodes can correctly connect to their assigned subnets.
+
+  - [PR #898](https://github.com/logos-co/nomos-node/pull/898) - postponed to time when transation data protection in place 
+    - TC1.4: Verify that Kate commitments are correctly implemented.
+    - TC1.20: Verify the correct initialization of global parameters and roots of unity.
+    - TC1.6: Verify that the DAEncoder can correctly chunkify the input data.
+    - TC1.22: Verify FK20 proof generation for polynomials.
+    - TC1.23: Verify KZG commitment generation from byte data.
+    - TC1.24: Verify the generation and verification of element proofs in KZG.
+    - TC1.25: Verify the encoding of polynomials using RS code and subsequent decoding.
+
+##### CI Runs:
+  - [Run #11660035391](https://github.com/logos-co/nomos-node/actions/runs/11660035391)    
+  - [Run #11734644660](https://github.com/logos-co/nomos-node/actions/runs/11734644660)
+
+##### Issues Found:
+  - [Executor behaviour connects to other executor behaviour for dispersal](https://github.com/logos-co/nomos-node/issues/900)
+  - [Dispersal messages have not reached the validator on self-hosted runner](https://github.com/logos-co/nomos-node/issues/902)
 
 ### Dispersal and Storage Tests
 

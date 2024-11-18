@@ -103,7 +103,7 @@ Issues found:
 
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:known-issues`
 * owner: aya
-* status: in progress (25%)
+* status: done
 * start-date: 2024/11/06
 * end-date: 2024/11/18
 
@@ -123,14 +123,22 @@ This ensures that once an issue is closed,
 it doesn't resurface again.
 
 #### Deliverables
-* PRs with tests covering known issues
-* CI runs validating issue resolution and bug regression tests
+PRs:
+- https://github.com/waku-org/waku-interop-tests/pull/87
+
+CI runs:
+- https://github.com/waku-org/waku-interop-tests/actions/runs/11890542812
+- https://github.com/waku-org/waku-interop-tests/actions/runs/11890003986
+
+Issues found:
+- https://github.com/waku-org/go-waku/issues/1254
+- https://github.com/waku-org/go-waku/issues/1253
 
 ### Faster Runners
 
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:faster-runners`
 * owner: fbarbu15
-* status: not started
+* status: in progress (5%)
 * start-date: 2024/11/18
 * end-date: 2024/12/02
 

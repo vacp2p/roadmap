@@ -30,7 +30,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:acz-research-destination:zk-think-tank`
 * owner: Marvin
-* status: in progress (30%)
+* status: in progress (40%)
 * start-date: 2024/10/07
 * end-date: 2024/12/02
 

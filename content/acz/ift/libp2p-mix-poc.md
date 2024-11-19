@@ -69,7 +69,7 @@ Implement protocol handler logic for sender nodes including packet creation and 
 
 * fully qualified name: `vac:acz:ift:libp2p-mix-poc:sim-anon-ping`
 * owner: Akshaya
-* status: in progress (40%)
+* status: in progress (60%)
 * start-date: 2024/10/28
 * end-date: 2024/11/04
 

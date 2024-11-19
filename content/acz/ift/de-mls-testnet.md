@@ -38,7 +38,7 @@ gain support from the Ethereum ecosystem.
 
 * fully qualified name: `vac:acz:ift:de-mls-testnet:de-mls-rfc`
 * owner: Ramses
-* status: in progress (95%)
+* status: in progress (97%)
 * start-date: 2024/10/07
 * end-date: 2024/11/04
 

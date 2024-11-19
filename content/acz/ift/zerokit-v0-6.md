@@ -18,8 +18,8 @@ Implementation of the next release of Zerokit
 developed in Rust, intended for integration with various system programming environments.
 
 This commitment marks the next iteration of Zerokit addressed by the issue https://github.com/vacp2p/zerokit/issues/263, 
-version 0.6.0, which introduces several new features, including arkzkey, a stateless architecture 
-and Poseidon hash integration, distinguishing it from the previous version.
+version 0.6.0, which introduces several new features, including arkzkey, a stateless architecture, 
+distinguishing it from the previous version.
 
 By utilizing the zerokit-v0-6 commitment, we will reinforce the Conduit of Expertise narrative by:
 * Delivers an optimized version for IFT projects utilizing Zerokit, 
@@ -31,6 +31,39 @@ for users looking to integrate RLN into their projects.
 
 
 ## Task List
+
+### Release v0.6
+
+* fully qualified name: `vac:acz:ift:zerokit-v0-6:release`
+* owner: Ekaterina
+* status: done
+* start-date: 2024/10/07
+* end-date: 2024/11/18
+
+#### Description
+
+The new version of the Zerokit v0.6 based on the issue [#263](https://github.com/vacp2p/zerokit/issues/263)
+that covers stateless feature and uncompressed key and its benchmarks. 
+
+#### Deliverables
+A set of PRs to vacp2p/zerokit repository with [tag v0.6.0](https://github.com/vacp2p/zerokit/releases/tag/v0.6.0) 
+
+* chore(rln): add verifying key deser benchmark by @rymnc in https://github.com/vacp2p/zerokit/pull/258
+* chore(rln): use ark serialized verification key for faster serde by @rymnc in https://github.com/vacp2p/zerokit/pull/259
+* chore(rln): refactor resource initialization by @rymnc in https://github.com/vacp2p/zerokit/pull/260
+* chore(rln): further refactoring of interface by @rymnc in https://github.com/vacp2p/zerokit/pull/261
+* chore(release): v0.5.1 by @rymnc in https://github.com/vacp2p/zerokit/pull/262
+* fix(rln-wasm): run tests again by @rymnc in https://github.com/vacp2p/zerokit/pull/264
+* Stateless Feature by @seemenkina in https://github.com/vacp2p/zerokit/pull/265
+* fix(CI): add condition for stateless feature by @seemenkina in https://github.com/vacp2p/zerokit/pull/267
+* chore(rln-wasm): Make rln-wasm stateless by @seemenkina in https://github.com/vacp2p/zerokit/pull/266
+* fix(CI): update actions version by @seemenkina in https://github.com/vacp2p/zerokit/pull/268
+* fix(CI): add test for all features by @seemenkina in https://github.com/vacp2p/zerokit/pull/270
+* chore(rln): add uncompressed key and benches by @seemenkina in https://github.com/vacp2p/zerokit/pull/269
+
+
+**Full Changelog**: https://github.com/vacp2p/zerokit/compare/v0.5.1...v0.6.0
+
 
 ### RLN Timestamp & wasm 
 

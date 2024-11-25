@@ -46,7 +46,7 @@ the VAC RFC team aims to be a repository for RFCs across all IFT projects.
 
 - Fully qualified name: `ift:rfc:codex:marketplace-and-client:erasure-coding`
 - Owner: jimstir
-- Status: 50%
+- Status: 100%
 - Start date: 2024/10/01
 - End date: 2024/11/15
 
@@ -61,13 +61,13 @@ and client nodes can restore datasets abandoned by providers.
 Validator nodes detect missing data.
 #### Deliverables 
 
-- Raw RFC  
+- Deprecated task, handed over to the Codex team.  
 
 ### Codex Client - Manifest
 
 - Fully qualified name: `ift:rfc:codex:marketplace-and-client:manifest`
 - Owner: jimstir
-- Status: not started
+- Status: 100%
 - Start date: 2024/10/01
 - End date: 2024/11/15
 
@@ -80,13 +80,13 @@ The manifest encodes datasets within a Codex client node.
 
 #### Deliverables 
 
-- Raw RFC  
+- Deprecated task, handed over to the Codex team.  
 
 ### Codex Marketplace
 
 - Fully qualified name: `ift:rfc:codex:marketplace-and-client:marketplace`
 - Owner: jimstir
-- Status: not started
+- Status: 100%
 - Start date: 2024/12/15
 - End date: 2024/12/29
 
@@ -104,4 +104,4 @@ and this specification describes interactions for various network roles.
 
 #### Deliverables 
 
-- Raw RFC  
+- Deprecated task, handed over to the Codex team.  

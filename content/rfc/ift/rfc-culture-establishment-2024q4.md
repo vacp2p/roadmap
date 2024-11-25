@@ -20,10 +20,11 @@ within the IFT ecosystem.
 This commitment involves creating a plan using Notion documentation 
 and the initiation of implementing RFC culture 
 through communication with teams in the IFT ecosystem. 
-The effort will align with critical project milestones, ensuring that no 
-information is published prematurely. The focus will be on creating a task list 
-for communication and a go-to resource (in Notion) for information about RFC 
-culture.
+The effort will align with critical project milestones,
+ensuring that no information is published prematurely.
+The focus will be on creating a task list for communication
+and a go-to resource (in Notion)
+for information about RFC culture.
 
 **Alignment with VAC Narratives:**
 
@@ -39,7 +40,7 @@ culture.
 
 - Fully qualified name: `ift:rfc:vac:culture-establishment-2024q4:notion-documentation`
 - Owner: cofson
-- Status: 20%
+- Status: 90%
 - Start date: 2024/10/01
 - End date: 2024/10/20
 
@@ -57,7 +58,7 @@ team's services. Add subpages where more detailed information is needed.
 
 - Fully qualified name: `ift:rfc:vac:culture-establishment-2024q4:team-communication`
 - Owner: cofson
-- Status: not started
+- Status: 75%
 - Start date: 2024/11/01
 - End date: 2024/12/10
 
@@ -74,7 +75,7 @@ channels to decide the best path forward.
 ### Forum Post
 
 - Fully qualified name: `ift:rfc:vac:culture-establishment-2024q4:forum-post`
-- Owner: cofson
+- Owner: Ksr
 - Status: not started
 - Start date: 2024/11/11
 - End date: 2024/12/31

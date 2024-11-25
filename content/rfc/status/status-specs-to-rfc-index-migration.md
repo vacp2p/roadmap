@@ -30,7 +30,7 @@ as a main repository for specification.
 - Fully qualified name: 
 	`ift:rfc:status:status-specs-to-rfc-index-migration`
 - Owner: cofson
-- Status: 50%
+- Status: 100%
 - Start date: 2024/10/01
 - End date: 2024/10/30
 

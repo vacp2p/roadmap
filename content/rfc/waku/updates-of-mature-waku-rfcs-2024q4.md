@@ -94,7 +94,7 @@ querying messages received through the relay protocol and stored by other nodes.
 - Fully qualified name: 
   `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:14/WAKU2-MESSAGE`
 - Owner: jimstir
-- Status: not started
+- Status: 40%
 - Start date: 2024/10/28
 - End date: 2024/11/11
 
@@ -112,7 +112,7 @@ specific security goals and provide Whisper/Waku v1 backward compatibility.
 - Fully qualified name: 
   `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:19/WAKU2-LIGHTPUSH`
 - Owner: jimstir
-- Status: not started
+- Status: 80%
 - Start date: 2024/10/14
 - End date: 2024/10/28
 
@@ -130,7 +130,7 @@ publish messages in the Waku network and receive confirmation of delivery.
 - Fully qualified name: 
   `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:34/WAKU2-PEER-EXCHANGE`
 - Owner: jimstir
-- Status: 80%
+- Status: 100%
 - Start date: 2024/10/07
 - End date: 2024/12/21
 
@@ -147,7 +147,7 @@ A peer discovery protocol for resource-restricted devices.
 - Fully qualified name: 
   `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:15/WAKU-BRIDGE`
 - Owner: jimstir
-- Status: not started
+- Status: 50%
 - Start date: 2024/11/11
 - End date: 2024/11/25
 

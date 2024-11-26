@@ -15,7 +15,12 @@ description:
 
 ## Task List
 
-### <task Refactor Nimble>
+<!-- - Make `nim` part of the `SAT` resolution
+- Download `nim` binaries with opt-out flag
+- Enumerate all packages non special versions 
+- Github action that installs nimble -->
+
+### <Task Download `nim` binaries with opt-out flag>
 
 * fully qualified name: <>
 * owner: Juan
@@ -25,31 +30,14 @@ description:
 
 #### Description
 
-
-- Refactor the legacy solver and refactor the code so we can change the order of how things are done. Which will help us to improve code paths and add features like parsing first or download async, etc.
-  
-#### Deliverables
-
-- New `nimble` version that implements the new features.
-
-### <task Make local packages the new default>
-
-* fully qualified name: <>
-* owner: Juan
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
-
-#### Description
-- Make `local` packages the new default.
-- Cache/download `nim` binaries.
-- Other UX improvements.
+- Download `nim` binaries with opt-out flag. This will speed up the `nimble install` command. It will also have a big impact on the CI.
 
 #### Deliverables
 
 - New `nimble` version that implements the new features.
 
-### <task Parse deps without running nim>
+
+### <Task Enumerate all packages non special versions>
 
 * fully qualified name: <>
 * owner: Juan
@@ -59,7 +47,41 @@ description:
 
 #### Description
 
-- Parse deps without running `nim`.
+- Enumerate all packages non special versions. The SAT solver will be able to fallback to a previous version of a package if the latest one cant be resolved.
+
+#### Deliverables
+
+- New `nimble` version that implements the new features.
+
+
+### <Task Github action that installs nimble>
+
+* fully qualified name: <>
+* owner: Juan
+* status: <not started or in progress (0%-99%) or done>
+* start-date: <yyyy/mm/dd>
+* end-date: <yyyy/mm/dd>
+
+#### Description
+
+- Github action that installs `nimble`.
+
+#### Deliverables
+
+- Github action that installs `nimble`.
+
+
+### <Task Make `nim` part of the `SAT` resolution>
+
+* fully qualified name: <>
+* owner: Juan
+* status: <not started or in progress (0%-99%) or done>
+* start-date: <yyyy/mm/dd>
+* end-date: <yyyy/mm/dd>
+
+#### Description
+
+- Make `nim` part of the `SAT` resolution.
 
 #### Deliverables
 

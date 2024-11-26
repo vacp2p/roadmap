@@ -8,7 +8,7 @@ draft: false
 description:
 ---
 
-`vac:nim:ift:nim-ide-tooling_2024q4`
+`vac:nim:ift:nim_ide_tooling_2024q4`
 
 ## Description
 

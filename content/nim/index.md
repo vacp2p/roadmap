@@ -9,7 +9,7 @@ tags:
 ---
 
 ### `ift:`
-* [ ] [[nim/ift/nim-ide-tooling_2024q4|nim-ide-tooling_2024q4]]
+* [ ] [[nim/ift/nim_ide_tooling_2024q4|nim_ide_tooling_2024q4]]
 * [ ] [[nim/ift/nimble_2024q4|nimble_2024q4]]
 
 

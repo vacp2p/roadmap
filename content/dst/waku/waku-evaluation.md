@@ -72,6 +72,8 @@ and ensure they don't happen again.
 
 #### Deliverables
 * Analysis done
+  * [October report](https://www.notion.so/Waku-regression-testing-v0-33-1268f96fb65c81f38095cbfc25acb2ce)
 * Report published with all relevant details
 * Vac Roadmap updated regularly
   with links to the analysis and results.
+  * [Nº of connections issue](https://github.com/waku-org/nwaku/issues/3163)

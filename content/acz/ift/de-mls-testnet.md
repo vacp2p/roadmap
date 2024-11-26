@@ -71,7 +71,7 @@ A presentation that describes the RFC in terms of technical, usage, and implemen
 
 * fully qualified name: `vac:acz:ift:de-mls-testnet:login-specs`
 * owner: Ramses
-* status: in progress (95%)
+* status: done
 * start-date: 2024/10/14
 * end-date: 2024/10/28
 
@@ -81,7 +81,8 @@ Specification of scalable, implementable, and decentralized authentication mecha
 
 #### Deliverables
 
-A specification document for scalable, implementable, and decentralized authentication mechanism as login phase for the RFC.
+A specification [document](https://www.notion.so/WiP-SimpleLogin-protocol-1298f96fb65c8090adb2faeba7ecfb31) for scalable, implementable, and decentralized authentication mechanism as login phase for the RFC.
+
 
 ### EF Grant Application
 

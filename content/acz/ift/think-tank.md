@@ -52,7 +52,7 @@ containing the review by Ramses
 
 * fully qualified name: `vac:acz:ift:think-tank:crypto-think-tank`
 * owner: Ramses
-* status: in progress (40%)
+* status: in progress (90%)
 * start-date: 2024/10/21
 * end-date: 2024/11/25
 

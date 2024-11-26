@@ -38,14 +38,15 @@ and introduced into the ecosystem.
 
 * fully qualified name: `vac:acz:nes:nescience-consulting:initial-reading`
 * owner: Aleksei
-* status: not started
-* start-date: 2024/11/04
-* end-date: 2024/11/11
+* status: in progress (0%)
+* start-date: 2024/11/26
+* end-date: 2024/12/06
 
 #### Description
 
 Understanding the core of the Nescience architecture including 
-its private, public, shielded, and deshielded execution based transactions. 
+its private, public, shielded, and deshielded execution based transactions 
+from the  [Nescience blogpost](https://vac.dev/rlog/Nescience-A-zkVM-leveraging-hiding-properties/)
 
 #### Deliverables
 
@@ -56,14 +57,15 @@ A technical document summarizing the details of the Nescience architecture for t
 
 * fully qualified name: `vac:acz:nes:nescience-consulting:node-spec-reviewing`
 * owner: Aleksei
-* status: not started
-* start-date: 2024/11/11
-* end-date: 2024/11/25
+* status: in progress (0%)
+* start-date: 2024/11/26
+* end-date: 2024/12/06
 
 #### Description
 
 Reviewing the node specifications and transforming them 
-into implementable or fully detailed versions.
+into implementable or fully detailed versions 
+from the [NSSA node specification page](https://notes.status.im/S7bBz8o6TeinQ-NCgX3Pmw) 
 
 #### Deliverables
 

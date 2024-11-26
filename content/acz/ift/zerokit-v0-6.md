@@ -85,6 +85,26 @@ Results of the rln-wasm audit
 
 PR to vacp2p/zerokit repo with related update for v0.6
 
+### Circom Witness rs
+
+* fully qualified name: `vac:acz:ift:zerokit-v0-6:circom-witness-rs`
+* owner: Aleksei
+* status: in progress (0%)
+* start-date: 2024/11/25
+* end-date: 2024/12/13
+
+#### Description
+
+Replacing the arkzkey with https://github.com/philsippl/circom-witness-rs for faster witness generation
+based on the [issue #271](https://github.com/vacp2p/zerokit/issues/271). 
+Benchmark and compare performance with the existing setup. 
+Example: https://github.com/philsippl/semaphore-witness-example
+rln-v2 circuits: https://github.com/Rate-Limiting-Nullifier/circom-rln
+
+#### Deliverables
+
+PR to vacp2p/zerokit repo with related update for v0.6
+
 ### Poseidon Hash
 
 * fully qualified name: `vac:acz:ift:zerokit-v0-6:poseidon-hash`
@@ -105,22 +125,6 @@ Lastly solving the issue: [Docs fail to build on docs.rs](https://github.com/vac
 
 PR to vacp2p/zerokit repo with related update for v0.6
 
-### Circom Witness rs
 
-* fully qualified name: `vac:acz:ift:zerokit-v0-6:circom-witness-rs`
-* owner: Ekaterina
-* status: not started 
-* start-date: 2024/12/02
-* end-date: 2024/12/16
-
-#### Description
-
-Replace the zkey with https://github.com/philsippl/circom-witness-rs for faster witness generation. Benchmark and compare performance with the existing setup. 
-Example: https://github.com/philsippl/semaphore-witness-example
-rln-v2 circuits: https://github.com/Rate-Limiting-Nullifier/circom-rln
-
-#### Deliverables
-
-PR to vacp2p/zerokit repo with related update for v0.6
 
 

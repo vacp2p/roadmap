@@ -37,8 +37,8 @@ Improve tooling around nim libp2p testing.
 * fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:gossipsub-core`
 * owner: alex
 * status: in progress (40%)
-* start-date: 2024/10/07
-* end-date: 2024/10/28
+* start-date: 
+* end-date: 
 
 #### Description
 Expand the Gossipsub test coverage by focusing on the core functionality in 2024 Q4.

@@ -65,7 +65,7 @@ identify gaps, and provide recommendations for improvements.
 
 * fully qualified name: `vac:qa:ift:projects-qa-strategy-2024q4:status`
 * owner: fbarbu15
-* status: in progress(50%)
+* status: done
 * start-date: 2024/11/04
 * end-date: 2024/11/22
 
@@ -74,7 +74,7 @@ Investigate and document Status QA strategy,
 identify gaps, and provide recommendations for improvements.
 
 #### Deliverables
-* Link with Notion page
+* Status Test Coverage [report](https://www.notion.so/Status-VAC-QA-Testing-Coverage-Report-14b8f96fb65c8086afc9df108bc170cc)
 
 ### Keycard
 

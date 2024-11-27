@@ -119,11 +119,12 @@ to reconstruct or retrieve data.
 
 * fully qualified name: `vac:qa:nomos:da-testing-2024q4:edge-cases`
 * owner: romanzac
-* status: not started
-* start-date: 2024/12/02
-* end-date: 2024/12/20
+* status: in progress (50%)
+* start-date: 2024/10/01
+* end-date: 2024/12/31
 
 #### Description
+This is an ongoing task.
 Add edge case integration tests to cover unusual system behavior.
 Test edge cases for behaviours implemented for dispersal, replication and sampling.
 

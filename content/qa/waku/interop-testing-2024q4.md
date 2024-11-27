@@ -198,8 +198,8 @@ to catch issues that may arise under suboptimal network conditions.
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:maintenace`
 * owner: fbarbu15
 * status: started (50%)
-* start-date: 2024/12/09
-* end-date: 2024/12/24
+* start-date: 2024/10/01
+* end-date: 2024/12/31
 
 #### Description
 Ongoing Maintenance for Waku Interop Tests

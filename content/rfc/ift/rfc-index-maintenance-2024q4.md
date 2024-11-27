@@ -25,7 +25,7 @@ This commitment revolves around a continuous effort to fix and update across the
 Fully qualified name: 
   `ift:rfc:vac:rfc-index-maintenance-2024q4:update-waku-links`
 - Owner: jimstir
-- Status: completed
+- Status: 100% ([PR #1](https://github.com/vacp2p/rfc.vac.dev/pull/7) [PR #2](https://github.com/vacp2p/rfc-index/pull/104))
 - Start date: 2024/10/04
 - End date: 2024/10/11
 

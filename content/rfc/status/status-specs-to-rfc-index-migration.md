@@ -30,7 +30,7 @@ as a main repository for specification.
 - Fully qualified name: 
 	`ift:rfc:status:status-specs-to-rfc-index-migration`
 - Owner: cofson
-- Status: 100%
+- Status: 100% ([PR](https://github.com/vacp2p/rfc-index/pull/109))
 - Start date: 2024/10/01
 - End date: 2024/10/30
 
@@ -56,7 +56,7 @@ Move the following RFCs, while confirming with the status team that they are ind
 
 #### Deliverables
 
-- Status RFCs moved to rfc-index.
+- Status RFCs moved to rfc-index: relevant PR: https://github.com/vacp2p/rfc-index/pull/109 
 - https://specs.status.im/ retired
 
 

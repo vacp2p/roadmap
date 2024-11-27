@@ -10,6 +10,8 @@ description: Write raw RFCs based on the documentation for Codex Marketplace and
 
 `ift:rfc:codex:marketplace-and-client-2024q4`
 
+UPDATE: This commitment has been deprecated due to Codex taking over their writing raw RFCs.
+
 Provide the service of writing raw RFCs
 based on the documentation for Codex Marketplace and Codex Client
 through discussion and support.
@@ -46,7 +48,7 @@ the VAC RFC team aims to be a repository for RFCs across all IFT projects.
 
 - Fully qualified name: `ift:rfc:codex:marketplace-and-client:erasure-coding`
 - Owner: jimstir
-- Status: 100%
+- Status: 100% (deprecated)
 - Start date: 2024/10/01
 - End date: 2024/11/15
 

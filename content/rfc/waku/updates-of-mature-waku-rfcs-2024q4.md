@@ -130,7 +130,7 @@ publish messages in the Waku network and receive confirmation of delivery.
 - Fully qualified name: 
   `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:34/WAKU2-PEER-EXCHANGE`
 - Owner: jimstir
-- Status: 100%
+- Status: 100% ([PR](https://github.com/vacp2p/rfc-index/pull/7))
 - Start date: 2024/10/07
 - End date: 2024/12/21
 
@@ -140,7 +140,7 @@ A peer discovery protocol for resource-restricted devices.
 
 #### Deliverables
 
-- Updated RFC document (potentially with an upgraded status).
+- Updated RFC document: https://github.com/vacp2p/rfc-index/pull/7 
 
 ### 15/WAKU-BRIDGE
 

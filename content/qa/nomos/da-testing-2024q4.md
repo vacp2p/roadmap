@@ -73,7 +73,7 @@ Issues Found:
 
 * fully qualified name: `vac:qa:nomos:da-testing-2024q4:dispersal-storage-tests`
 * owner: romanzac
-* status: in progress (15%)
+* status: in progress (80%)
 * start-date: 2024/10/21
 * end-date: 2024/11/04
 

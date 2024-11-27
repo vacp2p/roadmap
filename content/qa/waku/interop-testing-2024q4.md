@@ -138,7 +138,7 @@ Issues found:
 
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:faster-runners`
 * owner: fbarbu15
-* status: in progress (5%)
+* status: in progress (5% - blocked, waiting on infra to provide a large runner)
 * start-date: 2024/11/18
 * end-date: 2024/12/02
 
@@ -193,3 +193,53 @@ to catch issues that may arise under suboptimal network conditions.
 * CI configuration for on-demand full test runs with network constraints
 * Nightly CI runs for a subset of tests under network strain
 
+### Maintenance
+
+* fully qualified name: `vac:qa:waku:interop-testing-2024q4:maintenace`
+* owner: fbarbu15
+* status: started (50%)
+* start-date: 2024/12/09
+* end-date: 2024/12/24
+
+#### Description
+Ongoing Maintenance for Waku Interop Tests
+This task involves ensuring the continued reliability 
+and functionality of the Waku interop tests. 
+It includes adjusting tests whenever there are changes in nwaku or go-waku, 
+addressing detected regressions through investigation, reporting, and retesting, 
+and resolving infrastructure issues that disrupt the tests. 
+Additionally, it covers unplanned but necessary minor improvements to the testing framework 
+to enhance its effectiveness.
+
+#### Deliverables
+
+PRs:
+* https://github.com/waku-org/waku-interop-tests/pull/75
+* https://github.com/waku-org/waku-interop-tests/pull/79
+* https://github.com/waku-org/waku-interop-tests/pull/82
+* https://github.com/waku-org/waku-interop-tests/pull/84
+
+Issues found:
+* https://github.com/waku-org/go-waku/issues/1255
+
+### Libwaku Discovery
+
+* fully qualified name: `vac:qa:waku:interop-testing-2024q4:discover-libwaku`
+* owner: aya
+* status: started (50%)
+* start-date: 2024/11/25
+* end-date: 2024/11/28
+
+#### Description
+Brief Discovery for Libwaku Python and Golang Bindings
+Waku developers have requested support in evaluating 
+the possibility of creating a test framework for libwaku testing. 
+This task involves dedicating a few days to explore the requirements, 
+assess the feasibility, and determine whether we have the necessary capabilities 
+to work effectively with the existing implementation. 
+The goal is to understand the scope of the task 
+and identify the next steps for potential framework development.
+
+#### Deliverables
+PRs:
+Issues found:

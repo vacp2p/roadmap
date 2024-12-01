@@ -59,7 +59,7 @@ See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues
 
 * fully qualified name: `vac:sc:status:xp-nft-v1:upgradeability`
 * owner: Andrea
-* status: in progress (5%)
+* status: done (100%)
 * start-date: 2024/10/14
 * end-date: 2024/10/25
 
@@ -71,6 +71,6 @@ See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues
 
 #### Deliverables
 
-- [ ] Upgradeable XP NFT contract
-- [ ] Tests proving its upgradeability
+- [x] [Upgradeable XP NFT contract](https://github.com/vacp2p/staking-reward-streamer/blob/main/src/XPNFTToken.sol) (Upgradeable via `setMetadataGenerator` function)
+- [x] Tests proving its upgradeability (via [`setMetadataGenerator` function](https://github.com/vacp2p/staking-reward-streamer/blob/main/test/XPNFTToken.t.sol#L44-L51))
 

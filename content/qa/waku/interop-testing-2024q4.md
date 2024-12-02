@@ -137,8 +137,8 @@ Issues found:
 ### Faster Runners
 
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:faster-runners`
-* owner: fbarbu15
-* status: in progress (5% - blocked, waiting on infra to provide a large runner)
+* owner: aya
+* status: in progress (50%)
 * start-date: 2024/11/18
 * end-date: 2024/12/02
 
@@ -155,8 +155,8 @@ without compromising coverage.
 ### CI Integration
 
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:ci-integration`
-* owner: fbarbu15
-* status: not started
+* owner: aya
+* status: in progress (50%)
 * start-date: 2024/12/02
 * end-date: 2024/12/09
 

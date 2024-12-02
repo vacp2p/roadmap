@@ -87,10 +87,10 @@ PRs:
   - TC2.3: Confirm that attestations about received chunks are correctly sent back to the Zone.
 
 CI Runs:
-  - [Run #12066967078](https://github.com/logos-co/nomos-node/actions/runs/12066967078)    
+- [Run #12066967078](https://github.com/logos-co/nomos-node/actions/runs/12066967078)    
 
 Issues Found:
-  - [Unwrap on non-existent blob_col_idx](https://github.com/logos-co/nomos-node/issues/922)
+- [Unwrap on non-existent blob_col_idx](https://github.com/logos-co/nomos-node/issues/922)
 
 ### Certification and Verification Tests
 

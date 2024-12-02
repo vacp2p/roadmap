@@ -39,7 +39,7 @@ culture.
 
 - Fully qualified name: `ift:rfc:vac:culture-establishment-2024q4:notion-documentation`
 - Owner: cofson
-- Status: 20%
+- Status: 95%
 - Start date: 2024/10/01
 - End date: 2024/10/20
 
@@ -57,7 +57,7 @@ team's services. Add subpages where more detailed information is needed.
 
 - Fully qualified name: `ift:rfc:vac:culture-establishment-2024q4:team-communication`
 - Owner: cofson
-- Status: not started
+- Status: 50%
 - Start date: 2024/11/01
 - End date: 2024/12/10
 
@@ -74,8 +74,8 @@ channels to decide the best path forward.
 ### Forum Post
 
 - Fully qualified name: `ift:rfc:vac:culture-establishment-2024q4:forum-post`
-- Owner: cofson
-- Status: not started
+- Owner: Ksr
+- Status: completed (https://forum.vac.dev/t/rfc-process/368/3)
 - Start date: 2024/11/11
 - End date: 2024/12/31
 

@@ -40,7 +40,7 @@ so we can leverage this work to finalize a first version of the protocol.
 
 * fully qualified name: `vac:sc:status:staking-protocol-v1:merging-existing-solutions`
 * owner: ricardo
-* status: in progress (75%)
+* status: done (100%)
 * start-date: 2024/10/07
 * end-date: 2024/10/18
 
@@ -61,13 +61,14 @@ See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues
 
 #### Deliverables
 
-- [ ] `StakeVault` and `StakeManager` implementation leveraging reward streamer
+- [x] [RewardsStreamerMP implementation](https://github.com/vacp2p/staking-reward-streamer/blob/4968ad4ea65b7dcbfe16da497472174b218afbb7/src/RewardsStreamerMP.sol)
+- [x] [StakeVault implementation](https://github.com/vacp2p/staking-reward-streamer/blob/4968ad4ea65b7dcbfe16da497472174b218afbb7/src/StakeVault.sol)
 
 ### Upgradeability
 
 * fully qualified name: `vac:sc:status:staking-protocol-v1:upgradeability`
 * owner: ricardo
-* status: in progress (5%)
+* status: done(100%)
 * start-date: 2024/10/14
 * end-date: 2024/10/18
 
@@ -79,14 +80,14 @@ See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues
 
 #### Deliverables
 
-- [ ] Implementation of upgradeable staking contract
-- [ ] Test suite for upgradeable staking contract
+- [x] Implementation of [upgradeable staking contract](https://github.com/vacp2p/staking-reward-streamer/blob/4968ad4ea65b7dcbfe16da497472174b218afbb7/src/RewardsStreamerMP.sol#L12)
+- [x] [Test suite](https://github.com/vacp2p/staking-reward-streamer/blob/4968ad4ea65b7dcbfe16da497472174b218afbb7/test/RewardsStreamerMP.t.sol#L1799-L1851) for upgradeable staking contract
 
 ### Testing
 
 * fully qualified name: `vac:sc:status:staking-protocol-v1:testing`
 * owner: r4bbit 
-* status: in progress (80%)
+* status: in progress (90%)
 * start-date: 2024/10/07
 * end-date: 2024/10/18
 
@@ -105,7 +106,7 @@ See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues
 
 * fully qualified name: `vac:sc:status:staking-protocol-v1:formal-verification`
 * owner: r4bbit
-* status: in progress (70%)
+* status: in progress (99%)
 * start-date: 2024/10/07
 * end-date: 2024/10/18
 

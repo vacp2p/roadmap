@@ -38,13 +38,15 @@ gain support from the Ethereum ecosystem.
 
 * fully qualified name: `vac:acz:ift:de-mls-testnet:de-mls-rfc`
 * owner: Ramses
-* status: in progress (97%)
+* status: holds (40%)
 * start-date: 2024/10/07
 * end-date: 2024/11/04
 
 #### Description 
 Creation of a detailed RFC describing the protocol for a decentralized verison of MLS. 
 This proposal will include a login phase inspired by SIWE avoiding the centralized components of the latter. 
+
+This task is holding for now to determine the details.
 
 #### Deliverables 
 
@@ -71,13 +73,15 @@ A presentation that describes the RFC in terms of technical, usage, and implemen
 
 * fully qualified name: `vac:acz:ift:de-mls-testnet:login-specs`
 * owner: Ramses
-* status: done
+* status: holds
 * start-date: 2024/10/14
 * end-date: 2024/10/28
 
 #### Description
 
 Specification of scalable, implementable, and decentralized authentication mechanism as login phase for the RFC. 
+
+This task is holding for now to determine the details.
 
 #### Deliverables
 

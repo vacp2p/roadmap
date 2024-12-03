@@ -73,7 +73,7 @@ Issues Found:
 
 * fully qualified name: `vac:qa:nomos:da-testing-2024q4:dispersal-storage-tests`
 * owner: romanzac
-* status: in progress (15%)
+* status: done
 * start-date: 2024/10/21
 * end-date: 2024/11/04
 
@@ -81,8 +81,16 @@ Issues Found:
 Add integration tests focusing on the dispersal and storage interface.
 
 #### Deliverables
-* PR link with added tests
-* CI runs showing successful or failed executions with detailed reports
+PRs:
+- [PR #921](https://github.com/logos-co/nomos-node/pull/921)
+  - TC2.2: Ensure that DA nodes hold chunks in memory until the block with related BlobInfo is received.
+  - TC2.3: Confirm that attestations about received chunks are correctly sent back to the Zone.
+
+CI Runs:
+- [Run #12066967078](https://github.com/logos-co/nomos-node/actions/runs/12066967078)    
+
+Issues Found:
+- [Unwrap on non-existent blob_col_idx](https://github.com/logos-co/nomos-node/issues/922)
 
 ### Certification and Verification Tests
 
@@ -103,7 +111,7 @@ Add integration tests focusing on certificate completeness.
 
 * fully qualified name: `vac:qa:nomos:da-testing-2024q4:data-integrity-tests`
 * owner: romanzac
-* status: not started
+* status: in progress (5%)
 * start-date: 2024/11/22
 * end-date: 2024/12/02
 
@@ -119,11 +127,12 @@ to reconstruct or retrieve data.
 
 * fully qualified name: `vac:qa:nomos:da-testing-2024q4:edge-cases`
 * owner: romanzac
-* status: not started
-* start-date: 2024/12/02
-* end-date: 2024/12/20
+* status: in progress (50%)
+* start-date: 2024/10/01
+* end-date: 2024/12/31
 
 #### Description
+This is an ongoing task.
 Add edge case integration tests to cover unusual system behavior.
 Test edge cases for behaviours implemented for dispersal, replication and sampling.
 

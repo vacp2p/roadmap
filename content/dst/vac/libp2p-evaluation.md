@@ -75,6 +75,8 @@ and ensure they don't happen again.
 #### Deliverables
 * Analysis done
   * [October report](https://www.notion.so/Nim-libp2p-v1-6-0-regression-testing-October-2024-1308f96fb65c80869c97e373a6c7cfc8)
+  * [November report](https://www.notion.so/Nim-libp2p-v1-7-0-regression-testing-November-2024-1518f96fb65c802883ebcfaa1b8b851f)
+  * [November report 2](https://www.notion.so/Nim-libp2p-v1-7-1-regression-testing-November-2024-1518f96fb65c80359615e646eaac0c79)
 * Report published with all relevant details
 * RFC's GitHub issue updated
   with links to the analysis and results.

@@ -46,7 +46,7 @@ the VAC RFC team aims to be a repository for RFCs across all IFT projects.
 
 - Fully qualified name: `ift:rfc:codex:marketplace-and-client:erasure-coding`
 - Owner: jimstir
-- Status: 50%
+- Status: deprecated (the Codex team will take over the raw RFC writing)
 - Start date: 2024/10/01
 - End date: 2024/11/15
 

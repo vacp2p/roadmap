@@ -39,7 +39,7 @@ RFCs or different ones might be opened.
 - Fully qualified name: 
   `ift:rfc:nomos:data-availability-raw-rfc-2024q4:da-documentation-research`
 - Owner: cofson
-- Status: 70%
+- Status: 90%
 - Start date: 2024/10/10
 - End date: 2024/10/30
 
@@ -58,7 +58,7 @@ subject.
 
 - Fully qualified name: `ift:rfc:nomos:data-availability-raw-rfc-2024q4:da-raw-rfc`
 - Owner: cofson
-- Status: not started
+- Status: 50%
 - Start date: 2024/11/01
 - End date: 2024/11/30
 

@@ -30,7 +30,7 @@ as a main repository for specification.
 - Fully qualified name: 
 	`ift:rfc:status:status-specs-to-rfc-index-migration`
 - Owner: cofson
-- Status: 50%
+- Status: 100% (https://github.com/vacp2p/rfc-index/pull/109 - more work if necessary after review from Waku team)
 - Start date: 2024/10/01
 - End date: 2024/10/30
 

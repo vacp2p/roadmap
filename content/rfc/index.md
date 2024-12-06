@@ -13,6 +13,7 @@ tags:
 * [ ] [[rfc-index-maintenance-2024q4.md|rfc-index-maintenance-2024q4]]
 
 ### `status:`
+* [ ] [[status-specs-to-rfc-index-migration.md]|rfc-index-maintenance-2024q4]]
 
 ### `nomos:`
 * [ ] [[rfc/nomos/data-availability-raw-rfc-2024q4.md|data-availability-raw-rfc-2024q4]]

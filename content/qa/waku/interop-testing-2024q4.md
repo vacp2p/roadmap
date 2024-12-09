@@ -156,7 +156,7 @@ without compromising coverage.
 
 * fully qualified name: `vac:qa:waku:interop-testing-2024q4:ci-integration`
 * owner: aya
-* status: in progress (50%)
+* status: in progress (80%)
 * start-date: 2024/12/02
 * end-date: 2024/12/09
 

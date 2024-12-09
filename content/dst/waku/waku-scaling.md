@@ -179,7 +179,7 @@ such as nwaku and go-waku.
 
 * fully qualified name: `vac:dst:waku:waku-scaling:waku-shard-reliability-vs-scale`
 * owner: Alberto
-* status: 0%
+* status: 30%
 * start-date: 2024/10/01
 * end-date: 2024/12/31
 

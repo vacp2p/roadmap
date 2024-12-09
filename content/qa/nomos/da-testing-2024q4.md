@@ -157,3 +157,19 @@ to simplify existing code.
 * PR link with redesigned tests
 * CI runs showing successful or failed executions with detailed reports
 
+
+### Outline Small Scale Distributed Test Framework
+
+* fully qualified name: `vac:qa:nomos:da-testing-2024q4:outline-distributed-test-framework`
+* owner: romanzac
+* status: not started
+* start-date: 2024/12/09
+* end-date: 2024/12/20
+
+#### Description
+Create basic structure of small scale distributed test framework and
+use runtime without added virtualization layer as the initial PoC.
+
+#### Deliverables
+* PR link with the initial framework structure and one sample test
+* CI runs showing successful or failed executions with detailed reports

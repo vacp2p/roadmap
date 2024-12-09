@@ -10,7 +10,7 @@ description: Extend nim-libp2p testing coverage, documentation and tooling.
 
 ---
 
-`vac:qa:vac:nim-libp2p-testing-2024q4`
+`vac:qa:vac:2024q4-nim-libp2p-testing`
 
 ## Description
 Extend nim-libp2p testing coverage, documentation, and tooling.
@@ -34,7 +34,7 @@ Improve tooling around nim libp2p testing.
 
 ### Gossipsub Core
 
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2024q4:gossipsub-core`
+* fully qualified name: `vac:qa:vac:2024q4-nim-libp2p-testing:gossipsub-core`
 * owner: alex
 * status: in progress (40%)
 * start-date: 

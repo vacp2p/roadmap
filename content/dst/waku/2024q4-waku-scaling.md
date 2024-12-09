@@ -14,7 +14,7 @@ Deliver hard numbers and actionable insights.
 Confirm or reject our ideas."
 ---
 
-`vac:dst:waku:waku-scaling`
+`vac:dst:waku:2024q4-waku-scaling`
 
 ## Description
 Use realistic (running actual Waku nodes, no abstraction) testing,
@@ -120,7 +120,7 @@ that Waku can in fact scale to these sizes and perform reliably.
 
 ### Test Store Protocol At Scale
 
-* fully qualified name: `vac:dst:waku:waku-scaling:test-store-protocol-at-scale`
+* fully qualified name: `vac:dst:waku:2024q4-waku-scaling:test-store-protocol-at-scale`
 * owner: Alberto
 * status: Done
 * start-date: 2024/10/07
@@ -140,7 +140,7 @@ Fully delivered.
 
 ### High Churn Relay+Store Reliability
 
-* fully qualified name: `vac:dst:waku:waku-scaling:high-churn-relay-store-reliability`
+* fully qualified name: `vac:dst:waku:2024q4-waku-scaling:high-churn-relay-store-reliability`
 * owner: Alberto
 * status: 0%
 * start-date: 2024/10/01
@@ -157,7 +157,7 @@ If nodes go online/offline, we should be able to retrieve missing messages from 
 
 ### Relay/DiscV5 Resources in Heterogenous Clusters
 
-* fully qualified name: `vac:dst:waku:waku-scaling:relay-discv5-resources-in-heterogenous-clusters`
+* fully qualified name: `vac:dst:waku:2024q4-waku-scaling:relay-discv5-resources-in-heterogenous-clusters`
 * owner: Wings
 * status: 0%
 * start-date: 2024/10/01
@@ -177,7 +177,7 @@ such as nwaku and go-waku.
 
 ### Waku Shard Reliability vs Scale
 
-* fully qualified name: `vac:dst:waku:waku-scaling:waku-shard-reliability-vs-scale`
+* fully qualified name: `vac:dst:waku:2024q4-waku-scaling:waku-shard-reliability-vs-scale`
 * owner: Alberto
 * status: 30%
 * start-date: 2024/10/01
@@ -205,7 +205,7 @@ Adjust the specific tests involved
 in response to collaboration with the Waku team's directions
 and the discoveries we make during the course of this work.
 
-* fully qualified name: `vac:dst:waku:waku-scaling:filter-lightpush-tests`
+* fully qualified name: `vac:dst:waku:2024q4-waku-scaling:filter-lightpush-tests`
 * owner: Alberto
 * status: Done
 * start-date: 2024/10/18
@@ -225,7 +225,7 @@ Test the Filter and lightpush protocols at scale.
 
 ### Measure DiscV5 bandwidth with Waku discovery
 
-* fully qualified name: `vac:dst:waku:waku-scaling:measure-discv5-bandwidth-with-waku-discovery`
+* fully qualified name: `vac:dst:waku:2024q4-waku-scaling:measure-discv5-bandwidth-with-waku-discovery`
 * owner: Alberto
 * status: 0%
 * start-date: 2024/10/01
@@ -241,7 +241,7 @@ Measure the bandwidth usage of the Waku discovery protocol using the DiscV5 prot
 
 ### Partial PeX Experimental Analysis
 
-* fully qualified name: `vac:dst:waku:waku-scaling:partial-pex-experimental-analysis`
+* fully qualified name: `vac:dst:waku:2024q4-waku-scaling:partial-pex-experimental-analysis`
 * owner: Alberto
 * status: 0%
 * start-date: 2024/10/01
@@ -265,7 +265,7 @@ Measure overall bandwidth usage and record conclusions as to the impact of PeX.
 
 ### Mixed Environment Analysis
 
-* fully qualified name: `vac:dst:waku:waku-scaling:mixed-environment-analysis`
+* fully qualified name: `vac:dst:waku:2024q4-waku-scaling:mixed-environment-analysis`
 * owner: Alberto
 * status: 30%
 * start-date: 2024/10/01

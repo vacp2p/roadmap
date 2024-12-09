@@ -11,7 +11,7 @@ description: Implement data availability test plans for the Nomos project
 
 ---
 
-`vac:qa:nomos:da-testing-2024q4`
+`vac:qa:nomos:2024q4-da-testing`
 
 ## Description
 Implement data availability test plans for the Nomos project
@@ -35,7 +35,7 @@ the test cases will need to be regularly updated to reflect those changes.
 
 ### Basic Functionality Tests
 
-* fully qualified name: `vac:qa:nomos:da-testing-2024q4:basic-functionality-tests`
+* fully qualified name: `vac:qa:nomos:2024q4-da-testing:basic-functionality-tests`
 * owner: romanzac
 * status: done
 * start-date: 2024/10/07
@@ -71,7 +71,7 @@ Issues Found:
 
 ### Dispersal and Storage Tests
 
-* fully qualified name: `vac:qa:nomos:da-testing-2024q4:dispersal-storage-tests`
+* fully qualified name: `vac:qa:nomos:2024q4-da-testing:dispersal-storage-tests`
 * owner: romanzac
 * status: done
 * start-date: 2024/10/21
@@ -94,7 +94,7 @@ Issues Found:
 
 ### Certification and Verification Tests
 
-* fully qualified name: `vac:qa:nomos:da-testing-2024q4:certification-verification-tests`
+* fully qualified name: `vac:qa:nomos:2024q4-da-testing:certification-verification-tests`
 * owner: romanzac
 * status: not started
 * start-date: 2024/11/04
@@ -109,9 +109,9 @@ Add integration tests focusing on certificate completeness.
 
 ### Data Integrity Tests
 
-* fully qualified name: `vac:qa:nomos:da-testing-2024q4:data-integrity-tests`
+* fully qualified name: `vac:qa:nomos:2024q4-da-testing:data-integrity-tests`
 * owner: romanzac
-* status: in progress (5%)
+* status: in progress (20%)
 * start-date: 2024/11/22
 * end-date: 2024/12/02
 
@@ -125,7 +125,7 @@ to reconstruct or retrieve data.
 
 ### Edge Cases
 
-* fully qualified name: `vac:qa:nomos:da-testing-2024q4:edge-cases`
+* fully qualified name: `vac:qa:nomos:2024q4-da-testing:edge-cases`
 * owner: romanzac
 * status: in progress (50%)
 * start-date: 2024/10/01
@@ -142,7 +142,7 @@ Test edge cases for behaviours implemented for dispersal, replication and sampli
 
 ### Test Optimization
 
-* fully qualified name: `vac:qa:nomos:da-testing-2024q4:test-optimization`
+* fully qualified name: `vac:qa:nomos:2024q4-da-testing:test-optimization`
 * owner: romanzac
 * status: not started
 * start-date: 2024/12/13
@@ -157,3 +157,19 @@ to simplify existing code.
 * PR link with redesigned tests
 * CI runs showing successful or failed executions with detailed reports
 
+
+### Outline Small Scale Distributed Test Framework
+
+* fully qualified name: `vac:qa:nomos:2024q4-da-testing:outline-distributed-test-framework`
+* owner: romanzac
+* status: not started
+* start-date: 2024/12/09
+* end-date: 2024/12/20
+
+#### Description
+Create basic structure of small scale distributed test framework and
+use runtime without added virtualization layer as the initial PoC.
+
+#### Deliverables
+* PR link with the initial framework structure and one sample test
+* CI runs showing successful or failed executions with detailed reports

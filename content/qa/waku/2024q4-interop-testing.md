@@ -8,7 +8,7 @@ draft: false
 description: Extend Waku interop tests with focus on more advanced scenarios
 ---
 
-`vac:qa:waku:interop-testing-2024q4`
+`vac:qa:waku:2024q4-interop-testing`
 
 ## Description
 Extend Waku interop tests with focus on more advanced scenarios
@@ -42,7 +42,7 @@ ensuring PR-level validation.
 
 ### Edge Cases
 
-* fully qualified name: `vac:qa:waku:interop-testing-2024q4:edge-cases`
+* fully qualified name: `vac:qa:waku:2024q4-interop-testing:edge-cases`
 * owner: aya
 * status: done
 * start-date: 2024/10/07
@@ -70,7 +70,7 @@ Issues found:
 
 ### E2E Scenarios
 
-* fully qualified name: `vac:qa:waku:interop-testing-2024q4:e2e-scenarios`
+* fully qualified name: `vac:qa:waku:2024q4-interop-testing:e2e-scenarios`
 * owner: aya
 * status: done
 * start-date: 2024/10/28
@@ -101,7 +101,7 @@ Issues found:
 
 ### Known Issues
 
-* fully qualified name: `vac:qa:waku:interop-testing-2024q4:known-issues`
+* fully qualified name: `vac:qa:waku:2024q4-interop-testing:known-issues`
 * owner: aya
 * status: done
 * start-date: 2024/11/06
@@ -136,7 +136,7 @@ Issues found:
 
 ### Faster Runners
 
-* fully qualified name: `vac:qa:waku:interop-testing-2024q4:faster-runners`
+* fully qualified name: `vac:qa:waku:2024q4-interop-testing:faster-runners`
 * owner: aya
 * status: in progress (50%)
 * start-date: 2024/11/18
@@ -154,9 +154,9 @@ without compromising coverage.
 
 ### CI Integration
 
-* fully qualified name: `vac:qa:waku:interop-testing-2024q4:ci-integration`
+* fully qualified name: `vac:qa:waku:2024q4-interop-testing:ci-integration`
 * owner: aya
-* status: in progress (50%)
+* status: in progress (80%)
 * start-date: 2024/12/02
 * end-date: 2024/12/09
 
@@ -173,7 +173,7 @@ without adding significant overhead to CI.
 
 ### Network Conditions
 
-* fully qualified name: `vac:qa:waku:interop-testing-2024q4:network-conditions`
+* fully qualified name: `vac:qa:waku:2024q4-interop-testing:network-conditions`
 * owner: fbarbu15
 * status: not started
 * start-date: 2024/12/09
@@ -195,7 +195,7 @@ to catch issues that may arise under suboptimal network conditions.
 
 ### Maintenance
 
-* fully qualified name: `vac:qa:waku:interop-testing-2024q4:maintenace`
+* fully qualified name: `vac:qa:waku:2024q4-interop-testing:maintenace`
 * owner: fbarbu15
 * status: started (50%)
 * start-date: 2024/10/01
@@ -219,13 +219,14 @@ PRs:
 * https://github.com/waku-org/waku-interop-tests/pull/82
 * https://github.com/waku-org/waku-interop-tests/pull/84
 * https://github.com/waku-org/waku-interop-tests/pull/91
+* https://github.com/waku-org/waku-interop-tests/pull/93
 
 Issues found:
 * https://github.com/waku-org/go-waku/issues/1255
 
 ### Libwaku Discovery
 
-* fully qualified name: `vac:qa:waku:interop-testing-2024q4:discover-libwaku`
+* fully qualified name: `vac:qa:waku:2024q4-interop-testing:discover-libwaku`
 * owner: aya
 * status: started (50%)
 * start-date: 2024/11/25

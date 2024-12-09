@@ -10,7 +10,7 @@ description: Document existing QA strategy for IFT projects.
 
 ---
 
-`vac:qa:ift:projects-qa-strategy-2024q4`
+`vac:qa:ift:2024q4-projects-qa-strategy`
 
 ## Description
 Document existing QA strategy for IFT projects.
@@ -31,7 +31,7 @@ any identified gaps, and recommendations for improvement.
 
 ### Waku
 
-* fully qualified name: `vac:qa:ift:projects-qa-strategy-2024q4:waku`
+* fully qualified name: `vac:qa:ift:2024q4-projects-qa-strategy:waku`
 * owner: fbarbu15
 * status: done
 * start-date: 2024/10/07
@@ -48,7 +48,7 @@ identify gaps, and provide recommendations for improvements.
 
 ### Nomos
 
-* fully qualified name: `vac:qa:ift:projects-qa-strategy-2024q4:nomos`
+* fully qualified name: `vac:qa:ift:2024q4-projects-qa-strategy:nomos`
 * owner: fbarbu15
 * status: done
 * start-date: 2024/10/21
@@ -63,7 +63,7 @@ identify gaps, and provide recommendations for improvements.
 
 ### Status
 
-* fully qualified name: `vac:qa:ift:projects-qa-strategy-2024q4:status`
+* fully qualified name: `vac:qa:ift:2024q4-projects-qa-strategy:status`
 * owner: fbarbu15
 * status: done
 * start-date: 2024/11/04
@@ -78,7 +78,7 @@ identify gaps, and provide recommendations for improvements.
 
 ### Keycard
 
-* fully qualified name: `vac:qa:ift:projects-qa-strategy-2024q4:keycard`
+* fully qualified name: `vac:qa:ift:2024q4-projects-qa-strategy:keycard`
 * owner: fbarbu15
 * status: not started
 * start-date: 2024/11/22
@@ -93,7 +93,7 @@ identify gaps, and provide recommendations for improvements.
 
 ### Nimbus
 
-* fully qualified name: `vac:qa:ift:projects-qa-strategy-2024q4:nimbus`
+* fully qualified name: `vac:qa:ift:2024q4-projects-qa-strategy:nimbus`
 * owner: fbarbu15
 * status: not started
 * start-date: 2024/12/02

@@ -9,7 +9,7 @@ description: Collaborate with Status QA in creating a test framework that uses s
   to do functional testing for status go, by integrating existing Status CLI tests into it.
 ---
 
-`vac:qa:waku:status-go-functional-testing-2024q4`
+`vac:qa:waku:2024q4-status-go-functional-testing`
 
 ## Description
 Collaborate with Status QA in creating a test framework that uses status-backend
@@ -37,9 +37,9 @@ We will track test coverage to measure progress.
 
 ### Migrate to Status Backend
 
-* fully qualified name: `vac:qa:waku:status-go-functional-testing-2024q4:migrate-to-status-backend`
+* fully qualified name: `vac:qa:waku:2024q4-status-go-functional-testing:migrate-to-status-backend`
 * owner: fbarbu15
-* status: in progress (60% - delayed because of handover of work from a different CC and updates needed to be done to the Status Backend Framework)
+* status: in progress (80%)
 * start-date: 2024/10/07
 * end-date: 2024/11/11
 
@@ -59,7 +59,7 @@ since Status QA has started a similar effort using Python.
 
 ### Message tests
 
-* fully qualified name: `vac:qa:waku:status-go-functional-testing-2024q4:message-tests`
+* fully qualified name: `vac:qa:waku:2024q4-status-go-functional-testing:message-tests`
 * owner: fbarbu15
 * status: not started
 * start-date: 2024/11/11

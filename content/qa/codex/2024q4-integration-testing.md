@@ -12,7 +12,7 @@ description: Extend existing integration tests for the Codex project
 
 ---
 
-`vac:qa:codex:integration-testing-2024q4`
+`vac:qa:codex:2024q4-integration-testing`
 
 ## Description
 Extend existing integration tests for the Codex project
@@ -32,7 +32,7 @@ and improving the project's reliability.
 
 ### Marketplace Endpoints
 
-* fully qualified name: `vac:qa:codex:integration-testing-2024q4:marketplace-endpoints`
+* fully qualified name: `vac:qa:codex:2024q4-integration-testing:marketplace-endpoints`
 * owner: fbarbu15
 * status: not started
 * start-date: 2024/11/07
@@ -48,7 +48,7 @@ to ensure all key functionalities are thoroughly tested.
 
 ### Data Endpoints
 
-* fully qualified name: `vac:qa:codex:integration-testing-2024q4:data-endpoints`
+* fully qualified name: `vac:qa:codex:2024q4-integration-testing:data-endpoints`
 * owner: fbarbu15
 * status: not started
 * start-date: 2024/11/21
@@ -65,7 +65,7 @@ perform correctly under different conditions.
 
 ### Node and Debug Endpoints
 
-* fully qualified name: `vac:qa:codex:integration-testing-2024q4:node-and-debug-endpoints`
+* fully qualified name: `vac:qa:codex:2024q4-integration-testing:node-and-debug-endpoints`
 * owner: fbarbu15
 * status: not started
 * start-date: 2024/12/04

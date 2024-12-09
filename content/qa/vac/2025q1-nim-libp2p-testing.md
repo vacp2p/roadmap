@@ -10,7 +10,7 @@ description: Extend nim-libp2p testing coverage, documentation and tooling.
 
 ---
 
-`vac:qa:vac:nim-libp2p-testing-2025q1`
+`vac:qa:vac:2025q1-nim-libp2p-testing`
 
 ## Description
 Extend nim-libp2p testing coverage, documentation, and tooling.
@@ -34,7 +34,7 @@ Improve tooling around nim libp2p testing.
 
 ### Gossipsub Extended
 
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2025q1:gossipsub-extended`
+* fully qualified name: `vac:qa:vac:2025q1-nim-libp2p-testing:gossipsub-extended`
 * owner: fbarbu15
 * status: not started
 * start-date: 
@@ -54,7 +54,7 @@ and aim to improve overall test completeness.
 
 ### Pubsub
 
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2025q1:pubsub`
+* fully qualified name: `vac:qa:vac:2025q1-nim-libp2p-testing:pubsub`
 * owner: fbarbu15
 * status: not started
 * start-date: 
@@ -69,7 +69,7 @@ checking what’s not covered, and implementing new tests for those scenarios.
 
 ### Floodsub
 
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2025q1:floodsub`
+* fully qualified name: `vac:qa:vac:2025q1-nim-libp2p-testing:floodsub`
 * owner: fbarbu15
 * status: not started
 * start-date: 
@@ -84,7 +84,7 @@ checking what’s not covered, and implementing new tests for those scenarios.
 
 ### Test Plans
 
-* fully qualified name: `vac:qa:vac:nim-libp2p-testing-2025q1:test-plans`
+* fully qualified name: `vac:qa:vac:2025q1-nim-libp2p-testing:test-plans`
 * owner: fbarbu15
 * status: not started
 * start-date: 

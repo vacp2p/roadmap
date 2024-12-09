@@ -74,7 +74,8 @@ A presentation that describes the RFC in terms of technical, usage, and implemen
 
 * fully qualified name: `vac:acz:ift:de-mls-testnet:login-specs`
 * owner: Ramses
-* status: holds
+* status: on-hold
+
 * start-date: 2024/10/14
 * end-date: 2024/10/28
 

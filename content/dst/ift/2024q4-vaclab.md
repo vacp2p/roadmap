@@ -10,7 +10,7 @@ Anticipate untapped use cases and needs from other teams.
 Achieve 25% real world time usage."
 ---
 
-`vac:dst:ift:vaclab`
+`vac:dst:ift:2024q4-vaclab`
 
 ## Description
 
@@ -80,7 +80,7 @@ We will also provide support for the Premier Research destination narrative by:
 
 ### Status Page Known
 
-* fully qualified name: `vac:dst:ift:vaclab:status-page-known`
+* fully qualified name: `vac:dst:ift:2024q4-vaclab:status-page-known`
 * owner: Wings
 * status: 0%
 * start-date: 2024/12/01
@@ -107,7 +107,7 @@ Already done:
  
 ### Better Time Slicing
 
-* fully qualified name: `vac:dst:ift:vaclab:better-time-slicing`
+* fully qualified name: `vac:dst:ift:2024q4-vaclab:better-time-slicing`
 * owner: Wings
 * status: 0%
 * start-date: 2024/12/01
@@ -134,7 +134,7 @@ and will be done outside of normal DST cadence
 but will be managed so as not to disrupt other works
 -->
 
-* fully qualified name: `vac:dst:ift:vaclab:train-lab-staff`
+* fully qualified name: `vac:dst:ift:2024q4-vaclab:train-lab-staff`
 * owner: Wings
 * status: 30%
 * start-date: 2024/12/01
@@ -171,7 +171,7 @@ and will be done outside of normal DST cadence
 but will be managed so as not to disrupt other works
 -->
 
-* fully qualified name: `vac:dst:ift:vaclab:automation-uplift`
+* fully qualified name: `vac:dst:ift:2024q4-vaclab:automation-uplift`
 * owner: Wings
 * status: 0%
 * start-date: 2024/12/01

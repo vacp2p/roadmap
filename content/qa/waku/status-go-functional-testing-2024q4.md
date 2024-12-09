@@ -39,7 +39,7 @@ We will track test coverage to measure progress.
 
 * fully qualified name: `vac:qa:waku:status-go-functional-testing-2024q4:migrate-to-status-backend`
 * owner: fbarbu15
-* status: in progress (60% - delayed because of handover of work from a different CC and updates needed to be done to the Status Backend Framework)
+* status: in progress (80%)
 * start-date: 2024/10/07
 * end-date: 2024/11/11
 

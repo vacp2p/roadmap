@@ -13,7 +13,7 @@ Deliver hard numbers and actionable insights.
 Do this monthly, reliably, with strong documentation of findings."
 ---
 
-`vac:dst:vac:libp2p-evaluation`
+`vac:dst:vac:2024q4-libp2p-evaluation`
 
 ## Description
 Test libp2p on a regular basis
@@ -57,7 +57,7 @@ to the Premier Research destination narrative by:
 
 ### Regression testing (recurring)
 
-* fully qualified name: <vac:dst:vac:libp2p-evaluation:regression-testing>
+* fully qualified name: <vac:dst:vac:2024q4-libp2p-evaluation:regression-testing>
 * owner: Alberto
 * status: Ongoing
 * start-date: 2024-10-01

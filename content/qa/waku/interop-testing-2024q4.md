@@ -219,6 +219,7 @@ PRs:
 * https://github.com/waku-org/waku-interop-tests/pull/82
 * https://github.com/waku-org/waku-interop-tests/pull/84
 * https://github.com/waku-org/waku-interop-tests/pull/91
+* https://github.com/waku-org/waku-interop-tests/pull/93
 
 Issues found:
 * https://github.com/waku-org/go-waku/issues/1255

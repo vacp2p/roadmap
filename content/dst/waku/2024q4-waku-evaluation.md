@@ -13,7 +13,7 @@ Deliver hard numbers and actionable insights.
 Do this monthly, reliably, with strong documentation of findings."
 ---
 
-`vac:dst:waku:waku-evaluation`
+`vac:dst:waku:2024q4-waku-evaluation`
 
 ## Description
 Test Waku on a regular basis
@@ -55,7 +55,7 @@ to the Premier Research destination narrative by:
 
 ### Regression testing (recurring)
 
-* fully qualified name: <vac:dst:waku:waku-evaluation:regression-testing>
+* fully qualified name: <vac:dst:waku:2024q4-waku-evaluation:regression-testing>
 * owner: Alberto
 * status: Ongoing
 * start-date: 2024-10-01

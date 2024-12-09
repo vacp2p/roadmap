@@ -111,7 +111,7 @@ Add integration tests focusing on certificate completeness.
 
 * fully qualified name: `vac:qa:nomos:da-testing-2024q4:data-integrity-tests`
 * owner: romanzac
-* status: in progress (5%)
+* status: in progress (20%)
 * start-date: 2024/11/22
 * end-date: 2024/12/02
 

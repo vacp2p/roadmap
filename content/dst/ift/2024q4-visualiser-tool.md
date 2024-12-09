@@ -12,7 +12,7 @@ but future intention is to support any system
 which is log compatible with the Visualiser Tools."
 ---
 
-`vac:dst:ift:visualiser-tool`
+`vac:dst:ift:2024q4-visualiser-tool`
 
 ## Description
 
@@ -43,7 +43,7 @@ that don't provide a visual way of analysing large scale behaviours.
 
 ### debug-visualiser
 
-* fully qualified name: `vac:dst:ift:visualiser-tool:debug-visualiser`
+* fully qualified name: `vac:dst:ift:2024q4-visualiser-tool:debug-visualiser`
 * owner: Alberto
 * status: 0%
 * start-date: 2024/11/15

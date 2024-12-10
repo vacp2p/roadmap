@@ -9,7 +9,7 @@ description: "Implementation of a de-mls testnet, extending the previous poc and
 
 ---
 
-`vac:acz:ift:de-mls-testnet`
+`vac:acz:ift:2024q4-de-mls-testnet`
 
 Implementation of a de-mls testnet, extending the previous poc and writing the corresponding RFC
 ## Description
@@ -36,9 +36,9 @@ gain support from the Ethereum ecosystem.
 
 ### de-MLS RFC
 
-* fully qualified name: `vac:acz:ift:de-mls-testnet:de-mls-rfc`
+* fully qualified name: `vac:acz:ift:2024q4-de-mls-testnet:de-mls-rfc`
 * owner: Ramses
-* status: in progress (85%)
+* status: in progress (60%)
 * start-date: 2024/10/07
 * end-date: 2024/11/04
 
@@ -52,7 +52,7 @@ Several PRs to the deMLS repository
 
 ### de-MLS Presentation
 
-* fully qualified name: `vac:acz:ift:de-mls-testnet:presentation`
+* fully qualified name: `vac:acz:ift:2024q4-de-mls-testnet:presentation`
 * owner: Ramses
 * status: done
 * start-date: 2024/10/14
@@ -69,9 +69,10 @@ A presentation that describes the RFC in terms of technical, usage, and implemen
 
 ### Login Specs
 
-* fully qualified name: `vac:acz:ift:de-mls-testnet:login-specs`
+* fully qualified name: `vac:acz:ift:2024q4-de-mls-testnet:login-specs`
 * owner: Ramses
-* status: in progress (90%)
+* status: on-hold
+
 * start-date: 2024/10/14
 * end-date: 2024/10/28
 
@@ -79,13 +80,16 @@ A presentation that describes the RFC in terms of technical, usage, and implemen
 
 Specification of scalable, implementable, and decentralized authentication mechanism as login phase for the RFC. 
 
+This task is holding for now to determine the details.
+
 #### Deliverables
 
-A specification document for scalable, implementable, and decentralized authentication mechanism as login phase for the RFC.
+A specification [document](https://www.notion.so/WiP-SimpleLogin-protocol-1298f96fb65c8090adb2faeba7ecfb31) for scalable, implementable, and decentralized authentication mechanism as login phase for the RFC.
+
 
 ### EF Grant Application
 
-* fully qualified name: `vac:acz:ift:de-mls-testnet:ef-application`
+* fully qualified name: `vac:acz:ift:2024q4-de-mls-testnet:ef-application`
 * owner: Ugur
 * status: in progress (30%)
 * start-date: 2024/10/14
@@ -102,11 +106,11 @@ An submitting EF grants by the application document and keeping an eye the proce
 
 ### Testnet API
 
-* fully qualified name: `vac:acz:ift:de-mls-testnet:testnet-api`
+* fully qualified name: `vac:acz:ift:2024q4-de-mls-testnet:testnet-api`
 * owner: Ekaterina
-* status: in progress (20%)
+* status: in progress (30%)
 * start-date: 2024/10/21
-* end-date: 2024/11/04
+* end-date: 2024/11/11
 
 #### Description
 
@@ -123,7 +127,7 @@ Several PRs to the repository that will be created with testnet API implementati
 
 ### Deployment Testnet
 
-* fully qualified name: `vac:acz:ift:de-mls-testnet:deployment-testnet`
+* fully qualified name: `vac:acz:ift:2024q4-de-mls-testnet:deployment-testnet`
 * owner: Ekaterina
 * status: not started
 * start-date: 2024/11/18
@@ -143,7 +147,7 @@ and login mechanism.
 
 ### Blogpost de-mls over Waku
 
-* fully qualified name: `vac:acz:ift:de-mls-testnet:blogpost-de-mls-over-waku`
+* fully qualified name: `vac:acz:ift:2024q4-de-mls-testnet:blogpost-de-mls-over-waku`
 * owner: Ekaterina
 * status: not started
 * start-date: 2024/12/02
@@ -159,7 +163,7 @@ A blogpost to [vac-dev](https://vac.dev/rlog/)
 
 ### DCGKA
 
-* fully qualified name: `vac:acz:ift:de-mls-testnet:dcgka`
+* fully qualified name: `vac:acz:ift:2024q4-de-mls-testnet:dcgka`
 * owner: Ramses
 * status: not started
 * start-date: 2024/11/18

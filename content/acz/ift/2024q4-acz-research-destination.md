@@ -9,7 +9,7 @@ description: "Providing ACZ research informative materials for the ecosystem"
 
 ---
 
-`vac:acz:ift:acz-research-destination`
+`vac:acz:ift:2024q4-acz-research-destination`
 
 Providing ACZ research informative materials for the ecosystem
 ## Description
@@ -28,9 +28,9 @@ We will also strengthen the Premier Research Destination narrative by:
 
 ### ZK Think Tank 
 
-* fully qualified name: `vac:acz:ift:acz-research-destination:zk-think-tank`
+* fully qualified name: `vac:acz:ift:2024q4-acz-research-destination:zk-think-tank`
 * owner: Marvin
-* status: in progress (20%)
+* status: in progress (50%)
 * start-date: 2024/10/07
 * end-date: 2024/12/02
 
@@ -43,6 +43,7 @@ This task is important to diffuse the ZK how-know across the IFT.
 #### Deliverables 
 
 * A notions page to maintain current (and accurate) information on each of IFT's usage of ZK techniques.
+  * [ZK Think Tank Notion Page](https://www.notion.so/ZK-Think-Tank-1348f96fb65c808eb6f1e27f74ab55fc)
 * A notions page that organizes ZK notes in an accessible manner for IFT CCs 
 to get a clear overview or deep dive depending on their needs.
 * Write 101-blog on ZK techniques to [vac-dev](https://vac.dev/rlog/).

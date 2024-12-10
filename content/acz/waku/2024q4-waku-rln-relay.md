@@ -31,7 +31,7 @@ and support projects being built on the Waku network.
 
 ### Adding Timestamp
 
-* fully qualified name: `vac:acz:waku:adding-timestamp`
+* fully qualified name: `vac:acz:waku:waku-rln-relay:adding-timestamp`
 * owner: Ekaterina
 * status: started (0%)
 * start-date: 2024/10/21
@@ -49,7 +49,7 @@ A PR to Zerokit [repository](https://github.com/vacp2p/zerokit)
 
 ### Deprecate Tree Sync 
 
-* fully qualified name: `vac:acz:waku:deprecate-tree-sync`
+* fully qualified name: `vac:acz:waku:waku-rln-relay:deprecate-tree-sync`
 * owner: Ekaterina
 * status: not started
 * start-date: 2024/10/28

@@ -13,8 +13,8 @@ tags:
 * [ ] [[acz/ift/2024q4-de-mls-testnet|de-mls-testnet]]
 * [ ] [[acz/ift/2024q4-libp2p-mix-poc|libp2p-mix-poc]]
 * [ ] [[acz/ift/2024q4-think-tank|think-tank]]
-* [ ] [[acz/ift/acz-research-destination-2024q4|acz-research-destination-2024q4]]
-* [ ] [[acz/ift/ift-zk-calls-2024q4|ift-zk-calls-2024q4]]
+* [ ] [[acz/ift/2024q4-acz-research-destination|acz-research-destination]]
+* [ ] [[acz/ift/2024q4-ift-zk-calls|ift-zk-calls]]
 
 
 ### `waku:`

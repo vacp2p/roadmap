@@ -20,8 +20,6 @@ Additionally, work on enhancing the framework to support more advanced functiona
 * By finding issues in the project code and specs during testing,
   VAC QA strengthens the RFC culture, contributing to continuous improvement and community engagement.
 
-Here’s a concise **Alignment with FURPS** section tailored to the provided content:
-
 **Alignment with FURPS:**  
 * **Functionality**:
   * By implementing tests for core `status-go` features such as messages, contact requests, and group chats,

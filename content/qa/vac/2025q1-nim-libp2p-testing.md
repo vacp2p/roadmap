@@ -21,14 +21,31 @@ implemented in nim libp2p.
 Improve tooling around nim libp2p testing.
 
 **Alignment with VAC Narratives:**
-- Nim-libp2p is a key component of the VAC ecosystem,
+* Nim-libp2p is a key component of the VAC ecosystem,
   and improving its testing coverage and tooling strengthens our internal expertise
   and the overall reliability of the network.
-- By enhancing these tests, and creating test plans,
+* By enhancing these tests, and creating test plans,
   we support the RFC culture by providing feedback to the specifications,
   ensuring they align with real-world implementation.
-- These efforts also contribute to scaling the project’s capacity,
+* These efforts also contribute to scaling the project’s capacity,
   as better testing tools empower the open-source community to participate effectively.
+
+Here’s the **Alignment with FURPS** section for the updated content:
+
+**Alignment with FURPS:**  
+
+* **Functionality**:
+  * By extending test coverage for Gossipsub, Pubsub, and Floodsub,
+    and creating detailed test plans for key modules,
+    this effort ensures the core features of `nim-libp2p` are thoroughly validated
+    and capable of handling a wide range of scenarios.  
+* **Reliability**:
+  * Advanced and edge-case testing strengthens the robustness and stability of `nim-libp2p`,
+    reducing the risk of failures in uncommon but critical situations.  
+* **Supportability**:
+  * Enhanced test plans and expanded coverage
+    make it easier for developers to maintain and adapt the library’s testing framework,
+    supporting ongoing improvements and collaboration with the open-source community.  
 
 ## Task List
 

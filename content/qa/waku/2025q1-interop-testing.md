@@ -31,6 +31,19 @@ such as high latency, packet loss, and low bandwidth.
   VAC directly contributes to IFT's strategic objective of scaling capacity and efficiency
   through community-driven efforts.
 
+**Alignment with FURPS:**  
+
+* **Functionality**:
+  * By maintaining and extending the interop tests,
+    this effort ensures compatibility and interoperability between `nwaku` and `gowaku` under various conditions.  
+* **Reliability**:
+  * Simulating network conditions like high latency and packet loss
+    enhances the framework's ability to identify edge cases and prevent regressions,
+    ensuring stable performance even under suboptimal circumstances.  
+* **Performance**:
+  * Testing under constrained network conditions evaluates the framework's efficiency and scalability,
+    supporting improvements in CI execution speed.  
+
 ## Task List
 
 

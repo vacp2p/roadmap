@@ -9,7 +9,7 @@ description: "Providing ACZ research informative materials for the ecosystem"
 
 ---
 
-`vac:acz:ift:acz-research-destination`
+`vac:acz:ift:2024q4-acz-research-destination`
 
 Providing ACZ research informative materials for the ecosystem
 ## Description
@@ -28,7 +28,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 ### ZK Think Tank 
 
-* fully qualified name: `vac:acz:ift:acz-research-destination:zk-think-tank`
+* fully qualified name: `vac:acz:ift:2024q4-acz-research-destination:zk-think-tank`
 * owner: Marvin
 * status: in progress (50%)
 * start-date: 2024/10/07

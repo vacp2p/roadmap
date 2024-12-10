@@ -9,7 +9,7 @@ description: "Publishing a raw RFC specifying libp2p mixnet protocol and impleme
 
 ---
 
-`vac:acz:ift:libp2p-mix-poc`
+`vac:acz:ift:2024q4-libp2p-mix-poc`
 
 Publishing a raw RFC specifying libp2p mixnet protocol and implementing a PoC
 ## Description
@@ -47,7 +47,7 @@ offering improvements over Tor push.
 
 ### Libp2p Integration
 
-* fully qualified name: `vac:acz:ift:libp2p-mix-poc:libp2p-integration`
+* fully qualified name: `vac:acz:ift:2024q4-libp2p-mix-poc:libp2p-integration`
 * owner: Akshaya
 * status: done
 * start-date: 2024/10/07
@@ -67,7 +67,7 @@ Implement protocol handler logic for sender nodes including packet creation and 
 
 ### Simulate Anonymized Ping
 
-* fully qualified name: `vac:acz:ift:libp2p-mix-poc:sim-anon-ping`
+* fully qualified name: `vac:acz:ift:2024q4-libp2p-mix-poc:sim-anon-ping`
 * owner: Akshaya
 * status: in progress (80%)
 * start-date: 2024/10/28
@@ -91,7 +91,7 @@ node configurations as the first PoC.
 
 ### Comparison and Benefits 
 
-* fully qualified name: `vac:acz:ift:libp2p-mix-poc:comp-and-benefits`
+* fully qualified name: `vac:acz:ift:2024q4-libp2p-mix-poc:comp-and-benefits`
 * owner: Akshaya
 * status: not started
 * start-date: 2024/11/04
@@ -109,7 +109,7 @@ privacy and effiency
 
 ### Gossibsub over Waku 
 
-* fully qualified name: `vac:acz:ift:libp2p-mix-poc:gossipsub-over-waku`
+* fully qualified name: `vac:acz:ift:2024q4-libp2p-mix-poc:gossipsub-over-waku`
 * owner: Akshaya
 * status: not started
 * start-date: 2024/11/18
@@ -126,7 +126,7 @@ Implementation the second PoC which is a basic gossibsub protocol with our mixne
 
 ### Testing and Documentation 
 
-* fully qualified name: `vac:acz:ift:libp2p-mix-poc:test-and-doc`
+* fully qualified name: `vac:acz:ift:2024q4-libp2p-mix-poc:test-and-doc`
 * owner: Akshaya
 * status: not started
 * start-date: 2024/12/2
@@ -145,7 +145,7 @@ End-to-end test of the mix network.
 
 ### Publishing a Paper 
 
-* fully qualified name: `vac:acz:ift:libp2p-mix-poc:publish-a-paper`
+* fully qualified name: `vac:acz:ift:2024q4-libp2p-mix-poc:publish-a-paper`
 * owner: Akshaya
 * status: not started
 * start-date: 2024/12/9

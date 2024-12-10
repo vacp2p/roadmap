@@ -25,10 +25,10 @@ Here’s a concise **Alignment with FURPS** section tailored to the provided con
 **Alignment with FURPS:**  
 * **Functionality**:
   * By implementing tests for core `status-go` features such as messages, contact requests, and group chats,
-  * this effort ensures the robustness and correctness of Waku-related functionality.  
+    this effort ensures the robustness and correctness of Waku-related functionality.  
 * **Reliability**:
   * Comprehensive testing identifies and prevents regressions,
-  * ensuring stable and predictable behavior for `status-go`.  
+    ensuring stable and predictable behavior for `status-go`.  
 * **Supportability**:
   * Enhancing the functional testing framework makes it easier to adapt and maintain as new features are added or existing ones evolve.  
 

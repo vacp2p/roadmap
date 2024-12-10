@@ -9,7 +9,7 @@ description: "Implementation of the next release of Zerokit"
 
 ---
 
-`vac:acz:ift:zerokit-v0-6`
+`vac:acz:ift:2024q4-zerokit-v0-6`
 
 Implementation of the next release of Zerokit 
 ## Description
@@ -34,7 +34,7 @@ for users looking to integrate RLN into their projects.
 
 ### Release v0.6
 
-* fully qualified name: `vac:acz:ift:zerokit-v0-6:release`
+* fully qualified name: `vac:acz:ift:2024q4-zerokit-v0-6:release`
 * owner: Ekaterina
 * status: done
 * start-date: 2024/10/07
@@ -67,7 +67,7 @@ A set of PRs to vacp2p/zerokit repository with [tag v0.6.0](https://github.com/v
 
 ### RLN Timestamp & wasm 
 
-* fully qualified name: `vac:acz:ift:zerokit-v0-6:rln-timestamp-and-wasm`
+* fully qualified name: `vac:acz:ift:2024q4-zerokit-v0-6:rln-timestamp-and-wasm`
 * owner: Ekaterina
 * status: not started 
 * start-date: 2024/11/04
@@ -87,7 +87,7 @@ PR to vacp2p/zerokit repo with related update for v0.6
 
 ### Circom Witness rs
 
-* fully qualified name: `vac:acz:ift:zerokit-v0-6:circom-witness-rs`
+* fully qualified name: `vac:acz:ift:2024q4-zerokit-v0-6:circom-witness-rs`
 * owner: Aleksei
 * status: in progress (0%)
 * start-date: 2024/11/25
@@ -107,7 +107,7 @@ PR to vacp2p/zerokit repo with related update for v0.6
 
 ### Poseidon Hash
 
-* fully qualified name: `vac:acz:ift:zerokit-v0-6:poseidon-hash`
+* fully qualified name: `vac:acz:ift:2024q4-zerokit-v0-6:poseidon-hash`
 * owner: Ekaterina
 * status: not started 
 * start-date: 2024/11/18

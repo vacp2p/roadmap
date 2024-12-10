@@ -15,10 +15,22 @@ Collaborate with the Status QA team to improve functional testing coverage by ad
 Additionally, work on enhancing the framework to support more advanced functional testing scenarios as these tests are implemented.
 
 **Alignment with VAC Narratives:**
-- By helping create a robust functional testing framework for Status Go,
+* By helping create a robust functional testing framework for Status Go,
   VAC QA contributes directly to the narrative of internal collaboration and efficiency.
-- By finding issues in the project code and specs during testing,
+* By finding issues in the project code and specs during testing,
   VAC QA strengthens the RFC culture, contributing to continuous improvement and community engagement.
+
+Here’s a concise **Alignment with FURPS** section tailored to the provided content:
+
+**Alignment with FURPS:**  
+* **Functionality**:
+  * By implementing tests for core `status-go` features such as messages, contact requests, and group chats,
+  * this effort ensures the robustness and correctness of Waku-related functionality.  
+* **Reliability**:
+  * Comprehensive testing identifies and prevents regressions,
+  * ensuring stable and predictable behavior for `status-go`.  
+* **Supportability**:
+  * Enhancing the functional testing framework makes it easier to adapt and maintain as new features are added or existing ones evolve.  
 
 ## Task List
 

@@ -29,7 +29,7 @@ Additionally, work on enhancing the framework to support more advanced functiona
 * owner: fbarbu15
 * status: not started
 * start-date: 2025/01/06
-* end-date: 2024/02/15
+* end-date: 2025/02/15
 
 #### Description
 Cover the core functionality of Status related to [wakuext messages](https://github.com/status-im/status-go/issues/6084)
@@ -44,7 +44,7 @@ Cover the core functionality of Status related to [wakuext messages](https://git
 * owner: fbarbu15
 * status: not started
 * start-date: 2025/02/15
-* end-date: 2024/03/10
+* end-date: 2025/03/10
 
 #### Description
 Cover the [wakuext contact requests](https://github.com/status-im/status-go/issues/6085)
@@ -59,7 +59,7 @@ Cover the [wakuext contact requests](https://github.com/status-im/status-go/issu
 * owner: fbarbu15
 * status: not started
 * start-date: 2025/03/10
-* end-date: 2024/03/31
+* end-date: 2025/03/31
 
 #### Description
 Cover the [wakuext group chats](https://github.com/status-im/status-go/issues/6071)

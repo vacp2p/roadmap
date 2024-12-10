@@ -30,8 +30,6 @@ Improve tooling around nim libp2p testing.
 * These efforts also contribute to scaling the project’s capacity,
   as better testing tools empower the open-source community to participate effectively.
 
-Here’s the **Alignment with FURPS** section for the updated content:
-
 **Alignment with FURPS:**  
 
 * **Functionality**:

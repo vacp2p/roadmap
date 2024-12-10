@@ -9,7 +9,7 @@ description: "Preparation and conducting the ZK meetings"
 
 ---
 
-`vac:acz:ift:ift-zk-calls`
+`vac:acz:ift:2024q4-ift-zk-calls`
 
 Preparation and conducting the ZK meetings
 ## Description
@@ -34,7 +34,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 ### IFT ZK Call 1
 
-* fully qualified name: `vac:acz:ift:ift-zk-calls:ift-zk-call-1`
+* fully qualified name: `vac:acz:ift:2024q4-ift-zk-calls:ift-zk-call-1`
 * owner: Marvin
 * status: done
 * start-date: 2024/10/28
@@ -50,7 +50,7 @@ A document of a summary of the ZK call 1 meeting to [ZK Notion page](https://www
 
 ### IFT ZK Call 2
 
-* fully qualified name: `vac:acz:ift:ift-zk-calls:ift-zk-call-2`
+* fully qualified name: `vac:acz:ift:2024q4-ift-zk-calls:ift-zk-call-2`
 * owner: Marvin
 * status: not started
 * start-date: 2024/11/25

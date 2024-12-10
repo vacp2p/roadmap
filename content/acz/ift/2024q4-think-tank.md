@@ -9,7 +9,7 @@ description: "Publishing a reviewing document for the cryptography modules of IF
 
 ---
 
-`vac:acz:ift:think-tank`
+`vac:acz:ift:2024q4-think-tank`
 
 Publishing a reviewing document for the cryptography modules of IFT projects
 ## Description
@@ -34,7 +34,7 @@ to initiate discussions and contribute to the benefit of the ecosystem.
 
 ### Crypto Consulting
 
-* fully qualified name: `vac:acz:ift:think-tank:crypto-consulting`
+* fully qualified name: `vac:acz:ift:2024q4-think-tank:crypto-consulting`
 * owner: Ramses
 * status: done
 * start-date: 2024/10/14
@@ -50,7 +50,7 @@ containing the review by Ramses
 
 ### Crypto Think Tank 
 
-* fully qualified name: `vac:acz:ift:think-tank:crypto-think-tank`
+* fully qualified name: `vac:acz:ift:2024q4-think-tank:crypto-think-tank`
 * owner: Ramses
 * status: in progress (20%)
 
@@ -72,7 +72,7 @@ to get a clear overview or deep dive depending on their needs.
 
 ### ZK Consulting Codex 1
 
-* fully qualified name: `vac:acz:ift:think-tank:zk-consulting-codex-1`
+* fully qualified name: `vac:acz:ift:2024q4-think-tank:zk-consulting-codex-1`
 * owner: Marvin
 * status: in progress (30%)
 * start-date: 2024/10/07
@@ -89,7 +89,7 @@ On going explorative, provide notes on zero-knowledge techniques from the litera
 
 ### ZK Consulting Codex 2
 
-* fully qualified name: `vac:acz:ift:think-tank:zk-consulting-codex-2`
+* fully qualified name: `vac:acz:ift:2024q4-think-tank:zk-consulting-codex-2`
 * owner: Marvin
 * status: in progress (33%)
 * start-date: 2024/10/07

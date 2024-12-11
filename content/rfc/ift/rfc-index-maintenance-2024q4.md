@@ -5,7 +5,7 @@ tags:
   - rfc
   - vac
 draft: false
-description:
+description: Continuous effort to fix and update across the relevant RFC websites (including the communication)
 ---
 
 `ift:rfc:vac:rfc-index-maintenance-2024q4`

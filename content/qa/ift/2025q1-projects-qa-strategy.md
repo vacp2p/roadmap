@@ -27,19 +27,6 @@ any identified gaps, and recommendations for improvement.
 * It contributes to maintaining a high standard for both internal and external contributions
   by helping keep projects well-tested and reliable.
 
-**Alignment with FURPS:**  
-
-* **Functionality**:
-  * By documenting the existing QA strategy and evaluating test coverage for IFT projects,
-    this effort ensures that all projects are thoroughly tested and aligned with functional requirements.  
-* **Supportability**:
-  * A centralized knowledge base makes it easier for teams to maintain, adapt, and improve QA practices across projects,
-    fostering collaboration and efficiency.  
-* **Reliability**:
-  * Identifying gaps and providing recommendations
-    improves the robustness and predictability of each project's testing processes,
-    reducing the risk of undetected issues.  
-
 ## Task List
 
 ### Keycard

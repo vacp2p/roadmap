@@ -8,7 +8,7 @@ draft: false
 description: Bi-weekly learn up sessions about Ethereum Improvement Proposals (EIPs) and alike.
 ---
 
-`vac:sc:ift:eip-discussions_2024q4`
+`vac:sc:ift:2024q4-eip-discussions`
 
 Bi-weekly learn up sessions about Ethereum Improvement Proposals (EIPs) and alike.
 
@@ -26,7 +26,7 @@ improving cross-project collaboration.
 
 ### EIP Discussions 2024 Q4
 
-* fully qualified name: `vac:sc:ift:eip-discussions_2024q4:2024q4`
+* fully qualified name: `2024q4-eip-discussions:2024q4`
 * owner: r4bbit
 * status: in progress (20%)
 * start-date: 2024/10/07
@@ -42,7 +42,7 @@ Organize learn up session on a bi-weekly basis and ensure meetings are recorded 
 
 ### EIP Discussions 2024/10/18
 
-* fully qualified name: `vac:sc:ift:eip-discussions_2024q4:2024-10-18`
+* fully qualified name: `2024q4-eip-discussions:2024-10-18`
 * owner: Ricardo
 * status: done
 * start-date: 2024/10/07
@@ -58,7 +58,7 @@ Run a learn up session about either an EIP or similar topic of choice to present
 
 ### EIP Discussions 2024/11/01
 
-* fully qualified name: `vac:sc:ift:eip-discussions_2024q4:2024-11-01`
+* fully qualified name: `2024q4-eip-discussions:2024-11-01`
 * owner: 
 * status: not started
 * start-date: 2024/10/18
@@ -74,7 +74,7 @@ Run a learn up session about either an EIP or similar topic of choice to present
 
 ### EIP Discussions 2024/11/29
 
-* fully qualified name: `vac:sc:ift:eip-discussions_2024q4:2024-11-29`
+* fully qualified name: `2024q4-eip-discussions:2024-11-29`
 * owner: 
 * status: not started
 * start-date: 2024/11/01
@@ -90,7 +90,7 @@ Run a learn up session about either an EIP or similar topic of choice to present
 
 ### EIP Discussions 2024/12/13
 
-* fully qualified name: `vac:sc:ift:eip-discussions_2024q4:2024-12-13`
+* fully qualified name: `2024q4-eip-discussions:2024-12-13`
 * owner: 
 * status: not started
 * start-date: 2024/11/29
@@ -106,7 +106,7 @@ Run a learn up session about either an EIP or similar topic of choice to present
 
 ### EIP Discussions 2024/12/27
 
-* fully qualified name: `vac:sc:ift:eip-discussions_2024q4:2024-12-27`
+* fully qualified name: `2024q4-eip-discussions:2024-12-27`
 * owner: 
 * status: not started
 * start-date: 2024/12/13

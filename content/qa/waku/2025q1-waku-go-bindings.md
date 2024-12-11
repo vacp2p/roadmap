@@ -77,21 +77,3 @@ and ensure reliable message propagation across multiple nodes.
 * PR with relay protocol tests
 * CI integration for relay tests
 * Documentation for relay test scenarios
-
-### Store Protocol Testing
-
-* fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings:store`
-* owner: aya
-* status: not started
-* start-date: 2025/02/25
-* end-date: 2025/03/31
-
-#### Description
-Add test coverage by implementing tests for the store protocol. 
-The tests should focus on verifying message persistence and retrieval,
-following the methodology used in `waku-interop-tests`.
-
-#### Deliverables
-* PR with store protocol tests
-* CI integration for store tests
-* Documentation for store test scenarios

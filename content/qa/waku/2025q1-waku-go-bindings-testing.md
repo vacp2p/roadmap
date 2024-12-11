@@ -16,8 +16,8 @@ and enhance protocol coverage for critical Waku functionality.
 
 The framework should enable interaction with multiple nodes 
 and scale testing efforts similarly to `waku-interop-tests`. 
-The primary focus is to cover essential protocols like relay and store, 
-ensuring compatibility, scalability, and reliability across diverse scenarios.
+The primary focus is to cover relay protocol, 
+ensuring reliability across diverse scenarios in accordance to Waku FURPS.
 
 **Alignment with VAC Narratives:**
 

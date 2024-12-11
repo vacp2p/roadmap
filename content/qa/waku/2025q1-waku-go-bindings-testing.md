@@ -1,14 +1,14 @@
 ---
-title: Waku-Go-Bindings Testing Framework
+title: waku-go-bindings-testing Testing Framework
 tags:
   - "2025q1"
   - "qa"
   - "waku"  
 draft: false  
-description: Build a test automation framework for Waku-Go-Bindings and expand protocol coverage
+description: Build a test automation framework for waku-go-bindings and expand protocol coverage
 ---
 
-`vac:qa:waku:2025q1-waku-go-bindings`
+`vac:qa:waku:2025q1-waku-go-bindings-testing`
 
 ## Description
 Develop a robust test automation framework for the `waku-go-bindings` package 
@@ -32,7 +32,7 @@ ensuring compatibility, scalability, and reliability across diverse scenarios.
 
 ### Framework Development
 
-* fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings:framework-development`
+* fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:framework-development`
 * owner: aya
 * status: not started
 * start-date: 2025/01/06
@@ -40,7 +40,7 @@ ensuring compatibility, scalability, and reliability across diverse scenarios.
 
 
 #### Description
-Create a test automation framework for the `waku-go-bindings` package. 
+Create a test automation framework for the `waku-go-bindings-testing` package. 
 The framework should support running and interacting with multiple nodes, 
 with the capability to scale testing to match the approach used in `waku-interop-tests`. 
 It should also be adaptable to future testing needs.
@@ -53,7 +53,7 @@ It should also be adaptable to future testing needs.
 
 ### Relay Protocol Testing
 
-* fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings:relay`
+* fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:relay`
 * owner: aya
 * status: not started
 * start-date: 2025/01/20

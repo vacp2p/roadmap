@@ -21,7 +21,8 @@ any identified gaps, and recommendations for improvement.
 
 **Alignment with VAC Narratives:**
 * By documenting and evaluating the QA strategy of each IFT project,
-  VAC QA strengthens the overall efficiency and collaboration within the IFT ecosystem.
+  VAC QA strengthens the overall efficiency and collaboration within the IFT ecosystem,
+  working closely with the RFC team to ensure alignment between specifications and testing efforts.
 * This initiative will ensure that projects are aligned with best practices,
   identify areas for improvement, and foster knowledge sharing across teams.
 * It contributes to maintaining a high standard for both internal and external contributions

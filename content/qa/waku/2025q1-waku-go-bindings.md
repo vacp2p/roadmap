@@ -28,15 +28,6 @@ ensuring compatibility, scalability, and reliability across diverse scenarios.
   VAC strengthens the RFC culture,
   contributing to continuous improvement and community engagement.
 
-**Alignment with FURPS:** 
-
-* **Functionality**:
-  * Testing relay and store protocols ensures the core functionality of the `waku-go-bindings` package works as intended.  
-* **Reliability**:
-  * Robust tests provide stability and reduce errors, ensuring predictable behavior.  
-* **Supportability**:
-  * A flexible framework makes it easier to adapt, extend, and maintain tests as protocols evolve.
-
 ## Task List
 
 ### Framework Development

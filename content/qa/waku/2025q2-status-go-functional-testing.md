@@ -22,17 +22,6 @@ Note: This commitment is being deferred to Q2 to avoid overcommitting, but tasks
 * By finding issues in the project code and specs during testing,
   VAC QA strengthens the RFC culture, contributing to continuous improvement and community engagement.
 
-**Alignment with FURPS:**  
-* **Functionality**:
-  * By implementing tests for core `status-go` features such as messages, contact requests, and group chats,
-    this effort ensures the robustness and correctness of Waku-related functionality.  
-* **Reliability**:
-  * Comprehensive testing identifies and prevents regressions,
-    ensuring stable and predictable behavior for `status-go`.  
-* **Supportability**:
-  * Enhancing the functional testing framework
-    makes it easier to adapt and maintain as new features are added or existing ones evolve.  
-
 ## Task List
 
 

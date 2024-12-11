@@ -58,3 +58,37 @@ identify gaps, and provide recommendations for improvements.
 
 #### Deliverables
 * Link with Notion page
+
+
+### QA Frameworks Documentation
+
+* fully qualified name: `vac:qa:ift:2025q1-projects-qa-strategy:frameworks-documentation`
+* owner: fbarbu15
+* status: not started
+* start-date: 2025/01/06
+* end-date: 2025/03/31
+
+#### Description
+Create and enhance documentation related to the QA frameworks owned by VAC QA.  
+Include detailed processes, how-to guides, and framework-specific documentation for each project.
+
+#### Deliverables
+* Notion pages with comprehensive documentation
+* `README.md` files for each relevant project
+* Guidelines and best practices for using and maintaining the frameworks
+
+### Synchronize QA and RFC Processes
+
+* fully qualified name: `vac:qa:ift:2025q1-projects-qa-strategy:qa-rfc-sync`
+* owner: fbarbu15
+* status: not started
+* start-date: 2025/01/06
+* end-date: 2025/03/31
+
+#### Description
+Establish synchronization between QA and RFC processes. Create a shared Notion page to track updates, 
+coordinate tasks, and ensure alignment between testing and RFC specifications. 
+Conduct periodic checks of codebases and collaborate with RFC contributors to address necessary updates.
+
+#### Deliverables
+* Shared Notion page for tracking QA and RFC updates

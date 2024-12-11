@@ -1,19 +1,20 @@
 ---
 title: Status Go Functional Testing
 tags:
-  - "2025q1"
+  - "2025q2"
   - "qa"
   - "waku"  
 draft: false  
 description: Enhance functional testing for status-go features by implementing tests focused on Waku functionality.
 ---
 
-`vac:qa:waku:2025q1-status-go-functional-testing`
+`vac:qa:waku:2025q2-status-go-functional-testing`
 
 ## Description
 Collaborate with the Status QA team to improve functional testing coverage 
 by adding new tests outlined in this [epic](https://github.com/status-im/status-go/issues/6064). 
 Additionally, work on enhancing the framework to support more advanced functional testing scenarios.
+Note: This commitment is being deferred to Q2 to avoid overcommitting, but tasks may be taken on in Q1 if time permits.
 
 **Alignment with VAC Narratives:**
 * By helping create a robust functional testing framework for Status Go,
@@ -37,11 +38,11 @@ Additionally, work on enhancing the framework to support more advanced functiona
 
 ### Message tests
 
-* fully qualified name: `vac:qa:waku:2025q1-status-go-functional-testing:message-tests`
+* fully qualified name: `vac:qa:waku:2025q2-status-go-functional-testing:message-tests`
 * owner: fbarbu15
 * status: not started
-* start-date: 2025/01/06
-* end-date: 2025/02/15
+* start-date: 
+* end-date: 
 
 #### Description
 Cover the core functionality of Status related to [wakuext messages](https://github.com/status-im/status-go/issues/6084)
@@ -52,11 +53,11 @@ Cover the core functionality of Status related to [wakuext messages](https://git
 
 ### Contact requests tests
 
-* fully qualified name: `vac:qa:waku:2025q1-status-go-functional-testing:contact-requests-tests`
+* fully qualified name: `vac:qa:waku:2025q2-status-go-functional-testing:contact-requests-tests`
 * owner: fbarbu15
 * status: not started
-* start-date: 2025/02/15
-* end-date: 2025/03/10
+* start-date: 
+* end-date: 
 
 #### Description
 Cover the [wakuext contact requests](https://github.com/status-im/status-go/issues/6085)
@@ -67,11 +68,11 @@ Cover the [wakuext contact requests](https://github.com/status-im/status-go/issu
 
 ### Group chats tests
 
-* fully qualified name: `vac:qa:waku:2025q1-status-go-functional-testing:group-chats-tests`
+* fully qualified name: `vac:qa:waku:2025q2-status-go-functional-testing:group-chats-tests`
 * owner: fbarbu15
 * status: not started
-* start-date: 2025/03/10
-* end-date: 2025/03/31
+* start-date: 
+* end-date: 
 
 #### Description
 Cover the [wakuext group chats](https://github.com/status-im/status-go/issues/6071)

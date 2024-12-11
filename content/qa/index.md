@@ -12,14 +12,12 @@ tags:
 ### `ift:`
 * [[qa/ift/2025q1-projects-qa-strategy|projects-qa-strategy ]]
 
-### `vac:`
-* [[qa/vac/2025q1-nim-libp2p-testing|nim-libp2p-testing ]]
 
 ### `waku:`
 * [[qa/waku/2025q1-interop-testing|interop-testing ]]
-* [[qa/waku/2025q1-status-go-functional-testing|status-go-functional-testing ]]
-* [[qa/waku/2025q1-waku-go-bindings|waku-go-bindings ]]
-
+* [[qa/waku/2025q1-waku-go-bindings-testing|waku-go-bindings-testing ]]
+* [[qa/waku/2025q1-messaging-api-testing|messaging-api-testing ]]
+* [[qa/waku/2025q1-direct-message-reliability-testing|direct-message-reliability-testing ]]
 ---
 
 ## 2024q4 `vac:qa:`

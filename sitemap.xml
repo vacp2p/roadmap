@@ -836,11 +836,17 @@
     <loc>https://roadmap.vac.dev/dr/</loc>
     <lastmod>2024-12-12T14:02:34.623Z</lastmod>
   </url><url>
-    <loc>https://roadmap.vac.dev/dst/codex/codex-base-capacity</loc>
-    <lastmod>2024-12-12T14:02:34.623Z</lastmod>
+    <loc>https://roadmap.vac.dev/dst/codex/2024q4-codex-base-capacity</loc>
+    <lastmod>2024-12-12T16:03:52.819Z</lastmod>
   </url><url>
-    <loc>https://roadmap.vac.dev/dst/codex/codex-comparison</loc>
-    <lastmod>2024-12-12T14:02:34.623Z</lastmod>
+    <loc>https://roadmap.vac.dev/dst/codex/2024q4-codex-comparison</loc>
+    <lastmod>2024-12-12T16:03:52.819Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/dst/ift/2024q4-vaclab</loc>
+    <lastmod>2024-12-12T16:03:52.819Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/dst/ift/2024q4-visualiser-tool</loc>
+    <lastmod>2024-12-12T16:03:52.819Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/ift/dst-conduit-2024q4</loc>
     <lastmod>2024-12-12T14:02:34.623Z</lastmod>
@@ -848,26 +854,20 @@
     <loc>https://roadmap.vac.dev/dst/ift/dst-research-destination-2024q4</loc>
     <lastmod>2024-12-12T14:02:34.623Z</lastmod>
   </url><url>
-    <loc>https://roadmap.vac.dev/dst/ift/vaclab</loc>
-    <lastmod>2024-12-12T14:02:34.623Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/dst/ift/visualiser-tool</loc>
-    <lastmod>2024-12-12T14:02:34.623Z</lastmod>
-  </url><url>
     <loc>https://roadmap.vac.dev/dst/</loc>
-    <lastmod>2024-12-12T14:02:34.623Z</lastmod>
+    <lastmod>2024-12-12T16:03:52.819Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/nomos/nomos-scaling</loc>
     <lastmod>2024-12-12T14:02:34.623Z</lastmod>
   </url><url>
-    <loc>https://roadmap.vac.dev/dst/vac/libp2p-evaluation</loc>
-    <lastmod>2024-12-12T14:02:34.623Z</lastmod>
+    <loc>https://roadmap.vac.dev/dst/vac/2024q4-libp2p-evaluation</loc>
+    <lastmod>2024-12-12T16:03:52.819Z</lastmod>
   </url><url>
-    <loc>https://roadmap.vac.dev/dst/waku/waku-evaluation</loc>
-    <lastmod>2024-12-12T14:02:34.623Z</lastmod>
+    <loc>https://roadmap.vac.dev/dst/waku/2024q4-waku-evaluation</loc>
+    <lastmod>2024-12-12T16:03:52.819Z</lastmod>
   </url><url>
-    <loc>https://roadmap.vac.dev/dst/waku/waku-scaling</loc>
-    <lastmod>2024-12-12T14:02:34.623Z</lastmod>
+    <loc>https://roadmap.vac.dev/dst/waku/2024q4-waku-scaling</loc>
+    <lastmod>2024-12-12T16:03:52.819Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/</loc>
     <lastmod>2024-12-12T14:02:34.631Z</lastmod>

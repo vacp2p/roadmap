@@ -8,7 +8,7 @@ draft: false
 description: Development of a first version of the XP NFT contract for Status.
 ---
 
-`vac:sc:status:xp-nft-v1`
+`vac:sc:status:2024q4-xp-nft-v1`
 
 Development of a first version of the XP NFT contract for Status.
 
@@ -36,7 +36,7 @@ Here are the main features and requirements of the first version of this token:
 
 ### Token implementation
 
-* fully qualified name: `vac:sc:status:xp-nft-v1:token-implementation`
+* fully qualified name: `2024q4-xp-nft-v1:token-implementation`
 * owner: Andrea
 * status: done
 * start-date: 2024/10/07
@@ -57,7 +57,7 @@ See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues
 
 ### Upgradeability
 
-* fully qualified name: `vac:sc:status:xp-nft-v1:upgradeability`
+* fully qualified name: `2024q4-xp-nft-v1:upgradeability`
 * owner: Andrea
 * status: done (100%)
 * start-date: 2024/10/14

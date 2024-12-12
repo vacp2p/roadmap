@@ -8,7 +8,7 @@ draft: false
 description: Implementation of the first agreed upon formal verification rules for the Codex marketplace contracts.
 ---
 
-`vac:sc:codex:formal-verification_2024q4`
+`vac:sc:codex:2024q4-formal-verification`
 
 Implementation of the first agreed upon formal verification rules for the Codex marketplace contracts.
 
@@ -20,7 +20,7 @@ We're collaborating with the Codex team and the Certora team to formally verify 
 
 ### Finish implementing current rules
 
-* fully qualified name: `vac:sc:codex:formal-verification_2024q4:finish-current-rules`
+* fully qualified name: `2024q4-formal-verification:finish-current-rules`
 * owner: r4bbit
 * status: in progress (40%)
 * start-date: 2024/10/14

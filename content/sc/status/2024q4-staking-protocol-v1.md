@@ -8,7 +8,7 @@ draft: false
 description: Delivery of a first version of the SNT staking protocol for testnet deployment.
 ---
 
-`vac:sc:status:staking-protocol-v1`
+`vac:sc:2024q4-status:staking-protocol-v1`
 
 Delivery of a first version of the SNT staking protocol for testnet deployment.
 
@@ -38,7 +38,7 @@ so we can leverage this work to finalize a first version of the protocol.
 
 ### Merging existing solutions
 
-* fully qualified name: `vac:sc:status:staking-protocol-v1:merging-existing-solutions`
+* fully qualified name: `2024q4-staking-protocol-v1:merging-existing-solutions`
 * owner: ricardo
 * status: done (100%)
 * start-date: 2024/10/07
@@ -66,7 +66,7 @@ See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues
 
 ### Upgradeability
 
-* fully qualified name: `vac:sc:status:staking-protocol-v1:upgradeability`
+* fully qualified name: `2024q4-staking-protocol-v1:upgradeability`
 * owner: ricardo
 * status: done(100%)
 * start-date: 2024/10/14
@@ -85,7 +85,7 @@ See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues
 
 ### Testing
 
-* fully qualified name: `vac:sc:status:staking-protocol-v1:testing`
+* fully qualified name: `2024q4-staking-protocol-v1:testing`
 * owner: r4bbit 
 * status: in progress (90%)
 * start-date: 2024/10/07
@@ -104,7 +104,7 @@ See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues
 
 ### Formal verification
 
-* fully qualified name: `vac:sc:status:staking-protocol-v1:formal-verification`
+* fully qualified name: `2024q4-staking-protocol-v1:formal-verification`
 * owner: r4bbit
 * status: in progress (99%)
 * start-date: 2024/10/07
@@ -123,7 +123,7 @@ See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues
 
 ### Documentation
 
-* fully qualified name: `vac:sc:status:staking-protocol-v1:documentation`
+* fully qualified name: `2024q4-staking-protocol-v1:documentation`
 * owner: r4bbit
 * status: in progress (10%)
 * start-date: 2024/12/02

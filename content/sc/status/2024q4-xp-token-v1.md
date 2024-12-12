@@ -8,7 +8,7 @@ draft: false
 description: Development of a first version of the XP token contract for Status.
 ---
 
-`vac:sc:status:xp-token-v1`
+`vac:sc:status:2024q4-xp-token-v1`
 
 Development of a first version of the XP token contract for Status.
 
@@ -34,7 +34,7 @@ Here are the main features and requirements of the first version of this token:
 
 ### Token implementation
 
-* fully qualified name: `vac:sc:status:xp-token-v1:token-implementation`
+* fully qualified name: `2024q4-xp-token-v1:token-implementation`
 * owner: Andrea
 * status: in progress (90%)
 * start-date: 2024/10/18
@@ -54,7 +54,7 @@ See [this GitHub issue](https://github.com/vacp2p/staking-reward-streamer/issues
 
 ### Formal verification
 
-* fully qualified name: `vac:sc:status:xp-token-v1:formal-verification`
+* fully qualified name: `2024q4-status:xp-token-v1:formal-verification`
 * owner: 
 * status: not started
 * start-date: 2024/10/21

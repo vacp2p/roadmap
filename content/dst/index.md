@@ -9,23 +9,23 @@ tags:
 ---
 
 ### `ift`
-* [ ] [[dst/ift/visualiser-tool|visualiser-tool]]
-* [ ] [[dst/ift/vaclab|vaclab]]
+* [ ] [[dst/ift/2024q4-visualiser-tool|visualiser-tool]]
+* [ ] [[dst/ift/2024q4-vaclab|vaclab]]
 
 ### `waku`
-* [ ] [[dst/waku/waku-scaling|waku-scaling]]
-* [ ] [[dst/waku/waku-evaluation|waku-evaluation]]
+* [ ] [[dst/waku/2024q4-waku-scaling|waku-scaling]]
+* [ ] [[dst/waku/2024q4-waku-evaluation|waku-evaluation]]
 
 ### `codex`
-* [ ] [[dst/codex/codex-base-capacity|codex-base-capacity]]
-* [ ] [[dst/codex/codex-comparison|codex-comparison]]
+* [ ] [[dst/codex/2024q4-codex-base-capacity|codex-base-capacity]]
+* [ ] [[dst/codex/2024q4-codex-comparison|codex-comparison]]
 
 <!--
 ### `nomos`
-* [ ] [[dst/nomos/nomos-scaling|nomos-scaling]]
+* [ ] [[dst/nomos/2024q4-nomos-scaling|nomos-scaling]]
 -->
 
 ### `vac`
-* [ ] [[dst/vac/libp2p-evaluation|libp2p-evaluation]]
+* [ ] [[dst/vac/2024q4-libp2p-evaluation|libp2p-evaluation]]
 
 

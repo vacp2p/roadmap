@@ -9,7 +9,7 @@ description: "Provide base capacity for Codex and keep it reliable.
 Study its behaviour in the process of supporting it."
 ---
 
-`vac:dst:codex:codex-base-capacity`
+`vac:dst:codex:2024q4-codex-base-capacity`
 
 ## Description
 Provide base capacity for Codex and keep it reliable.
@@ -58,7 +58,7 @@ on which other research and interesting use cases can be built.
 
 ### Production Quality Base Capacity
 
-* fully qualified name: <vac:dst:codex:codex-scaling:deploy-base-capacity>
+* fully qualified name: <vac:dst:codex:2024q4-codex-base-capacity:deploy-base-capacity>
 * owner: Wings
 * status: 0%
 * start-date: 2024/10/05

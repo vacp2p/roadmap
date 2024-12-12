@@ -18,6 +18,9 @@ tags:
 * [[qa/waku/2025q1-waku-go-bindings-testing|waku-go-bindings-testing ]]
 * [[qa/waku/2025q1-messaging-api-testing|messaging-api-testing ]]
 * [[qa/waku/2025q1-direct-message-reliability-testing|direct-message-reliability-testing ]]
+
+### `nomos:`
+* [[qa/nomos/2025q1-da-testing|da-testing ]]
 ---
 
 ## 2024q4 `vac:qa:`

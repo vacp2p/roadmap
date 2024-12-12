@@ -29,9 +29,9 @@ Implement data availability test plans for the Nomos project at the cluster leve
 
 * fully qualified name: `vac:qa:nomos:2025q1-da-testing:data-integrity-tests`
 * owner: romanzac
-* status: in progress (20%)
-* start-date: 2025/1/6
-* end-date: 2025/1/17
+* status: not started
+* start-date: 2025/01/06
+* end-date: 2025/01/17
 
 #### Description
 Add integration tests focusing on the system's ability
@@ -47,8 +47,8 @@ to reconstruct or retrieve data.
 * fully qualified name: `vac:qa:nomos:2025q1-da-testing:networking-privacy`
 * owner: romanzac
 * status: not started
-* start-date: 2025/1/20 
-* end-date: 2025/2/21
+* start-date: 2025/01/20 
+* end-date: 2025/02/21
 
 #### Description
 Add integration tests focusing on the privacy of the data in transit
@@ -63,8 +63,8 @@ Add integration tests focusing on the privacy of the data in transit
 * fully qualified name: `vac:qa:nomos:2025q1-da-testing:dos-robustness`
 * owner: romanzac
 * status: not started
-* start-date: 2025/2/24
-* end-date: 2025/3/21
+* start-date: 2025/02/24
+* end-date: 2025/03/21
 
 #### Description
 Add integration tests to verify system’s resilience to DoS attacks and handling of large volume of data 
@@ -78,9 +78,9 @@ Add integration tests to verify system’s resilience to DoS attacks and handlin
 
 * fully qualified name: `vac:qa:nomos:2025q1-da-testing:edge-cases`
 * owner: romanzac
-* status: in progress (50%)
-* start-date: 2025/3/24
-* end-date: 2025/3/31
+* status: not started
+* start-date: 2025/03/24
+* end-date: 2025/03/31
 
 #### Description
 This is an ongoing task.

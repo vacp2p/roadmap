@@ -1,0 +1,91 @@
+---
+
+title: Nomos Data Availability Testing  
+tags:
+  - "2025q1"
+  - "qa"
+  - "nomos"  
+draft: true  
+description: Implement data availability test plans for the Nomos project at the cluster level. 
+
+---
+
+`vac:qa:nomos:2025q1-da-testing`
+
+## Description
+Implement data availability test plans for the Nomos project at the cluster level. 
+
+**Alignment with VAC Narratives:**
+- By developing and constantly updating tests for data availability,
+  VAC QA ensures that the feature's implementation aligns with high standards.
+- This continuous testing helps identify any spec-related issues early,
+  contributing to the RFC culture and improving spec quality.
+- The effort also supports IFT's strategic objective of scaling the project’s capacity
+  and ensuring a reliable system for future community involvement.
+
+## Task List
+
+### Data Integrity Tests
+
+* fully qualified name: `vac:qa:nomos:2025q1-da-testing:data-integrity-tests`
+* owner: romanzac
+* status: in progress (20%)
+* start-date: 2025/1/6
+* end-date: 2025/1/17
+
+#### Description
+Add integration tests focusing on the system's ability
+to reconstruct or retrieve data.
+
+#### Deliverables
+* PR link with added tests
+* CI runs showing successful or failed executions with detailed reports
+
+
+### Networking and Privacy Tests
+
+* fully qualified name: `vac:qa:nomos:2025q1-da-testing:networking-privacy`
+* owner: romanzac
+* status: not started
+* start-date: 2025/1/20 
+* end-date: 2025/2/21
+
+#### Description
+Add integration tests focusing on the privacy of the data in transit
+
+#### Deliverables
+* PR link with added tests
+* CI runs showing successful or failed executions with detailed reports
+
+
+### Denial of Service (DoS) and Robustness Testing
+
+* fully qualified name: `vac:qa:nomos:2025q1-da-testing:dos-robustness`
+* owner: romanzac
+* status: not started
+* start-date: 2025/2/24
+* end-date: 2025/3/21
+
+#### Description
+Add integration tests to verify system’s resilience to DoS attacks and handling of large volume of data 
+
+#### Deliverables
+* PR link with added tests
+* CI runs showing successful or failed executions with detailed reports
+
+
+### Edge Cases
+
+* fully qualified name: `vac:qa:nomos:2025q1-da-testing:edge-cases`
+* owner: romanzac
+* status: in progress (50%)
+* start-date: 2025/3/24
+* end-date: 2025/3/31
+
+#### Description
+This is an ongoing task.
+Add edge case integration tests to cover unusual system behavior.
+
+#### Deliverables
+* PR link with added tests
+* CI runs showing successful or failed executions with detailed reports

@@ -15,6 +15,7 @@ tags:
 * [ ] [[acz/ift/2024q4-think-tank|think-tank]]
 * [ ] [[acz/ift/2024q4-acz-research-destination|acz-research-destination]]
 * [ ] [[acz/ift/2024q4-ift-zk-calls|ift-zk-calls]]
+* [ ] [[acz/ift/2025q1-libp2p-mix-poc|libp2p-mix-poc]]
 
 
 ### `waku:`

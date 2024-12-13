@@ -32,7 +32,7 @@ This effort could potentially spawn an incubation project.
 This effort would act as a basis for the Validator Privacy Network incubation project.
 
 
-By utilizing the de-mls-poc commitment, 
+By utilizing this commitment, 
 we will reinforce the Conduit of Expertise narrative by:
 * Create a document describing the benefits of mixnet protocol for each of Waku, Status, Codex, and Nimbus
 * Implement a PoC shows the base functionality

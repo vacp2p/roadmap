@@ -53,6 +53,8 @@ to the Premier Research destination narrative by:
   and improving the quality and reputation of IFT's work, inside
   and outside of Waku.
 
+## Task list
+
 ### Regression testing (recurring)
 
 * fully qualified name: <vac:dst:waku:2024q4-waku-evaluation:regression-testing>

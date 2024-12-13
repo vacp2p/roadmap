@@ -55,6 +55,8 @@ to the Premier Research destination narrative by:
   that we successfully grow our ecosystem's products and collaborations
   and especially those we want to work with externally.
 
+## Task List
+
 ### Regression testing (recurring)
 
 * fully qualified name: <vac:dst:vac:2024q4-libp2p-evaluation:regression-testing>

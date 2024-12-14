@@ -110,7 +110,8 @@ PR to vacp2p/zerokit repo with related update for v0.6
 
 * fully qualified name: `vac:acz:ift:2024q4-zerokit-v0-6:poseidon-hash`
 * owner: Ekaterina
-* status: readjusted for 2025q1
+* status: moved 2025q1
+
 * start-date: 2024/11/18
 * end-date: 2024/12/02
 

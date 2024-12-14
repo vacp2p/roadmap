@@ -8,14 +8,15 @@ tags:
 
 --- 
 ### `ift`
-+ [[rfc/ift/2025q1-rfc-culture-establishment|rfc-culture-establishment]]
-+ [[rfc/ift/2025q1-rfc-index-mainteance|rfc-index-maintenance]]
++ [[rfc/ift/2025q1-rfc-culture-establishment|2025q1-rfc-culture-establishment]]
++ [[rfc/ift/2025q1-rfc-index-mainteance|2025q1-rfc-index-maintenance]]
++ [[rfc/ift/2025q1-integration-with-qa|2025q1-integration-with-qa]]
 
 ### `waku`
-- [[rfc/waku/2025q1-rfc-iterations|rfc-iterations]]
+- [[rfc/waku/2025q1-rfc-iterations|2025q1rfc-iterations]]
 
 ### `nomos`
-- [[rfc/nomos/2025q1-data-availability-raw-rfc|data-availability-raw-rfc]]
+- [[2025q1-raw-rfcs-support-data-availability|data-availability-raw-rfc]]
 - [[rfc/nomos/2025q1-cryptarchia-raw-rfc|cryptarchia-raw-rfc]]
 
 ### `status`
@@ -26,19 +27,19 @@ tags:
 ## 2024q4 `vac-rfc`
 
 ### `ift:`
-* [ ] [[rfc-culture-establishment-2024q4.md|rfc-culture-establishment-2024q4]]
-* [ ] [[rfc-index-maintenance-2024q4.md|rfc-index-maintenance-2024q4]]
+* [ ] [[2024q4-rfc-culture-establishment|2024q4-rfc-culture-establishment]]
+* [ ] [[2024q4-rfc-index-maintenance|2024q4-rfc-index-maintenance]]
 
 ### `status:`
 
 ### `nomos:`
-* [ ] [[rfc/nomos/data-availability-raw-rfc-2024q4.md|data-availability-raw-rfc-2024q4]]
+* [ ] [[2024q4-raw-rfc-support-data-availability|2024q4-raw-rfc-support-data-availability]]
 
 
 ### `codex:`
-* [ ] [[rfc/codex/marketplace-and-client-2024q4.md|marketplace-and-client-2024q4]]
+* [ ] [[2024q4-marketplace-and-client|2024q4-marketplace-and-client]]
 
 ### `waku:`
-* [ ] [[rfc/waku/updates-of-mature-waku-rfcs-2024q4.md|updates-of-mature-waku-rfcs-2024q4]]
+* [ ] [[2024q4-rfc-iteration|2024q4-rfc-iteration]]
 * [ ] [[rfc/waku/raw-rfcs-to-rfc-index-migration.md|raw-rfcs-to-rfc-index-migration]]
 

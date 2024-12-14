@@ -8,7 +8,7 @@ draft: false
 description: Initiating the process of documentation to raw RFC process for Nomos Data Availability.
 ---
 
-`ift:rfc:nomos:data-availability-raw-rfc-2024q4`
+`2024q4-raw-rfc-support-data-availability`
 
 Initiating the process of documentation for the raw RFC process for Nomos Data 
 Availability (DA).
@@ -69,5 +69,5 @@ codebase, create the initial raw RFC.
 
 #### Deliverables
 
-- Raw RFC
+- Raw RFC in Google Drive
 - Feedback from the Nomos team

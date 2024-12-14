@@ -1,24 +1,23 @@
 ---
-title: Data Availability Raw RFC
+title: Data Availability Raw RFCs
 tags:
   - rfc
   - nomos
 draft: false
-description: Continuing the process of documentation for the raw RFC for Nomos Data Availability (DA).
+description: Supporting the process of creating new RFCs based on DA subprotocols.
 ---
 
-`ift:rfc:2025q1-nomos:data-availability-raw-rfc`
+`2025q1-raw-rfcs-support-data-availability`
 
-Continuing the process of documentation for the raw RFC for Nomos Data 
-Availability (DA).
+Supporting the process of creating new RFCs based on DA subprotocols.
 
 ## Description
 
-This commitment supports delivering a raw RFC for Nomos Data Availability (DA) 
+This commitment supports delivering raw RFCs for Nomos Data Availability (DA) 
 through discussions, support, and inquiries. 
 
-The RFC will focus on DA in Nomos as its initial implementation is ongoing. 
-This RFC will be split into different sub-protocols:
+The RFCs will focus on DA in Nomos as its initial implementation is ongoing. 
+This RFC will be split into different sub-protocols/different RFCs:
 
 - Dispersal 
 - Replication

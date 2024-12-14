@@ -11,7 +11,7 @@ description: "Updating a raw RFC specifying libp2p mixnet protocol and implement
 
 `vac:acz:ift:2025q1-libp2p-mix-poc`
 
-Updating a raw RFC specifying libp2p mixnet protocol and implementing a PoC over Waku
+Updating the raw RFC specifying libp2p mixnet protocol and implementing a PoC over Waku
 ## Description
 
 This commitment entails designing an anonymization layer for gossipsub, and by extension, IFT projects.

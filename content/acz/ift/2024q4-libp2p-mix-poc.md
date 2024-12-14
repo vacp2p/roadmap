@@ -111,13 +111,14 @@ privacy and effiency
 
 * fully qualified name: `vac:acz:ift:2024q4-libp2p-mix-poc:gossipsub-over-waku`
 * owner: Akshaya
-* status: not started
+* status: moved to 2025q1
 * start-date: 2024/11/18
 * end-date: 2024/12/2
 
 #### Description
 
 Implementation the second PoC which is a basic gossibsub protocol with our mixnet over Waku nodes. 
+
 
 #### Deliverables
 

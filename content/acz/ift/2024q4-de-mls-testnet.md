@@ -91,7 +91,7 @@ A specification [document](https://www.notion.so/WiP-SimpleLogin-protocol-1298f9
 
 * fully qualified name: `vac:acz:ift:2024q4-de-mls-testnet:ef-application`
 * owner: Ugur
-* status: in progress (30%)
+* status: moved to 2025q1 (30%)
 * start-date: 2024/10/14
 * end-date: 2024/11/18
 
@@ -99,6 +99,8 @@ A specification [document](https://www.notion.so/WiP-SimpleLogin-protocol-1298f9
 
 Creating the grant application file including the answers of EF questions and having meetings in 
 office hours for possible questions.  
+
+This task is moved to 2025q1 since the we need to obtain the PoC first. 
 
 #### Deliverables
 

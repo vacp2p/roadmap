@@ -69,7 +69,8 @@ A set of PRs to vacp2p/zerokit repository with [tag v0.6.0](https://github.com/v
 
 * fully qualified name: `vac:acz:ift:2024q4-zerokit-v0-6:rln-timestamp-and-wasm`
 * owner: Ekaterina
-* status: readjusted for 2025q1
+* status: moved to 2025q1
+
 * start-date: 2024/11/04
 * end-date: 2024/11/18
 

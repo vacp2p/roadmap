@@ -5,7 +5,7 @@ tags:
   - "acz"
   - "ift"
 draft: false
-description: "Updating a raw RFC specifying libp2p mixnet protocol and implementing a PoC over Waku"
+description: "Updating the raw RFC specifying libp2p mixnet protocol and implementing a PoC over Waku"
 
 ---
 
@@ -14,20 +14,29 @@ description: "Updating a raw RFC specifying libp2p mixnet protocol and implement
 Updating the raw RFC specifying libp2p mixnet protocol and implementing a PoC over Waku
 ## Description
 
-This commitment entails designing an anonymization layer for gossipsub, and by extension, IFT projects.
-The primary objective of this anonymization layer is to serve as a cohesive anonymization solution for gossip-based projects,
-with a specific focus on integrating it with the IFT projects Waku and Codex.
+This commitment entails finalizing the implementation of the core functionality 
+for the anonymization layer over Waku, including thorough testing, documentation, 
+and presenting the results to the community on the gossipsub PoC, 
+as well as contributing to IFT projects.
 
+### Background
+
+The primary objective of this anonymization layer is to serve as a cohesive anonymization solution 
+for gossip-based projects, with a specific focus on integrating it with the IFT projects Waku and Codex.
 
 Our initial exploration will revolve around extending our [Tor push proposal](https://rfc.vac.dev/spec/46/).
-In this approach, messages will traverse through an anonymization network before being disseminated via gossip protocols upon exiting the anonymization network.
-Additionally, we aim to investigate the concept of embedding anonymization capabilities directly into gossipsub,
-rather than routing messages through a separate anonymization network before entering a standard gossipsub network operation.
+In this approach, messages will traverse through an anonymization network before being disseminated 
+via gossip protocols upon exiting the anonymization network.
+Additionally, we aim to investigate the concept of embedding anonymization capabilities 
+directly into gossipsub, rather than routing messages through a separate anonymization network 
+before entering a standard gossipsub network operation.
 
-Currently we view this anonymization solution as a P2P base layer, which the Vac P2P team will offer as part of libp2p.
+Currently we view this anonymization solution as a P2P base layer, 
+which the Vac P2P team will offer as part of libp2p.
 This effort could potentially spawn an incubation project.
 This effort would act as a basis for the Validator Privacy Network incubation project.
 
+### Narratives
 
 By utilizing this commitment, 
 we will reinforce the Conduit of Expertise narrative by:

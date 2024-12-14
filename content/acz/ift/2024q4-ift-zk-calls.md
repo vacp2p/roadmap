@@ -21,7 +21,7 @@ These meetings will be conducted with the participation
 of all individuals involved with ZK within IFT. 
 
 
-By utilizing the Nescience Consulting commitment, 
+By utilizing the this commitment, 
 
 we will reinforce the Conduit of Expertise narrative by:
 * Sync the monthly ZK improvements with all shares in IFT. 

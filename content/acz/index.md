@@ -18,6 +18,7 @@ tags:
 * [ ] [[acz/ift/2025q1-libp2p-mix-poc|libp2p-mix-poc]]
 * [ ] [[acz/ift/2025q1-zerokit-v0-7|zerokit-v0.7]]
 * [ ] [[acz/ift/2025q1-de-mls-multi-admin|de-mls-multi-admin]]
+* [ ] [[acz/ift/2025q1-ift-zk-calls|ift-zk-calls]]
 
 
 ### `waku:`

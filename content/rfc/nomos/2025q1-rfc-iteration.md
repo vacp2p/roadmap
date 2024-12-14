@@ -4,19 +4,19 @@ tags:
   - rfc
   - nomos
 draft: false
-description: Through discussion and curation, support the process of auditing raw, draft, mature selected Nomos RFCs.
+description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected Nomos RFCs."
 ---
 
 `ift:rfc:waku:2025q1-rfc-iteration`
 
 Iteration commitments generally comprise:
 through discussion and curation,
-support the process of auditing raw, draft, mature selected Nomos RFCs.`
+support the process of auditing raw, draft, mature selected Nomos RFCs.
 
 ## Description
 
 This commitment supports the process of the choosing which raw RFCs,
-from the existing documentation to be put in pipeline to be written. 
+from the existing documentation to be put in pipeline to be written or updated. 
 We will also include specification validation - 
 editorial work through previous and future RFCs to improve them
 (identify edge cases for example)

@@ -4,7 +4,7 @@ tags:
   - rfc
   - waku
 draft: false
-description: Through discussion and curation, support the process of auditing raw, draft, mature selected Waku RFCs.
+description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected Waku RFCs."
 ---
 
 `ift:rfc:waku:2025q1-rfc-iteration`

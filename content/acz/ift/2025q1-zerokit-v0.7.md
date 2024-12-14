@@ -14,12 +14,20 @@ description: "Implementation of the next release of Zerokit"
 Implementation of the next release of Zerokit 
 ## Description
 
+This commitment entails achieving Zerokit v0.7.0 by advancing the next version 
+through the integration of new features aimed at improving its speed and robustness, 
+such as Poseidon integration, accelerated witness generation, and updates to the WASM module.
+
+### Background
+
 [Zerokit](https://github.com/vacp2p/zerokit) is a collection of Zero Knowledge modules that focus on RLN, 
 developed in Rust, intended for integration with various system programming environments.
 
 This commitment marks the next iteration of Zerokit addressed by the issue https://github.com/vacp2p/zerokit/issues/263, 
 version 0.7.0, which introduces several new features, including arkzkey, poseidon and updated wasm that is 
 distinguishing it from the previous version.
+
+### Narratives
 
 By utilizing the zerokit-v0-7 commitment, we will reinforce the Conduit of Expertise narrative by:
 * Delivers an optimized version for IFT projects utilizing Zerokit, 
@@ -29,9 +37,7 @@ We will also strengthen the Premier Research Destination narrative by:
 * Offers a Rust crate that serves as a more efficient open-source development tool 
 for users looking to integrate RLN into their projects. 
 
-
 ## Task List
-
  
 ### Circom Witness rs
 

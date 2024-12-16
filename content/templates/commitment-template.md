@@ -5,7 +5,7 @@ tags:
   - "<service_unit>"
   - "<for_project>"
 draft: false
-description:
+description: < a concise description of the commitment >
 ---
 
 <`fully qualified commitment name`>

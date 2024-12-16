@@ -88,7 +88,7 @@ Will be this done in Q2?
 ### Messaging API
 > *Note*: This needs more input from project
 
-* fully qualified name: <vac:dst:waku:2025q1-waku-scaling:messaging-api>
+* fully qualified name: `vac:dst:waku:2025q1-waku-scaling:messaging-api`
 * owner: Alberto
 * status: 0%
 * start-date: <yyyy/mm/dd>

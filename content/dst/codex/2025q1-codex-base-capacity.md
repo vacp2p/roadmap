@@ -54,7 +54,7 @@ including an extended sick leave of a CC.
 
 ### Production Quality Base Capacity
 
-* fully qualified name: <vac:dst:codex:2025q1-codex-base-capacity:deploy-base-capacity>
+* fully qualified name: `vac:dst:codex:2025q1-codex-base-capacity:deploy-base-capacity`
 * owner: Wings
 * status: 0%
 * start-date: <yyyy/mm/dd> // Previously: 2024/10/05

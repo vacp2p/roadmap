@@ -56,7 +56,7 @@ and especially those we want to work with externally.
 
 ### Regression testing (recurring)
 
-* fully qualified name: <vac:dst:vac:2025q1-libp2p-evaluation:regression-testing>
+* fully qualified name: `vac:dst:vac:2025q1-libp2p-evaluation:regression-testing`
 * owner: Alberto
 * status: 0%
 * start-date: 2025-01-01

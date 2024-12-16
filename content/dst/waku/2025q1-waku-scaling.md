@@ -47,7 +47,7 @@ through performance insights during the drafting process.
 ### Scale one to one chat
 > *Note*: This needs more input from project
 
-* fully qualified name: <vac:dst:waku:2025q1-waku-scaling:scale-one-to-one>
+* fully qualified name: `vac:dst:waku:2025q1-waku-scaling:scale-one-to-one`
 * owner: Alberto
 * status: 0%
 * start-date: <yyyy/mm/dd>
@@ -62,7 +62,7 @@ Will be this done in Q2?
 
 ### Nwaku in status mobile
 
-* fully qualified name: <vac:dst:waku:2025q1-waku-scaling:waku-in-status-mobile>
+* fully qualified name: `vac:dst:waku:2025q1-waku-scaling:waku-in-status-mobile`
 * owner: Alberto
 * status: 0%
 * start-date: <yyyy/mm/dd>
@@ -74,7 +74,7 @@ Will be this done in Q2?
 
 ### Logos forum
 
-* fully qualified name: <vac:dst:waku:2025q1-waku-scaling:logos-forum>
+* fully qualified name: `vac:dst:waku:2025q1-waku-scaling:logos-forum`
 * owner: Alberto
 * status: 0%
 * start-date: <yyyy/mm/dd>

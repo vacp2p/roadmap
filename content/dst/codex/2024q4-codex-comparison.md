@@ -50,7 +50,7 @@ Finally, together we'll help in writing the final report at the end of the proce
 
 ### Matrices Deployments
 
-* fully qualified name: <vac:dst:codex:2024q4-codex-comparison:matrices-deployments>
+* fully qualified name: `vac:dst:codex:2024q4-codex-comparison:matrices-deployments`
 * owner: Wings
 * status: 90%
 * start-date: 2024/10/01
@@ -86,7 +86,7 @@ This will build on prior work by DST that benefits from this work as well (ArgoC
 
 ### How Fast Is Codex?
 
-* fully qualified name: <vac:dst:codex:2024q4-codex-comparison:how-fast-is-codex>
+* fully qualified name: `vac:dst:codex:2024q4-codex-comparison:how-fast-is-codex`
 * owner: Wings
 * status: 0%
 * start-date: 2024/10/18
@@ -155,7 +155,7 @@ with a Helm chart or plain manifests in it. Use it to support Codex Comparison w
 
 ### Working Matrices
 
-* fully qualified name: <vac:dst:codex:2024q4-codex-comparison:working-matrices>
+* fully qualified name: `vac:dst:codex:2024q4-codex-comparison:working-matrices`
 * owner: Wings
 * status: 90%
 * start-date: 2024/10/04

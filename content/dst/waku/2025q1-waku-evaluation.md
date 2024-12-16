@@ -62,7 +62,7 @@ to the Premier Research destination narrative by:
 
 ### Regression testing (recurring)
 
-* fully qualified name: <vac:dst:waku:2025q1-waku-evaluation:regression-testing>
+* fully qualified name: `vac:dst:waku:2025q1-waku-evaluation:regression-testing`
 * owner: Alberto
 * status: 0%
 * start-date: 2025-01-01

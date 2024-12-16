@@ -13,7 +13,7 @@ libp2p mixnet protocol and implementing another PoC over Waku."
 `vac:acz:ift:2025q1-libp2p-mix-poc`
 
 Updating the raw RFC with the new transport layer specifying 
-libp2p mixnet protocol and implementing another PoC over Waku.
+libp2p mixnet protocol and implementing a PoC over Waku.
 ## Description
 
 This commitment entails finalizing the implementation of the core functionality 

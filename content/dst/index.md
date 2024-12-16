@@ -14,7 +14,6 @@ tags:
 * [ ] [[dst/ift/2025q1-dst-conduit|dst-conduit]]
 * [ ] [[dst/ift/2025q1-dst-research-destination|dst-research-destination]]
 * [ ] [[dst/ift/2025q1-vaclab|vaclab]]
-* [ ] [[dst/ift/2025qx-theoretical-analysis|theoretical-analysis]]
 
 ### `waku`
 * [ ] [[dst/waku/2024q4-waku-evaluation|waku-evaluation]]

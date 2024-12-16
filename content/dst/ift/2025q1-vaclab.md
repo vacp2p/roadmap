@@ -64,7 +64,7 @@ promoting transparency and collaboration.
  
 ### Better Time Slicing
 
-* fully qualified name: <vac:dst:ift:2025q1-vaclab:better-time-slicing>
+* fully qualified name: `vac:dst:ift:2025q1-vaclab:better-time-slicing`
 * owner: Wings
 * status: 0%
 * start-date: <yyyy/mm/dd> // Previously: 2024/12/01

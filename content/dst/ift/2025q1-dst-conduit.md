@@ -1,7 +1,7 @@
 ---
 title: DST Conduit
 tags:
-  - "2024q4"
+  - "2025q1"
   - "dst"
   - "ift"
 draft: false
@@ -10,12 +10,18 @@ and exploration of how they can gain advantages from large-scale deployments,
 facilitating cross-project collaboration."
 ---
 
-`vac:dst:ift:dst-conduit-2024q4`
+`vac:dst:ift:2025q1-dst-conduit`
+
 
 ## Description
 <!--  TODO
 -->
 
+### Background
+
+### Narratives
+
+### Additional info
 
 ## Task List
 <!--  TODO

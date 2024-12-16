@@ -1,7 +1,7 @@
 ---
 title: Nomos Scaling
 tags:
-  - "2024q4"
+  - "2025q1"
   - "dst"
   - "nomos"
 draft: false
@@ -11,9 +11,12 @@ Improve privacy and security,
 and improve scaling properties."
 ---
 
-`vac:dst:nomos:nomos-scaling`
+`vac:dst:nomos:2025q1-nomos-scaling`
+
 
 ## Description
+> *Note*: This needs more input from project
+
 Use real world testing,
 theoretical analysis
 and simulation
@@ -23,6 +26,11 @@ and measure them in different scenarios.
 
 We will measure the real world speeds and latency of Nomos' mixnet,
 and what use cases it is therefore able to support.
+
+
+### Background
+
+### Narratives
 
 We will support the Conduit of Expertise narrative directly
 by providing valuable insights to Nomos
@@ -39,16 +47,15 @@ This will also help spur on outside adoption and contributions.
 * Improve the RFC culture
   by allowing for faster and easier development of RFCs
   with the aid of rapidly accelerated insights into how an RFC in development will perform as it's being expanded and going through the draft process.
-* Allow easier post-mortem analysis of the success or relative performance of a given RFC -
-does this change use more or less bandwidth?
-Did it improve things?
-Seeing the effects of changes at scale allows for a greater ability to usefully wrap up work on and conclude an RFC process and document and absorb what we learned in the process into further improvements.
+* Allow easier post-mortem analysis of the success or relative performance of a given RFC
+
+### Additional info
 
 ## Task List
 
 ### Mixnet benchmarking
 
-* fully qualified name: <vac:dst:nomos:nomos-benchmarking>
+* fully qualified name: <vac:dst:nomos:2025q1-nomos-scaling:nomos-benchmarking>
 * owner: Alberto
 * status: 0%
 * start-date: <yyyy/mm/dd>
@@ -56,24 +63,33 @@ Seeing the effects of changes at scale allows for a greater ability to usefully 
 
 #### Description
 
-Measure the speed and reliability of Nomos's mixnet, benchmarking it against other mixnets and a selection of real world use cases.
+Measure the speed and reliability of Nomos's mixnet.
 
 #### Deliverables
 * Benchmarks done
 * Report published with all relevant details
 
+
+<!--
 ### RFC analysis (recurring)
 
-* fully qualified name: <vac:dst:nomos:rfc-analysis>
+* fully qualified name: <vac:dst:nomos:2025q1-nomos-scaling:rfc-analysis>
 * owner: Alberto
 * status: 0%
 * start-date: <yyyy/mm/dd>
 * end-date: <yyyy/mm/dd>
 
 #### Description
-Analyse the performance of RFCs that have an expected effect on the network's performance and scaling properties, using the benchmarking tools and real world measurements.
+Analyse the performance of protocols
+specified in RFCs
+that have an expected effect
+on the network's performance
+and scaling properties,
+using the benchmarking tools
+and real world measurements.
 
 #### Deliverables
 * Analysis done
 * Report published with all relevant details
 * RFC's GitHub issue updated with links to the analysis and results
+-->

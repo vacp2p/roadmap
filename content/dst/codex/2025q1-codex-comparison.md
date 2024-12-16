@@ -138,7 +138,7 @@ We would also like to collect all data from the items in this matrix:
 
 ### ArgoCD Or Similar
 
-* fully qualified name: <vac:dst:codex:2025q1-codex-comparison:argocd-or-similar>
+* fully qualified name: `vac:dst:codex:2025q1-codex-comparison:argocd-or-similar`
 * owner: Wings
 * status: 0% // Previously: 95%
 * start-date: <yyyy/mm/dd> // Previously: 2024/10/04

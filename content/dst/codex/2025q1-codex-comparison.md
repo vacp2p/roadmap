@@ -102,13 +102,7 @@ This will build on prior work by DST that benefits from this work as well (ArgoC
 
 #### Description
 
-Related to Codex Comparison, 
-we simply want to find out how fast Codex is, at various things 
-under different kinds of stress and load.
-
-We will use the Base Capacity.
-
-We will test and compare the following:
+We will test and compare the following properties in Codex:
 
 * Upload speed (1 client)
 * Download speed

@@ -1022,14 +1022,23 @@
     <loc>https://roadmap.vac.dev/rfc/waku/raw-rfcs-to-rfc-index-migration</loc>
     <lastmod>2024-12-16T12:00:29.703Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/sc/acz/2025q1-de-mls-consulting</loc>
+    <lastmod>2024-12-16T12:02:20.957Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/sc/codex/2024q4-formal-verification</loc>
     <lastmod>2024-12-16T09:14:10.561Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/sc/codex/2025q1-formal-verification</loc>
+    <lastmod>2024-12-16T12:02:20.957Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/ift/2024q4-eip-discussions</loc>
     <lastmod>2024-12-16T09:14:10.561Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/sc/ift/2025q1-sc-learnup-sessions</loc>
+    <lastmod>2024-12-16T12:02:20.957Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/sc/</loc>
-    <lastmod>2024-12-16T09:14:10.561Z</lastmod>
+    <lastmod>2024-12-16T12:02:20.957Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/status/2024q4-staking-protocol-v1</loc>
     <lastmod>2024-12-16T09:14:10.561Z</lastmod>
@@ -1039,6 +1048,9 @@
   </url><url>
     <loc>https://roadmap.vac.dev/sc/status/2024q4-xp-token-v1</loc>
     <lastmod>2024-12-16T09:14:10.561Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/sc/status/2025q1-staking-protocol-refinement</loc>
+    <lastmod>2024-12-16T12:02:20.957Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/tags/component</loc>
     <lastmod>2024-09-30T16:33:59.572Z</lastmod>

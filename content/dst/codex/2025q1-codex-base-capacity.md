@@ -15,7 +15,7 @@ Study its behaviour in the process of supporting it."
 ## Description
 
 We will ensure Codex
-has a reliable base capacity
+has a reliable storage base capacity
 and study its behavior during support.
 To enable scalability,
 we will test Codex with large deployments

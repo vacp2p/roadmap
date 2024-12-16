@@ -171,7 +171,7 @@ and will be done outside of normal DST cadence
 but will be managed so as not to disrupt other works
 -->
 
-* fully qualified name: <vac:dst:ift:2024q4-vaclab:automation-uplift>
+* fully qualified name: `vac:dst:ift:2024q4-vaclab:automation-uplift`
 * owner: Wings
 * status: 0%
 * start-date: 2024/12/01

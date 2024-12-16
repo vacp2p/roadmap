@@ -156,7 +156,7 @@ and average message size under 500KiB.
 ### Store sync
 > *Note*: This needs more input from project
 
-* fully qualified name: <vac:dst:waku:2025q1-waku-scaling:store-sync>
+* fully qualified name: `vac:dst:waku:2025q1-waku-scaling:store-sync`
 * owner: Alberto
 * status: 0%
 * start-date: <yyyy/mm/dd>

@@ -10,61 +10,61 @@
     <link>https://roadmap.vac.dev/acz/ift/2024q4-acz-research-destination</link>
     <guid>https://roadmap.vac.dev/acz/ift/2024q4-acz-research-destination</guid>
     <description>Providing ACZ research informative materials for the ecosystem.</description>
-    <pubDate>Thu, 12 Dec 2024 14:02:34 GMT</pubDate>
+    <pubDate>Tue, 10 Dec 2024 14:40:03 GMT</pubDate>
   </item><item>
     <title>de-mls Testnet</title>
     <link>https://roadmap.vac.dev/acz/ift/2024q4-de-mls-testnet</link>
     <guid>https://roadmap.vac.dev/acz/ift/2024q4-de-mls-testnet</guid>
     <description>Implementation of a de-mls testnet, extending the previous poc and writing the corresponding RFC.</description>
-    <pubDate>Thu, 12 Dec 2024 14:02:34 GMT</pubDate>
+    <pubDate>Tue, 10 Dec 2024 14:40:03 GMT</pubDate>
   </item><item>
     <title>IFT ZK Calls</title>
     <link>https://roadmap.vac.dev/acz/ift/2024q4-ift-zk-calls</link>
     <guid>https://roadmap.vac.dev/acz/ift/2024q4-ift-zk-calls</guid>
     <description>Preparation and conducting the ZK meetings.</description>
-    <pubDate>Thu, 12 Dec 2024 14:02:34 GMT</pubDate>
+    <pubDate>Tue, 10 Dec 2024 14:40:03 GMT</pubDate>
   </item><item>
     <title>LibP2P mix protocol</title>
     <link>https://roadmap.vac.dev/acz/ift/2024q4-libp2p-mix-poc</link>
     <guid>https://roadmap.vac.dev/acz/ift/2024q4-libp2p-mix-poc</guid>
     <description>Publishing a raw RFC specifying libp2p mixnet protocol and implementing a PoC.</description>
-    <pubDate>Thu, 12 Dec 2024 14:02:34 GMT</pubDate>
+    <pubDate>Tue, 10 Dec 2024 14:40:03 GMT</pubDate>
   </item><item>
     <title>Think tank</title>
     <link>https://roadmap.vac.dev/acz/ift/2024q4-think-tank</link>
     <guid>https://roadmap.vac.dev/acz/ift/2024q4-think-tank</guid>
     <description>Publishing a reviewing document for the cryptography modules of IFT projects.</description>
-    <pubDate>Thu, 12 Dec 2024 14:02:34 GMT</pubDate>
+    <pubDate>Tue, 10 Dec 2024 14:40:03 GMT</pubDate>
   </item><item>
     <title>Zerokit v.0.6</title>
     <link>https://roadmap.vac.dev/acz/ift/2024q4-zerokit-v0-6</link>
     <guid>https://roadmap.vac.dev/acz/ift/2024q4-zerokit-v0-6</guid>
     <description>Implementation of the next release of Zerokit.</description>
-    <pubDate>Thu, 12 Dec 2024 14:02:34 GMT</pubDate>
+    <pubDate>Tue, 10 Dec 2024 14:40:03 GMT</pubDate>
   </item><item>
     <title>Applied Cryptography and Zero-knowledge Service Unit</title>
     <link>https://roadmap.vac.dev/acz/</link>
     <guid>https://roadmap.vac.dev/acz/</guid>
     <description>vac:acz: § ift: § zerokit-v0.6 de-mls-testnet libp2p-mix-poc think-tank acz-research-destination ift-zk-calls waku: § waku-rln-relay codex: § nomos: § nes § nescience-consulting nimbus: §.</description>
-    <pubDate>Thu, 12 Dec 2024 14:02:34 GMT</pubDate>
+    <pubDate>Tue, 10 Dec 2024 14:40:03 GMT</pubDate>
   </item><item>
     <title>Nescience Consulting</title>
     <link>https://roadmap.vac.dev/acz/nes/2024q4-nescience-consulting</link>
     <guid>https://roadmap.vac.dev/acz/nes/2024q4-nescience-consulting</guid>
     <description>Creating a review document on the specification and architecture of the Nescience node.</description>
-    <pubDate>Thu, 12 Dec 2024 14:02:34 GMT</pubDate>
+    <pubDate>Tue, 10 Dec 2024 14:40:03 GMT</pubDate>
   </item><item>
     <title>Waku RLN Relay</title>
     <link>https://roadmap.vac.dev/acz/waku/2024q4-waku-rln-relay</link>
     <guid>https://roadmap.vac.dev/acz/waku/2024q4-waku-rln-relay</guid>
     <description>Providing implementation support to Waku RLN relay for solving the related issues.</description>
-    <pubDate>Thu, 12 Dec 2024 14:02:34 GMT</pubDate>
+    <pubDate>Tue, 10 Dec 2024 14:40:03 GMT</pubDate>
   </item><item>
     <title>proxy-re-encryption</title>
     <link>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/codex/proxy-re-encryption</link>
     <guid>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/codex/proxy-re-encryption</guid>
     <description>vac:acz:consulting:codex:proxy-re-encryption § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Proxy Re-Encryption: , 2024-05-27, 2024-09-30 status: 50% CC: Ramses + 1 Description § To embed and assist codex with their proxy re-encryption primitive.</description>
-    <pubDate>Thu, 12 Dec 2024 14:02:34 GMT</pubDate>
+    <pubDate>Mon, 30 Sep 2024 16:33:59 GMT</pubDate>
   </item>
     </channel>
   </rss>

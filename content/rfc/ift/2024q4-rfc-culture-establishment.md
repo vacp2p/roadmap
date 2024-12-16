@@ -9,7 +9,7 @@ draft: false
 description: Creating a plan in Notion, compiling information about the RFC process, publishing a forum post, initially informing and discussing with teams within the IFT ecosystem.
 ---
 
-`ift:rfc:vac:rfc-culture-establishment-2024q4`
+`2024q4-ift:rfc:vac:rfc-culture-establishment`
 
 Creating a plan in Notion, compiling information about the RFC process,
 publishing a forum post, initially informing and discussing with teams

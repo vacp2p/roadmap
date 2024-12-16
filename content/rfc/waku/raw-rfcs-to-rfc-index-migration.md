@@ -33,7 +33,7 @@ to the rfc-index.
 - Fully qualified name: 
   `ift:rfc:waku:raw-rfcs-to-rfc-index-migration:migration`
 - Owner: Filip
-- Status: not started
+- Status: completed
 - Start date: 2024/10/31
 - End date: 2024/12/31
 
@@ -42,6 +42,8 @@ to the rfc-index.
 Support communication with the Waku team to decide which RFCs should move to 
 the rfc-index. This includes updates and editorial work to ensure compliance 
 with rfc-index standards.
+
+The RFCs were selected by Hanno.
 
 #### Deliverables
 

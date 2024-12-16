@@ -1,5 +1,5 @@
 ---
-title: Updates of Certain Mature and PoC Waku RFCs
+title: 2024q4 RFC Iteration
 tags:
   - 2024q4
   - rfc
@@ -8,7 +8,7 @@ draft: false
 description: Through discussion and curation, support the process of auditing raw, draft, mature selected Waku RFCs.
 ---
 
-`ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4`
+`ift:rfc:waku:2024q4-rfc-iteration`
 
 Through discussion and curation, support the process of auditing raw, draft, mature selected Waku RFCs.
 

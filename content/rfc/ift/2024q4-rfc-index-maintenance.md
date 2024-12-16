@@ -5,11 +5,12 @@ tags:
   - rfc
   - vac
 draft: false
-description:
+description: Continuous effort to fix and update across the relevant RFC websites (including the communication)
 ---
 
-`ift:rfc:vac:rfc-index-maintenance-2024q4`
+`2024q4-ift:rfc:vac:rfc-index-maintenance`
 
+Continuous effort to fix and update across the relevant RFC websites (including the communication)
 ## Description
 
 This commitment revolves around a continuous effort to fix and update across the relevant RFC websites (including the communication).

@@ -18,7 +18,7 @@ description: ""
 
 ### Regression testing (recurring)
 
-* fully qualified name: <vac:dst:status:2025qx-status-evaluation:regression-testing>
+* fully qualified name: `vac:dst:status:2025qx-status-evaluation:regression-testing`
 * owner: Alberto
 * status: 0%
 * start-date: <yyyy/mm/dd>

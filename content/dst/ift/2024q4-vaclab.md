@@ -134,7 +134,7 @@ and will be done outside of normal DST cadence
 but will be managed so as not to disrupt other works
 -->
 
-* fully qualified name: <vac:dst:ift:2024q4-vaclab:train-lab-staff>
+* fully qualified name: `vac:dst:ift:2024q4-vaclab:train-lab-staff`
 * owner: Wings
 * status: 30%
 * start-date: 2024/12/01

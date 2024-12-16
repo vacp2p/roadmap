@@ -5,6 +5,23 @@ tags:
   - vac
 ---
 
+## 2025q1 `vac:sc:`
+---
+
+### `ift:`
+- [ ] [[sc/ift/2025q1-sc-learnup-sessions]]
+
+### `status:`
+- [ ] [[sc/status/2025q1-staking-protocol-refinement]]
+
+### `codex:`
+
+- [ ] [[sc/codex/2025q1-formal-verification]]
+
+### `acz:`
+- [ ] [[sc/acz/2025q1-de-mls-consulting]]
+
+
 ## 2024q4 `vac:sc:`
 ---
 

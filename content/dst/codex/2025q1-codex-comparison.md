@@ -94,7 +94,7 @@ This will build on prior work by DST that benefits from this work as well (ArgoC
 
 ### How Fast Is Codex?
 
-* fully qualified name: <vac:dst:codex:2025q1-codex-comparison:how-fast-is-codex>
+* fully qualified name: `vac:dst:codex:2025q1-codex-comparison:how-fast-is-codex`
 * owner: Wings
 * status: 0% // Previously: 0%
 * start-date: <yyyy/mm/dd> // Previously: 2024/10/18

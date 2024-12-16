@@ -101,7 +101,7 @@ Will be this done in Q2?
 
 ### Direct message reliability
 
-* fully qualified name: <vac:dst:waku:2025q1-waku-scaling:direct-message-reliability>
+* fully qualified name: `vac:dst:waku:2025q1-waku-scaling:direct-message-reliability`
 * owner: Alberto
 * status: 0%
 * start-date: <yyyy/mm/dd>

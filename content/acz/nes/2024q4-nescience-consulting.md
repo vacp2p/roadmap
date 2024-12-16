@@ -10,7 +10,7 @@ architecture of the Nescience node"
 
 ---
 
-`vac:acz:nes:nescience-consulting`
+`vac:acz:nes:2024q4-nescience-consulting`
 
 Creating a review document on the specification and 
 architecture of the Nescience node
@@ -36,7 +36,7 @@ and introduced into the ecosystem.
 
 ### Initial Reading
 
-* fully qualified name: `vac:acz:nes:nescience-consulting:initial-reading`
+* fully qualified name: `vac:acz:nes:2024q4-nescience-consulting:initial-reading`
 * owner: Aleksei
 * status: in progress (0%)
 * start-date: 2024/11/26
@@ -55,7 +55,7 @@ A technical document summarizing the details of the Nescience architecture for t
 
 ### Node Spec Reviewing
 
-* fully qualified name: `vac:acz:nes:nescience-consulting:node-spec-reviewing`
+* fully qualified name: `vac:acz:nes:2024q4-nescience-consulting:node-spec-reviewing`
 * owner: Aleksei
 * status: in progress (0%)
 * start-date: 2024/11/26

@@ -58,7 +58,7 @@ including an extended sick leave of a CC.
 
 ### Matrices Deployments
 
-* fully qualified name: <vac:dst:codex:2025q1-codex-comparison:matrices-deployments>
+* fully qualified name: `vac:dst:codex:2025q1-codex-comparison:matrices-deployments`
 * owner: Wings
 * status: 0% // Previously: 90%
 * start-date: <yyyy/mm/dd> // Previously: 2024/10/01

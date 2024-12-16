@@ -163,7 +163,7 @@ with a Helm chart or plain manifests in it.
 
 ### Working Matrices
 
-* fully qualified name: <vac:dst:codex:2025q1-codex-comparison:working-matrices>
+* fully qualified name: `vac:dst:codex:2025q1-codex-comparison:working-matrices`
 * owner: Wings
 * status: 0% // Previously 90%
 * start-date: <yyyy/mm/dd> // Previously: 2024/10/04

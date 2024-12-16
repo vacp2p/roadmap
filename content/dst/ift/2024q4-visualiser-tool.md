@@ -45,7 +45,7 @@ that don't provide a visual way of analysing large scale behaviours.
 
 * fully qualified name: <vac:dst:ift:2024q4-visualiser-tool:debug-visualiser>
 * owner: Alberto
-* status: 0%
+* status: 100%
 * start-date: 2024/11/15
 * end-date: 2024/12/10
 
@@ -62,7 +62,7 @@ This covers the remaining work to finish the debug visualiser,
 essentially just making it production ready.
 
 #### Deliverables
-- [ ] https://github.com/vacp2p/dst-live-visualiser
+- [X] https://github.com/vacp2p/10ksim/tree/master/src/mesh_analysis/visualizer
 
 <!--
 We're so close to shipping this fully

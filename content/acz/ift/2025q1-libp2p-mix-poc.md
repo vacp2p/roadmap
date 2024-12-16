@@ -53,6 +53,12 @@ offering improvements over Tor push.
 * Publish two blogpost on [vac.dev/rlog](https://vac.dev/rlog) that includes update on transport layer of mixnet and 
 Waku integration. 
 
+### Additional Info
+
+This commitment has been rescheduled from 2024Q4 to 2025Q1
+due to the lack of engineering resource. For this, budget is requested for 2025q1, 
+hiring process started. 
+
 ## Task List
 
 ### RFC Update

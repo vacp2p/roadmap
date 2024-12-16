@@ -15,8 +15,9 @@ Publishing a reviewing document for the cryptography and ZK modules of IFT proje
 ## Description
 
 This commitment entails developing and maintaining an up-to-date repository 
-of cryptography and zero-knowledge (ZK) topics, serving as a knowledge base 
-for teams requiring expertise in these areas while also minimizing overlapping.
+of cryptography and zero-knowledge (ZK) topics from all IFT teams such as 
+Waku, Nomos, Codex and Status, serving as a knowledge base for teams 
+requiring expertise in these areas while also minimizing overlapping.
 
 ### Background
 
@@ -37,6 +38,11 @@ We will also strengthen the Premier Research Destination narrative by:
 * Present the significant cryptographic findings on the [VAC forum](https://forum.vac.dev/) 
 to initiate discussions and contribute to the benefit of the ecosystem.
 
+### Additional Info
+
+This commitment has been rescheduled from 2024Q4 to 2025Q1
+since we need higher quality of the cryptography think tank, 
+also maintain the ZK think tank with the latest improvements. 
 
 ## Task List
 
@@ -73,7 +79,7 @@ to get a clear overview or deep dive depending on their needs.
 
 #### Description 
 
-Provide comprehensive documentation of ZK techniques used and developed by IFT teams 
+Updating the existing documentation of ZK techniques used and developed by IFT teams 
 that is accessible and user-friendly to all IFT teams and the broader community. 
 This task is important to diffuse the ZK components' how-know across the IFT. 
  

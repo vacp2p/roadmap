@@ -28,7 +28,11 @@ tags:
 
 ### `codex:`
 
+* [ ] [[acz/codex/2025q1-codex-consulting|codex-consulting]]
+
 ### `nomos:`
+
+* [ ] [[acz/nomos/2025q1-nomos-consulting|nomos-consulting]]
 
 ### `nes`
 * [ ] [[acz/nes/2024q4-nescience-consulting|nescience-consulting]]

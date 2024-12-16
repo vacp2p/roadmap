@@ -5,22 +5,24 @@ tags:
   - "dst"
   - "vac"
 draft: false
-description: "Test libp2p on a regular basis
+description: "Test libp2p on each new version or feature
 and look for regressions,
-learn scaling properties and run scaling studies,
-understand the limits of libp2p and its behaviour.
-Deliver hard numbers and actionable insights.
-Do this monthly, reliably, with documentation of findings."
+learn scaling properties and run scaling studies."
 ---
 
 `vac:dst:vac:2025q1-libp2p-evaluation`
 
 
 ## Description
-Test libp2p on a regular basis
+
+Test libp2p on each new version or requested feature
 and look for regressions,
 learn scaling properties and run scaling studies,
-understand the limits of libp2p and its behaviour.
+understand the limits of Waku and its behaviour.
+Deliver reports and actionable insights.
+Do this monthly, reliably, with documentation of findings.
+
+### Background
 
 We want to learn specific, actionable information
 about libp2p's behaviour
@@ -32,8 +34,6 @@ We will use a combination of real world testing,
 theoretical analysis and simulation
 to determine and measure the success,
 side effects and other factors of libp2p and its evolution.
-
-### Background
 
 ### Narrative
 

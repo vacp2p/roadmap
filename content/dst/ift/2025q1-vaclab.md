@@ -12,6 +12,14 @@ Anticipate untapped use cases and needs from other teams."
 `vac:dst:ift:2025q1-vaclab`
 
 ## Description
+Vaclab will enable large-scale simulations and deployments.
+This involves chores like the maintenance of the lab,
+software updates and replacements if it does not meet the requirements,
+monitoring systems and independent core contributor virtual machine
+assigment with maintenance.
+
+### Background
+[Vaclab 2024](2024q4-vaclab.md)
 The VacLab, provided by Riff Labs Limited,
 supports the Vac team
 by enabling large-scale simulations
@@ -37,19 +45,14 @@ low-cost nodes and building resilience
 against hardware failures,
 VacLab provides a reliable environment for experimentation.
 
-### Background
--- Link 2024 description here? 
 
 ### Narratives
 
 VacLab supports the Conduit of Expertise by
 lowering infrastructure barriers
 for IFT teams and offering flexible,
-cost-effective resources.
-Identifying new use cases
-to enhance collaboration
-and drive projects like Waku, Codex, and Nomos.
-Encouraging extensive testing
+cost-effective resources,
+encouraging extensive testing
 and simulation across teams
 within DST's capacity.
 
@@ -71,7 +74,13 @@ promoting transparency and collaboration.
 * end-date: <yyyy/mm/dd> // Previously: 2024/12/14
 
 #### Description
-Do a better job of time slicing the lab.
+Optimize the scheduling and allocation of lab resources
+to maximize their efficient use. 
+Where possible, make the lab available for running
+multiple tasks in parallel, 
+balancing workloads to make the most of available lab capacity.
+Detect if multiple users are affecting each other, 
+and ensure that the projects can share infrastructure.
 
 #### Deliverables
 * A report on the current state of time slicing in the lab.

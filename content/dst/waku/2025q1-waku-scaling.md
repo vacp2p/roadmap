@@ -143,7 +143,7 @@ and average message size under 500KiB.
 ### Contact discovery app features
 > *Note*: This needs more input from project
 
-* fully qualified name: <vac:dst:waku:2025q1-waku-scaling:discovery-app-features>
+* fully qualified name: `vac:dst:waku:2025q1-waku-scaling:discovery-app-features`
 * owner: Alberto
 * status: 0%
 * start-date: <yyyy/mm/dd>

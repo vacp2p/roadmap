@@ -130,7 +130,7 @@ and average message size under 500KiB.
 ### Decentralized storage dogfooding
 > *Note*: This needs more input from project
 
-* fully qualified name: <vac:dst:waku:2025q1-waku-scaling:decentralized-storage-dogfooding>
+* fully qualified name: `vac:dst:waku:2025q1-waku-scaling:decentralized-storage-dogfooding`
 * owner: Alberto
 * status: 0%
 * start-date: <yyyy/mm/dd>

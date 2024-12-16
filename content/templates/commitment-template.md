@@ -10,6 +10,8 @@ description:
 
 <`fully qualified commitment name`>
 
+> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
+
 ## Description
 
 (explain alignment with narratives)
@@ -18,8 +20,8 @@ description:
 
 ### <task 1>
 
-* fully qualified name: <>
-* owner: 
+* fully qualified name: <`fully qualified task name`>
+* owner: <github/disord name of the CC responsible for this task>
 * status: <not started or in progress (0%-99%) or done>
 * start-date: <yyyy/mm/dd>
 * end-date: <yyyy/mm/dd>

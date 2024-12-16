@@ -25,7 +25,7 @@ aimed at informing the public and engaging the community.
 ## Task List
 
 ### Forum posts (recurring)
-* fully qualified name: <vac:dst:ift:2025q1-dst-research-destination:forum-post>
+* fully qualified name: `vac:dst:ift:2025q1-dst-research-destination:forum-post`
 * owner: Alberto
 * status: N/A
 * start-date: N/A

@@ -79,3 +79,4 @@ and ensure they don't happen again.
 * Vac Roadmap updated regularly
   with links to the analysis and results.
   * [Nº of connections issue](https://github.com/waku-org/nwaku/issues/3163)
+  * [Blocking Issue](https://zealous-polka-dc7.notion.site/Stuck-Issue-ONGOING-2fb05e6b5cfb4c3c820865e5bf2eef11?pvs=74)

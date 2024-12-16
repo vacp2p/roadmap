@@ -32,7 +32,7 @@ aimed at informing the public and engaging the community.
 * end-date: N/A
 
 ### Public reports (recurring)
-* fully qualified name: <vac:dst:ift:2025q1-dst-research-destination:public-reports>
+* fully qualified name: `vac:dst:ift:2025q1-dst-research-destination:public-reports`
 * owner: Alberto
 * status: N/A
 * start-date: N/A

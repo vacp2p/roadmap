@@ -16,13 +16,12 @@ Updating the raw RFC with the new transport layer specifying
 libp2p mixnet protocol and implementing a PoC over Waku.
 ## Description
 
-This commitment involves achieving proof of concept (PoC) 
+This commitment entails achieving proof of concept (PoC) 
 for the base functionality of mixnet over Waku. 
-Additionally, it includes updating the RFC by replacing 
-the custom transport protocol with a new TCP-based transport protocol, 
-enhancing mixnet's compatibility with other libp2p projects. 
-The results will then be shared through a blog post and a research paper, 
-followed by applying for EF grants to explore further research topics.
+Additionally, it includes updating the RFC by replacing the custom transport protocol 
+with a new TCP-based transport protocol, enhancing mixnet's compatibility with libp2p. 
+The results will then be shared through a blogpost and a research paper, 
+followed by researching the use case, features and further research topics to apply for EF grants 
 
 ### Background
 
@@ -50,8 +49,7 @@ anonymized ping and anonymized plain gossipsub over new transport protocol.
 
 By utilizing this commitment, 
 we will reinforce the Conduit of Expertise narrative by:
-* Create a document describing the benefits of mixnet protocol for each of Waku, Status, Codex, and Nimbus
-* Implement a poc over Waku PoC shows the base functionality 
+* Implement a poc over Waku PoC shows the base functionality on Waku network. 
 
 We will also strengthen the Premier Research Destination narrative by:
 * Create a proposal for the Ethereum Foundation (EF) to apply for EF grants to promote the mixnet PoC and 

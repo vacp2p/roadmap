@@ -5,15 +5,15 @@ tags:
   - "acz"
   - "ift"
 draft: false
-description: "Updating the raw RFC with the new transport layer specifying 
-libp2p mixnet protocol and implementing another PoC over Waku."
+description: "Achieving mixnet's PoC over Waku, updating the RFC for libp2p compatibility, 
+sharing results, and exploring further research for EF grants."
 
 ---
 
 `vac:acz:ift:2025q1-libp2p-mix-poc`
 
-Updating the raw RFC with the new transport layer specifying 
-libp2p mixnet protocol and implementing a PoC over Waku.
+Achieving mixnet's PoC over Waku, updating the RFC for libp2p compatibility, 
+sharing results, and exploring further research for EF grants.
 ## Description
 
 This commitment entails achieving proof of concept (PoC) 
@@ -21,7 +21,7 @@ for the base functionality of mixnet over Waku.
 Additionally, it includes updating the RFC by replacing the custom transport protocol 
 with a new TCP-based transport protocol, enhancing mixnet's compatibility with libp2p. 
 The results will then be shared through a blogpost and a research paper, 
-followed by researching the use case, features and further research topics to apply for EF grants 
+followed by researching the use case, features and further research topics to apply for EF grants. 
 
 ### Background
 

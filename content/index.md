@@ -56,11 +56,12 @@ What to watch out for: A process without a use (ie improvement processes); build
 
 The following descibes a fully qualified task tag
 
-`vac:<unit>:<for_project>:<cname_reporting period>:<tname>`
+`vac:<unit>:<for_project>:<quarter-cname>:<tname>`
 - `vac` indicates it is a vac commitment
 - `unit` indicates the vac unit `p2p`, `dst`, `qa` ,`tke`, `acz`, `sc`, `nes`, `rfc`
 - `for_project` indicates which Logos project the commitment is mainly for `nomos`, `waku`, `codex`, `nimbus`, `status`; or `ift` (meaning it is not project specific)
-- `cname` the name of the commitment the task is part of; extending the name with a reporting period (e.g. `_2024q4`) indicates follow ups to previous commitments
+- `quarter` the quarter of the commitment, e.g. `2024q4`
+- `cname` the name of the commitment the task is part ofs
 - `tname` the name of the task
 
 ## Archive

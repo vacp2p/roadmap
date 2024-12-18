@@ -5,19 +5,19 @@ tags:
   - "acz"
   - "ift"
 draft: false
-description: "Achieving mixnet's PoC over Waku, updating the RFC for libp2p compatibility, 
+description: "Achieving mixnet's PoC on Waku network, updating the RFC for libp2p compatibility, 
 sharing results, and exploring further research for EF grants."
 
 ---
 
 `vac:acz:ift:2025q1-libp2p-mix-poc`
 
-Achieving mixnet's PoC over Waku, updating the RFC for libp2p compatibility, 
+Achieving mixnet's PoC on Waku network, updating the RFC for libp2p compatibility, 
 sharing results, and exploring further research for EF grants.
 ## Description
 
 This commitment entails achieving proof of concept (PoC) 
-for the base functionality of mixnet over Waku. 
+for the base functionality of mixnet (Waku over mix). 
 Additionally, it includes updating the RFC by replacing the custom transport protocol 
 with a new TCP-based transport protocol, enhancing mixnet's compatibility with libp2p. 
 The results will then be shared through a blogpost and a research paper, 
@@ -43,7 +43,7 @@ This effort would act as a basis for the Validator Privacy Network incubation pr
 In 2024q4, we developed the core functionality of mixnet and integrated it with libp2p. 
 To enhance compatibility, we saw fit to replace the custom transport protocol with a TCP-based one. 
 Additionally, we implemented two proofs of concept: 
-anonymized ping and anonymized plain gossipsub over new transport protocol. 
+anonymized ping and anonymized plain gossipsub with new transport protocol. 
 
 ### Narratives
 

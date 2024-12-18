@@ -51,8 +51,8 @@
     <title>de-MLS Multi Admin</title>
     <link>https://roadmap.vac.dev/acz/ift/2025q1-de-mls-multi-admin</link>
     <guid>https://roadmap.vac.dev/acz/ift/2025q1-de-mls-multi-admin</guid>
-    <description>Research and implementation of de-MLS with a multi-administrator configuration.</description>
-    <pubDate>Mon, 16 Dec 2024 11:57:54 GMT</pubDate>
+    <description>involves finalizing the de-MLS RFC with multi-admin support, implementing by extending the single admin approach with on-chain admin consensus, and exploring further topic for the EF grant.</description>
+    <pubDate>Wed, 18 Dec 2024 18:46:14 GMT</pubDate>
   </item><item>
     <title>IFT ZK Calls</title>
     <link>https://roadmap.vac.dev/acz/ift/2025q1-ift-zk-calls</link>
@@ -63,8 +63,8 @@
     <title>LibP2P mix protocol</title>
     <link>https://roadmap.vac.dev/acz/ift/2025q1-libp2p-mix-poc</link>
     <guid>https://roadmap.vac.dev/acz/ift/2025q1-libp2p-mix-poc</guid>
-    <description>Updating the raw RFC with the new transport layer specifying libp2p mixnet protocol and implementing another PoC over Waku.</description>
-    <pubDate>Mon, 16 Dec 2024 11:57:54 GMT</pubDate>
+    <description>Achieving mixnet's PoC on Waku network, updating the RFC for libp2p compatibility, sharing results, and exploring further research for EF grants.</description>
+    <pubDate>Wed, 18 Dec 2024 18:46:14 GMT</pubDate>
   </item>
     </channel>
   </rss>

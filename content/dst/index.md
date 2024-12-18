@@ -5,20 +5,13 @@ tags:
 - vac
 ---
 
-## `vac:dst:`
+## 2025q1 `vac:dst:`
 ---
-
 ### `codex`
-* [ ] [[dst/codex/2024q4-codex-base-capacity|codex-base-capacity]]
-* [ ] [[dst/codex/2024q4-codex-comparison|codex-comparison]]
 * [ ] [[dst/codex/2025q1-codex-base-capacity|codex-base-capacity]]
 * [ ] [[dst/codex/2025q1-codex-comparison|codex-comparison]]
 
 ### `ift`
-* [ ] [[dst/ift/2024q4-dst-conduit|dst-conduit]]
-* [ ] [[dst/ift/2024q4-dst-research-destination|dst-research-destination]]
-* [ ] [[dst/ift/2024q4-vaclab|vaclab]]
-* [ ] [[dst/ift/2024q4-visualiser-tool|visualiser-tool]]
 * [ ] [[dst/ift/2025q1-dst-conduit|dst-conduit]]
 * [ ] [[dst/ift/2025q1-dst-research-destination|dst-research-destination]]
 * [ ] [[dst/ift/2025q1-vaclab|vaclab]]
@@ -37,12 +30,29 @@ tags:
 -->
 
 ### `vac`
-* [ ] [[dst/vac/2024q4-libp2p-evaluation|libp2p-evaluation]]
 * [ ] [[dst/vac/2025q1-libp2p-evaluation|libp2p-evaluation]]
+
+### `waku`
+* [ ] [[dst/waku/2025q1-waku-evaluation|waku-evaluation]]
+* [ ] [[dst/waku/2025q1-waku-scaling|waku-scaling]]
+* [ ] [[dst/waku/2025q1-waku-tooling|waku-tooling]]
+
+---
+## 2024q4 `vac:dst:`
+---
+### `codex`
+* [ ] [[dst/codex/2024q4-codex-base-capacity|codex-base-capacity]]
+* [ ] [[dst/codex/2024q4-codex-comparison|codex-comparison]]
+
+### `ift`
+* [ ] [[dst/ift/2024q4-dst-conduit|dst-conduit]]
+* [ ] [[dst/ift/2024q4-dst-research-destination|dst-research-destination]]
+* [ ] [[dst/ift/2024q4-vaclab|vaclab]]
+* [ ] [[dst/ift/2024q4-visualiser-tool|visualiser-tool]]
+
+### `vac`
+* [ ] [[dst/vac/2024q4-libp2p-evaluation|libp2p-evaluation]]
 
 ### `waku`
 * [ ] [[dst/waku/2024q4-waku-evaluation|waku-evaluation]]
 * [ ] [[dst/waku/2024q4-waku-scaling|waku-scaling]]
-* [ ] [[dst/waku/2025q1-waku-evaluation|waku-evaluation]]
-* [ ] [[dst/waku/2025q1-waku-scaling|waku-scaling]]
-* [ ] [[dst/waku/2025q1-waku-tooling|waku-tooling]]

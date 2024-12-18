@@ -5,21 +5,23 @@ tags:
   - "acz"
   - "ift"
 draft: false
-description: "Updating the raw RFC with the new transport layer specifying 
-libp2p mixnet protocol and implementing another PoC over Waku."
+description: "Achieving mixnet's PoC on Waku network, updating the RFC for libp2p compatibility, 
+sharing results, and exploring further research for EF grants."
 
 ---
 
 `vac:acz:ift:2025q1-libp2p-mix-poc`
 
-Updating the raw RFC with the new transport layer specifying 
-libp2p mixnet protocol and implementing a PoC over Waku.
+Achieving mixnet's PoC on Waku network, updating the RFC for libp2p compatibility, 
+sharing results, and exploring further research for EF grants.
 ## Description
 
-This commitment entails finalizing the implementation of the core functionality 
-for the anonymization layer over Waku, including thorough testing, documentation, 
-and presenting the results to the community on the gossipsub PoC, 
-as well as contributing to IFT projects.
+This commitment entails achieving proof of concept (PoC) 
+for the base functionality of mixnet (Waku over mix). 
+Additionally, it includes updating the RFC by replacing the custom transport protocol 
+with a new TCP-based transport protocol, enhancing mixnet's compatibility with libp2p. 
+The results will then be shared through a blogpost and a research paper, 
+followed by researching the use case, features and further research topics to apply for EF grants. 
 
 ### Background
 
@@ -38,12 +40,16 @@ which the Vac P2P team will offer as part of libp2p.
 This effort could potentially spawn an incubation project.
 This effort would act as a basis for the Validator Privacy Network incubation project.
 
+In 2024q4, we developed the core functionality of mixnet and integrated it with libp2p. 
+To enhance compatibility, we saw fit to replace the custom transport protocol with a TCP-based one. 
+Additionally, we implemented two proofs of concept: 
+anonymized ping and anonymized plain gossipsub with new transport protocol. 
+
 ### Narratives
 
 By utilizing this commitment, 
 we will reinforce the Conduit of Expertise narrative by:
-* Create a document describing the benefits of mixnet protocol for each of Waku, Status, Codex, and Nimbus
-* Implement a gossibsub over Waku PoC shows the base functionality 
+* Implement a poc over Waku PoC shows the base functionality on Waku network. 
 
 We will also strengthen the Premier Research Destination narrative by:
 * Create a proposal for the Ethereum Foundation (EF) to apply for EF grants to promote the mixnet PoC and 
@@ -55,7 +61,7 @@ Waku integration.
 
 ### Additional Info
 
-This commitment has been rescheduled from 2024Q4 to 2025Q1
+This commitment has been rescheduled from 2024q4 to 2025q1
 due to the lack of engineering resource. For this, budget is requested for 2025q1, 
 hiring process started. 
 
@@ -77,9 +83,9 @@ Revise the RFC to incorporate a transport adapter transitioning from a custom pr
 
 * A notion document as the new version of the RFC
 
-### Gossibsub over Waku 
+### PoC over Waku 
 
-* fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:gossipsub-over-waku`
+* fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:poc-over-waku`
 * owner: Akshaya
 * status: not started
 * start-date: 
@@ -87,7 +93,7 @@ Revise the RFC to incorporate a transport adapter transitioning from a custom pr
 
 #### Description
 
-Implementation the second PoC, a gossibsub protocol over Waku network by integrating the mixnet.
+Implementation the second PoC over Waku network by integrating the mixnet.
 
 #### Deliverables
 

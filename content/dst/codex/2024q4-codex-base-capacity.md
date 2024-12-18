@@ -58,7 +58,7 @@ on which other research and interesting use cases can be built.
 
 ### Production Quality Base Capacity
 
-* fully qualified name: <vac:dst:codex:2024q4-codex-base-capacity:deploy-base-capacity>
+* fully qualified name: `vac:dst:codex:2024q4-codex-base-capacity:deploy-base-capacity>
 * owner: Wings
 * status: 0%
 * start-date: 2024/10/05

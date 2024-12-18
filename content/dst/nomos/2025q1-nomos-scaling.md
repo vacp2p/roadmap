@@ -55,7 +55,7 @@ This will also help spur on outside adoption and contributions.
 
 ### Mixnet benchmarking
 
-* fully qualified name: <vac:dst:nomos:2025q1-nomos-scaling:nomos-benchmarking>
+* fully qualified name: `vac:dst:nomos:2025q1-nomos-scaling:nomos-benchmarking`
 * owner: Alberto
 * status: 0%
 * start-date: <yyyy/mm/dd>

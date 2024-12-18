@@ -59,7 +59,7 @@ to the Premier Research destination narrative by:
 
 ### Regression testing (recurring)
 
-* fully qualified name: <vac:dst:vac:2024q4-libp2p-evaluation:regression-testing>
+* fully qualified name: `vac:dst:vac:2024q4-libp2p-evaluation:regression-testing`
 * owner: Alberto
 * status: Ongoing
 * start-date: 2024-10-01

@@ -5,21 +5,22 @@ tags:
   - "dst"
   - "waku"
 draft: false
-description: "Test Waku on a regular basis
+description: "Test Waku on each new version or requested feature
 and look for regressions,
-learn scaling properties and run scaling studies,
-understand the limits of Waku and its behaviour.
-Deliver hard numbers and actionable insights.
-Do this monthly, reliably, with documentation of findings."
+learn scaling properties and run scaling studies."
 ---
 
 `vac:dst:waku:2025q1-waku-evaluation`
 
 ## Description
-Test Waku on a regular basis
+Test Waku on each new version or requested feature
 and look for regressions,
 learn scaling properties and run scaling studies,
 understand the limits of Waku and its behaviour.
+Deliver reports and actionable insights.
+Do this monthly, reliably, with documentation of findings.
+
+### Background
 
 We want to learn specific, actionable information
 about Waku's behaviour
@@ -31,8 +32,6 @@ We will use a combination of real world testing,
 theoretical analysis and simulation
 to determine and measure the success,
 side effects and other factors of Waku and its evolution.
-
-### Background
 
 ### Narratives
 We will support the Conduit of Expertise narrative directly
@@ -62,7 +61,7 @@ to the Premier Research destination narrative by:
 
 ### Regression testing (recurring)
 
-* fully qualified name: <vac:dst:waku:2025q1-waku-evaluation:regression-testing>
+* fully qualified name: `vac:dst:waku:2025q1-waku-evaluation:regression-testing`
 * owner: Alberto
 * status: 0%
 * start-date: 2025-01-01

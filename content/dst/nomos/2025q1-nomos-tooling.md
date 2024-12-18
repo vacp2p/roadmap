@@ -24,7 +24,7 @@ for general purposes"
 
 ### Simulation app
 
-* fully qualified name: <vac:dst:nomos:2025q1-nomos-tooling:distributed-simulation>
+* fully qualified name: `vac:dst:nomos:2025q1-nomos-tooling:distributed-simulation`
 * owner: ???
 * status: 0%
 * start-date: <yyyy/mm/dd>

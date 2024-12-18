@@ -38,19 +38,25 @@ We will support Premier Research of Destination
 by making sure we’re open, accessible, and continuously learning from each other.
 
 ### Additional info
+Forum post did not happen because the unexpected
+absence of a contributor impacted progressing in these tasks.
 
 ## Task List
 
 ### Forum posts (recurring)
 * fully qualified name: `vac:dst:ift:2025q1-dst-research-destination:forum-post`
-* owner: N/A
+* owner: Alberto
 * status: N/A
 * start-date: N/A
 * end-date: N/A
 
 ### Public reports (recurring)
 * fully qualified name: `vac:dst:ift:2025q1-dst-research-destination:public-reports`
-* owner: N/A
-* status: N/A
-* start-date: N/A
-* end-date: N/A
+* owner: Alberto
+* status: 100%
+* start-date: 2024/10/01
+* end-date: 2024/12/31
+
+#### Description
+List of reports created by the DST team.
+- [X] [https://zealous-polka-dc7.notion.site/DST-Reports-1228f96fb65c80729cd1d98a7496fe6f?pvs=74](Reports)

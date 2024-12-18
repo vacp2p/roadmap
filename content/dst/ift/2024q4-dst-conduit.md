@@ -1,7 +1,7 @@
 ---
 title: DST Conduit
 tags:
-  - "2025q1"
+  - "2024q4"
   - "dst"
   - "ift"
 draft: false
@@ -10,7 +10,7 @@ and exploration of how they can gain advantages from large-scale deployments,
 facilitating cross-project collaboration."
 ---
 
-`vac:dst:ift:2025q1-dst-conduit`
+`vac:dst:ift:2024q4-dst-conduit`
 
 
 ## Description
@@ -41,8 +41,8 @@ We ara also in alignment  with the Premier Research Destination
 by sharing these insights externally. 
 This can help VAC build trust and transparency.
 
+
 ### Additional info
 
 ## Task List
-<!--  TODO
--->
+

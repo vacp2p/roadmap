@@ -13,6 +13,8 @@ tags:
 
 ### `status:`
 - [ ] [[sc/status/2025q1-staking-protocol-refinement]]
+- [ ] [[sc/status/2025q1-base-chain-integration]]
+- [ ] [[sc/status/2025q1-status-testnet-communities-contracts]]
 
 ### `codex:`
 

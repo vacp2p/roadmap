@@ -8,7 +8,7 @@ draft: false
 description: Refinement of the staking protocol, revisiting features that didn't make it in previous iterations.
 ---
 
-`vac:sc:2025q1-status:staking-protocol-refinement`
+`vac:sc:status:2025q1-staking-protocol-refinement`
 
 Revisit, research and implement features that didn't make it in the previous quarter. 
 

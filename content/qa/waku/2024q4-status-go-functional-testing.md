@@ -39,7 +39,7 @@ We will track test coverage to measure progress.
 
 * fully qualified name: `vac:qa:waku:2024q4-status-go-functional-testing:migrate-to-status-backend`
 * owner: fbarbu15
-* status: in progress (80%)
+* status: done
 * start-date: 2024/10/07
 * end-date: 2024/11/11
 
@@ -54,8 +54,14 @@ Move all the tests we developed into the status-go repo
 since Status QA has started a similar effort using Python.
 
 #### Deliverables
-* PR with the updated and migrated tests
-* CI runs within the new repo
+PRs:
+* https://github.com/status-im/status-go/pull/6119
+* https://github.com/status-im/status-go/pull/6225
+* https://github.com/status-im/status-go/pull/6167
+* https://github.com/status-im/status-go/pull/6212
+
+CI:
+* https://ci.status.im/blue/organizations/jenkins/status-go%2Fprs%2Ftests-rpc/detail/PR-6225/9/pipeline
 
 ### Message tests
 

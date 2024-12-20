@@ -269,7 +269,7 @@ Measure overall bandwidth usage and record conclusions as to the impact of PeX.
 
 * fully qualified name: `vac:dst:waku:2024q4-waku-scaling:mixed-environment-analysis`
 * owner: Alberto
-* status: 30%
+* status: 50%
 * start-date: 2024/10/01
 * end-date: 2024/12/31
 

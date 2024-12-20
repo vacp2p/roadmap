@@ -906,10 +906,10 @@
     <lastmod>2024-12-18T18:45:44.752Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/waku/2024q4-waku-evaluation</loc>
-    <lastmod>2024-12-18T18:45:44.752Z</lastmod>
+    <lastmod>2024-12-20T17:12:52.351Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/waku/2024q4-waku-scaling</loc>
-    <lastmod>2024-12-16T09:14:10.561Z</lastmod>
+    <lastmod>2024-12-20T17:12:52.351Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/waku/2025q1-waku-evaluation</loc>
     <lastmod>2024-12-18T18:45:44.752Z</lastmod>
@@ -1047,7 +1047,7 @@
     <lastmod>2024-12-16T12:02:20.957Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/</loc>
-    <lastmod>2024-12-16T12:02:20.957Z</lastmod>
+    <lastmod>2024-12-20T17:12:52.351Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/status/2024q4-staking-protocol-v1</loc>
     <lastmod>2024-12-16T09:14:10.561Z</lastmod>
@@ -1058,8 +1058,14 @@
     <loc>https://roadmap.vac.dev/sc/status/2024q4-xp-token-v1</loc>
     <lastmod>2024-12-16T09:14:10.561Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/sc/status/2025q1-base-chain-integration</loc>
+    <lastmod>2024-12-20T17:12:52.351Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/sc/status/2025q1-staking-protocol-refinement</loc>
-    <lastmod>2024-12-16T12:02:20.957Z</lastmod>
+    <lastmod>2024-12-20T17:12:52.351Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/sc/status/2025q1-status-testnet-communities-contracts</loc>
+    <lastmod>2024-12-20T17:12:52.355Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/tags/component</loc>
     <lastmod>2024-09-30T16:33:59.572Z</lastmod>

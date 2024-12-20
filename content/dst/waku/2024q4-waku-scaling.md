@@ -179,7 +179,7 @@ such as nwaku and go-waku.
 
 * fully qualified name: `vac:dst:waku:2024q4-waku-scaling:waku-shard-reliability-vs-scale`
 * owner: Alberto
-* status: 30%
+* status: Done
 * start-date: 2024/10/01
 * end-date: 2024/12/31
 
@@ -189,10 +189,12 @@ Test waku shard behaviour and stability with various of numbers of shards.
 Choose a matrix to test for and then test for it.
 
 #### Deliverables
-- [ ] Matrix/exact deployment script defined
-- [ ] A report on the results of each test, including analysis, data and metrics.
-- [ ] A list of any issues encountered.
-- [ ] Hard data and metrics from the simulation.
+- [X] Matrix/exact deployment script defined
+- [X] A report on the results of each test, including analysis, data and metrics.
+  - [Notion report](https://www.notion.so/Waku-Shard-Reliability-vs-Scale-1608f96fb65c80a684f0f7d0c0e32571)
+  - [Notion public report](https://zealous-polka-dc7.notion.site/Waku-Shard-Reliability-vs-Scale-1608f96fb65c80a684f0f7d0c0e32571?pvs=74)
+- [X] A list of any issues encountered.
+- [x] Hard data and metrics from the simulation.
 
 ### Filter and lightpush tests
 

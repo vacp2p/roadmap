@@ -74,8 +74,11 @@ and ensure they don't happen again.
 
 #### Deliverables
 * Analysis done
-  * [October report](https://www.notion.so/Waku-regression-testing-v0-33-1268f96fb65c81f38095cbfc25acb2ce)
+  * [October report - v0.33](https://www.notion.so/Waku-regression-testing-v0-33-1268f96fb65c81f38095cbfc25acb2ce)
+  * [December report - v0.34](https://www.notion.so/Waku-regression-testing-v0-34-1618f96fb65c803bb7bad6ecd6bafff9)
 * Report published with all relevant details
+  * [October public report](https://zealous-polka-dc7.notion.site/Waku-regression-testing-v0-33-10d8f96fb65c802c846bd3a46ad389eb?pvs=74)
+  * [December public report](https://zealous-polka-dc7.notion.site/Waku-regression-testing-v0-34-1618f96fb65c803bb7bad6ecd6bafff9)
 * Vac Roadmap updated regularly
   with links to the analysis and results.
   * [Nº of connections issue](https://github.com/waku-org/nwaku/issues/3163)

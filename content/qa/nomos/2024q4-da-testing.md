@@ -162,7 +162,7 @@ to simplify existing code.
 
 * fully qualified name: `vac:qa:nomos:2024q4-da-testing:outline-distributed-test-framework`
 * owner: romanzac
-* status: not started
+* status: done
 * start-date: 2024/12/09
 * end-date: 2024/12/20
 
@@ -171,5 +171,4 @@ Create basic structure of small scale distributed test framework and
 use runtime without added virtualization layer as the initial PoC.
 
 #### Deliverables
-* PR link with the initial framework structure and one sample test
-* CI runs showing successful or failed executions with detailed reports
+* https://github.com/logos-co/nomos-e2e-tests

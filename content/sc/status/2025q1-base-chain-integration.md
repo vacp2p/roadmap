@@ -14,7 +14,7 @@ Creation and deployment of Status app smart contracts for Base chain.
 
 ## Description
 
-Status aims to integration with Base chain as another L2 solution to operate on.
+Status aims to integrate with Base chain as another L2 solution to operate on.
 To provide the same user experience and features as on Ethereum mainnet and other L2s they are supporting,
 we need to deploy the Status app smart contracts on Base chain and ensure that there's a bridged SNT token availble for these apps.
 

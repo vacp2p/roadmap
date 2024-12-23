@@ -110,7 +110,7 @@ An submitting EF grants by the application document and keeping an eye the proce
 
 * fully qualified name: `vac:acz:ift:2024q4-de-mls-testnet:testnet-api`
 * owner: Ekaterina
-* status: in progress (30%)
+* status: in progress (90%)
 * start-date: 2024/10/21
 * end-date: 2024/11/11
 
@@ -131,13 +131,15 @@ Several PRs to the repository that will be created with testnet API implementati
 
 * fully qualified name: `vac:acz:ift:2024q4-de-mls-testnet:deployment-testnet`
 * owner: Ekaterina
-* status: not started
+* status: moved to 2025q1
 * start-date: 2024/11/18
 * end-date: 2024/12/02
 
 #### Description
 
 Integrate the testnet API to smart contracts for de-mls testnet by conducting several E2E tests before the release.  
+
+This task is moved to 2025q1 since we have the single admin poc which does not require onchain component.  
 
 #### Deliverables
 
@@ -151,7 +153,7 @@ and login mechanism.
 
 * fully qualified name: `vac:acz:ift:2024q4-de-mls-testnet:blogpost-de-mls-over-waku`
 * owner: Ekaterina
-* status: not started
+* status: started (0%)
 * start-date: 2024/12/02
 * end-date: 2024/12/09
 
@@ -167,13 +169,15 @@ A blogpost to [vac-dev](https://vac.dev/rlog/)
 
 * fully qualified name: `vac:acz:ift:2024q4-de-mls-testnet:dcgka`
 * owner: Ramses
-* status: not started
+* status: on-hold
 * start-date: 2024/11/18
 * end-date: 2024/12/01
 
 #### Description 
- Creation of a detailed RFC describing an alternative approach using DCGKA for a decentralized communication protocol. 
- This approach avoid the use of smart contracts and includes a login phase inspired by SIWE. 
+Creation of a detailed RFC describing an alternative approach using DCGKA for a decentralized communication protocol. 
+This approach avoid the use of smart contracts and includes a login phase inspired by SIWE. 
+
+This task is on-hold since we will continue with MLS instead of DCGKA. 
 
 #### Deliverables 
 

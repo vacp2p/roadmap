@@ -69,7 +69,7 @@ Implement protocol handler logic for sender nodes including packet creation and 
 
 * fully qualified name: `vac:acz:ift:2024q4-libp2p-mix-poc:sim-anon-ping`
 * owner: Akshaya
-* status: in progress (80%)
+* status: done
 * start-date: 2024/10/28
 * end-date: 2024/11/04
 
@@ -88,6 +88,8 @@ node configurations as the first PoC.
 	* Enable sender nodes to route Ping through local mix
 	* Forward messages through the mix network
 	* Final delivery at the exit node.
+
+* Deliverable: [anonymized ping](https://github.com/vacp2p/mix/blob/mix-transport/src/examples/poc_noresp_ping.nim)
 
 ### Comparison and Benefits 
 

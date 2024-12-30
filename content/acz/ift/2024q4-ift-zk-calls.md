@@ -46,13 +46,14 @@ Preparing the agenda and possible speakers for the ZK call on 4th November.
 
 #### Deliverables
 
-A document of a summary of the ZK call 1 meeting to [ZK Notion page](https://www.notion.so/ZK-Call-1198f96fb65c80c7baaac966b3e57ea2). 
+A document of a summary of the ZK call 1 meeting to 
+[ZK Notion page](https://www.notion.so/ZK-Call-1198f96fb65c80c7baaac966b3e57ea2). 
 
 ### IFT ZK Call 2
 
 * fully qualified name: `vac:acz:ift:2024q4-ift-zk-calls:ift-zk-call-2`
 * owner: Marvin
-* status: not started
+* status: done
 * start-date: 2024/11/25
 * end-date: 2024/12/02
 
@@ -62,4 +63,6 @@ Preparing the agenda and possible speakers for the ZK call on 2nd December.
 
 #### Deliverables
 
-A document of a summary of the ZK call 2 meeting to [ZK Notion page](https://www.notion.so/ZK-Call-1198f96fb65c80c7baaac966b3e57ea2). 
+A document of a summary of the ZK call 2 meeting to 
+[ZK Notion page](https://www.notion.so/Past-Meeting-Notes-1198f96fb65c80e6a51afa9a507aa64e?pvs=4#14d8f96fb65c80718ffed64f8d452732). 
+

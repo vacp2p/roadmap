@@ -229,7 +229,7 @@ Test the Filter and lightpush protocols at scale.
 
 * fully qualified name: `vac:dst:waku:2024q4-waku-scaling:measure-discv5-bandwidth-with-waku-discovery`
 * owner: Alberto
-* status: 0%
+* status: Done
 * start-date: 2024/10/01
 * end-date: 2024/12/31
 
@@ -237,9 +237,10 @@ Test the Filter and lightpush protocols at scale.
 Measure the bandwidth usage of the Waku discovery protocol using the DiscV5 protocol.
 
 #### Deliverables
-- [ ] A report on what you've learnt
-- [ ] Hard data and metrics from the simulation.
-- [ ] A documentation page with analysis and results and notes.
+- [X] A report on what you've learnt
+  - [Report](https://zealous-polka-dc7.notion.site/Measure-DiscV5-bandwidth-with-Waku-discovery-1698f96fb65c80659fa1fbfdac49b1ef)
+- [X] Hard data and metrics from the simulation.
+- [X] A documentation page with analysis and results and notes.
 
 ### Partial PeX Experimental Analysis
 

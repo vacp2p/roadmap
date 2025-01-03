@@ -142,7 +142,7 @@ Fully delivered.
 
 * fully qualified name: `vac:dst:waku:2024q4-waku-scaling:high-churn-relay-store-reliability`
 * owner: Alberto
-* status: 0%
+* status: Done
 * start-date: 2024/10/01
 * end-date: 2024/12/31
 
@@ -150,10 +150,12 @@ Fully delivered.
 If nodes go online/offline, we should be able to retrieve missing messages from the store.
 
 #### Deliverables
-- [ ] A report on the results of the test,
+- [X] A report on the results of the test,
   including analysis, data and metrics.
-- [ ] A list of any issues encountered.
-- [ ] Hard data and metrics from the simulation.
+  - [Notion report](https://www.notion.so/High-Churn-Relay-Store-Reliability-16c8f96fb65c8008bacaf5e86881160c)
+  - [Notion public report](https://zealous-polka-dc7.notion.site/High-Churn-Relay-Store-Reliability-16c8f96fb65c8008bacaf5e86881160c)
+- [X] A list of any issues encountered.
+- [X] Hard data and metrics from the simulation.
 
 ### Relay/DiscV5 Resources in Heterogenous Clusters
 

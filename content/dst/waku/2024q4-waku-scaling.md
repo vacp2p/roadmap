@@ -248,7 +248,7 @@ Measure the bandwidth usage of the Waku discovery protocol using the DiscV5 prot
 
 * fully qualified name: `vac:dst:waku:2024q4-waku-scaling:partial-pex-experimental-analysis`
 * owner: Alberto
-* status: 0%
+* status: Done
 * start-date: 2024/10/01
 * end-date: 2024/12/31
 
@@ -264,9 +264,11 @@ and compare it to the DiscV5 bandwidth usage of nodes that do not.
 Measure overall bandwidth usage and record conclusions as to the impact of PeX.
 
 #### Deliverables
-- [ ] DiscV5 bandwidth comparison document/report - PeX vs no-PeX
-- [ ] Overall bandwidth usage comparison document/report
-- [ ] Record conclusions as to the impact of PeX.
+- [X] DiscV5 bandwidth comparison document/report - PeX vs no-PeX
+  - [Notion report](https://www.notion.so/Partial-PeX-Experimental-Analysis-16c8f96fb65c80e79ff7d2e941eba1b5)
+  - [Notion public report](https://zealous-polka-dc7.notion.site/Partial-PeX-Experimental-Analysis-16c8f96fb65c80e79ff7d2e941eba1b5)
+- [X] Overall bandwidth usage comparison document/report
+- [X] Record conclusions as to the impact of PeX.
 
 ### Mixed Environment Analysis
 

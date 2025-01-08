@@ -39,33 +39,13 @@ for users looking to integrate RLN into their projects.
 
 ## Task List
  
-### Circom Witness rs
-
-* fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:circom-witness-rs`
-* owner: Aleksei
-* status: not started
-* start-date:
-* end-date: 
-
-#### Description
-
-Replacing the arkzkey with https://github.com/philsippl/circom-witness-rs for faster witness generation
-based on the [issue #271](https://github.com/vacp2p/zerokit/issues/271). 
-Benchmark and compare performance with the existing setup. 
-Example: https://github.com/philsippl/semaphore-witness-example
-rln-v2 circuits: https://github.com/Rate-Limiting-Nullifier/circom-rln
-
-#### Deliverables
-
-* PR to vacp2p/zerokit repo with related update for v0.7
-
 ### Poseidon Hash
 
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:poseidon-hash`
-* owner: Ekaterina
-* status: not started 
-* start-date: 
-* end-date:
+* owner: Aleksei
+* status: started (10%) 
+* start-date: 2025/01/01
+* end-date: 2025/01/13
 
 #### Description
 

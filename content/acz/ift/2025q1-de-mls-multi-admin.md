@@ -54,18 +54,35 @@ benefiting from these features.
 gain support from the Ethereum ecosystem.
 
 ## Task List
- 
-### de-MLS RFC
 
-* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:de-mls-rfc`
-* owner: Ugur
-* status: not started
-* start-date:
-* end-date: 
+### Blogpost de-mls over Waku
+
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:blogpost-de-mls-over-waku`
+* owner: Ekaterina
+* status: started (10%)
+* start-date: 2025/01/06
+* end-date: 2025/01/20
 
 #### Description
 
-Finalizing the RFC by adding multi admin configuration to it. 
+Writing a blog post about implementation details of single admin de-MLS with Waku node 
+as delivery service based on [this PR](https://github.com/vacp2p/zerokit/pull/273)     
+
+#### Deliverables
+
+A blogpost to [vac-dev](https://vac.dev/rlog/)
+ 
+### Update de-MLS RFC with multi admins 
+
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:multi-admin-rfc`
+* owner: Ugur
+* status: not started
+* start-date: 2025/01/13
+* end-date: 2025/01/27
+
+#### Description
+
+Update and reorganize the RFC with the single and multi admin options.  
 
 #### Deliverables
 

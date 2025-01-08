@@ -38,7 +38,7 @@ and introduced into the ecosystem.
 
 * fully qualified name: `vac:acz:nes:2024q4-nescience-consulting:initial-reading`
 * owner: Aleksei
-* status: in progress (0%)
+* status: on-hold (0%)
 * start-date: 2024/11/26
 * end-date: 2024/12/06
 
@@ -57,7 +57,7 @@ A technical document summarizing the details of the Nescience architecture for t
 
 * fully qualified name: `vac:acz:nes:2024q4-nescience-consulting:node-spec-reviewing`
 * owner: Aleksei
-* status: in progress (0%)
+* status: on-hold (0%)
 * start-date: 2024/11/26
 * end-date: 2024/12/06
 

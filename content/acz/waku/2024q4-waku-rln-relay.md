@@ -33,7 +33,7 @@ and support projects being built on the Waku network.
 
 * fully qualified name: `vac:acz:waku:waku-rln-relay:adding-timestamp`
 * owner: Ekaterina
-* status: started (0%)
+* status: on-hold (0%)
 * start-date: 2024/10/21
 * end-date: 2024/10/28
 
@@ -51,7 +51,7 @@ A PR to Zerokit [repository](https://github.com/vacp2p/zerokit)
 
 * fully qualified name: `vac:acz:waku:waku-rln-relay:deprecate-tree-sync`
 * owner: Ekaterina
-* status: not started
+* status: on-hold
 * start-date: 2024/10/28
 * end-date: 2024/11/04
 

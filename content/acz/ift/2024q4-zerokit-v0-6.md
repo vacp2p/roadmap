@@ -90,7 +90,7 @@ PR to vacp2p/zerokit repo with related update for v0.6
 
 * fully qualified name: `vac:acz:ift:2024q4-zerokit-v0-6:circom-witness-rs`
 * owner: Aleksei
-* status: in progress (80%)
+* status: done
 * start-date: 2024/11/25
 * end-date: 2024/12/13
 
@@ -105,6 +105,7 @@ rln-v2 circuits: https://github.com/Rate-Limiting-Nullifier/circom-rln
 #### Deliverables
 
 PR to vacp2p/zerokit repo with related update for v0.6
+ * https://github.com/vacp2p/zerokit/pull/273 
 
 ### Poseidon Hash
 

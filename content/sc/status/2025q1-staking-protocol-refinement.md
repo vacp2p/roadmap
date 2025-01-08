@@ -21,8 +21,47 @@ This includes
 - Researching and implementing a way to allow users to add funds to an existing staking vault
 - Researching and implementing the possibility for users to lock their funds multiple times
 - Implementing minimal proxy clones for stake vaults to make vault creation as cheap as possible
+- Fixing bugs that were found in the previous iteration
+- Refactoring parts of the code we thing needs adjustment for maintainability
 
 ## Task List
+
+
+### Fixing bugs
+* fully qualified name: `2025q1-staking-protocol-refinement:fixing-bugs`
+* owner: 
+* status: not started
+* start-date: 2024/01/01
+* end-date: 2024/03/31
+
+#### Description
+
+To make sure the staking protocol works as intended,
+we need to fix any bugs we encounter during the refinement phase.
+This task is about tracking and addressing issues that come up.
+
+#### Deliverables
+
+- [] Links to PRs that fix bugs
+
+### Refactoring
+* fully qualified name: `2025q1-staking-protocol-refinement:refactoring`
+* owner: 
+* status: not started
+* start-date: 2024/01/01
+* end-date: 2024/03/31
+
+#### Description
+
+While the protocol is largely functional,
+we want to ensure it's composability and maintainability over time.
+Therefore,
+some work items related to refactoring the existing codebase might be requrred.
+This task is about tracking and addressing these.
+
+#### Deliverables
+
+- [] Links to PRs that address refactoring tasks
 
 ### Adding funds to existing vaults
 

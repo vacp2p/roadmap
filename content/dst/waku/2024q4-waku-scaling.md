@@ -142,7 +142,7 @@ Fully delivered.
 
 * fully qualified name: `vac:dst:waku:2024q4-waku-scaling:high-churn-relay-store-reliability`
 * owner: Alberto
-* status: 0%
+* status: Done
 * start-date: 2024/10/01
 * end-date: 2024/12/31
 
@@ -150,10 +150,12 @@ Fully delivered.
 If nodes go online/offline, we should be able to retrieve missing messages from the store.
 
 #### Deliverables
-- [ ] A report on the results of the test,
+- [X] A report on the results of the test,
   including analysis, data and metrics.
-- [ ] A list of any issues encountered.
-- [ ] Hard data and metrics from the simulation.
+  - [Notion report](https://www.notion.so/High-Churn-Relay-Store-Reliability-16c8f96fb65c8008bacaf5e86881160c)
+  - [Notion public report](https://zealous-polka-dc7.notion.site/High-Churn-Relay-Store-Reliability-16c8f96fb65c8008bacaf5e86881160c)
+- [X] A list of any issues encountered.
+- [X] Hard data and metrics from the simulation.
 
 ### Relay/DiscV5 Resources in Heterogenous Clusters
 
@@ -246,7 +248,7 @@ Measure the bandwidth usage of the Waku discovery protocol using the DiscV5 prot
 
 * fully qualified name: `vac:dst:waku:2024q4-waku-scaling:partial-pex-experimental-analysis`
 * owner: Alberto
-* status: 0%
+* status: Done
 * start-date: 2024/10/01
 * end-date: 2024/12/31
 
@@ -262,9 +264,11 @@ and compare it to the DiscV5 bandwidth usage of nodes that do not.
 Measure overall bandwidth usage and record conclusions as to the impact of PeX.
 
 #### Deliverables
-- [ ] DiscV5 bandwidth comparison document/report - PeX vs no-PeX
-- [ ] Overall bandwidth usage comparison document/report
-- [ ] Record conclusions as to the impact of PeX.
+- [X] DiscV5 bandwidth comparison document/report - PeX vs no-PeX
+  - [Notion report](https://www.notion.so/Partial-PeX-Experimental-Analysis-16c8f96fb65c80e79ff7d2e941eba1b5)
+  - [Notion public report](https://zealous-polka-dc7.notion.site/Partial-PeX-Experimental-Analysis-16c8f96fb65c80e79ff7d2e941eba1b5)
+- [X] Overall bandwidth usage comparison document/report
+- [X] Record conclusions as to the impact of PeX.
 
 ### Mixed Environment Analysis
 

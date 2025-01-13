@@ -63,11 +63,15 @@ in a Kubernetes environment.
 This tool will be able to retrieve
 the entire bandwidth of a binary,
 filtering by origin/destination ports.
-It will be easily extendable if necessary.
+It will export this information as a metric,
+so it can be scrapped by a monitoring stack.
+It will be easily extendable if necessary, 
+either with ports, and possibly different filters.
 
 #### Deliverables
 - [ ] Repository:
 - [ ] PRs:
+- [ ] Report with real example:
 
 ### General tooling (recurring)
 

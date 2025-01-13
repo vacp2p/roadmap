@@ -138,7 +138,7 @@ Issues found:
 
 * fully qualified name: `vac:qa:waku:2024q4-interop-testing:faster-runners`
 * owner: aya
-* status: in progress (50%)
+* status: done
 * start-date: 2024/11/18
 * end-date: 2024/12/02
 
@@ -149,14 +149,14 @@ Ensure that these changes maintain or improve the quality of the tests
 without compromising coverage.
 
 #### Deliverables
-* CI configuration updates with improved runners
-* CI runs demonstrating reduced execution time while passing all tests
+* https://github.com/waku-org/waku-interop-tests/pull/88
+* Decreases test duration [from 60+ mins to ~10 mins](https://waku-org.github.io/waku-interop-tests/nim/615/#)
 
 ### CI Integration
 
 * fully qualified name: `vac:qa:waku:2024q4-interop-testing:ci-integration`
 * owner: aya
-* status: in progress (80%)
+* status: done
 * start-date: 2024/12/02
 * end-date: 2024/12/09
 
@@ -168,8 +168,9 @@ The goal is to catch issues earlier in the PR lifecycle
 without adding significant overhead to CI.
 
 #### Deliverables
-* PR to nwaku/go-waku repos with CI test integration
-* CI runs verifying that the interop tests complete within the set time limits
+* https://github.com/waku-org/waku-interop-tests/pull/90
+* https://github.com/waku-org/waku-interop-tests/pull/96
+* https://github.com/waku-org/nwaku/pull/3193
 
 ### Network Conditions
 

@@ -33,4 +33,20 @@ reinforcing cross project collaboration.
 
 ### Log parser
 
+* fully qualified name: `vac:dst:waku:2025q1-waku-tooling:log-parser`
+* owner: Alberto
+* status: 20%
+* start-date: 2025/01/01
+* end-date: 2025/01/31
+
+#### Description
+Code that is able to explore and analyze
+Waku logging, and deliver requested insights.
+Ideally, logging format should be abstract and pluggable,
+so this is easy to use in other projects.
+
+#### Deliverables
+- [ ] Repository:
+- [ ] PRs:
+
 ### Local metrics

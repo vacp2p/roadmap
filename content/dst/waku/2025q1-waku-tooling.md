@@ -49,4 +49,24 @@ so this is easy to use in other projects.
 - [ ] Repository:
 - [ ] PRs:
 
+### Bandwidth monitor
+
+* fully qualified name: `vac:dst:waku:2025q1-waku-tooling:bandwidth-monitor`
+* owner: Wings
+* status: 25%
+* start-date: 2025/01/06
+* end-date: 2025/01/24
+
+#### Description
+Tool that is able to work as a sidecar
+in a Kubernetes environment.
+This tool will be able to retrieve
+the entire bandwidth of a binary,
+filtering by origin/destination ports.
+It will be easily extendable if necessary.
+
+#### Deliverables
+- [ ] Repository:
+- [ ] PRs:
+
 ### Local metrics

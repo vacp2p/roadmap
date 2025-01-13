@@ -171,3 +171,20 @@ or when a fresh node is joined to the network.
 #### Deliverables
 - Analysis report
 - Code
+
+### Waku Shard Scaling
+
+* fully qualified name: `vac:dst:waku:2025q1-waku-scaling:waku-shard-scaling`
+* owner: Alberto
+* status: 25%
+* start-date: 2025/01/06
+* end-date: 2025/01/24
+
+#### Description
+
+Address feedback from `vac:dst:waku:2024q4-waku-scaling:waku-shard-reliability-vs-scale`.
+Increase the number of shards up to the highest possible value.
+
+#### Deliverables
+- [ ] Reports:
+- [ ] Related PRs if apply:

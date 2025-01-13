@@ -69,4 +69,20 @@ It will be easily extendable if necessary.
 - [ ] Repository:
 - [ ] PRs:
 
+### General tooling (recurring)
+
+* fully qualified name: `vac:dst:waku:2025q1-waku-tooling:general-tooling`
+* owner: Alberto
+* status: recurring
+* start-date: 2025/01/01
+* end-date: 2025/03/31
+
+#### Description
+Group of utilities that are created
+for the analysis of Waku.
+Should be made general when possible.
+
+#### Deliverables
+- [ ] PRs:
+
 ### Local metrics

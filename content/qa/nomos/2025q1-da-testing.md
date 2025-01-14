@@ -29,7 +29,7 @@ Implement data availability test plans for the Nomos project at the cluster leve
 
 * fully qualified name: `vac:qa:nomos:2025q1-da-testing:data-integrity-tests`
 * owner: romanzac
-* status: not started
+* status: in progress (30%)
 * start-date: 2025/01/06
 * end-date: 2025/01/17
 

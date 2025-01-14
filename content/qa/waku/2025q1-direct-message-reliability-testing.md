@@ -32,7 +32,7 @@ and validating the application of MVDS for improved message delivery reliability
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:functional`
 * owner: fbarbu15
-* status: not started
+* status: in progress (40%)
 * start-date: 2025/01/06
 * end-date: 2025/01/25
 
@@ -63,4 +63,20 @@ after a network reconnection.
 * PRs with reliability test cases
 * Reports on test results under degraded conditions
 * Recommendations for improving message flow resilience
+
+### Rate Limit Testing
+
+* fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:rate-limit`
+* owner: fbarbu15
+* status: not started
+* start-date: 2025/02/25
+* end-date: 2025/03/10
+
+#### Description
+Perform tests to validate rate limiting in status-backend. 
+Tests should be done ideally for relay, lightpush and filter 
+but TBD when status-backend will support all this.
+
+#### Deliverables
+* PRs with new test cases
 

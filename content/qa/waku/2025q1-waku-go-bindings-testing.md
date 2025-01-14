@@ -34,7 +34,7 @@ ensuring reliability across diverse scenarios in accordance to Waku FURPS.
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:framework-development`
 * owner: aya
-* status: not started
+* status: in progress (40%)
 * start-date: 2025/01/06
 * end-date: 2025/01/20
 

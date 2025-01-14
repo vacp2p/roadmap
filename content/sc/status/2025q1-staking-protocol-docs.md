@@ -16,7 +16,7 @@ Finish up first version of the documentation for the staking protocol.
 
 In the previous quarter we've committed to put out a first version of the staking protocol.
 Part of that commitment was also to create a first version of the documentation that explains the system.
-As we didn't manage to finish all the documentation, we're not committing to finishing this in Q1 2025.
+As we didn't  finish all the documentation in the previous quarter, we're committing to finishing this in Q1 2025.
 
 ## Task List
 

@@ -82,7 +82,7 @@ We will also provide support for the Premier Research destination narrative by:
 
 * fully qualified name: `vac:dst:ift:2024q4-vaclab:status-page-known`
 * owner: Wings
-* status: 0%
+* status: Done
 * start-date: 2024/12/01
 * end-date: 2024/12/10
 

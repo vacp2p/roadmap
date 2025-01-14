@@ -10,8 +10,10 @@ tags:
 
 ### `ift:`
 - [ ] [[sc/ift/2025q1-sc-learnup-sessions]]
+- [ ] [[sc/ift/2025q1-security-audits]]
 
 ### `status:`
+- [ ] [[sc/status/2025q1-staking-protocol-docs]]
 - [ ] [[sc/status/2025q1-staking-protocol-refinement]]
 - [ ] [[sc/status/2025q1-base-chain-integration]]
 - [ ] [[sc/status/2025q1-status-testnet-communities-contracts]]

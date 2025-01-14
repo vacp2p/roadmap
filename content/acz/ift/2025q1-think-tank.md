@@ -57,7 +57,7 @@ also maintain the ZK think tank with the latest improvements.
 
 #### Description 
 
-Provide comprehensive documentation of cryptographic techniques used and developed by IFT teams 
+Provide comprehensive documentation of cryptographic techniques used, developed and researched by IFT teams 
 that is accessible and user-friendly to all IFT teams and the broader community. 
 This task is important to diffuse the cryptographic components' how-know across the IFT. 
  
@@ -79,7 +79,7 @@ to get a clear overview or deep dive depending on their needs.
 
 #### Description 
 
-Updating the existing documentation of ZK techniques used and developed by IFT teams 
+Updating the existing documentation of ZK techniques used, developed and researched by IFT teams 
 that is accessible and user-friendly to all IFT teams and the broader community. 
 This task is important to diffuse the ZK components' how-know across the IFT. 
  

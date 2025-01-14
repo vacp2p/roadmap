@@ -38,13 +38,15 @@ gain support from the Ethereum ecosystem.
 
 * fully qualified name: `vac:acz:ift:2024q4-de-mls-testnet:de-mls-rfc`
 * owner: Ramses
-* status: in progress (60%)
+* status: moved to 2025q1 (60%)
 * start-date: 2024/10/07
 * end-date: 2024/11/04
 
 #### Description 
 Creation of a detailed RFC describing the protocol for a decentralized verison of MLS. 
 This proposal will include a login phase inspired by SIWE avoiding the centralized components of the latter. 
+
+This task is moved to 2025q1 since the architecture of de-MLS requires modification.
 
 #### Deliverables 
 
@@ -100,7 +102,7 @@ A specification [document](https://www.notion.so/WiP-SimpleLogin-protocol-1298f9
 Creating the grant application file including the answers of EF questions and having meetings in 
 office hours for possible questions.  
 
-This task is moved to 2025q1 since the we need to obtain the PoC first. 
+This task is moved to 2025q1 since it requires to be implemented PoC first.
 
 #### Deliverables
 
@@ -110,7 +112,7 @@ An submitting EF grants by the application document and keeping an eye the proce
 
 * fully qualified name: `vac:acz:ift:2024q4-de-mls-testnet:testnet-api`
 * owner: Ekaterina
-* status: in progress (90%)
+* status: done
 * start-date: 2024/10/21
 * end-date: 2024/11/11
 
@@ -126,6 +128,7 @@ Several PRs to the repository that will be created with testnet API implementati
 * Replacing Redis with Waku nodes 
 * Test modules including queue commit and concurrent messages 
 * Adding login phase as the researchers determined
+  * Waku integration PR: https://github.com/vacp2p/de-mls/pull/29
 
 ### Deployment Testnet
 
@@ -153,13 +156,15 @@ and login mechanism.
 
 * fully qualified name: `vac:acz:ift:2024q4-de-mls-testnet:blogpost-de-mls-over-waku`
 * owner: Ekaterina
-* status: started (0%)
+* status: moved to 2025q1 (0%)
 * start-date: 2024/12/02
 * end-date: 2024/12/09
 
 #### Description
 
 Writing a blogpost about a de-mls messaging application over the waku nodes. 
+
+This task is moved to 2025q1 since Waku integration took longer than planned. 
 
 #### Deliverables
 

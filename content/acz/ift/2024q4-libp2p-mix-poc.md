@@ -95,7 +95,7 @@ node configurations as the first PoC.
 
 * fully qualified name: `vac:acz:ift:2024q4-libp2p-mix-poc:comp-and-benefits`
 * owner: Akshaya
-* status: not started
+* status: moved to 2025q1
 * start-date: 2024/11/04
 * end-date: 2024/11/18
 
@@ -131,7 +131,7 @@ Implementation the second PoC which is a basic gossibsub protocol with our mixne
 
 * fully qualified name: `vac:acz:ift:2024q4-libp2p-mix-poc:test-and-doc`
 * owner: Akshaya
-* status: not started
+* status: moved to 2025q1
 * start-date: 2024/12/2
 * end-date: 2024/12/9
 
@@ -150,7 +150,7 @@ End-to-end test of the mix network.
 
 * fully qualified name: `vac:acz:ift:2024q4-libp2p-mix-poc:publish-a-paper`
 * owner: Akshaya
-* status: not started
+* status: moved to 2025q1
 * start-date: 2024/12/9
 * end-date: 2024/12/16
 

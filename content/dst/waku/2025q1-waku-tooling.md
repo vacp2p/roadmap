@@ -15,6 +15,10 @@ description: ""
 We will create tools that allow
 DST and Waku teams to analyze and test
 Waku scaling properties.
+This includes tooling like a general lor parser,
+a black-box bandwidth monitor, and other
+utilities that may appear 
+depending on the needs of the projects.
 
 ### Background
 

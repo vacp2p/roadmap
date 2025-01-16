@@ -16,7 +16,7 @@ with a particular emphasis on improving gossipsub.
 Major future work items on nim-libp2p (also beyond this reporting period are captured on [github](https://github.com/status-im/nim-libp2p/issues/777).
 
 ### `ift:`
-
+* [[p2p/ift/2025q1-gossipsub-perf-improvements|2025q1-gossipsub-perf-improvements]]
 * [[p2p/ift/2025q1-nimlibp2p-quic-wrapping-ngtcp2|2025q1-nimlibp2p-quic-wrapping-ngtcp2]]
 
 

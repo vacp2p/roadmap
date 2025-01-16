@@ -9,11 +9,16 @@ tags:
 
 ---
 
+The P2P Service unit is responsible for developing nim-libp2p,
+which is utilized across various IFT projects.
+Additionally, our team conducts research to enhance libp2p protocols,
+with a particular emphasis on improving gossipsub.
+
 ### `ift:`
 
-The P2P Service unit develops `nim-libp2p` for various IFT projects.
+* [[p2p/ift/2025q1-nimlibp2p-quic-wrapping-ngtcp2|2025q1-nimlibp2p-quic-wrapping-ngtcp2]]
+
 nim-libp2p roadmap on [github](https://github.com/status-im/nim-libp2p/issues/777)
 
-Commitments definition TBD.
 
 

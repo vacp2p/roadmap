@@ -81,3 +81,25 @@ and ensure they don't happen again.
 * Report published with all relevant details
 * Vac Roadmap updated regularly
   with links to the analysis and results.
+
+### Block issue: I/O load
+
+* fully qualified name: `vac:dst:waku:2025q1-waku-evaluation:block-io-load`
+* owner: Wings
+* status: 0%
+* start-date: 2025-01-20
+* end-date: 2025-01-31
+
+#### Description
+
+Investigate if a blocking issue found
+is related to I/O capacity instead of CPU capacity.
+Reproduce the issue while measuring I/O 
+per VM where the nodes are being run
+and analyze if there is a relation between I/O
+and the nodes that are blocked.
+Report findings.
+
+#### Deliverables
+- [ ] Reports:
+- [ ] Related PRs if apply:

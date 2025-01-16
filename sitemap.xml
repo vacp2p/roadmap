@@ -947,11 +947,14 @@
     <loc>https://roadmap.vac.dev/nim/</loc>
     <lastmod>2024-11-26T16:51:00.345Z</lastmod>
   </url><url>
-    <loc>https://roadmap.vac.dev/p2p/ift/2025q1-nimlibp2p-wrapping-ngtcp2</loc>
-    <lastmod>2025-01-16T17:19:13.386Z</lastmod>
+    <loc>https://roadmap.vac.dev/p2p/ift/2025q1-gossipsub-perf-improments</loc>
+    <lastmod>2025-01-16T18:43:49.205Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/p2p/ift/2025q1-nimlibp2p-quic-wrapping-ngtcp2</loc>
+    <lastmod>2025-01-16T18:43:49.205Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/p2p/</loc>
-    <lastmod>2025-01-16T17:19:13.386Z</lastmod>
+    <lastmod>2025-01-16T18:43:49.205Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/codex/2024q4-integration-testing</loc>
     <lastmod>2024-12-09T11:51:06.752Z</lastmod>

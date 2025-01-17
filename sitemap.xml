@@ -938,6 +938,12 @@
     <loc>https://roadmap.vac.dev/nes/</loc>
     <lastmod>2024-10-08T19:17:20.219Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/nim/ift/2025q1-nim-ide-tooling</loc>
+    <lastmod>2025-01-17T17:03:57.995Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/nim/ift/2025q1-nimble</loc>
+    <lastmod>2025-01-17T17:03:57.995Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/nim/ift/nim_ide_tooling_2024q4</loc>
     <lastmod>2024-11-26T16:51:00.345Z</lastmod>
   </url><url>
@@ -945,7 +951,7 @@
     <lastmod>2024-11-26T16:51:00.345Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/nim/</loc>
-    <lastmod>2024-11-26T16:51:00.345Z</lastmod>
+    <lastmod>2025-01-17T17:03:57.995Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/p2p/ift/2025q1-gossipsub-perf-improments</loc>
     <lastmod>2025-01-16T18:43:49.205Z</lastmod>

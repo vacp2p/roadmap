@@ -5,11 +5,12 @@ tags:
   - vac
 ---
 
-## `vac:nim:`
----
+## 2025 `vac:nim:`
 
 ### `ift:`
-* [ ] [[nim/ift/nim_ide_tooling_2024q4|nim_ide_tooling_2024q4]]
-* [ ] [[nim/ift/nimble_2024q4|nimble_2024q4]]
+* [ ] [[nim/ift/2025q1-nim-ide-tooling|2025q1-nim-ide-tooling]]
+* [ ] [[nim/ift/2025q1-nimble|2025q1-nimble]]
+
+
 
 

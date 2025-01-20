@@ -57,7 +57,7 @@ so this is easy to use in other projects.
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-tooling:bandwidth-monitor`
 * owner: Wings
-* status: 25%
+* status: 60%
 * start-date: 2025/01/06
 * end-date: 2025/01/24
 

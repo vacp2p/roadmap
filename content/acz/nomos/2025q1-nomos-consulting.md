@@ -37,11 +37,11 @@ and introduced into the ecosystem.
 ## Task List
 
 ## Zk Consulting Nomos 1
-fully qualified name: `vac:acz:ift:2024q1-think-tank:zk-consulting-nomos-1`
-owner: Marvin
-status: in progress (100%)
-start-date: 2024/12/20
-end-date: 2025/1/05
+* fully qualified name: `vac:acz:ift:2024q1-think-tank:zk-consulting-nomos-1`
+* owner: Marvin
+* status: in progress (100%)
+* start-date: 2024/12/20
+* end-date: 2025/1/05
 
 ### Description
 Provide feedback Nomos' document [analysis of failures in mix networks](https://www.notion.so/Analysis-of-failures-in-mix-networks-feeef349720842759c59785af71c7c59).
@@ -54,11 +54,11 @@ This entails checking the probabilistic arguments and presentation to make sure 
 
 
 ## Zk Consulting Nomos 2
-fully qualified name: `vac:acz:ift:2024q1-think-tank:zk-consulting-nomos-2`
-owner: Marvin
-status: in progress (80%)
-start-date: 2025/1/06
-end-date: 2025/1/24
+* fully qualified name: `vac:acz:ift:2024q1-think-tank:zk-consulting-nomos-2`
+* owner: Marvin
+* status: in progress (80%)
+* start-date: 2025/1/06
+* end-date: 2025/1/24
 
 ### Description
 Provide feedback Nomos' document [analysis of randomly generated mix networks](https://www.notion.so/Analysis-of-randomly-generated-mix-networks-6246ab47a8e34ac0bc7b561d32680e34).
@@ -70,11 +70,11 @@ This entails checking the probabilistic arguments and presentation to make sure 
 - Add proofs to these documents as needed.
 
 ## Zk Consulting Nomos 3
-fully qualified name: `vac:acz:ift:2024q1-think-tank:zk-consulting-nomos-3`
-owner: Marvin
-status: not started (0%)
-start-date: 2025/1/27
-end-date: 2025/2/14
+* fully qualified name: `vac:acz:ift:2024q1-think-tank:zk-consulting-nomos-3`
+* owner: Marvin
+* status: not started (0%)
+* start-date: 2025/1/27
+* end-date: 2025/2/14
 
 ### Description
 Provide feedback Nomos' document [analysis of correlation functions](https://www.notion.so/Analysis-of-correlation-functions-12f8f96fb65c8162b234ee4200c4917a). 
@@ -86,11 +86,11 @@ This entails checking the probabilistic arguments and presentation to make sure 
 - Add proofs to these documents as needed.
 
 ## Zk Consulting Nomos 4
-fully qualified name: `vac:acz:ift:2024q1-think-tank:zk-consulting-nomos-4`
-owner: Marvin
-status: not started (0%)
-start-date: 2025/2/14
-end-date: 2025/2/28
+* fully qualified name: `vac:acz:ift:2024q1-think-tank:zk-consulting-nomos-4`
+* owner: Marvin
+* status: not started (0%)
+* start-date: 2025/2/14
+* end-date: 2025/2/28
 
 ### Description
 Provide feedback Nomos' document [analysis of queuing in the mix node](https://www.notion.so/Analysis-of-queuing-system-in-the-mix-node-12f8f96fb65c819a8214f4a0dd9e7460). 

@@ -56,9 +56,9 @@ including an extended sick leave of a CC.
 
 * fully qualified name: `vac:dst:codex:2025q1-codex-base-capacity:deploy-base-capacity`
 * owner: Wings
-* status: 0%
-* start-date: <yyyy/mm/dd> // Previously: 2024/10/05
-* end-date: <yyyy/mm/dd> // Previously: 2024/10/31
+* status: 100%
+* start-date: 2025/01/01
+* end-date: 2025/01/31
 
 #### Description
 

@@ -176,7 +176,7 @@ or when a fresh node is joined to the network.
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-scaling:waku-shard-scaling`
 * owner: Alberto
-* status: 25%
+* status: 60%
 * start-date: 2025/01/06
 * end-date: 2025/01/24
 
@@ -187,4 +187,6 @@ Increase the number of shards up to the highest possible value.
 
 #### Deliverables
 - [ ] Reports:
+  - Issue found: [Issue](https://github.com/waku-org/nwaku/issues/3245)
 - [ ] Related PRs if apply:
+  - Time to get healthy plot PR: [PR](https://github.com/vacp2p/10ksim/pull/48)

@@ -53,3 +53,37 @@ Preparing the agenda and possible speakers for the ZK call on 7th January.
 
 A document of a summary of the ZK call 1 meeting to [ZK Notion page](https://www.notion.so/ZK-Call-1198f96fb65c80c7baaac966b3e57ea2). 
 A recorded video. 
+
+### IFT ZK Call 2
+
+* fully qualified name: `vac:acz:ift:2025q1-ift-zk-calls:ift-zk-call-2`
+* owner: Marvin
+* status: not started
+* start-date: 2025/01/27
+* end-date: 2025/02/07
+
+#### Description
+
+Preparing the agenda and possible speakers for the ZK call on 4th February. 
+
+#### Deliverables
+
+A document of a summary of the ZK call 1 meeting to [ZK Notion page](https://www.notion.so/ZK-Call-1198f96fb65c80c7baaac966b3e57ea2). 
+A recorded video. 
+
+### IFT ZK Call 3
+
+* fully qualified name: `vac:acz:ift:2025q1-ift-zk-calls:ift-zk-call-3`
+* owner: Marvin
+* status: done
+* start-date: 2025/02/24
+* end-date: 2025/03/07
+
+#### Description
+
+Preparing the agenda and possible speakers for the ZK call on 4th March. 
+
+#### Deliverables
+
+A document of a summary of the ZK call 1 meeting to [ZK Notion page](https://www.notion.so/ZK-Call-1198f96fb65c80c7baaac966b3e57ea2). 
+A recorded video.

@@ -32,7 +32,7 @@ and validating the application of MVDS for improved message delivery reliability
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:functional`
 * owner: fbarbu15
-* status: in progress (40%)
+* status: in progress (60%)
 * start-date: 2025/01/06
 * end-date: 2025/01/25
 
@@ -50,7 +50,7 @@ including 1:1 chats and private groups.
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:degraded-network`
 * owner: fbarbu15
-* status: not started
+* status: in progress (40%)
 * start-date: 2025/01/25
 * end-date: 2025/02/15
 

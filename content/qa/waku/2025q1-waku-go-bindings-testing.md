@@ -34,7 +34,7 @@ ensuring reliability across diverse scenarios in accordance to Waku FURPS.
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:framework-development`
 * owner: aya
-* status: in progress (40%)
+* status: done
 * start-date: 2025/01/06
 * end-date: 2025/01/20
 
@@ -46,9 +46,7 @@ with the capability to scale testing to match the approach used in `waku-interop
 It should also be adaptable to future testing needs.
 
 #### Deliverables
-* A new test framework for `waku-go-bindings`
-* Integration with CI pipelines
-* Documentation for framework setup and usage
+* https://github.com/waku-org/waku-go-bindings-tests
 
 
 ### Relay Protocol Testing

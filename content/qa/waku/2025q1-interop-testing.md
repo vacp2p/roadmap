@@ -25,7 +25,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:waku:2025q1-interop-testing:maintenance`
 * owner: fbarbu15
-* status: not started
+* status: in progress (50%)
 * start-date: 2025/01/01
 * end-date: 2025/03/31
 
@@ -35,6 +35,4 @@ This includes updating tests for changes in `nwaku` or `gowaku`, addressing regr
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
-* PRs with maintenance tasks
-* Reports on identified issues and their resolutions
-* Framework updates and improvements
+* [SQL logic error table Message has no column named storedAt](https://github.com/waku-org/nwaku/issues/3243)

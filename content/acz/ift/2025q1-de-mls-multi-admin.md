@@ -59,7 +59,7 @@ gain support from the Ethereum ecosystem.
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:blogpost-de-mls-over-waku`
 * owner: Ekaterina
-* status: started (10%)
+* status: started (60%)
 * start-date: 2025/01/06
 * end-date: 2025/01/20
 
@@ -76,7 +76,7 @@ A blogpost to [vac-dev](https://vac.dev/rlog/)
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:multi-admin-rfc`
 * owner: Ugur
-* status: not started
+* status: started (0%)
 * start-date: 2025/01/13
 * end-date: 2025/01/27
 
@@ -87,3 +87,69 @@ Update and reorganize the RFC with the single and multi admin options.
 #### Deliverables
 
 * PR to vacp2p/rfc-index repo with related updates. 
+
+### Testnet API
+
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:testnet-api`
+* owner: Ekaterina
+* status: not started
+* start-date: 
+* end-date: 
+
+#### Description
+
+Expand the [de-MLS](https://github.com/vacp2p/de-mls) codebase 
+by multi-admin support that each admin lives on a different waku node. 
+
+#### Deliverables
+
+Several PRs to the [de-MLS](https://github.com/vacp2p/de-mls) repository. 
+
+### Consensus Research
+
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:consensus-research`
+* owner: Ugur
+* status: not started
+* start-date: 
+* end-date: 
+
+#### Description
+
+Conducting the research on-chain and off-chain solutions for multi-admin consensus mechanisms. 
+   
+#### Deliverables
+
+A notion page that offers a few solutions that are feasible to implement.  
+
+### Deployment
+
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:deployment`
+* owner: Ekaterina
+* status: not started
+* start-date: 
+* end-date: 
+
+#### Description
+
+Integration of consensus research output to the API.   
+   
+#### Deliverables
+
+Several PRs to the [de-MLS](https://github.com/vacp2p/de-mls) repository. 
+
+### EF Grant Application
+
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:ef-application`
+* owner: Ugur
+* status: not started
+* start-date: 
+* end-date: 
+
+#### Description
+
+Finalize the grant application file including the answers of EF questions and start the process
+with having meetings in office hours for possible questions.  
+
+#### Deliverables
+
+An submitting EF grants by the application document and keeping an eye the process.

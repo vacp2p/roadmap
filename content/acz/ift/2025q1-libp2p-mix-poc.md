@@ -67,6 +67,22 @@ hiring process started.
 
 ## Task List
 
+### PoC over Waku 
+
+* fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:poc-over-waku`
+* owner: Akshaya
+* status: started (10%)
+* start-date: 2025/01/06
+* end-date: 2025/02/03
+
+#### Description
+
+Implementation the second PoC over Waku network by integrating the mixnet.
+
+#### Deliverables
+
+* PR to vacp2p/mix repo 
+
 ### RFC Update
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:rfc-update`
@@ -82,22 +98,6 @@ Revise the RFC to incorporate a transport adapter transitioning from a custom pr
 #### Deliverables
 
 * A notion document as the new version of the RFC
-
-### PoC over Waku 
-
-* fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:poc-over-waku`
-* owner: Akshaya
-* status: not started
-* start-date: 
-* end-date: 
-
-#### Description
-
-Implementation the second PoC over Waku network by integrating the mixnet.
-
-#### Deliverables
-
-* PR to vacp2p/mix repo 
 
 ### Testing and Documentation 
 
@@ -155,3 +155,20 @@ and then initiating the EF grant process.
 #### Deliverables
 
 * A report document to Notion contains information of application details and updates
+
+### Publishing a Paper 
+
+* fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:publish-a-paper`
+* owner: Akshaya
+* status: not started
+* start-date: 
+* end-date: 
+
+#### Description
+
+Publish a paper on arxiv.com that includes security/privacy analysis with applicability and revelance (product-market fit), 
+offering improvements over Tor push. 
+
+#### Deliverables
+
+* A paper on arxiv.com

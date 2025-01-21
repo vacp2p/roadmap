@@ -67,7 +67,7 @@ gain support from the Ethereum ecosystem.
 #### Description
 
 Writing a blog post about implementation details of single admin de-MLS with Waku node 
-as delivery service based on [this PR](https://github.com/vacp2p/zerokit/pull/273)     
+as delivery service based on [this PR](https://github.com/vacp2p/de-mls/pull/29)     
 
 #### Deliverables
 

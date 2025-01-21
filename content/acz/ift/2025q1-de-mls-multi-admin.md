@@ -7,7 +7,7 @@ tags:
 draft: false
 description: "involves finalizing the de-MLS RFC with multi-admin support, 
 implementing by extending the single admin approach with on-chain admin consensus, 
-and exploring further topic for the EF grant"
+and exploring further topics for the EF grant"
 
 ---
 
@@ -15,12 +15,12 @@ and exploring further topic for the EF grant"
 
 involves finalizing the de-MLS RFC with multi-admin support, 
 implementing by extending the single admin approach with on-chain admin consensus, 
-and exploring further topic for the EF grant
+and exploring further topics for the EF grant
 ## Description
 
 This commitment involves completing the de-MLS RFC by incorporating 
 multi-administrator configurations both onchain and offchain settings and implementing de-MLS 
-with a multi-admin setup over Waku network, delegating admin consensus to on-chain components. 
+with a multi-admin setup over the Waku network, delegating admin consensus to on-chain components. 
 The process includes presenting the findings such as MLS over Waku and benchmarking, 
 then applying for the EF grant.
 
@@ -34,8 +34,9 @@ designed to accommodate large numbers of users within a single group.
 
 During 2024q4, we identified the centralized aspects of the RFC 
 and the importance of a multi-admin configuration for achieving true decentralization. 
-Also we achieved the first step of implementation called single-admin over Waku node proof of concept implementation. 
-For implementation plan for this quarter is to extend the initial single-Waku-node approach 
+Also, we achieved the first step of implementation called single-admin 
+over the Waku node proof of concept implementation. 
+The implementation plan for this quarter is to extend the initial single-Waku-node approach 
 to a multi-admin configuration operating across the Waku network. 
 
 ### Narratives
@@ -45,7 +46,7 @@ we will reinforce the Conduit of Expertise narrative by:
 authenticated through Ethereum, designed to support a large user base within the IFT ecosystem.
 
 We will also strengthen the Premier Research Destination narrative by:
-* Develop a standardized decentralized messaging application over Waku network
+* Develop a standardized decentralized messaging application over the Waku network
 by providing a well-structured RFC and a proof of concept (PoC) that demonstrates its base functionality 
 within the ecosystem. 
 This will allow teams and organizations to build their own messaging applications while 
@@ -88,22 +89,61 @@ Update and reorganize the RFC with the single and multi admin options.
 
 * PR to vacp2p/rfc-index repo with related updates. 
 
-### Testnet API
+### Update Waku Node Connection
 
-* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:testnet-api`
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:waku-node-connection`
+* owner: Ekaterina
+* status: started
+* start-date: 2025/01/20
+* end-date: 2025/01/27
+
+#### Description
+
+Update the connection to Waku nodes according to the new 
+bindings updates and allow multiple nodes to be used. 
+
+#### Deliverables
+
+A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository 
+updating the Waku node connection and enabling multiple node usage.
+
+### Processing Of Key Packages In Batch 
+
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:batch-key-package`
 * owner: Ekaterina
 * status: not started
-* start-date: 
-* end-date: 
+* start-date:
+* end-date:
+
+#### Description
+
+Expand the [de-MLS](https://github.com/vacp2p/de-mls) codebase by implementing multi-admin support. 
+Update key package handling to process packages in batches, enabling proposal formation from different admins.
+
+#### Deliverables
+
+This is a PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository, 
+updating the API for handling key packages from users 
+before joining the group not in each coming message but once in the epoch. 
+
+### Extend API To Multiple Admin
+
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:extend-api`
+* owner: Ekaterina
+* status: not started
+* start-date:
+* end-date:
 
 #### Description
 
 Expand the [de-MLS](https://github.com/vacp2p/de-mls) codebase 
-by multi-admin support that each admin lives on a different waku node. 
+by implementing multi-admin support—update to commit handling to support more than one admin. 
+Allow more than one admin to send the admin key into the welcome channel and process an incoming key package. 
 
 #### Deliverables
 
-Several PRs to the [de-MLS](https://github.com/vacp2p/de-mls) repository. 
+A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository 
+updating the API for separate commit and proposal messages. 
 
 ### Consensus Research
 
@@ -115,27 +155,81 @@ Several PRs to the [de-MLS](https://github.com/vacp2p/de-mls) repository.
 
 #### Description
 
-Conducting the research on-chain and off-chain solutions for multi-admin consensus mechanisms. 
+Conducting research on-chain and off-chain solutions for multi-admin consensus mechanisms. 
    
 #### Deliverables
 
 A notion page that offers a few solutions that are feasible to implement.  
 
-### Deployment
+### CI Setup
 
-* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:deployment`
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:ci-setup`
 * owner: Ekaterina
 * status: not started
-* start-date: 
-* end-date: 
+* start-date:
+* end-date:
 
 #### Description
 
-Integration of consensus research output to the API.   
-   
-#### Deliverables
+Set up continuous integration for the [de-MLS](https://github.com/vacp2p/de-mls) repository, 
+including automated testing and code validation. 
 
-Several PRs to the [de-MLS](https://github.com/vacp2p/de-mls) repository. 
+#### Deliverables
+A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository 
+with a new CI pipeline for the repository that includes the waku node.
+
+### Test Deployment
+
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:test-deployment`
+* owner: Ekaterina
+* status: not started
+* start-date:
+* end-date:
+
+#### Description
+
+Set up test deployment for the [de-MLS](https://github.com/vacp2p/de-mls) repository, 
+including Docker configurations and automation.
+
+#### Deliverables
+A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository with 
+* Docker configurations for deployment and testing.
+* Documentation for test deployment setup.
+
+### Benchmark Coverage
+
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:benchmark-coverage`
+* owner: Ekaterina
+* status: not started
+* start-date:
+* end-date:
+
+#### Description
+
+Expand benchmark coverage in the [de-MLS](https://github.com/vacp2p/de-mls) repository. 
+Identify untested scenarios, document them, and implement corresponding benchmarks.
+
+#### Deliverables
+A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository with 
+
+* A document outlining benchmark scenarios.
+* PRs with benchmark tests for uncovered scenarios.
+
+### Code Maintenance and Improvements
+
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:code-maintenance`
+* owner: Ekaterina
+* status: not started
+* start-date:
+* end-date:
+
+#### Description
+
+Address minor bug fixes and make changes that improve code readability and maintainability. 
+These improvements are not tied to specific tasks but enhance the overall quality of the codebase.
+
+#### Deliverables
+A PRs to the [de-MLS](https://github.com/vacp2p/de-mls) repository with bug fixes and code improvements.
 
 ### EF Grant Application
 
@@ -147,9 +241,9 @@ Several PRs to the [de-MLS](https://github.com/vacp2p/de-mls) repository.
 
 #### Description
 
-Finalize the grant application file including the answers of EF questions and start the process
-with having meetings in office hours for possible questions.  
+Finalize the grant application file including the answers to EF questions and start the process
+with having meetings during office hours for possible questions.  
 
 #### Deliverables
 
-An submitting EF grants by the application document and keeping an eye the process.
+Submitting EF grants using the application document and keeping an eye on the process.

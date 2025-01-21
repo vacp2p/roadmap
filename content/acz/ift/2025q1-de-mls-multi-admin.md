@@ -107,102 +107,13 @@ bindings updates and allow multiple nodes to be used.
 A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository 
 updating the Waku node connection and enabling multiple node usage.
 
-### Processing Of Key Packages In Batch 
-
-* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:batch-key-package`
-* owner: Ekaterina
-* status: not started
-* start-date:
-* end-date:
-
-#### Description
-
-Expand the [de-MLS](https://github.com/vacp2p/de-mls) codebase by implementing multi-admin support. 
-Update key package handling to process packages in batches, enabling proposal formation from different admins.
-
-#### Deliverables
-
-This is a PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository, 
-updating the API for handling key packages from users 
-before joining the group not in each coming message but once in the epoch. 
-
-### Extend API To Multiple Admin
-
-* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:extend-api`
-* owner: Ekaterina
-* status: not started
-* start-date:
-* end-date:
-
-#### Description
-
-Expand the [de-MLS](https://github.com/vacp2p/de-mls) codebase 
-by implementing multi-admin support—update to commit handling to support more than one admin. 
-Allow more than one admin to send the admin key into the welcome channel and process an incoming key package. 
-
-#### Deliverables
-
-A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository 
-updating the API for separate commit and proposal messages. 
-
-### Consensus Research
-
-* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:consensus-research`
-* owner: Ugur
-* status: not started
-* start-date: 
-* end-date: 
-
-#### Description
-
-Conducting research on-chain and off-chain solutions for multi-admin consensus mechanisms. 
-   
-#### Deliverables
-
-A notion page that offers a few solutions that are feasible to implement.  
-
-### CI Setup
-
-* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:ci-setup`
-* owner: Ekaterina
-* status: not started
-* start-date:
-* end-date:
-
-#### Description
-
-Set up continuous integration for the [de-MLS](https://github.com/vacp2p/de-mls) repository, 
-including automated testing and code validation. 
-
-#### Deliverables
-A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository 
-with a new CI pipeline for the repository that includes the waku node.
-
-### Test Deployment
-
-* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:test-deployment`
-* owner: Ekaterina
-* status: not started
-* start-date:
-* end-date:
-
-#### Description
-
-Set up test deployment for the [de-MLS](https://github.com/vacp2p/de-mls) repository, 
-including Docker configurations and automation.
-
-#### Deliverables
-A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository with 
-* Docker configurations for deployment and testing.
-* Documentation for test deployment setup.
-
 ### Benchmark Coverage
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:benchmark-coverage`
 * owner: Ekaterina
 * status: not started
-* start-date:
-* end-date:
+* start-date: 2025/01/20
+* end-date: 025/01/27
 
 #### Description
 
@@ -215,18 +126,107 @@ A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository with
 * A document outlining benchmark scenarios.
 * PRs with benchmark tests for uncovered scenarios.
 
-### Code Maintenance and Improvements
+### Processing Of Key Packages In Batch 
 
-* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:code-maintenance`
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:batch-key-package`
 * owner: Ekaterina
 * status: not started
-* start-date:
-* end-date:
+* start-date: 2025/01/27
+* end-date: 2025/02/10
 
 #### Description
 
-Address minor bug fixes and make changes that improve code readability and maintainability. 
-These improvements are not tied to specific tasks but enhance the overall quality of the codebase.
+Expand the [de-MLS](https://github.com/vacp2p/de-mls) codebase by implementing multi-admin support. 
+Update key package handling to process packages in batches, enabling proposal formation from different admins.
+
+#### Deliverables
+
+This is a PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository, 
+updating the API for handling key packages from users 
+before joining the group not in each coming message but once in the epoch. 
+
+### Test Deployment
+
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:test-deployment`
+* owner: Ekaterina
+* status: not started
+* start-date: 2025/02/03
+* end-date: 2025/02/10
+
+#### Description
+
+Set up test deployment for the [de-MLS](https://github.com/vacp2p/de-mls) repository, 
+including Docker configurations and automation.
+
+#### Deliverables
+A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository with 
+* Docker configurations for deployment and testing.
+* Documentation for test deployment setup.
+
+### Extend API To Multiple Admin
+
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:extend-api`
+* owner: Ekaterina
+* status: not started
+* start-date: 2025/02/10
+* end-date: 2025/03/03
+
+#### Description
+
+Expand the [de-MLS](https://github.com/vacp2p/de-mls) codebase 
+by implementing multi-admin support—update to commit handling to support more than one admin. 
+Allow more than one admin to send the admin key into the welcome channel and process an incoming key package. 
+
+#### Deliverables
+
+A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository 
+updating the API for separate commit and proposal messages. 
+
+### CI Setup
+
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:ci-setup`
+* owner: Ekaterina
+* status: not started
+* start-date: 2025/02/10
+* end-date: 2025/02/17
+
+#### Description
+
+Set up continuous integration for the [de-MLS](https://github.com/vacp2p/de-mls) repository, 
+including automated testing and code validation. 
+
+#### Deliverables
+A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository 
+with a new CI pipeline for the repository that includes the waku node.
+
+### Consensus Research
+
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:consensus-research`
+* owner: Ugur
+* status: not started
+* start-date: 2025/02/10
+* end-date: 2025/02/24
+
+#### Description
+
+Conducting research on-chain and off-chain solutions for multi-admin consensus mechanisms. 
+   
+#### Deliverables
+
+A notion page that offers a few solutions that are feasible to implement.  
+
+### Deployment
+
+* fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:deployment`
+* owner: Ekaterina
+* status: not started
+* start-date: 2025/03/06
+* end-date: 2025/03/24
+
+#### Description
+
+Set up final deployment for the [de-MLS](https://github.com/vacp2p/de-mls) repository, 
+including Docker configurations and automation.
 
 #### Deliverables
 A PRs to the [de-MLS](https://github.com/vacp2p/de-mls) repository with bug fixes and code improvements.
@@ -236,8 +236,8 @@ A PRs to the [de-MLS](https://github.com/vacp2p/de-mls) repository with bug fixe
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:ef-application`
 * owner: Ugur
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/03/06
+* end-date: 2025/03/24
 
 #### Description
 

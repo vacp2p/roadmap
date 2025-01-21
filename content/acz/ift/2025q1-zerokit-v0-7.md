@@ -82,8 +82,8 @@ A blogpost to [vac-dev](https://vac.dev/rlog/)
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:rln-wasm`
 * owner: Ekaterina
 * status: not started 
-* start-date: 
-* end-date:
+* start-date: 2025/01/27
+* end-date: 2025/02/03
 
 #### Description
 
@@ -99,8 +99,8 @@ rln wasm is revisited for performance analysis and updated by dependencies and g
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:release`
 * owner: Ekaterina
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/03/24
+* end-date: 2025/03/31
 
 #### Description
 

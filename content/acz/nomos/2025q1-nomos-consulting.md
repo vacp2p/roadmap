@@ -44,7 +44,8 @@ and introduced into the ecosystem.
 * end-date: 2025/1/05
 
 ### Description
-Provide feedback Nomos' document [analysis of failures in mix networks](https://www.notion.so/Analysis-of-failures-in-mix-networks-feeef349720842759c59785af71c7c59).
+Provide feedback Nomos' document 
+[analysis of failures in mix networks](https://www.notion.so/Analysis-of-failures-in-mix-networks-feeef349720842759c59785af71c7c59).
 This entails checking the probabilistic arguments and presentation to make sure that the document can be followed by a general user.
 
 
@@ -61,8 +62,10 @@ This entails checking the probabilistic arguments and presentation to make sure 
 * end-date: 2025/1/24
 
 ### Description
-Provide feedback Nomos' document [analysis of randomly generated mix networks](https://www.notion.so/Analysis-of-randomly-generated-mix-networks-6246ab47a8e34ac0bc7b561d32680e34).
-This entails checking the probabilistic arguments and presentation to make sure that the document can be followed by a general user.
+Provide feedback Nomos' document 
+[analysis of randomly generated mix networks](https://www.notion.so/Analysis-of-randomly-generated-mix-networks-6246ab47a8e34ac0bc7b561d32680e34).
+This entails checking the probabilistic arguments and presentation 
+to make sure that the document can be followed by a general user.
 
 
 ### Deliverables
@@ -74,11 +77,13 @@ This entails checking the probabilistic arguments and presentation to make sure 
 * owner: Marvin
 * status: not started (0%)
 * start-date: 2025/1/27
-* end-date: 2025/2/14
+* end-date: 2025/1/31
 
 ### Description
-Provide feedback Nomos' document [analysis of correlation functions](https://www.notion.so/Analysis-of-correlation-functions-12f8f96fb65c8162b234ee4200c4917a). 
-This entails checking the probabilistic arguments and presentation to make sure that the document can be followed by a general user.
+Provide feedback Nomos' document 
+[analysis of correlation functions](https://www.notion.so/Analysis-of-correlation-functions-12f8f96fb65c8162b234ee4200c4917a). 
+This entails checking the probabilistic arguments and presentation 
+to make sure that the document can be followed by a general user.
 
 
 ### Deliverables
@@ -89,12 +94,14 @@ This entails checking the probabilistic arguments and presentation to make sure 
 * fully qualified name: `vac:acz:ift:2024q1-think-tank:zk-consulting-nomos-4`
 * owner: Marvin
 * status: not started (0%)
-* start-date: 2025/2/14
-* end-date: 2025/2/28
+* start-date: 2025/2/03
+* end-date: 2025/2/07
 
 ### Description
-Provide feedback Nomos' document [analysis of queuing in the mix node](https://www.notion.so/Analysis-of-queuing-system-in-the-mix-node-12f8f96fb65c819a8214f4a0dd9e7460). 
-This entails checking the probabilistic arguments and presentation to make sure that the document can be followed by a general user.
+Provide feedback Nomos' document 
+[analysis of queuing in the mix node](https://www.notion.so/Analysis-of-queuing-system-in-the-mix-node-12f8f96fb65c819a8214f4a0dd9e7460). 
+This entails checking the probabilistic arguments and presentation 
+to make sure that the document can be followed by a general user.
 
 
 ### Deliverables

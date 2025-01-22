@@ -99,8 +99,10 @@ Update and reorganize the RFC with the single and multi admin options.
 
 #### Description
 
-Update the connection to Waku nodes according to the new 
-bindings updates and allow multiple nodes to be used. 
+The current version of the Waku Node setting, and subscribing to content topics 
+entails receiving the same message multiple times. 
+The task plans to fix this and also add the ability to connect more than one node. 
+Also rust bindings have been updated over time and will be moving to the current version. 
 
 #### Deliverables
 
@@ -137,7 +139,8 @@ A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository with
 #### Description
 
 Expand the [de-MLS](https://github.com/vacp2p/de-mls) codebase by implementing multi-admin support. 
-Update key package handling to process packages in batches, enabling proposal formation from different admins.
+The implementation with a single admin allowed for the instantaneous processing of requests to join the group. 
+When moving to multiple admins, the ability to collect requests in batches and then process them as one should be added. 
 
 #### Deliverables
 
@@ -155,8 +158,9 @@ before joining the group not in each coming message but once in the epoch.
 
 #### Description
 
-Set up test deployment for the [de-MLS](https://github.com/vacp2p/de-mls) repository, 
-including Docker configurations and automation.
+Set up test deployment for the [de-MLS](https://github.com/vacp2p/de-mls) repository. 
+Docker containers have been made to run PoCs, 
+but they assume a single node operation and do not run nodes within themselves.
 
 #### Deliverables
 A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository with 
@@ -173,9 +177,10 @@ A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository with
 
 #### Description
 
-Expand the [de-MLS](https://github.com/vacp2p/de-mls) codebase 
-by implementing multi-admin support—update to commit handling to support more than one admin. 
-Allow more than one admin to send the admin key into the welcome channel and process an incoming key package. 
+Expand the [de-MLS](https://github.com/vacp2p/de-mls) codebase by implementing multi-admin support. 
+In preparation for working with multiple admins, 
+extend API for the following processes: processing invitations to a group, applying commits, 
+and preparing a separate channel for exchanging messages between admins. 
 
 #### Deliverables
 

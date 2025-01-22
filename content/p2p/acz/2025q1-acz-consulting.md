@@ -27,7 +27,7 @@ P2P provides consulting and support to ACZ by addressing queries, formulating an
 * owner: rramos
 * status: ongoing
 * start-date: 2025/01/13
-* end-date:
+* end-date: 2025/03/31
 
 #### Description
 Assist ACZ with the integration of mix with Waku. This task is primarily reactive, so aside from periodically checking in with the team to determine if assistance is needed, no additional actions are required unless requested

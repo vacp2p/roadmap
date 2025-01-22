@@ -17,7 +17,10 @@ P2P ad-hoc consulting for ACZ
 
 ## Description
 
-P2P provides consulting and support to ACZ by addressing queries, formulating and designing strategies to utilize nim-libp2p and Waku more effectively, and removing blockers related to these products. Additionally, P2P offers guidance on resolving coding challenges that may arise during the development of these tasks.
+P2P provides consulting and support to ACZ by addressing queries,
+formulating and designing strategies to utilize nim-libp2p and Waku more effectively,
+and removing blockers related to these products.
+Additionally, P2P offers guidance on resolving coding challenges that may arise during the development of these tasks.
 
 ## Task List
 

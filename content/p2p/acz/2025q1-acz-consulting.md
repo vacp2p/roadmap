@@ -37,7 +37,7 @@ Assist ACZ with the integration of mix with Waku. This task is primarily reactiv
 
 #### Deliverables
 
-### Mix Consulting
+### de-MLS Consulting
 
 * fully qualified name: `vac:p2p:acz:2025q1-acz-consulting:de-mls-consulting`
 * owner: rramos

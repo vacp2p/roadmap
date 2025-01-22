@@ -36,7 +36,9 @@ The development of a native Nim implementation of QUIC will be addressed in a fu
 * end-date:
 
 #### Description
-Implement the full TLS handshake using nim-mbedtls as explained in https://docs.libp2p.io/concepts/transports/quic/ and https://github.com/libp2p/specs/blob/master/tls/tls.md. The ngtcp2 library has crypto helper libraries that make this integration easier, but unfortunately, it doesn't support mbedtls. It is necessary to find a way to make this integration using mbedtls.
+Implement the full TLS handshake using nim-mbedtls as explained in https://docs.libp2p.io/concepts/transports/quic/ and https://github.com/libp2p/specs/blob/master/tls/tls.md.
+The ngtcp2 library has crypto helper libraries that make this integration easier, but unfortunately, it doesn't support mbedtls.
+It is necessary to find a way to make this integration using mbedtls.
 
 #### Deliverables
 

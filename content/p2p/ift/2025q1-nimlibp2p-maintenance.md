@@ -16,7 +16,11 @@ Maintain nim-libp2p through improvements, bug fixes, and user support
 
 ## Description
 
-Continue supporting and maintaining the nim-libp2p repository through ongoing improvements, refactoring, and bug fixes. This includes a range of ad-hoc tasks critical to sustaining code quality, overall stability, correct functionality, and performance of the project. Additionally, it provides a platform for addressing small developer requests, ensuring that nim-libp2p remains functional and usable for its primary users — Nimbus and Waku — helping to meet their evolving needs."
+Continue supporting and maintaining the nim-libp2p repository through ongoing improvements, refactoring, and bug fixes.
+This includes a range of ad-hoc tasks critical to sustaining code quality, overall stability, correct functionality,
+and performance of the project.
+Additionally, it provides a platform for addressing small developer requests,
+ensuring that nim-libp2p remains functional and usable for its primary users — Nimbus and Waku — helping to meet their evolving needs."
 
 ## Task List
 

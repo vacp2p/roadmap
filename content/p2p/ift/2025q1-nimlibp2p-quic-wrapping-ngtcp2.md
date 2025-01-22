@@ -27,14 +27,45 @@ The development of a native Nim implementation of QUIC will be addressed in a fu
 
 ## Task List
 
-### TBD
+### Implement the full TLS handshake using nim-mbedtls
 
-* fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-wrapping-ngtcp2`
+* fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-wrapping-ngtcp2:tls_handshake`
 * owner: rramos
-* status: done
-* start-date: 2025/01/13
-* end-date: 2025/01/31
+* status: 
+* start-date: 
+* end-date:
 
 #### Description
+Implement the full TLS handshake using nim-mbedtls as explained in https://docs.libp2p.io/concepts/transports/quic/ and https://github.com/libp2p/specs/blob/master/tls/tls.md.
+The ngtcp2 library has crypto helper libraries that make this integration easier, but unfortunately, it doesn't support mbedtls.
+It is necessary to find a way to make this integration using mbedtls.
+
+#### Deliverables
+
+
+### Implement certificate validation
+
+* fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-wrapping-ngtcp2:certificate_validation`
+* owner: rramos
+* status: 
+* start-date: 
+* end-date:
+
+#### Description
+Validates certificates according to libp2p TLS 1.3 specs.
+
+#### Deliverables
+
+
+### Improve QUIC transport code
+
+* fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-wrapping-ngtcp2:improve_quic`
+* owner: rramos
+* status: 
+* start-date: 
+* end-date:
+
+#### Description
+Prepare the transport code for production by performing the necessary refactors, implementing logging, and adding unit tests. This may also involve determining whether QUIC support for hole punching needs to be implemented.
 
 #### Deliverables

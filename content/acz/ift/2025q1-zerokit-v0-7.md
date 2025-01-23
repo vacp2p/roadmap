@@ -43,9 +43,9 @@ for users looking to integrate RLN into their projects.
 
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:poseidon-hash`
 * owner: Aleksei
-* status: started (10%) 
+* status: started (20%) 
 * start-date: 2025/01/01
-* end-date: 2025/01/13
+* end-date: 2025/01/27
 
 #### Description
 
@@ -58,14 +58,32 @@ Lastly solving the issue: [Docs fail to build on docs.rs](https://github.com/vac
 #### Deliverables
 
 * PR to vacp2p/zerokit repo with related update for v0.7
+* [A Report](https://notes.status.im/CVMoa6EcTmS2D4VPBCsH2w#) about the MDS security checker
+
+### Blogpost MDS
+
+* fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:blogpost-mds`
+* owner: Aleksei
+* status: not started
+* start-date: 2025/01/27
+* end-date: 2025/02/03
+
+#### Description
+
+Writing a blog post about existing and alternative methods 
+that check MDS security based on [the report](https://notes.status.im/CVMoa6EcTmS2D4VPBCsH2w#)
+
+#### Deliverables
+
+A blogpost to [vac-dev](https://vac.dev/rlog/)
 
 ### RLN wasm
 
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:rln-wasm`
 * owner: Ekaterina
 * status: not started 
-* start-date: 
-* end-date:
+* start-date: 2025/01/27
+* end-date: 2025/02/03
 
 #### Description
 
@@ -81,8 +99,8 @@ rln wasm is revisited for performance analysis and updated by dependencies and g
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:release`
 * owner: Ekaterina
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/03/24
+* end-date: 2025/03/31
 
 #### Description
 

@@ -88,8 +88,8 @@ Implementation the second PoC over Waku network by integrating the mixnet.
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:rfc-update`
 * owner: Akshaya
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/02/03
+* end-date: 2025/02/17
 
 #### Description
 
@@ -104,8 +104,8 @@ Revise the RFC to incorporate a transport adapter transitioning from a custom pr
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:test-and-doc`
 * owner: Akshaya
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/02/17
+* end-date: 2025/03/03
 
 #### Description
 
@@ -125,8 +125,8 @@ Developing documentation for individuals looking to integrate a mixnet into thei
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:blogposts`
 * owner: Akshaya
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/03/03
+* end-date: 2025/03/10
 
 #### Description
 
@@ -143,8 +143,8 @@ while the other discusses updates to the RFC through the incorporation of a tran
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:ef-grant-app`
 * owner: Akshaya
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/03/10
+* end-date: 2025/03/31
 
 #### Description
 
@@ -161,8 +161,8 @@ and then initiating the EF grant process.
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:publish-a-paper`
 * owner: Akshaya
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/03/10
+* end-date: 2025/03/24
 
 #### Description
 

@@ -8,7 +8,7 @@ draft: false
 description: Decide which raw RFCs should go to rfc-index.
 ---
 
-`ift:rfc:waku:raw-rfcs-to-rfc-index-migration`
+`vac:rfc:waku:raw-rfcs-to-rfc-index-migration`
 
 Decide which raw RFCs can be moved to rfc-index.
 
@@ -31,7 +31,7 @@ to the rfc-index.
 ### Migration
 
 - Fully qualified name: 
-  `ift:rfc:waku:raw-rfcs-to-rfc-index-migration:migration`
+  `vac:rfc:waku:raw-rfcs-to-rfc-index-migration:migration`
 - Owner: Filip
 - Status: completed
 - Start date: 2024/10/31

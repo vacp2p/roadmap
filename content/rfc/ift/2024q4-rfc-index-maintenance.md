@@ -8,7 +8,7 @@ draft: false
 description: Continuous effort to fix and update across the relevant RFC websites (including the communication)
 ---
 
-`2024q4-ift:rfc:vac:rfc-index-maintenance`
+`vac:rfc:ift:2024q4-ift:rfc:vac:rfc-index-maintenance`
 
 Continuous effort to fix and update across the relevant RFC websites (including the communication)
 ## Description
@@ -24,7 +24,7 @@ This commitment revolves around a continuous effort to fix and update across the
 ### Update Waku Links
 
 Fully qualified name: 
-  `ift:rfc:vac:rfc-index-maintenance-2024q4:update-waku-links`
+  `vac:rfc:ift:rfc-index-maintenance-2024q4:update-waku-links`
 - Owner: jimstir
 - Status: completed
 - Start date: 2024/10/04

@@ -8,7 +8,7 @@ draft: false
 description: Initiating the process of documentation to raw RFC process for Nomos Data Availability.
 ---
 
-`2024q4-raw-rfc-support-data-availability`
+`vac:rfc:nomos:2024q4-raw-rfc-support-data-availability`
 
 Initiating the process of documentation for the raw RFC process for Nomos Data 
 Availability (DA).
@@ -37,7 +37,7 @@ RFCs or different ones might be opened.
 ### DA Documentation Research
 
 - Fully qualified name: 
-  `ift:rfc:nomos:data-availability-raw-rfc-2024q4:da-documentation-research`
+  `vac:rfc:nomos:data-availability-raw-rfc-2024q4:da-documentation-research`
 - Owner: cofson
 - Status: 90%
 - Start date: 2024/10/10
@@ -56,7 +56,7 @@ subject.
 
 ### DA Raw RFC
 
-- Fully qualified name: `ift:rfc:nomos:data-availability-raw-rfc-2024q4:da-raw-rfc`
+- Fully qualified name: `vac:rfc:nomos:data-availability-raw-rfc-2024q4:da-raw-rfc`
 - Owner: cofson
 - Status: 50%
 - Start date: 2024/11/01

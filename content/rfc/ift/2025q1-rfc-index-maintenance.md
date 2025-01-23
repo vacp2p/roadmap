@@ -7,7 +7,7 @@ draft: false
 description: This commitment revolves around a continuous effort to fix and update across the relevant RFC websites (including the communication).
 ---
 
-`ift:rfc:vac:2025q1-rfc-index-maintenance`
+`vac:rfc:ift:rfc-index-maintenance`
 
 ## Description
 

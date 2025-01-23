@@ -8,7 +8,7 @@ draft: false
 description: Migrating the status specs from specs.status.im to the rfc-index.
 ---
 
-`ift:rfc:status:status-specs-to-rfc-index-migration`
+`vac:rfc:status:status-specs-to-rfc-index-migration`
 
 Migrating the status specs from specs.status.im to the rfc-index.
 ## Description

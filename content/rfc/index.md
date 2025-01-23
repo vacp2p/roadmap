@@ -9,15 +9,15 @@ tags:
 --- 
 ### `ift`
 + [[rfc/ift/2025q1-rfc-culture-establishment|2025q1-rfc-culture-establishment]]
-+ [[rfc/ift/2025q1-rfc-index-mainteance|2025q1-rfc-index-maintenance]]
++ [[rfc/ift/2025q1-rfc-index-maintenance|2025q1-rfc-index-maintenance]]
 + [[rfc/ift/2025q1-integration-with-qa|2025q1-integration-with-qa]]
 
 ### `waku`
-- [[rfc/waku/2025q1-rfc-iterations|2025q1rfc-iterations]]
+- [[rfc/waku/2025q1-rfc-iteration|2025q1-rfc-iteration]]
 
 ### `nomos`
-- [[2025q1-raw-rfcs-support-data-availability|data-availability-raw-rfc]]
-- [[rfc/nomos/2025q1-cryptarchia-raw-rfc|cryptarchia-raw-rfc]]
+- [[rfc/nomos/2025q1-raw-rfcs-support-data-availability|2025q1-raw-rfcs-support-data-availability]]
+- [[rfc/nomos/2025q1-rfc-iteration|2025q1-rfc-iteration]]
 
 ### `status`
 - 

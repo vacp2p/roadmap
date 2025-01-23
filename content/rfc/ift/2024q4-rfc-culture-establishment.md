@@ -9,7 +9,7 @@ draft: false
 description: Creating a plan in Notion, compiling information about the RFC process, publishing a forum post, initially informing and discussing with teams within the IFT ecosystem.
 ---
 
-`2024q4-ift:rfc:vac:rfc-culture-establishment`
+`vac:rfc:ift:2024q4-ift:rfc:vac:rfc-culture-establishment`
 
 Creating a plan in Notion, compiling information about the RFC process,
 publishing a forum post, initially informing and discussing with teams
@@ -37,7 +37,7 @@ culture.
 
 ### Notion Documentation
 
-- Fully qualified name: `ift:rfc:vac:culture-establishment-2024q4:notion-documentation`
+- Fully qualified name: `vac:rfc:ift:culture-establishment-2024q4:notion-documentation`
 - Owner: cofson
 - Status: 95%
 - Start date: 2024/10/01
@@ -55,7 +55,7 @@ team's services. Add subpages where more detailed information is needed.
 
 ### Team Communication
 
-- Fully qualified name: `ift:rfc:vac:culture-establishment-2024q4:team-communication`
+- Fully qualified name: `vac:rfc:ift:culture-establishment-2024q4:team-communication`
 - Owner: cofson
 - Status: 50%
 - Start date: 2024/11/01
@@ -73,7 +73,7 @@ channels to decide the best path forward.
 
 ### Forum Post
 
-- Fully qualified name: `ift:rfc:vac:culture-establishment-2024q4:forum-post`
+- Fully qualified name: `vac:rfc:ift:culture-establishment-2024q4:forum-post`
 - Owner: Ksr
 - Status: completed (https://forum.vac.dev/t/rfc-process/368/3)
 - Start date: 2024/11/11

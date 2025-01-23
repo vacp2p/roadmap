@@ -8,7 +8,7 @@ draft: false
 description: Continuation of RFC Culture establishment through introducing several new initiatives (discussion-related).
 ---
 
-`ift:rfc:vac:2025q1-rfc-culture-establishment`
+`vac:rfc:ift:2025q1-rfc-culture-establishment`
 
 Continuation of RFC Culture establishment
 through introducing several new initiatives (discussion-related).

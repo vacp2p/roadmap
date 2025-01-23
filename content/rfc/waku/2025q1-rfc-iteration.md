@@ -7,7 +7,7 @@ draft: false
 description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected Waku RFCs."
 ---
 
-`ift:rfc:waku:2025q1-rfc-iteration`
+`vac:rfc:waku:2025q1-rfc-iteration`
 
 Iteration commitments generally comprise:
 through discussion and curation,
@@ -40,7 +40,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 ### 10/WAKU2
 
 - Fully qualified name: 
-  `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:10/WAKU2`
+  `vac:rfc:waku:2025q1-rfc-iteration:10/waku2`
 - Owner: jimstir
 - Status: not started
 - Start date: 2025/01/01

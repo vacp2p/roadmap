@@ -7,7 +7,7 @@ draft: false
 description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected Nomos RFCs."
 ---
 
-`ift:rfc:waku:2025q1-rfc-iteration`
+`vac:rfc:nomos:2025q1-rfc-iteration`
 
 Iteration commitments generally comprise:
 through discussion and curation,

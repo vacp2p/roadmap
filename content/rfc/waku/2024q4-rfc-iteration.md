@@ -8,7 +8,7 @@ draft: false
 description: Through discussion and curation, support the process of auditing raw, draft, mature selected Waku RFCs.
 ---
 
-`ift:rfc:waku:2024q4-rfc-iteration`
+`vac:rfc:waku:2024q4-rfc-iteration`
 
 Through discussion and curation, support the process of auditing raw, draft, mature selected Waku RFCs.
 
@@ -39,7 +39,7 @@ either in draft or raw states:
 ### 10/WAKU2
 
 - Fully qualified name: 
-  `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:10/WAKU2`
+  `vac:rfc:waku:updates-of-mature-waku-rfcs-2024q4:10/WAKU2`
 - Owner: jimstir
 - Status: not started
 - Start date: 2024/11/25
@@ -56,7 +56,7 @@ Waku v2 is a family of modular peer-to-peer protocols for secure communication.
 ### 12/WAKU2-FILTER
 
 - Fully qualified name: 
-  `ift:rfc:waku:updates-mature-waku-rfcs-2024q4:12/WAKU2-FILTER`
+  `vac:rfc:waku:updates-mature-waku-rfcs-2024q4:12/WAKU2-FILTER`
 - Owner: jimstir
 - Status: not started
 - Start date: 2024/11/11
@@ -74,7 +74,7 @@ receives.
 ### 13/WAKU2-STORE
 
 - Fully qualified name: 
-  `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:13/WAKU2-STORE`
+  `vac:rfc:waku:updates-of-mature-waku-rfcs-2024q4:13/WAKU2-STORE`
 - Owner: jimstir
 - Status: 10%
 - Start date: 2024/10/28
@@ -92,7 +92,7 @@ querying messages received through the relay protocol and stored by other nodes.
 ### 14/WAKU2-MESSAGE
 
 - Fully qualified name: 
-  `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:14/WAKU2-MESSAGE`
+  `vac:rfc:waku:updates-of-mature-waku-rfcs-2024q4:14/WAKU2-MESSAGE`
 - Owner: jimstir
 - Status: 50%
 - Start date: 2024/10/28
@@ -110,7 +110,7 @@ specific security goals and provide Whisper/Waku v1 backward compatibility.
 ### 19/WAKU2-LIGHTPUSH
 
 - Fully qualified name: 
-  `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:19/WAKU2-LIGHTPUSH`
+  `vac:rfc:waku:updates-of-mature-waku-rfcs-2024q4:19/WAKU2-LIGHTPUSH`
 - Owner: jimstir
 - Status: closed (will be replaced by new rfc started on waku specs - https://github.com/vacp2p/rfc-index/pull/112 )
 - Start date: 2024/10/14
@@ -128,7 +128,7 @@ publish messages in the Waku network and receive confirmation of delivery.
 ### 34/WAKU2-PEER-EXCHANGE
 
 - Fully qualified name: 
-  `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:34/WAKU2-PEER-EXCHANGE`
+  `vac:rfc:waku:updates-of-mature-waku-rfcs-2024q4:34/WAKU2-PEER-EXCHANGE`
 - Owner: jimstir
 - Status: 100% (https://github.com/vacp2p/rfc-index/pull/7)
 - Start date: 2024/10/07
@@ -145,7 +145,7 @@ A peer discovery protocol for resource-restricted devices.
 ### 15/WAKU-BRIDGE
 
 - Fully qualified name: 
-  `ift:rfc:waku:updates-of-mature-waku-rfcs-2024q4:15/WAKU-BRIDGE`
+  `vac:rfc:waku:updates-of-mature-waku-rfcs-2024q4:15/WAKU-BRIDGE`
 - Owner: jimstir
 - Status: 50%
 - Start date: 2024/11/11

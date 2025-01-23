@@ -8,7 +8,7 @@ draft: false
 description: This commitment involves integration and closer coordination with the QA team.
 ---
 
-`ift:rfc:vac:2025q1-integration-with-qa`
+`vac:rfc:ift:2025q1-integration-with-qa`
 
 This commitment involves integration
 and closer coordination with the QA team.

@@ -21,7 +21,7 @@ This RFC will be split into different sub-protocols/different RFCs:
 
 - Dispersal 
 - Replication
-- Samping
+- Sampling
 
 **Alignment with VAC Narratives:**
 
@@ -44,7 +44,9 @@ This RFC will be split into different sub-protocols/different RFCs:
 
 #### Description
 
-Splitting the current (private) raw RFC into the several new ones and potentially adding more information based on the progress of Nomos team (if there are changes).
+Splitting the current (private) raw RFC into the several new ones and potentially adding more information based on the progress of Nomos team (if there are changes). 
+
+The reason for this split is that the DA protocol consists of 3 sub-protocols in Nomos, which is why the specification exists for all of the 3 sub-protocols:  Dispersal, Replication and Sampling. The RFC team will inherit the same level of organization while updating with newest information (if and where applicable).
 
 #### Deliverables
 
@@ -65,5 +67,7 @@ Creating 3 new raw RFCs based on the plan as well as getting the feedback from t
 
 #### Deliverables
 
-- 3 new RFCs
+- Dispersal RFC
+- Replication RFC
+- Sampling RFC
 - Plan for new RFCs (if needed)

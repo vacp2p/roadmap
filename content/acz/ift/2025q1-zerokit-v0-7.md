@@ -43,21 +43,20 @@ for users looking to integrate RLN into their projects.
 
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:poseidon-hash`
 * owner: Aleksei
-* status: started (20%) 
+* status: started (60%) 
 * start-date: 2025/01/01
 * end-date: 2025/01/27
 
 #### Description
 
-[Generate Poseidon round parameters and constants #50](https://github.com/vacp2p/zerokit/issues/50)
-Only round parameters (easy) and 
-secure MDS matrices verification algorithms (hard) missing.
-Ensure that known answer tests match with the result of another implementation.
-Lastly solving the issue: [Docs fail to build on docs.rs](https://github.com/vacp2p/zerokit/issues/256) 
+Releasing a Rust crate that checks the security of arbitrary MDS matrix with a new method 
+based on the [report](https://notes.status.im/CVMoa6EcTmS2D4VPBCsH2w#). 
+This crate will be open source and can be used by any project that requires generating in-code round parameters 
+with an MDS matrix and checking the matrix security efficiently.
 
 #### Deliverables
 
-* PR to vacp2p/zerokit repo with related update for v0.7
+* PR to [rust-lang/crates.io](https://github.com/rust-lang/crates.io) repo with related crate 
 * [A Report](https://notes.status.im/CVMoa6EcTmS2D4VPBCsH2w#) about the MDS security checker
 
 ### Blogpost MDS
@@ -70,8 +69,11 @@ Lastly solving the issue: [Docs fail to build on docs.rs](https://github.com/vac
 
 #### Description
 
-Writing a blog post about existing and alternative methods 
-that check MDS security based on [the report](https://notes.status.im/CVMoa6EcTmS2D4VPBCsH2w#)
+Writing a blog post that explains the security of MDS matrices 
+and reviews existing methods for assessing their security. 
+The post also introduces a new, efficient method for evaluating MDS matrix security 
+and provides details about a Rust crate that automates these security checks 
+based on the findings presented in the article.
 
 #### Deliverables
 

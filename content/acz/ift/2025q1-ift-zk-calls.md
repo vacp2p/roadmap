@@ -52,13 +52,13 @@ Preparing the agenda and possible speakers for the ZK call on 7th January.
 #### Deliverables
 
 A document of a summary of the ZK call 1 meeting to [ZK Notion page](https://www.notion.so/ZK-Call-1198f96fb65c80c7baaac966b3e57ea2). 
-A recorded video. 
+A recorded [video](https://www.youtube.com/watch?v=_VOkyVOSsqA). 
 
 ### IFT ZK Call 2
 
 * fully qualified name: `vac:acz:ift:2025q1-ift-zk-calls:ift-zk-call-2`
 * owner: Marvin
-* status: not started
+* status: started (0%)
 * start-date: 2025/01/27
 * end-date: 2025/02/07
 

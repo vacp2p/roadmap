@@ -228,3 +228,27 @@ start Y (100) new nodes, and measure discovery time.
 #### Deliverables
 - Reports:
 - Related PRs if apply:
+
+### Discv5 initial activity
+
+* fully qualified name: `vac:dst:waku:2025q1-waku-evaluation:discv5-initial-activity`
+* owner: Wings
+* status: 0%
+* start-date: 2025-02-10
+* end-date: 2025-02-21
+
+#### Description
+
+Ensure data before stable mesh do not skew results.
+Also, analyze Discv5 usage in this scenario.
+Create a simulation without traffic,
+where nodes are leaving and joining the network,
+once the mesh is healthy. 
+Compare these results from initial state and healthy state.
+Try this with different network sizes.
+Help to identify scenarios that are most realistic.
+
+
+#### Deliverables
+- Reports:
+- Related PRs if apply:

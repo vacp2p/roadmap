@@ -106,3 +106,28 @@ Report findings.
   - [Notion report](https://www.notion.so/Stuck-Issue-Finished-2fb05e6b5cfb4c3c820865e5bf2eef11)
 - Related PRs if apply:
   - [Github Issue](https://github.com/waku-org/nwaku/issues/2921)
+
+### Discovery speed time
+
+* fully qualified name: `vac:dst:waku:2025q1-waku-evaluation:discovery-speed-time`
+* owner: Alberto
+* status: 0%
+* start-date: 2025-02-03
+* end-date: 2025-02-14
+
+#### Description
+
+It is being noticed that some peers
+can take up to 10 minutes to find peers
+to establish full-mesh connections.
+Dissection if this happens on the same shard,
+what are the causes if any,
+and what could be the improvements, if any.
+Report findings.
+
+#### Deliverables
+- Reports:
+- Related PRs if apply:
+
+
+

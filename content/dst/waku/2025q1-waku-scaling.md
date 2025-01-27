@@ -114,6 +114,11 @@ are served (wire-to-wire) under 400 ms,
 as long as the database
 is less than 250 GB size
 and average message size under 500KiB.
+This refers to message-hash-queries 
+that have `include-data=true`.
+
+Wire-to-wire includes the whole storage time, as in
+database-time + transport-time + node-time.
 
 Store message time range queries
 of less than 24 hours,
@@ -122,6 +127,9 @@ are served under 400 ms,
 as long as the database
 is less than 250 GB size
 and average message size under 500KiB.
+
+To validate this, it will be used
+against a status-prod-like database.
 
 #### Deliverables
 - Analysis report

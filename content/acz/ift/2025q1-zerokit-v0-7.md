@@ -77,7 +77,7 @@ based on the findings presented in the article.
 
 #### Deliverables
 
-A blogpost to [vac-dev](https://vac.dev/rlog/)
+A blogpost to [vac.dev/rlog/](https://vac.dev/rlog/)
 
 ### RLN wasm
 

@@ -39,7 +39,7 @@ and introduced into the ecosystem.
 ## Zk Consulting Nomos 1
 * fully qualified name: `vac:acz:nomos:2025q1-nomos-consulting:zk-consulting-nomos-1`
 * owner: Marvin
-* status: in progress (100%)
+* status: done
 * start-date: 2024/12/20
 * end-date: 2025/1/05
 
@@ -57,7 +57,7 @@ This entails checking the probabilistic arguments and presentation to make sure 
 ## Zk Consulting Nomos 2
 * fully qualified name: `vac:acz:nomos:2025q1-nomos-consulting:zk-consulting-nomos-2`
 * owner: Marvin
-* status: in progress (80%)
+* status: done
 * start-date: 2025/1/06
 * end-date: 2025/1/24
 

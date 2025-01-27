@@ -71,13 +71,13 @@ as delivery service based on [this PR](https://github.com/vacp2p/de-mls/pull/29)
 
 #### Deliverables
 
-A blogpost to [vac-dev](https://vac.dev/rlog/)
+A blogpost to [vac.dev/rlog/](https://vac.dev/rlog/)
  
 ### Update de-MLS RFC with multi admins 
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:multi-admin-rfc`
 * owner: Ugur
-* status: started (0%)
+* status: started (20%)
 * start-date: 2025/01/13
 * end-date: 2025/01/27
 

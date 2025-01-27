@@ -71,7 +71,7 @@ hiring process started.
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:poc-over-waku`
 * owner: Akshaya
-* status: started (10%)
+* status: started (20%)
 * start-date: 2025/01/06
 * end-date: 2025/02/03
 

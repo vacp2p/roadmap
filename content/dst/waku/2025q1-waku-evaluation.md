@@ -86,8 +86,8 @@ and ensure they don't happen again.
 ### Block issue: I/O load
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-evaluation:block-io-load`
-* owner: Wings
-* status: 0%
+* owner: Alberto
+* status: 100%
 * start-date: 2025-01-20
 * end-date: 2025-01-31
 
@@ -102,5 +102,7 @@ and the nodes that are blocked.
 Report findings.
 
 #### Deliverables
-- [ ] Reports:
-- [ ] Related PRs if apply:
+- Reports:
+  - [Notion report](https://www.notion.so/Stuck-Issue-Finished-2fb05e6b5cfb4c3c820865e5bf2eef11)
+- Related PRs if apply:
+  - [Github Issue](https://github.com/waku-org/nwaku/issues/2921)

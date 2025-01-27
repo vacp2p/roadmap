@@ -37,7 +37,7 @@ We will support the Conduit of Expertise by doing tasks
 that optimize resource usage withing the IFT ecosystem.
 Also, the insights found can be shared across projects, 
 reinforcing cross project collaboration.
-We ara also in alignment  with the Premier Research Destination
+We are also in alignment with the Premier Research Destination
 by sharing these insights externally. 
 This can help VAC build trust and transparency.
 

@@ -94,5 +94,6 @@ Should be made general when possible.
 #### Deliverables
 - [ ] PRs:
   - Message distribution plot improvement: [PR](https://github.com/vacp2p/10ksim/pull/47)
+  - Violin plot: [PR](https://github.com/vacp2p/10ksim/pull/51)
 
 ### Local metrics

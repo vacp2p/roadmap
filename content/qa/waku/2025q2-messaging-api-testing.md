@@ -15,7 +15,7 @@ Test and validate the reliability of the Messaging API
 for nwaku and js-waku in accordance to Waku FURPS. 
 Ensure the API performs consistently and meets the expected functional and reliability requirements, 
 aligning with behaviors used by applications like the Status app and Waku Tester tool.
-Note! Waku confirmed that this will be somewhere in Q2 or even Q3 2025
+Note! Waku confirmed that this will be ready to test somewhere in Q2 or even Q3 2025
 
 **Alignment with VAC Narratives:**
 - By testing the Messaging API, 

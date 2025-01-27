@@ -37,7 +37,7 @@ and introduced into the ecosystem.
 ## Task List
 
 ## Zk Consulting Nomos 1
-* fully qualified name: `vac:acz:ift:2024q1-think-tank:zk-consulting-nomos-1`
+* fully qualified name: `vac:acz:nomos:2025q1-nomos-consulting:zk-consulting-nomos-1`
 * owner: Marvin
 * status: in progress (100%)
 * start-date: 2024/12/20
@@ -55,7 +55,7 @@ This entails checking the probabilistic arguments and presentation to make sure 
 
 
 ## Zk Consulting Nomos 2
-* fully qualified name: `vac:acz:ift:2024q1-think-tank:zk-consulting-nomos-2`
+* fully qualified name: `vac:acz:nomos:2025q1-nomos-consulting:zk-consulting-nomos-2`
 * owner: Marvin
 * status: in progress (80%)
 * start-date: 2025/1/06
@@ -73,7 +73,7 @@ to make sure that the document can be followed by a general user.
 - Add proofs to these documents as needed.
 
 ## Zk Consulting Nomos 3
-* fully qualified name: `vac:acz:ift:2024q1-think-tank:zk-consulting-nomos-3`
+* fully qualified name: `vac:acz:nomos:2025q1-nomos-consulting:zk-consulting-nomos-3`
 * owner: Marvin
 * status: not started (0%)
 * start-date: 2025/1/27
@@ -91,7 +91,7 @@ to make sure that the document can be followed by a general user.
 - Add proofs to these documents as needed.
 
 ## Zk Consulting Nomos 4
-* fully qualified name: `vac:acz:ift:2024q1-think-tank:zk-consulting-nomos-4`
+* fully qualified name: `vac:acz:nomos:2025q1-nomos-consulting:zk-consulting-nomos-4`
 * owner: Marvin
 * status: not started (0%)
 * start-date: 2025/2/03

@@ -206,7 +206,7 @@ Blocked by a nwaku issue. Another task will be created to keep requested work.
 
 ### PX vs speed of connections
 
-* fully qualified name: `vac:dst:waku:2025q1-waku-evaluation:px-speed-connections`
+* fully qualified name: `vac:dst:waku:2025q1-waku-scaling:px-speed-connections`
 * owner: Wings
 * status: 0%
 * start-date: 2025-02-03
@@ -231,7 +231,7 @@ start Y (100) new nodes, and measure discovery time.
 
 ### Discv5 initial activity
 
-* fully qualified name: `vac:dst:waku:2025q1-waku-evaluation:discv5-initial-activity`
+* fully qualified name: `vac:dst:waku:2025q1-waku-scaling:discv5-initial-activity`
 * owner: Wings
 * status: 0%
 * start-date: 2025-02-10

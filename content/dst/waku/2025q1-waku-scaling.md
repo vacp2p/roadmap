@@ -176,7 +176,7 @@ or when a fresh node is joined to the network.
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-scaling:waku-shard-scaling`
 * owner: Alberto
-* status: 60%
+* status: 100%
 * start-date: 2025/01/06
 * end-date: 2025/01/24
 
@@ -185,8 +185,13 @@ or when a fresh node is joined to the network.
 Address feedback from `vac:dst:waku:2024q4-waku-scaling:waku-shard-reliability-vs-scale`.
 Increase the number of shards up to the highest possible value.
 
+
+#### Additional info
+Blocked by a nwaku issue. Another task will be created to keep requested work.
+
 #### Deliverables
 - [ ] Reports:
   - Issue found: [Issue](https://github.com/waku-org/nwaku/issues/3245)
 - [ ] Related PRs if apply:
   - Time to get healthy plot PR: [PR](https://github.com/vacp2p/10ksim/pull/48)
+  - Blocking issue found: [Github Issue](https://github.com/waku-org/nwaku/issues/3250)

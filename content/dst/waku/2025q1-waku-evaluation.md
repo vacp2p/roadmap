@@ -129,5 +129,24 @@ Report findings.
 - Reports:
 - Related PRs if apply:
 
+### Message latency
 
+* fully qualified name: `vac:dst:waku:2025q1-waku-evaluation:message-latency`
+* owner: Alberto
+* status: 0%
+* start-date: 2025-02-03
+* end-date: 2025-02-14
 
+#### Description
+
+Investigate situations where a message
+takes up to 2 seconds to arrive to all nodes.
+Analyze if this is dependant on number of nodes,
+if the messages that take longer have a correlation
+with being the latest injected, and so on.
+Determine what can be the causes,
+and report findings.
+
+#### Deliverables
+- Reports:
+- Related PRs if apply:

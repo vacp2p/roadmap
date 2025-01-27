@@ -203,3 +203,28 @@ Blocked by a nwaku issue. Another task will be created to keep requested work.
 - [ ] Related PRs if apply:
   - Time to get healthy plot PR: [PR](https://github.com/vacp2p/10ksim/pull/48)
   - Blocking issue found: [Github Issue](https://github.com/waku-org/nwaku/issues/3250)
+
+### PX vs speed of connections
+
+* fully qualified name: `vac:dst:waku:2025q1-waku-evaluation:px-speed-connections`
+* owner: Wings
+* status: 0%
+* start-date: 2025-02-03
+* end-date: 2025-02-14
+
+#### Description
+
+Study the effect of Peer Exchange
+in a context where a high number of nodes
+are not reachable anymore.
+
+Run a simulation with a high X (1000) number of nodes,
+wait until full discv5 is done,
+stop half of those nodes,
+wait for N minutes (N=0,1,5,10),
+start Y (100) new nodes, and measure discovery time. 
+
+
+#### Deliverables
+- Reports:
+- Related PRs if apply:

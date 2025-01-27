@@ -78,6 +78,7 @@ and ensure they don't happen again.
 
 #### Deliverables
 * Analysis done
+  * [Simulation length vs message delay](https://www.notion.so/Simulation-length-vs-message-delay-1858f96fb65c80f58b81dec6841764c6)
 * Report published with all relevant details
 * Vac Roadmap updated regularly
   with links to the analysis and results.

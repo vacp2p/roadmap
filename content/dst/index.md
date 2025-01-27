@@ -24,10 +24,8 @@ tags:
 * [ ] [[dst/nomos/2025q1-nomos-scaling|nomos-scaling]]
 * [ ] [[dst/nomos/2025q1-nomos-tooling|nomos-tooling]]
 
-<!--
 ### `status`
 * [ ] [[dst/vac/2025qx-status-evaluation|status-evaluation]]
--->
 
 ### `vac`
 * [ ] [[dst/vac/2025q1-libp2p-evaluation|libp2p-evaluation]]

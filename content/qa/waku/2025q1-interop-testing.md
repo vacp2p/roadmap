@@ -36,3 +36,5 @@ investigating and resolving issues, and implementing minor improvements to the t
 
 #### Deliverables
 * [SQL logic error table Message has no column named storedAt](https://github.com/waku-org/nwaku/issues/3243)
+* [bug: wakuorg/nwaku:latest node fails to start for RLN tests](https://github.com/waku-org/nwaku/issues/3247)
+* [chore: add reconciliation metrics](https://github.com/waku-org/waku-interop-tests/pull/100)

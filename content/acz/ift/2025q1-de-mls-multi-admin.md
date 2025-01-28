@@ -7,7 +7,8 @@ tags:
 draft: false
 description: "involves finalizing the de-MLS RFC with multi-admin support, 
 implementing by extending the single admin approach with on-chain admin consensus, 
-and exploring further topics for the EF grant"
+and also submitting to the EF grant program with a messaging application project 
+that introduces decentralization, censorship resistance, and DAO coordination, or DeFi alerts"
 
 ---
 
@@ -15,7 +16,8 @@ and exploring further topics for the EF grant"
 
 involves finalizing the de-MLS RFC with multi-admin support, 
 implementing by extending the single admin approach with on-chain admin consensus, 
-and exploring further topics for the EF grant
+and also submitting to the EF grant program with a messaging application project 
+that introduces decentralization, censorship resistance, and DAO coordination, or DeFi alerts
 ## Description
 
 This commitment involves completing the de-MLS RFC by incorporating 

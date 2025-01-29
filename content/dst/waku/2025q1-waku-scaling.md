@@ -114,6 +114,11 @@ are served (wire-to-wire) under 400 ms,
 as long as the database
 is less than 250 GB size
 and average message size under 500KiB.
+This refers to message-hash-queries 
+that have `include-data=true`.
+
+Wire-to-wire includes the whole storage time, as in
+database-time + transport-time + node-time.
 
 Store message time range queries
 of less than 24 hours,
@@ -122,6 +127,9 @@ are served under 400 ms,
 as long as the database
 is less than 250 GB size
 and average message size under 500KiB.
+
+To validate this, it will be used
+against a status-prod-like database.
 
 #### Deliverables
 - Analysis report
@@ -176,7 +184,7 @@ or when a fresh node is joined to the network.
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-scaling:waku-shard-scaling`
 * owner: Alberto
-* status: 60%
+* status: 100%
 * start-date: 2025/01/06
 * end-date: 2025/01/24
 
@@ -185,8 +193,62 @@ or when a fresh node is joined to the network.
 Address feedback from `vac:dst:waku:2024q4-waku-scaling:waku-shard-reliability-vs-scale`.
 Increase the number of shards up to the highest possible value.
 
+
+#### Additional info
+Blocked by a nwaku issue. Another task will be created to keep requested work.
+
 #### Deliverables
 - [ ] Reports:
   - Issue found: [Issue](https://github.com/waku-org/nwaku/issues/3245)
 - [ ] Related PRs if apply:
   - Time to get healthy plot PR: [PR](https://github.com/vacp2p/10ksim/pull/48)
+  - Blocking issue found: [Github Issue](https://github.com/waku-org/nwaku/issues/3250)
+
+### PX vs speed of connections
+
+* fully qualified name: `vac:dst:waku:2025q1-waku-scaling:px-speed-connections`
+* owner: Wings
+* status: 0%
+* start-date: 2025-02-03
+* end-date: 2025-02-14
+
+#### Description
+
+Study the effect of Peer Exchange
+in a context where a high number of nodes
+are not reachable anymore.
+
+Run a simulation with a high X (1000) number of nodes,
+wait until full discv5 is done,
+stop half of those nodes,
+wait for N minutes (N=0,1,5,10),
+start Y (100) new nodes, and measure discovery time. 
+
+
+#### Deliverables
+- Reports:
+- Related PRs if apply:
+
+### Discv5 initial activity
+
+* fully qualified name: `vac:dst:waku:2025q1-waku-scaling:discv5-initial-activity`
+* owner: Wings
+* status: 0%
+* start-date: 2025-02-10
+* end-date: 2025-02-21
+
+#### Description
+
+Ensure data before stable mesh do not skew results.
+Also, analyze Discv5 usage in this scenario.
+Create a simulation without traffic,
+where nodes are leaving and joining the network,
+once the mesh is healthy. 
+Compare these results from initial state and healthy state.
+Try this with different network sizes.
+Help to identify scenarios that are most realistic.
+
+
+#### Deliverables
+- Reports:
+- Related PRs if apply:

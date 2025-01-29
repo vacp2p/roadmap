@@ -73,6 +73,7 @@ and ensure they don't happen again.
 
 #### Deliverables
 * Analysis done
+  * [January report](https://www.notion.so/Nim-libp2p-v1-8-0-regression-testing-January-2025-1828f96fb65c80198a8ae1bc0e17dbb0)
 * Report published with all relevant details
 * RFC's GitHub issue updated
   with links to the analysis and results.

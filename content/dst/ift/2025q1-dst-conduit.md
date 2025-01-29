@@ -37,12 +37,26 @@ We will support the Conduit of Expertise by doing tasks
 that optimize resource usage withing the IFT ecosystem.
 Also, the insights found can be shared across projects, 
 reinforcing cross project collaboration.
-We ara also in alignment  with the Premier Research Destination
+We are also in alignment with the Premier Research Destination
 by sharing these insights externally. 
 This can help VAC build trust and transparency.
 
 ### Additional info
 
 ## Task List
-<!--  TODO
--->
+
+### IFT Research Call
+
+* fully qualified name: `vac:dst:ift:2025q1-dst-conduit:ift-research-call`
+* owner: Alberto
+* status: 0%
+* start-date: 2025/01/20
+* end-date: 2025/01/29
+
+#### Description
+
+Present DST work and results in the IFT Research call.
+
+#### Deliverables
+* Presentation:
+* Slides:

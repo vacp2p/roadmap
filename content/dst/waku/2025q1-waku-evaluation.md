@@ -78,6 +78,7 @@ and ensure they don't happen again.
 
 #### Deliverables
 * Analysis done
+  * [Simulation length vs message delay](https://www.notion.so/Simulation-length-vs-message-delay-1858f96fb65c80f58b81dec6841764c6)
 * Report published with all relevant details
 * Vac Roadmap updated regularly
   with links to the analysis and results.
@@ -85,8 +86,8 @@ and ensure they don't happen again.
 ### Block issue: I/O load
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-evaluation:block-io-load`
-* owner: Wings
-* status: 0%
+* owner: Alberto
+* status: 100%
 * start-date: 2025-01-20
 * end-date: 2025-01-31
 
@@ -101,5 +102,51 @@ and the nodes that are blocked.
 Report findings.
 
 #### Deliverables
-- [ ] Reports:
-- [ ] Related PRs if apply:
+- Reports:
+  - [Notion report](https://www.notion.so/Stuck-Issue-Finished-2fb05e6b5cfb4c3c820865e5bf2eef11)
+- Related PRs if apply:
+  - [Github Issue](https://github.com/waku-org/nwaku/issues/2921)
+
+### Discovery speed time
+
+* fully qualified name: `vac:dst:waku:2025q1-waku-evaluation:discovery-speed-time`
+* owner: Alberto
+* status: 0%
+* start-date: 2025-02-03
+* end-date: 2025-02-14
+
+#### Description
+
+It is being noticed that some peers
+can take up to 10 minutes to find peers
+to establish full-mesh connections.
+Dissection if this happens on the same shard,
+what are the causes if any,
+and what could be the improvements, if any.
+Report findings.
+
+#### Deliverables
+- Reports:
+- Related PRs if apply:
+
+### Message latency
+
+* fully qualified name: `vac:dst:waku:2025q1-waku-evaluation:message-latency`
+* owner: Alberto
+* status: 0%
+* start-date: 2025-02-03
+* end-date: 2025-02-14
+
+#### Description
+
+Investigate situations where a message
+takes up to 2 seconds to arrive to all nodes.
+Analyze if this is dependant on number of nodes,
+if the messages that take longer have a correlation
+with being the latest injected, and so on.
+Determine what can be the causes,
+and report findings.
+
+#### Deliverables
+- Reports:
+- Related PRs if apply:

@@ -53,7 +53,7 @@ It should also be adaptable to future testing needs.
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:relay`
 * owner: aya
-* status: not started
+* status: in progress (25%)
 * start-date: 2025/01/20
 * end-date: 2025/02/25
 

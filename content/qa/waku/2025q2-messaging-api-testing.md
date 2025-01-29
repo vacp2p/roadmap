@@ -1,21 +1,21 @@
 ---
 title: Messaging API Testing
 tags:
-  - "2025q1"
+  - "2025q2"
   - "qa"
   - "waku"  
 draft: false  
 description: Test and validate the reliability of the Messaging API for nwaku and js-waku.
 ---
 
-`vac:qa:waku:2025q1-messaging-api-testing`
+`vac:qa:waku:2025q2-messaging-api-testing`
 
 ## Description
 Test and validate the reliability of the Messaging API 
 for nwaku and js-waku in accordance to Waku FURPS. 
 Ensure the API performs consistently and meets the expected functional and reliability requirements, 
 aligning with behaviors used by applications like the Status app and Waku Tester tool.
-Note! Dates are not set because Waku needs to notify us when the task is ready for QA.
+Note! Waku confirmed that this will be ready to test somewhere in Q2 or even Q3 2025
 
 **Alignment with VAC Narratives:**
 - By testing the Messaging API, 
@@ -28,7 +28,7 @@ Note! Dates are not set because Waku needs to notify us when the task is ready f
 
 ### Integrate Functional Testing into Interop Framework
 
-* fully qualified name: `vac:qa:waku:2025q1-messaging-api-testing:functional-interop`
+* fully qualified name: `vac:qa:waku:2025q2-messaging-api-testing:functional-interop`
 * owner: fbarbu15
 * status: not started
 * start-date: 
@@ -44,7 +44,7 @@ Implement functional tests for the new Messaging API within the interop testing 
 
 ### Reliability Testing for nwaku
 
-* fully qualified name: `vac:qa:waku:2025q1-messaging-api-testing:functional-nwaku`
+* fully qualified name: `vac:qa:waku:2025q2-messaging-api-testing:functional-nwaku`
 * owner: fbarbu15
 * status: not started
 * start-date: 
@@ -60,7 +60,7 @@ Validate message reliability under various conditions, including network instabi
 
 ### Reliability Testing for js-waku
 
-* fully qualified name: `vac:qa:waku:2025q1-messaging-api-testing:functional-js-waku`
+* fully qualified name: `vac:qa:waku:2025q2-messaging-api-testing:functional-js-waku`
 * owner: fbarbu15
 * status: not started
 * start-date: 
@@ -76,7 +76,7 @@ Validate message reliability under various conditions, including network instabi
 
 ### Long-Run Testing
 
-* fully qualified name: `vac:qa:waku:2025q1-messaging-api-testing:long-run`
+* fully qualified name: `vac:qa:waku:2025q2-messaging-api-testing:long-run`
 * owner: fbarbu15
 * status: not started
 * start-date: 

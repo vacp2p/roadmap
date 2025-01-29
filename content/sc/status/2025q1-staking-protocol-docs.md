@@ -23,13 +23,13 @@ As we didn't  finish all the documentation in the previous quarter, we're commit
 
 ### Fixing bugs
 * fully qualified name: `2025q1-staking-protocol-docs:finish-v1-docs`
-* owner: 
-* status: not started
-* start-date: 2024/01/01
-* end-date: 2024/03/31
+* owner: r4bbit 
+* status: done
+* start-date: 2025/01/01
+* end-date: 2025/03/31
 
 #### Description
 
 Finish up the first version of the documentation for the staking protocol.
 
-- [] Markdown files for all the docs
+- [x] [Markdown files for all the docs](https://github.com/vacp2p/staking-reward-streamer/tree/main/docs)

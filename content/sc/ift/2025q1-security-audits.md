@@ -24,17 +24,18 @@ Urgent work related to IFT projects take precedence over this.
 
 ## Task List
 
-### Security Contest Participation 2025 Q1
+### CodeHawks Security Contest - RAAC Protocol
 
-* fully qualified name: `ift:2025q1-security-audits:contest-participation`
-* owner: 
+* fully qualified name: `ift:2025q1-security-audits:codehawks-raac`
+* owner: r4bbit
 * status: not started
-* start-date: 2024/01/01
-* end-date: 2024/03/31
+* start-date: 2025/02/03
+* end-date: 2025/02/14
 
 #### Description
 
-Participate in at least one security audit contest in Q1 2025 if the current workload allows for it.
+Participate in the CodeHawks security contest for the RAAC protocol.
+Content information can be found [here](https://codehawks.cyfrin.io/c/2025-02-raac).
 
 #### Deliverables
 

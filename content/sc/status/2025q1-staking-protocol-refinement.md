@@ -30,9 +30,9 @@ This includes
 ### Fixing bugs
 * fully qualified name: `2025q1-staking-protocol-refinement:fixing-bugs`
 * owner: 
-* status: not started
-* start-date: 2024/01/01
-* end-date: 2024/03/31
+* status: in progress
+* start-date: 2025/01/01
+* end-date: 2025/03/31
 
 #### Description
 
@@ -47,9 +47,9 @@ This task is about tracking and addressing issues that come up.
 ### Refactoring
 * fully qualified name: `2025q1-staking-protocol-refinement:refactoring`
 * owner: 
-* status: not started
-* start-date: 2024/01/01
-* end-date: 2024/03/31
+* status: in progress
+* start-date: 2025/01/01
+* end-date: 2025/03/31
 
 #### Description
 
@@ -66,10 +66,10 @@ This task is about tracking and addressing these.
 ### Adding funds to existing vaults
 
 * fully qualified name: `2025q1-staking-protocol-refinement:adding-funds-to-existing-vaults`
-* owner: 
-* status: not started
-* start-date: 2024/01/01
-* end-date: 2024/01/21
+* owner: gravityblast
+* status: in progress (80%)
+* start-date: 2025/01/01
+* end-date: 2025/01/21
 
 #### Description
 
@@ -94,8 +94,8 @@ implementation should follow.
 * fully qualified name: `2025q1-staking-protocol-refinement:locking-funds-multiple-times`
 * owner: 
 * status: not started
-* start-date: 2024/01/01
-* end-date: 2024/01/21
+* start-date: 2025/01/01
+* end-date: 2025/01/21
 
 #### Description
 
@@ -130,10 +130,10 @@ This is something that needs to be researched and implemented.
 ### Optimize gas costs for vault creation
 
 * fully qualified name: `2025q1-staking-protocol-refinement:stakes-vaults-proxy-clones`
-* owner: 
-* status: not started
-* start-date: 2024/01/01
-* end-date: 2024/01/21
+* owner: r4bbit
+* status: in progress (50%)
+* start-date: 2025/01/01
+* end-date: 2025/01/21
 
 #### Description
 
@@ -157,7 +157,7 @@ implement it.
 ### Deployment on Status Network testnet
 
 * fully qualified name: `2025q1-staking-protocol-refinement:status-network-testnet-deployment`
-* owner: 
+* owner: r4bbit
 * status: not started
 * start-date: 2025/01/01
 * end-date: 2025/03/31

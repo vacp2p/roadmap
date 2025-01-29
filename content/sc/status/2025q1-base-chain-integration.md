@@ -23,10 +23,10 @@ we need to deploy the Status app smart contracts on Base chain and ensure that t
 ### Research and implement SNT bridge token 
 
 * fully qualified name: `2025q1-base-chain-integration:snt-bridge-token`
-* owner: 
-* status: not started
-* start-date: 2024/01/01
-* end-date: 2024/02/01
+* owner: r4bbit
+* status: done
+* start-date: 2025/01/01
+* end-date: 2025/02/01
 
 #### Description
 
@@ -40,16 +40,16 @@ That decision will affect out implementation.
 
 #### Deliverables
 
-- [] SNT contract for Base chain and deployment address
-- [] Tests proving its functionality
+- [x] [SNT contract for Base chain and deployment address](https://basescan.org/address/0x662015EC830DF08C0FC45896FaB726542e8AC09E#code)
+- [x] ~~Tests proving its functionality~~ (not needed, as this is Base's canonical implementation)
 
 ### Deployment of Status community contracts
 
 * fully qualified name: `2025q1-base-chain-integration:communities-contracts-deployment`
-* owner: 
-* status: not started
-* start-date: 2024/01/01
-* end-date: 2024/02/01
+* owner: r4bbit
+* status: done
+* start-date: 2025/01/01
+* end-date: 2025/02/01
 
 #### Description
 
@@ -59,4 +59,4 @@ This task is about deploying them on Base chain too.
 
 #### Deliverables
 
-- [] Deployment addresses of communities contracts
+- [x] [Deployment addresses of communities contracts](https://www.notion.so/Contract-Deployment-Addresses-d6dd98b1b4f6461d82eec6ab18b852c8?pvs=4#d14be5b1e9da45a59b8f9578eb80d756)

@@ -22,10 +22,10 @@ We're committing to getting these contract deployed there as soon as the testnet
 ### Deployment of Status community contracts
 
 * fully qualified name: `2025q1-status-testnet-communities-contracts:deployment`
-* owner: 
+* owner: r4bbit
 * status: not started
-* start-date: 2024/01/01
-* end-date: 2024/02/01
+* start-date: 2025/01/01
+* end-date: 2025/02/01
 
 #### Description
 

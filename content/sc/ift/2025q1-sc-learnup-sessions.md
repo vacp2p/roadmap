@@ -28,7 +28,7 @@ improving cross-project collaboration.
 
 * fully qualified name: `2025q1-sc-learnup-sessions:2025q1`
 * owner: r4bbit
-* status: not started
+* status: in progress (33%)
 * start-date: 2025/01/01
 * end-date: 2025/03/31
 
@@ -38,27 +38,31 @@ Organize learn up session on a monthly basis and ensure meetings are recorded an
 
 #### Deliverables
 
-- [ ] Recording of the session
+- [ ] Recording of the sessions
 
 ### SC LearnUp Session 2025/01
 
 * fully qualified name: `2025q1-sc-learnup-sessions:2025-01`
 * owner: r4bbit
-* status: not started
-* start-date: 2024/01/01
-* end-date: 2024/01/31
+* status: done
+* start-date: 2025/01/01
+* end-date: 2025/01/31
 
 #### Description
 
 Run a learn up session about topic of choice related to smart contract development to present and discuss with the team.
+
+#### Deliverables
+
+- [x] [Recording: Lido staking and unstaking](https://www.notion.so/Lido-Staking-and-Unstaking-17a8f96fb65c805f8ad8e1f27d441240)
 
 ### SC LearnUp Session 2025/02
 
 * fully qualified name: `2025q1-sc-learnup-sessions:2025-02`
 * owner: r4bbit
 * status: not started
-* start-date: 2024/02/01
-* end-date: 2024/02/28
+* start-date: 2025/02/01
+* end-date: 2025/02/28
 
 #### Description
 
@@ -69,8 +73,8 @@ Run a learn up session about topic of choice related to smart contract developme
 * fully qualified name: `2025q1-sc-learnup-sessions:2025-03`
 * owner: r4bbit
 * status: not started
-* start-date: 2024/03/01
-* end-date: 2024/03/31
+* start-date: 2025/03/01
+* end-date: 2025/03/31
 
 #### Description
 

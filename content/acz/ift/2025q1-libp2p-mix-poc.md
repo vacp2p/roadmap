@@ -6,14 +6,16 @@ tags:
   - "ift"
 draft: false
 description: "Achieving mixnet's PoC on Waku network, updating the RFC for libp2p compatibility, 
-sharing results, and exploring further research for EF grants."
+sharing results, and also submitting to the EF grant program with a privacy project 
+that introduces sender anonymity to Ethereum nodes for censorship resistanceness"
 
 ---
 
 `vac:acz:ift:2025q1-libp2p-mix-poc`
 
 Achieving mixnet's PoC on Waku network, updating the RFC for libp2p compatibility, 
-sharing results, and exploring further research for EF grants.
+sharing results, and also submitting to the EF grant program with a privacy project 
+that introduces sender anonymity to Ethereum nodes for censorship resistanceness.
 ## Description
 
 This commitment entails achieving proof of concept (PoC) 
@@ -71,7 +73,7 @@ hiring process started.
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:poc-over-waku`
 * owner: Akshaya
-* status: started (10%)
+* status: started (20%)
 * start-date: 2025/01/06
 * end-date: 2025/02/03
 

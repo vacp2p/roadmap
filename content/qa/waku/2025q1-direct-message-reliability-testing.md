@@ -50,7 +50,7 @@ including 1:1 chats and private groups.
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:degraded-network`
 * owner: fbarbu15
-* status: in progress (50%)
+* status: in progress (80%)
 * start-date: 2025/01/25
 * end-date: 2025/02/15
 

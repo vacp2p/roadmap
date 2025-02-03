@@ -53,7 +53,7 @@ It should also be adaptable to future testing needs.
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:relay`
 * owner: aya
-* status: in progress (25%)
+* status: in progress (60%)
 * start-date: 2025/01/20
 * end-date: 2025/02/25
 
@@ -66,3 +66,21 @@ and ensure reliable message propagation across multiple nodes.
 * PR with relay protocol tests
 * CI integration for relay tests
 * Documentation for relay test scenarios
+
+### Store Protocol Testing
+
+* fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:store`
+* owner: aya
+* status: not started
+* start-date: 2025/02/10
+* end-date: 2025/03/10
+
+#### Description
+Add test coverage by implementing tests for the store protocol.
+These tests should mirror the approach used in `waku-interop-tests`
+and ensure reliable message storing across multiple nodes.
+
+#### Deliverables
+* PR with store protocol tests
+* CI integration for store tests
+* Documentation for store test scenarios

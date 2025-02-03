@@ -55,10 +55,12 @@ By the end of this quarter, we will:
 
 * fully qualified name: `vac:p2p:ift:2025q1-gossipsub-perf-improvements`
 * owner: farooq
-* status: 10%
+* status: 25%
 * start-date: 2025/01/13
-* end-date: 2025/01/31
+* end-date: 2025/03/31
 
 #### Description
 
 #### Deliverables
+- [ ] PRs:
+  - Large message handling combined: [PR](https://github.com/vacp2p/nim-libp2p/pull/1234)

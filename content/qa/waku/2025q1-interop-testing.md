@@ -35,6 +35,8 @@ This includes updating tests for changes in `nwaku` or `gowaku`, addressing regr
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
-* [SQL logic error table Message has no column named storedAt](https://github.com/waku-org/nwaku/issues/3243)
+* [bug: SQL logic error table Message has no column named storedAt](https://github.com/waku-org/nwaku/issues/3243)
 * [bug: wakuorg/nwaku:latest node fails to start for RLN tests](https://github.com/waku-org/nwaku/issues/3247)
+* [bug: nwaku<->gowaku interop tests started failing at filter subscription](https://github.com/waku-org/nwaku/issues/3263)
+* [chore: store fixes](https://github.com/waku-org/waku-interop-tests/pull/101)
 * [chore: add reconciliation metrics](https://github.com/waku-org/waku-interop-tests/pull/100)

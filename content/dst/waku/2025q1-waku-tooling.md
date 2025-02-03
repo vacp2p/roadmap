@@ -57,7 +57,7 @@ so this is easy to use in other projects.
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-tooling:bandwidth-monitor`
 * owner: Wings
-* status: 90%
+* status: 100%
 * start-date: 2025/01/06
 * end-date: 2025/01/24
 
@@ -75,8 +75,9 @@ either with ports, and possibly different filters.
 #### Deliverables
 - [ ] Repository:
 - [ ] PRs:
+  - Github PR: [PR](https://github.com/vacp2p/10ksim/pull/53)
 - [ ] Report with real example:
-  - [Writeup](https://www.notion.so/2047-1818f96fb65c80969c1cf4a1df070606)
+  - [Notion](https://www.notion.so/Raw-bandwidth-monitor-sidecar-18b8f96fb65c8062a2a8e176b0ac49be)
 
 ### General tooling (recurring)
 

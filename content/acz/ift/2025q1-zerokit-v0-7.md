@@ -38,46 +38,6 @@ We will also strengthen the Premier Research Destination narrative by:
 for users looking to integrate RLN into their projects. 
 
 ## Task List
- 
-### Poseidon Hash
-
-* fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:poseidon-hash`
-* owner: Aleksei
-* status: started (60%) 
-* start-date: 2025/01/01
-* end-date: 2025/01/27
-
-#### Description
-
-Releasing a Rust crate that checks the security of arbitrary MDS matrix with a new method 
-based on the [report](https://notes.status.im/CVMoa6EcTmS2D4VPBCsH2w#). 
-This crate will be open source and can be used by any project that requires generating in-code round parameters 
-with an MDS matrix and checking the matrix security efficiently.
-
-#### Deliverables
-
-* PR to [rust-lang/crates.io](https://github.com/rust-lang/crates.io) repo with related crate 
-* [A Report](https://notes.status.im/CVMoa6EcTmS2D4VPBCsH2w#) about the MDS security checker
-
-### Blogpost MDS
-
-* fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:blogpost-mds`
-* owner: Aleksei
-* status: not started
-* start-date: 2025/01/27
-* end-date: 2025/02/03
-
-#### Description
-
-Writing a blog post that explains the security of MDS matrices 
-and reviews existing methods for assessing their security. 
-The post also introduces a new, efficient method for evaluating MDS matrix security 
-and provides details about a Rust crate that automates these security checks 
-based on the findings presented in the article.
-
-#### Deliverables
-
-A blogpost to [vac.dev/rlog/](https://vac.dev/rlog/)
 
 ### RLN wasm
 

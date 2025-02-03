@@ -53,7 +53,7 @@ and especially those we want to work with externally.
 > *Note*: This needs confirmation from project that is ready to start
 
 * fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:regression-testing`
-* owner: Alberto
+* owner: Wings
 * status: 0%
 * start-date: 2025/01/01
 * end-date: 2025/03/31
@@ -70,4 +70,6 @@ and ensure they don't happen again.
 
 #### Deliverables
 * [ ] Reports:
+  * Notion report: [Report](https://www.notion.so/Status-Go-Test-18c8f96fb65c807c8ae4e4f20a60799c)
 * [ ] Related PRs if apply:
+  * Repository: [Github repo](https://github.com/vacp2p/status-go-test)

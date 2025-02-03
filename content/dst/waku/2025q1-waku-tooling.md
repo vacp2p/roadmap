@@ -81,6 +81,27 @@ either with ports, and possibly different filters.
 - [ ] Report with real example:
   - [Notion](https://www.notion.so/Raw-bandwidth-monitor-sidecar-18b8f96fb65c8062a2a8e176b0ac49be)
 
+### Bandwidth monitor improvements
+
+* fully qualified name: `vac:dst:waku:2025q1-waku-tooling:bandwidth-monitor-improvements`
+* owner: Wings
+* status: 0%
+* start-date: 2025/02/10
+* end-date: 2025/02/14
+
+#### Description
+Address feedback of bandwidth monitor tool.
+This includes usability, race condition considerations,
+prometheus optimizations and testing.
+Add unit testing for functions, and a small
+real test scenario to make sure it works properly.
+Document the test scenario.
+
+#### Deliverables
+- [ ] Repository:
+- [ ] PRs:
+- [ ] Report with real example:
+
 ### General tooling (recurring)
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-tooling:general-tooling`

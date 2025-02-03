@@ -49,7 +49,7 @@ This can help VAC build trust and transparency.
 
 * fully qualified name: `vac:dst:ift:2025q1-dst-conduit:ift-research-call`
 * owner: Alberto
-* status: 0%
+* status: 100%
 * start-date: 2025/01/20
 * end-date: 2025/01/29
 
@@ -59,4 +59,6 @@ Present DST work and results in the IFT Research call.
 
 #### Deliverables
 * Presentation:
+  * [Youtube recording](https://www.youtube.com/watch?v=h2MaXuqMTQM)
 * Slides:
+  * [Google docs slides](https://docs.google.com/presentation/d/17Poo1uNjecD0UM4kfM6u_s9z-jgOvKqgC-8eIk7PwfE/edit#slide=id.g157ea0519b8_0_104)

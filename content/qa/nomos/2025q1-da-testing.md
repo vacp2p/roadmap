@@ -46,7 +46,7 @@ to reconstruct or retrieve data.
 
 * fully qualified name: `vac:qa:nomos:2025q1-da-testing:networking-privacy`
 * owner: romanzac
-* status: not started
+* status: in progress (10%)
 * start-date: 2025/01/20 
 * end-date: 2025/02/21
 

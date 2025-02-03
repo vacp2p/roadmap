@@ -39,7 +39,7 @@ reinforcing cross project collaboration.
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-tooling:log-parser`
 * owner: Alberto
-* status: 20%
+* status: 100%
 * start-date: 2025/01/01
 * end-date: 2025/01/31
 
@@ -52,6 +52,8 @@ so this is easy to use in other projects.
 #### Deliverables
 - [ ] Repository:
 - [ ] PRs:
+  - [Deployment yamls](https://github.com/vacp2p/10ksim/pull/54)
+  - [Documentation and cleaning](https://github.com/vacp2p/10ksim/pull/52)
 
 ### Bandwidth monitor
 

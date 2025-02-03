@@ -69,13 +69,29 @@ hiring process started.
 
 ## Task List
 
-### PoC over Waku 
+### Entry and Exit Abstraction
 
-* fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:poc-over-waku`
+* fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:entry-exit-abstraction`
 * owner: Akshaya
 * status: started (20%)
-* start-date: 2025/01/06
-* end-date: 2025/02/03
+* start-date: 2025/02/03
+* end-date: 2025/02/10
+
+#### Description
+
+Implementation the second PoC over Waku network by integrating the mixnet.
+
+#### Deliverables
+
+* PR to [vacp2p/mix](https://github.com/vacp2p/mix/) repo 
+
+### Simple GossipSub PoC 
+
+* fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:simple-gossipsub-poc`
+* owner: Akshaya
+* status: started (20%)
+* start-date: 2025/02/10
+* end-date: 2025/02/24
 
 #### Description
 
@@ -85,50 +101,13 @@ Implementation the second PoC over Waku network by integrating the mixnet.
 
 * PR to vacp2p/mix repo 
 
-### RFC Update
-
-* fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:rfc-update`
-* owner: Akshaya
-* status: not started
-* start-date: 2025/02/03
-* end-date: 2025/02/17
-
-#### Description
-
-Revise the RFC to incorporate a transport adapter transitioning from a custom protocol.
-
-#### Deliverables
-
-* A notion document as the new version of the RFC
-
-### Testing and Documentation 
-
-* fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:test-and-doc`
-* owner: Akshaya
-* status: not started
-* start-date: 2025/02/17
-* end-date: 2025/03/03
-
-#### Description
-
-Implement logging for debugging and demonstration and test module including 
-functional tests for mix handlers, integration tests for libp2p protocol adapter, and
-End-to-end test of the mix network.
-
-Developing documentation for individuals looking to integrate a mixnet into their projects. 
-
-#### Deliverables
-
-* PR to vacp2p/mix repo with test module
-* PR to vacp2p/mix repo with documentation.md  
-
 ### Blogposts
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:blogposts`
 * owner: Akshaya
 * status: not started
-* start-date: 2025/03/03
-* end-date: 2025/03/10
+* start-date: 2025/02/24
+* end-date: 2025/03/03
 
 #### Description
 
@@ -140,31 +119,13 @@ while the other discusses updates to the RFC through the incorporation of a tran
 
 * Two blogposts to [vac.dev/rlog](https://vac.dev/rlog)
 
-### EF Grant Applications
-
-* fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:ef-grant-app`
-* owner: Akshaya
-* status: not started
-* start-date: 2025/03/10
-* end-date: 2025/03/31
-
-#### Description
-
-This application involves two steps: 
-first, compiling the proof-of-concept details, focusing on latency and incentivization requirements, 
-and then initiating the EF grant process.
-
-#### Deliverables
-
-* A report document to Notion contains information of application details and updates
-
 ### Publishing a Paper 
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:publish-a-paper`
 * owner: Akshaya
 * status: not started
-* start-date: 2025/03/10
-* end-date: 2025/03/24
+* start-date: 2025/03/03
+* end-date: 2025/03/17
 
 #### Description
 

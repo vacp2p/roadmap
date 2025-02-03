@@ -36,7 +36,7 @@ and introduced into the ecosystem.
 
 ## Task List
 
-## Zk Consulting Nomos 1
+### Zk Consulting Nomos 1
 * fully qualified name: `vac:acz:nomos:2025q1-nomos-consulting:zk-consulting-nomos-1`
 * owner: Marvin
 * status: done
@@ -54,7 +54,7 @@ This entails checking the probabilistic arguments and presentation to make sure 
 - Add proofs to these documents as needed.
 
 
-## Zk Consulting Nomos 2
+### Zk Consulting Nomos 2
 * fully qualified name: `vac:acz:nomos:2025q1-nomos-consulting:zk-consulting-nomos-2`
 * owner: Marvin
 * status: done
@@ -72,10 +72,10 @@ to make sure that the document can be followed by a general user.
 - Provide comments for Nomos team to address in the document (and corresponding overleaf).
 - Add proofs to these documents as needed.
 
-## Zk Consulting Nomos 3
+### Zk Consulting Nomos 3
 * fully qualified name: `vac:acz:nomos:2025q1-nomos-consulting:zk-consulting-nomos-3`
 * owner: Marvin
-* status: not started (0%)
+* status: done
 * start-date: 2025/1/27
 * end-date: 2025/1/31
 
@@ -90,10 +90,10 @@ to make sure that the document can be followed by a general user.
 - Provide comments for Nomos team to address in the document (and corresponding overleaf).
 - Add proofs to these documents as needed.
 
-## Zk Consulting Nomos 4
+### Zk Consulting Nomos 4
 * fully qualified name: `vac:acz:nomos:2025q1-nomos-consulting:zk-consulting-nomos-4`
 * owner: Marvin
-* status: not started (0%)
+* status: started (0%)
 * start-date: 2025/2/03
 * end-date: 2025/2/07
 
@@ -103,8 +103,17 @@ Provide feedback Nomos' document
 This entails checking the probabilistic arguments and presentation 
 to make sure that the document can be followed by a general user.
 
-
 ### Deliverables
 - Provide comments for Nomos team to address in the document (and corresponding overleaf).
 - Add proofs to these documents as needed. 
+
+### Zk Consulting Nomos 5
+* fully qualified name: `vac:acz:nomos:2025q1-nomos-consulting:zk-consulting-nomos-6`
+owner: Marvin
+status: started (0%)
+start-date: 2025/2/07
+end-date: 2025/2/21
+
+### Description
+Provide feedback Nomos' document [analysis of latency](https://www.notion.so/Analysis-of-latency-12f8f96fb65c81b09ba5ea1200315e97). This entails checking the probabilistic arguments and presentation to make sure that the document can be followed by a general user.
 

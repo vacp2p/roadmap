@@ -14,10 +14,8 @@ tags:
 * [ ] [[acz/ift/2025q1-de-mls-multi-admin|de-mls-multi-admin]]
 * [ ] [[acz/ift/2025q1-ift-zk-calls|ift-zk-calls]]
 * [ ] [[acz/ift/2025q1-think-tank|think-tank]]
+* [ ] [[acz/ift/2025q1-risc0-arm-port|2025q1-risc0-arm-port]]
 
-### `codex:`
-
-* [ ] [[acz/codex/2025q1-codex-consulting|codex-consulting]]
 
 ### `nomos:`
 

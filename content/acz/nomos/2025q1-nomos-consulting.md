@@ -3,7 +3,7 @@ title: Nomos Consulting
 tags:
   - "2025q1"
   - "acz"
-  - "ift"
+  - "nomos"
 draft: false
 description: "Creating a consulting document on the specification and 
 architecture of the Nomos documents"

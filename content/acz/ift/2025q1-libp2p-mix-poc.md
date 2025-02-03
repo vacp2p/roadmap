@@ -79,7 +79,7 @@ hiring process started.
 
 #### Description
 
-Implementation the second PoC over Waku network by integrating the mixnet.
+Implementation of the MixEntry and MixExit abstractions for the Mixnet. 
 
 #### Deliverables
 
@@ -95,7 +95,7 @@ Implementation the second PoC over Waku network by integrating the mixnet.
 
 #### Description
 
-Implementation the second PoC over Waku network by integrating the mixnet.
+Implementation a simple gossipsub PoC over Waku the mixnet.
 
 #### Deliverables
 
@@ -111,9 +111,7 @@ Implementation the second PoC over Waku network by integrating the mixnet.
 
 #### Description
 
-Two blog posts: one delves into the challenges of integrating mixnet to Waku, 
-emphasizing receiver anonymity and featuring practical examples, 
-while the other discusses updates to the RFC through the incorporation of a transport adapter.
+Writing a blogpost about the mixnet with PoC details. 
 
 #### Deliverables
 

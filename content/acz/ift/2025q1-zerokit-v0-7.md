@@ -96,6 +96,26 @@ rln wasm is revisited for performance analysis and updated by dependencies and g
 
 * PR to vacp2p/zerokit repo with related update for v0.7
 
+### Bump dependencies
+
+* fully qualified name:  `vac:acz:ift:2025q1-zerokit-v0-7:bump_dependencies`
+* owner: Ekaterina
+* status: started 
+* start-date: 2025/01/27
+* end-date: blocked
+
+ #### Description
+
+zerokit fixes many dependencies and some versions are too old 
+and new libraries don't support them and a conflict happened. 
+One of this dependency is  `num_traits` cannot be fixed yet 
+because this strict dependency came from `ark-zkey`, 
+and there it in turn came from a fork on an old version of `arc-circom` where version 2.15 is fixed.
+
+#### Deliverables 
+
+A [PR](https://github.com/vacp2p/zerokit/pull/276) to the zerokit repository. 
+
 ### Release v0.7
 
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:release`

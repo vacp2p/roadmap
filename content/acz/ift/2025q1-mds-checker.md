@@ -30,7 +30,8 @@ by the ecosystem.
 
 ### Narratives
 
-By utilizing the MDS Checker commitment, we will reinforce the Conduit of Expertise narrative by:
+With the MDS Checker commitment, we will reinforce the Conduit of Expertise narrative by:
+
 * Delivers a Rust crate that we can use for security checks of MDS matrices 
 in possible custom cryptographic primitives in the IFT projects.
 

@@ -50,7 +50,7 @@ including 1:1 chats and private groups.
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:degraded-network`
 * owner: fbarbu15
-* status: in progress (50%)
+* status: in progress (80%)
 * start-date: 2025/01/25
 * end-date: 2025/02/15
 
@@ -80,3 +80,44 @@ but TBD when status-backend will support all this.
 #### Deliverables
 * PRs with new test cases
 
+### Wakuext One To One Messages
+
+* fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:wakuext-one-to-one-message`
+* owner: radoslaw
+* status: not started
+* start-date: 2025/02/17
+* end-date: 2025/02/24
+
+#### Description
+Perform functional tests to validate [wakuext_sendOneToOneMessage](https://github.com/status-im/status-go/issues/6084) endpoint. 
+
+#### Deliverables
+* PR with new test cases
+
+### Wakuext Chat Messages
+
+* fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:wakuext-chat-message`
+* owner: radoslaw
+* status: not started
+* start-date: 2025/02/25
+* end-date: 2025/03/14
+
+#### Description
+Perform tests functional tests to validate all [wakuext chat messages](https://github.com/status-im/status-go/issues/6084) endpoints. 
+
+#### Deliverables
+* PR with new test cases
+
+### Other Message Endpoints
+
+* fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:other-message-ep`
+* owner: radoslaw
+* status: not started
+* start-date: 2025/03/17
+* end-date: 2025/03/31
+
+#### Description
+Perform functional tests to validate all [remaining message](https://github.com/status-im/status-go/issues/6084) endpoints. 
+
+#### Deliverables
+* PR with new test cases

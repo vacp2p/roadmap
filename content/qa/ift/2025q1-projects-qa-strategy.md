@@ -65,18 +65,16 @@ identify gaps, and provide recommendations for improvements.
 
 * fully qualified name: `vac:qa:ift:2025q1-projects-qa-strategy:frameworks-documentation`
 * owner: fbarbu15
-* status: not started
+* status:  in progress (20%)
 * start-date: 2025/01/06
 * end-date: 2025/03/31
 
 #### Description
-Create and enhance documentation related to the QA frameworks owned by VAC QA.  
+Create and enhance documentation related to the QA frameworks owned by VAC QA.
 Include detailed processes, how-to guides, and framework-specific documentation for each project.
 
 #### Deliverables
-* Notion pages with comprehensive documentation
-* `README.md` files for each relevant project
-* Guidelines and best practices for using and maintaining the frameworks
+* [Go waku bindings test framework](https://www.notion.so/1898f96fb65c8025b9fcfadca3827d51?v=1898f96fb65c80f1babd000c458064be)
 
 ### Synchronize QA and RFC Processes
 

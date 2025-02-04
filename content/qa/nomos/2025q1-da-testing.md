@@ -29,7 +29,7 @@ Implement data availability test plans for the Nomos project at the cluster leve
 
 * fully qualified name: `vac:qa:nomos:2025q1-da-testing:data-integrity-tests`
 * owner: romanzac
-* status: in progress (80%)
+* status: in progress (80% - Blocked by unfinished dev work on Nomos testnet, preventing tests to run)
 * start-date: 2025/01/06
 * end-date: 2025/01/17
 
@@ -46,7 +46,7 @@ to reconstruct or retrieve data.
 
 * fully qualified name: `vac:qa:nomos:2025q1-da-testing:networking-privacy`
 * owner: romanzac
-* status: not started
+* status: in progress (10%)
 * start-date: 2025/01/20 
 * end-date: 2025/02/21
 

@@ -83,7 +83,7 @@ but TBD when status-backend will support all this.
 ### Wakuext One To One Messages
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:wakuext-one-to-one-message`
-* owner: radoslav
+* owner: radoslaw
 * status: not started
 * start-date: 2025/02/17
 * end-date: 2025/02/24

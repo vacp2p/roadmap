@@ -97,7 +97,7 @@ Perform tests functional tests to validate [wakuext_sendOneToOneMessage](https:/
 ### Wakuext Chat Messages
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:wakuext-chat-message`
-* owner: radoslav
+* owner: radoslaw
 * status: not started
 * start-date: 2025/02/25
 * end-date: 2025/03/14

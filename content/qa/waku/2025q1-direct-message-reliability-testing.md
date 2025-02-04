@@ -111,7 +111,7 @@ Perform tests functional tests to validate all [wakuext chat messages](https://g
 ### Other Message Endpoints
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:other-message-ep`
-* owner: radoslav
+* owner: radoslaw
 * status: not started
 * start-date: 2025/03/17
 * end-date: 2025/03/31

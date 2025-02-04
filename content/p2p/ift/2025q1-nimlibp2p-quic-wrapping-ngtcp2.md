@@ -27,20 +27,22 @@ The development of a native Nim implementation of QUIC will be addressed in a fu
 
 ## Task List
 
-### Implement the full TLS handshake using nim-mbedtls
+### Implement the full TLS handshake using picotls
 
 * fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-wrapping-ngtcp2:tls_handshake`
 * owner: rramos
-* status: 
-* start-date: 
+* status: 10%
+* start-date: 2025/26/01
 * end-date:
 
 #### Description
 Implement the full TLS handshake using nim-mbedtls as explained in https://docs.libp2p.io/concepts/transports/quic/ and https://github.com/libp2p/specs/blob/master/tls/tls.md.
-The ngtcp2 library has crypto helper libraries that make this integration easier, but unfortunately, it doesn't support mbedtls.
-It is necessary to find a way to make this integration using mbedtls.
+The ngtcp2 library has crypto helper libraries that make this integration easier, but unfortunately, it doesn't support mbedtls. PicoTLS will be used as a TLS backend for
+ngtcp2
 
 #### Deliverables
+- [ ] PRs:
+  - Wrap picotls: [PR](https://github.com/vacp2p/nim-ngtcp2/pull/10)
 
 
 ### Implement certificate validation

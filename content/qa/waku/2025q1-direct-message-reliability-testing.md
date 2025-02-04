@@ -89,7 +89,7 @@ but TBD when status-backend will support all this.
 * end-date: 2025/02/24
 
 #### Description
-Perform tests functional tests to validate [wakuext_sendOneToOneMessage](https://github.com/status-im/status-go/issues/6084) endpoint. 
+Perform functional tests to validate [wakuext_sendOneToOneMessage](https://github.com/status-im/status-go/issues/6084) endpoint. 
 
 #### Deliverables
 * PR with new test cases

@@ -58,7 +58,7 @@ A recorded [video](https://www.youtube.com/watch?v=_VOkyVOSsqA).
 
 * fully qualified name: `vac:acz:ift:2025q1-ift-zk-calls:ift-zk-call-2`
 * owner: Marvin
-* status: started (0%)
+* status: started (70%)
 * start-date: 2025/01/27
 * end-date: 2025/02/07
 

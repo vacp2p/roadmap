@@ -62,7 +62,7 @@ gain support from the Ethereum ecosystem.
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:blogpost-de-mls-over-waku`
 * owner: Ekaterina
-* status: started (60%)
+* status: started (70%)
 * start-date: 2025/01/06
 * end-date: 2025/01/20
 
@@ -79,7 +79,7 @@ A blogpost to [vac.dev/rlog/](https://vac.dev/rlog/)
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:multi-admin-rfc`
 * owner: Ugur
-* status: started (20%)
+* status: started (30%)
 * start-date: 2025/01/13
 * end-date: 2025/01/27
 
@@ -95,7 +95,7 @@ Update and reorganize the RFC with the single and multi admin options.
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:waku-node-connection`
 * owner: Ekaterina
-* status: started
+* status: started (40%)
 * start-date: 2025/01/20
 * end-date: 2025/01/27
 
@@ -115,7 +115,7 @@ updating the Waku node connection and enabling multiple node usage.
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:benchmark-coverage`
 * owner: Ekaterina
-* status: not started
+* status: started (40%)
 * start-date: 2025/01/20
 * end-date: 025/01/27
 

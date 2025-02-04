@@ -117,7 +117,7 @@ Perform tests functional tests to validate all [wakuext chat messages](https://g
 * end-date: 2025/03/31
 
 #### Description
-Perform tests functional tests to validate all [remaining message](https://github.com/status-im/status-go/issues/6084) endpoints. 
+Perform functional tests to validate all [remaining message](https://github.com/status-im/status-go/issues/6084) endpoints. 
 
 #### Deliverables
 * PR with new test cases

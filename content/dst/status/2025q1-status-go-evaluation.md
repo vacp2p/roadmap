@@ -49,8 +49,27 @@ and especially those we want to work with externally.
 
 ## Task list
 
+### Status-backend baseline
+
+* fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:status-backend-baseline`
+* owner: Wings
+* status: 0%
+* start-date: 2025/02/06
+* end-date: 2025/02/11
+
+#### Description
+Use status-backend in a Kubernetes deployment.
+Detect if it can run normally, 
+similarly to nWaku deployments.
+Document what utilities provide to work with,
+and detect missing or nice-to-have ones.
+Report differences with nWaku.
+
+#### Deliverables
+* [ ] Reports:
+* [ ] Related PRs if apply:
+
 ### Regression testing (recurring)
-> *Note*: This needs confirmation from project that is ready to start
 
 * fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:regression-testing`
 * owner: Wings

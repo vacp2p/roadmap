@@ -30,3 +30,43 @@ with the latest information based on knowledge sharing.
 - One of our goals is for the broader web3 community to use our RFCs in their 
   projects and ecosystems, similar to [IETF](https://www.ietf.org/).
 
+## Task List
+
+### Setup
+
+- Fully qualified name: 
+  `vac:rfc:ift:2025q1-integration-with-qa:setup`
+- Owner: Filip
+- Status: not started
+- Start date: 2025/01/01
+- End date: 2025/03/31
+
+#### Description
+
+Create a table/page, in Notion, where QA and RFC teams can collaborate and
+add updates if there are changes to pieces of code, specifications and
+other relevant pieces of information.
+
+#### Deliverables
+
+- Table/page in Notion
+
+### Cadence
+
+`vac:rfc:ift:2025q1-integration-with-qa:cadence`
+
+- Fully qualified name: 
+  `vac:rfc:ift:2025q1-integration-with-qa:cadence`
+- Owner: Filip
+- Status: not started
+- Start date: 2025/01/01
+- End date: 2025/03/31
+
+#### Description
+
+Set up and maintain a weekly cadence of communication
+where we can identify the issues and changes in relevant projects.
+
+#### Deliverables
+
+- Data within the table in Notion

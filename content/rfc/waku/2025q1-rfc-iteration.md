@@ -42,13 +42,110 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Fully qualified name: 
   `vac:rfc:waku:2025q1-rfc-iteration:10/waku2`
 - Owner: jimstir
-- Status: not started
+- Status: 70%
 - Start date: 2025/01/01
-- End date: 2025/01/14
+- End date: 2025/01/31
 
 #### Description
 
 Waku v2 is a family of modular peer-to-peer protocols for secure communication.
+
+#### Deliverables
+
+- Updated RFC document (potentially with an upgraded status).
+
+
+### 20/TOY-ETH-PM
+
+- Fully qualified name: 
+  `vac:rfc:waku:2025q1-rfc-iteration:20/toy-eth-pm`
+- Owner: jimstir
+- Status: not started
+- Start date: 2025/02/14
+- End date: 2025/02/28
+
+#### Description
+
+This specification explains the Toy Ethereum Private Message protocol
+which enables a peer to send an encrypted message to another peer
+using the Waku v2 network, and the peer's Ethereum address.
+
+#### Deliverables
+
+- Updated RFC document (potentially with an upgraded status).
+
+
+### 21/WAKU2-FAULT-TOLERANT-STORE
+
+- Fully qualified name: 
+  `vac:rfc:waku:2025q1-rfc-iteration:21/waku2-fault-tolerant-store`
+- Owner: jimstir
+- Status: not started
+- Start date: 2025/02/28
+- End date: 2025/03/14
+
+#### Description
+
+The reliability of [13/WAKU2-STORE](https://rfc.vac.dev/waku/standards/core/13/store) protocol heavily relies on the fact
+that full nodes i.e., those who persist messages have high availability
+and uptime and do not miss any messages.
+
+#### Deliverables
+
+- Updated RFC document (potentially with an upgraded status).
+
+
+### 26/WAKU2-PAYLOAD
+
+- Fully qualified name: 
+  `vac:rfc:waku:2025q1-rfc-iteration:26/waku2-payload`
+- Owner: jimstir
+- Status: not started
+- Start date: 2025/03/07
+- End date: 2025/03/21
+
+#### Description
+
+This specification describes how Waku provides confidentiality, authenticity
+and integrity, as well as some form of unlinkability.
+
+#### Deliverables
+
+- Updated RFC document (potentially with an upgraded status).
+
+
+### 33/WAKU2-DISCV5
+
+- Fully qualified name: 
+  `vac:rfc:waku:2025q1-rfc-iteration:33/waku2-discv5`
+- Owner: jimstir
+- Status: not started
+- Start date: 2025/03/14
+- End date: 2025/03/31
+
+#### Description
+
+This document specifies a modified version of [Ethereum's Node Discovery Protocol v5](https://github.com/ethereum/devp2p/blob/master/discv5/discv5.md)
+as a means for ambient node discovery.
+
+#### Deliverables
+
+- Updated RFC document (potentially with an upgraded status).
+
+
+### 36/WAKU2-BINDINGS-API
+
+- Fully qualified name: 
+  `vac:rfc:waku:2025q1-rfc-iteration:36/waku2-bindings-api`
+- Owner: Filip
+- Status: not started
+- Start date: 2025/02/07
+- End date: 2025/02/31
+
+#### Description
+
+This specification describes the C API that SHOULD be implemented by native Waku library
+and that SHOULD be used to consume them.
 
 #### Deliverables
 

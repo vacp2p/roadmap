@@ -30,7 +30,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 * owner: rramos
 * status: ongoing
 * start-date: 2025/01/13
-* end-date: 2025/01/31
+* end-date: 2025/03/31
 
 #### Description
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.

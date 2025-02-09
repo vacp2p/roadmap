@@ -37,3 +37,35 @@ Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via impro
 
 #### Deliverables
 - [[Deliverable] Maintenance 2025Q1](https://github.com/vacp2p/nim-libp2p/issues/1239)
+
+
+### Async exception tracking
+
+* fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-maintenance:async-exceptions`
+* owner:
+* status:
+* start-date: 
+* end-date:
+
+#### Description
+Specify exceptions being raised in `{.async.}` functions. See [nimlibp2p#962](https://github.com/vacp2p/nim-libp2p/issues/962)
+
+#### Deliverables
+- PR:
+
+
+### nim-protobuf-serialization
+
+* fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-maintenance:nim-protobuf-serialization`
+* owner:
+* status:
+* start-date: 
+* end-date:
+
+#### Description
+Determine maturity level of [nim-libp2p-protobuf](https://github.com/status-im/nim-protobuf-serialization) and consider replacing
+minprotobuf usage within nim-libp2p with this library. In case we decide to go with this change, it will need a security audit
+afterwards. See [nim-libp2p#841](https://github.com/vacp2p/nim-libp2p/issues/841)
+
+#### Deliverables
+- PR:

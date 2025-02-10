@@ -41,5 +41,5 @@ investigating and resolving issues, and implementing minor improvements to the t
 * [chore: store fixes](https://github.com/waku-org/waku-interop-tests/pull/101)
 * [chore: add reconciliation metrics](https://github.com/waku-org/waku-interop-tests/pull/100)
 * [bug: nwaku<->gowaku interop tests fail with only one received message push when multiple messages are sent](https://github.com/waku-org/nwaku/issues/3271)
-* [js-waku test report improvements](https://github.com/waku-org/js-waku/pull/2247)
-* [store hash fixes](https://github.com/waku-org/waku-interop-tests/pull/104)
+* [chore: js-waku test report improvements](https://github.com/waku-org/js-waku/pull/2247)
+* [chore: store hash fixes](https://github.com/waku-org/waku-interop-tests/pull/104)

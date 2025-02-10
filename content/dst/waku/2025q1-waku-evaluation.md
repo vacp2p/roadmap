@@ -79,9 +79,11 @@ and ensure they don't happen again.
 #### Deliverables
 * Analysis done
   * [Simulation length vs message delay](https://www.notion.so/Simulation-length-vs-message-delay-1858f96fb65c80f58b81dec6841764c6)
+  * [nWaku v0.35 WIP](https://www.notion.so/Waku-regression-testing-v0-35-February-2025-1908f96fb65c802aaec6fdb5028a167b)
 * Report published with all relevant details
 * Vac Roadmap updated regularly
   with links to the analysis and results.
+  * [REST Issue](https://github.com/waku-org/nwaku/pull/3286)
 
 ### Block issue: I/O load
 

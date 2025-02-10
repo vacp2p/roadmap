@@ -5,13 +5,13 @@ tags:
   - "acz"
   - "ift"
 draft: false
-description: "Creating the rust crate for MDS matrix security checker and a blogpost"
+description: "Creating the Rust crate for MDS matrix security checker and a blogpost"
 
 ---
 
 `vac:acz:ift:2025q1-mds-checker`
 
-Creating the rust crate for MDS matrix security checker and a blogpost
+Creating the Rust crate for MDS matrix security checker and a blogpost
 ## Description
 
 This commitment entails releasing a Rust crate that verifies the security of any MDS matrix, 
@@ -24,20 +24,20 @@ such as hash functions and encryption schemes, to provide security against crypt
 The security of MDS matrices can be verified using various methods. For example, 
 the security of the Poseidon hash MDS matrix can be checked by
 using this [algorithm](https://extgit.isec.tugraz.at/krypto/hadeshash/-/blob/master/code/generate_params_poseidon.sage). 
-We propose a generic Rust crate that can verify the security of any matrix in any field. 
-This crate can be used for in-code parameter checks or for custom hash functions operating in custom fields 
-by the ecosystem.
+We propose a generic Rust crate that can verify the security of any matrix over any prime finite field. 
+This crate can be used by the ecosystem for in-code parameter checks or for custom hash functions operating in custom fields.
+
 
 ### Narratives
 
 By utilizing the MDS Checker commitment, we will reinforce the Conduit of Expertise narrative by:
-* Delivers a Rust crate that we can use for security checks of MDS matrices 
+* Delivering a Rust crate that we can use for security checks of MDS matrices 
 in possible custom cryptographic primitives in the IFT projects.
 
 We will also strengthen the Premier Research Destination narrative by:
-* Offers a public Rust crate that is the first generic MDS matrix security checker in Rust, 
+* Offering a public Rust crate that is the first generic MDS matrix security checker in Rust, 
 that any party can use on their projects
-* Contribute to the ecosystem with the blog post that explains the mathematics behind the Rust crate.  
+* Contributing to the ecosystem with the blog post that explains the mathematics behind the Rust crate.  
 
 ## Task List
  
@@ -54,7 +54,7 @@ that any party can use on their projects
 Releasing a Rust crate that checks the security of arbitrary MDS matrix with a new method 
 based on the [report](https://notes.status.im/CVMoa6EcTmS2D4VPBCsH2w#). 
 This crate will be open source and can be used by any project that requires generating in-code round parameters 
-with an MDS matrix and checking the matrix security efficiently.
+with an MDS matrix and checking the matrix security for P-SP-networks efficiently.
 
 #### Deliverables
 
@@ -72,9 +72,9 @@ with an MDS matrix and checking the matrix security efficiently.
 #### Description
 
 Writing a blog post that explains the security of MDS matrices 
-and reviews existing methods for assessing their security. 
+and briefly reviews existing methods for assessing their security. 
 The post also introduces a new, efficient method for evaluating MDS matrix security 
-and provides details about a Rust crate that automates these security checks 
+and provides details about the Rust crate that automates these security checks 
 based on the findings presented in the article.
 
 #### Deliverables

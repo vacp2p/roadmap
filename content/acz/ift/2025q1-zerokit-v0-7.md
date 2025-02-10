@@ -76,6 +76,25 @@ and there it in turn came from a fork on an old version of `arc-circom` where ve
 
 A [PR](https://github.com/vacp2p/zerokit/pull/276) to the zerokit repository. 
 
+### RLN-cli
+
+* fully qualified name:  `vac:acz:ift:2025q1-zerokit-v0-7:rln-cli`
+* owner: Vinh
+* status: started (0%)
+* start-date: 2025/02/11
+* end-date: 2025/02/24
+
+ #### Description
+
+The [rln-cli](https://github.com/vacp2p/zerokit/tree/master/rln-cli) is a command-line utility 
+designed to help developers integrate Rate-Limiting Nullifier (RLN) into their applications. 
+However, it is currently unusable due to a missing configuration file. 
+To enable its functionality, the codebase needs to be improved to properly handle the required configuration.
+
+#### Deliverables 
+
+A [PR](https://github.com/vacp2p/zerokit/pull/276) to the zerokit repository. 
+
 ### Release v0.7
 
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:release`

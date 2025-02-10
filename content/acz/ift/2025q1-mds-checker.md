@@ -45,7 +45,7 @@ that any party can use on their projects
 
 * fully qualified name: `vac:acz:ift:2025q1-mds-checker:releasing-rust-crate`
 * owner: Aleksei
-* status: started (60%) 
+* status: started (80%) 
 * start-date: 2025/01/01
 * end-date: 2025/02/12
 

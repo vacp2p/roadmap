@@ -73,7 +73,7 @@ hiring process started.
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:entry-exit-abstraction`
 * owner: Akshaya
-* status: started (20%)
+* status: started (60%)
 * start-date: 2025/02/03
 * end-date: 2025/02/10
 

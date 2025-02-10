@@ -60,9 +60,9 @@ rln wasm is revisited for performance analysis and updated by dependencies and g
 
 * fully qualified name:  `vac:acz:ift:2025q1-zerokit-v0-7:bump_dependencies`
 * owner: Ekaterina
-* status: started 
+* status: done
 * start-date: 2025/01/27
-* end-date: blocked
+* end-date: 2025/02/07
 
  #### Description
 

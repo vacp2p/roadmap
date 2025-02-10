@@ -23,10 +23,10 @@ TODO: detail commitment
 ### Determine requirements and detail list of tasks
 
 * fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-webtransport:requirements`
-* owner: 
-* status:
-* start-date:
-* end-date:
+* owner: Vlado
+* status: not started
+* start-date: 2025/17/24
+* end-date: 2025/03/10
 
 #### Description
 Based on the [specs](https://github.com/libp2p/specs/tree/master/webtransport) for webtransport, and the existing

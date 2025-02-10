@@ -113,7 +113,7 @@ Report findings.
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-evaluation:discovery-speed-time`
 * owner: Alberto
-* status: 0%
+* status: 50%
 * start-date: 2025-02-03
 * end-date: 2025-02-14
 

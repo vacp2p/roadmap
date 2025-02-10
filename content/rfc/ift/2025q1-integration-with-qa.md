@@ -60,7 +60,7 @@ other relevant pieces of information.
   `vac:rfc:ift:2025q1-integration-with-qa:cadence`
 - Owner: Filip
 - Status: not started
-- Start date: 2025/02/15
+- Start date: 2025/02/25
 - End date: 2025/03/31
 
 #### Description
@@ -80,7 +80,7 @@ where we can identify the issues and changes in relevant projects.
   `vac:rfc:ift:2025q1-integration-with-qa:data-delivery``
 - Owner: Filip
 - Status: not started
-- Start date: 2025/02/15
+- Start date: 2025/03/05
 - End date: 2025/03/31
 
 #### Description

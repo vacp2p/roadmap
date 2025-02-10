@@ -24,12 +24,9 @@ in accordance with the IFT standards.
 
 ## Task List
 
-### Support
+### Maintenance
 
-`vac:rfc:ift:rfc-index-maintenance:support`
-
-- Fully qualified name: 
-  `vac:rfc:ift:rfc-index-maintenance:support`
+- Fully qualified name: `vac:rfc:ift:rfc-index-maintenance:maintenance`
 - Owner: Filip
 - Status: not started
 - Start date: 2025/01/01

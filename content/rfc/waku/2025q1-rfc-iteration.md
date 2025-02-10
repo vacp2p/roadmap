@@ -18,7 +18,11 @@ support the process of auditing raw, draft, mature selected Waku RFCs.
 This commitment supports the audit of the following mature RFCs, which are 
 either in draft or raw states:
 - 10/WAKU2 
-- 
+- 20/TOY-ETH-PM
+- 21/WAKU2-FAULT-TOLERANT-STORE
+- 26/WAKU2-PAYLOAD
+- 33/WAKU2-DISCV5
+- 36/WAKU2-BINDINGS-API
 
 We will also include specification validation - 
 editorial work through previous and future RFCs to improve them
@@ -138,7 +142,7 @@ as a means for ambient node discovery.
 - Fully qualified name: 
   `vac:rfc:waku:2025q1-rfc-iteration:36/waku2-bindings-api`
 - Owner: Filip
-- Status: not started
+- Status: 5%
 - Start date: 2025/02/07
 - End date: 2025/02/31
 

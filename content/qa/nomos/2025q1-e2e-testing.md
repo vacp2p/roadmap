@@ -26,7 +26,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:nomos:2025q1-e2e-testing:maintenance`
 * owner: romanzac
-* status: in progress (20%)
+* status: in progress (30%)
 * start-date: 2025/01/01
 * end-date: 2025/03/31
 
@@ -39,3 +39,4 @@ investigating and resolving issues, and implementing minor improvements to the t
 * [Two node cluster start automation](https://github.com/logos-co/nomos-e2e-tests/pull/1)
 * [fix: Temporarily downgrade cargo-binstall to 1.10.19](https://github.com/logos-co/nomos-node/pull/983)
 * [chore: Add LogOutput and LogLevel property to Cfgsync config](https://github.com/logos-co/nomos-node/pull/978)
+* [chore: Add reconstruct command to nomos-cli](https://github.com/logos-co/nomos-node/pull/994)

@@ -18,6 +18,7 @@ Major future work items on nim-libp2p (also beyond this reporting period are cap
 ### `ift:`
 * [[p2p/ift/2025q1-gossipsub-perf-improvements|2025q1-gossipsub-perf-improvements]]
 * [[p2p/ift/2025q1-nimlibp2p-quic-wrapping-ngtcp2|2025q1-nimlibp2p-quic-wrapping-ngtcp2]]
+* [[p2p/ift/2025q1-nimlibp2p-quic-wrapping-ngtcp2|2025q1-nimlibp2p-webtransport]]
 * [[p2p/ift/2025q1-nimlibp2p-maintenance|2025q1-nimlibp2p-maintenance]]
 ### `acz:`
 * [[p2p/acz/2025q1-acz-consulting|2025q1-acz-consulting]]

@@ -97,14 +97,16 @@ Update and reorganize the RFC with the single and multi admin options.
 * owner: Ekaterina
 * status: started (40%)
 * start-date: 2025/01/20
-* end-date: 2025/01/27
+* end-date: 2025/02/24
 
 #### Description
 
 The current version of the Waku Node setting, and subscribing to content topics 
 entails receiving the same message multiple times. 
 The task plans to fix this and also add the ability to connect more than one node. 
-Also rust bindings have been updated over time and will be moving to the current version. 
+Also rust bindings have been updated over time and will be moving to the current version.
+
+This task's end-date is expanded due to the blocker from the waku Rust bindings. 
 
 #### Deliverables
 

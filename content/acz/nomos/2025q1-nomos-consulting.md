@@ -93,7 +93,7 @@ to make sure that the document can be followed by a general user.
 ### Zk Consulting Nomos 4
 * fully qualified name: `vac:acz:nomos:2025q1-nomos-consulting:zk-consulting-nomos-4`
 * owner: Marvin
-* status: started (0%)
+* status: started (80%)
 * start-date: 2025/2/03
 * end-date: 2025/2/07
 
@@ -108,12 +108,27 @@ to make sure that the document can be followed by a general user.
 - Add proofs to these documents as needed. 
 
 ### Zk Consulting Nomos 5
-* fully qualified name: `vac:acz:nomos:2025q1-nomos-consulting:zk-consulting-nomos-6`
-owner: Marvin
-status: started (0%)
-start-date: 2025/2/07
-end-date: 2025/2/21
+* fully qualified name: `vac:acz:nomos:2025q1-nomos-consulting:zk-consulting-nomos-5`
+* owner: Marvin
+* status: started (50%)
+* start-date: 2025/2/07
+* end-date: 2025/2/21
 
 ### Description
-Provide feedback Nomos' document [analysis of latency](https://www.notion.so/Analysis-of-latency-12f8f96fb65c81b09ba5ea1200315e97). This entails checking the probabilistic arguments and presentation to make sure that the document can be followed by a general user.
+Provide feedback Nomos' document [analysis of latency](https://www.notion.so/Analysis-of-latency-12f8f96fb65c81b09ba5ea1200315e97). 
+This entails checking the probabilistic arguments and presentation to make sure that the document can be followed by a general user.
 
+### Zk Consulting Nomos 6
+* fully qualified name: `vac:acz:nomos:2025q1-nomos-consulting:zk-consulting-nomos-6`
+* owner: Marvin
+* status: not started (0%)
+* start-date: 2025/2/24
+* end-date: 2025/3/07
+
+### Description
+Provide feedback Nomos' document [analysis of anonymity](https://www.notion.so/Analysis-of-anonymity-12f8f96fb65c8134b3f4d9a091c02408). 
+This entails checking the probabilistic arguments and presentation to make sure that the document can be followed by a general user.
+
+### Deliverables
+- Provide comments for Nomos team to address in the document (and corresponding overleaf).
+- Add proofs to these documents as needed.

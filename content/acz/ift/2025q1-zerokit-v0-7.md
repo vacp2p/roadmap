@@ -91,9 +91,27 @@ designed to help developers integrate Rate-Limiting Nullifier (RLN) into their a
 However, it is currently unusable due to a missing configuration file. 
 To enable its functionality, the codebase needs to be improved to properly handle the required configuration.
 
+Additionally, the RLN-cli task contains implementing an example demonstrating RLN’s stateless mode. 
+This involves creating the Merkle tree outside of RLN, 
+similar to the approach used [here](https://github.com/vacp2p/zerokit/blob/8a3e33be418ca6f66fa041c3fda475e24bb82268/rln/src/public_api_tests.rs#L993). 
+The example should then provide the necessary roots from tree to RLN functions. 
+This will help developers better understand RLN’s functionality and how to integrate it in a stateless manner.
+
 #### Deliverables 
 
-A [PR](https://github.com/vacp2p/zerokit/pull/276) to the zerokit repository. 
+A [PR](https://github.com/vacp2p/zerokit/pull/276) to the Zerokit repository that contains as follows:
+- **Fix Configuration Handling:**  
+  - Document the expected format of the configuration file.  
+  - **Provide an example configuration file** in `rln-cli` to guide users.  
+  - Ensure that the CLI provides useful error messages if the configuration is missing or incorrect.  
+
+- **Implement Stateless RLN Example:**  
+  - Create an example where the Merkle tree is constructed **outside** of RLN (similar to [this test](https://github.com/vacp2p/zerokit/blob/8a3e33be418ca6f66fa041c3fda475e24bb82268/rln/src/public_api_tests.rs#L993)).  
+  - Use this external tree to generate **path and roots**, then pass them into RLN functions.  
+
+- **Testing & Documentation:**  
+  - Add tests to verify the CLI works correctly with the new configuration handling.  
+  - Ensure the new stateless example is well-documented so that developers can easily follow it
 
 ### Release v0.7
 

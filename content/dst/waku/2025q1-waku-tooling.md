@@ -119,5 +119,6 @@ Should be made general when possible.
 - [ ] PRs:
   - Message distribution plot improvement: [PR](https://github.com/vacp2p/10ksim/pull/47)
   - Violin plot: [PR](https://github.com/vacp2p/10ksim/pull/51)
+  - Outliers parameter: [PR](https://github.com/vacp2p/10ksim/pull/57)
 
 ### Local metrics

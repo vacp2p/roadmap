@@ -36,3 +36,25 @@ to submit their RFCs to our team of rfc-editors.
 to use our RFCs in their projects and ecosystems,
 similar to [IETF](https://www.ietf.org/).
 
+## Task List
+
+
+### Team Communication
+
+- Fully qualified name: `vac:rfc:ift:2025q1-culture-establishment-team-communication`
+- Owner: cofson
+- Status: 40%
+- Start date: 2025/01/01
+- End date: 2025/03/31
+
+#### Description
+
+Continue discussions with relevant teams in Discord
+and via other means (such as GitHub) where necessary.
+
+#### Deliverables
+
+- Plans
+- Updates to plans
+
+

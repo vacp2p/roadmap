@@ -46,7 +46,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Fully qualified name: 
   `vac:rfc:waku:2025q1-rfc-iteration:10/waku2`
 - Owner: jimstir
-- Status: 70%
+- Status: 100% (complete)
 - Start date: 2025/01/01
 - End date: 2025/01/31
 
@@ -142,7 +142,7 @@ as a means for ambient node discovery.
 - Fully qualified name: 
   `vac:rfc:waku:2025q1-rfc-iteration:36/waku2-bindings-api`
 - Owner: Filip
-- Status: 5%
+- Status: 75%
 - Start date: 2025/02/07
 - End date: 2025/02/31
 

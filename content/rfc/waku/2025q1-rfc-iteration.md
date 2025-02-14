@@ -46,7 +46,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Fully qualified name: 
   `vac:rfc:waku:2025q1-rfc-iteration:10/waku2`
 - Owner: jimstir
-- Status: 100% (complete)
+- Status: 95%
 - Start date: 2025/01/01
 - End date: 2025/01/31
 

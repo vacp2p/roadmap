@@ -45,7 +45,7 @@ that any party can use on their projects
 
 * fully qualified name: `vac:acz:ift:2025q1-mds-checker:releasing-rust-crate`
 * owner: Aleksei
-* status: started (80%) 
+* status: done 
 * start-date: 2025/01/01
 * end-date: 2025/02/12
 
@@ -58,14 +58,14 @@ with an MDS matrix and checking the matrix security for P-SP-networks efficientl
 
 #### Deliverables
 
-* PR to [rust-lang/crates.io](https://github.com/rust-lang/crates.io) repo with related crate 
+* [Mdsecheck Rust crate](https://crates.io/crates/mdsecheck)  to [rust-lang/crates.io](https://github.com/rust-lang/crates.io) repo
 * [A Report](https://notes.status.im/CVMoa6EcTmS2D4VPBCsH2w#) about the MDS security checker
 
 ### Blogpost MDS
 
 * fully qualified name: `vac:acz:ift:2025q1-mds-checker:blogpost-mds`
 * owner: Aleksei
-* status: not started
+* status: started (0%)
 * start-date: 2025/02/12
 * end-date: 2025/02/28
 

@@ -85,7 +85,7 @@ either with ports, and possibly different filters.
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-tooling:bandwidth-monitor-improvements`
 * owner: Wings
-* status: 0%
+* status: 95%
 * start-date: 2025/02/10
 * end-date: 2025/02/14
 
@@ -100,7 +100,9 @@ Document the test scenario.
 #### Deliverables
 - [ ] Repository:
 - [ ] PRs:
+  - https://github.com/vacp2p/10ksim/pull/53
 - [ ] Report with real example:
+  - [Notion Report](https://www.notion.so/Raw-bandwidth-sidecar-Update-19d8f96fb65c80deb38ad95614d3cf34)
 
 ### Log parser extended
 

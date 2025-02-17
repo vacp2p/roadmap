@@ -102,6 +102,23 @@ Document the test scenario.
 - [ ] PRs:
 - [ ] Report with real example:
 
+### Log parser extended
+
+* fully qualified name: `vac:dst:waku:2025q1-waku-tooling:log-parser-extended`
+* owner: Alberto
+* status: 0%
+* start-date: TBA
+* end-date: TBA
+
+#### Description
+Include [Waku FURPS](https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00#1508f96fb65c80a8abd6f5d37a273657) for a log parser debugging tool
+in the DST analysis framework.
+> *Note*: This needs more input from project
+
+#### Deliverables
+- [ ] Repository:
+- [ ] PRs:
+
 ### General tooling (recurring)
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-tooling:general-tooling`

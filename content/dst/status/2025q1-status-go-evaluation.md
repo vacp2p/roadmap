@@ -53,7 +53,7 @@ and especially those we want to work with externally.
 
 * fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:status-backend-baseline`
 * owner: Wings
-* status: 0%
+* status: 100%
 * start-date: 2025/02/06
 * end-date: 2025/02/11
 
@@ -68,6 +68,7 @@ Report differences with nWaku.
 #### Deliverables
 * [ ] Reports:
 * [ ] Related PRs if apply:
+  * https://github.com/vacp2p/status-go-test
 
 
 ### Status-backend subscription performance

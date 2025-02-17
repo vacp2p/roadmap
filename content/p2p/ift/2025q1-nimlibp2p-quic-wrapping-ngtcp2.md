@@ -31,7 +31,7 @@ The development of a native Nim implementation of QUIC will be addressed in a fu
 
 * fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-wrapping-ngtcp2:tls_handshake`
 * owner: rramos
-* status: 15%
+* status: 45%
 * start-date: 2025/26/01
 * end-date:
 

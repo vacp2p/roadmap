@@ -80,7 +80,7 @@ A [PR](https://github.com/vacp2p/zerokit/pull/276) to the zerokit repository.
 
 * fully qualified name:  `vac:acz:ift:2025q1-zerokit-v0-7:rln-cli`
 * owner: Vinh
-* status: started (0%)
+* status: started (40%)
 * start-date: 2025/02/11
 * end-date: 2025/02/24
 

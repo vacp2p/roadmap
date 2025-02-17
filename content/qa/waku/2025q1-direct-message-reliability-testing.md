@@ -72,14 +72,13 @@ after a network reconnection.
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:rate-limit`
 * owner: fbarbu15
-* status: in progress (90%)
+* status: done
 * start-date: 2025/02/25
 * end-date: 2025/03/10
 
 #### Description
-Perform tests to validate rate limiting in status-backend. 
-Tests should be done ideally for relay, lightpush and filter 
-but TBD when status-backend will support all this.
+- [Rate limiting tests](https://github.com/status-im/status-go/pull/6332)
+- [CI RUN](https://github.com/status-im/status-go/actions/runs/13344807227)
 
 #### Deliverables
 * PRs with new test cases
@@ -88,7 +87,7 @@ but TBD when status-backend will support all this.
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:ip-change`
 * owner: fbarbu15
-* status: not started
+* status: in progress (60%)
 * start-date: 2025/02/10
 * end-date: 2025/02/17
 
@@ -103,7 +102,7 @@ and if message flow resumes after such event.
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:wakuext-one-to-one-message`
 * owner: radoslaw
-* status: not started
+* status: in progress (10%)
 * start-date: 2025/02/17
 * end-date: 2025/02/24
 

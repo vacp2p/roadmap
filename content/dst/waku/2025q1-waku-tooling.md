@@ -119,6 +119,25 @@ in the DST analysis framework.
 - [ ] Repository:
 - [ ] PRs:
 
+### Fixed topology
+
+* fully qualified name: `vac:dst:waku:2025q1-waku-tooling:fixed-topology`
+* owner: Alberto
+* status: 0%
+* start-date: 2025/02/24
+* end-date: 2025/03/14
+
+#### Description
+Create a generalized script that allows to create
+custom topologies connection of any p2p software.
+Would be good to consider both scenarios,
+as limiting the visibility of the software through networking,
+or creating the topology by software flags if it supports it.
+
+#### Deliverables
+- [ ] Repository:
+- [ ] PRs:
+
 ### General tooling (recurring)
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-tooling:general-tooling`

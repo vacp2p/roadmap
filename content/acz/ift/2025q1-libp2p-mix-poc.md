@@ -73,7 +73,7 @@ hiring process started.
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:entry-exit-abstraction`
 * owner: Akshaya
-* status: started (60%)
+* status: done
 * start-date: 2025/02/03
 * end-date: 2025/02/10
 
@@ -83,7 +83,7 @@ Implementation of the MixEntry and MixExit abstractions for the Mixnet.
 
 #### Deliverables
 
-* PR to [vacp2p/mix](https://github.com/vacp2p/mix/) repo 
+* [Mix-interface branch](https://github.com/vacp2p/mix/tree/feature/mix-interface) in [vacp2p/mix](https://github.com/vacp2p/mix/) repo 
 
 ### Simple GossipSub PoC 
 

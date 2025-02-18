@@ -99,7 +99,7 @@ This will help developers better understand RLN’s functionality and how to int
 
 #### Deliverables 
 
-A [PR](https://github.com/vacp2p/zerokit/pull/276) to the Zerokit repository that contains as follows:
+A PR to the [Zerokit]((https://github.com/vacp2p/zerokit)) repository that contains as follows:
 - **Fix Configuration Handling:**  
   - Document the expected format of the configuration file.  
   - **Provide an example configuration file** in `rln-cli` to guide users.  

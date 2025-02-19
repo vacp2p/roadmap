@@ -40,3 +40,4 @@ investigating and resolving issues, and implementing minor improvements to the t
 * [fix: Temporarily downgrade cargo-binstall to 1.10.19](https://github.com/logos-co/nomos-node/pull/983)
 * [chore: Add LogOutput and LogLevel property to Cfgsync config](https://github.com/logos-co/nomos-node/pull/978)
 * [chore: Add reconstruct command to nomos-cli](https://github.com/logos-co/nomos-node/pull/994)
+* [chore: Change Dockerfile for testnet image to enable block production](https://github.com/logos-co/nomos-node/pull/1041)

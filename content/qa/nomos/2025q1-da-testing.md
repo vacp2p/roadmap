@@ -29,7 +29,7 @@ Implement data availability test plans for the Nomos project at the cluster leve
 
 * fully qualified name: `vac:qa:nomos:2025q1-da-testing:data-integrity-tests`
 * owner: romanzac
-* status: in progress (90%)
+* status: done
 * start-date: 2025/01/06
 * end-date: 2025/01/17
 
@@ -38,8 +38,22 @@ Add integration tests focusing on the system's ability
 to reconstruct or retrieve data.
 
 #### Deliverables
-* PR link with added tests
-* CI runs showing successful or failed executions with detailed reports
+PRs:
+- [PR #2](https://github.com/logos-co/nomos-e2e-tests/pull/2)
+- [PR #3](https://github.com/logos-co/nomos-e2e-tests/pull/3)
+  - TC6.2: Ensure that it is possible to nodes can correctly identify and retrieve missing chunks columns.
+  - TC6.5: Verify that data availability sampling correctly determines the presence of data.
+
+CI Runs:
+- [Run #37374798103](https://github.com/logos-co/nomos-e2e-tests/actions/runs/13383025976/job/37374798103)    
+
+
+Issues Found:
+- [Overwatch panicked due to source slice length (12) does not match destination slice length (31)](https://github.com/logos-co/nomos-node/issues/985)
+- [Call to API endpoint for data dispersal not reliable](https://github.com/logos-co/nomos-node/issues/1046)
+- [Unexpected data reconstruction result](https://github.com/logos-co/nomos-node/issues/1047)
+- [No data in response for get data range request](https://github.com/logos-co/nomos-node/issues/1048)
+
 
 
 ### Networking and Privacy Tests

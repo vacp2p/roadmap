@@ -25,7 +25,7 @@ tags:
 * [ ] [[dst/nomos/2025q1-nomos-tooling|nomos-tooling]]
 
 ### `status`
-* [ ] [[dst/vac/2025q1-status-go-evaluation|status-go-evaluation]]
+* [ ] [[dst/status/2025q1-status-go-evaluation|status-go-evaluation]]
 
 ### `vac`
 * [ ] [[dst/vac/2025q1-libp2p-evaluation|libp2p-evaluation]]

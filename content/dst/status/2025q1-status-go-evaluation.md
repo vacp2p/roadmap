@@ -53,7 +53,7 @@ and especially those we want to work with externally.
 
 * fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:status-backend-baseline`
 * owner: Wings
-* status: 0%
+* status: 100%
 * start-date: 2025/02/06
 * end-date: 2025/02/11
 
@@ -68,6 +68,41 @@ Report differences with nWaku.
 #### Deliverables
 * [ ] Reports:
 * [ ] Related PRs if apply:
+  * https://github.com/vacp2p/status-go-test
+
+
+### Status-backend subscription performance
+
+* fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:subscription-performance`
+* owner: Wings
+* status: 0%
+* start-date: 2025/02/17
+* end-date: 2025/02/21
+
+#### Description
+**Goal:** measure time to readiness to receive live messages.
+
+**Setup:**
+- 10 relay nodes
+    - including 1 publisher node
+- 5 service nodes
+    - We may want to play with relay/service node ratios
+    - service nodes may not be strictly needed
+- 500 light nodes
+- One community setup
+- All relay and light nodes have joined the community
+
+**Test:**
+- Relay and service nodes are running
+- 1 relay node is injecting messages
+- Start light nodes
+- Measure time from start to time messages are being received on filter
+    - for example, looking at the earliest timestamp of the **first** message received
+
+#### Deliverables
+* [ ] Reports:
+* [ ] Related PRs if apply:
+
 
 ### Regression testing (recurring)
 

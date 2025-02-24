@@ -234,10 +234,11 @@ start Y (100) new nodes, and measure discovery time.
 * fully qualified name: `vac:dst:waku:2025q1-waku-scaling:discv5-initial-activity`
 * owner: Wings
 * status: 0%
-* start-date: 2025-02-10
-* end-date: 2025-02-21
+* start-date: TBA
+* end-date: TBA
 
 #### Description
+> *note:* Deprioritized this task with status-backend
 
 Ensure data before stable mesh do not skew results.
 Also, analyze Discv5 usage in this scenario.

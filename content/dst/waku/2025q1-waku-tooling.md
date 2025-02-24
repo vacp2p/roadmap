@@ -85,7 +85,7 @@ either with ports, and possibly different filters.
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-tooling:bandwidth-monitor-improvements`
 * owner: Wings
-* status: 0%
+* status: 95%
 * start-date: 2025/02/10
 * end-date: 2025/02/14
 
@@ -100,7 +100,45 @@ Document the test scenario.
 #### Deliverables
 - [ ] Repository:
 - [ ] PRs:
+  - https://github.com/vacp2p/10ksim/pull/53
 - [ ] Report with real example:
+  - [Notion Report](https://www.notion.so/Raw-bandwidth-sidecar-Update-19d8f96fb65c80deb38ad95614d3cf34)
+
+### Log parser extended
+
+* fully qualified name: `vac:dst:waku:2025q1-waku-tooling:log-parser-extended`
+* owner: Alberto
+* status: 0%
+* start-date: TBA
+* end-date: TBA
+
+#### Description
+Include [Waku FURPS](https://www.notion.so/Waku-FURPS-1498f96fb65c803faedef2a591c22c00#1508f96fb65c80a8abd6f5d37a273657) for a log parser debugging tool
+in the DST analysis framework.
+> *Note*: This needs more input from project
+
+#### Deliverables
+- [ ] Repository:
+- [ ] PRs:
+
+### Fixed topology
+
+* fully qualified name: `vac:dst:waku:2025q1-waku-tooling:fixed-topology`
+* owner: Alberto
+* status: 0%
+* start-date: 2025/02/24
+* end-date: 2025/03/14
+
+#### Description
+Create a generalized script that allows to create
+custom topologies connection of any p2p software.
+Would be good to consider both scenarios,
+as limiting the visibility of the software through networking,
+or creating the topology by software flags if it supports it.
+
+#### Deliverables
+- [ ] Repository:
+- [ ] PRs:
 
 ### General tooling (recurring)
 
@@ -120,5 +158,8 @@ Should be made general when possible.
   - Message distribution plot improvement: [PR](https://github.com/vacp2p/10ksim/pull/47)
   - Violin plot: [PR](https://github.com/vacp2p/10ksim/pull/51)
   - Outliers parameter: [PR](https://github.com/vacp2p/10ksim/pull/57)
+  - Scale values in boxplot: [PR](https://github.com/vacp2p/10ksim/pull/58)
+  - Waku publisher 1.0.1: [PR](https://github.com/vacp2p/10ksim/pull/59)
+  - Progress pod parse inprovement: [PR](https://github.com/vacp2p/10ksim/pull/60)
 
 ### Local metrics

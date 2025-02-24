@@ -63,7 +63,7 @@ to the Premier Research destination narrative by:
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-evaluation:regression-testing`
 * owner: Alberto
-* status: 0%
+* status: Ongoing
 * start-date: 2025-01-01
 * end-date: 2025-03-31
 
@@ -80,6 +80,7 @@ and ensure they don't happen again.
 * Analysis done
   * [Simulation length vs message delay](https://www.notion.so/Simulation-length-vs-message-delay-1858f96fb65c80f58b81dec6841764c6)
   * [nWaku v0.35 WIP](https://www.notion.so/Waku-regression-testing-v0-35-February-2025-1908f96fb65c802aaec6fdb5028a167b)
+  * [Lightpush Issue v0.35](https://www.notion.so/Lightpush-Unable-to-deserialize-1a08f96fb65c80c5ae3bc9f49ca01504)
 * Report published with all relevant details
 * Vac Roadmap updated regularly
   with links to the analysis and results.

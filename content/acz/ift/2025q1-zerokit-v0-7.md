@@ -115,6 +115,21 @@ A PR to the [Zerokit]((https://github.com/vacp2p/zerokit)) repository that conta
   - Add tests to verify the CLI works correctly with the new configuration handling.  
   - Ensure the new stateless example is well-documented so that developers can easily follow it
 
+### Zerokit maintaining
+
+* fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:zerokit-maintaining`
+* owner: Ekaterina
+* status: started (20%)
+* start-date: 2025/02/17
+* end-date: 2025/03/31
+
+#### Description
+
+This task encompasses all maintenance updates for Zerokit, including CI updates and the creation of future issues.
+
+#### Deliverables
+A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/). 
+
 ### Release v0.7
 
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:release`
@@ -130,3 +145,4 @@ that covers faster witness generation, posidon hash integration and update the R
 
 #### Deliverables
 A set of PRs to vacp2p/zerokit repository with [tag v0.7.0](https://github.com/vacp2p/zerokit/releases/tag/v0.7.0)
+

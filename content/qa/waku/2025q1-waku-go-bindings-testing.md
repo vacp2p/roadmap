@@ -89,3 +89,18 @@ and ensure reliable message storing across multiple nodes.
 * PR with store protocol tests
 * CI integration for store tests
 * Documentation for store test scenarios
+
+### Maintenance
+
+* fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:maintenance`
+* owner: aya
+* status: in progress (10%)
+* start-date: 2025/01/01
+* end-date: 2025/03/31
+
+#### Description
+Ongoing maintenance of Waku go bindings tests. 
+This includes updating tests for changes in the bindings or in `nwaku` or `gowaku`, addressing regressions, 
+investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
+
+#### Deliverables

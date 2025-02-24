@@ -114,7 +114,7 @@ Report findings.
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-evaluation:discovery-speed-time`
 * owner: Alberto
-* status: 50%
+* status: 100%
 * start-date: 2025-02-03
 * end-date: 2025-02-14
 
@@ -129,7 +129,7 @@ and what could be the improvements, if any.
 Report findings.
 
 #### Deliverables
-- Reports:
+- Reports: [Notion report](https://www.notion.so/Healthy-mesh-speed-19e8f96fb65c807399dad4abdcae3da5)
 - Related PRs if apply:
 
 ### Message latency

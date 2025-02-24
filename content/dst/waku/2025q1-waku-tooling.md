@@ -144,7 +144,7 @@ or creating the topology by software flags if it supports it.
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-tooling:general-tooling`
 * owner: Alberto
-* status: recurring
+* status: Ongoing
 * start-date: 2025/01/01
 * end-date: 2025/03/31
 
@@ -161,5 +161,6 @@ Should be made general when possible.
   - Scale values in boxplot: [PR](https://github.com/vacp2p/10ksim/pull/58)
   - Waku publisher 1.0.1: [PR](https://github.com/vacp2p/10ksim/pull/59)
   - Progress pod parse inprovement: [PR](https://github.com/vacp2p/10ksim/pull/60)
+  - Waku publisher 1.0.2: [PR](https://github.com/vacp2p/10ksim/pull/61)
 
 ### Local metrics

@@ -43,7 +43,7 @@ Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via impro
 
 * fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-maintenance:async-exceptions`
 * owner: vlado
-* status: 0%
+* status: 65%
 * start-date: 2025/02/10
 * end-date: 2025/02/27
 

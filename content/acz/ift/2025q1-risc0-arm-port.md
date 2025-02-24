@@ -34,7 +34,7 @@ We will also strengthen the Premier Research Destination narrative by:
 ## Initial porting
 * fully qualified name: `vac:acz:ift:2025q1-risc0-arm-port:initial-port`
 * owner: Romanzac
-* status: started (0%)
+* status: done
 * start-date: 2025/02/03
 * end-date: 2025/03/10
 

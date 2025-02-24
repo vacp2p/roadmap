@@ -53,7 +53,7 @@ It should also be adaptable to future testing needs.
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:relay`
 * owner: aya
-* status: in progress (90%)
+* status: done
 * start-date: 2025/01/20
 * end-date: 2025/02/25
 
@@ -63,15 +63,20 @@ These tests should mirror the approach used in `waku-interop-tests`
 and ensure reliable message propagation across multiple nodes.
 
 #### Deliverables
-* PR with relay protocol tests
-* CI integration for relay tests
-* Documentation for relay test scenarios
+PRs:
+* [Framework support](https://github.com/waku-org/waku-go-bindings/pull/29)
+* [Relay tests](https://github.com/waku-org/waku-go-bindings/pull/33)
+Issues:
+* [Cannot Unmarshal Array into messageHash of Type common.MessageHash](https://github.com/waku-org/waku-go-bindings/issues/24)
+* [Panic: sync: negative WaitGroup counter Occurs During Relay Peer Connection](https://github.com/waku-org/waku-go-bindings/issues/25)
+* [Message Received Despite Relay = false in Test TestMessageNotReceivedWithoutRelay](https://github.com/waku-org/waku-go-bindings/issues/28)
+* [Unhandled Exception When Sending Invalid Payload in Waku Relay Publish](https://github.com/waku-org/waku-go-bindings/issues/37)
 
 ### Store Protocol Testing
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:store`
 * owner: aya
-* status: in progress (30%)
+* status: in progress (50%)
 * start-date: 2025/02/10
 * end-date: 2025/03/10
 

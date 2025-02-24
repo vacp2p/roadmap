@@ -34,9 +34,9 @@ any identified gaps, and recommendations for improvement.
 
 * fully qualified name: `vac:qa:ift:2025q1-projects-qa-strategy:keycard`
 * owner: fbarbu15
-* status: not started
-* start-date: 
-* end-date: 
+* status: in progress (10%)
+* start-date: 17/02/2025
+* end-date: 21/02/2025
 
 #### Description
 Investigate and document Keycard QA strategy,

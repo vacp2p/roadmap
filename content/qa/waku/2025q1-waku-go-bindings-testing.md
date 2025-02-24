@@ -53,7 +53,7 @@ It should also be adaptable to future testing needs.
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:relay`
 * owner: aya
-* status: in progress (80%)
+* status: in progress (90%)
 * start-date: 2025/01/20
 * end-date: 2025/02/25
 
@@ -71,7 +71,7 @@ and ensure reliable message propagation across multiple nodes.
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:store`
 * owner: aya
-* status: in progress (20%)
+* status: in progress (30%)
 * start-date: 2025/02/10
 * end-date: 2025/03/10
 

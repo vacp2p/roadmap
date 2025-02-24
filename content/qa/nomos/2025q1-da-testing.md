@@ -29,7 +29,7 @@ Implement data availability test plans for the Nomos project at the cluster leve
 
 * fully qualified name: `vac:qa:nomos:2025q1-da-testing:data-integrity-tests`
 * owner: romanzac
-* status: in progress (90%)
+* status: done
 * start-date: 2025/01/06
 * end-date: 2025/01/17
 
@@ -38,15 +38,17 @@ Add integration tests focusing on the system's ability
 to reconstruct or retrieve data.
 
 #### Deliverables
-* PR link with added tests
-* CI runs showing successful or failed executions with detailed reports
-
+- [Test/data availability and integrity](https://github.com/logos-co/nomos-e2e-tests/pull/2)
+- [Sync data availability and integrity tests with latest Nomos node changes](https://github.com/logos-co/nomos-e2e-tests/pull/3)
+- [Change Dockerfile for testnet image to enable block production](https://github.com/logos-co/nomos-node/pull/1041)
+- [Add reconstruct command to nomos-cli](https://github.com/logos-co/nomos-node/pull/994)
+- [CI workflow](https://github.com/logos-co/nomos-e2e-tests/actions/runs/13362639336)
 
 ### Networking and Privacy Tests
 
 * fully qualified name: `vac:qa:nomos:2025q1-da-testing:networking-privacy`
 * owner: romanzac
-* status: in progress (10%)
+* status: in progress (20%)
 * start-date: 2025/01/20 
 * end-date: 2025/02/21
 

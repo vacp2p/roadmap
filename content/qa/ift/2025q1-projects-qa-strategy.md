@@ -34,13 +34,12 @@ any identified gaps, and recommendations for improvement.
 
 * fully qualified name: `vac:qa:ift:2025q1-projects-qa-strategy:keycard`
 * owner: fbarbu15
-* status: in progress (10%)
+* status: done
 * start-date: 17/02/2025
 * end-date: 21/02/2025
 
 #### Description
-Investigate and document Keycard QA strategy,
-identify gaps, and provide recommendations for improvements.
+- QA strategy [notion page](https://www.notion.so/Project-QA-Strategy-1a18f96fb65c80689519caade523397d)
 
 #### Deliverables
 * Link with Notion page
@@ -49,7 +48,7 @@ identify gaps, and provide recommendations for improvements.
 
 * fully qualified name: `vac:qa:ift:2025q1-projects-qa-strategy:nimbus`
 * owner: fbarbu15
-* status: not started
+* status: in progress (10%)
 * start-date: 
 * end-date: 
 
@@ -80,7 +79,7 @@ Include detailed processes, how-to guides, and framework-specific documentation 
 
 * fully qualified name: `vac:qa:ift:2025q1-projects-qa-strategy:qa-rfc-sync`
 * owner: fbarbu15
-* status: not started
+* status: in progress (40%)
 * start-date: 2025/01/06
 * end-date: 2025/03/31
 
@@ -90,4 +89,5 @@ coordinate tasks, and ensure alignment between testing and RFC specifications.
 Conduct periodic checks of codebases and collaborate with RFC contributors to address necessary updates.
 
 #### Deliverables
-* Shared Notion page for tracking QA and RFC updates
+* [Shared Notion page for tracking QA and Waku RFC updates](https://www.notion.so/RFC-QA-Sync-Table-1a18f96fb65c8088b2ccfa6aaebd708d)
+* [Waku RFC <> Implementation and test coverage page](https://www.notion.so/RFC-Implementation-and-test-coverage-1a18f96fb65c805c8bf3ca1fc04234b1)

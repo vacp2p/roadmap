@@ -48,7 +48,7 @@ to reconstruct or retrieve data.
 
 * fully qualified name: `vac:qa:nomos:2025q1-da-testing:networking-privacy`
 * owner: romanzac
-* status: in progress (20%)
+* status: done
 * start-date: 2025/01/20 
 * end-date: 2025/02/21
 
@@ -56,15 +56,13 @@ to reconstruct or retrieve data.
 Add integration tests focusing on the privacy of the data in transit
 
 #### Deliverables
-* PR link with added tests
-* CI runs showing successful or failed executions with detailed reports
-
+- [Test/networking and privacy](https://github.com/logos-co/nomos-e2e-tests/pull/4)
 
 ### Denial of Service (DoS) and Robustness Testing
 
 * fully qualified name: `vac:qa:nomos:2025q1-da-testing:dos-robustness`
 * owner: romanzac
-* status: not started
+* status: in progress (10%)
 * start-date: 2025/02/24
 * end-date: 2025/03/21
 

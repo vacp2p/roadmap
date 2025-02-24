@@ -87,7 +87,7 @@ after a network reconnection.
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:ip-change`
 * owner: fbarbu15
-* status: in progress (60%)
+* status: in progress (80%)
 * start-date: 2025/02/10
 * end-date: 2025/02/17
 
@@ -101,8 +101,8 @@ and if message flow resumes after such event.
 ### Wakuext One To One Messages
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:wakuext-one-to-one-message`
-* owner: radoslaw
-* status: in progress (10%)
+* owner: radek
+* status: done
 * start-date: 2025/02/17
 * end-date: 2025/02/24
 
@@ -110,13 +110,13 @@ and if message flow resumes after such event.
 Perform functional tests to validate [wakuext_sendOneToOneMessage](https://github.com/status-im/status-go/issues/6084) endpoint. 
 
 #### Deliverables
-* PR with new test cases
+* [test_: refactor default messaging scenario](https://github.com/status-im/status-go/pull/6351)
 
 ### Wakuext Chat Messages
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:wakuext-chat-message`
-* owner: radoslaw
-* status: not started
+* owner: radek
+* status: in progress (15%)
 * start-date: 2025/02/25
 * end-date: 2025/03/14
 
@@ -124,12 +124,12 @@ Perform functional tests to validate [wakuext_sendOneToOneMessage](https://githu
 Perform tests functional tests to validate all [wakuext chat messages](https://github.com/status-im/status-go/issues/6084) endpoints. 
 
 #### Deliverables
-* PR with new test cases
+* [test_: Tests for wakuext messages 1](https://github.com/status-im/status-go/pull/6356)
 
 ### Other Message Endpoints
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:other-message-ep`
-* owner: radoslaw
+* owner: radek
 * status: not started
 * start-date: 2025/03/17
 * end-date: 2025/03/31

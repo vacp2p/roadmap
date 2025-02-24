@@ -43,11 +43,13 @@ for users looking to integrate RLN into their projects.
 
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:rln-wasm`
 * owner: Ekaterina
-* status: not started 
+* status: on-hold
 * start-date: 2025/01/27
 * end-date: 2025/02/03
 
 #### Description
+
+This task is on hold until the next quarter q2-2025 since It is planned to exclude Zerokit version 0.7. 
 
 Regarding the [issue 271](https://github.com/vacp2p/zerokit/issues/271), 
 rln wasm is revisited for performance analysis and updated by dependencies and gatherin new benchmarks.
@@ -80,7 +82,7 @@ A [PR](https://github.com/vacp2p/zerokit/pull/276) to the zerokit repository.
 
 * fully qualified name:  `vac:acz:ift:2025q1-zerokit-v0-7:rln-cli`
 * owner: Vinh
-* status: started (40%)
+* status: started (80%)
 * start-date: 2025/02/11
 * end-date: 2025/02/24
 
@@ -117,7 +119,7 @@ A PR to the [Zerokit]((https://github.com/vacp2p/zerokit)) repository that conta
 
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:release`
 * owner: Ekaterina
-* status: not started
+* status: started (20%)
 * start-date: 2025/03/24
 * end-date: 2025/03/31
 

@@ -95,7 +95,7 @@ Update and reorganize the RFC with the single and multi admin options.
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:waku-node-connection`
 * owner: Ekaterina
-* status: started (40%)
+* status: started (80%)
 * start-date: 2025/01/20
 * end-date: 2025/02/24
 

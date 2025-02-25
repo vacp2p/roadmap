@@ -130,6 +130,29 @@ This task encompasses all maintenance updates for Zerokit, including CI updates 
 #### Deliverables
 A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/). 
 
+### Reviewing utility functions
+
+* fully qualified name:  `vac:acz:ift:2025q1-zerokit-v0-7:review-util-func`
+* owner: Vinh
+* status: not started 
+* start-date: 2025/02/26
+* end-date: 2025/03/07
+
+ #### Description
+
+Reviewing the utility functions in rln/src/utils.rs based on the [issue #279](https://github.com/vacp2p/zerokit/issues/279), 
+which are used across various serialization functions and tested in rln/tests/protocol.rs. 
+Assess whether all of these functions are necessary and identify any that may be redundant or obsolete.
+
+#### Deliverables 
+
+A PR to the [Zerokit]((https://github.com/vacp2p/zerokit)) repository that contains as follows:
+
+- Analyze the usage of each function in `utils.rs` to determine if they are all needed.  
+- Check if any functionality is redundant or can be optimized.  
+- Consider simplifying or removing unused functions if possible.  
+
+
 ### Release v0.7
 
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:release`

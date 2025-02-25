@@ -42,7 +42,7 @@ We will also strengthen the Premier Research Destination narrative by:
 Releasing initial porting RISC0 to ARM. 
 
 ### Deliverables
-- Several PR to the [vacp2p repo](https://github.com/vacp2p).
+- A [document](https://www.notion.so/Nomos-on-ARM-Linux-Risc0-v1-3pre-1a48f96fb65c80c0b8cde64c87c6e4cb) on how the risc0-arm is used. 
 
 ## Maintenance
 * fully qualified name: `vac:acz:ift:2025q1-risc0-arm-port:maintenance`

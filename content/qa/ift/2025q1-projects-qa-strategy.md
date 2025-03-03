@@ -74,6 +74,7 @@ Include detailed processes, how-to guides, and framework-specific documentation 
 
 #### Deliverables
 * [Go waku bindings test framework](https://www.notion.so/1898f96fb65c8025b9fcfadca3827d51?v=1898f96fb65c80f1babd000c458064be)
+* [Nomos on ARM/Linux](https://www.notion.so/Nomos-on-ARM-Linux-Risc0-v1-3pre-1a48f96fb65c80c0b8cde64c87c6e4cb)
 
 ### Synchronize QA and RFC Processes
 

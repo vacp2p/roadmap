@@ -26,7 +26,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:nomos:2025q1-e2e-testing:maintenance`
 * owner: romanzac
-* status: in progress (50%)
+* status: in progress (60%)
 * start-date: 2025/01/01
 * end-date: 2025/03/31
 
@@ -41,3 +41,5 @@ investigating and resolving issues, and implementing minor improvements to the t
 * [chore: Add LogOutput and LogLevel property to Cfgsync config](https://github.com/logos-co/nomos-node/pull/978)
 * [chore: Add reconstruct command to nomos-cli](https://github.com/logos-co/nomos-node/pull/994)
 * Consensus is working reported to Risc0 project. Issues with failing tests to be resolved with Nomos devs once Risc0 v1.3 is released.
+* [chore: Update nomos-cli reconstruct to work with DaBlob](https://github.com/logos-co/nomos-node/pull/1080)
+* [chore: Collect more insight for data dispersal](https://github.com/logos-co/nomos-e2e-tests/pull/6)

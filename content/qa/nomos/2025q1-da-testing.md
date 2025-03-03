@@ -62,7 +62,7 @@ Add integration tests focusing on the privacy of the data in transit
 
 * fully qualified name: `vac:qa:nomos:2025q1-da-testing:dos-robustness`
 * owner: romanzac
-* status: in progress (10%)
+* status: in progress (20%)
 * start-date: 2025/02/24
 * end-date: 2025/03/21
 

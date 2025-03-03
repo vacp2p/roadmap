@@ -43,15 +43,18 @@ Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via impro
 
 * fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-maintenance:async-exceptions`
 * owner: vlado
-* status: 90%
+* status: 85%
 * start-date: 2025/02/10
-* end-date: 2025/02/27
+* end-date: 2025/03/07
 
 #### Description
 Specify exceptions being raised in `{.async.}` functions. See [nimlibp2p#962](https://github.com/vacp2p/nim-libp2p/issues/962)
 
 #### Deliverables
 - PR:
+  - chore(protocols): specify raised exceptions (part 2) [nim-libp2p#1268](https://github.com/vacp2p/nim-libp2p/pull/1268)
+  - chore: specify raised exceptions in miscellaneous places [nim-libp2p#1269](https://github.com/vacp2p/nim-libp2p/pull/1269)
+  - chore(transports): specify raised exceptions [nim-libp2p#1266](https://github.com/vacp2p/nim-libp2p/pull/1266)
   - chore(dialer): list raised exceptions [PR#1264](https://github.com/vacp2p/nim-libp2p/pull/1264)
   - chore(connmanager): specify raised exceptions [PR#1263](https://github.com/vacp2p/nim-libp2p/pull/1263)
   - chore(protocol): list raised exceptions [PR#1260](https://github.com/vacp2p/nim-libp2p/pull/1260)

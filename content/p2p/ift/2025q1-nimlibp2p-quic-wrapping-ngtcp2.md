@@ -31,7 +31,7 @@ The development of a native Nim implementation of QUIC will be addressed in a fu
 
 * fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-wrapping-ngtcp2:tls_handshake`
 * owner: rramos
-* status: 65%
+* status: 75%
 * start-date: 2025/26/01
 * end-date:
 
@@ -50,7 +50,7 @@ ngtcp2
 
 * fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-wrapping-ngtcp2:certificate_validation`
 * owner: rramos
-* status: 5%
+* status: 20%
 * start-date: 2025/05/02
 * end-date:
 
@@ -61,7 +61,7 @@ This work should be built based on [nim-libp2p#1209](https://github.com/vacp2p/n
 #### Deliverables
 - [ ] PRs:
   - Generate and parse TLS 1.3 Certificate: [PR](https://github.com/vacp2p/nim-libp2p/pull/1209)
-
+  - Implement custom certificate validators: [PR](https://github.com/vacp2p/nim-quic/pull#56)
 
 ### Improve QUIC transport code
 

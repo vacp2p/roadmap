@@ -76,7 +76,7 @@ Issues:
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:store`
 * owner: aya
-* status: in progress (50%)
+* status: in progress (75%)
 * start-date: 2025/02/10
 * end-date: 2025/03/10
 
@@ -86,15 +86,15 @@ These tests should mirror the approach used in `waku-interop-tests`
 and ensure reliable message storing across multiple nodes.
 
 #### Deliverables
-* PR with store protocol tests
-* CI integration for store tests
-* Documentation for store test scenarios
+* [PR: Store tests](https://github.com/waku-org/waku-go-bindings/pull/43)
+* [Bug: Can't pause & resume nodes](https://github.com/waku-org/waku-go-bindings/issues/40)
+* [Bug: Legacy store not working](https://github.com/waku-org/waku-go-bindings/issues/41)
 
 ### Maintenance
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:maintenance`
 * owner: aya
-* status: in progress (10%)
+* status: in progress (20%)
 * start-date: 2025/01/01
 * end-date: 2025/03/31
 
@@ -104,3 +104,20 @@ This includes updating tests for changes in the bindings or in `nwaku` or `gowak
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
+* [Bug: issue with Retrieving Stored Messages on Pubsub Topic for Shard 8](https://github.com/waku-org/waku-go-bindings/issues/44)
+
+### Connection
+
+* fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:connection`
+* owner: radek
+* status: in progress (10%)
+* start-date: 2025/03/03
+* end-date: 2025/03/10
+
+#### Description
+Create tests focusing on Discv5 peer discovery and direct peer connections.
+More info [here](https://www.notion.so/go-bindings-Task-1a68f96fb65c804d949ffc53ef77f86b)
+
+#### Deliverables
+* PR
+  

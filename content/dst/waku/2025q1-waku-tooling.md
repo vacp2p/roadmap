@@ -162,5 +162,6 @@ Should be made general when possible.
   - Waku publisher 1.0.1: [PR](https://github.com/vacp2p/10ksim/pull/59)
   - Progress pod parse inprovement: [PR](https://github.com/vacp2p/10ksim/pull/60)
   - Waku publisher 1.0.2: [PR](https://github.com/vacp2p/10ksim/pull/61)
+  - Lightpush in dataframes: [PR](https://github.com/vacp2p/10ksim/pull/62)
 
 ### Local metrics

@@ -79,7 +79,7 @@ A blogpost to [vac.dev/rlog/](https://vac.dev/rlog/)
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:multi-admin-rfc`
 * owner: Ugur
-* status: started (30%)
+* status: started (40%)
 * start-date: 2025/01/13
 * end-date: 2025/01/27
 
@@ -212,7 +212,7 @@ with a new CI pipeline for the repository that includes the waku node.
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:consensus-research`
 * owner: Ugur
-* status: not started
+* status: started (20%)
 * start-date: 2025/02/10
 * end-date: 2025/02/24
 

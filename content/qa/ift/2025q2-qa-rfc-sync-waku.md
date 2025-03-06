@@ -1,17 +1,21 @@
 ---
+
 title: QA & RFC Synchronization for Waku Project
 tags:
   - "2025q2"
   - "qa"
   - "ift"
 draft: false
-description: Expand and formalize the QA & RFC synchronization process across all Waku Implemenatations, 
-ensuring that protocol implementations match specifications and have adequate test coverage.
+description: Expand and formalize the QA & RFC synchronization process across all Waku Implemenatations.
+
 ---
 
 `vac:qa:ift:2025q2-qa-rfc-sync-waku`
 
 ## Description
+Expand and formalize the QA & RFC synchronization process across all Waku Implemenatations, 
+ensuring that protocol implementations match specifications and have adequate test coverage.
+
 Building on the previous quarter's efforts, 
 this commitment focuses on systematically reviewing each IFT-related repository 
 to ensure protocol implementations match the corresponding RFCs. 

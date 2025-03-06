@@ -101,6 +101,23 @@ Implementation a simple gossipsub PoC over Waku the mixnet.
 
 * PR to vacp2p/mix repo 
 
+### IFT Research Call Preparation
+
+* fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:ift-research-call-prep`
+* owner: Akshaya
+* status: started (0%)
+* start-date: 2025/02/17
+* end-date: 2025/02/28
+
+#### Description
+
+Preparation for the IFT research call on 26th of February. 
+
+#### Deliverables
+
+* A presentation that describes the mixnet RFC and implementation point of view in 
+[notion](https://www.notion.so/Applied-Cryptography-ZK-870520f131954b90b1837ec4749f890f?pvs=4#12d8f96fb65c80f49f11e8e6fe7fc974)
+
 ### Blogposts
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:blogposts`

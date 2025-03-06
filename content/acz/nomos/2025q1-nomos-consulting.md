@@ -110,7 +110,7 @@ to make sure that the document can be followed by a general user.
 ### Zk Consulting Nomos 5
 * fully qualified name: `vac:acz:nomos:2025q1-nomos-consulting:zk-consulting-nomos-5`
 * owner: Marvin
-* status: started (80%)
+* status: done
 * start-date: 2025/2/07
 * end-date: 2025/2/21
 
@@ -121,12 +121,27 @@ This entails checking the probabilistic arguments and presentation to make sure 
 ### Zk Consulting Nomos 6
 * fully qualified name: `vac:acz:nomos:2025q1-nomos-consulting:zk-consulting-nomos-6`
 * owner: Marvin
-* status: started (0%)
+* status: started (80%)
 * start-date: 2025/2/24
 * end-date: 2025/3/07
 
 ### Description
 Provide feedback Nomos' document [analysis of anonymity](https://www.notion.so/Analysis-of-anonymity-12f8f96fb65c8134b3f4d9a091c02408). 
+This entails checking the probabilistic arguments and presentation to make sure that the document can be followed by a general user.
+
+### Deliverables
+- Provide comments for Nomos team to address in the document (and corresponding overleaf).
+- Add proofs to these documents as needed.
+
+## Zk Consulting Nomos 7
+fully qualified name: `vac:acz:ift:2024q1-think-tank:zk-consulting-nomos-4`
+owner: Marvin
+status: started (0%)
+start-date: 2025/3/10
+end-date: 2025/3/21
+
+### Description
+Provide feedback Nomos' document [broadcasting on trees](https://www.notion.so/Broadcasting-on-Trees-1578f96fb65c803ea935d9b8c803cbe4). 
 This entails checking the probabilistic arguments and presentation to make sure that the document can be followed by a general user.
 
 ### Deliverables

@@ -6,6 +6,26 @@ tags:
 
 ---
 
+## 2025q2 `vac:qa:`
+---
+
+### `ift:`
+* [[qa/ift/2025q2-qa-rfc-sync-waku|qa-rfc-sync-waku ]]
+
+### `vac:`
+* [[qa/vac/2025q2-nim-libp2p-testing|nim-libp2p-testing ]]
+
+### `waku:`
+* [[qa/waku/2025q2-interop-testing|interop-testing ]]
+* [[qa/waku/2025q2-waku-go-bindings-testing|waku-go-bindings-testing ]]
+* [[qa/waku/2025q2-messaging-api-testing|messaging-api-testing ]]
+* [[qa/waku/2025q2-status-go-functional-testing|status-go-functional-testing ]]
+* 
+### `nomos:`
+* [[qa/nomos/2025q2-da-testing|da-testing ]]
+* [[qa/nomos/2025q2-e2e-testing|e2e-testing ]]
+---
+
 ## 2025q1 `vac:qa:`
 ---
 

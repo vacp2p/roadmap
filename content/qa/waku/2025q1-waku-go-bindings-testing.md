@@ -120,4 +120,33 @@ More info [here](https://www.notion.so/go-bindings-Task-1a68f96fb65c804d949ffc53
 
 #### Deliverables
 * PR
-  
+
+### Endurance
+
+* fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:endurance`
+* owner: aya
+* status: not started
+* start-date: 2025/03/10
+* end-date: 2025/03/20
+
+#### Description
+Create an endurance tests suite where we invoke waku functions thousand times 
+and then making sure the memory doesn't grow, while waku still performs as expected.
+
+#### Deliverables
+* PR
+
+### CI
+
+* fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:ci`
+* owner: aya
+* status: not started
+* start-date: 2025/03/20
+* end-date: 2025/03/30
+
+#### Description
+Create a github actions workflow that runs the tests each night.
+
+#### Deliverables
+* PR
+* Github Actions Run

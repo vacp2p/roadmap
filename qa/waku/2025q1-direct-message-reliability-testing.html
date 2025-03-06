@@ -76,7 +76,7 @@ after a network reconnection.</p>
 <ul>
 <li>fully qualified name: <code>vac:qa:waku:2025q1-direct-message-reliability-testing:ip-change</code></li>
 <li>owner: fbarbu15</li>
-<li>status: in progress (80%)</li>
+<li>status: done</li>
 <li>start-date: 2025/02/10</li>
 <li>end-date: 2025/02/17</li>
 </ul>
@@ -85,7 +85,8 @@ after a network reconnection.</p>
 and if message flow resumes after such event.</p>
 <h4 id="deliverables-3">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-3" class="internal"> §</a></h4>
 <ul>
-<li>PRs with new test cases</li>
+<li><a href="https://github.com/status-im/status-go/pull/6336" class="external">test: ip change</a></li>
+<li><a href="https://github.com/status-im/status-go/pull/6376" class="external">test: ipv6 support</a></li>
 </ul>
 <h3 id="wakuext-one-to-one-messages">Wakuext One To One Messages<a aria-hidden="true" tabindex="-1" href="#wakuext-one-to-one-messages" class="internal"> §</a></h3>
 <ul>
@@ -105,7 +106,7 @@ and if message flow resumes after such event.</p>
 <ul>
 <li>fully qualified name: <code>vac:qa:waku:2025q1-direct-message-reliability-testing:wakuext-chat-message</code></li>
 <li>owner: radek</li>
-<li>status: in progress (15%)</li>
+<li>status: in progress (50%)</li>
 <li>start-date: 2025/02/25</li>
 <li>end-date: 2025/03/14</li>
 </ul>
@@ -114,6 +115,8 @@ and if message flow resumes after such event.</p>
 <h4 id="deliverables-5">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-5" class="internal"> §</a></h4>
 <ul>
 <li><a href="https://github.com/status-im/status-go/pull/6356" class="external">test_: Tests for wakuext messages 1</a></li>
+<li><a href="https://github.com/status-im/status-go/pull/6374" class="external">test_: Tests for wakuext messages 2</a></li>
+<li><a href="https://github.com/status-im/status-go/pull/6380" class="external">test_: Tests for wakuext messages 3</a></li>
 </ul>
 <h3 id="other-message-endpoints">Other Message Endpoints<a aria-hidden="true" tabindex="-1" href="#other-message-endpoints" class="internal"> §</a></h3>
 <ul>
@@ -128,6 +131,21 @@ and if message flow resumes after such event.</p>
 <h4 id="deliverables-6">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-6" class="internal"> §</a></h4>
 <ul>
 <li>PR with new test cases</li>
+</ul>
+<h3 id="community-join-leave">Community Join Leave<a aria-hidden="true" tabindex="-1" href="#community-join-leave" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>vac:qa:waku:2025q1-direct-message-reliability-testing:community-join-leave</code></li>
+<li>owner: fbarbu15</li>
+<li>status: in progress (70%)</li>
+<li>start-date: 2025/02/28</li>
+<li>end-date: 2025/03/05</li>
+</ul>
+<h4 id="description-8">Description<a aria-hidden="true" tabindex="-1" href="#description-8" class="internal"> §</a></h4>
+<p>Perform tests to validate how community joining and leaving behaves.
+Do the tests with multiple iterations, and applied network conditions.</p>
+<h4 id="deliverables-7">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-7" class="internal"> §</a></h4>
+<ul>
+<li>PR</li>
 </ul></article></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
 	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
 	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
@@ -138,7 +156,7 @@ and if message flow resumes after such event.</p>
 	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
 	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
 	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
-	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#description" data-for="description">Description</a></li><li class="depth-0"><a href="#task-list" data-for="task-list">Task List</a></li><li class="depth-1"><a href="#functional-testing-for-direct-messages" data-for="functional-testing-for-direct-messages">Functional Testing for Direct Messages</a></li><li class="depth-1"><a href="#reliability-testing-under-degraded-network-conditions" data-for="reliability-testing-under-degraded-network-conditions">Reliability Testing Under Degraded Network Conditions</a></li><li class="depth-1"><a href="#rate-limit-testing" data-for="rate-limit-testing">Rate Limit Testing</a></li><li class="depth-1"><a href="#ip-change-testing" data-for="ip-change-testing">IP Change Testing</a></li><li class="depth-1"><a href="#wakuext-one-to-one-messages" data-for="wakuext-one-to-one-messages">Wakuext One To One Messages</a></li><li class="depth-1"><a href="#wakuext-chat-messages" data-for="wakuext-chat-messages">Wakuext Chat Messages</a></li><li class="depth-1"><a href="#other-message-endpoints" data-for="other-message-endpoints">Other Message Endpoints</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li><a href="../../qa/" class="internal">QA Service Unit</a></li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.1.0</a>, © 2025</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#description" data-for="description">Description</a></li><li class="depth-0"><a href="#task-list" data-for="task-list">Task List</a></li><li class="depth-1"><a href="#functional-testing-for-direct-messages" data-for="functional-testing-for-direct-messages">Functional Testing for Direct Messages</a></li><li class="depth-1"><a href="#reliability-testing-under-degraded-network-conditions" data-for="reliability-testing-under-degraded-network-conditions">Reliability Testing Under Degraded Network Conditions</a></li><li class="depth-1"><a href="#rate-limit-testing" data-for="rate-limit-testing">Rate Limit Testing</a></li><li class="depth-1"><a href="#ip-change-testing" data-for="ip-change-testing">IP Change Testing</a></li><li class="depth-1"><a href="#wakuext-one-to-one-messages" data-for="wakuext-one-to-one-messages">Wakuext One To One Messages</a></li><li class="depth-1"><a href="#wakuext-chat-messages" data-for="wakuext-chat-messages">Wakuext Chat Messages</a></li><li class="depth-1"><a href="#other-message-endpoints" data-for="other-message-endpoints">Other Message Endpoints</a></li><li class="depth-1"><a href="#community-join-leave" data-for="community-join-leave">Community Join Leave</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li><a href="../../qa/" class="internal">QA Service Unit</a></li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.1.0</a>, © 2025</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
 function toggleCallout() {
   const outerBlock = this.parentElement;
   outerBlock.classList.toggle(`is-collapsed`);

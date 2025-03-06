@@ -13,7 +13,7 @@ description: Expand protocol coverage for waku-go-bindings
 ## Description
 Expand protocol coverage for `waku-go-bindings` with filter and lightpush tests.
 
-The framework should cover those protcols like in `waku-interop-tests`. 
+The framework should cover those protocols as they are covered in `waku-interop-tests`
 
 **Alignment with VAC Narratives:**
 

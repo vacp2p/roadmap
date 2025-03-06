@@ -1,5 +1,5 @@
 ---
-title: waku-go-bindings-testing Testing Framework
+title: waku-go-bindings Testing 
 tags:
   - "2025q2"
   - "qa"

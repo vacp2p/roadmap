@@ -89,7 +89,7 @@ Implementation of the MixEntry and MixExit abstractions for the Mixnet.
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:simple-gossipsub-poc`
 * owner: Akshaya
-* status: started (20%)
+* status: started (80%)
 * start-date: 2025/02/10
 * end-date: 2025/02/24
 
@@ -105,7 +105,7 @@ Implementation a simple gossipsub PoC over Waku the mixnet.
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:ift-research-call-prep`
 * owner: Akshaya
-* status: started (0%)
+* status: started (70%)
 * start-date: 2025/02/17
 * end-date: 2025/02/28
 

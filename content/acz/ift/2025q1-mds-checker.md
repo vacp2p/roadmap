@@ -65,7 +65,7 @@ with an MDS matrix and checking the matrix security for P-SP-networks efficientl
 
 * fully qualified name: `vac:acz:ift:2025q1-mds-checker:blogpost-mds`
 * owner: Aleksei
-* status: started (0%)
+* status: started (85%)
 * start-date: 2025/02/12
 * end-date: 2025/02/28
 
@@ -79,5 +79,5 @@ based on the findings presented in the article.
 
 #### Deliverables
 
-A blogpost to [vac.dev/rlog/](https://vac.dev/rlog/)
+A [PR](https://github.com/vacp2p/vac.dev/pull/164) to [vac.dev/rlog/](https://vac.dev/rlog/)
 

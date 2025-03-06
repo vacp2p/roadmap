@@ -87,7 +87,7 @@ after a network reconnection.
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:ip-change`
 * owner: fbarbu15
-* status: in progress (80%)
+* status: done
 * start-date: 2025/02/10
 * end-date: 2025/02/17
 
@@ -96,7 +96,8 @@ Perform tests to validate how status-backend handes ip change
 and if message flow resumes after such event.
 
 #### Deliverables
-* PRs with new test cases
+* [test: ip change](https://github.com/status-im/status-go/pull/6336)
+* [test: ipv6 support](https://github.com/status-im/status-go/pull/6376)
 
 ### Wakuext One To One Messages
 
@@ -116,7 +117,7 @@ Perform functional tests to validate [wakuext_sendOneToOneMessage](https://githu
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:wakuext-chat-message`
 * owner: radek
-* status: in progress (15%)
+* status: in progress (50%)
 * start-date: 2025/02/25
 * end-date: 2025/03/14
 
@@ -125,6 +126,8 @@ Perform tests functional tests to validate all [wakuext chat messages](https://g
 
 #### Deliverables
 * [test_: Tests for wakuext messages 1](https://github.com/status-im/status-go/pull/6356)
+* [test_: Tests for wakuext messages 2](https://github.com/status-im/status-go/pull/6374)
+* [test_: Tests for wakuext messages 3](https://github.com/status-im/status-go/pull/6380)
 
 ### Other Message Endpoints
 
@@ -139,3 +142,18 @@ Perform functional tests to validate all [remaining message](https://github.com/
 
 #### Deliverables
 * PR with new test cases
+
+### Community Join Leave
+
+* fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:community-join-leave`
+* owner: fbarbu15
+* status: in progress (70%)
+* start-date: 2025/02/28
+* end-date: 2025/03/05
+
+#### Description
+Perform tests to validate how community joining and leaving behaves.
+Do the tests with multiple iterations, and applied network conditions.
+
+#### Deliverables
+* PR

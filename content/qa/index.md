@@ -20,7 +20,7 @@ tags:
 * [[qa/waku/2025q2-waku-go-bindings-testing|waku-go-bindings-testing ]]
 * [[qa/waku/2025q2-messaging-api-testing|messaging-api-testing ]]
 * [[qa/waku/2025q2-status-go-functional-testing|status-go-functional-testing ]]
-* 
+
 ### `nomos:`
 * [[qa/nomos/2025q2-da-testing|da-testing ]]
 * [[qa/nomos/2025q2-e2e-testing|e2e-testing ]]

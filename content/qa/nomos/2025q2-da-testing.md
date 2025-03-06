@@ -50,7 +50,8 @@ Add integration tests to verify DA works well with other blockchain components.
 * end-date: 2025/05/16
 
 #### Description
-Add integration tests to verify correct interaction of the internal DA components to ensure correct data flow and end-to-end processing.
+Add integration tests to verify correct interaction of the internal DA components 
+to ensure correct data flow and end-to-end processing.
 
 #### Deliverables
 * PR link with added tests
@@ -66,7 +67,8 @@ Add integration tests to verify correct interaction of the internal DA component
 * end-date: 2025/06/6
 
 #### Description
-Add integration tests to verify data confidentiality, ensuring secure communications, and controlling unauthorized access.
+Add integration tests to verify data confidentiality, 
+ensuring secure communications, and controlling unauthorized access.
 
 #### Deliverables
 * PR link with added tests
@@ -82,7 +84,8 @@ Add integration tests to verify data confidentiality, ensuring secure communicat
 * end-date: 2025/06/30
 
 #### Description
-Add integration tests to verify the robustness of internal processes against tampering or malformed inputs and maintaining the integrity of the data handling mechanisms.
+Add integration tests to verify the robustness of internal processes against tampering or malformed inputs 
+and maintaining the integrity of the data handling mechanisms.
 
 #### Deliverables
 * PR link with added tests

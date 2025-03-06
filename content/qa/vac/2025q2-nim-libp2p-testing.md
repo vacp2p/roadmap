@@ -41,7 +41,7 @@ Improve tooling around nim libp2p testing.
 * end-date: 
 
 #### Description
-In 2025 Q1, expand Gossipsub test coverage to include more advanced
+In 2025 Q2, expand Gossipsub test coverage to include more advanced
 and edge-case scenarios that go beyond core functionality.
 This will cover additional use cases and less common interactions within the protocol,
 ensuring the robustness of Gossipsub in a wider range of environments.
@@ -91,7 +91,7 @@ checking what’s not covered, and implementing new tests for those scenarios.
 * end-date: 
 
 #### Description
-Add new test plans for identify / push identify, ping, mplex multiplexer,
+Update and add new test plans for identify / push identify, ping, mplex multiplexer,
 and others to be determined later.
 
 #### Deliverables

@@ -25,16 +25,16 @@ Note: This commitment is being deferred to Q2 to avoid overcommitting, but tasks
 ## Task List
 
 
-### Message tests
+### Chat actions tests
 
-* fully qualified name: `vac:qa:waku:2025q2-status-go-functional-testing:message-tests`
+* fully qualified name: `vac:qa:waku:2025q2-status-go-functional-testing:chat-actions-tests`
 * owner: fbarbu15
 * status: not started
 * start-date: 
 * end-date: 
 
 #### Description
-Cover the core functionality of Status related to [wakuext messages](https://github.com/status-im/status-go/issues/6084)
+Cover the core functionality of Status related to [wakuext messages](https://github.com/status-im/status-go/issues/6072)
 
 #### Deliverables
 * PRs with the new tests

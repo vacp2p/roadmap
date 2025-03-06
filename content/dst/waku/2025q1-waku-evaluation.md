@@ -79,7 +79,7 @@ and ensure they don't happen again.
 #### Deliverables
 * Analysis done
   * [Simulation length vs message delay](https://www.notion.so/Simulation-length-vs-message-delay-1858f96fb65c80f58b81dec6841764c6)
-  * [nWaku v0.35 WIP](https://www.notion.so/Waku-regression-testing-v0-35-February-2025-1908f96fb65c802aaec6fdb5028a167b)
+  * [nWaku v0.35](https://www.notion.so/Waku-regression-testing-v0-35-February-2025-1908f96fb65c802aaec6fdb5028a167b)
   * [Lightpush Issue v0.35](https://www.notion.so/Lightpush-Unable-to-deserialize-1a08f96fb65c80c5ae3bc9f49ca01504)
 * Report published with all relevant details
 * Vac Roadmap updated regularly

@@ -125,7 +125,7 @@ in the DST analysis framework.
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-tooling:fixed-topology`
 * owner: Alberto
-* status: 0%
+* status: 10%
 * start-date: 2025/02/24
 * end-date: 2025/03/14
 
@@ -160,7 +160,8 @@ Should be made general when possible.
   - Outliers parameter: [PR](https://github.com/vacp2p/10ksim/pull/57)
   - Scale values in boxplot: [PR](https://github.com/vacp2p/10ksim/pull/58)
   - Waku publisher 1.0.1: [PR](https://github.com/vacp2p/10ksim/pull/59)
-  - Progress pod parse inprovement: [PR](https://github.com/vacp2p/10ksim/pull/60)
+  - Progress pod parse improvement: [PR](https://github.com/vacp2p/10ksim/pull/60)
   - Waku publisher 1.0.2: [PR](https://github.com/vacp2p/10ksim/pull/61)
+  - Lightpush in dataframes: [PR](https://github.com/vacp2p/10ksim/pull/62)
 
 ### Local metrics

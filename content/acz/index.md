@@ -13,6 +13,10 @@ tags:
 * [ ] [[acz/ift/2025q2-ift-zk-calls|2025q2-ift-zk-calls]]
 * [ ] [[acz/ift/2025q2-rln-status-l2|2025q2-rln-status-l2]]
 
+### `nomos:`
+
+* [ ] [[acz/nomos/2025q2-nomos-consulting|2025q2-nomos-consulting]]
+
 
 
 ## 2025q1 `vac:acz:`

@@ -5,6 +5,9 @@ tags:
   - vac
 ---
 
+## 2025q2 `vac:acz:`
+* [ ] [[acz/ift/2025q2-zerokit-v0-8|zerokit-v0.8]]
+
 ## 2025q1 `vac:acz:`
 ---
 

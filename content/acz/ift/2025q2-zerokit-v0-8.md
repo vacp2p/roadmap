@@ -1,0 +1,51 @@
+---
+title: Zerokit v.0.8
+tags:
+  - "2025q2"
+  - "acz"
+  - "ift"
+draft: false
+description: "Implementation of the next release of Zerokit"
+
+---
+
+`vac:acz:ift:2025q2-zerokit-v0-8`
+
+Implementation of the next release of Zerokit 
+## Description
+
+This commitment entails achieving Zerokit v0.8.0 by advancing the next version 
+through the integration of new features such as updated WASM component. 
+
+### Background
+
+[Zerokit](https://github.com/vacp2p/zerokit) is a collection of Zero Knowledge modules that focus on RLN, 
+developed in Rust, intended for integration with various system programming environments.
+
+
+### Narratives
+
+By utilizing the zerokit-v0-7 commitment, we will reinforce the Conduit of Expertise narrative by:
+* Delivers an optimized version for IFT projects utilizing Zerokit, 
+including [nwaku](https://github.com/waku-org/nwaku)and [js-rln](https://github.com/waku-org/js-rln).
+
+We will also strengthen the Premier Research Destination narrative by:
+* Offers a Rust crate that serves as a more efficient open-source development tool 
+for users looking to integrate RLN into their projects. 
+
+## Task List
+
+### Zerokit maintaining
+
+* fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:zerokit-maintaining`
+* owner: Ekaterina
+* status: not started
+* start-date: 2025/04/01
+* end-date: 2025/05/30
+
+#### Description
+
+This task encompasses all maintenance updates for Zerokit, including CI updates and the creation of future issues.
+
+#### Deliverables
+A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/). 

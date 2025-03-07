@@ -8,7 +8,7 @@ tags:
 ## 2025q2 `vac:acz:`
 * [ ] [[acz/ift/2025q2-zerokit-v0-8|zerokit-v0.8]]
 * [ ] [[acz/ift/2025q2-de-mls-testnet.md|2025q2-de-mls-testnet.md]]
-
+* [ ] [[acz/ift/2025q2-libp2p-mix-tesnet|2025q2-libp2p-mix-tesnet]]
 
 
 ## 2025q1 `vac:acz:`

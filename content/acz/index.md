@@ -11,6 +11,7 @@ tags:
 * [ ] [[acz/ift/2025q2-libp2p-mix-tesnet|2025q2-libp2p-mix-tesnet]]
 * [ ] [[acz/ift/2025q2-think-tank.md|2025q2-think-tank.md]]
 * [ ] [[acz/ift/2025q2-ift-zk-calls|2025q2-ift-zk-calls]]
+* [ ] [[acz/ift/2025q2-rln-status-l2|2025q2-rln-status-l2]]
 
 
 

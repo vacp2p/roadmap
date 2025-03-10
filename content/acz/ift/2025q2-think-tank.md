@@ -42,7 +42,7 @@ to initiate discussions and contribute to the benefit of the ecosystem.
 
 ### maintain
 
-* fully qualified name: `vac:acz:ift:2025q1-think-tank:maintain`
+* fully qualified name: `vac:acz:ift:2025q2-think-tank:maintain`
 * owner: Ugur
 * status: not started
 * start-date: 2025/05/01
@@ -56,4 +56,4 @@ This task is important to diffuse the cryptographic components' how-know across 
 
 #### Deliverables 
 
-* Updating the cryptography and ZK think tank  notion page with latest improvements to make them more accurate.  
+* Updating the cryptography and ZK think tank notion page with latest improvements to make them more accurate.  

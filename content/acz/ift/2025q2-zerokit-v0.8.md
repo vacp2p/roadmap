@@ -37,7 +37,7 @@ for users looking to integrate RLN into their projects.
 
 ### Zerokit maintaining
 
-* fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:zerokit-maintaining`
+* fully qualified name: `vac:acz:ift:2025q2-zerokit-v0-8:zerokit-maintaining`
 * owner: Ekaterina
 * status: not started
 * start-date: 2025/04/01
@@ -49,3 +49,18 @@ This task encompasses all maintenance updates for Zerokit, including CI updates 
 
 #### Deliverables
 A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/). 
+
+### Release v0.8
+
+* fully qualified name: `vac:acz:ift:2025q2-zerokit-v0-8:release`
+* owner: Ekaterina
+* status: not started
+* start-date: 2025/05/12
+* end-date: 2025/05/26
+
+#### Description
+
+The new version of the Zerokit v0.8.  
+
+#### Deliverables
+A set of PRs to vacp2p/zerokit repository with [tag v0.8.0](https://github.com/vacp2p/zerokit/releases/tag/v0.8.0)

@@ -39,7 +39,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 ### IFT ZK Call 1
 
-* fully qualified name: `vac:acz:ift:2025q1-ift-zk-calls:ift-zk-call-1`
+* fully qualified name: `vac:acz:ift:2025q2-ift-zk-calls:ift-zk-call-1`
 * owner: Marvin
 * status: not started
 * start-date: 2025/04/01
@@ -55,7 +55,7 @@ A document of a summary of the ZK call 1 meeting to [ZK Notion page](https://www
 A recorded video. 
 
 ### IFT ZK Call 2
-* fully qualified name: `vac:acz:ift:2025q1-ift-zk-calls:ift-zk-call-2`
+* fully qualified name: `vac:acz:ift:2025q2-ift-zk-calls:ift-zk-call-2`
 * owner: Marvin
 * status: not started
 * start-date: 2025/01/27
@@ -69,7 +69,7 @@ A document of a summary of the ZK call 2 meeting to [ZK Notion page](https://www
 A recorded video.
 
 ### IFT ZK Call 3
-* fully qualified name: `vac:acz:ift:2025q1-ift-zk-calls:ift-zk-call-3`
+* fully qualified name: `vac:acz:ift:2025q2-ift-zk-calls:ift-zk-call-3`
 * owner: Marvin
 * status: not started
 * start-date: 2025/02/24

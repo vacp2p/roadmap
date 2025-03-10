@@ -15,13 +15,11 @@ architecture of the Nomos documents"
 Creating a consulting document on the specification and 
 architecture of the Nomos documents
 ## Description
-
 ACZ offers review consulting services to Nomos, 
 acting as a bridge between Nomos researchers and engineers, 
 facilitating faster and more efficient communication between the two groups.
 
 ### Narratives
-
 By utilizing the Nomos Consulting commitment, 
 
 we will reinforce the Conduit of Expertise narrative by:

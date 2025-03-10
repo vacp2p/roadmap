@@ -13,14 +13,12 @@ description: "Maintaining by the updating the recent developments in cryptograph
 
 Maintaining by the updating the recent developments in cryptography and ZK modules of IFT projects
 ## Description
-
 This commitment entails maintaining an up-to-date repository 
 of cryptography and zero-knowledge (ZK) topics from all IFT teams such as 
 Waku, Nomos, Codex and Status, serving as a knowledge base for teams 
 requiring expertise in these areas while also minimizing overlapping.
 
 ### Background
-
 Many IFT projects utilize the cryptography as one of the components their architecture. 
 As ACZ team, we collect all the cryptographical and ZK primitives into single commitment, 
 review and compare them to detect potential improvable and strong aspects.

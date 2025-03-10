@@ -17,12 +17,10 @@ Publishing the findings with a blog post and a paper, maintaining the Waku PoC o
 and also maintaining EF grant application with a privacy project that introduces sender anonymity 
 to Ethereum nodes for censorship resistanceness
 ## Description
-
 This commitment entails publishing the findings with a blogpost and a paper with extensive benchmark and
 privacy analysis, also maintaining the Waku PoC over the mixnet and finally maintaining the EF grant application. 
  
 ### Background
-
 The primary objective of this anonymization layer is to serve as a cohesive anonymization solution 
 for gossip-based projects, with a specific focus on integrating it with the IFT projects Waku and Codex.
 
@@ -42,7 +40,6 @@ In 2025q1, we developed the extended functionality of mixnet and its integration
 Also, we released the gossipsub poc over the mixnet. 
 
 ### Narratives
-
 By utilizing this commitment, 
 we will reinforce the Conduit of Expertise narrative by:
 * Implement a poc over Waku PoC shows the base functionality on Waku network. 

@@ -76,7 +76,7 @@ Issues:
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:store`
 * owner: aya
-* status: in progress (75%)
+* status: done
 * start-date: 2025/02/10
 * end-date: 2025/03/10
 
@@ -89,6 +89,7 @@ and ensure reliable message storing across multiple nodes.
 * [PR: Store tests](https://github.com/waku-org/waku-go-bindings/pull/43)
 * [Bug: Can't pause & resume nodes](https://github.com/waku-org/waku-go-bindings/issues/40)
 * [Bug: Legacy store not working](https://github.com/waku-org/waku-go-bindings/issues/41)
+* [PR: Add final set of store tests](https://github.com/waku-org/waku-go-bindings/pull/43)
 
 ### Maintenance
 
@@ -110,7 +111,7 @@ investigating and resolving issues, and implementing minor improvements to the t
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:connection`
 * owner: radek
-* status: in progress (10%)
+* status: in progress (85%)
 * start-date: 2025/03/03
 * end-date: 2025/03/10
 
@@ -119,13 +120,13 @@ Create tests focusing on Discv5 peer discovery and direct peer connections.
 More info [here](https://www.notion.so/go-bindings-Task-1a68f96fb65c804d949ffc53ef77f86b)
 
 #### Deliverables
-* PR
+* [PR: add peer discovery and direct peer connection tests](https://github.com/waku-org/waku-go-bindings/pull/46)
 
 ### Endurance
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:endurance`
 * owner: aya
-* status: not started
+* status: in progress (10%)
 * start-date: 2025/03/10
 * end-date: 2025/03/20
 

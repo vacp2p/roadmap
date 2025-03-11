@@ -24,8 +24,8 @@ TODO: detail commitment
 
 * fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-webtransport:requirements`
 * owner: Vlado
-* status: not started
-* start-date: 2025/17/24
+* status: 50%
+* start-date: 2025/03/03
 * end-date: 2025/03/10
 
 #### Description

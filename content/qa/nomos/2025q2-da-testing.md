@@ -13,7 +13,8 @@ description: Implement data availability test plans for the Nomos project at the
 `vac:qa:nomos:2025q2-da-testing`
 
 ## Description
-Implement data availability test plans for the Nomos project at the cluster level. 
+Implement data availability test plans for the Nomos project at the cluster level, 
+focusing on protocol compatibility, internal interactions, data confidentiality, and resilience against failures.
 
 **Alignment with VAC Narratives:**
 - By developing and constantly updating tests for data availability,

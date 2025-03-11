@@ -1,29 +1,29 @@
 ---
 
-title: QA & RFC Synchronization for Waku Project
+title: QA & RFC Synchronization for Waku Project - Core Protocols
 tags:
   - "2025q2"
   - "qa"
   - "ift"
 draft: false
-description: Expand and formalize the QA & RFC synchronization process across all Waku Implemenatations.
+description: Expand and formalize the QA & RFC synchronization process for the core protocols across all Waku implementations.
 
 ---
 
 `vac:qa:ift:2025q2-qa-rfc-sync-waku`
 
 ## Description
-Expand and formalize the QA & RFC synchronization process across all Waku Implemenatations, 
-ensuring that protocol implementations match specifications and have adequate test coverage.
+Expand and formalize the QA & RFC synchronization process across all Waku Implementations, 
+ensuring that core protocol implementations match specifications and have adequate test coverage.
 
 Building on the previous quarter's efforts, 
 this commitment focuses on systematically reviewing each Waku implementation (nim, js, go).
-to ensure protocol implementations match the corresponding RFCs. 
+to ensure core protocol implementations match the corresponding RFCs. 
 Any discrepancies will be flagged for either:
 1. RFC updates (in collaboration with the RFC team), or 
 2. Bug fixes and/or implementing missing parts in the respective repositories.
 
-As part of this process, we will also assess the level of test automation and coverage for each protocol, 
+As part of this process, we will also assess the level of test automation and coverage for each core protocol, 
 identifying gaps and proposing or creating additional tests as necessary.
 
 **Alignment with VAC Narratives:**
@@ -41,9 +41,10 @@ identifying gaps and proposing or creating additional tests as necessary.
 * end-date: 2025/06/30
 
 #### Description
-- Compare each protocol implemented in `nwaku` against the Waku RFCs.
-- Document any discrepancies found and clarify whether the RFC or the implementation requires an update.
-- Verify test automation exists for each protocol and note any coverage gaps.
+- Compare each core protocol implemented in `nwaku` against the Waku RFCs.
+- Document any discrepancies found, such as missing specifications or incomplete implementations,
+  and clarify whether the RFC or the implementation requires an update.
+- Verify test automation exists for each core protocol and note any coverage gaps.
 - Coordinate with developers for bug fixes and/or additional tests.
 
 #### Deliverables
@@ -60,9 +61,10 @@ identifying gaps and proposing or creating additional tests as necessary.
 * end-date: 2025/06/30
 
 #### Description
-- Compare each protocol implemented in `js-waku` against the Waku RFCs.
-- Document any discrepancies found and clarify whether the RFC or the implementation requires an update.
-- Verify test automation exists for each protocol and note any coverage gaps.
+- Compare each core protocol implemented in `js-waku` against the Waku RFCs.
+- Document any discrepancies found, such as missing specifications or incomplete implementations,
+  and clarify whether the RFC or the implementation requires an update.
+- Verify test automation exists for each core protocol and note any coverage gaps.
 - Coordinate with developers for bug fixes and/or additional tests.
 
 #### Deliverables
@@ -79,9 +81,10 @@ identifying gaps and proposing or creating additional tests as necessary.
 * end-date: 2025/06/30
 
 #### Description
-- Compare each protocol implemented in `go-waku` against the Waku RFCs.
-- Document any discrepancies found and clarify whether the RFC or the implementation requires an update.
-- Verify test automation exists for each protocol and note any coverage gaps.
+- Compare each core protocol implemented in `go-waku` against the Waku RFCs.
+- Document any discrepancies found, such as missing specifications or incomplete implementations,
+  and clarify whether the RFC or the implementation requires an update.
+- Verify test automation exists for each core protocol and note any coverage gaps.
 - Coordinate with developers for bug fixes and/or additional tests.
 
 #### Deliverables

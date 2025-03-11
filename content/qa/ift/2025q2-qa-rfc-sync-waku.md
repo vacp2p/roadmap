@@ -21,7 +21,7 @@ this commitment focuses on systematically reviewing each IFT-related repository
 to ensure protocol implementations match the corresponding RFCs. 
 Any discrepancies will be flagged for either:
 1. RFC updates (in collaboration with the RFC team), or 
-2. Bug fixes/additional work in the respective repositories.
+2. Bug fixes and/or implementing missing parts in the respective repositories.
 
 As part of this process, we will also assess the level of test automation and coverage for each protocol, 
 identifying gaps and proposing or creating additional tests as necessary.

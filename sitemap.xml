@@ -995,8 +995,11 @@
     <loc>https://roadmap.vac.dev/qa/ift/2025q1-projects-qa-strategy</loc>
     <lastmod>2025-03-11T14:41:17.905Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/qa/ift/2025q2-qa-rfc-sync-waku</loc>
+    <lastmod>2025-03-11T18:00:19.414Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/qa/</loc>
-    <lastmod>2025-03-06T14:58:09.990Z</lastmod>
+    <lastmod>2025-03-11T18:00:19.414Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/nomos/2024q4-da-testing</loc>
     <lastmod>2025-03-06T14:58:09.990Z</lastmod>
@@ -1004,11 +1007,14 @@
     <loc>https://roadmap.vac.dev/qa/nomos/2025q1-e2e-testing</loc>
     <lastmod>2025-03-06T14:59:42.916Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/qa/nomos/2025q2-e2e-testing</loc>
+    <lastmod>2025-03-11T18:00:19.414Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/qa/vac/2024q4-nim-libp2p-testing</loc>
     <lastmod>2025-03-06T14:58:09.990Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/vac/2025q2-nim-libp2p-testing</loc>
-    <lastmod>2025-03-06T14:58:09.990Z</lastmod>
+    <lastmod>2025-03-11T18:00:19.414Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/waku/2024q4-interop-testing</loc>
     <lastmod>2025-03-06T14:58:09.990Z</lastmod>
@@ -1025,11 +1031,17 @@
     <loc>https://roadmap.vac.dev/qa/waku/2025q1-waku-go-bindings-testing</loc>
     <lastmod>2025-03-11T14:41:17.905Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/qa/waku/2025q2-interop-testing</loc>
+    <lastmod>2025-03-11T18:00:19.414Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/qa/waku/2025q2-messaging-api-testing</loc>
     <lastmod>2025-03-06T14:58:09.990Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/waku/2025q2-status-go-functional-testing</loc>
-    <lastmod>2025-03-06T14:58:09.990Z</lastmod>
+    <lastmod>2025-03-11T18:00:19.414Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/qa/waku/2025q2-waku-go-bindings-testing</loc>
+    <lastmod>2025-03-11T18:00:19.414Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/codex/2024q4-marketplace-and-client</loc>
     <lastmod>2025-03-06T14:58:09.990Z</lastmod>

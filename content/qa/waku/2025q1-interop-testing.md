@@ -25,7 +25,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:waku:2025q1-interop-testing:maintenance`
 * owner: fbarbu15
-* status: in progress (50%)
+* status: in progress (70%)
 * start-date: 2025/01/01
 * end-date: 2025/03/31
 
@@ -43,3 +43,5 @@ investigating and resolving issues, and implementing minor improvements to the t
 * [bug: nwaku<->gowaku interop tests fail with only one received message push when multiple messages are sent](https://github.com/waku-org/nwaku/issues/3271)
 * [chore: js-waku test report improvements](https://github.com/waku-org/js-waku/pull/2247)
 * [chore: store hash fixes](https://github.com/waku-org/waku-interop-tests/pull/104)
+* [chore: Skip all RLN tests due to problems with registration](https://github.com/waku-org/waku-interop-tests/pull/107)
+* [bug: Waku requests rejected by Infura RPC provider - not EIP-155 compliant](https://github.com/waku-org/nwaku/issues/3313)

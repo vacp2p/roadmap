@@ -62,7 +62,7 @@ Add integration tests focusing on the privacy of the data in transit
 
 * fully qualified name: `vac:qa:nomos:2025q1-da-testing:dos-robustness`
 * owner: romanzac
-* status: in progress (20%)
+* status: in progress (60%)
 * start-date: 2025/02/24
 * end-date: 2025/03/21
 
@@ -70,9 +70,8 @@ Add integration tests focusing on the privacy of the data in transit
 Add integration tests to verify system’s resilience to DoS attacks and handling of large volume of data 
 
 #### Deliverables
-* PR link with added tests
-* CI runs showing successful or failed executions with detailed reports
-
+* [Test/spam protection](https://github.com/logos-co/nomos-e2e-tests/pull/5)
+* [Test/high load denial of service](https://github.com/logos-co/nomos-e2e-tests/pull/7)
 
 ### Edge Cases
 

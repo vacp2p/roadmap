@@ -11,10 +11,9 @@ description: Enhance functional testing for status-go features by implementing t
 `vac:qa:waku:2025q2-status-go-functional-testing`
 
 ## Description
-Collaborate with the Status QA team to improve functional testing coverage 
-by adding new tests outlined in this [epic](https://github.com/status-im/status-go/issues/6064). 
-Additionally, work on enhancing the framework to support more advanced functional testing scenarios.
-Note: This commitment is being deferred to Q2 to avoid overcommitting, but tasks may be taken on in Q1 if time permits.
+Expand functional testing for status-go by implementing targeted Waku feature tests, 
+including chat actions, contact requests, and group chats, 
+as outlined in this [epic](https://github.com/status-im/status-go/issues/6064). 
 
 **Alignment with VAC Narratives:**
 * By helping create a robust functional testing framework for Status Go,

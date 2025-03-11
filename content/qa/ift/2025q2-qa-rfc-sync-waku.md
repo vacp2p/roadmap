@@ -17,7 +17,7 @@ Expand and formalize the QA & RFC synchronization process across all Waku Implem
 ensuring that protocol implementations match specifications and have adequate test coverage.
 
 Building on the previous quarter's efforts, 
-this commitment focuses on systematically reviewing each IFT-related repository 
+this commitment focuses on systematically reviewing each Waku implementation (nim, js, go).
 to ensure protocol implementations match the corresponding RFCs. 
 Any discrepancies will be flagged for either:
 1. RFC updates (in collaboration with the RFC team), or 

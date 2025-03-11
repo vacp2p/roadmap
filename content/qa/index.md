@@ -10,20 +10,20 @@ tags:
 ---
 
 ### `ift:`
-* [[qa/ift/2025q2-qa-rfc-sync-waku|qa-rfc-sync-waku ]]
+* [[qa/ift/2025q2-qa-rfc-sync-waku|2025q2-qa-rfc-sync-waku ]]
 
 ### `vac:`
-* [[qa/vac/2025q2-nim-libp2p-testing|nim-libp2p-testing ]]
+* [[qa/vac/2025q2-nim-libp2p-testing|2025q2-nim-libp2p-testing ]]
 
 ### `waku:`
-* [[qa/waku/2025q2-interop-testing|interop-testing ]]
-* [[qa/waku/2025q2-waku-go-bindings-testing|waku-go-bindings-testing ]]
-* [[qa/waku/2025q2-messaging-api-testing|messaging-api-testing ]]
-* [[qa/waku/2025q2-status-go-functional-testing|status-go-functional-testing ]]
+* [[qa/waku/2025q2-interop-testing|2025q2-interop-testing ]]
+* [[qa/waku/2025q2-waku-go-bindings-testing|2025q2-waku-go-bindings-testing ]]
+* [[qa/waku/2025q2-messaging-api-testing|2025q2-messaging-api-testing ]]
+* [[qa/waku/2025q2-status-go-functional-testing|2025q2-status-go-functional-testing ]]
 
 ### `nomos:`
-* [[qa/nomos/2025q2-da-testing|da-testing ]]
-* [[qa/nomos/2025q2-e2e-testing|e2e-testing ]]
+* [[qa/nomos/2025q2-da-testing|2025q2-da-testing ]]
+* [[qa/nomos/2025q2-e2e-testing|2025q2-e2e-testing ]]
 ---
 
 ## 2025q1 `vac:qa:`

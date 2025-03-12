@@ -5,13 +5,15 @@ tags:
   - "acz"
   - "ift"
 draft: false
-description: "Maintaining by the updating the recent developments in cryptography and ZK modules of IFT projects"
+description: "Maintaining by the updating the recent developments 
+in cryptography and ZK modules of IFT projects"
 
 ---
 
 `vac:acz:ift:2025q2-think-tank`
 
-Maintaining by the updating the recent developments in cryptography and ZK modules of IFT projects
+Maintaining by the updating the recent developments in 
+cryptography and ZK modules of IFT projects
 ## Description
 This commitment entails maintaining an up-to-date repository 
 of cryptography and zero-knowledge (ZK) topics from all IFT teams such as 

@@ -75,7 +75,7 @@ A recorded [video](https://www.youtube.com/watch?v=i-IkldFMZ_4).
 
 * fully qualified name: `vac:acz:ift:2025q1-ift-zk-calls:ift-zk-call-3`
 * owner: Marvin
-* status: started (0%)
+* status: done
 * start-date: 2025/02/24
 * end-date: 2025/03/07
 
@@ -85,5 +85,5 @@ Preparing the agenda and possible speakers for the ZK call on 4th March.
 
 #### Deliverables
 
-A document of a summary of the ZK call 1 meeting to [ZK Notion page](https://www.notion.so/ZK-Call-1198f96fb65c80c7baaac966b3e57ea2). 
-A recorded video.
+A document of a summary of the ZK call 1 meeting to [ZK Notion page](https://www.notion.so/Past-Meeting-Notes-1198f96fb65c80e6a51afa9a507aa64e?pvs=4#1ac8f96fb65c80e69bece526908369f7). 
+A recorded [video](https://www.youtube.com/watch?v=DpVvLEhW4yA).

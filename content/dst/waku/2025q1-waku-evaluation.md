@@ -63,7 +63,7 @@ to the Premier Research destination narrative by:
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-evaluation:regression-testing`
 * owner: Alberto
-* status: Ongoing
+* status: recurring
 * start-date: 2025-01-01
 * end-date: 2025-03-31
 

@@ -16,7 +16,7 @@ finalizing the de-MLS RFC with consensus integration
 with the multi-admin support and implementing the last version RFC
 ## Description
 This commitment involves completing the de-MLS RFC by incorporating 
-multi-administrator configurations with consensus and implementing de-MLS 
+multi-administrator configurations with decentralized consensus and implementing it 
 with a multi-admin setup over the Waku network. 
 The process includes presenting the findings such as MLS over Waku and benchmarking, 
 then applying for the EF grant.

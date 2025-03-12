@@ -49,8 +49,8 @@ also maintain the ZK think tank with the latest improvements.
 ### Crypto Think Tank 
 
 * fully qualified name: `vac:acz:ift:2025q1-think-tank:crypto-think-tank`
-* owner: Ugur
-* status: not started
+* owner: Marvin
+* status: started (0%)
 * start-date: 2025/03/03
 * end-date: 2025/03/17
 
@@ -71,7 +71,7 @@ to get a clear overview or deep dive depending on their needs.
 
 * fully qualified name: `vac:acz:ift:2025q1-think-tank:zk-think-tank`
 * owner: Marvin
-* status: not started
+* status: started (0%)
 * start-date: 2025/03/03
 * end-date: 2025/03/17
 

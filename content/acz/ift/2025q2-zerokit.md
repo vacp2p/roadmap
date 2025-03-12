@@ -1,5 +1,5 @@
 ---
-title: Zerokit v.0.8
+title: Zerokit
 tags:
   - "2025q2"
   - "acz"
@@ -9,13 +9,14 @@ description: "Implementation of the next release of Zerokit"
 
 ---
 
-`vac:acz:ift:2025q2-zerokit-v0-8`
+`vac:acz:ift:2025q2-zerokit`
 
 Implementation of the next release of Zerokit 
 ## Description
 
-This commitment entails achieving Zerokit v0.8.0 by advancing the next version 
-through the integration of new features such as updated WASM component. 
+This commitment entails developing and maintaining Zerokit including Zerokit v0.8.0 release 
+by advancing the next version through the integration of new features such as updated WASM component 
+based on the [issue #289](https://github.com/vacp2p/zerokit/issues/289). 
 
 ### Background
 
@@ -37,7 +38,7 @@ for users looking to integrate RLN into their projects.
 
 ### Zerokit maintaining
 
-* fully qualified name: `vac:acz:ift:2025q2-zerokit-v0-8:zerokit-maintaining`
+* fully qualified name: `vac:acz:ift:2025q2-zerokit:zerokit-maintaining`
 * owner: Ekaterina
 * status: not started
 * start-date: 2025/04/01
@@ -50,7 +51,7 @@ This task encompasses all maintenance updates for Zerokit, including CI updates 
 A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/). 
 
 ### Release v0.8
-* fully qualified name: `vac:acz:ift:2025q2-zerokit-v0-8:release`
+* fully qualified name: `vac:acz:ift:2025q2-zerokit:release`
 * owner: Ekaterina
 * status: not started
 * start-date: 2025/05/12

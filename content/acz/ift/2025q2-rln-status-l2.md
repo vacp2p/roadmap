@@ -5,16 +5,23 @@ tags:
   - "acz"
   - "ift"
 draft: false
-description: "Consulting by researching and implementing RLN for Status L2 architecture"
+description: "Researching the implementation and deployment of RLN 
+for the Status L2 architecture, including RLN proof provider and membership topics"
 
 ---
 
 `vac:acz:ift:2025q2-rln-status-l2`
 
-Consulting by researching and implementing RLN for Status L2 architecture
+Researching the implementation and deployment of RLN 
+for the Status L2 architecture, including RLN proof provider and membership topics
 ## Description
-This commitment entails the integrating the RLN to the Status L2 architecture 
-for gasless L2 including researching and implementation. 
+This commitment entails researching and implementing of deployment of RLN 
+for the gasless feature of Status L2 architecture. 
+Currently, we have only the RLN backend, but before proceeding, 
+we need to explore how RLN can be deployed alongside auxiliary components 
+to ensure integrity and scalability. 
+This commitment will include considerations for integrating an RLN-proof provider, 
+verifier, and membership topics while optimizing the overall architecture for efficiency and performance. 
 
 ### Background
 Status L2 is a rollup with Linea and builds a platform with the capacity 
@@ -24,8 +31,8 @@ Status L2 will incorporate a gasless feature, necessitating an effective anti-sp
 Rate-Limiting Nullifier (RLN) is a potential solution that could be deployed on Status L2 
 to prevent spam and support the gasless functionality. 
 
-
-In 2025q1, we explore the Status L2 infrastructure to identify the best approach for deploying the RLN. 
+In 2025q1, we explore the Status L2 infrastructure to 
+identify the best approach for deploying the RLN. 
 
 ### Narratives
  By utilizing this commitment, we will reinforce the Conduit of Expertise narrative by:

@@ -51,7 +51,7 @@ and especially those we want to work with externally.
 
 ### Status-backend store performance
 
-* fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:store-performance`
+* fully qualified name: `vac:dst:status:2025q2-status-go-evaluation:store-performance`
 * owner: TBA
 * status: 0%
 * start-date: TBA
@@ -79,7 +79,7 @@ and especially those we want to work with externally.
 
 ### Status-backend private chats - Idle-relay
 
-* fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:idle-relay`
+* fully qualified name: `vac:dst:status:2025q2-status-go-evaluation:idle-relay`
 * owner: TBA
 * status: 0%
 * start-date: TBA
@@ -101,7 +101,7 @@ and especially those we want to work with externally.
 
 ### Status-backend private chats - Idle-light
 
-* fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:idle-light`
+* fully qualified name: `vac:dst:status:2025q2-status-go-evaluation:idle-light`
 * owner: TBA
 * status: 0%
 * start-date: TBA
@@ -123,7 +123,7 @@ and especially those we want to work with externally.
 
 ### Status-backend private chats - contact request
 
-* fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:contact-request`
+* fully qualified name: `vac:dst:status:2025q2-status-go-evaluation:contact-request`
 * owner: TBA
 * status: 0%
 * start-date: TBA
@@ -155,7 +155,7 @@ and especially those we want to work with externally.
 
 ### Status-backend private chats - send-one-to-one
 
-* fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:send-one-to-one`
+* fully qualified name: `vac:dst:status:2025q2-status-go-evaluation:send-one-to-one`
 * owner: TBA
 * status: 0%
 * start-date: TBA
@@ -178,7 +178,7 @@ and especially those we want to work with externally.
 
 ### Status-backend private chats - create private group
 
-* fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:create-private-group`
+* fully qualified name: `vac:dst:status:2025q2-status-go-evaluation:create-private-group`
 * owner: TBA
 * status: 0%
 * start-date: TBA
@@ -200,7 +200,7 @@ and especially those we want to work with externally.
 
 ### Status-backend private chats - send group message
 
-* fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:send-group-message`
+* fully qualified name: `vac:dst:status:2025q2-status-go-evaluation:send-group-message`
 * owner: TBA
 * status: 0%
 * start-date: TBA
@@ -222,7 +222,7 @@ and especially those we want to work with externally.
 
 ### Status-backend private chats - send one-to-one outage
 
-* fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:one-to-one-outage`
+* fully qualified name: `vac:dst:status:2025q2-status-go-evaluation:one-to-one-outage`
 * owner: TBA
 * status: 0%
 * start-date: TBA
@@ -254,7 +254,7 @@ Best to start with what is easier within test framework: cut nodes from network,
 
 ### Status-backend private chats - send group outage
 
-* fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:group-outage`
+* fully qualified name: `vac:dst:status:2025q2-status-go-evaluation:group-outage`
 * owner: TBA
 * status: 0%
 * start-date: TBA
@@ -268,7 +268,7 @@ Same as @Send one-to-one message - Network outage for private group
 
 ### Status-backend communities phase 2 - message sending
 
-* fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:community-message-sending-2`
+* fully qualified name: `vac:dst:status:2025q2-status-go-evaluation:community-message-sending-2`
 * owner: TBA
 * status: 0%
 * start-date: TBA
@@ -290,7 +290,7 @@ Same as @Send one-to-one message - Network outage for private group
 
 ### Status-backend communities phase 2 - request to join mix
 
-* fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:group-outage`
+* fully qualified name: `vac:dst:status:2025q2-status-go-evaluation:group-outage`
 * owner: TBA
 * status: 0%
 * start-date: TBA
@@ -316,7 +316,7 @@ Same as @Send one-to-one message - Network outage for private group
 
 ### Status-backend communities phase 2 - isolated chat messages
 
-* fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:isolated-chat-messages`
+* fully qualified name: `vac:dst:status:2025q2-status-go-evaluation:isolated-chat-messages`
 * owner: TBA
 * status: 0%
 * start-date: TBA
@@ -343,7 +343,7 @@ Same as @Send one-to-one message - Network outage for private group
 
 ### Status-backend communities phase 2 - isolated requests
 
-* fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:isolated-requests`
+* fully qualified name: `vac:dst:status:2025q2-status-go-evaluation:isolated-requests`
 * owner: TBA
 * status: 0%
 * start-date: TBA

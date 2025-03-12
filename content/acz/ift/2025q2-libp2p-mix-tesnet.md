@@ -37,7 +37,7 @@ This effort could potentially spawn an incubation project.
 This effort would act as a basis for the Validator Privacy Network incubation project.
 
 In 2025q1, we developed the extended functionality of mixnet and its integration with libp2p such as transport protocol. 
-Also, we released the gossipsub poc over the mixnet. 
+Also, we released a simple gossipsub poc over the mixnet. 
 
 ### Narratives
 By utilizing this commitment, 

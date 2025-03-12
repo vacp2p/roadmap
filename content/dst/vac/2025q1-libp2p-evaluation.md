@@ -58,7 +58,7 @@ and especially those we want to work with externally.
 
 * fully qualified name: `vac:dst:vac:2025q1-libp2p-evaluation:regression-testing`
 * owner: Alberto
-* status: 0%
+* status: recurring
 * start-date: 2025-01-01
 * end-date: 2025-03-31
 

@@ -145,7 +145,7 @@ or creating the topology by software flags if it supports it.
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-tooling:general-tooling`
 * owner: Alberto
-* status: Ongoing
+* status: recurring
 * start-date: 2025/01/01
 * end-date: 2025/03/31
 

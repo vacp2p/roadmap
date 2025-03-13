@@ -28,7 +28,7 @@ improving cross-project collaboration.
 
 * fully qualified name: `2025q1-sc-learnup-sessions:2025q1`
 * owner: r4bbit
-* status: in progress (33%)
+* status: in progress (66%)
 * start-date: 2025/01/01
 * end-date: 2025/03/31
 
@@ -60,13 +60,17 @@ Run a learn up session about topic of choice related to smart contract developme
 
 * fully qualified name: `2025q1-sc-learnup-sessions:2025-02`
 * owner: r4bbit
-* status: not started
+* status: done
 * start-date: 2025/02/01
 * end-date: 2025/02/28
 
 #### Description
 
 Run a learn up session about topic of choice related to smart contract development to present and discuss with the team.
+
+#### Deliverables
+
+- [x] [Recording: Security Audit Review](https://www.notion.so/Audit-Contest-Review-RAAC-Protocol-1a88f96fb65c809ead25d8be9837fba9)
 
 ### SC LearnUp Session 2025/03
 

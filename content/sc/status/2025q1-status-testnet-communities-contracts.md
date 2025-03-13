@@ -23,7 +23,7 @@ We're committing to getting these contract deployed there as soon as the testnet
 
 * fully qualified name: `2025q1-status-testnet-communities-contracts:deployment`
 * owner: r4bbit
-* status: not started
+* status: done
 * start-date: 2025/01/01
 * end-date: 2025/02/01
 
@@ -33,4 +33,4 @@ This task is about ensuring the communities contract function properly on the EV
 
 #### Deliverables
 
-- [] Deployment addresses of communities contracts on Status testnet
+- [x] [Deployment addresses of communities contracts on Status testnet](https://github.com/status-im/communities-contracts?tab=readme-ov-file#deployments)

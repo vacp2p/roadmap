@@ -26,7 +26,7 @@ developed in Rust, intended for integration with various system programming envi
 
 ### Narratives
 
-By utilizing the zerokit-v0-7 commitment, we will reinforce the Conduit of Expertise narrative by:
+By utilizing the zerokit commitment, we will reinforce the Conduit of Expertise narrative by:
 * Delivers an optimized version for IFT projects utilizing Zerokit, 
 including [nwaku](https://github.com/waku-org/nwaku)and [js-rln](https://github.com/waku-org/js-rln).
 

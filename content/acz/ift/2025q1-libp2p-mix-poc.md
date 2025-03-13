@@ -89,7 +89,7 @@ Implementation of the MixEntry and MixExit abstractions for the Mixnet.
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:simple-gossipsub-poc`
 * owner: Akshaya
-* status: started (20%)
+* status: started (80%)
 * start-date: 2025/02/10
 * end-date: 2025/02/24
 
@@ -105,12 +105,11 @@ Implementation a simple gossipsub PoC over Waku the mixnet.
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:ift-research-call-prep`
 * owner: Akshaya
-* status: started (0%)
+* status: started (50%)
 * start-date: 2025/02/17
 * end-date: 2025/02/28
 
 #### Description
-
 Preparation for the IFT research call on 26th of February. 
 
 #### Deliverables
@@ -118,13 +117,31 @@ Preparation for the IFT research call on 26th of February.
 * A presentation that describes the mixnet RFC and implementation point of view in 
 [notion](https://www.notion.so/Applied-Cryptography-ZK-870520f131954b90b1837ec4749f890f?pvs=4#12d8f96fb65c80f49f11e8e6fe7fc974)
 
+
+### Updating RFC
+* fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:update-rfc`
+* owner: Akshaya
+* status: not started
+* start-date: 2025/03/12
+* end-date: 2025/03/24
+
+#### Description
+Updating the [mixnet RFC](https://rfc.vac.dev/vac/raw/mix) with latest findings such as
+- clarifications on the pluggable components,
+- introducing  the entry and exit layers,
+- libp2p integrations .
+
+#### Deliverables
+
+* A paper on arxiv.com
+
 ### Blogposts
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:blogposts`
 * owner: Akshaya
 * status: not started
-* start-date: 2025/02/24
-* end-date: 2025/03/03
+* start-date: 2025/03/17
+* end-date: 2025/03/28
 
 #### Description
 
@@ -138,7 +155,7 @@ Writing a blogpost about the mixnet with PoC details.
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:publish-a-paper`
 * owner: Akshaya
-* status: not started
+* status: on-hold
 * start-date: 2025/03/03
 * end-date: 2025/03/17
 
@@ -146,6 +163,9 @@ Writing a blogpost about the mixnet with PoC details.
 
 Publish a paper on arxiv.com that includes security/privacy analysis with applicability and revelance (product-market fit), 
 offering improvements over Tor push. 
+
+This task is postponed to the 2025q2 by replacing the updating RFC task since 
+there were changes in [mixnet RFC](https://rfc.vac.dev/vac/raw/mix) and the RFC must be updated first. 
 
 #### Deliverables
 

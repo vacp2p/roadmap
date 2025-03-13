@@ -212,7 +212,7 @@ with a new CI pipeline for the repository that includes the waku node.
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:consensus-research`
 * owner: Ugur
-* status: not started
+* status: started (20%)
 * start-date: 2025/02/10
 * end-date: 2025/02/24
 

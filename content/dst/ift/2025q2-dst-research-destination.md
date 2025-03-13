@@ -43,7 +43,7 @@ by making sure we’re open, accessible, and continuously learning from each oth
 
 ### Forum posts (recurring)
 
-* fully qualified name: `vac:dst:ift:2025q1-dst-research-destination:forum-post`
+* fully qualified name: `vac:dst:ift:2025q2-dst-research-destination:forum-post`
 * owner: Alberto
 * status: recurring
 * start-date: 2025-04-30
@@ -51,7 +51,7 @@ by making sure we’re open, accessible, and continuously learning from each oth
 
 ### Public reports (recurring)
 
-* fully qualified name: `vac:dst:ift:2025q1-dst-research-destination:public-reports`
+* fully qualified name: `vac:dst:ift:2025q2-dst-research-destination:public-reports`
 * owner: Alberto
 * status: recurring
 * start-date: 2025-04-30

@@ -5,13 +5,13 @@ tags:
   - "acz"
   - "ift"
 draft: false
-description: "Implementation of the next release of Zerokit"
+description: "Maintaining and improving Zerokit, including the release of its next version"
 
 ---
 
 `vac:acz:ift:2025q2-zerokit`
 
-Implementation of the next release of Zerokit 
+Maintaining and improving Zerokit, including the release of its next version 
 ## Description
 
 This commitment entails developing and maintaining Zerokit including Zerokit v0.8.0 release 

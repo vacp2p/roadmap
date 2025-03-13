@@ -29,8 +29,8 @@ This includes
 
 ### Fixing bugs
 * fully qualified name: `2025q1-staking-protocol-refinement:fixing-bugs`
-* owner: 
-* status: in progress
+* owner: r4bbit
+* status: done
 * start-date: 2025/01/01
 * end-date: 2025/03/31
 
@@ -42,7 +42,7 @@ This task is about tracking and addressing issues that come up.
 
 #### Deliverables
 
-- [] Links to PRs that fix bugs
+- [x] [Re-implementation of MP compound mechanism](https://github.com/vacp2p/staking-reward-streamer/pull/136)
 
 ### Refactoring
 * fully qualified name: `2025q1-staking-protocol-refinement:refactoring`
@@ -61,7 +61,9 @@ This task is about tracking and addressing these.
 
 #### Deliverables
 
-- [] Links to PRs that address refactoring tasks
+- [x] [Update terminology used in contracts](https://github.com/vacp2p/staking-reward-streamer/pull/97)
+- [x] [Isolating MP math](https://github.com/vacp2p/staking-reward-streamer/pull/109)
+- [x] [Storage gap implementation](https://github.com/vacp2p/staking-reward-streamer/pull/149)
 
 ### Adding funds to existing vaults
 
@@ -92,8 +94,8 @@ implementation should follow.
 ### Locking funds multiple times
 
 * fully qualified name: `2025q1-staking-protocol-refinement:locking-funds-multiple-times`
-* owner: 
-* status: not started
+* owner: 3esmit
+* status: done 
 * start-date: 2025/01/01
 * end-date: 2025/01/21
 
@@ -122,16 +124,14 @@ This is something that needs to be researched and implemented.
 
 #### Deliverables
 
-- [] Implementation of `lock()` function that allows for locking stake multiple times
-- [] Tests proving its functionality
-- [] If necessary, additional rules for the formal verification
-- [] Updated documentation
+- [x] [Implementation of `lock()` function that allows for locking stake multiple times](https://github.com/vacp2p/staking-reward-streamer/pull/162)
+- [x] [Tests proving its functionality](https://github.com/vacp2p/staking-reward-streamer/pull/162)
 
 ### Optimize gas costs for vault creation
 
 * fully qualified name: `2025q1-staking-protocol-refinement:stakes-vaults-proxy-clones`
 * owner: r4bbit
-* status: in progress (50%)
+* status: done
 * start-date: 2025/01/01
 * end-date: 2025/01/21
 
@@ -149,16 +149,15 @@ implement it.
 
 #### Deliverables
 
-- [] Implementation of `StakeVault` minimal proxy clones
-- [] Integration tests to ensure it works
-- [] Updated deployment scripts
-- [] Updated documentation
+- [x] [Implementation of `StakeVault` minimal proxy clones](https://github.com/vacp2p/staking-reward-streamer/commit/18fb16bcc67fa9d0647accf7f6377376a23b1525)
+- [x] [Integration tests to ensure it works](https://github.com/vacp2p/staking-reward-streamer/commit/18fb16bcc67fa9d0647accf7f6377376a23b1525#diff-9fba913da43564473980fc4cabf095465fcaf84f425e08d6a6d807c0e8b745c0)
+- [x] [Updated deployment scripts](https://github.com/vacp2p/staking-reward-streamer/commit/18fb16bcc67fa9d0647accf7f6377376a23b1525#diff-a86f9f3c1b97ab54108b58c44e3e721fae338da4bb2b5578b175c29160cb4b66)
 
 ### Deployment on Status Network testnet
 
 * fully qualified name: `2025q1-staking-protocol-refinement:status-network-testnet-deployment`
 * owner: r4bbit
-* status: not started
+* status: done
 * start-date: 2025/01/01
 * end-date: 2025/03/31
 
@@ -171,4 +170,4 @@ then we'll deploy the system earlier.
 
 #### Deliverables
 
-- [] Contract addresses of the deployed system on testnet
+- [x] [Contract addresses of the deployed system on testnet](https://www.notion.so/Contract-Deployment-Addresses-d6dd98b1b4f6461d82eec6ab18b852c8?pvs=4#1ac8f96fb65c80cc9f1adf389a575d3f)

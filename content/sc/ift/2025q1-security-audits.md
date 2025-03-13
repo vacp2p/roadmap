@@ -28,7 +28,7 @@ Urgent work related to IFT projects take precedence over this.
 
 * fully qualified name: `ift:2025q1-security-audits:codehawks-raac`
 * owner: r4bbit
-* status: not started
+* status: done
 * start-date: 2025/02/03
 * end-date: 2025/02/14
 
@@ -39,4 +39,5 @@ Content information can be found [here](https://codehawks.cyfrin.io/c/2025-02-ra
 
 #### Deliverables
 
-- [] Audit reports
+- [] Audit reports (will be delivered once judging is complete)
+- [x] [Recording: Security Audit Review](https://www.notion.so/Audit-Contest-Review-RAAC-Protocol-1a88f96fb65c809ead25d8be9837fba9)

@@ -10,6 +10,8 @@ and look for regressions,
 learn scaling properties and run scaling studies."
 ---
 
+`vac:dst:status:2025q1-status-go-evaluation`
+
 ## Description
 
 Test Status-go on each new version or requested feature

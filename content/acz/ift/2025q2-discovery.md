@@ -26,11 +26,13 @@ The findings will be thoroughly documented and validated through reference imple
 
 ### Narratives
 
-By utilizing discovery exploration commitment, we will reinforce the Conduit of Expertise narrative by:
-* 
+By utilizing discovery exploration commitment, 
+we will reinforce the Conduit of Expertise narrative by:
+* Providing know-how about discovery mechanisms 
+that will be tailored for many IFT teams such as Waku, Nomos, and Codex. 
 
 We will also strengthen the Premier Research Destination narrative by:
-* Offers a Rust crate that serves as a more efficient open-source development tool 
-for users looking to integrate RLN into their projects. 
+* Offers open source information such as blogposts and forum posts 
+that show the improvement points of the discovery mechanism.
 
 ## Task List

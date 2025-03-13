@@ -42,15 +42,19 @@ by making sure we’re open, accessible, and continuously learning from each oth
 ## Task List
 
 ### Forum posts (recurring)
+> *Note*: Will be posted next week
+
 * fully qualified name: `vac:dst:ift:2025q1-dst-research-destination:forum-post`
-* owner: N/A
-* status: N/A
-* start-date: N/A
-* end-date: N/A
+* owner: Alberto
+* status: recurring
+* start-date: 2025-01-01
+* end-date: 2025-03-31
 
 ### Public reports (recurring)
+> *Note*: Will be posted next week
+
 * fully qualified name: `vac:dst:ift:2025q1-dst-research-destination:public-reports`
-* owner: N/A
-* status: N/A
-* start-date: N/A
-* end-date: N/A
+* owner: Alberto
+* status: recurring
+* start-date: 2025-01-01
+* end-date: 2025-03-31

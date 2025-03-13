@@ -10,6 +10,8 @@ and look for regressions,
 learn scaling properties and run scaling studies."
 ---
 
+`vac:dst:status:2025q2-status-go-evaluation`
+
 ## Description
 
 Test Status-go on each new version or requested feature
@@ -18,6 +20,9 @@ learn scaling properties and run scaling studies,
 understand the limits of Status-go and its behaviour.
 Deliver reports and actionable insights.
 Do this monthly, reliably, with documentation of findings.
+
+The scope of this commitment depends on the Status team
+work and improvements, and it is subjected to change.
 
 ### Background
 

@@ -5,6 +5,26 @@ tags:
   - vac
 ---
 
+## 2025q2 `vac:sc:`
+---
+
+### `ift:`
+- [ ] [[sc/ift/2025q2-sc-learnup-sessions]]
+- [ ] [[sc/ift/2025q2-security-audits]]
+
+### `status:`
+- [ ] [[sc/status/2025q2-sn-native-bridge-yield-bearing-module]]
+- [ ] [[sc/status/2025q2-sn-native-dex]]
+- [ ] [[sc/status/2025q2-consulting]]
+
+### `codex:`
+
+- [ ] [[sc/codex/2025q2-vault-integration]]
+
+### `ghost:`
+- [ ] [[sc/based/2025q2-ghost-protocol-review]]
+
+
 ## 2025q1 `vac:sc:`
 ---
 

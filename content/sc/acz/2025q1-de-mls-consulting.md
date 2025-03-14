@@ -24,4 +24,4 @@ they can schedule sessions with us to discuss specific things about smart contra
 
 ## Task List
 
-There are not concrete tasks associated to this commitment.
+There are no concrete tasks associated to this commitment.

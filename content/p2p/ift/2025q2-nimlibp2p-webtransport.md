@@ -26,8 +26,8 @@ which would allow browsers to establish bidirectional stream connections to nim-
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-webtransport:certificate`
 * owner: vlado
 * status: not started
-* start-date: 2025/04/01
-* end-date: 2025/30/06
+* start-date:
+* end-date:
 
 #### Description
 Certificate generation according to libp2p webtransport [specification](https://github.com/libp2p/specs/tree/master/webtransport)
@@ -41,8 +41,8 @@ Certificate generation according to libp2p webtransport [specification](https://
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-webtransport:key-components`
 * owner: vlado
 * status: not started
-* start-date: 2025/04/01
-* end-date: 2025/30/06
+* start-date:
+* end-date:
 
 #### Description
 Implement webtransport key components: Client, Server, Session
@@ -56,8 +56,8 @@ Implement webtransport key components: Client, Server, Session
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-webtransport:handshake-and-cert-validation`
 * owner: vlado
 * status: not started
-* start-date: 2025/04/01
-* end-date: 2025/30/06
+* start-date:
+* end-date:
 
 #### Description
  1.3. Noise handshake and certificate validtion according to libp2p webtransport [specification](https://github.com/libp2p/specs/tree/master/webtransport)

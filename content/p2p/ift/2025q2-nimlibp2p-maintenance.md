@@ -36,7 +36,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.
 
 #### Deliverables
-- [[Deliverable] Maintenance 2025Q2](TODO)
+- [[Deliverable] Maintenance 2025Q2](https://github.com/vacp2p/nim-libp2p/issues/1290)
 
 
 
@@ -45,8 +45,8 @@ Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via impro
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-maintenance:refactor-abstractions`
 * owner: 
 * status: not started
-* start-date: 2025/04/01
-* end-date: 2025/06/30
+* start-date:
+* end-date:
 
 #### Description
 The current implementation of nim-libp2p includes abstractions that are difficult to understand, which makes 
@@ -63,8 +63,8 @@ maintainability, leading to more efficient troubleshooting and debugging.
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-maintenance:refactor-abstractions`
 * owner: vlado
 * status: not started
-* start-date: 2025/04/01
-* end-date: 2025/06/30
+* start-date:
+* end-date:
 
 #### Description
 Create a in-memory transport  which would allow nim-libp2p to enable unit testing without touching the 

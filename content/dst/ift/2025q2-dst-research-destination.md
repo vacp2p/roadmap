@@ -41,6 +41,24 @@ by making sure we’re open, accessible, and continuously learning from each oth
 
 ## Task List
 
+### Ethereum foundation protocol test
+> *Note*: This needs more input from VAC
+
+* fully qualified name: `vac:dst:ift:2025q2-dst-research-destination:ethereum-foundation`
+* owner: Alberto
+* status: recurring
+* start-date: 2025-04-01
+* end-date: 2025-06-30
+
+#### Description
+
+Ethereum foundation is looking for a [Protocol Tester](https://jobs.lever.co/ethereumfoundation/c9ef74e7-1fb7-4a8e-88cc-11aa178d49e2).
+This can be an opportunity to get in contact with EF,
+through the [Project Grants](https://esp.ethereum.foundation/applicants/project-grants).
+
+#### Deliverables
+
+
 ### Forum posts (recurring)
 
 * fully qualified name: `vac:dst:ift:2025q2-dst-research-destination:forum-post`

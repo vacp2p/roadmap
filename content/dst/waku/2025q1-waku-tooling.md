@@ -125,7 +125,7 @@ in the DST analysis framework.
 
 * fully qualified name: `vac:dst:waku:2025q1-waku-tooling:fixed-topology`
 * owner: Alberto
-* status: 66%
+* status: 100%
 * start-date: 2025/02/24
 * end-date: 2025/03/14
 
@@ -139,7 +139,7 @@ or creating the topology by software flags if it supports it.
 #### Deliverables
 - [ ] Repository:
 - [ ] PRs:
-  - [Pull Request WIP](https://github.com/vacp2p/10ksim/pull/64)
+  - [Pull Request](https://github.com/vacp2p/10ksim/pull/64)
 
 ### General tooling (recurring)
 

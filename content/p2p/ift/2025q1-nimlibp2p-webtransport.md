@@ -24,7 +24,7 @@ TODO: detail commitment
 
 * fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-webtransport:requirements`
 * owner: Vlado
-* status: 50%
+* status: 100%
 * start-date: 2025/03/03
 * end-date: 2025/03/10
 
@@ -33,4 +33,4 @@ Based on the [specs](https://github.com/libp2p/specs/tree/master/webtransport) f
 code, determine the list of tasks and requirements for implementing webtransport support in nim-libp2p
 
 #### Deliverables
-
+- [WebTransport requirements](https://www.notion.so/Webtransport-Requirements-1b38f96fb65c80728e20f2fc34e24cee?pvs=4)

@@ -72,6 +72,7 @@ Report differences with nWaku.
 
 
 ### Status-backend subscription performance
+> *Note*: Change Owner? Change status? Change dates? Create new task because of handover?
 
 * fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:subscription-performance`
 * owner: Wings
@@ -103,6 +104,34 @@ Report differences with nWaku.
 * [ ] Reports:
   * [Report WIP](https://www.notion.so/Status-Backend-Chat-Protocol-Benchmarks-Issues-1ab8f96fb65c80429833e945827d33e7)
 * [ ] Related PRs if apply:
+
+### Status-backend store performance
+
+* fully qualified name: `vac:dst:status:2025q2-status-go-evaluation:store-performance`
+* owner: Alberto
+* status: 0%
+* start-date: 2025/03/19
+* end-date: 2025/03/31
+
+#### Description
+
+- 1 publisher node (relay or light, doesn’t matter)
+- 1-2 service nodes
+- 200 light nodes
+- 200 relay nodes
+- One community setup
+- All relay and light nodes have joined the community
+
+**Test:**
+
+- Only publisher and service nodes are up
+- publisher node publishes messages (they get stored in store), then stops
+- light and relay nodes go online
+- They automatically perform store queries
+- Measure time from start to time they get first query
+- Measure on wire store query performance
+
+#### Deliverables
 
 
 ### Regression testing (recurring)

@@ -54,34 +54,6 @@ and especially those we want to work with externally.
 
 ## Task list
 
-### Status-backend store performance
-
-* fully qualified name: `vac:dst:status:2025q2-status-go-evaluation:store-performance`
-* owner: TBA
-* status: 0%
-* start-date: TBA
-* end-date: TBA
-
-#### Description
-
-- 1 publisher node (relay or light, doesn’t matter)
-- 1-2 service nodes
-- 200 light nodes
-- 200 relay nodes
-- One community setup
-- All relay and light nodes have joined the community
-
-**Test:**
-
-- Only publisher and service nodes are up
-- publisher node publishes messages (they get stored in store), then stops
-- light and relay nodes go online
-- They automatically perform store queries
-- Measure time from start to time they get first query
-- Measure on wire store query performance
-
-#### Deliverables
-
 ### Status-backend private chats - Idle-relay
 
 * fully qualified name: `vac:dst:status:2025q2-status-go-evaluation:idle-relay`

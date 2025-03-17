@@ -48,16 +48,17 @@ any identified gaps, and recommendations for improvement.
 
 * fully qualified name: `vac:qa:ift:2025q1-projects-qa-strategy:nimbus`
 * owner: fbarbu15
-* status: in progress (60%)
-* start-date: 
-* end-date: 
+* status: done
+* start-date: 03/03/2025
+* end-date: 17/03/2025
 
 #### Description
 Investigate and document Nimbus QA strategy,
 identify gaps, and provide recommendations for improvements.
 
 #### Deliverables
-* QA Strategy doc for [nimbus eth1 execution client](https://www.notion.so/Nimbus-eth1-VAC-QA-Test-Coverage-Report-1af8f96fb65c80328862f28ef10c809c?pvs=22&qid=)
+* QA Strategy doc for [nimbus eth1 execution client](https://www.notion.so/Nimbus-eth1-VAC-QA-Test-Coverage-Report-1af8f96fb65c80328862f28ef10c809c)
+* QA Strategy doc for [nimbus eth2 consensus client](https://www.notion.so/Nimbus-eth2-VAC-QA-Test-Coverage-Report-1b68f96fb65c80f3b243ca6eca21d885)
 
 ### QA Frameworks Documentation
 

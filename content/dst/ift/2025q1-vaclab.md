@@ -66,6 +66,7 @@ promoting transparency and collaboration.
 ## Task List
  
 ### Better Time Slicing
+> *Note*: Will be moved to Q2
 
 * fully qualified name: `vac:dst:ift:2025q1-vaclab:better-time-slicing`
 * owner: Wings
@@ -99,6 +100,7 @@ to the limits of the underlying infrastructure and our actual needs.
 and will be done outside of normal DST cadence
 but will be managed so as not to disrupt other works
 -->
+> *Note*: Will be moved to Q2
 
 * fully qualified name: <vac:dst:ift:2025q1-vaclab:automation-uplift>
 * owner: Wings
@@ -119,3 +121,51 @@ freeing up resources for Wings to focus on other work.
   - What was automated? Why? What did that change?
   - What remains manual and needs improving?
 - [ ] Improvements to the lab that are documented, implemented and recorded.
+
+### Deployment utilities
+
+* fully qualified name: `vac:dst:ift:2025q1-vaclab:deployment-utilities`
+* owner: Wings
+* status: 0%
+* start-date: 2025/03/17
+* end-date: 2025/03/28
+
+#### Description
+
+Help the DST team to automatize the deployment of experiments.
+Investigate and decide the best way to automatically perform
+experiments, setting up different scenarios, and allowing
+important parameters to be also modifiable.
+Also, if the experiments require a post analysis, automatically
+trigger the needed post-experiments scripts in the correspondant experiment.
+This will be as abstract as possible, as there can be different
+experiments for different other units that DST can be working on.
+
+#### Deliverables
+- Notion report with example:
+- Code:
+- Documentation:
+
+### Concurrent experiments
+> *Note*: End time is an estimation, still needs to be coordinated
+
+* fully qualified name: `vac:dst:ift:2025q1-vaclab:concurrent-experiments`
+* owner: Wings
+* status: 0%
+* start-date: 2025/03/24
+* end-date: 2025/04/04
+
+#### Description
+
+Allow different experiments to be run at the same time.
+In order to do this, create a process or automatically
+estimate how much resources an experiment will need,
+and if there are enough resources to run several experiments
+at the same time, trigger them.
+A report with an example baseline of this could be done either
+with nimlibp2p or waku.
+
+#### Deliverables
+- Notion report with example:
+- Code:
+- Documentation:

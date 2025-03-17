@@ -1,17 +1,35 @@
-# TODO
+---
 
-4. AutoTLS
+title: nim-libp2p TLS secure transport
+tags:
+  - "2025q2"
+  - "p2p"
+  - "ift"
+draft: false
+description: nim-libp2p TLS Secure transport
 
-Implement a process that automates the issuance of Let’s Encrypt wilcard TLS certificates for nim-libp2p nodes. This would enable reliable browser-based clients to connect to libp2p nodes, regardless of the network topology which improves resilience and opens up a window to more capable browser clients. This task is limited to the client functionality; Server functionality could be implemented on a separate task
-5.1. Request certificate and authenticate against registration.libp2p.direct
-5.2. Notify DNS-01 challenge completion
-5.3. Install generated certificate and use it in TCP/WS/WSSS/Quic/Webtransport
+---
+
+`vac:p2p:ift:2025q2-nim-libp2p-tls`
+
+Implement TLS as one of the security handshakes used to secure transports that don’t have built-in security,
+reusing the certificate generation logic developed as part of `vac:p2p:ift:2025q1-nimlibp2p-wrapping-ngtcp2`.
+
+## Task List
+
+### Implement TLS secure transport
+
+* fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-tls:tls-transport`
+* owner:
+* status: not started
+* start-date:
+* end-date:
 
 
-2. TLS secure transport vac:p2p:ift:2025q2-tls-transport
+#### Description
+Implement the logic for TLS secure transport according to [libp2p specification](https://github.com/libp2p/specs/blob/master/tls/tls.md)
+taking into account that some work has already been done as part of the development of quic transport
 
-Implement TLS secure protocol /tls/1.0.0 to provide encryption and authentication for transports that lack built-in security mechanisms.
 
-    2.1 Implement TLS secure transport
-    vac:p2p:ift:2025q2-tls-transport:tls
-    Implement the logic for TLS secure transport according to libp2p specification
+#### Deliverables
+

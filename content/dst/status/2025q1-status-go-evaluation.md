@@ -72,13 +72,13 @@ Report differences with nWaku.
 
 
 ### Status-backend subscription performance
-> *Note*: Change Owner? Change status? Change dates? Create new task because of handover?
+> *Note*: This task was a handover
 
 * fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:subscription-performance`
-* owner: Wings
+* owner: Alberto
 * status: 60%
 * start-date: 2025/02/17
-* end-date: 2025/02/21
+* end-date: 2025/03/28
 
 #### Description
 **Goal:** measure time to readiness to receive live messages.

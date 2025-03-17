@@ -111,7 +111,7 @@ investigating and resolving issues, and implementing minor improvements to the t
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:connection`
 * owner: radek
-* status: in progress (85%)
+* status: done
 * start-date: 2025/03/03
 * end-date: 2025/03/10
 
@@ -126,7 +126,7 @@ More info [here](https://www.notion.so/go-bindings-Task-1a68f96fb65c804d949ffc53
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:endurance`
 * owner: aya
-* status: in progress (10%)
+* status: in progress (60%)
 * start-date: 2025/03/10
 * end-date: 2025/03/20
 
@@ -135,13 +135,15 @@ Create an endurance tests suite where we invoke waku functions thousand times
 and then making sure the memory doesn't grow, while waku still performs as expected.
 
 #### Deliverables
-* PR
+* [test: new stress tests](https://github.com/waku-org/waku-go-bindings/pull/47)
+* [bug: calling Destroy() in a test breaks subsequent node creation and message reception](https://github.com/waku-org/waku-go-bindings/issues/51)
+  
 
 ### CI
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:ci`
 * owner: aya
-* status: not started
+* status: in progress (80%)
 * start-date: 2025/03/20
 * end-date: 2025/03/30
 
@@ -149,5 +151,4 @@ and then making sure the memory doesn't grow, while waku still performs as expec
 Create a github actions workflow that runs the tests each night.
 
 #### Deliverables
-* PR
-* Github Actions Run
+- [Added 2 jobs: 1st for endurance tests that takes much time & 2nd to run all tests 10 times and record memory readings](https://github.com/waku-org/waku-go-bindings/actions) 

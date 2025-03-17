@@ -117,7 +117,7 @@ Perform functional tests to validate [wakuext_sendOneToOneMessage](https://githu
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:wakuext-chat-message`
 * owner: radek
-* status: in progress (50%)
+* status: done
 * start-date: 2025/02/25
 * end-date: 2025/03/14
 
@@ -128,12 +128,14 @@ Perform tests functional tests to validate all [wakuext chat messages](https://g
 * [test_: Tests for wakuext messages 1](https://github.com/status-im/status-go/pull/6356)
 * [test_: Tests for wakuext messages 2](https://github.com/status-im/status-go/pull/6374)
 * [test_: Tests for wakuext messages 3](https://github.com/status-im/status-go/pull/6380)
+* [test : Tests for wakuext messages 4](https://github.com/status-im/status-go/pull/6428)
+* [chore: split test steps into separate classes](https://github.com/status-im/status-go/pull/6403)
 
 ### Other Message Endpoints
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:other-message-ep`
 * owner: radek
-* status: not started
+* status: in progress (10%)
 * start-date: 2025/03/17
 * end-date: 2025/03/31
 
@@ -147,7 +149,7 @@ Perform functional tests to validate all [remaining message](https://github.com/
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:community-join-leave`
 * owner: fbarbu15
-* status: in progress (70%)
+* status: done
 * start-date: 2025/02/28
 * end-date: 2025/03/05
 
@@ -156,4 +158,20 @@ Perform tests to validate how community joining and leaving behaves.
 Do the tests with multiple iterations, and applied network conditions.
 
 #### Deliverables
-* PR
+* [test_: join leave community scenarios](https://github.com/status-im/status-go/pull/6370)
+
+
+### Contact Request
+
+* fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:contact-requests`
+* owner: fbarbu15
+* status: in progress (20%)
+* start-date: 2025/03/17
+* end-date: 2025/03/30
+
+#### Description
+Perform tests to validate how contact requests actions behave.
+Tests should validate response schemas and data.
+
+#### Deliverables
+* PRs

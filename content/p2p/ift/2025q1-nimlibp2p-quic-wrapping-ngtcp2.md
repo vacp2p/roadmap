@@ -31,7 +31,7 @@ The development of a native Nim implementation of QUIC will be addressed in a fu
 
 * fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-wrapping-ngtcp2:tls_handshake`
 * owner: rramos
-* status: 80%
+* status: 85%
 * start-date: 2025/26/01
 * end-date:
 
@@ -43,9 +43,14 @@ ngtcp2
 #### Deliverables
 - [ ] PRs:
   - nim-ngtcp2 - wrap picotls: [PR](https://github.com/vacp2p/nim-ngtcp2/pull/10)
-  - nim-quic - picotls integration [PR](https://github.com/vacp2p/nim-quic/pull/55)
-  - nim-quic - chore: `async: raises` - pt1 [PR](https://github.com/vacp2p/nim-quic/pull/57)
-  - nim-libp2p - quic (WIP) [PR](https://github.com/vacp2p/nim-libp2p/pull/1265)
+  - nim-quic
+    - picotls integration [PR](https://github.com/vacp2p/nim-quic/pull/55)
+    - chore: `async: raises` - pt1 [PR](https://github.com/vacp2p/nim-quic/pull/57)
+    - feat: ALPN [PR](https://github.com/vacp2p/nim-quic/pull/59)  
+  - nim-libp2p
+    - quic (WIP) [PR](https://github.com/vacp2p/nim-libp2p/pull/1265)
+    - use libp2p alpn, remove hardcoded port number and fix certificate generation [PR](https://github.com/vacp2p/nim-libp2p/pull/1283)
+
 
 ### Implement certificate validation
 

@@ -1,7 +1,69 @@
-# TODO
+---
 
-8.1. Improve DST Node to add additional regression tests
-DST uses this [node](https://github.com/vacp2p/dst-gossipsub-test-node/blob/dockerized/main.nim) to do regression testing on each libp2p release. DST team has suggested that we collaborate in the refactoring of the node to include other tests as latency
-8.1.1. Determine requirements (which tests should be included)
-8.2.2. Implement tests
-8.2. Test coverage
+title: nim-libp2p Test Coverage
+tags:
+  - "2025q2"
+  - "p2p"
+  - "ift"
+draft: false
+description: nim-libp2p Test Coverage
+
+---
+
+`vac:p2p:ift:2025q2-nimlibp2p-test-coverage`
+
+
+nim-libp2p Improved Test Coverage
+
+## Description
+Work closely with the QA and DST teams to identify key areas for improvement in the release and testing of nim-libp2p,
+ensuring better test coverage and reliability. 
+
+
+## Task List
+
+### Improve DST test node
+
+* fully qualified name: `vac:p2p:ift:2025q2-test-coverage:dst-test-node`
+* owner:
+* status: not started
+* start-date:
+* end-date: 
+
+#### Description
+DST uses this [node](https://github.com/vacp2p/dst-gossipsub-test-node/blob/dockerized/main.nim) to do regression testing 
+on each libp2p release. DST team has suggested that we collaborate in the refactoring of the node to allow custom test 
+scenarios via specifying arguments/flags:
+- Choose the multiplexer to use without having to recompile
+- Number of nodes to connect to
+- Message Ratio
+- Message Weight
+- Connection parameters (currently all nodes try to connect to other N nodes)
+- External script for message injection instead of cron job
+
+#### Deliverables
+
+
+
+### QA Consulting over test coverage
+
+* fully qualified name: `vac:p2p:ift:2025q2-test-coverage:qa-consulting`
+* owner:
+* status: not started
+* start-date:
+* end-date: 
+
+P2P provides consulting and support to QA by addressing queries, reviewing, formulating and designing strategies to test 
+nim-libp2p more effectively, as well as offering guidance on resolving coding challenges that may arise during the 
+development of the test units.
+
+#### Deliverables
+
+
+
+
+
+
+
+
+

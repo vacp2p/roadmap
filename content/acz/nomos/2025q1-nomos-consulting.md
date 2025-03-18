@@ -136,7 +136,7 @@ This entails checking the probabilistic arguments and presentation to make sure 
 ## Zk Consulting Nomos 7
 fully qualified name: `vac:acz:ift:2024q1-think-tank:zk-consulting-nomos-4`
 owner: Marvin
-status: started (80%)
+status: started (90%)
 start-date: 2025/3/10
 end-date: 2025/3/21
 

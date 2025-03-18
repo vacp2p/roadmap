@@ -89,7 +89,7 @@ Implementation of the MixEntry and MixExit abstractions for the Mixnet.
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:simple-gossipsub-poc`
 * owner: Akshaya
-* status: started (80%)
+* status: started (85%)
 * start-date: 2025/02/10
 * end-date: 2025/02/24
 
@@ -121,7 +121,7 @@ Preparation for the IFT research call on 26th of February.
 ### Updating RFC
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:update-rfc`
 * owner: Akshaya
-* status: not started
+* status: started (0%)
 * start-date: 2025/03/12
 * end-date: 2025/03/24
 

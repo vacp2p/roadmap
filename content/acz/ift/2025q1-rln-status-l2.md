@@ -38,7 +38,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q1-rln-status-l2:exploring`
 * owner: Ugur
-* status: started (15%) 
+* status: started (30%) 
 * start-date: 2025/02/17
 * end-date: 2025/03/03
 

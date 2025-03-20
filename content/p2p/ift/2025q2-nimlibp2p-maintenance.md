@@ -60,7 +60,7 @@ maintainability, leading to more efficient troubleshooting and debugging.
 
 ### Memory transport
 
-* fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-maintenance:refactor-abstractions`
+* fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-transport:memory-transport`
 * owner: vlado
 * status: not started
 * start-date:

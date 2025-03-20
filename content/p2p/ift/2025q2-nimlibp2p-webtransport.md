@@ -21,6 +21,22 @@ which would allow browsers to establish bidirectional stream connections to nim-
 
 ## Task List
 
+### HTTP/3 over Quic
+
+* fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-webtransport:http3`
+* owner: vlado
+* status: not started
+* start-date:
+* end-date:
+
+#### Description
+Implement HTTP/3 over Quic following [draft-ietf-webtrans-http3-02](https://www.ietf.org/archive/id/draft-ietf-webtrans-http3-02.html) specification.
+This should be done as part of the [nim-quic](https://github.com/vacp2p/nim-quic) module
+
+#### Deliverables
+
+
+
 ### Certificate generation
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-webtransport:certificate`

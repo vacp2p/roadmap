@@ -95,7 +95,7 @@ Update and reorganize the RFC with the single and multi admin options.
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:waku-node-connection`
 * owner: Ekaterina
-* status: started (80%)
+* status: done
 * start-date: 2025/01/20
 * end-date: 2025/02/24
 
@@ -110,7 +110,8 @@ This task's end-date is expanded due to the blocker from the waku Rust bindings.
 
 #### Deliverables
 
-A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository 
+A [PR](https://github.com/vacp2p/de-mls/pull/32) to the 
+[de-MLS](https://github.com/vacp2p/de-mls) repository 
 updating the Waku node connection and enabling multiple node usage.
 
 ### Benchmark Coverage

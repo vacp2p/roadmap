@@ -76,7 +76,7 @@ Report differences with nWaku.
 
 * fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:subscription-performance`
 * owner: Alberto
-* status: 60%
+* status: 75%
 * start-date: 2025/02/17
 * end-date: 2025/03/28
 
@@ -138,7 +138,7 @@ Report differences with nWaku.
 
 * fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:regression-testing`
 * owner: Wings
-* status: 0%
+* status: Recurring
 * start-date: 2025/01/01
 * end-date: 2025/03/31
 

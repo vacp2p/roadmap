@@ -31,7 +31,7 @@ The development of a native Nim implementation of QUIC will be addressed in a fu
 
 * fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-wrapping-ngtcp2:tls_handshake`
 * owner: rramos
-* status: 85%
+* status: 90%
 * start-date: 2025/26/01
 * end-date:
 
@@ -45,18 +45,18 @@ ngtcp2
   - nim-ngtcp2 - wrap picotls: [PR](https://github.com/vacp2p/nim-ngtcp2/pull/10)
   - nim-quic
     - picotls integration [PR](https://github.com/vacp2p/nim-quic/pull/55)
-    - chore: `async: raises` - pt1 [PR](https://github.com/vacp2p/nim-quic/pull/57)
     - feat: ALPN [PR](https://github.com/vacp2p/nim-quic/pull/59)  
+    - fix: connection timeouts [https://github.com/vacp2p/nim-quic/pull/62]()
   - nim-libp2p
     - quic (WIP) [PR](https://github.com/vacp2p/nim-libp2p/pull/1265)
     - use libp2p alpn, remove hardcoded port number and fix certificate generation [PR](https://github.com/vacp2p/nim-libp2p/pull/1283)
-
+    - refactor: use openssl instead of mbedtls [PR](https://github.com/vacp2p/nim-libp2p/pull/1298)
 
 ### Implement certificate validation
 
 * fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-wrapping-ngtcp2:certificate_validation`
-* owner: rramos
-* status: 20%
+* owner: vlado
+* status: 95%
 * start-date: 2025/05/02
 * end-date:
 
@@ -68,16 +68,28 @@ This work should be built based on [nim-libp2p#1209](https://github.com/vacp2p/n
 - [ ] PRs:
   - Generate and parse TLS 1.3 Certificate: [PR](https://github.com/vacp2p/nim-libp2p/pull/1209)
   - Implement custom certificate validators: [PR](https://github.com/vacp2p/nim-quic/pull#56)
+  - X.509 certificate validation[PR](https://github.com/vacp2p/nim-libp2p/pull/1292)
+  - Certificate cosmetics - [PR](https://github.com/vacp2p/nim-libp2p/pull/1293)
+  - Add tests with invalid certs - [PR](https://github.com/vacp2p/nim-libp2p/pull/1297)
+  - Set distinguishable issuer name with peer id - [PR](https://github.com/vacp2p/nim-libp2p/pull/1296) 
+  - TLS Certificate Verify - [PR](https://github.com/vacp2p/nim-libp2p/pull/1295)
+  - Update libp2p specs:
+    - update specs test vectors [PR](https://github.com/libp2p/go-libp2p/pull/3242)
+    - update nim-libp2p certificate test vectors [PR](https://github.com/vacp2p/nim-libp2p/pull/1294)
+    - update go-libp2p certificate test vectors [PR](https://github.com/libp2p/specs/pull/665)
 
 ### Improve QUIC transport code
 
 * fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-wrapping-ngtcp2:improve_quic`
 * owner: rramos
-* status: 
-* start-date: 
+* status: 30%
+* start-date:  2025/03/17
 * end-date:
 
 #### Description
 Prepare the transport code for production by performing the necessary refactors, implementing logging, and adding unit tests. This may also involve determining whether QUIC support for hole punching needs to be implemented. For the first part, follow recomendations from [Status nim style guidelines](https://status-im.github.io/nim-style-guide/)
 
 #### Deliverables
+- [nim-quic#60](https://github.com/vacp2p/nim-quic/pull/60) -  chore: use bearssl rng
+- [nim-quic#57](https://github.com/vacp2p/nim-quic/pull/57) - chore: `async: raises`
+

@@ -175,5 +175,5 @@ Perform tests to validate how contact requests actions behave.
 Tests should validate response schemas and data.
 
 #### Deliverables
-*	[test:_ contact requests tests p1](https://github.com/status-im/status-go/pull/6425)
-*	[test:_ contact requests tests p2](https://github.com/status-im/status-go/pull/6437)
+* [test:_ contact requests tests p1](https://github.com/status-im/status-go/pull/6425)
+* [test:_ contact requests tests p2](https://github.com/status-im/status-go/pull/6437)

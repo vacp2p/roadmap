@@ -47,12 +47,14 @@ Releasing initial porting RISC0 to ARM.
 ## Maintenance
 * fully qualified name: `vac:acz:ift:2025q1-risc0-arm-port:maintenance`
 * owner: Romanzac
-* status: started (0%)
+* status: on-hold
 * start-date: 2025/02/03
 * end-date: 2025/03/10
 
 ### Description
 Maintenance of the RISC0-ARM codebase. 
+
+This task is on-hold since RISC0 porting does not require maintaining in this quarter.
 
 ### Deliverables
 - Several PR to the [vacp2p repo](https://github.com/vacp2p).

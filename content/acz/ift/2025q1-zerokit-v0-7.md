@@ -119,7 +119,7 @@ A [PR](https://github.com/vacp2p/zerokit/pull/280) to the [Zerokit]((https://git
 
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:zerokit-maintaining`
 * owner: Ekaterina
-* status: started (20%)
+* status: started (40%)
 * start-date: 2025/02/17
 * end-date: 2025/03/31
 
@@ -156,7 +156,7 @@ A [PR](https://github.com/vacp2p/zerokit/pull/287) to the [Zerokit]((https://git
 ### Zerokit Wasm Research
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:zerokit-wasm-research`
 * owner: Vinh
-* status: started
+* status: started (15%)
 * start-date: 2025/03/12
 * end-date: 2025/03/21
 
@@ -176,7 +176,7 @@ Comment in zerokit issue related to release v0.8.0
 
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:release`
 * owner: Ekaterina
-* status: started (20%)
+* status: done
 * start-date: 2025/03/24
 * end-date: 2025/03/31
 
@@ -187,4 +187,5 @@ that covers faster witness generation, posidon hash integration and update the R
 
 #### Deliverables
 A set of PRs to vacp2p/zerokit repository with [tag v0.7.0](https://github.com/vacp2p/zerokit/releases/tag/v0.7.0)
+
 

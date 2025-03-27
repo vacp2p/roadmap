@@ -21,7 +21,7 @@ understand the limits of Status-go and its behaviour.
 Deliver reports and actionable insights.
 Do this monthly, reliably, with documentation of findings.
 
-The scope of this commitment depends on the Status team
+The scope of this commitment is expected to be updated based on input from Status.
 work and improvements, and it is subjected to change.
 
 ### Background

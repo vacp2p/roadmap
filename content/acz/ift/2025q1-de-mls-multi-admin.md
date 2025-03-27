@@ -95,7 +95,7 @@ Update and reorganize the RFC with the single and multi admin options.
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:waku-node-connection`
 * owner: Ekaterina
-* status: started (80%)
+* status: done
 * start-date: 2025/01/20
 * end-date: 2025/02/24
 
@@ -110,7 +110,8 @@ This task's end-date is expanded due to the blocker from the waku Rust bindings.
 
 #### Deliverables
 
-A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository 
+A [PR](https://github.com/vacp2p/de-mls/pull/32) to the 
+[de-MLS](https://github.com/vacp2p/de-mls) repository 
 updating the Waku node connection and enabling multiple node usage.
 
 ### Benchmark Coverage
@@ -136,7 +137,7 @@ A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository with
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:batch-key-package`
 * owner: Ekaterina
-* status: on-hold
+* status: on hold
 * start-date: 2025/01/27
 * end-date: 2025/02/10
 
@@ -177,7 +178,7 @@ A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository with
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:extend-api`
 * owner: Ekaterina
-* status: on-hold
+* status: on hold
 * start-date: 2025/02/10
 * end-date: 2025/03/03
 
@@ -232,7 +233,7 @@ A notion page that offers a few solutions that are feasible to implement.
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:deployment`
 * owner: Ekaterina
-* status: on-hold
+* status: on hold
 * start-date: 2025/03/06
 * end-date: 2025/03/24
 
@@ -250,7 +251,7 @@ A PRs to the [de-MLS](https://github.com/vacp2p/de-mls) repository with bug fixe
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:ef-application`
 * owner: Ugur
-* status: on-hold
+* status: on hold
 * start-date: 2025/03/06
 * end-date: 2025/03/24
 
@@ -259,7 +260,7 @@ A PRs to the [de-MLS](https://github.com/vacp2p/de-mls) repository with bug fixe
 Finalize the grant application file including the answers to EF questions and start the process
 with having meetings during office hours for possible questions.  
 
-This task is postponed to the 2025q2 since we can apply it with consensus integration. 
+This task is postponed to 2025q2 because related tasks must be completed first.
 
 #### Deliverables
 

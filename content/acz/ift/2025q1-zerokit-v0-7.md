@@ -119,7 +119,7 @@ A [PR](https://github.com/vacp2p/zerokit/pull/280) to the [Zerokit]((https://git
 
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:zerokit-maintaining`
 * owner: Ekaterina
-* status: started (40%)
+* status: started (80%)
 * start-date: 2025/02/17
 * end-date: 2025/03/31
 
@@ -156,7 +156,7 @@ A [PR](https://github.com/vacp2p/zerokit/pull/287) to the [Zerokit]((https://git
 ### Zerokit Wasm Research
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:zerokit-wasm-research`
 * owner: Vinh
-* status: started (15%)
+* status: started (70%)
 * start-date: 2025/03/12
 * end-date: 2025/03/21
 

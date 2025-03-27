@@ -89,7 +89,7 @@ Implementation of the MixEntry and MixExit abstractions for the Mixnet.
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:simple-gossipsub-poc`
 * owner: Akshaya
-* status: started (85%)
+* status: started (90%)
 * start-date: 2025/02/10
 * end-date: 2025/02/24
 
@@ -105,7 +105,7 @@ Implementation a simple gossipsub PoC over Waku the mixnet.
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:ift-research-call-prep`
 * owner: Akshaya
-* status: started (50%)
+* status: started (80%)
 * start-date: 2025/02/17
 * end-date: 2025/02/28
 
@@ -139,13 +139,16 @@ Updating the [mixnet RFC](https://rfc.vac.dev/vac/raw/mix) with latest findings 
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:blogposts`
 * owner: Akshaya
-* status: not started
+* status: on-hold
 * start-date: 2025/03/17
 * end-date: 2025/03/28
 
 #### Description
 
 Writing a blogpost about the mixnet with PoC details. 
+
+This task is postponed to the 2025q2 by replacing the updating RFC task since 
+there were changes in [mixnet RFC](https://rfc.vac.dev/vac/raw/mix) and the RFC must be updated first. 
 
 #### Deliverables
 

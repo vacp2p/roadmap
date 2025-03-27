@@ -5,6 +5,21 @@ tags:
   - vac
 ---
 
+## 2025q2 `vac:acz:`
+* [ ] [[acz/ift/2025q2-zerokit|2025q2-zerokit]]
+* [ ] [[acz/ift/2025q2-de-mls-testnet.md|2025q2-de-mls-testnet.md]]
+* [ ] [[acz/ift/2025q2-libp2p-mix-testnet|2025q2-libp2p-mix-testnet]]
+* [ ] [[acz/ift/2025q2-think-tank.md|2025q2-think-tank.md]]
+* [ ] [[acz/ift/2025q2-ift-zk-calls|2025q2-ift-zk-calls]]
+* [ ] [[acz/ift/2025q2-rln-status-l2|2025q2-rln-status-l2]]
+* [ ] [[acz/ift/2025q2-discovery|2025q2-discovery]]
+
+### `nomos:`
+
+* [ ] [[acz/nomos/2025q2-nomos-consulting|2025q2-nomos-consulting]]
+
+
+
 ## 2025q1 `vac:acz:`
 ---
 

@@ -135,7 +135,7 @@ Perform tests functional tests to validate all [wakuext chat messages](https://g
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:other-message-ep`
 * owner: radek
-* status: in progress (10%)
+* status: in progress (90%)
 * start-date: 2025/03/17
 * end-date: 2025/03/31
 
@@ -143,7 +143,8 @@ Perform tests functional tests to validate all [wakuext chat messages](https://g
 Perform functional tests to validate all [remaining message](https://github.com/status-im/status-go/issues/6084) endpoints. 
 
 #### Deliverables
-* PR with new test cases
+* [test_: Tests for wakuext messages 5](https://github.com/status-im/status-go/pull/6432)
+* [test_: Tests for wakuext messages 6](https://github.com/status-im/status-go/pull/6444)
 
 ### Community Join Leave
 
@@ -165,7 +166,7 @@ Do the tests with multiple iterations, and applied network conditions.
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:contact-requests`
 * owner: fbarbu15
-* status: in progress (20%)
+* status: done
 * start-date: 2025/03/17
 * end-date: 2025/03/30
 
@@ -174,4 +175,5 @@ Perform tests to validate how contact requests actions behave.
 Tests should validate response schemas and data.
 
 #### Deliverables
-* PRs
+* [test:_ contact requests tests p1](https://github.com/status-im/status-go/pull/6425)
+* [test:_ contact requests tests p2](https://github.com/status-im/status-go/pull/6437)

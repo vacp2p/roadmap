@@ -25,7 +25,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:waku:2025q1-interop-testing:maintenance`
 * owner: fbarbu15
-* status: in progress (80%)
+* status: done
 * start-date: 2025/01/01
 * end-date: 2025/03/31
 
@@ -46,3 +46,4 @@ investigating and resolving issues, and implementing minor improvements to the t
 * [chore: Skip all RLN tests due to problems with registration](https://github.com/waku-org/waku-interop-tests/pull/107)
 * [bug: Waku requests rejected by Infura RPC provider - not EIP-155 compliant](https://github.com/waku-org/nwaku/issues/3313)
 * [chore: fix Overall job result](https://github.com/waku-org/waku-interop-tests/pull/108)
+* [chore: RLN Metric rename](https://github.com/waku-org/waku-interop-tests/pull/109)

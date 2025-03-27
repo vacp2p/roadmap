@@ -42,7 +42,6 @@ by making sure we’re open, accessible, and continuously learning from each oth
 ## Task List
 
 ### Ethereum foundation protocol test
-> *Note*: This needs more input from VAC
 
 * fully qualified name: `vac:dst:ift:2025q2-dst-research-destination:ethereum-foundation`
 * owner: Alberto

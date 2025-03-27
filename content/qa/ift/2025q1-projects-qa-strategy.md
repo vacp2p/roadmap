@@ -64,7 +64,7 @@ identify gaps, and provide recommendations for improvements.
 
 * fully qualified name: `vac:qa:ift:2025q1-projects-qa-strategy:frameworks-documentation`
 * owner: fbarbu15
-* status:  in progress (20%)
+* status: in progress (40%)
 * start-date: 2025/01/06
 * end-date: 2025/03/31
 
@@ -75,12 +75,14 @@ Include detailed processes, how-to guides, and framework-specific documentation 
 #### Deliverables
 * [Go waku bindings test framework](https://www.notion.so/1898f96fb65c8025b9fcfadca3827d51?v=1898f96fb65c80f1babd000c458064be)
 * [Nomos on ARM/Linux](https://www.notion.so/Nomos-on-ARM-Linux-Risc0-v1-3pre-1a48f96fb65c80c0b8cde64c87c6e4cb)
+* [Waku interop tests](https://www.notion.so/Waku-Interop-Tests-QA-Framework-Guide-1c08f96fb65c805aa7f8d9c4e4715f4f)
+* [Nomos QA Schedule Updates](https://www.notion.so/Nomos-QA-Schedule-Updates-1268f96fb65c8081ba8fea1004a6331b)
 
 ### Synchronize QA and RFC Processes
 
 * fully qualified name: `vac:qa:ift:2025q1-projects-qa-strategy:qa-rfc-sync`
 * owner: fbarbu15
-* status: in progress (40%)
+* status: done (following up on this task in Q2 with a new commitment)
 * start-date: 2025/01/06
 * end-date: 2025/03/31
 

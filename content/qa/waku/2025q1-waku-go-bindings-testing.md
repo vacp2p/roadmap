@@ -95,7 +95,7 @@ and ensure reliable message storing across multiple nodes.
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:maintenance`
 * owner: aya
-* status: in progress (20%)
+* status: in progress (80%)
 * start-date: 2025/01/01
 * end-date: 2025/03/31
 
@@ -126,7 +126,7 @@ More info [here](https://www.notion.so/go-bindings-Task-1a68f96fb65c804d949ffc53
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:endurance`
 * owner: aya
-* status: in progress (60%)
+* status: in progress (80%)
 * start-date: 2025/03/10
 * end-date: 2025/03/20
 
@@ -143,7 +143,7 @@ and then making sure the memory doesn't grow, while waku still performs as expec
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:ci`
 * owner: aya
-* status: in progress (80%)
+* status: in progress (90%)
 * start-date: 2025/03/20
 * end-date: 2025/03/30
 
@@ -151,4 +151,7 @@ and then making sure the memory doesn't grow, while waku still performs as expec
 Create a github actions workflow that runs the tests each night.
 
 #### Deliverables
-- [Added 2 jobs: 1st for endurance tests that takes much time & 2nd to run all tests 10 times and record memory readings](https://github.com/waku-org/waku-go-bindings/actions) 
+- [Added 2 jobs: 1st for endurance tests that takes much time & 2nd to run all tests 10 times and record memory readings](https://github.com/waku-org/waku-go-bindings/actions)
+- [Long running test](https://github.com/waku-org/waku-go-bindings/actions/runs/13949016824/job/39043263718)
+- [Endurange test](https://github.com/waku-org/waku-go-bindings/actions/runs/14019657817)
+  

@@ -147,7 +147,7 @@ Expand the [de-MLS](https://github.com/vacp2p/de-mls) codebase by implementing m
 The implementation with a single admin allowed for the instantaneous processing of requests to join the group. 
 When moving to multiple admins, the ability to collect requests in batches and then process them as one should be added. 
 
-This task is postponed to 2025q2 because of unseen tasks.   
+This task is postponed to the 2025q2 since Zerokit was prioritized. 
 
 #### Deliverables
 
@@ -189,7 +189,7 @@ In preparation for working with multiple admins,
 extend API for the following processes: processing invitations to a group, applying commits, 
 and preparing a separate channel for exchanging messages between admins. 
 
-This task is postponed to 2025q2 because of unseen tasks. 
+This task is postponed to the 2025q2 since Zerokit was prioritized.  
 
 #### Deliverables
 
@@ -217,7 +217,7 @@ with a new CI pipeline for the repository that includes the waku node.
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:consensus-research`
 * owner: Ugur
-* status: started (40%)
+* status: started (50%)
 * start-date: 2025/02/10
 * end-date: 2025/02/24
 
@@ -242,7 +242,7 @@ A notion page that offers a few solutions that are feasible to implement.
 Set up final deployment for the [de-MLS](https://github.com/vacp2p/de-mls) repository, 
 including Docker configurations and automation.
 
-This task is postponed to 2025q2 because of unseen tasks. 
+This task is postponed to 2025q2 since related tasks were postponed by Zerokit being prioritized.
 
 #### Deliverables
 A PRs to the [de-MLS](https://github.com/vacp2p/de-mls) repository with bug fixes and code improvements.

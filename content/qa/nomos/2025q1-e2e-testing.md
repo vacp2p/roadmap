@@ -26,7 +26,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:nomos:2025q1-e2e-testing:maintenance`
 * owner: romanzac
-* status: in progress (80%)
+* status: in progress (95%)
 * start-date: 2025/01/01
 * end-date: 2025/03/31
 
@@ -44,3 +44,4 @@ investigating and resolving issues, and implementing minor improvements to the t
 * [chore: Update nomos-cli reconstruct to work with DaBlob](https://github.com/logos-co/nomos-node/pull/1080)
 * [chore: Collect more insight for data dispersal](https://github.com/logos-co/nomos-e2e-tests/pull/6)
 * [chore: Add dispersal mempool strategy to cfgsync template](https://github.com/logos-co/nomos-e2e-tests/pull/10)
+* [chore: Improve error handling](https://github.com/logos-co/nomos-e2e-tests/pull/11)

@@ -11,7 +11,6 @@ tags:
 * [ ] [[dst/ift/2025q2-dst-conduit|dst-conduit]]
 * [ ] [[dst/ift/2025q2-dst-research-destination|dst-research-destination]]
 * [ ] [[dst/ift/2025q2-vaclab|vaclab]]
-* [ ] [[dst/ift/2025q2-theoretical-analysis|theoretical-analysis]]
 <!--
 * [ ] [[dst/ift/2025qx-scaling-think-tank|scaling-think-tank]]
 -->

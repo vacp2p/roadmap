@@ -5,6 +5,31 @@ tags:
 - vac
 ---
 
+## 2025q2 `vac:dst:`
+---
+### `ift`
+* [ ] [[dst/ift/2025q2-dst-conduit|dst-conduit]]
+* [ ] [[dst/ift/2025q2-dst-research-destination|dst-research-destination]]
+* [ ] [[dst/ift/2025q2-vaclab|vaclab]]
+<!--
+* [ ] [[dst/ift/2025qx-scaling-think-tank|scaling-think-tank]]
+-->
+
+### `nomos`
+* [ ] [[dst/nomos/2025q2-nomos-scaling|nomos-scaling]]
+
+### `status`
+* [ ] [[dst/status/2025q2-status-go-evaluation|status-go-evaluation]]
+
+### `vac`
+* [ ] [[dst/vac/2025q2-libp2p-evaluation|libp2p-evaluation]]
+
+### `waku`
+* [ ] [[dst/waku/2025q2-waku-evaluation|waku-evaluation]]
+* [ ] [[dst/waku/2025q2-waku-scaling|waku-scaling]]
+* [ ] [[dst/waku/2025q2-waku-tooling|waku-tooling]]
+
+---
 ## 2025q1 `vac:dst:`
 ---
 ### `codex`
@@ -15,14 +40,9 @@ tags:
 * [ ] [[dst/ift/2025q1-dst-conduit|dst-conduit]]
 * [ ] [[dst/ift/2025q1-dst-research-destination|dst-research-destination]]
 * [ ] [[dst/ift/2025q1-vaclab|vaclab]]
-<!--
-* [ ] [[dst/ift/2025qx-scaling-think-tank|scaling-think-tank]]
-* [ ] [[dst/ift/2025qx-theoretical-analysis|theoretical-analysis]]
--->
 
 ### `nomos`
 * [ ] [[dst/nomos/2025q1-nomos-scaling|nomos-scaling]]
-* [ ] [[dst/nomos/2025q1-nomos-tooling|nomos-tooling]]
 
 ### `status`
 * [ ] [[dst/status/2025q1-status-go-evaluation|status-go-evaluation]]

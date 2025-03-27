@@ -1,7 +1,7 @@
 ---
 title: Libp2p Evaluation
 tags:
-  - "2025q1"
+  - "2025q2"
   - "dst"
   - "vac"
 draft: false
@@ -10,7 +10,7 @@ and look for regressions,
 learn scaling properties and run scaling studies."
 ---
 
-`vac:dst:vac:2025q1-libp2p-evaluation`
+`vac:dst:vac:2025q2-libp2p-evaluation`
 
 
 ## Description
@@ -21,6 +21,9 @@ learn scaling properties and run scaling studies,
 understand the limits of Waku and its behaviour.
 Deliver reports and actionable insights.
 Do this monthly, reliably, with documentation of findings.
+
+The scope of this commitment depends on the P2P team
+work and improvements, and it is subjected to change.
 
 ### Background
 
@@ -56,11 +59,11 @@ and especially those we want to work with externally.
 
 ### Regression testing (recurring)
 
-* fully qualified name: `vac:dst:vac:2025q1-libp2p-evaluation:regression-testing`
+* fully qualified name: `vac:dst:vac:2025q2-libp2p-evaluation:regression-testing`
 * owner: Alberto
 * status: recurring
-* start-date: 2025-01-01
-* end-date: 2025-03-31
+* start-date: 2025-04-01
+* end-date: 2025-06-30
 
 #### Description
 Run different scenarios
@@ -73,7 +76,6 @@ and ensure they don't happen again.
 
 #### Deliverables
 * Analysis done
-  * [January report](https://www.notion.so/Nim-libp2p-v1-8-0-regression-testing-January-2025-1828f96fb65c80198a8ae1bc0e17dbb0)
 * Report published with all relevant details
 * RFC's GitHub issue updated
   with links to the analysis and results.

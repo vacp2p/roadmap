@@ -4,12 +4,18 @@ tags:
   - rfc
   - nomos
 draft: false
-description: Supporting the process of creating new RFCs based on DA subprotocols.
+description: This commitment involves the editorial work on DA RFC(s),as well as the effort of finding inconsistencies in the specs in order to inform the team. This includes (but not limited to) potential improvement proposals, i.e. identifying parts that are under specified, need more detail, or suggesting to remove specific implementation details.
 ---
 
 `vac:rfc:nomos:2025q2-raw-rfcs-support-data-availability`
 
-Supporting the process of creating new RFCs based on DA subprotocols.
+This commitment involves the editorial work on DA RFC(s),
+as well as the effort of finding inconsistencies in the specs
+in order to inform the team.
+
+This includes (but not limited to) potential improvement proposals,
+i.e. identifying parts that are under specified, need more detail,
+or suggesting to remove specific implementation details.
 
 ## Description
 

@@ -20,7 +20,8 @@ from the existing documentation to be put in pipeline to be written or updated.
 We will also include specification validation - 
 editorial work through previous and future RFCs to improve them
 (identify edge cases for example)
-
+as well as making sure that the relevant document has enough information
+in order to ease the developer experience for coming developers.
 
 
 **Alignment with VAC Narratives:**

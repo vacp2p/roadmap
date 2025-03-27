@@ -4,9 +4,27 @@ tags:
 - rfc
 - vac
 ---
+## 2025q2 `vac:rfc:`
+
+
+### `ift:`
+- [[rfc/ift/2025q2-rfc-culture-establishment|2025q2-rfc-culture-establishment]]
++ [[rfc/ift/2025q2-rfc-index-maintenance|2025q2-rfc-index-maintenance]]
++ [[rfc/ift/2025q2-spec-impl-test-coverage-support|2025q2-spec-impl-test-coverage-support]]
+
+### `waku:`
+- [[rfc/waku/2025q2-rfc-iteration|2025q2-rfc-iteration]]
+
+### `nomos:`
+- [[rfc/nomos/2025q2-raw-rfcs-support-data-availability|2025q2-raw-rfcs-support-data-availability]]
+- [[rfc/nomos/2025q2-rfc-iteration|2025q2-rfc-iteration]]
+
+
+---
+
 ## 2025q1 `vac:rfc:`
 
---- 
+
 ### `ift:`
 + [[rfc/ift/2025q1-rfc-culture-establishment|2025q1-rfc-culture-establishment]]
 + [[rfc/ift/2025q1-rfc-index-maintenance|2025q1-rfc-index-maintenance]]

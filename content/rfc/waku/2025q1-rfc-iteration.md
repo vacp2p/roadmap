@@ -56,6 +56,8 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 #### Description
 
 Waku v2 is a family of modular peer-to-peer protocols for secure communication.
+In this task, our focus will be on updating the relevant links, the codebase
+as well as any other outdated parts of the specification.
 
 #### Deliverables
 
@@ -76,6 +78,9 @@ Waku v2 is a family of modular peer-to-peer protocols for secure communication.
 This specification explains the Toy Ethereum Private Message protocol
 which enables a peer to send an encrypted message to another peer
 using the Waku v2 network, and the peer's Ethereum address.
+
+In this task, our focus will be on updating the relevant links, the codebase
+as well as any other outdated parts of the specification.
 
 #### Deliverables
 
@@ -116,6 +121,9 @@ and uptime and do not miss any messages.
 This specification describes how Waku provides confidentiality, authenticity
 and integrity, as well as some form of unlinkability.
 
+In this task, our focus will be on updating the relevant links, the codebase
+as well as any other outdated parts of the specification.
+
 #### Deliverables
 
 - Updated RFC document (potentially with an upgraded status).
@@ -135,6 +143,9 @@ and integrity, as well as some form of unlinkability.
 This document specifies a modified version of [Ethereum's Node Discovery Protocol v5](https://github.com/ethereum/devp2p/blob/master/discv5/discv5.md)
 as a means for ambient node discovery.
 
+In this task, our focus will be on updating the relevant links, the codebase
+as well as any other outdated parts of the specification.
+
 #### Deliverables
 
 - Updated RFC document (potentially with an upgraded status).
@@ -153,6 +164,9 @@ as a means for ambient node discovery.
 
 This specification describes the C API that SHOULD be implemented by native Waku library
 and that SHOULD be used to consume them.
+
+In this task, our focus will be on updating the relevant links, the codebase
+as well as any other outdated parts of the specification.
 
 #### Deliverables
 
@@ -175,6 +189,8 @@ In [10/WAKU2 spec](https://github.com/vacp2p/rfc-index/blob/main/waku/standards
 - pubsub topics, used for routing
 - Content topics, used for content-based filtering
 
+In this task, our focus will be on updating the relevant links, the codebase
+as well as any other outdated parts of the specification.
 #### Deliverables
 
 - Updated RFC document (potentially with an upgraded status).
@@ -197,7 +213,8 @@ and peer management features to be implemented by Waku v2 clients.
 
 - Updated RFC document (potentially with an upgraded status).
 
-
+In this task, our focus will be on updating the relevant links, the codebase
+as well as any other outdated parts of the specification.
 ### 29/WAKU2-CONFIG
 
 - Fully qualified name: 
@@ -213,6 +230,9 @@ and peer management features to be implemented by Waku v2 clients.
 to assign to configurable parameters for Waku v2 clients.
 Since Waku v2 is built on [libp2p](https://github.com/libp2p/specs), most of the parameters
 and reasonable defaults are derived from there.
+
+In this task, our focus will be on updating the relevant links, the codebase
+as well as any other outdated parts of the specification.
 
 #### Deliverables
 

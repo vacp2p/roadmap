@@ -55,7 +55,7 @@ By the end of this quarter, we will:
 
 * fully qualified name: `vac:p2p:ift:2025q1-gossipsub-perf-improvements`
 * owner: farooq
-* status: 65%
+* status: 75%
 * start-date: 2025/01/13
 * end-date: 2025/03/31
 

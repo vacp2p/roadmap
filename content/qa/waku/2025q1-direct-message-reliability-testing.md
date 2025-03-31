@@ -135,7 +135,7 @@ Perform tests functional tests to validate all [wakuext chat messages](https://g
 
 * fully qualified name: `vac:qa:waku:2025q1-direct-message-reliability-testing:other-message-ep`
 * owner: radek
-* status: in progress (90%)
+* status: done
 * start-date: 2025/03/17
 * end-date: 2025/03/31
 
@@ -145,6 +145,7 @@ Perform functional tests to validate all [remaining message](https://github.com/
 #### Deliverables
 * [test_: Tests for wakuext messages 5](https://github.com/status-im/status-go/pull/6432)
 * [test_: Tests for wakuext messages 6](https://github.com/status-im/status-go/pull/6444)
+* [test_: Run functional tests in parallel](https://github.com/status-im/status-go/pull/6461)
 
 ### Community Join Leave
 

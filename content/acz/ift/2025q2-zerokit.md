@@ -36,6 +36,66 @@ for users looking to integrate RLN into their projects.
 
 ## Task List
 
+### Iden3 Witness Calculator Integration Review
+* fully qualified name: `vac:acz:ift:2025q2-zerokit:iden3-witness-review`
+* owner: Sylvain
+* status: not started
+* start-date: 2025/04/01
+* end-date: 2025/04/07
+
+#### Description
+
+The current implementation includes a modified version of the Iden3 witness calculator, 
+with changes specifically related to data types. This task involves:
+1. Verifying whether these modifications are truly necessary.
+2. Exploring the feasibility of using the original Iden3 repository as a submodule 
+instead of maintaining a separate modified version.
+3. Benchmarking both solutions to compare their performance and potential impact.
+
+#### Deliverables
+
+A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) to cover as follows:
+
+- Analysis of the differences between the current implementation and the original Iden3 witness calculator.
+- Justification (or refutation) of the necessity of data type modifications.
+- A benchmark comparing the performance of both implementations.
+- Recommendation on whether to keep the modified version or use Iden3 as a submodule.
+
+### RLN Execution Bottleneck Analysis
+* fully qualified name: `vac:acz:ift:2025q2-zerokit:rln-execution-bottleneck`
+* owner: Sylvain
+* status: not started
+* start-date: 2025/04/07
+* end-date: 2025/04/14
+
+#### Description 
+
+There is an issue with the execution time of RLN operations. 
+The problem may stem from two potential sources:
+
+- Inefficient tree operations within Zerokit, particularly in the function located here. 
+The method of reading and parsing input data might be suboptimal.
+- Inefficiencies within the membership contract itself.
+
+The issue became apparent when the membership contract reached `270,000` memberships, 
+causing extreme slowdowns in processing. 
+Specifically, the `atomic_write` function from `librln` is a major bottleneck, taking `11 to 30 seconds` per call. 
+Since this function is called within a loop, processing large batches 
+(e.g., 1752 events per RPC call) results in multi-hour delays. 
+This makes syncing infeasible and exposes scalability issues with the current approach.
+
+This task involves identifying the actual bottleneck and 
+making at least initial improvements to Zerokit’s tree structure performance. 
+We need to Investigate why `atomic_write` takes so long and whether it can be optimized.
+
+#### Deliverables
+
+A PR to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) incorporating the improvements:
+
+- Adding measurements to atomic operations in the existing benchmark
+- Analysis of the tree operations in Zerokit to identify inefficiencies.
+- If applicable, improvements to the tree structure in Zerokit to enhance performance.
+
 ### Zerokit maintaining
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:zerokit-maintaining`

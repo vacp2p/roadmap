@@ -17,6 +17,10 @@ This involves chores like the maintenance of the lab,
 software updates and replacements if it does not meet the requirements,
 monitoring systems and independent core contributor virtual machine
 assigment with maintenance.
+Also, tools for increasing the speed and quality of life for
+core contributors will be implemented. These tools will be related
+to a better usage of the resources available in the lab,
+both in computer intensive tasks and parallel workload.
 
 ### Background
 The VacLab, provided by Riff Labs Limited,
@@ -64,6 +68,50 @@ promoting transparency and collaboration.
 
 ## Task List
  
+### Concurrent experiments
+
+* fully qualified name: `vac:dst:ift:2025q2-vaclab:concurrent-experiments`
+* owner: Wings
+* status: 0%
+* start-date: 2025/04/01
+* end-date: 2025/04/04
+
+#### Description
+
+Make sure that within the same automated deployment,
+if the lab has room to run several experiments at the same time,
+the lab resources could be used efficiently to increase
+the number of experiments concurrently.
+The scope of this task will remain under the scope of the same deployment,
+not taking into account several deployments. This will be enhanced in 
+other task, where different approaches like a queueing system could 
+be used.
+
+#### Deliverables
+- Code:
+- Documentation:
+
+### Queueing system
+
+* fully qualified name: `vac:dst:ift:2025q2-vaclab:queueing-system`
+* owner: Wings
+* status: 0%
+* start-date: 2025/04/07
+* end-date: TBA
+
+#### Description
+
+Create a queueing system, or something alike, that can perform
+a similar functionality. The scope of this automated utility can
+group different kind of deployments. 
+A priority system should also be taken into consideration, 
+where a mix between when the deployment was required,
+and the amount of resources it would need needs to be taken into account.
+
+#### Deliverables
+- Code:
+- Documentation:
+
 ### Better Time Slicing
 
 * fully qualified name: `vac:dst:ift:2025q2-vaclab:better-time-slicing`

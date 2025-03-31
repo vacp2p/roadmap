@@ -6,7 +6,8 @@ tags:
   - "ift"
 draft: false
 description: "Scale and apply the VacLab to IFT's needs.
-Anticipate untapped use cases and needs from other teams."
+Anticipate untapped use cases and needs from other teams.
+Improve the usage of the lab by optimizing resources and time allocation."
 ---
 
 `vac:dst:ift:2025q2-vaclab`

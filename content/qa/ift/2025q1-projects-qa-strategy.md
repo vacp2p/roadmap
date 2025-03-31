@@ -64,7 +64,7 @@ identify gaps, and provide recommendations for improvements.
 
 * fully qualified name: `vac:qa:ift:2025q1-projects-qa-strategy:frameworks-documentation`
 * owner: fbarbu15
-* status: in progress (40%)
+* status: done
 * start-date: 2025/01/06
 * end-date: 2025/03/31
 
@@ -77,6 +77,9 @@ Include detailed processes, how-to guides, and framework-specific documentation 
 * [Nomos on ARM/Linux](https://www.notion.so/Nomos-on-ARM-Linux-Risc0-v1-3pre-1a48f96fb65c80c0b8cde64c87c6e4cb)
 * [Waku interop tests](https://www.notion.so/Waku-Interop-Tests-QA-Framework-Guide-1c08f96fb65c805aa7f8d9c4e4715f4f)
 * [Nomos QA Schedule Updates](https://www.notion.so/Nomos-QA-Schedule-Updates-1268f96fb65c8081ba8fea1004a6331b)
+* [js-waku e2e/Interop Tests](https://www.notion.so/js-waku-e2e-Interop-Tests-1c18f96fb65c8031999ee599292703c2)
+* [Status-Go Functional Tests](https://www.notion.so/Status-Go-Functional-Tests-1c48f96fb65c80a78e75ceac2a5c93c0)
+* [Nomos E2E Tests](https://www.notion.so/Nomos-E2E-Tests-1c48f96fb65c80279fdfc3c7bbe29259)
 
 ### Synchronize QA and RFC Processes
 

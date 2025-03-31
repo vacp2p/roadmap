@@ -126,7 +126,7 @@ freeing up resources for Wings to focus on other work.
 
 * fully qualified name: `vac:dst:ift:2025q1-vaclab:deployment-utilities`
 * owner: Wings
-* status: 60%
+* status: 100%
 * start-date: 2025/03/17
 * end-date: 2025/03/28
 

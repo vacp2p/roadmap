@@ -26,7 +26,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:nomos:2025q1-e2e-testing:maintenance`
 * owner: romanzac
-* status: in progress (95%)
+* status: done
 * start-date: 2025/01/01
 * end-date: 2025/03/31
 

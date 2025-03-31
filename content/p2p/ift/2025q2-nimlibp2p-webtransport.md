@@ -17,7 +17,9 @@ Add webtransport support to nim-libp2p
 ## Description
 
 Extend the number of transports supported by nim-libp2p via the developent of Webtransport,
-which would allow browsers to establish bidirectional stream connections to nim-libp2p servers
+which would allow browsers to establish bidirectional stream connections to nim-libp2p servers.
+This commitment will initiate in Q2, extending through Q3, this timeline reflects the 
+substantial scope of work, which cannot be realistically completed within a single quarter.
 
 ## Task List
 

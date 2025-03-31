@@ -61,9 +61,19 @@ development of the test units.
 
 
 
+### Improve CI performance
 
+* fully qualified name: `vac:p2p:ift:2025q2-test-coverage:ci-performance`
+* owner:
+* status: not started
+* start-date:
+* end-date: 
 
+Currently the test units take ~50m to complete, which is somewhat excessive, specially compared to other implementations.
+With this commitment we will look into techniques and resources available that could improve the efficiency of the CI tests 
+to reduce the time it takes for Pull Requests to complete all checks. Investigate whether it's possible to run tests in parallel,
+use the ooutput of `vac:p2p:ift:2025q2-nimlibp2p-transport:memory-transport` to remove network components from the tests that 
+do not need it, review the timeout lengths, as well as using runners with better perfomance.  
 
-
-
+#### Deliverables
 

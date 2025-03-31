@@ -13,7 +13,7 @@ description: Implement Kademlia DHT
 `vac:p2p:ift:2025q2-nimlibp2p-kad-dht`
 
 Implement Kademlia Distributed Hash Table in nim-libp2p, based on the [libp2p specification](https://github.com/libp2p/specs/blob/master/kad-dht/) as an additional discovery mechanism.
-This commitment involves two main objectives: implementing nim-kademlia-dht, and integrating this in nim-libp2p
+This commitment involves two main objectives: implementing nim-kademlia-dht, and integrating this in nim-libp2p. The work will initiate in Q2 and is expected to span into Q3, due to the substantial workload and to ensure realistic delivery expectations
 
 ## Task List
 

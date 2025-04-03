@@ -126,7 +126,7 @@ freeing up resources for Wings to focus on other work.
 
 * fully qualified name: `vac:dst:ift:2025q1-vaclab:deployment-utilities`
 * owner: Wings
-* status: 60%
+* status: 100%
 * start-date: 2025/03/17
 * end-date: 2025/03/28
 
@@ -153,9 +153,9 @@ experiments for different other units that DST can be working on.
 
 * fully qualified name: `vac:dst:ift:2025q1-vaclab:concurrent-experiments`
 * owner: Wings
-* status: 0%
+* status: 100%
 * start-date: 2025/03/24
-* end-date: 2025/04/04
+* end-date: 2025/03/31
 
 #### Description
 
@@ -170,4 +170,6 @@ with nimlibp2p or waku.
 #### Deliverables
 - Notion report with example:
 - Code:
+  - [Github Repo](https://github.com/vacp2p/dst-argo-workflows/blob/43d5b8b556aa5011fc865956c97d4d35d80a2a97/prefect/run.py#L604-L610)
 - Documentation:
+  - [Notion notes](https://www.notion.so/Argo-Workflow-Automation-1bf8f96fb65c804f948ed9dbb279fa77)

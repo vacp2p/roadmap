@@ -78,7 +78,7 @@ Report differences with nWaku.
 
 * fully qualified name: `vac:dst:status:2025q1-status-go-evaluation:subscription-performance`
 * owner: Alberto
-* status: 75%
+* status: 100%
 * start-date: 2025/02/17
 * end-date: 2025/03/28
 
@@ -104,8 +104,9 @@ Report differences with nWaku.
 
 #### Deliverables
 * [ ] Reports:
-  * [Report WIP](https://www.notion.so/Status-Backend-Chat-Protocol-Benchmarks-Issues-1ab8f96fb65c80429833e945827d33e7)
+  * [Report](https://www.notion.so/Status-Subscription-performance-1c48f96fb65c80d19257fea6386e48c5)
 * [ ] Related PRs if apply:
+  * [PR](https://github.com/vacp2p/status-go-test/pull/1)
 
 ### Status-backend store performance
 

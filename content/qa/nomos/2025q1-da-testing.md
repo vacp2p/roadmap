@@ -79,7 +79,7 @@ Add integration tests to verify system’s resilience to DoS attacks and handlin
 
 * fully qualified name: `vac:qa:nomos:2025q1-da-testing:edge-cases`
 * owner: romanzac
-* status: in progress (10%)
+* status: done
 * start-date: 2025/03/24
 * end-date: 2025/03/31
 
@@ -88,6 +88,5 @@ This is an ongoing task.
 Add edge case integration tests to cover unusual system behavior.
 
 #### Deliverables
-* PR link with added tests
-* CI runs showing successful or failed executions with detailed reports
+* [Test/da edge cases](https://github.com/logos-co/nomos-e2e-tests/pull/12)
 

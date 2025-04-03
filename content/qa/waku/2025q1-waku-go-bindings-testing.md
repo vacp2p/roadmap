@@ -95,7 +95,7 @@ and ensure reliable message storing across multiple nodes.
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:maintenance`
 * owner: aya
-* status: in progress (80%)
+* status: done
 * start-date: 2025/01/01
 * end-date: 2025/03/31
 
@@ -143,7 +143,7 @@ and then making sure the memory doesn't grow, while waku still performs as expec
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:ci`
 * owner: aya
-* status: in progress (90%)
+* status: done (self hosted runner will be addressed in new task of Q2)
 * start-date: 2025/03/20
 * end-date: 2025/03/30
 

@@ -73,3 +73,18 @@ investigating and resolving issues, and implementing minor improvements to the t
 
 #### Deliverables
 PRs and issues
+
+### 12H Longevity
+
+* fully qualified name: `vac:qa:waku:2025q2-waku-go-bindings-testing:12hlongevity`
+* owner: aya
+* status: not started
+* start-date: 2025/04/03
+* end-date: 2025/04/15
+
+#### Description
+Create a github actions workflow that runs on self hosted infra 
+and can run a 12 hour longevity test.
+
+#### Deliverables
+- PR and CI run

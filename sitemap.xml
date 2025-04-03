@@ -918,7 +918,7 @@
     <lastmod>2025-03-17T18:14:21.870Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/ift/2025q1-vaclab</loc>
-    <lastmod>2025-04-03T14:23:15.311Z</lastmod>
+    <lastmod>2025-04-03T14:26:23.106Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/ift/2025q2-dst-conduit</loc>
     <lastmod>2025-03-27T18:06:09.325Z</lastmod>
@@ -927,10 +927,10 @@
     <lastmod>2025-03-27T18:06:09.325Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/ift/2025q2-vaclab</loc>
-    <lastmod>2025-03-27T18:06:09.325Z</lastmod>
+    <lastmod>2025-04-03T14:26:23.106Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/</loc>
-    <lastmod>2025-03-27T18:06:09.325Z</lastmod>
+    <lastmod>2025-04-03T14:26:23.106Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/nomos/2025q1-nomos-scaling</loc>
     <lastmod>2025-03-06T14:58:09.966Z</lastmod>
@@ -941,8 +941,11 @@
     <loc>https://roadmap.vac.dev/dst/status/2025q1-status-go-evaluation</loc>
     <lastmod>2025-04-03T14:23:15.311Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/dst/status/2025q2-status-go-chat-protocol-benchmarks</loc>
+    <lastmod>2025-04-03T14:26:23.106Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/dst/status/2025q2-status-go-evaluation</loc>
-    <lastmod>2025-03-27T18:06:09.325Z</lastmod>
+    <lastmod>2025-04-03T14:26:23.106Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/vac/2024q4-libp2p-evaluation</loc>
     <lastmod>2025-03-06T14:58:09.966Z</lastmod>

@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: ongoing
+* status: done
 * start-date: 2025/01/13
 * end-date: 2025/03/31
 
@@ -69,8 +69,8 @@ Specify exceptions being raised in `{.async.}` functions. See [nimlibp2p#962](ht
 ### nim-protobuf-serialization
 
 * fully qualified name: `vac:p2p:ift:2025q1-nimlibp2p-maintenance:nim-protobuf-serialization`
-* owner:
-* status:
+* owner: -
+* status: not started
 * start-date: 
 * end-date:
 

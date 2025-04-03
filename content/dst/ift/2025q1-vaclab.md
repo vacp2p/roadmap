@@ -149,7 +149,6 @@ experiments for different other units that DST can be working on.
   - [Notion notes](https://www.notion.so/Argo-Workflow-Automation-1bf8f96fb65c804f948ed9dbb279fa77)
 
 ### Concurrent experiments
-> *Note*: End time is an estimation, still needs to be coordinated
 
 * fully qualified name: `vac:dst:ift:2025q1-vaclab:concurrent-experiments`
 * owner: Wings

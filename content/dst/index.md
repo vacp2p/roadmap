@@ -19,6 +19,7 @@ tags:
 * [ ] [[dst/nomos/2025q2-nomos-scaling|nomos-scaling]]
 
 ### `status`
+* [ ] [[dst/status/2025q2-status-go-chat-protocol-benchmarks|status-go-chat-protocol-benchmarks]]
 * [ ] [[dst/status/2025q2-status-go-evaluation|status-go-evaluation]]
 
 ### `vac`

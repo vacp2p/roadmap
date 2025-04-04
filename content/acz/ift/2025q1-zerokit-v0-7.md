@@ -49,7 +49,9 @@ for users looking to integrate RLN into their projects.
 
 #### Description
 
-This task is on hold until the next quarter q2-2025 since It is planned to exclude Zerokit version 0.7. 
+This task was initially scheduled to be on hold for 2025q1. 
+However, due to evolving requirements, 
+we proceeded with and completed the Zerokit Wasm Research task. 
 
 Regarding the [issue 271](https://github.com/vacp2p/zerokit/issues/271), 
 rln wasm is revisited for performance analysis and updated by dependencies and gatherin new benchmarks.
@@ -119,7 +121,7 @@ A [PR](https://github.com/vacp2p/zerokit/pull/280) to the [Zerokit]((https://git
 
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:zerokit-maintaining`
 * owner: Ekaterina
-* status: started (80%)
+* status: done
 * start-date: 2025/02/17
 * end-date: 2025/03/31
 
@@ -129,6 +131,10 @@ This task encompasses all maintenance updates for Zerokit, including CI updates 
 
 #### Deliverables
 A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/). 
+- [Resolve circuit parameter mismatch PR](https://github.com/vacp2p/zerokit/pull/288)
+- [Add custom iden3 graph PR](https://github.com/vacp2p/zerokit/pull/286)
+- [pin ark-circom version and solve local building PR](https://github.com/vacp2p/zerokit/pull/285)
+- [prepare Readme PR ](https://github.com/vacp2p/zerokit/pull/284)
 
 ### Reviewing utility functions
 
@@ -156,7 +162,7 @@ A [PR](https://github.com/vacp2p/zerokit/pull/287) to the [Zerokit]((https://git
 ### Zerokit Wasm Research
 * fully qualified name: `vac:acz:ift:2025q1-zerokit-v0-7:zerokit-wasm-research`
 * owner: Vinh
-* status: started (70%)
+* status: done
 * start-date: 2025/03/12
 * end-date: 2025/03/21
 
@@ -170,7 +176,8 @@ and understand what can be used to deliver high performance on the web
 #### Deliverables
 As a result, a comparative characterization of the possible solutions and a final selection is made. 
 Comment in zerokit issue related to release v0.8.0
-
+- [Research report](https://github.com/vacp2p/zerokit/issues/289#issuecomment-2755917797)
+- [Benchmark comparison report](https://github.com/vacp2p/zerokit/issues/289#issuecomment-2763285858) 
 
 ### Release v0.7
 

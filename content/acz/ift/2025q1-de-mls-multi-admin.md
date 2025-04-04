@@ -62,11 +62,13 @@ gain support from the Ethereum ecosystem.
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:blogpost-de-mls-over-waku`
 * owner: Ekaterina
-* status: started (70%)
+* status: on-hold (70%)
 * start-date: 2025/01/06
 * end-date: 2025/01/20
 
 #### Description
+
+This task is scheduled to be completed in 2025q2 due to the architectural change.
 
 Writing a blog post about implementation details of single admin de-MLS with Waku node 
 as delivery service based on [this PR](https://github.com/vacp2p/de-mls/pull/29)     
@@ -79,11 +81,13 @@ A blogpost to [vac.dev/rlog/](https://vac.dev/rlog/)
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:multi-admin-rfc`
 * owner: Ugur
-* status: started (30%)
+* status: on-hold (30%)
 * start-date: 2025/01/13
 * end-date: 2025/01/27
 
 #### Description
+
+This task is scheduled to be completed in 2025q2 due to building consensus RFC has just finished.
 
 Update and reorganize the RFC with the single and multi admin options.  
 
@@ -118,7 +122,7 @@ updating the Waku node connection and enabling multiple node usage.
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:benchmark-coverage`
 * owner: Ekaterina
-* status: started (40%)
+* status: done
 * start-date: 2025/01/20
 * end-date: 025/01/27
 
@@ -128,7 +132,7 @@ Expand benchmark coverage in the [de-MLS](https://github.com/vacp2p/de-mls) repo
 Identify untested scenarios, document them, and implement corresponding benchmarks.
 
 #### Deliverables
-A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository with 
+[A PR](https://github.com/vacp2p/de-mls/pull/31) to the [de-MLS](https://github.com/vacp2p/de-mls) repository with 
 
 * A document outlining benchmark scenarios.
 * PRs with benchmark tests for uncovered scenarios.
@@ -137,7 +141,7 @@ A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository with
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:batch-key-package`
 * owner: Ekaterina
-* status: on hold
+* status: done
 * start-date: 2025/01/27
 * end-date: 2025/02/10
 
@@ -147,11 +151,9 @@ Expand the [de-MLS](https://github.com/vacp2p/de-mls) codebase by implementing m
 The implementation with a single admin allowed for the instantaneous processing of requests to join the group. 
 When moving to multiple admins, the ability to collect requests in batches and then process them as one should be added. 
 
-This task is postponed to the 2025q2 since Zerokit was prioritized. 
-
 #### Deliverables
 
-This is a PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository, 
+[A PR](https://github.com/vacp2p/de-mls/pull/34) to the [de-MLS](https://github.com/vacp2p/de-mls) repository, 
 updating the API for handling key packages from users 
 before joining the group not in each coming message but once in the epoch. 
 
@@ -159,11 +161,13 @@ before joining the group not in each coming message but once in the epoch.
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:test-deployment`
 * owner: Ekaterina
-* status: not started
+* status: on-hold
 * start-date: 2025/02/03
 * end-date: 2025/02/10
 
 #### Description
+
+This task is re-scheduled in 2025q2 due to the architectural changes.
 
 Set up test deployment for the [de-MLS](https://github.com/vacp2p/de-mls) repository. 
 Docker containers have been made to run PoCs, 
@@ -200,11 +204,13 @@ updating the API for separate commit and proposal messages.
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:ci-setup`
 * owner: Ekaterina
-* status: not started
+* status: on hold
 * start-date: 2025/02/10
 * end-date: 2025/02/17
 
 #### Description
+
+This task is re-scheduled in 2025q2 due to the priority changes.
 
 Set up continuous integration for the [de-MLS](https://github.com/vacp2p/de-mls) repository, 
 including automated testing and code validation. 
@@ -217,7 +223,7 @@ with a new CI pipeline for the repository that includes the waku node.
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:consensus-research`
 * owner: Ugur
-* status: started (50%)
+* status: started (80%)
 * start-date: 2025/02/10
 * end-date: 2025/02/24
 

@@ -50,7 +50,7 @@ also maintain the ZK think tank with the latest improvements.
 
 * fully qualified name: `vac:acz:ift:2025q1-think-tank:crypto-think-tank`
 * owner: Marvin
-* status: started (40%)
+* status: done
 * start-date: 2025/03/03
 * end-date: 2025/03/17
 
@@ -62,16 +62,18 @@ This task is important to diffuse the cryptographic components' how-know across 
  
 #### Deliverables 
 
-* A notions page to maintain current (and accurate) information on each of IFT's usage of cryptographical components
+* [A notions page](https://www.notion.so/ACZ-Think-Tank-1b38f96fb65c80a3aad0c1bb7e2f8b8b) to 
+maintain current (and accurate) information on each of IFT's usage of cryptographical components 
 such as creating randomness, signature, commitment,  encryption schemes and cryptograhic primitives.
-* A notions page that organizes cryptographical component notes in an accessible manner for IFT CCs 
+* [A notions page](https://www.notion.so/Index-WIP-1ba8f96fb65c80348ae0e79d777c5b6f) that 
+organizes cryptographical component notes in an accessible manner for IFT CCs 
 to get a clear overview or deep dive depending on their needs.
 
 ### ZK Think Tank 
 
 * fully qualified name: `vac:acz:ift:2025q1-think-tank:zk-think-tank`
 * owner: Marvin
-* status: started (40%)
+* status: done
 * start-date: 2025/03/03
 * end-date: 2025/03/17
 

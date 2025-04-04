@@ -89,7 +89,7 @@ Implementation of the MixEntry and MixExit abstractions for the Mixnet.
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:simple-gossipsub-poc`
 * owner: Akshaya
-* status: started (90%)
+* status: done
 * start-date: 2025/02/10
 * end-date: 2025/02/24
 
@@ -99,13 +99,13 @@ Implementation a simple gossipsub PoC over Waku the mixnet.
 
 #### Deliverables
 
-* PR to vacp2p/mix repo 
+* [A branch for mixified gossipsub](https://github.com/vacp2p/dst-gossipsub-test-node/tree/dockerized-mix-gossipsub)
 
 ### IFT Research Call Preparation
 
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:ift-research-call-prep`
 * owner: Akshaya
-* status: started (80%)
+* status: done
 * start-date: 2025/02/17
 * end-date: 2025/02/28
 
@@ -116,16 +116,20 @@ Preparation for the IFT research call on 26th of February.
 
 * A presentation that describes the mixnet RFC and implementation point of view in 
 [notion](https://www.notion.so/Applied-Cryptography-ZK-870520f131954b90b1837ec4749f890f?pvs=4#12d8f96fb65c80f49f11e8e6fe7fc974)
+* [A video record](https://www.youtube.com/watch?v=z1Q2xoZNBlM)
 
 
 ### Updating RFC
 * fully qualified name: `vac:acz:ift:2025q1-libp2p-mix-poc:update-rfc`
 * owner: Akshaya
-* status: started (0%)
+* status: on-hold
 * start-date: 2025/03/12
 * end-date: 2025/03/24
 
 #### Description
+
+This task is scheduled to be completed in 2025q2 due to the unseen bugs on the Simple GossipSub PoC task.
+
 Updating the [mixnet RFC](https://rfc.vac.dev/vac/raw/mix) with latest findings such as
 - clarifications on the pluggable components,
 - introducing  the entry and exit layers,

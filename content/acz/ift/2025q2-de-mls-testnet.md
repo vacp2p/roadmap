@@ -10,7 +10,7 @@ with the multi-admin support and implementing the last version RFC"
 
 ---
 
-`vac:acz:ift:2025q2-de-mls-multi-admin`
+`vac:acz:ift:2025q2-de-mls-tesnet`
 
 finalizing the de-MLS RFC with consensus integration 
 with the multi-admin support and implementing the last version RFC
@@ -49,3 +49,94 @@ benefiting from these features.
 gain support from the Ethereum ecosystem.
 
 ## Task List
+
+### Test Deployment
+
+* fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:test-deployment`
+* owner: Ekaterina
+* status: started (0%)
+* start-date: 2025/04/01
+* end-date: 2025/04/14
+
+#### Description
+
+Set up test deployment for the [de-MLS](https://github.com/vacp2p/de-mls) repository. 
+Docker containers have been made to run PoCs, 
+but they assume a single node operation and do not run nodes within themselves.
+
+#### Deliverables
+A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository with 
+* Docker configurations for deployment and testing.
+* Documentation for test deployment setup.
+
+### Blogpost de-mls over Waku
+
+* fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:blogpost-de-mls-over-waku`
+* owner: Ekaterina
+* status: started (70%)
+* start-date: 2025/04/01
+* end-date: 2025/04/21
+
+#### Description
+
+Writing a blog post about implementation details of single admin de-MLS with Waku node 
+as delivery service based on [this PR](https://github.com/vacp2p/de-mls/pull/29)     
+
+#### Deliverables
+
+A blogpost to [vac.dev/rlog/](https://vac.dev/rlog/)
+
+### Update de-MLS RFC with multi admins 
+
+* fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:multi-admin-rfc`
+* owner: Ugur
+* status: not started
+* start-date: 2025/05/04
+* end-date: 2025/05/26
+
+#### Description
+
+Update and reorganize the decetnralized MLS RFC with the single and multi admin options. 
+This task also contains the integrating the consensus RFC.   
+
+#### Deliverables
+
+* PR to vacp2p/rfc-index repo with related updates. 
+
+### Extend API To Multiple Admin
+
+* fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:extend-api`
+* owner: Ekaterina
+* status: not started
+* start-date: 
+* end-date: 
+
+#### Description
+
+Expand the [de-MLS](https://github.com/vacp2p/de-mls) codebase by implementing multi-admin support. 
+In preparation for working with multiple admins, 
+extend API for the following processes: processing invitations to a group, applying commits, 
+and preparing a separate channel for exchanging messages between admins.  
+
+#### Deliverables
+
+A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository 
+updating the API for separate commit and proposal messages. 
+
+### CI Setup
+
+* fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:ci-setup`
+* owner: Ekaterina
+* status: not started
+* start-date: 
+* end-date: 
+
+#### Description
+
+Set up continuous integration for the [de-MLS](https://github.com/vacp2p/de-mls) repository, 
+including automated testing and code validation. 
+
+#### Deliverables
+A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository 
+with a new CI pipeline for the repository that includes the waku node.
+

@@ -96,6 +96,27 @@ A PR to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) incorporating the i
 - Analysis of the tree operations in Zerokit to identify inefficiencies.
 - If applicable, improvements to the tree structure in Zerokit to enhance performance.
 
+### Zerokit Wasm Implementation  
+* Fully qualified name: `vac:acz:ift:2025q2-zerokit:wasm-implementation`  
+* Owner: Vinh  
+* Status: started (0%) 
+* Start date: 2025/03/31  
+* End date: 2025/04/14  
+
+#### Description  
+The zerokit RLN-Wasm module was originally built using Wasmer, 
+but it has proven difficult to maintain, slow, and inefficient for parallel computations. 
+This task focuses on comparing the existing Wasmer-based approach 
+with an alternative implementation based on Iden3’s Wasm solution. 
+The goal is to evaluate their performance, compatibility, and maintainability 
+to determine the best approach for zerokit.
+
+#### Deliverables  
+A working implementation of the selected Wasm solution integrated into `zerokit`, 
+ensuring improved performance and maintainability. 
+The implementation should be submitted as a pull request to `zerokit` 
+and linked to the issue related to release v0.8.0.
+
 ### Zerokit maintaining
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:zerokit-maintaining`

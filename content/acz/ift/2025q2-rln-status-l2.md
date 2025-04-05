@@ -43,3 +43,23 @@ We will also strengthen the Premier Research Destination narrative by:
 * Offering a use-case to the ecosystem that can be used for other gasless roll-up projects.  
 
 ## Task List
+
+### Maintain RLN Deployment
+
+* fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:maintain`
+* owner: Ugur
+* status: started
+* start-date: 2025/04/01
+* end-date: 2025/06/30
+
+#### Description 
+
+This task entails the deployment of RLN (Rate-Limiting Nullifier) into the Status L2 architecture, 
+actively participating in architectural discussions and integration meetings. 
+Responsible for maintaining the deployment process, aligning RLN functionality 
+with the target system's design requirements, and ensuring compatibility 
+with the existing infrastructure. 
+
+#### Deliverables 
+
+* A document to notion page .

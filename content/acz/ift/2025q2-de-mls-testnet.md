@@ -86,6 +86,23 @@ as delivery service based on [this PR](https://github.com/vacp2p/de-mls/pull/29)
 
 A blogpost to [vac.dev/rlog/](https://vac.dev/rlog/)
 
+### Consensus RFC
+
+* fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:consensus-rfc`
+* owner: Ugur
+* status: started (10%)
+* start-date: 2025/04/01
+* end-date: 2025/04/14
+
+#### Description
+
+This task entails delivering the decentralized consensus 
+RFC which is fast and efficient for p2p networks.  
+   
+#### Deliverables
+
+- A PR to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index) repo. 
+
 ### Update de-MLS RFC with multi admins 
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:multi-admin-rfc`

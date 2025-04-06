@@ -223,7 +223,7 @@ with a new CI pipeline for the repository that includes the waku node.
 
 * fully qualified name: `vac:acz:ift:2025q1-de-mls-multi-admin:consensus-research`
 * owner: Ugur
-* status: started (80%)
+* status: done
 * start-date: 2025/02/10
 * end-date: 2025/02/24
 
@@ -233,7 +233,8 @@ Conducting research on-chain and off-chain solutions for multi-admin consensus m
    
 #### Deliverables
 
-A notion page that offers a few solutions that are feasible to implement.  
+- [A notion page](https://www.notion.so/Hashgraph-based-Scalable-Consensus-1b18f96fb65c808aacf0fe3c50aa36e1) 
+that offers a few solutions that are feasible to implement.  
 
 ### Deployment
 

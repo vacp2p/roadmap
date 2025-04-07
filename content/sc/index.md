@@ -15,6 +15,7 @@ tags:
 ### `status:`
 - [ ] [[sc/status/2025q2-sn-native-bridge-yield-bearing-module]]
 - [ ] [[sc/status/2025q2-sn-native-dex]]
+- [ ] [[sc/status/2025q2-maintaining-status-contracts]]
 - [ ] [[sc/status/2025q2-consulting]]
 
 ### `codex:`

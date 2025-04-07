@@ -23,8 +23,8 @@ The yield is regularly harvested and distributed on the L2.
 
 ### Research and Design
 * fully qualified name: `2025q2-sn-native-bridge-yield-bearing-module:research-design`
-* owner: 
-* status: not started
+* owner: r4bbit
+* status: 60%
 * start-date: 2025/04/01
 * end-date: 2025/04/30
 

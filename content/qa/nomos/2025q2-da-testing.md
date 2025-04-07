@@ -30,7 +30,7 @@ focusing on protocol compatibility, internal interactions, data confidentiality,
 
 * fully qualified name: `vac:qa:nomos:2025q2-da-testing:protocol-api-compatibility`
 * owner: romanzac
-* status: not started
+* status: in progress (5%)
 * start-date: 2025/04/1
 * end-date: 2025/04/15
 

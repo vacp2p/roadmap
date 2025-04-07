@@ -24,8 +24,8 @@ The ghost.fun team asked us to review their protocol and provide feedback on the
 
 ### Review the protocol
 * fully qualified name: `2025q2-ghost-protocol-review:review`
-* owner: 
-* status: not started
+* owner: r4bbit
+* status: done
 * start-date: 2025/04/01
 * end-date: 2025/04/30
 
@@ -35,4 +35,4 @@ Review the ghost.fun protocol and provide feedback to the team.
 
 #### Deliverables
 
-- [ ] Review document
+- [x] Review document (has been sent to the ghost.fun team)

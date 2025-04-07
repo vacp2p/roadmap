@@ -27,7 +27,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:nomos:2025q2-e2e-testing:maintenance`
 * owner: romanzac
-* status: not started
+* status: in progress (10%)
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -37,5 +37,4 @@ This includes updating tests for changes in `nomos-node`, addressing regressions
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
-* PR link with added tests
-* CI runs showing successful or failed executions with detailed reports
+* [chore: Add API endpoints](https://github.com/logos-co/nomos-e2e-tests/pull/13)

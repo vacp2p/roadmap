@@ -73,9 +73,9 @@ promoting transparency and collaboration.
 
 * fully qualified name: `vac:dst:ift:2025q2-vaclab:concurrent-experiments`
 * owner: Wings
-* status: 0%
+* status: 90%
 * start-date: 2025/04/01
-* end-date: 2025/04/04
+* end-date: 2025/04/05
 
 #### Description
 

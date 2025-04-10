@@ -10,7 +10,7 @@ description: nim-libp2p Test Coverage
 
 ---
 
-`vac:p2p:ift:2025q2-nimlibp2p-test-coverage`
+`vac:p2p:vac:2025q2-nimlibp2p-test-coverage`
 
 
 nim-libp2p Improved Test Coverage
@@ -24,7 +24,7 @@ ensuring better test coverage and reliability.
 
 ### Improve DST test node
 
-* fully qualified name: `vac:p2p:ift:2025q2-test-coverage:dst-test-node`
+* fully qualified name: `vac:p2p:vac:2025q2-test-coverage:dst-test-node`
 * owner:
 * status: not started
 * start-date:
@@ -47,7 +47,7 @@ scenarios via specifying arguments/flags:
 
 ### QA Consulting over test coverage
 
-* fully qualified name: `vac:p2p:ift:2025q2-test-coverage:qa-consulting`
+* fully qualified name: `vac:p2p:vac:2025q2-test-coverage:qa-consulting`
 * owner:
 * status: not started
 * start-date:

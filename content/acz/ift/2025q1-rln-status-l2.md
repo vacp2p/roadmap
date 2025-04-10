@@ -38,7 +38,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q1-rln-status-l2:exploring`
 * owner: Ugur
-* status: started (70%) 
+* status: done 
 * start-date: 2025/02/17
 * end-date: 2025/03/03
 
@@ -48,7 +48,7 @@ Exploring the Status L2 architecture that will be integrated with the RLN.
 Identify the possible risks and design issues. 
 
 #### Deliverables
-
-* Exploration Summary Report to the [ACZ notion page](https://www.notion.so/Applied-Cryptography-ZK-870520f131954b90b1837ec4749f890f?pvs=4#7a6eba89b5b14934a8d2ee3d98cb91e2)
-
+- [A notion page for todo list](https://www.notion.so/RLN-implementation-to-do-1a68f96fb65c80beb9d2d036b4dcc6a0)
+- [A notion page for simple architecture](https://www.notion.so/Short-Summary-of-the-RLN-deployment-for-Status-L2-1c18f96fb65c800180a6e6433ccf2bdf)
+- [A notion page for signature like RLN](https://www.notion.so/Signature-like-RLN-without-revealing-the-secret-key-1ac8f96fb65c80fcae7bd92f77ced37c)
 

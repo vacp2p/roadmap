@@ -53,3 +53,38 @@ offering improvements over Tor push.
 Waku integration. 
 
 ## Task List
+
+### Dockerize GossipSub 
+
+* fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:dockerize`
+* owner: Akshaya
+* status: started (0%)
+* start-date: 2025/04/1
+* end-date: 2025/04/14
+
+#### Description
+
+Dockerize the mixified gossipsub poc to be tested.  
+
+#### Deliverables
+
+* PR to [vacp2p/mix](https://github.com/vacp2p/mix) repo.
+
+### Updating RFC
+* fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:update-rfc`
+* owner: Akshaya
+* status: started (0%)
+* start-date: 2025/04/1
+* end-date: 2025/04/21
+
+#### Description
+
+Updating the [mixnet RFC](https://rfc.vac.dev/vac/raw/mix) with latest findings such as
+- clarifications on the pluggable components,
+- introducing  the entry and exit layers,
+- libp2p integrations .
+
+#### Deliverables
+
+* A PR to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index)
+

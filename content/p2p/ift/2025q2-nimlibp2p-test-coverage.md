@@ -10,7 +10,7 @@ description: nim-libp2p Test Coverage
 
 ---
 
-`vac:p2p:qa:2025q2-nimlibp2p-test-coverage`
+`vac:p2p:vac:2025q2-nimlibp2p-test-coverage`
 
 
 nim-libp2p Improved Test Coverage

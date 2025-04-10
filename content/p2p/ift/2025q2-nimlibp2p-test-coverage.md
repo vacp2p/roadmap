@@ -47,7 +47,7 @@ scenarios via specifying arguments/flags:
 
 ### QA Consulting over test coverage
 
-* fully qualified name: `vac:p2p:qa:2025q2-test-coverage:qa-consulting`
+* fully qualified name: `vac:p2p:vac:2025q2-test-coverage:qa-consulting`
 * owner:
 * status: not started
 * start-date:

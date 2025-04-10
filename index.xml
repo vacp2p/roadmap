@@ -46,7 +46,7 @@
     <link>https://roadmap.vac.dev/acz/ift/2025q1-de-mls-multi-admin</link>
     <guid>https://roadmap.vac.dev/acz/ift/2025q1-de-mls-multi-admin</guid>
     <description>involves finalizing the de-MLS RFC with multi-admin support, implementing by extending the single admin approach with on-chain admin consensus, and also submitting to the EF grant program with a messaging application project that introduces decentralization, censorship resistance, and DAO coordination, or DeFi alerts.</description>
-    <pubDate>Thu, 27 Mar 2025 17:29:53 GMT</pubDate>
+    <pubDate>Thu, 10 Apr 2025 14:09:30 GMT</pubDate>
   </item><item>
     <title>IFT ZK Calls</title>
     <link>https://roadmap.vac.dev/acz/ift/2025q1-ift-zk-calls</link>
@@ -58,7 +58,7 @@
     <link>https://roadmap.vac.dev/acz/ift/2025q1-libp2p-mix-poc</link>
     <guid>https://roadmap.vac.dev/acz/ift/2025q1-libp2p-mix-poc</guid>
     <description>Achieving mixnet's PoC on Waku network, updating the RFC for libp2p compatibility, sharing results, and also submitting to the EF grant program with a privacy project that introduces sender anonymity to Ethereum nodes for censorship resistanceness.</description>
-    <pubDate>Thu, 27 Mar 2025 17:29:53 GMT</pubDate>
+    <pubDate>Thu, 10 Apr 2025 14:09:30 GMT</pubDate>
   </item><item>
     <title>MDS Checker</title>
     <link>https://roadmap.vac.dev/acz/ift/2025q1-mds-checker</link>

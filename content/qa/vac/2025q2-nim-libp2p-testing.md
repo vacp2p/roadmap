@@ -35,10 +35,10 @@ Improve tooling around nim libp2p testing.
 ### Gossipsub Extended
 
 * fully qualified name: `vac:qa:vac:2025q2-nim-libp2p-testing:gossipsub-extended`
-* owner: fbarbu15
-* status: not started
-* start-date: 
-* end-date: 
+* owner: radek
+* status: in progress (10%)
+* start-date: 2025/04/01
+* end-date: 2025/05/15
 
 #### Description
 In 2025 Q2, expand Gossipsub test coverage to include more advanced
@@ -86,9 +86,9 @@ checking what’s not covered, and implementing new tests for those scenarios.
 
 * fully qualified name: `vac:qa:vac:2025q2-nim-libp2p-testing:test-plans`
 * owner: fbarbu15
-* status: not started
-* start-date: 
-* end-date: 
+* status: in progress (20%)
+* start-date: 2025/04/01
+* end-date: 2025/06/30
 
 #### Description
 Update and add new test plans for identify / push identify, ping, mplex multiplexer,

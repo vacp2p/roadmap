@@ -62,9 +62,9 @@ PRs and issues
 
 * fully qualified name: `vac:qa:waku:2025q2-waku-go-bindings-testing:maintenance`
 * owner: aya
-* status: not started
-* start-date: 
-* end-date: 
+* status: in progress (10%)
+* start-date: 2025/04/01
+* end-date: 2025/06/30
 
 #### Description
 Ongoing maintenance of Waku go bindings tests. 

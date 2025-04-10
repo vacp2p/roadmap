@@ -27,16 +27,17 @@ as outlined in this [epic](https://github.com/status-im/status-go/issues/6064).
 ### Chat actions tests
 
 * fully qualified name: `vac:qa:waku:2025q2-status-go-functional-testing:chat-actions-tests`
-* owner: fbarbu15
-* status: not started
-* start-date: 
-* end-date: 
+* owner: radek
+* status: done
+* start-date: 2025/04/01
+* end-date: 2025/04/07
 
 #### Description
 Cover the core functionality of Status related to [wakuext messages](https://github.com/status-im/status-go/issues/6072)
 
 #### Deliverables
-* PRs with the new tests
+- [test_: Tests for chat actions 1](https://github.com/status-im/status-go/pull/6453)
+- [test_: Tests for chat actions 2](https://github.com/status-im/status-go/pull/6492)
 
 
 ### Contact requests tests

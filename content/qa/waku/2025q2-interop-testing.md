@@ -26,7 +26,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:waku:2025q2-interop-testing:maintenance`
 * owner: fbarbu15
-* status: not started
+* status: in progress (10%)
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -36,4 +36,5 @@ This includes updating tests for changes in `nwaku`,  `gowaku` or `js-waku`, add
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
-PRs and issues
+- Updated tests to no longer use [deprecated pubsub flag](https://github.com/waku-org/waku-interop-tests/pull/111)
+

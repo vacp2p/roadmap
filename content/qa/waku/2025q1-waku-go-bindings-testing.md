@@ -126,7 +126,7 @@ More info [here](https://www.notion.so/go-bindings-Task-1a68f96fb65c804d949ffc53
 
 * fully qualified name: `vac:qa:waku:2025q1-waku-go-bindings-testing:endurance`
 * owner: aya
-* status: in progress (80%)
+* status: done
 * start-date: 2025/03/10
 * end-date: 2025/03/20
 

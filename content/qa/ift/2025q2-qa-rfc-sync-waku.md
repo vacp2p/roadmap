@@ -36,7 +36,7 @@ identifying gaps and proposing or creating additional tests as necessary.
 
 * fully qualified name: `vac:qa:ift:2025q2-qa-rfc-sync-waku:nwaku`
 * owner: fbarbu15
-* status: not started
+* status: in progress (10%)
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 

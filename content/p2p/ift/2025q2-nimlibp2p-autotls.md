@@ -38,7 +38,7 @@ Request certificate and authenticate against registration.libp2p.direct
 
 ### DNS challenge
 
-* fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:certificate-request-auth`
+* fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:dns-challenge`
 * owner: gabriel
 * status: not started
 * start-date:

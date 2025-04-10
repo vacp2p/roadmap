@@ -24,7 +24,7 @@ ensuring better test coverage and reliability.
 
 ### Improve DST test node
 
-* fully qualified name: `vac:p2p:qa:2025q2-test-coverage:dst-test-node`
+* fully qualified name: `vac:p2p:vac:2025q2-test-coverage:dst-test-node`
 * owner:
 * status: not started
 * start-date:

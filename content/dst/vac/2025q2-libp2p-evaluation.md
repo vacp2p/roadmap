@@ -76,6 +76,7 @@ and ensure they don't happen again.
 
 #### Deliverables
 * Analysis done
+  * [Quic Issues](https://www.notion.so/List-of-Issues-1ca8f96fb65c801b9c9ad4cceb16fa72)
 * Report published with all relevant details
 * RFC's GitHub issue updated
   with links to the analysis and results.

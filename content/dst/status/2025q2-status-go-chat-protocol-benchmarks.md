@@ -51,7 +51,7 @@ and especially those we want to work with externally.
 
 * fully qualified name: `vac:dst:status:2025q2-status-go-evaluation:store-performance`
 * owner: Alberto
-* status: 0%
+* status: 30%
 * start-date: 2025/04/01
 * end-date: 2025/04/11
 

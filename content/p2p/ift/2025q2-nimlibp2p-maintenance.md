@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: not started
+* status: in progress
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -62,14 +62,13 @@ maintainability, leading to more efficient troubleshooting and debugging.
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-transport:memory-transport`
 * owner: vlado
-* status: not started
-* start-date:
-* end-date:
+* status: done
+* start-date: 2025/03/23
+* end-date: 2025/04/04
 
 #### Description
 Create a in-memory transport  which would allow nim-libp2p to enable unit testing without touching the 
 network stack
 
 #### Deliverables
-
-
+- [nim-libp2p#1304](https://github.com/vacp2p/nim-libp2p/pull/1304) feat(transport: add memory transport)

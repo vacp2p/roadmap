@@ -38,3 +38,20 @@ investigating and resolving issues, and implementing minor improvements to the t
 #### Deliverables
 - Updated tests to no longer use [deprecated pubsub flag](https://github.com/waku-org/waku-interop-tests/pull/111)
 
+
+### js-waku filter hardening
+
+* fully qualified name: `vac:qa:waku:2025q2-interop-testing:jswaku-filter-hardening`
+* owner: fbarbu15
+* status: in progress (10%)
+* start-date: 2025/04/09
+* end-date: 2025/04/30
+
+#### Description
+Harden js-waku filter protocol by adding more advanced tests like:
+- Longevity test focused on sending/receiving messages continuously over a long duration (e.g., 6 hours)
+- Sanity checks in terms of throughput of Waku messages of different sizes
+- Sending/receiving thousands of messages in a short period of time
+
+#### Deliverables
+- PRs and Issues

@@ -1,68 +1,69 @@
 ---
-title: QA Service Unit
-tags:
-- qa
-- vac
-
+title: Vac Roadmap
 ---
 
-## 2025q2 `vac:qa:`
----
+## Vac R&D Service Units
 
-### `ift:`
-* [[qa/ift/2025q2-qa-rfc-sync-waku|2025q2-qa-rfc-sync-waku ]]
+- `p2p:` [[p2p|Peer-to-peer]]
+- `tke:` [[tke|Token Economics]]
+- `dst:` [[dst|Distributed Systems Testing]]
+- `qa:` [[qa|Quality Assurance]]
+- `acz:` [[acz|Applied Cryptography and Zero-knowledge]]
+- `sc:` [[sc|Smart Contracts]]
+- `nim:` [[nim|Nim]]
+- `rfc:` [[rfc|RFC (Specifications)]] 
 
-### `vac:`
-* [[qa/vac/2025q2-nim-libp2p-testing|2025q2-nim-libp2p-testing ]]
+## Incubator Projects
 
-### `waku:`
-* [[qa/waku/2025q2-interop-testing|2025q2-interop-testing ]]
-* [[qa/waku/2025q2-waku-go-bindings-testing|2025q2-waku-go-bindings-testing ]]
-* [[qa/waku/2025q2-messaging-api-testing|2025q2-messaging-api-testing ]]
-* [[qa/waku/2025q2-status-go-functional-testing|2025q2-status-go-functional-testing ]]
-* [[qa/waku/2025q2-waku-sync-testing|2025q2-waku-sync-testing ]]
+- `nes:` [[nes/index|Nescience]]
 
-### `nomos:`
-* [[qa/nomos/2025q2-da-testing|2025q2-da-testing ]]
-* [[qa/nomos/2025q2-e2e-testing|2025q2-e2e-testing ]]
----
+## Progress Updates
+- [weekly updates](tags/vac-updates)
+- [monthly reports](tags/vac-monthly)
+- [quarterly retrospects](tags/vac-retrospect)
 
-## 2025q1 `vac:qa:`
----
+## Vac Narratives
 
-### `ift:`
-* [[qa/ift/2025q1-projects-qa-strategy|projects-qa-strategy ]]
+### 1 Conduit of Expertise [internally]
+
+First, the strategic objective of scaling project capacity and legitimacy via community co-creation is captured in the annual goal of increasing user-generated content,
+code and participation by 50% over the course of 2025.
+The preceding step is to set up all projects to accept open-source contributions via an RFC culture.
+Second, we have the distinct advantage that we are an actor in our own ecosystem, resulting in the unfair advantage of being our own first community.
+Collaboration within our family of projects not only yield efficiencies, but also doubles as a competitive advantage.
+
+VAC contributes to both these goals as an internal conduit of expertise, as well as an RFC culture carrier. 
+
+Viable strategies for a conduit of expertise and culture carrier seem to include: VAC to maintain a repository on internal knowledge creation (via ie the IFT research calls),
+RFC culture (to lay the foundation for external contributions), and to identify and facilitate IFT project synergies (collaboration between projects must be seen as a way to become more efficient). 
+
+### 2 Premier Research destination [externally]
+
+IFT builds public goods to safeguard civil liberties in the digital age. Ownerless public goods are maintained by movements,
+therefore community building is a strategic priority, where VAC plays a technical role.
+If only IFT maintains IFT incubated projects a year from now, that would be a failure; if a diverse community maintains projects, that would be a success. 
+
+Ultimately, VAC has the potential to become the equivalent to Ethereum Research.
+First, via VAC, IFT already has substantial ties to the Libp2p, Ethereum, and Nim ecosystems. Second, the IFT ecosystem of projects is the first community of contributors.
+
+Viable strategies for a community platform seem to include: To link VAC contributions within other communities back to VAC,
+to externalise IFT research call digests, to build trust in projects by open sourcing internal audits/QA/roadmap discussions. 
+
+What to watch out for: A process without a use (ie improvement processes); build value first, community second, and processes last.
 
 
-### `waku:`
-* [[qa/waku/2025q1-interop-testing|interop-testing ]]
-* [[qa/waku/2025q1-waku-go-bindings-testing|waku-go-bindings-testing ]]
-* [[qa/waku/2025q1-direct-message-reliability-testing|direct-message-reliability-testing ]]
+## Task Tag Structure
 
-### `nomos:`
-* [[qa/nomos/2025q1-da-testing|da-testing ]]
-* [[qa/nomos/2025q1-e2e-testing|e2e-testing ]]
----
+The following descibes a fully qualified task tag
 
-## 2024q4 `vac:qa:`
----
+`vac:<unit>:<for_project>:<quarter-cname>:<tname>`
+- `vac` indicates it is a vac commitment
+- `unit` indicates the vac unit `p2p`, `dst`, `qa` ,`tke`, `acz`, `sc`, `nes`, `rfc`
+- `for_project` indicates which Logos project the commitment is mainly for `nomos`, `waku`, `codex`, `nimbus`, `status`; or `ift` (meaning it is not project specific)
+- `quarter` the quarter of the commitment, e.g. `2024q4`
+- `cname` the name of the commitment the task is part ofs
+- `tname` the name of the task
 
-### `ift:`
-* [[qa/ift/2024q4-projects-qa-strategy|projects-qa-strategy ]]
+## Archive
 
-### `vac:`
-* [[qa/vac/2024q4-nim-libp2p-testing|nim-libp2p-testing ]]
-
-### `waku:`
-* [[qa/waku/2024q4-interop-testing|interop-testing ]]
-* [[qa/waku/2024q4-status-go-functional-testing|status-go-functional-testing ]]
-
-### `nomos:`
-* [[qa/nomos/2024q4-da-testing|da-testing ]]
-
-### `codex:`
-* [[qa/codex/2024q4-integration-testing|integration-testing ]]
-
-### archive
-
-* [[qa/archive/2024h1|2024h1]]
+* [2024h1](archive/2024h1/vac/index)

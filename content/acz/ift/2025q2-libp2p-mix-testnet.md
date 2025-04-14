@@ -58,7 +58,7 @@ Waku integration.
 
 * fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:dockerize`
 * owner: Akshaya
-* status: started (0%)
+* status: started (40%)
 * start-date: 2025/04/1
 * end-date: 2025/04/14
 
@@ -69,6 +69,22 @@ Dockerize the mixified gossipsub poc to be tested.
 #### Deliverables
 
 * PR to [vacp2p/mix](https://github.com/vacp2p/mix) repo.
+
+### Delivering PoC 
+
+* fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:delivering-poc`
+* owner: Akshaya
+* status: started (50%)
+* start-date: 2025/04/01
+* end-date: 2025/04/28
+
+#### Description
+
+Delivering the implementation a simple gossipsub PoC over Waku the mixnet. 
+
+#### Deliverables
+
+* [A branch for mixified gossipsub](https://github.com/vacp2p/dst-gossipsub-test-node/tree/dockerized-mix-gossipsub)
 
 ### Updating RFC
 * fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:update-rfc`

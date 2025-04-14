@@ -96,7 +96,7 @@ be used.
 
 * fully qualified name: `vac:dst:ift:2025q2-vaclab:queueing-system`
 * owner: Wings
-* status: 0%
+* status: 70%
 * start-date: 2025/04/07
 * end-date: 2025/04/18
 

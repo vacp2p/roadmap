@@ -90,7 +90,7 @@ A blogpost to [vac.dev/rlog/](https://vac.dev/rlog/)
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:consensus-rfc`
 * owner: Ugur
-* status: started (10%)
+* status: started (50%)
 * start-date: 2025/04/01
 * end-date: 2025/04/14
 

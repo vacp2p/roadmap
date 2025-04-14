@@ -44,7 +44,7 @@ to initiate discussions and contribute to the benefit of the ecosystem.
 
 * fully qualified name: `vac:acz:ift:2025q2-think-tank:maintain-1`
 * owner: Marvin
-* status: started
+* status: done 
 * start-date: 2025/04/01
 * end-date: 2025/04/14
 
@@ -56,15 +56,15 @@ This task is important to diffuse the cryptographic components' how-know across 
 
 #### Deliverables 
 
-* A document to notion page with latest improvements.
+* A document to [notion page](https://www.notion.so/maintain-1-deliverables-1d58f96fb65c804fa388efa9333ee3e7) with latest improvements.
 
 ### Maintain-2
 
 * fully qualified name: `vac:acz:ift:2025q2-think-tank:maintain-2`
 * owner: Marvin
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/04/14
+* end-date: 2025/04/26
 
 #### Description 
 

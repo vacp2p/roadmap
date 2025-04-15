@@ -21,8 +21,8 @@ This commitment involves two main objectives: implementing nim-kademlia-dht, and
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-kad-dht:routing-and-rpc`
 * owner: rramos
-* status: not started
-* start-date:
+* status: 5%
+* start-date: 2025-04-08
 * end-date:
 
 #### Description

@@ -1077,7 +1077,7 @@
     <lastmod>2025-04-10T14:07:20.522Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/</loc>
-    <lastmod>2025-03-11T18:00:19.414Z</lastmod>
+    <lastmod>2025-04-15T14:26:14.422Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/nomos/2024q4-da-testing</loc>
     <lastmod>2025-03-06T14:58:09.990Z</lastmod>
@@ -1110,7 +1110,7 @@
     <lastmod>2025-04-10T14:07:20.522Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/waku/2025q2-interop-testing</loc>
-    <lastmod>2025-04-10T14:07:20.526Z</lastmod>
+    <lastmod>2025-04-15T14:26:14.422Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/waku/2025q2-messaging-api-testing</loc>
     <lastmod>2025-03-06T14:58:09.990Z</lastmod>
@@ -1120,6 +1120,9 @@
   </url><url>
     <loc>https://roadmap.vac.dev/qa/waku/2025q2-waku-go-bindings-testing</loc>
     <lastmod>2025-04-10T14:07:20.526Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/qa/waku/2025q2-waku-sync-testing</loc>
+    <lastmod>2025-04-15T14:26:14.422Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/codex/2024q4-marketplace-and-client</loc>
     <lastmod>2025-03-06T14:58:09.990Z</lastmod>

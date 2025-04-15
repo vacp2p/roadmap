@@ -39,7 +39,7 @@ for users looking to integrate RLN into their projects.
 ### Iden3 Witness Calculator Integration Review
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:iden3-witness-review`
 * owner: Sylvain
-* status: not started
+* status: started (70%)
 * start-date: 2025/04/01
 * end-date: 2025/04/07
 
@@ -64,7 +64,7 @@ A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) 
 ### RLN Execution Bottleneck Analysis
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:rln-execution-bottleneck`
 * owner: Sylvain
-* status: not started
+* status: started (10%)
 * start-date: 2025/04/07
 * end-date: 2025/04/14
 
@@ -99,7 +99,7 @@ A PR to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) incorporating the i
 ### Zerokit Wasm Implementation  
 * Fully qualified name: `vac:acz:ift:2025q2-zerokit:wasm-implementation`  
 * Owner: Vinh  
-* Status: started (0%) 
+* Status: started (80%) 
 * Start date: 2025/03/31  
 * End date: 2025/04/14  
 
@@ -117,11 +117,29 @@ ensuring improved performance and maintainability.
 The implementation should be submitted as a pull request to `zerokit` 
 and linked to the issue related to release v0.8.0.
 
+## Parallelization Feasibility Study For rln-wasm
+
+* fully qualified name: `vac:acz:ift:2025q2-zerokit-v0-8:parallel-computation-study`
+* owner: Vinh
+* status: started (0%) 
+* start-date: 2025/04/07
+* end-date: 2025/04/21
+
+#### Description
+
+After returning the rln-wasm module, it is necessary to investigate 
+the possibility and necessity to use parallel computation. 
+
+#### Deliverables
+
+A working implementation with parellel feature into `zerokit`, ensuring improved performance and maintainability. 
+The implementation should be submitted as a pull request to `zerokit` and linked to the issue related to release v0.8.0.
+
 ### Zerokit maintaining
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:zerokit-maintaining`
 * owner: Ekaterina
-* status: not started
+* status: started (5%)
 * start-date: 2025/04/01
 * end-date: 2025/05/30
 

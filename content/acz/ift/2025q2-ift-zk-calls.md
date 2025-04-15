@@ -42,7 +42,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q2-ift-zk-calls:ift-zk-call-1`
 * owner: Marvin
-* status: not started
+* status: done
 * start-date: 2025/04/01
 * end-date: 2025/01/07
 

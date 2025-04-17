@@ -38,3 +38,4 @@ investigating and resolving issues, and implementing minor improvements to the t
 
 #### Deliverables
 * [chore: Add API endpoints](https://github.com/logos-co/nomos-e2e-tests/pull/13)
+* [chore: Multiplatform testnet image for debugging](https://github.com/logos-co/nomos/pull/1212)

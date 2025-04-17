@@ -43,7 +43,7 @@ investigating and resolving issues, and implementing minor improvements to the t
 
 * fully qualified name: `vac:qa:waku:2025q2-interop-testing:jswaku-filter-hardening`
 * owner: fbarbu15
-* status: in progress (10%)
+* status: in progress (20%)
 * start-date: 2025/04/09
 * end-date: 2025/04/30
 

@@ -36,7 +36,7 @@ identifying gaps and proposing or creating additional tests as necessary.
 
 * fully qualified name: `vac:qa:ift:2025q2-qa-rfc-sync-waku:nwaku`
 * owner: fbarbu15
-* status: in progress (10%)
+* status: in progress (30%)
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -48,9 +48,8 @@ identifying gaps and proposing or creating additional tests as necessary.
 - Coordinate with developers for bug fixes and/or additional tests.
 
 #### Deliverables
-* Notion page summarizing the current implementation-to-RFC mapping, discrepancies, and action items.
-* GitHub issues for required fixes or RFC updates.
-* Recommendations for improved or additional test coverage.
+- Relay [done](https://www.notion.so/Nwaku-Relay-1ce8f96fb65c803a90f5c25076206ee7)
+- Filter [done](https://www.notion.so/Nwaku-Filter-1d18f96fb65c80b1a465d1bd022cd3f9)
 
 ### js-waku
 

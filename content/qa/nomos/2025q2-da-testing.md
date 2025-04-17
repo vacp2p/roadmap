@@ -30,7 +30,7 @@ focusing on protocol compatibility, internal interactions, data confidentiality,
 
 * fully qualified name: `vac:qa:nomos:2025q2-da-testing:protocol-api-compatibility`
 * owner: romanzac
-* status: in progress (5%)
+* status: in progress (90%)
 * start-date: 2025/04/1
 * end-date: 2025/04/15
 
@@ -38,8 +38,7 @@ focusing on protocol compatibility, internal interactions, data confidentiality,
 Add integration tests to verify DA works well with other blockchain components.
 
 #### Deliverables
-* PR link with added tests
-* CI runs showing successful or failed executions with detailed reports
+- [Test/protocol API compatibility](https://github.com/logos-co/nomos-e2e-tests/pull/14)
 
 
 ### Internal Interaction and Data Flow Tests

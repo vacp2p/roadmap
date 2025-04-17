@@ -68,3 +68,17 @@ Cover the [wakuext group chats](https://github.com/status-im/status-go/issues/60
 
 #### Deliverables
 * PRs with the new tests
+
+### Tests on light mode
+
+* fully qualified name: `vac:qa:waku:2025q2-status-go-functional-testing:light-mode`
+* owner: fbarbu15
+* status: in progress (50%)
+* start-date: 2025/04/07
+* end-date: 2025/04/24
+
+#### Description
+Enable running all waku tests also on light client mode
+
+#### Deliverables
+- Enabled light client mode for [waku functional tests](https://github.com/status-im/status-go/pull/6518/files)

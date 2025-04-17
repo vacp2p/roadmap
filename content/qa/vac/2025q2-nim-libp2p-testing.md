@@ -36,7 +36,7 @@ Improve tooling around nim libp2p testing.
 
 * fully qualified name: `vac:qa:vac:2025q2-nim-libp2p-testing:gossipsub-extended`
 * owner: radek
-* status: in progress (10%)
+* status: in progress (30%)
 * start-date: 2025/04/01
 * end-date: 2025/05/15
 
@@ -50,7 +50,7 @@ and aim to improve overall test completeness.
 
 
 #### Deliverables
-* PRs with links to added tests
+- revived stale PR: [test(gossipsub): message propagation](https://github.com/vacp2p/nim-libp2p/pull/1184), updated it and made sure it builds in CI
 
 ### Pubsub
 

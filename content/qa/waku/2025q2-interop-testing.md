@@ -37,6 +37,7 @@ investigating and resolving issues, and implementing minor improvements to the t
 
 #### Deliverables
 - Updated tests to no longer use [deprecated pubsub flag](https://github.com/waku-org/waku-interop-tests/pull/111)
+- Enabled [RLN tests](https://github.com/waku-org/waku-interop-tests/pull/112)
 
 
 ### js-waku filter hardening

@@ -74,6 +74,8 @@ and especially those we want to work with externally.
 - Measure on wire store query performance
 
 #### Deliverables
+- [Notion issue community joining report - Fixed](https://www.notion.so/Status-Subscription-performance-1c48f96fb65c80d19257fea6386e48c5)
+- [Notion issue community joining report 2 - WIP](https://www.notion.so/Status-Light-client-community-issues-1d98f96fb65c80c19a52f59ba705a7f5)
 
 ### Status-backend private chats - Idle-relay
 

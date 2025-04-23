@@ -136,10 +136,10 @@ as well as any other outdated parts of the specification.
 
 - Updated RFC document (potentially with an upgraded status).
 
-### RLN-CONTRACT
+### WAKU2-RLN-CONTRACT
 
 - Fully qualified name:
-  `vac:rfc:waku:2025q1-rfc-iteration:rln-contract`
+  `vac:rfc:waku:2025q1-rfc-iteration:waku2-rln-contract`
 - Owner: jimstir
 - Status: 0%
 - Start date: 2025/04/20

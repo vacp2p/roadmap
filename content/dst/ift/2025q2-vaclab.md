@@ -96,7 +96,7 @@ be used.
 
 * fully qualified name: `vac:dst:ift:2025q2-vaclab:queueing-system`
 * owner: Wings
-* status: 70%
+* status: 90%
 * start-date: 2025/04/07
 * end-date: 2025/04/18
 
@@ -111,6 +111,8 @@ and the amount of resources it would need needs to be taken into account.
 
 #### Deliverables
 - Code:
+  - https://github.com/vacp2p/dst-lars
+  - https://github.com/Zorlin/larstesting
 - Documentation:
 
 ### Better Time Slicing

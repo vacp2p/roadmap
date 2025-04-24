@@ -48,3 +48,111 @@ from the point of view of a new developer.
 
 ## Task List
 
+### 30/ADAPTIVE-NODES
+
+- Fully qualified name:
+  `vac:rfc:waku:2025q1-rfc-iteration:30/adaptive-nodes`
+- Owner: jimstir
+- Status: 95%
+- Start date: 2025/04/04
+- End date: 2025/04/18
+
+#### Description
+
+This is an informational spec that showcases the concept of adaptive nodes.
+
+In this task, our focus will be on updating the relevant links, the codebase
+as well as any other outdated parts of the specification.
+
+#### Deliverables
+
+- Updated RFC document (potentially with an upgraded status).
+
+### 66/WAKU2-METADATA
+
+- Fully qualified name:
+  `vac:rfc:waku:2025q1-rfc-iteration:66/waku2-metadata`
+- Owner: cofson
+- Status: 95%
+- Start date: 2025/04/04
+- End date: 2025/04/18
+
+#### Description
+
+This specification describes the metadata
+that can be associated with a [10/WAKU2](https://rfc.vac.dev/waku/standards/core/10/waku2) node.
+
+In this task, our focus will be on updating the relevant links, the codebase
+as well as any other outdated parts of the specification.
+
+#### Deliverables
+
+- Updated RFC document (potentially with an upgraded status).
+
+### 53/WAKU2-X3DH
+
+- Fully qualified name:
+  `vac:rfc:waku:2025q1-rfc-iteration:53/waku2-x3dh`
+- Owner: cofson
+- Status: 95%
+- Start date: 2025/04/20
+- End date: 2025/05/05
+
+#### Description
+
+This document describes a method
+that can be used to provide a secure channel between two peers,
+and thus provide confidentiality, integrity, authenticity and forward secrecy.
+It is transport-agnostic and works over asynchronous networks.
+
+In this task, our focus will be on updating the relevant links, the codebase
+as well as any other outdated parts of the specification.
+
+#### Deliverables
+
+- Updated RFC document (potentially with an upgraded status).
+
+### 54/WAKU2-X3DH-SESSIONS
+
+- Fully qualified name:
+  `vac:rfc:waku:2025q1-rfc-iteration:54/waku2-x3dh-sessions`
+- Owner: cofson
+- Status: 95%
+- Start date: 2025/04/20
+- End date: 2025/05/05
+
+#### Description
+
+This document specifies how to manage sessions
+based on an X3DH key exchange.
+This includes how to establish new sessions,
+how to re-establish them, how to maintain them
+and how to close them.
+
+In this task, our focus will be on updating the relevant links, the codebase
+as well as any other outdated parts of the specification.
+
+#### Deliverables
+
+- Updated RFC document (potentially with an upgraded status).
+
+### WAKU2-RLN-CONTRACT
+
+- Fully qualified name:
+  `vac:rfc:waku:2025q1-rfc-iteration:waku2-rln-contract`
+- Owner: jimstir
+- Status: 0%
+- Start date: 2025/04/20
+- End date: 2025/05/05
+
+#### Description
+
+This document describes membership management
+within the RLN smart contract
+
+In this task, our focus will be on updating the relevant links, the codebase
+as well as any other outdated parts of the specification.
+
+#### Deliverables
+
+- Updated RFC document (potentially with an upgraded status).

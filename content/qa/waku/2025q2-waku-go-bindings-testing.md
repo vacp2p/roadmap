@@ -62,7 +62,7 @@ PRs and issues
 
 * fully qualified name: `vac:qa:waku:2025q2-waku-go-bindings-testing:maintenance`
 * owner: aya
-* status: in progress (10%)
+* status: in progress (30%)
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -72,7 +72,9 @@ This includes updating tests for changes in the bindings or in `nwaku`, addressi
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
-PRs and issues
+- [bug: High-Throughput Test Hangs or Fails Beyond 1024 Iterations](https://github.com/waku-org/waku-go-bindings/issues/65)
+- [bug: Node Doesn’t Fully Shut Down After Test Completion (Rendezvous & AutoNAT Tasks Keep Running)](https://github.com/waku-org/waku-go-bindings/issues/64) 
+- Increase endurance tests iterations after the fix in [PR](https://github.com/waku-org/waku-go-bindings/pull/62)
 
 ### 12H Longevity
 

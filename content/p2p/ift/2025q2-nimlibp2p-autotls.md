@@ -25,8 +25,8 @@ This task is limited to the client functionality; Server functionality could be 
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:certificate-request-auth`
 * owner: gabriel
-* status: not started
-* start-date:
+* status: 15%
+* start-date: 2025-04-14
 * end-date:
 
 #### Description
@@ -40,8 +40,8 @@ Request certificate and authenticate against registration.libp2p.direct
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:dns-challenge`
 * owner: gabriel
-* status: not started
-* start-date:
+* status: 15%
+* start-date: 2025-04-14
 * end-date:
 
 #### Description
@@ -55,8 +55,8 @@ Notify DNS-01 challenge completion
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:certificate-installation`
 * owner: gabriel
-* status: not started
-* start-date:
+* status: 15%
+* start-date: 2025-04-14
 * end-date:
 
 #### Description

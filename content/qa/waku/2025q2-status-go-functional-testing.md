@@ -38,6 +38,8 @@ Cover the core functionality of Status related to [wakuext messages](https://git
 #### Deliverables
 - [test_: Tests for chat actions 1](https://github.com/status-im/status-go/pull/6453)
 - [test_: Tests for chat actions 2](https://github.com/status-im/status-go/pull/6492)
+- [test_: run wakuext tests on light client as well](https://github.com/status-im/status-go/pull/6518) 
+- [test_: reliability tests on staging fleet](https://github.com/status-im/status-go/pull/6543)
 
 
 ### Contact requests tests

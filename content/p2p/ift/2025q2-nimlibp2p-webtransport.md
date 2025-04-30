@@ -25,7 +25,7 @@ which would allow browsers to establish bidirectional stream connections to nim-
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-webtransport:http3`
 * owner: vlado
-* status: started
+* status: 30%
 * start-date: 2025-04-14
 * end-date:
 

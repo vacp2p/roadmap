@@ -53,7 +53,7 @@ from the point of view of a new developer.
 - Fully qualified name:
   `vac:rfc:waku:2025q1-rfc-iteration:30/adaptive-nodes`
 - Owner: jimstir
-- Status: 95%
+- Status: 100% (https://github.com/vacp2p/rfc-index/pull/147)
 - Start date: 2025/04/04
 - End date: 2025/04/18
 
@@ -117,7 +117,7 @@ as well as any other outdated parts of the specification.
 - Fully qualified name:
   `vac:rfc:waku:2025q1-rfc-iteration:54/waku2-x3dh-sessions`
 - Owner: cofson
-- Status: 95%
+- Status: 100% (https://github.com/vacp2p/rfc-index/pull/151)
 - Start date: 2025/04/20
 - End date: 2025/05/05
 
@@ -141,7 +141,7 @@ as well as any other outdated parts of the specification.
 - Fully qualified name:
   `vac:rfc:waku:2025q1-rfc-iteration:waku2-rln-contract`
 - Owner: jimstir
-- Status: 0%
+- Status: 60%
 - Start date: 2025/04/20
 - End date: 2025/05/05
 

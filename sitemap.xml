@@ -1047,7 +1047,7 @@
     <lastmod>2025-04-24T16:55:16.290Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/p2p/ift/2025q2-nimlibp2p-autotls</loc>
-    <lastmod>2025-04-24T16:55:16.290Z</lastmod>
+    <lastmod>2025-05-05T14:13:10.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/p2p/ift/2025q2-nimlibp2p-kademlia</loc>
     <lastmod>2025-04-24T16:52:07.395Z</lastmod>
@@ -1055,14 +1055,14 @@
     <loc>https://roadmap.vac.dev/p2p/ift/2025q2-nimlibp2p-maintenance</loc>
     <lastmod>2025-04-10T14:06:43.458Z</lastmod>
   </url><url>
-    <loc>https://roadmap.vac.dev/p2p/ift/2025q2-nimlibp2p-test-coverage</loc>
-    <lastmod>2025-04-15T14:24:44.508Z</lastmod>
-  </url><url>
     <loc>https://roadmap.vac.dev/p2p/ift/2025q2-nimlibp2p-webtransport</loc>
-    <lastmod>2025-04-24T16:55:16.290Z</lastmod>
+    <lastmod>2025-05-05T14:13:10.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/p2p/</loc>
-    <lastmod>2025-04-15T14:24:44.508Z</lastmod>
+    <lastmod>2025-05-05T14:13:10.095Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/p2p/vac/2025q2-nimlibp2p-test-coverage</loc>
+    <lastmod>2025-05-05T14:13:10.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/codex/2024q4-integration-testing</loc>
     <lastmod>2025-03-06T14:58:09.986Z</lastmod>

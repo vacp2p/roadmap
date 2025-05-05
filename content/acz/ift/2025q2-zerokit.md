@@ -64,7 +64,7 @@ A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) 
 ### RLN Execution Bottleneck Analysis
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:rln-execution-bottleneck`
 * owner: Sylvain
-* status: started (10%)
+* status: started (50%)
 * start-date: 2025/04/07
 * end-date: 2025/04/14
 
@@ -119,9 +119,9 @@ and linked to the issue related to release v0.8.0.
 
 ## Parallelization Feasibility Study For rln-wasm
 
-* fully qualified name: `vac:acz:ift:2025q2-zerokit-v0-8:parallel-computation-study`
+* fully qualified name: `vac:acz:ift:2025q2-zerokit:parallel-computation-study`
 * owner: Vinh
-* status: started (0%) 
+* status: started (40%) 
 * start-date: 2025/04/07
 * end-date: 2025/04/21
 
@@ -135,11 +135,54 @@ the possibility and necessity to use parallel computation.
 A working implementation with parellel feature into `zerokit`, ensuring improved performance and maintainability. 
 The implementation should be submitted as a pull request to `zerokit` and linked to the issue related to release v0.8.0.
 
+### Investigate Semaphore 
+
+* fully qualified name: `vac:acz:ift:2025q2-zerokit:semaphore-parts-bench`
+* owner: Ben
+* status: started (0%)
+* start-date: 2025/04/30
+* end-date: 2025/05/16
+
+### Description
+
+[Semaphore](https://github.com/semaphore-protocol/semaphore-rs/tree/main) is a zero-knowledge protocol 
+that allows users to prove membership in a group without revealing their identity. 
+This enables anonymous messaging, voting, and other privacy-preserving applications.
+In this task, we aim to evaluate whether replacing the current zero-knowledge proof system makes sense. 
+To begin, we will focus on two areas of research:
+
+1. Compare the [light-poseidon](https://crates.io/crates/light-poseidon) library 
+with our current Poseidon hash implementation
+   - Verify whether the parameters used are the same  
+   - Prepare performance benchmarks
+
+2. Evaluate the efficiency of the [lean-imt Merkle tree](https://github.com/brech1/zk-kit.rust/tree/main/crates/lean-imt) 
+versus our current Merkle tree implementation
+   - Focus on tree initialization, leaf insertion, proof generation, and proof verification
+
+3. Compare the zero-knowledge proof systems themselves
+- Once we understand the relative performance of Poseidon and Merkle tree implementations, 
+evaluate the zk-proof construction step
+- Assess the performance and complexity of generating and verifying proofs 
+using the current system versus potential alternatives
+
+For context, see our previous investigation into Semaphore usage in Zerokit:  
+[Semaphore README in Zerokit branch](https://github.com/vacp2p/zerokit/blob/semaphore-update/semaphore/README.md)
+
+### Deliverables
+
+Submit either a pull request or a comment on [this issue](https://github.com/vacp2p/zerokit/issues/17) 
+in the Zerokit repository that includes:
+
+- Benchmark results for both the Poseidon hash and the Merkle tree implementations
+- A summary of findings, including whether it makes sense to proceed 
+with evaluating alternative zk-proof systems based on the current efficiency data
+
 ### Zerokit maintaining
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:zerokit-maintaining`
 * owner: Ekaterina
-* status: started (5%)
+* status: started (40%)
 * start-date: 2025/04/01
 * end-date: 2025/05/30
 

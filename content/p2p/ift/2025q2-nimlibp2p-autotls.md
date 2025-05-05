@@ -103,7 +103,7 @@ Finalize certificate issuance with CSR
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:cert-installation`
 * owner: gabriel
-* status: 25%
+* status: 0%
 * start-date: 2025-04-14
 * end-date:
 
@@ -111,12 +111,13 @@ Finalize certificate issuance with CSR
 Install generated certificate and use it in TCP/WS/WSSS/Quic/Webtransport
 
 #### Deliverables
+- Install certificate
 
 ### Certificate renewaw
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:cert-renewal`
 * owner: gabriel
-* status: 25%
+* status: 0%
 * start-date: 2025-04-14
 * end-date:
 

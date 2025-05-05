@@ -21,39 +21,87 @@ This task is limited to the client functionality; Server functionality could be 
 
 ## Task List
 
-### Certificate request and authentication
+### ACME registration
 
-* fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:certificate-request-auth`
+* fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:acme-registration`
 * owner: gabriel
 * status: 25%
 * start-date: 2025-04-14
 * end-date:
 
 #### Description
-Request certificate and authenticate against registration.libp2p.direct
+Register new account on ACME server 
 
 #### Deliverables
+- Generate key
+- Register to ACME server using generated key
 
+### Challenge request
 
-
-### DNS challenge
-
-* fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:dns-challenge`
+* fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:certificate-request-challenge`
 * owner: gabriel
 * status: 25%
 * start-date: 2025-04-14
 * end-date:
 
 #### Description
-Notify DNS-01 challenge completion
+Request challenge from the ACME server (typically Let's Encrypt)
 
 #### Deliverables
+- Base36 encode our peerId
+- Send certificate request for `*.{base36PeerId}.libp2p.direct` domain
 
+### Notify AutoTLS broker
 
+* fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:notify-autotls-broker`
+* owner: gabriel
+* status: 25%
+* start-date: 2025-04-14
+* end-date:
 
-### Certificate Installation
+#### Description
+Send DNS-01 challenge received from ACME server to the AutoTLS broker (registration.libp2p.direct)
 
-* fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:certificate-installation`
+#### Deliverables
+- Authenticate with AutoTLS broker using PeerId Auth
+- Send DNS-01 challenge to AutoTLS broker
+- Successfully receive and respond to a dial from AutoTLS broker
+- Query the broker's DNS registry until the `TXT` `_acme-challenge.{peerID}.libp2p.direct` record is set
+
+### Notify challenge completion
+
+* fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:notify-challenge-completion`
+* owner: gabriel
+* status: 25%
+* start-date: 2025-04-14
+* end-date:
+
+#### Description
+Notify the ACME server that we're done with DNS-01 challenge
+
+#### Deliverables
+- Send message to ACME server notifying that we're ready to be test
+- Query the ACME server until it responds saying the challenge was fulfilled
+
+### Finalize certificate
+
+* fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:finalize-cert`
+* owner: gabriel
+* status: 25%
+* start-date: 2025-04-14
+* end-date:
+
+#### Description
+Finalize certificate issuance with CSR
+
+#### Deliverables
+- Generate CSR
+- Send finalize message with CSR to ACME server
+- Download certificate from ACME server
+
+### Certificate installation
+
+* fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:cert-installation`
 * owner: gabriel
 * status: 25%
 * start-date: 2025-04-14
@@ -62,6 +110,19 @@ Notify DNS-01 challenge completion
 #### Description
 Install generated certificate and use it in TCP/WS/WSSS/Quic/Webtransport
 
+#### Deliverables
+
+### Certificate renewaw
+
+* fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:cert-renewal`
+* owner: gabriel
+* status: 25%
+* start-date: 2025-04-14
+* end-date:
+
+#### Description
+Renew certificate before it expires
 
 #### Deliverables
+- Send a request for the same certificate to the ACME server 
 

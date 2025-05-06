@@ -58,7 +58,7 @@ Waku integration.
 
 * fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:dockerize`
 * owner: Akshaya
-* status: started (40%)
+* status: started (80%)
 * start-date: 2025/04/1
 * end-date: 2025/04/14
 
@@ -89,7 +89,7 @@ Delivering the implementation a simple gossipsub PoC over Waku the mixnet.
 ### Updating RFC
 * fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:update-rfc`
 * owner: Akshaya
-* status: started (0%)
+* status: started (20%)
 * start-date: 2025/04/1
 * end-date: 2025/04/21
 

@@ -62,4 +62,36 @@ with the existing infrastructure.
 
 #### Deliverables 
 
-* A document to notion page .
+* A document to ACZ notion page
+
+### Prover Instance
+
+* fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:prover`
+* owner: Sylvain
+* status: started (0%)
+* start-date: 2025/05/05
+* end-date: 2025/05/20
+
+#### Description 
+
+This task entails the releasing the prover part of the RLN deployment.  
+
+#### Deliverables 
+
+* A PR to the repo
+
+### Linea RPC modification
+
+* fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:linea-rpc`
+* owner: Sylvain
+* status: started (0%)
+* start-date: 2025/05/19
+* end-date: 2025/06/02
+
+#### Description 
+
+This task entails the developing the changes on the Linea RPC part of the RLN deployment.  
+
+#### Deliverables 
+
+* A PR to the repo

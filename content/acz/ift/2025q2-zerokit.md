@@ -132,8 +132,33 @@ the possibility and necessity to use parallel computation.
 
 #### Deliverables
 
-A working implementation with parellel feature into `zerokit`, ensuring improved performance and maintainability. 
-The implementation should be submitted as a pull request to `zerokit` and linked to the issue related to release v0.8.0.
+* A PR to `zerokit` and linked to the issue related to release v0.8.0.
+
+### Improve Computation In Merkle Tree  
+
+* fully qualified name: `vac:acz:ift:2025q2-zerokit:merkle-tree-improvement`
+* owner: Vinh
+* status: not started
+* start-date: 2025/04/21
+* end-date: 2025/05/09
+
+
+#### Description
+While working on `vac:acz:ift:2025q2-zerokit-v0.8.0:rln-execution-bottleneck`, 
+we identified an inefficient algorithm used for updating the tree structure. 
+Although improvements were made, there's still potential for further optimization.
+
+One promising approach is to update the hashes incrementally during tree updates, 
+which could reduce redundant computations. 
+Additionally, refactoring the current algorithm to leverage the rayon crate for parallelism 
+may significantly boost performance—potentially by 20% or more. 
+This task involves analyzing the current implementation, applying targeted refactors, 
+and introducing parallel processing where appropriate.
+
+#### Deliverables
+
+* A PR to `zerokit` and linked to the issue related to release v0.8.0.
+
 
 ### Investigate Semaphore 
 

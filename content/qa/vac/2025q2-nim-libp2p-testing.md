@@ -51,6 +51,13 @@ and aim to improve overall test completeness.
 
 #### Deliverables
 - revived stale PR: [test(gossipsub): message propagation](https://github.com/vacp2p/nim-libp2p/pull/1184), updated it and made sure it builds in CI
+- [test: parallel execution POC](https://github.com/vacp2p/nim-libp2p/pull/1326)
+- [chore(ci): decouple examples from unit tests](https://github.com/vacp2p/nim-libp2p/pull/1334)
+- [test: combine tests](https://github.com/vacp2p/nim-libp2p/pull/1335)
+- [test: include missing tests in testall](https://github.com/vacp2p/nim-libp2p/pull/1338)
+- [test(gossipsub): optimise heartbeat interval and sleepAsync](https://github.com/vacp2p/nim-libp2p/pull/1342)
+- [test(gossipsub): reorganize tests by feature category](https://github.com/vacp2p/nim-libp2p/pull/1350)
+
 
 ### Pubsub
 

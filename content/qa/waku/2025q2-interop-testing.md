@@ -26,7 +26,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:waku:2025q2-interop-testing:maintenance`
 * owner: fbarbu15
-* status: in progress (10%)
+* status: in progress (30%)
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -38,13 +38,14 @@ investigating and resolving issues, and implementing minor improvements to the t
 #### Deliverables
 - Updated tests to no longer use [deprecated pubsub flag](https://github.com/waku-org/waku-interop-tests/pull/111)
 - Enabled [RLN tests](https://github.com/waku-org/waku-interop-tests/pull/112)
+- [chore: add reconciliation metrics](https://github.com/waku-org/waku-interop-tests/pull/113)
 
 
 ### js-waku filter hardening
 
 * fully qualified name: `vac:qa:waku:2025q2-interop-testing:jswaku-filter-hardening`
 * owner: fbarbu15
-* status: in progress (20%)
+* status: in progress (30%)
 * start-date: 2025/04/09
 * end-date: 2025/04/30
 
@@ -55,4 +56,4 @@ Harden js-waku filter protocol by adding more advanced tests like:
 - Sending/receiving thousands of messages in a short period of time
 
 #### Deliverables
-- PRs and Issues
+- [chore: add reliability tests package with longevity tests](https://github.com/waku-org/js-waku/pull/2361)

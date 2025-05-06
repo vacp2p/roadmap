@@ -104,3 +104,19 @@ Updating the [mixnet RFC](https://rfc.vac.dev/vac/raw/mix) with latest findings 
 
 * A PR to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index)
 
+### Consulting Waku-mix 
+
+* fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:consulting-waku-mix`
+* owner: Akshaya
+* status: started (20%)
+* start-date: 2025/05/1
+* end-date: 2025/06/30
+
+#### Description
+
+Consulting about mixnet to Mixnet integration to the Waku.  
+
+#### Deliverables
+
+* PR to [vacp2p/mix](https://github.com/vacp2p/mix) or [waku-org/nwaku](https://github.com/waku-org/nwaku/) repo.
+

@@ -145,11 +145,15 @@ with a new CI pipeline for the repository that includes the waku node.
 
 #### Description
 
-Implement a consensus mechanism for one admin based on RFC, i.e. in the end we want to see a separate module that will process all incoming proposals for group state changes and receive a commit message as an output.
+Implement a consensus mechanism for one admin based on RFC, i.e. 
+in the end we want to see a separate module 
+that will process all incoming proposals for group state changes 
+and receive a commit message as an output.
 
 #### Deliverables
 
-A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) containing new consensus layer as separate module with tests.
+* A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) 
+containing new consensus layer as separate module with tests.
 
 ### Separate commit and proposal messages inside app
 
@@ -161,11 +165,13 @@ A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) containing new
 
 #### Description
 
-Before integrating the consensus, it is necessary to split the process of applying new commits into the corresponding proposal and commits for applying the group state update.  
+Before integrating the consensus, it is necessary to split the process of applying new commits 
+into the corresponding proposal and commits for applying the group state update.  
 
 #### Deliverables
 
-A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) updating the API for separate commit and proposal messages.
+* A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) 
+updating the API for separate commit and proposal messages.
 
 ### Put all proposall message in one queue
 
@@ -177,11 +183,14 @@ A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) updating the A
 
 #### Description
 
-At the first stage of implementation we separated adding and messages to a group and deleting from a group into different threads, we need one message queue to work with consensus.
+At the first stage of implementation we separated adding and messages
+ to a group and deleting from a group into different threads, 
+ we need one message queue to work with consensus.
 
 #### Deliverables
 
-A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) containing update of message processing  
+* A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) 
+containing update of message processing  
 
 
 ### Update frontend 
@@ -194,12 +203,14 @@ A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) containing upd
 
 #### Description
 
-The current frontend is difficult to maintain and besides adding new functionality for testing now requires a lot of effort.
+The current frontend is difficult to maintain and besides adding new functionality 
+for testing now requires a lot of effort.
 In addition, communication via websockets needs to be reconsidered in terms of efficiency 
 
 #### Deliverables
 
-A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) containing new frontend.
+* A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) 
+containing new frontend.
 
 ### Integrate wallet based registration 
 
@@ -211,8 +222,10 @@ A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) containing new
 
 #### Description
 
-For the first version de-mls used a mock version for online registration, now it makes sense to add wallet support for user authentication
+For the first version de-mls used a mock version for online registration, 
+now it makes sense to add wallet support for user authentication
 
 #### Deliverables
 
-A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) containing support of wallet as authentication part.
+* A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) 
+containing support of wallet as authentication part.

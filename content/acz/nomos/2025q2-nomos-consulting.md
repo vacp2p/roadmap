@@ -33,3 +33,18 @@ We will also strengthen the Premier Research Destination narrative by:
 and introduced into the ecosystem.
 
 ## Task List
+
+### Zk Consulting Nomos 1
+* fully qualified name: `vac:acz:nomos:2025q2-nomos-consulting:zk-consulting-nomos-1`
+* owner: Marvin
+* status: done
+* start-date: 2024/04/20
+* end-date: 2025/05/17
+
+### Description
+Provide feedback Nomos' document analysis of failures in mix networks Design considerations page.
+
+
+### Deliverables
+- Provide comments for Nomos team to address in the document (and corresponding overleaf).
+- Add proofs to these documents as needed.

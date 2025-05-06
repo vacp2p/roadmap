@@ -46,8 +46,7 @@ These tests aim to validate internal mechanics such as:
 - Sync termination conditions
 
 #### Deliverables
-- Prepared [sheet](https://docs.google.com/spreadsheets/d/1Qj5LMyWR-ILA2wqd4eGe7j_V311QonZJ0LqnaWAJxMM/edit?gid=293767216#gid=293767216)  with missing coverage for unit test and review it with Simon 
-- Add new tests to [PR](https://github.com/waku-org/nwaku/pull/3372)
+- Prepared [sheet](https://docs.google.com/spreadsheets/d/1Qj5LMyWR-ILA2wqd4eGe7j_V311QonZJ0LqnaWAJxMM/edit?gid=293767216#gid=293767216)  with missing coverage for unit tests  
 - [Waku sync temp branch](https://github.com/waku-org/nwaku/pull/3388)
 
 ---

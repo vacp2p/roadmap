@@ -34,3 +34,20 @@ and introduced into the ecosystem.
 
 ## Task List
 
+### Unifying 2025q1 Documents
+* fully qualified name: `vac:acz:nes:2025q2-nescience-consulting:unifying-q1-docs`
+* owner: Marvin
+* status: started (0%)
+* start-date: 2024/05/05
+* end-date: 2025/05/20
+
+### Description
+Nescience has many unstructured documents from 2025q1, this task entails creating a single document 
+that covers all these new ideas by removing recurring topics. Also, it includes creating a table for each document
+which topics we include or exclude. 
+
+
+### Deliverables
+* A notion page that consists of a single unified doc 
+* A table that shows which topics we include or exclude
+* A notion page that shows decisions need to be made

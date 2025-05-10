@@ -11,7 +11,7 @@ description: "Iteration commitments generally comprise: through discussion and c
 
 Iteration commitments generally comprise:
 through discussion and curation,
-support the process of auditing raw, draft, mature selected Nescience RFCs.
+support the process of auditing raw, draft, mature selected RFCs.
 
 ## Description
 

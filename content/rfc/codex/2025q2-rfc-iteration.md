@@ -4,7 +4,7 @@ tags:
   - rfc
   - codex
 draft: false
-description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected Codex RFCs."
+description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected RFCs."
 ---
 
 `vac:rfc:nescience:2025q1-rfc-iteration`

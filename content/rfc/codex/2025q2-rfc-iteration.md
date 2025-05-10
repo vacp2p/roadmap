@@ -11,7 +11,10 @@ description: "Iteration commitments generally comprise: through discussion and c
 
 Iteration commitments generally comprise:
 through discussion and curation,
-support the process of auditing raw, draft, mature selected Codex RFCs.
+support the process of auditing raw, draft, mature selected RFCs.
+
+This commitment covers this process for the following Codex RFCs:
+block exchange, Erasure coding,  Proving system
 
 ## Description
 

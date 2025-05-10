@@ -156,3 +156,37 @@ as well as any other outdated parts of the specification.
 #### Deliverables
 
 - Updated RFC document (potentially with an upgraded status).
+
+### WAKU2-ENR
+
+- Fully qualified name:
+  `vac:rfc:waku:2025q1-rfc-iteration:waku2-enr`
+- Owner: jimstir
+- Status: 0%
+- Start date: 2025/04/20
+- End date: 2025/05/05
+
+#### Description
+
+
+
+#### Deliverables
+
+- Updated RFC document (potentially with an upgraded status).
+
+### WAKU2-DEVICE-PAIRING
+
+- Fully qualified name:
+  `vac:rfc:waku:2025q1-rfc-iteration:waku2-device-pairing`
+- Owner: jimstir
+- Status: 0%
+- Start date: 2025/04/20
+- End date: 2025/05/05
+
+#### Description
+
+
+
+#### Deliverables
+
+- Updated RFC document (potentially with an upgraded status).

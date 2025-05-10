@@ -49,7 +49,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Fully qualified name: 
   `vac:rfc:waku:2025q1-rfc-iteration:10/waku2`
 - Owner: jimstir
-- Status: 95%
+- Status: 100% (https://github.com/vacp2p/rfc-index/pull/125)
 - Start date: 2025/01/01
 - End date: 2025/01/31
 
@@ -69,7 +69,7 @@ as well as any other outdated parts of the specification.
 - Fully qualified name: 
   `vac:rfc:waku:2025q1-rfc-iteration:20/toy-eth-pm`
 - Owner: jimstir
-- Status: not started
+- Status: 100% (https://github.com/vacp2p/rfc-index/pull/141)
 - Start date: 2025/02/14
 - End date: 2025/02/28
 
@@ -107,12 +107,12 @@ and uptime and do not miss any messages.
 - Updated RFC document (potentially with an upgraded status).
 
 
-### 26/WAKU2-PAYLOAD
+### 26/WAKU2-PAYLOADS
 
 - Fully qualified name: 
-  `vac:rfc:waku:2025q1-rfc-iteration:26/waku2-payload`
+  `vac:rfc:waku:2025q1-rfc-iteration:26/waku2-payloads`
 - Owner: jimstir
-- Status: not started
+- Status: 100% (https://github.com/vacp2p/rfc-index/pull/136)
 - Start date: 2025/03/07
 - End date: 2025/03/21
 
@@ -133,8 +133,8 @@ as well as any other outdated parts of the specification.
 
 - Fully qualified name: 
   `vac:rfc:waku:2025q1-rfc-iteration:33/waku2-discv5`
-- Owner: jimstir
-- Status: not started
+- Owner: cofson
+- Status: 100% (https://github.com/vacp2p/rfc-index/pull/139)
 - Start date: 2025/03/14
 - End date: 2025/03/31
 
@@ -155,8 +155,8 @@ as well as any other outdated parts of the specification.
 
 - Fully qualified name: 
   `vac:rfc:waku:2025q1-rfc-iteration:36/waku2-bindings-api`
-- Owner: Filip
-- Status: 75%
+- Owner: cofson
+- Status: 95%
 - Start date: 2025/02/07
 - End date: 2025/02/31
 
@@ -177,7 +177,7 @@ as well as any other outdated parts of the specification.
 - Fully qualified name: 
   `vac:rfc:waku:2025q1-rfc-iteration:23/waku2-topics`
 - Owner: jimstir
-- Status: 0%
+- Status: 100%  (https://github.com/vacp2p/rfc-index/pull/144)
 - Start date: 2025/02/07
 - End date: 2025/03/31
 
@@ -199,8 +199,8 @@ as well as any other outdated parts of the specification.
 
 - Fully qualified name: 
   `vac:rfc:waku:2025q1-rfc-iteration:27/waku2-peers`
-- Owner: jimstir
-- Status: 0%
+- Owner: cofson
+- Status: 100% (https://github.com/vacp2p/rfc-index/pull/145)
 - Start date: 2025/02/01
 - End date: 2025/03/31
 
@@ -219,8 +219,8 @@ as well as any other outdated parts of the specification.
 
 - Fully qualified name: 
   `vac:rfc:waku:2025q1-rfc-iteration:29/waku2-config`
-- Owner: jimstir
-- Status: 0%
+- Owner: cofson
+- Status: 100% (https://github.com/vacp2p/rfc-index/pull/147)
 - Start date: 2025/02/01
 - End date: 2025/03/31
 

@@ -8,6 +8,7 @@ tags:
 ## 2025q2 `vac:dst:`
 ---
 ### `ift`
+* [ ] [[dst/ift/2025q2-dst-tooling|dst-tooling]]
 * [ ] [[dst/ift/2025q2-dst-conduit|dst-conduit]]
 * [ ] [[dst/ift/2025q2-dst-research-destination|dst-research-destination]]
 * [ ] [[dst/ift/2025q2-vaclab|vaclab]]

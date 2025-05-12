@@ -27,7 +27,12 @@ either in draft or raw states. The audit comprises of:
 - Checking for inconsistencies with other documentation/codebase.
 
 The following RFCs will be worked on in this quarter:
-- 
+- 30/ADAPTIVE-NODES
+- 66/WAKU2-METADATA
+- 53/WAKU2-X3DH
+- 54/WAKU2-X3DH-SESSIONS
+- WAKU2-ENR
+- WAKU2-DEVICE-PAIRING
 
 We will also include specification validation - 
 editorial work through previous and future RFCs to improve them

@@ -1130,6 +1130,9 @@
     <loc>https://roadmap.vac.dev/rfc/codex/2024q4-marketplace-and-client</loc>
     <lastmod>2025-03-06T14:58:09.990Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/rfc/codex/2025q2-rfc-iteration</loc>
+    <lastmod>2025-05-12T14:21:46.186Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/rfc/ift/2024q4-rfc-culture-establishment</loc>
     <lastmod>2025-03-06T14:58:09.990Z</lastmod>
   </url><url>
@@ -1155,7 +1158,10 @@
     <lastmod>2025-03-27T18:06:09.329Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/</loc>
-    <lastmod>2025-03-27T18:06:09.329Z</lastmod>
+    <lastmod>2025-05-12T14:21:46.186Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/rfc/nescience/2025q2-rfc-iteration</loc>
+    <lastmod>2025-05-12T14:21:46.186Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/nomos/2024q4-raw-rfc-support-data-availability</loc>
     <lastmod>2025-03-06T14:58:09.990Z</lastmod>
@@ -1179,10 +1185,10 @@
     <lastmod>2025-03-06T14:58:09.990Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/waku/2025q1-rfc-iteration</loc>
-    <lastmod>2025-03-27T18:06:09.329Z</lastmod>
+    <lastmod>2025-05-12T14:21:46.186Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/waku/2025q2-rfc-iteration</loc>
-    <lastmod>2025-04-24T16:52:45.996Z</lastmod>
+    <lastmod>2025-05-12T14:21:46.186Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/waku/raw-rfcs-to-rfc-index-migration</loc>
     <lastmod>2025-03-06T14:58:09.990Z</lastmod>

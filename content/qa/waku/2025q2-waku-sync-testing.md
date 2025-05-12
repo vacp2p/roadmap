@@ -47,9 +47,7 @@ These tests aim to validate internal mechanics such as:
 
 #### Deliverables
 - Prepared [sheet](https://docs.google.com/spreadsheets/d/1Qj5LMyWR-ILA2wqd4eGe7j_V311QonZJ0LqnaWAJxMM/edit?gid=293767216#gid=293767216)  with missing coverage for unit tests  
-- [Waku sync temp branch](https://github.com/waku-org/nwaku/pull/3388)
-
----
+- [test: Add comprehensive reconciliation unit-tests for Waku Store Sync](https://github.com/waku-org/nwaku/pull/3388)
 
 ### Waku Sync Integration Testing
 

@@ -27,7 +27,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:nomos:2025q2-e2e-testing:maintenance`
 * owner: romanzac
-* status: in progress (15%)
+* status: in progress (20%)
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -40,3 +40,4 @@ investigating and resolving issues, and implementing minor improvements to the t
 * [chore: Add API endpoints](https://github.com/logos-co/nomos-e2e-tests/pull/13)
 * [chore: Multiplatform testnet image for debugging](https://github.com/logos-co/nomos/pull/1212)
 * [chore: Add sharding to Github workflow](https://github.com/logos-co/nomos-e2e-tests/pull/16)
+* [fix: Padding error handling](https://github.com/logos-co/nomos-e2e-tests/pull/17)

@@ -113,7 +113,7 @@ Install generated certificate and use it in TCP/WS/WSSS/Quic/Webtransport
 #### Deliverables
 - Install certificate
 
-### Certificate renewaw
+### Certificate renewal
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:cert-renewal`
 * owner: gabriel

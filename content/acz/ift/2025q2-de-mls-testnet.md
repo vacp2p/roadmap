@@ -55,8 +55,8 @@ gain support from the Ethereum ecosystem.
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:test-deployment`
 * owner: Ekaterina
 * status: started (0%)
-* start-date: 2025/04/01
-* end-date: 2025/04/14
+* start-date: 2025/05/01
+* end-date: 2025/06/30
 
 #### Description
 
@@ -73,7 +73,7 @@ A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository with
 * owner: Ekaterina
 * status: started (70%)
 * start-date: 2025/04/01
-* end-date: 2025/04/21
+* end-date: 2025/05/30
 
 #### Description
 
@@ -123,8 +123,8 @@ This task also contains the integrating the consensus RFC.
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:ci-setup`
 * owner: Ekaterina
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/06/01
+* end-date: 2025/06/30
 
 #### Description
 
@@ -159,9 +159,9 @@ containing new consensus layer as separate module with tests.
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:commit-and-proposal`
 * owner: Ekaterina
-* status: not started 
+* status: started (5%)
 * start-date: 2025/05/05
-* end-date: 2025/05/12
+* end-date: 2025/05/23
 
 #### Description
 
@@ -177,9 +177,9 @@ updating the API for separate commit and proposal messages.
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:global-message-queue`
 * owner: Ekaterina
-* status: not started 
-* start-date: 
-* end-date: 
+* status: not started
+* start-date: 2025/05/19
+* end-date: 2025/05/30
 
 #### Description
 
@@ -197,9 +197,9 @@ containing update of message processing
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:frontend-updating`
 * owner: Ekaterina
-* status: not started 
-* start-date: 
-* end-date: 
+* status: started (5%)
+* start-date: 2025/05/01
+* end-date: 2025/06/30
 
 #### Description
 
@@ -216,9 +216,9 @@ containing new frontend.
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:wallet-based-register`
 * owner: Ekaterina
-* status: not started 
-* start-date: 
-* end-date: 
+* status: not started
+* start-date: 2025/06/01
+* end-date: 2025/06/30
 
 #### Description
 

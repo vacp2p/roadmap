@@ -117,7 +117,7 @@ ensuring improved performance and maintainability.
 The implementation should be submitted as a pull request to `zerokit` 
 and linked to the issue related to release v0.8.0.
 
-## Parallelization Feasibility Study For rln-wasm
+### Parallelization Feasibility Study For rln-wasm
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:parallel-computation-study`
 * owner: Vinh

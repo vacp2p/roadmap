@@ -25,7 +25,7 @@ During this quarter, we focus on a detailed evaluation of upcoming GossipSub pro
 
 * fully qualified name: `vac:p2p:ift:2025q2-gossipsub-perf-improvements:perf-comparison`
 * owner: farooq
-* status: 
+* status: 25%
 * start-date: 2025/04/01
 * end-date: 2025/05/15
 
@@ -61,7 +61,7 @@ The PoC implementation for GossipSubv1.4 is already complete. This work focuses 
 
 * fully qualified name: `vac:p2p:ift:2025q2-gossipsub-perf-improvements:community-engangement`
 * owner: farooq
-* status: 10%
+* status: 25%
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -80,7 +80,7 @@ Follow up GossipSub-related discussions on forums like Ethresearch, libp2p specs
 
 * fully qualified name: `vac:p2p:ift:2025q2-gossipsub-perf-improvements:nimbus-eth-shadow`
 * owner: farooq
-* status: 10%
+* status: 70%
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 

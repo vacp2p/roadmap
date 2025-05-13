@@ -39,11 +39,15 @@ for users looking to integrate RLN into their projects.
 ### Iden3 Witness Calculator Integration Review
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:iden3-witness-review`
 * owner: Sylvain
-* status: started (70%)
+* status: on-hold (70%)
 * start-date: 2025/04/01
 * end-date: 2025/04/07
 
 #### Description
+
+This task is on hold due to a blocker from Iden3. 
+Although we can move forward, the effort required doesn't justify it, 
+given the current low priority.
 
 The current implementation includes a modified version of the Iden3 witness calculator, 
 with changes specifically related to data types. This task involves:
@@ -64,7 +68,7 @@ A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) 
 ### RLN Execution Bottleneck Analysis
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:rln-execution-bottleneck`
 * owner: Sylvain
-* status: started (50%)
+* status: started (80%)
 * start-date: 2025/04/07
 * end-date: 2025/04/14
 
@@ -138,7 +142,7 @@ the possibility and necessity to use parallel computation.
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:merkle-tree-improvement`
 * owner: Vinh
-* status: not started
+* status: started (60%) 
 * start-date: 2025/04/21
 * end-date: 2025/05/09
 
@@ -164,7 +168,7 @@ and introducing parallel processing where appropriate.
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:semaphore-parts-bench`
 * owner: Ben
-* status: started (0%)
+* status: started (20%)
 * start-date: 2025/04/30
 * end-date: 2025/05/16
 

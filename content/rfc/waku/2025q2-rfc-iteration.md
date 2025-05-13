@@ -78,7 +78,7 @@ as well as any other outdated parts of the specification.
 - Fully qualified name:
   `vac:rfc:waku:2025q1-rfc-iteration:66/waku2-metadata`
 - Owner: cofson
-- Status: 95%
+- Status: 100% (https://github.com/vacp2p/rfc-index/pull/148)
 - Start date: 2025/04/04
 - End date: 2025/04/18
 
@@ -146,14 +146,14 @@ as well as any other outdated parts of the specification.
 - Fully qualified name:
   `vac:rfc:waku:2025q1-rfc-iteration:waku2-rln-contract`
 - Owner: jimstir
-- Status: 60%
+- Status: 100% (https://github.com/waku-org/specs/pull/62)
 - Start date: 2025/04/20
 - End date: 2025/05/05
 
 #### Description
 
 This document describes membership management
-within the RLN smart contract
+within the RLN smart contract.
 
 In this task, our focus will be on updating the relevant links, the codebase
 as well as any other outdated parts of the specification.
@@ -168,12 +168,17 @@ as well as any other outdated parts of the specification.
   `vac:rfc:waku:2025q1-rfc-iteration:waku2-enr`
 - Owner: jimstir
 - Status: 0%
-- Start date: 2025/04/20
-- End date: 2025/05/05
+- Start date: 2025/05/15
+- End date: 2025/05/25
 
 #### Description
 
+This RFC describes the usage of the ENR (Ethereum Node Records) format
+for [10/WAKU2](https://github.com/vacp2p/rfc-index/blob/main/waku/standards/core/10/waku2.md) purposes.
+The ENR format is defined in [EIP-778](https://eips.ethereum.org/EIPS/eip-778) [3](https://github.com/waku-org/specs/blob/master/standards/core/enr.md#references).
 
+In this task, our focus will be on updating the relevant links, the codebase
+as well as any other outdated parts of the specification.
 
 #### Deliverables
 
@@ -184,13 +189,20 @@ as well as any other outdated parts of the specification.
 - Fully qualified name:
   `vac:rfc:waku:2025q1-rfc-iteration:waku2-device-pairing`
 - Owner: jimstir
-- Status: 0%
-- Start date: 2025/04/20
-- End date: 2025/05/05
+- Status: 40%
+- Start date: 2025/05/09
+- End date: 2025/05/20
 
 #### Description
 
+In this document we describe a compound protocol
+for enabling two devices
+to mutually authenticate
+and securely exchange (arbitrary) information
+over the Waku network.
 
+In this task, our focus will be on updating the relevant links, the codebase
+as well as any other outdated parts of the specification.
 
 #### Deliverables
 

@@ -54,7 +54,7 @@ gain support from the Ethereum ecosystem.
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:test-deployment`
 * owner: Ekaterina
-* status: started (0%)
+* status: started (10%)
 * start-date: 2025/05/01
 * end-date: 2025/06/30
 
@@ -88,7 +88,7 @@ A blogpost to [vac.dev/rlog/](https://vac.dev/rlog/)
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:consensus-rfc`
 * owner: Ugur
-* status: started (50%)
+* status: started (80%)
 * start-date: 2025/04/01
 * end-date: 2025/04/14
 
@@ -99,13 +99,13 @@ RFC which is fast and efficient for p2p networks.
    
 #### Deliverables
 
-- A PR to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index) repo. 
+- [A PR](https://github.com/vacp2p/rfc-index/pull/142) to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index) repo. 
 
 ### Update de-MLS RFC with multi admins 
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:multi-admin-rfc`
 * owner: Ugur
-* status: not started
+* status: started (0%)
 * start-date: 2025/05/04
 * end-date: 2025/05/26
 

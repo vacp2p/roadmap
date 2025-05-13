@@ -58,7 +58,7 @@ Waku integration.
 
 * fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:dockerize`
 * owner: Akshaya
-* status: started (80%)
+* status: done
 * start-date: 2025/04/1
 * end-date: 2025/04/14
 
@@ -68,13 +68,13 @@ Dockerize the mixified gossipsub poc to be tested.
 
 #### Deliverables
 
-* PR to [vacp2p/mix](https://github.com/vacp2p/mix) repo.
+* [A branch](https://github.com/vacp2p/dst-gossipsub-test-node/tree/dockerized-mix-gossipsub-dockerfile-1) to [vacp2p/dst-gossipsub-test-node](https://github.com/vacp2p/dst-gossipsub-test-node/) repo.
 
 ### Delivering PoC 
 
 * fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:delivering-poc`
 * owner: Akshaya
-* status: started (50%)
+* status: done 
 * start-date: 2025/04/01
 * end-date: 2025/04/28
 
@@ -103,6 +103,23 @@ Updating the [mixnet RFC](https://rfc.vac.dev/vac/raw/mix) with latest findings 
 #### Deliverables
 
 * A PR to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index)
+
+### Nomos Comparison
+* fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:nomos-comparison`
+* owner: Akshaya
+* status: not started 
+* start-date: 2025/05/19
+* end-date: 2025/06/02
+
+#### Description
+
+A technical comparison between Nomos Blend Network and libp2p-mix, 
+aimed at identifying trade-offs in scalability, privacy, and protocol adaptability.
+
+#### Deliverables
+
+* A Notion page to [ACZ Notion page](https://www.notion.so/Applied-Cryptography-ZK-870520f131954b90b1837ec4749f890f?pvs=4#a9a753fd85614cca8f1ac6b7be033032)
+
 
 ### Consulting Waku-mix 
 

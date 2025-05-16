@@ -1217,6 +1217,9 @@
     <loc>https://roadmap.vac.dev/sc/ift/2025q1-security-audits</loc>
     <lastmod>2025-03-13T15:50:13.099Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/sc/ift/2025q2-fv-tools-research</loc>
+    <lastmod>2025-05-16T13:05:28.494Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/sc/ift/2025q2-sc-learnup-sessions</loc>
     <lastmod>2025-03-27T14:48:22.313Z</lastmod>
   </url><url>
@@ -1224,7 +1227,7 @@
     <lastmod>2025-03-27T14:48:22.313Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/</loc>
-    <lastmod>2025-04-07T14:33:58.377Z</lastmod>
+    <lastmod>2025-05-16T13:05:28.494Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/status/2024q4-staking-protocol-v1</loc>
     <lastmod>2025-03-06T14:58:09.990Z</lastmod>
@@ -1246,6 +1249,9 @@
   </url><url>
     <loc>https://roadmap.vac.dev/sc/status/2025q1-status-testnet-communities-contracts</loc>
     <lastmod>2025-03-13T15:50:13.099Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/sc/status/2025q2-karma-rln</loc>
+    <lastmod>2025-05-16T13:05:28.494Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/status/2025q2-maintaining-status-contracts</loc>
     <lastmod>2025-04-07T14:33:58.377Z</lastmod>

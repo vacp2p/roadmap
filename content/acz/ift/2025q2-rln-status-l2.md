@@ -62,4 +62,63 @@ with the existing infrastructure.
 
 #### Deliverables 
 
-* A document to notion page .
+* A document to ACZ notion page
+
+### Prover Service Development
+
+* fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:prover-service`
+* owner: Sylvain
+* status: started 
+* start-date: 2025/04/16
+* end-date: 2025/06/30
+
+### Description
+
+This task involves integrating RLN (Rate-Limiting Nullifier) into the Status L2 architecture, 
+with a focus on the prover component within the Linea network. 
+The goal is to ensure seamless deployment while aligning RLN functionality with the design requirements 
+of the target system and maintaining compatibility with the existing infrastructure.
+
+Key responsibilities include:
+- Managing the RLN deployment process within the Linea-based prover stack.
+- Implementing credential issuance and proof generation using the existing zerokit library.
+- Handling secret values securely and ensuring proper interaction with the RLN Membership Contract.
+- Provide information required to develop the Linea Sequencer plugin (performance & throughput).
+
+* A PR to the appropriate repository, including the RLN integration and all related components.
+
+### RPC Node Modification
+
+* fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:rpc-node-modification`
+* owner: Sylvain
+* status: started 
+* start-date: 2025/04/16
+* end-date: 2025/06/30
+
+### Description
+
+This task focuses on enhancing the interaction between RPC nodes and the Prover within the Linea network by:
+- Developing plugins for RPC nodes to forward transaction data directly to the Prover, 
+enabling more efficient proof generation.
+
+### Deliverables
+
+* A PR to the appropriate repository, implementing the RPC plugins and the modified `linea_estimateGas` logic.
+
+### Gas estimation RPC Modification
+
+* fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:gas-estimate-rpc-modification`
+* owner: Sylvain
+* status: started (0%)
+* start-date: 2025/04/16
+* end-date: 2025/06/30
+
+### Description
+
+This task focuses on enhancing the interaction between RPC nodes and the Prover within the Linea network by:
+- Modifying the `linea_estimateGas` method to dynamically adjust gas estimation based on Deny List queries,
+  improving accuracy and system responsiveness.
+
+### Deliverables
+
+* A PR to the appropriate repository, implementing the modified `linea_estimateGas` logic.

@@ -55,14 +55,12 @@ gain support from the Ethereum ecosystem.
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:test-deployment`
 * owner: Ekaterina
 * status: started (0%)
-* start-date: 2025/04/01
-* end-date: 2025/04/14
+* start-date: 2025/05/01
+* end-date: 2025/06/30
 
 #### Description
 
-Set up test deployment for the [de-MLS](https://github.com/vacp2p/de-mls) repository. 
-Docker containers have been made to run PoCs, 
-but they assume a single node operation and do not run nodes within themselves.
+Set up test deployment for the [de-MLS](https://github.com/vacp2p/de-mls) repository.
 
 #### Deliverables
 A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository with 
@@ -75,7 +73,7 @@ A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository with
 * owner: Ekaterina
 * status: started (70%)
 * start-date: 2025/04/01
-* end-date: 2025/04/21
+* end-date: 2025/05/30
 
 #### Description
 
@@ -120,33 +118,13 @@ This task also contains the integrating the consensus RFC.
 
 * PR to vacp2p/rfc-index repo with related updates. 
 
-### Extend API To Multiple Admin
-
-* fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:extend-api`
-* owner: Ekaterina
-* status: not started
-* start-date: 
-* end-date: 
-
-#### Description
-
-Expand the [de-MLS](https://github.com/vacp2p/de-mls) codebase by implementing multi-admin support. 
-In preparation for working with multiple admins, 
-extend API for the following processes: processing invitations to a group, applying commits, 
-and preparing a separate channel for exchanging messages between admins.  
-
-#### Deliverables
-
-A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository 
-updating the API for separate commit and proposal messages. 
-
 ### CI Setup
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:ci-setup`
 * owner: Ekaterina
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/06/01
+* end-date: 2025/06/30
 
 #### Description
 
@@ -157,3 +135,97 @@ including automated testing and code validation.
 A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository 
 with a new CI pipeline for the repository that includes the waku node.
 
+### Implement consesus layer
+
+* fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:consensus-layer`
+* owner: Ekaterina
+* status: not started 
+* start-date: 
+* end-date: 
+
+#### Description
+
+Implement a consensus mechanism for one admin based on RFC, i.e. 
+in the end we want to see a separate module 
+that will process all incoming proposals for group state changes 
+and receive a commit message as an output.
+
+#### Deliverables
+
+* A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) 
+containing new consensus layer as separate module with tests.
+
+### Separate commit and proposal messages inside app
+
+* fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:commit-and-proposal`
+* owner: Ekaterina
+* status: started (5%)
+* start-date: 2025/05/05
+* end-date: 2025/05/23
+
+#### Description
+
+Before integrating the consensus, it is necessary to split the process of applying new commits 
+into the corresponding proposal and commits for applying the group state update.  
+
+#### Deliverables
+
+* A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) 
+updating the API for separate commit and proposal messages.
+
+### Put all proposall message in one queue
+
+* fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:global-message-queue`
+* owner: Ekaterina
+* status: not started
+* start-date: 2025/05/19
+* end-date: 2025/05/30
+
+#### Description
+
+At the first stage of implementation we separated adding and messages
+ to a group and deleting from a group into different threads, 
+ we need one message queue to work with consensus.
+
+#### Deliverables
+
+* A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) 
+containing update of message processing  
+
+
+### Update frontend 
+
+* fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:frontend-updating`
+* owner: Ekaterina
+* status: started (5%)
+* start-date: 2025/05/01
+* end-date: 2025/06/30
+
+#### Description
+
+The current frontend is difficult to maintain and besides adding new functionality 
+for testing now requires a lot of effort.
+In addition, communication via websockets needs to be reconsidered in terms of efficiency 
+
+#### Deliverables
+
+* A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) 
+containing new frontend.
+
+### Integrate wallet based registration 
+
+* fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:wallet-based-register`
+* owner: Ekaterina
+* status: not started
+* start-date: 2025/06/01
+* end-date: 2025/06/30
+
+#### Description
+
+For the first version de-mls used a mock version for online registration, 
+now it makes sense to add wallet support for user authentication
+
+#### Deliverables
+
+* A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) 
+containing support of wallet as authentication part.

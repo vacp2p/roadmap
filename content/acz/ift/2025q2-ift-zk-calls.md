@@ -44,7 +44,7 @@ We will also strengthen the Premier Research Destination narrative by:
 * owner: Marvin
 * status: done
 * start-date: 2025/04/01
-* end-date: 2025/01/07
+* end-date: 2025/04/07
 
 #### Description
 
@@ -59,8 +59,8 @@ A recorded video.
 * fully qualified name: `vac:acz:ift:2025q2-ift-zk-calls:ift-zk-call-2`
 * owner: Marvin
 * status: not started
-* start-date: 2025/01/27
-* end-date: 2025/02/07
+* start-date: 2025/04/27
+* end-date: 2025/05/12
 
 #### Description
 Preparing the agenda and possible speakers for the ZK call on 6th May. 
@@ -73,8 +73,8 @@ A recorded video.
 * fully qualified name: `vac:acz:ift:2025q2-ift-zk-calls:ift-zk-call-3`
 * owner: Marvin
 * status: not started
-* start-date: 2025/03/31
-* end-date: 2025/03/14
+* start-date: 2025/05/31
+* end-date: 2025/06/14
 
 #### Description
 Preparing the agenda and possible speakers for the ZK call on 1st June. 

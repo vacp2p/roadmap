@@ -80,3 +80,44 @@ and ensure they don't happen again.
 * Report published with all relevant details
 * RFC's GitHub issue updated
   with links to the analysis and results.
+
+### Mix protocol analysis
+
+* fully qualified name: `vac:dst:vac:2025q2-libp2p-evaluation:mix-analysis`
+* owner: Alberto
+* status: 100%
+* start-date: 2025-05-12
+* end-date: 2025-05-16
+
+#### Description
+Make use of mix protocol in DST experiments.
+Make use of 500~ hundreds of nodes, where some (10~)
+of them are using mix protocol.
+Study it's behavior, as in message reliability is consistent,
+how much latency mix is adding in the network, calculate
+how much time a message takes to traverse te mixnet, and
+compare same scenario with and without using mix.
+
+#### Deliverables
+* Analysis done:
+  * [Notion: Mix analysis](https://www.notion.so/Nim-libp2p-Mix-May-2025-1f38f96fb65c800a8466f68472e799db)
+
+### Mix-gossipsub investigation
+
+* fully qualified name: `vac:dst:vac:2025q2-libp2p-evaluation:mix-gossipsub`
+* owner: Alberto
+* status: 0%
+* start-date: 2025-05-19
+* end-date: 2025-05-30
+
+#### Description
+Investigate mix behavior with gosspsipsub.
+Previous results shown that gossipsub instance within a node
+might not be getting triggered when a message takes the exit 
+route in the mix protocol. 
+Detect if this is an error from the analysis, or provide accurate 
+information as in the gossipsub instance is handling the message
+as it should.
+
+#### Deliverables
+* Analysis done:

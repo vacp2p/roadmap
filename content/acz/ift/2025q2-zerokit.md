@@ -12,6 +12,7 @@ description: "Maintaining and improving Zerokit, including the release of its ne
 `vac:acz:ift:2025q2-zerokit`
 
 Maintaining and improving Zerokit, including the release of its next version 
+
 ## Description
 
 This commitment entails developing and maintaining Zerokit including Zerokit v0.8.0 release 
@@ -22,7 +23,6 @@ based on the [issue #289](https://github.com/vacp2p/zerokit/issues/289).
 
 [Zerokit](https://github.com/vacp2p/zerokit) is a collection of Zero Knowledge modules that focus on RLN, 
 developed in Rust, intended for integration with various system programming environments.
-
 
 ### Narratives
 
@@ -37,6 +37,7 @@ for users looking to integrate RLN into their projects.
 ## Task List
 
 ### Iden3 Witness Calculator Integration Review
+
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:iden3-witness-review`
 * owner: Sylvain
 * status: on-hold (70%)
@@ -51,6 +52,7 @@ given the current low priority.
 
 The current implementation includes a modified version of the Iden3 witness calculator, 
 with changes specifically related to data types. This task involves:
+
 1. Verifying whether these modifications are truly necessary.
 2. Exploring the feasibility of using the original Iden3 repository as a submodule 
 instead of maintaining a separate modified version.
@@ -66,11 +68,12 @@ A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) 
 - Recommendation on whether to keep the modified version or use Iden3 as a submodule.
 
 ### RLN Execution Bottleneck Analysis
+
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:rln-execution-bottleneck`
 * owner: Sylvain
-* status: started (80%)
+* status: done
 * start-date: 2025/04/07
-* end-date: 2025/04/14
+* end-date: 2025/05/16
 
 #### Description 
 
@@ -101,13 +104,15 @@ A PR to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) incorporating the i
 - If applicable, improvements to the tree structure in Zerokit to enhance performance.
 
 ### Zerokit Wasm Implementation  
+
 * Fully qualified name: `vac:acz:ift:2025q2-zerokit:wasm-implementation`  
 * Owner: Vinh  
-* Status: started (80%) 
+* Status: done
 * Start date: 2025/03/31  
-* End date: 2025/04/14  
+* End date: 2025/05/16  
 
-#### Description  
+#### Description
+
 The zerokit RLN-Wasm module was originally built using Wasmer, 
 but it has proven difficult to maintain, slow, and inefficient for parallel computations. 
 This task focuses on comparing the existing Wasmer-based approach 
@@ -115,7 +120,8 @@ with an alternative implementation based on Iden3’s Wasm solution.
 The goal is to evaluate their performance, compatibility, and maintainability 
 to determine the best approach for zerokit.
 
-#### Deliverables  
+#### Deliverables
+
 A working implementation of the selected Wasm solution integrated into `zerokit`, 
 ensuring improved performance and maintainability. 
 The implementation should be submitted as a pull request to `zerokit` 
@@ -146,9 +152,9 @@ the possibility and necessity to use parallel computation.
 * start-date: 2025/04/21
 * end-date: 2025/05/09
 
-
 #### Description
-While working on `vac:acz:ift:2025q2-zerokit-v0.8.0:rln-execution-bottleneck`, 
+
+While working on `vac:acz:ift:2025q2-zerokit:rln-execution-bottleneck`, 
 we identified an inefficient algorithm used for updating the tree structure. 
 Although improvements were made, there's still potential for further optimization.
 
@@ -163,7 +169,7 @@ and introducing parallel processing where appropriate.
 
 * [A PR](https://github.com/vacp2p/zerokit/pull/306) to `zerokit` and linked to the issue related to release v0.8.0
 
-### Investigate Semaphore 
+### Investigate Semaphore
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:semaphore-parts-bench`
 * owner: Ben
@@ -206,6 +212,26 @@ in the Zerokit repository that includes:
 - A summary of findings, including whether it makes sense to proceed 
 with evaluating alternative zk-proof systems based on the current efficiency data
 
+### Abstract Error Handling in Zerokit
+
+* fully qualified name: `vac:acz:ift:2025q2-zerokit:error-abstraction`
+* owner: Sylvain
+* status: started
+* start-date: 2025/05/19
+* end-date: 2025/05/26
+
+#### Description
+
+Evaluate and potentially refactor the error handling in Zerokit to improve composability with other crates.
+The current use of `eyre` for error handling might not align with the preferences orinfrastructure of downstream users.
+As `zerokit` is designed to be a reusable crate,
+relying on a specific error type like `eyre::Report` may limit flexibility for consumers who prefer using `anyhow`,
+custom error types, or other error frameworks.
+
+#### Deliverables
+
+A PR to `zerokit` and linked to the issue related to release v0.8.0.
+
 ### Zerokit maintaining
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:zerokit-maintaining`
@@ -220,7 +246,8 @@ This task encompasses all maintenance updates for Zerokit, including CI updates 
 #### Deliverables
 A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/). 
 
-### Release v0.8
+### Release v0.8.0
+
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:release`
 * owner: Ekaterina
 * status: not started
@@ -228,7 +255,7 @@ A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/).
 * end-date: 2025/05/26
 
 #### Description
-The new version of the Zerokit v0.8.  
+The new version of the Zerokit v0.8.0
 
 #### Deliverables
 A set of PRs to vacp2p/zerokit repository with [tag v0.8.0](https://github.com/vacp2p/zerokit/releases/tag/v0.8.0)

@@ -125,7 +125,7 @@ and linked to the issue related to release v0.8.0.
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:parallel-computation-study`
 * owner: Vinh
-* status: started (40%) 
+* status: done
 * start-date: 2025/04/07
 * end-date: 2025/04/21
 
@@ -136,13 +136,13 @@ the possibility and necessity to use parallel computation.
 
 #### Deliverables
 
-* A PR to `zerokit` and linked to the issue related to release v0.8.0.
+* [A PR](https://github.com/vacp2p/zerokit/pull/296) to `zerokit` and linked to the issue related to release v0.8.0.
 
 ### Improve Computation In Merkle Tree  
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:merkle-tree-improvement`
 * owner: Vinh
-* status: started (60%) 
+* status: done
 * start-date: 2025/04/21
 * end-date: 2025/05/09
 
@@ -161,14 +161,14 @@ and introducing parallel processing where appropriate.
 
 #### Deliverables
 
-* A PR to `zerokit` and linked to the issue related to release v0.8.0.
+* [A PR](https://github.com/vacp2p/zerokit/pull/306) to `zerokit` and linked to the issue related to release v0.8.0.
 
 
 ### Investigate Semaphore 
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:semaphore-parts-bench`
 * owner: Ben
-* status: started (20%)
+* status: started (80%)
 * start-date: 2025/04/30
 * end-date: 2025/05/16
 
@@ -203,7 +203,7 @@ For context, see our previous investigation into Semaphore usage in Zerokit:
 Submit either a pull request or a comment on [this issue](https://github.com/vacp2p/zerokit/issues/17) 
 in the Zerokit repository that includes:
 
-- Benchmark results for both the Poseidon hash and the Merkle tree implementations
+- [Benchmark results](https://github.com/vacp2p/zerokit/issues/17#issuecomment-2884697352) for both the Poseidon hash and the Merkle tree implementations
 - A summary of findings, including whether it makes sense to proceed 
 with evaluating alternative zk-proof systems based on the current efficiency data
 

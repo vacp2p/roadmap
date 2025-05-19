@@ -46,7 +46,7 @@ reinforcing cross project collaboration.
 * owner: Pearson
 * status: 0%
 * start-date: 2025/05/12
-* end-date: 2025/05/23
+* end-date: 2025/05/30
 
 #### Description
 Design and code an initial structure to create deployments in a Kubernetes environment with Python.

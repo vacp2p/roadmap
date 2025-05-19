@@ -20,10 +20,15 @@ These tools can be composed of utilities for Kubernetes,
 or any other kind that fits the necessities of DST and other projects.
 As projects might share common necessities, this tasks will be considered
 as a scaffold for DST tools, adapting the tools for each project if it needs.
-Among tools that can be useful, we consider deployment utilities
-to facilitate the launch of experiments, general log parser for
-project analysis, and any other kind of utilities that may
-appear depending on the needs of the projects.
+The primary focus will be on creating a Kubernetes-based deployment utility 
+to simplify and standardize the process of launching experiments in 
+a distributed environment. This tool will aim to reduce manual setup 
+time and ensure consistency across different test scenarios.
+In addition, we will develop a general-purpose log parser capable
+of extracting and structuring logs in a way that supports analysis
+and debugging across DST initiatives. This parser will help streamline
+workflows for developers and researchers by making log data more 
+accessible and actionable.
 
 ### Background
 

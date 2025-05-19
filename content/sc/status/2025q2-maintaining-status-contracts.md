@@ -29,4 +29,4 @@ such as:
 
 There are no concrete tasks associated to this commitment.
 As requests come in,
-they will be addressed by oour team.
+they will be addressed by our team.

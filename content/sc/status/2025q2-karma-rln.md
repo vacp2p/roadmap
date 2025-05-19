@@ -24,7 +24,6 @@ In addition,
 there has to be a function to slash users.
 In order to retrieve the available tiers,
 another contract has to be deployed that provides the necessary data.
-will ensure that 
 
 ## Task List
 
@@ -72,7 +71,7 @@ It should also be possible to add new tiers.
 
 ### Implement KarmaRLN contract
 
-* fully qualified name: `2025q2-karma-rln:karma-tiers`
+* fully qualified name: `2025q2-karma-rln:implementation`
 * owner: Ricardo
 * status: not started
 * start-date: 2025/05/21

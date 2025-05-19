@@ -52,9 +52,9 @@ instead of maintaining a separate modified version.</li>
 <ul>
 <li>fully qualified name: <code>vac:acz:ift:2025q2-zerokit:rln-execution-bottleneck</code></li>
 <li>owner: Sylvain</li>
-<li>status: started (80%)</li>
+<li>status: done</li>
 <li>start-date: 2025/04/07</li>
-<li>end-date: 2025/04/14</li>
+<li>end-date: 2025/05/16</li>
 </ul>
 <h4 id="description-2">Description<a aria-hidden="true" tabindex="-1" href="#description-2" class="internal"> §</a></h4>
 <p>There is an issue with the execution time of RLN operations.
@@ -84,9 +84,9 @@ We need to Investigate why <code>atomic_write</code> takes so long and whether i
 <ul>
 <li>Fully qualified name: <code>vac:acz:ift:2025q2-zerokit:wasm-implementation</code></li>
 <li>Owner: Vinh</li>
-<li>Status: started (80%)</li>
+<li>Status: done</li>
 <li>Start date: 2025/03/31</li>
-<li>End date: 2025/04/14</li>
+<li>End date: 2025/05/16</li>
 </ul>
 <h4 id="description-3">Description<a aria-hidden="true" tabindex="-1" href="#description-3" class="internal"> §</a></h4>
 <p>The zerokit RLN-Wasm module was originally built using Wasmer,
@@ -124,7 +124,7 @@ the possibility and necessity to use parallel computation.</p>
 <li>end-date: 2025/05/09</li>
 </ul>
 <h4 id="description-5">Description<a aria-hidden="true" tabindex="-1" href="#description-5" class="internal"> §</a></h4>
-<p>While working on <code>vac:acz:ift:2025q2-zerokit-v0.8.0:rln-execution-bottleneck</code>,
+<p>While working on <code>vac:acz:ift:2025q2-zerokit:rln-execution-bottleneck</code>,
 we identified an inefficient algorithm used for updating the tree structure.
 Although improvements were made, there’s still potential for further optimization.</p>
 <p>One promising approach is to update the hashes incrementally during tree updates,
@@ -187,6 +187,22 @@ in the Zerokit repository that includes:</p>
 <li>A summary of findings, including whether it makes sense to proceed
 with evaluating alternative zk-proof systems based on the current efficiency data</li>
 </ul>
+<h3 id="abstract-error-handling-in-zerokit">Abstract Error Handling in Zerokit<a aria-hidden="true" tabindex="-1" href="#abstract-error-handling-in-zerokit" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>vac:acz:ift:2025q2-zerokit:error-abstraction</code></li>
+<li>owner: Sylvain</li>
+<li>status: started</li>
+<li>start-date: 2025/05/19</li>
+<li>end-date: 2025/05/26</li>
+</ul>
+<h4 id="description-7">Description<a aria-hidden="true" tabindex="-1" href="#description-7" class="internal"> §</a></h4>
+<p>Evaluate and potentially refactor the error handling in Zerokit to improve composability with other crates.
+The current use of <code>eyre</code> for error handling might not align with the preferences orinfrastructure of downstream users.
+As <code>zerokit</code> is designed to be a reusable crate,
+relying on a specific error type like <code>eyre::Report</code> may limit flexibility for consumers who prefer using <code>anyhow</code>,
+custom error types, or other error frameworks.</p>
+<h4 id="deliverables-6">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-6" class="internal"> §</a></h4>
+<p>A PR to <code>zerokit</code> and linked to the issue related to release v0.8.0.</p>
 <h3 id="zerokit-maintaining">Zerokit maintaining<a aria-hidden="true" tabindex="-1" href="#zerokit-maintaining" class="internal"> §</a></h3>
 <ul>
 <li>fully qualified name: <code>vac:acz:ift:2025q2-zerokit:zerokit-maintaining</code></li>
@@ -195,11 +211,11 @@ with evaluating alternative zk-proof systems based on the current efficiency dat
 <li>start-date: 2025/04/01</li>
 <li>end-date: 2025/05/30</li>
 </ul>
-<h4 id="description-7">Description<a aria-hidden="true" tabindex="-1" href="#description-7" class="internal"> §</a></h4>
+<h4 id="description-8">Description<a aria-hidden="true" tabindex="-1" href="#description-8" class="internal"> §</a></h4>
 <p>This task encompasses all maintenance updates for Zerokit, including CI updates and the creation of future issues.</p>
-<h4 id="deliverables-6">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-6" class="internal"> §</a></h4>
+<h4 id="deliverables-7">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-7" class="internal"> §</a></h4>
 <p>A set of PRs and issues to <a href="https://github.com/vacp2p/zerokit/" class="external">vacp2p/zerokit</a>.</p>
-<h3 id="release-v08">Release v0.8<a aria-hidden="true" tabindex="-1" href="#release-v08" class="internal"> §</a></h3>
+<h3 id="release-v080">Release v0.8.0<a aria-hidden="true" tabindex="-1" href="#release-v080" class="internal"> §</a></h3>
 <ul>
 <li>fully qualified name: <code>vac:acz:ift:2025q2-zerokit:release</code></li>
 <li>owner: Ekaterina</li>
@@ -207,9 +223,9 @@ with evaluating alternative zk-proof systems based on the current efficiency dat
 <li>start-date: 2025/05/12</li>
 <li>end-date: 2025/05/26</li>
 </ul>
-<h4 id="description-8">Description<a aria-hidden="true" tabindex="-1" href="#description-8" class="internal"> §</a></h4>
-<p>The new version of the Zerokit v0.8.</p>
-<h4 id="deliverables-7">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-7" class="internal"> §</a></h4>
+<h4 id="description-9">Description<a aria-hidden="true" tabindex="-1" href="#description-9" class="internal"> §</a></h4>
+<p>The new version of the Zerokit v0.8.0</p>
+<h4 id="deliverables-8">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-8" class="internal"> §</a></h4>
 <p>A set of PRs to vacp2p/zerokit repository with <a href="https://github.com/vacp2p/zerokit/releases/tag/v0.8.0" class="external">tag v0.8.0</a></p></article></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
 	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
 	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
@@ -220,7 +236,7 @@ with evaluating alternative zk-proof systems based on the current efficiency dat
 	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
 	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
 	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
-	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#description" data-for="description">Description</a></li><li class="depth-1"><a href="#background" data-for="background">Background</a></li><li class="depth-1"><a href="#narratives" data-for="narratives">Narratives</a></li><li class="depth-0"><a href="#task-list" data-for="task-list">Task List</a></li><li class="depth-1"><a href="#iden3-witness-calculator-integration-review" data-for="iden3-witness-calculator-integration-review">Iden3 Witness Calculator Integration Review</a></li><li class="depth-1"><a href="#rln-execution-bottleneck-analysis" data-for="rln-execution-bottleneck-analysis">RLN Execution Bottleneck Analysis</a></li><li class="depth-1"><a href="#zerokit-wasm-implementation" data-for="zerokit-wasm-implementation">Zerokit Wasm Implementation</a></li><li class="depth-1"><a href="#parallelization-feasibility-study-for-rln-wasm" data-for="parallelization-feasibility-study-for-rln-wasm">Parallelization Feasibility Study For rln-wasm</a></li><li class="depth-1"><a href="#improve-computation-in-merkle-tree" data-for="improve-computation-in-merkle-tree">Improve Computation In Merkle Tree</a></li><li class="depth-1"><a href="#investigate-semaphore" data-for="investigate-semaphore">Investigate Semaphore</a></li><li class="depth-1"><a href="#description-1" data-for="description-1">Description</a></li><li class="depth-1"><a href="#deliverables" data-for="deliverables">Deliverables</a></li><li class="depth-1"><a href="#zerokit-maintaining" data-for="zerokit-maintaining">Zerokit maintaining</a></li><li class="depth-1"><a href="#release-v08" data-for="release-v08">Release v0.8</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li><a href="../../acz/" class="internal">Applied Cryptography and Zero-knowledge Service Unit</a></li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.1.0</a>, © 2025</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#description" data-for="description">Description</a></li><li class="depth-1"><a href="#background" data-for="background">Background</a></li><li class="depth-1"><a href="#narratives" data-for="narratives">Narratives</a></li><li class="depth-0"><a href="#task-list" data-for="task-list">Task List</a></li><li class="depth-1"><a href="#iden3-witness-calculator-integration-review" data-for="iden3-witness-calculator-integration-review">Iden3 Witness Calculator Integration Review</a></li><li class="depth-1"><a href="#rln-execution-bottleneck-analysis" data-for="rln-execution-bottleneck-analysis">RLN Execution Bottleneck Analysis</a></li><li class="depth-1"><a href="#zerokit-wasm-implementation" data-for="zerokit-wasm-implementation">Zerokit Wasm Implementation</a></li><li class="depth-1"><a href="#parallelization-feasibility-study-for-rln-wasm" data-for="parallelization-feasibility-study-for-rln-wasm">Parallelization Feasibility Study For rln-wasm</a></li><li class="depth-1"><a href="#improve-computation-in-merkle-tree" data-for="improve-computation-in-merkle-tree">Improve Computation In Merkle Tree</a></li><li class="depth-1"><a href="#investigate-semaphore" data-for="investigate-semaphore">Investigate Semaphore</a></li><li class="depth-1"><a href="#description-1" data-for="description-1">Description</a></li><li class="depth-1"><a href="#deliverables" data-for="deliverables">Deliverables</a></li><li class="depth-1"><a href="#abstract-error-handling-in-zerokit" data-for="abstract-error-handling-in-zerokit">Abstract Error Handling in Zerokit</a></li><li class="depth-1"><a href="#zerokit-maintaining" data-for="zerokit-maintaining">Zerokit maintaining</a></li><li class="depth-1"><a href="#release-v080" data-for="release-v080">Release v0.8.0</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li><a href="../../acz/" class="internal">Applied Cryptography and Zero-knowledge Service Unit</a></li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.1.0</a>, © 2025</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
 function toggleCallout() {
   const outerBlock = this.parentElement;
   outerBlock.classList.toggle(`is-collapsed`);

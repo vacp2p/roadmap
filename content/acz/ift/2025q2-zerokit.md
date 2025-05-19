@@ -39,11 +39,15 @@ for users looking to integrate RLN into their projects.
 ### Iden3 Witness Calculator Integration Review
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:iden3-witness-review`
 * owner: Sylvain
-* status: started (70%)
+* status: on-hold (70%)
 * start-date: 2025/04/01
 * end-date: 2025/04/07
 
 #### Description
+
+This task is on hold due to a blocker from Iden3. 
+Although we can move forward, the effort required doesn't justify it, 
+given the current low priority.
 
 The current implementation includes a modified version of the Iden3 witness calculator, 
 with changes specifically related to data types. This task involves:
@@ -64,7 +68,7 @@ A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) 
 ### RLN Execution Bottleneck Analysis
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:rln-execution-bottleneck`
 * owner: Sylvain
-* status: started (50%)
+* status: started (80%)
 * start-date: 2025/04/07
 * end-date: 2025/04/14
 
@@ -121,7 +125,7 @@ and linked to the issue related to release v0.8.0.
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:parallel-computation-study`
 * owner: Vinh
-* status: started (40%) 
+* status: done
 * start-date: 2025/04/07
 * end-date: 2025/04/21
 
@@ -132,13 +136,13 @@ the possibility and necessity to use parallel computation.
 
 #### Deliverables
 
-* A PR to `zerokit` and linked to the issue related to release v0.8.0.
+* [A PR](https://github.com/vacp2p/zerokit/pull/296) to `zerokit` and linked to the issue related to release v0.8.0.
 
 ### Improve Computation In Merkle Tree  
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:merkle-tree-improvement`
 * owner: Vinh
-* status: not started
+* status: done
 * start-date: 2025/04/21
 * end-date: 2025/05/09
 
@@ -157,14 +161,13 @@ and introducing parallel processing where appropriate.
 
 #### Deliverables
 
-* A PR to `zerokit` and linked to the issue related to release v0.8.0.
-
+* [A PR](https://github.com/vacp2p/zerokit/pull/306) to `zerokit` and linked to the issue related to release v0.8.0
 
 ### Investigate Semaphore 
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:semaphore-parts-bench`
 * owner: Ben
-* status: started (0%)
+* status: started (80%)
 * start-date: 2025/04/30
 * end-date: 2025/05/16
 
@@ -199,7 +202,7 @@ For context, see our previous investigation into Semaphore usage in Zerokit:
 Submit either a pull request or a comment on [this issue](https://github.com/vacp2p/zerokit/issues/17) 
 in the Zerokit repository that includes:
 
-- Benchmark results for both the Poseidon hash and the Merkle tree implementations
+- [Benchmark results](https://github.com/vacp2p/zerokit/issues/17#issuecomment-2884697352) for both the Poseidon hash and the Merkle tree implementations
 - A summary of findings, including whether it makes sense to proceed 
 with evaluating alternative zk-proof systems based on the current efficiency data
 

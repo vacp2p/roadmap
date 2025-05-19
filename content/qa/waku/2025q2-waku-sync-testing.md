@@ -29,7 +29,7 @@ and integration testing involving multi-peer synchronization, message archival, 
 
 * fully qualified name: `vac:qa:waku:2025q2-waku-sync-testing:unit`
 * owner: aya
-* status: in progress(15%)
+* status: in progress(40%)
 * start-date: 2025/04/08
 * end-date: 2025/04/28
 
@@ -46,11 +46,8 @@ These tests aim to validate internal mechanics such as:
 - Sync termination conditions
 
 #### Deliverables
-- Prepared [sheet](https://docs.google.com/spreadsheets/d/1Qj5LMyWR-ILA2wqd4eGe7j_V311QonZJ0LqnaWAJxMM/edit?gid=293767216#gid=293767216)  with missing coverage for unit test and review it with Simon 
-- Add new tests to [PR](https://github.com/waku-org/nwaku/pull/3372)
-- Worked on compilation errors at existing tests that block execution 
-
----
+- Prepared [sheet](https://docs.google.com/spreadsheets/d/1Qj5LMyWR-ILA2wqd4eGe7j_V311QonZJ0LqnaWAJxMM/edit?gid=293767216#gid=293767216)  with missing coverage for unit tests  
+- [test: Add comprehensive reconciliation unit-tests for Waku Store Sync](https://github.com/waku-org/nwaku/pull/3388)
 
 ### Waku Sync Integration Testing
 

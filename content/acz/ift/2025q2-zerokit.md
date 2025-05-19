@@ -161,8 +161,7 @@ and introducing parallel processing where appropriate.
 
 #### Deliverables
 
-* [A PR](https://github.com/vacp2p/zerokit/pull/306) to `zerokit` and linked to the issue related to release v0.8.0.
-
+* [A PR](https://github.com/vacp2p/zerokit/pull/306) to `zerokit` and linked to the issue related to release v0.8.0
 
 ### Investigate Semaphore 
 

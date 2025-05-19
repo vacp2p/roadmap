@@ -19,6 +19,12 @@ tags:
 - [[rfc/nomos/2025q2-raw-rfcs-support-data-availability|2025q2-raw-rfcs-support-data-availability]]
 - [[rfc/nomos/2025q2-rfc-iteration|2025q2-rfc-iteration]]
 
+### `codex:`
+- [[rfc/codex/2025q2-rfc-iteration|2025q2-rfc-iteration]]
+
+### `nescience:`
+- [[rfc/nescience/2025q2-rfc-iteration|2025q2-rfc-iteration]]
+
 
 ---
 

@@ -42,7 +42,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
  Fully qualified name: 
   `vac:rfc:nomos:2025q2-rfc-iteration-choosing-new-rfcs`
 - Owner: cofson
-- Status: not started
+- Status: 45%
 - Start date: 2025/04/01
 - End date: 2025/06/30
 
@@ -51,3 +51,30 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 This task revolves around staying up to date with the Nomos documentation.
 closely following which specifications are in "green" status
 and thus ready for being included in the rfc-index.
+
+### Service Declaration Protocol (SDP)
+
+- Fully qualified name:
+  `vac:rfc:nomos:2025q2-rfc-iteration:30/adaptive-nodes`
+- Owner: cofson
+- Status: 45%
+- Start date: 2025/05/04
+- End date: 2025/04/21
+
+### NomosDA Encoding
+
+- Fully qualified name:
+  `vac:rfc:nomos:2025q2-rfc-iteration:nomosda-encoding`
+- Owner: cofson
+- Status: 45%
+- Start date: 2025/05/04
+- End date: 2025/04/21
+
+### NomosDA Network
+
+- Fully qualified name:
+  `vac:rfc:nomos:2025q2-rfc-iteration:nomosda-network`
+- Owner: cofson
+- Status: not started
+- Start date: 2025/05/04
+- End date: 2025/04/21

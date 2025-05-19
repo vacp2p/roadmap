@@ -4,7 +4,7 @@ title: nim-libp2p Test Coverage
 tags:
   - "2025q2"
   - "p2p"
-  - "ift"
+  - "vac"
 draft: false
 description: nim-libp2p Test Coverage
 
@@ -48,9 +48,9 @@ scenarios via specifying arguments/flags:
 ### QA Consulting over test coverage
 
 * fully qualified name: `vac:p2p:vac:2025q2-test-coverage:qa-consulting`
-* owner:
-* status: not started
-* start-date:
+* owner: vlado
+* status: ongoing
+* start-date: 2025-04-01
 * end-date: 
 
 P2P provides consulting and support to QA by addressing queries, reviewing, formulating and designing strategies to test 

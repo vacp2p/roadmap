@@ -120,7 +120,6 @@ aimed at identifying trade-offs in scalability, privacy, and protocol adaptabili
 
 * A Notion page to [ACZ Notion page](https://www.notion.so/Applied-Cryptography-ZK-870520f131954b90b1837ec4749f890f?pvs=4#a9a753fd85614cca8f1ac6b7be033032)
 
-
 ### Consulting Waku-mix 
 
 * fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:consulting-waku-mix`

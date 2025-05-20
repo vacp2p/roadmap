@@ -12,6 +12,7 @@ title: Vac Roadmap
 - `sc:` [[sc|Smart Contracts]]
 - `nim:` [[nim|Nim]]
 - `rfc:` [[rfc|RFC (Specifications)]] 
+- `sec:` [[sec|Security]]
 
 ## Incubator Projects
 

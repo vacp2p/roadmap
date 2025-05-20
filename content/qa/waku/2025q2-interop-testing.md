@@ -26,7 +26,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:waku:2025q2-interop-testing:maintenance`
 * owner: fbarbu15
-* status: in progress (30%)
+* status: in progress (40%)
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -36,9 +36,10 @@ This includes updating tests for changes in `nwaku`,  `gowaku` or `js-waku`, add
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
-- Updated tests to no longer use [deprecated pubsub flag](https://github.com/waku-org/waku-interop-tests/pull/111)
-- Enabled [RLN tests](https://github.com/waku-org/waku-interop-tests/pull/112)
+- [Updated tests to no longer use deprecated pubsub flag](https://github.com/waku-org/waku-interop-tests/pull/111)
+- [Enabled RLN tests](https://github.com/waku-org/waku-interop-tests/pull/112)
 - [chore: add reconciliation metrics](https://github.com/waku-org/waku-interop-tests/pull/113)
+- [test: Many tests fail on CI related to topics supscribtion](https://github.com/waku-org/nwaku/issues/3414)
 
 
 ### js-waku filter hardening

@@ -1083,7 +1083,7 @@
     <lastmod>2025-05-12T14:18:57.831Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/</loc>
-    <lastmod>2025-04-15T14:26:14.422Z</lastmod>
+    <lastmod>2025-05-20T15:25:09.188Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/nomos/2024q4-da-testing</loc>
     <lastmod>2025-03-06T14:58:09.990Z</lastmod>
@@ -1093,6 +1093,9 @@
   </url><url>
     <loc>https://roadmap.vac.dev/qa/nomos/2025q2-e2e-testing</loc>
     <lastmod>2025-05-12T14:18:57.831Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/qa/status/2025q2-status-qa</loc>
+    <lastmod>2025-05-20T15:25:09.188Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/vac/2024q4-nim-libp2p-testing</loc>
     <lastmod>2025-03-06T14:58:09.990Z</lastmod>

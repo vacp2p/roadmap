@@ -21,7 +21,6 @@ title: Vac Roadmap
 ## Progress Updates
 - [weekly updates](tags/vac-updates)
 - [monthly reports](tags/vac-monthly)
-- [quarterly retrospects](tags/vac-retrospect)
 
 ## Vac Narratives
 

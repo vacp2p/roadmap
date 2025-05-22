@@ -25,7 +25,7 @@ During this quarter, we focus on a detailed evaluation of upcoming GossipSub pro
 
 * fully qualified name: `vac:p2p:ift:2025q2-gossipsub-perf-improvements:perf-comparison`
 * owner: farooq
-* status: 25%
+* status: 60%
 * start-date: 2025/04/01
 * end-date: 2025/05/15
 

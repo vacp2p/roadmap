@@ -37,7 +37,7 @@ Implement Kademlia’s XOR-based routing table with bucket management. Define RP
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-kad-dht:bootstraping-and-lookup`
 * owner: rramos
-* status: 15%
+* status: 25%
 * start-date: 2025-05-05
 * end-date:
 

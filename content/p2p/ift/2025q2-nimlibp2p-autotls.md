@@ -25,7 +25,7 @@ This task is limited to the client functionality; Server functionality could be 
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:acme-registration`
 * owner: gabriel
-* status: 25%
+* status: 90%
 * start-date: 2025-04-14
 * end-date:
 
@@ -40,7 +40,7 @@ Register new account on ACME server
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:certificate-request-challenge`
 * owner: gabriel
-* status: 25%
+* status: 90%
 * start-date: 2025-04-14
 * end-date:
 
@@ -55,7 +55,7 @@ Request challenge from the ACME server (typically Let's Encrypt)
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:notify-autotls-broker`
 * owner: gabriel
-* status: 25%
+* status: 75%
 * start-date: 2025-04-14
 * end-date:
 
@@ -72,7 +72,7 @@ Send DNS-01 challenge received from ACME server to the AutoTLS broker (registrat
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:notify-challenge-completion`
 * owner: gabriel
-* status: 25%
+* status: 75%
 * start-date: 2025-04-14
 * end-date:
 
@@ -87,7 +87,7 @@ Notify the ACME server that we're done with DNS-01 challenge
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:finalize-cert`
 * owner: gabriel
-* status: 25%
+* status: 75%
 * start-date: 2025-04-14
 * end-date:
 

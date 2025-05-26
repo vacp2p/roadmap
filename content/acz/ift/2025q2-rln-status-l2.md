@@ -48,7 +48,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:maintain`
 * owner: Ugur
-* status: started (5%)
+* status: started (60%)
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -123,3 +123,20 @@ This task focuses on enhancing the interaction between RPC nodes and the Prover 
 ### Deliverables
 
 * A PR to the appropriate repository, implementing the modified `linea_estimateGas` logic.
+
+### RLN Specification
+
+* fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:rln-spec`
+* owner: Ugur
+* status: started (10%)
+* start-date: 2025/05/20
+* end-date: 2025/06/10
+
+### Description
+
+This task focuses on creating a specification of RLN deployment to the Status L2 network, 
+including prover, verifier, contracts, and deny list implementation specification.
+
+### Deliverables
+
+* A Notion doc document that has implementation details.   

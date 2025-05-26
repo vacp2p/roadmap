@@ -70,3 +70,25 @@ If possible, adapt this to be able to run it from inside and outside the cluster
 - PRs:
   - [Github: Draft PR](https://github.com/vacp2p/10ksim/pull/68)
 - Related Documents:
+
+### Analysis refactor
+
+* fully qualified name: `vac:dst:ift:2025q2-dst-tooling:analysis-refactor`
+* owner: Alberto
+* status: 30%
+* start-date: 2025/05/20
+* end-date: 2025/06/06
+
+#### Description
+In order to have a more extensible codebase, refactor the analysis part of the DST analysis
+codebase to improve modularity and reusability. Remove code that is tightly coupled 
+(Waku-Victoria, Victoria-Vaclab). Allow to switch between monitoring stacks easily, while maintaining
+cross-project functionality as independent as possible. Allow new functionality regarding other 
+project analysis to be integrated seamlessly.
+Also provide examples of usage, and documentation.
+
+
+#### Deliverables
+- PRs:
+  - [Github: Draft PR](https://github.com/vacp2p/10ksim/pull/66)
+- Related Documents:

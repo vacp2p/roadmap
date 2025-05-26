@@ -159,9 +159,9 @@ containing new consensus layer as separate module with tests.
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:commit-and-proposal`
 * owner: Ekaterina
-* status: started (5%)
+* status: started (10%)
 * start-date: 2025/05/05
-* end-date: 2025/05/23
+* end-date: 2025/06/06
 
 #### Description
 

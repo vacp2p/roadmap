@@ -49,7 +49,7 @@ reinforcing cross project collaboration.
 
 * fully qualified name: `vac:dst:ift:2025q2-dst-tooling:python-deployment-scaffold`
 * owner: Pearson
-* status: 0%
+* status: 60%
 * start-date: 2025/05/12
 * end-date: 2025/05/30
 
@@ -68,4 +68,5 @@ If possible, adapt this to be able to run it from inside and outside the cluster
 
 #### Deliverables
 - PRs:
+  - [Github: Draft PR](https://github.com/vacp2p/10ksim/pull/68)
 - Related Documents:

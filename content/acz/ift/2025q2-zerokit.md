@@ -247,14 +247,14 @@ The goal is to highlight and explain the motivation, architectural changes, perf
 and developer-facing differences introduced during the refactor.
 This post will help the community understand the rationale and value of the new approach.
 
-The blog post should be informed by the discussion and comments from Vinh and Sylvain in zerokit issue #289.
+The blog post should be informed by the discussion and comments from Vinh and Sylvain in zerokit issue [#289.](https://github.com/vacp2p/zerokit/issues/289)
 It should make technical concepts accessible and provide examples or diagrams where appropriate to illustrate key points.
 
 #### Deliverables
 
 - Outline of blog post structure (sections, key topics).
 - Analysis of changes between v0.7.0 and the upcoming version, focused on tree implementations.
-- Integration of relevant insights and explanations from Vinh and Sylvain’s comments in issue #289.
+- Integration of relevant insights and explanations from Vinh and Sylvain’s comments in issue [#289.](https://github.com/vacp2p/zerokit/issues/289)
 - Complete draft of the blog post.
 - Final review and publication on the VAC or Waku blog.
 

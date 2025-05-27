@@ -68,7 +68,7 @@ with the existing infrastructure.
 
 * fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:prover-service`
 * owner: Sylvain
-* status: started (10%)
+* status: started (30%)
 * start-date: 2025/04/16
 * end-date: 2025/06/30
 
@@ -92,7 +92,7 @@ Key responsibilities include:
 * fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:rpc-node-modification`
 
 * owner: Vinh
-* status: started (0%)
+* status: started (20%)
 * start-date: 2025/04/16
 * end-date: 2025/06/30
 

@@ -59,7 +59,8 @@ Focus: clean up `nim-libp2p` PRs and issues related to `GossipSub` tests which w
 - [test(gossipsub): optimise heartbeat interval and sleepAsync](https://github.com/vacp2p/nim-libp2p/pull/1342)
 - [test(gossipsub): reorganize tests by feature category](https://github.com/vacp2p/nim-libp2p/pull/1350)
 - [test(gossipsub): control message](https://github.com/vacp2p/nim-libp2p/pull/1191)
-- [test(gossipsub): Topic Membership Tests](https://github.com/vacp2p/nim-libp2p/pull/1201) - closed, but extracted some of tests into [test(gossipsub): Topic Membership Tests - updated](https://github.com/vacp2p/nim-libp2p/pull/1363)
+- [test(gossipsub): Topic Membership Tests](https://github.com/vacp2p/nim-libp2p/pull/1201) 
+- [test(gossipsub): Topic Membership Tests - updated](https://github.com/vacp2p/nim-libp2p/pull/1363)
 - [test(gossipsub): refactor testgossipinternal](https://github.com/vacp2p/nim-libp2p/pull/1366) - which closed an issue [Improve testgossipinternal file](https://github.com/vacp2p/nim-libp2p/issues/1207)
 - [test(gossipsub): block5 protobuf test cases](https://github.com/vacp2p/nim-libp2p/pull/1204) - and closed an issue [Protobuf encoding & decoding not compatible with different references](https://github.com/vacp2p/nim-libp2p/issues/1208)
 

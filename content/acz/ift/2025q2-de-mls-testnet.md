@@ -71,7 +71,7 @@ A PR to the [de-MLS](https://github.com/vacp2p/de-mls) repository with
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:blogpost-de-mls-over-waku`
 * owner: Ekaterina
-* status: started (70%)
+* status: started (85%)
 * start-date: 2025/04/01
 * end-date: 2025/05/30
 
@@ -88,7 +88,7 @@ A blogpost to [vac.dev/rlog/](https://vac.dev/rlog/)
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:consensus-rfc`
 * owner: Ugur
-* status: started (80%)
+* status: started (85%)
 * start-date: 2025/04/01
 * end-date: 2025/04/14
 
@@ -105,7 +105,7 @@ RFC which is fast and efficient for p2p networks.
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:multi-admin-rfc`
 * owner: Ugur
-* status: started (0%)
+* status: started (20%)
 * start-date: 2025/05/04
 * end-date: 2025/05/26
 
@@ -159,9 +159,9 @@ containing new consensus layer as separate module with tests.
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:commit-and-proposal`
 * owner: Ekaterina
-* status: started (5%)
+* status: started (10%)
 * start-date: 2025/05/05
-* end-date: 2025/05/23
+* end-date: 2025/06/06
 
 #### Description
 

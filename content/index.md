@@ -12,6 +12,7 @@ title: Vac Roadmap
 - `sc:` [[sc|Smart Contracts]]
 - `nim:` [[nim|Nim]]
 - `rfc:` [[rfc|RFC (Specifications)]] 
+- `sec:` [[sec|Security]]
 
 ## Incubator Projects
 
@@ -20,7 +21,6 @@ title: Vac Roadmap
 ## Progress Updates
 - [weekly updates](tags/vac-updates)
 - [monthly reports](tags/vac-monthly)
-- [quarterly retrospects](tags/vac-retrospect)
 
 ## Vac Narratives
 

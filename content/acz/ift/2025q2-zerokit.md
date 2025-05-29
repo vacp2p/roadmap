@@ -97,7 +97,7 @@ We need to Investigate why `atomic_write` takes so long and whether it can be op
 
 #### Deliverables
 
-A PR to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) incorporating the improvements:
+A PR to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/pull/295) incorporating the improvements:
 
 - Adding measurements to atomic operations in the existing benchmark
 - Analysis of the tree operations in Zerokit to identify inefficiencies.
@@ -173,7 +173,7 @@ and introducing parallel processing where appropriate.
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:semaphore-parts-bench`
 * owner: Ben
-* status: started (80%)
+* status: done
 * start-date: 2025/04/30
 * end-date: 2025/05/16
 
@@ -218,7 +218,7 @@ with evaluating alternative zk-proof systems based on the current efficiency dat
 * owner: Sylvain
 * status: started
 * start-date: 2025/05/19
-* end-date: 2025/05/26
+* end-date: 2025/06/06
 
 #### Description
 
@@ -231,6 +231,32 @@ custom error types, or other error frameworks.
 #### Deliverables
 
 A PR to `zerokit` and linked to the issue related to release v0.8.0.
+
+### Blogpost about improvements in incoming release
+
+* fully qualified name: `vac:acz:ift:2025q2-zerokit:perfomance-updates-blogpost`
+* owner: Ben
+* status: started (0%)
+* start-date: 2025/05/26
+* end-date: 2025/06/06
+
+#### Description
+
+Create a blog post comparing the tree implementation in zerokit v0.7.0 and the upcoming release.
+The goal is to highlight and explain the motivation, architectural changes, performance impacts,
+and developer-facing differences introduced during the refactor.
+This post will help the community understand the rationale and value of the new approach.
+
+The blog post should be informed by the discussion and comments from Vinh and Sylvain in zerokit issue [#289.](https://github.com/vacp2p/zerokit/issues/289)
+It should make technical concepts accessible and provide examples or diagrams where appropriate to illustrate key points.
+
+#### Deliverables
+
+- Outline of blog post structure (sections, key topics).
+- Analysis of changes between v0.7.0 and the upcoming version, focused on tree implementations.
+- Integration of relevant insights and explanations from Vinh and Sylvain’s comments in issue [#289.](https://github.com/vacp2p/zerokit/issues/289)
+- Complete draft of the blog post.
+- Final review and publication on the VAC or Waku blog.
 
 ### Zerokit maintaining
 
@@ -252,7 +278,7 @@ A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/).
 * owner: Ekaterina
 * status: not started
 * start-date: 2025/05/12
-* end-date: 2025/05/26
+* end-date: 2025/06/26
 
 #### Description
 The new version of the Zerokit v0.8.0

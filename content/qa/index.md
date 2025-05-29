@@ -25,6 +25,10 @@ tags:
 ### `nomos:`
 * [[qa/nomos/2025q2-da-testing|2025q2-da-testing ]]
 * [[qa/nomos/2025q2-e2e-testing|2025q2-e2e-testing ]]
+
+### `status:`
+* [[qa/status/2025q2-status-qa|2025q2-status-qa ]]
+
 ---
 
 ## 2025q1 `vac:qa:`

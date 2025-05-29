@@ -1,7 +1,7 @@
 ---
 title: Token Economics Service Unit
 tags:
-- p2p
+- tke
 - vac
 ---
 

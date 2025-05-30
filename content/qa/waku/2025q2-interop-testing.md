@@ -40,6 +40,7 @@ investigating and resolving issues, and implementing minor improvements to the t
 - [Enabled RLN tests](https://github.com/waku-org/waku-interop-tests/pull/112)
 - [chore: add reconciliation metrics](https://github.com/waku-org/waku-interop-tests/pull/113)
 - [test: Many tests fail on CI related to topics supscribtion](https://github.com/waku-org/nwaku/issues/3414)
+- [chore: Remove go-waku from workflows](https://github.com/waku-org/waku-interop-tests/pull/117)
 
 
 ### js-waku filter hardening

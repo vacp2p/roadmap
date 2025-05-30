@@ -68,7 +68,7 @@ Focus: clean up `nim-libp2p` PRs and issues related to `GossipSub` tests which w
 
 * fully qualified name: `vac:qa:vac:2025q2-nim-libp2p-testing:gossipsub-extended-part2`
 * owner: radek
-* status: in progress (0%)
+* status: in progress (20%)
 * start-date: 2025/05/19
 * end-date: 2025/06/09
 
@@ -80,7 +80,8 @@ Focus: implementation of tests according to the test plan, sections:
 - Parameter Configuration Tests
 
 #### Deliverables
-* PRs with links to added tests
+- [test(gossipsub): move and refactor control messages tests](https://github.com/vacp2p/nim-libp2p/pull/1380)
+- [GossipSub: iDontWants messages saved only in last element of history](https://github.com/vacp2p/nim-libp2p/issues/1394)
 
 ### Gossipsub Extended - part3
 

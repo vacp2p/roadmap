@@ -62,7 +62,7 @@ PRs and issues
 
 * fully qualified name: `vac:qa:waku:2025q2-waku-go-bindings-testing:maintenance`
 * owner: aya
-* status: in progress (40%)
+* status: in progress (50%)
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -77,6 +77,11 @@ investigating and resolving issues, and implementing minor improvements to the t
 - [Increase endurance tests iterations after the fix](https://github.com/waku-org/waku-go-bindings/pull/62)
 - [Add modifications for failed tests](https://github.com/waku-org/waku-go-bindings/pull/62)
 - [bug: Store-query JSON keys don’t match nwaku schema](https://github.com/waku-org/waku-go-bindings/issues/67)
+- [bug: Failing tests on CI](https://github.com/waku-org/waku-go-bindings/issues/69)
+- [bug: MsgChan still full after reading messages](https://github.com/waku-org/waku-go-bindings/issues/70)
+- [bug: Test failed with error ConnectionChangeChan is full](https://github.com/waku-org/waku-go-bindings/issues/71)
+- [Warning message about exception in pubsub handling](https://github.com/waku-org/waku-go-bindings/issues/72) 
+
 
 ### 12H Longevity
 

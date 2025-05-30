@@ -61,7 +61,7 @@ to ensure correct data flow and end-to-end processing.
 
 * fully qualified name: `vac:qa:nomos:2025q2-da-testing:data-confidentiality`
 * owner: romanzac
-* status: not started
+* status: in progress (25%)
 * start-date: 2025/05/19
 * end-date: 2025/06/6
 
@@ -70,8 +70,7 @@ Add integration tests to verify data confidentiality,
 ensuring secure communications, and controlling unauthorized access.
 
 #### Deliverables
-* PR link with added tests
-* CI runs showing successful or failed executions with detailed reports
+- [test: Da networking encryption - PoC](https://github.com/logos-co/nomos-security-tests/pull/1)
 
 
 ### Data Integrity and Dispersal Process Resilience

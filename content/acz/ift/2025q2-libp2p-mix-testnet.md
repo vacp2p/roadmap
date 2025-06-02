@@ -138,6 +138,21 @@ section 3.4 and 3.5.
 
 * A PR to [vacp2p/mix](https://github.com/vacp2p/mix)
 
+### Solving discrepancies
+* fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:solve-discrepancy`
+* owner: Ben
+* status: started (10%)
+* start-date: 2025/05/28
+* end-date: 2025/06/10
+
+#### Description
+
+This task entails solving the discrepancy in mix implementation based on [issue#24](https://github.com/vacp2p/mix/issues/24). 
+
+#### Deliverables
+
+* A PR to [vacp2p/mix](https://github.com/vacp2p/mix)
+
 ### Consulting Waku-mix 
 
 * fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:consulting-waku-mix`

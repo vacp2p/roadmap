@@ -76,7 +76,7 @@ If possible, adapt this to be able to run it from inside and outside the cluster
 
 * fully qualified name: `vac:dst:ift:2025q2-dst-tooling:analysis-refactor`
 * owner: Alberto
-* status: 30%
+* status: 60%
 * start-date: 2025/05/20
 * end-date: 2025/06/06
 

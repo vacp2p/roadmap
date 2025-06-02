@@ -55,7 +55,7 @@ which topics we include or exclude.
 ### SE/DE improvements
 * fully qualified name: `vac:acz:nes:2025q2-nescience-consulting:SE-DE-improvements`
 * owner: Marvin
-* status: started (0%)
+* status: started (30%)
 * start-date: 2024/05/21
 * end-date: 2025/06/04
 

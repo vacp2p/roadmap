@@ -49,7 +49,7 @@ reinforcing cross project collaboration.
 
 * fully qualified name: `vac:dst:ift:2025q2-dst-tooling:python-deployment-scaffold`
 * owner: Pearson
-* status: 60%
+* status: 100%
 * start-date: 2025/05/12
 * end-date: 2025/05/30
 
@@ -68,14 +68,15 @@ If possible, adapt this to be able to run it from inside and outside the cluster
 
 #### Deliverables
 - PRs:
-  - [Github: Draft PR](https://github.com/vacp2p/10ksim/pull/68)
+  - [Github: PR](https://github.com/vacp2p/10ksim/pull/68)
 - Related Documents:
+  - [Notes.status: Design Notes](https://notes.status.im/rdzaX1TVQ0KnUXfCAWBegQ?view)
 
 ### Analysis refactor
 
 * fully qualified name: `vac:dst:ift:2025q2-dst-tooling:analysis-refactor`
 * owner: Alberto
-* status: 30%
+* status: 60%
 * start-date: 2025/05/20
 * end-date: 2025/06/06
 
@@ -91,4 +92,23 @@ Also provide examples of usage, and documentation.
 #### Deliverables
 - PRs:
   - [Github: Draft PR](https://github.com/vacp2p/10ksim/pull/66)
+- Related Documents:
+
+
+### Python deployment scaffold
+
+* fully qualified name: `vac:dst:ift:2025q2-dst-tooling:adapt-experiments`
+* owner: Pearson
+* status: 0%
+* start-date: 2025/06/02
+* end-date: 2025/06/20
+
+#### Description
+Adapt previous experiments that were realized by DST with the deployment
+system created in `vac:dst:ift:2025q2-dst-tooling:python-deployment-scaffold`.
+I necessary, realize changes to the code structure to allow better integration
+ot the aforementioned experiments, while maintaining adaptability for new ones.
+
+#### Deliverables
+- PRs:
 - Related Documents:

@@ -216,7 +216,7 @@ with evaluating alternative zk-proof systems based on the current efficiency dat
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:error-abstraction`
 * owner: Sylvain
-* status: started
+* status: done
 * start-date: 2025/05/19
 * end-date: 2025/06/06
 
@@ -230,7 +230,7 @@ custom error types, or other error frameworks.
 
 #### Deliverables
 
-A PR to `zerokit` and linked to the issue related to release v0.8.0.
+A [PR](https://github.com/vacp2p/zerokit/pull/311) to `zerokit` and linked to the issue related to release v0.8.0.
 
 ### Blogpost about improvements in incoming release
 
@@ -276,7 +276,7 @@ A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/).
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:release`
 * owner: Ekaterina
-* status: not started
+* status: started (50%)
 * start-date: 2025/05/12
 * end-date: 2025/06/26
 

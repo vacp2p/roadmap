@@ -61,7 +61,7 @@ to ensure correct data flow and end-to-end processing.
 
 * fully qualified name: `vac:qa:nomos:2025q2-da-testing:data-confidentiality`
 * owner: romanzac
-* status: in progress (25%)
+* status: in progress (30%)
 * start-date: 2025/05/19
 * end-date: 2025/06/6
 

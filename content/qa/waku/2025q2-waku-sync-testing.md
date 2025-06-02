@@ -53,7 +53,7 @@ These tests aim to validate internal mechanics such as:
 
 * fully qualified name: `vac:qa:waku:2025q2-waku-sync-testing:integration`
 * owner: aya
-* status: not started
+* status: in progress(10%)
 * start-date: 2025/04/29
 * end-date: 2025/05/19
 

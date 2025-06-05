@@ -59,8 +59,6 @@ to the Premier Research destination narrative by:
 
 ## Task list
 
-### Message latency
-
 ### Regression testing (recurring)
 
 * fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:regression-testing`
@@ -77,6 +75,38 @@ of Waku's behaviour.
 Test for known regressions
 that have occurred in the past
 and ensure they don't happen again.
+
+#### Deliverables
+- Reports:
+- Related PRs if apply:
+
+### Quic-vs-tcp
+
+* fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:quic-vs-tcp`
+* owner: Alberto
+* status: 0%
+* start-date: -
+* end-date: -
+
+#### Description
+
+Perform a comparison between Waku using quic and waku using mplex and yamux.
+
+#### Deliverables
+- Reports:
+- Related PRs if apply:
+
+### JS waku
+
+* fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:js-waku`
+* owner: Alberto
+* status: 0%
+* start-date: -
+* end-date: -
+
+#### Description
+
+Start integrating js waku in DST experiments
 
 #### Deliverables
 - Reports:

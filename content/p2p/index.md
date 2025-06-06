@@ -15,6 +15,7 @@ Additionally, our team conducts research to enhance libp2p protocols,
 with a particular emphasis on improving gossipsub.
 Major future work items on nim-libp2p (also beyond this reporting period are captured on [github](https://github.com/status-im/nim-libp2p/issues/777).
 
+[[preview|Roadmap Preview]]
 
 ### 2025q2
 

@@ -1,14 +1,14 @@
 ---
 title: Formal Verification Tools Research
 tags:
-  - "2025q2"
+  - "2025q3"
   - "sc"
   - "ift"
 draft: false
 description: Look into alternative formal verification tools and their integration with the existing smart contracts.
 ---
 
-`vac:sc:ift:2025q2-fv-tools-research`
+`vac:sc:ift:2025q3-fv-tools-research`
 
 Look into alternative formal verification tools and their integration with the existing smart contracts.
 
@@ -20,7 +20,7 @@ Look into alternative formal verification tools and their integration with the e
 
 ### Research alternative tools
 
-* fully qualified name: `2025q2-fv-tools-research:research-alternatives`
+* fully qualified name: `2025q3-fv-tools-research:research-alternatives`
 * owner: r4bbit
 * status: not started
 * start-date: 2025/04/01

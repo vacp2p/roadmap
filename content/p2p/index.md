@@ -25,6 +25,7 @@ Major future work items on nim-libp2p (also beyond this reporting period are cap
 * [[p2p/ift/2025q2-nimlibp2p-kademlia|2025q2-nimlibp2p-kademlia]]
 * [[p2p/ift/2025q2-nimlibp2p-maintenance|2025q2-nimlibp2p-maintenance]]
 * [[p2p/ift/2025q2-nimlibp2p-webtransport|2025q2-nimlibp2p-webtransport]]
+* [[p2p/ift/2025q2-nimlibp2p-universal-connectivity-app|2025q2-nimlibp2p-universal-connectivity-app]]
 
 #### `vac:`
 * [[p2p/vac/2025q2-nimlibp2p-test-coverage|2025q2-nimlibp2p-test-coverage]]

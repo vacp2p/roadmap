@@ -122,3 +122,36 @@ as it should.
 
 #### Deliverables
 * Analysis done:
+
+### IDontWant statistical analysis
+
+* fully qualified name: `vac:dst:vac:2025q2-libp2p-evaluation:idontwant-statistical-analysis`
+* owner: Pearson
+* status: 0%
+* start-date: 2025-06-09
+* end-date: 2025-06-20
+
+#### Description
+The aim of this task is to model the impact of `IDontWant` 
+control messages in the context of Waku scalability research,
+as detailed in the following link: [Waku Scalability Research](https://github.com/vacp2p/research/tree/master/waku_scalability).
+The first step is to integrate the influence of these control 
+messages into the model provided in the reference, 
+simplifying where necessary. Any simplifications should be clearly 
+explained and justified to ensure a proper understanding of the trade-offs involved.
+The focus then shifts to determining the overhead imposed by `IDontWant` control 
+messages on the network and subtracting these costs from the total bandwidth
+usage to quantify their net benefits in terms of traffic reduction.
+In this phase, we can assume that all messages are small and later analyzing
+scenarios assuming all messages are large. Latency effects also need to be addressed, 
+particularly the case where multiple control messages arrive at varying times. 
+To start, the model should simulate situations where three messages are received at once,
+while two additional messages arrive later and are discarded by gossipsub
+due to their lateness. A refined approach must consider how to reduce these
+losses, potentially by introducing a probability distribution to predict 
+late arrivals and better handle them in the network.
+
+#### Deliverables
+* PRs:
+* Documents:
+

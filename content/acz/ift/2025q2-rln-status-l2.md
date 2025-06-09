@@ -1,7 +1,7 @@
 ---
 title: RLN Status L2
 tags:
-  - "2025q1"
+  - "2025q2"
   - "acz"
   - "ift"
 draft: false

@@ -31,7 +31,6 @@ QA work for Status for Q3 will be defined in follow up commitments.
 #### Deliverables
 - finished the main round testing for mobile 2.34, the full report is [here](https://www.notion.so/2-34-Mobile-Release-Coordination-1f88f96fb65c80589326d087cfc6f0f5)
 - retested several fixes, reported 12 issues [here](https://www.notion.so/2-34-Mobile-Release-Coordination-1f88f96fb65c80589326d087cfc6f0f5)
-Desktop:
 - logged a couple of issues for desktop (including the results of e2e):
   - https://github.com/status-im/status-desktop/issues/18053
   - https://github.com/status-im/status-desktop/issues/18043

@@ -71,7 +71,7 @@ ensuring secure communications, and controlling unauthorized access.
 
 #### Deliverables
 - [test: Da networking encryption - PoC](https://github.com/logos-co/nomos-security-tests/pull/1)
-- [tesT: data confidentiality](https://github.com/logos-co/nomos-e2e-tests/pull/18)
+- [test: data confidentiality](https://github.com/logos-co/nomos-e2e-tests/pull/18)
 
 ### Data Integrity and Dispersal Process Resilience
 

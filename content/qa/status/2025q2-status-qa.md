@@ -21,11 +21,23 @@ QA work for Status for Q3 will be defined in follow up commitments.
 ### Maintenance
 
 * fully qualified name: `vac:qa:status:2025q2-status-qa:v2-34`
-* owner:
-* status: in progress ()
+* owner: nastya,tetiana,magnus
+* status: in progress (50%)
 * start-date: 2025/05/20
 * end-date: 2025/06/10
 
 #### Description
 
 #### Deliverables
+- finished the main round testing for mobile 2.34, the full report is [here](https://www.notion.so/2-34-Mobile-Release-Coordination-1f88f96fb65c80589326d087cfc6f0f5)
+- retested several fixes, reported 12 issues [here](https://www.notion.so/2-34-Mobile-Release-Coordination-1f88f96fb65c80589326d087cfc6f0f5)
+Desktop:
+- logged a couple of issues for desktop (including the results of e2e):
+  - https://github.com/status-im/status-desktop/issues/18053
+  - https://github.com/status-im/status-desktop/issues/18043
+  - https://github.com/status-im/status-desktop/issues/18018
+  - https://github.com/status-im/status-desktop/issues/18063
+- opened a PR to partially remove unused code and merge 2 tests of similar functionality in 1 https://github.com/status-im/status-desktop/pull/18052
+- started fixing tests to fit them into qt 6.9 app (in scope of https://github.com/status-im/status-desktop/pull/18019)
+- Research and shared findings regarding opening RC testing to community
+  

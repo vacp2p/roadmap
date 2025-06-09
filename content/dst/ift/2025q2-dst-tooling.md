@@ -99,7 +99,7 @@ Also provide examples of usage, and documentation.
 
 * fully qualified name: `vac:dst:ift:2025q2-dst-tooling:adapt-experiments`
 * owner: Pearson
-* status: 0%
+* status: 35%
 * start-date: 2025/06/02
 * end-date: 2025/06/20
 
@@ -111,4 +111,5 @@ ot the aforementioned experiments, while maintaining adaptability for new ones.
 
 #### Deliverables
 - PRs:
+  - [Github: Draft PR](https://github.com/vacp2p/10ksim/pull/70)
 - Related Documents:

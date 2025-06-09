@@ -48,7 +48,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:maintain`
 * owner: Ugur
-* status: started (60%)
+* status: started (85%)
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -68,7 +68,7 @@ with the existing infrastructure.
 
 * fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:prover-service`
 * owner: Sylvain
-* status: started (30%)
+* status: started (70%)
 * start-date: 2025/04/16
 * end-date: 2025/06/30
 
@@ -92,7 +92,7 @@ Key responsibilities include:
 * fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:rpc-node-modification`
 
 * owner: Vinh
-* status: started (20%)
+* status: started (60%)
 * start-date: 2025/04/16
 * end-date: 2025/06/30
 
@@ -128,7 +128,7 @@ This task focuses on enhancing the interaction between RPC nodes and the Prover 
 
 * fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:rln-spec`
 * owner: Ugur
-* status: started (10%)
+* status: started (50%)
 * start-date: 2025/05/20
 * end-date: 2025/06/10
 

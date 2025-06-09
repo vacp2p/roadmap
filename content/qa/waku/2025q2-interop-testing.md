@@ -26,7 +26,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:waku:2025q2-interop-testing:maintenance`
 * owner: fbarbu15
-* status: in progress (40%)
+* status: in progress (60%)
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -41,6 +41,7 @@ investigating and resolving issues, and implementing minor improvements to the t
 - [chore: add reconciliation metrics](https://github.com/waku-org/waku-interop-tests/pull/113)
 - [test: Many tests fail on CI related to topics supscribtion](https://github.com/waku-org/nwaku/issues/3414)
 - [chore: Remove go-waku from workflows](https://github.com/waku-org/waku-interop-tests/pull/117)
+- [bug: node won’t start with RLN in on-chain dynamic mode 2](https://github.com/waku-org/nwaku/issues/3208)
 
 
 ### js-waku filter hardening

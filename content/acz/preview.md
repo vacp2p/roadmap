@@ -38,6 +38,7 @@ tags:
     - Publishing a blospot
     - Publishig a paper 
     - SURB implementation 
+    - Releasing product ready implementation
 - RLN Status L2
     - Testnet integration
 

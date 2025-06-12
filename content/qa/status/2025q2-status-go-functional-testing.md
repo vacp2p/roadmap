@@ -3,12 +3,12 @@ title: Status Go Functional Testing
 tags:
   - "2025q2"
   - "qa"
-  - "waku"  
+  - "status"  
 draft: false  
 description: Enhance functional testing for status-go features by implementing tests focused on Waku functionality.
 ---
 
-`vac:qa:waku:2025q2-status-go-functional-testing`
+`vac:qa:status:2025q2-status-go-functional-testing`
 
 ## Description
 Expand functional testing for status-go by implementing targeted Waku feature tests, 
@@ -26,7 +26,7 @@ as outlined in this [epic](https://github.com/status-im/status-go/issues/6064).
 
 ### Chat actions tests
 
-* fully qualified name: `vac:qa:waku:2025q2-status-go-functional-testing:chat-actions-tests`
+* fully qualified name: `vac:qa:status:2025q2-status-go-functional-testing:chat-actions-tests`
 * owner: radek
 * status: done
 * start-date: 2025/04/01
@@ -44,7 +44,7 @@ Cover the core functionality of Status related to [wakuext messages](https://git
 
 ### Contact requests tests
 
-* fully qualified name: `vac:qa:waku:2025q2-status-go-functional-testing:contact-requests-tests`
+* fully qualified name: `vac:qa:status:2025q2-status-go-functional-testing:contact-requests-tests`
 * owner: fbarbu15
 * status: done
 * start-date: 2025/04/01
@@ -60,7 +60,7 @@ Cover the [wakuext contact requests](https://github.com/status-im/status-go/issu
 
 ### Group chats tests
 
-* fully qualified name: `vac:qa:waku:2025q2-status-go-functional-testing:group-chats-tests`
+* fully qualified name: `vac:qa:status:2025q2-status-go-functional-testing:group-chats-tests`
 * owner: fbarbu15
 * status: not started
 * start-date: 
@@ -74,7 +74,7 @@ Cover the [wakuext group chats](https://github.com/status-im/status-go/issues/60
 
 ### Tests on light mode
 
-* fully qualified name: `vac:qa:waku:2025q2-status-go-functional-testing:light-mode`
+* fully qualified name: `vac:qa:status:2025q2-status-go-functional-testing:light-mode`
 * owner: fbarbu15
 * status: done
 * start-date: 2025/04/07

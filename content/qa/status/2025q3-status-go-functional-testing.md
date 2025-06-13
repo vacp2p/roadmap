@@ -23,100 +23,68 @@ as outlined in this [epic](https://github.com/status-im/status-go/issues/6064).
 ## Task List
 
 
-### Group chats tests
+### Wallet features
 
-* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:group-chats`
+* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:wallet`
 * owner: fbarbu15
 * status: not started
 * start-date: 
 * end-date: 
 
 #### Description
-Cover the [wakuext group chats](https://github.com/status-im/status-go/issues/6071)
+Add functional test coverage to wallet features,
+in order to catch regressions introduced by wallet backend refactoring.
+Focus on e2e scenarios that can be automated at this level.
+TODO! This taks will need to be broken down into smaller task once we have more info
+
+#### Deliverables
+* Test plans
+* PRs with the new tests
+
+### Messaging features
+
+* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:messaging`
+* owner: fbarbu15
+* status: not started
+* start-date: 
+* end-date: 
+
+#### Description
+Add functional test coverage to messaging features that are not already covered by tests,
+in order to catch regressions introduced by messaging backend refactoring.
+Focus on e2e scenarios that can be automated at this level.
+
+#### Deliverables
+* Test plans
+* PRs with the new tests
+
+### Performance tests
+
+* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:performance`
+* owner: fbarbu15
+* status: not started
+* start-date: 
+* end-date: 
+
+#### Description
+Measure and export performance metrics during running and usage of status-backend.
+Check for leaks and performance degradations between runs.
+Create separate workflow that runs nightly.
 
 #### Deliverables
 * PRs with the new tests
 
-### Community creation tests
+### Framework usage improvements
 
-* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:community-creation`
+* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:framework-improvements`
 * owner: fbarbu15
 * status: not started
 * start-date: 
 * end-date: 
 
 #### Description
-Cover the [wakuext community creation](https://github.com/status-im/status-go/issues/6078)
-
-#### Deliverables
-* PRs with the new tests
-
-### Community creation chat actions
-
-* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:community-chat-actions`
-* owner: fbarbu15
-* status: not started
-* start-date: 
-* end-date: 
-
-#### Description
-Cover the [wakuext community chat actions](https://github.com/status-im/status-go/issues/6073)
-
-#### Deliverables
-* PRs with the new tests
-
-### Community user actions
-
-* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:community-user-actions`
-* owner: fbarbu15
-* status: not started
-* start-date: 
-* end-date: 
-
-#### Description
-Cover the [wakuext community user actions](https://github.com/status-im/status-go/issues/6081)
-
-#### Deliverables
-* PRs with the new tests
-
-### Community actions
-
-* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:community-actions`
-* owner: fbarbu15
-* status: not started
-* start-date: 
-* end-date: 
-
-#### Description
-Cover the [wakuext community actions](https://github.com/status-im/status-go/issues/6079)
-
-#### Deliverables
-* PRs with the new tests
-
-### Community permissions
-
-* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:community-permissions`
-* owner: fbarbu15
-* status: not started
-* start-date: 
-* end-date: 
-
-#### Description
-Cover the [wakuext community permissions](https://github.com/status-im/status-go/issues/6082)
-
-#### Deliverables
-* PRs with the new tests
-
-### Community requests management
-
-* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:community-requests-management`
-* owner: fbarbu15
-* status: not started
-* start-date: 
-* end-date: 
-
-#### Description
-Cover the [wakuext requests management](https://github.com/status-im/status-go/issues/6083)
+Improve and simplify user/dev experience when running tests locally.
+Update readme and debugging.
 
 #### Deliverables
 * PRs with the new tests

@@ -35,7 +35,7 @@ We should cover:
 ### QA Strategy
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-documentation:strategy`
-* owner: fbarbu15
+* owner:
 * status: 
 * start-date: 
 * end-date: 
@@ -53,14 +53,14 @@ We should cover:
 ### Test Plans
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-documentation:test-plans`
-* owner: fbarbu15
+* owner:
 * status: 
 * start-date:
 * end-date: 
 
 #### Description
-- Create test plans for Status features, based on the [RFCs](https://rfc.vac.dev/status).
-- Identify and flag gaps in the RFCs.
+- Create test plans for new Status features, releases and [RFCs](https://rfc.vac.dev/status).
+- Identify and flag gaps.
 
 #### Deliverables
 - Notion pages with test plans
@@ -68,7 +68,7 @@ We should cover:
 
 ### Requirements Documentation Framework
 * fully qualified name: `vac:qa:status:2025q3-status-qa-documentation:requirements-framework`
-* owner: fbarbu15
+* owner:
 * status:
 * start-date:
 * end-date:

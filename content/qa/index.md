@@ -6,6 +6,29 @@ tags:
 
 ---
 
+## 2025q3 `vac:qa:`
+---
+
+### `ift:`
+* [[qa/ift/2025q3-qa-rfc-sync-jswaku|2025q3-qa-rfc-sync-jswaku ]]
+
+### `vac:`
+* [[qa/vac/2025q3-nim-libp2p-testing|2025q3-nim-libp2p-testing ]]
+
+### `waku:`
+* [[qa/waku/2025q3-waku-interop-testing|2025q3-waku-interop-testing ]]
+* [[qa/waku/2025q3-waku-chat-sdk-testing|2025q3-waku-chat-sdk-testing ]]
+
+### `status:`
+* [[qa/status/2025q3-status-go-functional-testing|2025q3-status-go-functional-testing ]]
+* [[qa/status/2025q3-status-qa-desktop|2025q3-status-qa-desktop ]]
+* [[qa/status/2025q3-status-qa-documentation|2025q3-status-qa-documentation ]]
+* [[qa/status/2025q3-status-qa-mobile|2025q3-status-qa-mobile ]]
+
+### `keycard:`
+* [[qa/keycard/2025q3-keycard-testing|2025q3-keycard-testing ]]
+---
+
 ## 2025q2 `vac:qa:`
 ---
 

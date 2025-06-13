@@ -53,3 +53,33 @@ Harden js-waku filter protocol by adding more advanced tests like:
 
 #### Deliverables
 - PRs or Issues
+
+### Lite protocol tester
+
+* fully qualified name: `vac:qa:waku:2025q3-interop-testing:liteprotocoltester`
+* owner: fbarbu15
+* status: 
+* start-date: 
+* end-date: 
+
+#### Description
+Explore, fix and improve [waku lite protocol tester](https://github.com/waku-org/nwaku/tree/master/apps/liteprotocoltester) 
+based on nwaku dev requirements
+
+#### Deliverables
+- PRs or Issues
+
+### Waku cannary tool
+
+* fully qualified name: `vac:qa:waku:2025q3-interop-testing:wakucannary`
+* owner: fbarbu15
+* status: 
+* start-date: 
+* end-date: 
+
+#### Description
+Explore, fix and improve [waku canary tool](https://github.com/waku-org/nwaku/tree/master/apps/wakucanary) 
+based on nwaku dev requirements
+
+#### Deliverables
+- PRs or Issues

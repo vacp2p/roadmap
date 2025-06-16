@@ -127,7 +127,7 @@ as it should.
 
 * fully qualified name: `vac:dst:vac:2025q2-libp2p-evaluation:idontwant-statistical-analysis`
 * owner: Pearson
-* status: 0%
+* status: 15%
 * start-date: 2025-06-09
 * end-date: 2025-06-20
 

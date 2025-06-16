@@ -99,7 +99,7 @@ Also provide examples of usage, and documentation.
 
 * fully qualified name: `vac:dst:ift:2025q2-dst-tooling:adapt-experiments`
 * owner: Pearson
-* status: 35%
+* status: 55%
 * start-date: 2025/06/02
 * end-date: 2025/06/20
 

@@ -29,7 +29,7 @@ Oversee testing strategy around releases.
 ### Release Testing
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:release-testing`
-* owner: 
+* owner: magnus
 * status: 
 * start-date: 
 * end-date: 
@@ -46,7 +46,7 @@ Oversee testing strategy around releases.
 ### Shell view
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:shell-view`
-* owner: 
+* owner: magnus
 * status: 
 * start-date: 
 * end-date: 
@@ -59,25 +59,10 @@ Oversee testing strategy around releases.
 - PRs
 
 
-### Performance improvements
-
-* fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:performance-improvements`
-* owner: 
-* status: 
-* start-date: 
-* end-date: 
-
-#### Description
-- Asses and measure the Page Performance and RAM memory usage improvements impact.
-
-#### Deliverables
-- PRs
-
-
 ### Ethereum follow protocol
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:eth-follow-protocol`
-* owner: 
+* owner: nastya
 * status: 
 * start-date: 
 * end-date: 
@@ -93,7 +78,7 @@ Oversee testing strategy around releases.
 ### Backup user data
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:backup-user-data`
-* owner: 
+* owner: nastya
 * status: 
 * start-date: 
 * end-date: 
@@ -101,6 +86,23 @@ Oversee testing strategy around releases.
 #### Description
 - Add new automated tests for the `Backup user data` feature.
 - Review and assist devs with feature testing.  
+
+#### Deliverables
+- PRs
+
+
+### Maintenance
+
+* fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:maintenance`
+* owner: nastya
+* status: 
+* start-date: 
+* end-date: 
+
+#### Description
+- Ongoing maintenance of Status Desktop tests. This includes updating tests for changes in status,
+  addressing regressions, investigating and resolving issues,
+  and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
 - PRs

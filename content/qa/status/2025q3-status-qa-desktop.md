@@ -29,7 +29,7 @@ Oversee testing strategy around releases.
 ### Release Testing
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:release-testing`
-* owner: magnus
+* owner: nastya
 * status: 
 * start-date: 
 * end-date: 
@@ -46,7 +46,7 @@ Oversee testing strategy around releases.
 ### Shell view
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:shell-view`
-* owner: magnus
+* owner: nastya
 * status: 
 * start-date: 
 * end-date: 

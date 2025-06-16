@@ -21,7 +21,7 @@ description: Ensure quality of Keycard applications.
 
 ### Keycard-go Unit Test Extension
 
-* fully qualified name: `vac:qa:2025q3-keycard-testing:keycard-go-unit-tests`
+* fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:keycard-go-unit-tests`
 * owner: romanzac
 * status: not started
 * start-date: 2025/07/01
@@ -34,7 +34,7 @@ Review existing tests and add more tests to improve coverage. Add debugging tool
 
 ### Keycard E2E Tests
 
-* fully qualified name: `vac:qa:2025q3-keycard-testing:e2e-tests`
+* fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:e2e-tests`
 * owner: romanzac
 * status: not started
 * start-date: 2025/07/22
@@ -48,7 +48,7 @@ Integrate automated testing and builds for all repositories with Github CI.
 
 ### Status Keycard Unit Test Extension
 
-* fully qualified name: `vac:qa:2025q3-keycard-testing:status-keycard-unit-tests`
+* fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:status-keycard-unit-tests`
 * owner: romanzac
 * status: not started
 * start-date: 2025/08/11
@@ -61,7 +61,7 @@ Review existing tests and add more tests to improve coverage. Add debugging tool
 
 ### Keycard-cli User Guide
 
-* fully qualified name: `vac:qa:2025q3-keycard-testing:keycard-cli-user-guide`
+* fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:keycard-cli-user-guide`
 * owner: romanzac
 * status: not started
 * start-date: 2025/09/1
@@ -74,7 +74,7 @@ Write user guide - how to install the cli and interact with keycard. Add example
 
 ### Keycard-go API Documentation
 
-* fully qualified name: `vac:qa:2025q3-keycard-testing:keycard-go-api-documentation`
+* fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:keycard-go-api-documentation`
 * owner: romanzac
 * status: not started
 * start-date: 2025/09/16

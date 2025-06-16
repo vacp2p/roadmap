@@ -120,7 +120,7 @@ Focus: implementation of tests according to the test plan, sections:
 * end-date: 
 
 #### Description
-Moved to Q3! Could not be completed in Q2 because we were responsible for integrating status QA CCs into our team.
+Moved to Q3! Gossipsub took longer than expected, but was done thoroughly.
 
 Expand the pubsub test coverage by following the test plan,
 checking what’s not covered, and implementing new tests for those scenarios.
@@ -137,7 +137,7 @@ checking what’s not covered, and implementing new tests for those scenarios.
 * end-date: 
 
 #### Description
-Moved to Q3! Could not be completed in Q2 because we were responsible for integrating status QA CCs into our team.
+Moved to Q3! Gossipsub took longer than expected, but was done thoroughly.
 
 Expand the floodsub test coverage by following the test plan,
 checking what’s not covered, and implementing new tests for those scenarios.
@@ -154,6 +154,8 @@ checking what’s not covered, and implementing new tests for those scenarios.
 * end-date: 2025/06/30
 
 #### Description
+Update part done, new test plan creation moved to Q3!
+
 Update and add new test plans for identify / push identify, ping, mplex multiplexer,
 and others to be determined later.
 

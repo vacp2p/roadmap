@@ -28,7 +28,7 @@ Extend and adjust the existing e2e test Framework to support testing on mobile/t
 ### Framework Adjustments
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-mobile:framework-adjustments`
-* owner: 
+* owner: nastya
 * status: 
 * start-date: 
 * end-date: 
@@ -44,7 +44,7 @@ Extend and adjust the existing e2e test Framework to support testing on mobile/t
 ### Port desktop tests
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-mobile:port-tests`
-* owner: 
+* owner: magnus
 * status: 
 * start-date:
 * end-date: 
@@ -59,7 +59,7 @@ Extend and adjust the existing e2e test Framework to support testing on mobile/t
 ### Multiple devices
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-mobile:multiple-devices`
-* owner: 
+* owner: magnus
 * status: 
 * start-date:
 * end-date: 

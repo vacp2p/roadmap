@@ -121,6 +121,7 @@ Focus: implementation of tests according to the test plan, sections:
 
 #### Description
 Moved to Q3! Could not be completed in Q2 because we were responsible for integrating status QA CCs into our team.
+
 Expand the pubsub test coverage by following the test plan,
 checking what’s not covered, and implementing new tests for those scenarios.
 
@@ -137,6 +138,7 @@ checking what’s not covered, and implementing new tests for those scenarios.
 
 #### Description
 Moved to Q3! Could not be completed in Q2 because we were responsible for integrating status QA CCs into our team.
+
 Expand the floodsub test coverage by following the test plan,
 checking what’s not covered, and implementing new tests for those scenarios.
 

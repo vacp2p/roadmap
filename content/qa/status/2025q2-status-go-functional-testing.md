@@ -68,6 +68,7 @@ Cover the [wakuext contact requests](https://github.com/status-im/status-go/issu
 
 #### Description
 Moved to Q3! Could not be completed in Q2 because we were responsible for integrating status QA CCs into our team.
+
 Cover the [wakuext group chats](https://github.com/status-im/status-go/issues/6071)
 
 #### Deliverables

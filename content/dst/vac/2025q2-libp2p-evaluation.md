@@ -107,7 +107,7 @@ compare same scenario with and without using mix.
 
 * fully qualified name: `vac:dst:vac:2025q2-libp2p-evaluation:mix-gossipsub`
 * owner: Alberto
-* status: 0%
+* status: 50%
 * start-date: 2025-06-02
 * end-date: 2025-06-13
 

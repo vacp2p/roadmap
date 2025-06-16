@@ -22,11 +22,26 @@ as outlined in this [epic](https://github.com/status-im/status-go/issues/6064).
 
 ## Task List
 
+### Critical user flows
+
+* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:critical-flows`
+* owner: chu
+* status: not started
+* start-date: 
+* end-date: 
+
+#### Description
+Add functional test coverage to critical user flows like onboarding, 
+asset management or messaging as described in this [epic](https://github.com/status-im/status-go/issues/6064). 
+
+#### Deliverables
+* PRs with the new tests
+
 
 ### Wallet features
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:wallet`
-* owner: fbarbu15
+* owner: chu
 * status: not started
 * start-date: 
 * end-date: 
@@ -41,43 +56,11 @@ TODO! This taks will need to be broken down into smaller task once we have more 
 * Test plans
 * PRs with the new tests
 
-### Messaging features
-
-* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:messaging`
-* owner: fbarbu15
-* status: not started
-* start-date: 
-* end-date: 
-
-#### Description
-Add functional test coverage to messaging features that are not already covered by tests,
-in order to catch regressions introduced by messaging backend refactoring.
-Focus on e2e scenarios that can be automated at this level.
-
-#### Deliverables
-* Test plans
-* PRs with the new tests
-
-### Performance tests
-
-* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:performance`
-* owner: fbarbu15
-* status: not started
-* start-date: 
-* end-date: 
-
-#### Description
-Measure and export performance metrics during running and usage of status-backend.
-Check for leaks and performance degradations between runs.
-Create separate workflow that runs nightly.
-
-#### Deliverables
-* PRs with the new tests
 
 ### Framework usage improvements
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:framework-improvements`
-* owner: fbarbu15
+* owner: chu
 * status: not started
 * start-date: 
 * end-date: 
@@ -89,10 +72,11 @@ Update readme and debugging.
 #### Deliverables
 * PRs with the new tests
 
+
 ### Status-backend based on nwaku
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:status-based-on-nwaku`
-* owner: fbarbu15
+* owner: chu
 * status: not started
 * start-date: 
 * end-date: 
@@ -105,10 +89,11 @@ as described in the Waku FURPS
 #### Deliverables
 * Test Reports
 
+
 ### Reliability in Status Communities
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:reliability-communities`
-* owner: fbarbu15
+* owner: chu
 * status: not started
 * start-date: 
 * end-date: 

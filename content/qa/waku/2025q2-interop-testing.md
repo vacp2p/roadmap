@@ -56,6 +56,7 @@ investigating and resolving issues, and implementing minor improvements to the t
 
 #### Description
 Moved to Q3! Could not be completed in Q2 because we were responsible for integrating status QA CCs into our team.
+
 Harden js-waku filter protocol by adding more advanced tests like:
 - Longevity test focused on sending/receiving messages continuously over a long duration (e.g., 6 hours)
 - Sanity checks in terms of throughput of Waku messages of different sizes

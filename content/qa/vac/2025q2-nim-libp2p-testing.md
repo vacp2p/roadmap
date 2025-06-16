@@ -94,7 +94,7 @@ Focus: implementation of tests according to the test plan, sections:
 
 * fully qualified name: `vac:qa:vac:2025q2-nim-libp2p-testing:gossipsub-extended-part3`
 * owner: radek
-* status: not started (0%)
+* status: in progress (15%)
 * start-date: 2025/06/09
 * end-date: 2025/06/30
 
@@ -106,7 +106,10 @@ Focus: implementation of tests according to the test plan, sections:
 - Compatibility of Older/Newer Versions of the Protocol 
 
 #### Deliverables
-* PRs with links to added tests
+- [test(gossipsub): flaky tests](https://github.com/vacp2p/nim-libp2p/pull/1451)
+- [test: increase timeout](https://github.com/vacp2p/nim-libp2p/pull/1460)
+- [test(gossipsub): refactor and unify scoring tests](https://github.com/vacp2p/nim-libp2p/pull/1461)
+- [test(gossipsub): GossipThreshold and PublishThreshold tests](https://github.com/vacp2p/nim-libp2p/pull/1464)
 
 ### Pubsub
 
@@ -117,6 +120,7 @@ Focus: implementation of tests according to the test plan, sections:
 * end-date: 
 
 #### Description
+Moved to Q3! Could not be completed in Q2 because we were responsible for integrating status QA CCs into our team.
 Expand the pubsub test coverage by following the test plan,
 checking what’s not covered, and implementing new tests for those scenarios.
 
@@ -132,6 +136,7 @@ checking what’s not covered, and implementing new tests for those scenarios.
 * end-date: 
 
 #### Description
+Moved to Q3! Could not be completed in Q2 because we were responsible for integrating status QA CCs into our team.
 Expand the floodsub test coverage by following the test plan,
 checking what’s not covered, and implementing new tests for those scenarios.
 
@@ -142,7 +147,7 @@ checking what’s not covered, and implementing new tests for those scenarios.
 
 * fully qualified name: `vac:qa:vac:2025q2-nim-libp2p-testing:test-plans`
 * owner: fbarbu15
-* status: in progress (20%)
+* status: done
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -151,4 +156,4 @@ Update and add new test plans for identify / push identify, ping, mplex multiple
 and others to be determined later.
 
 #### Deliverables
-* Link with the Notion pages
+* [test plans](https://www.notion.so/Test-Plans-bd1d0eb57d334945a02a5f5dfc921c02)

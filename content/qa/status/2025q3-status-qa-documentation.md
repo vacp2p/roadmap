@@ -35,7 +35,7 @@ We should cover:
 ### QA Strategy
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-documentation:strategy`
-* owner:
+* owner: magnus
 * status: 
 * start-date: 
 * end-date: 
@@ -53,7 +53,7 @@ We should cover:
 ### Test Plans
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-documentation:test-plans`
-* owner:
+* owner: magnus
 * status: 
 * start-date:
 * end-date: 
@@ -68,7 +68,7 @@ We should cover:
 
 ### Requirements Documentation Framework
 * fully qualified name: `vac:qa:status:2025q3-status-qa-documentation:requirements-framework`
-* owner:
+* owner: magnus
 * status:
 * start-date:
 * end-date:

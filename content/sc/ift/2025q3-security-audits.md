@@ -8,7 +8,7 @@ draft: false
 description: Participating in security audit contests to get better at building secure applications.
 ---
 
-`vac:sc:ift:2025q2-security-audits`
+`vac:sc:ift:2025q3-security-audits`
 
 Participating in security audit contests to get better at building secure applications.
 

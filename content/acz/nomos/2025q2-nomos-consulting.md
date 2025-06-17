@@ -52,7 +52,7 @@ Provide feedback Nomos' document analysis of failures in mix networks Design con
 ### Zk Consulting Nomos 2
 * fully qualified name: `vac:acz:nomos:2025q2-nomos-consulting:zk-consulting-nomos-2`
 * owner: Marvin
-* status: started (20%)
+* status: started (70%)
 * start-date: 2025/06/04
 * end-date: 2025/06/18
 

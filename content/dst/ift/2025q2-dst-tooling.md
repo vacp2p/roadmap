@@ -76,7 +76,7 @@ If possible, adapt this to be able to run it from inside and outside the cluster
 
 * fully qualified name: `vac:dst:ift:2025q2-dst-tooling:analysis-refactor`
 * owner: Alberto
-* status: 60%
+* status: 100%
 * start-date: 2025/05/20
 * end-date: 2025/06/06
 
@@ -91,7 +91,7 @@ Also provide examples of usage, and documentation.
 
 #### Deliverables
 - PRs:
-  - [Github: Draft PR](https://github.com/vacp2p/10ksim/pull/66)
+  - [Github: PR](https://github.com/vacp2p/10ksim/pull/66)
 - Related Documents:
 
 
@@ -99,7 +99,7 @@ Also provide examples of usage, and documentation.
 
 * fully qualified name: `vac:dst:ift:2025q2-dst-tooling:adapt-experiments`
 * owner: Pearson
-* status: 0%
+* status: 55%
 * start-date: 2025/06/02
 * end-date: 2025/06/20
 
@@ -111,4 +111,5 @@ ot the aforementioned experiments, while maintaining adaptability for new ones.
 
 #### Deliverables
 - PRs:
+  - [Github: Draft PR](https://github.com/vacp2p/10ksim/pull/70)
 - Related Documents:

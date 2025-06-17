@@ -117,7 +117,7 @@ RFC which is fast and efficient for p2p networks.
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:multi-admin-rfc`
 * owner: Ugur
-* status: started (20%)
+* status: started (40%)
 * start-date: 2025/05/04
 * end-date: 2025/05/26
 
@@ -175,7 +175,7 @@ containing new consensus layer as separate module with tests.
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:commit-and-proposal`
 * owner: Ekaterina
-* status: started (10%)
+* status: started (80%)
 * start-date: 2025/05/05
 * end-date: 2025/06/30
 
@@ -215,11 +215,13 @@ containing update of message processing
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:frontend-updating`
 * owner: Ekaterina
-* status: started (5%)
+* status: cancelled
 * start-date: 2025/05/01
 * end-date: 2025/06/30
 
 #### Description
+
+This task is cancelled due to the lack of need to update the frontend for the de-MLS poc. 
 
 The current frontend is difficult to maintain and besides adding new functionality
 for testing now requires a lot of effort.

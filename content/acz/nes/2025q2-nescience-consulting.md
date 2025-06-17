@@ -73,7 +73,7 @@ This directly corresponds to Nescience's [Q2-R2](https://www.notion.so/R2-Updati
 ### Light user support in NSSA
 * fully qualified name: `vac:acz:nes:2025q2-nescience-consulting:light-users`
 * owner: Marvin
-* status: started (70%)
+* status: done
 * start-date: 2024/06/03
 * end-date: 2025/06/11
 
@@ -91,5 +91,41 @@ To this end, we will examine privacy transactions (private, SE, DE) for light us
 Ties directly with NSSA’s task [Q2/R4](https://www.notion.so/R4-Lightweight-user-execution-model-1bf8f96fb65c81dc9471c6a03d2c8513?pvs=21).
 
 ### Deliverables
-* Document covering private, SE, DE transactions performed by light users 
-with analysis on any privacy or security compromises.
+* [A notion Doc](https://www.notion.so/Light-user-support-in-NSSA-2108f96fb65c8031b2f8d651721f7c84) covering private, 
+SE, DE transactions performed by light users with analysis on any privacy or security compromises.
+
+### Viewing keys and elliptic curve
+* fully qualified name: `nes:2025q2-nescience-consulting:view-keys`
+* owner: Marvin
+* status: started (0%)
+* start-date: 2024/06/13
+* end-date: 2025/06/19
+
+### Description:
+
+1. The current design of NSSA’s viewing keys is restricted to 
+only permit decryption of incoming transactions. 
+However, it is desirable to for regulatory entities to have the ability to 
+decrypt outgoing transactions as well. 
+In this task, we work on redesigning the viewing key construction to incorporate:
+- incoming viewing key; decrypt transactions in which the user is the recipient.
+- outgoing viewing key; decrypt transactions in which the user is the sender.
+- full viewing key; used to decrypt both outgoing and incoming transactions.
+    
+Additionally, to increase a user’s control over their data, we will investigate mechanisms 
+that can be used generate viewing keys that are only decrypt transactions 
+with in a specified set of sequential blocks.
+    
+2. Tangentially but related subtask. Investigate alternate elliptic curves to `secp256k1`. 
+NSSA uses points on `secp256k1` for public keys and Pedersen commitments in transactions. 
+This curve does not support fast addition. 
+Computational overhead can be reduced by selecting an elliptic curve that supports fast addition. 
+Additionally, light users need to generate zk-SNARK proofs which may require pairing-friendly curve.
+
+### Deliverables:
+
+- Document that concisely explains:
+    - Mathematical construction of viewing keys
+    - Usage in NSSA
+    - Feasibility of ‘period specific’ viewing keys.
+- Document with elliptic curve recommendation and reason.

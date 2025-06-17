@@ -262,7 +262,7 @@ It should make technical concepts accessible and provide examples or diagrams wh
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:zerokit-maintaining`
 * owner: Ekaterina
-* status: started (40%)
+* status: started (80%)
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 

@@ -89,7 +89,7 @@ Delivering the implementation a simple gossipsub PoC over Waku the mixnet.
 ### Updating RFC
 * fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:update-rfc`
 * owner: Akshaya
-* status: started (70%)
+* status: started (75%)
 * start-date: 2025/04/1
 * end-date: 2025/04/21
 
@@ -141,7 +141,7 @@ section 3.4 and 3.5.
 ### Solving discrepancies
 * fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:solve-discrepancy`
 * owner: Ben
-* status: started (15%)
+* status: started (25%)
 * start-date: 2025/05/28
 * end-date: 2025/06/10
 
@@ -157,7 +157,7 @@ This task entails solving the discrepancy in mix implementation based on [issue#
 
 * fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:consulting-waku-mix`
 * owner: Akshaya
-* status: started (50%)
+* status: started (70%)
 * start-date: 2025/05/1
 * end-date: 2025/06/30
 

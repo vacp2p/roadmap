@@ -1092,7 +1092,7 @@
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/</loc>
-    <lastmod>2025-06-10T13:43:19.839Z</lastmod>
+    <lastmod>2025-06-17T14:31:03.789Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/nomos/2024q4-da-testing</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
@@ -1103,14 +1103,17 @@
     <loc>https://roadmap.vac.dev/qa/nomos/2025q2-e2e-testing</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/qa/status/2025q2-status-go-functional-testing</loc>
+    <lastmod>2025-06-17T14:31:03.789Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/qa/status/2025q2-status-qa</loc>
-    <lastmod>2025-06-10T13:43:19.839Z</lastmod>
+    <lastmod>2025-06-17T14:31:03.789Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/vac/2024q4-nim-libp2p-testing</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/vac/2025q2-nim-libp2p-testing</loc>
-    <lastmod>2025-06-10T13:43:19.839Z</lastmod>
+    <lastmod>2025-06-17T14:31:03.789Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/waku/2024q4-interop-testing</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
@@ -1128,12 +1131,9 @@
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/waku/2025q2-interop-testing</loc>
-    <lastmod>2025-06-10T13:43:19.839Z</lastmod>
+    <lastmod>2025-06-17T14:31:03.789Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/waku/2025q2-messaging-api-testing</loc>
-    <lastmod>2025-06-10T13:43:19.839Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.vac.dev/qa/waku/2025q2-status-go-functional-testing</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/waku/2025q2-waku-go-bindings-testing</loc>

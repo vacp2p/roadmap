@@ -8,7 +8,7 @@ draft: false
 description: Monthly learn up sessions about anything smart contracts related.
 ---
 
-`vac:sc:ift:2025q2-sc-learnup-sessions`
+`vac:sc:ift:2025q3-sc-learnup-sessions`
 
 Monthly learn up sessions about smart contract development, protocols, security and alike.
 

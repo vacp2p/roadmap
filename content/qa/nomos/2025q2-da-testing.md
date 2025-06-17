@@ -61,7 +61,7 @@ to ensure correct data flow and end-to-end processing.
 
 * fully qualified name: `vac:qa:nomos:2025q2-da-testing:data-confidentiality`
 * owner: romanzac
-* status: in progress (30%)
+* status: done
 * start-date: 2025/05/19
 * end-date: 2025/06/6
 
@@ -71,13 +71,13 @@ ensuring secure communications, and controlling unauthorized access.
 
 #### Deliverables
 - [test: Da networking encryption - PoC](https://github.com/logos-co/nomos-security-tests/pull/1)
-
+- [test: data confidentiality](https://github.com/logos-co/nomos-e2e-tests/pull/18)
 
 ### Data Integrity and Dispersal Process Resilience
 
 * fully qualified name: `vac:qa:nomos:2025q2-da-testing:dispersal-resilience`
 * owner: romanzac
-* status: not started
+* status: in progress (15%)
 * start-date: 2025/06/9
 * end-date: 2025/06/30
 

@@ -19,7 +19,6 @@ tags:
 * [[qa/waku/2025q2-interop-testing|2025q2-interop-testing ]]
 * [[qa/waku/2025q2-waku-go-bindings-testing|2025q2-waku-go-bindings-testing ]]
 * [[qa/waku/2025q2-messaging-api-testing|2025q2-messaging-api-testing ]]
-* [[qa/waku/2025q2-status-go-functional-testing|2025q2-status-go-functional-testing ]]
 * [[qa/waku/2025q2-waku-sync-testing|2025q2-waku-sync-testing ]]
 
 ### `nomos:`
@@ -28,6 +27,7 @@ tags:
 
 ### `status:`
 * [[qa/status/2025q2-status-qa|2025q2-status-qa ]]
+* [[qa/status/2025q2-status-go-functional-testing|2025q2-status-go-functional-testing ]]
 
 ---
 

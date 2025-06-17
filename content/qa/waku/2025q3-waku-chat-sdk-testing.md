@@ -15,6 +15,7 @@ Test and validate the reliability of the Waku Chat SDK
 in accordance to [Waku FURPS](https://github.com/waku-org/pm/blob/2025H2/2025H2-summary.md?plain=1#L76). 
 Ensure the SDK performs consistently 
 and meets the expected functional and reliability requirements.
+Note! This could be pushed to Q4 if the feature is not QA ready as planned.
 
 **Alignment with VAC Narratives:**
 - By testing the Waku Chat SDK, 

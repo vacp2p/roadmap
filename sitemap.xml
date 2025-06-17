@@ -1221,7 +1221,7 @@
     <lastmod>2025-06-10T13:43:19.843Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/codex/2025q2-vault-integration</loc>
-    <lastmod>2025-06-10T13:43:19.843Z</lastmod>
+    <lastmod>2025-06-17T15:15:25.828Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/ift/2024q4-eip-discussions</loc>
     <lastmod>2025-06-10T13:43:19.843Z</lastmod>
@@ -1232,17 +1232,29 @@
     <loc>https://roadmap.vac.dev/sc/ift/2025q1-security-audits</loc>
     <lastmod>2025-06-10T13:43:19.843Z</lastmod>
   </url><url>
-    <loc>https://roadmap.vac.dev/sc/ift/2025q2-fv-tools-research</loc>
-    <lastmod>2025-06-10T13:43:19.843Z</lastmod>
-  </url><url>
     <loc>https://roadmap.vac.dev/sc/ift/2025q2-sc-learnup-sessions</loc>
     <lastmod>2025-06-10T13:43:19.843Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/ift/2025q2-security-audits</loc>
     <lastmod>2025-06-10T13:43:19.843Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/sc/ift/2025q3-fv-tools-research</loc>
+    <lastmod>2025-06-17T15:15:25.828Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/sc/ift/2025q3-sc-learnup-sessions</loc>
+    <lastmod>2025-06-17T15:15:25.828Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/sc/ift/2025q3-security-audits</loc>
+    <lastmod>2025-06-17T15:15:25.828Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/sc/</loc>
-    <lastmod>2025-06-10T13:43:19.843Z</lastmod>
+    <lastmod>2025-06-17T15:15:25.828Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/sc/status-l2/2025q3-native-bridge-dai-yield-management</loc>
+    <lastmod>2025-06-17T15:15:25.828Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/sc/status-l2/2025q3-native-bridge-eth-yield-management</loc>
+    <lastmod>2025-06-17T15:15:25.828Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/status/2024q4-staking-protocol-v1</loc>
     <lastmod>2025-06-10T13:43:19.843Z</lastmod>
@@ -1266,19 +1278,25 @@
     <lastmod>2025-06-10T13:43:19.843Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/status/2025q2-karma-rln</loc>
-    <lastmod>2025-06-10T13:43:19.843Z</lastmod>
+    <lastmod>2025-06-17T15:15:25.828Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/status/2025q2-maintaining-status-contracts</loc>
-    <lastmod>2025-06-10T13:43:19.843Z</lastmod>
+    <lastmod>2025-06-17T15:15:25.828Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/status/2025q2-sn-native-bridge-yield-bearing-module</loc>
-    <lastmod>2025-06-10T13:43:19.843Z</lastmod>
+    <lastmod>2025-06-17T15:15:25.828Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/status/2025q2-sn-native-dex</loc>
-    <lastmod>2025-06-10T13:43:19.843Z</lastmod>
+    <lastmod>2025-06-17T15:15:25.828Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/status/2025q2-status-consulting</loc>
     <lastmod>2025-06-10T13:43:19.843Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/sc/status/2025q3-maintaining-status-contracts</loc>
+    <lastmod>2025-06-17T15:15:25.828Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/sc/status/2025q3-status-consulting</loc>
+    <lastmod>2025-06-17T15:15:25.828Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sec/</loc>
     <lastmod>2025-06-10T13:43:19.843Z</lastmod>

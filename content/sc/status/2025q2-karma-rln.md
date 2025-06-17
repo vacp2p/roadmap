@@ -31,7 +31,7 @@ another contract has to be deployed that provides the necessary data.
 
 * fully qualified name: `2025q2-karma-rln:slash-karma`
 * owner: r4bbit
-* status: not started
+* status: done
 * start-date: 2025/05/21
 * end-date: 2025/06/31
 
@@ -73,7 +73,7 @@ It should also be possible to add new tiers.
 
 * fully qualified name: `2025q2-karma-rln:implementation`
 * owner: Ricardo
-* status: not started
+* status: 80%
 * start-date: 2025/05/21
 * end-date: 2025/06/31
 

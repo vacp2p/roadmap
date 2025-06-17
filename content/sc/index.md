@@ -5,15 +5,44 @@ tags:
   - vac
 ---
 
+
+## Possible commitments for Q4 and beyond
+
+- Karma token airdrop via ENS name
+- EIP collaboration with finance (vaults with advanced access control)
+- SN L2 native bridge yield extension deployment on testnet/mainnet
+
+
+## 2025q3 `vac:sc:`
+---
+
+### `ift:`
+
+- [ ] [[sc/ift/2025q3-sc-learnup-sessions]]
+- [ ] [[sc/ift/2025q3-fv-tools-research]]
+- [ ] [[sc/ift/2025q3-security-audits]]
+
+### `status:`
+
+- [ ] [[sc/status/2025q3-consulting]]
+- [ ] [[sc/status/2025q3-maintaining-status-contracts]]
+
+### `status-l2:`
+
+- [ ] [[sc/status-l2/2025q3-native-bridge-eth-yield-management]]
+- [ ] [[sc/status-l2/2025q3-native-bridge-dai-yield-management]]
+
+
 ## 2025q2 `vac:sc:`
 ---
 
 ### `ift:`
+
 - [ ] [[sc/ift/2025q2-sc-learnup-sessions]]
 - [ ] [[sc/ift/2025q2-security-audits]]
-- [ ] [[sc/ift/2025q2-fv-tools-research]]
 
 ### `status:`
+
 - [ ] [[sc/status/2025q2-sn-native-bridge-yield-bearing-module]]
 - [ ] [[sc/status/2025q2-sn-native-dex]]
 - [ ] [[sc/status/2025q2-maintaining-status-contracts]]

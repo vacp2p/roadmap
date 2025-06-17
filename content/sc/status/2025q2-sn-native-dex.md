@@ -12,6 +12,9 @@ description: Implementing a native DEX for the Status Network.
 
 Implementing a native DEX for the Status Network.
 
+**This commitment has been removed. The Status Network team has decided to outsource the work to a 3rd party team.**
+
+
 ## Description
 
 The Status Network needs a decentralized exchange (DEX) to allow users to trade tokens in a trustless manner.

@@ -21,8 +21,8 @@ Codex aims to extract all funds related logic of the `MarketPlace` contract into
 ### Review Vault contract
 
 * fully qualified name: `2025q1-vault-integration:review-vault-contract`
-* owner: 
-* status: 5%
+* owner: r4bbit
+* status: 100%
 * start-date: 2025/04/01
 * end-date: 2025/04/15
 

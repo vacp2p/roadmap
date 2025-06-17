@@ -1,14 +1,14 @@
 ---
 title: Maintainin existing Status smart contracts
 tags:
-  - "2025q2"
+  - "2025q3"
   - "sc"
   - "status"
 draft: false
 description: Maintain and improve existing Status smart contracts as requested.
 ---
 
-`vac:sc:status:2025q2-maintaining-status-contracts`
+`vac:sc:status:2025q3-maintaining-status-contracts`
 
 Maintain and improve existing Status smart contracts as requested.
 
@@ -30,3 +30,4 @@ such as:
 There are no concrete tasks associated to this commitment.
 As requests come in,
 they will be addressed by our team.
+

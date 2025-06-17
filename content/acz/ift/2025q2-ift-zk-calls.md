@@ -72,7 +72,7 @@ A document of a summary of the ZK call 2 meeting to [ZK Notion page](https://www
 ### IFT ZK Call 3
 * fully qualified name: `vac:acz:ift:2025q2-ift-zk-calls:ift-zk-call-3`
 * owner: Marvin
-* status: not started
+* status: done
 * start-date: 2025/05/31
 * end-date: 2025/06/14
 

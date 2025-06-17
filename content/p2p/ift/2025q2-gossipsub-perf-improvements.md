@@ -43,7 +43,7 @@ Nim, go, and rust libp2p test nodes are already implemented for the shadow simul
 
 * fully qualified name: `vac:p2p:ift:2025q2-gossipsub-perf-improvements:gossipsub-1_4-impl`
 * owner: farooq
-* status: 
+* status: 70%
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 

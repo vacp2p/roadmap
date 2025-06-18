@@ -61,7 +61,7 @@ The PoC implementation for GossipSubv1.4 is already complete. This work focuses 
 
 * fully qualified name: `vac:p2p:ift:2025q2-gossipsub-perf-improvements:community-engangement`
 * owner: farooq
-* status: 25%
+* status: 50%
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 

@@ -8,7 +8,7 @@ draft: false
 description: Continue Waku Sync Integration testing
 ---
 
-`vac:qa:waku:2025q3-waku-sync-testing`
+`vac:qa:waku:2025q3-waku-sync-int-testing`
 
 ## Description
 
@@ -26,7 +26,7 @@ Continue Waku Sync Integration testing in `nwaku`.
 
 ### Waku Sync Integration Testing
 
-* fully qualified name: `vac:qa:waku:2025q3-waku-sync-testing:integration`
+* fully qualified name: `vac:qa:waku:2025q3-waku-sync-int-testing:integration`
 * owner: aya
 * status: not started
 * start-date:

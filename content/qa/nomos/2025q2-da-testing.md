@@ -77,7 +77,7 @@ ensuring secure communications, and controlling unauthorized access.
 
 * fully qualified name: `vac:qa:nomos:2025q2-da-testing:dispersal-resilience`
 * owner: romanzac
-* status: in progress (15%)
+* status: in progress (45%)
 * start-date: 2025/06/9
 * end-date: 2025/06/30
 

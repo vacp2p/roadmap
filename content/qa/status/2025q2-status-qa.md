@@ -22,7 +22,7 @@ QA work for Status for Q3 will be defined in follow up commitments.
 
 * fully qualified name: `vac:qa:status:2025q2-status-qa:v2-34`
 * owner: nastya,tetiana,magnus
-* status: in progress (50%)
+* status: in progress (70%)
 * start-date: 2025/05/20
 * end-date: 2025/06/10
 
@@ -39,4 +39,6 @@ QA work for Status for Q3 will be defined in follow up commitments.
 - opened a PR to partially remove unused code and merge 2 tests of similar functionality in 1 https://github.com/status-im/status-desktop/pull/18052
 - started fixing tests to fit them into qt 6.9 app (in scope of https://github.com/status-im/status-desktop/pull/18019)
 - Research and shared findings regarding opening RC testing to community
-  
+- Tested fix of 2 blockers
+- Tested new feature required for 2.34
+- Tested a fix for [18063](https://github.com/status-im/status-desktop/issues/18063)

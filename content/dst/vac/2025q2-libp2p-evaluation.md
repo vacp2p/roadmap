@@ -78,6 +78,7 @@ and ensure they don't happen again.
 * Analysis done
   * [Notion: Quic Issues](https://www.notion.so/List-of-Issues-1ca8f96fb65c801b9c9ad4cceb16fa72)
   * [Notion: Nim-libp2p 1.10.0](https://www.notion.so/Nim-libp2p-v1-10-0-regression-testing-May-2025-1f28f96fb65c80d58334f0c1a98ba23b)
+  * [Notion: Nim-libp2p 1.11.0](https://www.notion.so/Nim-libp2p-v1-11-0-regression-testing-June-2025-2118f96fb65c802ca1b7c4233271ca26)
 * Report published with all relevant details
 * RFC's GitHub issue updated
   with links to the analysis and results.

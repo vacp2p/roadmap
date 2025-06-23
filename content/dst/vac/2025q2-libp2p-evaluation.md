@@ -131,7 +131,7 @@ as it should.
 
 * fully qualified name: `vac:dst:vac:2025q2-libp2p-evaluation:idontwant-statistical-analysis`
 * owner: Pearson
-* status: 15%
+* status: 90%
 * start-date: 2025-06-09
 * end-date: 2025-06-20
 
@@ -157,5 +157,7 @@ late arrivals and better handle them in the network.
 
 #### Deliverables
 * PRs:
+  * [Github: Refactor PR](https://github.com/vacp2p/research/pull/204)
+  * [Github: Add case PR](https://github.com/vacp2p/research/pull/205)
 * Documents:
 

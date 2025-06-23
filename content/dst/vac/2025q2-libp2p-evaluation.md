@@ -78,6 +78,7 @@ and ensure they don't happen again.
 * Analysis done
   * [Notion: Quic Issues](https://www.notion.so/List-of-Issues-1ca8f96fb65c801b9c9ad4cceb16fa72)
   * [Notion: Nim-libp2p 1.10.0](https://www.notion.so/Nim-libp2p-v1-10-0-regression-testing-May-2025-1f28f96fb65c80d58334f0c1a98ba23b)
+  * [Notion: Nim-libp2p 1.11.0](https://www.notion.so/Nim-libp2p-v1-11-0-regression-testing-June-2025-2118f96fb65c802ca1b7c4233271ca26)
 * Report published with all relevant details
 * RFC's GitHub issue updated
   with links to the analysis and results.
@@ -107,7 +108,7 @@ compare same scenario with and without using mix.
 
 * fully qualified name: `vac:dst:vac:2025q2-libp2p-evaluation:mix-gossipsub`
 * owner: Alberto
-* status: 50%
+* status: 100%
 * start-date: 2025-06-02
 * end-date: 2025-06-13
 
@@ -122,12 +123,15 @@ as it should.
 
 #### Deliverables
 * Analysis done:
+  * [Notion: Mix report extended](https://www.notion.so/Nim-libp2p-Mix-May-2025-1f38f96fb65c800a8466f68472e799db?source=copy_link#2188f96fb65c8096a18ceba3d1c3fea8)
+* PRs:
+  * [Github analysis PR](https://github.com/vacp2p/10ksim/pull/71)
 
 ### IDontWant statistical analysis
 
 * fully qualified name: `vac:dst:vac:2025q2-libp2p-evaluation:idontwant-statistical-analysis`
 * owner: Pearson
-* status: 15%
+* status: 90%
 * start-date: 2025-06-09
 * end-date: 2025-06-20
 
@@ -153,5 +157,7 @@ late arrivals and better handle them in the network.
 
 #### Deliverables
 * PRs:
+  * [Github: Refactor PR](https://github.com/vacp2p/research/pull/204)
+  * [Github: Add case PR](https://github.com/vacp2p/research/pull/205)
 * Documents:
 

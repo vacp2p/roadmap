@@ -108,7 +108,7 @@ compare same scenario with and without using mix.
 
 * fully qualified name: `vac:dst:vac:2025q2-libp2p-evaluation:mix-gossipsub`
 * owner: Alberto
-* status: 50%
+* status: 100%
 * start-date: 2025-06-02
 * end-date: 2025-06-13
 
@@ -123,6 +123,9 @@ as it should.
 
 #### Deliverables
 * Analysis done:
+  * [Notion: Mix report extended](https://www.notion.so/Nim-libp2p-Mix-May-2025-1f38f96fb65c800a8466f68472e799db?source=copy_link#2188f96fb65c8096a18ceba3d1c3fea8)
+* PRs:
+  * [Github analysis PR](https://github.com/vacp2p/10ksim/pull/71)
 
 ### IDontWant statistical analysis
 

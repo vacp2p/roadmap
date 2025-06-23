@@ -99,17 +99,17 @@ Also provide examples of usage, and documentation.
 
 * fully qualified name: `vac:dst:ift:2025q2-dst-tooling:adapt-experiments`
 * owner: Pearson
-* status: 55%
+* status: 75%
 * start-date: 2025/06/02
 * end-date: 2025/06/20
 
 #### Description
 Adapt previous experiments that were realized by DST with the deployment
 system created in `vac:dst:ift:2025q2-dst-tooling:python-deployment-scaffold`.
-I necessary, realize changes to the code structure to allow better integration
+If necessary, realize changes to the code structure to allow better integration
 ot the aforementioned experiments, while maintaining adaptability for new ones.
 
 #### Deliverables
 - PRs:
-  - [Github: Draft PR](https://github.com/vacp2p/10ksim/pull/70)
+  - [Github: PR](https://github.com/vacp2p/10ksim/pull/70)
 - Related Documents:

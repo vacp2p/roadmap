@@ -94,7 +94,7 @@ Focus: implementation of tests according to the test plan, sections:
 
 * fully qualified name: `vac:qa:vac:2025q2-nim-libp2p-testing:gossipsub-extended-part3`
 * owner: radek
-* status: in progress (15%)
+* status: in progress (45%)
 * start-date: 2025/06/09
 * end-date: 2025/06/30
 
@@ -110,6 +110,11 @@ Focus: implementation of tests according to the test plan, sections:
 - [test: increase timeout](https://github.com/vacp2p/nim-libp2p/pull/1460)
 - [test(gossipsub): refactor and unify scoring tests](https://github.com/vacp2p/nim-libp2p/pull/1461)
 - [test(gossipsub): GossipThreshold and PublishThreshold tests](https://github.com/vacp2p/nim-libp2p/pull/1464)
+- [test(gossipsub): split unit and integration tests](https://github.com/vacp2p/nim-libp2p/pull/1465)
+- [test(gossipsub): rpcHandler - rateLimit and punishInvalidMessage tests](https://github.com/vacp2p/nim-libp2p/pull/1467)
+- [test(gossipsub): organise Behavior tests](https://github.com/vacp2p/nim-libp2p/pull/1468)
+- [test(gossipsub): behaviourPenalty tests](https://github.com/vacp2p/nim-libp2p/pull/1469)
+- [test(gossipsub): updateScores tests](https://github.com/vacp2p/nim-libp2p/pull/1471)
 
 ### Pubsub
 

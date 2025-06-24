@@ -19,68 +19,44 @@ description: Ensure quality of Keycard applications.
 
 ## Task List
 
-### Keycard-go Unit Test Extension
+### Keycard Shell Tests
+
+* fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:shell-tests`
+* owner: romanzac
+* status: not started
+* start-date: 
+* end-date: 
+
+#### Description
+Create a suite of tests that verify that the Keycard Shell works as expected.
+
+#### Deliverables
+- Test plan and test execution reports
+
+### Keycard-go Unit Tests
 
 * fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:keycard-go-unit-tests`
 * owner: romanzac
 * status: not started
-* start-date: 2025/07/01
-* end-date: 2025/07/21
+* start-date: 
+* end-date: 
 
 #### Description
 Review existing tests and add more tests to improve coverage. Add debugging tools and test coverage reporting.
 
 #### Deliverables
+- PRs and CI runs
 
-### Keycard E2E Tests
+### Status-keycard-java Unit Tests
 
-* fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:e2e-tests`
+* fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:status-keycard-java-unit-tests`
 * owner: romanzac
 * status: not started
-* start-date: 2025/07/22
-* end-date: 2025/08/8
-
-#### Description
-Create suite of E2E tests which include all applications `status-keycard`, `keycard-cli` and `keycard-go`.
-Integrate automated testing and builds for all repositories with Github CI.
-
-#### Deliverables
-
-### Status Keycard Unit Test Extension
-
-* fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:status-keycard-unit-tests`
-* owner: romanzac
-* status: not started
-* start-date: 2025/08/11
-* end-date: 2025/08/29
+* start-date: 
+* end-date: 
 
 #### Description
 Review existing tests and add more tests to improve coverage. Add debugging tools and test coverage reporting.
 
 #### Deliverables
-
-### Keycard-cli User Guide
-
-* fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:keycard-cli-user-guide`
-* owner: romanzac
-* status: not started
-* start-date: 2025/09/1
-* end-date: 2025/09/15
-
-#### Description
-Write user guide - how to install the cli and interact with keycard. Add examples for command usage and expected results.
-
-#### Deliverables
-
-### Keycard-go API Documentation
-
-* fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:keycard-go-api-documentation`
-* owner: romanzac
-* status: not started
-* start-date: 2025/09/16
-* end-date: 2025/09/30
-
-#### Description
-Provide API-level documentation with code examples.
-
-#### Deliverables
+- PRs and CI runs

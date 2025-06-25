@@ -15,7 +15,7 @@ tags:
 - Nomos
   - Start assisting nomos in regression analysis on each new version
 
-- Nimlibp2p
+- nim-libp2p
   - Keep assisting p2p team with regression analysis on each new version
   - Benchmark new functionalities (Webtransport?, ...)
 
@@ -30,7 +30,7 @@ tags:
 - Nomos
   - Keep assisting nomos in regression analysis on each new version
 
-- Nimlibp2p
+- nim-libp2p
   - Keep assisting p2p team with regression analysis on each new version
   - Benchmark new functionalities (Webtransport?, ...)
 

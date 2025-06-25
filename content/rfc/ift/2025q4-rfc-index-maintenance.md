@@ -7,7 +7,7 @@ draft: false
 description: This commitment revolves around a continuous effort to fix and update across the relevant RFC websites (including the communication).
 ---
 
-`vac:rfc:ift:2025q3-rfc-index-maintenance`
+`vac:rfc:ift:2025q4-rfc-index-maintenance`
 
 ## Description
 
@@ -29,8 +29,8 @@ in accordance with the IFT standards.
 - Fully qualified name: `vac:rfc:ift:2025q3-rfc-index-maintenance:maintenance`
 - Owner: Filip
 - Status: not started
-- Start date: 2025/07/01
-- End date: 2025/09/30
+- Start date: 2025/10/01
+- End date: 2025/12/31
 
 #### Description
 
@@ -47,8 +47,8 @@ note them properly.
 - Fully qualified name: `vac:rfc:ift:2025q3-rfc-index-maintenance:maintenance-of-vac.dev`
 - Owner: Filip
 - Status: not started
-- Start date: 2025/07/01
-- End date: 2025/09/30
+- Start date: 2025/10/01
+- End date: 2025/12/31
 
 #### Description
 

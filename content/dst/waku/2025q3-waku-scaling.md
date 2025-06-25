@@ -46,7 +46,8 @@ through performance insights during the drafting process.
 ### TWN supports RLN onchain tree and deposits, existing memberships only
 > *Note*: This needs more input from project
 
-[TODO: Link to Waku FURPS]()
+[Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/deploy_rln_onchain_tree_on_l2_testnet.md#twn-supports-rln-onchain-tree-and-deposits-existing-memberships-only)
+[Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/rln_mainnet.md#twn-supports-rln-onchain-tree-and-deposits-existing-memberships-only)
 
 * fully qualified name: `-`
 * owner: -
@@ -69,7 +70,7 @@ to verify RLN proof within 5s, no matter the size of the tree.
 ### Hardening and Scaling Foundations for Private Chats
 > *Note*: This needs more input from project
 
-[TODO: Link to Waku FURPS]()
+[Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/hardening_and_scaling_foundation_for_private_chat.md#hardening-and-scaling-foundations-for-private-chats)
 
 * fully qualified name: `-`
 * owner: -
@@ -89,7 +90,7 @@ To have: Vac-DST: status-backend benchmarks
 ### Optimise Browser Bootstrapping
 > *Note*: This needs more input from project
 
-[TODO: Link to Waku FURPS]()
+[Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/improve_devex_api_twn_metrics_docs.md#optimise-browser-bootstrapping)
 
 * fully qualified name: `-`
 * owner: -
@@ -119,7 +120,7 @@ node, 100 service nodes and 500 browser nodes.
 ### Integrate nwaku in Status Desktop, relay mode only
 > *Note*: This needs more input from project
 
-[TODO: Link to Waku FURPS]()
+[Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/integrate_nwaku_in_status_desktop_relay_mode_only.md#integrate-nwaku-in-status-desktop-relay-mode-only)
 
 * fully qualified name: `-`
 * owner: -
@@ -143,7 +144,7 @@ nwaku-based vs go-waku-based status-backend comparisons.
 
 > *Note*: This needs more input from project
 
-[TODO: Link to Waku FURPS]()
+[Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/introduce_e2e_reliability_in_status.md#sds-protocol-in-status---basic-integration)
 
 * fully qualified name: `-`
 * owner: -
@@ -173,7 +174,7 @@ can detect 90% of missed messages within `3*S` seconds
 
 > *Note*: This needs more input from project
 
-[TODO: Link to Waku FURPS]()
+[Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/introduce_e2e_reliability_in_status.md#sds-protocol-in-status---basic-recovery)
 
 * fully qualified name: `-`
 * owner: -

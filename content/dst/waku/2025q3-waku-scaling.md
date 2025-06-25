@@ -42,26 +42,6 @@ through performance insights during the drafting process.
 
 ## Task list
 
-### Implementing Waku API in REST
-> *Note*: This needs more input from project
-
-[TODO: Link to Waku FURPS]()
-
-* fully qualified name: `-`
-* owner: -
-* status: -
-* start-date: -
-* end-date: -
-
-#### Description
-
-Make use of Waku API in rest in DST experiments. Also provide feedback of 
-its functionality.
-
-#### Deliverables
-- Code:
-- Report
-
 
 ### TWN supports RLN onchain tree and deposits, existing memberships only
 > *Note*: This needs more input from project

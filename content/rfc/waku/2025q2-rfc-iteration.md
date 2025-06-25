@@ -189,7 +189,7 @@ as well as any other outdated parts of the specification.
 - Fully qualified name:
   `vac:rfc:waku:2025q1-rfc-iteration:waku2-device-pairing`
 - Owner: jimstir
-- Status: 40%
+- Status: 95%
 - Start date: 2025/05/09
 - End date: 2025/05/20
 

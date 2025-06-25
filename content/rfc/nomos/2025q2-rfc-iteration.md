@@ -57,16 +57,16 @@ and thus ready for being included in the rfc-index.
 - Fully qualified name:
   `vac:rfc:nomos:2025q2-rfc-iteration:30/adaptive-nodes`
 - Owner: cofson
-- Status: 45%
+- Status: 95%
 - Start date: 2025/05/04
-- End date: 2025/04/21
+- End date: 2025/05/21
 
 ### NomosDA Encoding
 
 - Fully qualified name:
   `vac:rfc:nomos:2025q2-rfc-iteration:nomosda-encoding`
 - Owner: cofson
-- Status: 45%
+- Status: 95%
 - Start date: 2025/05/04
 - End date: 2025/04/21
 
@@ -75,6 +75,6 @@ and thus ready for being included in the rfc-index.
 - Fully qualified name:
   `vac:rfc:nomos:2025q2-rfc-iteration:nomosda-network`
 - Owner: cofson
-- Status: not started
+- Status: 95%
 - Start date: 2025/05/04
-- End date: 2025/04/21
+- End date: 2025/05/21

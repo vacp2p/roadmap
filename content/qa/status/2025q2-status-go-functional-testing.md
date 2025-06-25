@@ -86,3 +86,4 @@ Enable running all waku tests also on light client mode
 
 #### Deliverables
 - Enabled light client mode for [waku functional tests](https://github.com/status-im/status-go/pull/6518/files)
+- Created dedicated Readme for the status-backend reliability [test suite](https://github.com/status-im/status-go/pull/6700)

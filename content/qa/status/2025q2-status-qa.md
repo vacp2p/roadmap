@@ -22,7 +22,7 @@ QA work for Status for Q3 will be defined in follow up commitments.
 
 * fully qualified name: `vac:qa:status:2025q2-status-qa:v2-34`
 * owner: nastya,tetiana,magnus
-* status: in progress (70%)
+* status: in progress (90%)
 * start-date: 2025/05/20
 * end-date: 2025/06/10
 
@@ -42,3 +42,9 @@ QA work for Status for Q3 will be defined in follow up commitments.
 - Tested fix of 2 blockers
 - Tested new feature required for 2.34
 - Tested a fix for [18063](https://github.com/status-im/status-desktop/issues/18063)
+- Signed off the final mobile build
+- [critical flow RecoverAndLogin with 12,15,24 words mnemonic](https://github.com/status-im/status-go/pull/6688)
+- [enhance pytest logging - filter noise, show full logs on failure](https://github.com/status-im/status-go/pull/6697)
+- Qt6 migration support
+- Created test plan for Shell
+- Added basic support for Shell to e2e (https://github.com/status-im/status-desktop/pull/18172/)

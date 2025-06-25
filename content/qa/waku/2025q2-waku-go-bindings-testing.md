@@ -62,7 +62,7 @@ PRs and issues
 
 * fully qualified name: `vac:qa:waku:2025q2-waku-go-bindings-testing:maintenance`
 * owner: aya
-* status: in progress (50%)
+* status: in progress (80%)
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 

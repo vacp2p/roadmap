@@ -7,7 +7,7 @@ draft: false
 description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected RFCs."
 ---
 
-`vac:rfc:codex:2025q2-rfc-iteration`
+`vac:rfc:codex:2025q3-rfc-iteration`
 
 Iteration commitments generally comprise:
 through discussion and curation,
@@ -52,8 +52,8 @@ in their projects, similar to [IETF](https://www.ietf.org/).
   `vac:rfc:codex:2025q2-rfc-iteration:the-block-exchange'
 - Owner: cofson
 - Status: 0%
-- Start date: 2025/06/01
-- End date: 2025/06/20
+- Start date: 2025/07/01
+- End date: 2025/07/20
 
 ### Erasure Coding
 
@@ -61,8 +61,8 @@ in their projects, similar to [IETF](https://www.ietf.org/).
   `vac:rfc:codex:2025q2-rfc-iteration:erasure-coding`
 - Owner: cofson
 - Status: 0%
-- Start date: 2025/06/01
-- End date: 2025/06/20
+- Start date: 2025/08/01
+- End date: 2025/08/20
 
 ### Proving System
 
@@ -70,5 +70,5 @@ in their projects, similar to [IETF](https://www.ietf.org/).
   `vac:rfc:codex:2025q2-rfc-iteration:proving-system`
 - Owner: cofson
 - Status: 0%
-- Start date: 2025/06/20
-- End date: 2025/06/30
+- Start date: 2025/09/20
+- End date: 2025/09/30

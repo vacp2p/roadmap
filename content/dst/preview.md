@@ -7,29 +7,6 @@ tags:
 
 ## Roadmap Preview
 
-### 2025Q3
-- Waku
-  - Keep assisting waku team with regression analysis on each new version
-  - Benchmarking tcp vs udp waku
-  - Assist waku team
-  - Continue adding support for JS waku in the regression analysis
-  - Make use of Waku API rest in DST experiments
-  - Assist benchmarking RLN
-  - Benchmark JSwaku bootstraping
-  - Compare performance of nwaku vs gowaku in status desktop
-  - SDS protocol in Status
-
-- Nomos
-  - Start integrating Nomos in its current state to DST workflow, to early detect missing or needed pieces.
-  - Blendnet (depends on Nomos)
-
-- Nimlibp2p
-  - Keep assisting p2p team with regression analysis on each new version
-  - Benchmark new functionalities
-
-- ACZ
-  - Keep assisting with mix implementation
-
 ### 2025Q4
 
 - Waku

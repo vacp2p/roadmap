@@ -1,15 +1,15 @@
 ---
 title: Scaling think tank
 tags:
-  - "2025qx"
+  - "2025q3"
   - "dst"
   - "ift"
-draft: true
+draft: false
 description: "List and explain the scaling ideas
  that IFT project are using in their projects."
 ---
 
-`vac:dst:ift:2025qx-scaling-think-tank`
+`vac:dst:ift:2025q3-scaling-think-tank`
 
 ## Description
 List, analyze and explain how IFT teams
@@ -28,7 +28,7 @@ scaling ideas, and other insights.
 ### Scaling analysis
 
 * fully qualified name: `vac:dst:vac:2025qx-scaling-think-tank:scaling-analysis`
-* owner: N/A
+* owner: Pearson
 * status: N/A
 * start-date: N/A
 * end-date: N/A

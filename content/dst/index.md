@@ -5,8 +5,31 @@ tags:
 - vac
 ---
 
+## 2025q3 `vac:dst:`
+---
+
+### `ift`
+* [ ] [[dst/ift/2025q3-dst-tooling|dst-tooling]]
+* [ ] [[dst/ift/2025q3-dst-research-destination|dst-research-destination]]
+* [ ] [[dst/ift/2025q3-scaling-think-tank|scaling-think-tank]]
+
+### `nomos`
+* [ ] [[dst/nomos/2025q3-nomos-scaling|nomos-scaling]]
+
+### `status`
+
+### `vac`
+* [ ] [[dst/vac/2025q3-libp2p-evaluation|libp2p-evaluation]]
+
+### `waku`
+* [ ] [[dst/waku/2025q3-waku-evaluation|waku-evaluation]]
+* [ ] [[dst/waku/2025q3-waku-scaling|waku-scaling]]
+* [ ] [[dst/waku/2025q3-waku-theoretical-analysis|walu-theoretical-analysis]]
+
+---
 ## 2025q2 `vac:dst:`
 ---
+
 ### `ift`
 * [ ] [[dst/ift/2025q2-dst-tooling|dst-tooling]]
 * [ ] [[dst/ift/2025q2-dst-conduit|dst-conduit]]

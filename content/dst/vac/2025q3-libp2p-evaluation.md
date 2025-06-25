@@ -79,3 +79,20 @@ and ensure they don't happen again.
 * Report published with all relevant details
 * RFC's GitHub issue updated
   with links to the analysis and results.
+
+
+### Universal connectivity
+
+* fully qualified name: `vac:dst:vac:2025q3-libp2p-evaluation:universal-connectivity`
+* owner: Alberto
+* status: -
+* start-date: -
+* end-date: -
+
+#### Description
+Help p2p team running scenarios with universal connectivity app
+and checking functionality with other libp2p implementations.
+
+#### Deliverables
+* PRs:
+* Report:

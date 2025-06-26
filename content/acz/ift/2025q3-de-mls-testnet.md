@@ -107,25 +107,6 @@ voted (finalized) proposals and converts them inti MLS proposals.
 * A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) 
 containing new consensus layer as separate module with tests.
 
-### Put all proposall message in one queue
-
-* fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:global-message-queue`
-* owner: Ekaterina
-* status: not started
-* start-date: 
-* end-date: 
-
-#### Description
-
-At the first stage of implementation we separated adding and messages
- to a group and deleting from a group into different threads, 
- we need one message queue to work with consensus.
-
-#### Deliverables
-
-* A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) 
-containing update of message processing 
-
 ### Multi-steward integration
 
 * fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:multi-steward-imp`

@@ -39,11 +39,13 @@ that show the potential improvement points of the discovery mechanism.
 
 * fully qualified name: `vac:acz:ift:2025q2-discovery-exploration:exploring`
 * owner: Ugur
-* status: not started
+* status: on-hold
 * start-date: 
 * end-date: 
 
 #### Description
+
+This task is moved to the 2025q3 due to the priority changes. 
 
 This task involves researching and evaluating peer-to-peer (P2P) discovery mechanisms, 
 specifically Kademlia DHT and DiscV5. 

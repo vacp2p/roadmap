@@ -51,3 +51,116 @@ with applicability and revelance(product-market fit), offering improvements over
 Waku integration.
 
 ## Task List
+
+### Updating RFC
+* fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:update-rfc`
+* owner: Akshaya
+* status: started (20%)
+* start-date: 
+* end-date: 
+
+#### Description
+This task entails completing updating the [mixnet RFC](https://rfc.vac.dev/vac/raw/mix) 
+with latest findings such as clarifications on the pluggable components, 
+introducing  the entry and exit layers and libp2p integrations.
+
+#### Deliverables
+
+* A [PR](https://github.com/vacp2p/rfc-index/pull/158) to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index)
+
+### Investigate Unexpected Mixnet Latency
+* fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:unexpected-latency`
+* owner: Akshaya
+* status: not started
+* start-date: 
+* end-date: 
+
+#### Description
+This task entails investigating to find root cause of unexpected latency.
+Observed latency with 3 mix hops and 100ms delays is ~1100–1600ms, 
+far exceeding the expected ~300ms. 
+Prior Lightpush tests showed much lower overhead. 
+
+
+#### Deliverables
+
+* A PR to [vacp2p/mix](https://github.com/vacp2p/mix)
+
+### Fix Premature Handler Invocation
+* fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:premature-handler`
+* owner: Akshaya
+* status: not started
+* start-date: 
+* end-date: 
+
+#### Description
+This task entails solving the issue that: in some runs, 
+handlers are triggered before any exit receives the message. 
+Likely due to publisher advertising the message via IHAVE 
+from its mcache while the mix path is still active. 
+Requires investigation and fix.
+
+
+#### Deliverables
+
+* A PR to [vacp2p/mix](https://github.com/vacp2p/mix)
+
+### Consulting Waku-mix 
+
+* fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:consulting-waku-mix`
+* owner: Akshaya
+* status: not started 
+* start-date: 
+* end-date: 
+
+#### Description
+
+Consulting about mixnet to Mixnet integration to the Waku.  
+
+#### Deliverables
+
+* PR to [vacp2p/mix](https://github.com/vacp2p/mix) or [waku-org/nwaku](https://github.com/waku-org/nwaku/) repo.
+
+### Multi SURB Design
+* fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:multi-surb-design`
+* owner: Akshaya
+* status: not started
+* start-date: 
+* end-date: 
+
+#### Description
+This task focuses on developing a multi-SURB scheme 
+capable of resolving inconsistencies that occur 
+when multiple SURBs are concurrently active.
+
+#### Deliverables
+
+* A [PR] to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index)
+
+### Mix benchmarking
+* fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:mix-benchmarking`
+* owner: Ben
+* status: not started
+* start-date: 
+* end-date: 
+
+#### Description
+This task involves running the next set of benchmarks after resolving the outstanding issues.
+
+#### Deliverables
+
+* A [PR] to [vacp2p/nim-libp2p](https://github.com/vacp2p/rfc-index)
+
+### nimlibp2p integration
+* fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:nimlibp2p-integration`
+* owner: Ben
+* status: not started
+* start-date: 
+* end-date: 
+
+#### Description
+This task focuses on integration the mix into the [vacp2p/nim-libp2p repo](https://github.com/vacp2p/nim-libp2p)
+
+#### Deliverables
+
+* A [PR] to [vacp2p/nim-libp2p](https://github.com/vacp2p/rfc-index)

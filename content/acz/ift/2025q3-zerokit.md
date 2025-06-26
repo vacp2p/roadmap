@@ -23,6 +23,8 @@ This commitment entails developing and maintaining Zerokit, including Zerokit v0
 [Zerokit](https://github.com/vacp2p/zerokit) is a collection of Zero Knowledge modules 
 that focus on RLN, developed in Rust, intended for integration with various system programming environments.
 
+During 2025q2, we release Zerokit v0.8.0 which is wasm integration and tree optimization with better performance. 
+
 ### Narratives
 
 By utilizing the zerokit commitment, we will reinforce the Conduit of Expertise narrative by:

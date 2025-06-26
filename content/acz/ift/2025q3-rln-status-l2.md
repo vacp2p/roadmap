@@ -43,3 +43,71 @@ We will also strengthen the Premier Research Destination narrative by:
 - Offering a RLN use-case to the ecosystem that can be used for other gasless roll-up projects.
 
 ## Task List
+
+### Maintain RLN Specification
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:rln-spec-maintain`
+* owner: Ugur
+* status: not started
+* start-date: 
+* end-date: 
+
+### Description
+
+This task focuses on maintainin a specification of RLN deployment to the Status L2 network, 
+based in the feedbacks and changes during testnet.
+
+### Deliverables
+
+* A Notion doc document that has implementation details. 
+
+### Researching decentralized architecture
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:research-decentralized`
+* owner: Ugur
+* status: not started
+* start-date: 
+* end-date: 
+
+### Description
+
+This task focuses on researching more decentralized and applicable solutions to the Status L2 network, 
+by minimize the prover and RLN centralization. 
+
+### Deliverables
+
+* A Notion doc document that has implementation details.
+
+### E2E Prover module testing 
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:e2e-prover-testing`
+* owner: Sylvain
+* status: not started
+* start-date: 2025/07/01
+* end-date: 2025/07/15
+
+### Description
+
+This task focuses on testing prover module with its edge cases before the testnet. 
+The findings and feedbacks will be reflected to the RLN specification.
+
+### Deliverables
+
+* A Notion doc document that has implementation details.
+
+### Devnet testing 
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:devnet-testing`
+* owner: Sylvain
+* status: not started
+* start-date: 2025/07/15
+* end-date: 2025/09/15
+
+### Description
+
+This task focuses on testing internal devnet. 
+The findings and feedbacks will be reflected to the RLN specification.
+
+### Deliverables
+
+* A Notion doc document that has implementation details.

@@ -15,12 +15,14 @@ tags:
     - multi steward implementation
     - Refinement and maintain de-MLS RFC
     - EF grant application 
-- Mixnet
+- libp2p mix
     - Publishing a blospot
-    - Publishig a paper 
     - SURB implementation
+    - EF grant application
+    - Initial incentivasation research
 - RLN Status L2
     - Testing RLN deployment
+    - Research on better decentralized architecture
 - Discovery
     - Conducting initial research
 - IFT ZK Calls
@@ -34,13 +36,12 @@ tags:
 - de-MLS
     - Integration Ethereum Authentication
     - Maintain de-MLS RFC
-- Mixnet
-    - Publishing a blospot
-    - Publishig a paper 
-    - SURB implementation 
-    - Releasing product ready implementation
+    - Ready for Waku interagtion with multi-steward
+- libp2p Mix
+    - Releasing product ready core implementation, 
+    which is Sphinx package transmission including SURB.  
 - RLN Status L2
-    - Testnet integration
+    - Public testnet integration
 
 ### 2026Q1 and beyond
 
@@ -50,17 +51,19 @@ tags:
     - Public testnet 
     - Ready for Waku production
 - RLN Status L2
-    - Design V1 
+    - Design V1 for fully decentralized architecture
 
 
-#### Uncategorized
+### Uncategorized
 The following items are not part of our current roadmap. 
 
+- de-MLS 
+    - Applyting EF grant
 - RLNV3
     - RLNv3 RFC creation
 - Zerokit 
     RLNv3 integration
-- Mixnet
-    - Incentivation
+- libp2p mix
+    - Incentivation research in details
     
 

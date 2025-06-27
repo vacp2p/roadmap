@@ -87,22 +87,6 @@ and receive a commit message as an output.
 * A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) 
 containing new consensus layer as separate module with tests.
 
-### Integrate wallet based registration
-
-* fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:wallet-based-register`
-* owner: Ekaterina
-* status: not started
-* start-date: 2025/07/20
-* end-date: 2025/08/20
-
-#### Description
-
-For the first version de-mls used a mock version for online registration, now it makes sense to add wallet support for user authentication
-
-#### Deliverables
-
-A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) containing support of wallet as authentication part.
-
 ### Multi-steward integration
 
 * fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:multi-steward-imp`

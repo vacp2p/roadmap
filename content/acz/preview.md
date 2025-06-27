@@ -15,7 +15,7 @@ tags:
     - multi steward implementation
     - Refinement and maintain de-MLS RFC
     - EF grant application 
-- libp2p mix
+- libp2p-mix
     - Publishing a blospot
     - SURB implementation
     - EF grant application
@@ -37,7 +37,7 @@ tags:
     - Integration Ethereum Authentication
     - Maintain de-MLS RFC
     - Ready for Waku interagtion with multi-steward
-- libp2p Mix
+- libp2p-mix
     - Releasing product ready core implementation, 
     which is Sphinx package transmission including SURB.  
 - RLN Status L2
@@ -63,7 +63,7 @@ The following items are not part of our current roadmap.
     - RLNv3 RFC creation
 - Zerokit 
     RLNv3 integration
-- libp2p mix
+- libp2p-mix
     - Incentivation research in details
     
 

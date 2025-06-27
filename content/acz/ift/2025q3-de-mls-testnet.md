@@ -71,9 +71,9 @@ The RFC needs to contain concrete flow, and explaination.
 
 * fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:consensus-layer`
 * owner: Ekaterina
-* status: not started 
-* start-date: 
-* end-date: 
+* status: started (10%)
+* start-date: 2025/06/25
+* end-date: 2025/07/13
 
 #### Description
 
@@ -87,33 +87,29 @@ and receive a commit message as an output.
 * A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) 
 containing new consensus layer as separate module with tests.
 
+### Integrate wallet based registration
 
-### Voting proposal implementation
-
-* fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:voting-proposal`
+* fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:wallet-based-register`
 * owner: Ekaterina
-* status: not started 
-* start-date: 
-* end-date: 
+* status: not started
+* start-date: 2025/07/20
+* end-date: 2025/08/20
 
 #### Description
 
-Voting proposals are different than the MLS proposals. 
-The members inititalize the voting proposal and steward collects the 
-voted (finalized) proposals and converts them inti MLS proposals. 
+For the first version de-mls used a mock version for online registration, now it makes sense to add wallet support for user authentication
 
 #### Deliverables
 
-* A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) 
-containing new consensus layer as separate module with tests.
+A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) containing support of wallet as authentication part.
 
 ### Multi-steward integration
 
 * fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:multi-steward-imp`
 * owner: Ekaterina
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/08/01
+* end-date: 2025/09/30
 
 #### Description
 
@@ -124,3 +120,20 @@ changes to protect single point of failure, better availability and decentraliza
 
 * A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) 
 containing update of message processing 
+
+### de-mls maintance
+
+* fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:de-mls-maintaining`
+* owner: Ekaterina
+* status: started
+* start-date: 2025/06/30
+* end-date: 2025/09/30
+
+#### Description
+
+This task encompasses all maintenance updates for de-mls, including CI updates,
+testing, small issues and the creation of future issues.
+
+#### Deliverables
+
+A set of PRs and issues to  [de-MLS repository](https://github.com/vacp2p/de-mls)

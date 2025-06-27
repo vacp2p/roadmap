@@ -50,9 +50,9 @@ to promote the project and gain support from the Ethereum ecosystem.
 
 ## Task List
 
-### Maintain de-MLS RFC with multi admins 
+### Maintain de-MLS RFC with multi stewards 
 
-* fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:multi-admin-rfc`
+* fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:multi-steward-rfc`
 * owner: Ugur
 * status: not started 
 * start-date: 
@@ -77,7 +77,7 @@ The RFC needs to contain concrete flow, and explaination.
 
 #### Description
 
-Implement a consensus mechanism for one admin based on RFC, i.e. 
+Implement a consensus mechanism for one steward based on RFC, i.e. 
 in the end we want to see a separate module 
 that will process all incoming proposals for group state changes 
 and receive a commit message as an output.

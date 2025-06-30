@@ -45,6 +45,25 @@ reinforcing cross project collaboration.
 
 ## Task list
 
+### Improve tooling
+
+* fully qualified name: `vac:dst:ift:2025q3-dst-tooling:improve tooling`
+* owner: Pearson
+* status: 0%
+* start-date: 2025/07/01
+* end-date: 2025/07/04
+
+#### Description
+Move values.yamls to same place under experiments (instead of spread throughout node/publisher/etc.)
+Ensure fixes made during regression testing are merged in.
+Add get-filter-messages and get-store-messages images.
+Create, organize and prioritize nice-to-haves in the codebase.
+
+#### Deliverables
+- PRs:
+- Related Documents:
+
+
 ### Adversarial scenarios
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:status-waku-log-parser`

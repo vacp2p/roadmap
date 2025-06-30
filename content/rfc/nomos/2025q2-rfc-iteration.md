@@ -42,7 +42,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
  Fully qualified name: 
   `vac:rfc:nomos:2025q2-rfc-iteration-choosing-new-rfcs`
 - Owner: cofson
-- Status: 45%
+- Status: 100%
 - Start date: 2025/04/01
 - End date: 2025/06/30
 
@@ -57,7 +57,7 @@ and thus ready for being included in the rfc-index.
 - Fully qualified name:
   `vac:rfc:nomos:2025q2-rfc-iteration:30/adaptive-nodes`
 - Owner: cofson
-- Status: 95%
+- Status: 99% (https://github.com/vacp2p/rfc-index/pull/157)
 - Start date: 2025/05/04
 - End date: 2025/05/21
 
@@ -66,7 +66,7 @@ and thus ready for being included in the rfc-index.
 - Fully qualified name:
   `vac:rfc:nomos:2025q2-rfc-iteration:nomosda-encoding`
 - Owner: cofson
-- Status: 95%
+- Status: 99% (https://github.com/vacp2p/rfc-index/pull/156)
 - Start date: 2025/05/04
 - End date: 2025/04/21
 
@@ -75,6 +75,6 @@ and thus ready for being included in the rfc-index.
 - Fully qualified name:
   `vac:rfc:nomos:2025q2-rfc-iteration:nomosda-network`
 - Owner: cofson
-- Status: 95%
+- Status: 99% (https://github.com/vacp2p/rfc-index/pull/160)
 - Start date: 2025/05/04
 - End date: 2025/05/21

@@ -99,7 +99,7 @@ as well as any other outdated parts of the specification.
 - Fully qualified name:
   `vac:rfc:waku:2025q1-rfc-iteration:53/waku2-x3dh`
 - Owner: cofson
-- Status: 95%
+- Status: 100% (https://github.com/vacp2p/rfc-index/pull/150)
 - Start date: 2025/04/20
 - End date: 2025/05/05
 
@@ -167,7 +167,7 @@ as well as any other outdated parts of the specification.
 - Fully qualified name:
   `vac:rfc:waku:2025q1-rfc-iteration:waku2-enr`
 - Owner: jimstir
-- Status: 0%
+- Status: 95% (https://github.com/waku-org/specs/pull/67)
 - Start date: 2025/05/15
 - End date: 2025/05/25
 
@@ -189,7 +189,7 @@ as well as any other outdated parts of the specification.
 - Fully qualified name:
   `vac:rfc:waku:2025q1-rfc-iteration:waku2-device-pairing`
 - Owner: jimstir
-- Status: 95%
+- Status: 100% (https://github.com/waku-org/specs/pull/63)
 - Start date: 2025/05/09
 - End date: 2025/05/20
 

@@ -44,7 +44,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Fully qualified name:
   `vac:rfc:nescience:2025q2-rfc-iteration:key-protocol-specification`
 - Owner: cofson
-- Status: 95%
+- Status: 99% (https://github.com/vacp2p/rfc-index/pull/162)
 - Start date: 2025/06/05
 - End date: 2025/06/31
 
@@ -53,6 +53,6 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Fully qualified name:
   `vac:rfc:nescience:2025q2-rfc-iteration:utxo-specification`
 - Owner: cofson
-- Status: 95%
+- Status: 99% (https://github.com/vacp2p/rfc-index/pull/164)
 - Start date: 2025/06/05
 - End date: 2025/06/31

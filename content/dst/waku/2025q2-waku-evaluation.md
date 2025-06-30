@@ -84,7 +84,7 @@ and report findings.
 ### Regression testing (recurring)
 
 * fully qualified name: `vac:dst:waku:2025q2-waku-evaluation:regression-testing`
-* owner: Alberto
+* owner: Pearson
 * status: recurring
 * start-date: 2025-04-01
 * end-date: 2025-06-30
@@ -100,4 +100,7 @@ and ensure they don't happen again.
 
 #### Deliverables
 - Reports:
+  - [Notion: nWaku v0.36](https://www.notion.so/Waku-regression-testing-v0-36-21c8f96fb65c804dab04d676c2a6121e)
+  - [Notion: nWaku v0.36 notes](https://www.notion.so/Experiments-for-nWaku-v36-0-21e8f96fb65c801e9ffcd25cf0d88370)
 - Related PRs if apply:
+  - [Github Commit: Cript to generate input for log scraping](https://github.com/vacp2p/10ksim/commit/5ae2a3ca6faf2b6c8d0cb750c37c7c2afaa23e66)

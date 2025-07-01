@@ -62,7 +62,7 @@ PRs and issues
 
 * fully qualified name: `vac:qa:waku:2025q2-waku-go-bindings-testing:maintenance`
 * owner: aya
-* status: in progress (80%)
+* status: done
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -81,7 +81,7 @@ investigating and resolving issues, and implementing minor improvements to the t
 - [bug: MsgChan still full after reading messages](https://github.com/waku-org/waku-go-bindings/issues/70)
 - [bug: Test failed with error ConnectionChangeChan is full](https://github.com/waku-org/waku-go-bindings/issues/71)
 - [Warning message about exception in pubsub handling](https://github.com/waku-org/waku-go-bindings/issues/72) 
-
+- Monitroring CI daily failures and update summary [report](https://discord.com/channels/@me/1338127019740889141/1387020605202759710) with failed tests & share with devs
 
 ### 12H Longevity
 

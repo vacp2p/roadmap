@@ -70,7 +70,5 @@ These tests will include real-world edge cases like:
 - Handling cluster and shard mismatches
 
 #### Deliverables
-
-PRs and issues
-
-
+- Issue [3471](https://github.com/waku-org/nwaku/issues/3471)
+- Issue [3479](https://github.com/waku-org/nwaku/issues/3479)

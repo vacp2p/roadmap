@@ -94,7 +94,7 @@ Focus: implementation of tests according to the test plan, sections:
 
 * fully qualified name: `vac:qa:vac:2025q2-nim-libp2p-testing:gossipsub-extended-part3`
 * owner: radek
-* status: in progress (45%)
+* status: done
 * start-date: 2025/06/09
 * end-date: 2025/06/30
 
@@ -115,6 +115,7 @@ Focus: implementation of tests according to the test plan, sections:
 - [test(gossipsub): organise Behavior tests](https://github.com/vacp2p/nim-libp2p/pull/1468)
 - [test(gossipsub): behaviourPenalty tests](https://github.com/vacp2p/nim-libp2p/pull/1469)
 - [test(gossipsub): updateScores tests](https://github.com/vacp2p/nim-libp2p/pull/1471)
+- [test(gossipsub): scoring integration test](https://github.com/vacp2p/nim-libp2p/pull/1487)
 
 ### Pubsub
 

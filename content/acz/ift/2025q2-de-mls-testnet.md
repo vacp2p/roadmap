@@ -117,7 +117,7 @@ RFC which is fast and efficient for p2p networks.
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:multi-admin-rfc`
 * owner: Ugur
-* status: started (20%)
+* status: started (80%)
 * start-date: 2025/05/04
 * end-date: 2025/05/26
 
@@ -175,7 +175,7 @@ containing new consensus layer as separate module with tests.
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:commit-and-proposal`
 * owner: Ekaterina
-* status: started (10%)
+* status: done
 * start-date: 2025/05/05
 * end-date: 2025/06/30
 
@@ -186,21 +186,18 @@ into the corresponding proposal and commits for applying the group state update.
 
 #### Deliverables
 
-* A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls)
+* A [PR](https://github.com/vacp2p/de-mls/pull/36) to the [de-MLS repository](https://github.com/vacp2p/de-mls)
 updating the API for separate commit and proposal messages.
 
 ### Put all proposall message in one queue
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:global-message-queue`
 * owner: Ekaterina
-* status: on-hold
+* status: done
 * start-date: 2025/05/19
 * end-date: 2025/05/30
 
 #### Description
-
-This task is on hold until the next quarter q3-2025 as this task does not affect the functionality,
-but is an extension of it and is not yet urgent from the consensus point of view.
 
 At the first stage of implementation we separated adding and messages
 to a group and deleting from a group into different threads,
@@ -208,18 +205,20 @@ we need one message queue to work with consensus.
 
 #### Deliverables
 
-* A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls)
+* A [PR](https://github.com/vacp2p/de-mls/pull/36) to the [de-MLS repository](https://github.com/vacp2p/de-mls)
 containing update of message processing  
 
 ### Update frontend
 
 * fully qualified name: `vac:acz:ift:2025q2-de-mls-tesnet:frontend-updating`
 * owner: Ekaterina
-* status: started (5%)
+* status: cancelled
 * start-date: 2025/05/01
 * end-date: 2025/06/30
 
 #### Description
+
+This task is cancelled due to the lack of need to update the frontend for the de-MLS poc.
 
 The current frontend is difficult to maintain and besides adding new functionality
 for testing now requires a lot of effort.

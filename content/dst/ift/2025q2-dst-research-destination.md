@@ -79,3 +79,14 @@ Share the DST work in the forum.
 * status: recurring
 * start-date: 2025-04-30
 * end-date: 2025-06-30
+
+#### Description
+Create a set of public reports for the DST work.
+
+#### Deliverables
+- Main notion page: [DST-Reports](https://zealous-polka-dc7.notion.site/DST-Reports-1228f96fb65c80729cd1d98a7496fe6f?pvs=74)
+  - [nim-libp2p 1.10.0](https://zealous-polka-dc7.notion.site/Nim-libp2p-v1-10-0-regression-testing-May-2025-1f28f96fb65c80d58334f0c1a98ba23b)
+  - [nim-libp2p 1.11.0](https://zealous-polka-dc7.notion.site/Nim-libp2p-v1-11-0-regression-testing-June-2025-2118f96fb65c802ca1b7c4233271ca26?pvs=74)
+  - [nim-libp2p Quic Issues](https://zealous-polka-dc7.notion.site/List-of-Issues-found-so-far-1ca8f96fb65c801b9c9ad4cceb16fa72?pvs=74)
+  - [nim-libp2p Mix](https://zealous-polka-dc7.notion.site/Nim-libp2p-Mix-May-2025-1f38f96fb65c800a8466f68472e799db?pvs=74)
+  - [Nwaku 0.36](https://zealous-polka-dc7.notion.site/Waku-regression-testing-v0-36-June-2025-21c8f96fb65c804dab04d676c2a6121e?pvs=74)

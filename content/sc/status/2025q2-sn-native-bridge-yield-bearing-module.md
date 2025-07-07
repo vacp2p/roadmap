@@ -45,8 +45,8 @@ The goal is to have a clear plan on how to implement the fundamental architectur
 ### Fundamental Architecture Implementation
 
 * fully qualified name: `2025q2-sn-native-bridge-yield-bearing-module:implementation`
-* owner: andrea 
-* status: not started
+* owner: andrea
+* status: done
 * start-date: 2025/05/01
 * end-date: 2025/05/30
 
@@ -62,8 +62,8 @@ Testing and verification of its functionality is also part of this task and will
 
 ### Status Networtk Devnet Deployment
 * fully qualified name: `2025q2-sn-native-bridge-yield-bearing-module:devnet-deployment`
-* owner: 
-* status: not started
+* owner: andrea
+* status: done
 * start-date: 2025/06/01
 * end-date: 2025/06/31
 

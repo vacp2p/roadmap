@@ -111,3 +111,18 @@ The findings and feedbacks will be reflected to the RLN specification.
 ### Deliverables
 
 * A Notion doc document that has implementation details.
+
+### Prover Module maintaining
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:maintaining`
+* owner: Sylvain
+* status: started (0%)
+* start-date: 2025/07/07
+* end-date: 2025/09/25
+
+#### Description
+This task encompasses all maintenance updates for prover module, 
+including CI updates and the creation of future issues.
+
+#### Deliverables
+A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).

@@ -236,7 +236,7 @@ A [PR](https://github.com/vacp2p/zerokit/pull/311) to `zerokit` and linked to th
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:perfomance-updates-blogpost`
 * owner: Ben
-* status: started (0%)
+* status: started (75%)
 * start-date: 2025/05/26
 * end-date: 2025/06/30
 
@@ -262,7 +262,7 @@ It should make technical concepts accessible and provide examples or diagrams wh
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:zerokit-maintaining`
 * owner: Ekaterina
-* status: started (40%)
+* status: done
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 

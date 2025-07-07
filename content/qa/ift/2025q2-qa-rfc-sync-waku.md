@@ -36,7 +36,7 @@ identifying gaps and proposing or creating additional tests as necessary.
 
 * fully qualified name: `vac:qa:ift:2025q2-qa-rfc-sync-waku:nwaku`
 * owner: fbarbu15
-* status: in progress (80%)
+* status: done
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -53,6 +53,7 @@ identifying gaps and proposing or creating additional tests as necessary.
 - Lightpush [done](https://www.notion.so/Nwaku-Lighpush-1e48f96fb65c805e88b9c084013a5d0c)
 - Store [done](https://www.notion.so/Nwaku-Store-2188f96fb65c80e78d08d3199aa103d6)
 - Reported issue with [store missmaches found](https://github.com/waku-org/nwaku/issues/3462)
+- Peer exchange [done](https://www.notion.so/Nwaku-Peer-Exchange-21f8f96fb65c80b0be68cc33f32a423d)
 
 ### js-waku
 

@@ -55,7 +55,7 @@ These tests aim to validate internal mechanics such as:
 
 * fully qualified name: `vac:qa:waku:2025q2-waku-sync-testing:integration`
 * owner: aya
-* status: in progress(40%)
+* status: done
 * start-date: 2025/04/29
 * end-date: 2025/05/19
 
@@ -70,7 +70,5 @@ These tests will include real-world edge cases like:
 - Handling cluster and shard mismatches
 
 #### Deliverables
-
-PRs and issues
-
-
+- Issue [3471](https://github.com/waku-org/nwaku/issues/3471)
+- Issue [3479](https://github.com/waku-org/nwaku/issues/3479)

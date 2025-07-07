@@ -77,7 +77,7 @@ ensuring secure communications, and controlling unauthorized access.
 
 * fully qualified name: `vac:qa:nomos:2025q2-da-testing:dispersal-resilience`
 * owner: romanzac
-* status: in progress (90%)
+* status: done
 * start-date: 2025/06/9
 * end-date: 2025/06/30
 
@@ -89,8 +89,10 @@ and maintaining the integrity of the data handling mechanisms.
 - chore: Nomos node with mutated DA layer
     [PR 2](https://github.com/logos-co/nomos-security-tests/pull/2) -> cleanup into [PR 3](https://github.com/logos-co/nomos-security-tests/pull/3) is in progress
 - Test/dispersal resilience
-    [PR 19 - in progress](https://github.com/logos-co/nomos-e2e-tests/pull/19)
+    [PR 19](https://github.com/logos-co/nomos-e2e-tests/pull/19)
 - Dispersal not prevented for a blob with tampered data
     [Issue 1369 - open](https://github.com/logos-co/nomos/issues/1369)
 - Error 'blob sampling timed out' too generic to hint about problem with RS encoding
     [Issue 1383 - open](https://github.com/logos-co/nomos/issues/1383)
+- TF-IDF based log parsing 
+    [PR 20 - merged](https://github.com/logos-co/nomos-e2e-tests/pull/20)

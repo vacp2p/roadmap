@@ -66,6 +66,12 @@ through the [Project Grants](https://esp.ethereum.foundation/applicants/project-
 * start-date: 2025-04-30
 * end-date: 2025-06-30
 
+#### Description
+Share the DST work in the forum.
+
+#### Deliverables
+- Forum Post: [Link](https://forum.vac.dev/t/dst-reports-q2/528)
+
 ### Public reports (recurring)
 
 * fully qualified name: `vac:dst:ift:2025q2-dst-research-destination:public-reports`

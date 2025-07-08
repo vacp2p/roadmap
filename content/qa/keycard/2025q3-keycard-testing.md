@@ -23,9 +23,9 @@ description: Ensure quality of Keycard applications.
 
 * fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:shell-tests`
 * owner: romanzac
-* status: not started
-* start-date: 
-* end-date: 
+* status: in progress (10%)
+* start-date: 2025/07/01
+* end-date: 2025/09/01
 
 #### Description
 Create a suite of tests that verify that the Keycard Shell works as expected.

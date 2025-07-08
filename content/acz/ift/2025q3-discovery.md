@@ -1,7 +1,7 @@
 ---
 title: Discovery exploration
 tags:
-  - "2025q2"
+  - "2025q3"
   - "acz"
   - "ift"
 draft: false
@@ -9,7 +9,7 @@ description: "Exploring Kademlia DHT and Discv5 to identify promising research d
 
 ---
  
-`vac:acz:ift:2025q2-discovery-exploration`
+`vac:acz:ift:2025q3-discovery-exploration`
 
 Exploring Kademlia DHT and Discv5 to identify promising research directions
 ## Description
@@ -37,15 +37,13 @@ that show the potential improvement points of the discovery mechanism.
 
 ### Exploring Discovery
 
-* fully qualified name: `vac:acz:ift:2025q2-discovery-exploration:exploring`
+* fully qualified name: `vac:acz:ift:2025q3-discovery-exploration:exploring`
 * owner: Ugur
-* status: on-hold
+* status: not started
 * start-date: 
 * end-date: 
 
 #### Description
-
-This task is moved to the 2025q3 due to the priority changes. 
 
 This task involves researching and evaluating peer-to-peer (P2P) discovery mechanisms, 
 specifically Kademlia DHT and DiscV5. 

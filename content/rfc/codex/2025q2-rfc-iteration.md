@@ -51,7 +51,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Fully qualified name:
   `vac:rfc:codex:2025q2-rfc-iteration:the-block-exchange'
 - Owner: cofson
-- Status: 0%
+- Status: 10%
 - Start date: 2025/06/01
 - End date: 2025/06/20
 

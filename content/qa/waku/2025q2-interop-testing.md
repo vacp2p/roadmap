@@ -26,7 +26,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:waku:2025q2-interop-testing:maintenance`
 * owner: fbarbu15
-* status: in progress (40%)
+* status: done
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -41,7 +41,10 @@ investigating and resolving issues, and implementing minor improvements to the t
 - [chore: add reconciliation metrics](https://github.com/waku-org/waku-interop-tests/pull/113)
 - [test: Many tests fail on CI related to topics supscribtion](https://github.com/waku-org/nwaku/issues/3414)
 - [chore: Remove go-waku from workflows](https://github.com/waku-org/waku-interop-tests/pull/117)
-
+- [bug: node won’t start with RLN in on-chain dynamic mode 2](https://github.com/waku-org/nwaku/issues/3208)
+- [bug: Raised issue related to relay fetch](https://github.com/waku-org/nwaku/issues/3444)
+- [chore: Fixed failing tests](https://github.com/waku-org/waku-interop-tests/pull/121)
+- [bug: node won't start with RLN in on-chain dynamic mode](https://github.com/waku-org/nwaku/issues/3208)
 
 ### js-waku filter hardening
 
@@ -52,6 +55,8 @@ investigating and resolving issues, and implementing minor improvements to the t
 * end-date: 2025/04/30
 
 #### Description
+Moved to Q3! Could not be completed in Q2 because we were responsible for integrating status QA CCs into our team.
+
 Harden js-waku filter protocol by adding more advanced tests like:
 - Longevity test focused on sending/receiving messages continuously over a long duration (e.g., 6 hours)
 - Sanity checks in terms of throughput of Waku messages of different sizes

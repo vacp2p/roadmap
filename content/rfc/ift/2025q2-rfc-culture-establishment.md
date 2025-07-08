@@ -43,7 +43,7 @@ similar to [IETF](https://www.ietf.org/).
 
 - Fully qualified name: `vac:rfc:ift:2025q2-culture-establishment-team-communication`
 - Owner: cofson
-- Status: not started
+- Status: 100%
 - Start date: 2025/04/01
 - End date: 2025/06/30
 

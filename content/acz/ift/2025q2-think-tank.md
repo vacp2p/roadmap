@@ -62,11 +62,13 @@ This task is important to diffuse the cryptographic components' how-know across 
 
 * fully qualified name: `vac:acz:ift:2025q2-think-tank:maintain-2`
 * owner: Marvin
-* status: not started
+* status: cancelled
 * start-date: 2025/04/14
 * end-date: 2025/04/26
 
 #### Description 
+
+This task is cancelled since we update the think tank weekly basis. 
 
 Updating the think-tank Notion page with up-to-date improvements such as cryptographic techniques 
 developed and researched by IFT teams, in particular ACZ, Nescience, Nomos and Codex.
@@ -80,11 +82,13 @@ This task is important to diffuse the cryptographic components' how-know across 
 
 * fully qualified name: `vac:acz:ift:2025q2-think-tank:wrapping-up`
 * owner: Marvin
-* status: not started
+* status: cancelled
 * start-date: 
 * end-date:
 
 #### Description 
+
+This task is cancelled since we update the think tank weekly basis. 
 
 Wrapping up the think-tank Notion page with adjusting structure and identifying the possible missing parts.
 

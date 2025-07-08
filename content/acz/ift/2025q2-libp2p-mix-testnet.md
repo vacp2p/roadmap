@@ -89,7 +89,7 @@ Delivering the implementation a simple gossipsub PoC over Waku the mixnet.
 ### Updating RFC
 * fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:update-rfc`
 * owner: Akshaya
-* status: started (20%)
+* status: done
 * start-date: 2025/04/1
 * end-date: 2025/04/21
 
@@ -102,12 +102,12 @@ Updating the [mixnet RFC](https://rfc.vac.dev/vac/raw/mix) with latest findings 
 
 #### Deliverables
 
-* A PR to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index)
+* A [PR](https://github.com/vacp2p/rfc-index/pull/158) to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index)
 
 ### Nomos Comparison
 * fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:nomos-comparison`
 * owner: Akshaya
-* status: not started 
+* status: done
 * start-date: 2025/05/19
 * end-date: 2025/06/02
 
@@ -124,7 +124,7 @@ aimed at identifying trade-offs in scalability, privacy, and protocol adaptabili
 ### Implementing SURB
 * fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:surb-implementation`
 * owner: Ben
-* status: started (0%)
+* status: started (40%)
 * start-date: 2025/05/19
 * end-date: 2025/06/10
 
@@ -140,8 +140,8 @@ section 3.4 and 3.5.
 
 ### Solving discrepancies
 * fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:solve-discrepancy`
-* owner: Ben
-* status: started (10%)
+* owner: Akshaya
+* status: started (85%)
 * start-date: 2025/05/28
 * end-date: 2025/06/10
 
@@ -157,7 +157,7 @@ This task entails solving the discrepancy in mix implementation based on [issue#
 
 * fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:consulting-waku-mix`
 * owner: Akshaya
-* status: started (20%)
+* status: done
 * start-date: 2025/05/1
 * end-date: 2025/06/30
 

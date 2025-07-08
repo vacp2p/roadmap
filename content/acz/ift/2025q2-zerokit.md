@@ -236,9 +236,9 @@ A [PR](https://github.com/vacp2p/zerokit/pull/311) to `zerokit` and linked to th
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:perfomance-updates-blogpost`
 * owner: Ben
-* status: started (0%)
+* status: started (75%)
 * start-date: 2025/05/26
-* end-date: 2025/06/06
+* end-date: 2025/06/30
 
 #### Description
 
@@ -262,21 +262,21 @@ It should make technical concepts accessible and provide examples or diagrams wh
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:zerokit-maintaining`
 * owner: Ekaterina
-* status: started (40%)
+* status: done
 * start-date: 2025/04/01
-* end-date: 2025/05/30
+* end-date: 2025/06/30
 
 #### Description
 This task encompasses all maintenance updates for Zerokit, including CI updates and the creation of future issues.
 
 #### Deliverables
-A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/). 
+A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/).
 
 ### Release v0.8.0
 
 * fully qualified name: `vac:acz:ift:2025q2-zerokit:release`
 * owner: Ekaterina
-* status: started (50%)
+* status: done
 * start-date: 2025/05/12
 * end-date: 2025/06/26
 

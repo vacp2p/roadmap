@@ -5,6 +5,7 @@ tags:
   - vac
 ---
 
+
 ## 2025q3 `vac:acz:`
 ---
 
@@ -18,7 +19,6 @@ tags:
 
 ### `nes`
 * [ ] [[acz/nes/2025q3-nescience-consulting|2025q3-nescience-consulting]]
-
 
 ---
 ## 2025q2 `vac:acz:`

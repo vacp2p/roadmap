@@ -1,7 +1,7 @@
 ---
 title: RLN Status L2
 tags:
-  - "2025q1"
+  - "2025q2"
   - "acz"
   - "ift"
 draft: false
@@ -48,7 +48,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:maintain`
 * owner: Ugur
-* status: started (60%)
+* status: done
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -62,17 +62,17 @@ with the existing infrastructure.
 
 #### Deliverables 
 
-* A document to ACZ notion page
+* [A set of documents](https://www.notion.so/Status-L2-RLN-Deployment-Main-Page-1d08f96fb65c80d58d88e87d88a158b3) to ACZ notion page
 
 ### Prover Service Development
 
 * fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:prover-service`
 * owner: Sylvain
-* status: started (30%)
+* status: done
 * start-date: 2025/04/16
 * end-date: 2025/06/30
 
-### Description
+#### Description
 
 This task involves integrating RLN (Rate-Limiting Nullifier) into the Status L2 architecture, 
 with a focus on the prover component within the Linea network. 
@@ -87,12 +87,16 @@ Key responsibilities include:
 
 * A PR to the appropriate repository, including the RLN integration and all related components.
 
+#### Deliverables 
+
+* A repo that is [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover)
+
 ### RPC Node Modification
 
 * fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:rpc-node-modification`
 
 * owner: Vinh
-* status: started (20%)
+* status: done
 * start-date: 2025/04/16
 * end-date: 2025/06/30
 
@@ -128,7 +132,7 @@ This task focuses on enhancing the interaction between RPC nodes and the Prover 
 
 * fully qualified name: `vac:acz:ift:2025q2-rln-status-l2:rln-spec`
 * owner: Ugur
-* status: started (10%)
+* status: started (70%)
 * start-date: 2025/05/20
 * end-date: 2025/06/10
 

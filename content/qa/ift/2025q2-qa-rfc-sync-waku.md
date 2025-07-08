@@ -36,7 +36,7 @@ identifying gaps and proposing or creating additional tests as necessary.
 
 * fully qualified name: `vac:qa:ift:2025q2-qa-rfc-sync-waku:nwaku`
 * owner: fbarbu15
-* status: in progress (40%)
+* status: done
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
@@ -51,6 +51,9 @@ identifying gaps and proposing or creating additional tests as necessary.
 - Relay [done](https://www.notion.so/Nwaku-Relay-1ce8f96fb65c803a90f5c25076206ee7)
 - Filter [done](https://www.notion.so/Nwaku-Filter-1d18f96fb65c80b1a465d1bd022cd3f9)
 - Lightpush [done](https://www.notion.so/Nwaku-Lighpush-1e48f96fb65c805e88b9c084013a5d0c)
+- Store [done](https://www.notion.so/Nwaku-Store-2188f96fb65c80e78d08d3199aa103d6)
+- Reported issue with [store missmaches found](https://github.com/waku-org/nwaku/issues/3462)
+- Peer exchange [done](https://www.notion.so/Nwaku-Peer-Exchange-21f8f96fb65c80b0be68cc33f32a423d)
 
 ### js-waku
 
@@ -68,6 +71,7 @@ identifying gaps and proposing or creating additional tests as necessary.
 - Coordinate with developers for bug fixes and/or additional tests.
 
 #### Deliverables
+* Note!! Moved to Q3. Could not be completed in Q2 because we were responsible for integrating status QA CCs into our team.
 * Notion page summarizing the current implementation-to-RFC mapping, discrepancies, and action items.
 * GitHub issues for required fixes or RFC updates.
 * Recommendations for improved or additional test coverage.
@@ -81,6 +85,7 @@ identifying gaps and proposing or creating additional tests as necessary.
 * end-date: 2025/06/30
 
 #### Description
+* Note!! No longer needed as go-waku will be sunset.
 - Compare each core protocol implemented in `go-waku` against the Waku RFCs.
 - Document any discrepancies found, such as missing specifications or incomplete implementations,
   and clarify whether the RFC or the implementation requires an update.

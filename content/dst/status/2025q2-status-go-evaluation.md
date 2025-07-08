@@ -70,5 +70,17 @@ with past ones. Make sure regressions are not happening,
 or any other functionality specific request that can come from the status team.
 
 #### Deliverables
-* [ ] Reports:
-* [ ] Related PRs if apply:
+* Reports:
+* Related PRs if apply:
+  - [Merged PR #1: Base-manifests](https://github.com/vacp2p/status-benchmarks/pull/1)
+  - [To review PR #2: Controlbox](https://github.com/vacp2p/status-benchmarks/pull/2)
+  - [To review PR #3: Status-Subscriber](https://github.com/vacp2p/status-benchmarks/pull/3)
+  - [To review PR #4: Status-Init](https://github.com/vacp2p/status-benchmarks/pull/4)
+  - [To review PR #5: Deployment Files](https://github.com/vacp2p/status-benchmarks/pull/5)
+  - [To review PR #6: Logger](https://github.com/vacp2p/status-benchmarks/pull/6)
+  - [To review PR #7: K8s Utils](https://github.com/vacp2p/status-benchmarks/pull/7)
+  - [To review PR #8: RPC & Signal clients](https://github.com/vacp2p/status-benchmarks/pull/8)
+  - [To review PR #9: Services](https://github.com/vacp2p/status-benchmarks/pull/9)
+  - [To review PR #10: StatusBackend](https://github.com/vacp2p/status-benchmarks/pull/10)
+  - [To review PR #11: Message Injection](https://github.com/vacp2p/status-benchmarks/pull/11)
+  - [To review PR #12: Setup StatusBackend functions](https://github.com/vacp2p/status-benchmarks/pull/12)

@@ -55,7 +55,7 @@ which topics we include or exclude.
 ### SE/DE improvements
 * fully qualified name: `vac:acz:nes:2025q2-nescience-consulting:SE-DE-improvements`
 * owner: Marvin
-* status: started (30%)
+* status: done
 * start-date: 2024/05/21
 * end-date: 2025/06/04
 
@@ -67,6 +67,29 @@ In Q1, shielded executions were a primary focus. In this task, we focus on impro
 
 This directly corresponds to Nescience's [Q2-R2](https://www.notion.so/R2-Updating-public-state-with-private-execution-SE-DE-improvements-1bf8f96fb65c81a98548fff27c4d1dcc) task.
 
-
 ### Deliverables
 * RFC style documents for SE/DE
+
+### Light user support in NSSA
+* fully qualified name: `vac:acz:nes:2025q2-nescience-consulting:light-users`
+* owner: Marvin
+* status: started (70%)
+* start-date: 2024/06/03
+* end-date: 2025/06/11
+
+### Description
+Light user support is essential for NSSA adoption. 
+This ensures a wide range of users can participate within NSSA. 
+It is necessary to ensure that light users can enjoy the same level of NSSA privacy guarantees as any other users. 
+To this end, we will examine privacy transactions (private, SE, DE) for light users. Specific analysis should include:
+
+- Investigate how other projects handle light user proof generation.
+- Potential privacy risks relying on a third party to run zkVM.
+- Investigate whether light users can practically compute portions of the proof locally to strengthen privacy.
+- Design protocol or mitigations (of current circuits) for outsourcing zkVM execution.
+
+Ties directly with NSSA’s task [Q2/R4](https://www.notion.so/R4-Lightweight-user-execution-model-1bf8f96fb65c81dc9471c6a03d2c8513?pvs=21).
+
+### Deliverables
+* Document covering private, SE, DE transactions performed by light users 
+with analysis on any privacy or security compromises.

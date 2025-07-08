@@ -25,9 +25,9 @@ This task is limited to the client functionality; Server functionality could be 
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:acme-registration`
 * owner: gabriel
-* status: 95%
+* status: 100%
 * start-date: 2025-04-14
-* end-date:
+* end-date: 2025-06-06
 
 #### Description
 Register new account on ACME server 
@@ -40,9 +40,9 @@ Register new account on ACME server
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:certificate-request-challenge`
 * owner: gabriel
-* status: 95%
+* status: 100%
 * start-date: 2025-04-14
-* end-date:
+* end-date: 2025-06-06
 
 #### Description
 Request challenge from the ACME server (typically Let's Encrypt)

@@ -68,7 +68,7 @@ Focus: clean up `nim-libp2p` PRs and issues related to `GossipSub` tests which w
 
 * fully qualified name: `vac:qa:vac:2025q2-nim-libp2p-testing:gossipsub-extended-part2`
 * owner: radek
-* status: in progress (70%)
+* status: done
 * start-date: 2025/05/19
 * end-date: 2025/06/09
 
@@ -85,12 +85,16 @@ Focus: implementation of tests according to the test plan, sections:
 - [test(gossipsub): heartbeat tests](https://github.com/vacp2p/nim-libp2p/pull/1391)
 - [test(gossipsub): include missing test files and handle flaky tests](https://github.com/vacp2p/nim-libp2p/pull/1416)
 - [fix(gossipsub): save iDontWants messages in the first element of history](https://github.com/vacp2p/nim-libp2p/pull/1393)
+- [test(gossipsub): message cache](https://github.com/vacp2p/nim-libp2p/pull/1431)
+- [test: checkUntilTimeout refactor](https://github.com/vacp2p/nim-libp2p/pull/1437)
+- [fix(GossipSub): save sent iHave in first element](https://github.com/vacp2p/nim-libp2p/pull/1405)
+- [test(gossipsub): paremeters](https://github.com/vacp2p/nim-libp2p/pull/1442)
 
 ### Gossipsub Extended - part3
 
 * fully qualified name: `vac:qa:vac:2025q2-nim-libp2p-testing:gossipsub-extended-part3`
 * owner: radek
-* status: not started (0%)
+* status: done
 * start-date: 2025/06/09
 * end-date: 2025/06/30
 
@@ -102,7 +106,16 @@ Focus: implementation of tests according to the test plan, sections:
 - Compatibility of Older/Newer Versions of the Protocol 
 
 #### Deliverables
-* PRs with links to added tests
+- [test(gossipsub): flaky tests](https://github.com/vacp2p/nim-libp2p/pull/1451)
+- [test: increase timeout](https://github.com/vacp2p/nim-libp2p/pull/1460)
+- [test(gossipsub): refactor and unify scoring tests](https://github.com/vacp2p/nim-libp2p/pull/1461)
+- [test(gossipsub): GossipThreshold and PublishThreshold tests](https://github.com/vacp2p/nim-libp2p/pull/1464)
+- [test(gossipsub): split unit and integration tests](https://github.com/vacp2p/nim-libp2p/pull/1465)
+- [test(gossipsub): rpcHandler - rateLimit and punishInvalidMessage tests](https://github.com/vacp2p/nim-libp2p/pull/1467)
+- [test(gossipsub): organise Behavior tests](https://github.com/vacp2p/nim-libp2p/pull/1468)
+- [test(gossipsub): behaviourPenalty tests](https://github.com/vacp2p/nim-libp2p/pull/1469)
+- [test(gossipsub): updateScores tests](https://github.com/vacp2p/nim-libp2p/pull/1471)
+- [test(gossipsub): scoring integration test](https://github.com/vacp2p/nim-libp2p/pull/1487)
 
 ### Pubsub
 
@@ -113,6 +126,8 @@ Focus: implementation of tests according to the test plan, sections:
 * end-date: 
 
 #### Description
+Moved to Q3! Gossipsub took longer than expected, but was done thoroughly.
+
 Expand the pubsub test coverage by following the test plan,
 checking what’s not covered, and implementing new tests for those scenarios.
 
@@ -128,6 +143,8 @@ checking what’s not covered, and implementing new tests for those scenarios.
 * end-date: 
 
 #### Description
+Moved to Q3! Gossipsub took longer than expected, but was done thoroughly.
+
 Expand the floodsub test coverage by following the test plan,
 checking what’s not covered, and implementing new tests for those scenarios.
 
@@ -138,13 +155,15 @@ checking what’s not covered, and implementing new tests for those scenarios.
 
 * fully qualified name: `vac:qa:vac:2025q2-nim-libp2p-testing:test-plans`
 * owner: fbarbu15
-* status: in progress (20%)
+* status: done
 * start-date: 2025/04/01
 * end-date: 2025/06/30
 
 #### Description
+Update part done, new test plan creation moved to Q3!
+
 Update and add new test plans for identify / push identify, ping, mplex multiplexer,
 and others to be determined later.
 
 #### Deliverables
-* Link with the Notion pages
+* [test plans](https://www.notion.so/Test-Plans-bd1d0eb57d334945a02a5f5dfc921c02)

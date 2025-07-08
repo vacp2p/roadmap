@@ -8,7 +8,7 @@ draft: false
 description: Maintain and improve existing Status smart contracts as requested.
 ---
 
-`vac:sc:status:2025q2-sn-native-bridge-yield-bearing-module`
+`vac:sc:status:2025q2-maintaining-status-contracts`
 
 Maintain and improve existing Status smart contracts as requested.
 

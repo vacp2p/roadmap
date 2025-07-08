@@ -28,32 +28,36 @@ Extend and adjust the existing e2e test Framework to support testing on mobile/t
 ### Framework Adjustments
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-mobile:framework-adjustments`
-* owner: nastya
-* status: 
-* start-date: 
-* end-date: 
+* owner: magnus
+* status: in progress (10%)
+* start-date: 2025/07/01
+* end-date: 2025/07/30
 
 #### Description
 - Adjust the existing squish Framework to run on mobile/tablet.
 - POC: Port at least 1 test to run on mobile/tablet.
 
 #### Deliverables
-- PRs
-
+- Attached Squish to tablet build locally but encountered several [issues regarding locators and driving emulators](https://www.notion.so/Test-automation-for-tablet-builds-Squish-Appium-etc-2288f96fb65c80a5bc44e77bc4349d81?source=copy_link)
+- Investigated appium as alternative for tablet build
+  - Successully launched a test on a tablet build using LamdaTest virtual devices. 
+- Investigated Maestro as an alternative for some use cases 
+  -  Successfully attached to app and used AI for navigation
 
 ### Port desktop tests
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-mobile:port-tests`
-* owner: magnus
-* status: 
-* start-date:
-* end-date: 
+* owner: magnus/nastya
+* status: in progress (5%)
+* start-date: 2025/07/01
+* end-date: 2025/09/01
 
 #### Description
 - Port all relevant tests to run on mobile/tablet.
 
 #### Deliverables
-- PRs
+- built android app on mac locally
+- built iOS app on mac locally and on real device as well
 
 
 ### Multiple devices

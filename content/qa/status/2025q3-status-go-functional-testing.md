@@ -26,16 +26,16 @@ as outlined in this [epic](https://github.com/status-im/status-go/issues/6064).
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:critical-flows`
 * owner: chu
-* status: not started
-* start-date: 
-* end-date: 
+* status: in progress (20%)
+* start-date: 2025/07/01
+* end-date: 2025/08/15
 
 #### Description
 Add functional test coverage to critical user flows like onboarding, 
 asset management or messaging as described in this [epic](https://github.com/status-im/status-go/issues/6064). 
 
 #### Deliverables
-* PRs with the new tests
+* test_: [critical flow RecoverAndLogin with 12,15,24 words mnemonic](https://github.com/status-im/status-go/pull/6688)
 
 
 ### Wallet features
@@ -60,26 +60,26 @@ TODO! This taks will need to be broken down into smaller task once we have more 
 ### Framework usage improvements
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:framework-improvements`
-* owner: chu
-* status: not started
-* start-date: 
-* end-date: 
+* owner: chu/florin
+* status: in progress (50%)
+* start-date: 2025/07/01
+* end-date: 2025/07/30
 
 #### Description
 Improve and simplify user/dev experience when running tests locally.
 Update readme and debugging.
 
 #### Deliverables
-* PRs with the new tests
-
+- Fixed the [reliability failures](https://github.com/status-im/status-go/pull/6736)
+- [Refactoring on how test fixtures are used](https://github.com/status-im/status-go/pull/6725)
 
 ### Status-backend based on nwaku
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:status-based-on-nwaku`
-* owner: chu
-* status: not started
-* start-date: 
-* end-date: 
+* owner: florin
+* status: in progress (20%)
+* start-date: 2025/07/01
+* end-date: 2025/09/30
 
 #### Description
 Run all status-backend tests on a 
@@ -87,7 +87,9 @@ Run all status-backend tests on a
 as described in the Waku FURPS
 
 #### Deliverables
-* Test Reports
+- Created this short [guide](https://www.notion.so/status-staging-testing-guide-2248f96fb65c80efb5eafe029d964343) on how to validate staging deploys
+- Executed status related tests for nwaku v0.36 and created a [test report](https://www.notion.so/Nwaku-v0-36-in-status-staging-2248f96fb65c8023b38cd4901646a105)
+- Executed waku interop tests for nwaku v0.36 and created a [test report](https://www.notion.so/Waku-regression-testing-v0-36-2268f96fb65c8073bd6bce16733d09cb)
 
 
 ### Reliability in Status Communities

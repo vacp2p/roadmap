@@ -95,9 +95,9 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:maintenance`
 * owner: nastya
-* status: 
-* start-date: 
-* end-date: 
+* status: in progress (10%)
+* start-date: 2025/07/01
+* end-date: 2025/09/30
 
 #### Description
 - Ongoing maintenance of Status Desktop tests. This includes updating tests for changes in status,
@@ -105,4 +105,5 @@ Oversee testing strategy around releases.
   and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
-- PRs
+- [chore(@e2e): disable testrail for nightly job and fix nightly tests](https://github.com/status-im/status-desktop/pull/18289)
+- [bug: Application crashes when trying to mint tokens with no access to data providers](https://github.com/status-im/status-desktop/issues/18291)

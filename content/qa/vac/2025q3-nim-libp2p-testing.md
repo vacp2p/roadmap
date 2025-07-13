@@ -34,16 +34,19 @@ Improve tooling around nim libp2p testing and ensure all implemented modules hav
 
 * fully qualified name: `vac:qa:vac:2025q3-nim-libp2p-testing:gossipsub-completion`
 * owner: radek
-* status: not started
+* status: in progress (60%)
 * start-date: 2025/07/01
-* end-date: 2025/07/15
+* end-date: 2025/07/22
 
 #### Description
 Complete any remaining Gossipsub testing tasks from Q2 if not fully finished.
 Ensure all edge cases and advanced scenarios are properly covered.
 
 #### Deliverables
-* PRs with links to added tests
+- [test(gossipsub): refactor compatibility related tests](https://github.com/vacp2p/nim-libp2p/pull/1495)
+- [test(gossipsub): Signature flags tests](https://github.com/vacp2p/nim-libp2p/pull/1496)
+- [test(gossipsub): behavior unit tests 1](https://github.com/vacp2p/nim-libp2p/pull/1501)
+- [test(gossipsub): behavior unit tests 2](https://github.com/vacp2p/nim-libp2p/pull/1503)
 
 ### Pubsub Testing
 

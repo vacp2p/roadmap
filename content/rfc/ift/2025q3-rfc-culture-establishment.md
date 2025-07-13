@@ -8,7 +8,7 @@ draft: false
 description: Continuation of RFC Culture establishment through introducing several new initiatives (discussion-related).
 ---
 
-`vac:rfc:ift:2025q2-rfc-culture-establishment`
+`vac:rfc:ift:2025q3-rfc-culture-establishment`
 
 Continuation of RFC Culture establishment
 through introducing several new initiatives (discussion-related).
@@ -43,9 +43,9 @@ similar to [IETF](https://www.ietf.org/).
 
 - Fully qualified name: `vac:rfc:ift:2025q2-culture-establishment-team-communication`
 - Owner: cofson
-- Status: 100%
-- Start date: 2025/04/01
-- End date: 2025/06/30
+- Status: not started
+- Start date: 2025/07/01
+- End date: 2025/09/30
 
 #### Description
 

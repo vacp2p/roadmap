@@ -56,7 +56,7 @@ from the point of view of a new developer.
 ### 30/ADAPTIVE-NODES
 
 - Fully qualified name:
-  `vac:rfc:waku:2025q1-rfc-iteration:30/adaptive-nodes`
+  `vac:rfc:waku:2025q2-rfc-iteration:30/adaptive-nodes`
 - Owner: jimstir
 - Status: 100% (https://github.com/vacp2p/rfc-index/pull/147)
 - Start date: 2025/04/04

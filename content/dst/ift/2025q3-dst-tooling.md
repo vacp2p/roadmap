@@ -47,9 +47,9 @@ reinforcing cross project collaboration.
 
 ### Improve tooling
 
-* fully qualified name: `vac:dst:ift:2025q3-dst-tooling:improve tooling`
+* fully qualified name: `vac:dst:ift:2025q3-dst-tooling:improve-tooling`
 * owner: Pearson
-* status: 0%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/04
 
@@ -61,6 +61,8 @@ Create, organize and prioritize nice-to-haves in the codebase.
 
 #### Deliverables
 - PRs:
+  - [Github PR: Add images](https://github.com/vacp2p/10ksim/pull/74)
+  - [Github PR: Experiments self contained](https://github.com/vacp2p/10ksim/pull/75)
 - Related Documents:
 
 

@@ -17,7 +17,7 @@ support the process of auditing raw, draft, mature selected RFCs.
 
 This commitment covers the writing of the following mature RFCs
 according to COSS, based on the Notion documentation:
-- 
+- TBD
 
 We will also include specification validation - 
 to make sure there are no errors, missing information, inconsistencies
@@ -37,6 +37,6 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 
 ## Task List
 
-
+TBD
 
 

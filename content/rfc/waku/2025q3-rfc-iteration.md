@@ -27,7 +27,8 @@ either in draft or raw states. The audit comprises of:
 - Checking for inconsistencies with other documentation/codebase.
 
 The following RFCs will be worked on in this quarter:
-- 
+- Qaku
+- Waku RLN Keystore
 
 We will also include specification validation - 
 editorial work through previous and future RFCs to improve them
@@ -48,3 +49,20 @@ from the point of view of a new developer.
 
 ## Task List
 
+### Qaku
+
+- Fully qualified name:
+  `vac:rfc:nomos:2025q3-rfc-iteration:qaku`
+- Owner: jimstir
+- Status: 10%
+- Start date: 2025/07/20
+- End date: 2025/08/21
+
+### Waku RLN Keystore
+
+- Fully qualified name:
+  `vac:rfc:nomos:2025q3-rfc-iteration:waku-rln-keystore`
+- Owner: jimstir
+- Status: 10%
+- Start date: 2025/07/20
+- End date: 2025/08/21

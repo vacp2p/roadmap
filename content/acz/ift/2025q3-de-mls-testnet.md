@@ -55,8 +55,8 @@ to promote the project and gain support from the Ethereum ecosystem.
 * fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:multi-steward-rfc`
 * owner: Ugur
 * status: not started 
-* start-date: 
-* end-date: 
+* start-date: 2025/07/21
+* end-date: 2025/08/18
 
 #### Description
 

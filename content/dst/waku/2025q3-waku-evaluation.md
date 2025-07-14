@@ -84,7 +84,7 @@ and ensure they don't happen again.
 
 * fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:store-dial-failure`
 * owner: Pearson
-* status: 0%
+* status: 50%
 * start-date: 2025-07-07
 * end-date: 2025-07-18
 
@@ -94,6 +94,7 @@ Investigate `PEER_DIAL_FAILURE` error found in regression tests in nwaku v0.36, 
 
 #### Deliverables
 - Reports:
+  - [Notion Notes](https://www.notion.so/Experiments-for-nWaku-v36-0-21e8f96fb65c801e9ffcd25cf0d88370#22d8f96fb65c807a8fe1d7c7496107a2)
 - Related PRs if apply:
 
 ### Quic-vs-tcp

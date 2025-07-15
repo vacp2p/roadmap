@@ -42,7 +42,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q3-ift-zk-calls:ift-zk-call-1`
 * owner: Marvin
-* status: not started
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/07/07
 
@@ -51,8 +51,9 @@ We will also strengthen the Premier Research Destination narrative by:
 Preparing the agenda and possible speakers for the ZK call on 1st July. 
 
 #### Deliverables
-A document of a summary of the ZK call 3 meeting to [ZK Notion page](https://www.notion.so/Past-Meeting-Notes-1198f96fb65c80e6a51afa9a507aa64e?pvs=4#1748f96fb65c80048162ca3202a94ba3). 
-A recorded video. 
+* A document of a summary of the ZK call 3 meeting to [ZK Notion page](https://www.notion.so/Past-Meeting-Notes-1198f96fb65c80e6a51afa9a507aa64e?pvs=4#1748f96fb65c80048162ca3202a94ba3). 
+* [A recorded video. ](https://www.youtube.com/watch?v=laZADpEj7v0)
+* [A forum post.](https://forum.vac.dev/t/arithmetic-circuit-representations/525)
 
 ### IFT ZK Call 2
 * fully qualified name: `vac:acz:ift:2025q3-ift-zk-calls:ift-zk-call-2`

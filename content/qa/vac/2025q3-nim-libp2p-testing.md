@@ -136,7 +136,7 @@ and others to be determined later.
 
 ### GossipSub Performance Testing
 
-* fully qualified name: `vac:qa:vc:2025q3-nim-libp2p-testing:gossipsub-performance`
+* fully qualified name: `vac:qa:vac:2025q3-nim-libp2p-testing:gossipsub-performance`
 * owner: radek
 * status: in progress (10%)
 * start-date: 2025/07/15

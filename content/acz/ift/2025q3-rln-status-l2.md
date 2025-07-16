@@ -71,7 +71,8 @@ based in the feedbacks and changes during testnet.
 
 ### Description
 
-This task focuses on testing smart contract testing specificaly karma and RLN contracts. 
+This task focuses on testing the interaction between the prover and the smart contract developed by the SC team. Code
+has been written (for both team) but never tested together.
 
 ### Deliverables
 
@@ -87,7 +88,7 @@ This task focuses on testing smart contract testing specificaly karma and RLN co
 
 ### Description
 
-This task focuses on profiling and finding bottlenecks for the prover module
+This task focuses on profiling and finding bottlenecks (memory allocations & cpu usage) for the prover module 
 so that the module can be more performant.
 
 ### Deliverables
@@ -104,8 +105,9 @@ so that the module can be more performant.
 
 ### Description
 
-Set up monitoring for the prover module using Prometheus and Grafana to observe real-time
-performance metrics and identify potential overload conditions or bottlenecks
+Set up monitoring for the prover module using Prometheus to observe real-time performance metrics and identify 
+potential overload conditions or bottlenecks. Also better tracing (using opentelemetry otlp protocol) should be done
+and tested (using for example: Jaeger) in order to ensure that everything is correctly logged.
 
 ### Deliverables
 
@@ -132,7 +134,7 @@ by minimize the prover and RLN centralization.
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:e2e-prover-testing`
 * owner: Sylvain
-* status: not started
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/07/15
 

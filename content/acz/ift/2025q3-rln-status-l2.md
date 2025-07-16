@@ -61,6 +61,56 @@ based in the feedbacks and changes during testnet.
 
 * A Notion doc document that has implementation details. 
 
+### Smart Contract Testing
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:sc-testing`
+* owner: Sylvain
+* status: started (0%)
+* start-date: 2025/07/15
+* end-date: 2025/07/31
+
+### Description
+
+This task focuses on testing smart contract testing specificaly karma and RLN contracts. 
+
+### Deliverables
+
+* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+
+### Profiling
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:profiling`
+* owner: Sylvain
+* status: started (0%)
+* start-date: 2025/07/15
+* end-date: 2025/08/15
+
+### Description
+
+This task focuses on profiling and finding bottlenecks for the prover module
+so that the module can be more performant.
+
+### Deliverables
+
+* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+
+### Tracking and Monitoring 
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:track-and-monitor`
+* owner: Sylvain
+* status: started (0%)
+* start-date: 2025/07/15
+* end-date: 2025/08/15
+
+### Description
+
+Set up monitoring for the prover module using Prometheus and Grafana to observe real-time
+performance metrics and identify potential overload conditions or bottlenecks
+
+### Deliverables
+
+* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+
 ### Researching decentralized architecture
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:research-decentralized`

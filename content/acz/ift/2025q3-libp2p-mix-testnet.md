@@ -55,7 +55,7 @@ Waku integration.
 ### Updating RFC
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:update-rfc`
 * owner: Akshaya
-* status: started (20%)
+* status: started (35%)
 * start-date: 
 * end-date: 
 

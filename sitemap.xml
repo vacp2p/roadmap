@@ -42,28 +42,46 @@
     <lastmod>2025-06-10T13:43:19.787Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/acz/ift/2025q2-de-mls-testnet</loc>
-    <lastmod>2025-06-17T15:16:35.325Z</lastmod>
+    <lastmod>2025-07-07T14:29:53.906Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/acz/ift/2025q2-discovery</loc>
-    <lastmod>2025-06-10T13:43:19.787Z</lastmod>
+    <lastmod>2025-07-08T19:02:37.595Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/acz/ift/2025q2-ift-zk-calls</loc>
     <lastmod>2025-06-17T15:16:35.325Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/acz/ift/2025q2-libp2p-mix-testnet</loc>
-    <lastmod>2025-06-17T15:16:35.325Z</lastmod>
+    <lastmod>2025-07-07T14:29:53.906Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/acz/ift/2025q2-rln-status-l2</loc>
-    <lastmod>2025-06-17T15:16:35.325Z</lastmod>
+    <lastmod>2025-07-07T14:29:53.906Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/acz/ift/2025q2-think-tank</loc>
     <lastmod>2025-06-17T15:16:35.325Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/acz/ift/2025q2-zerokit</loc>
-    <lastmod>2025-06-17T15:16:35.325Z</lastmod>
+    <lastmod>2025-07-07T14:29:53.906Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/acz/ift/2025q3-de-mls-testnet</loc>
+    <lastmod>2025-07-16T22:23:12.626Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/acz/ift/2025q3-discovery</loc>
+    <lastmod>2025-07-08T19:02:37.595Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/acz/ift/2025q3-ift-zk-calls</loc>
+    <lastmod>2025-07-16T22:23:12.626Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/acz/ift/2025q3-libp2p-mix-testnet</loc>
+    <lastmod>2025-07-16T22:23:12.626Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/acz/ift/2025q3-rln-status-l2</loc>
+    <lastmod>2025-07-16T22:23:12.626Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/acz/ift/2025q3-zerokit</loc>
+    <lastmod>2025-07-16T22:23:12.626Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/acz/</loc>
-    <lastmod>2025-06-10T13:43:19.791Z</lastmod>
+    <lastmod>2025-07-08T19:02:37.595Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/acz/nes/2024q4-nescience-consulting</loc>
     <lastmod>2025-06-10T13:43:19.791Z</lastmod>
@@ -71,11 +89,17 @@
     <loc>https://roadmap.vac.dev/acz/nes/2025q2-nescience-consulting</loc>
     <lastmod>2025-06-17T15:16:35.325Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/acz/nes/2025q3-nescience-consulting</loc>
+    <lastmod>2025-07-08T19:02:37.595Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/acz/nomos/2025q1-nomos-consulting</loc>
     <lastmod>2025-06-10T13:43:19.791Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/acz/nomos/2025q2-nomos-consulting</loc>
     <lastmod>2025-06-17T15:16:35.325Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/acz/preview</loc>
+    <lastmod>2025-07-07T14:12:50.672Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/acz/waku/2024q4-waku-rln-relay</loc>
     <lastmod>2025-06-10T13:43:19.791Z</lastmod>
@@ -927,10 +951,10 @@
     <lastmod>2025-06-10T13:43:19.819Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/ift/2025q2-dst-research-destination</loc>
-    <lastmod>2025-06-10T13:43:19.819Z</lastmod>
+    <lastmod>2025-07-13T18:53:30.228Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/ift/2025q2-dst-tooling</loc>
-    <lastmod>2025-06-25T18:11:40.754Z</lastmod>
+    <lastmod>2025-07-07T14:28:35.573Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/ift/2025q2-vaclab</loc>
     <lastmod>2025-06-10T13:43:19.819Z</lastmod>
@@ -939,13 +963,13 @@
     <lastmod>2025-06-25T18:11:40.758Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/ift/2025q3-dst-tooling</loc>
-    <lastmod>2025-06-25T18:11:40.758Z</lastmod>
+    <lastmod>2025-07-13T18:53:30.228Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/ift/2025q3-scaling-think-tank</loc>
     <lastmod>2025-06-25T18:11:40.758Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/</loc>
-    <lastmod>2025-06-25T18:11:40.758Z</lastmod>
+    <lastmod>2025-07-13T18:53:30.228Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/nomos/2025q1-nomos-scaling</loc>
     <lastmod>2025-06-10T13:43:19.819Z</lastmod>
@@ -956,6 +980,9 @@
     <loc>https://roadmap.vac.dev/dst/nomos/2025q3-nomos-scaling</loc>
     <lastmod>2025-06-25T18:11:40.758Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/dst/preview</loc>
+    <lastmod>2025-06-26T12:44:46.477Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/dst/status/2025q1-status-go-evaluation</loc>
     <lastmod>2025-06-10T13:43:19.823Z</lastmod>
   </url><url>
@@ -963,7 +990,10 @@
     <lastmod>2025-06-10T13:43:19.823Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/status/2025q2-status-go-evaluation</loc>
-    <lastmod>2025-06-10T13:43:19.823Z</lastmod>
+    <lastmod>2025-07-07T14:28:35.573Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/dst/status/2025q3-status-go-chat-protocol-benchmarks</loc>
+    <lastmod>2025-07-13T18:53:30.232Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/vac/2024q4-libp2p-evaluation</loc>
     <lastmod>2025-06-10T13:43:19.823Z</lastmod>
@@ -972,7 +1002,7 @@
     <lastmod>2025-06-10T13:43:19.823Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/vac/2025q2-libp2p-evaluation</loc>
-    <lastmod>2025-06-25T18:11:40.758Z</lastmod>
+    <lastmod>2025-07-13T18:53:30.232Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/vac/2025q3-libp2p-evaluation</loc>
     <lastmod>2025-06-25T18:11:40.758Z</lastmod>
@@ -993,7 +1023,7 @@
     <lastmod>2025-06-10T13:43:19.823Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/waku/2025q2-waku-evaluation</loc>
-    <lastmod>2025-06-10T13:43:19.823Z</lastmod>
+    <lastmod>2025-07-07T14:28:35.573Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/waku/2025q2-waku-scaling</loc>
     <lastmod>2025-06-10T13:43:19.823Z</lastmod>
@@ -1002,7 +1032,7 @@
     <lastmod>2025-06-10T13:43:19.823Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/waku/2025q3-waku-evaluation</loc>
-    <lastmod>2025-06-25T18:11:40.758Z</lastmod>
+    <lastmod>2025-07-13T18:53:30.232Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/dst/waku/2025q3-waku-scaling</loc>
     <lastmod>2025-06-25T18:11:40.758Z</lastmod>
@@ -1035,7 +1065,10 @@
     <lastmod>2025-06-10T13:53:33.562Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/monthly/2025-05</loc>
-    <lastmod>2025-06-10T16:39:40.907Z</lastmod>
+    <lastmod>2025-07-13T18:50:51.301Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/monthly/2025-06</loc>
+    <lastmod>2025-07-13T18:50:51.301Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/nes/</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
@@ -1060,6 +1093,9 @@
   </url><url>
     <loc>https://roadmap.vac.dev/p2p/acz/2025q2-acz-consulting</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/p2p/acz/2025q3-acz-consulting</loc>
+    <lastmod>2025-06-25T18:14:53.313Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/p2p/ift/2025q1-gossipsub-perf-improvements</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
@@ -1091,14 +1127,35 @@
     <loc>https://roadmap.vac.dev/p2p/ift/2025q2-nimlibp2p-webtransport</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/p2p/ift/2025q3-gossipsub-perf-improvements</loc>
+    <lastmod>2025-06-25T18:14:53.313Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/p2p/ift/2025q3-nimlibp2p-autonat-v2</loc>
+    <lastmod>2025-06-25T18:14:53.313Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/p2p/ift/2025q3-nimlibp2p-kademlia</loc>
+    <lastmod>2025-06-25T18:14:53.313Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/p2p/ift/2025q3-nimlibp2p-maintenance</loc>
+    <lastmod>2025-06-25T18:14:53.313Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/p2p/ift/2025q3-nimlibp2p-mix</loc>
+    <lastmod>2025-06-25T18:14:53.313Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/p2p/ift/2025q3-nimlibp2p-webtransport</loc>
+    <lastmod>2025-07-16T22:23:12.626Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/p2p/</loc>
-    <lastmod>2025-06-10T13:43:19.839Z</lastmod>
+    <lastmod>2025-06-25T18:14:53.313Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/p2p/preview</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/p2p/vac/2025q2-nimlibp2p-test-coverage</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/p2p/vac/2025q3-nimlibp2p-test-coverage</loc>
+    <lastmod>2025-06-25T18:14:53.313Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/codex/2024q4-integration-testing</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
@@ -1110,10 +1167,13 @@
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/ift/2025q2-qa-rfc-sync-waku</loc>
-    <lastmod>2025-06-25T18:13:33.272Z</lastmod>
+    <lastmod>2025-07-07T14:29:19.034Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/qa/ift/2025q3-qa-rfc-sync-jswaku</loc>
+    <lastmod>2025-06-27T14:00:43.957Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/</loc>
-    <lastmod>2025-06-17T14:31:03.789Z</lastmod>
+    <lastmod>2025-06-27T14:00:43.957Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/nomos/2024q4-da-testing</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
@@ -1122,19 +1182,34 @@
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/nomos/2025q2-e2e-testing</loc>
-    <lastmod>2025-06-10T13:43:19.839Z</lastmod>
+    <lastmod>2025-07-07T14:29:19.034Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/status/2025q2-status-go-functional-testing</loc>
     <lastmod>2025-06-25T18:13:33.272Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/status/2025q2-status-qa</loc>
-    <lastmod>2025-06-25T18:13:33.272Z</lastmod>
+    <lastmod>2025-07-07T14:29:19.034Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/qa/status/2025q3-status-go-functional-testing</loc>
+    <lastmod>2025-07-13T18:53:55.268Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/qa/status/2025q3-status-qa-desktop</loc>
+    <lastmod>2025-07-13T18:53:55.268Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/qa/status/2025q3-status-qa-documentation</loc>
+    <lastmod>2025-07-13T18:53:55.268Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/qa/status/2025q3-status-qa-mobile</loc>
+    <lastmod>2025-07-13T18:53:55.268Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/vac/2024q4-nim-libp2p-testing</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/vac/2025q2-nim-libp2p-testing</loc>
-    <lastmod>2025-06-25T18:13:33.272Z</lastmod>
+    <lastmod>2025-07-07T14:29:19.034Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/qa/vac/2025q3-nim-libp2p-testing</loc>
+    <lastmod>2025-07-13T18:53:55.272Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/waku/2024q4-interop-testing</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
@@ -1158,16 +1233,28 @@
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/waku/2025q2-waku-go-bindings-testing</loc>
-    <lastmod>2025-06-25T18:13:33.272Z</lastmod>
+    <lastmod>2025-07-07T14:29:19.034Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/qa/waku/2025q2-waku-sync-testing</loc>
-    <lastmod>2025-06-25T18:13:33.272Z</lastmod>
+    <lastmod>2025-07-07T14:29:19.034Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/qa/waku/2025q3-waku-chat-sdk-testing</loc>
+    <lastmod>2025-06-27T14:00:43.961Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/qa/waku/2025q3-waku-interop-testing</loc>
+    <lastmod>2025-07-13T18:53:55.272Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/qa/waku/2025q3-waku-sync-int-testing</loc>
+    <lastmod>2025-07-13T18:53:55.272Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/codex/2024q4-marketplace-and-client</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/codex/2025q2-rfc-iteration</loc>
-    <lastmod>2025-06-10T13:43:19.839Z</lastmod>
+    <lastmod>2025-07-13T18:52:50.599Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/rfc/codex/2025q3-rfc-iteration</loc>
+    <lastmod>2025-07-13T18:52:50.599Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/ift/2024q4-rfc-culture-establishment</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
@@ -1185,19 +1272,31 @@
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/ift/2025q2-rfc-culture-establishment</loc>
-    <lastmod>2025-06-10T13:43:19.839Z</lastmod>
+    <lastmod>2025-07-13T18:52:50.599Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/ift/2025q2-rfc-index-maintenance</loc>
-    <lastmod>2025-06-10T13:43:19.839Z</lastmod>
+    <lastmod>2025-07-07T14:33:08.958Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/ift/2025q2-spec-impl-test-coverage-support</loc>
     <lastmod>2025-06-10T13:43:19.839Z</lastmod>
   </url><url>
+    <loc>https://roadmap.vac.dev/rfc/ift/2025q3-rfc-culture-establishment</loc>
+    <lastmod>2025-07-13T18:52:50.599Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/rfc/ift/2025q3-rfc-index-maintenance</loc>
+    <lastmod>2025-07-13T18:52:50.599Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/rfc/ift/2025q3-spec-impl-test-coverage-support</loc>
+    <lastmod>2025-07-13T18:52:50.599Z</lastmod>
+  </url><url>
     <loc>https://roadmap.vac.dev/rfc/</loc>
-    <lastmod>2025-06-10T13:43:19.839Z</lastmod>
+    <lastmod>2025-07-13T18:52:50.599Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/nescience/2025q2-rfc-iteration</loc>
-    <lastmod>2025-06-10T13:43:19.843Z</lastmod>
+    <lastmod>2025-07-07T14:33:08.958Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/rfc/nescience/2025q3-rfc-iteration</loc>
+    <lastmod>2025-07-13T18:52:50.599Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/nomos/2024q4-raw-rfc-support-data-availability</loc>
     <lastmod>2025-06-10T13:43:19.843Z</lastmod>
@@ -1212,7 +1311,16 @@
     <lastmod>2025-06-10T13:43:19.843Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/nomos/2025q2-rfc-iteration</loc>
-    <lastmod>2025-06-10T13:43:19.843Z</lastmod>
+    <lastmod>2025-07-07T14:33:08.958Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/rfc/nomos/2025q3-rfc-iteration</loc>
+    <lastmod>2025-07-13T18:52:50.599Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/rfc/preview</loc>
+    <lastmod>2025-07-13T18:52:50.599Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/rfc/status/2025q3-rfc-iteration</loc>
+    <lastmod>2025-07-13T18:52:50.599Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/status/status-specs-to-rfc-index-migration</loc>
     <lastmod>2025-06-10T13:43:19.843Z</lastmod>
@@ -1224,10 +1332,16 @@
     <lastmod>2025-06-10T13:43:19.843Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/waku/2025q2-rfc-iteration</loc>
-    <lastmod>2025-06-10T13:43:19.843Z</lastmod>
+    <lastmod>2025-07-13T18:52:50.599Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/rfc/waku/2025q3-rfc-iteration</loc>
+    <lastmod>2025-07-13T18:52:50.599Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/rfc/waku/raw-rfcs-to-rfc-index-migration</loc>
     <lastmod>2025-06-10T13:43:19.843Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/rfc/zerokit/2025q3-rfc-iteration</loc>
+    <lastmod>2025-07-13T18:52:50.599Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/acz/2025q1-de-mls-consulting</loc>
     <lastmod>2025-06-10T13:43:19.843Z</lastmod>
@@ -1305,7 +1419,7 @@
     <lastmod>2025-06-17T15:15:25.828Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/status/2025q2-sn-native-bridge-yield-bearing-module</loc>
-    <lastmod>2025-06-17T15:15:25.828Z</lastmod>
+    <lastmod>2025-07-07T14:28:55.633Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/sc/status/2025q2-sn-native-dex</loc>
     <lastmod>2025-06-17T15:15:25.828Z</lastmod>
@@ -1642,6 +1756,15 @@
   </url><url>
     <loc>https://roadmap.vac.dev/updates/2025-06-23</loc>
     <lastmod>2025-06-23T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/updates/2025-06-30</loc>
+    <lastmod>2025-06-30T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/updates/2025-07-07</loc>
+    <lastmod>2025-07-07T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.vac.dev/updates/2025-07-14</loc>
+    <lastmod>2025-07-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.vac.dev/what-is-a-milestone</loc>
     <lastmod>2025-06-10T13:43:19.851Z</lastmod>

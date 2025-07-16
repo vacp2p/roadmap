@@ -109,9 +109,9 @@ Requires investigation and fix.
 
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:consulting-waku-mix`
 * owner: Akshaya
-* status: not started 
-* start-date: 
-* end-date: 
+* status: started (0%)
+* start-date: 2025/07/01
+* end-date: 2025/09/20
 
 #### Description
 
@@ -154,11 +154,14 @@ This task involves running the next set of benchmarks after resolving the outsta
 ### nimlibp2p integration
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:nimlibp2p-integration`
 * owner: Ben
-* status: not started
+* status: cancelled
 * start-date: 
 * end-date: 
 
 #### Description
+
+This task is cancelled since the P2P team has taken it over. 
+
 This task focuses on integration the mix into the [vacp2p/nim-libp2p repo](https://github.com/vacp2p/nim-libp2p)
 
 #### Deliverables

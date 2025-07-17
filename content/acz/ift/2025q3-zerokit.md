@@ -43,7 +43,7 @@ looking to integrate RLN into their projects.
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:big-endian-support`
 - owner: Sylvain
-- status: started
+- status: started (30%)
 - start-date: 2025/06/20
 - end-date: 2025/07/20
 
@@ -60,15 +60,13 @@ hash functions within Zerokit correctly handle Big Endian data.
 - A Pull Request to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) that includes new functions
 for working with Big Endian data and updates the public API to expose this functionality.
 
----
-
 ### CI and Feature Revising
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:ci-revising`
-- owner:
-- status: not started
-- start-date:
-- end-date:
+- owner: Vinh
+- status: started (20%)
+- start-date: 2025/07/07
+- end-date: 2025/07/26
 
 #### Description
 

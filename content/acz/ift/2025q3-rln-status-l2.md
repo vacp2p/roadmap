@@ -145,7 +145,11 @@ The findings and feedbacks will be reflected to the RLN specification.
 
 ### Deliverables
 
-* A Notion doc document that has implementation details.
+* A set of PR to the [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover)
+    * [PR#12 Tier Limit test](https://github.com/vacp2p/status-rln-prover/pull/12)
+    * [PR#13 Unit tests](https://github.com/vacp2p/status-rln-prover/pull/13)
+    * [PR#15 e2e gRPC test](https://github.com/vacp2p/status-rln-prover/pull/15)
+    * [PR#17 More unit test](https://github.com/vacp2p/status-rln-prover/pull/17) 
 
 ### Devnet testing 
 

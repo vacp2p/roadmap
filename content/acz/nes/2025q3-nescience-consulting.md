@@ -38,7 +38,7 @@ and introduced into the ecosystem.
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:zkvm-benchmark`
 * owner: Marvin
 * status: started (70%)
-* start-date: 2024/07/01
+* start-date: 2025/07/01
 * end-date: 2025/07/18
 
 ### Description
@@ -56,6 +56,8 @@ In this task, we extend these tests to include the following benchmarks:
 Additionally, more zkVMs have been developed and released since Nescience’s initial survey. 
 We should analyze a selection of new zkVMs (e.g., zisk and Secret VM) in terms of their usage in NSSA.
 
+**Changes to task:** Nescience’s reaffirmed selection of Risc0 negates the necessity of non-Risc0 tests. Additionally, surveys for additionally zkVMs are not needed.
+
 ### Deliverables
 * A notion doc to the Nescience notion workspace
 * A PR to the [vacp2p/nescience-zkvm-testing](https://github.com/vacp2p/nescience-zkvm-testing) repo
@@ -64,7 +66,7 @@ We should analyze a selection of new zkVMs (e.g., zisk and Secret VM) in terms o
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:alt-utxo`
 * owner: Marvin
 * status: started (70%)
-* start-date: 2024/07/11
+* start-date: 2025/07/11
 * end-date: 2025/07/18
 
 ### Description
@@ -81,9 +83,9 @@ Additionally, we demonstrate that this proposal is practical within Risc0 by wri
 ### NSSA feasibility as L2 on Cosmos
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:cosmos-l2-feasibility`
 * owner: Marvin
-* status: not started 
-* start-date: 
-* end-date: 
+* status: 10%
+* start-date: 2025/07/15
+* end-date: 2025/07/25
 
 ### Description
 

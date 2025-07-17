@@ -170,3 +170,22 @@ of how Nescience compares to other projects from a user perspective.
 ### Deliverables
 * A notion doc to the Nescience notion workspace that summarizes existing projects
 from a user perspective, notes their roadmap progress, and compares each to NSSA.
+
+### Regulatory Positioning
+* fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:regulatory-positioning`
+* owner: Marvin
+* status: not started 
+* start-date: 
+* end-date: 
+
+### Description
+
+Prepare an internal reference document that outlines
+how Nescience aligns with general regulatory expectations.
+The document should synthesize core protocol principles
+with relevant considerations and include a brief rationale
+for how NSSA avoids classification under certain regulatory categories.
+
+### Deliverables
+* A notion doc to the Nescience notion workspace.
+

@@ -45,6 +45,23 @@ reinforcing cross project collaboration.
 
 ## Task list
 
+### General tooling (recurring)
+
+* fully qualified name: `vac:dst:waku:2025q3-dst-tooling:general-tooling`
+* owner: Alberto
+* status: recurring
+* start-date: 2025/07/01
+* end-date: 2025/09/30
+
+#### Description
+Group of utilities that are added to the main repository.
+Should be made general when possible.
+
+#### Deliverables
+- PRs:
+  - [Github PR: Scale x axis](https://github.com/vacp2p/10ksim/pull/76)
+
+
 ### Improve tooling
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:improve-tooling`

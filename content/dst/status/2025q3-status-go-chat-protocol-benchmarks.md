@@ -55,7 +55,7 @@ due to unforeseen circumstances.
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:subscription-performance`
 * owner: Alberto
-* status: 75%
+* status: 85%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -87,7 +87,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:store-performance`
 * owner: Alberto
-* status: 75%
+* status: 85%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -122,7 +122,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:message-sending`
 * owner: Alberto
-* status: 75%
+* status: 85%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -147,7 +147,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:join-community-mix`
 * owner: Alberto
-* status: 75%
+* status: 85%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -176,7 +176,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:isolated-traffic-chat-messages`
 * owner: Alberto
-* status: 75%
+* status: 85%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -202,7 +202,7 @@ traffics (community idle traffic does not impact users that are not part of any 
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:isolated-traffic-request-to-join`
 * owner: Alberto
-* status: 75%
+* status: 85%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -230,7 +230,7 @@ traffics (community idle traffic does not impact users that are not part of any 
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:idle-relay`
 * owner: Alberto
-* status: 75%
+* status: 85%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -255,7 +255,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:idle-light`
 * owner: Alberto
-* status: 75%
+* status: 85%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -280,7 +280,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:contact-request`
 * owner: Alberto
-* status: 75%
+* status: 85%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -314,7 +314,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:send-one-to-one`
 * owner: Alberto
-* status: 75%
+* status: 85%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -339,7 +339,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025-q3-status-go-evaluation:create-private-group`
 * owner: Alberto
-* status: 75%
+* status: 85%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -363,7 +363,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:send-group-message`
 * owner: Alberto
-* status: 75%
+* status: 85%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 

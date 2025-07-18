@@ -55,9 +55,9 @@ Request challenge from the ACME server (typically Let's Encrypt)
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:notify-autotls-broker`
 * owner: gabriel
-* status: 95%
+* status: 100%
 * start-date: 2025-04-14
-* end-date:
+* end-date: 2025-06-29
 
 #### Description
 Send DNS-01 challenge received from ACME server to the AutoTLS broker (registration.libp2p.direct)
@@ -72,9 +72,9 @@ Send DNS-01 challenge received from ACME server to the AutoTLS broker (registrat
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:notify-challenge-completion`
 * owner: gabriel
-* status: 95%
+* status: 100%
 * start-date: 2025-04-14
-* end-date:
+* end-date: 2025-06-29
 
 #### Description
 Notify the ACME server that we're done with DNS-01 challenge
@@ -87,9 +87,9 @@ Notify the ACME server that we're done with DNS-01 challenge
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:finalize-cert`
 * owner: gabriel
-* status: 95%
+* status: 100%
 * start-date: 2025-04-14
-* end-date:
+* end-date: 2025-06-29
 
 #### Description
 Finalize certificate issuance with CSR
@@ -103,9 +103,9 @@ Finalize certificate issuance with CSR
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:cert-installation`
 * owner: gabriel
-* status: 0%
+* status: 60%
 * start-date: 2025-04-14
-* end-date:
+* end-date: 
 
 #### Description
 Install generated certificate and use it in TCP/WS/WSSS/Quic/Webtransport
@@ -117,9 +117,9 @@ Install generated certificate and use it in TCP/WS/WSSS/Quic/Webtransport
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autotls:cert-renewal`
 * owner: gabriel
-* status: 95%
+* status: 100%
 * start-date: 2025-04-14
-* end-date:
+* end-date: 2025-06-29
 
 #### Description
 Renew certificate before it expires

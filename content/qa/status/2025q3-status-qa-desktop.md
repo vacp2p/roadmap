@@ -30,7 +30,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:release-testing`
 * owner: nastya
-* status: 
+* status: in progress (10%)
 * start-date: 
 * end-date: 
 
@@ -40,7 +40,7 @@ Oversee testing strategy around releases.
   provide sufficient testing to support high-quality releases.
 
 #### Deliverables
-- PRs
+- [fixed tests in dev PR and manually tested the change on Windows](https://github.com/status-im/status-desktop/pull/18290)
 
 
 ### Shell view
@@ -95,7 +95,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (10%)
+* status: in progress (15%)
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -107,3 +107,9 @@ Oversee testing strategy around releases.
 #### Deliverables
 - [chore(@e2e): disable testrail for nightly job and fix nightly tests](https://github.com/status-im/status-desktop/pull/18289)
 - [bug: Application crashes when trying to mint tokens with no access to data providers](https://github.com/status-im/status-desktop/issues/18291)
+- [chore(@e2e): update object names / small clean up ](https://github.com/status-im/status-desktop/pull/18328)
+- [chore(@e2e): do not check for exact number of toasts when not needed](https://github.com/status-im/status-desktop/pull/18317)
+- [fix(@desktop/wallet): Fix Modal heights on mobile portrait](https://github.com/status-im/status-desktop/pull/18259)
+- [chore(@e2e): add retries logic if hovering fails](https://github.com/status-im/status-desktop/pull/18342)
+- [bug: Can't select derivation path ](https://github.com/status-im/status-desktop/issues/18315)
+- [bug: Animation for rename keypair modal is abnormally slow](https://github.com/status-im/status-desktop/issues/18316)

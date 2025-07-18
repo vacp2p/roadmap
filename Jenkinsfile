@@ -1,4 +1,4 @@
-#!/usr/bin/env groovy
+
 library 'status-jenkins-lib@v1.9.10'
 
 pipeline {
@@ -14,8 +14,10 @@ pipeline {
     buildDiscarder(logRotator(
       numToKeepStr: '20',
       daysToKeepStr: '30',
+      artifactNumToKeepStr: '1',
     ))
     disableConcurrentBuilds()
+    disableRestartFromStage()
   }
 
   environment {
@@ -38,11 +40,23 @@ pipeline {
     }
 
     stage('Publish Prod') {
+      when { expression { GIT_BRANCH.endsWith('master') } }
       steps { script {
         sshagent(credentials: ['status-im-auto-ssh']) {
           nix.develop('ghp-import -c roadmap.vac.dev -p public', pure: false)
         }
       } }
     }
+
+    stage('Archive') {
+      when { expression { !GIT_BRANCH.endsWith('master') } }
+      steps {
+        archiveArtifacts(artifacts: 'public/**')
+      }
+    }
+  }
+
+  post {
+    cleanup { cleanWs() }
   }
 }

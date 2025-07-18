@@ -2,7 +2,7 @@
 
 title: nim-libp2p Webtransport
 tags:
-  - "2025q3
+  - "2025q3"
   - "ift"
 draft: false
 description: Add webtransport support to nim-libp2p

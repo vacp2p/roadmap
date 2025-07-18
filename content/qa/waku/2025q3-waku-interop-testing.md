@@ -42,9 +42,9 @@ investigating and resolving issues, and implementing minor improvements to the t
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:jswaku-filter-hardening`
 * owner: fbarbu15
-* status: 
-* start-date: 
-* end-date: 
+* status: in progress (50%)
+* start-date: 2025/07/01
+* end-date: 2025/07/14
 
 #### Description
 Harden js-waku filter protocol by adding more advanced tests like:
@@ -72,10 +72,10 @@ based on nwaku dev requirements
 ### Waku cannary tool
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:wakucannary`
-* owner: fbarbu15
-* status: 
-* start-date: 
-* end-date: 
+* owner: aya
+* status: in progress (10%)
+* start-date: 2025/07/01
+* end-date: 2025/07/30
 
 #### Description
 Explore, fix and improve [waku canary tool](https://github.com/waku-org/nwaku/tree/master/apps/wakucanary) 

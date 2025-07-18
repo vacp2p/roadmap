@@ -28,9 +28,9 @@ Continue Waku Sync Integration testing in `nwaku`.
 
 * fully qualified name: `vac:qa:waku:2025q3-waku-sync-int-testing:integration`
 * owner: aya
-* status: not started
-* start-date:
-* end-date:
+* status: in progress (50%)
+* start-date: 2025/07/01
+* end-date: 2025/08/15
 
 #### Description
 
@@ -43,5 +43,4 @@ These tests will include real-world edge cases like:
 - Handling cluster and shard mismatches
 
 #### Deliverables
-
-PRs and issues
+- bug: [“storedAt” column still referenced](https://github.com/waku-org/nwaku/issues/3479)

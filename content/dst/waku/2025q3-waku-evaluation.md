@@ -80,6 +80,22 @@ and ensure they don't happen again.
 - Reports:
 - Related PRs if apply:
 
+### Store dial failure
+
+* fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:store-dial-failure`
+* owner: Pearson
+* status: 0%
+* start-date: 2025-07-07
+* end-date: 2025-07-18
+
+#### Description
+
+Investigate `PEER_DIAL_FAILURE` error found in regression tests in nwaku v0.36, from the store protocol.
+
+#### Deliverables
+- Reports:
+- Related PRs if apply:
+
 ### Quic-vs-tcp
 
 * fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:quic-vs-tcp`

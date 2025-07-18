@@ -36,9 +36,9 @@ We should cover:
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-documentation:strategy`
 * owner: magnus
-* status: 
-* start-date: 
-* end-date: 
+* status: in progress (5%)
+* start-date: 2025/07/01
+* end-date: 2025/07/30
 
 #### Description
 - Create a knowledge base containing the QA strategy 

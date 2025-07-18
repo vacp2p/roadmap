@@ -56,8 +56,8 @@ Waku integration.
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:update-rfc`
 * owner: Akshaya
 * status: started (35%)
-* start-date: 
-* end-date: 
+* start-date: 2025/07/01
+* end-date: 2025/08/18
 
 #### Description
 This task entails completing updating the [mixnet RFC](https://rfc.vac.dev/vac/raw/mix) 
@@ -109,9 +109,9 @@ Requires investigation and fix.
 
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:consulting-waku-mix`
 * owner: Akshaya
-* status: not started 
-* start-date: 
-* end-date: 
+* status: started (0%)
+* start-date: 2025/07/01
+* end-date: 2025/09/20
 
 #### Description
 
@@ -154,13 +154,33 @@ This task involves running the next set of benchmarks after resolving the outsta
 ### nimlibp2p integration
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:nimlibp2p-integration`
 * owner: Ben
-* status: not started
+* status: cancelled
 * start-date: 
 * end-date: 
 
 #### Description
+
+This task is cancelled since the P2P team has taken it over. 
+
 This task focuses on integration the mix into the [vacp2p/nim-libp2p repo](https://github.com/vacp2p/nim-libp2p)
 
 #### Deliverables
 
 * A [PR] to [vacp2p/nim-libp2p](https://github.com/vacp2p/rfc-index)
+
+
+### libp2p-mix Repository 
+
+- fully qualified name: `vac:acz:ift:2025q3-zerokit:libp2p-mix-repo`
+- owner: Akshaya
+- status: started (0%)
+- start-date: 2025/07/01
+- end-date: 2025/09/30
+
+### Description
+
+This task encompasses all maintenance updates for [vacp2p/nim-libp2p repo](https://github.com/vacp2p/nim-libp2p) repo, including PR reviews.
+
+### Deliverables
+
+* A set of PRs and issues to [vacp2p/nim-libp2p repo](https://github.com/vacp2p/nim-libp2p).

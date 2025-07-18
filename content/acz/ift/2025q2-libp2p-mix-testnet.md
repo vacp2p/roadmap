@@ -124,11 +124,13 @@ aimed at identifying trade-offs in scalability, privacy, and protocol adaptabili
 ### Implementing SURB
 * fully qualified name: `vac:acz:ift:2025q2-libp2p-mix-testnet:surb-implementation`
 * owner: Ben
-* status: started (40%)
+* status: on-hold(40%)
 * start-date: 2025/05/19
 * end-date: 2025/06/10
 
 #### Description
+
+This task is currently on hold as it has been taken over by the P2P team.
 
 Implement and integrate the single-use replay block encoding to 
 [mixnet](https://github.com/vacp2p/mix) as in [Sphinx: A Compact and Provably Secure Mix Format](https://cypherpunks.ca/~iang/pubs/Sphinx_Oakland09.pdf) 

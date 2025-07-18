@@ -61,6 +61,58 @@ based in the feedbacks and changes during testnet.
 
 * A Notion doc document that has implementation details. 
 
+### Smart Contract Testing
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:sc-testing`
+* owner: Sylvain
+* status: started (0%)
+* start-date: 2025/07/15
+* end-date: 2025/07/31
+
+### Description
+
+This task focuses on testing the interaction between the prover and the smart contract developed by the SC team. Code
+has been written (for both team) but never tested together.
+
+### Deliverables
+
+* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+
+### Profiling
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:profiling`
+* owner: Sylvain
+* status: started (0%)
+* start-date: 2025/07/15
+* end-date: 2025/08/15
+
+### Description
+
+This task focuses on profiling and finding bottlenecks (memory allocations & cpu usage) for the prover module 
+so that the module can be more performant.
+
+### Deliverables
+
+* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+
+### Tracking and Monitoring 
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:track-and-monitor`
+* owner: Sylvain
+* status: started (0%)
+* start-date: 2025/07/15
+* end-date: 2025/08/15
+
+### Description
+
+Set up monitoring for the prover module using Prometheus to observe real-time performance metrics and identify 
+potential overload conditions or bottlenecks. Also better tracing (using opentelemetry otlp protocol) should be done
+and tested (using for example: Jaeger) in order to ensure that everything is correctly logged.
+
+### Deliverables
+
+* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+
 ### Researching decentralized architecture
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:research-decentralized`

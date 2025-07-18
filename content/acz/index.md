@@ -20,6 +20,10 @@ tags:
 ### `nes`
 * [ ] [[acz/nes/2025q3-nescience-consulting|2025q3-nescience-consulting]]
 
+### `nomos:`
+
+* [ ] [[acz/nomos/2025q3-nomos-consulting|2025q3-nomos-consulting]]
+
 ---
 ## 2025q2 `vac:acz:`
 * [ ] [[acz/ift/2025q2-zerokit|2025q2-zerokit]]

@@ -28,7 +28,7 @@ in accordance with the IFT standards.
 
 - Fully qualified name: `vac:rfc:ift:2025q3-rfc-index-maintenance:maintenance`
 - Owner: Filip
-- Status: not started
+- Status: 10%
 - Start date: 2025/07/01
 - End date: 2025/09/30
 
@@ -46,7 +46,7 @@ note them properly.
 
 - Fully qualified name: `vac:rfc:ift:2025q3-rfc-index-maintenance:maintenance-of-vac.dev`
 - Owner: Filip
-- Status: not started
+- Status: 10%
 - Start date: 2025/07/01
 - End date: 2025/09/30
 

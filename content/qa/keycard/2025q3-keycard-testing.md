@@ -23,7 +23,7 @@ description: Ensure quality of Keycard applications.
 
 * fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:shell-tests`
 * owner: romanzac
-* status: in progress (10%)
+* status: in progress (20%)
 * start-date: 2025/07/01
 * end-date: 2025/09/01
 
@@ -31,7 +31,8 @@ description: Ensure quality of Keycard applications.
 Create a suite of tests that verify that the Keycard Shell works as expected.
 
 #### Deliverables
-- Test plan and test execution reports
+- Created [test plan](https://www.notion.so/Keycard-Shell-Test-Plan-2298f96fb65c8051b7f6edd281ad3372?source=copy_link)
+- Test [results](https://www.notion.so/Keycard-Shell-Test-Results-22b8f96fb65c80faa06fcc195373624b?source=copy_link)
 
 ### Keycard-go Unit Tests
 

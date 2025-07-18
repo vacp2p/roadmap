@@ -26,9 +26,9 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:maintenance`
 * owner: fbarbu15
-* status: 
-* start-date: 
-* end-date: 
+* status: in progress (10%)
+* start-date: 2025/07/01
+* end-date: 2025/09/30
 
 #### Description
 Ongoing maintenance of Waku interop tests. 
@@ -36,13 +36,13 @@ This includes updating tests for changes in `nwaku` or `js-waku`, addressing reg
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
-- PRs or Issues
+- Adjust waku interop tests to latest [nwaku changes and fixes](https://github.com/waku-org/waku-interop-tests/pull/128)
 
 ### js-waku filter hardening
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:jswaku-filter-hardening`
 * owner: fbarbu15
-* status: in progress (50%)
+* status: in progress (70%)
 * start-date: 2025/07/01
 * end-date: 2025/07/14
 
@@ -52,7 +52,7 @@ Harden js-waku filter protocol by adding more advanced tests like:
 - Sending/receiving thousands of messages in a short period of time
 
 #### Deliverables
-- PRs or Issues
+- [chore: add throughput reliability tests](https://github.com/waku-org/js-waku/pull/2444)
 
 ### Lite protocol tester
 

@@ -41,9 +41,9 @@ similar to [IETF](https://www.ietf.org/).
 
 ### Team Communication
 
-- Fully qualified name: `vac:rfc:ift:2025q2-culture-establishment-team-communication`
+- Fully qualified name: `vac:rfc:ift:2025q3-culture-establishment-team-communication`
 - Owner: cofson
-- Status: not started
+- Status: 10%
 - Start date: 2025/07/01
 - End date: 2025/09/30
 

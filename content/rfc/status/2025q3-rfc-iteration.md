@@ -4,7 +4,7 @@ tags:
   - rfc
   - nomos
 draft: false
-description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected Nomos RFCs."
+description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected Status RFCs."
 ---
 
 `vac:rfc:status:2025q3-rfc-iteration`
@@ -24,7 +24,7 @@ as well as making sure that the relevant document has enough information
 in order to ease the developer experience for coming developers.
 
 The specifications in pipeline:
-- 
+- TBD
 
 
 **Alignment with VAC Narratives:**
@@ -40,5 +40,5 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 
 ## Task List
 
-
+TBD
 

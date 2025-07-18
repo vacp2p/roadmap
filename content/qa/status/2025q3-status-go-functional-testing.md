@@ -108,3 +108,17 @@ as described in the Waku FURPS
 #### Deliverables
 * PRs with the new tests
 
+
+### Group chats tests
+
+* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:group-chats-tests`
+* owner: fbarbu15
+* status: in progress (30%)
+* start-date: 11/07/2025
+* end-date: 24/07/2025
+
+#### Description
+Cover the [wakuext group chats](https://github.com/status-im/status-go/issues/6071)
+
+#### Deliverables
+* PRs with the new tests

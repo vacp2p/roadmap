@@ -37,7 +37,7 @@ and introduced into the ecosystem.
 ### zkVM Benchmark and Survey
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:zkvm-benchmark`
 * owner: Marvin
-* status: started (70%)
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -65,7 +65,7 @@ We should analyze a selection of new zkVMs (e.g., zisk and Secret VM) in terms o
 ### Alternative UTXO commitment
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:alt-utxo`
 * owner: Marvin
-* status: started (70%)
+* status: started (85%)
 * start-date: 2025/07/11
 * end-date: 2025/07/18
 

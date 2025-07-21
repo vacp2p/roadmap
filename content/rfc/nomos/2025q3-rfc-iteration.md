@@ -48,7 +48,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
  Fully qualified name: 
   `vac:rfc:nomos:2025q3-rfc-iteration-choosing-new-rfcs`
 - Owner: cofson
-- Status: 50%
+- Status: 90%
 - Start date: 2025/07/01
 - End date: 2025/09/30
 
@@ -63,7 +63,7 @@ and thus ready for being included in the rfc-index.
 - Fully qualified name:
   `vac:rfc:nomos:2025q3-rfc-iteration:p2p-network-specification`
 - Owner: cofson
-- Status: not started
+- Status: 50%
 - Start date: 2025/07/20
 - End date: 2025/08/21
 
@@ -90,6 +90,6 @@ and thus ready for being included in the rfc-index.
 - Fully qualified name:
   `vac:rfc:nomos:2025q3-rfc-iteration:mantle-digital-signature`
 - Owner: jimstir
-- Status: 10%
+- Status: 75%
 - Start date: 2025/07/14
 - End date: 2025/07/31

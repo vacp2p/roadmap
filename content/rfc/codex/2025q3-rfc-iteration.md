@@ -51,7 +51,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Fully qualified name:
   `vac:rfc:codex:2025q3-rfc-iteration:the-block-exchange'
 - Owner: cofson
-- Status: 75%
+- Status: 75% (PAUSED)
 - Start date: 2025/07/01
 - End date: 2025/07/20
 
@@ -60,7 +60,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Fully qualified name:
   `vac:rfc:codex:2025q3-rfc-iteration:erasure-coding`
 - Owner: cofson
-- Status: 0%
+- Status: 0% (PAUSED)
 - Start date: 2025/08/01
 - End date: 2025/08/20
 
@@ -69,6 +69,6 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Fully qualified name:
   `vac:rfc:codex:2025q3-rfc-iteration:proving-system`
 - Owner: cofson
-- Status: 0%
+- Status: 0% (PAUSED)
 - Start date: 2025/09/20
 - End date: 2025/09/30

@@ -84,3 +84,17 @@ based on nwaku dev requirements
 
 #### Deliverables
 - [bug: Canary app fails to connect to well-known Waku peers over all transports](https://github.com/waku-org/nwaku/issues/3518)
+
+### 12H Longevity
+
+* fully qualified name: `vac:qa:waku:2025q3-interop-testing:12hlongevity`
+* owner: aya
+* status: not started
+* start-date: 2025/07/21
+* end-date: 2025/08/15
+
+#### Description
+Create a github actions workflow that can run a 12 hour longevity test for waku go bindings.
+
+#### Deliverables
+- PR and CI run

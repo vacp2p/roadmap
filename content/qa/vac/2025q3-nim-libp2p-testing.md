@@ -138,7 +138,7 @@ and others to be determined later.
 
 * fully qualified name: `vac:qa:vac:2025q3-nim-libp2p-testing:gossipsub-performance`
 * owner: radek
-* status: in progress (10%)
+* status: in progress (15%)
 * start-date: 2025/07/15
 * end-date: 2025/07/31
 

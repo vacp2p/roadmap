@@ -28,7 +28,7 @@ Continue Waku Sync Integration testing in `nwaku`.
 
 * fully qualified name: `vac:qa:waku:2025q3-waku-sync-int-testing:integration`
 * owner: aya
-* status: in progress (80%)
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/08/15
 
@@ -45,3 +45,4 @@ These tests will include real-world edge cases like:
 #### Deliverables
 - bug: [“storedAt” column still referenced](https://github.com/waku-org/nwaku/issues/3479)
 - [tests: Add changes to enable sync](https://github.com/waku-org/waku-interop-tests/pull/125)
+- [tests: Adding more corner cases](https://github.com/waku-org/waku-interop-tests/pull/129)

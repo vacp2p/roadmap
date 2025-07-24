@@ -30,7 +30,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:release-testing`
 * owner: nastya
-* status: in progress (10%)
+* status: in progress (20%)
 * start-date: 
 * end-date: 
 
@@ -41,7 +41,13 @@ Oversee testing strategy around releases.
 
 #### Deliverables
 - [fixed tests in dev PR and manually tested the change on Windows](https://github.com/status-im/status-desktop/pull/18290)
-
+- [bug: Can't search for emoji, no items in search results](https://github.com/status-im/status-desktop/issues/18362)
+- [bug: Saved address is not appearing in settings list until saved addresses section is reopened](https://github.com/status-im/status-desktop/issues/18364)
+- [bug: Change password background screen is magenta](https://github.com/status-im/status-desktop/issues/18350)
+- [chore: update status-go](https://github.com/status-im/status-desktop/pull/18373)
+- [bug: Backup seed phrase card is missing on home page](https://github.com/status-im/status-desktop/issues/18374)
+- [chore: update status-go](https://github.com/status-im/status-desktop/pull/18373)
+- [helped with testing of task: `refactor: Move Community Access & Permissions to modular store architecture`](https://github.com/status-im/status-desktop/pull/18384)
 
 ### Shell view
 
@@ -95,7 +101,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (15%)
+* status: in progress (25%)
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -113,3 +119,7 @@ Oversee testing strategy around releases.
 - [chore(@e2e): add retries logic if hovering fails](https://github.com/status-im/status-desktop/pull/18342)
 - [bug: Can't select derivation path ](https://github.com/status-im/status-desktop/issues/18315)
 - [bug: Animation for rename keypair modal is abnormally slow](https://github.com/status-im/status-desktop/issues/18316)
+- [chore(@e2e): bring back change password test](https://github.com/status-im/status-desktop/pull/18351)
+- [chore(@e2e): saved address in settings now is removed as well](https://github.com/status-im/status-desktop/pull/18368)
+- [ci: add tests/e2e to GitHub jenkins jobs table](https://github.com/status-im/status-desktop/pull/18380)
+- [chore(@e2e): back up seed from home](https://github.com/status-im/status-desktop/pull/18390)

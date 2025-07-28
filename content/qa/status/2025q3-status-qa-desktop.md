@@ -30,7 +30,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:release-testing`
 * owner: nastya
-* status: in progress (20%)
+* status: in progress (40%)
 * start-date: 
 * end-date: 
 
@@ -48,6 +48,10 @@ Oversee testing strategy around releases.
 - [bug: Backup seed phrase card is missing on home page](https://github.com/status-im/status-desktop/issues/18374)
 - [chore: update status-go](https://github.com/status-im/status-desktop/pull/18373)
 - [helped with testing of task: `refactor: Move Community Access & Permissions to modular store architecture`](https://github.com/status-im/status-desktop/pull/18384)
+- [bug: Can't send on base sepolia](https://github.com/status-im/status-desktop/issues/18395)
+- [bug: fatal error: concurrent map writes](https://github.com/status-im/status-desktop/issues/18396)
+- [chore: bump status-go to get fix for base chain estimations](https://github.com/status-im/status-desktop/pull/18411)
+- [bug: Banned community member does not see the screen saying that he is banned from this community](https://github.com/status-im/status-desktop/issues/18412)
 
 ### Shell view
 
@@ -101,7 +105,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (25%)
+* status: in progress (40%)
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -123,3 +127,7 @@ Oversee testing strategy around releases.
 - [chore(@e2e): saved address in settings now is removed as well](https://github.com/status-im/status-desktop/pull/18368)
 - [ci: add tests/e2e to GitHub jenkins jobs table](https://github.com/status-im/status-desktop/pull/18380)
 - [chore(@e2e): back up seed from home](https://github.com/status-im/status-desktop/pull/18390)
+- [chore(@e2e): fix editing status account test](https://github.com/status-im/status-desktop/pull/18398)
+- [chore(@e2e): fix toast messages method and seed phrase import](https://github.com/status-im/status-desktop/pull/18407)
+- [chore(@e2e): retry decorator logic ](https://github.com/status-im/status-desktop/pull/18414)
+- [chore(@e2e): fix navigation for advanced section](https://github.com/status-im/status-desktop/pull/18427)

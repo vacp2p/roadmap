@@ -84,7 +84,7 @@ and ensure they don't happen again.
 
 * fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:store-dial-failure`
 * owner: Pearson
-* status: 50%
+* status: 100%
 * start-date: 2025-07-07
 * end-date: 2025-07-18
 
@@ -95,6 +95,23 @@ Investigate `PEER_DIAL_FAILURE` error found in regression tests in nwaku v0.36, 
 #### Deliverables
 - Reports:
   - [Notion Notes](https://www.notion.so/Experiments-for-nWaku-v36-0-21e8f96fb65c801e9ffcd25cf0d88370#22d8f96fb65c807a8fe1d7c7496107a2)
+  - [Extra notes](https://www.notion.so/Experiments-for-nWaku-v36-0-21e8f96fb65c801e9ffcd25cf0d88370#2328f96fb65c8008bb66cd46fb37662d)
+- Related PRs if apply:
+
+### Discv5 feasibility comparison
+
+* fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:discv5-feasibility-comparison`
+* owner: Pearson
+* status: 0%
+* start-date: 2025-07-21
+* end-date: 2025-08-01
+
+#### Description
+
+Compare Discv5 bandwidth usage in regression tests to what we would expect from [Discv5 Feasibility Study](https://discuss.status.app/t/discv5-feasibility-study/1632)
+
+#### Deliverables
+- Reports:
 - Related PRs if apply:
 
 ### Quic-vs-tcp

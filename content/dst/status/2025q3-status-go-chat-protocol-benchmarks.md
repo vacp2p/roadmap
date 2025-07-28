@@ -51,11 +51,11 @@ due to unforeseen circumstances.
 
 ## Task list
 
-### Status-backend store performance (communities)
+### Status-backend subscription performance (communities)
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:subscription-performance`
 * owner: Alberto
-* status: 85%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -82,12 +82,13 @@ Test:
 
 #### Deliverables
 - [Draft PR](https://github.com/vacp2p/status-benchmarks/pull/12)
+- [Notion Document](https://www.notion.so/Subscription-Performance-2348f96fb65c80c6b04dc2100f3e1fea)
 
 ### Status-backend store performance (communities)
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:store-performance`
 * owner: Alberto
-* status: 85%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -116,13 +117,14 @@ Test:
 - [PR #13: Asyncio](https://github.com/vacp2p/status-benchmarks/pull/13)
 - [To review PR #14: Buffered Queue](https://github.com/vacp2p/status-benchmarks/pull/14)
 - [Draft PR #15: Store performance](https://github.com/vacp2p/status-benchmarks/pull/15)
+- [Notion Document](https://www.notion.so/Store-Performance-2368f96fb65c80889a10cfe276e51623)
 
 
 ### Message sending (communities)
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:message-sending`
 * owner: Alberto
-* status: 85%
+* status: 95%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -147,7 +149,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:join-community-mix`
 * owner: Alberto
-* status: 85%
+* status: 95%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -176,7 +178,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:isolated-traffic-chat-messages`
 * owner: Alberto
-* status: 85%
+* status: 95%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -202,7 +204,7 @@ traffics (community idle traffic does not impact users that are not part of any 
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:isolated-traffic-request-to-join`
 * owner: Alberto
-* status: 85%
+* status: 95%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -230,7 +232,7 @@ traffics (community idle traffic does not impact users that are not part of any 
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:idle-relay`
 * owner: Alberto
-* status: 85%
+* status: 95%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -255,7 +257,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:idle-light`
 * owner: Alberto
-* status: 85%
+* status: 95%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -280,7 +282,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:contact-request`
 * owner: Alberto
-* status: 85%
+* status: 95%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -314,7 +316,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:send-one-to-one`
 * owner: Alberto
-* status: 85%
+* status: 95%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -339,7 +341,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025-q3-status-go-evaluation:create-private-group`
 * owner: Alberto
-* status: 85%
+* status: 95%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -363,7 +365,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:send-group-message`
 * owner: Alberto
-* status: 85%
+* status: 95%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 

@@ -25,8 +25,8 @@ as outlined in this [epic](https://github.com/status-im/status-go/issues/6064).
 ### Critical user flows
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:critical-flows`
-* owner: chu
-* status: in progress (20%)
+* owner: fbarbu15
+* status: in progress (30%)
 * start-date: 2025/07/01
 * end-date: 2025/08/15
 
@@ -61,7 +61,7 @@ TODO! This taks will need to be broken down into smaller task once we have more 
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:framework-improvements`
 * owner: chu/florin
-* status: in progress (50%)
+* status: in progress (70%)
 * start-date: 2025/07/01
 * end-date: 2025/07/30
 
@@ -72,6 +72,7 @@ Update readme and debugging.
 #### Deliverables
 - Fixed the [reliability failures](https://github.com/status-im/status-go/pull/6736)
 - [Refactoring on how test fixtures are used](https://github.com/status-im/status-go/pull/6725)
+- [Fixture for setup class](https://github.com/status-im/status-go/pull/6767)
 
 ### Status-backend based on nwaku
 

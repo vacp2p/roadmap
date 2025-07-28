@@ -138,7 +138,7 @@ and others to be determined later.
 
 * fully qualified name: `vac:qa:vac:2025q3-nim-libp2p-testing:gossipsub-performance`
 * owner: radek
-* status: in progress (15%)
+* status: in progress (30%)
 * start-date: 2025/07/15
 * end-date: 2025/07/31
 
@@ -146,4 +146,4 @@ and others to be determined later.
 Implement small scale performance tests for GossipSub that can run between a few nodes in the nim-libp2p repository. Set up GitHub Actions workflow to run these tests automatically and post results to PRs. Focus on performance scenarios that make sense at the integration test level, complementary to DST's multi-node testing. Include baseline measurements and automated result reporting.
 
 #### Deliverables:
-* PRs with links to added tests
+* [test(gossipsub): performance tests PoC](https://github.com/vacp2p/nim-libp2p/pull/1544)

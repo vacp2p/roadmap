@@ -4,7 +4,7 @@ tags:
   - "2025q3"
   - "dst"
   - "waku"
-draft: true
+draft: false
 description: "Theoretical analysis of Waku project, 
 helping to study feasibility of different scenarios, and 
 also being able to compare them with real experiments."

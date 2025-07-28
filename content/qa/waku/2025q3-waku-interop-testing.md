@@ -89,7 +89,7 @@ based on nwaku dev requirements
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:12hlongevity`
 * owner: aya
-* status: not started
+* status: in progress (50%)
 * start-date: 2025/07/21
 * end-date: 2025/08/15
 

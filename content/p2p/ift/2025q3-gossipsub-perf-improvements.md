@@ -14,22 +14,26 @@ description: GossipSub Performance Improvements
 
 ## Description
 
-TODO
+It is a continuous task to improve GossipSub performance by lowering bandwidth consumption and network-wide message dissemination time. 
+These improvements also indirectly support scalability by allowing for a larger supported network size, higher message counts, and increased message volumes. 
+This work contributes to the development of GossipSub specification proposal(s) and publishing findings in articles and blog posts.
 
 ## Task List
 
 
-### TODO
+### GossipSub Performance Improvements
 
-* fully qualified name: `vac:p2p:ift:2025q3-gossipsub-perf-improvements:TODO`
-* owner: 
-* status: not started
+* fully qualified name: `vac:p2p:ift:2025q3-gossipsub-perf-improvements`
+* owner: farooq
+* status:
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
 #### Description
 
-TODO
+We focus on improving GossipSub's performance by experimenting with network coding techniques. 
+Our goal is to enhance the resilience and efficiency of the GossipSub (specifically v1.4). 
+We aim to leverage this work and our previous contributions to secure funding for the long-term sustainability of our research.
 
 #### Deliverables
 

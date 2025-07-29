@@ -25,7 +25,7 @@ During this quarter, we focus on a detailed evaluation of upcoming GossipSub pro
 
 * fully qualified name: `vac:p2p:ift:2025q2-gossipsub-perf-improvements:perf-comparison`
 * owner: farooq
-* status: 90%
+* status: 95%
 * start-date: 2025/04/01
 * end-date: 2025/05/15
 
@@ -43,9 +43,9 @@ Nim, go, and rust libp2p test nodes are already implemented for the shadow simul
 
 * fully qualified name: `vac:p2p:ift:2025q2-gossipsub-perf-improvements:gossipsub-1_4-impl`
 * owner: farooq
-* status: 90%
+* status: 100%
 * start-date: 2025/04/01
-* end-date: 2025/06/30
+* end-date: 2025/07/20
 
 #### Description
 
@@ -101,9 +101,9 @@ unsupported system calls in the shadow simulator) or any other issues.
 
 * fully qualified name: `vac:p2p:ift:2025q2-gossipsub-perf-improvements:stream-prioritization`
 * owner: farooq
-* status: 95%
+* status: 100%
 * start-date: 2025/04/01
-* end-date: 
+* end-date: 2025/07/25
 
 #### Description
 

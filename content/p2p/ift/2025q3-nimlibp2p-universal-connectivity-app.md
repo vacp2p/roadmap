@@ -2,7 +2,7 @@
 
 title: nim-libp2p Universal Connectivity App
 tags:
-  - "2025q2"
+  - "2025q3"
   - "p2p"
   - "ift"
 draft: false
@@ -10,7 +10,7 @@ description: Add webtransport support to nim-libp2p
 
 ---
 
-`vac:p2p:ift:2025q2-nimlibp2p-universal-connectivity-app`
+`vac:p2p:ift:2025q3-nimlibp2p-universal-connectivity-app`
 
 Realtime highly decentralised chat app.
 
@@ -27,8 +27,8 @@ and additional transports like WebTransport/WebRTC/WebRTC-direct as transports (
 ### Chat
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-universal-connectivity-app:chat`
 * owner: gabe
-* status: moved to Q3
-* start-date:
+* status: 0%
+* start-date: 2025-07-12
 * end-date:
 
 #### Description

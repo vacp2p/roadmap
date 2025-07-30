@@ -208,7 +208,7 @@ traffics (community idle traffic does not impact users that are not part of any 
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:isolated-traffic-request-to-join`
 * owner: Alberto
-* status: 95%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -229,7 +229,7 @@ traffics (community idle traffic does not impact users that are not part of any 
 
 #### Deliverables
 - [Draft PR #19: Isolated traffic request to join](https://github.com/vacp2p/status-benchmarks/pull/19/)
-
+- [Notion Document](https://www.notion.so/Isolated-traffic-Request-to-Join-2368f96fb65c80f295b1f9950852f94e)
 
 
 ### Idle-relay (private chats)

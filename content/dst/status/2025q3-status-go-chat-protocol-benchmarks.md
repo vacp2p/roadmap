@@ -374,7 +374,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:send-group-message`
 * owner: Alberto
-* status: 95%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -393,6 +393,7 @@ Test:
 
 #### Deliverables
 - [Draft PR #26: Send group message](https://github.com/vacp2p/status-benchmarks/pull/26)
+- [Notion Document](https://www.notion.so/Send-group-message-2368f96fb65c80d79b66d8e01701f845)
 
 ### Send one-to-one outage (private chats)
 

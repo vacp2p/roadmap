@@ -113,3 +113,23 @@ Re-evaluate Quic in nimlibp2p with regression tests, to see if there is a differ
 #### Deliverables
 * PRs:
 * Report:
+
+
+### Mix re-evaluation
+
+* fully qualified name: `vac:dst:vac:2025q3-libp2p-evaluation:mix-re-evaluation`
+* owner: Alberto
+* status: 0%
+* start-date: 2025/07/30
+* end-date: 2025/08/08
+
+#### Description
+
+Perform experiments with mix protocol current state to check:
+- Message time propagation in and outside mix
+- Confirm correct message routing
+Compare results with the initial ones in [Notion: Mix report extended](https://www.notion.so/Nim-libp2p-Mix-May-2025-1f38f96fb65c800a8466f68472e799db?source=copy_link#2188f96fb65c8096a18ceba3d1c3fea8).
+
+#### Deliverables
+* PRs:
+* Report:

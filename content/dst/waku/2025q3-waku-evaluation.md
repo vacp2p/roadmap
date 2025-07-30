@@ -98,6 +98,29 @@ Investigate `PEER_DIAL_FAILURE` error found in regression tests in nwaku v0.36, 
   - [Extra notes](https://www.notion.so/Experiments-for-nWaku-v36-0-21e8f96fb65c801e9ffcd25cf0d88370#2328f96fb65c8008bb66cd46fb37662d)
 - Related PRs if apply:
 
+### Store dial failure followup
+
+* fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:store-dial-failure-followup`
+* owner: Pearson
+* status: 50%
+* start-date: 2025-07-23
+* end-date: 2025-08-01
+
+#### Description
+
+Investigate `PEER_DIAL_FAILURE` error found in regression tests in nwaku v0.36 in `vac:dst:waku:2025q3-waku-evaluation:store-dial-failure`.
+
+#### Description
+
+Try to reproduce `PEER_DIAL_FAILURE` in nWaku v0.34. Trace the peer_id from one of the failing logs 
+to see what that node is doing. Also, reduce number of nodes in the scenario.
+
+#### Deliverables
+- Reports:
+- Related PRs if apply:
+  - [Github Issue](https://github.com/waku-org/nwaku/issues/3524)
+
+
 ### Discv5 feasibility comparison
 
 * fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:discv5-feasibility-comparison`

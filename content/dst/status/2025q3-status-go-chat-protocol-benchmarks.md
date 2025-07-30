@@ -440,3 +440,17 @@ Test:
 Same as @Send one-to-one message - Network outage for private group
 
 #### Deliverables
+
+### Cleanup resources
+
+* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:cleanup-resources`
+* owner: Alberto
+* status: 0%
+* start-date: 2025/07/30
+* end-date: 2025/08/15
+
+#### Description
+
+Close up draft PRs from previous procol benchmarks. Extract utilities and/or add documentation when possible.
+
+#### Deliverables

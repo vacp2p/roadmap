@@ -400,8 +400,8 @@ Test:
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:one-to-one-outage`
 * owner: Alberto
 * status: 0%
-* start-date: 2025/07/01
-* end-date: 2025/07/18
+* start-date: TBA
+* end-date: TBA
 
 #### Description
 [Notion Link](https://www.notion.so/Chat-Protocol-Benchmarks-1938f96fb65c80d8b22fdf641c5ff003?source=copy_link#19d8f96fb65c809e8f11d4296821b24d)
@@ -432,8 +432,8 @@ Test:
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:group-outage`
 * owner: Alberto
 * status: 0%
-* start-date: 2025/07/01
-* end-date: 2025/07/18
+* start-date: TBA
+* end-date: TBA
 
 #### Description
 [Notion Link](https://www.notion.so/Chat-Protocol-Benchmarks-1938f96fb65c80d8b22fdf641c5ff003?source=copy_link#19d8f96fb65c80aa8459d54b975df8b0)

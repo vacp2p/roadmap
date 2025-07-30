@@ -32,7 +32,7 @@ are not only effective but also maintain or improve system performance and scala
 * [[dst/nomos/2025q3-nomos-scaling|nomos-scaling]]
 
 ### `status`
-* [[dst/status/2025q3-status-go-evaluation|status-go-evaluation]]
+* [[dst/status/2025q3-status-go-chat-protocol-benchmarks|status-go-chat-protocol-benchmarks]]
 
 ### `vac`
 * [[dst/vac/2025q3-libp2p-evaluation|libp2p-evaluation]]

@@ -29,7 +29,7 @@ Extend and adjust the existing e2e test Framework to support testing on mobile/t
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-mobile:framework-adjustments`
 * owner: magnus
-* status: in progress (15%)
+* status: in progress (60%)
 * start-date: 2025/07/01
 * end-date: 2025/07/30
 
@@ -43,7 +43,9 @@ Extend and adjust the existing e2e test Framework to support testing on mobile/t
   - Successully launched a test on a tablet build using LamdaTest virtual devices. 
 - Investigated Maestro as an alternative for some use cases 
   -  Successfully attached to app and used AI for navigation
-- Started new Appium-based framework (Android-only for now), modeled on existing status-mobile and desktop frameworks.
+- [Started new Appium-based framework (Android-only for now), modeled on existing status-mobile and desktop frameworks.](https://github.com/status-im/status-desktop/pull/18366)
+- GitHub action - configured for LT using [app URL](https://github.com/status-im/status-desktop/blob/fc30d8474619be74c0a0c7429a919372a322d36a/.github/workflows/e2e-appium-android.yml)
+- [Roadmap](https://github.com/status-im/status-desktop/issues/18436)
 
 ### Port desktop tests
 

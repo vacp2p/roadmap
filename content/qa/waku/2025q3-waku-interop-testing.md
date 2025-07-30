@@ -42,7 +42,7 @@ investigating and resolving issues, and implementing minor improvements to the t
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:jswaku-filter-hardening`
 * owner: fbarbu15
-* status: in progress (70%)
+* status: in progress (90%)
 * start-date: 2025/07/01
 * end-date: 2025/07/14
 
@@ -53,6 +53,7 @@ Harden js-waku filter protocol by adding more advanced tests like:
 
 #### Deliverables
 - [chore: add throughput reliability tests](https://github.com/waku-org/js-waku/pull/2444)
+- [chore: network conditions tests](https://github.com/waku-org/js-waku/pull/2450)
 
 ### Lite protocol tester
 
@@ -73,7 +74,7 @@ based on nwaku dev requirements
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:wakucannary`
 * owner: aya
-* status: in progress (10%)
+* status: in progress (30%)
 * start-date: 2025/07/01
 * end-date: 2025/07/30
 
@@ -82,4 +83,18 @@ Explore, fix and improve [waku canary tool](https://github.com/waku-org/nwaku/tr
 based on nwaku dev requirements
 
 #### Deliverables
-- PRs or Issues
+- [bug: Canary app fails to connect to well-known Waku peers over all transports](https://github.com/waku-org/nwaku/issues/3518)
+
+### 12H Longevity
+
+* fully qualified name: `vac:qa:waku:2025q3-interop-testing:12hlongevity`
+* owner: aya
+* status: in progress (50%)
+* start-date: 2025/07/21
+* end-date: 2025/08/15
+
+#### Description
+Create a github actions workflow that can run a 12 hour longevity test for waku go bindings.
+
+#### Deliverables
+- PR and CI run

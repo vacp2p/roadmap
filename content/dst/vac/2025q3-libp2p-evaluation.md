@@ -96,3 +96,20 @@ and checking functionality with other libp2p implementations.
 #### Deliverables
 * PRs:
 * Report:
+
+
+### Evaluate Quic v0.2.9
+
+* fully qualified name: `vac:dst:vac:2025q3-libp2p-evaluation:evaluate-quic-v0.2.9`
+* owner: Alberto
+* status: 0%
+* start-date: 2025/07/30
+* end-date: 2025/08/08
+
+#### Description
+
+Re-evaluate Quic in nimlibp2p with regression tests, to see if there is a difference with report [Notion: Nim-libp2p 1.11.0](https://www.notion.so/Nim-libp2p-v1-11-0-regression-testing-June-2025-2118f96fb65c802ca1b7c4233271ca26).
+
+#### Deliverables
+* PRs:
+* Report:

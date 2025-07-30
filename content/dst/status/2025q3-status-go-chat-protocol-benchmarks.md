@@ -180,7 +180,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:isolated-traffic-chat-messages`
 * owner: Alberto
-* status: 95%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -201,6 +201,8 @@ traffics (community idle traffic does not impact users that are not part of any 
 
 #### Deliverables
 - [Draft PR #18: Isolated traffic](https://github.com/vacp2p/status-benchmarks/pull/18/)
+- [Notion document 1](https://www.notion.so/Isolated-traffic-Chat-messages-1-2368f96fb65c80f69a22f0d9e6c91fb3)
+- [Notion document 2](https://www.notion.so/Isolated-traffic-Chat-messages-2-2398f96fb65c8088a8c2fc726dd3f3b1)
 
 ### Isolated request to join (communities)
 

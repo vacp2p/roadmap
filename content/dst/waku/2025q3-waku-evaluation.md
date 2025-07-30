@@ -125,7 +125,7 @@ to see what that node is doing. Also, reduce number of nodes in the scenario.
 
 * fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:discv5-feasibility-comparison`
 * owner: Pearson
-* status: 0%
+* status: 50%
 * start-date: 2025-07-21
 * end-date: 2025-08-01
 
@@ -135,6 +135,7 @@ Compare Discv5 bandwidth usage in regression tests to what we would expect from 
 
 #### Deliverables
 - Reports:
+  - [Notion Notes](https://www.notion.so/Waku-Discv5-analysis-over-time-2378f96fb65c80a5b60bc24d09b5de3a?showMoveTo=true&saveParent=true)
 - Related PRs if apply:
 
 ### Quic-vs-tcp

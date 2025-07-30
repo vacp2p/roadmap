@@ -349,7 +349,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025-q3-status-go-evaluation:create-private-group`
 * owner: Alberto
-* status: 95%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -368,6 +368,7 @@ Test:
 
 #### Deliverables
 - [Draft PR #25: Create private group](https://github.com/vacp2p/status-benchmarks/pull/25)
+- [Notion Document](https://www.notion.so/Create-private-group-2368f96fb65c80629a16d3bdf388ac9d)
 
 ### Send group message (private chats)
 

@@ -48,9 +48,9 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:rln-spec-maintain`
 * owner: Ugur
-* status: not started
-* start-date: 
-* end-date: 
+* status: started (30%)
+* start-date: 2025/07/01
+* end-date: 2025/08/28
 
 ### Description
 
@@ -82,7 +82,7 @@ has been written (for both team) but never tested together.
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:profiling`
 * owner: Sylvain
-* status: started (0%)
+* status: started (30%)
 * start-date: 2025/07/15
 * end-date: 2025/08/15
 
@@ -99,7 +99,7 @@ so that the module can be more performant.
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:track-and-monitor`
 * owner: Sylvain
-* status: started (0%)
+* status: started (30%)
 * start-date: 2025/07/15
 * end-date: 2025/08/15
 
@@ -112,14 +112,17 @@ and tested (using for example: Jaeger) in order to ensure that everything is cor
 ### Deliverables
 
 * A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+    * [Add histogram PR#20](https://github.com/vacp2p/status-rln-prover/pull/20)
+    * [Initial code for tracing + oltp PR#19](https://github.com/vacp2p/status-rln-prover/pull/19)
+    * [Initial Prometheus PR#18](https://github.com/vacp2p/status-rln-prover/pull/18)
 
 ### Researching decentralized architecture
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:research-decentralized`
 * owner: Ugur
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/08/15
+* end-date: 2025/09/25
 
 ### Description
 
@@ -172,7 +175,7 @@ The findings and feedbacks will be reflected to the RLN specification.
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:maintaining`
 * owner: Sylvain
-* status: started (0%)
+* status: started (10%)
 * start-date: 2025/07/07
 * end-date: 2025/09/25
 

@@ -124,7 +124,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:message-sending`
 * owner: Alberto
-* status: 95%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -143,6 +143,7 @@ Test:
 
 #### Deliverables
 - [Draft PR #16: Message sending](https://github.com/vacp2p/status-benchmarks/pull/16)
+- [Notion Document](https://www.notion.so/Message-sending-2368f96fb65c803fae4ac428bd0b7227)
 
 
 ### Request to join mix (communities)

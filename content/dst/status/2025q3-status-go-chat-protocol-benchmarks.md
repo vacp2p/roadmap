@@ -323,7 +323,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:send-one-to-one`
 * owner: Alberto
-* status: 95%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -343,6 +343,7 @@ Test:
 
 #### Deliverables
 - [Draft PR #24: Send one to one](https://github.com/vacp2p/status-benchmarks/pull/24)
+- [Notion Document](https://www.notion.so/Send-one-to-one-message-2368f96fb65c8037a8b7eb0b8e9d9f69)
 
 ### Create private group (private chats)
 

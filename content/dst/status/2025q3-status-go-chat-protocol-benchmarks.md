@@ -236,7 +236,7 @@ traffics (community idle traffic does not impact users that are not part of any 
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:idle-relay`
 * owner: Alberto
-* status: 95%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -256,6 +256,7 @@ Test:
 #### Deliverables
 - [Draft PR #20: Improvements](https://github.com/vacp2p/status-benchmarks/pull/20)
 - [Draft PR #21: Idle-relay](https://github.com/vacp2p/status-benchmarks/pull/21)
+- [Notion Document](https://www.notion.so/Idle-Relay-2368f96fb65c8029b825eaedc8b56677)
 
 ### Idle-light (private chats)
 

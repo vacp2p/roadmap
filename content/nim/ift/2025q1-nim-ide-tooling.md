@@ -26,3 +26,44 @@ hile awaiting gear2's completion, we'll maintain and improve nimsuggest, address
 
 By the end of the quarter, we aim to have a more robust, user-friendly Nim IDE with enhanced functionality and improved performance.
 
+## Tasks
+
+### Langserver release
+
+fully qualified name: `vac:nim:ift:2025q1-nim-ide-tooling:langserver-release
+* owner: 
+* status:
+* start-date: 2025/03/01
+* end-date: 2025/03/31
+
+### Extension release
+
+fully qualified name: `vac:nim:ift:2025q1-nim-ide-tooling:extension-release
+* owner: 
+* status:
+* start-date: 2025/03/01
+* end-date: 2025/03/31
+
+### Multiple fixes and improvements for the langserver and the extension
+
+- fully qualified name: `vac:nim:ift:2025q1-nim-ide-tooling:multiple-fixes-and-improvements-for-the-langserver-and-the-extension`
+* owner: 
+* status:
+* start-date: 2025/02/01
+* end-date: 2025/02/28
+
+### New release of the vs-code extension and the nimlangserver
+
+- fully qualified name: `vac:nim:ift:2025q1-nim-ide-tooling:new-release-of-the-vs-code-extension-and-the-nimlang-server`
+* owner: 
+* status:
+* start-date: 2025/01/01
+* end-date: 2025/01/31
+
+### Experimental support for macro and arc expansion on hover
+
+- fully qualified name: `vac:nim:ift:2025q1-nim-ide-tooling:experimental-support-for-macro-and-arc-expansion-on-hover`
+* owner: 
+* status:
+* start-date: 2025/01/01
+* end-date: 2025/01/31

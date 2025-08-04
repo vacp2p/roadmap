@@ -102,7 +102,7 @@ Investigate `PEER_DIAL_FAILURE` error found in regression tests in nwaku v0.36, 
 
 * fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:store-dial-failure-followup`
 * owner: Pearson
-* status: 50%
+* status: 100%
 * start-date: 2025-07-23
 * end-date: 2025-08-01
 

@@ -43,7 +43,7 @@ looking to integrate RLN into their projects.
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:big-endian-support`
 - owner: Sylvain
-- status: started (30%)
+- status: started (60%)
 - start-date: 2025/06/20
 - end-date: 2025/07/20
 
@@ -64,7 +64,7 @@ for working with Big Endian data and updates the public API to expose this funct
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:ci-revising`
 - owner: Vinh
-- status: started (20%)
+- status: started (60%)
 - start-date: 2025/07/07
 - end-date: 2025/07/26
 
@@ -139,8 +139,8 @@ A Pull Request to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) containin
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:rln-wasm-maintaining`
 - owner: Vinh
-- status: Not Started
-- start-date: 2025/06/30
+- status: started (30%)
+- start-date: 2025/07/01
 - end-date: 2025/09/30
 
 #### Description
@@ -166,9 +166,9 @@ A set of PRs to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) addressing 
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:zerokit-maintaining`
 - owner: Ekaterina
-- status: not started
-- start-date:
-- end-date:
+- status: started (10%)
+- start-date: 2025/07/01
+- end-date: 2025/09/30
 
 ### Description
 
@@ -183,8 +183,8 @@ A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/).
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:release`
 - owner: Ekaterina
 - status: started
-- start-date:
-- end-date:
+- start-date: 2025/09/01
+- end-date: 2025/09/30
 
 ### Description
 

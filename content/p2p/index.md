@@ -15,12 +15,13 @@ Additionally, our team conducts research to enhance libp2p protocols,
 with a particular emphasis on improving gossipsub.
 Major future work items on nim-libp2p (also beyond this reporting period are captured on [github](https://github.com/status-im/nim-libp2p/issues/777).
 
-[[preview|Roadmap Preview]]
+[[p2p/preview|Roadmap Preview]]
 
 ### 2025q3
 
 #### `ift:`
 * [[p2p/ift/2025q3-gossipsub-perf-improvements|2025q3-gossipsub-perf-improvements]]
+* [[p2p/ift/2025q3-nimlibp2p-universal-connectivity-app|2025q3-nimlibp2p-universal-connectivity-app]]
 * [[p2p/ift/2025q3-nimlibp2p-kademlia|2025q3-nimlibp2p-kademlia]]
 * [[p2p/ift/2025q3-nimlibp2p-maintenance|2025q3-nimlibp2p-maintenance]]
 * [[p2p/ift/2025q3-nimlibp2p-webtransport|2025q3-nimlibp2p-webtransport]]

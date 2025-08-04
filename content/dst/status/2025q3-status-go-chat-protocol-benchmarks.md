@@ -124,7 +124,7 @@ Test:
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:message-sending`
 * owner: Alberto
-* status: 95%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -143,13 +143,14 @@ Test:
 
 #### Deliverables
 - [Draft PR #16: Message sending](https://github.com/vacp2p/status-benchmarks/pull/16)
+- [Notion Document](https://www.notion.so/Message-sending-2368f96fb65c803fae4ac428bd0b7227)
 
 
 ### Request to join mix (communities)
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:join-community-mix`
 * owner: Alberto
-* status: 95%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -172,13 +173,14 @@ Test:
 
 #### Deliverables
 - [Draft PR #17: Request to join mix](https://github.com/vacp2p/status-benchmarks/pull/17)
+- [Notion Document](https://www.notion.so/Request-to-join-community-Mix-2368f96fb65c80998456d81b39a2df93)
 
 
 ### Isolated chat messages (communities)
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:isolated-traffic-chat-messages`
 * owner: Alberto
-* status: 95%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -199,12 +201,14 @@ traffics (community idle traffic does not impact users that are not part of any 
 
 #### Deliverables
 - [Draft PR #18: Isolated traffic](https://github.com/vacp2p/status-benchmarks/pull/18/)
+- [Notion document 1](https://www.notion.so/Isolated-traffic-Chat-messages-1-2368f96fb65c80f69a22f0d9e6c91fb3)
+- [Notion document 2](https://www.notion.so/Isolated-traffic-Chat-messages-2-2398f96fb65c8088a8c2fc726dd3f3b1)
 
 ### Isolated request to join (communities)
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:isolated-traffic-request-to-join`
 * owner: Alberto
-* status: 95%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -225,14 +229,14 @@ traffics (community idle traffic does not impact users that are not part of any 
 
 #### Deliverables
 - [Draft PR #19: Isolated traffic request to join](https://github.com/vacp2p/status-benchmarks/pull/19/)
-
+- [Notion Document](https://www.notion.so/Isolated-traffic-Request-to-Join-2368f96fb65c80f295b1f9950852f94e)
 
 
 ### Idle-relay (private chats)
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:idle-relay`
 * owner: Alberto
-* status: 95%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -252,12 +256,13 @@ Test:
 #### Deliverables
 - [Draft PR #20: Improvements](https://github.com/vacp2p/status-benchmarks/pull/20)
 - [Draft PR #21: Idle-relay](https://github.com/vacp2p/status-benchmarks/pull/21)
+- [Notion Document](https://www.notion.so/Idle-Relay-2368f96fb65c8029b825eaedc8b56677)
 
 ### Idle-light (private chats)
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:idle-light`
 * owner: Alberto
-* status: 95%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -276,13 +281,14 @@ Test:
 
 #### Deliverables
 - [Draft PR#23: Idle Light](https://github.com/vacp2p/status-benchmarks/pull/22)
+- [Notion Document](https://www.notion.so/Idle-Light-2368f96fb65c8093a283c2afc4748a4d)
 
 
 ### Contact request (private chats)
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:contact-request`
 * owner: Alberto
-* status: 95%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -311,12 +317,13 @@ Test:
 
 #### Deliverables
 - [Draft PR #23: Contact Request](https://github.com/vacp2p/status-benchmarks/pull/23)
+- [Notion Document](https://www.notion.so/Contact-request-2368f96fb65c8039a772f2a90c034eb0)
 
 ### Send-one-to-one (private chats)
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:send-one-to-one`
 * owner: Alberto
-* status: 95%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -336,12 +343,13 @@ Test:
 
 #### Deliverables
 - [Draft PR #24: Send one to one](https://github.com/vacp2p/status-benchmarks/pull/24)
+- [Notion Document](https://www.notion.so/Send-one-to-one-message-2368f96fb65c8037a8b7eb0b8e9d9f69)
 
 ### Create private group (private chats)
 
 * fully qualified name: `vac:dst:status:2025-q3-status-go-evaluation:create-private-group`
 * owner: Alberto
-* status: 95%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -360,12 +368,13 @@ Test:
 
 #### Deliverables
 - [Draft PR #25: Create private group](https://github.com/vacp2p/status-benchmarks/pull/25)
+- [Notion Document](https://www.notion.so/Create-private-group-2368f96fb65c80629a16d3bdf388ac9d)
 
 ### Send group message (private chats)
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:send-group-message`
 * owner: Alberto
-* status: 95%
+* status: 100%
 * start-date: 2025/07/01
 * end-date: 2025/07/18
 
@@ -384,14 +393,15 @@ Test:
 
 #### Deliverables
 - [Draft PR #26: Send group message](https://github.com/vacp2p/status-benchmarks/pull/26)
+- [Notion Document](https://www.notion.so/Send-group-message-2368f96fb65c80d79b66d8e01701f845)
 
 ### Send one-to-one outage (private chats)
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:one-to-one-outage`
 * owner: Alberto
 * status: 0%
-* start-date: 2025/07/01
-* end-date: 2025/07/18
+* start-date: TBA
+* end-date: TBA
 
 #### Description
 [Notion Link](https://www.notion.so/Chat-Protocol-Benchmarks-1938f96fb65c80d8b22fdf641c5ff003?source=copy_link#19d8f96fb65c809e8f11d4296821b24d)
@@ -422,11 +432,25 @@ Test:
 * fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:group-outage`
 * owner: Alberto
 * status: 0%
-* start-date: 2025/07/01
-* end-date: 2025/07/18
+* start-date: TBA
+* end-date: TBA
 
 #### Description
 [Notion Link](https://www.notion.so/Chat-Protocol-Benchmarks-1938f96fb65c80d8b22fdf641c5ff003?source=copy_link#19d8f96fb65c80aa8459d54b975df8b0)
 Same as @Send one-to-one message - Network outage for private group
+
+#### Deliverables
+
+### Cleanup resources
+
+* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:cleanup-resources`
+* owner: Alberto
+* status: 0%
+* start-date: 2025/07/30
+* end-date: 2025/08/15
+
+#### Description
+
+Close up draft PRs from previous procol benchmarks. Extract utilities and/or add documentation when possible.
 
 #### Deliverables

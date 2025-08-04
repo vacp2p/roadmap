@@ -125,7 +125,7 @@ to see what that node is doing. Also, reduce number of nodes in the scenario.
 
 * fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:discv5-feasibility-comparison`
 * owner: Pearson
-* status: 50%
+* status: 100%
 * start-date: 2025-07-21
 * end-date: 2025-08-01
 

@@ -63,7 +63,7 @@ and thus ready for being included in the rfc-index.
 - Fully qualified name:
   `vac:rfc:nomos:2025q3-rfc-iteration:p2p-network-specification`
 - Owner: cofson
-- Status: 70%
+- Status: 90%
 - Start date: 2025/07/20
 - End date: 2025/08/21
 

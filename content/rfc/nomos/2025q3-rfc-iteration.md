@@ -72,7 +72,7 @@ and thus ready for being included in the rfc-index.
 - Fully qualified name:
   `vac:rfc:nomos:2025q3-rfc-iteration:common-cryptographic-components`
 - Owner: cofson
-- Status: not started
+- Status: 25%
 - Start date: 2025/07/20
 - End date: 2025/08/21
 

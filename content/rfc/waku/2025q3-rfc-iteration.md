@@ -54,7 +54,7 @@ from the point of view of a new developer.
 - Fully qualified name:
   `vac:rfc:nomos:2025q3-rfc-iteration:qaku`
 - Owner: jimstir
-- Status: 60%
+- Status: 75%
 - Start date: 2025/07/20
 - End date: 2025/08/21
 
@@ -63,6 +63,6 @@ from the point of view of a new developer.
 - Fully qualified name:
   `vac:rfc:nomos:2025q3-rfc-iteration:waku-rln-keystore`
 - Owner: jimstir
-- Status: 70%
+- Status: 90%
 - Start date: 2025/07/20
 - End date: 2025/08/21

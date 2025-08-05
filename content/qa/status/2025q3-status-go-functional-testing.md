@@ -26,7 +26,7 @@ as outlined in this [epic](https://github.com/status-im/status-go/issues/6064).
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:critical-flows`
 * owner: fbarbu15
-* status: in progress (30%)
+* status: in progress (60%)
 * start-date: 2025/07/01
 * end-date: 2025/08/15
 
@@ -35,8 +35,9 @@ Add functional test coverage to critical user flows like onboarding,
 asset management or messaging as described in this [epic](https://github.com/status-im/status-go/issues/6064). 
 
 #### Deliverables
-* test_: [critical flow RecoverAndLogin with 12,15,24 words mnemonic](https://github.com/status-im/status-go/pull/6688)
-
+* [test_: critical flow RecoverAndLogin with 12,15,24 words mnemonic](https://github.com/status-im/status-go/pull/6688)
+* [test_: backup mnemonic and restore account](https://github.com/status-im/status-go/pull/6789)
+* [test_: add account](https://github.com/status-im/status-go/pull/6795)
 
 ### Wallet features
 

@@ -42,7 +42,7 @@ investigating and resolving issues, and implementing minor improvements to the t
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:jswaku-filter-hardening`
 * owner: fbarbu15
-* status: in progress (90%)
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/07/14
 
@@ -74,7 +74,7 @@ based on nwaku dev requirements
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:wakucannary`
 * owner: aya
-* status: in progress (30%)
+* status: in progress (80%)
 * start-date: 2025/07/01
 * end-date: 2025/07/30
 
@@ -89,7 +89,7 @@ based on nwaku dev requirements
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:12hlongevity`
 * owner: aya
-* status: in progress (50%)
+* status: in progress (90%)
 * start-date: 2025/07/21
 * end-date: 2025/08/15
 
@@ -98,3 +98,33 @@ Create a github actions workflow that can run a 12 hour longevity test for waku 
 
 #### Deliverables
 - PR and CI run
+
+### Waku rendezvous peer discovery
+
+* fully qualified name: `vac:qa:waku:2025q3-interop-testing:rendezvous-peer-discovery
+* owner: aya
+* status: 
+* start-date: 2025/08/20
+* end-date:  2025/09/10
+
+#### Description
+Test that Relay nodes finds new peers when solely using rendezvous.
+See [FURPS](https://github.com/waku-org/pm/blob/master/FURPS/core/rendezvous.md?plain=1)
+
+#### Deliverables
+- PRs or Issues
+
+### Waku REST APIs for admin/debug 
+
+* fully qualified name: `vac:qa:waku:2025q3-interop-testing:REST-APIs-extended
+* owner: aya
+* status: in progress (5%)
+* start-date: 2025/08/05
+* end-date:  2025/08/20
+
+#### Description
+Adding E2E tests to cover REST APIs for 
+[admin/debug endpoints](https://waku-org.github.io/waku-rest-api/#post-/admin/v1/log-level/-logLevel-)
+
+#### Deliverables
+- PRs or Issues

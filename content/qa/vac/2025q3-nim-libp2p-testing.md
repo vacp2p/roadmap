@@ -138,7 +138,7 @@ and others to be determined later.
 
 * fully qualified name: `vac:qa:vac:2025q3-nim-libp2p-testing:gossipsub-performance`
 * owner: radek
-* status: in progress (30%)
+* status: in progress (60%)
 * start-date: 2025/07/15
 * end-date: 2025/07/31
 
@@ -147,3 +147,6 @@ Implement small scale performance tests for GossipSub that can run between a few
 
 #### Deliverables:
 * [test(gossipsub): performance tests PoC](https://github.com/vacp2p/nim-libp2p/pull/1544)
+* [test(gossipsub): Performance tests - base scenario and runner](https://github.com/vacp2p/nim-libp2p/pull/1573)
+* [test(gossipsub): Performance tests - aggregation script and workflow](https://github.com/vacp2p/nim-libp2p/pull/1577)
+* [test(gossipsub): Performance tests - more scenarios](https://github.com/vacp2p/nim-libp2p/pull/1585)

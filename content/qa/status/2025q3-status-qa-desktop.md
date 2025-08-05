@@ -52,6 +52,9 @@ Oversee testing strategy around releases.
 - [bug: fatal error: concurrent map writes](https://github.com/status-im/status-desktop/issues/18396)
 - [chore: bump status-go to get fix for base chain estimations](https://github.com/status-im/status-desktop/pull/18411)
 - [bug: Banned community member does not see the screen saying that he is banned from this community](https://github.com/status-im/status-desktop/issues/18412)
+- [bug: Can't quit the app with right click](https://github.com/status-im/status-desktop/issues/18458)
+- [chore(@e2e): small adjustments in the object references](https://github.com/status-im/status-desktop/pull/18308/commits/ae0e04fb8830d024c438fa462e654a851f926159)
+- [bug: Profile showcase popup is shown after being dismissed and app is restarted](https://github.com/status-im/status-desktop/issues/18471)
 
 ### Shell view
 
@@ -131,3 +134,5 @@ Oversee testing strategy around releases.
 - [chore(@e2e): fix toast messages method and seed phrase import](https://github.com/status-im/status-desktop/pull/18407)
 - [chore(@e2e): retry decorator logic ](https://github.com/status-im/status-desktop/pull/18414)
 - [chore(@e2e): fix navigation for advanced section](https://github.com/status-im/status-desktop/pull/18427)
+- [chore(@e2e): fix for keypair renaming](https://github.com/status-im/status-desktop/pull/18445)
+- [chore(@e2e): shorten test images names to stop insulting jenkins](https://github.com/status-im/status-desktop/pull/18470)

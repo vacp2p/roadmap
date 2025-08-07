@@ -109,7 +109,7 @@ libp2p, Gossipsub, MVDS, and SDS protocols.
 - Related Documents:
 
 
-### Adversarial scenarios
+### Scenario workflow manager
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:scenario-workflow-manager`
 * owner: Alberto

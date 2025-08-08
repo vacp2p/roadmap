@@ -28,7 +28,7 @@ improving cross-project collaboration.
 
 * fully qualified name: `2025q2-sc-learnup-sessions:2025q2`
 * owner: r4bbit
-* status: not started
+* status: done
 * start-date: 2025/04/01
 * end-date: 2025/06/31
 
@@ -38,13 +38,13 @@ Organize learn up session on a monthly basis and ensure meetings are recorded an
 
 #### Deliverables
 
-- [ ] Recording of the sessions
+- [x] Recording of the sessions
 
 ### SC LearnUp Session 2025/04
 
 * fully qualified name: `2025q2-sc-learnup-sessions:2025-04`
 * owner: r4bbit
-* status: not started
+* status: done
 * start-date: 2025/04/01
 * end-date: 2025/04/30
 
@@ -54,15 +54,15 @@ Run a learn up session about topic of choice related to smart contract developme
 
 #### Deliverables
 
-- [ ] Recording of the session
+- [x] [SC LearnUp - Flashloans](https://drive.google.com/file/d/1PqX_9TlyegpRNGqzxRqS5_gTf-2L4tT7/view?usp=sharing)
 
 ### SC LearnUp Session 2025/05
 
 * fully qualified name: `2025q2-sc-learnup-sessions:2025-05`
 * owner: r4bbit
-* status: not started
+* status: done
 * start-date: 2025/05/01
-* end-date: 2025/04/31
+* end-date: 2025/05/31
 
 #### Description
 
@@ -70,13 +70,13 @@ Run a learn up session about topic of choice related to smart contract developme
 
 #### Deliverables
 
-- [ ] Recording of the session
+- [x] [SC LearnUp - Provably Rootlets EIP7702 Proxies](https://drive.google.com/file/d/1alDUB4nSkMKWT9WSgKwyf7cseKbAca_L/view?usp=sharing)
 
 ### SC LearnUp Session 2025/06
 
 * fully qualified name: `2025q2-sc-learnup-sessions:2025-06`
 * owner: r4bbit
-* status: not started
+* status: cancelled
 * start-date: 2025/06/01
 * end-date: 2025/06/30
 
@@ -86,4 +86,4 @@ Run a learn up session about topic of choice related to smart contract developme
 
 #### Deliverables
 
-- [ ] Recording of the session
+- No session this month

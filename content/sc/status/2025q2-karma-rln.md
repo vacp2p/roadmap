@@ -43,16 +43,16 @@ The `slash(account)` function should then slash the Karma balance of the given a
 
 #### Deliverables
 
-- [ ] Commit that introduces slash functionality
-- [ ] Unit tests for the slashing function
-- [ ] Formal verification of the slashing function
-- [ ] Documentation for the contract
+- [x] [Commit that introduces slash functionality](https://github.com/vacp2p/staking-reward-streamer/pull/215)
+- [x] Unit tests for the slashing function
+- [ ] ~~Formal verification of the slashing function~~
+- [x] Documentation for the contract
 
 ### Implement KarmaTier contract
 
 * fully qualified name: `2025q2-karma-rln:karma-tiers`
-* owner: Ricardo
-* status: not started
+* owner: r4bbit
+* status: done
 * start-date: 2025/05/21
 * end-date: 2025/06/31
 
@@ -65,15 +65,16 @@ It should also be possible to add new tiers.
 
 #### Deliverables
 
-- [ ] Commit that introduces `KarmaTiers` contract
-- [ ] Unit tests for updating and adding tiers
-- [ ] Documentation for the contract
+- [x] [Commit that introduces `KarmaTiers` contract](https://github.com/vacp2p/staking-reward-streamer/pull/224)
+- [x] [Refactor of the contract](https://github.com/vacp2p/staking-reward-streamer/pulls?q=is%3Apr+is%3Aclosed+tier)
+- [x] Unit tests for updating and adding tiers
+- [x] Documentation for the contract
 
 ### Implement KarmaRLN contract
 
 * fully qualified name: `2025q2-karma-rln:implementation`
 * owner: Ricardo
-* status: 80%
+* status: done
 * start-date: 2025/05/21
 * end-date: 2025/06/31
 
@@ -84,6 +85,6 @@ We can likely take a lot of ideas from what the [WakuRLNV2](https://github.com/w
 
 #### Deliverables
 
-- [ ] Commits that introduce `KarmaRLN` contract
-- [ ] Unit tests
-- [ ] Documentation for the contract
+- [x] [Commits that introduce `KarmaRLN` contract](https://github.com/vacp2p/staking-reward-streamer/pull/223)
+- [x] Unit tests
+- [x] Documentation for the contract

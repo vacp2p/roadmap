@@ -23,6 +23,8 @@ The changes to the fork are minor,
 as the only requested changes are,
 that the transaction fee is adjusted and the generated profit is sent to a splitter contract.
 
+**StatusL2 has decided to outsource this work.**
+
 ## Task List
 
 ### Implementation

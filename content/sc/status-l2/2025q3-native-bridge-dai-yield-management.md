@@ -12,6 +12,8 @@ description: Implement yield generation in the Status Network native bridge for 
 
 Implement yield generation in the Status Network native bridge for bridged DAI.
 
+**Linea has decided to take over the work of building the yield-bearing bridge, due to an internal roadmap change.**
+
 ## Description
 
 Once ETH yield management is implemented and working,

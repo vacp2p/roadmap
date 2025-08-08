@@ -16,6 +16,8 @@ Help reviewing and formally verifying the Codex Vault Integration.
 
 Codex aims to extract all funds related logic of the `MarketPlace` contract into a dedicated `Vault` contract. We will help review and formally verify the integration of the `Vault` contract into the Codex marketplace.
 
+**The marketplace functionality of Codex has been de-prioritized.**
+
 ## Task List
 
 ### Review Vault contract
@@ -34,13 +36,13 @@ to integrate it with the Codex marketplace contracts.
 
 #### Deliverables
 
-- [ ] Reviews on these pull requests with feedback and suggestions
+- [x] Reviews on these pull requests with feedback and suggestions
 
 ### Formally verify Vault integration
 
 * fully qualified name: `2025q1-vault-integration:formal-verification`
-* owner: 
-* status: not started
+* owner: r4bbit
+* status: done
 * start-date: 2025/04/15
 * end-date: 2025/06/30
 
@@ -51,4 +53,4 @@ This task includes creating a list of application properties and them implementi
 
 #### Deliverables
 
-- [ ] Spec files containing rules for the integration
+- [x] [Spec files containing rules for the integration](https://github.com/codex-storage/codex-contracts-eth/pull/242)

@@ -16,7 +16,7 @@ Help reviewing and formally verifying the Codex Vault Integration.
 
 Codex aims to extract all funds related logic of the `MarketPlace` contract into a dedicated `Vault` contract. We will help review and formally verify the integration of the `Vault` contract into the Codex marketplace.
 
-**The marketplace functionality of Codex has been put on hold to align better with Logos vision.**
+**The marketplace functionality of Codex has been put on hold.**
 
 ## Task List
 

@@ -157,14 +157,14 @@ Perform a comparison between Waku using quic and waku using mplex and yamux.
 ### JS waku
 
 * fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:js-waku`
-* owner: Alberto
+* owner: Pearson
 * status: 0%
-* start-date: -
-* end-date: -
+* start-date: 2025-08-11
+* end-date: 2025-08-22
 
 #### Description
 
-Start integrating js waku in DST experiments
+Start integrating js waku in DST experiments. Report js waku team any missing functionalities.
 
 #### Deliverables
 - Reports:

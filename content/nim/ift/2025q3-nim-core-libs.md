@@ -32,6 +32,18 @@ fully qualified name: `vac:nim:ift:2025q3-nim-core-libs:compile-time-support-for
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
+### Add ABI Codec Support to nim-web3
+
+fully qualified name: `vac:nim:ift:2025q3-nim-core-libs:add-abi-codec-support-to-nim-web3`
+* owner: Arnaud
+* status:
+* start-date: 2025/07/01
+* end-date: 2025/09/30
+
+#### Description
+
+- Add [ABI encoder](https://github.com/codex-storage/nim-contract-abi) and decoder support to [nim-web3](https://github.com/status-im/nim-web3), enabling serialization and deserialization of static and dynamic types (including nested tuples, strings, and arrays). This should be Integrated with the nim-serialization ecosystem and inspired by contractabi from Codex, but rewritten using nim-faststream for better performance. Good test coverage is a must.
+
 ### Create Standalone CPU Integer Library
 
 fully qualified name: `vac:nim:ift:2025q3-nim-core-libs:extract-and-set-up-an-integer-library`

@@ -153,3 +153,20 @@ Ideally, the DST node with nim-libp2p is a nice place for starting the scaffold.
 #### Deliverables
 - PRs:
 - Related Documents:
+
+
+### Deployment updates
+
+* fully qualified name: `vac:dst:ift:2025q3-dst-tooling:deployment-updates`
+* owner: Pearson
+* status: 0%
+* start-date: 2025/08/11
+* end-date: 2025/08/15
+
+#### Description
+Enhance documentation clarity and streamline usability workflows, 
+reducing friction for new users.
+
+#### Deliverables
+- PRs:
+- Related Documents:

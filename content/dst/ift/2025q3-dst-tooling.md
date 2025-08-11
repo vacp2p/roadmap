@@ -133,3 +133,23 @@ workflows and edge-case scenarios.
 #### Deliverables
 - PRs:
 - Related Documents:
+
+
+### Shadow integration scaffold
+
+* fully qualified name: `vac:dst:ift:2025q3-dst-tooling:shadow-integration-scaffold`
+* owner: Farooq
+* status: 0%
+* start-date: 2025/08/11
+* end-date: 2025/08/22
+
+#### Description
+Include shadow simulations in the DST experiments. Following the current workflow, when regression experiments
+are launch in the lab, set up at the same time similar experiments using shadow.
+Configurations should be similarly set up to the regression ones and modular because they will depends on the project.
+Do it in a way that grabbing the results for the analysis can be also coupled with the main tool workflow.
+Ideally, the DST node with nim-libp2p is a nice place for starting the scaffold.
+
+#### Deliverables
+- PRs:
+- Related Documents:

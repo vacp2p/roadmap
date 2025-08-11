@@ -44,7 +44,7 @@ Organize learn up session on a monthly basis and ensure meetings are recorded an
 
 * fully qualified name: `2025q3-sc-learnup-sessions:2025-07`
 * owner: r4bbit
-* status: not started
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/07/31
 
@@ -54,7 +54,7 @@ Run a learn up session about topic of choice related to smart contract developme
 
 #### Deliverables
 
-- [ ] Recording of the session
+- [x] [SC LearnUp - Constant Function Market Makers](https://drive.google.com/file/d/159MFMSabAgDiMpXteohZAWFT48qeqlZ2/view?usp=sharing)
 
 ### SC LearnUp Session 2025/08
 

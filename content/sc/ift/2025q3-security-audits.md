@@ -27,3 +27,5 @@ Urgent work related to IFT projects take precedence over this.
 
 List of security audits and contests the team participated in.
 
+- [Cantina - pike-tapio-monorepo](https://cantina.xyz/code/a0806644-7d91-457a-a08d-aee2db73f352/overview)
+- [Sherlock - Malda](https://audits.sherlock.xyz/contests/1029?filter=questions)

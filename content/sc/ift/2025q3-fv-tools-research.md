@@ -22,9 +22,9 @@ Look into alternative formal verification tools and their integration with the e
 
 * fully qualified name: `2025q3-fv-tools-research:research-alternatives`
 * owner: r4bbit
-* status: not started
-* start-date: 2025/04/01
-* end-date: 2025/06/31
+* status: 20%
+* start-date: 2025/07/01
+* end-date: 2025/09/31
 
 #### Description
 

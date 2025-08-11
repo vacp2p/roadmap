@@ -38,20 +38,20 @@ tags:
 
 ### `ift:`
 
-- [ ] [[sc/ift/2025q2-sc-learnup-sessions]]
-- [ ] [[sc/ift/2025q2-security-audits]]
+- [x] [[sc/ift/2025q2-sc-learnup-sessions]]
+- [x] [[sc/ift/2025q2-security-audits]]
 
 ### `status:`
 
 - [ ] [[sc/status/2025q2-sn-native-bridge-yield-bearing-module]]
 - [ ] [[sc/status/2025q2-sn-native-dex]]
-- [ ] [[sc/status/2025q2-maintaining-status-contracts]]
-- [ ] [[sc/status/2025q2-consulting]]
-- [ ] [[sc/status/2025q2-karma-rln]]
+- [x] [[sc/status/2025q2-maintaining-status-contracts]]
+- [x] [[sc/status/2025q2-consulting]]
+- [x] [[sc/status/2025q2-karma-rln]]
 
 ### `codex:`
 
-- [ ] [[sc/codex/2025q2-vault-integration]]
+- [x] [[sc/codex/2025q2-vault-integration]]
 
 ### `ghost:`
 - [x] [[sc/based/2025q2-ghost-protocol-review]]

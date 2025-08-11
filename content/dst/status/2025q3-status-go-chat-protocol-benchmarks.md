@@ -53,7 +53,7 @@ due to unforeseen circumstances.
 
 ### Status-backend subscription performance (communities)
 
-* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:subscription-performance`
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:subscription-performance`
 * owner: Alberto
 * status: 100%
 * start-date: 2025/07/01
@@ -86,7 +86,7 @@ Test:
 
 ### Status-backend store performance (communities)
 
-* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:store-performance`
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:store-performance`
 * owner: Alberto
 * status: 100%
 * start-date: 2025/07/01
@@ -122,7 +122,7 @@ Test:
 
 ### Message sending (communities)
 
-* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:message-sending`
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:message-sending`
 * owner: Alberto
 * status: 100%
 * start-date: 2025/07/01
@@ -148,7 +148,7 @@ Test:
 
 ### Request to join mix (communities)
 
-* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:join-community-mix`
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:join-community-mix`
 * owner: Alberto
 * status: 100%
 * start-date: 2025/07/01
@@ -178,7 +178,7 @@ Test:
 
 ### Isolated chat messages (communities)
 
-* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:isolated-traffic-chat-messages`
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:isolated-traffic-chat-messages`
 * owner: Alberto
 * status: 100%
 * start-date: 2025/07/01
@@ -206,7 +206,7 @@ traffics (community idle traffic does not impact users that are not part of any 
 
 ### Isolated request to join (communities)
 
-* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:isolated-traffic-request-to-join`
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:isolated-traffic-request-to-join`
 * owner: Alberto
 * status: 100%
 * start-date: 2025/07/01
@@ -234,7 +234,7 @@ traffics (community idle traffic does not impact users that are not part of any 
 
 ### Idle-relay (private chats)
 
-* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:idle-relay`
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:idle-relay`
 * owner: Alberto
 * status: 100%
 * start-date: 2025/07/01
@@ -260,7 +260,7 @@ Test:
 
 ### Idle-light (private chats)
 
-* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:idle-light`
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:idle-light`
 * owner: Alberto
 * status: 100%
 * start-date: 2025/07/01
@@ -286,7 +286,7 @@ Test:
 
 ### Contact request (private chats)
 
-* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:contact-request`
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:contact-request`
 * owner: Alberto
 * status: 100%
 * start-date: 2025/07/01
@@ -321,7 +321,7 @@ Test:
 
 ### Send-one-to-one (private chats)
 
-* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:send-one-to-one`
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:send-one-to-one`
 * owner: Alberto
 * status: 100%
 * start-date: 2025/07/01
@@ -347,7 +347,7 @@ Test:
 
 ### Create private group (private chats)
 
-* fully qualified name: `vac:dst:status:2025-q3-status-go-evaluation:create-private-group`
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:create-private-group`
 * owner: Alberto
 * status: 100%
 * start-date: 2025/07/01
@@ -372,7 +372,7 @@ Test:
 
 ### Send group message (private chats)
 
-* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:send-group-message`
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:send-group-message`
 * owner: Alberto
 * status: 100%
 * start-date: 2025/07/01
@@ -397,7 +397,7 @@ Test:
 
 ### Send one-to-one outage (private chats)
 
-* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:one-to-one-outage`
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:one-to-one-outage`
 * owner: Alberto
 * status: 0%
 * start-date: TBA
@@ -429,7 +429,7 @@ Test:
 
 ### Status-backend private chats - send group outage
 
-* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:group-outage`
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:group-outage`
 * owner: Alberto
 * status: 0%
 * start-date: TBA
@@ -443,7 +443,7 @@ Same as @Send one-to-one message - Network outage for private group
 
 ### Cleanup resources
 
-* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:cleanup-resources`
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:cleanup-resources`
 * owner: Alberto
 * status: 0%
 * start-date: 2025/07/30
@@ -458,7 +458,7 @@ Close up draft PRs from previous procol benchmarks. Extract utilities and/or add
 
 ### Delay and store
 
-* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:delay-and-store`
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:delay-and-store`
 * owner: Alberto
 * status: 0%
 * start-date: 2025/08/18

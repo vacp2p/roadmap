@@ -60,6 +60,7 @@ Should be made general when possible.
 #### Deliverables
 - PRs:
   - [Github PR: Scale x axis](https://github.com/vacp2p/10ksim/pull/76)
+  - [Github PR: Add events logging for waku regression experiment](https://github.com/vacp2p/10ksim/pull/78)
 
 
 ### Improve tooling

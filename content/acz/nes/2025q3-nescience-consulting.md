@@ -83,7 +83,7 @@ Additionally, we demonstrate that this proposal is practical within Risc0 by wri
 ### NSSA feasibility as L2 on Cosmos
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:cosmos-l2-feasibility`
 * owner: Marvin
-* status: started 80%
+* status: started (80%)
 * start-date: 2025/07/15
 * end-date: 2025/07/25
 

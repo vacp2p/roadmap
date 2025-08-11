@@ -454,3 +454,21 @@ Same as @Send one-to-one message - Network outage for private group
 Close up draft PRs from previous procol benchmarks. Extract utilities and/or add documentation when possible.
 
 #### Deliverables
+
+
+### Delay and store
+
+* fully qualified name: `vac:dst:status:2025q3-status-go-evaluation:delay-and-store`
+* owner: Alberto
+* status: 0%
+* start-date: 2025/08/18
+* end-date: 2025/08/29
+
+#### Description
+
+In a relay-friend request scenario, try the following:
+1. Add a delay between friend requests and check if this has an impact on store requests.
+2. Try changing the bootstrap node ENR in the fleet config to discv5nodes.
+Check how this behaves, and if it solves scalability.
+
+#### Deliverables

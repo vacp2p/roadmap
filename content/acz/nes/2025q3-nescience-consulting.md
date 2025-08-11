@@ -65,7 +65,7 @@ We should analyze a selection of new zkVMs (e.g., zisk and Secret VM) in terms o
 ### Alternative UTXO commitment
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:alt-utxo`
 * owner: Marvin
-* status: started (85%)
+* status: done
 * start-date: 2025/07/11
 * end-date: 2025/07/18
 
@@ -83,7 +83,7 @@ Additionally, we demonstrate that this proposal is practical within Risc0 by wri
 ### NSSA feasibility as L2 on Cosmos
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:cosmos-l2-feasibility`
 * owner: Marvin
-* status: 10%
+* status: started 80%
 * start-date: 2025/07/15
 * end-date: 2025/07/25
 
@@ -116,7 +116,7 @@ Basically analyse:
 ### Specs for Key Protocols
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:key-protocol-spec`
 * owner: Marvin
-* status: not started 
+* status: started (90%)
 * start-date: 
 * end-date: 
 
@@ -176,7 +176,7 @@ from a user perspective, notes their roadmap progress, and compares each to NSSA
 ### Regulatory Positioning
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:regulatory-positioning`
 * owner: Marvin
-* status: not started 
+* status: deprecated
 * start-date: 
 * end-date: 
 
@@ -191,3 +191,19 @@ for how NSSA avoids classification under certain regulatory categories.
 ### Deliverables
 * A notion doc to the Nescience notion workspace.
 
+
+### Nomos Deep Dive
+* fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:nomos-deep-dive`
+* owner: Marvin
+* status: started (90%)
+* start-date: 2025/07/31
+* end-date: 2025/08/08
+
+### Description
+Nescience’s architecture is designed to function as a L1 and as a L2. Nomos’ infrastructure is designed to allow a network in blockchains to exist in a single ecosystem sharing the same storage (and in some instances, the same consensus). Nomos supports application-specific blockchains in two ways: zones and sovereign rollups. In this task, we deep dive into Nomos’ infrastructure to determine the best fit and potential changes for NSSA’s deployment in Nomos.
+
+### Deliverables: 
+A document that:
+* provides an overview of Nomos infrastructure
+* provides an overview of Zone and sovereign rollup requirements
+* Conclusion on the best fit for NSSA in Nomos

@@ -37,7 +37,7 @@ and introduced into the ecosystem.
 ### Zk Consulting Nomos 1
 * fully qualified name: `vac:acz:nomos:2025q2-nomos-consulting:zk-consulting-nomos-1`
 * owner: Marvin
-* status: started (80%)
+* status: done
 * start-date: 2025/07/07
 * end-date: 2025/07/21
 
@@ -48,3 +48,17 @@ Provide feedback Nomos' document [Analysis of rewarding in data availability net
 ### Deliverables
 * Provide comments for Nomos team to address in the document (and corresponding overleaf).
 * Add proofs to these documents as needed.
+
+### Zk Consulting Nomos 2
+* fully qualified name: vac:acz:nomos:2025q2-nomos-consulting:zk-consulting-nomos-2
+* owner: Marvin
+* status: done
+* start-date: 2024/07/28
+* end-date: 2025/08/07
+
+### Description
+Provide feedback Nomos’ document [Preliminary Research: Total Stake Inference Analysis](www.notion.so/Preliminary-Research-Total-Stake-Inference-Analysis-237261aa09df800285cccbb00b3aeb0a?pvs=120) page.
+
+### Deliverables
+- Provide comments for Nomos team to address in the document (and corresponding overleaf).
+- Add proofs to these documents as needed.

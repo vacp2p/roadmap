@@ -158,7 +158,7 @@ Perform a comparison between Waku using quic and waku using mplex and yamux.
 
 * fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:js-waku`
 * owner: Pearson
-* status: 0%
+* status: 10%
 * start-date: 2025-08-11
 * end-date: 2025-08-22
 

@@ -103,7 +103,7 @@ and checking functionality with other libp2p implementations.
 
 * fully qualified name: `vac:dst:vac:2025q3-libp2p-evaluation:evaluate-quic-v0.2.9`
 * owner: Alberto
-* status: 0%
+* status: 50%
 * start-date: 2025/07/30
 * end-date: 2025/08/08
 

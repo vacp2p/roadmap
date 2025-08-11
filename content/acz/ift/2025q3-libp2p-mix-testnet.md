@@ -174,7 +174,7 @@ This task focuses on integration the mix into the [vacp2p/nim-libp2p repo](https
 
 ### libp2p-mix Repository 
 
-- fully qualified name: `vac:acz:ift:2025q3-zerokit:libp2p-mix-repo`
+- fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:libp2p-mix-repo`
 - owner: Akshaya
 - status: started (20%)
 - start-date: 2025/07/01

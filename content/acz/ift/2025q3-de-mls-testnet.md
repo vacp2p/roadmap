@@ -60,7 +60,7 @@ to promote the project and gain support from the Ethereum ecosystem.
 
 #### Description
 
-Maintain and develop the decetnralized MLS RFC with adressing feedbacks.
+Maintain and develop the decentralized MLS RFC with adressing feedbacks.
 The RFC needs to contain concrete flow, and explaination.   
 
 #### Deliverables

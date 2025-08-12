@@ -26,7 +26,7 @@ as outlined in this [epic](https://github.com/status-im/status-go/issues/6064).
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:critical-flows`
 * owner: fbarbu15
-* status: in progress (60%)
+* status: in progress (70%)
 * start-date: 2025/07/01
 * end-date: 2025/08/15
 
@@ -62,7 +62,7 @@ TODO! This taks will need to be broken down into smaller task once we have more 
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:framework-improvements`
 * owner: chu/florin
-* status: in progress (70%)
+* status: in progress (80%)
 * start-date: 2025/07/01
 * end-date: 2025/07/30
 
@@ -74,12 +74,13 @@ Update readme and debugging.
 - Fixed the [reliability failures](https://github.com/status-im/status-go/pull/6736)
 - [Refactoring on how test fixtures are used](https://github.com/status-im/status-go/pull/6725)
 - [Fixture for setup class](https://github.com/status-im/status-go/pull/6767)
+- [test_: schema validation refactor](https://github.com/status-im/status-go/pull/6806)
 
 ### Status-backend based on nwaku
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:status-based-on-nwaku`
 * owner: florin
-* status: in progress (20%)
+* status: in progress (40%)
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -92,7 +93,7 @@ as described in the Waku FURPS
 - Created this short [guide](https://www.notion.so/status-staging-testing-guide-2248f96fb65c80efb5eafe029d964343) on how to validate staging deploys
 - Executed status related tests for nwaku v0.36 and created a [test report](https://www.notion.so/Nwaku-v0-36-in-status-staging-2248f96fb65c8023b38cd4901646a105)
 - Executed waku interop tests for nwaku v0.36 and created a [test report](https://www.notion.so/Waku-regression-testing-v0-36-2268f96fb65c8073bd6bce16733d09cb)
-
+- Validated Nwaku v0.36 deploy in [status.staging fleet](https://www.notion.so/Nwaku-v0-36-in-status-staging-2488f96fb65c80a7b273d96e524a1a1b)
 
 ### Reliability in Status Communities
 

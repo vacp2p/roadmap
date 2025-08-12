@@ -170,3 +170,37 @@ reducing friction for new users.
 #### Deliverables
 - PRs:
 - Related Documents:
+
+
+### Python uv
+
+* fully qualified name: `vac:dst:ift:2025q3-dst-tooling:python-uv`
+* owner: Alberto
+* status: 0%
+* start-date: 2025/08/12
+* end-date: 2025/08/22
+
+#### Description
+Get rid of the multiple requirement.txt and set uv for the repository.
+Also, get rid of utilities that are not currently being used (message explorer,
+topology generator).
+
+#### Deliverables
+- PRs:
+- Related Documents:
+
+
+### Workdir experiments track
+
+* fully qualified name: `vac:dst:ift:2025q3-dst-tooling:workdir-experiments-track`
+* owner: Pearson
+* status: 0%
+* start-date: 2025/08/12
+* end-date: 2025/08/22
+
+#### Description
+Keep track of values and logs of previous experiments in an automatized and cross platform way.
+
+#### Deliverables
+- PRs:
+- Related Documents:

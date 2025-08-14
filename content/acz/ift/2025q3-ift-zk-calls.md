@@ -58,7 +58,7 @@ Preparing the agenda and possible speakers for the ZK call on 1st July.
 ### IFT ZK Call 2
 * fully qualified name: `vac:acz:ift:2025q3-ift-zk-calls:ift-zk-call-2`
 * owner: Marvin
-* status: not started
+* status: done
 * start-date: 2025/07/27
 * end-date: 2025/08/12
 

@@ -45,7 +45,7 @@ looking to integrate RLN into their projects.
 - owner: Sylvain
 - status: started (60%)
 - start-date: 2025/06/20
-- end-date: 2025/07/20
+- end-date: 2025/09/20
 
 #### Description
 
@@ -64,7 +64,7 @@ for working with Big Endian data and updates the public API to expose this funct
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:ci-revising`
 - owner: Vinh
-- status: started (60%)
+- status: done
 - start-date: 2025/07/07
 - end-date: 2025/07/26
 
@@ -85,15 +85,15 @@ that internally utilize the `parallel` flag.
 
 #### Deliverables
 
-A Pull Request to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) with updated CI configurations.
+* [A Pull Request](https://github.com/vacp2p/zerokit/pull/326) to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) with updated CI configurations.
 
 ### Consistent Naming and Docs for Merkle Trees
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:merkle-tree-revising`
 - owner: 
-- status: not started
-- start-date:
-- end-date:
+- status: started (15%)
+- start-date: 2025/07/14
+- end-date: 2025/08/30
 
 #### Description
 
@@ -112,9 +112,9 @@ the renamed variables and updated, more detailed documentation.
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:pmtree-config-builder`
 - owner: Vinh
-- status: Not Started
-- start-date:
-- end-date:
+- status: started (0%)
+- start-date: 2025/08/11
+- end-date: 2025/09/08
 
 #### Description
 
@@ -139,7 +139,7 @@ A Pull Request to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) containin
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:rln-wasm-maintaining`
 - owner: Vinh
-- status: started (30%)
+- status: done
 - start-date: 2025/07/01
 - end-date: 2025/09/30
 
@@ -160,13 +160,14 @@ if necessary, update the `rln-wasm` module based on the resolution.
 
 #### Deliverables
 
-A set of PRs to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) addressing the outlined `rln-wasm` maintenance items.
+* A set of PRs to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) addressing the outlined `rln-wasm` maintenance items.
+    * [feat: add wasm parallel testcase and simplify the witness_calculator PR 328](https://github.com/vacp2p/zerokit/pull/328)
 
 ### Zerokit maintaining
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:zerokit-maintaining`
 - owner: Ekaterina
-- status: started (10%)
+- status: started (40%)
 - start-date: 2025/07/01
 - end-date: 2025/09/30
 
@@ -182,7 +183,7 @@ A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/).
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:release`
 - owner: Ekaterina
-- status: started
+- status: not started
 - start-date: 2025/09/01
 - end-date: 2025/09/30
 

@@ -54,7 +54,7 @@ from the point of view of a new developer.
 - Fully qualified name:
   `vac:rfc:nomos:2025q3-rfc-iteration:qaku`
 - Owner: jimstir
-- Status: 85%
+- Status: 95% ([https://github.com/waku-org/specs/pull/77](https://github.com/waku-org/specs/pull/77))
 - Start date: 2025/07/20
 - End date: 2025/08/21
 

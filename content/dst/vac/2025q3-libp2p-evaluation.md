@@ -76,6 +76,7 @@ and ensure they don't happen again.
 
 #### Deliverables
 * Analysis done
+  * [Notion: Nim-libp2p 1.12.0 (WIP)](https://www.notion.so/Nim-libp2p-v1-12-0-regression-testing-August-2025-WIP-2468f96fb65c8071b0a4dbf6f5807e94)
 * Report published with all relevant details
 * RFC's GitHub issue updated
   with links to the analysis and results.
@@ -102,7 +103,7 @@ and checking functionality with other libp2p implementations.
 
 * fully qualified name: `vac:dst:vac:2025q3-libp2p-evaluation:evaluate-quic-v0.2.9`
 * owner: Alberto
-* status: 0%
+* status: 50%
 * start-date: 2025/07/30
 * end-date: 2025/08/08
 
@@ -119,7 +120,7 @@ Re-evaluate Quic in nimlibp2p with regression tests, to see if there is a differ
 
 * fully qualified name: `vac:dst:vac:2025q3-libp2p-evaluation:mix-re-evaluation`
 * owner: Alberto
-* status: 0%
+* status: 50%
 * start-date: 2025/07/30
 * end-date: 2025/08/08
 

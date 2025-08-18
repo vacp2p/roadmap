@@ -179,7 +179,7 @@ reducing friction for new users.
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:python-uv`
 * owner: Alberto
-* status: 0%
+* status: 100%
 * start-date: 2025/08/12
 * end-date: 2025/08/22
 
@@ -190,6 +190,7 @@ topology generator).
 
 #### Deliverables
 - PRs:
+  - [Github PR: Add uv](https://github.com/vacp2p/10ksim/pull/130)
 - Related Documents:
 
 

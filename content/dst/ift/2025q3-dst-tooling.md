@@ -61,7 +61,9 @@ Should be made general when possible.
 - PRs:
   - [Github PR: Scale x axis](https://github.com/vacp2p/10ksim/pull/76)
   - [Github PR: Add events logging for waku regression experiment](https://github.com/vacp2p/10ksim/pull/78)
-
+  - [Github PR: Update getenr](https://github.com/vacp2p/10ksim/pull/127)
+  - [Github PR: Better query parsing](https://github.com/vacp2p/10ksim/pull/128)
+  - [Github PR: Debug mode to msg_retriever (WIP)](https://github.com/vacp2p/10ksim/pull/129)
 
 ### Improve tooling
 

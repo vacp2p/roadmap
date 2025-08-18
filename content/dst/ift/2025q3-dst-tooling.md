@@ -161,7 +161,7 @@ Ideally, the DST node with nim-libp2p is a nice place for starting the scaffold.
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:deployment-updates`
 * owner: Pearson
-* status: 0%
+* status: 100%
 * start-date: 2025/08/11
 * end-date: 2025/08/15
 

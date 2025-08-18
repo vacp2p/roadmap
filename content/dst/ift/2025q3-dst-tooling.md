@@ -171,6 +171,7 @@ reducing friction for new users.
 
 #### Deliverables
 - PRs:
+  - [Github PR: Organize Repo](https://github.com/vacp2p/10ksim/pull/124)
 - Related Documents:
 
 

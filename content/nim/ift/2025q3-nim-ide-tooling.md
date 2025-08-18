@@ -1,5 +1,5 @@
 ---
-title: Nim IDE tooling
+title: 2025q3 Nim IDE tooling
 tags:
   - 2025q3
   - nim

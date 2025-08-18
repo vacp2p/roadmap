@@ -1,13 +1,11 @@
 ---
-
-title: Nim IDE tooling
+title: 2025q1 Nimble
 tags:
-  - "2025q1"
-  - "nim"
-  - "ift"  
-draft: false  
-description: improving nim ide tooling
-
+  - 2025q1
+  - nim
+  - ift
+draft: false
+description: Nimble development.
 ---
 
 `vac:nim:ift:2025q1-nimble`

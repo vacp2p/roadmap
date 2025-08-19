@@ -158,6 +158,23 @@ The findings and feedbacks will be reflected to the RLN specification.
     * [PR#15 e2e gRPC test](https://github.com/vacp2p/status-rln-prover/pull/15)
     * [PR#17 More unit test](https://github.com/vacp2p/status-rln-prover/pull/17) 
 
+### Stress test for prover module
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:stress-test`
+* owner: Sylvain
+* status: started (0%)
+* start-date: 2025/08/18
+* end-date: 2025/09/01
+
+### Description
+
+This task focuses on testing the prover module to measure maximum TPS (transactions per second)
+by using dedicated machines. 
+
+### Deliverables
+
+* A set of PR to the [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover)
+
 ### Devnet testing 
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:devnet-testing`

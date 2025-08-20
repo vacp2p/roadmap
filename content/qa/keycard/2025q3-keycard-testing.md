@@ -84,8 +84,8 @@ Review existing tests and add more tests to improve coverage. Add debugging tool
 * fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:shell-os-v0.10`
 * owner: romanzac
 * status: in progress (10%)
-* start-date: 2025/8/18
-* end-date: 2025/8/29
+* start-date: 2025/08/18
+* end-date: 2025/08/29
 
 #### Description
 Retest 3rd party wallet integration with Shell OS version 0.10.

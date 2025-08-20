@@ -40,7 +40,7 @@ Create a suite of tests that verify that the Keycard Shell works as expected.
 
 * fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:shell-multichain-wallets`
 * owner: romanzac
-* status: in progress (70%)
+* status: in progress (80%)
 * start-date: 2025/07/28
 * end-date: 2025/09/01
 
@@ -49,6 +49,7 @@ Create a suite of tests that verify that the Keycard Shell works as expected wit
 
 #### Deliverables
 - [multi chain wallets results](https://www.notion.so/Keycard-Shell-Test-Results-22b8f96fb65c80faa06fcc195373624b?source=copy_link)
+- [remaining OKX wallet test finished with results](https://www.notion.so/Keycard-Shell-Test-Results-22b8f96fb65c80faa06fcc195373624b?source=copy_link)
 
 ### Keycard-go Unit Tests
 

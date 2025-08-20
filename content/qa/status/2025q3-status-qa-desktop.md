@@ -30,7 +30,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:release-testing`
 * owner: nastya
-* status: in progress (50%)
+* status: in progress (60%)
 * start-date: 
 * end-date: 
 
@@ -55,9 +55,13 @@ Oversee testing strategy around releases.
 - [bug: Can't quit the app with right click](https://github.com/status-im/status-desktop/issues/18458)
 - [chore(@e2e): small adjustments in the object references](https://github.com/status-im/status-desktop/pull/18308/commits/ae0e04fb8830d024c438fa462e654a851f926159)
 - [bug: Profile showcase popup is shown after being dismissed and app is restarted](https://github.com/status-im/status-desktop/issues/18471)
-- tested fix https://github.com/status-im/status-desktop/pull/18495
+- [tested: chore: Bump status-go](https://github.com/status-im/status-desktop/pull/18495)
 - [bug: Changing display name a couple of times in a row stops syncing the updates](https://github.com/status-im/status-desktop/issues/18503)
 - [bug: Windows: can't set any image (profile, community) ](https://github.com/status-im/status-desktop/issues/18524)
+- [bug: Action buttons in banners are not working, buttons are misplaced](https://github.com/status-im/status-desktop/issues/18555)
+- [tested: feat(browser): restore the main browser section](https://github.com/status-im/status-desktop/pull/18539)
+- [tested: Fix banners on Mac](https://github.com/status-im/status-desktop/pull/18558)
+- [bug: Login process stuck when internet connection is throttled](https://github.com/status-im/status-desktop/issues/18569)
 
 ### Shell view
 
@@ -139,3 +143,18 @@ Oversee testing strategy around releases.
 - [chore(@e2e): fix navigation for advanced section](https://github.com/status-im/status-desktop/pull/18427)
 - [chore(@e2e): fix for keypair renaming](https://github.com/status-im/status-desktop/pull/18445)
 - [chore(@e2e): shorten test images names to stop insulting jenkins](https://github.com/status-im/status-desktop/pull/18470)
+
+
+### Measure app load time
+
+* fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:app-load-time`
+* owner: nastya
+* status: in progress (20%)
+* start-date: 2025/08/14
+* end-date: 2025/09/08
+
+#### Description
+- Track UI loading time of the desktop app wallet screens.
+
+#### Deliverables
+- [tests: measure load time till assets are displayed](https://github.com/status-im/status-desktop/pull/18592)

@@ -40,7 +40,7 @@ Create a suite of tests that verify that the Keycard Shell works as expected.
 
 * fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:shell-multichain-wallets`
 * owner: romanzac
-* status: in progress (80%)
+* status: done
 * start-date: 2025/07/28
 * end-date: 2025/09/01
 
@@ -75,6 +75,20 @@ Review existing tests and add more tests to improve coverage. Add debugging tool
 
 #### Description
 Review existing tests and add more tests to improve coverage. Add debugging tools and test coverage reporting.
+
+#### Deliverables
+- PRs and CI runs
+
+### Keycard Shell v0.10 Integration Tests
+
+* fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:shell-os-v0.10`
+* owner: romanzac
+* status: in progress (10%)
+* start-date: 2025/8/18
+* end-date: 2025/8/29
+
+#### Description
+Retest 3rd party wallet integration with Shell OS version 0.10.
 
 #### Deliverables
 - PRs and CI runs

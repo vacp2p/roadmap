@@ -26,7 +26,7 @@ as outlined in this [epic](https://github.com/status-im/status-go/issues/6064).
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:critical-flows`
 * owner: fbarbu15
-* status: in progress (70%)
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/08/15
 
@@ -62,7 +62,7 @@ TODO! This taks will need to be broken down into smaller task once we have more 
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:framework-improvements`
 * owner: chu/florin
-* status: in progress (80%)
+* status: in progress (90%)
 * start-date: 2025/07/01
 * end-date: 2025/07/30
 
@@ -75,6 +75,7 @@ Update readme and debugging.
 - [Refactoring on how test fixtures are used](https://github.com/status-im/status-go/pull/6725)
 - [Fixture for setup class](https://github.com/status-im/status-go/pull/6767)
 - [test_: schema validation refactor](https://github.com/status-im/status-go/pull/6806)
+- [test_: remove schema validation and added other checks](https://github.com/status-im/status-go/pull/6827)
 
 ### Status-backend based on nwaku
 
@@ -126,3 +127,19 @@ Cover the [wakuext group chats](https://github.com/status-im/status-go/issues/60
 #### Deliverables
 - [bug: wakuext_getGroupChatInvitations crash](https://github.com/status-im/status-go/issues/6752)
 - [test: Test wakuext group chats](https://github.com/status-im/status-go/pull/6746)
+
+### Accounts Services
+
+* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:accounts`
+* owner: fbarbu15
+* status: in progress (20%)
+* start-date: 11/08/2025
+* end-date: 15/09/2025
+
+#### Description
+Add functional test coverage to accounts services,
+in order to catch regressions introduced by accoount backend refactoring.
+Focus on e2e scenarios that can be automated at this level.
+
+#### Deliverables
+- [test_: accounts service tests P1](https://github.com/status-im/status-go/pull/6814)

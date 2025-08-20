@@ -81,7 +81,7 @@ Update readme and debugging.
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:status-based-on-nwaku`
 * owner: florin
-* status: in progress (40%)
+* status: in progress (50%)
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -95,6 +95,7 @@ as described in the Waku FURPS
 - Executed status related tests for nwaku v0.36 and created a [test report](https://www.notion.so/Nwaku-v0-36-in-status-staging-2248f96fb65c8023b38cd4901646a105)
 - Executed waku interop tests for nwaku v0.36 and created a [test report](https://www.notion.so/Waku-regression-testing-v0-36-2268f96fb65c8073bd6bce16733d09cb)
 - Validated Nwaku v0.36 deploy in [status.staging fleet](https://www.notion.so/Nwaku-v0-36-in-status-staging-2488f96fb65c80a7b273d96e524a1a1b)
+- [Status Desktop based on Nwaku](https://www.notion.so/Status-Desktop-based-on-Nwaku-2538f96fb65c80268514c9687a03bc10)
 
 ### Reliability in Status Communities
 

@@ -119,8 +119,8 @@ as described in the Waku FURPS
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:group-chats-tests`
 * owner: fbarbu15
 * status: done
-* start-date: 11/07/2025
-* end-date: 24/07/2025
+* start-date: 2025/07/11
+* end-date: 2025/07/24
 
 #### Description
 Cover the [wakuext group chats](https://github.com/status-im/status-go/issues/6071)
@@ -134,8 +134,8 @@ Cover the [wakuext group chats](https://github.com/status-im/status-go/issues/60
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:accounts`
 * owner: fbarbu15
 * status: in progress (20%)
-* start-date: 11/08/2025
-* end-date: 15/09/2025
+* start-date: 2025/08/11  
+* end-date: 2025/08/15
 
 #### Description
 Add functional test coverage to accounts services,

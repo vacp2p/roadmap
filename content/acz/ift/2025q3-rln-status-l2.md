@@ -48,7 +48,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:rln-spec-maintain`
 * owner: Ugur
-* status: started (30%)
+* status: started (70%)
 * start-date: 2025/07/01
 * end-date: 2025/08/28
 
@@ -65,7 +65,7 @@ based in the feedbacks and changes during testnet.
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:sc-testing`
 * owner: Sylvain
-* status: started (0%)
+* status: started (50%)
 * start-date: 2025/07/15
 * end-date: 2025/07/31
 
@@ -82,7 +82,7 @@ has been written (for both team) but never tested together.
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:profiling`
 * owner: Sylvain
-* status: started (30%)
+* status: done
 * start-date: 2025/07/15
 * end-date: 2025/08/15
 
@@ -94,12 +94,14 @@ so that the module can be more performant.
 ### Deliverables
 
 * A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+    * [Add throughput measurement for prover benchmark PR#22 ](https://github.com/vacp2p/status-rln-prover/pull/22)
+    * [Split unit tests PR#21](https://github.com/vacp2p/status-rln-prover/pull/21)
 
 ### Tracking and Monitoring 
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:track-and-monitor`
 * owner: Sylvain
-* status: started (30%)
+* status: done
 * start-date: 2025/07/15
 * end-date: 2025/08/15
 
@@ -158,7 +160,7 @@ The findings and feedbacks will be reflected to the RLN specification.
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:devnet-testing`
 * owner: Sylvain
-* status: not started
+* status: started (5%)
 * start-date: 2025/07/15
 * end-date: 2025/09/15
 
@@ -175,7 +177,7 @@ The findings and feedbacks will be reflected to the RLN specification.
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:maintaining`
 * owner: Sylvain
-* status: started (10%)
+* status: started (40%)
 * start-date: 2025/07/07
 * end-date: 2025/09/25
 

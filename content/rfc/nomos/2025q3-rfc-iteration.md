@@ -64,7 +64,7 @@ and thus ready for being included in the rfc-index.
 - Fully qualified name:
   `vac:rfc:nomos:2025q3-rfc-iteration:p2p-network-specification`
 - Owner: cofson
-- Status: 95% (https://github.com/vacp2p/rfc-index/pull/169)
+- Status: 100% (https://github.com/vacp2p/rfc-index/pull/169)
 - Start date: 2025/07/20
 - End date: 2025/08/21
 
@@ -100,7 +100,7 @@ and thus ready for being included in the rfc-index.
 - Fully qualified name:
   `vac:rfc:nomos:2025q3-rfc-iteration:da-encoding`
 - Owner: cofson
-- Status: 95% (https://github.com/vacp2p/rfc-index/pull/156)
+- Status: 100% (https://github.com/vacp2p/rfc-index/pull/156)
 - Start date: 2025/08/20
 - End date: 2025/08/31
 
@@ -109,7 +109,7 @@ and thus ready for being included in the rfc-index.
 - Fully qualified name:
   `vac:rfc:nomos:2025q3-rfc-iteration:nomos-sdp`
 - Owner: cofson
-- Status: 95% (https://github.com/vacp2p/rfc-index/pull/157)
+- Status: 100% (https://github.com/vacp2p/rfc-index/pull/157)
 - Start date: 2025/08/20
 - End date: 2025/08/31
 

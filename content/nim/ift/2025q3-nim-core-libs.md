@@ -1,5 +1,5 @@
 ---
-title: nim core libraries
+title: 2025q3 Nim Core Libraries
 tags:
   - 2025q3
   - nim
@@ -14,11 +14,11 @@ description:
 
 ## Task List
 
-### Add cbor support to json: [https://github.com/status-im/nim-json-serialization](https://github.com/status-im/nim-json-serialization "https://github.com/status-im/nim-json-serialization")
+### Nim cbor serialization
 
 (info: cbor is needed for QT at compile time)
 
-fully qualified name: `vac:nim:ift:2025q3-nim-core-libs:add-cbor-supoort-to-json`
+fully qualified name: `vac:nim:ift:2025q3-nim-core-libs:nim-cbor-serialization`
 * owner: Esteban
 * status:
 * start-date: 2025/07/01

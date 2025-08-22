@@ -1,11 +1,11 @@
 ---
-title: Nim IDE tooling
+title: 2025q3 Nimble
 tags:
   - 2025q3
   - nim
   - ift
 draft: false
-description: improving nim ide tooling
+description: Nimble development.
 ---
 
 `vac:nim:ift:2025q3-nimble`
@@ -25,3 +25,16 @@ We'll prioritize these enhancements to bring Nimble closer to its 1.0 release, e
 By the end of this quarter, we aim to have made significant progress on these fronts, setting the stage for Nimble to become the go-to package manager in IFT projects.
 
 
+## Tasks
+
+### Nim 1.0.0
+
+fully qualified name: `vac:nim:ift:2025q3-nimble:nim-1.0.0`
+* owner: jmgomez
+* status:
+* start-date: 2025/07/01
+* end-date: 2025/09/30
+
+#### Description
+
+All the relevant information can be found in [this GitHub issue](https://github.com/nim-lang/nimble/issues/1449).

@@ -29,6 +29,7 @@ either in draft or raw states. The audit comprises of:
 The following RFCs will be worked on in this quarter:
 - Qaku
 - Waku RLN Keystore
+- Opchan
 
 We will also include specification validation - 
 editorial work through previous and future RFCs to improve them
@@ -54,7 +55,7 @@ from the point of view of a new developer.
 - Fully qualified name:
   `vac:rfc:nomos:2025q3-rfc-iteration:qaku`
 - Owner: jimstir
-- Status: 95% ([https://github.com/waku-org/specs/pull/77](https://github.com/waku-org/specs/pull/77))
+- Status: 50% ([https://github.com/waku-org/specs/pull/77](https://github.com/waku-org/specs/pull/77))
 - Start date: 2025/07/20
 - End date: 2025/08/21
 
@@ -66,3 +67,12 @@ from the point of view of a new developer.
 - Status: 100% (https://github.com/waku-org/specs/pull/78)
 - Start date: 2025/07/20
 - End date: 2025/08/04
+
+### Opchan
+
+- Fully qualified name:
+  `vac:rfc:nomos:2025q3-rfc-iteration:opchan`
+- Owner: jimstir
+- Status: 25%
+- Start date: 2025/08/01
+- End date: 2025/08/31

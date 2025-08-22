@@ -27,7 +27,7 @@ This commitment is about implementing yield generation for bridged ETH using the
 ### Lido integration
 * fully qualified name: `2025q3-native-bridge-eth-yield-management:lido-integration`
 * owner: 
-* status: 
+* status: outsourced
 * start-date: 2025/07/01
 * end-date: 2025/07/30
 
@@ -45,7 +45,7 @@ Part of this task is implementing deposits and withdrawals via the bridge.
 ### Yield distribution
 * fully qualified name: `2025q3-native-bridge-eth-yield-management:yield-distribution`
 * owner: 
-* status: 
+* status: outsourced
 * start-date: 2025/07/01
 * end-date: 2025/07/30
 

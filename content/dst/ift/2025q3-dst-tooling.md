@@ -60,7 +60,10 @@ Should be made general when possible.
 #### Deliverables
 - PRs:
   - [Github PR: Scale x axis](https://github.com/vacp2p/10ksim/pull/76)
-
+  - [Github PR: Add events logging for waku regression experiment](https://github.com/vacp2p/10ksim/pull/78)
+  - [Github PR: Update getenr](https://github.com/vacp2p/10ksim/pull/127)
+  - [Github PR: Better query parsing](https://github.com/vacp2p/10ksim/pull/128)
+  - [Github PR: Debug mode to msg_retriever (WIP)](https://github.com/vacp2p/10ksim/pull/129)
 
 ### Improve tooling
 
@@ -128,6 +131,79 @@ facilitating performance optimizations, behavioral analysis, and the exploration
 message interactions in distributed environments. This tool aims to 
 improve understanding of protocols like Gossipsub and libp2p, both in regular 
 workflows and edge-case scenarios.
+
+#### Deliverables
+- PRs:
+- Related Documents:
+
+
+### Shadow integration scaffold
+
+* fully qualified name: `vac:dst:ift:2025q3-dst-tooling:shadow-integration-scaffold`
+* owner: Farooq
+* status: 30%
+* start-date: 2025/08/11
+* end-date: 2025/08/22
+
+#### Description
+Include shadow simulations in the DST experiments. Following the current workflow, when regression experiments
+are launch in the lab, set up at the same time similar experiments using shadow.
+Configurations should be similarly set up to the regression ones and modular because they will depends on the project.
+Do it in a way that grabbing the results for the analysis can be also coupled with the main tool workflow.
+Ideally, the DST node with nim-libp2p is a nice place for starting the scaffold.
+
+#### Deliverables
+- PRs:
+- Related Documents:
+
+
+### Deployment updates
+
+* fully qualified name: `vac:dst:ift:2025q3-dst-tooling:deployment-updates`
+* owner: Pearson
+* status: 100%
+* start-date: 2025/08/11
+* end-date: 2025/08/15
+
+#### Description
+Enhance documentation clarity and streamline usability workflows, 
+reducing friction for new users.
+
+#### Deliverables
+- PRs:
+  - [Github PR: Organize Repo](https://github.com/vacp2p/10ksim/pull/124)
+- Related Documents:
+
+
+### Python uv
+
+* fully qualified name: `vac:dst:ift:2025q3-dst-tooling:python-uv`
+* owner: Alberto
+* status: 100%
+* start-date: 2025/08/12
+* end-date: 2025/08/22
+
+#### Description
+Get rid of the multiple requirement.txt and set uv for the repository.
+Also, get rid of utilities that are not currently being used (message explorer,
+topology generator).
+
+#### Deliverables
+- PRs:
+  - [Github PR: Add uv](https://github.com/vacp2p/10ksim/pull/130)
+- Related Documents:
+
+
+### Workdir experiments track
+
+* fully qualified name: `vac:dst:ift:2025q3-dst-tooling:workdir-experiments-track`
+* owner: Pearson
+* status: 0%
+* start-date: 2025/08/12
+* end-date: 2025/08/22
+
+#### Description
+Keep track of values and logs of previous experiments in an automatized and cross platform way.
 
 #### Deliverables
 - PRs:

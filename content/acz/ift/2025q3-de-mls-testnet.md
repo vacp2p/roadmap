@@ -54,13 +54,13 @@ to promote the project and gain support from the Ethereum ecosystem.
 
 * fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:multi-steward-rfc`
 * owner: Ugur
-* status: started (0%)
+* status: started (20%)
 * start-date: 2025/07/21
 * end-date: 2025/08/25
 
 #### Description
 
-Maintain and develop the decetnralized MLS RFC with adressing feedbacks.
+Maintain and develop the decentralized MLS RFC with adressing feedbacks.
 The RFC needs to contain concrete flow, and explaination.   
 
 #### Deliverables
@@ -71,7 +71,7 @@ The RFC needs to contain concrete flow, and explaination.
 
 * fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:consensus-layer`
 * owner: Ekaterina
-* status: started (30%)
+* status: started (80%)
 * start-date: 2025/06/25
 * end-date: 2025/08/15
 
@@ -109,7 +109,7 @@ containing update of message processing
 
 * fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:de-mls-maintaining`
 * owner: Ekaterina
-* status: started
+* status: started (40%)
 * start-date: 2025/06/30
 * end-date: 2025/09/30
 

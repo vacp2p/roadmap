@@ -55,7 +55,7 @@ Waku integration.
 ### Updating RFC
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:update-rfc`
 * owner: Akshaya
-* status: started (35%)
+* status: started (60%)
 * start-date: 2025/07/01
 * end-date: 2025/08/18
 
@@ -67,6 +67,7 @@ introducing  the entry and exit layers and libp2p integrations.
 #### Deliverables
 
 * A [PR](https://github.com/vacp2p/rfc-index/pull/158) to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index)
+* [RFC Refactor: Sphinx Packet Format PR ](https://github.com/vacp2p/rfc-index/pull/173)
 
 ### Investigate Unexpected Mixnet Latency
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:unexpected-latency`
@@ -112,7 +113,7 @@ Requires investigation and fix.
 
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:consulting-waku-mix`
 * owner: Akshaya
-* status: started (10%)
+* status: started (40%)
 * start-date: 2025/07/01
 * end-date: 2025/09/20
 
@@ -127,7 +128,7 @@ Consulting about mixnet to Mixnet integration to the Waku.
 ### Multi SURB Design
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:multi-surb-design`
 * owner: Akshaya
-* status: started (30%)
+* status: started (60%)
 * start-date: 2025/07/01
 * end-date: 2025/08/17
 
@@ -174,9 +175,9 @@ This task focuses on integration the mix into the [vacp2p/nim-libp2p repo](https
 
 ### libp2p-mix Repository 
 
-- fully qualified name: `vac:acz:ift:2025q3-zerokit:libp2p-mix-repo`
+- fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:libp2p-mix-repo`
 - owner: Akshaya
-- status: started (20%)
+- status: started (60%)
 - start-date: 2025/07/01
 - end-date: 2025/09/30
 

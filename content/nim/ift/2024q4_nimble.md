@@ -1,11 +1,11 @@
 ---
-title: "Replaceme"
+title: 2024q4 Nimble
 tags:
-  - "2024q4"
-  - "nim"
-  - "ift"
+  - 2024q4
+  - nim
+  - ift
 draft: false
-description:
+description: Nimble development.
 ---
 
 `vac:nim:ift:nimble_2024q4`

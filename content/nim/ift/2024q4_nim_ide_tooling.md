@@ -1,9 +1,9 @@
 ---
-title: "Replaceme"
+title: Nim IDE Tooling 2024Q4
 tags:
-  - "2024q4"
-  - "nim"
-  - "ift"
+  - 2024q4
+  - nim
+  - ift
 draft: false
 description:
 ---

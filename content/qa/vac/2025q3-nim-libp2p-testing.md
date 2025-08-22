@@ -71,7 +71,7 @@ interactions that are protocol-agnostic.
 
 * fully qualified name: `vac:qa:vac:2025q3-nim-libp2p-testing:yamux`
 * owner: radek
-* status: not started
+* status: in progress (10%)
 * start-date: 2025/08/01
 * end-date: 2025/08/31
 
@@ -83,7 +83,7 @@ flow control, backpressure handling, concurrent stream operations, error handlin
 and edge cases.
 
 #### Deliverables
-* PRs with links to added tests
+* [test(yamux): Add header unit tests](https://github.com/vacp2p/nim-libp2p/pull/1625)
 
 ### Rendezvous Protocol Testing
 
@@ -138,7 +138,7 @@ and others to be determined later.
 
 * fully qualified name: `vac:qa:vac:2025q3-nim-libp2p-testing:gossipsub-performance`
 * owner: radek
-* status: in progress (80%)
+* status: done
 * start-date: 2025/07/15
 * end-date: 2025/07/31
 
@@ -153,3 +153,4 @@ Implement small scale performance tests for GossipSub that can run between a few
 * [test(gossipsub): Performance tests - docker stats](https://github.com/vacp2p/nim-libp2p/pull/1593)
 * [test(gossipsub): Performance tests - plot docker stats](https://github.com/vacp2p/nim-libp2p/pull/1597)
 * [test(gossipsub): Performance tests - plot latency history](https://github.com/vacp2p/nim-libp2p/pull/1608)
+* [test(performance): fetch before push and improve latency history](https://github.com/vacp2p/nim-libp2p/pull/1617)

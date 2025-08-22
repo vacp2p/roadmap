@@ -69,9 +69,9 @@ We should cover:
 ### Requirements Documentation Framework
 * fully qualified name: `vac:qa:status:2025q3-status-qa-documentation:requirements-framework`
 * owner: magnus
-* status:
-* start-date:
-* end-date:
+* status: in progress (10%)
+* start-date: 2025/08/15
+* end-date: 2025/09/15
 
 #### Description
 - Implement a framework covering Status Desktop core features, 

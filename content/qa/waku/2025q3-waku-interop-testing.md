@@ -119,7 +119,7 @@ See [FURPS](https://github.com/waku-org/pm/blob/master/FURPS/core/rendezvous.md?
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:REST-APIs-extended`
 * owner: aya
-* status: in progress (60%)
+* status: in progress (70%)
 * start-date: 2025/08/05
 * end-date:  2025/08/20
 
@@ -128,4 +128,6 @@ Adding E2E tests to cover REST APIs for
 [admin/debug endpoints](https://waku-org.github.io/waku-rest-api/#post-/admin/v1/log-level/-logLevel-)
 
 #### Deliverables
-- PRs or Issues
+- [chore: Add rest APIs and wrappers](https://github.com/waku-org/waku-interop-tests/pull/133)
+- [bug: Empty shards in /admin/v1/peer/{peerId}](https://github.com/waku-org/nwaku/issues/3542)
+- [bug:Peers stats count looks inconsistent (/admin/v1/peers/stats)](https://github.com/waku-org/nwaku/issues/3541)

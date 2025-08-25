@@ -83,7 +83,7 @@ Review existing tests and add more tests to improve coverage. Add debugging tool
 
 * fully qualified name: `vac:qa:keycard:2025q3-keycard-testing:shell-os-v0.10`
 * owner: romanzac
-* status: in progress (10%)
+* status: done
 * start-date: 2025/08/18
 * end-date: 2025/08/29
 
@@ -91,4 +91,5 @@ Review existing tests and add more tests to improve coverage. Add debugging tool
 Retest 3rd party wallet integration with Shell OS version 0.10.
 
 #### Deliverables
-- PRs and CI runs
+- [Integration with 3rd party wallets](https://www.notion.so/3rd-Party-Wallet-Integration-Smoke-Test-2578f96fb65c80d8b7d2c5ab30addd0e?source=copy_link)
+- [SLIP39](https://www.notion.so/2548f96fb65c8036961ef84e3cbc71cc?v=2548f96fb65c80b0b2ed000c09db9e3a&source=copy_link)

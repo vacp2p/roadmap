@@ -90,8 +90,8 @@ that internally utilize the `parallel` flag.
 ### Consistent Naming and Docs for Merkle Trees
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:merkle-tree-revising`
-- owner: 
-- status: started (85%)
+- owner: Vinh
+- status: done
 - start-date: 2025/07/14
 - end-date: 2025/08/30
 
@@ -170,7 +170,7 @@ if necessary, update the `rln-wasm` module based on the resolution.
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:zerokit-maintaining`
 - owner: Ekaterina
-- status: started (50%)
+- status: started (60%)
 - start-date: 2025/07/01
 - end-date: 2025/09/30
 

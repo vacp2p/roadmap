@@ -26,7 +26,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:maintenance`
 * owner: fbarbu15
-* status: in progress (10%)
+* status: in progress (50%)
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -37,6 +37,7 @@ investigating and resolving issues, and implementing minor improvements to the t
 
 #### Deliverables
 - Adjust waku interop tests to latest [nwaku changes and fixes](https://github.com/waku-org/waku-interop-tests/pull/128)
+- [chore: shard-specific metrics update](https://github.com/waku-org/waku-interop-tests/pull/131)
 
 ### js-waku filter hardening
 
@@ -101,9 +102,9 @@ Create a github actions workflow that can run a 12 hour longevity test for waku 
 
 ### Waku rendezvous peer discovery
 
-* fully qualified name: `vac:qa:waku:2025q3-interop-testing:rendezvous-peer-discovery
+* fully qualified name: `vac:qa:waku:2025q3-interop-testing:rendezvous-peer-discovery`
 * owner: aya
-* status: 
+* status: in progress (25%)
 * start-date: 2025/08/20
 * end-date:  2025/09/10
 
@@ -116,9 +117,9 @@ See [FURPS](https://github.com/waku-org/pm/blob/master/FURPS/core/rendezvous.md?
 
 ### Waku REST APIs for admin/debug 
 
-* fully qualified name: `vac:qa:waku:2025q3-interop-testing:REST-APIs-extended
+* fully qualified name: `vac:qa:waku:2025q3-interop-testing:REST-APIs-extended`
 * owner: aya
-* status: in progress (5%)
+* status: in progress (70%)
 * start-date: 2025/08/05
 * end-date:  2025/08/20
 
@@ -127,4 +128,6 @@ Adding E2E tests to cover REST APIs for
 [admin/debug endpoints](https://waku-org.github.io/waku-rest-api/#post-/admin/v1/log-level/-logLevel-)
 
 #### Deliverables
-- PRs or Issues
+- [chore: Add rest APIs and wrappers](https://github.com/waku-org/waku-interop-tests/pull/133)
+- [bug: Empty shards in /admin/v1/peer/{peerId}](https://github.com/waku-org/nwaku/issues/3542)
+- [bug:Peers stats count looks inconsistent (/admin/v1/peers/stats)](https://github.com/waku-org/nwaku/issues/3541)

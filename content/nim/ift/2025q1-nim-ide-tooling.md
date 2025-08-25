@@ -1,13 +1,11 @@
 ---
-
-title: Nim IDE tooling
+title: 2025q1 Nim IDE tooling
 tags:
-  - "2025q1"
-  - "nim"
-  - "ift"  
-draft: false  
+  - 2025q1
+  - nim
+  - ift
+draft: false
 description: improving nim ide tooling
-
 ---
 
 `vac:nim:ift:2025q1-nim-ide-tooling`

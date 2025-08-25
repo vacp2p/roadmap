@@ -26,7 +26,7 @@ as outlined in this [epic](https://github.com/status-im/status-go/issues/6064).
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:critical-flows`
 * owner: fbarbu15
-* status: in progress (60%)
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/08/15
 
@@ -62,7 +62,7 @@ TODO! This taks will need to be broken down into smaller task once we have more 
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:framework-improvements`
 * owner: chu/florin
-* status: in progress (70%)
+* status: in progress (90%)
 * start-date: 2025/07/01
 * end-date: 2025/07/30
 
@@ -74,12 +74,14 @@ Update readme and debugging.
 - Fixed the [reliability failures](https://github.com/status-im/status-go/pull/6736)
 - [Refactoring on how test fixtures are used](https://github.com/status-im/status-go/pull/6725)
 - [Fixture for setup class](https://github.com/status-im/status-go/pull/6767)
+- [test_: schema validation refactor](https://github.com/status-im/status-go/pull/6806)
+- [test_: remove schema validation and added other checks](https://github.com/status-im/status-go/pull/6827)
 
 ### Status-backend based on nwaku
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:status-based-on-nwaku`
 * owner: florin
-* status: in progress (20%)
+* status: in progress (50%)
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -92,7 +94,8 @@ as described in the Waku FURPS
 - Created this short [guide](https://www.notion.so/status-staging-testing-guide-2248f96fb65c80efb5eafe029d964343) on how to validate staging deploys
 - Executed status related tests for nwaku v0.36 and created a [test report](https://www.notion.so/Nwaku-v0-36-in-status-staging-2248f96fb65c8023b38cd4901646a105)
 - Executed waku interop tests for nwaku v0.36 and created a [test report](https://www.notion.so/Waku-regression-testing-v0-36-2268f96fb65c8073bd6bce16733d09cb)
-
+- Validated Nwaku v0.36 deploy in [status.staging fleet](https://www.notion.so/Nwaku-v0-36-in-status-staging-2488f96fb65c80a7b273d96e524a1a1b)
+- [Status Desktop based on Nwaku](https://www.notion.so/Status-Desktop-based-on-Nwaku-2538f96fb65c80268514c9687a03bc10)
 
 ### Reliability in Status Communities
 
@@ -116,8 +119,8 @@ as described in the Waku FURPS
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:group-chats-tests`
 * owner: fbarbu15
 * status: done
-* start-date: 11/07/2025
-* end-date: 24/07/2025
+* start-date: 2025/07/11
+* end-date: 2025/07/24
 
 #### Description
 Cover the [wakuext group chats](https://github.com/status-im/status-go/issues/6071)
@@ -125,3 +128,19 @@ Cover the [wakuext group chats](https://github.com/status-im/status-go/issues/60
 #### Deliverables
 - [bug: wakuext_getGroupChatInvitations crash](https://github.com/status-im/status-go/issues/6752)
 - [test: Test wakuext group chats](https://github.com/status-im/status-go/pull/6746)
+
+### Accounts Services
+
+* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:accounts`
+* owner: fbarbu15
+* status: in progress (20%)
+* start-date: 2025/08/11  
+* end-date: 2025/08/15
+
+#### Description
+Add functional test coverage to accounts services,
+in order to catch regressions introduced by accoount backend refactoring.
+Focus on e2e scenarios that can be automated at this level.
+
+#### Deliverables
+- [test_: accounts service tests P1](https://github.com/status-im/status-go/pull/6814)

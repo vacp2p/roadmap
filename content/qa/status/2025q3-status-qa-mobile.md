@@ -51,7 +51,7 @@ Extend and adjust the existing e2e test Framework to support testing on mobile/t
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-mobile:port-tests`
 * owner: magnus/nastya
-* status: in progress (5%)
+* status: in progress (20%)
 * start-date: 2025/07/01
 * end-date: 2025/09/01
 
@@ -59,8 +59,8 @@ Extend and adjust the existing e2e test Framework to support testing on mobile/t
 - Port all relevant tests to run on mobile/tablet.
 
 #### Deliverables
-- built android app on mac locally
-- built iOS app on mac locally and on real device as well
+- [chore(e2e_appium): add contributing docs](https://github.com/status-im/status-desktop/pull/18670)
+- [chore(e2e_appium): fixture for create with recovery phrase](https://github.com/status-im/status-desktop/pull/18698)
 
 
 ### Multiple devices

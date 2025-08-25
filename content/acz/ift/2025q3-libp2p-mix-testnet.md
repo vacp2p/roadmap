@@ -55,7 +55,7 @@ Waku integration.
 ### Updating RFC
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:update-rfc`
 * owner: Akshaya
-* status: started (60%)
+* status: started (65%)
 * start-date: 2025/07/01
 * end-date: 2025/08/18
 
@@ -113,7 +113,7 @@ Requires investigation and fix.
 
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:consulting-waku-mix`
 * owner: Akshaya
-* status: started (40%)
+* status: started (50%)
 * start-date: 2025/07/01
 * end-date: 2025/09/20
 
@@ -144,11 +144,14 @@ when multiple SURBs are concurrently active.
 ### Mix benchmarking
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:mix-benchmarking`
 * owner: Ben
-* status: not started
+* status: cancelled
 * start-date: 
 * end-date: 
 
 #### Description
+
+This task is cancelled since the P2P team has taken it over.
+
 This task involves running the next set of benchmarks after resolving the outstanding issues.
 
 #### Deliverables

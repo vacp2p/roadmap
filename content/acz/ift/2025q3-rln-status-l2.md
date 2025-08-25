@@ -65,7 +65,7 @@ based in the feedbacks and changes during testnet.
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:sc-testing`
 * owner: Sylvain
-* status: started (50%)
+* status: done
 * start-date: 2025/07/15
 * end-date: 2025/07/31
 
@@ -77,6 +77,8 @@ has been written (for both team) but never tested together.
 ### Deliverables
 
 * A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+    * [Test and fix smart contract interaction PR#24](https://github.com/vacp2p/status-rln-prover/pull/24)
+    * [Update for new KarmaTiers smart contract PR#23](https://github.com/vacp2p/status-rln-prover/pull/23)
 
 ### Profiling
 
@@ -156,15 +158,34 @@ The findings and feedbacks will be reflected to the RLN specification.
     * [PR#15 e2e gRPC test](https://github.com/vacp2p/status-rln-prover/pull/15)
     * [PR#17 More unit test](https://github.com/vacp2p/status-rln-prover/pull/17) 
 
+### Stress test for prover module
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:stress-test`
+* owner: Sylvain
+* status: started (0%)
+* start-date: 2025/08/18
+* end-date: 2025/09/01
+
+### Description
+
+This task focuses on testing the prover module to measure maximum TPS (transactions per second)
+by using dedicated machines. 
+
+### Deliverables
+
+* A set of PR to the [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover)
+
 ### Devnet testing 
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:devnet-testing`
 * owner: Sylvain
-* status: started (5%)
+* status: on-hold (5%)
 * start-date: 2025/07/15
 * end-date: 2025/09/15
 
 ### Description
+
+This task is on-hold since devnet is not deployed yet.
 
 This task focuses on testing internal devnet. 
 The findings and feedbacks will be reflected to the RLN specification.
@@ -187,3 +208,6 @@ including CI updates and the creation of future issues.
 
 #### Deliverables
 A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+    * [Extend testcase timeout to prevent panic, seperate anvil feature for testcase PR#28](https://github.com/vacp2p/status-rln-prover/pull/28)
+    * [Add CI workflow, resolve clippy warning PR#29](https://github.com/vacp2p/status-rln-prover/pull/29)
+    * [Use exact latest zerokit version, PR#30](https://github.com/vacp2p/status-rln-prover/pull/30)

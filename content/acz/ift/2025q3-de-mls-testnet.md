@@ -54,7 +54,7 @@ to promote the project and gain support from the Ethereum ecosystem.
 
 * fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:multi-steward-rfc`
 * owner: Ugur
-* status: started (30%)
+* status: started (40%)
 * start-date: 2025/07/21
 * end-date: 2025/08/25
 
@@ -71,7 +71,7 @@ The RFC needs to contain concrete flow, and explaination.
 
 * fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:consensus-layer`
 * owner: Ekaterina
-* status: started (85%)
+* status: started (90%)
 * start-date: 2025/06/25
 * end-date: 2025/08/15
 
@@ -86,6 +86,7 @@ and receive a commit message as an output.
 
 * A PR to the [de-MLS repository](https://github.com/vacp2p/de-mls) 
 containing new consensus layer as separate module with tests.
+    * [chore: implement consensus mechanism PR#43](https://github.com/vacp2p/de-mls/pull/43)
 
 ### Multi-steward integration
 

@@ -83,7 +83,7 @@ Additionally, we demonstrate that this proposal is practical within Risc0 by wri
 ### NSSA feasibility as L2 on Cosmos
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:cosmos-l2-feasibility`
 * owner: Marvin
-* status: started (80%)
+* status: done
 * start-date: 2025/07/15
 * end-date: 2025/07/25
 
@@ -93,14 +93,14 @@ Nescience’s state seperation architecture (NSSA) is designed to function as a 
 In this task, we will examine the requirements for running NSSA as a L2 on Cosmos.
 
 ### Deliverables
-* A notion doc to the Nescience notion workspace 
+* [A notion doc](https://www.notion.so/NSSA-as-a-Cosmos-Zone-2388f96fb65c8042ad4ae1e805fcc604) to the Nescience notion workspace 
 
 ### Privacy Projects Analysis
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:privacy-projects-analysis`
 * owner: Marvin
-* status: not started 
-* start-date: 
-* end-date: 
+* status: started (10%) 
+* start-date: 2025/08/25
+* end-date: 2025/08/08
 
 ### Description
 
@@ -116,9 +116,9 @@ Basically analyse:
 ### Specs for Key Protocols
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:key-protocol-spec`
 * owner: Marvin
-* status: started (90%)
-* start-date: 
-* end-date: 
+* status: done
+* start-date: 2025/08/05
+* end-date: 2025/08/19
 
 ### Description
 
@@ -131,7 +131,7 @@ Providing precise digest specifications will reduce engineering and implementati
 enable robust versioning and tracking for NSSA key formats, and ensure fixed-length digests that prevent key collision risks.
 
 ### Deliverables
-* A notion doc to the Nescience notion workspace 
+* [A notion doc](https://www.notion.so/Concrete-key-protocol-specifications-23b8f96fb65c8011b488c8fe0d2f87ae?source=copy_link#23f8f96fb65c80388d89d6cca9d8ef3d) to the Nescience notion workspace 
 
 ### Fee Mechanism
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:fee-mechanism`

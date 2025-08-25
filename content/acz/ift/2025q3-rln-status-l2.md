@@ -124,7 +124,7 @@ and tested (using for example: Jaeger) in order to ensure that everything is cor
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:research-decentralized`
 * owner: Ugur
-* status: not started
+* status: started (10%)
 * start-date: 2025/08/15
 * end-date: 2025/09/25
 
@@ -162,7 +162,7 @@ The findings and feedbacks will be reflected to the RLN specification.
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:stress-test`
 * owner: Sylvain
-* status: started (0%)
+* status: started (15%)
 * start-date: 2025/08/18
 * end-date: 2025/09/01
 

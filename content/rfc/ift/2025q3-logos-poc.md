@@ -31,7 +31,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 
 - Fully qualified name: `vac:rfc:ift:2025q3-logos-poc:research-and-feedback-on-logos-poc-specification`
 - Owner: Filip
-- Status: 10%
+- Status: 40%
 - Start date: 2025/08/18
 - End date: 2025/08/31
 

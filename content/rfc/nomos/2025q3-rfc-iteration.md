@@ -49,7 +49,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
  Fully qualified name: 
   `vac:rfc:nomos:2025q3-rfc-iteration-choosing-new-rfcs`
 - Owner: cofson
-- Status: 90%
+- Status: 100%
 - Start date: 2025/07/01
 - End date: 2025/09/30
 
@@ -118,6 +118,6 @@ and thus ready for being included in the rfc-index.
 - Fully qualified name:
   `vac:rfc:nomos:2025q3-rfc-iteration:da-network`
 - Owner: cofson
-- Status: 85%
+- Status: 100% (https://github.com/vacp2p/rfc-index/pull/160)
 - Start date: 2025/08/20
 - End date: 2025/08/31

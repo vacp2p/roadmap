@@ -47,7 +47,7 @@ reinforcing cross project collaboration.
 
 ### General tooling (recurring)
 
-* fully qualified name: `vac:dst:waku:2025q3-dst-tooling:general-tooling`
+* fully qualified name: `vac:dst:ift:2025q3-dst-tooling:general-tooling`
 * owner: Alberto
 * status: recurring
 * start-date: 2025/07/01
@@ -63,7 +63,10 @@ Should be made general when possible.
   - [Github PR: Add events logging for waku regression experiment](https://github.com/vacp2p/10ksim/pull/78)
   - [Github PR: Update getenr](https://github.com/vacp2p/10ksim/pull/127)
   - [Github PR: Better query parsing](https://github.com/vacp2p/10ksim/pull/128)
-  - [Github PR: Debug mode to msg_retriever (WIP)](https://github.com/vacp2p/10ksim/pull/129)
+  - [Github PR: Debug mode to msg_retriever](https://github.com/vacp2p/10ksim/pull/129)
+  - [Github PR: Make _metadata_event use dict events](https://github.com/vacp2p/10ksim/pull/131)
+  - [Github PR: Deploy base experiment and dry run](https://github.com/vacp2p/10ksim/pull/132)
+  - [Github PR: Add cls.name when registering experiments](https://github.com/vacp2p/10ksim/pull/136)
 
 ### Improve tooling
 

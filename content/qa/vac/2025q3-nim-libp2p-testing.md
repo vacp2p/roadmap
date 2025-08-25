@@ -71,7 +71,7 @@ interactions that are protocol-agnostic.
 
 * fully qualified name: `vac:qa:vac:2025q3-nim-libp2p-testing:yamux`
 * owner: radek
-* status: in progress (10%)
+* status: done
 * start-date: 2025/08/01
 * end-date: 2025/08/31
 
@@ -84,6 +84,7 @@ and edge cases.
 
 #### Deliverables
 * [test(yamux): Add header unit tests](https://github.com/vacp2p/nim-libp2p/pull/1625)
+* [test(yamux): Add unit tests - frame handling and stream initiation](https://github.com/vacp2p/nim-libp2p/pull/1634)
 
 ### Rendezvous Protocol Testing
 

@@ -30,7 +30,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:release-testing`
 * owner: nastya
-* status: in progress (60%)
+* status: in progress (65%)
 * start-date: 
 * end-date: 
 
@@ -62,6 +62,7 @@ Oversee testing strategy around releases.
 - [tested: feat(browser): restore the main browser section](https://github.com/status-im/status-desktop/pull/18539)
 - [tested: Fix banners on Mac](https://github.com/status-im/status-desktop/pull/18558)
 - [bug: Login process stuck when internet connection is throttled](https://github.com/status-im/status-desktop/issues/18569)
+- [bug: SSLError: HTTPSConnectionPool(host='status.app', port=443): Max retries exceeded with url](https://github.com/status-im/status-desktop/issues/18601)
 
 ### Shell view
 
@@ -115,7 +116,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (40%)
+* status: in progress (50%)
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -143,7 +144,9 @@ Oversee testing strategy around releases.
 - [chore(@e2e): fix navigation for advanced section](https://github.com/status-im/status-desktop/pull/18427)
 - [chore(@e2e): fix for keypair renaming](https://github.com/status-im/status-desktop/pull/18445)
 - [chore(@e2e): shorten test images names to stop insulting jenkins](https://github.com/status-im/status-desktop/pull/18470)
-
+- [fixed tests in dev PR https://github.com/status-im/status-desktop/pull/18672]
+- [fixed tests in dev PR https://github.com/status-im/status-desktop/pull/18603]
+- [fixed tests in dev PR  https://github.com/status-im/status-desktop/pull/18574]
 
 ### Measure app load time
 

@@ -55,7 +55,7 @@ Waku integration.
 ### Updating RFC
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:update-rfc`
 * owner: Akshaya
-* status: started (65%)
+* status: started (70%)
 * start-date: 2025/07/01
 * end-date: 2025/08/18
 
@@ -128,7 +128,7 @@ Consulting about mixnet to Mixnet integration to the Waku.
 ### Multi SURB Design
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:multi-surb-design`
 * owner: Akshaya
-* status: started (60%)
+* status: started (85%)
 * start-date: 2025/07/01
 * end-date: 2025/08/17
 

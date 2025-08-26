@@ -133,7 +133,7 @@ Cover the [wakuext group chats](https://github.com/status-im/status-go/issues/60
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:accounts`
 * owner: fbarbu15
-* status: in progress (20%)
+* status: in progress (80%)
 * start-date: 2025/08/11  
 * end-date: 2025/08/15
 
@@ -143,4 +143,8 @@ in order to catch regressions introduced by accoount backend refactoring.
 Focus on e2e scenarios that can be automated at this level.
 
 #### Deliverables
-- [test_: accounts service tests P1](https://github.com/status-im/status-go/pull/6814)
+* [test_: accounts service tests P1](https://github.com/status-im/status-go/pull/6814)
+* [test_: accounts service tests P1](https://github.com/status-im/status-go/pull/6814) 
+* [test_: accounts service tests P2](https://github.com/status-im/status-go/pull/6850)
+* [bug: addKeypairViaSeedPhrase and addKeypairViaPrivateKey don't require a password](https://github.com/status-im/status-go/issues/6849)
+* [bug: sometimes a few messages are lost during nightly test_light_client_rate_limiting test](https://github.com/status-im/status-go/issues/6857)

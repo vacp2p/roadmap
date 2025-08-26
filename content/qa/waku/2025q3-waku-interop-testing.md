@@ -75,7 +75,7 @@ based on nwaku dev requirements
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:wakucannary`
 * owner: aya
-* status: in progress (80%)
+* status: in progress (90%)
 * start-date: 2025/07/01
 * end-date: 2025/07/30
 
@@ -85,6 +85,7 @@ based on nwaku dev requirements
 
 #### Deliverables
 - [bug: Canary app fails to connect to well-known Waku peers over all transports](https://github.com/waku-org/nwaku/issues/3518)
+- [bug:waku canary web-socket not working](https://github.com/waku-org/nwaku/issues/3546)
 
 ### 12H Longevity
 
@@ -104,7 +105,7 @@ Create a github actions workflow that can run a 12 hour longevity test for waku 
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:rendezvous-peer-discovery`
 * owner: aya
-* status: in progress (25%)
+* status: in progress (35%)
 * start-date: 2025/08/20
 * end-date:  2025/09/10
 
@@ -119,7 +120,7 @@ See [FURPS](https://github.com/waku-org/pm/blob/master/FURPS/core/rendezvous.md?
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:REST-APIs-extended`
 * owner: aya
-* status: in progress (70%)
+* status: in progress (90%)
 * start-date: 2025/08/05
 * end-date:  2025/08/20
 
@@ -131,3 +132,4 @@ Adding E2E tests to cover REST APIs for
 - [chore: Add rest APIs and wrappers](https://github.com/waku-org/waku-interop-tests/pull/133)
 - [bug: Empty shards in /admin/v1/peer/{peerId}](https://github.com/waku-org/nwaku/issues/3542)
 - [bug:Peers stats count looks inconsistent (/admin/v1/peers/stats)](https://github.com/waku-org/nwaku/issues/3541)
+- [chore: Add rest APIs and wrappers p2](https://github.com/waku-org/waku-interop-tests/pull/134)

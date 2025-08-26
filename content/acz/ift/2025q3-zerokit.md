@@ -43,7 +43,7 @@ looking to integrate RLN into their projects.
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:big-endian-support`
 - owner: Sylvain
-- status: started (60%)
+- status: started (65%)
 - start-date: 2025/06/20
 - end-date: 2025/09/20
 
@@ -91,7 +91,7 @@ that internally utilize the `parallel` flag.
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:merkle-tree-revising`
 - owner: 
-- status: started (15%)
+- status: started (85%)
 - start-date: 2025/07/14
 - end-date: 2025/08/30
 
@@ -107,12 +107,13 @@ to clearly explain which Merkle tree implementation to use and when.
 
 A Pull Request to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) containing 
 the renamed variables and updated, more detailed documentation.
+    * [chore: consistent naming and update docs for merkle trees PR#333](https://github.com/vacp2p/zerokit/pull/333)
 
 ### Implement PmTreeConfig Builder
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:pmtree-config-builder`
 - owner: Vinh
-- status: started (0%)
+- status: started (85%)
 - start-date: 2025/08/11
 - end-date: 2025/09/08
 
@@ -134,6 +135,8 @@ A Pull Request to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) containin
 
 - A new `PmTreeConfigBuilder` implementation.
 - Updated documentation and examples demonstrating the new builder pattern usage.
+
+    * [feat(rln): improve the PmTreeConfig initialization process with builder pattern PR#334](https://github.com/vacp2p/zerokit/pull/334)
 
 ### RLN-WASM Maintenance
 
@@ -167,7 +170,7 @@ if necessary, update the `rln-wasm` module based on the resolution.
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:zerokit-maintaining`
 - owner: Ekaterina
-- status: started (40%)
+- status: started (50%)
 - start-date: 2025/07/01
 - end-date: 2025/09/30
 

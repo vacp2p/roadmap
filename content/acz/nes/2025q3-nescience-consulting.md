@@ -136,7 +136,7 @@ enable robust versioning and tracking for NSSA key formats, and ensure fixed-len
 ### Fee Mechanism
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:fee-mechanism`
 * owner: Marvin
-* status: not started 
+* status: deprecated 
 * start-date: 
 * end-date: 
 
@@ -207,3 +207,21 @@ A document that:
 * provides an overview of Nomos infrastructure
 * provides an overview of Zone and sovereign rollup requirements
 * Conclusion on the best fit for NSSA in Nomos
+
+### Specs compatibility
+* fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:specs-compat`
+* owner: Marvin
+* status: not started
+* start-date:
+* end-date:
+ 
+### Description
+Nescience's architecture has been specified for NSSAv.01 and portions implemented within Q3. This task, ACZ will examine the compatibility
+of the specifications and implementation. Additionally, will audit the specifications and implementations for any potential vulnerabilities. 
+
+### Deliverables: 
+A document that:
+* provides a brief security analysis of specifications
+* notes on any differences between code and specifications
+* examination of theoretical attack models against specifications
+* examination of attacks against code implementation

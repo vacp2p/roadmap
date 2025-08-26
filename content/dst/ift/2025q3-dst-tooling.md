@@ -47,7 +47,7 @@ reinforcing cross project collaboration.
 
 ### General tooling (recurring)
 
-* fully qualified name: `vac:dst:waku:2025q3-dst-tooling:general-tooling`
+* fully qualified name: `vac:dst:ift:2025q3-dst-tooling:general-tooling`
 * owner: Alberto
 * status: recurring
 * start-date: 2025/07/01
@@ -63,7 +63,10 @@ Should be made general when possible.
   - [Github PR: Add events logging for waku regression experiment](https://github.com/vacp2p/10ksim/pull/78)
   - [Github PR: Update getenr](https://github.com/vacp2p/10ksim/pull/127)
   - [Github PR: Better query parsing](https://github.com/vacp2p/10ksim/pull/128)
-  - [Github PR: Debug mode to msg_retriever (WIP)](https://github.com/vacp2p/10ksim/pull/129)
+  - [Github PR: Debug mode to msg_retriever](https://github.com/vacp2p/10ksim/pull/129)
+  - [Github PR: Make _metadata_event use dict events](https://github.com/vacp2p/10ksim/pull/131)
+  - [Github PR: Deploy base experiment and dry run](https://github.com/vacp2p/10ksim/pull/132)
+  - [Github PR: Add cls.name when registering experiments](https://github.com/vacp2p/10ksim/pull/136)
 
 ### Improve tooling
 
@@ -141,7 +144,7 @@ workflows and edge-case scenarios.
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:shadow-integration-scaffold`
 * owner: Farooq
-* status: 30%
+* status: 80%
 * start-date: 2025/08/11
 * end-date: 2025/08/22
 
@@ -198,7 +201,7 @@ topology generator).
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:workdir-experiments-track`
 * owner: Pearson
-* status: 0%
+* status: 100%
 * start-date: 2025/08/12
 * end-date: 2025/08/22
 
@@ -207,4 +210,5 @@ Keep track of values and logs of previous experiments in an automatized and cros
 
 #### Deliverables
 - PRs:
+  - [Github PR: Organize experiments output](https://github.com/vacp2p/10ksim/pull/134)
 - Related Documents:

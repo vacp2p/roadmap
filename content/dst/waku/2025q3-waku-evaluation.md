@@ -158,7 +158,7 @@ Perform a comparison between Waku using quic and waku using mplex and yamux.
 
 * fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:js-waku`
 * owner: Pearson
-* status: 30%
+* status: 100%
 * start-date: 2025-08-11
 * end-date: 2025-08-22
 
@@ -169,3 +169,5 @@ Start integrating js waku in DST experiments. Report js waku team any missing fu
 #### Deliverables
 - Reports:
 - Related PRs if apply:
+    - [Github Issue: Connectivity bug](https://github.com/waku-org/js-waku/issues/2565)
+    - [Github PR: LP client and getAddress fixes](https://github.com/vacp2p/10ksim/pull/133)

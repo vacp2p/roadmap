@@ -12,35 +12,35 @@ and additional transports like WebTransport/WebRTC/WebRTC-direct as transports (
 <ul>
 <li>fully qualified name: <code>vac:p2p:ift:2025q2-nimlibp2p-universal-connectivity-app:chat</code></li>
 <li>owner: gabe</li>
-<li>status: 0%</li>
+<li>status: 100%</li>
 <li>start-date: 2025-07-12</li>
-<li>end-date:</li>
+<li>end-date: 2025-08-22</li>
 </ul>
 <h4 id="description-1">Description<a aria-hidden="true" tabindex="-1" href="#description-1" class="internal"> §</a></h4>
 <p>Using either <a href="https://github.com/vacp2p/nim-libp2p/blob/master/examples/directchat.nim" class="external">directchat.nim</a> or <a href="https://github.com/waku-org/nwaku/tree/master/apps/chat2" class="external">chat2</a>,
 implement a chat application that can interop successfully with other implementations available at <a href="https://github.com/libp2p/universal-connectivity/tree/main" class="external">libp2p/universal-connectivity</a>.</p>
 <h4 id="deliverables">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables" class="internal"> §</a></h4>
 <ul>
-<li>Minimal TUI (send/receive messages, join chatrooms)</li>
-<li>Connect directly to peers by specifying the peers multiaddresses</li>
-<li>NAT support (upnp/pmp) (logic can be extracted from nwaku <code>wakunode2</code>.)</li>
-<li>Interop</li>
+<li><a href="https://github.com/vacp2p/universal-connectivity/pull/1" class="external">vacp2p/universal-connectivity#1</a> feat: add nim peer</li>
+<li><a href="https://github.com/libp2p/universal-connectivity/pull/306" class="external">libp2p/universal-connectivity#306</a> feat: add nim peer</li>
 </ul>
 <h3 id="file-exchange">File Exchange<a aria-hidden="true" tabindex="-1" href="#file-exchange" class="internal"> §</a></h3>
 <ul>
 <li>fully qualified name: <code>vac:p2p:ift:2025q2-nimlibp2p-universal-connectivity-app:file-exchange</code></li>
 <li>owner: gabe</li>
-<li>status: moved to Q3</li>
-<li>start-date:</li>
-<li>end-date:</li>
+<li>status: out of scope</li>
+<li>start-date: ----</li>
+<li>end-date: ----</li>
 </ul>
 <h4 id="description-2">Description<a aria-hidden="true" tabindex="-1" href="#description-2" class="internal"> §</a></h4>
 <p>Allow sending/receiving files. Must react to messages sent of the file exchange topic.</p>
 <h4 id="deliverables-1">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-1" class="internal"> §</a></h4>
 <ul>
-<li>Basic UI - Receive file message</li>
-<li>Allow sending file  (maybe with a chat command <code>/file path/to/file</code>)</li>
-<li>Interop</li>
+<li><del>Basic UI - Receive file message</del></li>
+<li><del>Allow sending file  (maybe with a chat command <code>/file path/to/file</code>)</del></li>
+<li><del>Interop</del></li>
+<li>None of the other implementations send/receive files and/or their code remains incomplete.
+Changing this task to Out of Scope until universal connectivity app specs indicate that file support is to be implemented</li>
 </ul></article></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
 	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
 	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562

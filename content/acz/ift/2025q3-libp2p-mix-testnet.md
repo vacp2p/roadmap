@@ -69,6 +69,21 @@ introducing  the entry and exit layers and libp2p integrations.
 * A [PR](https://github.com/vacp2p/rfc-index/pull/158) to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index)
 * [RFC Refactor: Sphinx Packet Format PR ](https://github.com/vacp2p/rfc-index/pull/173)
 
+### libp2p-mix Relay RFC  
+* fully qualified name: `vac:acz:ift:2025q?-gossipsub-relay-rfc:relay-rfc`  
+* owner: Akshaya
+* status: not started  
+* start-date: 2025/09/01
+* end-date: 2025/09/15
+
+#### Description  
+Draft an RFC for `/gossipsub-relay/1.0.0`, a minimal protocol that allows external clients
+to inject raw GossipSub messages into a full node’s relay logic.
+This makes Mix integration cleaner without requiring the exit nodes to participate in mesh or support GossipSub.  
+
+#### Deliverables  
+* A PR to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index) containing the RFC.  
+
 ### Investigate Unexpected Mixnet Latency
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:unexpected-latency`
 * owner: Akshaya

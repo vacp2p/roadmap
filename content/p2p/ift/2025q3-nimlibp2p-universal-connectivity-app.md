@@ -44,9 +44,9 @@ implement a chat application that can interop successfully with other implementa
 ### File Exchange
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-universal-connectivity-app:file-exchange`
 * owner: gabe
-* status: out of scope
-* start-date: ----
-* end-date: ----
+* status: 100%
+* start-date: 2025-07-12
+* end-date: 2025-08-22
 
 #### Description
 Allow sending/receiving files. Must react to messages sent of the file exchange topic. 
@@ -56,5 +56,5 @@ Allow sending/receiving files. Must react to messages sent of the file exchange 
 - ~~Allow sending file  (maybe with a chat command `/file path/to/file`)~~
 - ~~Interop~~
 - None of the other implementations send/receive files and/or their code remains incomplete.
-  Changing this task to Out of Scope until universal connectivity app specs indicate that file support is to be implemented
+  File Exchange functionality only works between nim clients
 

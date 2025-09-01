@@ -90,15 +90,13 @@ and edge cases.
 
 * fully qualified name: `vac:qa:vac:2025q3-nim-libp2p-testing:rendezvous`
 * owner: radek
-* status: not started
+* status: in progress (50%)
 * start-date: 2025/09/01
 * end-date: 2025/09/30
 
 #### Description
-Implement testing for the Rendezvous protocol, which provides a way for peers
-to discover each other through a rendezvous point. The protocol allows peers
-to register themselves at a rendezvous point and discover other peers with
-similar interests or capabilities.
+* [test(rendezvous): Refactor Rendezvous tests](https://github.com/vacp2p/nim-libp2p/pull/1644)
+* [fix(rendezvous): pagination offset](https://github.com/vacp2p/nim-libp2p/pull/1646)
 
 #### Deliverables
 * PRs with links to added tests

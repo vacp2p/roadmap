@@ -67,6 +67,8 @@ Should be made general when possible.
   - [Github PR: Make _metadata_event use dict events](https://github.com/vacp2p/10ksim/pull/131)
   - [Github PR: Deploy base experiment and dry run](https://github.com/vacp2p/10ksim/pull/132)
   - [Github PR: Add cls.name when registering experiments](https://github.com/vacp2p/10ksim/pull/136)
+- Documents:
+  - [Notion WIP document: Deployment workflow discussion](https://www.notion.so/Deployment-Workflow-25d8f96fb65c80f7801ce9a06dede8a4)
 
 ### Improve tooling
 

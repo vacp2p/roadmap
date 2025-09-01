@@ -146,7 +146,7 @@ workflows and edge-case scenarios.
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:shadow-integration-scaffold`
 * owner: Farooq
-* status: 80%
+* status: 100%
 * start-date: 2025/08/11
 * end-date: 2025/08/22
 
@@ -159,6 +159,7 @@ Ideally, the DST node with nim-libp2p is a nice place for starting the scaffold.
 
 #### Deliverables
 - PRs:
+  - [Github Repository: DST libp2p test node](https://github.com/vacp2p/dst-libp2p-test-node/tree/master)
 - Related Documents:
 
 

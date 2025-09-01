@@ -112,7 +112,7 @@ Investigate `PEER_DIAL_FAILURE` error found in regression tests in nwaku v0.36 i
 
 #### Description
 
-Try to reproduce `PEER_DIAL_FAILURE` in nWaku v0.34. Trace the peer_id from one of the failing logs 
+Try to reproduce `PEER_DIAL_FAILURE` in nWaku v0.34. Trace the peer_id from one of the failing logs
 to see what that node is doing. Also, reduce number of nodes in the scenario.
 
 #### Deliverables
@@ -171,3 +171,19 @@ Start integrating js waku in DST experiments. Report js waku team any missing fu
 - Related PRs if apply:
     - [Github Issue: Connectivity bug](https://github.com/waku-org/js-waku/issues/2565)
     - [Github PR: LP client and getAddress fixes](https://github.com/vacp2p/10ksim/pull/133)
+
+### jswaku Follow-up
+
+* fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:js-waku-follow-up`
+* owner: Pearson
+* status: 0%
+* start-date: 2025/09/01
+* end-date: 2025/09/12
+
+#### Description
+Follow-up for task: `vac:dst:waku:2025q3-waku-evaluation:js-waku`
+Previous issue that was blocking: [Github Issue: bug: admin/v1/peers endpoint not working "The dial request has no valid addresses"](https://github.com/waku-org/js-waku/issues/2565)
+
+#### Deliverables
+- PRs:
+- Related Documents:

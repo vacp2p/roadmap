@@ -171,3 +171,22 @@ Start integrating js waku in DST experiments. Report js waku team any missing fu
 - Related PRs if apply:
     - [Github Issue: Connectivity bug](https://github.com/waku-org/js-waku/issues/2565)
     - [Github PR: LP client and getAddress fixes](https://github.com/vacp2p/10ksim/pull/133)
+
+## JS Waku Follow-up
+
+* fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:js-waku-follow-up`
+* owner: Pearson
+* status: 0%
+* start-date: 2025/09/01
+* end-date: 2025/09/12
+
+#### Description
+Follow-up for task: `vac:dst:waku:2025q3-waku-evaluation:js-waku`
+Previous issue that was blocking: [Github Issue: bug: admin/v1/peers endpoint not working "The dial request has no valid addresses"](https://github.com/waku-org/js-waku/issues/2565)
+Js-waku expects ws/wss transports. Use websocket support to support JS-Waku in the DST workflow,
+and report js waku team any missing functionalities/issues.
+
+
+#### Deliverables
+- PRs:
+- Related Documents:

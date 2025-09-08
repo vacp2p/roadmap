@@ -69,6 +69,7 @@ Should be made general when possible.
   - [Github PR: Add cls.name when registering experiments](https://github.com/vacp2p/10ksim/pull/136)
 - Documents:
   - [Notion WIP document: Deployment workflow discussion](https://www.notion.so/Deployment-Workflow-25d8f96fb65c80f7801ce9a06dede8a4)
+  - [Notion document: Deployment Script Walkthrough](https://www.notion.so/Deployment-Script-Walkthrough-2628f96fb65c8064a17cc305a1df97d5)
 
 ### Improve tooling
 

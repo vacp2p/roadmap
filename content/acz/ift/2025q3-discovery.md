@@ -39,7 +39,7 @@ that show the potential improvement points of the discovery mechanism.
 
 * fully qualified name: `vac:acz:ift:2025q3-discovery-exploration:exploring`
 * owner: Arunima
-* status: not started
+* status: started (0%)
 * start-date: 2025/09/01
 * end-date: 2025/09/15
 

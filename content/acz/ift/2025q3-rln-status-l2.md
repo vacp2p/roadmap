@@ -124,7 +124,7 @@ and tested (using for example: Jaeger) in order to ensure that everything is cor
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:research-decentralized`
 * owner: Ugur
-* status: started (10%)
+* status: started (50%)
 * start-date: 2025/08/15
 * end-date: 2025/09/25
 
@@ -162,7 +162,7 @@ The findings and feedbacks will be reflected to the RLN specification.
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:stress-test`
 * owner: Sylvain
-* status: started (15%)
+* status: done
 * start-date: 2025/08/18
 * end-date: 2025/09/01
 
@@ -173,7 +173,8 @@ by using dedicated machines.
 
 ### Deliverables
 
-* A set of PR to the [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover)
+* [A PR](https://github.com/vacp2p/status-rln-prover/pull/35) to the [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover)
+* [A benchmark doc](https://www.notion.so/Prover-Benchmarks-25d8f96fb65c80a1bef2e317338f528b#25d8f96fb65c8078a6d4f6afde295b8c)
 
 ### Devnet testing 
 
@@ -198,7 +199,7 @@ The findings and feedbacks will be reflected to the RLN specification.
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:maintaining`
 * owner: Sylvain
-* status: started (40%)
+* status: started (50%)
 * start-date: 2025/07/07
 * end-date: 2025/09/25
 

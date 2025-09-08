@@ -239,7 +239,7 @@ to vary the message rate and size in the middle of an experiment if needed.
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:nim-libp2p-dst-node-refactor`
 * owner: Farooq
-* status: 0%
+* status: 50%
 * start-date: 2025/09/02
 * end-date: 2025/09/19
 
@@ -249,7 +249,6 @@ Refactor [DST nim-libp2p](https://github.com/vacp2p/dst-libp2p-test-node) adding
 Apart from this, the node should be able to be executed from the same docker image by selecting
 - If the node will use mix or not
 - Which multiplexer (mplex, yamux, quic)
-- 
 
 #### Deliverables
 - PRs

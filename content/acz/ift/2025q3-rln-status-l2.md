@@ -162,11 +162,14 @@ The findings and feedbacks will be reflected to the RLN specification.
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:stress-test`
 * owner: Sylvain
-* status: done
+* status: started (85%)
 * start-date: 2025/08/18
-* end-date: 2025/09/01
+* end-date: 2025/09/15
 
 ### Description
+
+The end-date of this task is added since the stress test will be repeated by a more
+powerful machine. 
 
 This task focuses on testing the prover module to measure maximum TPS (transactions per second)
 by using dedicated machines. 

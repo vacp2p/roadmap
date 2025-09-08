@@ -59,10 +59,10 @@ Harden js-waku filter protocol by adding more advanced tests like:
 ### Lite protocol tester
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:liteprotocoltester`
-* owner: fbarbu15
-* status: 
-* start-date: 
-* end-date: 
+* owner: aya
+* status: in progress (25%)
+* start-date: 2025/09/01
+* end-date: 2025/09/30
 
 #### Description
 Explore, fix and improve [waku lite protocol tester](https://github.com/waku-org/nwaku/tree/master/apps/liteprotocoltester) 
@@ -105,7 +105,7 @@ Create a github actions workflow that can run a 12 hour longevity test for waku 
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:rendezvous-peer-discovery`
 * owner: aya
-* status: in progress (35%)
+* status: in progress (40%)
 * start-date: 2025/08/20
 * end-date:  2025/09/10
 
@@ -114,13 +114,13 @@ Test that Relay nodes finds new peers when solely using rendezvous.
 See [FURPS](https://github.com/waku-org/pm/blob/master/FURPS/core/rendezvous.md?plain=1)
 
 #### Deliverables
-- PRs or Issues
+- [bug: Rendezvous peer discovery is not functioning](https://github.com/waku-org/nwaku/issues/3549)
 
 ### Waku REST APIs for admin/debug 
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:REST-APIs-extended`
 * owner: aya
-* status: in progress (90%)
+* status: done
 * start-date: 2025/08/05
 * end-date:  2025/08/20
 

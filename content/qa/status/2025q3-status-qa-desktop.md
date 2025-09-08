@@ -116,7 +116,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (50%)
+* status: in progress (60%)
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -147,6 +147,8 @@ Oversee testing strategy around releases.
 - [fixed tests in dev PR https://github.com/status-im/status-desktop/pull/18672]
 - [fixed tests in dev PR https://github.com/status-im/status-desktop/pull/18603]
 - [fixed tests in dev PR  https://github.com/status-im/status-desktop/pull/18574]
+- [chore(@e2e): update method for contact selection](https://github.com/status-im/status-desktop/pull/18735)
+- [tests(@e2e): update method to upload image to use base64 format](https://github.com/status-im/status-desktop/pull/18726)
 
 ### Measure app load time
 

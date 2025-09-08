@@ -198,6 +198,40 @@ The findings and feedbacks will be reflected to the RLN specification.
 
 * A Notion doc document that has implementation details.
 
+### Optimization
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:optimization`
+* owner: Sylvain
+* status: not started
+* start-date: 2025/09/08
+* end-date: 2025/09/30
+
+### Description
+
+This task entails to optimize the single prover module. 
+
+### Deliverables
+
+* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+
+### Multi-prover
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:multi-prover`
+* owner: Sylvain
+* status: not started
+* start-date: 2025/09/08
+* end-date: 2025/09/30
+
+### Description
+
+This task entails to modify the prover instance to release multi-prover that each prover module
+can write to the shared DB for hacving prover cluster. 
+
+### Deliverables
+
+* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+
+
 ### Prover Module maintaining
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:maintaining`

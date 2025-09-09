@@ -30,7 +30,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:release-testing`
 * owner: nastya
-* status: in progress (65%)
+* status: in progress (75%)
 * start-date: 
 * end-date: 
 
@@ -63,6 +63,9 @@ Oversee testing strategy around releases.
 - [tested: Fix banners on Mac](https://github.com/status-im/status-desktop/pull/18558)
 - [bug: Login process stuck when internet connection is throttled](https://github.com/status-im/status-desktop/issues/18569)
 - [bug: SSLError: HTTPSConnectionPool(host='status.app', port=443): Max retries exceeded with url](https://github.com/status-im/status-desktop/issues/18601)
+- [tested: ci: fix pcsc run dir](https://github.com/status-im/status-desktop/pull/18754)
+- [tested: pcscd: auto exit when not in use](https://github.com/status-im/status-desktop/pull/18767)
+- [tested: fix: disable QML cache on Qt < 6.9.2](https://github.com/status-im/status-desktop/pull/18775)
 
 ### Shell view
 
@@ -116,7 +119,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (60%)
+* status: in progress (75%)
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -146,9 +149,11 @@ Oversee testing strategy around releases.
 - [chore(@e2e): shorten test images names to stop insulting jenkins](https://github.com/status-im/status-desktop/pull/18470)
 - [fixed tests in dev PR https://github.com/status-im/status-desktop/pull/18672]
 - [fixed tests in dev PR https://github.com/status-im/status-desktop/pull/18603]
-- [fixed tests in dev PR  https://github.com/status-im/status-desktop/pull/18574]
+- [fixed tests in dev PR https://github.com/status-im/status-desktop/pull/18574]
 - [chore(@e2e): update method for contact selection](https://github.com/status-im/status-desktop/pull/18735)
 - [tests(@e2e): update method to upload image to use base64 format](https://github.com/status-im/status-desktop/pull/18726)
+- [fixed tests in dev PR https://github.com/status-im/status-desktop/pull/18532]
+- [fixed tests in dev PR https://github.com/status-im/status-desktop/pull/18608]
 
 ### Measure app load time
 

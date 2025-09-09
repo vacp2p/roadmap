@@ -460,7 +460,7 @@ Close up draft PRs from previous procol benchmarks. Extract utilities and/or add
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:delay-and-store`
 * owner: Alberto
-* status: 0%
+* status: 100%
 * start-date: 2025/08/18
 * end-date: 2025/08/29
 

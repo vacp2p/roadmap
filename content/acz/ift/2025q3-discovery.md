@@ -38,10 +38,10 @@ that show the potential improvement points of the discovery mechanism.
 ### Exploring Discovery
 
 * fully qualified name: `vac:acz:ift:2025q3-discovery-exploration:exploring`
-* owner: Ugur
-* status: not started
-* start-date: 
-* end-date: 
+* owner: Arunima
+* status: started (0%)
+* start-date: 2025/09/01
+* end-date: 2025/09/15
 
 #### Description
 

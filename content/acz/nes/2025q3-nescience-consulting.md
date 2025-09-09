@@ -98,7 +98,7 @@ In this task, we will examine the requirements for running NSSA as a L2 on Cosmo
 ### Privacy Projects Analysis
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:privacy-projects-analysis`
 * owner: Marvin
-* status: started (10%) 
+* status: started (90%) 
 * start-date: 2025/08/25
 * end-date: 2025/08/08
 
@@ -154,7 +154,7 @@ workload depending on the findings.
 ### DEX Research
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:dex-research`
 * owner: Marvin
-* status: not started 
+* status: started (50%) 
 * start-date: 
 * end-date: 
 

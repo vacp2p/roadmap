@@ -124,7 +124,7 @@ and tested (using for example: Jaeger) in order to ensure that everything is cor
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:research-decentralized`
 * owner: Ugur
-* status: started (10%)
+* status: started (50%)
 * start-date: 2025/08/15
 * end-date: 2025/09/25
 
@@ -162,18 +162,22 @@ The findings and feedbacks will be reflected to the RLN specification.
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:stress-test`
 * owner: Sylvain
-* status: started (15%)
+* status: started (85%)
 * start-date: 2025/08/18
-* end-date: 2025/09/01
+* end-date: 2025/09/15
 
 ### Description
+
+The end-date of this task is added since the stress test will be repeated by a more
+powerful machine. 
 
 This task focuses on testing the prover module to measure maximum TPS (transactions per second)
 by using dedicated machines. 
 
 ### Deliverables
 
-* A set of PR to the [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover)
+* [A PR](https://github.com/vacp2p/status-rln-prover/pull/35) to the [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover)
+* [A benchmark doc](https://www.notion.so/Prover-Benchmarks-25d8f96fb65c80a1bef2e317338f528b#25d8f96fb65c8078a6d4f6afde295b8c)
 
 ### Devnet testing 
 
@@ -194,11 +198,45 @@ The findings and feedbacks will be reflected to the RLN specification.
 
 * A Notion doc document that has implementation details.
 
+### Optimization
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:optimization`
+* owner: Sylvain
+* status: not started
+* start-date: 2025/09/08
+* end-date: 2025/09/30
+
+### Description
+
+This task entails to optimize the single prover module. 
+
+### Deliverables
+
+* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+
+### Multi-prover
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:multi-prover`
+* owner: Sylvain
+* status: not started
+* start-date: 2025/09/08
+* end-date: 2025/09/30
+
+### Description
+
+This task entails to modify the prover instance to release multi-prover that each prover module
+can write to the shared DB for hacving prover cluster. 
+
+### Deliverables
+
+* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+
+
 ### Prover Module maintaining
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:maintaining`
 * owner: Sylvain
-* status: started (40%)
+* status: started (50%)
 * start-date: 2025/07/07
 * end-date: 2025/09/25
 

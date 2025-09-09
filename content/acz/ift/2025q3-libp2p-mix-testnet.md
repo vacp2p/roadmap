@@ -55,7 +55,7 @@ Waku integration.
 ### Updating RFC
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:update-rfc`
 * owner: Akshaya
-* status: started (70%)
+* status: started (75%)
 * start-date: 2025/07/01
 * end-date: 2025/08/18
 
@@ -72,7 +72,7 @@ introducing  the entry and exit layers and libp2p integrations.
 ### libp2p-mix Relay RFC  
 * fully qualified name: `vac:acz:ift:2025q?-gossipsub-relay-rfc:relay-rfc`  
 * owner: Akshaya
-* status: not started  
+* status: started (70%)
 * start-date: 2025/09/01
 * end-date: 2025/09/15
 
@@ -128,7 +128,7 @@ Requires investigation and fix.
 
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:consulting-waku-mix`
 * owner: Akshaya
-* status: started (50%)
+* status: started (60%)
 * start-date: 2025/07/01
 * end-date: 2025/09/20
 

@@ -20,7 +20,7 @@ Implement AutoNAT V2 based on the [libp2p specification](https://github.com/libp
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autonat-v2t:client`
 * owner: gabe
-* status:
+* status: 70%
 * start-date: 2025-07-01
 * end-date:
 
@@ -37,7 +37,7 @@ Ensure interop against other implementations
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autonat-v2:server`
 * owner: gabe
-* status:
+* status: 70%
 * start-date: 2025-07-01
 * end-date:
 
@@ -47,3 +47,19 @@ Ensure interop against other implementations
 
 #### Deliverables
 
+
+
+### Service
+
+* fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autonat-v2:service`
+* owner: gabe
+* status: not started
+* start-date:
+* end-date:
+
+#### Description
+Create a service that determines if the node is reachable behind NAT by asking connected peers 
+to dial it back, maintains a sliding-window confidence, and periodically reschedules checks, 
+and (when reachable) rewrites listen addrs to dialable ones
+
+#### Deliverables

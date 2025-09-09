@@ -31,6 +31,7 @@ tags:
 
 - [ ] [[sc/status-l2/2025q3-native-bridge-eth-yield-management]]
 - [ ] [[sc/status-l2/2025q3-native-bridge-dai-yield-management]]
+- [ ] [[sc/status-l2/2025q3-new-karma-requirements]]
 
 
 ## 2025q2 `vac:sc:`

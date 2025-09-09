@@ -43,7 +43,7 @@ looking to integrate RLN into their projects.
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:big-endian-support`
 - owner: Sylvain
-- status: started (65%)
+- status: started (70%)
 - start-date: 2025/06/20
 - end-date: 2025/09/20
 
@@ -113,7 +113,7 @@ the renamed variables and updated, more detailed documentation.
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:pmtree-config-builder`
 - owner: Vinh
-- status: started (85%)
+- status: done
 - start-date: 2025/08/11
 - end-date: 2025/09/08
 

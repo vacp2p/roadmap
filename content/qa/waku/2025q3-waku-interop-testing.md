@@ -26,7 +26,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:maintenance`
 * owner: fbarbu15
-* status: in progress (50%)
+* status: in progress (70%)
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -38,6 +38,7 @@ investigating and resolving issues, and implementing minor improvements to the t
 #### Deliverables
 - Adjust waku interop tests to latest [nwaku changes and fixes](https://github.com/waku-org/waku-interop-tests/pull/128)
 - [chore: shard-specific metrics update](https://github.com/waku-org/waku-interop-tests/pull/131)
+- [chore: fix waku_connected_peers_per_shard metric](https://github.com/waku-org/waku-interop-tests/pull/136)
 
 ### js-waku filter hardening
 

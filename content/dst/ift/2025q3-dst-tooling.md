@@ -67,6 +67,9 @@ Should be made general when possible.
   - [Github PR: Make _metadata_event use dict events](https://github.com/vacp2p/10ksim/pull/131)
   - [Github PR: Deploy base experiment and dry run](https://github.com/vacp2p/10ksim/pull/132)
   - [Github PR: Add cls.name when registering experiments](https://github.com/vacp2p/10ksim/pull/136)
+- Documents:
+  - [Notion WIP document: Deployment workflow discussion](https://www.notion.so/Deployment-Workflow-25d8f96fb65c80f7801ce9a06dede8a4)
+  - [Notion document: Deployment Script Walkthrough](https://www.notion.so/Deployment-Script-Walkthrough-2628f96fb65c8064a17cc305a1df97d5)
 
 ### Improve tooling
 
@@ -144,7 +147,7 @@ workflows and edge-case scenarios.
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:shadow-integration-scaffold`
 * owner: Farooq
-* status: 80%
+* status: 100%
 * start-date: 2025/08/11
 * end-date: 2025/08/22
 
@@ -157,6 +160,7 @@ Ideally, the DST node with nim-libp2p is a nice place for starting the scaffold.
 
 #### Deliverables
 - PRs:
+  - [Github Repository: DST libp2p test node](https://github.com/vacp2p/dst-libp2p-test-node/tree/master)
 - Related Documents:
 
 
@@ -212,3 +216,40 @@ Keep track of values and logs of previous experiments in an automatized and cros
 - PRs:
   - [Github PR: Organize experiments output](https://github.com/vacp2p/10ksim/pull/134)
 - Related Documents:
+
+### Nim-libp2p cron removal
+
+* fully qualified name: `vac:dst:ift:2025q3-dst-tooling:nim-libp2p-cron-removal`
+* owner: Farooq
+* status: 0%
+* start-date: 2025/09/02
+* end-date: 2025/09/19
+
+#### Description
+Refactor [DST nim-libp2p](https://github.com/vacp2p/dst-libp2p-test-node) to not use cron anymore.
+Create a simple endpoint that triggers the node to publish a message. With this,
+message rate and message size values will be moved to a publisher script, allowing
+to vary the message rate and size in the middle of an experiment if needed.
+
+#### Deliverables
+- PRs
+- Related Documents
+
+### Nim-libp2p DST node refactor
+
+* fully qualified name: `vac:dst:ift:2025q3-dst-tooling:nim-libp2p-dst-node-refactor`
+* owner: Farooq
+* status: 50%
+* start-date: 2025/09/02
+* end-date: 2025/09/19
+
+#### Description
+Refactor [DST nim-libp2p](https://github.com/vacp2p/dst-libp2p-test-node) adding mix protocol like in the 
+[previous repository](https://github.com/vacp2p/dst-gossipsub-test-node/tree/dst-changes).
+Apart from this, the node should be able to be executed from the same docker image by selecting
+- If the node will use mix or not
+- Which multiplexer (mplex, yamux, quic)
+
+#### Deliverables
+- PRs
+- Related Documents

@@ -62,7 +62,7 @@ TODO! This taks will need to be broken down into smaller task once we have more 
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:framework-improvements`
 * owner: chu/florin
-* status: in progress (90%)
+* status: in progress (95%)
 * start-date: 2025/07/01
 * end-date: 2025/07/30
 
@@ -76,6 +76,7 @@ Update readme and debugging.
 - [Fixture for setup class](https://github.com/status-im/status-go/pull/6767)
 - [test_: schema validation refactor](https://github.com/status-im/status-go/pull/6806)
 - [test_: remove schema validation and added other checks](https://github.com/status-im/status-go/pull/6827)
+- [test: add api client](https://github.com/status-im/status-go/pull/6888)
 
 ### Status-backend based on nwaku
 
@@ -133,7 +134,7 @@ Cover the [wakuext group chats](https://github.com/status-im/status-go/issues/60
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:accounts`
 * owner: fbarbu15
-* status: in progress (80%)
+* status: in progress (90%)
 * start-date: 2025/08/11  
 * end-date: 2025/08/15
 
@@ -143,8 +144,23 @@ in order to catch regressions introduced by accoount backend refactoring.
 Focus on e2e scenarios that can be automated at this level.
 
 #### Deliverables
-* [test_: accounts service tests P1](https://github.com/status-im/status-go/pull/6814)
-* [test_: accounts service tests P1](https://github.com/status-im/status-go/pull/6814) 
-* [test_: accounts service tests P2](https://github.com/status-im/status-go/pull/6850)
-* [bug: addKeypairViaSeedPhrase and addKeypairViaPrivateKey don't require a password](https://github.com/status-im/status-go/issues/6849)
-* [bug: sometimes a few messages are lost during nightly test_light_client_rate_limiting test](https://github.com/status-im/status-go/issues/6857)
+- [test_: accounts service tests P1](https://github.com/status-im/status-go/pull/6814)
+- [test_: accounts service tests P2](https://github.com/status-im/status-go/pull/6850)
+- [test_: accounts service tests P3](https://github.com/status-im/status-go/pull/6859)
+- [bug: addKeypairViaSeedPhrase and addKeypairViaPrivateKey don't require a password](https://github.com/status-im/status-go/issues/6849)
+- [bug: sometimes a few messages are lost during nightly test_light_client_rate_limiting test](https://github.com/status-im/status-go/issues/6857)
+- [test: fix flaky restore account test](https://github.com/status-im/status-go/pull/6895)
+
+### Connector service tests
+
+* fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:connector-service`
+* owner: radek
+* status: done
+* start-date: 2025/09/01
+* end-date: 2025/09/08
+
+#### Description
+Add functional test coverage for the new connector service as described [here](https://github.com/status-im/status-go/issues/6889)
+
+#### Deliverables
+- [test: add more connector service tests](https://github.com/status-im/status-go/pull/6896)

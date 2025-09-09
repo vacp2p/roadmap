@@ -21,11 +21,16 @@ block exchange, Erasure coding,  Proving system
 This commitment supports the process of the choosing which raw RFCs,
 from the existing documentation to be put in pipeline to be written or updated. 
 
-This commitment supports the audit of the following mature RFCs, which are 
-either in draft or raw states:
-- The block exchange
-- Erasure coding 
-- Proving system
+This commitment supports the audit of the following mature specifications,
+which are either in draft or raw states:
+- DHT
+- Slot builder
+- Purchase module
+- Sales module
+- Store module
+- Erasure coding module
+- Merkle tree
+- Community history service
 
 We will also include specification validation - 
 editorial work through previous and future RFCs to improve them
@@ -51,6 +56,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Fully qualified name:
   `vac:rfc:codex:2025q3-rfc-iteration:the-block-exchange'
 - Owner: cofson
+<<<<<<< Updated upstream
 - Status: 75% (PAUSED)
 - Start date: 2025/07/01
 - End date: 2025/07/20
@@ -64,11 +70,102 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Start date: 2025/08/01
 - End date: 2025/08/20
 
+=======
+- Status: paused
+- Start date: 2025/07/01
+- End date: 2025/07/20
+
+>>>>>>> Stashed changes
 ### Proving System
 
 - Fully qualified name:
   `vac:rfc:codex:2025q3-rfc-iteration:proving-system`
 - Owner: cofson
+<<<<<<< Updated upstream
 - Status: 0% (PAUSED)
+=======
+- Status: paused
+>>>>>>> Stashed changes
+- Start date: 2025/09/20
+- End date: 2025/09/30
+
+### DHT - Component
+
+- Fully qualified name:
+  `vac:rfc:codex:2025q3-rfc-iteration:dht`
+- Owner: cofson
+- Status: 10%
+- Start date: 2025/09/01
+- End date: 2025/09/30
+
+### Slot Builder
+
+- Fully qualified name:
+  `vac:rfc:codex:2025q3-rfc-iteration:slot-builder-module`
+- Owner: cofson
+- Status: 10%
+- Start date: 2025/09/01
+- End date: 2025/09/30
+
+###  Erasure Coding Module
+
+- Fully qualified name:
+  `vac:rfc:codex:2025q3-rfc-iteration:erasure-coding-module`
+- Owner: cofson
+- Status: not started
+- Start date: 2025/09/20
+- End date: 2025/09/30
+
+### Purchase Module
+
+- Fully qualified name:
+  `vac:rfc:codex:2025q3-rfc-iteration:purchase-module`
+- Owner: cofson
+- Status: not started
+- Start date: 2025/09/20
+- End date: 2025/09/30
+
+### Codex
+
+- Fully qualified name:
+  `vac:rfc:codex:2025q3-rfc-iteration:codex`
+- Owner: cofson
+- Status: not started
+- Start date: 2025/09/20
+- End date: 2025/09/30
+
+### Sales Module
+
+- Fully qualified name:
+  `vac:rfc:codex:2025q3-rfc-iteration:sales-module`
+- Owner: cofson
+- Status: not started
+- Start date: 2025/09/20
+- End date: 2025/09/30
+
+### Store Module
+
+- Fully qualified name:
+  `vac:rfc:codex:2025q3-rfc-iteration:store-module`
+- Owner: cofson
+- Status: not started
+- Start date: 2025/09/20
+- End date: 2025/09/30
+
+### Community History Service
+
+- Fully qualified name:
+  `vac:rfc:codex:2025q3-rfc-iteration:community-history-service`
+- Owner: cofson
+- Status: not started
+- Start date: 2025/09/20
+- End date: 2025/09/30
+
+### Merkle Tree Specification
+
+- Fully qualified name:
+  `vac:rfc:codex:2025q3-rfc-iteration:merkle-tree-specification`
+- Owner: cofson
+- Status: not started
 - Start date: 2025/09/20
 - End date: 2025/09/30

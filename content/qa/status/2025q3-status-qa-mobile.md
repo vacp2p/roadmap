@@ -46,6 +46,7 @@ Extend and adjust the existing e2e test Framework to support testing on mobile/t
 - [Started new Appium-based framework (Android-only for now), modeled on existing status-mobile and desktop frameworks.](https://github.com/status-im/status-desktop/pull/18366)
 - GitHub action - configured for LT using [app URL](https://github.com/status-im/status-desktop/blob/fc30d8474619be74c0a0c7429a919372a322d36a/.github/workflows/e2e-appium-android.yml)
 - [Roadmap](https://github.com/status-im/status-desktop/issues/18436)
+- [feat(CI): Add test hooks for tablet builds](https://github.com/status-im/status-desktop/pull/18765)
 
 ### Port desktop tests
 
@@ -61,7 +62,6 @@ Extend and adjust the existing e2e test Framework to support testing on mobile/t
 #### Deliverables
 - [chore(e2e_appium): add contributing docs](https://github.com/status-im/status-desktop/pull/18670)
 - [chore(e2e_appium): fixture for create with recovery phrase](https://github.com/status-im/status-desktop/pull/18698)
-
 
 ### Multiple devices
 

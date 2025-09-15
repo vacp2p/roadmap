@@ -10,61 +10,61 @@
     <link>https://roadmap.vac.dev/acz/ift/2024q4-acz-research-destination</link>
     <guid>https://roadmap.vac.dev/acz/ift/2024q4-acz-research-destination</guid>
     <description>Providing ACZ research informative materials for the ecosystem.</description>
-    <pubDate>Mon, 15 Sep 2025 09:50:20 GMT</pubDate>
+    <pubDate>Mon, 15 Sep 2025 10:05:51 GMT</pubDate>
   </item><item>
     <title>de-mls Testnet</title>
     <link>https://roadmap.vac.dev/acz/ift/2024q4-de-mls-testnet</link>
     <guid>https://roadmap.vac.dev/acz/ift/2024q4-de-mls-testnet</guid>
     <description>Implementation of a de-mls testnet, extending the previous poc and writing the corresponding RFC.</description>
-    <pubDate>Mon, 15 Sep 2025 09:50:20 GMT</pubDate>
+    <pubDate>Mon, 15 Sep 2025 10:05:51 GMT</pubDate>
   </item><item>
     <title>IFT ZK Calls</title>
     <link>https://roadmap.vac.dev/acz/ift/2024q4-ift-zk-calls</link>
     <guid>https://roadmap.vac.dev/acz/ift/2024q4-ift-zk-calls</guid>
     <description>Preparation and conducting the ZK meetings.</description>
-    <pubDate>Mon, 15 Sep 2025 09:50:20 GMT</pubDate>
+    <pubDate>Mon, 15 Sep 2025 10:05:51 GMT</pubDate>
   </item><item>
     <title>LibP2P mix protocol</title>
     <link>https://roadmap.vac.dev/acz/ift/2024q4-libp2p-mix-poc</link>
     <guid>https://roadmap.vac.dev/acz/ift/2024q4-libp2p-mix-poc</guid>
     <description>Publishing a raw RFC specifying libp2p mixnet protocol and implementing a PoC.</description>
-    <pubDate>Mon, 15 Sep 2025 09:50:20 GMT</pubDate>
+    <pubDate>Mon, 15 Sep 2025 10:05:51 GMT</pubDate>
   </item><item>
     <title>Think tank</title>
     <link>https://roadmap.vac.dev/acz/ift/2024q4-think-tank</link>
     <guid>https://roadmap.vac.dev/acz/ift/2024q4-think-tank</guid>
     <description>Publishing a reviewing document for the cryptography modules of IFT projects.</description>
-    <pubDate>Mon, 15 Sep 2025 09:50:20 GMT</pubDate>
+    <pubDate>Mon, 15 Sep 2025 10:05:51 GMT</pubDate>
   </item><item>
     <title>Zerokit v.0.6</title>
     <link>https://roadmap.vac.dev/acz/ift/2024q4-zerokit-v0-6</link>
     <guid>https://roadmap.vac.dev/acz/ift/2024q4-zerokit-v0-6</guid>
     <description>Implementation of the next release of Zerokit.</description>
-    <pubDate>Mon, 15 Sep 2025 09:50:20 GMT</pubDate>
+    <pubDate>Mon, 15 Sep 2025 10:05:51 GMT</pubDate>
   </item><item>
     <title>de-MLS Multi Admin</title>
     <link>https://roadmap.vac.dev/acz/ift/2025q1-de-mls-multi-admin</link>
     <guid>https://roadmap.vac.dev/acz/ift/2025q1-de-mls-multi-admin</guid>
     <description>involves finalizing the de-MLS RFC with multi-admin support, implementing by extending the single admin approach with on-chain admin consensus, and also submitting to the EF grant program with a messaging application project that introduces decentralization, censorship resistance, and DAO coordination, or DeFi alerts.</description>
-    <pubDate>Mon, 15 Sep 2025 09:50:20 GMT</pubDate>
+    <pubDate>Mon, 15 Sep 2025 10:05:51 GMT</pubDate>
   </item><item>
     <title>IFT ZK Calls</title>
     <link>https://roadmap.vac.dev/acz/ift/2025q1-ift-zk-calls</link>
     <guid>https://roadmap.vac.dev/acz/ift/2025q1-ift-zk-calls</guid>
     <description>Preparation and conducting the ZK call meetings.</description>
-    <pubDate>Mon, 15 Sep 2025 09:50:20 GMT</pubDate>
+    <pubDate>Mon, 15 Sep 2025 10:05:51 GMT</pubDate>
   </item><item>
     <title>LibP2P mix protocol</title>
     <link>https://roadmap.vac.dev/acz/ift/2025q1-libp2p-mix-poc</link>
     <guid>https://roadmap.vac.dev/acz/ift/2025q1-libp2p-mix-poc</guid>
     <description>Achieving mixnet's PoC on Waku network, updating the RFC for libp2p compatibility, sharing results, and also submitting to the EF grant program with a privacy project that introduces sender anonymity to Ethereum nodes for censorship resistanceness.</description>
-    <pubDate>Mon, 15 Sep 2025 09:50:20 GMT</pubDate>
+    <pubDate>Mon, 15 Sep 2025 10:05:51 GMT</pubDate>
   </item><item>
     <title>MDS Checker</title>
     <link>https://roadmap.vac.dev/acz/ift/2025q1-mds-checker</link>
     <guid>https://roadmap.vac.dev/acz/ift/2025q1-mds-checker</guid>
     <description>Creating the Rust crate for MDS matrix security checker and a blogpost.</description>
-    <pubDate>Mon, 15 Sep 2025 09:50:20 GMT</pubDate>
+    <pubDate>Mon, 15 Sep 2025 10:05:51 GMT</pubDate>
   </item>
     </channel>
   </rss>

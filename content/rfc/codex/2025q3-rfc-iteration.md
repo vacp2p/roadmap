@@ -66,11 +66,8 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Fully qualified name:
   `vac:rfc:codex:2025q3-rfc-iteration:prover'
 - Owner: cofson
-<<<<<<< Updated upstream
 - Status: 0% (PAUSED)
-=======
 - Status: not started
->>>>>>> Stashed changes
 - Start date: 2025/09/20
 - End date: 2025/09/30
 

@@ -76,7 +76,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Fully qualified name:
   `vac:rfc:codex:2025q3-rfc-iteration:dht`
 - Owner: jimstir
-- Status: 10%
+- Status: 50%
 - Start date: 2025/09/01
 - End date: 2025/09/30
 

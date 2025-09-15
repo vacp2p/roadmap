@@ -61,30 +61,15 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Start date: 2025/07/01
 - End date: 2025/07/20
 
-### Erasure Coding
+### Prover
 
 - Fully qualified name:
-  `vac:rfc:codex:2025q3-rfc-iteration:erasure-coding`
-- Owner: cofson
-- Status: 0% (PAUSED)
-- Start date: 2025/08/01
-- End date: 2025/08/20
-
-=======
-- Status: paused
-- Start date: 2025/07/01
-- End date: 2025/07/20
-
->>>>>>> Stashed changes
-### Proving System
-
-- Fully qualified name:
-  `vac:rfc:codex:2025q3-rfc-iteration:proving-system`
+  `vac:rfc:codex:2025q3-rfc-iteration:prover'
 - Owner: cofson
 <<<<<<< Updated upstream
 - Status: 0% (PAUSED)
 =======
-- Status: paused
+- Status: not started
 >>>>>>> Stashed changes
 - Start date: 2025/09/20
 - End date: 2025/09/30
@@ -93,19 +78,11 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 
 - Fully qualified name:
   `vac:rfc:codex:2025q3-rfc-iteration:dht`
-- Owner: cofson
+- Owner: jimstir
 - Status: 10%
 - Start date: 2025/09/01
 - End date: 2025/09/30
 
-### Slot Builder
-
-- Fully qualified name:
-  `vac:rfc:codex:2025q3-rfc-iteration:slot-builder-module`
-- Owner: cofson
-- Status: 10%
-- Start date: 2025/09/01
-- End date: 2025/09/30
 
 ###  Erasure Coding Module
 

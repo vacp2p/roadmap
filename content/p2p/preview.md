@@ -7,29 +7,6 @@ tags:
 
 ## Roadmap Preview
 
-### 2025Q3
-- Webtransport (HTTP3)
-    - Continue implementation; may defer remaining work to Q4 depending on bandwidth.
-    - HTTP3 Finalized
-    - HTTP3 demands a complete working stack before anything functions - no partial implementation,
-      this makes it non trivial and time consuming
-- Gossipsub 2.0
-    - May continue depending on remaining gaps contingent on prior quarter’s outcomes.
-- Kad-DHT 
-    - Continue implementation; may defer remaining work to Q4 depending on bandwidth.
-- Autonat V2
-    - Implement according to [specs](https://github.com/libp2p/specs/blob/master/autonat/autonat-v2.md)
-- Maintenance
-    - Debug and fix flaky QA tests as well as continue giving support to QA team
-    - Remove go-libp2p-daemon usage in examples/tests
-    - (This is in addition to other maintenance tasks).
-- Mix-core in nim-libp2p as Prototype / Unstable state
-    - Usable in PoCs or experiments
-    - Rough edges and minor issues expected, not recommended for production
-    - API and internal structure subject to changes
-- Mix specs in libp2p/specs
-    - Upstream initial mix design and rationale to libp2p/spec as proposal or draft PR
-
 ### 2025Q4
 - WebTransport (finalized)
     - Complete implementation of WebTransport protocol
@@ -81,6 +58,7 @@ The following items are not part of our current roadmap. They haven't been reque
 - tls secure transport
     - [spec](https://github.com/libp2p/specs/blob/master/secure-channels/tls.md). 
     - Reuse standard TLS instead of Noise for encryption/auth.
+- tls/sni multiaddress support
 - webrtc-direct
     - [spec](https://github.com/libp2p/specs/blob/master/webrtc/direct.md). 
     - Connects peers via WebRTC datachannels without signaling servers. 

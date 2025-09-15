@@ -13,6 +13,7 @@ title: Vac Roadmap
 - `nim:` [[nim|Nim]]
 - `rfc:` [[rfc|RFC (Specifications)]] 
 - `sec:` [[sec|Security]]
+- `web:` [[web|Web]]
 
 ## Incubator Projects
 

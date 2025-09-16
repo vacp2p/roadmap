@@ -77,7 +77,7 @@ and (when reachable) rewrites listen addrs to dialable ones
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autonat-v2:interop`
 * owner: gabe
-* status: 0%
+* status: 20%
 * start-date: 2025-09-15
 * end-date:
 

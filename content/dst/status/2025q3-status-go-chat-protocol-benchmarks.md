@@ -446,8 +446,8 @@ Same as @Send one-to-one message - Network outage for private group
 * fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:cleanup-resources`
 * owner: Alberto
 * status: 0%
-* start-date: 2025/07/30
-* end-date: 2025/08/15
+* start-date: 2025/09/15
+* end-date: 2025/09/30
 
 #### Description
 
@@ -470,5 +470,22 @@ In a relay-friend request scenario, try the following:
 1. Add a delay between friend requests and check if this has an impact on store requests.
 2. Try changing the bootstrap node ENR in the fleet config to discv5nodes.
 Check how this behaves, and if it solves scalability.
+
+#### Deliverables
+
+
+### Relay node benchmark 2
+
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:relay-node-benchmark-2`
+* owner: Alberto
+* status: 0%
+* start-date: 2025/09/15
+* end-date: 2025/09/30
+
+#### Description
+
+Using the fix in the discovery process for the 
+[relay nodes](https://www.notion.so/Chat-Protocol-Benchmarks-1938f96fb65c80d8b22fdf641c5ff003?source=copy_link#1998f96fb65c8014bf0af42ce2645fa9)
+to repeat the benchmarks for only scenarios that use relay nodes, as discovery in light nodes is not working at the moment.
 
 #### Deliverables

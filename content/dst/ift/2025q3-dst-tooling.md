@@ -221,7 +221,7 @@ Keep track of values and logs of previous experiments in an automatized and cros
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:nim-libp2p-cron-removal`
 * owner: Farooq
-* status: 0%
+* status: 50%
 * start-date: 2025/09/02
 * end-date: 2025/09/19
 
@@ -253,3 +253,21 @@ Apart from this, the node should be able to be executed from the same docker ima
 #### Deliverables
 - PRs
 - Related Documents
+
+### Deployment refactor
+
+* fully qualified name: `vac:dst:ift:2025q3-dst-tooling:deployment-refactor`
+* owner: Pearson
+* status: 0%
+* start-date: 2025/09/15
+* end-date: 2025/09/30
+
+#### Description
+Following the discussions on the [deployment document](https://www.notion.so/Deployment-Workflow-25d8f96fb65c80f7801ce9a06dede8a4),
+start a refactor on the deployment module of the main repository.
+This task doesn't aim to have a full refactor, but a starting baseline to start considering if such approach is
+feasible, and improve with more feedback from the members of the team.
+
+#### Deliverables
+- PRs:
+- Related Documents:

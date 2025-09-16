@@ -30,6 +30,9 @@ which are either in draft or raw states:
 - Store module
 - Erasure coding module
 - Merkle tree
+- Prover
+- Codex
+- Block Exchange
 - Community history service
 
 We will also include specification validation - 
@@ -56,17 +59,15 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Fully qualified name:
   `vac:rfc:codex:2025q3-rfc-iteration:the-block-exchange'
 - Owner: cofson
-<<<<<<< Updated upstream
-- Status: 75% (PAUSED)
-- Start date: 2025/07/01
-- End date: 2025/07/20
+- Status: not started
+- Start date: 2025/09/01
+- End date: 2025/09/30
 
 ### Prover
 
 - Fully qualified name:
   `vac:rfc:codex:2025q3-rfc-iteration:prover'
 - Owner: cofson
-- Status: 0% (PAUSED)
 - Status: not started
 - Start date: 2025/09/20
 - End date: 2025/09/30
@@ -76,11 +77,18 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Fully qualified name:
   `vac:rfc:codex:2025q3-rfc-iteration:dht`
 - Owner: jimstir
-- Status: 10%
+- Status: 50%
 - Start date: 2025/09/01
 - End date: 2025/09/30
 
+### Slot Builder
 
+- Fully qualified name:
+  `vac:rfc:codex:2025q3-rfc-iteration:slot-builder'
+- Owner: cofson
+- Status: not started
+- Start date: 2025/09/20
+- End date: 2025/09/30
 ###  Erasure Coding Module
 
 - Fully qualified name:
@@ -126,19 +134,19 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Start date: 2025/09/20
 - End date: 2025/09/30
 
-### Community History Service
+### Merkle Tree Specification
 
 - Fully qualified name:
-  `vac:rfc:codex:2025q3-rfc-iteration:community-history-service`
+  `vac:rfc:codex:2025q3-rfc-iteration:merkle-tree-specification`
 - Owner: cofson
 - Status: not started
 - Start date: 2025/09/20
 - End date: 2025/09/30
 
-### Merkle Tree Specification
+### Community History Service
 
 - Fully qualified name:
-  `vac:rfc:codex:2025q3-rfc-iteration:merkle-tree-specification`
+  `vac:rfc:codex:2025q3-rfc-iteration:community-history-service`
 - Owner: cofson
 - Status: not started
 - Start date: 2025/09/20

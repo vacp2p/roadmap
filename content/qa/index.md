@@ -6,6 +6,17 @@ tags:
 
 ---
 
+## 2025q4 `vac:qa:`
+---
+
+### `ift:`
+* [[qa/ift/2025q4-qa-rfc-sync-jswaku|2025q4-qa-rfc-sync-jswaku ]]
+
+### `status:`
+* [[qa/status/2025q4-status-go-functional-testing|2025q4-status-go-functional-testing ]]
+
+---
+
 ## 2025q3 `vac:qa:`
 ---
 

@@ -5,7 +5,8 @@ tags:
   - "acz"
   - "ift"
 draft: false
-description: "Maintaining and improving Zerokit, including the release of version v1.0.0"
+description: "Maintaining and improving Zerokit, including the release of version v1.0.0,
+which supports BE and improved FFI, lastly researching new ZK proof techniques"
 
 ---
 
@@ -13,13 +14,16 @@ description: "Maintaining and improving Zerokit, including the release of versio
 ## Description
 
 This commitment entails developing and maintaining Zerokit
-including Zerokit v1 release by advancing the next version such as
-big-endian support, research on faster proving methods and improved FFI feature. 
+including Zerokit v1 release by advancing the next version, such as
+big-endian support, research on faster proving methods,
+lastly improved FFI feature and new ZK proofs research. 
 
 ### Background
 
 [Zerokit](https://github.com/vacp2p/zerokit) is a collection of Zero Knowledge modules
-that focus on RLN, developed in Rust, intended for integration with various system programming environments.
+that focus on RLN, developed in Rust, is intended for integration with various system programming environments.
+
+In 2025q3, we released Zerokit v0.9.0, which supports improved CI, optimized, partially BE support and research on FFI improvements. 
 
 ### Narratives
 
@@ -57,7 +61,7 @@ A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/).
 * end-date: 2025/12/30
 
 #### Description
-The new version of the Zerokit v1.0.0
+The new version of the Zerokit v1.0.0.
 
 #### Deliverables
-A set of PRs to vacp2p/zerokit repository with [tag v0.8.0](https://github.com/vacp2p/zerokit/releases/tag/v0.8.0)
+A set of PRs to vacp2p/zerokit repository with [tag v1.0.0](https://github.com/vacp2p/zerokit/releases/tag/v1.0.0)

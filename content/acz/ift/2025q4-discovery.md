@@ -5,13 +5,13 @@ tags:
   - "acz"
   - "ift"
 draft: false
-description: "Specifying disc-NG and collect requirement of discovery requirements"
+description: "Specifying disc-NG and releasing a document that collects the requirements of discovery"
 
 ---
  
 `vac:acz:ift:2025q4-discovery`
 
-Specifying disc-NG and collect requirement of discovery requirements
+Specifying disc-NG and releasing a document that collects the requirements of discovery
 ## Description
 This commitment entails specifying disc-NG, as proposed in  
 [the paper](https://sonnino.com/papers/disc-ng.pdf), with a focus on implementability.  
@@ -20,8 +20,8 @@ We also aim to collect requirements, and the exploration includes assessing thei
 ### Narratives
 
 By utilizing discovery exploration commitment, 
-we will reinforce the Conduit of Expertise narrative by:
-* Providing disc-NG RFC that will be tailored for many IFT teams such as Waku, Nomos, and Codex. 
+We will reinforce the Conduit of Expertise narrative by:
+* Providing the disc-NG RFC that will be tailored for many IFT teams, such as Waku, Nomos, and Codex. 
 
 We will also strengthen the Premier Research Destination narrative by:
 * Provides open-source disc-NG RFC information to the community.
@@ -39,14 +39,13 @@ We will also strengthen the Premier Research Destination narrative by:
 #### Description
 
 This task involves specifying the disc-NG proposal from [the paper](https://sonnino.com/papers/disc-ng.pdf)
-in an implementable way, extracting the key points and drafting them into an RFC. 
+in an implementable way, extracting the key points such as registor and advisor and drafting them into an RFC. 
 Once the draft RFC is collected in a document, the task also includes preparing the final RFC as a PR 
-by incorporating feedback from review.
-
+by incorporating feedback from the review.
 
 #### Deliverables
 
-* A notion document contains draft RFC with its feedbacks.
+* A notion document contains a draft RFC with its feedback.
 
 ### Disc-NG Specs
 

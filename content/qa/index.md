@@ -12,6 +12,9 @@ tags:
 ### `ift:`
 * [[qa/ift/2025q4-qa-rfc-sync-jswaku|2025q4-qa-rfc-sync-jswaku ]]
 
+### `vac:`
+* [[qa/vac/2025q4-nim-libp2p-testing|2025q4-nim-libp2p-testing ]]
+
 ### `waku:`
 * [[qa/waku/2025q4-waku-testing|2025q4-waku-testing ]]
 

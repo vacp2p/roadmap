@@ -25,7 +25,7 @@ Oversee testing strategy around releases.
 
 ### Maintenance
 
-* fully qualified name: `status:2025q4-status-qa-desktop:maintenance`
+* fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:maintenance`
 * owner: nastya
 * status: not started
 * start-date: 2025/10/01
@@ -44,7 +44,7 @@ Oversee testing strategy around releases.
 
 ### Release Testing
 
-* fully qualified name: `status:2025q4-status-qa-desktop:release-testing`
+* fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:release-testing`
 * owner: nastya
 * status: not started
 * start-date: 2025/10/01

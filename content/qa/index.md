@@ -21,6 +21,7 @@ tags:
 ### `status:`
 * [[qa/status/2025q4-status-go-functional-testing|2025q4-status-go-functional-testing ]]
 * [[qa/status/2025q4-status-qa-desktop|2025q4-status-qa-desktop ]]
+* [[qa/status/2025q4-status-qa-mobile|2025q4-status-qa-mobile ]]
 
 ---
 

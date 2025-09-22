@@ -85,8 +85,8 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 
 - Fully qualified name:
   `vac:rfc:codex:2025q3-rfc-iteration:slot-builder'
-- Owner: cofson
-- Status: not started
+- Owner: jimstir
+- Status: 10%
 - Start date: 2025/09/20
 - End date: 2025/09/30
 ###  Erasure Coding Module

@@ -73,6 +73,6 @@ from the point of view of a new developer.
 - Fully qualified name:
   `vac:rfc:nomos:2025q3-rfc-iteration:opchan`
 - Owner: jimstir
-- Status: 25%
+- Status: 30%
 - Start date: 2025/08/01
-- End date: 2025/08/31
+- End date: 2025/09/30

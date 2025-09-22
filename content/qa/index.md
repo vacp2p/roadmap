@@ -17,6 +17,7 @@ tags:
 
 ### `waku:`
 * [[qa/waku/2025q4-waku-testing|2025q4-waku-testing ]]
+* [[qa/waku/2025q4-rln-smart-contract-testing|2025q4-rln-smart-contract-testing ]] 
 
 ### `status:`
 * [[qa/status/2025q4-status-go-functional-testing|2025q4-status-go-functional-testing ]]

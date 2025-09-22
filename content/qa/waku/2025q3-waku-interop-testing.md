@@ -61,7 +61,7 @@ Harden js-waku filter protocol by adding more advanced tests like:
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:liteprotocoltester`
 * owner: aya
-* status: in progress (50%)
+* status: in progress (70%)
 * start-date: 2025/09/01
 * end-date: 2025/09/30
 

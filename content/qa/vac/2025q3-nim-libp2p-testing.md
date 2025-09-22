@@ -90,7 +90,7 @@ and edge cases.
 
 * fully qualified name: `vac:qa:vac:2025q3-nim-libp2p-testing:rendezvous`
 * owner: radek
-* status: in progress (60%)
+* status: in progress (70%)
 * start-date: 2025/09/01
 * end-date: 2025/09/30
 
@@ -99,6 +99,8 @@ and edge cases.
 * [fix(rendezvous): pagination offset](https://github.com/vacp2p/nim-libp2p/pull/1646)
 * [test(rendezvous): Registration TTL tests](https://github.com/vacp2p/nim-libp2p/pull/1655)
 * [fix(rendezvous): peer registration limit](https://github.com/vacp2p/nim-libp2p/pull/1656)
+* [test(rendezvous): Simplify test setup](https://github.com/vacp2p/nim-libp2p/pull/1677)
+* [refactor(rendezvous): Split Rendezvous Protobuf and add tests](https://github.com/vacp2p/nim-libp2p/pull/1671)
 
 #### Deliverables
 * PRs with links to added tests

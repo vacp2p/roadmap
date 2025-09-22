@@ -62,6 +62,7 @@ The calculation should be similar for nim-libp2p as well.
 Derive a formula that can depend on the number of nodes, 
 payload size, and message rate. This result will be used to compare the bandwidth usage
 in Kubernetes with the theoretical values. 
+[More info](https://github.com/vacp2p/research/tree/master/waku_scalability)
 
 #### Deliverables
 - Repository:
@@ -83,6 +84,7 @@ Derive a formula that can depend on the number of nodes,
 payload size, and message rate, if they apply. This result 
 will be used to compare the latencies measured
 in Kubernetes with the theoretical values. 
+[More info](https://github.com/vacp2p/research/tree/master/waku_scalability)
 
 #### Deliverables
 - Repository:

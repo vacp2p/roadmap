@@ -104,7 +104,7 @@ and checking functionality with other libp2p implementations.
 
 * fully qualified name: `vac:dst:vac:2025q3-libp2p-evaluation:evaluate-quic-v0.2.9`
 * owner: Alberto
-* status: 90%
+* status: 100%
 * start-date: 2025/07/30
 * end-date: 2025/08/08
 
@@ -115,6 +115,7 @@ Re-evaluate Quic in nimlibp2p with regression tests, to see if there is a differ
 #### Deliverables
 * PRs:
 * Report:
+  * [Notion Report](https://www.notion.so/Nim-libp2p-v1-13-0-regression-testing-September-2025-2718f96fb65c80daae29f67ed94b7597)
 
 
 ### Mix re-evaluation

@@ -51,18 +51,22 @@ ensuring that projects are built on well-reasoned analysis.
 ### Waku bandwidth
 
 * fully qualified name: `vac:dst:waku:2025q3-waku-theoretical-analysis:bandwidth`
-* owner: TBA
+* owner: Farooq
 * status: 0%
-* start-date: TBA
-* end-date: TBA
+* start-date: 2025-09-17
+* end-date: 2025-09-30
 
 #### Description
-
+Calculate the theoretical expected value for Waku bandwidth usage. 
+The calculation should be similar for nim-libp2p as well.
+Derive a formula that can depend on the number of nodes, 
+payload size, and message rate. This result will be used to compare the bandwidth usage
+in Kubernetes with the theoretical values. 
 
 #### Deliverables
-- [ ] Repository:
-- [ ] Report:
-- [ ] PRs: 
+- Repository:
+- Report:
+- PRs: 
 
 ### Waku message dissemination
 

@@ -478,7 +478,7 @@ Check how this behaves, and if it solves scalability.
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:relay-node-benchmark-2`
 * owner: Alberto
-* status: 0%
+* status: 10%
 * start-date: 2025/09/15
 * end-date: 2025/09/30
 

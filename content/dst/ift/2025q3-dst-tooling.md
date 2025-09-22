@@ -260,7 +260,7 @@ Apart from this, the node should be able to be executed from the same docker ima
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:deployment-refactor`
 * owner: Pearson
-* status: 0%
+* status: 30%
 * start-date: 2025/09/15
 * end-date: 2025/09/30
 

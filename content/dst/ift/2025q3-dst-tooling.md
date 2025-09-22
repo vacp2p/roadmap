@@ -241,7 +241,7 @@ to vary the message rate and size in the middle of an experiment if needed.
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:nim-libp2p-dst-node-refactor`
 * owner: Farooq
-* status: 50%
+* status: 80%
 * start-date: 2025/09/02
 * end-date: 2025/09/19
 

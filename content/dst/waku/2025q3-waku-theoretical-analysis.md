@@ -71,16 +71,21 @@ in Kubernetes with the theoretical values.
 ### Waku message dissemination
 
 * fully qualified name: `vac:dst:waku:2025q3-waku-theoretical-analysis:message-dissemination`
-* owner: TBA
+* owner: Farooq
 * status: 0%
-* start-date: TBA
-* end-date: TBA
+* start-date: 2025-09-17
+* end-date: 2025-09-30
 
 #### Description
-
+Calculate the theoretical expected value for Waku latency. 
+The calculation should be similar for nim-libp2p as well.
+Derive a formula that can depend on the number of nodes, 
+payload size, and message rate, if they apply. This result 
+will be used to compare the latencies measured
+in Kubernetes with the theoretical values. 
 
 #### Deliverables
-- [ ] Repository:
-- [ ] Report:
-- [ ] PRs: 
+- Repository:
+- Report:
+- PRs: 
 

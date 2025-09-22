@@ -122,7 +122,7 @@ Re-evaluate Quic in nimlibp2p with regression tests, to see if there is a differ
 
 * fully qualified name: `vac:dst:vac:2025q3-libp2p-evaluation:mix-re-evaluation`
 * owner: Pearson
-* status: 80%
+* status: 90%
 * start-date: 2025/07/30
 * end-date: 2025/08/08
 

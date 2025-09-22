@@ -49,11 +49,11 @@ through performance insights during the drafting process.
 [Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/deploy_rln_onchain_tree_on_l2_testnet.md#twn-supports-rln-onchain-tree-and-deposits-existing-memberships-only)
 [Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/rln_mainnet.md#twn-supports-rln-onchain-tree-and-deposits-existing-memberships-only)
 
-* fully qualified name: `-`
-* owner: -
-* status: -
-* start-date: -
-* end-date: -
+* fully qualified name: `vac:dst:waku:2025q3-waku-scaling:TWN-supports-RLN-tree`
+* owner: Alberto
+* status: 0%
+* start-date: 2025/09/15
+* end-date: 2025/09/30
 
 #### Description
 Waku estimated date of completion: 30 June 2025

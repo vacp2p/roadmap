@@ -72,7 +72,7 @@ Explore, fix and improve [waku lite protocol tester](https://github.com/waku-org
 based on nwaku dev requirements
 
 #### Deliverables
-- PRs or Issues
+- [chore: Adding store scripts](https://github.com/waku-org/waku-interop-tests/pull/135)
 
 ### Waku cannary tool
 

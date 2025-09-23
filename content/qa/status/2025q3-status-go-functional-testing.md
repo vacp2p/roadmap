@@ -62,7 +62,7 @@ TODO! This taks will need to be broken down into smaller task once we have more 
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:framework-improvements`
 * owner: chu/florin
-* status: in progress (95%)
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/07/30
 
@@ -77,6 +77,7 @@ Update readme and debugging.
 - [test_: schema validation refactor](https://github.com/status-im/status-go/pull/6806)
 - [test_: remove schema validation and added other checks](https://github.com/status-im/status-go/pull/6827)
 - [test: add api client](https://github.com/status-im/status-go/pull/6888)
+- [test: return rpc result](https://github.com/status-im/status-go/pull/6907)
 
 ### Status-backend based on nwaku
 
@@ -134,7 +135,7 @@ Cover the [wakuext group chats](https://github.com/status-im/status-go/issues/60
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:accounts`
 * owner: fbarbu15
-* status: in progress (90%)
+* status: done
 * start-date: 2025/08/11  
 * end-date: 2025/08/15
 
@@ -147,9 +148,11 @@ Focus on e2e scenarios that can be automated at this level.
 - [test_: accounts service tests P1](https://github.com/status-im/status-go/pull/6814)
 - [test_: accounts service tests P2](https://github.com/status-im/status-go/pull/6850)
 - [test_: accounts service tests P3](https://github.com/status-im/status-go/pull/6859)
+- [test: account services p4](https://github.com/status-im/status-go/pull/6921)
 - [bug: addKeypairViaSeedPhrase and addKeypairViaPrivateKey don't require a password](https://github.com/status-im/status-go/issues/6849)
 - [bug: sometimes a few messages are lost during nightly test_light_client_rate_limiting test](https://github.com/status-im/status-go/issues/6857)
 - [test: fix flaky restore account test](https://github.com/status-im/status-go/pull/6895)
+- [bug: more watch accounts can be added beyond watchOnlyAccountCapacity](https://github.com/status-im/status-go/issues/6922)
 
 ### Connector service tests
 

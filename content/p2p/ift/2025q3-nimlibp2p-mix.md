@@ -24,7 +24,7 @@ Bring initial mix support in nim-libp2p to prototype status—clean codebase, en
 
 * fully qualified name: `vac:p2p:ift:2025q3-nimlibp2p-mix:mix-core`
 * owner: rramos
-* status: 70%
+* status: 90%
 * start-date: 2025-07-16
 * end-date:
 

@@ -78,12 +78,13 @@ Update readme and debugging.
 - [test_: remove schema validation and added other checks](https://github.com/status-im/status-go/pull/6827)
 - [test: add api client](https://github.com/status-im/status-go/pull/6888)
 - [test: return rpc result](https://github.com/status-im/status-go/pull/6907)
+- [test: fix ip change tests](https://github.com/status-im/status-go/pull/6932)
 
 ### Status-backend based on nwaku
 
 * fully qualified name: `vac:qa:status:2025q3-status-go-functional-testing:status-based-on-nwaku`
 * owner: florin
-* status: in progress (50%)
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 

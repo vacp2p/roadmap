@@ -25,7 +25,7 @@ and applying minor improvements to keep the frameworks functional and effective.
 ### Waku Canary Tool
 
 * fully qualified name: `vac:qa:waku:2025q4-waku-testing:wakucanary`
-* owner: Aya
+* owner: aya
 * status: not started
 * start date: 2025/10/01
 * end date: 2025/10/07
@@ -44,7 +44,7 @@ and close the current open PR with a full set of test scripts.
 ### 12H Longevity
 
 * fully qualified name: `vac:qa:waku:2025q4-waku-testing:12hlongevity`
-* owner: Aya
+* owner: aya
 * status: not started
 * start date: 2025/10/08
 * end date: 2025/10/15
@@ -61,7 +61,7 @@ ensure there are no failures, and analyze CPU and memory performance.
 ### Waku Rendezvous Peer Discovery
 
 * fully qualified name: `vac:qa:waku:2025q4-waku-testing:rendezvous`
-* owner: Aya
+* owner: aya
 * status: not started
 * start date: 2025/10/16
 * end date: 2025/10/26
@@ -78,7 +78,7 @@ add new tests, and ensure the existing open bugs are resolved.
 ### Waku Extended E2E Network Conditions Tests
 
 * fully qualified name: `vac:qa:waku:2025q4-waku-testing:network-conditions`
-* owner: Aya
+* owner: aya
 * status: not started
 * start date: 2025/10/29
 * end date: 2025/11/20
@@ -101,6 +101,22 @@ Extend Waku end-to-end tests with network condition scenarios (high latency, low
 
 #### Description
 Ongoing maintenance of Waku testing frameworks. 
+
+#### Deliverables
+- PRs and issues
+
+---
+
+### Maintenance
+
+* fully qualified name: `vac:qa:waku:2025q4-waku-testing:store-sync-updates`
+* owner: aya
+* status: not started
+* start-date: 
+* end-date: 
+
+#### Description
+Update/enhance the waku store sync tests according to latest changes.
 
 #### Deliverables
 - PRs and issues

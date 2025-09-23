@@ -1,5 +1,3 @@
 ---
 title: Logos Contributions Portal
 ---
-
-

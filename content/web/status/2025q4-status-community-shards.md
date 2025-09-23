@@ -1,5 +1,3 @@
 ---
 title: Status Community Shards
 ---
-
-

@@ -1,5 +1,3 @@
 ---
 title: SN Website
 ---
-
-

@@ -1,5 +1,3 @@
 ---
 title: Status Wallet Extension
 ---
-
-

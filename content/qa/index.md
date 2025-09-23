@@ -24,6 +24,9 @@ tags:
 * [[qa/status/2025q4-status-qa-desktop|2025q4-status-qa-desktop ]]
 * [[qa/status/2025q4-status-qa-mobile|2025q4-status-qa-mobile ]]
 
+### `nomos:`
+* [[qa/nomos/2025q4-e2e-testing|2025q4-e2e-testing ]]
+
 ---
 
 ## 2025q3 `vac:qa:`

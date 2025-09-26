@@ -92,8 +92,8 @@ libp2p, Gossipsub, MVDS, and SDS protocols.
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:scenario-workflow-manager`
 * owner: TBD
 * status: 0%
-* start-date: -
-* end-date: -
+* start-date:
+* end-date:
 
 #### Description
 The objective of this task is to create a workflow management tool to design, 
@@ -117,8 +117,8 @@ workflows and edge-case scenarios.
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:local-stack-analysis`
 * owner: TBD
 * status: 0%
-* start-date: -
-* end-date: -
+* start-date:
+* end-date:
 
 #### Description
 Improve the main repository with a local stack for deploying experiments in local.

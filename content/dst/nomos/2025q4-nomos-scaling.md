@@ -60,8 +60,8 @@ This will also help spur on outside adoption and contributions.
 * fully qualified name: `vac:dst:nomos:2025q4-nomos-scaling:nomos-blendnet-benchmarking`
 * owner: Alberto
 * status: 0%
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* start-date:
+* end-date:
 
 #### Description
 

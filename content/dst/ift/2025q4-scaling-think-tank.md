@@ -29,9 +29,9 @@ scaling ideas, and other insights.
 
 * fully qualified name: `vac:dst:vac:2025q4-scaling-think-tank:waku-X`
 * owner: TBD
-* status: N/A
-* start-date: N/A
-* end-date: N/A
+* status:
+* start-date:
+* end-date:
 
 #### Description
 
@@ -41,9 +41,9 @@ scaling ideas, and other insights.
 
 * fully qualified name: `vac:dst:vac:2025q4-scaling-think-tank:libp2p-X`
 * owner: TBD
-* status: N/A
-* start-date: N/A
-* end-date: N/A
+* status:
+* start-date:
+* end-date:
 
 #### Description
 
@@ -53,9 +53,9 @@ scaling ideas, and other insights.
 
 * fully qualified name: `vac:dst:vac:2025q4-scaling-think-tank:nomos-X`
 * owner: TBD
-* status: N/A
-* start-date: N/A
-* end-date: N/A
+* status:
+* start-date:
+* end-date:
 
 #### Description
 

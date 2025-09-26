@@ -83,8 +83,8 @@ and ensure they don't happen again.
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:universal-connectivity`
 * owner: Alberto
 * status: -
-* start-date: -
-* end-date: -
+* start-date:
+* end-date:
 
 #### Description
 Help p2p team running scenarios with universal connectivity app
@@ -100,8 +100,8 @@ and checking functionality with other libp2p implementations.
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:quic-vs-tcp`
 * owner: TBD
 * status: 0%
-* start-date: -
-* end-date: -
+* start-date:
+* end-date:
 
 #### Description
 
@@ -116,8 +116,8 @@ Perform a comparison between nim-libp2p using quic and waku using mplex and yamu
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:interop-framework`
 * owner: TBD
 * status: 0%
-* start-date: -
-* end-date: -
+* start-date:
+* end-date:
 
 #### Description
 

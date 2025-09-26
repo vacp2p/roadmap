@@ -51,8 +51,8 @@ and especially those we want to work with externally.
 * fully qualified name: `vac:dst:status:2025q4-status-evaluation:one-to-one-outage`
 * owner: Alberto
 * status: 0%
-* start-date: TBA
-* end-date: TBA
+* start-date:
+* end-date:
 
 #### Description
 [Notion Link](https://www.notion.so/Chat-Protocol-Benchmarks-1938f96fb65c80d8b22fdf641c5ff003?source=copy_link#19d8f96fb65c809e8f11d4296821b24d)
@@ -83,8 +83,8 @@ Test:
 * fully qualified name: `vac:dst:status:2025q4-status-evaluation:group-outage`
 * owner: Alberto
 * status: 0%
-* start-date: TBA
-* end-date: TBA
+* start-date:
+* end-date:
 
 #### Description
 [Notion Link](https://www.notion.so/Chat-Protocol-Benchmarks-1938f96fb65c80d8b22fdf641c5ff003?source=copy_link#19d8f96fb65c80aa8459d54b975df8b0)
@@ -98,8 +98,8 @@ Same as @Send one-to-one message - Network outage for private group
 * fully qualified name: `vac:dst:status:2025q4-status-evaluation:light-node-benchmark-2`
 * owner: Alberto
 * status: 0%
-* start-date: TBA
-* end-date: TBA
+* start-date:
+* end-date:
 
 #### Description
 

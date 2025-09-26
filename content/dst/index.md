@@ -18,7 +18,7 @@ These tools enable precise evaluation of changes, ensuring that updates
 are not only effective but also maintain or improve system performance and scalability.
 
 
-[[preview|Roadmap Preview]]
+[[dst/preview|Roadmap Preview]]
 
 ## 2025q3 `vac:dst:`
 ---

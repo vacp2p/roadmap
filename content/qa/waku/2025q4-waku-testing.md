@@ -107,7 +107,7 @@ Ongoing maintenance of Waku testing frameworks.
 
 ---
 
-### Maintenance
+### Store sync updates
 
 * fully qualified name: `vac:qa:waku:2025q4-waku-testing:store-sync-updates`
 * owner: aya

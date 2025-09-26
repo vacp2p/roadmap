@@ -51,7 +51,7 @@ through performance insights during the drafting process.
 
 * fully qualified name: `vac:dst:waku:2025q3-waku-scaling:TWN-supports-RLN-tree`
 * owner: Alberto
-* status: 0%
+* status: 10%
 * start-date: 2025/09/15
 * end-date: 2025/09/30
 

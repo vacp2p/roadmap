@@ -26,7 +26,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:maintenance`
 * owner: fbarbu15
-* status: in progress (70%)
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -39,6 +39,8 @@ investigating and resolving issues, and implementing minor improvements to the t
 - Adjust waku interop tests to latest [nwaku changes and fixes](https://github.com/waku-org/waku-interop-tests/pull/128)
 - [chore: shard-specific metrics update](https://github.com/waku-org/waku-interop-tests/pull/131)
 - [chore: fix waku_connected_peers_per_shard metric](https://github.com/waku-org/waku-interop-tests/pull/136)
+- [bug: nwaku returns invalid message JSON when contentTopic contains backslashes](https://github.com/waku-org/nwaku/issues/3572)
+- [chore: maintenance](https://github.com/waku-org/waku-interop-tests/pull/137)
 
 ### js-waku filter hardening
 
@@ -61,7 +63,7 @@ Harden js-waku filter protocol by adding more advanced tests like:
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:liteprotocoltester`
 * owner: aya
-* status: in progress (70%)
+* status: in progress (80%)
 * start-date: 2025/09/01
 * end-date: 2025/09/30
 
@@ -70,7 +72,7 @@ Explore, fix and improve [waku lite protocol tester](https://github.com/waku-org
 based on nwaku dev requirements
 
 #### Deliverables
-- PRs or Issues
+- [chore: Adding store scripts](https://github.com/waku-org/waku-interop-tests/pull/135)
 
 ### Waku cannary tool
 

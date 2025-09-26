@@ -8,31 +8,20 @@ tags:
 ## Roadmap Preview
 
 ### 2025Q4
-- WebTransport (finalized)
-    - Complete implementation of WebTransport protocol
-    - Support WebTransport as a transport option within nim-libp2p
-- Kad-DHT
-    - May continue depending on remaining gaps contingent on prior quarter’s outcomes.
 - Cross-compilation for mobile
     - Enable nim-libp2p builds for arm64/aarch64 targeting Android/iOS
     - Needed for integration into Status App.
-- C-bindings
-    - Expose stable C API surface for LogosCore and other external consumers. 
 - Connection abstraction refactor
     - The current implementation of nim-libp2p includes abstractions that are difficult to understand, 
       which makes development and collaboration more challenging. 
       Refactoring the codebase would improve clarity, allowing contributors to grasp the code more easily. 
       Additionally, a more streamlined implementation would enhance maintainability, 
       leading to more efficient troubleshooting and debugging.
-- IPv6 support
-    - Full handling of /ip6/... multiaddresses
 - Mix-core in nim-libp2p as Done state
     - core protocol logic stable; 
     - no blocking issues
     - Issues (if any) are around API polish
-- Maintenance
-    - evaluate whether to keep using nim-protobuf-serialization or migrate to minprotobuf
-    - (This is in addition to other maintenance tasks).
+
 
 ### 2026Q1 and beyond
 - Unix Domain Socket transport (`/unix//tmp/foo`)
@@ -73,3 +62,5 @@ The following items are not part of our current roadmap. They haven't been reque
     - compile nim-libp2p to a wasm library for embedding in browser environments. 
     - no spec, but precedent exists in js-libp2p and rust efforts.
 - native nim impl of Quic
+- evaluate whether to keep using nim-protobuf-serialization or migrate to minprotobuf
+    - (This is in addition to other maintenance tasks).

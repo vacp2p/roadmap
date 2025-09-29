@@ -37,6 +37,11 @@ tags:
     - Support global user education and developer onboarding
 
 #### IFT Projects
+- **Web Maintenance & Support**
+    - Ongoing maintenance and support for previously delivered web projects
+    - Bug fixes, security updates, and performance optimization
+    - Content updates and feature enhancements
+    - Compatibility maintenance and technical debt management
 - **Logos Contributions Portal**
     - Complete contributor directory with GitHub integration
     - Implement milestone system with Discord roles and emojis

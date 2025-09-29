@@ -21,11 +21,11 @@ The unit's work directly supports IFT's strategic objective of scaling project c
 
 #### `ift:`
 
-- [[web/ift/2025q4-farewell-to-westphalia-book|2025q4-farewell-to-westphalia-book]]
 - [[web/ift/2025q4-logos-contributions-portal|2025q4-logos-contributions-portal]]
 - [[web/ift/2025q4-logos-core|2025q4-logos-core]]
 - [[web/ift/2025q4-logos-marketing-campaign-narratives|2025q4-logos-marketing-campaign-narratives]]
 - [[web/ift/2025q4-logos-website|2025q4-logos-website]]
+- [[web/ift/2025q4-maintenance|2025q4-maintenance]]
 - [[web/ift/2025q4-newsletter|2025q4-newsletter]]
 - [[web/ift/2025q4-psf-website|2025q4-psf-website]]
 - [[web/ift/2025q4-qaku-app|2025q4-qaku-app]]

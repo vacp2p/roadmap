@@ -18,11 +18,11 @@
 
 ---
 
-* `ift:2025q4-farewell-to-westphalia-book`
 * `ift:2025q4-logos-contributions-portal`
 * `ift:2025q4-logos-core`
 * `ift:2025q4-logos-marketing-campaign-narratives`
 * `ift:2025q4-logos-website`
+* `ift:2025q4-maintenance`
 * `ift:2025q4-newsletter`
 * `ift:2025q4-psf-website`
 * `ift:2025q4-qaku-app`

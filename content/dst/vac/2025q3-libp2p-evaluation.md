@@ -138,3 +138,4 @@ Compare results with the initial ones in [Notion: Mix report extended](https://w
   * [Github commit: Dockerfile changes](https://github.com/vacp2p/dst-gossipsub-test-node/commit/f05cc4ea7b7715f82110adfb9567b87231b1b320)
   * [Github Draft PR: Mix deployment changes](https://github.com/vacp2p/10ksim/pull/137)
 * Report:
+  - [Notion: Mixnet Report](https://www.notion.so/Mixnet-findings-WIP-2768f96fb65c805cae83f7c4f67c4860)

@@ -2,11 +2,12 @@
 title: RFC Iteration
 tags:
   - rfc
+  - waku
 draft: false
-description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected Zerokit RFCs."
+description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected Waku RFCs."
 ---
 
-`vac:rfc:zerokit:2025q3-rfc-iteration`
+`vac:rfc:waku:2025q4-rfc-iteration`
 
 Iteration commitments generally comprise:
 through discussion and curation,
@@ -26,7 +27,7 @@ either in draft or raw states. The audit comprises of:
 - Checking for inconsistencies with other documentation/codebase.
 
 The following RFCs will be worked on in this quarter:
-- TBD
+- Opchan
 
 We will also include specification validation - 
 editorial work through previous and future RFCs to improve them
@@ -47,4 +48,11 @@ from the point of view of a new developer.
 
 ## Task List
 
-TBD
+### Opchan
+
+- Fully qualified name:
+  `vac:rfc:waku:2025q4-rfc-iteration:opchan`
+- Owner: jimstir
+- Status: 30% (paused)
+- Start date: 2025/11/01
+- End date: 2025/11/30

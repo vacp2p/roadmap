@@ -59,7 +59,7 @@ This will also help spur on outside adoption and contributions.
 
 * fully qualified name: `vac:dst:nomos:2025q3-nomos-scaling:nomos-deployment-test`
 * owner: Alberto
-* status: 10%
+* status: 80%
 * start-date: 2025-09-19
 * end-date: 2025-09-30
 

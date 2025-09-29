@@ -79,6 +79,8 @@ Update readme and debugging.
 - [test: add api client](https://github.com/status-im/status-go/pull/6888)
 - [test: return rpc result](https://github.com/status-im/status-go/pull/6907)
 - [test: fix ip change tests](https://github.com/status-im/status-go/pull/6932)
+- [test: call rpc methods via service](https://github.com/status-im/status-go/pull/6946)
+- [bug: appgeneral_version returns empty string for local runs](https://github.com/status-im/status-go/issues/6957)
 
 ### Status-backend based on nwaku
 

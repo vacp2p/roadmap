@@ -445,7 +445,7 @@ Same as @Send one-to-one message - Network outage for private group
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:cleanup-resources`
 * owner: Alberto
-* status: 10%
+* status: 80%
 * start-date: 2025/09/15
 * end-date: 2025/09/30
 
@@ -454,7 +454,18 @@ Same as @Send one-to-one message - Network outage for private group
 Close up draft PRs from previous procol benchmarks. Extract utilities and/or add documentation when possible.
 
 #### Deliverables
-
+- [Setup StatusBackend functions #29](https://github.com/vacp2p/status-benchmarks/pull/29)
+- [Store performance #30](https://github.com/vacp2p/status-benchmarks/pull/30) 
+- [Message sending scenario #31](https://github.com/vacp2p/status-benchmarks/pull/31) 
+- [Request to join comm mix #17](https://github.com/vacp2p/status-benchmarks/pull/17) 
+- [Isolated traffic chat messages 1 #18](https://github.com/vacp2p/status-benchmarks/pull/18) 
+- [Isolated traffic request to join #19](https://github.com/vacp2p/status-benchmarks/pull/19) 
+- [Minor improvements #20](https://github.com/vacp2p/status-benchmarks/pull/20) 
+- [Idle relay #21](https://github.com/vacp2p/status-benchmarks/pull/21) 
+- [Idle light #22](https://github.com/vacp2p/status-benchmarks/pull/22) 
+- [Contact request #23](https://github.com/vacp2p/status-benchmarks/pull/23) 
+- [Send one-to-one #24](https://github.com/vacp2p/status-benchmarks/pull/24) 
+- [Create private group #25](https://github.com/vacp2p/status-benchmarks/pull/25)
 
 ### Delay and store
 

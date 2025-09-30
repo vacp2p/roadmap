@@ -170,7 +170,7 @@ if necessary, update the `rln-wasm` module based on the resolution.
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:zerokit-maintaining`
 - owner: Ekaterina
-- status: started (60%)
+- status: started (80%)
 - start-date: 2025/07/01
 - end-date: 2025/09/30
 

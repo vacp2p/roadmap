@@ -272,4 +272,5 @@ feasible, and improve with more feedback from the members of the team.
 
 #### Deliverables
 - PRs:
+  - [Github Draft PR: Build basic Waku nodes with python dict #143]https://github.com/vacp2p/10ksim/pull/143
 - Related Documents:

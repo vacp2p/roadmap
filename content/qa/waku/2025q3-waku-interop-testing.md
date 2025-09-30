@@ -63,7 +63,7 @@ Harden js-waku filter protocol by adding more advanced tests like:
 
 * fully qualified name: `vac:qa:waku:2025q3-interop-testing:liteprotocoltester`
 * owner: aya
-* status: in progress (80%)
+* status: done
 * start-date: 2025/09/01
 * end-date: 2025/09/30
 
@@ -73,6 +73,8 @@ based on nwaku dev requirements
 
 #### Deliverables
 - [chore: Adding store scripts](https://github.com/waku-org/waku-interop-tests/pull/135)
+- [chore: Qa tests](https://github.com/waku-org/waku-protocol-perf-test/pull/1)
+- [chore: rework old scripts](https://github.com/waku-org/waku-interop-tests/pull/138)
 
 ### Waku cannary tool
 

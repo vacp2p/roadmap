@@ -1,7 +1,7 @@
 ---
 title: Waku Scaling
 tags:
-  - "2025q3"
+  - "2025q4"
   - "dst"
   - "waku"
 draft: false
@@ -13,7 +13,7 @@ Deliver hard numbers and actionable insights.
 Confirm or reject our ideas or presented ones."
 ---
 
-`vac:dst:waku:2025q3-waku-scaling`
+`vac:dst:waku:2025q4-waku-scaling`
 
 ## Description
 
@@ -41,30 +41,6 @@ more informed RFC development
 through performance insights during the drafting process.
 
 ## Task list
-
-
-### TWN supports RLN onchain tree and deposits, existing memberships only
-> *Note*: This needs more input from project
-
-[Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/deploy_rln_onchain_tree_on_l2_testnet.md#twn-supports-rln-onchain-tree-and-deposits-existing-memberships-only)
-[Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/rln_mainnet.md#twn-supports-rln-onchain-tree-and-deposits-existing-memberships-only)
-
-* fully qualified name: `vac:dst:waku:2025q3-waku-scaling:TWN-supports-RLN-tree`
-* owner: Alberto
-* status: 10%
-* start-date: 2025/09/15
-* end-date: 2025/09/30
-
-#### Description
-Waku estimated date of completion: 30 June 2025
-
-Prove that a new node setup with an RLN membership can be ready
-to verify RLN proof within 5s, no matter the size of the tree.
-
-#### Deliverables
-- Code: 
-- Report:
-
 
 
 ### Hardening and Scaling Foundations for Private Chats
@@ -99,7 +75,7 @@ To have: Vac-DST: status-backend benchmarks
 * end-date: -
 
 #### Description
-Waku estimated date of compeltion: 31 Aug
+Waku estimated date of completion: 31 Aug
 
 Using js-waku, prove that:
 - From an operating state, a node can 

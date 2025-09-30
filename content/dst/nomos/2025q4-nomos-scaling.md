@@ -1,7 +1,7 @@
 ---
 title: Nomos Scaling
 tags:
-  - "2025q3"
+  - "2025q4"
   - "dst"
   - "nomos"
 draft: false
@@ -11,7 +11,7 @@ Improve privacy and security,
 and improve scaling properties."
 ---
 
-`vac:dst:nomos:2025q3-nomos-scaling`
+`vac:dst:nomos:2025q4-nomos-scaling`
 
 
 ## Description
@@ -55,34 +55,13 @@ This will also help spur on outside adoption and contributions.
 
 ## Task List
 
-### Nomos deployment test
-
-* fully qualified name: `vac:dst:nomos:2025q3-nomos-scaling:nomos-deployment-test`
-* owner: Alberto
-* status: 80%
-* start-date: 2025-09-19
-* end-date: 2025-09-30
-
-#### Description
-
-Utilize the current state of Nomos** in the DST experiments workflow to gather 
-early feedback and identify any missing functionalities required for effective experimentation.
-This process will ensure Nomos meets the specific needs of the DST team and vice-versa,
-and is well-prepared to support advanced experiments like Blendnet.
-
-
-#### Deliverables
-* PRs:
-* Report published with all relevant details
-
-
 ### Blend benchmarking
 
-* fully qualified name: `vac:dst:nomos:2025q3-nomos-scaling:nomos-benchmarking`
+* fully qualified name: `vac:dst:nomos:2025q4-nomos-scaling:nomos-blendnet-benchmarking`
 * owner: Alberto
 * status: 0%
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* start-date:
+* end-date:
 
 #### Description
 
@@ -91,3 +70,4 @@ Measure the speed and reliability of Nomos's blendnet.
 #### Deliverables
 * Benchmarks done
 * Report published with all relevant details
+

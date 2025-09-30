@@ -6,6 +6,29 @@ tags:
 
 ---
 
+## 2025q4 `vac:qa:`
+---
+
+### `ift:`
+* [[qa/ift/2025q4-qa-rfc-sync-jswaku|2025q4-qa-rfc-sync-jswaku ]]
+
+### `vac:`
+* [[qa/vac/2025q4-nim-libp2p-testing|2025q4-nim-libp2p-testing ]]
+
+### `waku:`
+* [[qa/waku/2025q4-waku-testing|2025q4-waku-testing ]]
+* [[qa/waku/2025q4-rln-smart-contract-testing|2025q4-rln-smart-contract-testing ]] 
+
+### `status:`
+* [[qa/status/2025q4-status-go-functional-testing|2025q4-status-go-functional-testing ]]
+* [[qa/status/2025q4-status-qa-desktop|2025q4-status-qa-desktop ]]
+* [[qa/status/2025q4-status-qa-mobile|2025q4-status-qa-mobile ]]
+
+### `nomos:`
+* [[qa/nomos/2025q4-e2e-testing|2025q4-e2e-testing ]]
+
+---
+
 ## 2025q3 `vac:qa:`
 ---
 

@@ -221,7 +221,7 @@ Keep track of values and logs of previous experiments in an automatized and cros
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:nim-libp2p-cron-removal`
 * owner: Farooq
-* status: 50%
+* status: 90%
 * start-date: 2025/09/02
 * end-date: 2025/09/19
 
@@ -232,14 +232,16 @@ message rate and message size values will be moved to a publisher script, allowi
 to vary the message rate and size in the middle of an experiment if needed.
 
 #### Deliverables
-- PRs
+- PRs:
+  - [Github: PR #3](https://github.com/vacp2p/dst-libp2p-test-node/pull/3)
+  - [Github: PR #139](https://github.com/vacp2p/10ksim/pull/139)
 - Related Documents
 
 ### Nim-libp2p DST node refactor
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:nim-libp2p-dst-node-refactor`
 * owner: Farooq
-* status: 50%
+* status: 80%
 * start-date: 2025/09/02
 * end-date: 2025/09/19
 
@@ -258,7 +260,7 @@ Apart from this, the node should be able to be executed from the same docker ima
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:deployment-refactor`
 * owner: Pearson
-* status: 0%
+* status: 30%
 * start-date: 2025/09/15
 * end-date: 2025/09/30
 
@@ -270,4 +272,5 @@ feasible, and improve with more feedback from the members of the team.
 
 #### Deliverables
 - PRs:
+  - [Github Draft PR: Build basic Waku nodes with python dict #143]https://github.com/vacp2p/10ksim/pull/143
 - Related Documents:

@@ -445,16 +445,27 @@ Same as @Send one-to-one message - Network outage for private group
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:cleanup-resources`
 * owner: Alberto
-* status: 0%
-* start-date: 2025/07/30
-* end-date: 2025/08/15
+* status: 80%
+* start-date: 2025/09/15
+* end-date: 2025/09/30
 
 #### Description
 
 Close up draft PRs from previous procol benchmarks. Extract utilities and/or add documentation when possible.
 
 #### Deliverables
-
+- [Setup StatusBackend functions #29](https://github.com/vacp2p/status-benchmarks/pull/29)
+- [Store performance #30](https://github.com/vacp2p/status-benchmarks/pull/30) 
+- [Message sending scenario #31](https://github.com/vacp2p/status-benchmarks/pull/31) 
+- [Request to join comm mix #17](https://github.com/vacp2p/status-benchmarks/pull/17) 
+- [Isolated traffic chat messages 1 #18](https://github.com/vacp2p/status-benchmarks/pull/18) 
+- [Isolated traffic request to join #19](https://github.com/vacp2p/status-benchmarks/pull/19) 
+- [Minor improvements #20](https://github.com/vacp2p/status-benchmarks/pull/20) 
+- [Idle relay #21](https://github.com/vacp2p/status-benchmarks/pull/21) 
+- [Idle light #22](https://github.com/vacp2p/status-benchmarks/pull/22) 
+- [Contact request #23](https://github.com/vacp2p/status-benchmarks/pull/23) 
+- [Send one-to-one #24](https://github.com/vacp2p/status-benchmarks/pull/24) 
+- [Create private group #25](https://github.com/vacp2p/status-benchmarks/pull/25)
 
 ### Delay and store
 
@@ -470,5 +481,22 @@ In a relay-friend request scenario, try the following:
 1. Add a delay between friend requests and check if this has an impact on store requests.
 2. Try changing the bootstrap node ENR in the fleet config to discv5nodes.
 Check how this behaves, and if it solves scalability.
+
+#### Deliverables
+
+
+### Relay node benchmark 2
+
+* fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:relay-node-benchmark-2`
+* owner: Alberto
+* status: 50%
+* start-date: 2025/09/15
+* end-date: 2025/09/30
+
+#### Description
+
+Using the fix in the discovery process for the 
+[relay nodes](https://www.notion.so/Chat-Protocol-Benchmarks-1938f96fb65c80d8b22fdf641c5ff003?source=copy_link#1998f96fb65c8014bf0af42ce2645fa9)
+to repeat the benchmarks for only scenarios that use relay nodes, as discovery in light nodes is not working at the moment.
 
 #### Deliverables

@@ -1,14 +1,14 @@
 ---
 title: RLN Smart Contract Testing
 tags:
-  - "2025q3"
+  - "2025q4"
   - "qa"
   - "waku"
 draft: false
 description: Test and validate the reliability of the Waku RLN Smart Contract
 ---
 
-`vac:qa:waku:2025q3-rln-smart-contract-testing`
+`vac:qa:waku:2025q4-rln-smart-contract-testing`
 
 ## Description
 
@@ -26,30 +26,13 @@ Test on selected blockchains to ensure uniform behavior across different deploym
 
 ## Task List
 
-### Unit Test Expansion with Edge Cases
-
-- fully qualified name: `vac:qa:waku:2025q3-rln-smart-contract-testing:edge-cases`
-- owner: romanzac
-- status: done
-- start-date: 2025/08/20
-- end-date: 2025/09/15
-
-#### Description
-
-Add unit tests to cover edge case scenarios. 
-
-#### Deliverables
-- [bug: Add reentrancy protection to prevent funds drain due to misconfiguration](https://github.com/waku-org/waku-rlnv2-contract/issues/32)
-- [chore: RLN contract unit test expansion](https://github.com/waku-org/waku-rlnv2-contract/pull/31)
-- [chore: RLN contract unit test expansion 2](https://github.com/waku-org/waku-rlnv2-contract/pull/39)
-
 ### Property-based Fuzz Testing
 
-- fully qualified name: `vac:qa:waku:2025q3-rln-smart-contract-testing:property-based`
+- fully qualified name: `vac:qa:waku:2025q4-rln-smart-contract-testing:property-based`
 - owner: romanzac
 - status: not started
-- start-date: 2025/09/15
-- end-date: 2025/09/30
+- start-date: 2025/10/1
+- end-date: 2025/10/31
 
 #### Description
 

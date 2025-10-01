@@ -53,7 +53,7 @@ from the point of view of a new developer.
 ### Qaku
 
 - Fully qualified name:
-  `vac:rfc:nomos:2025q3-rfc-iteration:qaku`
+  `vac:rfc:waku:2025q3-rfc-iteration:qaku`
 - Owner: jimstir
 - Status: 95% ([https://github.com/waku-org/specs/pull/77](https://github.com/waku-org/specs/pull/77))
 - Start date: 2025/07/20
@@ -62,7 +62,7 @@ from the point of view of a new developer.
 ### Waku RLN Keystore
 
 - Fully qualified name:
-  `vac:rfc:nomos:2025q3-rfc-iteration:waku-rln-keystore`
+  `vac:rfc:waku:2025q3-rfc-iteration:waku-rln-keystore`
 - Owner: jimstir
 - Status: 100% (https://github.com/waku-org/specs/pull/78)
 - Start date: 2025/07/20
@@ -71,8 +71,8 @@ from the point of view of a new developer.
 ### Opchan
 
 - Fully qualified name:
-  `vac:rfc:nomos:2025q3-rfc-iteration:opchan`
+  `vac:rfc:waku:2025q3-rfc-iteration:opchan`
 - Owner: jimstir
-- Status: 25%
+- Status: 30%
 - Start date: 2025/08/01
-- End date: 2025/08/31
+- End date: 2025/09/30

@@ -54,7 +54,7 @@ to promote the project and gain support from the Ethereum ecosystem.
 
 * fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:multi-steward-rfc`
 * owner: Ugur
-* status: started (70%)
+* status: done
 * start-date: 2025/07/21
 * end-date: 2025/08/25
 
@@ -65,7 +65,7 @@ The RFC needs to contain concrete flow, and explaination.
 
 #### Deliverables
 
-* PR to vacp2p/rfc-index repo with related updates.
+* [PR](https://github.com/vacp2p/rfc-index/pull/193) to vacp2p/rfc-index repo with related updates.
 
 ### Implement consesus layer
 
@@ -112,7 +112,7 @@ containing update of message processing
 
 * fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:de-mls-maintaining`
 * owner: Ekaterina
-* status: started (80%)
+* status: done
 * start-date: 2025/06/30
 * end-date: 2025/09/30
 

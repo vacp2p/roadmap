@@ -13,6 +13,21 @@ tags:
 - SN L2 native bridge yield extension deployment on testnet/mainnet
 
 
+## 2025q4 `vac:sc:`
+---
+
+### `ift:`
+
+- [ ] [[sc/ift/2025q4-sc-learnup-sessions]]
+- [ ] [[sc/ift/2025q4-security-audits]]
+
+### `status-l2:`
+
+- [ ] [[sc/status-l2/2025q4-pre-audit-protocol-enhancements]]
+- [ ] [[sc/status-l2/2025q4-audit-preparation]]
+- [ ] [[sc/status-l2/2025q4-maintaining-status-l2-contracts]]
+
+
 ## 2025q3 `vac:sc:`
 ---
 

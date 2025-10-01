@@ -124,3 +124,20 @@ testing, small issues and the creation of future issues.
 #### Deliverables
 
 A set of PRs and issues to  [de-MLS repository](https://github.com/vacp2p/de-mls)
+
+### Multi-steward presentation
+
+* fully qualified name: `ift:2025q3-de-mls-tesnet:multi-steward-presentation`
+* owner: Uğur
+* status: done
+* start-date: 2025/09/15
+* end-date: 2025/09/30
+
+#### Description
+
+Creating slides then presenting latest multi-steward approach in IFT research call.
+
+#### Deliverables
+
+* [Presentation](https://docs.google.com/presentation/d/1y39-0TzYc8P7gN3qzGbXtwklZY2rByHkdk-j0zvmrC0/edit?usp=drive_web&ouid=118310033212265407204)
+* [Forum post](https://forum.vac.dev/t/ift-research-call-september-24th-2025-multi-steward-de-mls-details-on-our-decentralized-mls-solution/575)

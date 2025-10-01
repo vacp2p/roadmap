@@ -47,7 +47,7 @@ to apply for EF grants to promote the project and gain support from the Ethereum
 
 * fully qualified name: `vac:acz:ift:2025q4-de-mls-tesnet:multi-steward-rfc`
 * owner: Ugur
-* status: not started
+* status: done
 * start-date: 2025/10/25
 * end-date: 2025/11/25
 
@@ -58,7 +58,7 @@ The RFC needs to contain a concrete flow and explanation.
 
 #### Deliverables
 
-* PR to vacp2p/rfc-index repo with related updates.
+* [PR](https://github.com/vacp2p/rfc-index/pull/193) to vacp2p/rfc-index repo with related updates.
 
 ### Multi-steward integration
 
@@ -69,6 +69,8 @@ The RFC needs to contain a concrete flow and explanation.
 * end-date: 2025/11/01
 
 #### Description
+
+This task is postponed to the Q4 due to the multi stewards specification. 
 
 The multi-steward settings allow de-MLS that multiple stewards to manage the group
 changes to protect a single point of failure, better availability, and decentralization.
@@ -82,7 +84,7 @@ containing an update of message processing
 
 * fully qualified name: `vac:acz:ift:2025q4-de-mls-tesnet:de-mls-maintaining`
 * owner: Ekaterina
-* status: not started 
+* status: done 
 * start-date: 2025/06/30
 * end-date: 2025/09/30
 

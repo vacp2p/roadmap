@@ -32,7 +32,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:draft-RFC`
 * owner: Arunima
-* status: done
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 
@@ -45,13 +45,13 @@ by incorporating feedback from the review.
 
 #### Deliverables
 
-* A [notion document](https://www.notion.so/Improving-EGN-Discovery-protocol-DRAFT-2638f96fb65c8082a4dfe9f2aefaf8bc) contains a draft RFC with its feedback.
+* A notion document contains a draft RFC with its feedback.
 
 ### Disc-NG Specs
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:disc-ng-specs`
 * owner: Arunima
-* status: done
+* status: not started
 * start-date: 2025/10/30
 * end-date: 2025/11/30
 
@@ -65,4 +65,4 @@ The task concludes with the merge of the PR.
 
 #### Deliverables
 
-* A [notion document](https://www.notion.so/Disc-ng-RFC-DRAFT-2708f96fb65c80c7836cdd9fffde4423) contains a draft RFC with its feedback. 
+* A PR to the [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index/) repo. 

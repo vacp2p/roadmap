@@ -5,54 +5,62 @@ tags:
   - "web"
   - "ift"
 draft: false
-description: "Development of a comprehensive Logos website with updated brand positioning, experimental UI elements, and integrated community features including contribute portal, learning hub, and citizenship journey."
+description: "Development of a comprehensive Logos website showcasing the complete technology stack with optimal user journey design, dual-experience architecture for developers and non-developers, and integrated community features that prioritize bringing people together through multiple engagement options."
 ---
 
 `vac:web:ift:2025q4-logos-website`
 
 > *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
+
 ## Description
 
-This commitment involves developing a comprehensive Logos website that serves as the central hub for the volunteer-driven, open source community building strategy. The website will feature updated brand positioning based on A/B testing results, experimental UI elements, and integrated community features that support the quarterly KPIs for community growth and developer contributions.
+This commitment involves developing a comprehensive Logos website that serves as the central hub for the volunteer-driven, open source community building strategy. The website will showcase the complete Logos technology stack while being built around carefully defined optimal user flows for primary and secondary users, with a core focus on bringing people together and providing multiple pathways for contribution that align with privacy principles and user preferences.
 
 The Logos website will support the volunteer-driven community building strategy by:
-- **Brand Consolidation**: Implementing the unified brand architecture that consolidates all Logos protocols under a single, simplified brand
-- **Community Onboarding**: Creating clear pathways for community members to understand and engage with the Logos movement
+- **Technology Stack Showcase**: Presenting the complete Logos technology stack and its capabilities to users and developers
+- **Optimal User Journey Design**: Creating carefully defined user flows that highlight the single most important action for each user profile
+- **Community Convergence**: Prioritizing bringing people together through multiple engagement pathways
 - **Developer Activation**: Providing accessible entry points for external developers to contribute to the Logos technology stack
-- **Movement Building**: Communicating the utopian vision and connection between technology and parallel societies
-- **KPI Support**: Enabling tracking and optimization of key metrics including online community activity, external developer contributions, and circle engagement
+- **Flexible Contribution Options**: Providing diverse ways to contribute that respect privacy preferences and user comfort levels
+- **Personalized Onboarding**: Ttraining, educational materials, and mentorship opportunities
+- **Dual-Pathway Architecture**: Implementing "Learn" and "Contribute" high-level approaches that segment into specific user journeys
 
 **Key Features:**
 
-### Updated Brand Positioning
-- Consolidated brand architecture with simplified messaging
-- A/B tested positioning based on "ideological builder" target audience
-- Visual language updates to strengthen brand identity and culture
-- Streamlined communication that reduces confusion and increases emotional response
+### Logos Technology Stack Showcase
+- **Complete Stack Overview**: Comprehensive presentation of all Logos protocols and technologies
+- **Technical Capabilities**: Detailed explanation of what the Logos stack can do and how it works
+- **Integration Examples**: Real-world use cases and implementation examples
+- **Developer Resources**: Technical documentation and development guides for the stack
 
-### Learning Hub
-- Complete documentation for the Logos technology stack
-- Overview of utopian vision regarding parallel societies and technology
-- Simplified messaging: who we are, what we do, what we want, where we operate
-- Educational content supporting community understanding
+### Dual-Pathway User Architecture
+- **Learn Pathway**: Educational content, documentation, and knowledge resources about the Logos technology stack
+- **Contribute Pathway**: Action-oriented tools and contribution opportunities for the Logos ecosystem
+- **Segmented User Journeys**: Each pathway leads to pages that segment users by profile and needs
+- **Single Action Focus**: Highlighting the most important action for each user profile
 
-### Developer Portal
-- Complete guidelines and documentation for contributors
-- Tutorials and step-by-step guides
-- Technology roadmap and development priorities
-- Integration with GitHub repositories and contribution tracking
+### Developer User Journey
+- **Start Building**: Direct access to Logos technology stack documentation and development resources
+- **Learn More**: Comprehensive documentation and educational materials about Logos protocols
+- **Contribute**: Streamlined contribution pathways and project discovery for the Logos ecosystem
+- **Apply for Grants**: Grant application workflow and funding opportunities for Logos development
+- **Join Community**: Multiple community options (Status Community, events, etc.)
 
-### Take Action Portal
-- Campaign discovery and participation tools
-- Interactive map for local Circle meetup discovery
-- Volunteer signup and engagement tracking
-- Impact metrics and community progress visualization
+### Non-Developer User Journey
+- **Join Community**: Status Community and alternative engagement platforms for the Logos movement
+- **Become a Member**: Streamlined membership and onboarding flow to the Logos ecosystem
+- **Schedule Intro Calls**: Personal connection and mentorship opportunities about Logos technology
+- **Event Participation**: Local events, Circles, and CC attendance tracking for Logos community
+- **Online Engagement**: Online calendar and virtual event participation in Logos activities
+- **Campaign Support**: Campaign planner and advocacy tools for the Logos movement
+- **Get Training**: Mentorship programs and educational resources about Logos technology
+- **Write Proposals**: Logos contribute integration for non-technical contributions to the ecosystem
 
-### Citizenship Journey
-- "Become a member" user experience
-- Onboarding flow for new community members
-- Engagement ladder progression tracking
-- Local chapter connection and participation tools
+### Privacy-Aligned Community Options
+- **Multiple Platform Support**: Alternatives that respect privacy preferences
+- **Flexible Communication**: Various ways to engage and contribute based on comfort levels
+- **Personal Connection**
+- **Event-Based Engagement**: Local and online events as community building tools
 
 ### Design & Technical Features
 - **Experimental UI Elements**: Implementing innovative design patterns and cutting-edge user interface components
@@ -174,4 +182,5 @@ The Logos website will support the volunteer-driven community building strategy 
 > https://www.figma.com/design/hyehOA8iMTDiazHy4IDL6D/Logos-2?node-id=46-2287&p=f&t=fxzLuvGuIGzW0LaG-0
 > https://github.com/acid-info/logos-co
 > https://logos-co-rvlb.vercel.app
-> https://miro.com/app/board/uXjVI--PDlE=/?moveToWidget=3458764639386405845&cot=14
+> https://app.clickup.com/t/86b4pj648
+> https://www.notion.so/Logos-Movement-Strategy-H2-2025-WIP-2298f96fb65c8025a528cde1ad846f1d#2298f96fb65c8084aac0d78dc4abddee

@@ -31,7 +31,7 @@ which are either in draft or raw states:
 - Erasure coding module
 - Merkle tree
 - Prover
-- Codex
+- Codex Manifest
 - Block Exchange
 - Community history service
 
@@ -77,7 +77,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Fully qualified name:
   `vac:rfc:codex:2025q3-rfc-iteration:dht`
 - Owner: jimstir
-- Status: 60%
+- Status: 70%
 - Start date: 2025/09/01
 - End date: 2025/09/30
 
@@ -93,8 +93,8 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 
 - Fully qualified name:
   `vac:rfc:codex:2025q3-rfc-iteration:erasure-coding-module`
-- Owner: cofson
-- Status: not started
+- Owner: jimstir
+- Status: 20%
 - Start date: 2025/09/20
 - End date: 2025/09/30
 
@@ -107,12 +107,12 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - Start date: 2025/09/20
 - End date: 2025/09/30
 
-### Codex
+### Codex Manifest
 
 - Fully qualified name:
-  `vac:rfc:codex:2025q3-rfc-iteration:codex`
-- Owner: cofson
-- Status: not started
+  `vac:rfc:codex:2025q3-rfc-iteration:codex-manifest`
+- Owner: jimstir
+- Status: 20%
 - Start date: 2025/09/20
 - End date: 2025/09/30
 

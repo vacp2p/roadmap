@@ -75,23 +75,23 @@ The Logos website will support the volunteer-driven community building strategy 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
 * owner: jackewing
 * status: 50%
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* start-date: 2025/05/09
+* end-date: 2025/10/31
 
 ### Components
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
 * owner: jackewing
 * status: 50%
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* start-date: 2025/05/09
+* end-date: 2025/10/31
 
 ### Copyright
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
 * owner: jinhojang6
 * status: 50%
-* start-date: <yyyy/mm/dd>
+* start-date: 2025/05/09
 * end-date: 2025/10/31
 
 ### Internationalization
@@ -99,29 +99,79 @@ The Logos website will support the volunteer-driven community building strategy 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
 * owner: jinhojang6
 * status: 50%
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* start-date: 2025/05/09
+* end-date: 2025/10/31
 
 ### SEO
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:seo`
 * owner: jinhojang6
 * status: 50%
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* start-date: 2025/05/09
+* end-date: 2025/10/31
 
 ### Documentation
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:documentation`
 * owner: jinhojang6
-* status: 50%
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* status: 20%
+* start-date: 2025/05/09
+* end-date: 2025/10/31
 
 ### Data visualization
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:data-visualization`
 * owner: jackewing
 * status: 50%
-* start-date: <yyyy/mm/dd>
+* start-date: 2025/05/09
+* end-date: 2025/10/31
+
+### CTAs
+
+* fully qualified name: `vac:web:ift:2025q4-logos-website:ctas`
+* owner: jackewing
+* status: 20%
+* start-date: 2025/05/09
+* end-date: 2025/10/31
+
+#### Description
+
+- Learn
+- Join
+- Download
+- Apply
+- Build
+- Events
+
+### Blog (Press Engine)
+
+* fully qualified name: `vac:web:ift:2025q4-logos-website:blog`
+* owner: jinhojang6
+* status: 60%
+* start-date: 2025/05/09
 * end-date: <yyyy/mm/dd>
+
+### Search
+
+* fully qualified name: `vac:web:ift:2025q4-logos-website:search`
+* owner: jinhojang6
+* status: 0%
+* start-date: 2025/05/09
+* end-date: 2025/10/31
+
+### External references
+
+* fully qualified name: `vac:web:ift:2025q4-logos-website:external-references`
+* owner: jinhojang6
+* status: 0%
+* start-date: 2025/05/09
+* end-date: 2025/10/31
+
+#### Description
+
+- from free.technology
+
+> https://www.figma.com/design/hyehOA8iMTDiazHy4IDL6D/Logos-2?node-id=46-2287&p=f&t=fxzLuvGuIGzW0LaG-0
+> https://github.com/acid-info/logos-co
+> https://logos-co-rvlb.vercel.app
+> https://miro.com/app/board/uXjVI--PDlE=/?moveToWidget=3458764639386405845&cot=14

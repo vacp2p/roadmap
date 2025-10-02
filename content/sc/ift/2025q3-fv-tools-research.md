@@ -21,8 +21,8 @@ Look into alternative formal verification tools and their integration with the e
 ### Research alternative tools
 
 * fully qualified name: `2025q3-fv-tools-research:research-alternatives`
-* owner: r4bbit
-* status: 20%
+* owner: gravityblast
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/09/31
 
@@ -32,5 +32,5 @@ The goal of this task is to explore alternative formal verification tools to Cer
 
 #### Deliverables
 
-- [ ] Document that shows the results of the research and the pros and cons of each tool
+- [x] [Document that shows the results of the research and the pros and cons of each tool](https://notes.status.im/T8taunAoShaq3a2pJo8sRw)
 

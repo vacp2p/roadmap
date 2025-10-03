@@ -98,7 +98,7 @@ In this task, we will examine the requirements for running NSSA as a L2 on Cosmo
 ### Privacy Projects Analysis
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:privacy-projects-analysis`
 * owner: Marvin
-* status: started (90%) 
+* status: done 
 * start-date: 2025/08/25
 * end-date: 2025/08/08
 
@@ -111,7 +111,7 @@ Basically analyse:
     - Techniques used (e.g., consensus, snarks, etc)
 
 ### Deliverables
-* A notion doc to the Nescience notion workspace 
+* [A notion doc](https://www.notion.so/Draft-WIP-2538f96fb65c80ff83afcad4fd3ca2f9) to the Nescience notion workspace 
 
 ### Specs for Key Protocols
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:key-protocol-spec`
@@ -154,7 +154,7 @@ workload depending on the findings.
 ### DEX Research
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:dex-research`
 * owner: Marvin
-* status: started (50%) 
+* status: done 
 * start-date: 
 * end-date: 
 
@@ -170,7 +170,7 @@ By the end of this task, we should have a clear understanding
 of how Nescience compares to other projects from a user perspective.
 
 ### Deliverables
-* A notion doc to the Nescience notion workspace that summarizes existing projects
+* [A notion doc](https://www.notion.so/DEX-on-NSSA-25a8f96fb65c807496c0c0aadd16d56e) to the Nescience notion workspace that summarizes existing projects
 from a user perspective, notes their roadmap progress, and compares each to NSSA.
 
 ### Regulatory Positioning
@@ -195,7 +195,7 @@ for how NSSA avoids classification under certain regulatory categories.
 ### Nomos Deep Dive
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:nomos-deep-dive`
 * owner: Marvin
-* status: started (90%)
+* status: done
 * start-date: 2025/07/31
 * end-date: 2025/08/08
 
@@ -203,7 +203,7 @@ for how NSSA avoids classification under certain regulatory categories.
 Nescience’s architecture is designed to function as a L1 and as a L2. Nomos’ infrastructure is designed to allow a network in blockchains to exist in a single ecosystem sharing the same storage (and in some instances, the same consensus). Nomos supports application-specific blockchains in two ways: zones and sovereign rollups. In this task, we deep dive into Nomos’ infrastructure to determine the best fit and potential changes for NSSA’s deployment in Nomos.
 
 ### Deliverables: 
-A document that:
+[A document ](https://www.notion.so/Nescience-in-Nomos-2488f96fb65c801c8d10ef6d6f3d87ed)that:
 * provides an overview of Nomos infrastructure
 * provides an overview of Zone and sovereign rollup requirements
 * Conclusion on the best fit for NSSA in Nomos
@@ -211,7 +211,7 @@ A document that:
 ### Specs compatibility
 * fully qualified name: `vac:acz:nes:2025q3-nescience-consulting:specs-compat`
 * owner: Marvin
-* status: not started
+* status: done
 * start-date:
 * end-date:
  
@@ -220,7 +220,7 @@ Nescience's architecture has been specified for NSSAv.01 and portions implemente
 of the specifications and implementation. Additionally, will audit the specifications and implementations for any potential vulnerabilities. 
 
 ### Deliverables: 
-A document that:
+[A document](https://www.notion.so/NSSAv0-1-compatibility-and-security-2658f96fb65c80fb997fcb60be80d19a) that:
 * provides a brief security analysis of specifications
 * notes on any differences between code and specifications
 * examination of theoretical attack models against specifications

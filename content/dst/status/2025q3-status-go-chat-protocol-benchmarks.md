@@ -445,7 +445,7 @@ Same as @Send one-to-one message - Network outage for private group
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:cleanup-resources`
 * owner: Alberto
-* status: 80%
+* status: 100%
 * start-date: 2025/09/15
 * end-date: 2025/09/30
 
@@ -466,6 +466,7 @@ Close up draft PRs from previous procol benchmarks. Extract utilities and/or add
 - [Contact request #23](https://github.com/vacp2p/status-benchmarks/pull/23) 
 - [Send one-to-one #24](https://github.com/vacp2p/status-benchmarks/pull/24) 
 - [Create private group #25](https://github.com/vacp2p/status-benchmarks/pull/25)
+- [Send group messages #26](https://github.com/vacp2p/status-benchmarks/pull/26)
 
 ### Delay and store
 

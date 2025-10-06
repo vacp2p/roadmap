@@ -261,7 +261,7 @@ Apart from this, the node should be able to be executed from the same docker ima
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:deployment-refactor`
 * owner: Pearson
-* status: 30%
+* status: 100%
 * start-date: 2025/09/15
 * end-date: 2025/09/30
 
@@ -273,5 +273,5 @@ feasible, and improve with more feedback from the members of the team.
 
 #### Deliverables
 - PRs:
-  - [Github Draft PR: Build basic Waku nodes with python dict #143]https://github.com/vacp2p/10ksim/pull/143
+  - [Github PR: Build basic Waku nodes with python dict #143]https://github.com/vacp2p/10ksim/pull/143
 - Related Documents:

@@ -490,7 +490,7 @@ Check how this behaves, and if it solves scalability.
 
 * fully qualified name: `vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:relay-node-benchmark-2`
 * owner: Alberto
-* status: 50%
+* status: 100%
 * start-date: 2025/09/15
 * end-date: 2025/09/30
 
@@ -501,3 +501,6 @@ Using the fix in the discovery process for the
 to repeat the benchmarks for only scenarios that use relay nodes, as discovery in light nodes is not working at the moment.
 
 #### Deliverables
+- [Github PR: Async utils](https://github.com/vacp2p/status-benchmarks/pull/33)
+- [Github PR: Second benchmark additions](https://github.com/vacp2p/status-benchmarks/pull/32)
+- [Notion: Status discovery gathering information](https://www.notion.so/Status-benchmark-discovery-issues-27a8f96fb65c80e9bc09e356371556a0)

@@ -26,7 +26,8 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 - **Individual Profiles**: Detailed pages with contribution details and complete contribution lists
 - **Search Functionality**: Search by GitHub username or repository name
 - **Contribution Guidelines**: Clear instructions and best practices maintained on GitHub
-- **Milestone System**: Reward contributors with Discord roles and exclusive emojis for reaching contribution thresholds
+- **Contributor Ladder**: Structured growth path where contributors earn recognition, responsibilities, and privileges (from leaderboard presence and swag to reviewer rights and governance roles) as they progress through ranks
+- **Contributors Leaderboard**: Seasonal and all-time rankings highlight active contributors across coding, design, documentation, translation, etc.
 - **Proposal Submission**: Form allowing developers, writers, designers, and others to submit proposals
 - **GitHub Issues Integration**: Display curated issues from contribute.logos.co repository
 

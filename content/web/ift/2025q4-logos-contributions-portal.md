@@ -34,7 +34,7 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 **Alignment with IFT Narratives:**
 - **Digital Liberties**: Supporting open source development that defends civil liberties through community-driven innovation
 - **Community Co-creation**: Enabling user-generated content and community participation through contribution recognition
-- **Accessibility**: Making open source contribution accessible to developers of all skill levels
+- **Accessibility**: Making open source contribution accessible not only to developers of all skill levels, but also to designers, writers, translators, community builders, and event organizers
 - **Brand Coherence**: Strengthening Logos' position as a hub for movement-building volunteers and collaborators
 
 

@@ -218,7 +218,7 @@ This task entails to optimize the single prover module.
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:multi-prover`
 * owner: Sylvain
-* status: not started
+* status: started (15%)
 * start-date: 2025/09/08
 * end-date: 2025/09/30
 
@@ -231,12 +231,28 @@ can write to the shared DB for hacving prover cluster.
 
 * A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
 
+### Monorepo Review
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:monorepo-review`
+* owner: Sylvain
+* status: started (15%)
+* start-date: 2025/09/08
+* end-date: 2025/09/30
+
+### Description
+
+This task entails to get familiar with the monorepo for prover integration.
+
+### Deliverables
+
+* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+
 
 ### Prover Module maintaining
 
 * fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:maintaining`
 * owner: Sylvain
-* status: started (50%)
+* status: started (80%)
 * start-date: 2025/07/07
 * end-date: 2025/09/25
 

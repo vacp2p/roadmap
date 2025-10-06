@@ -96,13 +96,6 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 * end-date: 2025/10/31
 
 
-### Incentivization
-
-* fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:incentivization`
-* owner: JulesFiliot
-* status: 15%
-* start-date: 2025/09/20
-* end-date: 2025/10/31
 
 
 ### Proposals

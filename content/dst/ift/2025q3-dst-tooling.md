@@ -221,7 +221,7 @@ Keep track of values and logs of previous experiments in an automatized and cros
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:nim-libp2p-cron-removal`
 * owner: Farooq
-* status: 90%
+* status: 100%
 * start-date: 2025/09/02
 * end-date: 2025/09/19
 

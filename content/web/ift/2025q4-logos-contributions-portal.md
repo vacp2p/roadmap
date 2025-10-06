@@ -39,7 +39,45 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 
 
 ## Task List
+### Contributor Directory
 
+* fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:contributor-directory`
+* owner:
+* status: 90%
+* start-date: 2025/08/11
+* end-date: 2025/10/31
+
+### Contributor Profiles
+
+* fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:contributor-profiles`
+* owner:
+* status: 90%
+* start-date: 2025/08/11
+* end-date: 2025/10/31
+
+### Contribution Guidelines
+
+* fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:contribution-guidelines`
+* owner:
+* status: 90%
+* start-date: 2025/09/25
+* end-date: 2025/10/31
+
+### Display Github issues
+
+* fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:github-issues`
+* owner:
+* status: 90%
+* start-date: 2025/09/08
+* end-date: 2025/10/31
+
+### Use BI team's Github Data
+
+* fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:bi-data`
+* owner:
+* status: 90%
+* start-date: 2025/09/08
+* end-date: 2025/10/31
 ### Leaderboard
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:leaderboard`

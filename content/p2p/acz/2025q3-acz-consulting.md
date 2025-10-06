@@ -28,7 +28,7 @@ Additionally, P2P offers guidance on resolving coding challenges that may arise 
 
 * fully qualified name: `vac:p2p:acz:2025q2-acz-consulting:libp2p-mix-consulting`
 * owner: rramos
-* status: not started
+* status: ongoing
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -41,7 +41,7 @@ Assist ACZ with the integration of mix with Waku. This task is primarily reactiv
 
 * fully qualified name: `vac:p2p:acz:2025q2-acz-consulting:de-mls-consulting`
 * owner: rramos
-* status: not started
+* status: -
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 

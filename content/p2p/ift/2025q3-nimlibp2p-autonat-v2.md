@@ -77,11 +77,12 @@ and (when reachable) rewrites listen addrs to dialable ones
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-autonat-v2:interop`
 * owner: gabe
-* status: 20%
+* status: 100%
 * start-date: 2025-09-15
-* end-date:
+* end-date: 2025-09-18
 
 #### Description
 Ensure there's interop in both client and server of AutonatV2 against other libp2p implementations 
 
 #### Deliverables
+- [vacp2p/nim-libp2p/#1695](https://github.com/vacp2p/nim-libp2p/pull/1695) chore(autonat-v2): add interop tests

@@ -180,7 +180,7 @@ Prove that:
 * owner: Alberto
 * status: 0%
 * start-date: 2025/10/06
-* end-date: 2025/09/24
+* end-date: 2025/10/24
 
 #### Description
 Prove that a new node setup with an RLN membership can be ready

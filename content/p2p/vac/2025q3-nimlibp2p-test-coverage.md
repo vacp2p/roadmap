@@ -49,9 +49,9 @@ scenarios via specifying arguments/flags:
 
 * fully qualified name: `vac:p2p:vac:2025q3-test-coverage:qa-consulting`
 * owner: vlado
-* status:
+* status: done
 * start-date: 2025-07-01
-* end-date: 
+* end-date: 2025-09-30
 
 P2P provides consulting and support to QA by addressing queries, reviewing, formulating and designing strategies to test 
 nim-libp2p more effectively, as well as offering guidance on resolving coding challenges that may arise during the 

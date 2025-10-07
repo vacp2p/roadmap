@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `vac:p2p:ift:2025q3-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: not started
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -36,17 +36,17 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.
 
 #### Deliverables
-- [[Deliverable] Maintenance 2025Q3](TODO)
+- [[Deliverable] Maintenance 2025Q3](https://github.com/vacp2p/nim-libp2p/issues/1509)
 
 
 
 ### Remove go-libp2p daemon
 
 * fully qualified name: `vac:p2p:ift:2025q3-nimlibp2p-maintenance:go-libp2p-daemon`
-* owner: 
-* status: not started
-* start-date:
-* end-date:
+* owner: gabe
+* status: done
+* start-date: 2025-09-19
+* end-date: 2025-09-19
 
 #### Description
 The overall goal is simplify the developer experience and reinforce the 
@@ -59,14 +59,14 @@ self-sufficiency of the nim-libp2p codebase. For this the following tasks must b
 
 
 #### Deliverables
-
+ - [vacp2p/nim-libp2p#1705](https://github.com/vacp2p/nim-libp2p/pull/1705) chore: remove go-daemon
 
 
 ### Fix flaky tests
 
 * fully qualified name: `vac:p2p:ift:2025q3-nimlibp2p-maintenance:flaky-tests`
 * owner: 
-* status: not started
+* status: ongoing
 * start-date:
 * end-date:
 

@@ -43,7 +43,7 @@ TODO! This taks will need to be broken down into smaller task once we have more 
 
 * fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:settings`
 * owner: aya
-* status: not started
+* status: in progress (20%)
 * start-date: 2025/10/01
 * end-date: 2025/10/20
 

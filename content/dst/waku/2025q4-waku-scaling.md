@@ -64,18 +64,16 @@ To have: Vac-DST: status-backend benchmarks
 
 
 ### Optimise Browser Bootstrapping
-> *Note*: This needs more input from project
 
 [Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/improve_devex_api_twn_metrics_docs.md#optimise-browser-bootstrapping)
 
-* fully qualified name: `-`
-* owner: -
-* status: -
-* start-date: -
-* end-date: -
+* fully qualified name: `vac:dst:waku:2025q4-waku-scaling:optimise-browser-bootstrapping`
+* owner: Pearson
+* status: 0%
+* start-date: 2025-10-15
+* end-date: 2025-10-31
 
 #### Description
-Waku estimated date of completion: 31 Aug
 
 Using js-waku, prove that:
 - From an operating state, a node can 
@@ -167,4 +165,25 @@ Prove that:
 
 #### Deliverables
 - Code:
+- Report:
+
+
+### TWN supports RLN onchain tree and deposits, existing memberships only
+> *Note*: Moved from previous quarter
+
+[Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/deploy_rln_onchain_tree_on_l2_testnet.md#twn-supports-rln-onchain-tree-and-deposits-existing-memberships-only)
+[Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/rln_mainnet.md#twn-supports-rln-onchain-tree-and-deposits-existing-memberships-only)
+
+* fully qualified name: `vac:dst:waku:2025q4-waku-scaling:TWN-supports-RLN-tree`
+* owner: Alberto
+* status: 0%
+* start-date: 2025/10/06
+* end-date: 2025/10/24
+
+#### Description
+Prove that a new node setup with an RLN membership can be ready
+to verify RLN proof within 5s, no matter the size of the tree.
+
+#### Deliverables
+- Code: 
 - Report:

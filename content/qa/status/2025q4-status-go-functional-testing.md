@@ -57,19 +57,18 @@ Add functional test coverage to settings features.
 
 * fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:waku`
 * owner: fbarbu15
-* status: not started
-* start-date: 
-* end-date: 
+* status: in progress (20%)
+* start-date: 2025/10/01
+* end-date: 2025/12/01
 
 #### Description
 Add functional test coverage to waku features
 as outlined in this [epic](https://github.com/status-im/status-go/issues/6064). 
 
 #### Deliverables
-* PRs with the new tests
-
-#### Deliverables
-* PRs with the new tests
+- [bug: MyPendingRequestsToJoin still return request after the request has been declined](https://github.com/status-im/status-go/issues/6975)
+- [bug: checkAndDeletePendingRequestToJoinCommunity doesn't clear pending requests](https://github.com/status-im/status-go/issues/6976)
+- [test: community membership requests](https://github.com/status-im/status-go/pull/6977)
 
 ### Emoji reactions
 

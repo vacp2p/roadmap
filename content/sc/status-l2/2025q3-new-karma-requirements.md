@@ -24,11 +24,27 @@ This commitment focuses on extending the Karma token and related contracts to me
 
 ## Task List
 
+### Karma Voting capabilities
+* fully qualified name: `2025q3-new-karma-requirements:votes`
+* owner: gravityblast 
+* status: done
+* start-date: 2025/09/01
+* end-date: 2025/09/30
+
+#### Description
+
+Karma tokens should have voting capabilities similar to those found in governance tokens like COMP or UNI.
+This requires conversion of virtual karma to actual karma.
+
+#### Deliverables
+
+- [x] [Initial votes implementation](https://github.com/status-im/status-network-monorepo/pull/26)
+- [x] [Custom votes implementation incl. tests](https://github.com/status-im/status-network-monorepo/pull/39)
 
 ### Virtual Karma to actual Karma conversion
 * fully qualified name: `2025q3-new-karma-requirements:virtual-karma-conversion`
-* owner: 
-* status: not started
+* owner: r4bbit 
+* status: done
 * start-date: 2025/09/01
 * end-date: 2025/09/30
 
@@ -40,14 +56,14 @@ This requires whitelisted addresses to mint actual Karma and likely requires cha
 
 #### Deliverables
 
-- [ ] Commits/PRs that implement the conversion mechanism
-- [ ] Tests that verify the functionality
+- [x] [Commits/PRs that implement the conversion mechanism](https://github.com/status-im/status-network-monorepo/pull/28)
+- [x] [Tests that verify the functionality](https://github.com/status-im/status-network-monorepo/pull/28)
 
 
 ### Whitelist transferability
 * fully qualified name: `2025q3-new-karma-requirements:whitelist-transferability`
-* owner: 
-* status: not started
+* owner: r4bbit
+* status: done
 * start-date: 2025/09/01
 * end-date: 2025/09/30
 
@@ -60,13 +76,13 @@ we need to implement a whitelist mechanism that allows certain addresses to tran
 
 #### Deliverables
 
-- [ ] Commits/PRs that implement the whitelist transferability feature
-- [ ] Tests that verify the functionality
+- [x] [Commits/PRs that implement the whitelist transferability feature](https://github.com/status-im/status-network-monorepo/pull/27)
+- [x] [Tests that verify the functionality](https://github.com/status-im/status-network-monorepo/pull/27)
 
 ### Design native app distribution system 
 * fully qualified name: `2025q3-new-karma-requirements:design-native-app-distribution-system`
-* owner: 
-* status: not started
+* owner: r4bbit
+* status: done
 * start-date: 2025/09/01
 * end-date: 2025/09/30
 
@@ -81,12 +97,12 @@ This task is about designing such a system in collaboation with the Status L2 te
 
 #### Deliverables
 
-- [ ] Document or virsual representation of the designed system
+- [x] Document or virsual representation of the designed system
 
 ### Implement native app distribution system 
 * fully qualified name: `2025q3-new-karma-requirements:implement-native-app-distribution-system`
-* owner: 
-* status: not started
+* owner: r4bbit
+* status: done
 * start-date: 2025/09/01
 * end-date: 2025/09/30
 
@@ -96,13 +112,14 @@ Implement the native app distribution system as designed in the previous task.
 
 #### Deliverables
 
-- [ ] Commits/PRs that implement the designed system
-- [ ] Tests that verify the functionality
+- [x] [Initial Karma Airdrop contract](https://github.com/status-im/status-network-monorepo/pull/37)
+- [x] [Merkleroot updates and pausability](https://github.com/status-im/status-network-monorepo/pull/38)
+- [x] [Default vote delegation on claim](https://github.com/status-im/status-network-monorepo/pull/40)
 
 ### Documentation
 * fully qualified name: `2025q3-new-karma-requirements:documentation`
-* owner: 
-* status: not started
+* owner: r4bbit
+* status: done
 * start-date: 2025/09/01
 * end-date: 2025/09/30
 
@@ -112,4 +129,4 @@ Document the new features and changes made to the Karma token and related contra
 
 #### Deliverables
 
-- [ ] Commits/PRs that add documentation
+- [x] [Commits/PRs that add documentation](https://github.com/status-im/status-network-monorepo/pull/32)

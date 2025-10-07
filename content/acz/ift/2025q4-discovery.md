@@ -32,7 +32,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:draft-RFC`
 * owner: Arunima
-* status: not started
+* status: started
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 
@@ -46,6 +46,127 @@ by incorporating feedback from the review.
 #### Deliverables
 
 * A notion document contains a draft RFC with its feedback.
+
+### Core Infrastructure
+
+* fully qualified name: `vac:acz:ift:2025q4-discovery:core-infrastructure`
+* owner: Arunima
+* status: started
+* start-date: 2025/10/13
+* end-date: 2025/10/20
+
+#### Description
+
+This task focuses on building the foundational components of the disc-ng POC.
+The core data structures that represent nodes, connections, messages,
+and routing states will be defined and implemented. 
+The routing infrastructure will provide the mechanisms
+for message propagation and path selection within the network.
+It should ensure efficiency, consistency, and scalability,
+serving as the base layer for the higher-level modules
+such as the registrar, advertiser, and discoverer.
+Proper abstraction and modularity at this stage will simplify later integration and testing.  
+The task is complete when all core data structures are stable
+and the routing layer reliably supports end-to-end message delivery.
+
+#### Deliverables
+
+* A PR to the [vacp2p/disc-NG](https://github.com/vacp2p/disc-ng/) repo.
+
+### Registrar Module
+
+* fully qualified name: `vac:acz:ift:2025q4-discovery:registrar-module`
+* owner: Arunima
+* status: started
+* start-date: 2025/10/20
+* end-date: 2025/10/27
+
+#### Description
+
+In this task, the registrar module will be implemented to handle node registration,
+admission policies, and identity management.
+The module will manage how new participants join the network,
+enforce admission control rules derived from the RFC, and maintain metadata about registered nodes.
+The implementation will include validation logic, registration lifecycle handling,
+and interactions with the core routing layer.
+The goal is to ensure controlled participation and maintain the stability and trust of the system.  
+The task is complete when nodes can register, be validated, and interact
+with the network under enforced admission control rules.
+
+#### Deliverables
+
+* A PR to the [vacp2p/disc-NG](https://github.com/vacp2p/disc-ng/) repo.
+
+### Advertiser Module
+
+* fully qualified name: `vac:acz:ift:2025q4-discovery:advertiser-module`
+* owner: Arunima
+* status: started
+* start-date: 2025/10/27
+* end-date: 2025/11/03
+
+#### Description
+
+This task involves developing the advertiser component, which is responsible for broadcasting
+and maintaining service or capability advertisements across the network.
+The module will manage how nodes announce their presence and update their advertised information over time.
+It will interact closely with both the registrar and routing infrastructure to ensure
+that advertisements are discoverable and correctly propagated.
+Emphasis will be placed on efficient dissemination, freshness of information, and resilience to network churn.  
+The task is complete when advertisements can be created,
+updated, and distributed correctly through the routing layer.
+
+#### Deliverables
+
+* A PR to the [vacp2p/disc-NG](https://github.com/vacp2p/disc-ng/) repo.
+
+### Discoverer Module
+
+* fully qualified name: `vac:acz:ift:2025q4-discovery:discoverer-module`
+* owner: Arunima
+* status: started
+* start-date: 2025/11/03
+* end-date: 2025/11/10
+
+#### Description
+
+Here, the discoverer module will be implemented to enable nodes
+to search for and locate advertised services or peers in the network.
+It will interpret discovery queries, match them against active advertisements,
+and handle query routing through the established infrastructure.
+The module should also implement caching and fallback mechanisms to optimize performance.
+The focus will be on correctness, minimal latency in lookups,
+and adherence to the discovery semantics outlined in the RFC.  
+The task is complete when discovery queries consistently
+return accurate and timely results for active advertisements.
+
+#### Deliverables
+
+* A PR to the [vacp2p/disc-NG](https://github.com/vacp2p/disc-ng/) repo.
+
+### Integration and Validation
+
+* fully qualified name: `vac:acz:ift:2025q4-discovery:integration-validation`
+* owner: Arunima
+* status: started
+* start-date: 2025/11/10
+* end-date: 2025/11/24
+
+#### Description
+
+This final phase integrates all core modules into a cohesive system
+and validates their behavior through simulations.
+The components (registrar, advertiser, discoverer, and routing layer)
+will be connected and tested together under various scenarios.
+Simulations will cover registration, advertisement propagation,
+discovery requests, and network dynamics.
+Validation will focus on functional correctness, protocol compliance, and performance metrics.  
+The task is complete when all modules operate together seamlessly
+and the integrated system passes functional and performance validation tests.
+
+#### Deliverables
+
+* A PR to the [vacp2p/disc-NG](https://github.com/vacp2p/disc-ng/) repo.
 
 ### Disc-NG Specs
 

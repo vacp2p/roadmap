@@ -27,7 +27,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:maintenance`
 * owner: nastya
-* status: not started
+* status: in progress (5%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -38,7 +38,7 @@ Oversee testing strategy around releases.
   to the testing framework as needed.
 
 #### Deliverables
-- PRs / Issues
+- [bug: Can't mint tokens on Optimism Sepolia](https://github.com/status-im/status-desktop/issues/18954)
 
 ---
 
@@ -95,9 +95,9 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:qt6-migration`
 * owner: nastya
-* status: not started
-* start-date: 
-* end-date: 
+* status: in progress (30%)
+* start-date: 2025/10/01
+* end-date: 2025/10/25
 
 #### Description
 - Work with developers and infra team.  
@@ -105,7 +105,7 @@ Oversee testing strategy around releases.
 - Ensure tests are working and change them if needed.
 
 #### Deliverables
-- PRs / Issues
+- [bug: Qt 6.9.3: can't build app on newer Qt (ubuntu)](https://github.com/status-im/status-desktop/issues/18947)
 
 ---
 

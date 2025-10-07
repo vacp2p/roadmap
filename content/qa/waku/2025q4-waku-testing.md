@@ -62,7 +62,7 @@ ensure there are no failures, and analyze CPU and memory performance.
 
 * fully qualified name: `vac:qa:waku:2025q4-waku-testing:rendezvous`
 * owner: aya
-* status: not started
+* status: in progress (20%)
 * start date: 2025/10/16
 * end date: 2025/10/26
 
@@ -117,6 +117,22 @@ Ongoing maintenance of Waku testing frameworks.
 
 #### Description
 Update/enhance the waku store sync tests according to latest changes.
+
+#### Deliverables
+- PRs and issues
+
+---
+
+### Waku Sonda Tool extension
+
+* fully qualified name: `vac:qa:waku:2025q4-waku-testing:sonda-extension`
+* owner: aya
+* status: not started
+* start date: 
+* end date:
+
+#### Description
+Extend Sonda tool to allow more advanced testing scenarios for the Store protocol, then add new advanced tests.
 
 #### Deliverables
 - PRs and issues

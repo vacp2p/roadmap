@@ -71,3 +71,36 @@ Measure the speed and reliability of Nomos's blendnet.
 * Benchmarks done
 * Report published with all relevant details
 
+
+### DA benchmarking
+
+* fully qualified name: `vac:dst:nomos:2025q4-nomos-scaling:nomos-da-benchmarking`
+* owner: Alberto
+* status: 0%
+* start-date:
+* end-date:
+
+#### Description
+
+Measure Nomos bandwidth usage in DA per node and entire network.
+
+#### Deliverables
+* PRS:
+* Documents:
+
+
+### Nomos consumption
+
+* fully qualified name: `vac:dst:nomos:2025q4-nomos-scaling:nomos-consumption`
+* owner: Alberto
+* status: 0%
+* start-date:
+* end-date:
+
+#### Description
+
+Measure Nomos resource consumption (CPU/RAM) usage in different scenarios.
+
+#### Deliverables
+* PRS:
+* Documents:

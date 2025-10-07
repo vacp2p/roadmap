@@ -62,7 +62,7 @@ ensure there are no failures, and analyze CPU and memory performance.
 
 * fully qualified name: `vac:qa:waku:2025q4-waku-testing:rendezvous`
 * owner: aya
-* status: not started
+* status: in progress (20%)
 * start date: 2025/10/16
 * end date: 2025/10/26
 

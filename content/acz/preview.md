@@ -32,8 +32,9 @@ tags:
 ### 2025Q4
 
 - Zerokit 
-    - Releasing Zerokit v1.0 
+    - Releasing Zerokit v1.0.0 (maintaining and fixing small updates) 
 - de-MLS
+    - Multi-steward integration
     - Integration Ethereum Authentication
     - Maintain de-MLS RFC
     - Ready for Waku interagtion with multi-steward
@@ -42,6 +43,10 @@ tags:
     which is Sphinx package transmission including SURB.  
 - RLN Status L2
     - Public testnet integration
+- Discovery
+    - Specification of Disc-NG 
+    - Collecting the discovery requirements for
+    privacy-preserving networks 
 
 ### 2026Q1 and beyond
 

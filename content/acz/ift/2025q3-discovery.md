@@ -39,7 +39,7 @@ that show the potential improvement points of the discovery mechanism.
 
 * fully qualified name: `vac:acz:ift:2025q3-discovery-exploration:exploring`
 * owner: Arunima
-* status: started (0%)
+* status: started (80%)
 * start-date: 2025/09/01
 * end-date: 2025/09/15
 
@@ -52,4 +52,22 @@ suitability for IFT projects, with documented findings
 
 #### Deliverables
 
-* A document contains promising research directions.
+* A [notion document](https://www.notion.so/Improving-EGN-Discovery-protocol-DRAFT-2638f96fb65c8082a4dfe9f2aefaf8bc) contains promising research directions.
+
+### Disc-NG Specs
+
+* fully qualified name: `vac:acz:ift:2025q3-discovery-exploration:disc-ng-specs`
+* owner: Arunima
+* status: started (0%)
+* start-date: 2025/09/15
+* end-date: 2025/09/30
+
+#### Description
+
+This task is the first in a series of tasks aimed at specifying the [disc-NG](https://sonnino.com/papers/disc-ng.pdf) paper.
+During this task, the disc-NG protocol will be evaluated in terms of implementability,
+and any existing gaps will be identified. The implementable parts will be drafted in RFC format.
+
+#### Deliverables
+
+* A [notion document](https://www.notion.so/Improving-EGN-Discovery-protocol-DRAFT-2638f96fb65c8082a4dfe9f2aefaf8bc) contains promising research directions.

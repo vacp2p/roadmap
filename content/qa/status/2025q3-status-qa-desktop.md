@@ -30,7 +30,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:release-testing`
 * owner: nastya
-* status: in progress (90%)
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -69,6 +69,9 @@ Oversee testing strategy around releases.
 - [bug: Windows: qml errors and warnings](https://github.com/status-im/status-desktop/issues/18808)
 - [tested: Upgrade qt to 6.9.2](https://github.com/status-im/status-desktop/pull/18814)
 - [bug: can't pair devices on windows](https://github.com/status-im/status-desktop/issues/18846)
+- [bug: Crash on settings: QQmlComponent: Cannot create a component in an invalid context](https://github.com/status-im/status-desktop/issues/18888)
+- [tested: chore: test code base cleaning on statusgo side](https://github.com/status-im/status-desktop/pull/18856)
+- [bug: Windows: can't pair devices on windows](https://github.com/status-im/status-desktop/issues/18846)
 
 ### Shell view
 
@@ -122,7 +125,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (90%)
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -162,6 +165,8 @@ Oversee testing strategy around releases.
 - [Tests: fix TextEdit](https://github.com/status-im/status-desktop/pull/18807)
 - [tested: Upgrade qt to 6.9.2](https://github.com/status-im/status-desktop/pull/18814)
 - [tested: WIP: feat(e2e): add windows pipeline](https://github.com/status-im/status-desktop/pull/18724)
+- [fix for the toggle interaction](https://github.com/status-im/status-desktop/pull/18903)
+- [chore(@e2e): remove minimize method as its not working on windows](https://github.com/status-im/status-desktop/pull/18913)
 
 ### Measure app load time
 

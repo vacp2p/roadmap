@@ -30,7 +30,7 @@ Test on selected blockchains to ensure uniform behavior across different deploym
 
 - fully qualified name: `vac:qa:waku:2025q3-rln-smart-contract-testing:edge-cases`
 - owner: romanzac
-- status: in progress (70%)
+- status: done
 - start-date: 2025/08/20
 - end-date: 2025/09/15
 
@@ -41,6 +41,7 @@ Add unit tests to cover edge case scenarios.
 #### Deliverables
 - [bug: Add reentrancy protection to prevent funds drain due to misconfiguration](https://github.com/waku-org/waku-rlnv2-contract/issues/32)
 - [chore: RLN contract unit test expansion](https://github.com/waku-org/waku-rlnv2-contract/pull/31)
+- [chore: RLN contract unit test expansion 2](https://github.com/waku-org/waku-rlnv2-contract/pull/39)
 
 ### Property-based Fuzz Testing
 

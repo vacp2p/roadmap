@@ -1,7 +1,7 @@
 ---
 title: Libp2p Evaluation
 tags:
-  - "2025q3"
+  - "2025q4"
   - "dst"
   - "vac"
 draft: false
@@ -10,7 +10,7 @@ and look for regressions,
 learn scaling properties and run scaling studies."
 ---
 
-`vac:dst:vac:2025q3-libp2p-evaluation`
+`vac:dst:vac:2025q4-libp2p-evaluation`
 
 
 ## Description
@@ -59,11 +59,11 @@ and especially those we want to work with externally.
 
 ### Regression testing (recurring)
 
-* fully qualified name: `vac:dst:vac:2025q3-libp2p-evaluation:regression-testing`
+* fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:regression-testing`
 * owner: Alberto
 * status: recurring
-* start-date: 2025-07-01
-* end-date: 2025-09-30
+* start-date: 2025-10-01
+* end-date: 2025-12-31
 
 #### Description
 Run different scenarios
@@ -75,21 +75,16 @@ that have occurred in the past
 and ensure they don't happen again.
 
 #### Deliverables
-* Analysis done
-  * [Notion: Nim-libp2p 1.12.0](https://www.notion.so/Nim-libp2p-v1-12-0-regression-testing-August-2025-WIP-2468f96fb65c8071b0a4dbf6f5807e94)
-  * [Notion: Nim-libp2p 1.13.0 Report](https://www.notion.so/Nim-libp2p-v1-13-0-regression-testing-September-2025-2718f96fb65c80daae29f67ed94b7597)
-* Report published with all relevant details
-* RFC's GitHub issue updated
-  with links to the analysis and results.
+* Analysis:
 
 
 ### Universal connectivity
 
-* fully qualified name: `vac:dst:vac:2025q3-libp2p-evaluation:universal-connectivity`
+* fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:universal-connectivity`
 * owner: Alberto
 * status: -
-* start-date: -
-* end-date: -
+* start-date:
+* end-date:
 
 #### Description
 Help p2p team running scenarios with universal connectivity app
@@ -100,42 +95,74 @@ and checking functionality with other libp2p implementations.
 * Report:
 
 
-### Evaluate Quic v0.2.9
+### Quic-vs-tcp
 
-* fully qualified name: `vac:dst:vac:2025q3-libp2p-evaluation:evaluate-quic-v0.2.9`
-* owner: Alberto
-* status: 100%
-* start-date: 2025/07/30
-* end-date: 2025/08/08
-
-#### Description
-
-Re-evaluate Quic in nimlibp2p with regression tests, to see if there is a difference with report [Notion: Nim-libp2p 1.11.0](https://www.notion.so/Nim-libp2p-v1-11-0-regression-testing-June-2025-2118f96fb65c802ca1b7c4233271ca26).
-
-#### Deliverables
-* PRs:
-* Report:
-  * [Notion Report](https://www.notion.so/Nim-libp2p-v1-13-0-regression-testing-September-2025-2718f96fb65c80daae29f67ed94b7597)
-
-
-### Mix re-evaluation
-
-* fully qualified name: `vac:dst:vac:2025q3-libp2p-evaluation:mix-re-evaluation`
-* owner: Pearson
-* status: 100%
-* start-date: 2025/07/30
-* end-date: 2025/08/08
+* fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:quic-vs-tcp`
+* owner: TBD
+* status: 0%
+* start-date:
+* end-date:
 
 #### Description
 
-Perform experiments with mix protocol current state to check:
-- Message time propagation in and outside mix
-- Confirm correct message routing
-Compare results with the initial ones in [Notion: Mix report extended](https://www.notion.so/Nim-libp2p-Mix-May-2025-1f38f96fb65c800a8466f68472e799db?source=copy_link#2188f96fb65c8096a18ceba3d1c3fea8).
+Perform a comparison between nim-libp2p using quic and waku using mplex and yamux.
 
 #### Deliverables
-* PRs:
-  * [Github commit: Dockerfile changes](https://github.com/vacp2p/dst-gossipsub-test-node/commit/f05cc4ea7b7715f82110adfb9567b87231b1b320)
-  * [Github Draft PR: Mix deployment changes](https://github.com/vacp2p/10ksim/pull/137)
-* Report:
-  - [Notion: Mixnet Report](https://www.notion.so/Mixnet-findings-WIP-2768f96fb65c805cae83f7c4f67c4860)
+- Reports:
+- Related PRs if apply:
+
+### Interop framework
+
+* fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:interop-framework`
+* owner: TBD
+* status: 0%
+* start-date:
+* end-date:
+
+#### Description
+
+Perform a comparison between nim-libp2p using quic and waku using mplex and yamux.
+
+#### Deliverables
+- Reports:
+- Related PRs if apply:
+
+
+### Mix in nim-libp2p node
+
+* fully qualified name: `vac:dst:ift:2025q4-libp2p-evaluation:mix-in-nim-libp2p-node`
+* owner: Farooq
+* status: 0%
+* start-date: 2025/10/06
+* end-date: 2025/10/17
+
+#### Description
+After refactor was done in `vac:dst:ift:2025q3-dst-tooling:nim-libp2p-dst-node-refactor`,
+include mix to the configuration options of the node.
+
+#### Deliverables
+- PRs:
+- Related Documents:
+
+### Go-libp2p node
+
+* fully qualified name: `vac:dst:ift:2025q4-libp2p-evaluation:go-libp2p-node`
+* owner: Farooq
+* status: 0%
+* start-date: 2025/10/06
+* end-date: 2025/10/24
+
+#### Description
+Include go-libp2p node to the [dst node repository](https://github.com/vacp2p/dst-libp2p-test-node).
+It should behave the same than the nim-libp2p node.
+Create a small deployment with both implementations using the same publisher.
+Report results of a single scenario (fixed parameters) using K8s and shadow.
+
+#### Deliverables
+- PRs:
+- Related Documents:
+
+### Webtransport ?
+
+### KAD-DHT ?
+

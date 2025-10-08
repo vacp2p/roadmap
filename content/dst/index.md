@@ -18,8 +18,30 @@ These tools enable precise evaluation of changes, ensuring that updates
 are not only effective but also maintain or improve system performance and scalability.
 
 
-[[preview|Roadmap Preview]]
+[[dst/preview|Roadmap Preview]]
 
+## 2025q4 `vac:dst:`
+---
+
+### `ift`
+* [[dst/ift/2025q4-dst-tooling|dst-tooling]]
+* [[dst/ift/2025q4-dst-research-destination|dst-research-destination]]
+* [[dst/ift/2025q4-scaling-think-tank|scaling-think-tank]]
+
+### `nomos`
+* [[dst/nomos/2025q4-nomos-scaling|nomos-scaling]]
+
+### `status`
+* [[dst/status/2025q4-status-evaluation|status-evaluation]]
+
+### `vac`
+* [[dst/vac/2025q4-libp2p-evaluation|libp2p-evaluation]]
+
+### `waku`
+* [[dst/waku/2025q4-waku-evaluation|waku-evaluation]]
+* [[dst/waku/2025q4-waku-scaling|waku-scaling]]
+
+---
 ## 2025q3 `vac:dst:`
 ---
 

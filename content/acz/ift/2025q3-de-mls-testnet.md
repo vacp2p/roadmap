@@ -54,7 +54,7 @@ to promote the project and gain support from the Ethereum ecosystem.
 
 * fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:multi-steward-rfc`
 * owner: Ugur
-* status: started (50%)
+* status: started (70%)
 * start-date: 2025/07/21
 * end-date: 2025/08/25
 
@@ -71,7 +71,7 @@ The RFC needs to contain concrete flow, and explaination.
 
 * fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:consensus-layer`
 * owner: Ekaterina
-* status: started (90%)
+* status: done
 * start-date: 2025/06/25
 * end-date: 2025/08/15
 
@@ -92,11 +92,13 @@ containing new consensus layer as separate module with tests.
 
 * fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:multi-steward-imp`
 * owner: Ekaterina
-* status: not started
+* status: on-hold
 * start-date: 2025/08/01
 * end-date: 2025/09/30
 
 #### Description
+
+This task is on-hold since the specification of the multi-steward is ongoing.
 
 The multi-steward settings allows de-MLS that multiple steward manages the group
 changes to protect single point of failure, better availability and decentralization.
@@ -110,7 +112,7 @@ containing update of message processing
 
 * fully qualified name: `vac:acz:ift:2025q3-de-mls-tesnet:de-mls-maintaining`
 * owner: Ekaterina
-* status: started (60%)
+* status: started (80%)
 * start-date: 2025/06/30
 * end-date: 2025/09/30
 

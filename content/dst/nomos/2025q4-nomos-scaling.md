@@ -1,7 +1,7 @@
 ---
 title: Nomos Scaling
 tags:
-  - "2025q3"
+  - "2025q4"
   - "dst"
   - "nomos"
 draft: false
@@ -11,7 +11,7 @@ Improve privacy and security,
 and improve scaling properties."
 ---
 
-`vac:dst:nomos:2025q3-nomos-scaling`
+`vac:dst:nomos:2025q4-nomos-scaling`
 
 
 ## Description
@@ -55,36 +55,13 @@ This will also help spur on outside adoption and contributions.
 
 ## Task List
 
-### Nomos deployment test
-
-* fully qualified name: `vac:dst:nomos:2025q3-nomos-scaling:nomos-deployment-test`
-* owner: Alberto
-* status: 100%
-* start-date: 2025-09-19
-* end-date: 2025-09-30
-
-#### Description
-
-Utilize the current state of Nomos** in the DST experiments workflow to gather 
-early feedback and identify any missing functionalities required for effective experimentation.
-This process will ensure Nomos meets the specific needs of the DST team and vice-versa,
-and is well-prepared to support advanced experiments like Blendnet.
-
-
-#### Deliverables
-* PRs:
-  * [Github PR: Files for nomos testnet #145](https://github.com/vacp2p/10ksim/pull/145)
-* Report published with all relevant details
-  * [Notion: Nomos compose to K8s issues](https://www.notion.so/Nomos-compose-to-K8s-27d8f96fb65c8077b5cefa236a0dddda)
-
-
 ### Blend benchmarking
 
-* fully qualified name: `vac:dst:nomos:2025q3-nomos-scaling:nomos-benchmarking`
+* fully qualified name: `vac:dst:nomos:2025q4-nomos-scaling:nomos-blendnet-benchmarking`
 * owner: Alberto
 * status: 0%
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* start-date:
+* end-date:
 
 #### Description
 
@@ -93,3 +70,37 @@ Measure the speed and reliability of Nomos's blendnet.
 #### Deliverables
 * Benchmarks done
 * Report published with all relevant details
+
+
+### DA benchmarking
+
+* fully qualified name: `vac:dst:nomos:2025q4-nomos-scaling:nomos-da-benchmarking`
+* owner: Alberto
+* status: 0%
+* start-date:
+* end-date:
+
+#### Description
+
+Measure Nomos bandwidth usage in DA per node and entire network.
+
+#### Deliverables
+* PRS:
+* Documents:
+
+
+### Nomos consumption
+
+* fully qualified name: `vac:dst:nomos:2025q4-nomos-scaling:nomos-consumption`
+* owner: Alberto
+* status: 0%
+* start-date:
+* end-date:
+
+#### Description
+
+Measure Nomos resource consumption (CPU/RAM) usage in different scenarios.
+
+#### Deliverables
+* PRS:
+* Documents:

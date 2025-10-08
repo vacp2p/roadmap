@@ -43,7 +43,7 @@ looking to integrate RLN into their projects.
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:big-endian-support`
 - owner: Sylvain
-- status: started (70%)
+- status: done
 - start-date: 2025/06/20
 - end-date: 2025/09/20
 
@@ -57,7 +57,7 @@ hash functions within Zerokit correctly handle Big Endian data.
 
 #### Deliverables
 
-- A Pull Request to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) that includes new functions
+- A PR to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) that includes new functions
 for working with Big Endian data and updates the public API to expose this functionality.
 
 ### CI and Feature Revising
@@ -170,7 +170,7 @@ if necessary, update the `rln-wasm` module based on the resolution.
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:zerokit-maintaining`
 - owner: Ekaterina
-- status: started (80%)
+- status: done
 - start-date: 2025/07/01
 - end-date: 2025/09/30
 
@@ -186,7 +186,7 @@ A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/).
 
 - fully qualified name: `vac:acz:ift:2025q3-zerokit:release`
 - owner: Ekaterina
-- status: not started
+- status: done
 - start-date: 2025/09/01
 - end-date: 2025/09/30
 
@@ -196,4 +196,4 @@ The new version of the Zerokit v0.9.0
 
 ### Deliverables
 
-A set of PRs to vacp2p/zerokit repository with [tag v0.9.0](https://github.com/vacp2p/zerokit/releases/tag/v0.9.0)
+* [A PR](https://github.com/vacp2p/zerokit/pull/345) to vacp2p/zerokit repository with [tag v0.9.0](https://github.com/vacp2p/zerokit/releases/tag/v0.9.0)

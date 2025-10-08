@@ -39,7 +39,7 @@ that show the potential improvement points of the discovery mechanism.
 
 * fully qualified name: `vac:acz:ift:2025q3-discovery-exploration:exploring`
 * owner: Arunima
-* status: started (80%)
+* status: done
 * start-date: 2025/09/01
 * end-date: 2025/09/15
 
@@ -58,7 +58,7 @@ suitability for IFT projects, with documented findings
 
 * fully qualified name: `vac:acz:ift:2025q3-discovery-exploration:disc-ng-specs`
 * owner: Arunima
-* status: started (0%)
+* status: done
 * start-date: 2025/09/15
 * end-date: 2025/09/30
 

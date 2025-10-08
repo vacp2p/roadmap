@@ -54,13 +54,114 @@ including CI updates and the creation of future issues.
 #### Deliverables
 * A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
 
-### Multi-prover
+### Multi Tree Support
 
-* fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:multi-prover`
+* fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:multi-tree`
+* owner: Sylvain
+* status: started (15%)
+* start-date: 2025/10/01
+* end-date: 2025/10/15
+
+### Description
+
+This task entails extending the Prover module to scale from supporting a single tree
+with up to 1M users to a multi-tree architecture capable of handling
+up to 32M users without compromising performance.
+The current design, limited to a single tree, cannot efficiently manage larger user sets.
+While an initial approach based on consistent hashing was considered,
+it was ultimately discarded due to performance drawbacks.
+The new approach introduces a dual-identifier database structure
+using both tree_id and rln_identifier_id to efficiently
+distribute and manage user commitments across multiple trees.
+When one tree reaches its capacity, the system will automatically allocate
+new users to the next available tree, ensuring seamless scalability and high performance.
+This task is complete when the Prover module can reliably
+handle up to 32M users across multiple trees with proper data management and performance validation.
+
+### Deliverables
+
+* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+
+### Gas checking support
+
+* fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:gascheck`
 * owner: Sylvain
 * status: not started 
-* start-date: 2025/09/08
-* end-date: 2025/09/30
+* start-date: 
+* end-date: 
+
+### Description
+
+This task entails updating the Prover module to handle cases where
+a single transaction exceeds the maximum quota and therefore requires burning multiple message IDs.
+Currently, the module generates one RLN proof per transaction,
+without accounting for transactions that surpass the allowed quota.
+
+The updated implementation must ensure that the gas information associated
+with each incoming transaction is received alongside the transaction data.
+Using both the max quota value and the transaction’s gas amount,
+the module should calculate the exact number of message IDs to be burned
+and deduct them from the user’s remaining tier limit accordingly.
+This task is complete when the Prover module computes and applies 
+the required number of message ID burns based on transaction gas
+and quota values, ensuring accurate user limit tracking.
+
+### Deliverables
+
+* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+
+### Monorepo Review
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:monorepo-review`
+* owner: Sylvain
+* status: done
+* start-date: 2025/10/01
+* end-date: 2025/11/01
+
+### Description
+
+This task entails getting familiar with and testing the
+[monorepo](https://github.com/status-im/status-network-monorepo)in preparation for the prover integration. 
+In addition to basic exploration and setup, it includes a brief review of the implementation
+of the sequencer, prover, and smart contracts, as well as a review of the deployment process
+to identify and fix existing platform-specific bugs.
+The task also involves testing newly added features to ensure
+compatibility, stability, and readiness for prover integration. 
+This task is complete when the monorepo environment is fully reviewed, 
+deployment issues are resolved, and new features have been successfully tested and validated.
+
+### Deliverables
+
+* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+
+### Decentralized slashing
+
+* fully qualified name: `vac:acz:ift:2025q3-rln-status-l2:monorepo-review`
+* owner: Sylvain
+* status: done
+* start-date: 2025/10/01
+* end-date: 2025/11/01
+
+### Description
+
+This task entails updating the Prover module to listen for slashing events emitted by the `karma.sol` smart contract
+and to handle the corresponding user data accordingly.
+When a slashing occurs, the Prover must identify the affected user through the event data and remove
+that user’s commitment from the local database to maintain consistency between on-chain and off-chain states.
+This task is complete when the Prover module successfully detects slashing events from `karma.sol`,
+correctly identifies the corresponding user, and reliably removes their commitment from the local database.
+
+### Deliverables
+
+* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+
+### Multi-prover with shared Database
+
+* fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:shared-db`
+* owner: Sylvain
+* status: not started 
+* start-date: 
+* end-date: 
 
 ### Description
 

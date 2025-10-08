@@ -42,7 +42,7 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 ### Contributor Directory
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:contributor-directory`
-* owner:
+* owner: JulesFiliot
 * status: 90%
 * start-date: 2025/08/11
 * end-date: 2025/10/31
@@ -50,7 +50,7 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 ### Contributor Profiles
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:contributor-profiles`
-* owner:
+* owner: JulesFiliot
 * status: 90%
 * start-date: 2025/08/11
 * end-date: 2025/10/31
@@ -58,7 +58,7 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 ### Contribution Guidelines
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:contribution-guidelines`
-* owner:
+* owner: jinhojang6
 * status: 90%
 * start-date: 2025/09/25
 * end-date: 2025/10/31
@@ -66,7 +66,7 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 ### Display Github issues
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:github-issues`
-* owner:
+* owner: JulesFiliot
 * status: 90%
 * start-date: 2025/09/08
 * end-date: 2025/10/31
@@ -74,18 +74,18 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 ### Use BI team's Github Data
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:bi-data`
-* owner:
+* owner: JulesFiliot
 * status: 90%
 * start-date: 2025/09/08
 * end-date: 2025/10/31
+
 ### Leaderboard
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:leaderboard`
-* owner: jinhojang6
+* owner: JulesFiliot
 * status: 50%
 * start-date: 2025/08/20
 * end-date: 2025/10/31
-
 
 ### Tier & Scoring
 
@@ -95,13 +95,10 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 * start-date: 2025/08/20
 * end-date: 2025/10/31
 
-
-
-
 ### Proposals
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:proposals`
-* owner: JulesFiliot
+* owner: jinhojang6
 * status: 15%
 * start-date: 2025/09/20
 * end-date: 2025/10/31

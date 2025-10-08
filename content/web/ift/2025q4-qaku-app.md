@@ -41,7 +41,7 @@ The Qaku app will support Logos' strategic objectives by:
 ### App
 
 * fully qualified name: `vac:web:ift:2025q4-qaku-app:app`
-* owner: jinhojang6
+* owner: JulesFiliot
 * status: 70%
 * start-date: 2025/08/01
 * end-date: 2026/03/31

@@ -81,7 +81,7 @@ The Logos website will support the volunteer-driven community building strategy 
 ### Layout
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
-* owner: jackewing
+* owner: jinhojang6
 * status: 50%
 * start-date: 2025/05/09
 * end-date: 2025/10/31
@@ -89,7 +89,7 @@ The Logos website will support the volunteer-driven community building strategy 
 ### Components
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
-* owner: jackewing
+* owner: jinhojang6
 * status: 50%
 * start-date: 2025/05/09
 * end-date: 2025/10/31
@@ -97,7 +97,7 @@ The Logos website will support the volunteer-driven community building strategy 
 ### Copyright
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
-* owner: jinhojang6
+* owner: 0xbathang
 * status: 50%
 * start-date: 2025/05/09
 * end-date: 2025/10/31
@@ -137,7 +137,7 @@ The Logos website will support the volunteer-driven community building strategy 
 ### CTAs
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:ctas`
-* owner: jackewing
+* owner: jinhojang6
 * status: 20%
 * start-date: 2025/05/09
 * end-date: 2025/10/31
@@ -154,7 +154,7 @@ The Logos website will support the volunteer-driven community building strategy 
 ### Blog (Press Engine)
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:blog`
-* owner: jinhojang6
+* owner: JulesFiliot
 * status: 60%
 * start-date: 2025/05/09
 * end-date: 2025/10/31

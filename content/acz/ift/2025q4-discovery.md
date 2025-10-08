@@ -13,18 +13,18 @@ description: "Specifying disc-NG and releasing a document that collects the requ
 
 Specifying disc-NG and releasing a document that collects the requirements of discovery
 ## Description
-This commitment entails specifying disc-NG, as proposed in  
-[the paper](https://sonnino.com/papers/disc-ng.pdf), with a focus on implementability.  
-We also aim to collect requirements, and the exploration includes assessing their suitability for IFT projects.
+This commitment entails specifying a KAD-DHT–based, disc-NG–like Logos discovery capability 
+specification with a focus on implementability (see [the paper](https://sonnino.com/papers/disc-ng.pdf));
+we will also collect requirements and assess their suitability for IFT projects.
 
 ### Narratives
 
 By utilizing discovery exploration commitment, 
 We will reinforce the Conduit of Expertise narrative by:
-* Providing the disc-NG RFC that will be tailored for many IFT teams, such as Waku, Nomos, and Codex. 
+* Providing the KAD-DHT–based disc-NG-like RFC that will be tailored for Logos applications. 
 
 We will also strengthen the Premier Research Destination narrative by:
-* Provides open-source disc-NG RFC information to the community.
+* Provides open-source KAD-DHT–based disc-NG-like RFC information to the community.
 
 ## Task List
 
@@ -38,10 +38,11 @@ We will also strengthen the Premier Research Destination narrative by:
 
 #### Description
 
-This task involves specifying the disc-NG proposal from [the paper](https://sonnino.com/papers/disc-ng.pdf)
-in an implementable way, extracting the key points such as registor and advisor and drafting them into an RFC. 
-Once the draft RFC is collected in a document, the task also includes preparing the final RFC as a PR 
-by incorporating feedback from the review.
+This task involves specifying disc-NG-like LOGOS discovery capabilities on top of KAD-DHT
+(see [the paper](https://sonnino.com/papers/disc-ng.pdf)) in an implementable way,
+extracting key components such as the registrar and advisor and drafting them into an RFC;
+once the draft RFC is assembled, the task also includes preparing the final RFC
+as a pull request by incorporating review feedback.
 
 #### Deliverables
 

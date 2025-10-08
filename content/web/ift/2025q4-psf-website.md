@@ -62,3 +62,5 @@ The PSF website will support Logos' strategic objectives by:
 * status: 20%
 * start-date: 2025/03/04
 * end-date: 2026/10/31
+
+> https://miro.com/app/board/uXjVJePe94w=/

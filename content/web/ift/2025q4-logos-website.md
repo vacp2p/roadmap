@@ -157,7 +157,7 @@ The Logos website will support the volunteer-driven community building strategy 
 * owner: jinhojang6
 * status: 60%
 * start-date: 2025/05/09
-* end-date: <yyyy/mm/dd>
+* end-date: 2025/10/31
 
 ### Search
 
@@ -182,5 +182,7 @@ The Logos website will support the volunteer-driven community building strategy 
 > https://www.figma.com/design/hyehOA8iMTDiazHy4IDL6D/Logos-2?node-id=46-2287&p=f&t=fxzLuvGuIGzW0LaG-0
 > https://github.com/acid-info/logos-co
 > https://logos-co-rvlb.vercel.app
+> https://miro.com/app/board/uXjVI--PDlE=/?moveToWidget=3458764639386405845&cot=14
 > https://app.clickup.com/t/86b4pj648
 > https://www.notion.so/Logos-Movement-Strategy-H2-2025-WIP-2298f96fb65c8025a528cde1ad846f1d#2298f96fb65c8084aac0d78dc4abddee
+> https://www.notion.so/Logos-Movement-Strategy-H1-2025-1ae8f96fb65c80c3b390c72702245ab0

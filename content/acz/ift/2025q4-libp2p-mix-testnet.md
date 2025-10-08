@@ -56,18 +56,3 @@ with the latest findings, such as clarifications on exit =! destination, SURB de
 #### Deliverables
 
 * A PR to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index)
-
-### EF Application
-* fully qualified name: `vac:acz:ift:2025q4-libp2p-mix-testnet:ef-application`
-* owner: Ugur
-* status: not started
-* start-date: 2025/11/01
-* end-date: 2025/11/30
-
-#### Description
-This task entails having the final version of [existing EF application](https://www.notion.so/Mixnet-EF-Proposal-10b8f96fb65c80e69fb9d78242c3af71)
-that introduces sender anonymity for Ethereum nodes, also maintaining the application process.
-
-#### Deliverables
-
-* A PR to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index)

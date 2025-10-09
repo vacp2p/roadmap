@@ -45,64 +45,67 @@ The Status Network Hub will support Status Network's strategic objectives by:
 
 ### Wallet Connect
 
-* fully qualified name: <`fully qualified task name`>
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* fully qualified name: `vac:web:status:2025q4-sn-hub:wallet-connect`
+* owner: jkbktl
+* status: 80%
+* start-date: 2025/09/05
+* end-date: 2025/11/30
 
 ### Staking
 
-* fully qualified name: <`fully qualified task name`>
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* fully qualified name: `vac:web:status:2025q4-sn-hub:staking`
+* owner: nnachionuwa
+* status: 80%
+* start-date: 2025/09/05
+* end-date: 2025/11/30
 
 ### Feedback
 
-* fully qualified name: <`fully qualified task name`>
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* fully qualified name: `vac:web:status:2025q4-sn-hub:feedback`
+* owner: jkbktl
+* status: 80%
+* start-date: 2025/09/05
+* end-date: 2025/11/30
 
 ### Deposit
 
-* fully qualified name: <`fully qualified task name`>
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* fully qualified name: `vac:web:status:2025q4-sn-hub:deposit`
+* owner: jkbktl
+* status: 80%
+* start-date: 2025/09/05
+* end-date: 2025/11/30
 
 ### Discovery
 
-* fully qualified name: <`fully qualified task name`>
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* fully qualified name: `vac:web:status:2025q4-sn-hub:discovery`
+* owner: jkbktl
+* status: 80%
+* start-date: 2025/09/05
+* end-date: 2025/11/30
 
 ### Karma
 
-* fully qualified name: <`fully qualified task name`>
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* fully qualified name: `vac:web:status:2025q4-sn-hub:karma`
+* owner: jkbktl
+* status: 80%
+* start-date: 2025/09/05
+* end-date: 2025/11/30
 
 ### Notifications
 
-* fully qualified name: <`fully qualified task name`>
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* fully qualified name: `vac:web:status:2025q4-sn-hub:notifications`
+* owner: nnachionuwa
+* status: 80%
+* start-date: 2025/09/05
+* end-date: 2025/11/30
 
 ### Withdraw
 
-* fully qualified name: <`fully qualified task name`>
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* fully qualified name: `vac:web:status:2025q4-sn-hub:withdraw`
+* owner: jkbktl
+* status: 80%
+* start-date: 2025/09/05
+* end-date: 2025/11/30
+
+> https://www.figma.com/design/1XbZL2WrTG5DqJO8DovE0H/Website----status.network?node-id=1940-3359&p=f&m=dev
+> https://github.com/orgs/status-im/projects/94/views/5?sliceBy%5Bvalue%5D=September+2025+%28Status+Network%29

@@ -144,12 +144,14 @@ The Logos website will support the volunteer-driven community building strategy 
 
 #### Description
 
-- Learn
+- Newsletter
+- Events
 - Join
 - Download
+- Learn
 - Apply
 - Build
-- Events
+- Roadmap
 
 ### Blog (Press Engine)
 
@@ -178,6 +180,20 @@ The Logos website will support the volunteer-driven community building strategy 
 #### Description
 
 - from free.technology
+
+### Social Proof
+
+* fully qualified name: `vac:web:ift:2025q4-logos-website:social-proof`
+* owner: JulesFiliot
+* status: 70%
+* start-date: 2025/05/09
+* end-date: 2025/10/31
+
+#### Description
+
+- Commits
+- Contributors
+- Members
 
 > https://www.figma.com/design/hyehOA8iMTDiazHy4IDL6D/Logos-2?node-id=46-2287&p=f&t=fxzLuvGuIGzW0LaG-0
 > https://github.com/acid-info/logos-co

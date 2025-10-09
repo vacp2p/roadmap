@@ -63,4 +63,27 @@ The PSF website will support Logos' strategic objectives by:
 * start-date: 2025/03/04
 * end-date: 2026/10/31
 
+### CTAs
+
+* fully qualified name: `vac:web:ift:2025q4-psf-website:ctas`
+* owner: jinhojang6
+* status: 20%
+* start-date: 2025/03/04
+* end-date: 2026/10/31
+
+#### Description
+
+- Collaborate
+
+### Data visualization
+
+* fully qualified name: `vac:web:ift:2025q4-psf-website:data-visualization`
+* owner: jackewing
+* status: 10%
+* start-date: 2025/03/04
+* end-date: 2026/10/31
+
+#### Description
+
 > https://miro.com/app/board/uXjVJePe94w=/
+> https://drive.google.com/file/d/1SbLc778vFessbGpdseeU7LAZuDT1PNPn/view

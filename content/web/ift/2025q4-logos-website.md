@@ -186,3 +186,4 @@ The Logos website will support the volunteer-driven community building strategy 
 > https://app.clickup.com/t/86b4pj648
 > https://www.notion.so/Logos-Movement-Strategy-H2-2025-WIP-2298f96fb65c8025a528cde1ad846f1d#2298f96fb65c8084aac0d78dc4abddee
 > https://www.notion.so/Logos-Movement-Strategy-H1-2025-1ae8f96fb65c80c3b390c72702245ab0
+> https://docs.google.com/document/d/1GXBOkPx_4p8A967SLungZAe7_lUTzobTb_BHZheUgQ4/edit?usp=sharing

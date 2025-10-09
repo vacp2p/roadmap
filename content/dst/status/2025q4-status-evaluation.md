@@ -93,18 +93,18 @@ Same as @Send one-to-one message - Network outage for private group
 #### Deliverables
 
 
-### Light node benchmark 2
+### Chat protocol benchmarks followup
 
-* fully qualified name: `vac:dst:status:2025q4-status-evaluation:light-node-benchmark-2`
+* fully qualified name: `vac:dst:status:2025q4-status-evaluation:chat-protocol-benchmarks-followup`
 * owner: Alberto
 * status: 0%
-* start-date:
-* end-date:
+* start-date: 2025/10/06
+* end-date: 2025/10/24
 
 #### Description
 
 Using the fix in the discovery process for the 
 [relay nodes](https://www.notion.so/Chat-Protocol-Benchmarks-1938f96fb65c80d8b22fdf641c5ff003?source=copy_link#1998f96fb65c8014bf0af42ce2645fa9)
-to repeat the benchmarks for only scenarios that use light nodes.
+to repeat the benchmarks adding light nodes in the same chat protocol benchmarks scenarios.
 
 #### Deliverables

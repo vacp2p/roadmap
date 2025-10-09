@@ -83,7 +83,7 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:leaderboard`
 * owner: JulesFiliot
-* status: 50%
+* status: 80%
 * start-date: 2025/08/20
 * end-date: 2025/10/31
 

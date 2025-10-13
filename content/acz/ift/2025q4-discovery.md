@@ -5,14 +5,17 @@ tags:
   - "acz"
   - "ift"
 draft: false
-description: "Specifying disc-NG and releasing a document that collects the requirements of discovery"
+description: "Specifying a KAD-DHT–based, disc-NG–like Logos discovery capability 
+and releasing a document that collects the requirements of discovery"
 
 ---
  
 `vac:acz:ift:2025q4-discovery`
 
-Specifying disc-NG and releasing a document that collects the requirements of discovery
+Specifying a KAD-DHT–based, disc-NG–like Logos discovery capability 
+and releasing a document that collects the requirements of discovery
 ## Description
+
 This commitment entails specifying a KAD-DHT–based, disc-NG–like Logos discovery capability 
 specification with a focus on implementability (see [the paper](https://sonnino.com/papers/disc-ng.pdf));
 we will also collect requirements and assess their suitability for IFT projects.
@@ -32,7 +35,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:draft-RFC`
 * owner: Arunima
-* status: started
+* status: started (%5)
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 

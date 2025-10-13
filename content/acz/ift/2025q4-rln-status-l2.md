@@ -188,3 +188,50 @@ The findings and feedback will be reflected in the RLN specification.
 ### Deliverables
 
 * A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover)
+
+### RLN public website
+
+* fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:rln-public-website`
+* owner: Ugur
+* status: not started 
+* start-date: 2025/10/13
+* end-date: 2025/11/03
+
+### Description
+
+This task entails preparing a comprehensive and publicly shareable Notion document
+that consolidates the latest and most accurate notes on RLN (Rate Limiting Nullifier).
+The document should explain in technical detail how RLN enables the gasless feature in the Gasless L2, 
+including the underlying cryptographic mechanisms that make gasless operations possible.
+This task is complete when the Notion document accurately compiles the most recent RLN insights,
+clearly articulates the technical reasoning behind the Gasless L2’s gasless functionality,
+and is structured in a manner suitable for public presentation.
+
+### Deliverables
+
+* A doc on [Status Notion](https://www.notion.so/Status-Program-f6eef7b91ad94539babf66c26ea1cf02).
+
+
+### SN RLN whitepaper
+
+* fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:whitepaper`
+* owner: Ugur
+* status: not started 
+* start-date: 2025/11/03
+* end-date: 2025/12/03
+
+### Description
+
+This task entails writing the Prover module section of the IEEE-format whitepaper,
+providing a detailed and technically rigorous explanation of RLN as implemented in the system.
+The section should build upon the existing RLN specification,
+expanding it with clear descriptions of the Prover’s responsibilities,
+data flow, and interactions with other components.
+It should also illustrate the key mechanisms and cryptographic processes that enable
+the Prover to function correctly within the RLN framework.
+This task is complete when the whitepaper section presents a comprehensive,
+technically accurate, and publication-ready explanation of the Prover module and its integration with RLN.
+
+### Deliverables
+
+* A doc on [Status Notion](https://www.notion.so/Status-Program-f6eef7b91ad94539babf66c26ea1cf02).

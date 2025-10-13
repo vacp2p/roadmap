@@ -241,7 +241,7 @@ to vary the message rate and size in the middle of an experiment if needed.
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:nim-libp2p-dst-node-refactor`
 * owner: Farooq
-* status: 90%
+* status: 100%
 * start-date: 2025/09/02
 * end-date: 2025/09/19
 
@@ -255,6 +255,7 @@ Apart from this, the node should be able to be executed from the same docker ima
 #### Deliverables
 - PRs
   - [Github PR: Topology #4](https://github.com/vacp2p/dst-libp2p-test-node/pull/4)
+  - [Github PR: http endpoint for detatched publish controller # 3](https://github.com/vacp2p/dst-libp2p-test-node/pull/3)
 - Related Documents
 
 ### Deployment refactor

@@ -1,0 +1,67 @@
+name: Roadmap Validator
+
+on:
+  pull_request:
+    paths:
+      - 'content/qa/**'
+      - 'tools/roadmap_validator/validate.py'
+      - 'tools/roadmap_validator/**'
+      - '.github/workflows/roadmap-validator.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/qa/**'
+      - 'tools/roadmap_validator/validate.py'
+      - 'tools/roadmap_validator/**'
+      - '.github/workflows/roadmap-validator.yml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    env:
+      TARGET_DIRECTORIES: "content/qa"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install --disable-pip-version-check --no-cache-dir pyyaml
+
+      - name: Run roadmap validator
+        run: |
+          set -eo pipefail
+          BASE_SHA="${{ github.event.pull_request.base.sha || github.event.before }}"
+          if [ -z "$BASE_SHA" ] || [ "$BASE_SHA" = "0000000000000000000000000000000000000000" ]; then
+            CHANGED_FILES=$(git ls-files)
+          else
+            CHANGED_FILES=$(git diff --name-only --diff-filter=ACMRT "$BASE_SHA" "$GITHUB_SHA")
+          fi
+
+          TARGET_FILES=""
+          for file in $CHANGED_FILES; do
+            for dir in $TARGET_DIRECTORIES; do
+              case "$file" in
+                $dir/*.md)
+                  if [ -f "$file" ]; then
+                    TARGET_FILES="$TARGET_FILES $file"
+                  fi
+                  ;;
+              esac
+            done
+          done
+
+          if [ -z "$TARGET_FILES" ]; then
+            echo "No roadmap markdown changes detected."
+            exit 0
+          fi
+
+          echo "Validating files:$TARGET_FILES"
+          python tools/roadmap_validator/validate.py $TARGET_FILES

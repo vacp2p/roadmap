@@ -59,10 +59,10 @@ jobs:
             TARGETS="${{ github.event.inputs.paths }}"
           else
             TARGETS="${{ steps.changed-files.outputs.all_changed_files }}"
-            if [ -z "$TARGETS" ]; then
-              echo "No roadmap markdown changes detected."
-              exit 0
-            fi
+            # if [ -z "$TARGETS" ]; then
+            #   echo "No roadmap markdown changes detected."
+            #   exit 0
+            # fi
           fi
 
           echo "Validating targets:"

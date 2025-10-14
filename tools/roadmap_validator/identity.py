@@ -3,9 +3,8 @@
 import re
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, List, Optional
-
-from .paths import CONTENT_ROOT, should_skip
+from typing import Dict, List, Optional, Tuple
+from paths import CONTENT_ROOT, should_skip
 
 IDENTIFIER_PATTERN = re.compile(r"^`([^`]+)`\s*$")
 FILENAME_PATTERN = re.compile(r"^(?P<quarter>\d{4}q[1-4])-(?P<slug>.+)$")
@@ -22,26 +21,31 @@ class CommitmentIdentity:
     expected_base: str
 
 
-def derive_identity(path: Path) -> Optional[CommitmentIdentity]:
+def derive_identity(path: Path) -> Tuple[Optional[CommitmentIdentity], List[str]]:
     """Infer roadmap identity metadata from the file path."""
+    issues: List[str] = []
     try:
         relative = path.resolve().relative_to(CONTENT_ROOT)
     except ValueError:
-        return None
+        return None, issues
     if len(relative.parts) < 3 or should_skip(path):
-        return None
+        return None, issues
 
     unit, area = relative.parts[0], relative.parts[1]
     match = FILENAME_PATTERN.match(path.stem)
     if not match:
-        return None
+        issues.append(
+            f"{path}: filename should follow `<year>q<quarter>-<slug>.md` (found `{path.name}`)"
+        )
+        return None, issues
 
     quarter = match.group("quarter")
     slug = match.group("slug")
     expected_base = f"vac:{unit}:{area}:{quarter}-{slug}"
     expected_tags = [quarter, unit, area]
     expected_identifier = expected_base
-    return CommitmentIdentity(
+    return (
+        CommitmentIdentity(
         unit=unit,
         quarter=quarter,
         area=area,
@@ -49,6 +53,8 @@ def derive_identity(path: Path) -> Optional[CommitmentIdentity]:
         expected_tags=expected_tags,
         expected_identifier=expected_identifier,
         expected_base=expected_base,
+    ),
+        issues,
     )
 
 
@@ -96,6 +102,3 @@ def validate_identity(
         )
 
     return issues
-
-
-__all__ = ["CommitmentIdentity", "derive_identity", "validate_identity"]

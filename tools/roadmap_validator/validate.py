@@ -5,18 +5,11 @@ import argparse
 import os
 import shlex
 import sys
-from pathlib import Path
 from typing import Iterable, List, Optional
+from paths import resolve_targets
+from validator import validate_file
 
-if __package__ is None or __package__ == "":
-    sys.path.append(str(Path(__file__).resolve().parent.parent.parent))
-    from tools.roadmap_validator.paths import resolve_targets
-    from tools.roadmap_validator.validator import validate_file
-else:
-    from .paths import resolve_targets
-    from .validator import validate_file
-
-DEFAULT_TARGETS = "qa"
+DEFAULT_TARGETS = "acz dst qa nes nim p2p rfc sc sec tke web"
 
 
 def run_validator(targets: Iterable[str]) -> int:

@@ -5,7 +5,7 @@ import sys
 from pathlib import Path
 from typing import Iterable, List, Optional
 
-from .constants import DEFAULT_SKIP_FILENAMES
+from constants import DEFAULT_SKIP_FILENAMES
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CONTENT_ROOT = REPO_ROOT / "content"
@@ -63,11 +63,3 @@ def resolve_targets(targets: Iterable[str]) -> List[Path]:
         else:
             sys.stderr.write(f"Warning: skipping non-markdown path {raw_target!r}\n")
     return md_files
-
-
-__all__ = [
-    "CONTENT_ROOT",
-    "REPO_ROOT",
-    "should_skip",
-    "resolve_targets",
-]

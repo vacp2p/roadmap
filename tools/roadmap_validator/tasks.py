@@ -2,8 +2,7 @@
 
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Tuple
-
-from .constants import (
+from constants import (
     DATE_RE,
     META_LINE_RE,
     METADATA_ALIAS_MAP,
@@ -193,6 +192,3 @@ def parse_tasks(
 
     flush_current()
     return tasks
-
-
-__all__ = ["TaskIssue", "TaskReport", "parse_tasks"]

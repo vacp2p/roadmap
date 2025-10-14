@@ -5,10 +5,10 @@ from typing import List, Optional, Tuple
 
 import yaml
 
-from .constants import REQUIRED_FRONT_MATTER_KEYS
-from .identity import derive_identity, validate_identity
-from .paths import should_skip
-from .tasks import TaskReport, parse_tasks
+from constants import REQUIRED_FRONT_MATTER_KEYS
+from identity import derive_identity, validate_identity
+from paths import should_skip
+from tasks import TaskReport, parse_tasks
 
 
 def parse_front_matter(lines: List[str]) -> Tuple[dict, int]:
@@ -69,7 +69,9 @@ def validate_file(path: Path) -> List[str]:
         f"{path}: {message}" for message in validate_front_matter(front_matter)
     )
 
-    identity = derive_identity(path)
+    identity, identity_issues = derive_identity(path)
+    issues.extend(identity_issues)
+
     expected_base = None
     if identity:
         issues.extend(
@@ -92,6 +94,3 @@ def validate_file(path: Path) -> List[str]:
         for issue in task.issues:
             issues.append(f"{path}:{issue.line}: Task `{task.name}` {issue.message}")
     return issues
-
-
-__all__ = ["validate_file"]

@@ -28,7 +28,6 @@ and the IFT.
 
 With this commitment, 
 
-
 we will reinforce the Conduit of Expertise narrative by:
 * Sync the monthly ZK improvements with all shares in IFT. 
 * Checking there is no collision between the ZK related works.  

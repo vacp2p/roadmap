@@ -58,7 +58,7 @@ The RFC needs to contain a concrete flow and explanation.
 
 #### Deliverables
 
-* PR to vacp2p/rfc-index repo with related updates.
+* A PR to vacp2p/rfc-index repo with related updates.
 
 ### Multi-steward integration
 
@@ -69,6 +69,8 @@ The RFC needs to contain a concrete flow and explanation.
 * end-date: 2025/11/01
 
 #### Description
+
+This task is postponed to the Q4 due to the multi stewards specification. 
 
 The multi-steward settings allow de-MLS that multiple stewards to manage the group
 changes to protect a single point of failure, better availability, and decentralization.

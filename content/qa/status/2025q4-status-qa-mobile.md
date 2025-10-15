@@ -31,7 +31,7 @@ Extend and adjust the existing E2E test framework to support testing on mobile/t
 
 - fully qualified name: `vac:qa:status:2025q4-status-qa-mobile:port-tests`
 - owner: magnus
-- status: in progress (5%)
+- status: in progress (25%)
 - start-date: 2025/10/01
 - end-date: 2025/12/31
 
@@ -45,9 +45,7 @@ Port relevant desktop E2E to mobile/tablet Appium tests including:
 - community pin/unpin
 
 #### Deliverables
-
-- PRs / Issues
-
+- [test: e2e appium/test settings password change password](https://github.com/status-im/status-desktop/pull/18977)
 
 ### Test hooks
 
@@ -70,7 +68,7 @@ Investigate how to extend test hooks to reveal more qt properties to help with t
 
 - fully qualified name: `vac:qa:status:2025q4-status-qa-mobile:test-ci`
 - owner: magnus
-- status: in progress (20%)
+- status: in progress (60%)
 - start-date: 2025/11/01
 - end-date: 2025/11/15
 
@@ -79,8 +77,8 @@ Investigate how to extend test hooks to reveal more qt properties to help with t
 Add mobile tests to CI mobile build workflow when the pipeline becomes available
 
 #### Deliverables
-
-- PRs / Issues
+- [[Mobile] fix(ci): Android GitHub workflow android-build.yml](https://github.com/status-im/status-desktop/pull/18975)
+- [build: add Android x86_64 support to Makefile](https://github.com/status-im/status-go/pull/6990)
 
 
 ### LambdaTest performance tuning

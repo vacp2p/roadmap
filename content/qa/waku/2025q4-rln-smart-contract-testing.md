@@ -30,7 +30,7 @@ Test on selected blockchains to ensure uniform behavior across different deploym
 
 - fully qualified name: `vac:qa:waku:2025q4-rln-smart-contract-testing:property-based`
 - owner: romanzac
-- status: not started
+- status: in progress (70%)
 - start-date: 2025/10/1
 - end-date: 2025/10/31
 
@@ -39,6 +39,20 @@ Test on selected blockchains to ensure uniform behavior across different deploym
 Implement tests to verify behaviors that must always hold. Run these tests with high iterations to find unexpected edge cases.
 
 #### Deliverables
+- [chore: fuzz test expansion](https://github.com/waku-org/waku-rlnv2-contract/pull/40)
 
-- PRs with tests using calls to contract's ABI
-- Documentation outlining tested scenarios
+### Security and Adversarial Testing
+
+- fully qualified name: `vac:qa:waku:2025q4-rln-smart-contract-testing:security-adversarial`
+- owner: romanzac
+- status: not started
+- start-date: 2025/10/7
+- end-date: 2025/10/31
+
+#### Description
+
+Implement tests to verify behavior in adversarial scenarios like timestamp manipulation, overflows, unauthorized actions,    
+DoS by large reuse lists, multiple memberships per holder.
+
+#### Deliverables
+- PRs and issues

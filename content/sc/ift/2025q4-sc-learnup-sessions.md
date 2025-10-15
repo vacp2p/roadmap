@@ -1,20 +1,20 @@
 ---
 title: Smart Contracts LearnUp Sessions
 tags:
-  - "2025q3"
+  - "2025q4"
   - "sc"
   - "ift"
 draft: false
 description: Monthly learn up sessions about anything smart contracts related.
 ---
 
-`vac:sc:ift:2025q3-sc-learnup-sessions`
+`vac:sc:ift:2025q4-sc-learnup-sessions`
 
 Monthly learn up sessions about smart contract development, protocols, security and alike.
 
 ## Description
 
-The smart contract service unit is running a monthly learn up session about protocols, 
+The smart contract service unit is running a monthly learn up session about protocols,
 Ethereum Improvement Proposals (EIPs) and similar topics related to smart contract development and security.
 The goal is to learn more about the Ethereum ecosystem and to discuss the presented topics with the team and anyone else who wants to join.
 
@@ -24,13 +24,13 @@ improving cross-project collaboration.
 
 ## Task List
 
-### Smart Contracts LearnUp Sessions 2025 Q3
+### Smart Contracts LearnUp Sessions 2025 Q4
 
-* fully qualified name: `2025q3-sc-learnup-sessions:2025q3`
-* owner: r4bbit
-* status: done
-* start-date: 2025/07/01
-* end-date: 2025/09/30
+* fully qualified name: `2025q4-sc-learnup-sessions:2025q4`
+* owner:
+* status: todo
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
@@ -38,55 +38,52 @@ Organize learn up session on a monthly basis and ensure meetings are recorded an
 
 #### Deliverables
 
-- [x] Recording of the sessions
+- [ ] Recording of the sessions
 
-### SC LearnUp Session 2025/07
+### SC LearnUp Session 2025/10
 
-* fully qualified name: `2025q3-sc-learnup-sessions:2025-07`
-* owner: r4bbit
-* status: done
-* start-date: 2025/07/01
-* end-date: 2025/07/31
-
-#### Description
-
-Run a learn up session about topic of choice related to smart contract development to present and discuss with the team.
-
-#### Deliverables
-
-- [x] [SC LearnUp - Constant Function Market Makers](https://drive.google.com/file/d/159MFMSabAgDiMpXteohZAWFT48qeqlZ2/view?usp=sharing)
-
-### SC LearnUp Session 2025/08
-
-* fully qualified name: `2025q3-sc-learnup-sessions:2025-08`
-* owner: r4bbit
-* status: done
-* start-date: 2025/08/01
-* end-date: 2025/08/31
+* fully qualified name: `2025q4-sc-learnup-sessions:2025-10`
+* owner:
+* status: todo
+* start-date: 2025/10/01
+* end-date: 2025/10/31
 
 #### Description
 
 Run a learn up session about topic of choice related to smart contract development to present and discuss with the team.
-
-#### Deliverables
-
-- [x] [Recording - SC LearnUp - Understanding Lending Protocols](https://drive.google.com/file/d/1kl8ucTKnp4Q56Fkau4DoSyaWNMFCq9F8/view?usp=sharing)
-
-### SC LearnUp Session 2025/09
-
-* fully qualified name: `2025q3-sc-learnup-sessions:2025-09`
-* owner: r4bbit
-* status: not started
-* start-date: 2025/09/01
-* end-date: 2025/09/30
-
-#### Description
-
-Run a learn up session about topic of choice related to smart contract development to present and discuss with the team.
-
-**This session was skipped due to workload.**
 
 #### Deliverables
 
 - [ ] Recording of the session
 
+### SC LearnUp Session 2025/11
+
+* fully qualified name: `2025q4-sc-learnup-sessions:2025-11`
+* owner:
+* status: todo
+* start-date: 2025/11/01
+* end-date: 2025/11/30
+
+#### Description
+
+Run a learn up session about topic of choice related to smart contract development to present and discuss with the team.
+
+#### Deliverables
+
+- [ ] Recording of the session
+
+### SC LearnUp Session 2025/12
+
+* fully qualified name: `2025q4-sc-learnup-sessions:2025-12`
+* owner:
+* status: todo
+* start-date: 2025/12/01
+* end-date: 2025/12/31
+
+#### Description
+
+Run a learn up session about topic of choice related to smart contract development to present and discuss with the team.
+
+#### Deliverables
+
+- [ ] Recording of the session

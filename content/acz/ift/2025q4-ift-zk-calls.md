@@ -55,7 +55,7 @@ Preparing the agenda and possible speakers for the ZK call on 7nd October.
 
 ### IFT ZK Call 2
 * fully qualified name: `vac:acz:ift:2025q4-ift-zk-calls:ift-zk-call-2`
-* owner: Marvin
+* owner: Ugur
 * status: not started
 * start-date: 2025/11/01
 * end-date: 2025/11/10

@@ -95,3 +95,21 @@ connection limits, peer lifecycle handling, and resilience under different netwo
 
 #### Deliverables
 * PRs with links to added tests
+
+---
+
+### GossipSub Performance Testing Enhacements
+
+* fully qualified name: `vac:qa:vac:2025q4-nim-libp2p-testing:gossipsub-performance`
+* owner: radek
+* status: in progress (60%)
+* start-date: 2025/10/01
+* end-date: 2025/10/15
+
+#### Description: 
+Update GossipSub performance tests based on dev feedback and existing data gathered so far.
+
+#### Deliverables:
+- [test(performance): Add QUIC scenario](https://github.com/vacp2p/nim-libp2p/pull/1631)
+- [test(performance): chart generation refactor](https://github.com/vacp2p/nim-libp2p/pull/1718)
+- [test(performance): Refactor runner](https://github.com/vacp2p/nim-libp2p/pull/1735)

@@ -97,7 +97,7 @@ Same as @Send one-to-one message - Network outage for private group
 
 * fully qualified name: `vac:dst:status:2025q4-status-evaluation:chat-protocol-benchmarks-followup`
 * owner: Alberto
-* status: 0%
+* status: 20%
 * start-date: 2025/10/06
 * end-date: 2025/10/24
 

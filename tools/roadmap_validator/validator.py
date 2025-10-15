@@ -7,6 +7,7 @@ import yaml
 
 from constants import REQUIRED_FRONT_MATTER_KEYS
 from identity import derive_identity, validate_identity
+from issues import ValidationIssue
 from paths import should_skip
 from tasks import TaskReport, parse_tasks
 
@@ -30,13 +31,13 @@ def parse_front_matter(lines: List[str]) -> Tuple[dict, int]:
     return data, end_idx + 1
 
 
-def validate_front_matter(data: dict) -> List[str]:
-    issues: List[str] = []
+def validate_front_matter(path: Path, data: dict) -> List[ValidationIssue]:
+    issues: List[ValidationIssue] = []
     for key in REQUIRED_FRONT_MATTER_KEYS:
         if key not in data or data[key] in (None, "", []):
-            issues.append(f"missing `{key}` in front matter")
+            issues.append(ValidationIssue(path, 1, f"missing `{key}` in front matter"))
     if "tags" in data and not isinstance(data["tags"], (list, tuple)):
-        issues.append("`tags` must be a list")
+        issues.append(ValidationIssue(path, 1, "`tags` must be a list"))
     return issues
 
 
@@ -52,22 +53,20 @@ def find_task_section(lines: List[str], start: int) -> Optional[Tuple[int, int]]
     return None
 
 
-def validate_file(path: Path) -> List[str]:
+def validate_file(path: Path) -> List[ValidationIssue]:
     if should_skip(path):
         return []
 
     content = path.read_text(encoding="utf-8")
     lines = content.splitlines()
-    issues: List[str] = []
+    issues: List[ValidationIssue] = []
 
     try:
         front_matter, body_start = parse_front_matter(lines)
     except Exception as exc:  # pragma: no cover - defensive guard
-        return [f"{path}: failed to parse front matter: {exc}"]
+        return [ValidationIssue(path, 1, f"failed to parse front matter: {exc}")]
 
-    issues.extend(
-        f"{path}: {message}" for message in validate_front_matter(front_matter)
-    )
+    issues.extend(validate_front_matter(path, front_matter))
 
     identity, identity_issues = derive_identity(path)
     issues.extend(identity_issues)
@@ -81,16 +80,22 @@ def validate_file(path: Path) -> List[str]:
 
     section = find_task_section(lines, body_start)
     if not section:
-        issues.append(f"{path}: missing `## Task List` section")
+        issues.append(ValidationIssue(path, None, "missing `## Task List` section"))
         return issues
 
     start, end = section
     tasks: List[TaskReport] = parse_tasks(lines, start, end, expected_base)
     if not tasks:
-        issues.append(f"{path}: no tasks found under `## Task List`")
+        issues.append(ValidationIssue(path, None, "no tasks found under `## Task List`"))
         return issues
 
     for task in tasks:
-        for issue in task.issues:
-            issues.append(f"{path}:{issue.line}: Task `{task.name}` {issue.message}")
+        for task_issue in task.issues:
+            issues.append(
+                ValidationIssue(
+                    path=path,
+                    line=task_issue.line,
+                    message=f"Task `{task.name}` {task_issue.message}",
+                )
+            )
     return issues

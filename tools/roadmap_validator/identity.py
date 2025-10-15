@@ -4,6 +4,7 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
+from issues import ValidationIssue
 from paths import CONTENT_ROOT, should_skip
 
 IDENTIFIER_PATTERN = re.compile(r"^`([^`]+)`\s*$")
@@ -21,9 +22,9 @@ class CommitmentIdentity:
     expected_base: str
 
 
-def derive_identity(path: Path) -> Tuple[Optional[CommitmentIdentity], List[str]]:
+def derive_identity(path: Path) -> Tuple[Optional[CommitmentIdentity], List[ValidationIssue]]:
     """Infer roadmap identity metadata from the file path."""
-    issues: List[str] = []
+    issues: List[ValidationIssue] = []
     try:
         relative = path.resolve().relative_to(CONTENT_ROOT)
     except ValueError:
@@ -35,7 +36,11 @@ def derive_identity(path: Path) -> Tuple[Optional[CommitmentIdentity], List[str]
     match = FILENAME_PATTERN.match(path.stem)
     if not match:
         issues.append(
-            f"{path}: filename should follow `<year>q<quarter>-<slug>.md` (found `{path.name}`)"
+            ValidationIssue(
+                path=path,
+                line=None,
+                message=f"filename should follow `<year>q<quarter>-<slug>.md` (found `{path.name}`)",
+            )
         )
         return None, issues
 
@@ -44,8 +49,7 @@ def derive_identity(path: Path) -> Tuple[Optional[CommitmentIdentity], List[str]
     expected_base = f"vac:{unit}:{area}:{quarter}-{slug}"
     expected_tags = [quarter, unit, area]
     expected_identifier = expected_base
-    return (
-        CommitmentIdentity(
+    identity = CommitmentIdentity(
         unit=unit,
         quarter=quarter,
         area=area,
@@ -53,9 +57,8 @@ def derive_identity(path: Path) -> Tuple[Optional[CommitmentIdentity], List[str]
         expected_tags=expected_tags,
         expected_identifier=expected_identifier,
         expected_base=expected_base,
-    ),
-        issues,
     )
+    return identity, issues
 
 
 def validate_identity(
@@ -64,20 +67,28 @@ def validate_identity(
     lines: List[str],
     body_start: int,
     identity: CommitmentIdentity,
-) -> List[str]:
+) -> List[ValidationIssue]:
     """Validate tags and inline identifier for a commitment."""
-    issues: List[str] = []
+    issues: List[ValidationIssue] = []
 
     tags = front_matter.get("tags")
     if isinstance(tags, (list, tuple)):
         tag_values = [str(tag) for tag in tags]
         if tag_values != identity.expected_tags:
             issues.append(
-                f"{path}: tags should be {identity.expected_tags!r} (found {tag_values!r})"
+                ValidationIssue(
+                    path=path,
+                    line=1,
+                    message=f"tags should be {identity.expected_tags!r} (found {tag_values!r})",
+                )
             )
     else:
         issues.append(
-            f"{path}: tags must be a list matching {identity.expected_tags!r}"
+            ValidationIssue(
+                path=path,
+                line=1,
+                message=f"tags must be a list matching {identity.expected_tags!r}",
+            )
         )
 
     identifier_value: Optional[str] = None
@@ -92,13 +103,21 @@ def validate_identity(
 
     if identifier_value is None:
         issues.append(
-            f"{path}:{body_start + 1}: missing commitment identifier `"
-            f"{identity.expected_identifier}`"
+            ValidationIssue(
+                path=path,
+                line=body_start + 1,
+                message=f"missing commitment identifier `{identity.expected_identifier}`",
+            )
         )
     elif identifier_value != identity.expected_identifier:
         issues.append(
-            f"{path}:{identifier_line}: identifier should be `"
-            f"{identity.expected_identifier}` (found `{identifier_value}`)"
+            ValidationIssue(
+                path=path,
+                line=identifier_line,
+                message=(
+                    f"identifier should be `{identity.expected_identifier}` (found `{identifier_value}`)"
+                ),
+            )
         )
 
     return issues

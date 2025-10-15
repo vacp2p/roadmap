@@ -5,8 +5,7 @@ tags:
   - "acz"
   - "ift"
 draft: false
-description: "Specifying a KAD-DHT–based, disc-NG–like Logos discovery capability 
-and releasing a document that collects the requirements of discovery"
+description: "Specifying disc-NG and releasing a document that collects the requirements of discovery"
 
 ---
  

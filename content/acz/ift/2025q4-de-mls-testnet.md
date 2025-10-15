@@ -84,7 +84,7 @@ containing an update of message processing
 
 * fully qualified name: `vac:acz:ift:2025q4-de-mls-tesnet:de-mls-maintaining`
 * owner: Ekaterina
-* status: not started
+* status: not started 
 * start-date: 2025/06/30
 * end-date: 2025/09/30
 

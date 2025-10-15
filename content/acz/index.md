@@ -5,7 +5,21 @@ tags:
   - vac
 ---
 
+## 2025q4 `vac:acz:`
+---
 
+### `ift`
+* [ ] [[acz/ift/2025q4-zerokit|2025q4-zerokit]]
+* [ ] [[acz/ift/2025q4-de-mls-testnet.md|2025q4-de-mls-testnet.md]]
+* [ ] [[acz/ift/2025q4-libp2p-mix-testnet|2025q4-libp2p-mix-testnet]]
+* [ ] [[acz/ift/2025q4-ift-zk-calls|2025q4-ift-zk-calls]]
+* [ ] [[acz/ift/2025q4-rln-status-l2|2025q4-rln-status-l2]]
+* [ ] [[acz/ift/2025q4-discovery|2025q4-discovery]]
+
+### `nes`
+* [ ] [[acz/nes/2025q4-nescience-consulting|2025q4-nescience-consulting]]
+
+---
 ## 2025q3 `vac:acz:`
 ---
 

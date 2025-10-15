@@ -42,48 +42,17 @@ to promote the mixnet PoC and gain support from the Ethereum ecosystem.
 
 ## Task List
 
-### Updating RFC
+### Maintaining RFC
 * fully qualified name: `vac:acz:ift:2025q4-libp2p-mix-testnet:update-rfc`
-* owner: Akshaya
-* status: not started
-* start-date: 2025/10/01
-* end-date: 2025/11/10
-
-#### Description
-This task entails completing updating the [mixnet RFC](https://rfc.vac.dev/vac/raw/mix) 
-With the latest findings, such as clarifications on exit =! destination, SURB design and addressing feedback. 
-
-#### Deliverables
-
-* A PR to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index)
-
-### EF Application
-* fully qualified name: `vac:acz:ift:2025q4-libp2p-mix-testnet:ef-application`
 * owner: Ugur
 * status: not started
-* start-date: 2025/10/01
-* end-date: 2025/11/10
+* start-date: 2025/10/15
+* end-date: 2025/11/15
 
 #### Description
-This task entails having the final version of [existing EF application](https://www.notion.so/Mixnet-EF-Proposal-10b8f96fb65c80e69fb9d78242c3af71)
-that introduces sender anonymity for Ethereum nodes, also maintaining the application process.
+This task entails maintaining [mixnet RFC](https://rfc.vac.dev/vac/raw/mix) 
+with the latest findings, such as clarifications on exit =! destination, SURB design and solving current issues. 
 
 #### Deliverables
 
 * A PR to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index)
-
-### Consulting Waku-mix 
-
-* fully qualified name: `vac:acz:ift:2025q4-libp2p-mix-testnet:consulting-waku-mix`
-* owner: Akshaya
-* status: not started 
-* start-date: 22025/10/01
-* end-date: 2025/11/10
-
-#### Description
-
-Consulting about libp2p-mix to Mixnet integration to the Waku.  
-
-#### Deliverables
-
-* PR to [vacp2p/mix](https://github.com/vacp2p/mix) or [waku-org/nwaku](https://github.com/waku-org/nwaku/) repo.

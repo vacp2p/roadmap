@@ -13,25 +13,40 @@ tags:
 - SN L2 native bridge yield extension deployment on testnet/mainnet
 
 
+## 2025q4 `vac:sc:`
+---
+
+### `ift:`
+
+- [ ] [[sc/ift/2025q4-sc-learnup-sessions]]
+- [ ] [[sc/ift/2025q4-security-audits]]
+
+### `status-l2:`
+
+- [ ] [[sc/status-l2/2025q4-pre-audit-protocol-enhancements]]
+- [ ] [[sc/status-l2/2025q4-audit-preparation]]
+- [ ] [[sc/status-l2/2025q4-maintaining-status-l2-contracts]]
+
+
 ## 2025q3 `vac:sc:`
 ---
 
 ### `ift:`
 
-- [ ] [[sc/ift/2025q3-sc-learnup-sessions]]
+- [x] [[sc/ift/2025q3-sc-learnup-sessions]]
 - [ ] [[sc/ift/2025q3-fv-tools-research]]
-- [ ] [[sc/ift/2025q3-security-audits]]
+- [x] [[sc/ift/2025q3-security-audits]]
 
 ### `status:`
 
-- [ ] [[sc/status/2025q3-consulting]]
-- [ ] [[sc/status/2025q3-maintaining-status-contracts]]
+- [x] [[sc/status/2025q3-consulting]]
+- [x] [[sc/status/2025q3-maintaining-status-contracts]]
 
 ### `status-l2:`
 
 - [ ] [[sc/status-l2/2025q3-native-bridge-eth-yield-management]]
 - [ ] [[sc/status-l2/2025q3-native-bridge-dai-yield-management]]
-- [ ] [[sc/status-l2/2025q3-new-karma-requirements]]
+- [x] [[sc/status-l2/2025q3-new-karma-requirements]]
 
 
 ## 2025q2 `vac:sc:`

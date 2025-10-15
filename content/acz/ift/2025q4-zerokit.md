@@ -52,6 +52,38 @@ This task encompasses all maintenance updates for Zerokit, including CI updates 
 #### Deliverables
 A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/). 
 
+### FFI re-work
+
+* fully qualified name: `vac:acz:ift:2025q4-zerokit:ffi-rework`
+* owner: Vinh
+* status: started
+* start-date: 2025/10/01
+* end-date: 2025/10/13
+
+#### Description
+This task entails reworking Zerokit’s FFI (Foreign Function Interface) to support passing data in Big Endian format,
+and to transition from a manual byte-based serialization approach to a safer and more maintainable opaque-struct model.
+Currently, FFI functions require developers to manually allocate buffers, serialize arguments,
+and handle deserialization within Rust, which introduces overhead, performance loss, fragile data handling
+and complex documentation requirements.
+Additionally, maintaining separate implementations for different endianness formats
+and managing numerous byte-to-struct conversions adds unnecessary complexity.
+
+The proposed solution is to adopt an opaque struct pattern managed by Rust,
+allowing C code to manipulate only pointers through a defined API, leveraging the safer_ffi crate
+to automatically generate C headers, ensure memory safety, and remove unsafe code, 
+as in planned in [this zerokit/discussion](https://github.com/vacp2p/zerokit/discussions/336).
+
+This change aims to simplify the FFI layer, improve performance, reduce maintenance effort,
+and make the system more resilient to data format changes while easing integration with languages like C and Nim.
+
+This task is complete when a proof of concept demonstrating RLN proof generation
+and verification through the new FFI model is implemented and validated
+for memory safety and Big Endian compatibility.
+
+#### Deliverables
+A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/). 
+
 ### Release v1
 
 * fully qualified name: `vac:acz:ift:2025q4-zerokit:release`

@@ -31,7 +31,7 @@ Extend and adjust the existing E2E test framework to support testing on mobile/t
 
 - fully qualified name: `vac:qa:status:2025q4-status-qa-mobile:port-tests`
 - owner: magnus
-- status: not started
+- status: in progress (5%)
 - start-date: 2025/10/01
 - end-date: 2025/12/31
 
@@ -70,7 +70,7 @@ Investigate how to extend test hooks to reveal more qt properties to help with t
 
 - fully qualified name: `vac:qa:status:2025q4-status-qa-mobile:test-ci`
 - owner: magnus
-- status: not started
+- status: in progress (20%)
 - start-date: 2025/11/01
 - end-date: 2025/11/15
 

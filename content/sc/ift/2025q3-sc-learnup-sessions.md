@@ -28,7 +28,7 @@ improving cross-project collaboration.
 
 * fully qualified name: `2025q3-sc-learnup-sessions:2025q3`
 * owner: r4bbit
-* status: not started
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -38,7 +38,7 @@ Organize learn up session on a monthly basis and ensure meetings are recorded an
 
 #### Deliverables
 
-- [ ] Recording of the sessions
+- [x] Recording of the sessions
 
 ### SC LearnUp Session 2025/07
 
@@ -60,7 +60,7 @@ Run a learn up session about topic of choice related to smart contract developme
 
 * fully qualified name: `2025q3-sc-learnup-sessions:2025-08`
 * owner: r4bbit
-* status: not started
+* status: done
 * start-date: 2025/08/01
 * end-date: 2025/08/31
 
@@ -70,7 +70,7 @@ Run a learn up session about topic of choice related to smart contract developme
 
 #### Deliverables
 
-- [ ] Recording of the session
+- [x] [Recording - SC LearnUp - Understanding Lending Protocols](https://drive.google.com/file/d/1kl8ucTKnp4Q56Fkau4DoSyaWNMFCq9F8/view?usp=sharing)
 
 ### SC LearnUp Session 2025/09
 
@@ -83,6 +83,8 @@ Run a learn up session about topic of choice related to smart contract developme
 #### Description
 
 Run a learn up session about topic of choice related to smart contract development to present and discuss with the team.
+
+**This session was skipped due to workload.**
 
 #### Deliverables
 

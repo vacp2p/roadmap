@@ -59,7 +59,7 @@ This will also help spur on outside adoption and contributions.
 
 * fully qualified name: `vac:dst:nomos:2025q3-nomos-scaling:nomos-deployment-test`
 * owner: Alberto
-* status: 10%
+* status: 100%
 * start-date: 2025-09-19
 * end-date: 2025-09-30
 
@@ -73,7 +73,9 @@ and is well-prepared to support advanced experiments like Blendnet.
 
 #### Deliverables
 * PRs:
+  * [Github PR: Files for nomos testnet #145](https://github.com/vacp2p/10ksim/pull/145)
 * Report published with all relevant details
+  * [Notion: Nomos compose to K8s issues](https://www.notion.so/Nomos-compose-to-K8s-27d8f96fb65c8077b5cefa236a0dddda)
 
 
 ### Blend benchmarking

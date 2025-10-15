@@ -122,7 +122,7 @@ Re-evaluate Quic in nimlibp2p with regression tests, to see if there is a differ
 
 * fully qualified name: `vac:dst:vac:2025q3-libp2p-evaluation:mix-re-evaluation`
 * owner: Pearson
-* status: 90%
+* status: 100%
 * start-date: 2025/07/30
 * end-date: 2025/08/08
 
@@ -138,3 +138,4 @@ Compare results with the initial ones in [Notion: Mix report extended](https://w
   * [Github commit: Dockerfile changes](https://github.com/vacp2p/dst-gossipsub-test-node/commit/f05cc4ea7b7715f82110adfb9567b87231b1b320)
   * [Github Draft PR: Mix deployment changes](https://github.com/vacp2p/10ksim/pull/137)
 * Report:
+  - [Notion: Mixnet Report](https://www.notion.so/Mixnet-findings-WIP-2768f96fb65c805cae83f7c4f67c4860)

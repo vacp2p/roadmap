@@ -52,7 +52,7 @@ ensuring that projects are built on well-reasoned analysis.
 
 * fully qualified name: `vac:dst:waku:2025q3-waku-theoretical-analysis:bandwidth`
 * owner: Farooq
-* status: 0%
+* status: 100%
 * start-date: 2025-09-17
 * end-date: 2025-09-30
 
@@ -67,13 +67,14 @@ in Kubernetes with the theoretical values.
 #### Deliverables
 - Repository:
 - Report:
+  - [Github Draft PR: Waku latency theoretical analysis #206] https://github.com/vacp2p/research/pull/206
 - PRs: 
 
 ### Waku message dissemination
 
 * fully qualified name: `vac:dst:waku:2025q3-waku-theoretical-analysis:message-dissemination`
 * owner: Farooq
-* status: 0%
+* status: 100%
 * start-date: 2025-09-17
 * end-date: 2025-09-30
 
@@ -89,5 +90,6 @@ in Kubernetes with the theoretical values.
 #### Deliverables
 - Repository:
 - Report:
+  - [Github Draft PR: Waku latency theoretical analysis #206] https://github.com/vacp2p/research/pull/206
 - PRs: 
 

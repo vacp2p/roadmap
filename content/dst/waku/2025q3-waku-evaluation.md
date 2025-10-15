@@ -176,7 +176,7 @@ Start integrating js waku in DST experiments. Report js waku team any missing fu
 
 * fully qualified name: `vac:dst:waku:2025q3-waku-evaluation:js-waku-follow-up`
 * owner: Pearson
-* status: 60%
+* status: 100%
 * start-date: 2025/09/01
 * end-date: 2025/09/12
 
@@ -189,4 +189,5 @@ and report js waku team any missing functionalities/issues.
 
 #### Deliverables
 - PRs:
+ - [Github PR: Add js-waku files #146](https://github.com/vacp2p/10ksim/pull/146)
 - Related Documents:

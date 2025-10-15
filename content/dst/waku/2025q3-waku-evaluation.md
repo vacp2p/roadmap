@@ -189,4 +189,5 @@ and report js waku team any missing functionalities/issues.
 
 #### Deliverables
 - PRs:
+ - [Github PR: Add js-waku files #146](https://github.com/vacp2p/10ksim/pull/146)
 - Related Documents:

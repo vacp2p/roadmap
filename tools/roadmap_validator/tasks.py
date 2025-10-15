@@ -17,7 +17,7 @@ from constants import (
 @dataclass
 class TaskIssue:
     message: str
-    line: int
+    line: Optional[int]
 
 
 @dataclass

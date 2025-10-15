@@ -51,32 +51,6 @@ as a pull request by incorporating review feedback.
 
 * A notion document contains a draft RFC with its feedback.
 
-### Core Infrastructure
-
-* fully qualified name: `vac:acz:ift:2025q4-discovery:core-infrastructure`
-* owner: Arunima
-* status: started
-* start-date: 2025/10/13
-* end-date: 2025/10/20
-
-#### Description
-
-This task focuses on building the foundational components of the disc-ng POC.
-The core data structures that represent nodes, connections, messages,
-and routing states will be defined and implemented. 
-The routing infrastructure will provide the mechanisms
-for message propagation and path selection within the network.
-It should ensure efficiency, consistency, and scalability,
-serving as the base layer for the higher-level modules
-such as the registrar, advertiser, and discoverer.
-Proper abstraction and modularity at this stage will simplify later integration and testing.  
-The task is complete when all core data structures are stable
-and the routing layer reliably supports end-to-end message delivery.
-
-#### Deliverables
-
-* A PR to the [vacp2p/disc-NG](https://github.com/vacp2p/disc-ng/) repo.
-
 ### Registrar Module
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:registrar-module`
@@ -87,7 +61,7 @@ and the routing layer reliably supports end-to-end message delivery.
 
 #### Description
 
-In this task, the registrar module will be implemented to handle node registration,
+In this task, the modular registrar module will be implemented in Golang to handle node registration,
 admission policies, and identity management.
 The module will manage how new participants join the network,
 enforce admission control rules derived from the RFC, and maintain metadata about registered nodes.
@@ -172,9 +146,9 @@ and the integrated system passes functional and performance validation tests.
 
 * A PR to the [vacp2p/disc-NG](https://github.com/vacp2p/disc-ng/) repo.
 
-### Disc-NG Specs
+### Logos Discovery Capability Spec
 
-* fully qualified name: `vac:acz:ift:2025q4-discovery:disc-ng-specs`
+* fully qualified name: `vac:acz:ift:2025q4-discovery:logos-disc-specs`
 * owner: Arunima
 * status: not started
 * start-date: 2025/10/30

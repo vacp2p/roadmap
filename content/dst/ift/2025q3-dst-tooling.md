@@ -221,7 +221,7 @@ Keep track of values and logs of previous experiments in an automatized and cros
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:nim-libp2p-cron-removal`
 * owner: Farooq
-* status: 0%
+* status: 100%
 * start-date: 2025/09/02
 * end-date: 2025/09/19
 
@@ -232,14 +232,16 @@ message rate and message size values will be moved to a publisher script, allowi
 to vary the message rate and size in the middle of an experiment if needed.
 
 #### Deliverables
-- PRs
+- PRs:
+  - [Github: PR #3](https://github.com/vacp2p/dst-libp2p-test-node/pull/3)
+  - [Github: PR #139](https://github.com/vacp2p/10ksim/pull/139)
 - Related Documents
 
 ### Nim-libp2p DST node refactor
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-tooling:nim-libp2p-dst-node-refactor`
 * owner: Farooq
-* status: 50%
+* status: 90%
 * start-date: 2025/09/02
 * end-date: 2025/09/19
 
@@ -252,4 +254,24 @@ Apart from this, the node should be able to be executed from the same docker ima
 
 #### Deliverables
 - PRs
+  - [Github PR: Topology #4](https://github.com/vacp2p/dst-libp2p-test-node/pull/4)
 - Related Documents
+
+### Deployment refactor
+
+* fully qualified name: `vac:dst:ift:2025q3-dst-tooling:deployment-refactor`
+* owner: Pearson
+* status: 100%
+* start-date: 2025/09/15
+* end-date: 2025/09/30
+
+#### Description
+Following the discussions on the [deployment document](https://www.notion.so/Deployment-Workflow-25d8f96fb65c80f7801ce9a06dede8a4),
+start a refactor on the deployment module of the main repository.
+This task doesn't aim to have a full refactor, but a starting baseline to start considering if such approach is
+feasible, and improve with more feedback from the members of the team.
+
+#### Deliverables
+- PRs:
+  - [Github PR: Build basic Waku nodes with python dict #143]https://github.com/vacp2p/10ksim/pull/143
+- Related Documents:

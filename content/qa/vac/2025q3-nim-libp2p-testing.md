@@ -90,7 +90,7 @@ and edge cases.
 
 * fully qualified name: `vac:qa:vac:2025q3-nim-libp2p-testing:rendezvous`
 * owner: radek
-* status: in progress (60%)
+* status: done
 * start-date: 2025/09/01
 * end-date: 2025/09/30
 
@@ -99,6 +99,11 @@ and edge cases.
 * [fix(rendezvous): pagination offset](https://github.com/vacp2p/nim-libp2p/pull/1646)
 * [test(rendezvous): Registration TTL tests](https://github.com/vacp2p/nim-libp2p/pull/1655)
 * [fix(rendezvous): peer registration limit](https://github.com/vacp2p/nim-libp2p/pull/1656)
+* [test(rendezvous): Simplify test setup](https://github.com/vacp2p/nim-libp2p/pull/1677)
+* [refactor(rendezvous): Split Rendezvous Protobuf and add tests](https://github.com/vacp2p/nim-libp2p/pull/1671)
+* [test(rendezvous): error cases](https://github.com/vacp2p/nim-libp2p/pull/1683)
+* [test(rendezvous): refactor and extend discovery manager tests ](https://github.com/vacp2p/nim-libp2p/pull/1715)
+* [test(rendezvous): misc ](https://github.com/vacp2p/nim-libp2p/pull/1716)
 
 #### Deliverables
 * PRs with links to added tests
@@ -155,3 +160,4 @@ Implement small scale performance tests for GossipSub that can run between a few
 * [test(gossipsub): Performance tests - plot docker stats](https://github.com/vacp2p/nim-libp2p/pull/1597)
 * [test(gossipsub): Performance tests - plot latency history](https://github.com/vacp2p/nim-libp2p/pull/1608)
 * [test(performance): fetch before push and improve latency history](https://github.com/vacp2p/nim-libp2p/pull/1617)
+* [test(performance): Add QUIC scenario](https://github.com/vacp2p/nim-libp2p/pull/1631)

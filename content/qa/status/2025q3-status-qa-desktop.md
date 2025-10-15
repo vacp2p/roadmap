@@ -30,9 +30,9 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:release-testing`
 * owner: nastya
-* status: in progress (75%)
-* start-date: 
-* end-date: 
+* status: done
+* start-date: 2025/07/01
+* end-date: 2025/09/30
 
 #### Description
 - Oversee testing strategy for new releases.
@@ -66,6 +66,12 @@ Oversee testing strategy around releases.
 - [tested: ci: fix pcsc run dir](https://github.com/status-im/status-desktop/pull/18754)
 - [tested: pcscd: auto exit when not in use](https://github.com/status-im/status-desktop/pull/18767)
 - [tested: fix: disable QML cache on Qt < 6.9.2](https://github.com/status-im/status-desktop/pull/18775)
+- [bug: Windows: qml errors and warnings](https://github.com/status-im/status-desktop/issues/18808)
+- [tested: Upgrade qt to 6.9.2](https://github.com/status-im/status-desktop/pull/18814)
+- [bug: can't pair devices on windows](https://github.com/status-im/status-desktop/issues/18846)
+- [bug: Crash on settings: QQmlComponent: Cannot create a component in an invalid context](https://github.com/status-im/status-desktop/issues/18888)
+- [tested: chore: test code base cleaning on statusgo side](https://github.com/status-im/status-desktop/pull/18856)
+- [bug: Windows: can't pair devices on windows](https://github.com/status-im/status-desktop/issues/18846)
 
 ### Shell view
 
@@ -103,9 +109,9 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:backup-user-data`
 * owner: nastya
-* status: 
-* start-date: 
-* end-date: 
+* status: in progress (40%)
+* start-date: 2025/09/15
+* end-date: 2025/09/30
 
 #### Description
 - Add new automated tests for the `Backup user data` feature.
@@ -119,7 +125,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q3-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (75%)
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/09/30
 
@@ -154,6 +160,13 @@ Oversee testing strategy around releases.
 - [tests(@e2e): update method to upload image to use base64 format](https://github.com/status-im/status-desktop/pull/18726)
 - [fixed tests in dev PR https://github.com/status-im/status-desktop/pull/18532]
 - [fixed tests in dev PR https://github.com/status-im/status-desktop/pull/18608]
+- [chore(@e2e): update readme](https://github.com/status-im/status-desktop/pull/18787)
+- [chore(@e2e): temp disable nft test, it fails because collectibles are loading more than a minute](https://github.com/status-im/status-desktop/pull/18783)
+- [Tests: fix TextEdit](https://github.com/status-im/status-desktop/pull/18807)
+- [tested: Upgrade qt to 6.9.2](https://github.com/status-im/status-desktop/pull/18814)
+- [tested: WIP: feat(e2e): add windows pipeline](https://github.com/status-im/status-desktop/pull/18724)
+- [fix for the toggle interaction](https://github.com/status-im/status-desktop/pull/18903)
+- [chore(@e2e): remove minimize method as its not working on windows](https://github.com/status-im/status-desktop/pull/18913)
 
 ### Measure app load time
 

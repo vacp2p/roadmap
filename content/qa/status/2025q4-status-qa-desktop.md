@@ -27,7 +27,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (5%)
+* status: in progress (10%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -39,6 +39,9 @@ Oversee testing strategy around releases.
 
 #### Deliverables
 - [bug: Can't mint tokens on Optimism Sepolia](https://github.com/status-im/status-desktop/issues/18954)
+- [chore: Optimize code usage](https://github.com/status-im/status-desktop/pull/18980)
+- [bug: Cover language selector in e2e](https://github.com/status-im/status-desktop/issues/18983)
+- [feat: replace old transfer detector](https://github.com/status-im/status-desktop/pull/18924)
 
 ---
 
@@ -78,16 +81,17 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:e2e-windows`
 * owner: nastya
-* status: not started
-* start-date: 
-* end-date: 
+* status: in progress(50%)
+* start-date: 2025/10/07
+* end-date: 2025/10/31
 
 #### Description
 - Work with infra team on initiative to run tests on Windows on CI.  
 - Tweak tests if needed.
 
 #### Deliverables
-- PRs / Issues
+- [tests: add new test, updating old test](https://github.com/status-im/minimal-qt-squish-app/pull/4)
+- [testing: WIP: feat(e2e): add windows pipeline](https://github.com/status-im/status-desktop/pull/18724)
 
 ---
 
@@ -147,15 +151,15 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:local-backup`
 * owner: nastya
-* status: not started
-* start-date: 
-* end-date: 
+* status: in progress(75%)
+* start-date: 2025/10/07
+* end-date: 2025/10/20
 
 #### Description
 - Maintenance for **Local Backup** feature.
 
 #### Deliverables
-- PRs / Issues
+- [fixed tests in the https://github.com/status-im/status-desktop/pull/18953]
 
 ---
 

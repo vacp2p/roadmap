@@ -132,3 +132,22 @@ Ideally it is done with Docker Desktop, or any other light Kubernetes solution.
 - PRs:
 - Related Documents:
 
+### Complete deployment refactor
+
+* fully qualified name: `vac:dst:ift:2025q4-dst-tooling:complete-deployment-refactor`
+* owner: Pearson
+* status: 0%
+* start-date: 2025/10/06
+* end-date: 2025/10/24
+
+#### Description
+After refactor feasibility was done in `vac:dst:ift:2025q3-dst-tooling:deployment-refactor`, continue
+this line of work to complete the refactor. 
+Keep following the discussions on the [deployment document](https://www.notion.so/Deployment-Workflow-25d8f96fb65c80f7801ce9a06dede8a4).
+To not keep extending new functionalities with new projects, Waku will be added as baseline 
+for the refactor functionalities to be tested. Other projects will be  added in other tasks.
+
+#### Deliverables
+- PRs:
+- Related Documents:
+

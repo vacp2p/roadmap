@@ -44,7 +44,7 @@ Develop test plans for features currently under development:
 - Kademlia  
 
 #### Deliverables
-* Links with the Notion pages
+- [QUIC test plan](https://www.notion.so/QUIC-28b8f96fb65c8018b6cdc21882cfd98a)
 
 ---
 
@@ -121,7 +121,7 @@ Update GossipSub performance tests based on dev feedback and existing data gathe
 
 * fully qualified name: `vac:qa:vac:2025q4-nim-libp2p-testing:quic`
 * owner: radek
-* status: not started
+* status: nin progress (5%)
 * start-date: 2025/10/16
 * end-date: 2025/11/25
 
@@ -130,4 +130,4 @@ Improve QUIC transport test coverage for handshake enforcement (TLS, ALPN, trans
 stream and connection lifecycle, resilience/error paths, metrics, and interoperability.
 
 #### Deliverables
-- PRs with links to added tests
+- [fix(quic): GossipSub outbound peers](https://github.com/vacp2p/nim-libp2p/pull/1768)

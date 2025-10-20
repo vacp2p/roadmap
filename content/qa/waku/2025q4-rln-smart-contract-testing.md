@@ -31,7 +31,7 @@ Test on selected blockchains to ensure uniform behavior across different deploym
 - fully qualified name: `vac:qa:waku:2025q4-rln-smart-contract-testing:property-based`
 - owner: romanzac
 - status: in progress (90%)
-- start-date: 2025/10/1
+- start-date: 2025/10/01
 - end-date: 2025/10/31
 
 #### Description
@@ -45,8 +45,8 @@ Implement tests to verify behaviors that must always hold. Run these tests with 
 
 - fully qualified name: `vac:qa:waku:2025q4-rln-smart-contract-testing:security-adversarial`
 - owner: romanzac
-- status: in progress (30%)
-- start-date: 2025/10/7
+- status: in progress (80%)
+- start-date: 2025/10/07
 - end-date: 2025/10/31
 
 #### Description
@@ -57,3 +57,4 @@ DoS by large reuse lists, multiple memberships per holder.
 #### Deliverables
 - [chore: adversarial tests](https://github.com/waku-org/waku-rlnv2-contract/pull/42)
 - [Add protection to prevent drain of funds after malicious contract upgrade](https://github.com/waku-org/waku-rlnv2-contract/issues/43)
+- [bug: Lower the likelihood of set-filling spam attack](https://github.com/waku-org/waku-rlnv2-contract/issues/45)

@@ -19,6 +19,9 @@ tags:
 ### `nes`
 * [ ] [[acz/nes/2025q4-nescience-consulting|2025q4-nescience-consulting]]
 
+### `nomos:`
+* [ ] [[acz/nomos/2025q4-nomos-consulting|2025q4-nomos-consulting]]
+
 ---
 ## 2025q3 `vac:acz:`
 ---

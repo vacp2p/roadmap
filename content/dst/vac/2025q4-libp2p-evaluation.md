@@ -76,6 +76,7 @@ and ensure they don't happen again.
 
 #### Deliverables
 * Analysis:
+  * [Notion: Nim-libp2p 1.14.0 Report](https://www.notion.so/Nim-libp2p-v1-14-0-regression-testing-October-2025-28d8f96fb65c803ba789ccdb73753cab)
 
 
 ### Universal connectivity
@@ -132,7 +133,7 @@ Perform a comparison between nim-libp2p using quic and waku using mplex and yamu
 
 * fully qualified name: `vac:dst:ift:2025q4-libp2p-evaluation:mix-in-nim-libp2p-node`
 * owner: Farooq
-* status: 0%
+* status: 90%
 * start-date: 2025/10/06
 * end-date: 2025/10/17
 
@@ -142,13 +143,14 @@ include mix to the configuration options of the node.
 
 #### Deliverables
 - PRs:
+  - [Github PR: mix-integeration #7](https://github.com/vacp2p/dst-libp2p-test-node/pull/7)
 - Related Documents:
 
 ### Go-libp2p node
 
 * fully qualified name: `vac:dst:ift:2025q4-libp2p-evaluation:go-libp2p-node`
 * owner: Farooq
-* status: 0%
+* status: 60%
 * start-date: 2025/10/06
 * end-date: 2025/10/24
 

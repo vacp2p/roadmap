@@ -7,12 +7,35 @@ from typing import Iterable, List, Optional
 
 from constants import DEFAULT_SKIP_FILENAMES
 
+ALLOWED_CONTENT_SUBDIRS = {
+    "dst",
+    "qa",
+    "nim",
+    "p2p",
+    "rfc",
+    "sc",
+    "sec",
+    "web",
+}
+
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CONTENT_ROOT = REPO_ROOT / "content"
 ENV_SKIP_FILENAMES = {
     entry.strip() for entry in os.environ.get("ROADMAP_VALIDATION_SKIP", "").split() if entry.strip()
 }
 SKIP_FILENAMES = {name.lower() for name in (DEFAULT_SKIP_FILENAMES | ENV_SKIP_FILENAMES)}
+
+
+def _is_allowed_content_path(path: Path) -> bool:
+    """Return True when the path resides in an allowed content subdirectory."""
+    try:
+        relative = path.resolve().relative_to(CONTENT_ROOT)
+    except ValueError:
+        return True
+    parts = relative.parts
+    if not parts:
+        return False
+    return parts[0].lower() in ALLOWED_CONTENT_SUBDIRS
 
 
 def should_skip(path: Path) -> bool:
@@ -51,12 +74,16 @@ def resolve_targets(targets: Iterable[str]) -> List[Path]:
             continue
         if target.is_dir():
             for file_path in sorted(target.rglob("*.md")):
-                if should_skip(file_path) or file_path in seen:
+                if (
+                    should_skip(file_path)
+                    or file_path in seen
+                    or not _is_allowed_content_path(file_path)
+                ):
                     continue
                 md_files.append(file_path)
                 seen.add(file_path)
         elif target.is_file() and target.suffix.lower() == ".md":
-            if should_skip(target) or target in seen:
+            if should_skip(target) or target in seen or not _is_allowed_content_path(target):
                 continue
             md_files.append(target)
             seen.add(target)

@@ -12,16 +12,13 @@ on:
       - main
       - chore/roadmap-validator
     paths:
-      - 'content/acz/**'
       - 'content/dst/**'
       - 'content/qa/**'
-      - 'content/nes/**'
       - 'content/nim/**'
       - 'content/p2p/**'
       - 'content/rfc/**'
       - 'content/sc/**'
       - 'content/sec/**'
-      - 'content/tke/**'
       - 'content/web/**'
       - 'tools/roadmap_validator/**'
       - '.github/workflows/roadmap-validator.yml'

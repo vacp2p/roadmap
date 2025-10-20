@@ -7,7 +7,7 @@ import shlex
 import sys
 from collections import defaultdict
 from pathlib import Path
-from typing import Iterable, List, Optional
+from typing import Iterable, List, Optional, Sequence
 from paths import REPO_ROOT, resolve_targets
 from validator import validate_file
 from issues import ValidationIssue
@@ -64,8 +64,22 @@ def emit_github_annotations(issues: List[ValidationIssue]) -> None:
         summary.write("\n")
 
 
-def run_validator(targets: Iterable[str]) -> int:
+def run_validator(
+    targets: Iterable[str],
+    required_substrings: Optional[Sequence[str]] = None,
+) -> int:
     files = resolve_targets(targets)
+    if required_substrings:
+        filtered_files: List[Path] = []
+        for file_path in files:
+            try:
+                contents = file_path.read_text(encoding="utf-8")
+                if all(substring in contents for substring in required_substrings):
+                    filtered_files.append(file_path)
+            except Exception as exc:
+                sys.stderr.write(f"Warning: failed to read {file_path}: {exc}\n")
+        files = filtered_files
+
     if not files:
         sys.stderr.write("No markdown files found for validation.\n")
         return 0
@@ -93,7 +107,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "paths",
         nargs="*",
-        help="Files or directories to validate. Defaults to ROADMAP_VALIDATION_PATHS or 'content'.",
+        help="Files or directories to validate. Defaults to ROADMAP_VALIDATION_PATHS or 'content'. "
+        "Tokens like '*substring*' filter files whose contents include that substring.",
     )
     return parser
 
@@ -103,8 +118,22 @@ def main(argv: Optional[List[str]] = None) -> int:
     args = parser.parse_args(argv)
 
     env_paths = shlex.split(os.environ.get("ROADMAP_VALIDATION_PATHS", DEFAULT_TARGETS))
-    targets = args.paths or env_paths
-    return run_validator(targets)
+    raw_targets = args.paths or env_paths
+
+    substring_filters: List[str] = []
+    filtered_targets: List[str] = []
+    for entry in raw_targets:
+        if entry.startswith("*") and entry.endswith("*") and len(entry) > 2:
+            substring_filters.append(entry.strip("*"))
+        else:
+            filtered_targets.append(entry)
+
+    if not filtered_targets:
+        filtered_targets = env_paths
+
+    required_substrings: Optional[List[str]] = substring_filters or None
+
+    return run_validator(filtered_targets, required_substrings)
 
 
 if __name__ == "__main__":  # pragma: no cover

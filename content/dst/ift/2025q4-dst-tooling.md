@@ -59,6 +59,11 @@ Should be made general when possible.
 
 #### Deliverables
 - PRs:
+    - [Github PR: Fix nimlibp2p tracer #161](https://github.com/vacp2p/10ksim/pull/161)
+    - [Github PR: Move metadata helpers to base_experiment #162](https://github.com/vacp2p/10ksim/pull/162)
+    - [Github PR: nimlibp2p mix node deployment changes #137](https://github.com/vacp2p/10ksim/pull/137)
+    - [Github PR: Mixnet analysis changes #163](https://github.com/vacp2p/10ksim/pull/163)
+    - [Github PR: Allow multiple match groups for the same query in victoria_reader.py #164](https://github.com/vacp2p/10ksim/pull/164)
 - Documents:
 
 ### General log parser

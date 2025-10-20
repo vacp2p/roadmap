@@ -42,7 +42,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q4-zerokit:zerokit-maintaining`
 * owner: Ekaterina
-* status: not started
+* status: started (%0)
 * start-date: 2025/10/01
 * end-date: 2025/12/30
 
@@ -56,11 +56,13 @@ A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/).
 
 * fully qualified name: `vac:acz:ift:2025q4-zerokit:ffi-rework`
 * owner: Vinh
-* status: started
+* status: started (60%)
 * start-date: 2025/10/01
-* end-date: 2025/10/13
+* end-date: 2025/11/01
 
 #### Description
+The due date of this task is expanded to 11/01 due to the bugs and test requirements.
+
 This task entails reworking Zerokit’s FFI (Foreign Function Interface) to support passing data in Big Endian format,
 and to transition from a manual byte-based serialization approach to a safer and more maintainable opaque-struct model.
 Currently, FFI functions require developers to manually allocate buffers, serialize arguments,

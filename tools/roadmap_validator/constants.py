@@ -67,4 +67,4 @@ TANGIBLE_KEYWORDS = (
     "deliverables",
 )
 
-DEFAULT_SKIP_FILENAMES = {"index.md", "preview.md"}
+SKIP_FILENAMES = {"index.md", "preview.md"}

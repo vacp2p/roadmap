@@ -5,7 +5,7 @@ import sys
 from pathlib import Path
 from typing import Iterable, List, Optional
 
-from constants import DEFAULT_SKIP_FILENAMES
+from constants import SKIP_FILENAMES
 
 ALLOWED_CONTENT_SUBDIRS = {
     "dst",
@@ -20,10 +20,6 @@ ALLOWED_CONTENT_SUBDIRS = {
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CONTENT_ROOT = REPO_ROOT / "content"
-ENV_SKIP_FILENAMES = {
-    entry.strip() for entry in os.environ.get("ROADMAP_VALIDATION_SKIP", "").split() if entry.strip()
-}
-SKIP_FILENAMES = {name.lower() for name in (DEFAULT_SKIP_FILENAMES | ENV_SKIP_FILENAMES)}
 
 
 def _is_allowed_content_path(path: Path) -> bool:

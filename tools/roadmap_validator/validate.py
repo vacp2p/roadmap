@@ -107,7 +107,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "paths",
         nargs="*",
-        help="Files or directories to validate. Defaults to ROADMAP_VALIDATION_PATHS or 'content'. "
+        help="Files or directories to validate. Defaults to 'content'. "
         "Tokens like '*substring*' filter files whose contents include that substring.",
     )
     return parser
@@ -117,8 +117,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
 
-    env_paths = shlex.split(os.environ.get("ROADMAP_VALIDATION_PATHS", DEFAULT_TARGETS))
-    raw_targets = args.paths or env_paths
+    raw_targets = args.paths or DEFAULT_TARGETS
 
     substring_filters: List[str] = []
     filtered_targets: List[str] = []
@@ -129,7 +128,7 @@ def main(argv: Optional[List[str]] = None) -> int:
             filtered_targets.append(entry)
 
     if not filtered_targets:
-        filtered_targets = env_paths
+        filtered_targets = DEFAULT_TARGETS
 
     required_substrings: Optional[List[str]] = substring_filters or None
 

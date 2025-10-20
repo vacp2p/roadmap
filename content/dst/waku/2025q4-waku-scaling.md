@@ -176,7 +176,7 @@ Prove that:
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-scaling:TWN-supports-RLN-tree`
 * owner: Alberto
-* status: 0%
+* status: 30%
 * start-date: 2025/10/06
 * end-date: 2025/10/24
 

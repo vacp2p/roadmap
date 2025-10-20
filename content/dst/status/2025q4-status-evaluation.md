@@ -97,7 +97,7 @@ Same as @Send one-to-one message - Network outage for private group
 
 * fully qualified name: `vac:dst:status:2025q4-status-evaluation:chat-protocol-benchmarks-followup`
 * owner: Alberto
-* status: 0%
+* status: 60%
 * start-date: 2025/10/06
 * end-date: 2025/10/24
 
@@ -108,3 +108,8 @@ Using the fix in the discovery process for the
 to repeat the benchmarks adding light nodes in the same chat protocol benchmarks scenarios.
 
 #### Deliverables
+- Github PRs:
+  - [Github PR: Multiple consumers #35](https://github.com/vacp2p/status-benchmarks/pull/35)
+  - [Github PR: Logger adjustments #37](https://github.com/vacp2p/status-benchmarks/pull/37)
+- Documents:
+  - [Notion: Status-light and nWaku filter](https://www.notion.so/Status-light-and-nWaku-filter-2858f96fb65c8019ac2af3a84c688d68)

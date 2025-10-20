@@ -10,6 +10,7 @@ from identity import derive_identity, validate_identity
 from issues import ValidationIssue
 from paths import should_skip
 from tasks import TaskReport, parse_tasks
+from template_checks import validate_template_adherence
 
 
 def parse_front_matter(lines: List[str]) -> Tuple[dict, int]:
@@ -79,6 +80,14 @@ def validate_file(path: Path) -> List[ValidationIssue]:
         expected_base = identity.expected_base
 
     section = find_task_section(lines, body_start)
+    issues.extend(
+        validate_template_adherence(
+            path=path,
+            lines=lines,
+            body_start=body_start,
+            task_section=section,
+        )
+    )
     if not section:
         issues.append(ValidationIssue(path, None, "missing `## Task List` section"))
         return issues

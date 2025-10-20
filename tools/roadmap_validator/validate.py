@@ -9,6 +9,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Iterable, List, Optional, Sequence
 from paths import REPO_ROOT, resolve_targets
+from catalog import validate_catalog
 from validator import validate_file
 from issues import ValidationIssue
 
@@ -88,6 +89,8 @@ def run_validator(
     for file_path in files:
         all_issues.extend(validate_file(file_path))
 
+    all_issues.extend(validate_catalog(files))
+
     if all_issues:
         emit_github_annotations(all_issues)
         for issue in sorted(all_issues, key=lambda i: (str(_relpath(i.path)), i.line or 0, i.message)):
@@ -117,7 +120,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
 
-    raw_targets = args.paths or DEFAULT_TARGETS
+    raw_targets = list(args.paths) or [DEFAULT_TARGETS]
 
     substring_filters: List[str] = []
     filtered_targets: List[str] = []
@@ -128,7 +131,7 @@ def main(argv: Optional[List[str]] = None) -> int:
             filtered_targets.append(entry)
 
     if not filtered_targets:
-        filtered_targets = DEFAULT_TARGETS
+        filtered_targets = [DEFAULT_TARGETS]
 
     required_substrings: Optional[List[str]] = substring_filters or None
 

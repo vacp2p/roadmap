@@ -34,7 +34,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:draft-RFC`
 * owner: Arunima
-* status: started (%5)
+* status: started (%10)
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 
@@ -54,7 +54,7 @@ as a pull request by incorporating review feedback.
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:registrar-module`
 * owner: Arunima
-* status: started
+* status: started (%0)
 * start-date: 2025/10/20
 * end-date: 2025/10/27
 

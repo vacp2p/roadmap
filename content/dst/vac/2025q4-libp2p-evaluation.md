@@ -76,6 +76,7 @@ and ensure they don't happen again.
 
 #### Deliverables
 * Analysis:
+  * [Notion: Nim-libp2p 1.14.0 Report](https://www.notion.so/Nim-libp2p-v1-14-0-regression-testing-October-2025-28d8f96fb65c803ba789ccdb73753cab)
 
 
 ### Universal connectivity

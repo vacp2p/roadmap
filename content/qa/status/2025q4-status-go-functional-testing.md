@@ -43,7 +43,7 @@ TODO! This taks will need to be broken down into smaller task once we have more 
 
 * fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:settings`
 * owner: aya
-* status: in progress (40%)
+* status: in progress (70%)
 * start-date: 2025/10/01
 * end-date: 2025/10/20
 
@@ -57,7 +57,7 @@ Add functional test coverage to settings features.
 
 * fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:waku`
 * owner: fbarbu15
-* status: in progress (25%)
+* status: in progress (35%)
 * start-date: 2025/10/01
 * end-date: 2025/12/01
 
@@ -71,6 +71,8 @@ as outlined in this [epic](https://github.com/status-im/status-go/issues/6064).
 - [test: community membership requests](https://github.com/status-im/status-go/pull/6977)
 - [bug: displayName is ignored for wakuext_createCommunityChat](https://github.com/status-im/status-go/issues/6985)
 - [test: community chats](https://github.com/status-im/status-go/pull/6987)
+- [bug: Inconsistent replied_at timestamp format in GetVerificationRequestSentTo response](https://github.com/status-im/status-go/issues/6995)
+- [test: contact verification](https://github.com/status-im/status-go/pull/6997)
 
 ### Emoji reactions
 

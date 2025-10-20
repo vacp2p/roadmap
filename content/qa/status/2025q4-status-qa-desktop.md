@@ -27,7 +27,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (10%)
+* status: in progress (15%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -42,6 +42,7 @@ Oversee testing strategy around releases.
 - [chore: Optimize code usage](https://github.com/status-im/status-desktop/pull/18980)
 - [bug: Cover language selector in e2e](https://github.com/status-im/status-desktop/issues/18983)
 - [feat: replace old transfer detector](https://github.com/status-im/status-desktop/pull/18924)
+- [chore(@e2e): improvement to object definition](https://github.com/status-im/status-desktop/pull/19047)
 
 ---
 
@@ -49,7 +50,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:release-testing`
 * owner: nastya
-* status: not started
+* status: in progress (5%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -57,7 +58,9 @@ Oversee testing strategy around releases.
 - Support releases **2.36** and **2.37** with testing.
 
 #### Deliverables
-- PRs / Issues
+- [tested: Enter seed phrase component refactored according to new design](https://github.com/status-im/status-desktop/pull/19004)
+- [bug: Application login is incredibly slow](https://github.com/status-im/status-desktop/issues/19019)
+- [tested: chore: fix some undefined references](https://github.com/status-im/status-desktop/pull/19022)
 
 ---
 
@@ -81,7 +84,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:e2e-windows`
 * owner: nastya
-* status: in progress(50%)
+* status: done
 * start-date: 2025/10/07
 * end-date: 2025/10/31
 

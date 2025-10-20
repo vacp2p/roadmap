@@ -133,7 +133,7 @@ Perform a comparison between nim-libp2p using quic and waku using mplex and yamu
 
 * fully qualified name: `vac:dst:ift:2025q4-libp2p-evaluation:mix-in-nim-libp2p-node`
 * owner: Farooq
-* status: 75%
+* status: 90%
 * start-date: 2025/10/06
 * end-date: 2025/10/17
 

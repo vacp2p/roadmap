@@ -150,7 +150,7 @@ include mix to the configuration options of the node.
 
 * fully qualified name: `vac:dst:ift:2025q4-libp2p-evaluation:go-libp2p-node`
 * owner: Farooq
-* status: 0%
+* status: 60%
 * start-date: 2025/10/06
 * end-date: 2025/10/24
 

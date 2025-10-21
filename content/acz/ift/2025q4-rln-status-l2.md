@@ -43,7 +43,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:maintaining`
 * owner: Sylvain
-* status: not started
+* status: in progress (10%)
 * start-date: 2025/10/01
 * end-date: 2025/02/30
 
@@ -58,7 +58,7 @@ including CI updates and the creation of future issues.
 
 * fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:multi-tree`
 * owner: Sylvain
-* status: started (15%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/10/15
 
@@ -80,15 +80,15 @@ handle up to 32M users across multiple trees with proper data management and per
 
 ### Deliverables
 
-* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+* A set of [PRs](https://github.com/vacp2p/status-rln-prover/pull/49) and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
 
 ### Gas checking support
 
 * fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:gascheck`
 * owner: Sylvain
-* status: not started 
-* start-date: 
-* end-date: 
+* status: done 
+* start-date: 2025/10/15
+* end-date: 2025/10/20
 
 ### Description
 
@@ -108,7 +108,7 @@ and quota values, ensuring accurate user limit tracking.
 
 ### Deliverables
 
-* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+* A set of [PRs](https://github.com/vacp2p/status-rln-prover/pull/51) and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
 
 ### Monorepo Review
 
@@ -153,15 +153,15 @@ correctly identifies the corresponding user, and reliably removes their commitme
 
 ### Deliverables
 
-* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+* A set of [PRs](https://github.com/vacp2p/status-rln-prover/pull/52) and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
 
 ### Multi-prover with shared Database
 
 * fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:shared-db`
 * owner: Sylvain
-* status: not started 
-* start-date: 
-* end-date: 
+* status: in progress (%0) 
+* start-date: 2025/10/20
+* end-date: 2025/11/20
 
 ### Description
 
@@ -193,7 +193,7 @@ The findings and feedback will be reflected in the RLN specification.
 
 * fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:rln-public-website`
 * owner: Ugur
-* status: not started 
+* status: in progress (50%) 
 * start-date: 2025/10/13
 * end-date: 2025/11/03
 

@@ -34,7 +34,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:draft-RFC`
 * owner: Arunima
-* status: started (%5)
+* status: in progress (10%)
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 
@@ -54,7 +54,7 @@ as a pull request by incorporating review feedback.
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:registrar-module`
 * owner: Arunima
-* status: started
+* status: in progress (0%)
 * start-date: 2025/10/20
 * end-date: 2025/10/27
 
@@ -78,7 +78,7 @@ with the network under enforced admission control rules.
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:advertiser-module`
 * owner: Arunima
-* status: started
+* status: not started
 * start-date: 2025/10/27
 * end-date: 2025/11/03
 
@@ -101,7 +101,7 @@ updated, and distributed correctly through the routing layer.
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:discoverer-module`
 * owner: Arunima
-* status: started
+* status: not started
 * start-date: 2025/11/03
 * end-date: 2025/11/10
 
@@ -125,7 +125,7 @@ return accurate and timely results for active advertisements.
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:integration-validation`
 * owner: Arunima
-* status: started
+* status: not started
 * start-date: 2025/11/10
 * end-date: 2025/11/24
 

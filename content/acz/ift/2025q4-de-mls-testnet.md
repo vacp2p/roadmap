@@ -47,7 +47,7 @@ to apply for EF grants to promote the project and gain support from the Ethereum
 
 * fully qualified name: `vac:acz:ift:2025q4-de-mls-tesnet:multi-steward-rfc`
 * owner: Ugur
-* status: started (15%)
+* status: in progress (15%)
 * start-date: 2025/10/25
 * end-date: 2025/11/25
 
@@ -64,7 +64,7 @@ The RFC needs to contain a concrete flow and explanation.
 
 * fully qualified name: `vac:acz:ift:2025q4-de-mls-tesnet:multi-steward-integration`
 * owner: Ekaterina
-* status: started (5%)
+* status: in progress (5%)
 * start-date: 2025/10/01
 * end-date: 2025/11/01
 

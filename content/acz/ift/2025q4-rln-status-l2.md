@@ -43,7 +43,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:maintaining`
 * owner: Sylvain
-* status: started (10%)
+* status: in progress (10%)
 * start-date: 2025/10/01
 * end-date: 2025/02/30
 
@@ -159,7 +159,7 @@ correctly identifies the corresponding user, and reliably removes their commitme
 
 * fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:shared-db`
 * owner: Sylvain
-* status: started (%0) 
+* status: in progress (%0) 
 * start-date: 2025/10/20
 * end-date: 2025/11/20
 
@@ -193,7 +193,7 @@ The findings and feedback will be reflected in the RLN specification.
 
 * fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:rln-public-website`
 * owner: Ugur
-* status: started (50%) 
+* status: in progress (50%) 
 * start-date: 2025/10/13
 * end-date: 2025/11/03
 

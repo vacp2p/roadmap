@@ -37,7 +37,7 @@ and introduced into the ecosystem.
 ### Zk Consulting Nomos 1
 * fully qualified name: `vac:acz:nomos:2025q4-nomos-consulting:zk-consulting-nomos-1`
 * owner: Marvin
-* status: started (10%)
+* status: in progress (10%)
 * start-date: 2025/10/13
 * end-date: 2025/10/27
 

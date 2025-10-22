@@ -163,13 +163,6 @@ def parse_tasks(
             in_deliverables = False
             continue
 
-        meta_match = META_LINE_RE.match(stripped)
-        if meta_match:
-            field_key = meta_match.group(1).strip().lower().replace("_", " ")
-            value = meta_match.group(2)
-            current.record_metadata(field_key, value, idx + 1)
-            continue
-
         if in_description:
             if stripped:
                 current.description_lines += 1
@@ -185,6 +178,13 @@ def parse_tasks(
                 if stripped != "---":
                     current.deliverables_items += 1
                     current.deliverables_texts.append((stripped, idx + 1))
+            continue
+
+        meta_match = META_LINE_RE.match(stripped)
+        if meta_match:
+            field_key = meta_match.group(1).strip().lower().replace("_", " ")
+            value = meta_match.group(2)
+            current.record_metadata(field_key, value, idx + 1)
             continue
 
         if stripped and TODO_RE.search(stripped):

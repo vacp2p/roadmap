@@ -37,5 +37,6 @@ python tools/roadmap_validator/validate.py qa/waku dst rfc/nomos
 ## Development Notes
 - Validation logic lives under `tools/roadmap_validator/`.
 - Catalog-specific checks are implemented in `catalog.py`.
+- Template enforcement lives in `templates.py`.
 - Add unit tests or new checks in `tasks.py`, `identity.py`, or `validator.py`.
 - Keep CLI changes backwards compatible, as the workflow depends on them.

@@ -5,12 +5,11 @@ from typing import List, Optional, Tuple
 
 import yaml
 
-from constants import REQUIRED_FRONT_MATTER_KEYS
 from identity import derive_identity, validate_identity
 from issues import ValidationIssue
 from paths import should_skip
 from tasks import TaskReport, parse_tasks
-from template_checks import validate_template_adherence
+from templates import TemplateValidator
 
 
 def parse_front_matter(lines: List[str]) -> Tuple[dict, int]:
@@ -32,28 +31,6 @@ def parse_front_matter(lines: List[str]) -> Tuple[dict, int]:
     return data, end_idx + 1
 
 
-def validate_front_matter(path: Path, data: dict) -> List[ValidationIssue]:
-    issues: List[ValidationIssue] = []
-    for key in REQUIRED_FRONT_MATTER_KEYS:
-        if key not in data or data[key] in (None, "", []):
-            issues.append(ValidationIssue(path, 1, f"missing `{key}` in front matter"))
-    if "tags" in data and not isinstance(data["tags"], (list, tuple)):
-        issues.append(ValidationIssue(path, 1, "`tags` must be a list"))
-    return issues
-
-
-def find_task_section(lines: List[str], start: int) -> Optional[Tuple[int, int]]:
-    for idx in range(start, len(lines)):
-        if lines[idx].strip().lower() == "## task list":
-            end = len(lines)
-            for j in range(idx + 1, len(lines)):
-                if lines[j].startswith("## "):
-                    end = j
-                    break
-            return idx + 1, end
-    return None
-
-
 def validate_file(path: Path) -> List[ValidationIssue]:
     if should_skip(path):
         return []
@@ -67,8 +44,6 @@ def validate_file(path: Path) -> List[ValidationIssue]:
     except Exception as exc:  # pragma: no cover - defensive guard
         return [ValidationIssue(path, 1, f"failed to parse front matter: {exc}")]
 
-    issues.extend(validate_front_matter(path, front_matter))
-
     identity, identity_issues = derive_identity(path)
     issues.extend(identity_issues)
 
@@ -79,20 +54,15 @@ def validate_file(path: Path) -> List[ValidationIssue]:
         )
         expected_base = identity.expected_base
 
-    section = find_task_section(lines, body_start)
-    issues.extend(
-        validate_template_adherence(
-            path=path,
-            lines=lines,
-            body_start=body_start,
-            task_section=section,
-        )
-    )
-    if not section:
+    template_validator = TemplateValidator(path=path, lines=lines, body_start=body_start, front_matter=front_matter)
+    template_issues = template_validator.run()
+    issues.extend(template_issues)
+
+    if template_validator.task_section is None:
         issues.append(ValidationIssue(path, None, "missing `## Task List` section"))
         return issues
 
-    start, end = section
+    start, end = template_validator.task_section
     tasks: List[TaskReport] = parse_tasks(lines, start, end, expected_base)
     if not tasks:
         issues.append(ValidationIssue(path, None, "no tasks found under `## Task List`"))

@@ -39,6 +39,21 @@ We will also strengthen the Premier Research Destination narrative by:
 
 ## Task List
 
+### Finalizing the RLN deployment spec
+
+* fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:rln-spec-final`
+* owner: Sylvain
+* status: in progress (0%)
+* start-date: 2025/10/22
+* end-date: 2025/11/03
+
+#### Description
+This task encompasses finalizing the RLN deployment spec with all its edge cases
+and ready to the final implementation.
+
+#### Deliverables
+* A notion doc.
+
 ### Prover Module maintaining
 
 * fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:maintaining`
@@ -160,8 +175,8 @@ correctly identifies the corresponding user, and reliably removes their commitme
 * fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:shared-db`
 * owner: Sylvain
 * status: in progress (%0) 
-* start-date: 2025/10/20
-* end-date: 2025/11/20
+* start-date: 2025/11/03
+* end-date: 2025/11/30
 
 ### Description
 

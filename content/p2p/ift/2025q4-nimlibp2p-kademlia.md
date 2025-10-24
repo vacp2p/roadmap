@@ -23,12 +23,13 @@ This deliverable continues the work started in 2025q2
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-kad-dht:routing-and-rpc`
 * owner: gabe/rramos
 * status: 75%
-* start-date: 2025-04-08
-* end-date:
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Implement Kademlia’s XOR-based routing table with bucket management. Define RPC messages (`PING`, `SET_VALUE`, `GET_VALUE`, `ADD_PROVIDERS`, `GET_PROVIDERS`, `FIND_NODE`) for node communication.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - [vacp2p/nim-libp2p#1454](https://github.com/vacp2p/nim-libp2p/pull/1454) feat(kad-dht): routing table
 - [vacp2p/nim-libp2p#1453](https://github.com/vacp2p/nim-libp2p/pull/1453) feat(kad-dht): protobuffers
@@ -39,14 +40,15 @@ Implement Kademlia’s XOR-based routing table with bucket management. Define RP
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:bootstraping-and-lookup`
 * owner: rramos
-* status: 100%
-* start-date: 2025-05-05
-* end-date: 2025-08-18
+* status: in progress(100%)
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Enable nodes to join the network via bootstrap peers. Implement iterative lookup for efficient key
 discovery and retrieval 
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - [vacp2p/nim-libp2p#1624](https://github.com/vacp2p/nim-libp2p/pull/1624) feat(kad-dht): findPeer
 
@@ -55,14 +57,15 @@ discovery and retrieval
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:network-maintenance-node-management`
 * owner:
-* status: 50%
-* start-date: 2025-10-08
-* end-date:
+* status: in progress(50%)
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Handle bucket refresh, node eviction, and periodic pings to maintain an active routing table. 
 Implement bucket splitting and adaptive refresh strategies.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - [vacp2p/nim-libp2p#1746](https://github.com/vacp2p/nim-libp2p/pull/1746) chore(kad): routing table eviction policy
 
@@ -71,14 +74,15 @@ Implement bucket splitting and adaptive refresh strategies.
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:data-storage`
 * owner: gabe
-* status: 90%
-* start-date: 2025-07-28
-* end-date:
+* status: in progress(90%)
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Implement the logic for `SET_VALUE` and `ADD_PROVIDERS`. Store key-value pairs with expiration and replication mechanisms. 
 Ensure values persist despite churn, using periodic re-publication and redundancy strategies
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - [vacp2p/nim-libp2p#1582](https://github.com/vacp2p/nim-libp2p/pull/1582) feat(kad): Initial unstable putval api
 - [vacp2p/nim-libp2p#1749](https://github.com/vacp2p/nim-libp2p/pull/1749) chore(kad): tidy up putVal 
@@ -90,13 +94,14 @@ Ensure values persist despite churn, using periodic re-publication and redundanc
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:data-retrieval`
 * owner: gabe
-* status: 60%
-* start-date: 2025-07-28
-* end-date:
+* status: in progress(60%)
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Implement the logic for `GET_VALUE` and `GET_PROVIDERS`. Implement validation and quorum mechanisms for queries
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - [vacp2p/nim-libp2p#1764](https://github.com/vacp2p/nim-libp2p/pull/1764) chore(kad): add alpha handling
 - [vacp2p/nim-libp2p#1750](https://github.com/vacp2p/nim-libp2p/pull/1750) feat(kad): add getValue
@@ -106,25 +111,26 @@ Implement the logic for `GET_VALUE` and `GET_PROVIDERS`. Implement validation an
 ### Discovery
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:discovery`
 * owner: gabe
-* status: 0%
-* start-date:
-* end-date:
+* status: in progress(15%)
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Extend nim-libp2p discovery mechanism by providing a discovery interface that will use Kademlia DHT to advertise nodes and find peers
 
 #### Deliverables
-
+PRs
 
 
 ### Interop
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:interop`
 * owner: gabe
-* status: 0%
-* start-date:
-* end-date:
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Ensure interop is achieved between nim-libp2p's kad-dht implementation and other libp2p implementations
 
 #### Deliverables
+PRs

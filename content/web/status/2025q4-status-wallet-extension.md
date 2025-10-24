@@ -60,8 +60,8 @@ The Status Wallet Extension will support Status' strategic objectives by:
 * fully qualified name: <`fully qualified task name`>
 * owner: <github/disord name of the CC responsible for this task>
 * status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 
 ### Token proxy
@@ -69,6 +69,6 @@ The Status Wallet Extension will support Status' strategic objectives by:
 * fully qualified name: <`fully qualified task name`>
 * owner: <github/disord name of the CC responsible for this task>
 * status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 

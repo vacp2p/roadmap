@@ -25,8 +25,8 @@ Deliver a minimal set of c-bindings around nim-libp2p core. The bindings should 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-cbindings:core`  
 * owner:  
 * status: not started  
-* start-date:  
-* end-date:  
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### description
 Implement and test c-bindings for core nim-libp2p functionality. Exported functions must include:  
@@ -38,6 +38,7 @@ Implement and test c-bindings for core nim-libp2p functionality. Exported functi
 - read/write stream  
 - close stream  
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Static c library build artifact  
 - Header file exposing ffi-safe api  
@@ -51,8 +52,8 @@ Implement and test c-bindings for core nim-libp2p functionality. Exported functi
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-cbindings:kademlia`  
 * owner:  
 * status:  
-* start-date:  
-* end-date:  
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### description
 Extend c-bindings to expose Kademlia functionality. This task depends on `vac:p2p:ift:2025q4-nimlibp2p-kad-dht`.
@@ -61,6 +62,7 @@ Exported functions must include:
 - Find Node / Put Value / Get Value / Set Providers / Get Providers 
 - Discovery
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### deliverables
 - Updated c header + library with kademlia api  
 - Tests verifying kademlia behavior via ffi
@@ -73,8 +75,8 @@ Exported functions must include:
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-cbindings:gossipsub`  
 * owner:  
 * status:  
-* start-date:  
-* end-date:  
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### description
 Extend c-bindings to expose Gossipsub Functionality. Exported functions must include:  
@@ -82,6 +84,7 @@ Extend c-bindings to expose Gossipsub Functionality. Exported functions must inc
 - publish/subscribe  
 - add/remove validators  
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### deliverables
 - Updated c header + library with gossipsub api  
 - Tests verifying pub/sub behavior via ffi
@@ -93,12 +96,13 @@ Extend c-bindings to expose Gossipsub Functionality. Exported functions must inc
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-cbindings:custom-protocols`  
 * owner:  
 * status:  
-* start-date:  
-* end-date:  
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Provide FFI to register and handle custom protocols from c, enabling downstream applications to define custom behaviors.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - FFI API for custom protocol registration  
 - Example implementation + tests

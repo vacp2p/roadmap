@@ -49,22 +49,22 @@ The Keycard website's content will support IFT's strategic objectives by:
 * fully qualified name: `vac:web:keycard:2025q4-keycard-website:i18n`
 * owner: felicio 
 * status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 ### Help
 
 * fully qualified name: `vac:web:keycard:2025q4-keycard-docs:help`
 * owner: jkbktl
 * status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 ### Start Guide
 
 * fully qualified name: `vac:web:keycard:2025q4-keycard-docs:start-guide`
 * owner: jkbktl
 * status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 

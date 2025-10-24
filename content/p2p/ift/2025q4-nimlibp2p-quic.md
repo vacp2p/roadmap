@@ -26,11 +26,12 @@ In Q3 we discovered critical deficiencies in nim-quic, including runtime instabi
 * owner: vlado/rramos
 * status: started
 * start-date: 2025/10/01
-* end-date:
+* end-date: 2025/12/31
 
 #### Description
 Resolve runtime crashes, race conditions and excessive memory use in nim-quic. Target outcome is that quic can be enabled and run stably in both nimbus and waku test environments.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 
 
@@ -46,6 +47,7 @@ Resolve runtime crashes, race conditions and excessive memory use in nim-quic. T
 #### Description
 Replace the openssl dependency in nim-quic and related libraries with BoringSSL or AWS-LC. The goal is to reduce the need of runtime dependencies by statically linking any of these libraries
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - [vacp2p/nim-ngtcp2#22](https://github.com/vacp2p/nim-ngtcp2/pull/22) feat: compile boringssl using assembly files (except windows)
 - [vacp2p/nim-ngtcp2#21](https://github.com/vacp2p/nim-ngtcp2/pull/21) feat: replace picotls by BoringSSL

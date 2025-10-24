@@ -46,13 +46,14 @@ by making sure we’re open, accessible, and continuously learning from each oth
 * fully qualified name: `vac:dst:ift:2025q4-dst-research-destination:ethereum-foundation`
 * owner: Alberto
 * status: recurring
-* start-date: 2025-10-01
-* end-date: 2025-12-31
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 Apply for an EF grant through the [Project Grants](https://esp.ethereum.foundation/applicants/project-grants).
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 
 
@@ -61,13 +62,13 @@ Apply for an EF grant through the [Project Grants](https://esp.ethereum.foundati
 * fully qualified name: `vac:dst:ift:2025q4-dst-research-destination:forum-post`
 * owner: Alberto
 * status: recurring
-* start-date: 2025-10-01
-* end-date: 2025-12-31
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 ### Public reports (recurring)
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-research-destination:public-reports`
 * owner: Alberto
 * status: recurring
-* start-date: 2025-10-01
-* end-date: 2025-12-31
+* start-date: 2025/10/01
+* end-date: 2025/12/31

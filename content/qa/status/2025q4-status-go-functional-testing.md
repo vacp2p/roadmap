@@ -91,14 +91,15 @@ as outlined [here](https://github.com/status-im/status-desktop/issues/18822)
 * fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:reliability-communities`
 * owner: fbarbu15
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 - R1. When sending a message in a group, the publisher can ascertain the message was received by at least one recipient.
 - R2. When receiving messages in a group, the receiver can ascertain most missed messages by receiving one recent message from the group.
 - See [Waku FURPS](https://github.com/waku-org/pm/blob/2025H2/draft-roadmap/introduce_e2e_reliability_in_status.md?plain=1#L40)
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 * PRs with the new tests
 

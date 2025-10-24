@@ -62,8 +62,8 @@ and especially those we want to work with externally.
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:regression-testing`
 * owner: Alberto
 * status: recurring
-* start-date: 2025-10-01
-* end-date: 2025-12-31
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Run different scenarios
@@ -74,6 +74,7 @@ Test for known regressions
 that have occurred in the past
 and ensure they don't happen again.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 * Analysis:
   * [Notion: Nim-libp2p 1.14.0 Report](https://www.notion.so/Nim-libp2p-v1-14-0-regression-testing-October-2025-28d8f96fb65c803ba789ccdb73753cab)
@@ -84,13 +85,14 @@ and ensure they don't happen again.
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:universal-connectivity`
 * owner: Alberto
 * status: -
-* start-date:
-* end-date:
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Help p2p team running scenarios with universal connectivity app
 and checking functionality with other libp2p implementations.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 * PRs:
 * Report:
@@ -101,13 +103,14 @@ and checking functionality with other libp2p implementations.
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:quic-vs-tcp`
 * owner: TBD
 * status: 0%
-* start-date:
-* end-date:
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 Perform a comparison between nim-libp2p using quic and waku using mplex and yamux.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Reports:
 - Related PRs if apply:
@@ -117,13 +120,14 @@ Perform a comparison between nim-libp2p using quic and waku using mplex and yamu
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:interop-framework`
 * owner: TBD
 * status: 0%
-* start-date:
-* end-date:
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 Perform a comparison between nim-libp2p using quic and waku using mplex and yamux.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Reports:
 - Related PRs if apply:

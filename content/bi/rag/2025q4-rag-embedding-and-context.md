@@ -22,13 +22,14 @@ Improve RAG embedding by includind crypto context.
 * fully qualified name: `vac:bi:rag:2025q4-rag-embedding-improvment`
 * owner: nickninov
 * status: In Progress
-* start-date: 16/09/2025
-* end-date:
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 https://github.com/status-im/data-docs/issues/89
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 
 * New embedding model for the RAG pipeline to include blockchain context.
@@ -40,14 +41,15 @@ https://github.com/status-im/data-docs/issues/89
 * fully qualified name: `vac:bi:rag:2025q4-rag-embedding-named-entity-recognition`
 * owner: nickninov
 * status: todo
-* start-date: 01/09/2025
-* end-date:
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 
 #### Description
 
 https://github.com/status-im/data-docs/issues/81
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 
 * Dataset of terminology to include

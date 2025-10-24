@@ -51,13 +51,14 @@ through performance insights during the drafting process.
 * fully qualified name: `-`
 * owner: -
 * status: -
-* start-date: -
-* end-date: -
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 To have: Vac-DST: status-backend benchmarks
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Code: 
 - Report:
@@ -70,8 +71,8 @@ To have: Vac-DST: status-backend benchmarks
 * fully qualified name: `vac:dst:waku:2025q4-waku-scaling:optimise-browser-bootstrapping`
 * owner: Pearson
 * status: 0%
-* start-date: 2025-10-15
-* end-date: 2025-10-31
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
@@ -85,6 +86,7 @@ after disconnection; in a network with 1 bootstrap node,
 messages within 5 seconds; in a network with 1 bootstrap
 node, 100 service nodes and 500 browser nodes.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Code: 
 - Report:
@@ -99,8 +101,8 @@ node, 100 service nodes and 500 browser nodes.
 * fully qualified name: `-`
 * owner: -
 * status: -
-* start-date: -
-* end-date: -
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
@@ -109,6 +111,7 @@ Waku estimated date of completion: 30 June
 Vac-DST to complete go-waku-based benchmark works and proceed with
 nwaku-based vs go-waku-based status-backend comparisons.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Code: 
 - Report:
@@ -123,8 +126,8 @@ nwaku-based vs go-waku-based status-backend comparisons.
 * fully qualified name: `-`
 * owner: -
 * status: -
-* start-date: -
-* end-date: -
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Waku estimated date of completion: 31 Aug
@@ -138,6 +141,7 @@ recipient within `S` seconds
 can detect 90% of missed messages within `3*S` seconds
 
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Code:
 - Report:
@@ -153,8 +157,8 @@ can detect 90% of missed messages within `3*S` seconds
 * fully qualified name: `-`
 * owner: -
 * status: -
-* start-date: -
-* end-date: -
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Waku estimated date of completion: 31 Aug 2025
@@ -163,6 +167,7 @@ Prove that:
 - When receiving messages in group, the receiver can 
 - reach eventual consistency within `6*S` seconds
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Code:
 - Report:

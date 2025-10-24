@@ -25,13 +25,14 @@ Build Dashboard containing the overview of the Program activity:
 * fully qualified name: `vac:bi:ift:2025q4-ift-program-dashboard`
 * owner: 
 * status: todo
-* start-date:
-* end-date:
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 https://github.com/status-im/data-docs/issues/75
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 
 * Dashboard for all projects

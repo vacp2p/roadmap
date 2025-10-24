@@ -21,12 +21,13 @@ Extract and build dashboard for X Spaces
 * fully qualified name: `vac:bi:comm:2025q4-comm-x-spaces-analytics`
 * owner: c200bzh
 * status: In Progress
-* start-date: 06/08/2025
-* end-date: 
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 https://github.com/status-im/
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 

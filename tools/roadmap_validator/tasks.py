@@ -143,7 +143,7 @@ def parse_tasks(
         if stripped.lower().startswith("#### "):
             in_description = False
             in_deliverables = False
-            section_title = stripped[4:].strip().lower()
+            section_title = stripped[4:].strip().lower().rstrip(":")
             if section_title == "description":
                 current.had_description = True
                 current.description_line = idx + 1

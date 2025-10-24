@@ -22,7 +22,7 @@ Extract the transcript from Youtube video to use it for RAG context and other po
 
 * fully qualified name: `vac:bi:rag:2025q4-rag-context-code`
 * owner: nickninov
-* status: In Progress
+* status: in progress (5%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -40,7 +40,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:bi:rag:2025q4-rag-context-google-meet`
 * owner: nickninov
-* status: In Progress
+* status: in progress (5%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

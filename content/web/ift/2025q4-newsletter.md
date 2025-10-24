@@ -42,6 +42,6 @@ The Logos newsletter will support Logos' strategic objectives by:
 
 * fully qualified name: `vac:web:ift:2025q4-newsletter:newsletter`
 * owner: Jamie
-* status: 0%
+* status: not started
 * start-date: 2025/09/20
 * end-date: 2025/10/31

@@ -61,7 +61,7 @@ and especially those we want to work with externally.
 
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:regression-testing`
 * owner: Alberto
-* status: recurring
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -84,7 +84,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:universal-connectivity`
 * owner: Alberto
-* status: -
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -102,7 +102,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:quic-vs-tcp`
 * owner: TBD
-* status: 0%
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -119,7 +119,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:interop-framework`
 * owner: TBD
-* status: 0%
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

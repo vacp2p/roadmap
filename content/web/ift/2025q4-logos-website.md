@@ -82,7 +82,7 @@ The Logos website will support the volunteer-driven community building strategy 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
 * owner: jinhojang6
-* status: 50%
+* status: in progress (50%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -90,7 +90,7 @@ The Logos website will support the volunteer-driven community building strategy 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
 * owner: jinhojang6
-* status: 50%
+* status: in progress (50%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -98,7 +98,7 @@ The Logos website will support the volunteer-driven community building strategy 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
 * owner: 0xbathang
-* status: 50%
+* status: in progress (50%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -106,7 +106,7 @@ The Logos website will support the volunteer-driven community building strategy 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
 * owner: jinhojang6
-* status: 50%
+* status: in progress (50%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -114,7 +114,7 @@ The Logos website will support the volunteer-driven community building strategy 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:seo`
 * owner: jinhojang6
-* status: 50%
+* status: in progress (50%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -122,7 +122,7 @@ The Logos website will support the volunteer-driven community building strategy 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:documentation`
 * owner: jinhojang6
-* status: 20%
+* status: in progress (20%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -130,7 +130,7 @@ The Logos website will support the volunteer-driven community building strategy 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:circles-map`
 * owner: jinhojang6
-* status: 0%
+* status: not started
 * start-date: 2025/10/20
 * end-date: 2025/11/14
 
@@ -138,7 +138,7 @@ The Logos website will support the volunteer-driven community building strategy 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:spaces-calendar`
 * owner: jinhojang6
-* status: 0%
+* status: not started
 * start-date: 2025/10/20
 * end-date: 2025/11/14
 
@@ -146,7 +146,7 @@ The Logos website will support the volunteer-driven community building strategy 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:data-visualization`
 * owner: jackewing
-* status: 50%
+* status: in progress (50%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -154,7 +154,7 @@ The Logos website will support the volunteer-driven community building strategy 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:ctas`
 * owner: jinhojang6
-* status: 20%
+* status: in progress (20%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -173,7 +173,7 @@ The Logos website will support the volunteer-driven community building strategy 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:blog`
 * owner: JulesFiliot
-* status: 60%
+* status: in progress (60%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -181,7 +181,7 @@ The Logos website will support the volunteer-driven community building strategy 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:search`
 * owner: JulesFiliot
-* status: 0%
+* status: not started
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -189,7 +189,7 @@ The Logos website will support the volunteer-driven community building strategy 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:external-references`
 * owner: jinhojang6
-* status: 0%
+* status: not started
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -201,7 +201,7 @@ The Logos website will support the volunteer-driven community building strategy 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:social-proof`
 * owner: JulesFiliot
-* status: 70%
+* status: in progress (70%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 

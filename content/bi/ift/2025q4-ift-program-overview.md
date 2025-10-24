@@ -24,7 +24,7 @@ Build Dashboard containing the overview of the Program activity:
 
 * fully qualified name: `vac:bi:ift:2025q4-ift-program-dashboard`
 * owner: 
-* status: todo
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

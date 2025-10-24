@@ -49,7 +49,7 @@ reinforcing cross project collaboration.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:general-tooling`
 * owner: Alberto
-* status: recurring
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -70,7 +70,7 @@ Should be made general when possible.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:general-log-parser`
 * owner: Alberto
-* status: 0%
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -97,7 +97,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:scenario-workflow-manager`
 * owner: TBD
-* status: 0%
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -123,7 +123,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:local-stack-analysis`
 * owner: TBD
-* status: 0%
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

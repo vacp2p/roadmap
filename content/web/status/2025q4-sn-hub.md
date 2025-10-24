@@ -47,7 +47,7 @@ The Status Network Hub will support Status Network's strategic objectives by:
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:wallet-connect`
 * owner: jkbktl
-* status: 70%
+* status: in progress (70%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
@@ -55,7 +55,7 @@ The Status Network Hub will support Status Network's strategic objectives by:
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:staking`
 * owner: nnachionuwa
-* status: 60%
+* status: in progress (60%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
@@ -63,7 +63,7 @@ The Status Network Hub will support Status Network's strategic objectives by:
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:feedback`
 * owner: jkbktl
-* status: 90%
+* status: in progress (90%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
@@ -71,7 +71,7 @@ The Status Network Hub will support Status Network's strategic objectives by:
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:deposit`
 * owner: jkbktl
-* status: 10%
+* status: in progress (10%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
@@ -79,7 +79,7 @@ The Status Network Hub will support Status Network's strategic objectives by:
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:discovery`
 * owner: jkbktl
-* status: 90%
+* status: in progress (90%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
@@ -87,7 +87,7 @@ The Status Network Hub will support Status Network's strategic objectives by:
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:karma`
 * owner: jkbktl
-* status: 10%
+* status: in progress (10%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
@@ -95,7 +95,7 @@ The Status Network Hub will support Status Network's strategic objectives by:
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:notifications`
 * owner: nnachionuwa
-* status: 0%
+* status: not started
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
@@ -103,7 +103,7 @@ The Status Network Hub will support Status Network's strategic objectives by:
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:withdraw`
 * owner: jkbktl
-* status: 60%
+* status: in progress (60%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 

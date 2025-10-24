@@ -59,7 +59,7 @@ This will also help spur on outside adoption and contributions.
 
 * fully qualified name: `vac:dst:nomos:2025q4-nomos-scaling:nomos-blendnet-benchmarking`
 * owner: Alberto
-* status: 0%
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -77,7 +77,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:nomos:2025q4-nomos-scaling:nomos-da-benchmarking`
 * owner: Alberto
-* status: 0%
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -95,7 +95,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:nomos:2025q4-nomos-scaling:nomos-consumption`
 * owner: Alberto
-* status: 0%
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

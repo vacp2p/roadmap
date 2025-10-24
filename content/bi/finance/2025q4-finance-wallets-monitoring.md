@@ -40,7 +40,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:bi:finance:2025q3-finance-wallets-visualization`
 * owner: 
-* status: wait for information 
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

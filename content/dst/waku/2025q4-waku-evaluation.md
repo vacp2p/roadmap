@@ -63,7 +63,7 @@ to the Premier Research destination narrative by:
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-evaluation:regression-testing`
 * owner: Alberto
-* status: recurring
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -86,7 +86,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-evaluation:quic-vs-tcp`
 * owner: Alberto
-* status: 0%
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -104,7 +104,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-evaluation:nwaku-api-image`
 * owner: TBD
-* status: 0%
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

@@ -29,7 +29,7 @@ This commitment involves supporting the continued development of the Status App 
 
 * fully qualified name: <`fully qualified task name`>
 * owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -37,6 +37,6 @@ This commitment involves supporting the continued development of the Status App 
 
 * fully qualified name: <`fully qualified task name`>
 * owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31

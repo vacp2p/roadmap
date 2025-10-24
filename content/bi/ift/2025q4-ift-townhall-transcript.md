@@ -21,7 +21,7 @@ Extract the transcript from Youtube video to use it for RAG context and other po
 
 * fully qualified name: `vac:bi:ift:2025q4-ift-townhall-transcript`
 * owner: nickninov
-* status: In Progress
+* status: in progress (5%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

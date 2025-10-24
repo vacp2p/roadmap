@@ -36,7 +36,7 @@ identifying gaps and proposing or creating additional tests as necessary.
 
 * fully qualified name: `vac:qa:ift:2025q4-qa-rfc-sync-jswaku:relay`
 * owner: fbarbu15
-* status: 
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -57,7 +57,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:qa:ift:2025q4-qa-rfc-sync-jswaku:filter`
 * owner: fbarbu15
-* status: 
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -78,7 +78,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:qa:ift:2025q4-qa-rfc-sync-jswaku:lightpush`
 * owner: fbarbu15
-* status: 
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -99,7 +99,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:qa:ift:2025q4-qa-rfc-sync-jswaku:store`
 * owner: fbarbu15
-* status: 
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -121,7 +121,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:qa:ift:2025q4-qa-rfc-sync-jswaku:peer-exchange`
 * owner: fbarbu15
-* status: 
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

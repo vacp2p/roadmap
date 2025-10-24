@@ -45,7 +45,7 @@ by making sure we’re open, accessible, and continuously learning from each oth
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-research-destination:ethereum-foundation`
 * owner: Alberto
-* status: recurring
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -61,7 +61,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-research-destination:forum-post`
 * owner: Alberto
-* status: recurring
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -69,6 +69,6 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-research-destination:public-reports`
 * owner: Alberto
-* status: recurring
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31

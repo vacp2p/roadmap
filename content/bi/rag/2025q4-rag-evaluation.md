@@ -20,7 +20,7 @@ Setting up a evaluation process for the RAG responses of predefined questions. T
 
 * fully qualified name: `vac:bi:rag:2025q4-rag-evaluation-pipeline`
 * owner: nickninov
-* status: todo
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

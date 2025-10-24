@@ -29,7 +29,7 @@ scaling ideas, and other insights.
 
 * fully qualified name: `vac:dst:vac:2025q4-scaling-think-tank:waku-X`
 * owner: TBD
-* status:
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -42,7 +42,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:vac:2025q4-scaling-think-tank:libp2p-X`
 * owner: TBD
-* status:
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -55,7 +55,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:vac:2025q4-scaling-think-tank:nomos-X`
 * owner: TBD
-* status:
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

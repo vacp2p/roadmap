@@ -50,7 +50,7 @@ and especially those we want to work with externally.
 
 * fully qualified name: `vac:dst:status:2025q4-status-evaluation:one-to-one-outage`
 * owner: Alberto
-* status: 0%
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -83,7 +83,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:status:2025q4-status-evaluation:group-outage`
 * owner: Alberto
-* status: 0%
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

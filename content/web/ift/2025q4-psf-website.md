@@ -35,7 +35,7 @@ The PSF website will support Logos' strategic objectives by:
 
 * fully qualified name: `vac:web:ift:2025q4-psf-website:website`
 * owner: jinhojang6
-* status: 50%
+* status: in progress (50%)
 * start-date: 2025/03/04
 * end-date: 2026/10/31
 
@@ -43,7 +43,7 @@ The PSF website will support Logos' strategic objectives by:
 
 * fully qualified name: `vac:web:ift:2025q4-psf-website:ticketing`
 * owner: lou
-* status: 20%
+* status: in progress (20%)
 * start-date: 2025/03/04
 * end-date: 2026/10/31
 
@@ -51,7 +51,7 @@ The PSF website will support Logos' strategic objectives by:
 
 * fully qualified name: `vac:web:ift:2025q4-psf-website:designs`
 * owner: Beachbuum
-* status: 50%
+* status: in progress (50%)
 * start-date: 2025/03/04
 * end-date: 2026/10/31
 
@@ -59,7 +59,7 @@ The PSF website will support Logos' strategic objectives by:
 
 * fully qualified name: `vac:web:ift:2025q4-psf-website:copywriting`
 * owner: lou
-* status: 20%
+* status: in progress (20%)
 * start-date: 2025/03/04
 * end-date: 2026/10/31
 
@@ -67,7 +67,7 @@ The PSF website will support Logos' strategic objectives by:
 
 * fully qualified name: `vac:web:ift:2025q4-psf-website:ctas`
 * owner: jinhojang6
-* status: 20%
+* status: in progress (20%)
 * start-date: 2025/03/04
 * end-date: 2026/10/31
 
@@ -79,7 +79,7 @@ The PSF website will support Logos' strategic objectives by:
 
 * fully qualified name: `vac:web:ift:2025q4-psf-website:data-visualization`
 * owner: jackewing
-* status: 10%
+* status: in progress (10%)
 * start-date: 2025/03/04
 * end-date: 2026/10/31
 

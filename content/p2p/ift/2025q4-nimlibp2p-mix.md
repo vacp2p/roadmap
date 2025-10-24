@@ -42,19 +42,17 @@ Q4 as specs update was not completed
 ### Stream Reuse
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-mix:stream-reuse`
-* owner:
-* status: not started
-* start-date:
-* end-date:
+* owner: rramos
+* status: completed
+* start-date: 2025-10-13
+* end-date: 2025-10-22
 
 #### Description
 Implement long-lived stream reuse between mix nodes, by establishing a persistent stream between mix peers.
 Maintain a queue of outgoing Sphinx packets per peer, and dispatch them over the persistent stream. [vacp2p/mix#88](https://github.com/vacp2p/mix/issues/88)
 
 #### Deliverables
-- Persistent streams established between peers
-- Packet queue mechanism implemented
-- Test units
+- [vacp2p/nim-libp2p#1753](https://github.com/vacp2p/nim-libp2p/pull/1753) feat(mix): reuse streams
 
 
 ### Rate limit publishing

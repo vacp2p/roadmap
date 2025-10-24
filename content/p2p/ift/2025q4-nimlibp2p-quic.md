@@ -23,8 +23,8 @@ In Q3 we discovered critical deficiencies in nim-quic, including runtime instabi
 ### Quic Stabilization
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-quic:stabilization`
-* owner: rramos
-* status: not started
+* owner: vlado/rramos
+* status: started
 * start-date: 2025/10/01
 * end-date:
 
@@ -38,12 +38,17 @@ Resolve runtime crashes, race conditions and excessive memory use in nim-quic. T
 ### Replace OpenSSL by AWS-LC / BoringSSL
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-quic:openssl-replacement`
-* owner: 
-* status: not started
+* owner: rramos
+* status: completed
 * start-date: 2025/10/01
-* end-date:
+* end-date: 2025/10/15
 
 #### Description
 Replace the openssl dependency in nim-quic and related libraries with BoringSSL or AWS-LC. The goal is to reduce the need of runtime dependencies by statically linking any of these libraries
 
 #### Deliverables
+- [vacp2p/nim-ngtcp2#22](https://github.com/vacp2p/nim-ngtcp2/pull/22) feat: compile boringssl using assembly files (except windows)
+- [vacp2p/nim-ngtcp2#21](https://github.com/vacp2p/nim-ngtcp2/pull/21) feat: replace picotls by BoringSSL
+- [vacp2p/nim-quic#140](https://github.com/vacp2p/nim-quic/pull/140) feat: use BoringSSL
+- [vacp2p/nim-libp2p#1782](https://github.com/vacp2p/nim-libp2p/pull/1782) chore: remove libp2p_quic_support compile flag, and openssl dependency
+- [vacp2p/nim-libp2p#1761](https://github.com/vacp2p/nim-libp2p/pull/1761) feat: use BoringSSL for certificate ops

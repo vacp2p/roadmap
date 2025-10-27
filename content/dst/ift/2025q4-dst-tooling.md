@@ -64,6 +64,7 @@ Should be made general when possible.
     - [Github PR: nimlibp2p mix node deployment changes #137](https://github.com/vacp2p/10ksim/pull/137)
     - [Github PR: Mixnet analysis changes #163](https://github.com/vacp2p/10ksim/pull/163)
     - [Github PR: Allow multiple match groups for the same query in victoria_reader.py #164](https://github.com/vacp2p/10ksim/pull/164)
+    - [Github PR: Updated Readme, Dockerfile, configurations #9](https://github.com/vacp2p/dst-libp2p-test-node/pull/9)
 - Documents:
 
 ### General log parser

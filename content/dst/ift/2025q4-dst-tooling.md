@@ -142,7 +142,7 @@ Ideally it is done with Docker Desktop, or any other light Kubernetes solution.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:complete-deployment-refactor`
 * owner: Pearson
-* status: 30%
+* status: 70%
 * start-date: 2025/10/06
 * end-date: 2025/10/24
 

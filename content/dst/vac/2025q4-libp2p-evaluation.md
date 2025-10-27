@@ -165,6 +165,25 @@ Report results of a single scenario (fixed parameters) using K8s and shadow.
   - [Github PR: go-libp2p-test-node #8](https://github.com/vacp2p/dst-libp2p-test-node/pull/8)
 - Related Documents:
 
+### Go-libp2p node
+
+* fully qualified name: `vac:dst:ift:2025q4-libp2p-evaluation:rust-libp2p-node`
+* owner: Farooq
+* status: 0%
+* start-date: 2025/10/27
+* end-date: 2025/11/07
+
+#### Description
+Include rut-libp2p node to the [dst node repository](https://github.com/vacp2p/dst-libp2p-test-node).
+It should behave the same than the nim-libp2p/go-libp2p node.
+Create a small deployment with both implementations using the same publisher.
+Report results of a single scenario (fixed parameters) using K8s and shadow.
+
+#### Deliverables
+- PRs:
+- Related Documents:
+
+
 ### Webtransport ?
 
 ### KAD-DHT ?

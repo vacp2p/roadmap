@@ -17,6 +17,19 @@ Major future work items on nim-libp2p (also beyond this reporting period are cap
 
 [[p2p/preview|Roadmap Preview]]
 
+### 2025q4
+
+#### `ift:`
+* [[p2p/ift/2025q4-nimlibp2p-quic|2025q4-nimlibp2p-quic]]
+* [[p2p/ift/2025q4-nimlibp2p-kademlia|2025q4-nimlibp2p-kademlia]]
+* [[p2p/ift/2025q4-nimlibp2p-c-bindings|2025q4-nimlibp2p-c-bindings]]
+* [[p2p/ift/2025q4-nimlibp2p-ipv6|2025q4-nimlibp2p-ipv6]]
+* [[p2p/ift/2025q4-nimlibp2p-maintenance|2025q4-nimlibp2p-maintenance]]
+* [[p2p/ift/2025q4-nimlibp2p-mix|2025q4-nimlibp2p-mix]]
+* [[p2p/ift/2025q4-nimlibp2p-webtransport|2025q4-nimlibp2p-webtransport]]
+
+
+
 ### 2025q3
 
 #### `ift:`

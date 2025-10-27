@@ -45,8 +45,8 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-mix:stream-reuse`
 * owner: rramos
 * status: completed
-* start-date: 2025-10-13
-* end-date: 2025-10-22
+* start-date: 2025/10/13
+* end-date: 2025/10/22
 
 #### Description
 Implement long-lived stream reuse between mix nodes, by establishing a persistent stream between mix peers.

@@ -34,7 +34,7 @@ with focus on wallet, settings and waku methods.
 Add functional test coverage to wallet features,
 in order to catch regressions introduced by wallet backend refactoring.
 Focus on e2e scenarios that can be automated at this level.
-TODO! This taks will need to be broken down into smaller task once we have more info
+This taks will need to be broken down into smaller task once we have more info
 
 #### Deliverables
 * PRs with the new tests

@@ -31,3 +31,17 @@ such as:
 There are no concrete tasks associated to this commitment.
 As requests come in,
 they will be addressed by our team.
+
+### Contract maintenance (recurring)
+
+* fully qualified name: `vac:sc:status-l2:2025q4-maintaining-status-l2-contracts:maintenance`
+* owner: sc-team
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
+
+#### Description
+Handle inbound maintenance requests for deployed Status L2 contracts, including bug fixes and minor enhancements.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

@@ -30,4 +30,4 @@ https://github.com/status-im/
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
-
+- PRs/Issues/Docs/Reports

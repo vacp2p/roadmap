@@ -51,6 +51,8 @@ This should be done as part of the [nim-quic](https://github.com/vacp2p/nim-quic
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- PRs/Issues/Docs/Reports
+
 
 ### HTTP/3 Server
 
@@ -66,6 +68,8 @@ This should be done as part of the [nim-quic](https://github.com/vacp2p/nim-quic
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- PRs/Issues/Docs/Reports
+
 
 ### HTTP/3 Maintenance
 
@@ -81,7 +85,7 @@ Final improvements, code polishing and interoperability testing after Client and
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
-
+- PRs/Issues/Docs/Reports
 
 
 ### Certificate generation
@@ -97,7 +101,7 @@ Certificate generation according to libp2p webtransport [specification](https://
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
-
+- PRs/Issues/Docs/Reports
 
 
 ### Key components implementation
@@ -113,7 +117,7 @@ Implement webtransport key components: Client, Server, Session
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
-
+- PRs/Issues/Docs/Reports
 
 
 ### Noise handshake and certificate validation
@@ -129,4 +133,5 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- PRs/Issues/Docs/Reports
 

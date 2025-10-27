@@ -37,6 +37,8 @@ scaling ideas, and other insights.
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- PRs/Issues/Docs/Reports
+
 
 ### Scaling analysis
 
@@ -50,6 +52,8 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- PRs/Issues/Docs/Reports
+
 
 ### Scaling analysis
 
@@ -63,3 +67,5 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- PRs/Issues/Docs/Reports
+

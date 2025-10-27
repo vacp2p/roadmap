@@ -78,6 +78,8 @@ Test:
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- PRs/Issues/Docs/Reports
+
 
 ### Status-backend private chats - send group outage
 
@@ -93,6 +95,7 @@ Same as @Send one-to-one message - Network outage for private group
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- PRs/Issues/Docs/Reports
 
 
 ### Chat protocol benchmarks followup

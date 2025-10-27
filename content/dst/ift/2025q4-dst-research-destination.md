@@ -55,6 +55,7 @@ Apply for an EF grant through the [Project Grants](https://esp.ethereum.foundati
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- PRs/Issues/Docs/Reports
 
 
 ### Forum posts (recurring)

@@ -33,7 +33,7 @@ Resolve runtime crashes, race conditions and excessive memory use in nim-quic. T
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
-
+- PRs/Issues/Docs/Reports
 
 
 ### Replace OpenSSL by AWS-LC / BoringSSL

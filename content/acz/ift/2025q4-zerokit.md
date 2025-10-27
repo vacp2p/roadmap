@@ -42,7 +42,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q4-zerokit:zerokit-maintaining`
 * owner: Ekaterina
-* status: in progress (%0)
+* status: in progress (%30)
 * start-date: 2025/10/01
 * end-date: 2025/12/30
 
@@ -56,7 +56,7 @@ A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/).
 
 * fully qualified name: `vac:acz:ift:2025q4-zerokit:ffi-rework`
 * owner: Vinh
-* status: in progress (60%)
+* status: in progress (80%)
 * start-date: 2025/10/01
 * end-date: 2025/11/01
 

@@ -4,13 +4,12 @@ on:
   workflow_dispatch:
     inputs:
       paths:
-        description: 'Space-separated paths or directories to validate'
+        description: 'Space-separated paths or directories to validate, ex *2025q4* '
         required: false
         default: ''
   push:
     branches:
       - main
-      - chore/roadmap-validator
     paths:
       - 'content/dst/**'
       - 'content/qa/**'
@@ -56,10 +55,10 @@ jobs:
             TARGETS="${{ github.event.inputs.paths }}"
           else
             TARGETS="${{ steps.changed-files.outputs.all_changed_files }}"
-            # if [ -z "$TARGETS" ]; then
-            #   echo "No roadmap markdown changes detected."
-            #   exit 0
-            # fi
+            if [ -z "$TARGETS" ]; then
+              echo "No roadmap markdown changes detected."
+              exit 0
+            fi
           fi
 
           echo "Validating targets:"

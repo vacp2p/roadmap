@@ -48,8 +48,8 @@ through performance insights during the drafting process.
 
 [Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/hardening_and_scaling_foundation_for_private_chat.md#hardening-and-scaling-foundations-for-private-chats)
 
-* fully qualified name: `-`
-* owner: -
+* fully qualified name: `vac:dst:waku:2025q4-waku-scaling:private-chats-hardening`
+* owner: TBD
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
@@ -98,8 +98,8 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 [Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/integrate_nwaku_in_status_desktop_relay_mode_only.md#integrate-nwaku-in-status-desktop-relay-mode-only)
 
-* fully qualified name: `-`
-* owner: -
+* fully qualified name: `vac:dst:waku:2025q4-waku-scaling:nwaku-in-status-desktop`
+* owner: TBD
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
@@ -123,8 +123,8 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 [Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/introduce_e2e_reliability_in_status.md#sds-protocol-in-status---basic-integration)
 
-* fully qualified name: `-`
-* owner: -
+* fully qualified name: `vac:dst:waku:2025q4-waku-scaling:sds-integration`
+* owner: TBD
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
@@ -154,8 +154,8 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 [Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/introduce_e2e_reliability_in_status.md#sds-protocol-in-status---basic-recovery)
 
-* fully qualified name: `-`
-* owner: -
+* fully qualified name: `vac:dst:waku:2025q4-waku-scaling:sds-recovery`
+* owner: TBD
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31

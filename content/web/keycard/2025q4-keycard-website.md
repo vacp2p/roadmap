@@ -59,7 +59,7 @@ Localize the Keycard site and docs so core pages ship in the priority languages 
 
 ### Help
 
-* fully qualified name: `vac:web:keycard:2025q4-keycard-docs:help`
+* fully qualified name: `vac:web:keycard:2025q4-keycard-website:help`
 * owner: jkbktl
 * status: not started
 * start-date: 2025/10/01
@@ -73,7 +73,7 @@ Author the help center covering setup, troubleshooting, and FAQs for both Keycar
 
 ### Start Guide
 
-* fully qualified name: `vac:web:keycard:2025q4-keycard-docs:start-guide`
+* fully qualified name: `vac:web:keycard:2025q4-keycard-website:start-guide`
 * owner: jkbktl
 * status: not started
 * start-date: 2025/10/01

@@ -29,8 +29,8 @@ leading to a more effective audit process.
 ## Task List
 
 ### Review and update existing documentation
-* fully qualified name: `2025q4-audit-preparation:review-documentation`
-* owner:
+* fully qualified name: `vac:sc:status-l2:2025q4-audit-preparation:review-documentation`
+* owner: r4bbit
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/10/30
@@ -52,8 +52,8 @@ and ensure consistency across the codebase.
 - [ ] Documentation review checklist
 
 ### Restructure tests into one contract per file
-* fully qualified name: `2025q4-audit-preparation:restructure-test-files`
-* owner:
+* fully qualified name: `vac:sc:status-l2:2025q4-audit-preparation:restructure-test-files`
+* owner: r4bbit
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/10/30
@@ -74,8 +74,8 @@ and follows best practices for test structure.
 - [ ] Tests still pass after restructuring
 
 ### Organize tests by unit and integration categories
-* fully qualified name: `2025q4-audit-preparation:organize-tests`
-* owner:
+* fully qualified name: `vac:sc:status-l2:2025q4-audit-preparation:organize-tests`
+* owner: r4bbit
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/10/30
@@ -95,8 +95,8 @@ Ensure that the distinction between unit and integration tests is clear and cons
 - [ ] Updated test running scripts/commands if needed
 
 ### Update properties.md with invariants from Certora rules
-* fully qualified name: `2025q4-audit-preparation:update-properties`
-* owner:
+* fully qualified name: `vac:sc:status-l2:2025q4-audit-preparation:update-properties`
+* owner: r4bbit
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/10/30

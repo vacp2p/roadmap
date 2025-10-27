@@ -86,6 +86,9 @@ as outlined in this [epic](https://github.com/status-im/status-go/issues/6064).
 Add functional tests for the new emoji reactions API 
 as outlined [here](https://github.com/status-im/status-desktop/issues/18822)
 
+#### Deliverables
+* PRs with the new tests
+
 ### Reliability in Status Communities
 
 * fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:reliability-communities`
@@ -100,6 +103,7 @@ as outlined [here](https://github.com/status-im/status-desktop/issues/18822)
 - See [Waku FURPS](https://github.com/waku-org/pm/blob/2025H2/draft-roadmap/introduce_e2e_reliability_in_status.md?plain=1#L40)
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
+
 #### Deliverables
 * PRs with the new tests
 
@@ -115,3 +119,6 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 Ongoing maintenance of Status Functional tests. 
 This includes updating tests for changes in `status-go`, addressing regressions, 
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
+
+#### Deliverables
+* PRs with the new tests

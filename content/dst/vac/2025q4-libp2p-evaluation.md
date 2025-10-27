@@ -135,7 +135,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 ### Mix in nim-libp2p node
 
-* fully qualified name: `vac:dst:ift:2025q4-libp2p-evaluation:mix-in-nim-libp2p-node`
+* fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:mix-in-nim-libp2p-node`
 * owner: Farooq
 * status: 90%
 * start-date: 2025/10/06
@@ -152,7 +152,7 @@ include mix to the configuration options of the node.
 
 ### Go-libp2p node
 
-* fully qualified name: `vac:dst:ift:2025q4-libp2p-evaluation:go-libp2p-node`
+* fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:go-libp2p-node`
 * owner: Farooq
 * status: 60%
 * start-date: 2025/10/06

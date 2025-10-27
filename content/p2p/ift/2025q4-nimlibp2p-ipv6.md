@@ -23,7 +23,7 @@ Enable IPv6 in nim-libp2p end-to-end so users of the library can run dual-stack 
 ### Core transports (tcp/quic)
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-ipv6:transport`
-* owner:
+* owner: rramos
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
@@ -40,7 +40,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 ### addresses & identity
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-ipv6:addresses`
-* owner:
+* owner: rramos
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
@@ -58,7 +58,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 ### Testing, Interop & CI
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-ipv6:testing`
-* owner:
+* owner: rramos
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31

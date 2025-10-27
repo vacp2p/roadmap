@@ -95,7 +95,10 @@ Craft narrative copy that explains PSF’s mission, programming, and calls to ac
 
 #### Description
 
-- Collaborate
+- Collaborate 
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Data visualization
 
@@ -109,3 +112,6 @@ Craft narrative copy that explains PSF’s mission, programming, and calls to ac
 
 > https://miro.com/app/board/uXjVJePe94w=/
 > https://drive.google.com/file/d/1SbLc778vFessbGpdseeU7LAZuDT1PNPn/view
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

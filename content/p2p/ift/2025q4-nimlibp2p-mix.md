@@ -25,7 +25,7 @@ The mix specification currently resides in [vacp2p#rfc-index](https://github.com
 ### Specs
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-mix:specs`
-* owner: 
+* owner: rramos
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
@@ -60,7 +60,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 ### Rate limit publishing
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-mix:rate-limit`
-* owner:
+* owner: rramos
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31

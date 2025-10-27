@@ -221,6 +221,9 @@ Design and implement the data visualization modules that communicate Logos impac
 - Build
 - Roadmap
 
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Blog (Press Engine)
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:blog`
@@ -261,6 +264,9 @@ Implement site-wide search that surfaces content across product pages, docs, and
 
 - from free.technology
 
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Social Proof
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:social-proof`
@@ -274,6 +280,8 @@ Implement site-wide search that surfaces content across product pages, docs, and
 - Commits
 - Contributors
 - Members
+
+#### Deliverables
 
 > https://www.figma.com/design/hyehOA8iMTDiazHy4IDL6D/Logos-2?node-id=46-2287&p=f&t=fxzLuvGuIGzW0LaG-0
 > https://github.com/acid-info/logos-co

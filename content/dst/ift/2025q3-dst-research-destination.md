@@ -66,6 +66,14 @@ through the [Project Grants](https://esp.ethereum.foundation/applicants/project-
 * start-date: 2025-07-01
 * end-date: 2025-09-30
 
+#### Description
+
+Post on the forum about the results of the DST during the quarter.
+
+#### Deliverables
+- Forum post: [Link](https://forum.vac.dev/t/dst-summary-2025q3/577)
+
+
 ### Public reports (recurring)
 
 * fully qualified name: `vac:dst:ift:2025q3-dst-research-destination:public-reports`
@@ -73,3 +81,10 @@ through the [Project Grants](https://esp.ethereum.foundation/applicants/project-
 * status: recurring
 * start-date: 2025-07-01
 * end-date: 2025-09-30
+
+#### Description
+
+Create a set of public reports for the DST work.
+
+#### Deliverables
+- Main notion page: [DST-Reports](https://zealous-polka-dc7.notion.site/DST-Reports-1228f96fb65c80729cd1d98a7496fe6f?pvs=74)

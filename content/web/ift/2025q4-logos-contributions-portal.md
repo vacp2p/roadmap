@@ -99,7 +99,7 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:proposals`
 * owner: jinhojang6
-* status: 15%
+* status: 100%
 * start-date: 2025/09/20
 * end-date: 2025/10/31
 

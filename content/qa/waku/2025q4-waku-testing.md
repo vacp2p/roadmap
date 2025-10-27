@@ -95,7 +95,7 @@ Extend Waku end-to-end tests with network condition scenarios (high latency, low
 
 * fully qualified name: `vac:qa:waku:2025q4-waku-testing:maintenance`
 * owner: fbarbu15
-* status: not started
+* status: in progress(20%)
 * start-date: 2025/10/01
 * end-date: 2025/12/30
 
@@ -103,7 +103,8 @@ Extend Waku end-to-end tests with network condition scenarios (high latency, low
 Ongoing maintenance of Waku testing frameworks. 
 
 #### Deliverables
-- PRs and issues
+- retested [fixed issue](https://github.com/waku-org/nwaku/issues/3572)
+- [chore: fixes and adjustments](https://github.com/waku-org/waku-interop-tests/pull/139)
 
 ---
 

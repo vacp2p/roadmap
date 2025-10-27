@@ -55,7 +55,7 @@ Waku integration.
 ### Updating RFC
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:update-rfc`
 * owner: Akshaya
-* status: started (75%)
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/08/18
 
@@ -70,9 +70,9 @@ introducing  the entry and exit layers and libp2p integrations.
 * [RFC Refactor: Sphinx Packet Format PR ](https://github.com/vacp2p/rfc-index/pull/173)
 
 ### libp2p-mix Relay RFC  
-* fully qualified name: `vac:acz:ift:2025q?-gossipsub-relay-rfc:relay-rfc`  
+* fully qualified name: `vac:acz:ift:2025q3-gossipsub-relay-rfc:relay-rfc`  
 * owner: Akshaya
-* status: started (70%)
+* status: done
 * start-date: 2025/09/01
 * end-date: 2025/09/15
 
@@ -82,24 +82,24 @@ to inject raw GossipSub messages into a full node’s relay logic.
 This makes Mix integration cleaner without requiring the exit nodes to participate in mesh or support GossipSub.  
 
 #### Deliverables  
-* A PR to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index) containing the RFC.  
+* [A PR](https://github.com/vacp2p/rfc-index/pull/178) to [vacp2p/rfc-index](https://github.com/vacp2p/rfc-index) containing the RFC.  
 
 ### Investigate Unexpected Mixnet Latency
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:unexpected-latency`
 * owner: Akshaya
-* status: on-hold (%70)
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/07/15
 
 #### Description
 
-This task is on hold since the solution is waiting to be confirmed.
+This task was on hold since the solution is waiting to be confirmed.
+Now, the [issue](https://github.com/vacp2p/mix/issues/88) is identified and the corresponding task is added to Q4. 
 
 This task entails investigating to find root cause of unexpected latency.
 Observed latency with 3 mix hops and 100ms delays is ~1100–1600ms, 
 far exceeding the expected ~300ms. 
 Prior Lightpush tests showed much lower overhead. 
-
 
 #### Deliverables
 
@@ -119,7 +119,6 @@ Likely due to publisher advertising the message via IHAVE
 from its mcache while the mix path is still active. 
 Requires investigation and fix.
 
-
 #### Deliverables
 
 * A PR to [vacp2p/mix](https://github.com/vacp2p/mix)
@@ -128,7 +127,7 @@ Requires investigation and fix.
 
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:consulting-waku-mix`
 * owner: Akshaya
-* status: started (60%)
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/09/20
 
@@ -143,7 +142,7 @@ Consulting about mixnet to Mixnet integration to the Waku.
 ### Multi SURB Design
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:multi-surb-design`
 * owner: Akshaya
-* status: started (85%)
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/08/17
 
@@ -195,7 +194,7 @@ This task focuses on integration the mix into the [vacp2p/nim-libp2p repo](https
 
 - fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:libp2p-mix-repo`
 - owner: Akshaya
-- status: started (60%)
+- status: done
 - start-date: 2025/07/01
 - end-date: 2025/09/30
 

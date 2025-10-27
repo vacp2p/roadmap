@@ -32,7 +32,7 @@ Improve stability by addressing flaky tests and extend coverage for Identify/Pus
 
 * fully qualified name: `vac:qa:vac:2025q4-nim-libp2p-testing:test-plans`
 * owner: radek
-* status: not started
+* status: in progress(20%)
 * start-date: 2025/10/01
 * end-date: 2025/10/20
 
@@ -44,7 +44,7 @@ Develop test plans for features currently under development:
 - Kademlia  
 
 #### Deliverables
-* Links with the Notion pages
+- [QUIC test plan](https://www.notion.so/QUIC-28b8f96fb65c8018b6cdc21882cfd98a)
 
 ---
 
@@ -102,7 +102,7 @@ connection limits, peer lifecycle handling, and resilience under different netwo
 
 * fully qualified name: `vac:qa:vac:2025q4-nim-libp2p-testing:gossipsub-performance`
 * owner: radek
-* status: in progress (60%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/10/15
 
@@ -113,3 +113,21 @@ Update GossipSub performance tests based on dev feedback and existing data gathe
 - [test(performance): Add QUIC scenario](https://github.com/vacp2p/nim-libp2p/pull/1631)
 - [test(performance): chart generation refactor](https://github.com/vacp2p/nim-libp2p/pull/1718)
 - [test(performance): Refactor runner](https://github.com/vacp2p/nim-libp2p/pull/1735)
+- [test(performance): reliability workflow](https://github.com/vacp2p/nim-libp2p/pull/1729)
+
+---
+
+### QUIC Protocol Testing
+
+* fully qualified name: `vac:qa:vac:2025q4-nim-libp2p-testing:quic`
+* owner: radek
+* status: nin progress (5%)
+* start-date: 2025/10/16
+* end-date: 2025/11/25
+
+#### Description
+Improve QUIC transport test coverage for handshake enforcement (TLS, ALPN, transport parameters), 
+stream and connection lifecycle, resilience/error paths, metrics, and interoperability.
+
+#### Deliverables
+- [fix(quic): GossipSub outbound peers](https://github.com/vacp2p/nim-libp2p/pull/1768)

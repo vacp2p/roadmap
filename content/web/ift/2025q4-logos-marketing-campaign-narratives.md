@@ -48,7 +48,7 @@ The marketing campaign narratives and brand testing system will support Logos' s
 
 * fully qualified name: `vac:web:ift:2025q4-logos-marketing-campaign-narratives:discord-bot`
 * owner: jinhojang6
-* status: 90%
+* status: 100%
 * start-date: 2025/08/01
 * end-date: 2025/10/31
 
@@ -56,7 +56,7 @@ The marketing campaign narratives and brand testing system will support Logos' s
 
 * fully qualified name: `vac:web:ift:2025q4-logos-marketing-campaign-narratives:user-tracing-system`
 * owner: jinhojang6
-* status: 0%
+* status: 100%
 * start-date: 2025/09/01
 * end-date: 2025/12/31
 
@@ -64,7 +64,7 @@ The marketing campaign narratives and brand testing system will support Logos' s
 
 * fully qualified name: `vac:web:ift:2025q4-logos-marketing-campaign-narratives:python-backend`
 * owner: jinhojang6
-* status: 0%
+* status: 100%
 * start-date: 2025/09/01
 * end-date: 2025/12/31
 

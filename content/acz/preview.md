@@ -7,32 +7,10 @@ tags:
 
 ## Roadmap Preview
 
-### 2025Q3
-
-- Zerokit 
-    - Releasing Zerokit v0.9.0 (maintaining and fixing small updates) 
-- de-MLS
-    - multi steward implementation
-    - Refinement and maintain de-MLS RFC
-    - EF grant application 
-- libp2p-mix
-    - Publishing a blospot
-    - SURB implementation
-    - EF grant application
-    - Initial incentivasation research
-- RLN Status L2
-    - Testing RLN deployment
-    - Research on better decentralized architecture
-- Discovery
-    - Conducting initial research
-- IFT ZK Calls
-    - Conducting monthly IFT ZK Calls
-
-
 ### 2025Q4
 
 - Zerokit 
-    - Releasing Zerokit v1.0.0 (maintaining and fixing small updates) 
+    - Releasing Zerokit v1.0.0 (maintaining and releasing BE FFI work and multi-id burnt support) 
 - de-MLS
     - Multi-steward integration
     - Integration Ethereum Authentication
@@ -44,7 +22,7 @@ tags:
 - RLN Status L2
     - Public testnet integration
 - Discovery
-    - Specification of Disc-NG 
+    - Specification of the first version of Logos Discovery Capability on top of kad-dht
     - Collecting the discovery requirements for
     privacy-preserving networks 
 

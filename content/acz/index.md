@@ -9,48 +9,51 @@ tags:
 ---
 
 ### `ift`
-* [ ] [[acz/ift/2025q4-zerokit|2025q4-zerokit]]
-* [ ] [[acz/ift/2025q4-de-mls-testnet.md|2025q4-de-mls-testnet.md]]
-* [ ] [[acz/ift/2025q4-libp2p-mix-testnet|2025q4-libp2p-mix-testnet]]
-* [ ] [[acz/ift/2025q4-ift-zk-calls|2025q4-ift-zk-calls]]
-* [ ] [[acz/ift/2025q4-rln-status-l2|2025q4-rln-status-l2]]
-* [ ] [[acz/ift/2025q4-discovery|2025q4-discovery]]
+* [[acz/ift/2025q4-zerokit|2025q4-zerokit]]
+* [[acz/ift/2025q4-de-mls-testnet.md|2025q4-de-mls-testnet.md]]
+* [[acz/ift/2025q4-libp2p-mix-testnet|2025q4-libp2p-mix-testnet]]
+* [[acz/ift/2025q4-ift-zk-calls|2025q4-ift-zk-calls]]
+* [[acz/ift/2025q4-rln-status-l2|2025q4-rln-status-l2]]
+* [[acz/ift/2025q4-discovery|2025q4-discovery]]
 
 ### `nes`
-* [ ] [[acz/nes/2025q4-nescience-consulting|2025q4-nescience-consulting]]
+* [[acz/nes/2025q4-nescience-consulting|2025q4-nescience-consulting]]
+
+### `nomos:`
+* [[acz/nomos/2025q4-nomos-consulting|2025q4-nomos-consulting]]
 
 ---
 ## 2025q3 `vac:acz:`
 ---
 
 ### `ift`
-* [ ] [[acz/ift/2025q3-zerokit|2025q3-zerokit]]
-* [ ] [[acz/ift/2025q3-de-mls-testnet.md|2025q3-de-mls-testnet.md]]
-* [ ] [[acz/ift/2025q3-libp2p-mix-testnet|2025q3-libp2p-mix-testnet]]
-* [ ] [[acz/ift/2025q3-ift-zk-calls|2025q3-ift-zk-calls]]
-* [ ] [[acz/ift/2025q3-rln-status-l2|2025q3-rln-status-l2]]
-* [ ] [[acz/ift/2025q3-discovery|2025q3-discovery]]
+* [[acz/ift/2025q3-zerokit|2025q3-zerokit]]
+* [[acz/ift/2025q3-de-mls-testnet.md|2025q3-de-mls-testnet.md]]
+* [[acz/ift/2025q3-libp2p-mix-testnet|2025q3-libp2p-mix-testnet]]
+* [[acz/ift/2025q3-ift-zk-calls|2025q3-ift-zk-calls]]
+* [[acz/ift/2025q3-rln-status-l2|2025q3-rln-status-l2]]
+* [[acz/ift/2025q3-discovery|2025q3-discovery]]
 
 ### `nes`
-* [ ] [[acz/nes/2025q3-nescience-consulting|2025q3-nescience-consulting]]
+* [[acz/nes/2025q3-nescience-consulting|2025q3-nescience-consulting]]
 
 ### `nomos:`
 
-* [ ] [[acz/nomos/2025q3-nomos-consulting|2025q3-nomos-consulting]]
+* [[acz/nomos/2025q3-nomos-consulting|2025q3-nomos-consulting]]
 
 ---
 ## 2025q2 `vac:acz:`
-* [ ] [[acz/ift/2025q2-zerokit|2025q2-zerokit]]
-* [ ] [[acz/ift/2025q2-de-mls-testnet.md|2025q2-de-mls-testnet.md]]
-* [ ] [[acz/ift/2025q2-libp2p-mix-testnet|2025q2-libp2p-mix-testnet]]
-* [ ] [[acz/ift/2025q2-think-tank.md|2025q2-think-tank.md]]
-* [ ] [[acz/ift/2025q2-ift-zk-calls|2025q2-ift-zk-calls]]
-* [ ] [[acz/ift/2025q2-rln-status-l2|2025q2-rln-status-l2]]
-* [ ] [[acz/ift/2025q2-discovery|2025q2-discovery]]
+* [[acz/ift/2025q2-zerokit|2025q2-zerokit]]
+* [[acz/ift/2025q2-de-mls-testnet.md|2025q2-de-mls-testnet.md]]
+* [[acz/ift/2025q2-libp2p-mix-testnet|2025q2-libp2p-mix-testnet]]
+* [[acz/ift/2025q2-think-tank.md|2025q2-think-tank.md]]
+* [[acz/ift/2025q2-ift-zk-calls|2025q2-ift-zk-calls]]
+* [[acz/ift/2025q2-rln-status-l2|2025q2-rln-status-l2]]
+* [[acz/ift/2025q2-discovery|2025q2-discovery]]
 
 ### `nomos:`
 
-* [ ] [[acz/nomos/2025q2-nomos-consulting|2025q2-nomos-consulting]]
+* [[acz/nomos/2025q2-nomos-consulting|2025q2-nomos-consulting]]
 
 
 
@@ -58,19 +61,19 @@ tags:
 ---
 
 ### `ift:`
-* [ ] [[acz/ift/2025q1-libp2p-mix-poc|libp2p-mix-poc]]
-* [ ] [[acz/ift/2025q1-zerokit-v0-7|zerokit-v0.7]]
-* [ ] [[acz/ift/2025q1-de-mls-multi-admin|de-mls-multi-admin]]
-* [ ] [[acz/ift/2025q1-ift-zk-calls|ift-zk-calls]]
-* [ ] [[acz/ift/2025q1-think-tank|think-tank]]
-* [ ] [[acz/ift/2025q1-risc0-arm-port|2025q1-risc0-arm-port]]
-* [ ] [[acz/ift/2025q1-mds-checker|2025q1-mds-checker]]
-* [ ] [[acz/ift/2025q1-rln-status-l2|2025q1-rln-status-l2]]
+* [[acz/ift/2025q1-libp2p-mix-poc|libp2p-mix-poc]]
+* [[acz/ift/2025q1-zerokit-v0-7|zerokit-v0.7]]
+* [[acz/ift/2025q1-de-mls-multi-admin|de-mls-multi-admin]]
+* [[acz/ift/2025q1-ift-zk-calls|ift-zk-calls]]
+* [[acz/ift/2025q1-think-tank|think-tank]]
+* [[acz/ift/2025q1-risc0-arm-port|2025q1-risc0-arm-port]]
+* [[acz/ift/2025q1-mds-checker|2025q1-mds-checker]]
+* [[acz/ift/2025q1-rln-status-l2|2025q1-rln-status-l2]]
 
 
 ### `nomos:`
 
-* [ ] [[acz/nomos/2025q1-nomos-consulting|nomos-consulting]]
+* [[acz/nomos/2025q1-nomos-consulting|nomos-consulting]]
 
 ---
 
@@ -78,16 +81,16 @@ tags:
 ---
 
 ### `ift:`
-* [ ] [[acz/ift/2024q4-zerokit-v0-6|zerokit-v0.6]]
-* [ ] [[acz/ift/2024q4-de-mls-testnet|de-mls-testnet]]
-* [ ] [[acz/ift/2024q4-libp2p-mix-poc|libp2p-mix-poc]]
-* [ ] [[acz/ift/2024q4-think-tank|think-tank]]
-* [ ] [[acz/ift/2024q4-acz-research-destination|acz-research-destination]]
-* [ ] [[acz/ift/2024q4-ift-zk-calls|ift-zk-calls]]
+* [[acz/ift/2024q4-zerokit-v0-6|zerokit-v0.6]]
+* [[acz/ift/2024q4-de-mls-testnet|de-mls-testnet]]
+* [[acz/ift/2024q4-libp2p-mix-poc|libp2p-mix-poc]]
+* [[acz/ift/2024q4-think-tank|think-tank]]
+* [[acz/ift/2024q4-acz-research-destination|acz-research-destination]]
+* [[acz/ift/2024q4-ift-zk-calls|ift-zk-calls]]
 
 ### `waku:`
 
-* [ ] [[acz/waku/2024q4-waku-rln-relay|waku-rln-relay]]
+* [[acz/waku/2024q4-waku-rln-relay|waku-rln-relay]]
 
 ### `nes`
-* [ ] [[acz/nes/2024q4-nescience-consulting|nescience-consulting]]
+* [[acz/nes/2024q4-nescience-consulting|nescience-consulting]]

@@ -126,6 +126,22 @@ The Logos website will support the volunteer-driven community building strategy 
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
+### Circles map
+
+* fully qualified name: `vac:web:ift:2025q4-logos-website:circles-map`
+* owner: jinhojang6
+* status: 0%
+* start-date: 2025/10/20
+* end-date: 2025/11/14
+
+### Spaces Calendar
+
+* fully qualified name: `vac:web:ift:2025q4-logos-website:spaces-calendar`
+* owner: jinhojang6
+* status: 0%
+* start-date: 2025/10/20
+* end-date: 2025/11/14
+
 ### Data visualization
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:data-visualization`
@@ -164,7 +180,7 @@ The Logos website will support the volunteer-driven community building strategy 
 ### Search
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:search`
-* owner: jinhojang6
+* owner: JulesFiliot
 * status: 0%
 * start-date: 2025/05/09
 * end-date: 2025/10/31

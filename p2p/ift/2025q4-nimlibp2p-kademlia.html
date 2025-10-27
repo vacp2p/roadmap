@@ -7,71 +7,106 @@ This deliverable continues the work started in 2025q2</p>
 <h3 id="routing-table-and-rpc-protocol">Routing table and RPC Protocol<a aria-hidden="true" tabindex="-1" href="#routing-table-and-rpc-protocol" class="internal"> §</a></h3>
 <ul>
 <li>fully qualified name: <code>vac:p2p:ift:2025q2-nimlibp2p-kad-dht:routing-and-rpc</code></li>
-<li>owner:</li>
-<li>status: 50%</li>
+<li>owner: gabe/rramos</li>
+<li>status: 75%</li>
 <li>start-date: 2025-04-08</li>
 <li>end-date:</li>
 </ul>
 <h4 id="description">Description<a aria-hidden="true" tabindex="-1" href="#description" class="internal"> §</a></h4>
-<p>Implement Kademlia’s XOR-based routing table with bucket management. Define RPC messages (<code>PING</code>, <code>SET_VALUE</code>, <code>GET_VALUE</code>, <code>SET_PROVIDERS</code>, <code>GET_PROVIDERS</code>, <code>FIND_NODE</code>) for node communication.</p>
+<p>Implement Kademlia’s XOR-based routing table with bucket management. Define RPC messages (<code>PING</code>, <code>SET_VALUE</code>, <code>GET_VALUE</code>, <code>ADD_PROVIDERS</code>, <code>GET_PROVIDERS</code>, <code>FIND_NODE</code>) for node communication.</p>
 <h4 id="deliverables">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1454" class="external">vacp2p/nim-libp2p#1454</a> feat(kad-dht): routing table</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1453" class="external">vacp2p/nim-libp2p#1453</a> feat(kad-dht): protobuffers</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1455" class="external">vacp2p/nim-libp2p#1455</a> feat(kad-dht): handler</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1744" class="external">vacp2p/nim-libp2p#1744</a> feat(kad): add ping</li>
+</ul>
 <h3 id="bootstrapping--lookup-mechanism">Bootstrapping &amp; Lookup Mechanism<a aria-hidden="true" tabindex="-1" href="#bootstrapping--lookup-mechanism" class="internal"> §</a></h3>
 <ul>
 <li>fully qualified name: <code>vac:p2p:ift:2025q4-nimlibp2p-kad-dht:bootstraping-and-lookup</code></li>
-<li>owner:</li>
-<li>status: 35%</li>
+<li>owner: rramos</li>
+<li>status: 100%</li>
 <li>start-date: 2025-05-05</li>
-<li>end-date:</li>
+<li>end-date: 2025-08-18</li>
 </ul>
 <h4 id="description-1">Description<a aria-hidden="true" tabindex="-1" href="#description-1" class="internal"> §</a></h4>
 <p>Enable nodes to join the network via bootstrap peers. Implement iterative lookup for efficient key
 discovery and retrieval</p>
 <h4 id="deliverables-1">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-1" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1624" class="external">vacp2p/nim-libp2p#1624</a> feat(kad-dht): findPeer</li>
+</ul>
 <h3 id="network-maintenance--node-management">Network Maintenance &amp; Node Management<a aria-hidden="true" tabindex="-1" href="#network-maintenance--node-management" class="internal"> §</a></h3>
 <ul>
 <li>fully qualified name: <code>vac:p2p:ift:2025q4-nimlibp2p-kad-dht:network-maintenance-node-management</code></li>
 <li>owner:</li>
-<li>status: not started</li>
-<li>start-date:</li>
+<li>status: 50%</li>
+<li>start-date: 2025-10-08</li>
 <li>end-date:</li>
 </ul>
 <h4 id="description-2">Description<a aria-hidden="true" tabindex="-1" href="#description-2" class="internal"> §</a></h4>
 <p>Handle bucket refresh, node eviction, and periodic pings to maintain an active routing table.
 Implement bucket splitting and adaptive refresh strategies.</p>
 <h4 id="deliverables-2">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-2" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1746" class="external">vacp2p/nim-libp2p#1746</a> chore(kad): routing table eviction policy</li>
+</ul>
 <h3 id="data-storage--replication">Data Storage &amp; Replication<a aria-hidden="true" tabindex="-1" href="#data-storage--replication" class="internal"> §</a></h3>
 <ul>
 <li>fully qualified name: <code>vac:p2p:ift:2025q4-nimlibp2p-kad-dht:data-storage</code></li>
-<li>owner:</li>
-<li>status: started</li>
+<li>owner: gabe</li>
+<li>status: 90%</li>
 <li>start-date: 2025-07-28</li>
 <li>end-date:</li>
 </ul>
 <h4 id="description-3">Description<a aria-hidden="true" tabindex="-1" href="#description-3" class="internal"> §</a></h4>
-<p>Implement the logic for <code>SET_VALUE</code> and <code>SET_PROVIDERS</code>. Store key-value pairs with expiration and replication mechanisms.
+<p>Implement the logic for <code>SET_VALUE</code> and <code>ADD_PROVIDERS</code>. Store key-value pairs with expiration and replication mechanisms.
 Ensure values persist despite churn, using periodic re-publication and redundancy strategies</p>
 <h4 id="deliverables-3">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-3" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1582" class="external">vacp2p/nim-libp2p#1582</a> feat(kad): Initial unstable putval api</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1749" class="external">vacp2p/nim-libp2p#1749</a> chore(kad): tidy up putVal</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1773" class="external">vacp2p/nim-libp2p#1773</a> feat(kad): addProvider</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1789" class="external">vacp2p/nim-libp2p#1789</a> feat(kad): add ProviderManager</li>
+</ul>
 <h3 id="data-retrieval">Data Retrieval<a aria-hidden="true" tabindex="-1" href="#data-retrieval" class="internal"> §</a></h3>
 <ul>
 <li>fully qualified name: <code>vac:p2p:ift:2025q4-nimlibp2p-kad-dht:data-retrieval</code></li>
-<li>owner:</li>
-<li>status: not started</li>
+<li>owner: gabe</li>
+<li>status: 60%</li>
 <li>start-date: 2025-07-28</li>
 <li>end-date:</li>
 </ul>
 <h4 id="description-4">Description<a aria-hidden="true" tabindex="-1" href="#description-4" class="internal"> §</a></h4>
 <p>Implement the logic for <code>GET_VALUE</code> and <code>GET_PROVIDERS</code>. Implement validation and quorum mechanisms for queries</p>
 <h4 id="deliverables-4">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-4" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1764" class="external">vacp2p/nim-libp2p#1764</a> chore(kad): add alpha handling</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1750" class="external">vacp2p/nim-libp2p#1750</a> feat(kad): add getValue</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1765" class="external">vacp2p/nim-libp2p#1765</a> chore(kad): getVal loop improvements</li>
+</ul>
 <h3 id="discovery">Discovery<a aria-hidden="true" tabindex="-1" href="#discovery" class="internal"> §</a></h3>
 <ul>
 <li>fully qualified name: <code>vac:p2p:ift:2025q4-nimlibp2p-kad-dht:discovery</code></li>
-<li>owner:</li>
-<li>status: 15%</li>
-<li>start-date: 2025-07-20</li>
+<li>owner: gabe</li>
+<li>status: 0%</li>
+<li>start-date:</li>
 <li>end-date:</li>
 </ul>
 <h4 id="description-5">Description<a aria-hidden="true" tabindex="-1" href="#description-5" class="internal"> §</a></h4>
-<p>Extend nim-libp2p discovery mechanism by providing a discovery interface that will use Kademlia DHT to advertise nodes and find peers</p></article></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+<p>Extend nim-libp2p discovery mechanism by providing a discovery interface that will use Kademlia DHT to advertise nodes and find peers</p>
+<h4 id="deliverables-5">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-5" class="internal"> §</a></h4>
+<h3 id="interop">Interop<a aria-hidden="true" tabindex="-1" href="#interop" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>vac:p2p:ift:2025q4-nimlibp2p-kad-dht:interop</code></li>
+<li>owner: gabe</li>
+<li>status: 0%</li>
+<li>start-date:</li>
+<li>end-date:</li>
+</ul>
+<h4 id="description-6">Description<a aria-hidden="true" tabindex="-1" href="#description-6" class="internal"> §</a></h4>
+<p>Ensure interop is achieved between nim-libp2p’s kad-dht implementation and other libp2p implementations</p>
+<h4 id="deliverables-6">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-6" class="internal"> §</a></h4></article></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
 	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
 	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
 	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
@@ -81,7 +116,7 @@ Ensure values persist despite churn, using periodic re-publication and redundanc
 	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
 	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
 	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
-	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#task-list" data-for="task-list">Task List</a></li><li class="depth-1"><a href="#routing-table-and-rpc-protocol" data-for="routing-table-and-rpc-protocol">Routing table and RPC Protocol</a></li><li class="depth-1"><a href="#bootstrapping--lookup-mechanism" data-for="bootstrapping--lookup-mechanism">Bootstrapping &amp; Lookup Mechanism</a></li><li class="depth-1"><a href="#network-maintenance--node-management" data-for="network-maintenance--node-management">Network Maintenance &amp; Node Management</a></li><li class="depth-1"><a href="#data-storage--replication" data-for="data-storage--replication">Data Storage &amp; Replication</a></li><li class="depth-1"><a href="#data-retrieval" data-for="data-retrieval">Data Retrieval</a></li><li class="depth-1"><a href="#discovery" data-for="discovery">Discovery</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.1.0</a>, © 2025</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#task-list" data-for="task-list">Task List</a></li><li class="depth-1"><a href="#routing-table-and-rpc-protocol" data-for="routing-table-and-rpc-protocol">Routing table and RPC Protocol</a></li><li class="depth-1"><a href="#bootstrapping--lookup-mechanism" data-for="bootstrapping--lookup-mechanism">Bootstrapping &amp; Lookup Mechanism</a></li><li class="depth-1"><a href="#network-maintenance--node-management" data-for="network-maintenance--node-management">Network Maintenance &amp; Node Management</a></li><li class="depth-1"><a href="#data-storage--replication" data-for="data-storage--replication">Data Storage &amp; Replication</a></li><li class="depth-1"><a href="#data-retrieval" data-for="data-retrieval">Data Retrieval</a></li><li class="depth-1"><a href="#discovery" data-for="discovery">Discovery</a></li><li class="depth-1"><a href="#interop" data-for="interop">Interop</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li><a href="../../p2p/" class="internal">P2P Service Unit</a></li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.1.0</a>, © 2025</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
 function toggleCallout() {
   const outerBlock = this.parentElement;
   outerBlock.classList.toggle(`is-collapsed`);

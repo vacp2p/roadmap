@@ -10,7 +10,6 @@ description: "Development of Status Network Hub, the main portal application for
 
 `vac:web:status:2025q4-sn-hub`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
 ## Description
 
 This commitment involves developing the Status Network Hub (SN Hub), the main portal application through which users of the Status Network can access all network-related features including onboarding, staking, yield earning, bridging, and public funding pool tracking. The hub consolidates fragmented blockchain ecosystem functionalities into a single, user-friendly interface designed for beginner users and those just starting on the network.

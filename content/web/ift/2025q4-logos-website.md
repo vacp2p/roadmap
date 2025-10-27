@@ -10,8 +10,6 @@ description: "Development of a comprehensive Logos website showcasing the comple
 
 `vac:web:ift:2025q4-logos-website`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
-
 ## Description
 
 This commitment involves developing a comprehensive Logos website that serves as the central hub for the volunteer-driven, open source community building strategy. The website will showcase the complete Logos technology stack while being built around carefully defined optimal user flows for primary and secondary users, with a core focus on bringing people together and providing multiple pathways for contribution that align with privacy principles and user preferences.

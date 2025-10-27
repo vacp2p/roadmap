@@ -10,7 +10,6 @@ description: "Development of comprehensive website content and documentation for
 
 `vac:web:keycard:2025q4-keycard-website`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
 ## Description
 
 This commitment involves developing comprehensive website content and documentation for both Keycard and Keycard Shell products to educate users and developers about hardware wallet security, integration capabilities, and usage. The content will serve as the primary educational resource for understanding these innovative hardware wallet solutions.

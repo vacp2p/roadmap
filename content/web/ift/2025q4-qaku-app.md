@@ -10,7 +10,6 @@ description: "Development of Qaku app as a Logos product powered by Waku for IFT
 
 `vac:web:ift:2025q4-qaku-app`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
 ## Description
 
 This commitment involves developing Qaku app as a Logos product powered by Waku technology to serve IFT Townhalls and events. The app will be positioned as a competitive alternative to existing solutions like Slido, leveraging Waku's decentralized infrastructure to provide secure, privacy-preserving event interaction capabilities.

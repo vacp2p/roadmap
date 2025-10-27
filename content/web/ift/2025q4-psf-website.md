@@ -10,8 +10,6 @@ description: "Development of the Parallel Society Festival website to showcase t
 
 `vac:web:ift:2025q4-psf-website`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
-
 ## Description
 
 This commitment involves developing a comprehensive website for the Parallel Society Festival (PSF), a collectively organized gathering of forward-thinking network states, free cities, parallel societies, and intentional communities. The website will serve as the digital hub for this multi-day, co-organized event featuring talks, workshops, panels, debates, keynotes, showcases, performances, and art exhibits.

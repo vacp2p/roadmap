@@ -10,7 +10,6 @@ description: "Development of Logos Contribute, a contribution hub that recognize
 
 `vac:web:ift:2025q4-logos-contributions-portal`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
 ## Description
 
 This commitment involves developing Logos Contribute, a comprehensive contribution hub that recognizes open source contributors and helps new developers make their first meaningful contributions to the Logos ecosystem. The portal serves as a critical component of the volunteer-driven, open source community building strategy, showcasing contributor activity, providing curated resources, and offering clear pathways for community engagement.

@@ -10,7 +10,6 @@ description: "Development of a comprehensive user tracing system, analytics plat
 
 `vac:web:ift:2025q4-logos-marketing-campaign-narratives`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
 ## Description
 
 This commitment involves developing a comprehensive user tracing system, analytics platform, and A/B testing framework to optimize Logos marketing campaign narratives, brand positioning, and measure community growth effectiveness. The system will track user behavior across landing pages, Discord engagement, and marketing campaigns while systematically testing different brand positioning approaches to identify the most compelling messaging for the "ideological builder" target audience.

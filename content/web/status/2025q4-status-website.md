@@ -10,7 +10,6 @@ description: "Optimization and maintenance of the Status website with internatio
 
 `vac:web:status:2025q4-status-website`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
 ## Description
 
 This commitment involves optimizing and maintaining the existing Status website with comprehensive internationalization (i18n) support and search engine optimization (SEO) improvements to enhance global accessibility and discoverability of the Status ecosystem. The website serves as the primary digital touchpoint for users worldwide to learn about Status, download the app, and engage with the community.

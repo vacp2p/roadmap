@@ -10,7 +10,6 @@ description: "Development of a monthly Logos newsletter system to engage the com
 
 `vac:web:ift:2025q4-newsletter`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
 ## Description
 
 This commitment involves developing a comprehensive monthly newsletter system for the Logos ecosystem to engage the community with regular updates, insights, and content that showcases the movement's progress and advances its narrative. The newsletter will serve as a key communication channel to keep community members informed about developments, opportunities, and the broader mission of building decentralized governance and network states.

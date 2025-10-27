@@ -10,7 +10,6 @@ description: "Development of a browser wallet extension focused on trading and i
 
 `vac:web:status:2025q4-status-wallet-extension`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
 ## Description
 
 This commitment involves developing a browser wallet extension that serves as a trading wallet and token price tracker for casual and meme coin traders and investors. The extension will be independent from the Status App project, focusing on revenue generation through trading activities while providing comprehensive portfolio management across multiple connected wallets.

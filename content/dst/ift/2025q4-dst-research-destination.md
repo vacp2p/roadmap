@@ -66,6 +66,12 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
+#### Description
+Publish recurring DST forum updates that translate experiment results into clear takeaways for the wider community.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Public reports (recurring)
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-research-destination:public-reports`
@@ -73,3 +79,9 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 * status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
+
+#### Description
+Produce polished public reports that package DST findings into shareable narratives for external stakeholders.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

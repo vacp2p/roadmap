@@ -86,6 +86,12 @@ The Logos website will support the volunteer-driven community building strategy 
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
+#### Description
+Finalize the responsive site layout, navigation structure, and page templates for the refreshed Logos web experience.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Components
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
@@ -93,6 +99,12 @@ The Logos website will support the volunteer-driven community building strategy 
 * status: in progress (50%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
+
+#### Description
+Build and document the reusable UI component library that powers the new Logos website.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Copyright
 
@@ -102,6 +114,12 @@ The Logos website will support the volunteer-driven community building strategy 
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
+#### Description
+Update copyright, legal disclosures, and footer messaging to align with the latest Logos positioning.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Internationalization
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
@@ -109,6 +127,12 @@ The Logos website will support the volunteer-driven community building strategy 
 * status: in progress (50%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
+
+#### Description
+Implement the translation workflow and locale switching needed for a multilingual Logos site launch.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### SEO
 
@@ -118,6 +142,12 @@ The Logos website will support the volunteer-driven community building strategy 
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
+#### Description
+Optimize metadata, structured data, and performance budgets to improve discovery of the new site.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Documentation
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:documentation`
@@ -125,6 +155,12 @@ The Logos website will support the volunteer-driven community building strategy 
 * status: in progress (20%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
+
+#### Description
+Create implementation notes and content authoring guides so teams can maintain the website after launch.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Circles map
 
@@ -134,6 +170,12 @@ The Logos website will support the volunteer-driven community building strategy 
 * start-date: 2025/10/20
 * end-date: 2025/11/14
 
+#### Description
+Prototype an interactive map that visualizes Logos circles and makes it easy to discover active groups.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Spaces Calendar
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:spaces-calendar`
@@ -142,6 +184,12 @@ The Logos website will support the volunteer-driven community building strategy 
 * start-date: 2025/10/20
 * end-date: 2025/11/14
 
+#### Description
+Embed an events calendar that aggregates upcoming Spaces sessions and community gatherings.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Data visualization
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:data-visualization`
@@ -149,6 +197,12 @@ The Logos website will support the volunteer-driven community building strategy 
 * status: in progress (50%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
+
+#### Description
+Design and implement the data visualization modules that communicate Logos impact metrics.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### CTAs
 
@@ -177,6 +231,12 @@ The Logos website will support the volunteer-driven community building strategy 
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
+#### Description
+Stand up the press engine blog system with publishing workflow, tagging, and archive views.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Search
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:search`
@@ -184,6 +244,12 @@ The Logos website will support the volunteer-driven community building strategy 
 * status: not started
 * start-date: 2025/05/09
 * end-date: 2025/10/31
+
+#### Description
+Implement site-wide search that surfaces content across product pages, docs, and community resources.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### External references
 

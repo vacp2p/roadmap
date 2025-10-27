@@ -47,6 +47,12 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 * start-date: 2025/08/11
 * end-date: 2025/10/31
 
+#### Description
+Build the landing directory that lists active contributors with GitHub stats and quick links to their work.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Contributor Profiles
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:contributor-profiles`
@@ -54,6 +60,12 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 * status: in progress (90%)
 * start-date: 2025/08/11
 * end-date: 2025/10/31
+
+#### Description
+Implement profile pages that surface individual contribution history, badges, and impact summaries.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Contribution Guidelines
 
@@ -63,6 +75,12 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 * start-date: 2025/09/25
 * end-date: 2025/10/31
 
+#### Description
+Author and publish contributor onboarding and etiquette guidelines to sit alongside the portal.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Display Github issues
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:github-issues`
@@ -70,6 +88,12 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 * status: in progress (90%)
 * start-date: 2025/09/08
 * end-date: 2025/10/31
+
+#### Description
+Integrate curated GitHub issues into the portal so newcomers can quickly find actionable tickets.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Use BI team's Github Data
 
@@ -79,6 +103,12 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 * start-date: 2025/09/08
 * end-date: 2025/10/31
 
+#### Description
+Plumb BI-provided GitHub datasets into the portal to power contributor metrics and trend charts.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Leaderboard
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:leaderboard`
@@ -86,6 +116,12 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 * status: in progress (80%)
 * start-date: 2025/08/20
 * end-date: 2025/10/31
+
+#### Description
+Implement seasonal and all-time leaderboards with sorting that highlights high-impact contributors.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Tier & Scoring
 
@@ -95,6 +131,12 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 * start-date: 2025/08/20
 * end-date: 2025/10/31
 
+#### Description
+Define the tier logic and scoring rules that map contributor activity into the recognition ladder.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Proposals
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:proposals`
@@ -103,4 +145,9 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 * start-date: 2025/09/20
 * end-date: 2025/10/31
 
+#### Description
+Launch the proposal submission flow so volunteers can pitch work or request support directly in the portal.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 

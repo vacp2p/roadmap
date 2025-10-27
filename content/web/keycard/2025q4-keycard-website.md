@@ -52,6 +52,12 @@ The Keycard website's content will support IFT's strategic objectives by:
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
+#### Description
+Localize the Keycard site and docs so core pages ship in the priority languages for launch.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Help
 
 * fully qualified name: `vac:web:keycard:2025q4-keycard-docs:help`
@@ -59,6 +65,12 @@ The Keycard website's content will support IFT's strategic objectives by:
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
+
+#### Description
+Author the help center covering setup, troubleshooting, and FAQs for both Keycard and Shell devices.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Start Guide
 
@@ -68,3 +80,8 @@ The Keycard website's content will support IFT's strategic objectives by:
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
+#### Description
+Create a step-by-step getting started guide that walks new users through secure activation and first use.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

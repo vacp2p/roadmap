@@ -47,3 +47,9 @@ The Logos Core implementation will support Logos' strategic objectives by:
 * end-date: 2025/12/31
 
 > https://github.com/logos-co/logos-core-poc/blob/develop/docs/specs.md#72-logos-js-sdk
+
+#### Description
+Produce a working POC that wires the Logos JS SDK into a user-facing experience following the core specs.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

@@ -57,18 +57,29 @@ The Status Wallet Extension will support Status' strategic objectives by:
 
 ### Price proxy
 
-* fully qualified name: <`fully qualified task name`>
-* owner: <github/disord name of the CC responsible for this task>
+* fully qualified name: `vac:web:status:2025q4-status-wallet-extension:price-proxy`
+* owner: jkbktl
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
+
+#### Description
+Stand up a price proxy service that aggregates token pricing data and exposes cached feeds to the extension.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 
 ### Token proxy
 
-* fully qualified name: <`fully qualified task name`>
-* owner: <github/disord name of the CC responsible for this task>
+* fully qualified name: `vac:web:status:2025q4-status-wallet-extension:token-proxy`
+* owner: nnachionuwa
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
+#### Description
+Build the token metadata proxy that supplies token lists, icons, and market data without relying on paid APIs.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

@@ -167,8 +167,3 @@ Report results of a single scenario (fixed parameters) using K8s and shadow.
 #### Deliverables
 - PRs:
 - Related Documents:
-
-### Webtransport ?
-
-### KAD-DHT ?
-

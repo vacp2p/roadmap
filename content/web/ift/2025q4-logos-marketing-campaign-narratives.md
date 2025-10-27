@@ -52,6 +52,12 @@ The marketing campaign narratives and brand testing system will support Logos' s
 * start-date: 2025/08/01
 * end-date: 2025/10/31
 
+#### Description
+Deliver a Discord bot that tracks joins, engagement signals, and attribution events for campaign experiments.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### User tracing system
 
 * fully qualified name: `vac:web:ift:2025q4-logos-marketing-campaign-narratives:user-tracing-system`
@@ -59,6 +65,12 @@ The marketing campaign narratives and brand testing system will support Logos' s
 * status: done
 * start-date: 2025/09/01
 * end-date: 2025/12/31
+
+#### Description
+Stand up an end-to-end tracking pipeline that links landing page clicks to downstream Discord and campaign activity.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Python backend
 
@@ -68,6 +80,12 @@ The marketing campaign narratives and brand testing system will support Logos' s
 * start-date: 2025/09/01
 * end-date: 2025/12/31
 
+#### Description
+Build the Python services that ingest telemetry, persist analytics data, and surface insights for marketers.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Landing page analytics
 
 * fully qualified name: `vac:web:ift:2025q4-logos-marketing-campaign-narratives:landing-page-analytics`
@@ -75,3 +93,9 @@ The marketing campaign narratives and brand testing system will support Logos' s
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
+
+#### Description
+Instrument Logos landing pages with analytics dashboards that report conversions and narrative performance.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

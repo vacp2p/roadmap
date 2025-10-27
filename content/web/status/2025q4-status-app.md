@@ -27,16 +27,28 @@ This commitment involves supporting the continued development of the Status App 
 
 ### Upgrade Waku
 
-* fully qualified name: <`fully qualified task name`>
-* owner: <github/disord name of the CC responsible for this task>
+* fully qualified name: `vac:web:status:2025q4-status-app:upgrade-waku`
+* owner: jkbktl
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
+
+#### Description
+Align Status web surfaces with the upcoming Waku upgrade, covering SDK updates and UI/UX regression checks.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Community Shards
 
-* fully qualified name: <`fully qualified task name`>
-* owner: <github/disord name of the CC responsible for this task>
+* fully qualified name: `vac:web:status:2025q4-status-app:community-shards`
+* owner: nnachionuwa
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
+
+#### Description
+Support the web-facing changes needed for community shards, including shard UI, configuration, and QA cycles.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

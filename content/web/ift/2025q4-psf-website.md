@@ -39,6 +39,12 @@ The PSF website will support Logos' strategic objectives by:
 * start-date: 2025/03/04
 * end-date: 2026/10/31
 
+#### Description
+Build the core PSF public site with schedules, speakers, and storytelling that sells the festival experience.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Ticketing
 
 * fully qualified name: `vac:web:ift:2025q4-psf-website:ticketing`
@@ -46,6 +52,12 @@ The PSF website will support Logos' strategic objectives by:
 * status: in progress (20%)
 * start-date: 2025/03/04
 * end-date: 2026/10/31
+
+#### Description
+Integrate ticketing flows, payment handling, and attendee confirmations tailored to PSF needs.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Designs
 
@@ -55,6 +67,12 @@ The PSF website will support Logos' strategic objectives by:
 * start-date: 2025/03/04
 * end-date: 2026/10/31
 
+#### Description
+Produce the visual system, page comps, and responsive assets that underpin the PSF web experience.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Copywriting
 
 * fully qualified name: `vac:web:ift:2025q4-psf-website:copywriting`
@@ -62,6 +80,12 @@ The PSF website will support Logos' strategic objectives by:
 * status: in progress (20%)
 * start-date: 2025/03/04
 * end-date: 2026/10/31
+
+#### Description
+Craft narrative copy that explains PSF’s mission, programming, and calls to action across the site.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### CTAs
 

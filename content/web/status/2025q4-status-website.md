@@ -57,13 +57,24 @@ The Status website optimization will support Status' strategic objectives by:
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
+#### Description
+Localize Status web properties and ensure translated content keeps parity with product updates.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 
 ### SEO  
 
-* fully qualified name: `vac:web:status:2025q4-status-website:i18n`
+* fully qualified name: `vac:web:status:2025q4-status-website:seo`
 * owner: felicio
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
+#### Description
+Optimize Status web SEO fundamentals—performance, structured data, and metadata—to grow organic reach.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 

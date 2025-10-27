@@ -45,3 +45,9 @@ The Logos newsletter will support Logos' strategic objectives by:
 * status: not started
 * start-date: 2025/09/20
 * end-date: 2025/10/31
+
+#### Description
+Plan, write, and distribute the monthly Logos newsletter highlighting ecosystem milestones and calls to action.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

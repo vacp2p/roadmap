@@ -51,6 +51,12 @@ The Status Network Hub will support Status Network's strategic objectives by:
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
+#### Description
+Ship the WalletConnect onboarding and session management flows so users can safely link their wallets.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Staking
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:staking`
@@ -58,6 +64,12 @@ The Status Network Hub will support Status Network's strategic objectives by:
 * status: in progress (60%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
+
+#### Description
+Build the staking dashboard that displays yields, validator options, and lets users manage deposits.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Feedback
 
@@ -67,6 +79,12 @@ The Status Network Hub will support Status Network's strategic objectives by:
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
+#### Description
+Implement in-app feedback capture so newcomers can report issues and suggest improvements.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Deposit
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:deposit`
@@ -74,6 +92,12 @@ The Status Network Hub will support Status Network's strategic objectives by:
 * status: in progress (10%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
+
+#### Description
+Design the deposit flow that guides users through bridging assets into the Status Network.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Discovery
 
@@ -83,6 +107,12 @@ The Status Network Hub will support Status Network's strategic objectives by:
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
+#### Description
+Surface curated dApps, pools, and governance opportunities in a discovery view tailored to new users.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Karma
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:karma`
@@ -90,6 +120,12 @@ The Status Network Hub will support Status Network's strategic objectives by:
 * status: in progress (10%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
+
+#### Description
+Implement the Karma scoring module that rewards participation and unlocks network perks.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Notifications
 
@@ -99,6 +135,12 @@ The Status Network Hub will support Status Network's strategic objectives by:
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
+#### Description
+Add notification preferences and delivery so users receive timely updates about their network activity.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Withdraw
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:withdraw`
@@ -106,6 +148,12 @@ The Status Network Hub will support Status Network's strategic objectives by:
 * status: in progress (60%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
+
+#### Description
+Create the withdrawal flow that lets users exit positions and transfer assets back to their wallets.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 > https://www.figma.com/design/1XbZL2WrTG5DqJO8DovE0H/Website----status.network?node-id=1940-3359&p=f&m=dev
 > https://github.com/orgs/status-im/projects/94/views/5?sliceBy%5Bvalue%5D=September+2025+%28Status+Network%29

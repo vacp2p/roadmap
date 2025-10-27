@@ -45,3 +45,9 @@ The Qaku app will support Logos' strategic objectives by:
 * status: in progress (80%)
 * start-date: 2025/08/01
 * end-date: 2026/03/31
+
+#### Description
+Deliver the Qaku event app MVP with Waku-powered Q&A, polls, and moderation tools ready for Townhall pilots.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

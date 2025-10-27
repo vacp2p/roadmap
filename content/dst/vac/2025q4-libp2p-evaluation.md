@@ -150,7 +150,7 @@ include mix to the configuration options of the node.
 
 * fully qualified name: `vac:dst:ift:2025q4-libp2p-evaluation:go-libp2p-node`
 * owner: Farooq
-* status: 60%
+* status: 100%
 * start-date: 2025/10/06
 * end-date: 2025/10/24
 
@@ -162,6 +162,7 @@ Report results of a single scenario (fixed parameters) using K8s and shadow.
 
 #### Deliverables
 - PRs:
+  - [Github PR: go-libp2p-test-node #8](https://github.com/vacp2p/dst-libp2p-test-node/pull/8)
 - Related Documents:
 
 ### Webtransport ?

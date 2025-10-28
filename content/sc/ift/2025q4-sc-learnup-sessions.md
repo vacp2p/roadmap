@@ -26,9 +26,9 @@ improving cross-project collaboration.
 
 ### Smart Contracts LearnUp Sessions 2025 Q4
 
-* fully qualified name: `2025q4-sc-learnup-sessions:2025q4`
-* owner:
-* status: todo
+* fully qualified name: `vac:sc:ift:2025q4-sc-learnup-sessions:2025q4`
+* owner: r4bbit
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -42,9 +42,9 @@ Organize learn up session on a monthly basis and ensure meetings are recorded an
 
 ### SC LearnUp Session 2025/10
 
-* fully qualified name: `2025q4-sc-learnup-sessions:2025-10`
-* owner:
-* status: todo
+* fully qualified name: `vac:sc:ift:2025q4-sc-learnup-sessions:2025-10`
+* owner: r4bbit
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/10/31
 
@@ -58,9 +58,9 @@ Run a learn up session about topic of choice related to smart contract developme
 
 ### SC LearnUp Session 2025/11
 
-* fully qualified name: `2025q4-sc-learnup-sessions:2025-11`
-* owner:
-* status: todo
+* fully qualified name: `vac:sc:ift:2025q4-sc-learnup-sessions:2025-11`
+* owner: r4bbit
+* status: not started
 * start-date: 2025/11/01
 * end-date: 2025/11/30
 
@@ -74,9 +74,9 @@ Run a learn up session about topic of choice related to smart contract developme
 
 ### SC LearnUp Session 2025/12
 
-* fully qualified name: `2025q4-sc-learnup-sessions:2025-12`
-* owner:
-* status: todo
+* fully qualified name: `vac:sc:ift:2025q4-sc-learnup-sessions:2025-12`
+* owner: r4bbit
+* status: not started
 * start-date: 2025/12/01
 * end-date: 2025/12/31
 

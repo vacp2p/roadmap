@@ -36,9 +36,9 @@ identifying gaps and proposing or creating additional tests as necessary.
 
 * fully qualified name: `vac:qa:ift:2025q4-qa-rfc-sync-jswaku:relay`
 * owner: fbarbu15
-* status: 
-* start-date: 
-* end-date: 
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 - Compare `relay` protocol implemented in `js-waku` against the Waku RFCs.
@@ -47,6 +47,7 @@ identifying gaps and proposing or creating additional tests as necessary.
 - Verify test automation exists for this protocol and note any coverage gaps.
 - Coordinate with developers for bug fixes and/or additional tests.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Notion page summarizing the current implementation-to-RFC mapping, discrepancies, and action items.
 - GitHub issues for required fixes or RFC updates.
@@ -56,9 +57,9 @@ identifying gaps and proposing or creating additional tests as necessary.
 
 * fully qualified name: `vac:qa:ift:2025q4-qa-rfc-sync-jswaku:filter`
 * owner: fbarbu15
-* status: 
-* start-date: 
-* end-date: 
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 - Compare `filter` protocol implemented in `js-waku` against the Waku RFCs.
@@ -67,6 +68,7 @@ identifying gaps and proposing or creating additional tests as necessary.
 - Verify test automation exists for this protocol and note any coverage gaps.
 - Coordinate with developers for bug fixes and/or additional tests.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Notion page summarizing the current implementation-to-RFC mapping, discrepancies, and action items.
 - GitHub issues for required fixes or RFC updates.
@@ -76,9 +78,9 @@ identifying gaps and proposing or creating additional tests as necessary.
 
 * fully qualified name: `vac:qa:ift:2025q4-qa-rfc-sync-jswaku:lightpush`
 * owner: fbarbu15
-* status: 
-* start-date: 
-* end-date: 
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 - Compare `lightpush` protocol implemented in `js-waku` against the Waku RFCs.
@@ -87,6 +89,7 @@ identifying gaps and proposing or creating additional tests as necessary.
 - Verify test automation exists for this protocol and note any coverage gaps.
 - Coordinate with developers for bug fixes and/or additional tests.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Notion page summarizing the current implementation-to-RFC mapping, discrepancies, and action items.
 - GitHub issues for required fixes or RFC updates.
@@ -96,9 +99,9 @@ identifying gaps and proposing or creating additional tests as necessary.
 
 * fully qualified name: `vac:qa:ift:2025q4-qa-rfc-sync-jswaku:store`
 * owner: fbarbu15
-* status: 
-* start-date: 
-* end-date: 
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 - Compare `store` protocol implemented in `js-waku` against the Waku RFCs.
@@ -107,6 +110,7 @@ identifying gaps and proposing or creating additional tests as necessary.
 - Verify test automation exists for this protocol and note any coverage gaps.
 - Coordinate with developers for bug fixes and/or additional tests.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Notion page summarizing the current implementation-to-RFC mapping, discrepancies, and action items.
 - GitHub issues for required fixes or RFC updates.
@@ -117,9 +121,9 @@ identifying gaps and proposing or creating additional tests as necessary.
 
 * fully qualified name: `vac:qa:ift:2025q4-qa-rfc-sync-jswaku:peer-exchange`
 * owner: fbarbu15
-* status: 
-* start-date: 
-* end-date: 
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 - Compare `peer-exchange` protocol implemented in `js-waku` against the Waku RFCs.
@@ -128,6 +132,7 @@ identifying gaps and proposing or creating additional tests as necessary.
 - Verify test automation exists for this protocol and note any coverage gaps.
 - Coordinate with developers for bug fixes and/or additional tests.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Notion page summarizing the current implementation-to-RFC mapping, discrepancies, and action items.
 - GitHub issues for required fixes or RFC updates.

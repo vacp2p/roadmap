@@ -121,13 +121,14 @@ Oversee testing strategy around releases.
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:privacy-mode`
 * owner: nastya
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 - Support new **Privacy Mode** feature in tests.  
 - Add new tests and update existing ones.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - PRs / Issues
 
@@ -138,13 +139,14 @@ Oversee testing strategy around releases.
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:dapp-browser`
 * owner: nastya
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 - Support Browser feature in tests.  
 - Add new tests and update existing ones.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - PRs / Issues
 
@@ -171,12 +173,13 @@ Oversee testing strategy around releases.
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:local-backup-opt-in`
 * owner: nastya
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 - Opt-in messages Local Backup feature support in tests.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - PRs / Issues
 
@@ -187,12 +190,13 @@ Oversee testing strategy around releases.
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:external-activity`
 * owner: nastya
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 - Support **Activity fetching** feature in tests.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - PRs / Issues
 
@@ -203,11 +207,12 @@ Oversee testing strategy around releases.
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:emoji-reactions`
 * owner: nastya
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 - Maintenance for full emoji list in **Reactions** feature.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - PRs / Issues

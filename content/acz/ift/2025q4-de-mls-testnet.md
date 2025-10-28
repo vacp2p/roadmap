@@ -47,7 +47,7 @@ to apply for EF grants to promote the project and gain support from the Ethereum
 
 * fully qualified name: `vac:acz:ift:2025q4-de-mls-tesnet:multi-steward-rfc`
 * owner: Ugur
-* status: in progress (15%)
+* status: in progress (60%)
 * start-date: 2025/10/25
 * end-date: 2025/11/25
 
@@ -58,7 +58,7 @@ The RFC needs to contain a concrete flow and explanation.
 
 #### Deliverables
 
-* A PR to vacp2p/rfc-index repo with related updates.
+* A [PR](https://github.com/vacp2p/rfc-index/pull/193) to vacp2p/rfc-index repo with related updates.
 
 ### Multi-steward integration
 

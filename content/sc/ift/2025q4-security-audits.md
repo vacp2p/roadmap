@@ -26,3 +26,17 @@ Urgent work related to IFT projects take precedence over this.
 ## Task List
 
 List of security audits and contests the team participated in.
+
+### Audit contest participation
+
+* fully qualified name: `vac:sc:ift:2025q4-security-audits:audit-contest`
+* owner: TBD
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
+
+#### Description
+Select and enter a security audit contest, coordinate preparation, and document takeaways for the team.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

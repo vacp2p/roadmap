@@ -21,14 +21,15 @@ Extract the transcript from Youtube video to use it for RAG context and other po
 
 * fully qualified name: `vac:bi:ift:2025q4-ift-townhall-transcript`
 * owner: nickninov
-* status: In Progress
-* start-date: 01/10/2025
-* end-date: 06/08/2025
+* status: in progress (5%)
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 https://github.com/status-im/data-docs/issues/78
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 
 * Dagster DAG to extract youtube videos transcript.

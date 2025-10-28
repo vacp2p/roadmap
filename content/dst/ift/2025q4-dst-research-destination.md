@@ -45,29 +45,43 @@ by making sure we’re open, accessible, and continuously learning from each oth
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-research-destination:ethereum-foundation`
 * owner: Alberto
-* status: recurring
-* start-date: 2025-10-01
-* end-date: 2025-12-31
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 Apply for an EF grant through the [Project Grants](https://esp.ethereum.foundation/applicants/project-grants).
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- PRs/Issues/Docs/Reports
 
 
 ### Forum posts (recurring)
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-research-destination:forum-post`
 * owner: Alberto
-* status: recurring
-* start-date: 2025-10-01
-* end-date: 2025-12-31
+* status: in progress (50%)
+* start-date: 2025/10/01
+* end-date: 2025/12/31
+
+#### Description
+Publish recurring DST forum updates that translate experiment results into clear takeaways for the wider community.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Public reports (recurring)
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-research-destination:public-reports`
 * owner: Alberto
-* status: recurring
-* start-date: 2025-10-01
-* end-date: 2025-12-31
+* status: in progress (50%)
+* start-date: 2025/10/01
+* end-date: 2025/12/31
+
+#### Description
+Produce polished public reports that package DST findings into shareable narratives for external stakeholders.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

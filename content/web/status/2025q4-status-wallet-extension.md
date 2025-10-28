@@ -10,7 +10,6 @@ description: "Development of a browser wallet extension focused on trading and i
 
 `vac:web:status:2025q4-status-wallet-extension`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
 ## Description
 
 This commitment involves developing a browser wallet extension that serves as a trading wallet and token price tracker for casual and meme coin traders and investors. The extension will be independent from the Status App project, focusing on revenue generation through trading activities while providing comprehensive portfolio management across multiple connected wallets.
@@ -57,18 +56,29 @@ The Status Wallet Extension will support Status' strategic objectives by:
 
 ### Price proxy
 
-* fully qualified name: <`fully qualified task name`>
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* fully qualified name: `vac:web:status:2025q4-status-wallet-extension:price-proxy`
+* owner: jkbktl
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
+
+#### Description
+Stand up a price proxy service that aggregates token pricing data and exposes cached feeds to the extension.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 
 ### Token proxy
 
-* fully qualified name: <`fully qualified task name`>
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* fully qualified name: `vac:web:status:2025q4-status-wallet-extension:token-proxy`
+* owner: nnachionuwa
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
+#### Description
+Build the token metadata proxy that supplies token lists, icons, and market data without relying on paid APIs.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

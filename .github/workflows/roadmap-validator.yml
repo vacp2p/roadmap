@@ -1,0 +1,66 @@
+name: Roadmap Validator
+
+on:
+  workflow_dispatch:
+    inputs:
+      paths:
+        description: 'Space-separated paths or directories to validate, ex *2025q4* '
+        required: false
+        default: ''
+  push:
+    branches:
+      - master
+    paths:
+      - 'content/dst/**'
+      - 'content/qa/**'
+      - 'content/nim/**'
+      - 'content/p2p/**'
+      - 'content/rfc/**'
+      - 'content/sc/**'
+      - 'content/sec/**'
+      - 'content/web/**'
+      - 'tools/roadmap_validator/**'
+      - '.github/workflows/roadmap-validator.yml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install --disable-pip-version-check --no-cache-dir pyyaml
+
+      - name: Detect changed markdown files
+        if: ${{ github.event_name != 'workflow_dispatch' }}
+        id: changed-files
+        uses: tj-actions/changed-files@v42
+        with:
+          files: |
+            **/*.md
+
+      - name: Run roadmap validator
+        run: |
+          set -eo pipefail
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            TARGETS="${{ github.event.inputs.paths }}"
+          else
+            TARGETS="${{ steps.changed-files.outputs.all_changed_files }}"
+            if [ -z "$TARGETS" ]; then
+              echo "No roadmap markdown changes detected."
+              exit 0
+            fi
+          fi
+
+          echo "Validating targets:"
+          printf '%s\n' $TARGETS
+          python tools/roadmap_validator/validate.py $TARGETS

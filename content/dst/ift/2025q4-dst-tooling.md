@@ -49,7 +49,7 @@ reinforcing cross project collaboration.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:general-tooling`
 * owner: Alberto
-* status: recurring
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -70,9 +70,9 @@ Should be made general when possible.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:general-log-parser`
 * owner: Alberto
-* status: 0%
-* start-date: -
-* end-date: -
+* status: in progress (50%)
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 The goal of this task is to extend the DST log parser tool to 
@@ -87,6 +87,7 @@ Status envelope IDs. This will empower developers to better understand
 network events, troubleshoot issues, and optimize usage scenarios within 
 libp2p, Gossipsub, MVDS, and SDS protocols.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - PRs:
 - Related Documents:
@@ -96,9 +97,9 @@ libp2p, Gossipsub, MVDS, and SDS protocols.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:scenario-workflow-manager`
 * owner: TBD
-* status: 0%
-* start-date:
-* end-date:
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 The objective of this task is to create a workflow management tool to design, 
@@ -112,6 +113,7 @@ message interactions in distributed environments. This tool aims to
 improve understanding of protocols like Gossipsub and libp2p, both in regular 
 workflows and edge-case scenarios.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - PRs:
 - Related Documents:
@@ -121,9 +123,9 @@ workflows and edge-case scenarios.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:local-stack-analysis`
 * owner: TBD
-* status: 0%
-* start-date:
-* end-date:
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Improve the main repository with a local stack for deploying experiments in local.
@@ -133,6 +135,7 @@ are also working properly.
 This stack should be easy to build, with documentation and examples.
 Ideally it is done with Docker Desktop, or any other light Kubernetes solution.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - PRs:
 - Related Documents:

@@ -10,7 +10,6 @@ description: "Development of Logos Contribute, a contribution hub that recognize
 
 `vac:web:ift:2025q4-logos-contributions-portal`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
 ## Description
 
 This commitment involves developing Logos Contribute, a comprehensive contribution hub that recognizes open source contributors and helps new developers make their first meaningful contributions to the Logos ecosystem. The portal serves as a critical component of the volunteer-driven, open source community building strategy, showcasing contributor activity, providing curated resources, and offering clear pathways for community engagement.
@@ -43,64 +42,111 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:contributor-directory`
 * owner: JulesFiliot
-* status: 90%
+* status: in progress (90%)
 * start-date: 2025/08/11
 * end-date: 2025/10/31
+
+#### Description
+Build the landing directory that lists active contributors with GitHub stats and quick links to their work.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Contributor Profiles
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:contributor-profiles`
 * owner: JulesFiliot
-* status: 90%
+* status: in progress (90%)
 * start-date: 2025/08/11
 * end-date: 2025/10/31
+
+#### Description
+Implement profile pages that surface individual contribution history, badges, and impact summaries.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Contribution Guidelines
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:contribution-guidelines`
 * owner: jinhojang6
-* status: 90%
+* status: in progress (90%)
 * start-date: 2025/09/25
 * end-date: 2025/10/31
+
+#### Description
+Author and publish contributor onboarding and etiquette guidelines to sit alongside the portal.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Display Github issues
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:github-issues`
 * owner: JulesFiliot
-* status: 90%
+* status: in progress (90%)
 * start-date: 2025/09/08
 * end-date: 2025/10/31
+
+#### Description
+Integrate curated GitHub issues into the portal so newcomers can quickly find actionable tickets.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Use BI team's Github Data
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:bi-data`
 * owner: JulesFiliot
-* status: 20%
+* status: in progress (20%)
 * start-date: 2025/09/08
 * end-date: 2025/10/31
+
+#### Description
+Plumb BI-provided GitHub datasets into the portal to power contributor metrics and trend charts.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Leaderboard
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:leaderboard`
 * owner: JulesFiliot
-* status: 80%
+* status: in progress (80%)
 * start-date: 2025/08/20
 * end-date: 2025/10/31
+
+#### Description
+Implement seasonal and all-time leaderboards with sorting that highlights high-impact contributors.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Tier & Scoring
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:tier-scoring`
 * owner: jinhojang6
-* status: 50%
+* status: in progress (50%)
 * start-date: 2025/08/20
 * end-date: 2025/10/31
+
+#### Description
+Define the tier logic and scoring rules that map contributor activity into the recognition ladder.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Proposals
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:proposals`
 * owner: jinhojang6
-* status: 100%
+* status: done
 * start-date: 2025/09/20
 * end-date: 2025/10/31
 
+#### Description
+Launch the proposal submission flow so volunteers can pitch work or request support directly in the portal.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 

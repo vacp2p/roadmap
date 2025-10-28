@@ -3,9 +3,6 @@ title: P2P Service Unit
 tags:
 - p2p
 - vac
----
-
-## `vac:p2p:`
 
 ---
 
@@ -17,17 +14,16 @@ Major future work items on nim-libp2p (also beyond this reporting period are cap
 
 [[p2p/preview|Roadmap Preview]]
 
-### 2025q4
+## 2025q4 `vac:p2p:`
 
-#### `ift:`
-* [[p2p/ift/2025q4-nimlibp2p-quic|2025q4-nimlibp2p-quic]]
-* [[p2p/ift/2025q4-nimlibp2p-kademlia|2025q4-nimlibp2p-kademlia]]
-* [[p2p/ift/2025q4-nimlibp2p-c-bindings|2025q4-nimlibp2p-c-bindings]]
-* [[p2p/ift/2025q4-nimlibp2p-ipv6|2025q4-nimlibp2p-ipv6]]
-* [[p2p/ift/2025q4-nimlibp2p-maintenance|2025q4-nimlibp2p-maintenance]]
-* [[p2p/ift/2025q4-nimlibp2p-mix|2025q4-nimlibp2p-mix]]
-* [[p2p/ift/2025q4-nimlibp2p-webtransport|2025q4-nimlibp2p-webtransport]]
-
+### `ift:`
+* [[p2p/ift/2025q4-nimlibp2p-cbindings|nimlibp2p-cbindings]]
+* [[p2p/ift/2025q4-nimlibp2p-ipv6|nimlibp2p-ipv6]]
+* [[p2p/ift/2025q4-nimlibp2p-kad-dht|nimlibp2p-kad-dht]]
+* [[p2p/ift/2025q4-nimlibp2p-maintenance|nimlibp2p-maintenance]]
+* [[p2p/ift/2025q4-nimlibp2p-mix|nimlibp2p-mix]]
+* [[p2p/ift/2025q4-nimlibp2p-quic|nimlibp2p-quic]]
+* [[p2p/ift/2025q4-nimlibp2p-webtransport|nimlibp2p-webtransport]]
 
 
 ### 2025q3

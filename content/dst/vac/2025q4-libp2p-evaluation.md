@@ -131,14 +131,14 @@ Perform a comparison between nim-libp2p using quic and waku using mplex and yamu
 
 ### Mix in nim-libp2p node
 
-* fully qualified name: `vac:dst:ift:2025q4-libp2p-evaluation:mix-in-nim-libp2p-node`
+* fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:mix-in-nim-libp2p-node`
 * owner: Farooq
 * status: 100%
 * start-date: 2025/10/06
 * end-date: 2025/10/17
 
 #### Description
-After refactor was done in `vac:dst:ift:2025q3-dst-tooling:nim-libp2p-dst-node-refactor`,
+After refactor was done in `vac:dst:vac:2025q3-dst-tooling:nim-libp2p-dst-node-refactor`,
 include mix to the configuration options of the node.
 
 #### Deliverables
@@ -148,7 +148,7 @@ include mix to the configuration options of the node.
 
 ### Go-libp2p node
 
-* fully qualified name: `vac:dst:ift:2025q4-libp2p-evaluation:go-libp2p-node`
+* fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:go-libp2p-node`
 * owner: Farooq
 * status: 100%
 * start-date: 2025/10/06
@@ -167,7 +167,7 @@ Report results of a single scenario (fixed parameters) using K8s and shadow.
 
 ### Go-libp2p node
 
-* fully qualified name: `vac:dst:ift:2025q4-libp2p-evaluation:rust-libp2p-node`
+* fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:rust-libp2p-node`
 * owner: Farooq
 * status: 0%
 * start-date: 2025/10/27

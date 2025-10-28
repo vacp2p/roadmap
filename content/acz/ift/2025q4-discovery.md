@@ -34,7 +34,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:draft-RFC`
 * owner: Arunima
-* status: in progress (10%)
+* status: in progress (70%)
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 

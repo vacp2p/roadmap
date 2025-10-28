@@ -64,6 +64,7 @@ Should be made general when possible.
     - [Github PR: nimlibp2p mix node deployment changes #137](https://github.com/vacp2p/10ksim/pull/137)
     - [Github PR: Mixnet analysis changes #163](https://github.com/vacp2p/10ksim/pull/163)
     - [Github PR: Allow multiple match groups for the same query in victoria_reader.py #164](https://github.com/vacp2p/10ksim/pull/164)
+    - [Github PR: Updated Readme, Dockerfile, configurations #9](https://github.com/vacp2p/dst-libp2p-test-node/pull/9)
 - Documents:
 
 ### General log parser
@@ -144,7 +145,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:complete-deployment-refactor`
 * owner: Pearson
-* status: 30%
+* status: 70%
 * start-date: 2025/10/06
 * end-date: 2025/10/24
 

@@ -52,6 +52,29 @@ This task encompasses all maintenance updates for Zerokit, including CI updates 
 #### Deliverables
 A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/). 
 
+### Wasm FFI Rework
+
+* fully qualified name: `vac:acz:ift:2025q4-zerokit:wasm-ffi-rework`
+* owner: Vinh
+* status: not started
+* start-date: 2025/11/03
+* end-date: 2025/11/10
+
+#### Description
+This task aims to rework the current rln-wasm module to replace its serialization/deserialization-based
+FFI interface with opaque Rust structures exposed directly to JavaScript via wasm-bindgen.
+Instead of converting data to and from serialized formats when crossing the Rust–JS boundary,
+we will define types like `WasmFr` (a wrapper around `ark_bn254::Fr`) and `WasmRLNProofValues` that can be used natively in JavaScript. 
+For discussion and context, see: [Zerokit Discussion](https://github.com/vacp2p/zerokit/discussions/336)
+
+#### Deliverables
+* A PR to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) that covers:
+  * Refactor: Replace serialization-based argument passing with opaque structs (WasmFr, WasmRLNProofValues, etc.).
+
+  * Bindings Update: Regenerate JS/TS bindings and verify correct usage in Node.js test and Browser headless test.
+
+  * Documentation & Examples: Add usage examples, note wasm-bindgen constructor support, and document known limitations (e.g., tuple returns not supported)
+
 ### FFI re-work
 
 * fully qualified name: `vac:acz:ift:2025q4-zerokit:ffi-rework`

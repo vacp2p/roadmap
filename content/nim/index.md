@@ -11,6 +11,17 @@ tags:
 
 [[nim/preview|Roadmap Preview]]
 
+
+## 2025q4
+
+### `waku:`
+* [[nim/waku/2025q4-waku-nimble-integration|waku-nimble-integration]]
+### `nimbus:`
+* [[nim/nimbus/2025q4-nimbus-nimble-integration|nimbus-nimble-integration]]
+### `ift:`
+* [[nim/ift/2025q4-nim-core-libs|nim-core-libs]]
+* [[nim/ift/2025q4-nimble|nimble]]
+
 ### 2025Q3
 
 #### `ift:`

@@ -9,3 +9,5 @@ private/
 replit.nix
 node_modules
 .ipynb_checkpoints/
+.cache
+__pycache__

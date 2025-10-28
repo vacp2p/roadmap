@@ -2,7 +2,6 @@
 title: RFC Iteration
 tags:
   - rfc
-  - waku
 draft: false
 description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected Zerokit RFCs."
 ---

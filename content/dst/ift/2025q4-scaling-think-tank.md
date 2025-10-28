@@ -27,36 +27,45 @@ scaling ideas, and other insights.
 
 ### Scaling analysis
 
-* fully qualified name: `vac:dst:vac:2025q4-scaling-think-tank:waku-X`
+* fully qualified name: `vac:dst:ift:2025q4-scaling-think-tank:waku-X`
 * owner: TBD
-* status:
-* start-date:
-* end-date:
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- PRs/Issues/Docs/Reports
+
 
 ### Scaling analysis
 
-* fully qualified name: `vac:dst:vac:2025q4-scaling-think-tank:libp2p-X`
+* fully qualified name: `vac:dst:ift:2025q4-scaling-think-tank:libp2p-X`
 * owner: TBD
-* status:
-* start-date:
-* end-date:
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- PRs/Issues/Docs/Reports
+
 
 ### Scaling analysis
 
-* fully qualified name: `vac:dst:vac:2025q4-scaling-think-tank:nomos-X`
+* fully qualified name: `vac:dst:ift:2025q4-scaling-think-tank:nomos-X`
 * owner: TBD
-* status:
-* start-date:
-* end-date:
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- PRs/Issues/Docs/Reports
+

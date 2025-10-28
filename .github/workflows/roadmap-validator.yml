@@ -9,7 +9,7 @@ on:
         default: ''
   push:
     branches:
-      - main
+      - master
     paths:
       - 'content/dst/**'
       - 'content/qa/**'

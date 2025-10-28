@@ -3,12 +3,12 @@
 Command line utility for verifying that roadmap Markdown files follow our actionability standards. The validator is used locally and in CI to guard the structure, metadata, and content quality of roadmap commitments.
 
 ## Features
+- Enforces template basics (`## Description` content, no leftover placeholders).
 - Enforces required front matter keys (`title`, `tags`, `description`).
 - Infers roadmap identity from file paths and validates tags plus the inline identifier.
 - Ensures each `## Task List` contains at least one well-formed `###` task.
 - Checks task metadata (`owner`, `status`, `start-date`, `end-date`) and section completeness.
 - Flags TODO markers, vague descriptions without tangible deliverables, and malformed dates.
-- Enforces template basics (`## Description` content, no leftover placeholders).
 - Restricts validation to specific `content/` subdirectories (dst, qa, nim, p2p, rfc, sc, sec, web).
 - Confirms each unit catalog (e.g. `content/dst/`) includes `index.md`, `preview.md`, keeps entries in sync with validated roadmap files, and that each entry points to an existing Markdown file.
 

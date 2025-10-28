@@ -50,9 +50,9 @@ and especially those we want to work with externally.
 
 * fully qualified name: `vac:dst:status:2025q4-status-evaluation:one-to-one-outage`
 * owner: Alberto
-* status: 0%
-* start-date:
-* end-date:
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 [Notion Link](https://www.notion.so/Chat-Protocol-Benchmarks-1938f96fb65c80d8b22fdf641c5ff003?source=copy_link#19d8f96fb65c809e8f11d4296821b24d)
@@ -76,21 +76,26 @@ Test:
 - Metrics to ensure all messages are **eventually** received (100%) is important
     - and metrics as specified in this page.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- PRs/Issues/Docs/Reports
+
 
 ### Status-backend private chats - send group outage
 
 * fully qualified name: `vac:dst:status:2025q4-status-evaluation:group-outage`
 * owner: Alberto
-* status: 0%
-* start-date:
-* end-date:
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 [Notion Link](https://www.notion.so/Chat-Protocol-Benchmarks-1938f96fb65c80d8b22fdf641c5ff003?source=copy_link#19d8f96fb65c80aa8459d54b975df8b0)
 Same as @Send one-to-one message - Network outage for private group
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- PRs/Issues/Docs/Reports
 
 
 ### Chat protocol benchmarks followup

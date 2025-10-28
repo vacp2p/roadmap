@@ -10,7 +10,6 @@ description: "Development of comprehensive website content and documentation for
 
 `vac:web:keycard:2025q4-keycard-website`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
 ## Description
 
 This commitment involves developing comprehensive website content and documentation for both Keycard and Keycard Shell products to educate users and developers about hardware wallet security, integration capabilities, and usage. The content will serve as the primary educational resource for understanding these innovative hardware wallet solutions.
@@ -48,23 +47,40 @@ The Keycard website's content will support IFT's strategic objectives by:
 
 * fully qualified name: `vac:web:keycard:2025q4-keycard-website:i18n`
 * owner: felicio 
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
+
+#### Description
+Localize the Keycard site and docs so core pages ship in the priority languages for launch.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Help
 
-* fully qualified name: `vac:web:keycard:2025q4-keycard-docs:help`
+* fully qualified name: `vac:web:keycard:2025q4-keycard-website:help`
 * owner: jkbktl
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
+
+#### Description
+Author the help center covering setup, troubleshooting, and FAQs for both Keycard and Shell devices.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Start Guide
 
-* fully qualified name: `vac:web:keycard:2025q4-keycard-docs:start-guide`
+* fully qualified name: `vac:web:keycard:2025q4-keycard-website:start-guide`
 * owner: jkbktl
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
+#### Description
+Create a step-by-step getting started guide that walks new users through secure activation and first use.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

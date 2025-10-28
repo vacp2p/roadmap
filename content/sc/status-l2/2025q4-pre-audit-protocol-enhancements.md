@@ -23,9 +23,9 @@ These features are essential for the protocol's functionality and need to be in 
 ## Task List
 
 ### Distributed slashing implementation
-* fully qualified name: `2025q4-pre-audit-protocol-enhancements:distributed-slashing`
-* owner:
-* status: todo
+* fully qualified name: `vac:sc:status-l2:2025q4-pre-audit-protocol-enhancements:distributed-slashing`
+* owner: r4bbit
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 
@@ -42,9 +42,9 @@ The implementation needs to handle slashing reward sources and ensure proper acc
 - [ ] Documentation of the slashing mechanism
 
 ### Off-chain criteria reward distributor
-* fully qualified name: `2025q4-pre-audit-protocol-enhancements:offchain-reward-distributor`
-* owner:
-* status: todo
+* fully qualified name: `vac:sc:status-l2:2025q4-pre-audit-protocol-enhancements:offchain-reward-distributor`
+* owner: r4bbit
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 
@@ -62,9 +62,9 @@ and have appropriate access controls to prevent abuse.
 - [ ] Documentation explaining the reward distribution mechanism
 
 ### Convert ERC20Votes tests to Foundry
-* fully qualified name: `2025q4-pre-audit-protocol-enhancements:convert-erc20votes-tests`
-* owner:
-* status: todo
+* fully qualified name: `vac:sc:status-l2:2025q4-pre-audit-protocol-enhancements:convert-erc20votes-tests`
+* owner: r4bbit
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 
@@ -82,9 +82,9 @@ This provides confidence that our modifications haven't introduced any regressio
 - [ ] Test coverage matching or exceeding the original OpenZeppelin tests
 
 ### Ensure correct license headers
-* fully qualified name: `2025q4-pre-audit-protocol-enhancements:license-headers`
-* owner:
-* status: todo
+* fully qualified name: `vac:sc:status-l2:2025q4-pre-audit-protocol-enhancements:license-headers`
+* owner: r4bbit
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 

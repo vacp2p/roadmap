@@ -48,16 +48,17 @@ through performance insights during the drafting process.
 
 [Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/hardening_and_scaling_foundation_for_private_chat.md#hardening-and-scaling-foundations-for-private-chats)
 
-* fully qualified name: `-`
-* owner: -
-* status: -
-* start-date: -
-* end-date: -
+* fully qualified name: `vac:dst:waku:2025q4-waku-scaling:private-chats-hardening`
+* owner: TBD
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 To have: Vac-DST: status-backend benchmarks
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Code: 
 - Report:
@@ -85,6 +86,7 @@ after disconnection; in a network with 1 bootstrap node,
 messages within 5 seconds; in a network with 1 bootstrap
 node, 100 service nodes and 500 browser nodes.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Code: 
 - Report:
@@ -96,11 +98,11 @@ node, 100 service nodes and 500 browser nodes.
 
 [Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/integrate_nwaku_in_status_desktop_relay_mode_only.md#integrate-nwaku-in-status-desktop-relay-mode-only)
 
-* fully qualified name: `-`
-* owner: -
-* status: -
-* start-date: -
-* end-date: -
+* fully qualified name: `vac:dst:waku:2025q4-waku-scaling:nwaku-in-status-desktop`
+* owner: TBD
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
@@ -109,6 +111,7 @@ Waku estimated date of completion: 30 June
 Vac-DST to complete go-waku-based benchmark works and proceed with
 nwaku-based vs go-waku-based status-backend comparisons.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Code: 
 - Report:
@@ -120,11 +123,11 @@ nwaku-based vs go-waku-based status-backend comparisons.
 
 [Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/introduce_e2e_reliability_in_status.md#sds-protocol-in-status---basic-integration)
 
-* fully qualified name: `-`
-* owner: -
-* status: -
-* start-date: -
-* end-date: -
+* fully qualified name: `vac:dst:waku:2025q4-waku-scaling:sds-integration`
+* owner: TBD
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Waku estimated date of completion: 31 Aug
@@ -138,6 +141,7 @@ recipient within `S` seconds
 can detect 90% of missed messages within `3*S` seconds
 
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Code:
 - Report:
@@ -150,11 +154,11 @@ can detect 90% of missed messages within `3*S` seconds
 
 [Link to Waku FURPS](https://github.com/waku-org/pm/blob/master/draft-roadmap/introduce_e2e_reliability_in_status.md#sds-protocol-in-status---basic-recovery)
 
-* fully qualified name: `-`
-* owner: -
-* status: -
-* start-date: -
-* end-date: -
+* fully qualified name: `vac:dst:waku:2025q4-waku-scaling:sds-recovery`
+* owner: TBD
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Waku estimated date of completion: 31 Aug 2025
@@ -163,6 +167,7 @@ Prove that:
 - When receiving messages in group, the receiver can 
 - reach eventual consistency within `6*S` seconds
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Code:
 - Report:

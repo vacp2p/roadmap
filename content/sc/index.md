@@ -18,14 +18,14 @@ tags:
 
 ### `ift:`
 
-- [ ] [[sc/ift/2025q4-sc-learnup-sessions]]
-- [ ] [[sc/ift/2025q4-security-audits]]
+* [[sc/ift/2025q4-sc-learnup-sessions|sc-learnup-sessions]]
+* [[sc/ift/2025q4-security-audits|security-audits]]
 
 ### `status-l2:`
 
-- [ ] [[sc/status-l2/2025q4-pre-audit-protocol-enhancements]]
-- [ ] [[sc/status-l2/2025q4-audit-preparation]]
-- [ ] [[sc/status-l2/2025q4-maintaining-status-l2-contracts]]
+* [[sc/status-l2/2025q4-pre-audit-protocol-enhancements|pre-audit-protocol-enhancements]]
+* [[sc/status-l2/2025q4-audit-preparation|audit-preparation]]
+* [[sc/status-l2/2025q4-maintaining-status-l2-contracts|maintaining-status-l2-contracts]]
 
 
 ## 2025q3 `vac:sc:`

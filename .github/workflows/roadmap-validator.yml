@@ -7,7 +7,7 @@ on:
         description: 'Space-separated paths or directories to validate, ex *2025q4* '
         required: false
         default: ''
-  push:
+  pull_request:
     branches:
       - master
     paths:

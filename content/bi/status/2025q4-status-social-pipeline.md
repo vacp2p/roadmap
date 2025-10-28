@@ -20,13 +20,14 @@ description: Build a notification pipeline for status Social
 * fully qualified name: `vac:bi:status:2025q4-status-social-pipeline`
 * owner: c200bzh
 * status: done
-* start-date: 23/09/2025
-* end-date: 03/10/2025
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 https://github.com/status-im/data-docs/issues/88
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 
 * n8n pipeline to push notification in Status Discord for Twitter post and forum post.

@@ -34,7 +34,7 @@ with focus on wallet, settings and waku methods.
 Add functional test coverage to wallet features,
 in order to catch regressions introduced by wallet backend refactoring.
 Focus on e2e scenarios that can be automated at this level.
-TODO! This taks will need to be broken down into smaller task once we have more info
+This taks will need to be broken down into smaller task once we have more info
 
 #### Deliverables
 * PRs with the new tests
@@ -86,18 +86,23 @@ as outlined in this [epic](https://github.com/status-im/status-go/issues/6064).
 Add functional tests for the new emoji reactions API 
 as outlined [here](https://github.com/status-im/status-desktop/issues/18822)
 
+#### Deliverables
+* PRs with the new tests
+
 ### Reliability in Status Communities
 
 * fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:reliability-communities`
 * owner: fbarbu15
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 - R1. When sending a message in a group, the publisher can ascertain the message was received by at least one recipient.
 - R2. When receiving messages in a group, the receiver can ascertain most missed messages by receiving one recent message from the group.
 - See [Waku FURPS](https://github.com/waku-org/pm/blob/2025H2/draft-roadmap/introduce_e2e_reliability_in_status.md?plain=1#L40)
+
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 #### Deliverables
 * PRs with the new tests
@@ -114,3 +119,6 @@ as outlined [here](https://github.com/status-im/status-desktop/issues/18822)
 Ongoing maintenance of Status Functional tests. 
 This includes updating tests for changes in `status-go`, addressing regressions, 
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
+
+#### Deliverables
+* PRs with the new tests

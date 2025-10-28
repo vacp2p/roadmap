@@ -113,12 +113,13 @@ Ongoing maintenance of Waku testing frameworks.
 * fully qualified name: `vac:qa:waku:2025q4-waku-testing:store-sync-updates`
 * owner: aya
 * status: not started
-* start-date: 
-* end-date: 
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Update/enhance the waku store sync tests according to latest changes.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - PRs and issues
 
@@ -129,11 +130,12 @@ Update/enhance the waku store sync tests according to latest changes.
 * fully qualified name: `vac:qa:waku:2025q4-waku-testing:sonda-extension`
 * owner: aya
 * status: not started
-* start date: 
-* end date:
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Extend Sonda tool to allow more advanced testing scenarios for the Store protocol, then add new advanced tests.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - PRs and issues

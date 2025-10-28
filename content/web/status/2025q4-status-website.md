@@ -10,7 +10,6 @@ description: "Optimization and maintenance of the Status website with internatio
 
 `vac:web:status:2025q4-status-website`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
 ## Description
 
 This commitment involves optimizing and maintaining the existing Status website with comprehensive internationalization (i18n) support and search engine optimization (SEO) improvements to enhance global accessibility and discoverability of the Status ecosystem. The website serves as the primary digital touchpoint for users worldwide to learn about Status, download the app, and engage with the community.
@@ -53,17 +52,28 @@ The Status website optimization will support Status' strategic objectives by:
 
 * fully qualified name: `vac:web:status:2025q4-status-website:i18n`
 * owner: felicio
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
+
+#### Description
+Localize Status web properties and ensure translated content keeps parity with product updates.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 
 ### SEO  
 
-* fully qualified name: `vac:web:status:2025q4-status-website:i18n`
+* fully qualified name: `vac:web:status:2025q4-status-website:seo`
 * owner: felicio
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
+#### Description
+Optimize Status web SEO fundamentals—performance, structured data, and metadata—to grow organic reach.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 

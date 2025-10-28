@@ -10,22 +10,22 @@ tags:
 ---
 
 ### `ift:`
-* [[qa/ift/2025q4-qa-rfc-sync-jswaku|2025q4-qa-rfc-sync-jswaku ]]
+* [[qa/ift/2025q4-qa-rfc-sync-jswaku|qa-rfc-sync-jswaku ]]
 
 ### `vac:`
-* [[qa/vac/2025q4-nim-libp2p-testing|2025q4-nim-libp2p-testing ]]
+* [[qa/vac/2025q4-nim-libp2p-testing|nim-libp2p-testing ]]
 
 ### `waku:`
-* [[qa/waku/2025q4-waku-testing|2025q4-waku-testing ]]
-* [[qa/waku/2025q4-rln-smart-contract-testing|2025q4-rln-smart-contract-testing ]] 
+* [[qa/waku/2025q4-waku-testing|waku-testing ]]
+* [[qa/waku/2025q4-rln-smart-contract-testing|rln-smart-contract-testing ]] 
 
 ### `status:`
-* [[qa/status/2025q4-status-go-functional-testing|2025q4-status-go-functional-testing ]]
-* [[qa/status/2025q4-status-qa-desktop|2025q4-status-qa-desktop ]]
-* [[qa/status/2025q4-status-qa-mobile|2025q4-status-qa-mobile ]]
+* [[qa/status/2025q4-status-go-functional-testing|status-go-functional-testing ]]
+* [[qa/status/2025q4-status-qa-desktop|status-qa-desktop ]]
+* [[qa/status/2025q4-status-qa-mobile|status-qa-mobile ]]
 
 ### `nomos:`
-* [[qa/nomos/2025q4-e2e-testing|2025q4-e2e-testing ]]
+* [[qa/nomos/2025q4-e2e-testing|e2e-testing ]]
 
 ---
 
@@ -115,7 +115,3 @@ tags:
 
 ### `codex:`
 * [[qa/codex/2024q4-integration-testing|integration-testing ]]
-
-### archive
-
-* [[qa/archive/2024h1|2024h1]]

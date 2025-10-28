@@ -1,10 +1,10 @@
 ---
 title: Web Service Unit
 tags:
-  - web
----
+- qa
+- web
 
-## `web:`
+---
 
 ## Description
 
@@ -16,42 +16,43 @@ The unit's work directly supports IFT's strategic objective of scaling project c
 
 ---
 
-<!-- todo: update -->
-### 2025q4
+## 2025q4 `vac:web:`
 
-#### `ift:`
+---
 
-- [[web/ift/2025q4-logos-contributions-portal|2025q4-logos-contributions-portal]]
-- [[web/ift/2025q4-logos-core|2025q4-logos-core]]
-- [[web/ift/2025q4-logos-marketing-campaign-narratives|2025q4-logos-marketing-campaign-narratives]]
-- [[web/ift/2025q4-logos-website|2025q4-logos-website]]
-- [[web/ift/2025q4-maintenance|2025q4-maintenance]]
-- [[web/ift/2025q4-newsletter|2025q4-newsletter]]
-- [[web/ift/2025q4-psf-website|2025q4-psf-website]]
-- [[web/ift/2025q4-qaku-app|2025q4-qaku-app]]
+### `ift:`
 
-#### `keycard:`
+* [[web/ift/2025q4-logos-contributions-portal|logos-contributions-portal]]
+* [[web/ift/2025q4-logos-core|logos-core]]
+* [[web/ift/2025q4-logos-marketing-campaign-narratives|logos-marketing-campaign-narratives]]
+* [[web/ift/2025q4-logos-website|logos-website]]
+* [[web/ift/2025q4-maintenance|maintenance]]
+* [[web/ift/2025q4-newsletter|newsletter]]
+* [[web/ift/2025q4-psf-website|psf-website]]
+* [[web/ift/2025q4-qaku-app|qaku-app]]
 
-- [[web/keycard/2025q4-keycard-website|2025q4-keycard-website]]
+### `keycard:`
 
-#### `status:`
+* [[web/keycard/2025q4-keycard-website|keycard-website]]
 
-- [[web/status/2025q4-sn-hub|2025q4-sn-hub]]
-- [[web/status/2025q4-status-app|2025q4-status-app]]
-- [[web/status/2025q4-status-wallet-extension|2025q4-status-wallet-extension]]
-- [[web/status/2025q4-status-website|2025q4-status-website]]
+### `status:`
 
-### 2025q3
+* [[web/status/2025q4-sn-hub|sn-hub]]
+* [[web/status/2025q4-status-app|status-app]]
+* [[web/status/2025q4-status-wallet-extension|status-wallet-extension]]
+* [[web/status/2025q4-status-website|status-website]]
 
-#### `ift:`
+## 2025q3 `vac:web:`
+
+### `ift:`
 
 - [[web/ift/2025q3-logos-website|2025q3-logos-website]]
 
-#### `keycard:`
+### `keycard:`
 
 - [[web/keycard/2025q3-keycard-website|2025q3-keycard-website]]
 
-#### `status:`
+### `status:`
 
 - [[web/status/2025q3-sn-hub|2025q3-sn-hub]]
 - [[web/status/2025q3-sn-website|2025q3-sn-website]]

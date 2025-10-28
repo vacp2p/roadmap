@@ -59,14 +59,15 @@ This will also help spur on outside adoption and contributions.
 
 * fully qualified name: `vac:dst:nomos:2025q4-nomos-scaling:nomos-blendnet-benchmarking`
 * owner: Alberto
-* status: 0%
-* start-date:
-* end-date:
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 Measure the speed and reliability of Nomos's blendnet.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 * Benchmarks done
 * Report published with all relevant details
@@ -76,14 +77,15 @@ Measure the speed and reliability of Nomos's blendnet.
 
 * fully qualified name: `vac:dst:nomos:2025q4-nomos-scaling:nomos-da-benchmarking`
 * owner: Alberto
-* status: 0%
-* start-date:
-* end-date:
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 Measure Nomos bandwidth usage in DA per node and entire network.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 * PRS:
 * Documents:
@@ -93,14 +95,15 @@ Measure Nomos bandwidth usage in DA per node and entire network.
 
 * fully qualified name: `vac:dst:nomos:2025q4-nomos-scaling:nomos-consumption`
 * owner: Alberto
-* status: 0%
-* start-date:
-* end-date:
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 Measure Nomos resource consumption (CPU/RAM) usage in different scenarios.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 * PRS:
 * Documents:

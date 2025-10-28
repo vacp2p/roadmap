@@ -10,8 +10,6 @@ description: "Development of a comprehensive Logos website showcasing the comple
 
 `vac:web:ift:2025q4-logos-website`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
-
 ## Description
 
 This commitment involves developing a comprehensive Logos website that serves as the central hub for the volunteer-driven, open source community building strategy. The website will showcase the complete Logos technology stack while being built around carefully defined optimal user flows for primary and secondary users, with a core focus on bringing people together and providing multiple pathways for contribution that align with privacy principles and user preferences.
@@ -82,79 +80,133 @@ The Logos website will support the volunteer-driven community building strategy 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
 * owner: jinhojang6
-* status: 50%
+* status: in progress (50%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
+
+#### Description
+Finalize the responsive site layout, navigation structure, and page templates for the refreshed Logos web experience.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Components
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
 * owner: jinhojang6
-* status: 50%
+* status: in progress (50%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
+
+#### Description
+Build and document the reusable UI component library that powers the new Logos website.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Copyright
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
 * owner: 0xbathang
-* status: 50%
+* status: in progress (50%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
+
+#### Description
+Update copyright, legal disclosures, and footer messaging to align with the latest Logos positioning.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Internationalization
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
 * owner: jinhojang6
-* status: 50%
+* status: in progress (50%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
+
+#### Description
+Implement the translation workflow and locale switching needed for a multilingual Logos site launch.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### SEO
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:seo`
 * owner: jinhojang6
-* status: 50%
+* status: in progress (50%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
+
+#### Description
+Optimize metadata, structured data, and performance budgets to improve discovery of the new site.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Documentation
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:documentation`
 * owner: jinhojang6
-* status: 20%
+* status: in progress (20%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
+
+#### Description
+Create implementation notes and content authoring guides so teams can maintain the website after launch.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Circles map
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:circles-map`
 * owner: jinhojang6
-* status: 0%
+* status: not started
 * start-date: 2025/10/20
 * end-date: 2025/11/14
+
+#### Description
+Prototype an interactive map that visualizes Logos circles and makes it easy to discover active groups.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Spaces Calendar
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:spaces-calendar`
 * owner: jinhojang6
-* status: 0%
+* status: not started
 * start-date: 2025/10/20
 * end-date: 2025/11/14
+
+#### Description
+Embed an events calendar that aggregates upcoming Spaces sessions and community gatherings.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Data visualization
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:data-visualization`
 * owner: jackewing
-* status: 50%
+* status: in progress (50%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
+
+#### Description
+Design and implement the data visualization modules that communicate Logos impact metrics.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### CTAs
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:ctas`
 * owner: jinhojang6
-* status: 20%
+* status: in progress (20%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -169,27 +221,42 @@ The Logos website will support the volunteer-driven community building strategy 
 - Build
 - Roadmap
 
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Blog (Press Engine)
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:blog`
 * owner: JulesFiliot
-* status: 60%
+* status: in progress (60%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
+
+#### Description
+Stand up the press engine blog system with publishing workflow, tagging, and archive views.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Search
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:search`
 * owner: JulesFiliot
-* status: 0%
+* status: not started
 * start-date: 2025/05/09
 * end-date: 2025/10/31
+
+#### Description
+Implement site-wide search that surfaces content across product pages, docs, and community resources.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### External references
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:external-references`
 * owner: jinhojang6
-* status: 0%
+* status: not started
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -197,11 +264,14 @@ The Logos website will support the volunteer-driven community building strategy 
 
 - from free.technology
 
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Social Proof
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:social-proof`
 * owner: JulesFiliot
-* status: 70%
+* status: in progress (70%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -210,6 +280,8 @@ The Logos website will support the volunteer-driven community building strategy 
 - Commits
 - Contributors
 - Members
+
+#### Deliverables
 
 > https://www.figma.com/design/hyehOA8iMTDiazHy4IDL6D/Logos-2?node-id=46-2287&p=f&t=fxzLuvGuIGzW0LaG-0
 > https://github.com/acid-info/logos-co

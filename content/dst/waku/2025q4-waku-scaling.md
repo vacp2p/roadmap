@@ -70,8 +70,8 @@ To have: Vac-DST: status-backend benchmarks
 * fully qualified name: `vac:dst:waku:2025q4-waku-scaling:optimise-browser-bootstrapping`
 * owner: Pearson
 * status: 10%
-* start-date: 2025-10-15
-* end-date: 2025-10-31
+* start-date: 2025/10/15
+* end-date: 2025/10/31
 
 #### Description
 

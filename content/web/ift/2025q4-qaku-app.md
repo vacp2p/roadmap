@@ -10,7 +10,6 @@ description: "Development of Qaku app as a Logos product powered by Waku for IFT
 
 `vac:web:ift:2025q4-qaku-app`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
 ## Description
 
 This commitment involves developing Qaku app as a Logos product powered by Waku technology to serve IFT Townhalls and events. The app will be positioned as a competitive alternative to existing solutions like Slido, leveraging Waku's decentralized infrastructure to provide secure, privacy-preserving event interaction capabilities.
@@ -42,6 +41,12 @@ The Qaku app will support Logos' strategic objectives by:
 
 * fully qualified name: `vac:web:ift:2025q4-qaku-app:app`
 * owner: JulesFiliot
-* status: 80%
+* status: in progress (80%)
 * start-date: 2025/08/01
 * end-date: 2026/03/31
+
+#### Description
+Deliver the Qaku event app MVP with Waku-powered Q&A, polls, and moderation tools ready for Townhall pilots.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

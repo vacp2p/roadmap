@@ -10,7 +10,6 @@ description: "Implementation and proof-of-concept development of the Logos JS SD
 
 `vac:web:ift:2025q4-logos-core`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
 ## Description
 
 This commitment involves implementing and developing proof-of-concept applications using the newly developed Logos JS SDK framework, as specified in the [Logos Core POC specifications](https://github.com/logos-co/logos-core-poc/blob/develop/docs/specs.md#72-logos-js-sdk). The goal is to prove the framework's usability and demonstrate its potential in real-world user-facing applications within the Logos ecosystem.
@@ -47,3 +46,9 @@ The Logos Core implementation will support Logos' strategic objectives by:
 * end-date: 2025/12/31
 
 > https://github.com/logos-co/logos-core-poc/blob/develop/docs/specs.md#72-logos-js-sdk
+
+#### Description
+Produce a working POC that wires the Logos JS SDK into a user-facing experience following the core specs.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

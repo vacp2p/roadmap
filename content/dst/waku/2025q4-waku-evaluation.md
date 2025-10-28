@@ -63,9 +63,9 @@ to the Premier Research destination narrative by:
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-evaluation:regression-testing`
 * owner: Alberto
-* status: recurring
-* start-date: 2025-10-01
-* end-date: 2025-12-31
+* status: in progress (50%)
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 Run different scenarios
@@ -76,6 +76,7 @@ Test for known regressions
 that have occurred in the past
 and ensure they don't happen again.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Reports:
 - Related PRs if apply:
@@ -85,14 +86,15 @@ and ensure they don't happen again.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-evaluation:quic-vs-tcp`
 * owner: Alberto
-* status: 0%
-* start-date: -
-* end-date: -
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 Perform a comparison between Waku using quic and waku using mplex and yamux.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Reports:
 - Related PRs if apply:
@@ -102,9 +104,9 @@ Perform a comparison between Waku using quic and waku using mplex and yamux.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-evaluation:nwaku-api-image`
 * owner: TBD
-* status: 0%
-* start-date: -
-* end-date: -
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
@@ -113,6 +115,7 @@ This involves images that are used to interact with store, filter and lightpush 
 It should be investigated if adding the Waku publisher here is also a useful idea.
 Documentation and code clarity is required, as this could be used by the waku team, or other projects.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Reports:
 - Related PRs if apply:

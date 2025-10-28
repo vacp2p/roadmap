@@ -20,15 +20,16 @@ Monitor blogs and Social media to find histories where the logos stack bring sol
 
 * fully qualified name: `vac:bi:logos:2025q4-logos-winnable-stories-sm-extractions`
 * owner: c2000bzh and nickninov
-* status: done (Lemmy connector will be kept for later)
-* start-date: 05/08/2025
-* end-date: 24/09/2025
+* status: done
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 Either an expressive description or a link to a github issue with an expressive description.
 https://github.com/status-im/data-docs/issues/62
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 
 Airbyte connectors for :
@@ -40,9 +41,9 @@ Airbyte connectors for :
 
 * fully qualified name: `vac:bi:logos:2025q4-logos-winnable-stories-sm-accounts`
 * owner: c2000bzh and nickninov
-* status: todo
-* start-date: 01/10/2025
-* end-date: 
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 
 ### Description

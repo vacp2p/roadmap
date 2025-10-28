@@ -36,13 +36,13 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.
 
 #### Deliverables
-- [[Deliverable] Maintenance 2025Q4](TODO)
+- [[Deliverable] Maintenance 2025Q4]
 
 
 ### Gossipsub Interop tests
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-maintenance:gossipsub-interop-tests`
-* owner: 
+* owner: rramos
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
@@ -57,7 +57,7 @@ Integrate libp2p test plans' [GossipSub interop tests](https://github.com/libp2p
 ### Fix flaky tests
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-maintenance:flaky-tests`
-* owner: 
+* owner: rramos
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
@@ -67,3 +67,4 @@ Continue to systematically track flaky tests using CI logs and failure reports,
 and fix root causes where reproducible (e.g. race conditions, timeouts, dependency order)
 
 #### Deliverables
+- PRs/Issues/Docs/Reports

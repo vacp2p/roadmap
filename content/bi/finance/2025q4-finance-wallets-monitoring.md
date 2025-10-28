@@ -22,13 +22,14 @@ It is a continuous task to extracts and monitore Crypto wallets for the Finance 
 * fully qualified name: `vac:bi:finance:2025q3-finance-wallets-extractions`
 * owner: apentori
 * status: done
-* start-date: 05/09/2025
-* end-date: 12/09/2025
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 https://github.com/status-im/data-docs/issues/83
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 
 * [Airbyte connector to extract wallets informations](https://github.com/status-im/airbyte-custom-connector/commit/ea693a01f266b714677d7aadb6633102ab07cc1a)
@@ -39,14 +40,15 @@ https://github.com/status-im/data-docs/issues/83
 
 * fully qualified name: `vac:bi:finance:2025q3-finance-wallets-visualization`
 * owner: 
-* status: wait for information 
-* start-date: to determin
-* end-date: to determind
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
 
 #### Description
 
 Continue on the [issue](https://github.com/status-im/data-docs/issues/83), waiting for finance feedback.
 
+Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 
 * Adapted visualization dashboard

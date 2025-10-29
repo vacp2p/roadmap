@@ -56,3 +56,6 @@ from the point of view of a new developer.
 - status: in progress (30%)
 - start-date: 2025/11/01
 - end-date: 2025/11/30
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

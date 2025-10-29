@@ -64,6 +64,10 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - start-date: 2025/10/01
 - end-date: 2025/10/15
 
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ###  Erasure Coding Module
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:erasure-coding-module`
@@ -71,6 +75,10 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - status: not started
 - start-date: 2025/10/15
 - end-date: 2025/10/30
+
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Purchase Module
 
@@ -80,6 +88,10 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - start-date: 2025/10/04
 - end-date: 2025/10/19
 
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### The Block Exchange
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:the-block-exchange'
@@ -87,3 +99,6 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - status: not started
 - start-date: 2025/10/04
 - end-date: 2025/10/31
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

@@ -53,6 +53,9 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - start-date: 2025/11/01
 - end-date: 2025/11/15
 
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Cryptarchia v1 Bootstrapping & Synchronization
 
 - fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:cryptarchia-v1-bootstrapping-and-synchronization`
@@ -60,6 +63,9 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - status: not started
 - start-date: 2025/11/01
 - end-date: 2025/11/15
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Cryptarchia Fork Choice Rule
 
@@ -69,6 +75,9 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - start-date: 2025/12/01
 - end-date: 2025/12/15
 
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Total Stake Inference
 
 - fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:total-stake-inference`
@@ -77,6 +86,9 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - start-date: 2025/12/01
 - end-date: 2025/12/15
 
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Proof of Leadership Specification
 
 - fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:proof-of-leadership-specification`
@@ -84,3 +96,6 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - status: not started
 - start-date: 2025/12/20
 - end-date: 2025/12/31
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

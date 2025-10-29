@@ -49,3 +49,9 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - status: not started
 - start date: 2025/11/01
 - end date: 2025/12/31
+
+#### Description
+Create the RFC for Status chat specifications updates so docs match current client behaviour.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

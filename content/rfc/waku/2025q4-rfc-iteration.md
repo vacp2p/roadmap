@@ -57,5 +57,8 @@ from the point of view of a new developer.
 - start-date: 2025/11/01
 - end-date: 2025/11/30
 
+#### Description
+Create the RFC for Opchan reflecting the latest Waku channel architecture and open questions.
+
 #### Deliverables
 - PRs/Issues/Docs/Reports

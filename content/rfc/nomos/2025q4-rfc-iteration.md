@@ -53,6 +53,9 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - start-date: 2025/11/01
 - end-date: 2025/11/15
 
+#### Description
+Create the RFC for the Cryptarchia v1 protocol covering validators, messages, and consensus flow.
+
 #### Deliverables
 - PRs/Issues/Docs/Reports
 
@@ -63,6 +66,9 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - status: not started
 - start-date: 2025/11/01
 - end-date: 2025/11/15
+
+#### Description
+Create the RFC for Cryptarchia bootstrapping and synchronization procedures.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
@@ -75,6 +81,9 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - start-date: 2025/12/01
 - end-date: 2025/12/15
 
+#### Description
+Create the RFC for the Cryptarchia fork choice rule logic and safety guarantees.
+
 #### Deliverables
 - PRs/Issues/Docs/Reports
 
@@ -86,6 +95,9 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - start-date: 2025/12/01
 - end-date: 2025/12/15
 
+#### Description
+Create the RFC for total stake inference and state tracking within Cryptarchia.
+
 #### Deliverables
 - PRs/Issues/Docs/Reports
 
@@ -96,6 +108,9 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - status: not started
 - start-date: 2025/12/20
 - end-date: 2025/12/31
+
+#### Description
+Create the RFC for the proof of leadership mechanism, including leader election and validation criteria.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports

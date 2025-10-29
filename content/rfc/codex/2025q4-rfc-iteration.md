@@ -42,7 +42,6 @@ editorial work through previous and future RFCs to improve them
 (identify edge cases for example)
 
 
-
 **Alignment with VAC Narratives:**
 
 - The VAC RFC team plans to become a repository
@@ -64,6 +63,9 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - start-date: 2025/10/01
 - end-date: 2025/10/15
 
+#### Description
+Create the RFC for slot builder, updating design decisions and open questions.
+
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
@@ -76,6 +78,8 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - start-date: 2025/10/15
 - end-date: 2025/10/30
 
+#### Description
+Create the RFC for the erasure coding module that documents data availability behaviour.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
@@ -88,6 +92,8 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - start-date: 2025/10/04
 - end-date: 2025/10/19
 
+#### Description
+Create the RFC for the purchase module covering pricing, incentives, and settlement flows.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
@@ -99,6 +105,9 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 - status: not started
 - start-date: 2025/10/04
 - end-date: 2025/10/31
+
+#### Description
+Create the RFC for the block exchange defining peer interactions for trading Codex data.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports

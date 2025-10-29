@@ -1,6 +1,7 @@
 ---
 title: RFC Iteration
 tags:
+  - 2025q4
   - rfc
   - waku
 draft: false
@@ -50,9 +51,8 @@ from the point of view of a new developer.
 
 ### Opchan
 
-- Fully qualified name:
-  `vac:rfc:waku:2025q4-rfc-iteration:opchan`
-- Owner: jimstir
-- Status: 30% (paused)
-- Start date: 2025/11/01
-- End date: 2025/11/30
+- fully qualified name: `vac:rfc:waku:2025q4-rfc-iteration:opchan`
+- owner: jimstir
+- status: in progress (30%)
+- start-date: 2025/11/01
+- end-date: 2025/11/30

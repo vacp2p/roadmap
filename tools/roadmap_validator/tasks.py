@@ -7,6 +7,8 @@ from constants import (
     META_LINE_RE,
     METADATA_ALIAS_MAP,
     REQUIRED_TASK_FIELDS,
+    STATUS_ALLOWED,
+    STATUS_IN_PROGRESS_RE,
     TANGIBLE_KEYWORDS,
     TASK_HEADING_RE,
     TODO_RE,
@@ -56,6 +58,23 @@ class TaskReport:
                 self.add_issue(
                     f"`{field_name}` should use YYYY/MM/DD format (found `{value}`)", line
                 )
+            elif field_name == "status":
+                normalized = value.strip().lower()
+                match = STATUS_IN_PROGRESS_RE.match(normalized)
+                if normalized not in STATUS_ALLOWED:
+                    if match:
+                        progress = int(match.group(1))
+                        if progress >= 100:
+                            self.add_issue(
+                                "`status` percentage must be between 0% and 99% for `in progress`",
+                                line,
+                            )
+                    else:
+                        allowed_text = ", ".join(sorted(STATUS_ALLOWED)) + ", or `in progress (NN%)`"
+                        self.add_issue(
+                            f"`status` should be {allowed_text} (found `{value.strip()}`)",
+                            line,
+                        )
 
         if not self.had_description or self.description_lines == 0:
             line = self.description_line or self.line

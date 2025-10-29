@@ -70,7 +70,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-scaling:optimise-browser-bootstrapping`
 * owner: Pearson
-* status: 10%
+* status: in progress (10%)
 * start-date: 2025/10/15
 * end-date: 2025/10/31
 
@@ -181,7 +181,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-scaling:TWN-supports-RLN-tree`
 * owner: Alberto
-* status: 70%
+* status: in progress (70%)
 * start-date: 2025/10/06
 * end-date: 2025/10/24
 

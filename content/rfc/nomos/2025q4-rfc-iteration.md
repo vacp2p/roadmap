@@ -1,6 +1,7 @@
 ---
 title: RFC Iteration
 tags:
+  - 2025q4
   - rfc
   - nomos
 draft: false
@@ -46,45 +47,40 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 
 ### Cryptarchia v1 Protocol Specification
 
-- Fully qualified name:
-  `vac:rfc:nomos:2025q4-rfc-iteration:cryptarchia-v1-protocol-specification`
-- Owner: cofson
-- Status: not started
-- Start date: 2025/11/01
-- End date: 2025/11/15
+- fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:cryptarchia-v1-protocol-specification`
+- owner: cofson
+- status: not started
+- start-date: 2025/11/01
+- end-date: 2025/11/15
 
 ### Cryptarchia v1 Bootstrapping & Synchronization
 
-- Fully qualified name:
-  `vac:rfc:nomos:2025q4-rfc-iteration:cryptarchia-v1-bootstrapping-and-synchronization`
-- Owner: cofson
-- Status: not started
-- Start date: 2025/11/01
-- End date: 2025/11/15
+- fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:cryptarchia-v1-bootstrapping-and-synchronization`
+- owner: cofson
+- status: not started
+- start-date: 2025/11/01
+- end-date: 2025/11/15
 
 ### Cryptarchia Fork Choice Rule
 
-- Fully qualified name:
-  `vac:rfc:nomos:2025q4-rfc-iteration:cryptarchia-fork-choice-rule`
-- Owner: cofson
-- Status: not started
-- Start date: 2025/12/01
-- End date: 2025/12/15
+- fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:cryptarchia-fork-choice-rule`
+- owner: cofson
+- status: not started
+- start-date: 2025/12/01
+- end-date: 2025/12/15
 
 ### Total Stake Inference
 
-- Fully qualified name:
-  `vac:rfc:nomos:2025q4-rfc-iteration:total-stake-inference`
-- Owner: cofson
-- Status: not started
-- Start date: 2025/12/01
-- End date: 2025/12/15
+- fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:total-stake-inference`
+- owner: cofson
+- status: not started
+- start-date: 2025/12/01
+- end-date: 2025/12/15
 
 ### Proof of Leadership Specification
 
-- Fully qualified name:
-  `vac:rfc:nomos:2025q4-rfc-iteration:proof-of-leadership-specification`
-- Owner: cofson
-- Status: not started
-- Start date: 2025/12/20
-- End date: 2025/12/31
+- fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:proof-of-leadership-specification`
+- owner: cofson
+- status: not started
+- start-date: 2025/12/20
+- end-date: 2025/12/31

@@ -42,7 +42,7 @@ We will also strengthen the Premier Research Destination narrative by:
 
 * fully qualified name: `vac:acz:ift:2025q4-zerokit:zerokit-maintaining`
 * owner: Ekaterina
-* status: in progress (%30)
+* status: in progress (30%)
 * start-date: 2025/10/01
 * end-date: 2025/12/30
 

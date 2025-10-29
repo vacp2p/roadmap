@@ -137,7 +137,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:mix-in-nim-libp2p-node`
 * owner: Farooq
-* status: 100%
+* status: done
 * start-date: 2025/10/06
 * end-date: 2025/10/17
 
@@ -154,7 +154,7 @@ include mix to the configuration options of the node.
 
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:go-libp2p-node`
 * owner: Farooq
-* status: 100%
+* status: done
 * start-date: 2025/10/06
 * end-date: 2025/10/24
 
@@ -173,7 +173,7 @@ Report results of a single scenario (fixed parameters) using K8s and shadow.
 
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:rust-libp2p-node`
 * owner: Farooq
-* status: 0%
+* status: not started
 * start-date: 2025/10/27
 * end-date: 2025/11/07
 

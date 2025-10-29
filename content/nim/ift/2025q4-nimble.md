@@ -25,7 +25,7 @@ We'll prioritize these enhancements to bring Nimble closer to its 1.0 release, e
 By the end of this quarter, we aim to have made significant progress on these fronts, setting the stage for Nimble to become the go-to package manager in IFT projects.
 
 
-## Tasks
+## Task List
 
 ### Nimble 1.0.0
 

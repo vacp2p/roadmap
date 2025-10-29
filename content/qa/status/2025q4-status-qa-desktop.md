@@ -156,7 +156,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:local-backup`
 * owner: nastya
-* status: in progress(75%)
+* status: in progress (75%)
 * start-date: 2025/10/07
 * end-date: 2025/10/20
 

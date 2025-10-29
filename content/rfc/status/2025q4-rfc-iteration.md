@@ -1,7 +1,9 @@
 ---
 title: RFC Iteration
 tags:
+  - 2025q4
   - rfc
+  - status
 draft: false
 description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected Status RFCs."
 ---
@@ -42,9 +44,14 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 
 ### Chat Specifications Support
 
-- Fully qualified name:
-  `vac:rfc:status:2025q4-rfc-iteration:chat-specifications-support`
-- Owner: Filip
-- Status: not started
-- Start date: 2025/11/01
-- End date: 2025/12/31
+- fully qualified name: `vac:rfc:status:2025q4-rfc-iteration:chat-specifications-support`
+- owner: Filip
+- status: not started
+- start date: 2025/11/01
+- end date: 2025/12/31
+
+#### Description
+Create the RFC for Status chat specifications updates so docs match current client behaviour.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

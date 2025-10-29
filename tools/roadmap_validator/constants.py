@@ -25,6 +25,13 @@ TASK_HEADING_RE = re.compile(TASK_HEADING_PATTERN)
 META_LINE_PATTERN = r"^[\-\*]\s*([^:]+):\s*(.*)$"
 META_LINE_RE = re.compile(META_LINE_PATTERN)
 
+STATUS_ALLOWED = {
+    "not started",
+    "done",
+    "blocked",
+}
+STATUS_IN_PROGRESS_RE = re.compile(r"^in progress\s*\((\d{1,2})%\)$")
+
 VAGUE_KEYWORDS = (
     "investigate",
     "research",

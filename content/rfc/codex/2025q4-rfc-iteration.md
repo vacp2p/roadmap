@@ -1,6 +1,7 @@
 ---
 title: RFC Iteration
 tags:
+  - 2025q4
   - rfc
   - codex
 draft: false
@@ -41,7 +42,6 @@ editorial work through previous and future RFCs to improve them
 (identify edge cases for example)
 
 
-
 **Alignment with VAC Narratives:**
 
 - The VAC RFC team plans to become a repository
@@ -57,93 +57,57 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 
 ### Slot Builder
 
-- Fully qualified name:
-  `vac:rfc:codex:2025q4-rfc-iteration:slot-builder'
-- Owner: jimstir
-- Status: 10%
-- Start date: 2025/10/01
-- End date: 2025/10/15
+- fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:slot-builder'
+- owner: jimstir
+- status: in progress (10%)
+- start-date: 2025/10/01
+- end-date: 2025/10/15
+
+#### Description
+Create the RFC for slot builder, updating design decisions and open questions.
+
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ###  Erasure Coding Module
 
-- Fully qualified name:
-  `vac:rfc:codex:2025q4-rfc-iteration:erasure-coding-module`
-- Owner: cofson
-- Status: not started
-- Start date: 2025/10/15
-- End date: 2025/10/30
+- fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:erasure-coding-module`
+- owner: cofson
+- status: not started
+- start-date: 2025/10/15
+- end-date: 2025/10/30
+
+#### Description
+Create the RFC for the erasure coding module that documents data availability behaviour.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### Purchase Module
 
-- Fully qualified name:
-  `vac:rfc:codex:2025q4-rfc-iteration:purchase-module`
-- Owner: cofson
-- Status: not started
-- Start date: 2025/10/04
-- End date: 2025/10/19
+- fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:purchase-module`
+- owner: cofson
+- status: not started
+- start-date: 2025/10/04
+- end-date: 2025/10/19
+
+#### Description
+Create the RFC for the purchase module covering pricing, incentives, and settlement flows.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
 
 ### The Block Exchange
 
-- Fully qualified name:
-  `vac:rfc:codex:2025q4-rfc-iteration:the-block-exchange'
-- Owner: cofson
-- Status: not started
-- Start date: 2025/10/04
-- End date: 2025/10/31
+- fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:the-block-exchange'
+- owner: cofson
+- status: not started
+- start-date: 2025/10/04
+- end-date: 2025/10/31
 
-<!--
+#### Description
+Create the RFC for the block exchange defining peer interactions for trading Codex data.
 
-### Prover
-
-- Fully qualified name:
-  `vac:rfc:codex:2025q3-rfc-iteration:prover'
-- Owner: cofson
-- Status: not started
-- Start date: 2025/09/20
-- End date: 2025/09/30
-
-### Codex
-
-- Fully qualified name:
-  `vac:rfc:codex:2025q3-rfc-iteration:codex`
-- Owner: cofson
-- Status: not started
-- Start date: 2025/09/20
-- End date: 2025/09/30
-
-### Sales Module
-
-- Fully qualified name:
-  `vac:rfc:codex:2025q3-rfc-iteration:sales-module`
-- Owner: cofson
-- Status: not started
-- Start date: 2025/09/20
-- End date: 2025/09/30
-
-### Store Module
-
-- Fully qualified name:
-  `vac:rfc:codex:2025q3-rfc-iteration:store-module`
-- Owner: cofson
-- Status: not started
-- Start date: 2025/09/20
-- End date: 2025/09/30
-
-### Merkle Tree Specification
-
-- Fully qualified name:
-  `vac:rfc:codex:2025q3-rfc-iteration:merkle-tree-specification`
-- Owner: cofson
-- Status: not started
-- Start date: 2025/09/20
-- End date: 2025/09/30
-
-### Community History Service
-
-- Fully qualified name:
-  `vac:rfc:codex:2025q3-rfc-iteration:community-history-service`
-- Owner: cofson
-- Status: not started
-- Start date: 2025/09/20
-- End date: 2025/09/30
-
--->
+#### Deliverables
+- PRs/Issues/Docs/Reports

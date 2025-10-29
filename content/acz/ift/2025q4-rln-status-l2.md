@@ -191,7 +191,7 @@ can write to the shared DB for having a prover cluster based on the pre-research
 
 * fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:devnet-testing`
 * owner: Sylvain
-* status: not started (5%)
+* status: in progress (5%)
 * start-date: 2025/10/15
 * end-date: 2025/11/15
 

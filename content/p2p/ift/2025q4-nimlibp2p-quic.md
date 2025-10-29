@@ -24,7 +24,7 @@ In Q3 we discovered critical deficiencies in nim-quic, including runtime instabi
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-quic:stabilization`
 * owner: vlado/rramos
-* status: started
+* status: in progress (10%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -40,7 +40,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-quic:openssl-replacement`
 * owner: rramos
-* status: completed
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/10/15
 

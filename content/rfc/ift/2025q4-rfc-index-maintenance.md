@@ -1,8 +1,9 @@
 ---
 title: rfc-index-maintenance
 tags:
+  - 2025q4
   - rfc
-  - vac
+  - ift
 draft: false
 description: This commitment revolves around a continuous effort to fix and update across the relevant RFC websites (including the communication).
 ---

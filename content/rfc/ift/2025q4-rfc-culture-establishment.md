@@ -1,9 +1,9 @@
 ---
 title: RFC Culture Establishment
 tags:
+  - 2025q4
   - rfc
   - ift
-  - vac
 draft: false
 description: Continuation of RFC Culture establishment through introducing new initiatives.
 ---
@@ -41,11 +41,11 @@ similar to [IETF](https://www.ietf.org/).
 
 ### Team Communication
 
-- Fully qualified name: `vac:rfc:ift:2025q4-culture-establishment-team-communication`
-- Owner: cofson
-- Status: not started
-- Start date: 2025/10/01
-- End date: 2025/12/31
+- fully qualified name: `vac:rfc:ift:2025q4-rfc-culture-establishment:team-communication`
+- owner: cofson
+- status: not started
+- start-date: 2025/10/01
+- end-date: 2025/12/31
 
 #### Description
 

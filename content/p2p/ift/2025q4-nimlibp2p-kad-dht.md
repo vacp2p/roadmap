@@ -24,7 +24,7 @@ This deliverable continues the work started in 2025q2
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:routing-and-rpc`
 * owner: gabe/rramos
-* status: in progress(75%)
+* status: in progress (75%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -59,7 +59,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:network-maintenance-node-management`
 * owner: gabe
-* status: in progress(50%)
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -76,7 +76,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:data-storage`
 * owner: gabe
-* status: in progress(90%)
+* status: in progress (90%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -96,7 +96,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:data-retrieval`
 * owner: gabe
-* status: in progress(60%)
+* status: in progress (60%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -113,7 +113,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 ### Discovery
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:discovery`
 * owner: gabe
-* status: in progress(15%)
+* status: in progress (15%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

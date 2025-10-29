@@ -32,7 +32,7 @@ Improve stability by addressing flaky tests and extend coverage for Identify/Pus
 
 * fully qualified name: `vac:qa:vac:2025q4-nim-libp2p-testing:test-plans`
 * owner: radek
-* status: in progress(20%)
+* status: in progress (20%)
 * start-date: 2025/10/01
 * end-date: 2025/10/20
 
@@ -121,7 +121,7 @@ Update GossipSub performance tests based on dev feedback and existing data gathe
 
 * fully qualified name: `vac:qa:vac:2025q4-nim-libp2p-testing:quic`
 * owner: radek
-* status: nin progress (5%)
+* status: in progress (5%)
 * start-date: 2025/10/16
 * end-date: 2025/11/25
 

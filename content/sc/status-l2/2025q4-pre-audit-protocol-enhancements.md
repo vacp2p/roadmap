@@ -25,7 +25,7 @@ These features are essential for the protocol's functionality and need to be in 
 ### Distributed slashing implementation
 * fully qualified name: `vac:sc:status-l2:2025q4-pre-audit-protocol-enhancements:distributed-slashing`
 * owner: r4bbit
-* status: not started
+* status: in progress (30%)
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 
@@ -38,8 +38,8 @@ The implementation needs to handle slashing reward sources and ensure proper acc
 
 #### Deliverables
 
-- [ ] Commits/PRs that implement distributed slashing functionality
-- [ ] Documentation of the slashing mechanism
+- [PR 56: queue slash commitments to avoid front-running](https://github.com/status-im/status-network-monorepo/pull/56).
+- Draft documentation for slashing race-condition mitigations.
 
 ### Off-chain criteria reward distributor
 * fully qualified name: `vac:sc:status-l2:2025q4-pre-audit-protocol-enhancements:offchain-reward-distributor`

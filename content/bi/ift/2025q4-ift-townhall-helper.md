@@ -21,8 +21,8 @@ In order to help the Townhall organisation, a list of recent forum post, release
 ### Prepare Media and Content list for each townhall
 
 * fully qualified name: `vac:bi:ift:2025q4-ift-townhall-content-helper`
-* owner: 
-* status: not started
+* owner: nickninov
+* status: in progress (60%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -33,4 +33,5 @@ https://github.com/status-im/data-docs/issues/98
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 
-* Confirm the delivery with Corey
+- `news.free.technology` deployed as the public landing for curated updates.
+- Monthly reports automation seeded and running.

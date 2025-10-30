@@ -54,7 +54,7 @@ The Status Network Hub will support Status Network's strategic objectives by:
 Ship the WalletConnect onboarding and session management flows so users can safely link their wallets.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- Fixed connect wallet experience for SN Hub.
 
 ### Staking
 
@@ -68,7 +68,9 @@ Ship the WalletConnect onboarding and session management flows so users can safe
 Build the staking dashboard that displays yields, validator options, and lets users manage deposits.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [add external links](https://github.com/status-im/status-web/issues/781) - created [PR#818](https://github.com/status-im/status-web/pull/818)
+- synced with Filip regarding API and [review of API design](https://github.com/status-im/sn-api/pull/7)
+- testing & debugging [Withdraw feature](https://github.com/status-im/status-web/pull/813)
 
 ### Feedback
 
@@ -82,7 +84,7 @@ Build the staking dashboard that displays yields, validator options, and lets us
 Implement in-app feedback capture so newcomers can report issues and suggest improvements.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [PR 809: addressed SN Hub feedback actions](https://github.com/status-im/status-web/pull/809).
 
 ### Deposit
 

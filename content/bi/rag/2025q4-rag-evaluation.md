@@ -20,7 +20,7 @@ Setting up a evaluation process for the RAG responses of predefined questions. T
 
 * fully qualified name: `vac:bi:rag:2025q4-rag-evaluation-pipeline`
 * owner: nickninov
-* status: not started
+* status: in progress (30%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -31,6 +31,5 @@ https://github.com/status-im/data-docs/issues/99
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 
-* List of questions to use as evaluation process
-* Pipeline to test the response
-* Evaluation process: can be manual or automatic
+- Monitoring data transformed for easier evaluation tracking.
+- List of evaluation questions drafted.

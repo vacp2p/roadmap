@@ -68,7 +68,7 @@ Investigate how to extend test hooks to reveal more qt properties to help with t
 
 - fully qualified name: `vac:qa:status:2025q4-status-qa-mobile:test-ci`
 - owner: magnus
-- status: in progress (70%)
+- status: in progress (80%)
 - start-date: 2025/11/01
 - end-date: 2025/11/15
 

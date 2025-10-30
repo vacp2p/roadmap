@@ -61,7 +61,7 @@ Localize the Keycard site and docs so core pages ship in the priority languages 
 
 * fully qualified name: `vac:web:keycard:2025q4-keycard-website:help`
 * owner: jkbktl
-* status: not started
+* status: in progress (40%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -69,7 +69,7 @@ Localize the Keycard site and docs so core pages ship in the priority languages 
 Author the help center covering setup, troubleshooting, and FAQs for both Keycard and Shell devices.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [PR 116: wallets page layout and filtering](https://github.com/keycard-tech/keycard-website/pull/116).
 
 ### Start Guide
 

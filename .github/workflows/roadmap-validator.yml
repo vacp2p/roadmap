@@ -18,6 +18,7 @@ on:
       - 'content/rfc/**'
       - 'content/sc/**'
       - 'content/sec/**'
+      - 'content/bi/**'
       - 'content/web/**'
       - 'tools/roadmap_validator/**'
       - '.github/workflows/roadmap-validator.yml'

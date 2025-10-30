@@ -41,7 +41,7 @@ Airbyte connectors for :
 
 * fully qualified name: `vac:bi:logos:2025q4-logos-winnable-stories-sm-accounts`
 * owner: c2000bzh and nickninov
-* status: not started
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -53,4 +53,6 @@ Regroup various sources to find the best account to follows
 
 ### Deliverables
 
-List of social media account to follow.
+- [Twitter followers retweet investigation dashboard](https://superset.test.bi.status.im/superset/dashboard/twitter_investigation/?native_filters_key=ZgqtlpcsUEI).
+- [Twitter account analysis utilities](https://github.com/status-im/bi-utils/pull/6).
+- Persona classification method drafted for future automation.

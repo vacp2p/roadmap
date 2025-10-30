@@ -27,7 +27,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (15%)
+* status: in progress (67%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -43,6 +43,10 @@ Oversee testing strategy around releases.
 - [bug: Cover language selector in e2e](https://github.com/status-im/status-desktop/issues/18983)
 - [feat: replace old transfer detector](https://github.com/status-im/status-desktop/pull/18924)
 - [chore(@e2e): improvement to object definition](https://github.com/status-im/status-desktop/pull/19047)
+- [chore: remove TestRail usage from the project](https://github.com/status-im/status-desktop/pull/19100)
+- [tests: enable syncing on Windows](https://github.com/status-im/status-desktop/pull/19123)
+- [tests: fix Windows object references](https://github.com/status-im/status-desktop/pull/19125)
+- [infra-ci issue 219: Windows test overlap with system window](https://github.com/status-im/infra-ci/issues/219)
 
 ---
 
@@ -61,6 +65,10 @@ Oversee testing strategy around releases.
 - [tested: Enter seed phrase component refactored according to new design](https://github.com/status-im/status-desktop/pull/19004)
 - [bug: Application login is incredibly slow](https://github.com/status-im/status-desktop/issues/19019)
 - [tested: chore: fix some undefined references](https://github.com/status-im/status-desktop/pull/19022)
+- [tested: restore mobile release regression fixes](https://github.com/status-im/status-desktop/pull/19073)
+- [bug: Traces missing for release testing](https://github.com/status-im/status-desktop/issues/19119)
+- [bug: Investigate desktop login freeze](https://github.com/status-im/status-desktop/issues/19120)
+- [bug: Follow-up on mobile build reliability](https://github.com/status-im/status-desktop/issues/19135)
 
 ---
 

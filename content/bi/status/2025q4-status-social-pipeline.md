@@ -2,16 +2,16 @@
 title: Status Social Pipeline
 tags:
   - "2025q4"
+  - "bi"
   - "status"
-  - "social"
 draft: false
 description: Build a notification pipeline for status Social
 ---
 
-`vac:bi:status:2025q4`
+`vac:bi:status:2025q4-status-social-pipeline`
 
 ## Description
-
+Build a notification pipeline for status Social
 
 ## Task List
 

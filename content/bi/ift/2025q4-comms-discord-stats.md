@@ -8,7 +8,7 @@ draft: false
 description: Provide communication teams with Discord channel statistics.
 ---
 
-`vac:bi:comm:2025q4-comms-discord-stats`
+`vac:bi:ift:2025q4-comms-discord-stats`
 
 ## Description
 

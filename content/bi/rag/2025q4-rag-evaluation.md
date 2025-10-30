@@ -8,7 +8,7 @@ draft: false
 description: Setup a evaluation process for the RAG to ensure the quality of result.
 ---
 
-`vac:bi:rag:2025q3-rag-evaluation-pipeline`
+`vac:bi:rag:2025q4-rag-evaluation`
 
 ## Description
 

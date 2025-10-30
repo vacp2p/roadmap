@@ -15,6 +15,32 @@ Additionally, it handle the RAG CaaS to ingest map the internal knowledge of IFT
 
 [[p2p/preview|Roadmap Preview]]
 
+## 2025q4 `vac:bi:`
+---
+
+### `finance`
+* [[bi/finance/2025q4-finance-wallets-monitoring|finance-wallets-monitoring]]
+
+### `ift`
+* [[bi/ift/2025q4-comm-x-spaces-analytics|comm-x-spaces-analytics]]
+* [[bi/ift/2025q4-comms-discord-stats|comms-discord-stats]]
+* [[bi/ift/2025q4-ift-program-overview|ift-program-overview]]
+* [[bi/ift/2025q4-ift-townhall-helper|ift-townhall-helper]]
+* [[bi/ift/2025q4-ift-townhall-transcript|ift-townhall-transcript]]
+* [[bi/ift/2025q4-vac-website-contributors|vac-website-contributors]]
+
+### `logos`
+* [[bi/logos/2025q4-logos-circle-dashboard|logos-circle-dashboard]]
+* [[bi/logos/2025q4-logos-winnable-stories|logos-winnable-stories]]
+
+### `rag`
+* [[bi/rag/2025q4-rag-context-improvement|rag-context-improvement]]
+* [[bi/rag/2025q4-rag-embedding-and-context|rag-embedding-and-context]]
+* [[bi/rag/2025q4-rag-evaluation|rag-evaluation]]
+
+### `status`
+* [[bi/status/2025q4-status-social-pipeline|status-social-pipeline]]
+
 ### 2025q3
 
 * [[bi/2025q3/2025q3-logos-winnable-stories | Q3 Logos Winnable Stories]]

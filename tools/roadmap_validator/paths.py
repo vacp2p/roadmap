@@ -8,6 +8,7 @@ from typing import Iterable, List, Optional
 from constants import SKIP_FILENAMES
 
 ALLOWED_CONTENT_SUBDIRS = {
+    "bi",
     "dst",
     "qa",
     "nim",

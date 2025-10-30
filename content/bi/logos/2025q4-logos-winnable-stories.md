@@ -46,12 +46,12 @@ Airbyte connectors for :
 * end-date: 2025/12/31
 
 
-### Description
+#### Description
 
 Regroup various sources to find the best account to follows
 * https://github.com/status-im/data-docs/issues/90
 
-### Deliverables
+#### Deliverables
 
 - [Twitter followers retweet investigation dashboard](https://superset.test.bi.status.im/superset/dashboard/twitter_investigation/?native_filters_key=ZgqtlpcsUEI).
 - [Twitter account analysis utilities](https://github.com/status-im/bi-utils/pull/6).

@@ -40,4 +40,4 @@ By the end of this quarter, we aim to have made significant progress on these fr
 All the relevant information can be found in [this GitHub issue](https://github.com/nim-lang/nimble/issues/1449).
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [Adds support for deps in `vnext` Fixes #1496](https://github.com/nim-lang/nimble/pull/1499)

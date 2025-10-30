@@ -121,7 +121,7 @@ Update GossipSub performance tests based on dev feedback and existing data gathe
 
 * fully qualified name: `vac:qa:vac:2025q4-nim-libp2p-testing:quic`
 * owner: radek
-* status: in progress (5%)
+* status: in progress (25%)
 * start-date: 2025/10/16
 * end-date: 2025/11/25
 
@@ -131,3 +131,8 @@ stream and connection lifecycle, resilience/error paths, metrics, and interopera
 
 #### Deliverables
 - [fix(quic): GossipSub outbound peers](https://github.com/vacp2p/nim-libp2p/pull/1768)
+- [test(quic): Add tests 1](https://github.com/vacp2p/nim-libp2p/pull/1772)
+- [test: organise transports tests](https://github.com/vacp2p/nim-libp2p/pull/1776)
+- [test(quic): Add Multiaddress Handling tests](https://github.com/vacp2p/nim-libp2p/pull/1784)
+- [test: Refactor common transports tests](https://github.com/vacp2p/nim-libp2p/pull/1786)
+- [Transports tests: Inconsistent behaviour for writes when EOF](https://github.com/vacp2p/nim-libp2p/issues/1788)

@@ -37,9 +37,8 @@ allowing for enforcement of protocol rules.
 The implementation needs to handle slashing reward sources and ensure proper accounting.
 
 #### Deliverables
+- Open research notes on slashing race-condition solutions ([SlashingKarmaLeader.sol](https://github.com/status-im/status-network-monorepo/blob/slash-karma-leader/status-network-contracts/src/rln/SlashingKarmaLeader.sol)).
 
-- [PR 56: queue slash commitments to avoid front-running](https://github.com/status-im/status-network-monorepo/pull/56).
-- Draft documentation for slashing race-condition mitigations.
 
 ### Off-chain criteria reward distributor
 * fully qualified name: `vac:sc:status-l2:2025q4-pre-audit-protocol-enhancements:offchain-reward-distributor`

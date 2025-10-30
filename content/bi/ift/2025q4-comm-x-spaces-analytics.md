@@ -2,8 +2,8 @@
 title: X Space Analytics
 tags:
   - "2025q4"
-  - "communications"
-  - "social"
+  - "bi"
+  - "ift"
 draft: false
 description: Extract and visualize X Spaces Analytics
 ---

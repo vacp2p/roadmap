@@ -3,7 +3,7 @@ title: Comms Discord Statistics
 tags:
   - "2025q4"
   - "bi"
-  - "comm"
+  - "ift"
 draft: false
 description: Provide communication teams with Discord channel statistics.
 ---

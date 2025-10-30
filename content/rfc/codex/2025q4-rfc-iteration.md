@@ -59,7 +59,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:slot-builder`
 - owner: jimstir
-- status: in progress (20%)
+- status: in progress (10%)
 - start-date: 2025/10/01
 - end-date: 2025/10/15
 
@@ -74,7 +74,7 @@ Create the RFC for slot builder, updating design decisions and open questions.
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:erasure-coding-module`
 - owner: cofson
-- status: in progress (70%)
+- status: not started
 - start-date: 2025/10/15
 - end-date: 2025/10/30
 

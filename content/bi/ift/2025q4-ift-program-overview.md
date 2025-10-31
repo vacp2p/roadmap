@@ -2,12 +2,13 @@
 title: Program Overview Dashboard
 tags:
   - "2025q4"
+  - "bi"
   - "ift"
 draft: false
 description: Build Dashboard to have the big picture of each program
 ---
 
-`vac:bi:ift:2025q4-ift-program-dashboard`
+`vac:bi:ift:2025q4-ift-program-overview`
 
 ## Description
 
@@ -23,7 +24,7 @@ Build Dashboard containing the overview of the Program activity:
 ### Setup an evaluation process
 
 * fully qualified name: `vac:bi:ift:2025q4-ift-program-dashboard`
-* owner: 
+* owner: TBD
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31

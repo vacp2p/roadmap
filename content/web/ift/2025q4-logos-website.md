@@ -92,7 +92,7 @@ Finalize the responsive site layout, navigation structure, and page templates fo
 
 ### Components
 
-* fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
+* fully qualified name: `vac:web:ift:2025q4-logos-website:components`
 * owner: jinhojang6
 * status: in progress (50%)
 * start-date: 2025/05/09
@@ -106,7 +106,7 @@ Build and document the reusable UI component library that powers the new Logos w
 
 ### Copyright
 
-* fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
+* fully qualified name: `vac:web:ift:2025q4-logos-website:copyright`
 * owner: 0xbathang
 * status: in progress (50%)
 * start-date: 2025/05/09
@@ -120,7 +120,7 @@ Update copyright, legal disclosures, and footer messaging to align with the late
 
 ### Internationalization
 
-* fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
+* fully qualified name: `vac:web:ift:2025q4-logos-website:internationalization`
 * owner: jinhojang6
 * status: in progress (50%)
 * start-date: 2025/05/09
@@ -178,7 +178,7 @@ Prototype an interactive map that visualizes Logos circles and makes it easy to 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:spaces-calendar`
 * owner: jinhojang6
-* status: not started
+* status: in progress (50%)
 * start-date: 2025/10/20
 * end-date: 2025/11/14
 
@@ -186,7 +186,8 @@ Prototype an interactive map that visualizes Logos circles and makes it easy to 
 Embed an events calendar that aggregates upcoming Spaces sessions and community gatherings.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- Submission, List, Management features to replace Google Sheets and provide API endpoints for external usage
+- [Pull Request](https://github.com/acid-info/admin-acid.logos.co/pull/19), [Public API](https://logos-admin-git-space-calendar-acidinfo.vercel.app/api/spaces-calendar/public), [Preview](https://logos-admin-git-space-calendar-acidinfo.vercel.app/spaces-calendar?tab=list)
 
 ### Data visualization
 
@@ -242,7 +243,7 @@ Stand up the press engine blog system with publishing workflow, tagging, and arc
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:search`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (50%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -250,7 +251,10 @@ Stand up the press engine blog system with publishing workflow, tagging, and arc
 Implement site-wide search that surfaces content across product pages, docs, and community resources.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- Implement docs search component
+  https://github.com/acid-info/logos-co/pull/14
+- Use BI's team API to fetch github social proof data
+  https://github.com/acid-info/logos-co/pull/13
 
 ### External references
 

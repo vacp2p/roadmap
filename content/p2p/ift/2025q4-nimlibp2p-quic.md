@@ -24,7 +24,7 @@ In Q3 we discovered critical deficiencies in nim-quic, including runtime instabi
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-quic:stabilization`
 * owner: vlado/rramos
-* status: in progress (10%)
+* status: in progress (28%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -33,7 +33,9 @@ Resolve runtime crashes, race conditions and excessive memory use in nim-quic. T
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [PR 167: fix blocked streams](https://github.com/vacp2p/nim-quic/pull/167)
+- [PR 162: acknowledge packets faster](https://github.com/vacp2p/nim-quic/pull/162)
+- [PR 163: fix no-defects handling](https://github.com/vacp2p/nim-quic/pull/163)
 
 
 ### Replace OpenSSL by AWS-LC / BoringSSL

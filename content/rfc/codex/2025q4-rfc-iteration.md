@@ -57,7 +57,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 
 ### Slot Builder
 
-- fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:slot-builder'
+- fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:slot-builder`
 - owner: jimstir
 - status: in progress (10%)
 - start-date: 2025/10/01
@@ -100,7 +100,7 @@ Create the RFC for the purchase module covering pricing, incentives, and settlem
 
 ### The Block Exchange
 
-- fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:the-block-exchange'
+- fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:the-block-exchange`
 - owner: cofson
 - status: not started
 - start-date: 2025/10/04
@@ -108,6 +108,34 @@ Create the RFC for the purchase module covering pricing, incentives, and settlem
 
 #### Description
 Create the RFC for the block exchange defining peer interactions for trading Codex data.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
+### Merkle Tree Specification
+
+- fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:merkle-tree`
+- owner: cofson
+- status: in progress (80%)
+- start-date: 2025/10/04
+- end-date: 2025/11/10
+
+#### Description
+Document the Merkle tree component, clarifying hashing strategy, storage layout, and verifier expectations.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
+### Prover Module
+
+- fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:prover`
+- owner: cofson
+- status: in progress (80%)
+- start-date: 2025/10/04
+- end-date: 2025/11/10
+
+#### Description
+Capture the prover workflow, artefacts, and interface details to support Codex storage proofs.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports

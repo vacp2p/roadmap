@@ -25,7 +25,7 @@ These features are essential for the protocol's functionality and need to be in 
 ### Distributed slashing implementation
 * fully qualified name: `vac:sc:status-l2:2025q4-pre-audit-protocol-enhancements:distributed-slashing`
 * owner: r4bbit
-* status: not started
+* status: in progress (30%)
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 
@@ -37,9 +37,8 @@ allowing for enforcement of protocol rules.
 The implementation needs to handle slashing reward sources and ensure proper accounting.
 
 #### Deliverables
+- Open research notes on slashing race-condition solutions ([SlashingKarmaLeader.sol](https://github.com/status-im/status-network-monorepo/blob/slash-karma-leader/status-network-contracts/src/rln/SlashingKarmaLeader.sol)).
 
-- [ ] Commits/PRs that implement distributed slashing functionality
-- [ ] Documentation of the slashing mechanism
 
 ### Off-chain criteria reward distributor
 * fully qualified name: `vac:sc:status-l2:2025q4-pre-audit-protocol-enhancements:offchain-reward-distributor`

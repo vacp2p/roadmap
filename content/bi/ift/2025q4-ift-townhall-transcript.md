@@ -8,7 +8,7 @@ draft: false
 description: Extract Youtube video transcript from townhall
 ---
 
-`vac:bi:ift:2025q4-ift-townhall-helper`
+`vac:bi:ift:2025q4-ift-townhall-transcript`
 
 
 ## Description

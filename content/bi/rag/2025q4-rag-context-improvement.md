@@ -4,12 +4,11 @@ tags:
   - "2025q4"
   - "bi"
   - "rag"
-  - "IA"
 draft: false
 description: Add more sources to the RAG context
 ---
 
-`vac:bi:rag:2025q4-rag-content`
+`vac:bi:rag:2025q4-rag-context-improvement`
 
 
 ## Description

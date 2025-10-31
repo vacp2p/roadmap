@@ -4,7 +4,6 @@ tags:
   - "2025q4"
   - "bi"
   - "rag"
-  - "IA"
 draft: false
 description: Improve RAG embedding by includind blockchain context.
 ---
@@ -35,8 +34,6 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 * New embedding model for the RAG pipeline to include blockchain context.
 
 ### Named Entity Recognition
-
-### Improve embedding for the RAG
 
 * fully qualified name: `vac:bi:rag:2025q4-rag-embedding-named-entity-recognition`
 * owner: nickninov

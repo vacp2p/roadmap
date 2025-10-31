@@ -108,6 +108,8 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 - [vacp2p/nim-libp2p#1764](https://github.com/vacp2p/nim-libp2p/pull/1764) chore(kad): add alpha handling
 - [vacp2p/nim-libp2p#1750](https://github.com/vacp2p/nim-libp2p/pull/1750) feat(kad): add getValue
 - [vacp2p/nim-libp2p#1765](https://github.com/vacp2p/nim-libp2p/pull/1765) chore(kad): getVal loop improvements
+- [vacp2p/nim-libp2p#1773](https://github.com/vacp2p/nim-libp2p/pull/1773) feat(kad): addProvider
+- [vacp2p/nim-libp2p#1783](https://github.com/vacp2p/nim-libp2p/pull/1783) chore(kad): make key field mandatory
 
 
 ### Discovery

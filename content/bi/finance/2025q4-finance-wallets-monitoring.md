@@ -8,7 +8,7 @@ draft: false
 description: Monitoring Wallets activity for Finance team
 ---
 
-`vac:bi:finance:2025q3-finance-wallets-monitoring`
+`vac:bi:finance:2025q4-finance-wallets-monitoring`
 
 
 ## Description
@@ -19,7 +19,7 @@ It is a continuous task to extracts and monitore Crypto wallets for the Finance 
 
 ### Extract Ethereum base wallets
 
-* fully qualified name: `vac:bi:finance:2025q3-finance-wallets-extractions`
+* fully qualified name: `vac:bi:finance:2025q4-finance-wallets-extractions`
 * owner: apentori
 * status: done
 * start-date: 2025/10/01
@@ -38,8 +38,8 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 ### Improve Dashboard
 
 
-* fully qualified name: `vac:bi:finance:2025q3-finance-wallets-visualization`
-* owner: 
+* fully qualified name: `vac:bi:finance:2025q4-finance-wallets-visualization`
+* owner: TBD
 * status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31

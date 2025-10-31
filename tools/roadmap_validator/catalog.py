@@ -66,7 +66,7 @@ def _expected_entry(unit: str, relative: Path) -> Tuple[str, str, str, str]:
 def validate_catalog(files: Iterable[Path]) -> List[ValidationIssue]:
     issues: List[ValidationIssue] = []
     files_by_unit: Dict[str, List[Path]] = defaultdict(list)
-    referenced_paths: Dict[str, Set[Path]] = defaultdict(set)
+    allowed_references: Set[str] = set()
 
     for file_path in files:
         try:
@@ -77,6 +77,7 @@ def validate_catalog(files: Iterable[Path]) -> List[ValidationIssue]:
             continue
         unit = relative.parts[0]
         files_by_unit[unit].append(file_path)
+        allowed_references.add(str(relative.with_suffix("")))
 
     if not files_by_unit:
         return issues
@@ -156,11 +157,11 @@ def validate_catalog(files: Iterable[Path]) -> List[ValidationIssue]:
                         ),
                     )
                 )
-            referenced_paths[unit].add(Path(reference + ".md"))
-
         # Ensure index entries point to existing roadmap files.
         for (quarter, area), entries_for_key in catalog.entries.items():
             for reference, label in entries_for_key.items():
+                if reference not in allowed_references:
+                    continue
                 expected_path = (CONTENT_ROOT / (reference + ".md")).resolve()
                 if not expected_path.exists():
                     issues.append(

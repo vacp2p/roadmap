@@ -20,17 +20,32 @@ description:
 
 fully qualified name: `vac:nim:ift:2025q3-nim-core-libs:nim-cbor-serialization`
 * owner: Esteban
-* status:
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/09/30
+
+#### Deliverables
+- [Initial implementation](https://github.com/vacp2p/nim-cbor-serialization/pull/1)
+- [Rework automatic serialization](https://github.com/vacp2p/nim-cbor-serialization/pull/2)
+- [Release v0.1.0](https://github.com/vacp2p/nim-cbor-serialization/releases/tag/v0.1.0)
+- [Add the library to nim packages](https://github.com/nim-lang/packages/pull/3140)
+- [Serialization extensions docs](https://github.com/vacp2p/nim-cbor-serialization/pull/9)
+- [Use nim naming conventions](https://github.com/vacp2p/nim-cbor-serialization/pull/10)
+- [Remove nimOldCaseObjects in Nimbus-eth2](https://github.com/status-im/nimbus-eth2/pull/7669)
 
 ### Compile time support for json and cbor
 
 fully qualified name: `vac:nim:ift:2025q3-nim-core-libs:compile-time-support-for-json-and-cbor`
 * owner: Esteban
-* status:
+* status: done
 * start-date: 2025/07/01
 * end-date: 2025/09/30
+
+#### Deliverables
+- [Faststreams comptime support](https://github.com/status-im/nim-faststreams/pull/82)
+- [Json spec comptime tests](https://github.com/status-im/nim-json-serialization/pull/133)
+- [Cbor comptime tests](https://github.com/vacp2p/nim-cbor-serialization/pull/5)
+
 
 ### Add ABI Codec Support to nim-web3
 

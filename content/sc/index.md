@@ -26,7 +26,7 @@ tags:
 * [[sc/status-l2/2025q4-pre-audit-protocol-enhancements|pre-audit-protocol-enhancements]]
 * [[sc/status-l2/2025q4-audit-preparation|audit-preparation]]
 * [[sc/status-l2/2025q4-maintaining-status-l2-contracts|maintaining-status-l2-contracts]]
-
+* [[sc/status-l2/2025q4-new-karma-requirements|new-karma-requirements]]
 
 ## 2025q3 `vac:sc:`
 ---

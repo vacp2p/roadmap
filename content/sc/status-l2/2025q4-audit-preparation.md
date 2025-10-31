@@ -31,7 +31,7 @@ leading to a more effective audit process.
 ### Review and update existing documentation
 * fully qualified name: `vac:sc:status-l2:2025q4-audit-preparation:review-documentation`
 * owner: r4bbit
-* status: not started
+* status: in progress (40%)
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 
@@ -47,14 +47,12 @@ and ensure consistency across the codebase.
 
 #### Deliverables
 
-- [ ] Commits/PRs that update inline code comments and NatSpec
-- [ ] Updated or new documentation files as needed
-- [ ] Documentation review checklist
+- [PR 59: add RLN contract documentation](https://github.com/status-im/status-network-monorepo/pull/59).
 
 ### Restructure tests into one contract per file
 * fully qualified name: `vac:sc:status-l2:2025q4-audit-preparation:restructure-test-files`
 * owner: r4bbit
-* status: not started
+* status: in progress (60%)
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 
@@ -69,9 +67,7 @@ and follows best practices for test structure.
 
 #### Deliverables
 
-- [ ] Commits/PRs that split test contracts into separate files
-- [ ] Updated test file naming conventions
-- [ ] Tests still pass after restructuring
+- [PR 58: restructure test files](https://github.com/status-im/status-network-monorepo/pull/58).
 
 ### Organize tests by unit and integration categories
 * fully qualified name: `vac:sc:status-l2:2025q4-audit-preparation:organize-tests`

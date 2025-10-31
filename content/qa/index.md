@@ -27,6 +27,9 @@ tags:
 ### `nomos:`
 * [[qa/nomos/2025q4-e2e-testing|e2e-testing ]]
 
+### `keycard:`
+* [[qa/keycard/2025q4-keycard-testing|keycard-testing ]]
+
 ---
 
 ## 2025q3 `vac:qa:`

@@ -41,6 +41,9 @@ are not only effective but also maintain or improve system performance and scala
 * [[dst/waku/2025q4-waku-evaluation|waku-evaluation]]
 * [[dst/waku/2025q4-waku-scaling|waku-scaling]]
 
+### `codex`
+* [[dst/codex/2025q4-codex-evaluation|codex-evaluation]]
+
 ---
 ## 2025q3 `vac:dst:`
 ---

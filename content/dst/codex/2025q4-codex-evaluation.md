@@ -76,6 +76,9 @@ in comparison to common and popular systems in the "altruistic" space.
 
 Assist the Codex team to check the functionality of
 replacing bittorrent usage in status go (in the Community History Service).
-Evaluate if the new feature is working as expected in a controlled environment.
+Evaluate if the new feature is working as expected by trying to assert:
+1. Presence of archive in filesytem
+2. Presence of messages in status DB
 
 #### Deliverables
+- PRs/Issues/Docs/Reports

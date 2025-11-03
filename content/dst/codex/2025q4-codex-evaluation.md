@@ -1,5 +1,5 @@
 ---
-title: Codex Comparison
+title: Codex Evaluation
 tags:
   - "2025q4"
   - "dst"
@@ -10,7 +10,7 @@ and look for regressions,
 learn scaling properties and run scaling studies."
 ---
 
-`vac:dst:codex:2025q4-codex-comparison`
+`vac:dst:codex:2025q4-codex-evaluation`
 
 
 ## Description

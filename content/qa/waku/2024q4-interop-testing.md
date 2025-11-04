@@ -198,7 +198,7 @@ to catch issues that may arise under suboptimal network conditions.
 
 * fully qualified name: `vac:qa:waku:2024q4-interop-testing:maintenace`
 * owner: fbarbu15
-* status: in progress (50%)
+* status: started (50%)
 * start-date: 2024/10/01
 * end-date: 2024/12/31
 

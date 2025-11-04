@@ -9,11 +9,9 @@ tags:
 
 ---
 
-The P2P Service unit is responsible for providing Data to the various IFT Projects.
+The BI Service unit is responsible for providing Data to the various IFT Projects.
 The teams extracts, transform and create visualization according to the request of each team.
 Additionally, it handle the RAG CaaS to ingest map the internal knowledge of IFTs teams.
-
-[[p2p/preview|Roadmap Preview]]
 
 ## 2025q4 `vac:bi:`
 ---

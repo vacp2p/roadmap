@@ -14,6 +14,7 @@ title: Vac Roadmap
 - `rfc:` [[rfc|RFC (Specifications)]] 
 - `sec:` [[sec|Security]]
 - `web:` [[web|Web]]
+- `bi:` [[bi|BI]]
 
 ## Incubator Projects
 

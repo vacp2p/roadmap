@@ -47,15 +47,16 @@ The Keycard website's content will support IFT's strategic objectives by:
 
 * fully qualified name: `vac:web:keycard:2025q4-keycard-website:i18n`
 * owner: felicio 
-* status: not started
+* status: done
 * start-date: 2025/10/01
-* end-date: 2025/12/31
+* end-date: 2025/11/04
 
 #### Description
 Localize the Keycard site and docs so core pages ship in the priority languages for launch.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [Update footer with i18n support](https://github.com/keycard-tech/keycard-website/pull/123)
+- [Wallets page localisation](https://github.com/keycard-tech/keycard-website/pull/116)
 
 ### Help
 

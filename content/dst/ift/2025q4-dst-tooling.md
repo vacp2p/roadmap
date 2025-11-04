@@ -145,7 +145,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:complete-deployment-refactor`
 * owner: Pearson
-* status: in progress (70%)
+* status: in progress (90%)
 * start-date: 2025/10/06
 * end-date: 2025/10/24
 
@@ -159,4 +159,3 @@ for the refactor functionalities to be tested. Other projects will be  added in 
 #### Deliverables
 - PRs:
 - Related Documents:
-

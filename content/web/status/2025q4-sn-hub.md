@@ -60,7 +60,7 @@ Ship the WalletConnect onboarding and session management flows so users can safe
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:staking`
 * owner: nnachionuwa
-* status: in progress (60%)
+* status: in progress (90%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
@@ -104,7 +104,7 @@ Design the deposit flow that guides users through bridging assets into the Statu
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:discovery`
 * owner: jkbktl
-* status: in progress (90%)
+* status: in progress (70%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
@@ -118,7 +118,7 @@ Surface curated dApps, pools, and governance opportunities in a discovery view t
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:karma`
 * owner: jkbktl
-* status: in progress (10%)
+* status: in progress (70%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 

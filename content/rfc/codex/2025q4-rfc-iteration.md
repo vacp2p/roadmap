@@ -59,7 +59,7 @@ in their projects, similar to [IETF](https://www.ietf.org/).
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:slot-builder`
 - owner: jimstir
-- status: in progress (10%)
+- status: in progress (35%)
 - start-date: 2025/10/01
 - end-date: 2025/10/15
 
@@ -136,6 +136,34 @@ Document the Merkle tree component, clarifying hashing strategy, storage layout,
 
 #### Description
 Capture the prover workflow, artefacts, and interface details to support Codex storage proofs.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
+### Store Module
+
+- fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:store`
+- owner: cofson
+- status: in progress (75%)
+- start-date: 2025/10/04
+- end-date: 2025/11/10
+
+#### Description
+Capture the prover workflow, artefacts, and interface details to support Codex store protocol.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
+### Marketplace Module
+
+- fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:marketplace`
+- owner: cofson
+- status: in progress (50%)
+- start-date: 2025/10/04
+- end-date: 2025/11/10
+
+#### Description
+Capture the prover workflow, artefacts, and interface details to support Codex marketplace protocol.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports

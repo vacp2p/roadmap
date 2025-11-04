@@ -24,8 +24,8 @@ These features are essential for the protocol's functionality and need to be in 
 
 ### Distributed slashing implementation
 * fully qualified name: `vac:sc:status-l2:2025q4-pre-audit-protocol-enhancements:distributed-slashing`
-* owner: r4bbit
-* status: in progress (30%)
+* owner: Ricardo
+* status: in progress (35%)
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 

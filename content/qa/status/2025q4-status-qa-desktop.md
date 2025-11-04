@@ -27,7 +27,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (67%)
+* status: in progress (70%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -38,6 +38,7 @@ Oversee testing strategy around releases.
   to the testing framework as needed.
 
 #### Deliverables
+- [tests: add test to change language](https://github.com/status-im/status-desktop/pull/19165)
 - [bug: Can't mint tokens on Optimism Sepolia](https://github.com/status-im/status-desktop/issues/18954)
 - [chore: Optimize code usage](https://github.com/status-im/status-desktop/pull/18980)
 - [bug: Cover language selector in e2e](https://github.com/status-im/status-desktop/issues/18983)
@@ -62,6 +63,10 @@ Oversee testing strategy around releases.
 - Support releases **2.36** and **2.37** with testing.
 
 #### Deliverables
+- [fix tests for new component](https://github.com/status-im/status-desktop/pull/19122)
+- [issue: test bug fixes](https://github.com/status-im/status-desktop/issues/19152)
+- [issue: opened bug follow-up](https://github.com/status-im/status-desktop/issues/19167)
+- [fixed tests](https://github.com/status-im/status-desktop/pull/19171)
 - [tested: Enter seed phrase component refactored according to new design](https://github.com/status-im/status-desktop/pull/19004)
 - [bug: Application login is incredibly slow](https://github.com/status-im/status-desktop/issues/19019)
 - [tested: chore: fix some undefined references](https://github.com/status-im/status-desktop/pull/19022)

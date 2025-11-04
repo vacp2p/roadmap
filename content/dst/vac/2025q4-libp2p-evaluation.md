@@ -61,7 +61,7 @@ and especially those we want to work with externally.
 
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:regression-testing`
 * owner: Alberto
-* status: not started
+* status: in progress (20%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -173,7 +173,7 @@ Report results of a single scenario (fixed parameters) using K8s and shadow.
 
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:rust-libp2p-node`
 * owner: Farooq
-* status: not started
+* status: in progress (25%)
 * start-date: 2025/10/27
 * end-date: 2025/11/07
 

@@ -31,7 +31,7 @@ leading to a more effective audit process.
 ### Review and update existing documentation
 * fully qualified name: `vac:sc:status-l2:2025q4-audit-preparation:review-documentation`
 * owner: r4bbit
-* status: in progress (40%)
+* status: in progress (95%)
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 
@@ -48,6 +48,7 @@ and ensure consistency across the codebase.
 #### Deliverables
 
 - [PR 59: add RLN contract documentation](https://github.com/status-im/status-network-monorepo/pull/59).
+- [PR 60: update visuals and documentation](https://github.com/status-im/status-network-monorepo/pull/60).
 
 ### Restructure tests into one contract per file
 * fully qualified name: `vac:sc:status-l2:2025q4-audit-preparation:restructure-test-files`
@@ -72,9 +73,9 @@ and follows best practices for test structure.
 ### Organize tests by unit and integration categories
 * fully qualified name: `vac:sc:status-l2:2025q4-audit-preparation:organize-tests`
 * owner: r4bbit
-* status: not started
+* status: done
 * start-date: 2025/10/01
-* end-date: 2025/10/30
+* end-date: 2025/11/04
 
 #### Description
 
@@ -86,9 +87,7 @@ Ensure that the distinction between unit and integration tests is clear and cons
 
 #### Deliverables
 
-- [ ] Commits/PRs that organize tests into unit and integration categories
-- [ ] Directory structure or naming convention documentation
-- [ ] Updated test running scripts/commands if needed
+- [PR 58: split StakeManager tests and reorganize suites](https://github.com/status-im/status-network-monorepo/pull/58).
 
 ### Update properties.md with invariants from Certora rules
 * fully qualified name: `vac:sc:status-l2:2025q4-audit-preparation:update-properties`

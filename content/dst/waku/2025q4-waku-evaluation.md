@@ -62,8 +62,8 @@ to the Premier Research destination narrative by:
 ### Regression testing (recurring)
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-evaluation:regression-testing`
-* owner: Alberto
-* status: in progress (50%)
+* owner: Alberto/Farooq
+* status: in progress (70%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -79,6 +79,7 @@ and ensure they don't happen again.
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Reports:
+- [nwaku regression testing v0.37 findings](https://www.notion.so/nwaku-regression-testing-v0-37-October-2025-29c8f96fb65c80de9314c66dd3698b69)
 - Related PRs if apply:
 
 

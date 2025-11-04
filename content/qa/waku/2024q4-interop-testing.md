@@ -198,7 +198,7 @@ to catch issues that may arise under suboptimal network conditions.
 
 * fully qualified name: `vac:qa:waku:2024q4-interop-testing:maintenace`
 * owner: fbarbu15
-* status: started (50%)
+* status: in progress (50%)
 * start-date: 2024/10/01
 * end-date: 2024/12/31
 
@@ -214,6 +214,7 @@ to enhance its effectiveness.
 
 #### Deliverables
 
+- Validated `harbor.status.im/wakuorg/nwaku:v0.37.0-rc.4` across interop regression suite.
 PRs:
 * https://github.com/waku-org/waku-interop-tests/pull/75
 * https://github.com/waku-org/waku-interop-tests/pull/79

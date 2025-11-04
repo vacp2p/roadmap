@@ -27,7 +27,7 @@ This commitment involves supporting the continued development of the Status App 
 
 * fully qualified name: `vac:web:status:2025q4-status-app:upgrade-waku`
 * owner: jkbktl
-* status: not started
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

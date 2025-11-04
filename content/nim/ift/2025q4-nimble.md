@@ -31,7 +31,7 @@ By the end of this quarter, we aim to have made significant progress on these fr
 
 * fully qualified name: `vac:nim:ift:2025q4-nimble:nimble-1.0.0`
 * owner: jmgomez
-* status: in progress (30%)
+* status: in progress (35%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -40,4 +40,8 @@ By the end of this quarter, we aim to have made significant progress on these fr
 All the relevant information can be found in [this GitHub issue](https://github.com/nim-lang/nimble/issues/1449).
 
 #### Deliverables
+- [optimizes some nimblesat funcs #1507](https://github.com/nim-lang/nimble/pull/1507)
+- [Adds instrument tools #1506](https://github.com/nim-lang/nimble/pull/1506)
+- [Always build installed deps #1505](https://github.com/nim-lang/nimble/pull/1505)
+- [Run setup for every action the solver is ran #1503](https://github.com/nim-lang/nimble/pull/1503)
 - [Adds support for deps in `vnext` Fixes #1496](https://github.com/nim-lang/nimble/pull/1499)

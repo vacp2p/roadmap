@@ -186,6 +186,10 @@ Prototype an interactive map that visualizes Logos circles and makes it easy to 
 Embed an events calendar that aggregates upcoming Spaces sessions and community gatherings.
 
 #### Deliverables
+- Spaces Calendar frontend/backend iteration: [PR21](https://github.com/acid-info/admin-acid.logos.co/pull/21), [preview](https://logos-admin-git-spaces-calendar-features-acidinfo.vercel.app/spaces-calendar?tab=list).
+- Circles calendar proof-of-concept with real Luma data: [PR16](https://github.com/acid-info/logos-co/pull/16), [preview](https://logos-co-rvlb-git-implement-spaces-calendar-acidinfo.vercel.app/spaces-calendar).
+- Circles map PoC: [PR15](https://github.com/acid-info/logos-co/pull/15), [preview](https://logos-co-rvlb-git-implement-events-acidinfo.vercel.app/map).
+- Confirmed BI data contracts for spaces features ([status-im/data-docs#111](https://github.com/status-im/data-docs/issues/111)).
 - Submission, List, Management features to replace Google Sheets and provide API endpoints for external usage
 - [Pull Request](https://github.com/acid-info/admin-acid.logos.co/pull/19), [Public API](https://logos-admin-git-space-calendar-acidinfo.vercel.app/api/spaces-calendar/public), [Preview](https://logos-admin-git-space-calendar-acidinfo.vercel.app/spaces-calendar?tab=list)
 
@@ -260,7 +264,7 @@ Implement site-wide search that surfaces content across product pages, docs, and
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:external-references`
 * owner: jinhojang6
-* status: not started
+* status: in progress (20%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 

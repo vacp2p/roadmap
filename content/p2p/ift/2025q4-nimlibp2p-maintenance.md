@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (28%)
+* status: in progress (37%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -36,6 +36,20 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.
 
 #### Deliverables
+- [PR 1831: move unittest tests into tools suite](https://github.com/vacp2p/nim-libp2p/pull/1831)
+- [PR 1828: imports cleanup across test modules](https://github.com/vacp2p/nim-libp2p/pull/1828)
+- [PR 1825: include dangling `testipaddr` file](https://github.com/vacp2p/nim-libp2p/pull/1825)
+- [PR 1824: add trackers to test tools](https://github.com/vacp2p/nim-libp2p/pull/1824)
+- [PR 1823: remove workaround in `runTest`](https://github.com/vacp2p/nim-libp2p/pull/1823)
+- [PR 1819: add tools package to tests](https://github.com/vacp2p/nim-libp2p/pull/1819)
+- [PR 1817: improve test logic](https://github.com/vacp2p/nim-libp2p/pull/1817)
+- [PR 1812: bump chronos dependency](https://github.com/vacp2p/nim-libp2p/pull/1812)
+- [PR 1810: fix CI Nim version matrix](https://github.com/vacp2p/nim-libp2p/pull/1810)
+- [PR 1809: remove QUIC test variant](https://github.com/vacp2p/nim-libp2p/pull/1809)
+- [PR 1808: temporarily split test-all task](https://github.com/vacp2p/nim-libp2p/pull/1808)
+- [PR 1807: reduce global RNG usage](https://github.com/vacp2p/nim-libp2p/pull/1807)
+- [PR 173: bump nim-quic to v0.5.1](https://github.com/vacp2p/nim-quic/pull/173)
+- [PR 1685: enable QUIC transport in pubsub tests](https://github.com/vacp2p/nim-libp2p/pull/1685)
 - [[Deliverable] Maintenance 2025Q4]
 - [PR 1785: fix echo rendezvous regression](https://github.com/vacp2p/nim-libp2p/pull/1785)
 - [PR 1781: release nim-libp2p 1.14.2](https://github.com/vacp2p/nim-libp2p/pull/1781)

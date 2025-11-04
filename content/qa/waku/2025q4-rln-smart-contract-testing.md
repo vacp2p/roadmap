@@ -30,7 +30,7 @@ Test on selected blockchains to ensure uniform behavior across different deploym
 
 - fully qualified name: `vac:qa:waku:2025q4-rln-smart-contract-testing:property-based`
 - owner: romanzac
-- status: in progress (90%)
+- status: in progress (95%)
 - start-date: 2025/10/01
 - end-date: 2025/10/31
 
@@ -45,7 +45,7 @@ Implement tests to verify behaviors that must always hold. Run these tests with 
 
 - fully qualified name: `vac:qa:waku:2025q4-rln-smart-contract-testing:security-adversarial`
 - owner: romanzac
-- status: in progress (90%)
+- status: in progress (95%)
 - start-date: 2025/10/07
 - end-date: 2025/10/31
 

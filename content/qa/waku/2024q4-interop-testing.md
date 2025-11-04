@@ -214,7 +214,6 @@ to enhance its effectiveness.
 
 #### Deliverables
 
-- Validated `harbor.status.im/wakuorg/nwaku:v0.37.0-rc.4` across interop regression suite.
 PRs:
 * https://github.com/waku-org/waku-interop-tests/pull/75
 * https://github.com/waku-org/waku-interop-tests/pull/79

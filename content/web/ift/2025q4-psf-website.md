@@ -20,13 +20,6 @@ The PSF website will support Logos' strategic objectives by:
 - **Cultural Identity**: Displaying Logos' shared culture, values, and movement-building initiatives
 - **Developer Engagement**: Facilitating workshops, hackspaces, and developer meetups to source community feedback
 
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Showcasing technologies and communities that defend civil liberties in the digital age
-- **Community Co-creation**: Enabling user-generated content and community participation through interactive features
-- **Accessibility**: Making complex network state concepts approachable through intuitive web interfaces
-- **Brand Coherence**: Maintaining consistent visual identity and messaging across the IFT ecosystem
-
-
 ## Task List
 
 ### Website

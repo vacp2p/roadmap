@@ -28,13 +28,6 @@ The Logos Core implementation will support Logos' strategic objectives by:
 - **Performance Testing**: Validating the framework's performance and scalability in production-like environments
 - **Documentation**: Creating practical examples and documentation for developers
 
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Building applications that demonstrate decentralized governance and user sovereignty
-- **Community Co-creation**: Enabling developers to build on the Logos framework through working examples
-- **Accessibility**: Making complex Logos protocols accessible through user-friendly applications
-- **Brand Coherence**: Showcasing Logos' technical capabilities through practical implementations
-
-
 ## Task List
 
 ### POC

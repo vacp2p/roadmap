@@ -16,14 +16,6 @@ Test and validate the reliability of the Waku RLN Smart Contract in accordance t
 Ensure the smart contract main workflow is functional. Test corner cases and potential attack vectors.   
 Test on selected blockchains to ensure uniform behavior across different deployments.
 
-**Alignment with VAC Narratives:**
-
-- By testing the Waku RLN Smart Contract,
-  VAC QA ensures robust and predictable behavior across different deployments and blockchains.
-- This initiative supports VAC’s commitment to building reliable and scalable testing frameworks
-  that foster collaboration and confidence in the Waku ecosystem.
-- Reliability-focused testing directly aligns with the strategic objective of ensuring resilience in communication protocols.
-
 ## Task List
 
 ### Property-based Fuzz Testing

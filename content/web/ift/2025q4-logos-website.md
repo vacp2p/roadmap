@@ -68,12 +68,6 @@ The Logos website will support the volunteer-driven community building strategy 
 - **Cross-Functional Collaboration**: Working with multiple stakeholders to ensure comprehensive design input
 - **Revision Process**: Implementing a structured 3-cycle revision process for iterative improvement
 
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Creating web experiences that embody the principles of user sovereignty and digital freedom
-- **Community Co-creation**: Building platforms that enable community engagement and participation
-- **Accessibility**: Ensuring the website is accessible to users of all abilities and technical backgrounds
-- **Brand Coherence**: Maintaining consistent messaging around IFT's mission of defending digital rights
-
 ## Task List
 
 ### Layout

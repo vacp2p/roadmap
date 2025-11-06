@@ -45,13 +45,6 @@ The Status Wallet Extension will support Status' strategic objectives by:
 - Premium wallet subscription services
 - Future social features and community monetization
 
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Providing user-controlled trading tools that don't compromise on wallet security
-- **Community Co-creation**: Enabling trading communities and meme culture through social features
-- **Accessibility**: Making advanced trading tools accessible to casual traders and investors
-- **Brand Coherence**: Extending Status ecosystem with complementary trading-focused products
-
-
 ## Task List
 
 ### Price proxy

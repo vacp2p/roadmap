@@ -25,17 +25,6 @@ that focus on RLN, developed in Rust, is intended for integration with various s
 
 In 2025q3, we released Zerokit v0.9.0, which supports improved CI, optimized, partially BE support and research on FFI improvements. 
 
-### Narratives
-
-By utilizing the zerokit commitment, we will reinforce the Conduit of Expertise narrative by:
-* Delivers an optimized version for IFT projects utilizing Zerokit, 
-including [nwaku](https://github.com/waku-org/nwaku)and [js-rln](https://github.com/waku-org/js-rln)
-and [Status L2](https://docs.status.network/).
-
-We will also strengthen the Premier Research Destination narrative by:
-* Offers a Rust crate that serves as a more efficient open-source development tool for users looking to integrate RLN into their projects. 
-* Verifying the existing ZK framework by integrating zerokit. 
-
 ## Task List
 
 ### Zerokit maintaining

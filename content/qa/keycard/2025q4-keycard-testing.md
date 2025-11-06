@@ -12,11 +12,6 @@ description: Ensure quality of Keycard applications.
 
 ## Description
 
-**Alignment with VAC Narratives:**
-
-* The VAC QA team supports internal collaboration and efficiency
-  by maintaining the quality and reliability of Keycard applications.
-
 ## Task List
 
 ### Keycard Shell Tests

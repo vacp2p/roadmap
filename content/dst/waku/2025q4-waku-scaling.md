@@ -26,20 +26,6 @@ browser bootstrapping for improved responsiveness,
 integrate nwaku in Status Desktop for seamless relay functionality,
 and implement the SDS protocol for group messaging reliability and recovery.
 
-
-### Background
-
-### Narratives
-
-These efforts will support the Conduit of Expertise narrative by
-accelerating Waku Improvements,
-providing measurable insights
-to enhance developer experience
-within and beyond the IFT ecosystem.
-Enhancing RFC Development by enabling faster,
-more informed RFC development
-through performance insights during the drafting process.
-
 ## Task list
 
 

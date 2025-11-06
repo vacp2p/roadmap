@@ -30,15 +30,6 @@ It also helps keep the community informed about what’s happening,
 making them feel like they're part of the process 
 rather than on the outside looking in.
 
-### Narratives
-We will support Conduit of Expertise by making the reports
-and forum posts help establish an RFC culture
-where the community can see, understand, and even help improve the work.
-We will support Premier Research of Destination 
-by making sure we’re open, accessible, and continuously learning from each other.
-
-### Additional info
-
 ## Task List
 
 ### Ethereum foundation protocol test

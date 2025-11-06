@@ -5,6 +5,8 @@ tags:
 - vac
 ---
 
+[[rfc/preview|Roadmap Preview]]
+
 ## 2025q4 `vac:rfc:`
 
 

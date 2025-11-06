@@ -19,8 +19,6 @@ scaling ideas, and other insights.
 
 ### Background
 
-### Narratives
-
 ### Additional info
 
 ## Task List

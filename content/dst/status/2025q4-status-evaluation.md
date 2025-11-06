@@ -29,21 +29,6 @@ The following scenarios will help review what kind of improvements
 and changes can be made to the chat protocols, and see if
 more baseline benchmarks are needed to be measured in FURPS.
 
-### Narratives
-
-We will support the Conduit of Expertise narrative directly
-by analysing and evaluating Status features,
-both with regards to features they have today
-and with regards to how that compares to past behaviour.
-
-Additionally, these efforts will contribute
-to the Premier Research destination narrative by
-improving and strengthening our relationship with the Status-go team
-and thus increasing the reach and influence of the IFT,
-and improving the chances
-that we successfully grow our ecosystem's products and collaborations
-and especially those we want to work with externally.
-
 ## Task list
 
 ### Send one-to-one outage (private chats)

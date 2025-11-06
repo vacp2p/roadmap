@@ -29,14 +29,6 @@ to prevent spam and support the gasless functionality.
 
 In 2025q3, we released the RLN prover module with tracking module, tests, optimizations and benchmarks.
 
-### Narratives
-By utilizing this commitment, we will reinforce the Conduit of Expertise narrative by:
-* Continue sharing the RLN knowledge with the Status L2 team.
-* Testing modified RLN design to make sure all components work seamlessly. 
-
-We will also strengthen the Premier Research Destination narrative by:
-* Offering an RLN use-case to the ecosystem that can be used for other gasless roll-up projects.  
-
 ## Task List
 
 ### Finalizing the RLN deployment spec

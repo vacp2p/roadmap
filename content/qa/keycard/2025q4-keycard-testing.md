@@ -11,6 +11,7 @@ description: Ensure quality of Keycard applications.
 `vac:qa:keycard:2025q4-keycard-testing`
 
 ## Description
+Ensure quality of Keycard applications, in particular Keycard shell.
 
 ## Task List
 

@@ -16,11 +16,6 @@ This includes addressing regressions, adapting code in `nomos-e2e-tests` and `no
 adapting to other changes in `nomos-node`, 
 and performing minor improvements to keep the framework functional and effective.
 
-**Alignment with VAC Narratives:**
-
-* The VAC QA team supports internal collaboration and efficiency
-  by maintaining the quality and reliability of the Nomos E2E framework.
-
 ## Task List
 
 ### Maintenance

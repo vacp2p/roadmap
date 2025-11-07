@@ -6,12 +6,7 @@ tags:
 ---
 
 
-## Possible commitments for Q4 and beyond
-
-- Karma token airdrop via ENS name
-- EIP collaboration with finance (vaults with advanced access control)
-- SN L2 native bridge yield extension deployment on testnet/mainnet
-
+[[sc/preview|Roadmap Preview]]
 
 ## 2025q4 `vac:sc:`
 ---

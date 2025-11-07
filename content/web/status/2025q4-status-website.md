@@ -39,13 +39,6 @@ The Status website optimization will support Status' strategic objectives by:
   - Bug fixes and compatibility improvements
   - Monitoring and analytics optimization
 
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Optimizing web access to privacy-focused communication tools for users worldwide
-- **Community Co-creation**: Enhancing global community participation through improved localized content and interfaces
-- **Accessibility**: Maintaining and improving Status accessibility for users regardless of language or technical background
-- **Brand Coherence**: Ensuring consistent messaging and user experience across all languages and regions through ongoing optimization
-
-
 ## Task List
 
 ### i18n  

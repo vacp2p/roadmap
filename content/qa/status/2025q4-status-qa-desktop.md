@@ -15,12 +15,6 @@ Collaborate with Status team to ensure that the Status Desktop app behaves as ex
 Add new automated tests to the existing e2e testing framework for new features.  
 Oversee testing strategy around releases.
 
-**Alignment with VAC Narratives:**
-* By helping to test the Status Desktop application,  
-  VAC QA contributes directly to the narrative of internal collaboration and efficiency.
-* Helps maintain a high standard for both internal and external contributions  
-  by detecting discrepancies early and closing testing gaps.
-
 ## Task List
 
 ### Maintenance

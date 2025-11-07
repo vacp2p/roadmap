@@ -26,16 +26,6 @@ from existing documentation.
 This is done in order to try achieving rough consensus
 on which new RFCs are to be made.
 
-**Alignment with VAC Narratives:**
-
-- The VAC RFC team aims
-to become a repository for RFCs across all IFT projects.
-- By demonstrating the value of the RFC process, we want future projects
-to submit their RFCs to our team of rfc-editors.
-- One of our goals is for the broader web3 community
-to use our RFCs in their projects and ecosystems,
-similar to [IETF](https://www.ietf.org/).
-
 ## Task List
 
 

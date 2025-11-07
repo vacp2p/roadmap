@@ -34,12 +34,6 @@ The Status Network Hub will support Status Network's strategic objectives by:
 - **Side Navigation**: Seamless navigation between different hub features
 - **Mobile Responsive**: Accessible across all devices for maximum user reach
 
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Providing user-controlled access to decentralized financial services
-- **Community Co-creation**: Enabling community participation in network governance and funding
-- **Accessibility**: Making complex DeFi operations accessible to users of all technical levels
-- **Brand Coherence**: Showcasing Status Network's capabilities through practical, user-friendly applications
-
 ## Task List
 
 ### Wallet Connect

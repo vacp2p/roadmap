@@ -31,15 +31,6 @@ In 2025q3, we delivered libp2p-mixnet gossipsub to be benchmarked on a large sca
 updated the RFC with the latest changes, SURB specifications, and the security section, 
 lastly obtain the comparison between Nomos blend network and P2P mixnet.
 
-### Narratives
-By utilizing this commitment, 
-we will reinforce the Conduit of Expertise narrative by:
-* Releasing the final RFC for a standard mixnet to the [nimlibp2p](https://github.com/vacp2p/nim-libp2p) repo. 
-
-We will also strengthen the Premier Research Destination narrative by:
-* Finalize the existing proposal by refining it for the Ethereum Foundation (EF) to apply for EF grants
-to promote the mixnet PoC and gain support from the Ethereum ecosystem.
-
 ## Task List
 
 ### Maintaining RFC

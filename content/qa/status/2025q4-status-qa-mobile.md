@@ -18,13 +18,6 @@ Collaborate with Status team to ensure that the new Status mobile/tablet app beh
 
 Extend and adjust the existing E2E test framework to support testing on mobile/tablet.
 
-**Alignment with VAC Narratives:**
-
-- Builds a reliable mobile testing framework for the new Status App, improving internal collaboration and efficiency.
-
-- Maintains quality for internal and external contributions by detecting discrepancies early and closing testing gaps.
-
-
 ## Task List
 
 ### Port desktop tests

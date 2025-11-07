@@ -30,19 +30,6 @@ the analysis of libp2p and Gossipsub, supporting studies focused on
 adversarial conditions and control message behavior.
 
 
-### Background
-
-### Narratives
-
-These efforts will support the Conduit of Expertise narrative by
-accelerating DST/IFT Improvements,
-providing measurable insights
-to enhance developer experience
-within and beyond the IFT ecosystem.
-Also, ideally these tools can be shared across projects, 
-reinforcing cross project collaboration.
-
-
 ## Task list
 
 ### General tooling (recurring)

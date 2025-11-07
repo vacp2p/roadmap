@@ -38,23 +38,6 @@ theoretical analysis and simulation
 to determine and measure the success,
 side effects and other factors of libp2p and its evolution.
 
-### Narrative
-
-We will support the Conduit of Expertise narrative directly
-by analysing and evaluating new libp2p releases and their features,
-both with regards to features they have today
-and with regards to how that compares to past behaviour.
-
-Additionally, these efforts will contribute
-to the Premier Research destination narrative by
-improving and strengthening our relationship with the libp2p team
-and thus increasing the reach and influence of the IFT,
-and improving the chances
-that we successfully grow our ecosystem's products and collaborations
-and especially those we want to work with externally.
-
-### Additional info
-
 ## Task list
 
 ### Regression testing (recurring)

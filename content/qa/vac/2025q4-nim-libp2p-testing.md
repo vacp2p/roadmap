@@ -16,16 +16,6 @@ Expand nim-libp2p testing coverage, documentation, and tooling with focus on new
 Create test plans for AutonatV2, Quic, Mix, and Kademlia.  
 Improve stability by addressing flaky tests and extend coverage for Identify/Push and Connectivity protocols.
 
-**Alignment with VAC Narratives:**
-* Nim-libp2p is a key component of the VAC ecosystem,  
-  and improving its testing coverage and tooling strengthens our internal expertise  
-  and the overall reliability of the network.  
-* By enhancing these tests, and creating test plans,  
-  we support the RFC culture by providing feedback to the specifications,  
-  ensuring they align with real-world implementation.  
-* These efforts also contribute to scaling the project's capacity,  
-  as better testing tools empower the open-source community to participate effectively.  
-
 ## Task List
 
 ### Test Plans for New Features

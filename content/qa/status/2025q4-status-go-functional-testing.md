@@ -14,12 +14,6 @@ description: Enhance functional and e2e testing for status-go features by implem
 Expand functional and e2e testing for status-go by implementing tests using status-backend,
 with focus on wallet, settings and waku methods.
 
-**Alignment with VAC Narratives:**
-* By helping create a robust functional testing framework for Status Go,
-  VAC QA contributes directly to the narrative of internal collaboration and efficiency.
-* By finding issues in the project code and specs during testing,
-  VAC QA strengthens the RFC culture, contributing to continuous improvement and community engagement.
-
 ## Task List
 
 ### Wallet features

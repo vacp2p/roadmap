@@ -28,13 +28,6 @@ The Qaku app will support Logos' strategic objectives by:
 - **Privacy-First Design**: Leveraging Waku's privacy-preserving capabilities for secure event participation
 - **Cross-Platform Support**: Accessible across web and mobile platforms for maximum event participation
 
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Providing event interaction tools that respect user privacy and data sovereignty
-- **Community Co-creation**: Enabling enhanced community participation in IFT events and townhalls
-- **Accessibility**: Making event participation more engaging and accessible through interactive tools
-- **Brand Coherence**: Showcasing Logos ecosystem capabilities through practical, real-world applications
-
-
 ## Task List
 
 ### App

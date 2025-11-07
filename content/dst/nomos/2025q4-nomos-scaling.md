@@ -30,29 +30,6 @@ and what use cases it is therefore able to support.
 The scope of this commitment depends on the Nomos team
 work and improvements, and it is subjected to change.
 
-### Background
-
-### Narratives
-
-We will support the Conduit of Expertise narrative directly
-by providing valuable insights to Nomos
-and the ability to theorise, reason about,
-test, measure and improve
-the performance, stability and scalability of Nomos.
-
-These efforts will contribute in these ways to the Conduit of Expertise narrative:
-
-* Help Nomos ship a more scalable mixnet,
-  unlocking capabilities across IFT's teams and ecosystem
-  and allowing for more use cases to be supported and understood.
-This will also help spur on outside adoption and contributions.
-* Improve the RFC culture
-  by allowing for faster and easier development of RFCs
-  with the aid of rapidly accelerated insights into how an RFC in development will perform as it's being expanded and going through the draft process.
-* Allow easier post-mortem analysis of the success or relative performance of a given RFC
-
-### Additional info
-
 ## Task List
 
 ### Blend benchmarking

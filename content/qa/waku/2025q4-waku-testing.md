@@ -15,11 +15,6 @@ Ensure the ongoing reliability of the Waku by enhancing and maintaining existing
 This includes addressing regressions, adapting to changes in waku components,  
 and applying minor improvements to keep the frameworks functional and effective.
 
-**Alignment with VAC Narratives:**
-
-* The VAC QA team enhances internal collaboration and efficiency 
-  by maintaining the quality and reliability of the Waku testing frameworks.
-
 ## Task List
 
 ### Waku Canary Tool

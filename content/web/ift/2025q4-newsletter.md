@@ -28,13 +28,6 @@ The Logos newsletter will support Logos' strategic objectives by:
 - **Movement News**: Covering broader developments in decentralized governance and network state initiatives
 - **Call-to-Action**: Encouraging community participation, contributions, and engagement
 
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Sharing content that advances the cause of digital freedom and user sovereignty
-- **Community Co-creation**: Enabling community members to contribute content and shape the narrative
-- **Accessibility**: Making complex concepts accessible through clear, engaging communication
-- **Brand Coherence**: Maintaining consistent messaging and visual identity across all communications
-
-
 ## Task List
 
 ### Newsletter

@@ -6,6 +6,8 @@ tags:
 
 ---
 
+[[qa/preview|Roadmap Preview]]
+
 ## 2025q4 `vac:qa:`
 ---
 

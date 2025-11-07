@@ -18,9 +18,6 @@ This commitment involves supporting the continued development of the Status App 
 - **Compatibility Maintenance**: Ensuring web applications and interfaces remain functional during native app upgrades
 - **User Experience Continuity**: Preventing disruption to web-based user experiences during development
 
-**Alignment with IFT Narratives:**
-- **Community Co-creation**: Maintaining web tools that enable permissionless community formation and governance
-
 ## Task List
 
 ### Upgrade Waku

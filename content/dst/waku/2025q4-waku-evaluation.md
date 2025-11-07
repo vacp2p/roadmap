@@ -33,30 +33,6 @@ theoretical analysis and simulation
 to determine and measure the success,
 side effects and other factors of Waku and its evolution.
 
-### Narratives
-We will support the Conduit of Expertise narrative directly
-by analysing and evaluating new Waku releases and their features,
-both with regards to features they have today
-and with regards to how that compares to past behaviour.
-
-We will:
-
-* Enable improvements to Waku
-  by allowing for repeatable, measureable
-  and real world insights into Waku,
-  all the way from theory to practice and back.
-* Reduce the risk of a Waku regression
-  making it into a new release of Waku.
-
-Additionally, these efforts will contribute
-to the Premier Research destination narrative by:
-
-* Improving and strengthening our relationship with the Waku team
-  and improving the quality and reputation of IFT's work, inside
-  and outside of Waku.
-
-### Additional info
-
 ## Task list
 
 ### Regression testing (recurring)

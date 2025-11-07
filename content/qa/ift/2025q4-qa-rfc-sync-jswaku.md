@@ -26,10 +26,6 @@ Any discrepancies will be flagged for either:
 As part of this process, we will also assess the level of test automation and coverage for each core protocol, 
 identifying gaps and proposing or creating additional tests as necessary.
 
-**Alignment with VAC Narratives:**
-* Continues fostering collaboration between QA, RFC contributors, and engineering teams, ensuring changes in one area promptly reflect across the ecosystem.
-* Helps maintain a high standard for both internal and external contributions by detecting discrepancies early and closing testing gaps.
-
 ## Task List
 
 ### relay

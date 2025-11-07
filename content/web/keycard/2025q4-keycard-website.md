@@ -34,13 +34,6 @@ The Keycard website's content will support IFT's strategic objectives by:
 - **Integration Guides**: Developer documentation for wallet and dApp integration
 - **Security Best Practices**: Educational content about hardware wallet security and key management
 
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Providing secure, user-controlled hardware wallet solutions that protect digital assets
-- **Community Co-creation**: Enabling developers to build secure applications with Keycard integration
-- **Accessibility**: Making advanced security accessible through user-friendly hardware and documentation
-- **Brand Coherence**: Showcasing IFT's commitment to open-source, secure technology solutions
-
-
 ## Task List
 
 ### i18n

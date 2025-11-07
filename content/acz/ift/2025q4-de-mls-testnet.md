@@ -27,20 +27,6 @@ During 2025q3, we released the multi-steward de-MLS RFC, including consensus imp
 The implementation plan for this quarter is to release multi-steward with a single consensus
 version with Ethereum authentication factor by operating across the Waku network. 
 
-### Narratives
-We will reinforce the Conduit of Expertise narrative by:
-* Develop the foundational framework for a decentralized, scalable messaging application 
-* Research and implement the scalable and decentralized consensus mechanism.
-
-We will also strengthen the Premier Research Destination narrative by:
-* Develop a standardized decentralized messaging application over the Waku network,
-by providing a well-structured RFC and a proof of concept (PoC) that demonstrates
-It's a base functionality within the ecosystem.
-This will allow teams and organizations to build their own messaging applications
-while benefiting from these features.
-* Maintain the proposal by having the next iteration for the Ethereum Foundation (EF)
-to apply for EF grants to promote the project and gain support from the Ethereum ecosystem.
-
 ## Task List
 
 ### Maintain de-MLS RFC with multi stewards 

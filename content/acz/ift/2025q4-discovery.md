@@ -19,15 +19,6 @@ This commitment entails specifying a KAD-DHT–based, disc-NG–like Logos disco
 specification with a focus on implementability (see [the paper](https://sonnino.com/papers/disc-ng.pdf));
 we will also collect requirements and assess their suitability for IFT projects.
 
-### Narratives
-
-By utilizing discovery exploration commitment, 
-We will reinforce the Conduit of Expertise narrative by:
-* Providing the KAD-DHT–based disc-NG-like RFC that will be tailored for Logos applications. 
-
-We will also strengthen the Premier Research Destination narrative by:
-* Provides open-source KAD-DHT–based disc-NG-like RFC information to the community.
-
 ## Task List
 
 ### Draft RFC

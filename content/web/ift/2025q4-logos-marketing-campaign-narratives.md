@@ -33,14 +33,6 @@ The marketing campaign narratives and brand testing system will support Logos' s
 - **Audience Segmentation**: Targeting "ideological builder" persona with issue-based campaigning and messaging
 - **Discord Detection Pipeline**: Python backend → Discord server → click tracking → Discord detection → joined seats message flow
 
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Using data-driven approaches to build communities that defend civil liberties
-- **Community Co-creation**: Enabling data-informed community building and engagement strategies
-- **Accessibility**: Making community growth strategies accessible through clear analytics and insights
-- **Brand Coherence**: Ensuring consistent and effective messaging across all Logos touchpoints
-- **Volunteer-Driven Development**: Optimizing messaging to attract and activate volunteer contributors
-
-
 ## Task List
 
 ### Discord bot

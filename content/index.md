@@ -21,8 +21,8 @@ title: Vac Roadmap
 - `nes:` [[nes/index|Nescience]]
 
 ## Progress Updates
-- [weekly updates](tags/vac-updates)
-- [monthly reports](tags/vac-monthly)
+- [Weekly updates](tags/vac-updates)
+- [Monthly reports](tags/vac-monthly)
 
 ## Vac Narratives
 

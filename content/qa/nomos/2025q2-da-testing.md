@@ -5,7 +5,7 @@ tags:
   - "2025q2"
   - "qa"
   - "nomos"  
-draft: true  
+draft: false  
 description: Implement data availability test plans for the Nomos project at the cluster level. 
 
 ---

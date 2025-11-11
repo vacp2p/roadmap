@@ -23,6 +23,10 @@ tags:
 * [[sc/status-l2/2025q4-maintaining-status-l2-contracts|maintaining-status-l2-contracts]]
 * [[sc/status-l2/2025q4-new-karma-requirements|new-karma-requirements]]
 
+### `logos:`
+
+* [[sc/logos/2025q4-risc0-upskilling|risc0-upskilling]]
+
 ## 2025q3 `vac:sc:`
 ---
 

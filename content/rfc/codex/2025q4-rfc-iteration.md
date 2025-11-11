@@ -155,3 +155,17 @@ Capture the prover workflow, artefacts, and interface details to support Codex m
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
+
+### Community History
+
+- fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:community-history`
+- owner: jimstir
+- status: in progress (15%)
+- start-date: 2025/11/05
+- end-date: 2025/11/15
+
+#### Description
+Author the community history RFC detailing how Codex nodes capture, store, and expose historical community artefacts, including data sources, indexing expectations, and reviewer workflows.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

@@ -165,7 +165,7 @@ Capture the prover workflow, artefacts, and interface details to support Codex m
 - end-date: 2025/11/15
 
 #### Description
-Author the community history RFC detailing how Codex nodes capture, store, and expose historical community artefacts, including data sources, indexing expectations, and reviewer workflows.
+Author the community history RFC.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports

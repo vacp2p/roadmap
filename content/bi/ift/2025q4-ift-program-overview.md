@@ -23,7 +23,7 @@ Build Dashboard containing the overview of the Program activity:
 
 ### Setup an evaluation process
 
-* fully qualified name: `vac:bi:ift:2025q4-ift-program-dashboard`
+* fully qualified name: `vac:bi:ift:2025q4-ift-program-overview:setup-evaluation-process`
 * owner: TBD
 * status: not started
 * start-date: 2025/10/01

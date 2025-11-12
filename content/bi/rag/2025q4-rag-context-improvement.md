@@ -19,7 +19,7 @@ Extract the transcript from Youtube video to use it for RAG context and other po
 
 ### Add Code Chunking to the RAG
 
-* fully qualified name: `vac:bi:rag:2025q4-rag-context-code`
+* fully qualified name: `vac:bi:rag:2025q4-rag-context-improvement:add-code-chunking`
 * owner: nickninov
 * status: in progress (35%)
 * start-date: 2025/10/01
@@ -40,7 +40,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 ### Google Meeting transcript
 
-* fully qualified name: `vac:bi:rag:2025q4-rag-context-google-meet`
+* fully qualified name: `vac:bi:rag:2025q4-rag-context-improvement:google-meeting-transcript`
 * owner: nickninov
 * status: in progress (20%)
 * start-date: 2025/10/01

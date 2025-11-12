@@ -19,7 +19,7 @@ It is a continuous task to extracts and monitore Crypto wallets for the Finance 
 
 ### Extract Ethereum base wallets
 
-* fully qualified name: `vac:bi:finance:2025q4-finance-wallets-extractions`
+* fully qualified name: `vac:bi:finance:2025q4-finance-wallets-monitoring:extract-ethereum-base-wallets`
 * owner: apentori
 * status: done
 * start-date: 2025/10/01
@@ -38,7 +38,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 ### Improve Dashboard
 
 
-* fully qualified name: `vac:bi:finance:2025q4-finance-wallets-visualization`
+* fully qualified name: `vac:bi:finance:2025q4-finance-wallets-monitoring:improve-dashboard`
 * owner: c2000bzh
 * status: in progress (40%)
 * start-date: 2025/10/01

@@ -18,7 +18,7 @@ Setting up a evaluation process for the RAG responses of predefined questions. T
 
 ### Setup an evaluation process
 
-* fully qualified name: `vac:bi:rag:2025q4-rag-evaluation-pipeline`
+* fully qualified name: `vac:bi:rag:2025q4-rag-evaluation:setup-evaluation-process`
 * owner: nickninov
 * status: in progress (30%)
 * start-date: 2025/10/01

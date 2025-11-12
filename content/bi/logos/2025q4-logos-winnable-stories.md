@@ -18,7 +18,7 @@ Monitor blogs and Social media to find histories where the logos stack bring sol
 
 ### Create Data extraction for social media
 
-* fully qualified name: `vac:bi:logos:2025q4-logos-winnable-stories-sm-extractions`
+* fully qualified name: `vac:bi:logos:2025q4-logos-winnable-stories:create-sm-extractions`
 * owner: c2000bzh and nickninov
 * status: done
 * start-date: 2025/10/01
@@ -39,7 +39,7 @@ Airbyte connectors for :
 
 ### Find SM Account to monitor
 
-* fully qualified name: `vac:bi:logos:2025q4-logos-winnable-stories-sm-accounts`
+* fully qualified name: `vac:bi:logos:2025q4-logos-winnable-stories:find-sm-accounts`
 * owner: c2000bzh and nickninov
 * status: in progress (50%)
 * start-date: 2025/10/01
@@ -59,7 +59,7 @@ Regroup various sources to find the best account to follows
 
 ### Launch strategy insights
 
-* fully qualified name: `vac:bi:logos:2025q4-logos-winnable-stories-launch-review`
+* fully qualified name: `vac:bi:logos:2025q4-logos-winnable-stories:launch-strategy-insights`
 * owner: c2000bzh
 * status: in progress (15%)
 * start-date: 2025/11/04

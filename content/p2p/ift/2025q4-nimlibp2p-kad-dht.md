@@ -20,6 +20,7 @@ This deliverable continues the work started in 2025q2
 
 ## Task List
 
+
 ### Routing table and RPC Protocol
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:routing-and-rpc`
@@ -29,7 +30,7 @@ This deliverable continues the work started in 2025q2
 * end-date: 2025/12/31
 
 #### Description
-Implement Kademlia’s XOR-based routing table with bucket management. Define RPC messages (`PING`, `SET_VALUE`, `GET_VALUE`, `ADD_PROVIDERS`, `GET_PROVIDERS`, `FIND_NODE`) for node communication.
+Implement Kademlia’s XOR-based routing table with bucket management. Define RPC messages (`PING`, `PUT_VALUE`, `GET_VALUE`, `ADD_PROVIDER`, `GET_PROVIDERS`, `FIND_NODE`) for node communication.
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
@@ -37,6 +38,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 - [vacp2p/nim-libp2p#1453](https://github.com/vacp2p/nim-libp2p/pull/1453) feat(kad-dht): protobuffers
 - [vacp2p/nim-libp2p#1455](https://github.com/vacp2p/nim-libp2p/pull/1455) feat(kad-dht): handler
 - [vacp2p/nim-libp2p#1744](https://github.com/vacp2p/nim-libp2p/pull/1744) feat(kad): add ping
+
 
 ### Bootstrapping & Lookup Mechanism
 
@@ -48,7 +50,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 #### Description
 Enable nodes to join the network via bootstrap peers. Implement iterative lookup for efficient key
-discovery and retrieval 
+discovery and retrieval
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
@@ -64,7 +66,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 * end-date: 2025/12/31
 
 #### Description
-Handle bucket refresh, node eviction, and periodic pings to maintain an active routing table. 
+Handle bucket refresh, node eviction, and periodic pings to maintain an active routing table.
 Implement bucket splitting and adaptive refresh strategies.
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
@@ -81,13 +83,13 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 * end-date: 2025/12/31
 
 #### Description
-Implement the logic for `SET_VALUE` and `ADD_PROVIDERS`. Store key-value pairs with expiration and replication mechanisms. 
+Implement the logic for `PUT_VALUE` and `ADD_PROVIDER`. Store key-value pairs with expiration and replication mechanisms.
 Ensure values persist despite churn, using periodic re-publication and redundancy strategies
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - [vacp2p/nim-libp2p#1582](https://github.com/vacp2p/nim-libp2p/pull/1582) feat(kad): Initial unstable putval api
-- [vacp2p/nim-libp2p#1749](https://github.com/vacp2p/nim-libp2p/pull/1749) chore(kad): tidy up putVal 
+- [vacp2p/nim-libp2p#1749](https://github.com/vacp2p/nim-libp2p/pull/1749) chore(kad): tidy up putVal
 - [vacp2p/nim-libp2p#1773](https://github.com/vacp2p/nim-libp2p/pull/1773) feat(kad): addProvider
 - [vacp2p/nim-libp2p#1789](https://github.com/vacp2p/nim-libp2p/pull/1789) feat(kad): add ProviderManager
 
@@ -96,7 +98,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:data-retrieval`
 * owner: gabe
-* status: in progress (60%)
+* status: in progress (90%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -110,9 +112,11 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 - [vacp2p/nim-libp2p#1765](https://github.com/vacp2p/nim-libp2p/pull/1765) chore(kad): getVal loop improvements
 - [vacp2p/nim-libp2p#1773](https://github.com/vacp2p/nim-libp2p/pull/1773) feat(kad): addProvider
 - [vacp2p/nim-libp2p#1783](https://github.com/vacp2p/nim-libp2p/pull/1783) chore(kad): make key field mandatory
+- [vacp2p/nim-libp2p#1852](https://github.com/vacp2p/nim-libp2p/pull/1783) feat(kad): get providers
 
 
 ### Discovery
+
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:discovery`
 * owner: gabe
 * status: in progress (15%)

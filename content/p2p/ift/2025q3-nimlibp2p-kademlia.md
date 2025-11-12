@@ -21,39 +21,40 @@ This deliverable continues the work started in 2025q2
 ### Routing table and RPC Protocol
 
 * fully qualified name: `vac:p2p:ift:2025q2-nimlibp2p-kad-dht:routing-and-rpc`
-* owner: Gabe
-* status: 100%
+* owner: ben
+* status: 50%
 * start-date: 2025-04-08
-* end-date: ??
+* end-date:
 
 #### Description
-Implement Kademlia’s XOR-based routing table with bucket management.
-Define RPC messages (`PING`, `PUT_VALUE`, `GET_VALUE`, `ADD_PROVIDER`, `GET_PROVIDERS`, `FIND_NODE`) for node communication.
+Implement Kademlia’s XOR-based routing table with bucket management. Define RPC messages (`PING`, `SET_VALUE`, `GET_VALUE`, `SET_PROVIDERS`, `GET_PROVIDERS`, `FIND_NODE`) for node communication.
 
 #### Deliverables
+
 
 
 ### Bootstrapping & Lookup Mechanism
 
 * fully qualified name: `vac:p2p:ift:2025q3-nimlibp2p-kad-dht:bootstraping-and-lookup`
-* owner: Gabe
-* status: 100%
+* owner: ben
+* status: 35%
 * start-date: 2025-05-05
-* end-date: ??
+* end-date:
 
 #### Description
-Enable nodes to join the network via bootstrap peers.
-Implement iterative lookup for efficient key discovery and retrieval.
+Enable nodes to join the network via bootstrap peers. Implement iterative lookup for efficient key
+discovery and retrieval 
 
 #### Deliverables
+
 
 
 ### Network Maintenance & Node Management
 
 * fully qualified name: `vac:p2p:ift:2025q3-nimlibp2p-kad-dht:network-maintenance-node-management`
-* owner: Gabe
-* status: 60%
-* start-date: 2025-10-01
+* owner: ben
+* status: not started
+* start-date:
 * end-date:
 
 #### Description
@@ -62,92 +63,42 @@ Implement bucket splitting and adaptive refresh strategies.
 
 #### Deliverables
 
-### PING
-* fully qualified name: `vac:p2p:ift:2025q3-nimlibp2p-kad-dht:ping`
-* owner: Gabe
-* status: 100%
-* start-date: 
+
+
+### Data Storage & Replication
+
+* fully qualified name: `vac:p2p:ift:2025q3-nimlibp2p-kad-dht:data-storage`
+* owner: ben
+* status: started
+* start-date: 2025-07-28
 * end-date:
 
 #### Description
-Implement `PING` RPC message and tests.
+Implement the logic for `SET_VALUE` and `SET_PROVIDERS`. Store key-value pairs with expiration and replication mechanisms. 
+Ensure values persist despite churn, using periodic re-publication and redundancy strategies
 
 #### Deliverables
-- `handlePing`
-- `sendPing`
-- Tests
-  
-### PUT_VALUE
-* fully qualified name: `vac:p2p:ift:2025q3-nimlibp2p-kad-dht:put-value`
-* owner: Gabe
-* status: 100%
-* start-date: 
+
+
+### Data Retrieval
+
+* fully qualified name: `vac:p2p:ift:2025q3-nimlibp2p-kad-dht:data-retrieval`
+* owner: ben
+* status: not started
+* start-date: 2025-07-28
 * end-date:
 
 #### Description
-Implement `PUT_VALUE` RPC message and tests.
+Implement the logic for `GET_VALUE` and `GET_PROVIDERS`. Implement validation and quorum mechanisms for queries
 
 #### Deliverables
-- `handlePutValue`
-- `sendPutValue`
-- Tests
 
-### GET_VALUE
-* fully qualified name: `vac:p2p:ift:2025q3-nimlibp2p-kad-dht:get-value`
-* owner: Gabe
-* status: 100%
-* start-date: 
+### Discovery
+* fully qualified name: `vac:p2p:ift:2025q3-nimlibp2p-kad-dht:discovery`
+* owner: ben
+* status: 15%
+* start-date: 2025-07-20
 * end-date:
 
 #### Description
-Implement `GET_VALUE` RPC message and tests.
-
-#### Deliverables
-- `handleGetValue`
-- `sendGetValue`
-- Tests
-  
-### ADD_PROVIDER
-* fully qualified name: `vac:p2p:ift:2025q3-nimlibp2p-kad-dht:add-provider`
-* owner: Gabe
-* status: 100%
-* start-date: 
-* end-date:
-
-#### Description
-Implement `ADD_PROVIDER` RPC message and tests.
-
-#### Deliverables
-- `handleAddProvider`
-- `sendAddProvider`
-- `ProviderManager`
-- Tests
-  
-### GET_PROVIDERS
-* fully qualified name: `vac:p2p:ift:2025q3-nimlibp2p-kad-dht:get-providers`
-* owner: Gabe
-* status: 80%
-* start-date: 2025-11-07 
-* end-date:
-
-#### Description
-Implement `GET_PROVIDERS` RPC message and tests.
-
-#### Deliverables
-- `handleGetProviders`
-- `sendGetProviders`
-- Tests
-  
-### Interoperability Tests
-* fully qualified name: `vac:p2p:ift:2025q3-nimlibp2p-kad-dht:interop`
-* owner: Gabe
-* status: 0%
-* start-date: 
-* end-date:
-
-#### Description
-Implement interoperability tests between nim-libp2p's kad implementation and others.
-
-#### Deliverables
-- interop with Go
-- interop with Rust
+Extend nim-libp2p discovery mechanism by providing a discovery interface that will use Kademlia DHT to advertise nodes and find peers

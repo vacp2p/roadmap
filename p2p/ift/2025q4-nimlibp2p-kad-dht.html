@@ -14,7 +14,7 @@ This deliverable continues the work started in 2025q2</p>
 <li>end-date: 2025/12/31</li>
 </ul>
 <h4 id="description-1">Description<a aria-hidden="true" tabindex="-1" href="#description-1" class="internal"> §</a></h4>
-<p>Implement Kademlia’s XOR-based routing table with bucket management. Define RPC messages (<code>PING</code>, <code>SET_VALUE</code>, <code>GET_VALUE</code>, <code>ADD_PROVIDERS</code>, <code>GET_PROVIDERS</code>, <code>FIND_NODE</code>) for node communication.</p>
+<p>Implement Kademlia’s XOR-based routing table with bucket management. Define RPC messages (<code>PING</code>, <code>PUT_VALUE</code>, <code>GET_VALUE</code>, <code>ADD_PROVIDER</code>, <code>GET_PROVIDERS</code>, <code>FIND_NODE</code>) for node communication.</p>
 <p>Schedule note: Dates reflect quarter bounds; update when actual timing is known.</p>
 <h4 id="deliverables">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables" class="internal"> §</a></h4>
 <ul>
@@ -64,7 +64,7 @@ Implement bucket splitting and adaptive refresh strategies.</p>
 <li>end-date: 2025/12/31</li>
 </ul>
 <h4 id="description-4">Description<a aria-hidden="true" tabindex="-1" href="#description-4" class="internal"> §</a></h4>
-<p>Implement the logic for <code>SET_VALUE</code> and <code>ADD_PROVIDERS</code>. Store key-value pairs with expiration and replication mechanisms.
+<p>Implement the logic for <code>PUT_VALUE</code> and <code>ADD_PROVIDER</code>. Store key-value pairs with expiration and replication mechanisms.
 Ensure values persist despite churn, using periodic re-publication and redundancy strategies</p>
 <p>Schedule note: Dates reflect quarter bounds; update when actual timing is known.</p>
 <h4 id="deliverables-3">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-3" class="internal"> §</a></h4>
@@ -80,7 +80,7 @@ Ensure values persist despite churn, using periodic re-publication and redundanc
 <ul>
 <li>fully qualified name: <code>vac:p2p:ift:2025q4-nimlibp2p-kad-dht:data-retrieval</code></li>
 <li>owner: gabe</li>
-<li>status: in progress (60%)</li>
+<li>status: in progress (90%)</li>
 <li>start-date: 2025/10/01</li>
 <li>end-date: 2025/12/31</li>
 </ul>
@@ -94,7 +94,7 @@ Ensure values persist despite churn, using periodic re-publication and redundanc
 <li><a href="https://github.com/vacp2p/nim-libp2p/pull/1765" class="external">vacp2p/nim-libp2p#1765</a> chore(kad): getVal loop improvements</li>
 <li><a href="https://github.com/vacp2p/nim-libp2p/pull/1773" class="external">vacp2p/nim-libp2p#1773</a> feat(kad): addProvider</li>
 <li><a href="https://github.com/vacp2p/nim-libp2p/pull/1783" class="external">vacp2p/nim-libp2p#1783</a> chore(kad): make key field mandatory</li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1852" class="external">vacp2p/nim-libp2p#1852</a> feat(kad): add getProviders</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1852" class="external">vacp2p/nim-libp2p#1852</a> feat(kad): get providers</li>
 </ul>
 <h3 id="discovery">Discovery<a aria-hidden="true" tabindex="-1" href="#discovery" class="internal"> §</a></h3>
 <ul>

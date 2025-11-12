@@ -35,8 +35,8 @@ they will be addressed by our team.
 ### Contract maintenance (recurring)
 
 * fully qualified name: `vac:sc:status-l2:2025q4-maintaining-status-l2-contracts:maintenance`
-* owner: sc-team
-* status: not started
+* owner: r4bbit
+* status: in progress (45%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -44,4 +44,5 @@ they will be addressed by our team.
 Handle inbound maintenance requests for deployed Status L2 contracts, including bug fixes and minor enhancements.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- Deployed new SimpleKarmaDistributor instances for live testing
+- Fixed the SimpleKarmaDistributor deployment script to initialize distributor parameters correctly

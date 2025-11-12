@@ -18,7 +18,7 @@ Improve RAG embedding by includind crypto context.
 
 ### Improve embedding for the RAG
 
-* fully qualified name: `vac:bi:rag:2025q4-rag-embedding-improvment`
+* fully qualified name: `vac:bi:rag:2025q4-rag-embedding-and-context:improve-rag-embedding`
 * owner: nickninov
 * status: in progress (5%)
 * start-date: 2025/10/01
@@ -35,7 +35,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 ### Named Entity Recognition
 
-* fully qualified name: `vac:bi:rag:2025q4-rag-embedding-named-entity-recognition`
+* fully qualified name: `vac:bi:rag:2025q4-rag-embedding-and-context:named-entity-recognition`
 * owner: nickninov
 * status: not started
 * start-date: 2025/10/01

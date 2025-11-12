@@ -23,8 +23,8 @@ Deliverables include curated study plans, shared notes, and exploratory reposito
 ### Risc0 Proof of Concepts
 
 * fully qualified name: `vac:sc:logos:2025q4-risc0-upskilling:poc`
-* owner: TBD
-* status: not started
+* owner: Andrea
+* status: in progress (20%)
 * start-date: 2025/11/01
 * end-date: 2025/12/31
 

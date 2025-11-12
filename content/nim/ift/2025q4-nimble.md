@@ -31,7 +31,7 @@ By the end of this quarter, we aim to have made significant progress on these fr
 
 * fully qualified name: `vac:nim:ift:2025q4-nimble:nimble-1.0.0`
 * owner: jmgomez
-* status: in progress (35%)
+* status: in progress (40%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -40,6 +40,9 @@ By the end of this quarter, we aim to have made significant progress on these fr
 All the relevant information can be found in [this GitHub issue](https://github.com/nim-lang/nimble/issues/1449).
 
 #### Deliverables
+- [Refactor Nim bin parametrization and bootstrap fixes #1514](https://github.com/nim-lang/nimble/pull/1514)
+- [Fixes nimble add assertion defect #1512](https://github.com/nim-lang/nimble/pull/1512)
+- [Adds call tree to instrumentation #1511](https://github.com/nim-lang/nimble/pull/1511)
 - [optimizes some nimblesat funcs #1507](https://github.com/nim-lang/nimble/pull/1507)
 - [Adds instrument tools #1506](https://github.com/nim-lang/nimble/pull/1506)
 - [Always build installed deps #1505](https://github.com/nim-lang/nimble/pull/1505)

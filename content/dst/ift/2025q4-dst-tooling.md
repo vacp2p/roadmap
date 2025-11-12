@@ -46,6 +46,7 @@ Should be made general when possible.
 
 #### Deliverables
 - PRs:
+    - [Remove unused _build in regression and fix ENR echo command in Helm template #168](https://github.com/vacp2p/10ksim/pull/168)
     - [Github PR: Fix nimlibp2p tracer #161](https://github.com/vacp2p/10ksim/pull/161)
     - [Github PR: Move metadata helpers to base_experiment #162](https://github.com/vacp2p/10ksim/pull/162)
     - [Github PR: nimlibp2p mix node deployment changes #137](https://github.com/vacp2p/10ksim/pull/137)
@@ -132,7 +133,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:complete-deployment-refactor`
 * owner: Pearson
-* status: in progress (90%)
+* status: in progress (80%)
 * start-date: 2025/10/06
 * end-date: 2025/10/24
 

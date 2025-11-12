@@ -74,7 +74,7 @@ The Logos website will support the volunteer-driven community building strategy 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
 * owner: jinhojang6
-* status: in progress (50%)
+* status: in progress (90%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -88,7 +88,7 @@ Finalize the responsive site layout, navigation structure, and page templates fo
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:components`
 * owner: jinhojang6
-* status: in progress (50%)
+* status: in progress (90%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -172,7 +172,7 @@ Prototype an interactive map that visualizes Logos circles and makes it easy to 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:spaces-calendar`
 * owner: jinhojang6
-* status: in progress (50%)
+* status: in progress (90%)
 * start-date: 2025/10/20
 * end-date: 2025/11/14
 
@@ -180,7 +180,7 @@ Prototype an interactive map that visualizes Logos circles and makes it easy to 
 Embed an events calendar that aggregates upcoming Spaces sessions and community gatherings.
 
 #### Deliverables
-- Spaces Calendar frontend/backend iteration: [PR21](https://github.com/acid-info/admin-acid.logos.co/pull/21), [preview](https://logos-admin-git-spaces-calendar-features-acidinfo.vercel.app/spaces-calendar?tab=list).
+- Spaces Calendar frontend/backend iteration (CSV import, charting, staging deploy): [PR21](https://github.com/acid-info/admin-acid.logos.co/pull/21), [preview](https://logos-admin-git-spaces-calendar-features-acidinfo.vercel.app/spaces-calendar?tab=list).
 - Circles calendar proof-of-concept with real Luma data: [PR16](https://github.com/acid-info/logos-co/pull/16), [preview](https://logos-co-rvlb-git-implement-spaces-calendar-acidinfo.vercel.app/spaces-calendar).
 - Circles map PoC: [PR15](https://github.com/acid-info/logos-co/pull/15), [preview](https://logos-co-rvlb-git-implement-events-acidinfo.vercel.app/map).
 - Confirmed BI data contracts for spaces features ([status-im/data-docs#111](https://github.com/status-im/data-docs/issues/111)).

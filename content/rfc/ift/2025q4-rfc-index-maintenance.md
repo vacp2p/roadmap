@@ -21,8 +21,8 @@ to fix and update across the relevant RFC websites
 ### Maintenance
 
 - Fully qualified name: `vac:rfc:ift:2025q4-rfc-index-maintenance:maintenance`
-- Owner: Filip
-- Status: not started
+- Owner: jimstir
+- Status: in progress (80%)
 - Start date: 2025/10/01
 - End date: 2025/12/31
 

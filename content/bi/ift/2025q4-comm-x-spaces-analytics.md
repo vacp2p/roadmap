@@ -18,7 +18,7 @@ Extract and build dashboard for X Spaces
 
 ### Setup an evaluation process
 
-* fully qualified name: `vac:bi:comm:2025q4-comm-x-spaces-analytics`
+* fully qualified name: `vac:bi:ift:2025q4-comm-x-spaces-analytics:setup-evaluation-process`
 * owner: c200bzh
 * status: in progress (5%)
 * start-date: 2025/10/01

@@ -35,7 +35,7 @@ theoretical analysis and experiments.
 
 * fully qualified name: `vac:dst:codex:2025q4-codex-evaluation:codex-in-status`
 * owner: Alberto
-* status: not started
+* status: in progress (70%)
 * start-date: 2025/11/03
 * end-date: 2025/11/15
 

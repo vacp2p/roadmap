@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (37%)
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -36,6 +36,14 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.
 
 #### Deliverables
+- [PR 1858: add utils dir](https://github.com/vacp2p/nim-libp2p/pull/1858)
+- [PR 1857: add stream dir](https://github.com/vacp2p/nim-libp2p/pull/1857)
+- [PR 1849: add crypto dir tests](https://github.com/vacp2p/nim-libp2p/pull/1849)
+- [PR 1845: pubsub improvements](https://github.com/vacp2p/nim-libp2p/pull/1845)
+- [PR 1842: add `test_all` bundles](https://github.com/vacp2p/nim-libp2p/pull/1842)
+- [PR 1835: fix linter names](https://github.com/vacp2p/nim-libp2p/pull/1835)
+- [PR 1832: add license check workflow](https://github.com/vacp2p/nim-libp2p/pull/1832)
+- [nim-chronos#586: add `AsyncSemaphore`](https://github.com/status-im/nim-chronos/pull/586)
 - [PR 1831: move unittest tests into tools suite](https://github.com/vacp2p/nim-libp2p/pull/1831)
 - [PR 1828: imports cleanup across test modules](https://github.com/vacp2p/nim-libp2p/pull/1828)
 - [PR 1825: include dangling `testipaddr` file](https://github.com/vacp2p/nim-libp2p/pull/1825)

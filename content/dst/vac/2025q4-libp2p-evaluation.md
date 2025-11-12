@@ -61,6 +61,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 * Analysis:
   * [Notion: Nim-libp2p 1.14.0 Report](https://www.notion.so/Nim-libp2p-v1-14-0-regression-testing-October-2025-28d8f96fb65c803ba789ccdb73753cab)
+  * [Notion: Quic-9dc03f0e-e63dafa2](https://www.notion.so/Quic-9dc03f0e-e63dafa2-29b8f96fb65c8069a21bf0b2e5c14412#2a38f96fb65c80e7b01cfd885da02b6f)
 
 
 ### Universal connectivity
@@ -156,7 +157,7 @@ Report results of a single scenario (fixed parameters) using K8s and shadow.
 
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:rust-libp2p-node`
 * owner: Farooq
-* status: in progress (25%)
+* status: in progress (70%)
 * start-date: 2025/10/27
 * end-date: 2025/11/07
 

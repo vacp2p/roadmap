@@ -56,7 +56,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-scaling:optimise-browser-bootstrapping`
 * owner: Pearson
-* status: in progress (50%)
+* status: in progress (60%)
 * start-date: 2025/10/15
 * end-date: 2025/10/31
 
@@ -176,5 +176,5 @@ Prove that a new node setup with an RLN membership can be ready
 to verify RLN proof within 5s, no matter the size of the tree.
 
 #### Deliverables
-- Code: 
-- Report:
+- [Github Issue: Check for gasPrice overflow](https://github.com/waku-org/nwaku/pull/3636/files)
+

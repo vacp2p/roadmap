@@ -27,6 +27,15 @@ Provide upkeep, bug fixes, and small improvements for existing web properties ac
 Handle routine maintenance tickets, dependency bumps, and production support for shipped web projects.
 
 #### Deliverables
+- [status-web: reference new mobile release assets](https://github.com/status-im/status-web/pull/845)
+- [status-web: release new mobile build](https://github.com/status-im/status-web/pull/842)
+- [status-website: prepare new mobile release content](https://github.com/status-im/status-website/pull/1620)
+- [status-web: fix release CI failing (part 2)](https://github.com/status-im/status-web/pull/844)
+- [status-web: fix release CI failing (part 1)](https://github.com/status-im/status-web/pull/838)
+- [status-web: deploy websites from monorepo – status.app](https://github.com/status-im/status-web/pull/825)
+- [status-web: deploy websites from monorepo – status.network](https://github.com/status-im/status-web/pull/826)
+- [status-web: fix Vercel build](https://github.com/status-im/status-web/pull/836)
+- Resolved CSP restrictions for Farewell to Westphalia landing pages and redeployed updated hero video ([logos.co/farewell-to-westphalia](https://logos.co/farewell-to-westphalia))
 - Technical SEO improvements for free.technology
     - Added dynamic sitemap.xml, robots.txt, Schema.org Structured Data
     - [Pull Request](https://github.com/acid-info/free.technology/pull/14), [sitemap.xml](https://free.technology/sitemap.xml), [robots.txt](https://free.technology/robots.txt), [Schema.org](https://validator.schema.org/#url=https%3A%2F%2Ffree.technology%2F)

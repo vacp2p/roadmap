@@ -111,7 +111,7 @@ Update GossipSub performance tests based on dev feedback and existing data gathe
 
 * fully qualified name: `vac:qa:vac:2025q4-nim-libp2p-testing:quic`
 * owner: radek
-* status: in progress (30%)
+* status: in progress (40%)
 * start-date: 2025/10/16
 * end-date: 2025/11/25
 
@@ -120,6 +120,8 @@ Improve QUIC transport test coverage for handshake enforcement (TLS, ALPN, trans
 stream and connection lifecycle, resilience/error paths, metrics, and interoperability.
 
 #### Deliverables
+- [chore: use test_all in coverage workflow](https://github.com/vacp2p/nim-libp2p/pull/1855)
+- [test(transports): stream tests](https://github.com/vacp2p/nim-libp2p/pull/1829)
 - [test: too many global vars workaround](https://github.com/vacp2p/nim-libp2p/pull/1816)
 - [Transports: Inconsistent EOF behavior between QUIC and Mplex: first readOnce after EOF](https://github.com/vacp2p/nim-libp2p/issues/1833)
 - [Transports: Inconsistent EOF behavior between QUIC and Mplex: consecutive readOnce after EOF](https://github.com/vacp2p/nim-libp2p/issues/1834)

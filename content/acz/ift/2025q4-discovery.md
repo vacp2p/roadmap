@@ -38,8 +38,8 @@ once the draft RFC is assembled, the task also includes preparing the final RFC
 as a pull request by incorporating review feedback.
 
 #### Deliverables
-
-* A notion document contains a draft RFC with its feedback.
+- [Draft RFC for Logos discovery capability](https://www.notion.so/RFC-Logos-Discovery-Capability-28a8f96fb65c80888df7fc0de13f1e22)
+- [Logos discovery capability POC](https://github.com/vacp2p/logos-capability-discovery-poc/pull/1)
 
 ### Registrar Module
 

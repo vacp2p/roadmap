@@ -45,7 +45,7 @@ A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/).
 
 * fully qualified name: `vac:acz:ift:2025q4-zerokit:wasm-ffi-rework`
 * owner: Vinh
-* status: not started
+* status: in progress (30%)
 * start-date: 2025/11/03
 * end-date: 2025/11/10
 
@@ -68,9 +68,9 @@ For discussion and context, see: [Zerokit Discussion](https://github.com/vacp2p/
 
 * fully qualified name: `vac:acz:ift:2025q4-zerokit:ffi-rework`
 * owner: Vinh
-* status: in progress (80%)
+* status: done
 * start-date: 2025/10/01
-* end-date: 2025/11/01
+* end-date: 2025/11/11
 
 #### Description
 The due date of this task is expanded to 11/01 due to the bugs and test requirements.
@@ -96,7 +96,8 @@ and verification through the new FFI model is implemented and validated
 for memory safety and Big Endian compatibility.
 
 #### Deliverables
-A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/). 
+- [Remove legacy FFI implementation in favor of safer opaque structs](https://github.com/vacp2p/zerokit/pull/337)
+- A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/). 
 
 ### Release v1
 

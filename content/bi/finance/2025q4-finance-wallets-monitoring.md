@@ -39,8 +39,8 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 
 * fully qualified name: `vac:bi:finance:2025q4-finance-wallets-visualization`
-* owner: TBD
-* status: not started
+* owner: c2000bzh
+* status: in progress (40%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -51,5 +51,8 @@ Continue on the [issue](https://github.com/status-im/data-docs/issues/83), waiti
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 
-* Adapted visualization dashboard
-* Alerting system
+- Finance DBT balance processes refreshed (test dataset repopulated after schema drift).
+- Treasury dashboard requirements clarified with Deivids/Nacho and queued for implementation.
+- Transactions dashboard sanity-checked against `etherscan.io` and wired into the reporting stack.
+- Adapted visualization dashboard
+- Alerting system

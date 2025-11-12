@@ -37,7 +37,7 @@ This taks will need to be broken down into smaller task once we have more info
 
 * fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:settings`
 * owner: aya
-* status: in progress (70%)
+* status: in progress (80%)
 * start-date: 2025/10/01
 * end-date: 2025/10/20
 
@@ -104,8 +104,8 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 ### Maintenance
 
 * fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:maintenance`
-* owner: fbarbu15
-* status: not started
+* owner: roman
+* status: in progress (30%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -115,4 +115,5 @@ This includes updating tests for changes in `status-go`, addressing regressions,
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
-* PRs with the new tests
+- [Temporary guard for `test_update_keycard_uid_success`](https://github.com/status-im/status-go/commit/92cd47e98b4553a9e6b153ef39a55e7205cad6c6)
+- PRs with the new tests

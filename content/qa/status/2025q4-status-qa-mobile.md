@@ -24,7 +24,7 @@ Extend and adjust the existing E2E test framework to support testing on mobile/t
 
 - fully qualified name: `vac:qa:status:2025q4-status-qa-mobile:port-tests`
 - owner: magnus
-- status: in progress (40%)
+- status: in progress (45%)
 - start-date: 2025/10/01
 - end-date: 2025/12/31
 
@@ -70,6 +70,7 @@ Investigate how to extend test hooks to reveal more qt properties to help with t
 Add mobile tests to CI mobile build workflow when the pipeline becomes available
 
 #### Deliverables
+- [Chore: e2e mobile - add BrowserStack tests](https://github.com/status-im/status-desktop/pull/19111)
 - [[Mobile] fix(ci): Android GitHub workflow android-build.yml](https://github.com/status-im/status-desktop/pull/18975)
 - [build: add Android x86_64 support to Makefile](https://github.com/status-im/status-go/pull/6990)
 - [mobile: add support for browserstack](https://github.com/status-im/status-desktop/issues/19088)

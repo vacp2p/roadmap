@@ -32,10 +32,18 @@ Oversee testing strategy around releases.
   to the testing framework as needed.
 
 #### Deliverables
+- [tests(@e2e): cover help us improve status dialog](https://github.com/status-im/status-desktop/pull/19217)
+- [chore: update status-go](https://github.com/status-im/status-desktop/pull/19216)
 - [tests: add test to change language](https://github.com/status-im/status-desktop/pull/19165)
 - [bug: Can't mint tokens on Optimism Sepolia](https://github.com/status-im/status-desktop/issues/18954)
 - [chore: Optimize code usage](https://github.com/status-im/status-desktop/pull/18980)
 - [bug: Cover language selector in e2e](https://github.com/status-im/status-desktop/issues/18983)
+- [issue: Account name resets when editing account in settings](https://github.com/status-im/status-desktop/issues/19174)
+- [issue: Tests using an old data dir crash on login on latest master](https://github.com/status-im/status-desktop/issues/19176)
+- [issue: Fix toplevel window usage](https://github.com/status-im/status-desktop/issues/19237)
+- [issue: Run Squish 9.1.0 on mac arm](https://github.com/status-im/status-desktop/issues/19226)
+- [issue: Add checks for Help us to improve Status info icon popup](https://github.com/status-im/status-desktop/issues/19173)
+- [issue: Biometrics is not fully applied for created profile](https://github.com/status-im/status-desktop/issues/17450)
 - [feat: replace old transfer detector](https://github.com/status-im/status-desktop/pull/18924)
 - [chore(@e2e): improvement to object definition](https://github.com/status-im/status-desktop/pull/19047)
 - [chore: remove TestRail usage from the project](https://github.com/status-im/status-desktop/pull/19100)
@@ -57,6 +65,8 @@ Oversee testing strategy around releases.
 - Support releases **2.36** and **2.37** with testing.
 
 #### Deliverables
+- [Tested: add withdraw flow fixes](https://github.com/status-im/status-desktop/pull/19180)
+- [Tested: release patch set for PR #19227](https://github.com/status-im/status-desktop/pull/19227)
 - [fix tests for new component](https://github.com/status-im/status-desktop/pull/19122)
 - [issue: test bug fixes](https://github.com/status-im/status-desktop/issues/19152)
 - [issue: opened bug follow-up](https://github.com/status-im/status-desktop/issues/19167)

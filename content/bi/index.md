@@ -23,6 +23,7 @@ Additionally, it handle the RAG CaaS to ingest map the internal knowledge of IFT
 * [[bi/ift/2025q4-comm-x-spaces-analytics|comm-x-spaces-analytics]]
 * [[bi/ift/2025q4-comms-discord-stats|comms-discord-stats]]
 * [[bi/ift/2025q4-ift-program-overview|ift-program-overview]]
+* [[bi/ift/2025q4-ift-weekly-news|ift-weekly-news]]
 * [[bi/ift/2025q4-ift-townhall-helper|ift-townhall-helper]]
 * [[bi/ift/2025q4-ift-townhall-transcript|ift-townhall-transcript]]
 * [[bi/ift/2025q4-vac-website-contributors|vac-website-contributors]]

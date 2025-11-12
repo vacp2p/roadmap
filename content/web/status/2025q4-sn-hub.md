@@ -40,9 +40,9 @@ The Status Network Hub will support Status Network's strategic objectives by:
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:wallet-connect`
 * owner: jkbktl
-* status: in progress (70%)
+* status: done
 * start-date: 2025/09/05
-* end-date: 2025/11/30
+* end-date: 2025/11/11
 
 #### Description
 Ship the WalletConnect onboarding and session management flows so users can safely link their wallets.
@@ -53,8 +53,8 @@ Ship the WalletConnect onboarding and session management flows so users can safe
 ### Staking
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:staking`
-* owner: nnachionuwa
-* status: in progress (90%)
+* owner: isaac
+* status: in progress (96%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
@@ -62,9 +62,10 @@ Ship the WalletConnect onboarding and session management flows so users can safe
 Build the staking dashboard that displays yields, validator options, and lets users manage deposits.
 
 #### Deliverables
+- [Completed unstaking flow](https://github.com/status-im/status-web/pull/820)
 - [add external links](https://github.com/status-im/status-web/issues/781) - created [PR#818](https://github.com/status-im/status-web/pull/818)
-- synced with Filip regarding API and [review of API design](https://github.com/status-im/sn-api/pull/7)
-- testing & debugging [Withdraw feature](https://github.com/status-im/status-web/pull/813)
+- Synced with Filip regarding API and [review of API design](https://github.com/status-im/sn-api/pull/7)
+- Testing & debugging [Withdraw feature](https://github.com/status-im/status-web/pull/813)
 
 ### Feedback
 
@@ -84,7 +85,7 @@ Implement in-app feedback capture so newcomers can report issues and suggest imp
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:deposit`
 * owner: jkbktl
-* status: in progress (10%)
+* status: in progress (90%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
@@ -98,21 +99,21 @@ Design the deposit flow that guides users through bridging assets into the Statu
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:discovery`
 * owner: jkbktl
-* status: in progress (70%)
+* status: done
 * start-date: 2025/09/05
-* end-date: 2025/11/30
+* end-date: 2025/11/11
 
 #### Description
 Surface curated dApps, pools, and governance opportunities in a discovery view tailored to new users.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [Discover section rollout](https://github.com/status-im/status-web/pull/808)
 
 ### Karma
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:karma`
 * owner: jkbktl
-* status: in progress (70%)
+* status: in progress (95%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
@@ -140,7 +141,7 @@ Add notification preferences and delivery so users receive timely updates about 
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:withdraw`
 * owner: jkbktl
-* status: in progress (60%)
+* status: in progress (95%)
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 

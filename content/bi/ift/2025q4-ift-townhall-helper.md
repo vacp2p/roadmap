@@ -20,7 +20,7 @@ In order to help the Townhall organisation, a list of recent forum post, release
 
 ### Prepare Media and Content list for each townhall
 
-* fully qualified name: `vac:bi:ift:2025q4-ift-townhall-content-helper`
+* fully qualified name: `vac:bi:ift:2025q4-ift-townhall-helper:prepare-media-and-content`
 * owner: nickninov
 * status: in progress (60%)
 * start-date: 2025/10/01

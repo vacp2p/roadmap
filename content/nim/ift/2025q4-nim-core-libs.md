@@ -33,7 +33,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams, delive
 
 * fully qualified name: `vac:nim:ift:2025q4-nim-core-libs:command-line-parsers`
 * owner: Esteban
-* status: in progress (50%)
+* status: in progress (60%)
 * start-date: 2025/11/15
 * end-date: 2025/12/31
 

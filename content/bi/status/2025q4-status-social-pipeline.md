@@ -32,4 +32,5 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * n8n pipeline to push notification in Status Discord for Twitter post and forum post.
 * Documentation in data-docs repo.
-
+* Discord reporting jobs now post the monthly BI report and pull membership data through an improved Airbyte connector.
+* Began the Telegram extraction pipeline after aligning on scope with Nenad, ensuring broader coverage of community channels.

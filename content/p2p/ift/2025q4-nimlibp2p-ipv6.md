@@ -23,8 +23,8 @@ Enable IPv6 in nim-libp2p end-to-end so users of the library can run dual-stack 
 ### Core transports (tcp/quic)
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-ipv6:transport`
-* owner: rramos
-* status: not started
+* owner: vlado
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -33,8 +33,10 @@ Add IPv6 listen/dial for tcp and quic. Might require changes in chronos
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
-- nodes can listen on /ip6 and accept inbound requests
-- dialer can dial /ip6 addresses
+- [Add IPv6 TCP transport tests](https://github.com/vacp2p/nim-libp2p/pull/1850)
+- [Add `toMultiAddress` helper for IPv6](https://github.com/vacp2p/nim-libp2p/pull/1853)
+- Nodes can listen on /ip6 and accept inbound requests
+- Dialer can dial /ip6 addresses
 
 
 ### addresses & identity

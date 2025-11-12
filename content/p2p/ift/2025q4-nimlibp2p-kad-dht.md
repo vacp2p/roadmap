@@ -90,6 +90,8 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 - [vacp2p/nim-libp2p#1749](https://github.com/vacp2p/nim-libp2p/pull/1749) chore(kad): tidy up putVal 
 - [vacp2p/nim-libp2p#1773](https://github.com/vacp2p/nim-libp2p/pull/1773) feat(kad): addProvider
 - [vacp2p/nim-libp2p#1789](https://github.com/vacp2p/nim-libp2p/pull/1789) feat(kad): add ProviderManager
+- [vacp2p/nim-libp2p#1843](https://github.com/vacp2p/nim-libp2p/pull/1843) chore(kad): ProviderManager limits
+- [vacp2p/nim-libp2p#1848](https://github.com/vacp2p/nim-libp2p/pull/1848) chore(kad): Provider manager touchups
 
 
 ### Data Retrieval
@@ -110,6 +112,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 - [vacp2p/nim-libp2p#1765](https://github.com/vacp2p/nim-libp2p/pull/1765) chore(kad): getVal loop improvements
 - [vacp2p/nim-libp2p#1773](https://github.com/vacp2p/nim-libp2p/pull/1773) feat(kad): addProvider
 - [vacp2p/nim-libp2p#1783](https://github.com/vacp2p/nim-libp2p/pull/1783) chore(kad): make key field mandatory
+- [vacp2p/nim-libp2p#1852](https://github.com/vacp2p/nim-libp2p/pull/1852) feat(kad): add getProviders
 
 
 ### Discovery

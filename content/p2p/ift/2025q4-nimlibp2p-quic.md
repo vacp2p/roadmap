@@ -33,6 +33,9 @@ Resolve runtime crashes, race conditions and excessive memory use in nim-quic. T
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- [vacp2p/nim-libp2p#1846: use negotiated protocol in pubsub connection lookups](https://github.com/vacp2p/nim-libp2p/pull/1846)
+- [vacp2p/nim-libp2p#1844: quic wildcard resolver fixes](https://github.com/vacp2p/nim-libp2p/pull/1844)
+- [vacp2p/nim-libp2p#1839: quic EOF handling fixes](https://github.com/vacp2p/nim-libp2p/pull/1839)
 - [PR 175: fix timeout handling](https://github.com/vacp2p/nim-quic/pull/175)
 - [PR 174: refactor send pipeline](https://github.com/vacp2p/nim-quic/pull/174)
 - [PR 167: fix blocked streams](https://github.com/vacp2p/nim-quic/pull/167)

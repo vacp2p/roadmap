@@ -47,7 +47,7 @@ editorial work through previous and future RFCs to improve them
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:slot-builder`
 - owner: jimstir
-- status: in progress (35%)
+- status: in progress (55%)
 - start-date: 2025/10/01
 - end-date: 2025/10/15
 
@@ -90,7 +90,7 @@ Create the RFC for the purchase module covering pricing, incentives, and settlem
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:the-block-exchange`
 - owner: cofson
-- status: not started
+- status: in progress (10%)
 - start-date: 2025/10/04
 - end-date: 2025/10/31
 
@@ -146,7 +146,7 @@ Capture the prover workflow, artefacts, and interface details to support Codex s
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:marketplace`
 - owner: cofson
-- status: in progress (50%)
+- status: in progress (85%)
 - start-date: 2025/10/04
 - end-date: 2025/11/10
 

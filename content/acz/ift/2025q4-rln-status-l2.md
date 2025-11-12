@@ -166,7 +166,7 @@ correctly identifies the corresponding user, and reliably removes their commitme
 
 * fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:shared-db`
 * owner: Sylvain
-* status: in progress (10%) 
+* status: in progress (80%) 
 * start-date: 2025/11/03
 * end-date: 2025/11/30
 
@@ -177,7 +177,8 @@ can write to the shared DB for having a prover cluster based on the pre-research
 
 ### Deliverables
 
-* A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
+- Private POC for shared prover DB cluster ([status_rln_prover_db](https://github.com/sydhds/status_rln_prover_db))
+- A set of PRs and issues to [vacp2p/status-rln-prover](https://github.com/vacp2p/status-rln-prover).
 
 ### Devnet testing 
 

@@ -26,7 +26,7 @@ The PSF website will support Logos' strategic objectives by:
 
 * fully qualified name: `vac:web:ift:2025q4-psf-website:website`
 * owner: jinhojang6
-* status: in progress (50%)
+* status: in progress (70%)
 * start-date: 2025/03/04
 * end-date: 2026/10/31
 
@@ -34,7 +34,8 @@ The PSF website will support Logos' strategic objectives by:
 Build the core PSF public site with schedules, speakers, and storytelling that sells the festival experience.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [Implement landing page with new visual language and hero video](https://github.com/acid-info/ps.logos.co/pull/10)
+- Deployed [ps.logos.co](https://ps.logos.co/) with updated OG metadata and Admin-acid API integration
 
 ### Ticketing
 

@@ -25,7 +25,7 @@ we will also collect requirements and assess their suitability for IFT projects.
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:draft-RFC`
 * owner: Arunima
-* status: in progress (70%)
+* status: in progress (80%)
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 
@@ -45,7 +45,7 @@ as a pull request by incorporating review feedback.
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:registrar-module`
 * owner: Arunima
-* status: in progress (0%)
+* status: in progress (20%)
 * start-date: 2025/10/20
 * end-date: 2025/10/27
 
@@ -69,7 +69,7 @@ with the network under enforced admission control rules.
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:advertiser-module`
 * owner: Arunima
-* status: not started
+* status: in progress (20%)
 * start-date: 2025/10/27
 * end-date: 2025/11/03
 

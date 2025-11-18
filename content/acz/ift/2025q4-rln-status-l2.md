@@ -35,7 +35,7 @@ In 2025q3, we released the RLN prover module with tracking module, tests, optimi
 
 * fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:rln-spec-final`
 * owner: Sylvain
-* status: in progress (40%)
+* status: in progress (60%)
 * start-date: 2025/10/22
 * end-date: 2025/11/03
 
@@ -50,7 +50,7 @@ and ready to the final implementation.
 
 * fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:maintaining`
 * owner: Sylvain
-* status: in progress (10%)
+* status: in progress (40%)
 * start-date: 2025/10/01
 * end-date: 2025/02/30
 
@@ -201,7 +201,7 @@ The findings and feedback will be reflected in the RLN specification.
 
 * fully qualified name: `vac:acz:ift:2025q4-rln-status-l2:rln-public-website`
 * owner: Ugur
-* status: in progress (60%) 
+* status: done 
 * start-date: 2025/10/13
 * end-date: 2025/11/03
 
@@ -218,6 +218,7 @@ and is structured in a manner suitable for public presentation.
 ### Deliverables
 
 * A doc on [Status Notion](https://www.notion.so/Status-Program-f6eef7b91ad94539babf66c26ea1cf02).
+* [vac/rln Website](https://vac.dev/rln) 
 
 
 ### SN RLN whitepaper

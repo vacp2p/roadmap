@@ -130,7 +130,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 * end-date: 2025/12/31
 
 #### Description
- 1.3. Noise handshake and certificate validtion according to libp2p webtransport [specification](https://github.com/libp2p/specs/tree/master/webtransport)
+ 1.3. Noise handshake and certificate validation according to libp2p webtransport [specification](https://github.com/libp2p/specs/tree/master/webtransport)
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables

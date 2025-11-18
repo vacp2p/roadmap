@@ -1,5 +1,5 @@
 ---
-title: RAG Evalutation mechanism
+title: RAG Evaluation mechanism
 tags:
   - "2025q4"
   - "bi"
@@ -12,7 +12,7 @@ description: Setup a evaluation process for the RAG to ensure the quality of res
 
 ## Description
 
-Setting up a evaluation process for the RAG responses of predefined questions. This will help to determind the gain or regretion from different change in the pipelines.
+Setting up an evaluation process for the RAG responses of predefined questions. This will help to determine the gain or regression from different changes in the pipelines.
 
 ## Task List
 

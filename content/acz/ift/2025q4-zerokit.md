@@ -31,7 +31,7 @@ In 2025q3, we released Zerokit v0.9.0, which supports improved CI, optimized, pa
 
 * fully qualified name: `vac:acz:ift:2025q4-zerokit:zerokit-maintaining`
 * owner: Ekaterina
-* status: in progress (30%)
+* status: in progress (40%)
 * start-date: 2025/10/01
 * end-date: 2025/12/30
 
@@ -45,7 +45,7 @@ A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/).
 
 * fully qualified name: `vac:acz:ift:2025q4-zerokit:wasm-ffi-rework`
 * owner: Vinh
-* status: in progress (30%)
+* status: in progress (80%)
 * start-date: 2025/11/03
 * end-date: 2025/11/10
 
@@ -98,6 +98,36 @@ for memory safety and Big Endian compatibility.
 #### Deliverables
 - [Remove legacy FFI implementation in favor of safer opaque structs](https://github.com/vacp2p/zerokit/pull/337)
 - A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/). 
+
+### Public API Rework
+
+* fully qualified name: `vac:acz:ift:2025q4-zerokit:public-api-rework`
+* owner: Vinh
+* status: in progress (50%)
+* start-date: 2025/11/10
+* end-date: 2025/11/24
+
+#### Description
+Right now the public Rust API exposes a lot of internal fields directly
+and mixes stateless vs. non-stateless behavior in a confusing way.
+There are also inconsistencies around how inputs are validated and how endianness works.
+This makes mistakes easy and integration harder than it should be.
+
+This task will clean up the API so that:
+- The types are safe and self-consistent
+- Stateless vs. non-stateless flows are clearly separated
+- Endianness is explicit and correct
+- Users get clear, simple functions for generating and verifying proofs
+
+Overall goal: a clean, user-friendly public API with strong validation.
+
+#### Deliverables
+A PR to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/) that covers:
+- Updated public API with constructors, fewer foot-guns
+- Correct and explicit endianness support everywhere
+- Working tests: Unit + integration, Stateless and non-stateless proof generation and verification
+- Updated documentation & examples: show the intended workflows clearly
+- Make all inner fields in structure private and add builder with sanity checks
 
 ### Release v1
 

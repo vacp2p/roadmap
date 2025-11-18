@@ -55,7 +55,7 @@ Preparing the agenda and possible speakers for the ZK call on 7nd October.
 Preparing the agenda and possible speakers for the ZK call on 4th November. 
 
 #### Deliverables
-* A document of a summary of the ZK call 2 meeting to a Notion page. 
+* A document of a summary of the ZK call 2 meeting to a [Notion page.](https://www.notion.so/Past-Meeting-Notes-1198f96fb65c80e6a51afa9a507aa64e?source=copy_link#2af8f96fb65c800cb1e2c0fc2eb2ea82) 
 
 ### IFT ZK Call 3
 * fully qualified name: `vac:acz:ift:2025q4-ift-zk-calls:ift-zk-call-3`

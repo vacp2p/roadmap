@@ -72,6 +72,8 @@ TANGIBLE_KEYWORDS = (
     "analysis doc",
     "deliverable",
     "deliverables",
+    "github",
+    "branch",
 )
 
 SKIP_FILENAMES = {"index.md", "preview.md"}

@@ -43,7 +43,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-ipv6:addresses`
 * owner: rramos
-* status: not started
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -54,6 +54,7 @@ Implement measures to handle duplicated IPs in peerstore/addresses being listene
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- [test: use ipv6 addresses in identify](https://github.com/vacp2p/nim-libp2p/pull/1863)
 - Identify advertises correct /ip6 addrs; observed addrs tracked per transport
 
 

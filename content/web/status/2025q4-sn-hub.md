@@ -141,15 +141,15 @@ Add notification preferences and delivery so users receive timely updates about 
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:withdraw`
 * owner: jkbktl
-* status: in progress (95%)
+* status: done
 * start-date: 2025/09/05
-* end-date: 2025/11/30
+* end-date: 2025/11/19
 
 #### Description
 Create the withdrawal flow that lets users exit positions and transfer assets back to their wallets.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [add withdraw](https://github.com/status-im/status-web/pull/813)
 
 > https://www.figma.com/design/1XbZL2WrTG5DqJO8DovE0H/Website----status.network?node-id=1940-3359&p=f&m=dev
 > https://github.com/orgs/status-im/projects/94/views/5?sliceBy%5Bvalue%5D=September+2025+%28Status+Network%29

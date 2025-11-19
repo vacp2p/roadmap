@@ -47,7 +47,7 @@ editorial work through previous and future RFCs to improve them
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:slot-builder`
 - owner: jimstir
-- status: in progress (55%)
+- status: in progress (75%)
 - start-date: 2025/10/01
 - end-date: 2025/10/15
 
@@ -90,7 +90,7 @@ Create the RFC for the purchase module covering pricing, incentives, and settlem
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:the-block-exchange`
 - owner: cofson
-- status: in progress (10%)
+- status: in progress (90%)
 - start-date: 2025/10/04
 - end-date: 2025/10/31
 
@@ -98,7 +98,7 @@ Create the RFC for the purchase module covering pricing, incentives, and settlem
 Create the RFC for the block exchange defining peer interactions for trading Codex data.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [Block exchange RFC draft](https://github.com/vacp2p/rfc-index/pull/211)
 
 ### Merkle Tree Specification
 
@@ -160,7 +160,7 @@ Capture the prover workflow, artefacts, and interface details to support Codex m
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:community-history`
 - owner: jimstir
-- status: in progress (15%)
+- status: in progress (25%)
 - start-date: 2025/11/05
 - end-date: 2025/11/15
 

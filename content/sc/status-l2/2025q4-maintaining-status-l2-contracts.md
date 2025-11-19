@@ -44,5 +44,9 @@ they will be addressed by our team.
 Handle inbound maintenance requests for deployed Status L2 contracts, including bug fixes and minor enhancements.
 
 #### Deliverables
+- [fix(KarmaTiers): allow minKarma == maxKarma in tier config](https://github.com/status-im/status-network-monorepo/pull/66)
+- [docs(README): streamline repository readme](https://github.com/status-im/status-network-monorepo/pull/65)
+- [refactor: use `forge lint` over `solhint`](https://github.com/status-im/status-network-monorepo/pull/63)
+- [chore: extend deploy protocol script with SimpleKarmaDistributor](https://github.com/status-im/status-network-monorepo/pull/62)
 - Deployed new SimpleKarmaDistributor instances for live testing
 - Fixed the SimpleKarmaDistributor deployment script to initialize distributor parameters correctly

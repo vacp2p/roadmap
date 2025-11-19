@@ -66,7 +66,7 @@ Stand up a price proxy service that aggregates token pricing data and exposes ca
 
 * fully qualified name: `vac:web:status:2025q4-status-wallet-extension:token-proxy`
 * owner: nnachionuwa
-* status: not started
+* status: in progress (20%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -74,4 +74,4 @@ Stand up a price proxy service that aggregates token pricing data and exposes ca
 Build the token metadata proxy that supplies token lists, icons, and market data without relying on paid APIs.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [Plan token proxy integration](https://github.com/status-im/status-web/issues/848)

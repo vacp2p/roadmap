@@ -63,7 +63,9 @@ Localize the Keycard site and docs so core pages ship in the priority languages 
 Author the help center covering setup, troubleshooting, and FAQs for both Keycard and Shell devices.
 
 #### Deliverables
+- [Deploy articles in the documentation](https://github.com/keycard-tech/keycard-website/pull/132)
 - [PR 116: wallets page layout and filtering](https://github.com/keycard-tech/keycard-website/pull/116).
+- [Make repository public](https://github.com/keycard-tech/keycard-website/issues/130)
 
 ### Start Guide
 

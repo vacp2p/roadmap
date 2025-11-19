@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (50%)
+* status: in progress (55%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -36,6 +36,17 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.
 
 #### Deliverables
+- [PR 1874: test(waitgroup): fix tight timeouts](https://github.com/vacp2p/nim-libp2p/pull/1874)
+- [PR 1872: test: add wait group](https://github.com/vacp2p/nim-libp2p/pull/1872)
+- [PR 1871: fix(nimble): install should not install non-libp2p dependencies](https://github.com/vacp2p/nim-libp2p/pull/1871)
+- [PR 1870: ci: pin transport interop test to version](https://github.com/vacp2p/nim-libp2p/pull/1870)
+- [PR 1869: test: run final trackers check](https://github.com/vacp2p/nim-libp2p/pull/1869)
+- [PR 1868: test: add muxers dir](https://github.com/vacp2p/nim-libp2p/pull/1868)
+- [PR 1866: test(mix): skip test if flag is not defined](https://github.com/vacp2p/nim-libp2p/pull/1866)
+- [PR 1865: test: add protocols dir](https://github.com/vacp2p/nim-libp2p/pull/1865)
+- [PR 1864: test: remove testnative bundle](https://github.com/vacp2p/nim-libp2p/pull/1864)
+- [PR 1862: ci(nph): run on whole repo](https://github.com/vacp2p/nim-libp2p/pull/1862)
+- [PR 1860: fix(autotls): interop nil pointer (2)](https://github.com/vacp2p/nim-libp2p/pull/1860)
 - [PR 1858: add utils dir](https://github.com/vacp2p/nim-libp2p/pull/1858)
 - [PR 1857: add stream dir](https://github.com/vacp2p/nim-libp2p/pull/1857)
 - [PR 1849: add crypto dir tests](https://github.com/vacp2p/nim-libp2p/pull/1849)

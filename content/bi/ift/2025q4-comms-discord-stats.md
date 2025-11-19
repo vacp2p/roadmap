@@ -20,7 +20,7 @@ Collect, analyse, and publish Discord channel statistics requested by the commun
 
 * fully qualified name: `vac:bi:ift:2025q4-comms-discord-stats`
 * owner: nickninov
-* status: in progress (50%)
+* status: in progress (60%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -31,3 +31,4 @@ Extract activity metrics for the requested Discord channels and share results wi
 #### Deliverables
 
 - Initial statistics delivered (see [issue #110](https://github.com/status-im/data-docs/issues/110)).
+- Added total server member metrics to the extraction job so comms can track audience size alongside per-channel stats.

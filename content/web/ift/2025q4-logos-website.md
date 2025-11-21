@@ -82,6 +82,7 @@ The Logos website will support the volunteer-driven community building strategy 
 Finalize the responsive site layout, navigation structure, and page templates for the refreshed Logos web experience.
 
 #### Deliverables
+- [Deployed agency layout code with background video, interactive maps, manifesto page, and analytics instrumentation](https://github.com/acid-info/logos/commits/main/)
 - PRs/Issues/Docs/Reports
 
 ### Components

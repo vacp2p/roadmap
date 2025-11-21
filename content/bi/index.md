@@ -22,6 +22,7 @@ Additionally, it handle the RAG CaaS to ingest map the internal knowledge of IFT
 ### `ift`
 * [[bi/ift/2025q4-comm-x-spaces-analytics|comm-x-spaces-analytics]]
 * [[bi/ift/2025q4-comms-discord-stats|comms-discord-stats]]
+* [[bi/ift/2025q4-ift-finance-reporting|ift-finance-reporting]]
 * [[bi/ift/2025q4-ift-program-overview|ift-program-overview]]
 * [[bi/ift/2025q4-ift-weekly-news|ift-weekly-news]]
 * [[bi/ift/2025q4-ift-townhall-helper|ift-townhall-helper]]
@@ -36,6 +37,7 @@ Additionally, it handle the RAG CaaS to ingest map the internal knowledge of IFT
 * [[bi/rag/2025q4-rag-context-improvement|rag-context-improvement]]
 * [[bi/rag/2025q4-rag-embedding-and-context|rag-embedding-and-context]]
 * [[bi/rag/2025q4-rag-evaluation|rag-evaluation]]
+* [[bi/rag/2025q4-rag-mcp|rag-mcp]]
 
 ### `status`
 * [[bi/status/2025q4-status-social-pipeline|status-social-pipeline]]

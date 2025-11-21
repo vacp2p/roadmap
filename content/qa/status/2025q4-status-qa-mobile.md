@@ -70,6 +70,8 @@ Investigate how to extend test hooks to reveal more qt properties to help with t
 Add mobile tests to CI mobile build workflow when the pipeline becomes available
 
 #### Deliverables
+- [ci: Update STATUSQ_TESTMODE parameter in buildStatusQ](https://github.com/status-im/status-desktop/pull/19114)
+- [chore: e2e mobile - add browserstack](https://github.com/status-im/status-desktop/pull/19107)
 - [Chore: e2e mobile - add BrowserStack tests](https://github.com/status-im/status-desktop/pull/19111)
 - [[Mobile] fix(ci): Android GitHub workflow android-build.yml](https://github.com/status-im/status-desktop/pull/18975)
 - [build: add Android x86_64 support to Makefile](https://github.com/status-im/status-go/pull/6990)

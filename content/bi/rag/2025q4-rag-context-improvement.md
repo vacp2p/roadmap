@@ -21,7 +21,7 @@ Extract the transcript from Youtube video to use it for RAG context and other po
 
 * fully qualified name: `vac:bi:rag:2025q4-rag-context-improvement:add-code-chunking`
 * owner: nickninov
-* status: in progress (35%)
+* status: in progress (45%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -35,6 +35,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 - Updated the RAG upload prefix logic so freshly ingested chunks no longer collide, and backfilled the newest data through the pipeline.
 - Patched the Quadrant HTTPS ingestion bug and added monitoring for data freshness as the Quadrant DB grows.
 - Expanded the sources dashboard with chunk counts to make it easier to audit what has been loaded.
+- Fixed the embedding pipeline regression that corrupted new chunks so fresh uploads now embed cleanly again.
 - Add task to dagster ETL to include code repository to the RAG context
 - Write documentation in Data-docs.
 

@@ -27,6 +27,16 @@ Provide upkeep, bug fixes, and small improvements for existing web properties ac
 Handle routine maintenance tickets, dependency bumps, and production support for shipped web projects.
 
 #### Deliverables
+- [status-web: add Umami analytics to SN Hub](https://github.com/status-im/status-web/pull/850)
+- [status-web: fix /specs after migration](https://github.com/status-im/status-web/pull/851)
+- [status-web: update Status Network assets](https://github.com/status-im/status-web/issues/849)
+- [logos-press-engine: update logo and footer](https://github.com/acid-info/logos-press-engine/pull/245)
+- [contribute.logos.co: refresh logo](https://github.com/acid-info/contribute.logos.co/pull/7)
+- [waku.org: Logos rebrand banner](https://github.com/waku-org/waku.org/pull/123)
+- [nomos.tech: Logos rebrand banner](https://github.com/acid-info/nomos.tech/pull/58)
+- [codex.storage: Logos rebrand banner](https://github.com/codex-storage/codex.storage/pull/64)
+- [vac.dev: create new RLN page](https://github.com/vacp2p/vac.dev/pull/176)
+- [free.technology: update copy for Logos brand](https://github.com/acid-info/free.technology/pull/16)
 - [status-web: reference new mobile release assets](https://github.com/status-im/status-web/pull/845)
 - [status-web: release new mobile build](https://github.com/status-im/status-web/pull/842)
 - [status-website: prepare new mobile release content](https://github.com/status-im/status-website/pull/1620)

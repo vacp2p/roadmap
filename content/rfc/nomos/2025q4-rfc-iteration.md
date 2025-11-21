@@ -102,3 +102,17 @@ Create the RFC for the proof of leadership mechanism, including leader election 
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
+
+### Blend Network
+
+- fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:blend-network`
+- owner: cofson
+- status: in progress (20%)
+- start-date: 2025/11/17
+- end-date: 2025/12/15
+
+#### Description
+Produce the Blend Network specification capturing protocol goals, component interactions, and open questions gathered from the latest internal specs review.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

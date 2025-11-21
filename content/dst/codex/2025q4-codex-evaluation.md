@@ -35,9 +35,9 @@ theoretical analysis and experiments.
 
 * fully qualified name: `vac:dst:codex:2025q4-codex-evaluation:codex-in-status`
 * owner: Alberto
-* status: in progress (70%)
+* status: done
 * start-date: 2025/11/03
-* end-date: 2025/11/15
+* end-date: 2025/11/19
 
 #### Description
 
@@ -48,4 +48,5 @@ Evaluate if the new feature is working as expected by trying to assert:
 2. Presence of messages in status DB
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [Codex-in-Status scenario README](https://github.com/vacp2p/status-benchmarks/tree/Alberto/status-codex/deployment/codex)
+- [Status-codex branch with wakuext integrations](https://github.com/vacp2p/status-benchmarks/tree/Alberto/status-codex)

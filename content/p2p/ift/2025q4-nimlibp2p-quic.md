@@ -24,7 +24,7 @@ In Q3 we discovered critical deficiencies in nim-quic, including runtime instabi
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-quic:stabilization`
 * owner: vlado/rramos
-* status: in progress (37%)
+* status: in progress (60%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -33,6 +33,15 @@ Resolve runtime crashes, race conditions and excessive memory use in nim-quic. T
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- [vacp2p/nim-libp2p#1877: QuicMuxer is created without upgrader](https://github.com/vacp2p/nim-libp2p/pull/1877)
+- [vacp2p/nim-lsquic#8: perf tests and fix: pin connections and streams](https://github.com/vacp2p/nim-lsquic/pull/8)
+- [vacp2p/nim-lsquic#7: fix TODOs](https://github.com/vacp2p/nim-lsquic/pull/7)
+- [vacp2p/nim-lsquic#6: feat stream write](https://github.com/vacp2p/nim-lsquic/pull/6)
+- [vacp2p/nim-lsquic#5: feat stream read](https://github.com/vacp2p/nim-lsquic/pull/5)
+- [vacp2p/nim-lsquic#4: feat close / abort stream](https://github.com/vacp2p/nim-lsquic/pull/4)
+- [vacp2p/nim-lsquic#3: feat stream lifecycle - creation](https://github.com/vacp2p/nim-lsquic/pull/3)
+- [vacp2p/nim-lsquic#2: feat connections](https://github.com/vacp2p/nim-lsquic/pull/2)
+- [vacp2p/nim-lsquic#1: chore test github actions](https://github.com/vacp2p/nim-lsquic/pull/1)
 - [vacp2p/nim-libp2p#1846: use negotiated protocol in pubsub connection lookups](https://github.com/vacp2p/nim-libp2p/pull/1846)
 - [vacp2p/nim-libp2p#1844: quic wildcard resolver fixes](https://github.com/vacp2p/nim-libp2p/pull/1844)
 - [vacp2p/nim-libp2p#1839: quic EOF handling fixes](https://github.com/vacp2p/nim-libp2p/pull/1839)

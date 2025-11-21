@@ -21,7 +21,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (70%)
+* status: in progress (71%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -32,6 +32,11 @@ Oversee testing strategy around releases.
   to the testing framework as needed.
 
 #### Deliverables
+- [chore(@e2e): if pcsc error shown, close the modal](https://github.com/status-im/status-desktop/pull/19245)
+- [Fix renaming keypair test (bypass pcsc error)](https://github.com/status-im/status-desktop/issues/19249)
+- [chore(@e2e): better usage of topLevel window](https://github.com/status-im/status-desktop/pull/19235)
+- [Can't paste address to airdrop a token](https://github.com/status-im/status-desktop/issues/19090)
+- [Chat: block user](https://github.com/status-im/status-desktop/issues/8805)
 - [tests(@e2e): cover help us improve status dialog](https://github.com/status-im/status-desktop/pull/19217)
 - [chore: update status-go](https://github.com/status-im/status-desktop/pull/19216)
 - [tests: add test to change language](https://github.com/status-im/status-desktop/pull/19165)

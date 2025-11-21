@@ -53,6 +53,7 @@ Should be made general when possible.
     - [Github PR: Mixnet analysis changes #163](https://github.com/vacp2p/10ksim/pull/163)
     - [Github PR: Allow multiple match groups for the same query in victoria_reader.py #164](https://github.com/vacp2p/10ksim/pull/164)
     - [Github PR: Updated Readme, Dockerfile, configurations #9](https://github.com/vacp2p/dst-libp2p-test-node/pull/9)
+    - [Local lab setup automation](https://github.com/PearsonWhite/lab_setup)
 - Documents:
 
 ### General log parser
@@ -133,7 +134,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:complete-deployment-refactor`
 * owner: Pearson
-* status: in progress (80%)
+* status: in progress (90%)
 * start-date: 2025/10/06
 * end-date: 2025/10/24
 
@@ -146,4 +147,5 @@ for the refactor functionalities to be tested. Other projects will be  added in 
 
 #### Deliverables
 - PRs:
+  - [Deployment refactor: Generic classes](https://github.com/vacp2p/10ksim/pull/169)
 - Related Documents:

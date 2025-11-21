@@ -20,7 +20,7 @@ Setting up an evaluation process for the RAG responses of predefined questions. 
 
 * fully qualified name: `vac:bi:rag:2025q4-rag-evaluation:setup-evaluation-process`
 * owner: nickninov
-* status: in progress (30%)
+* status: in progress (40%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -33,3 +33,4 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 - Monitoring data transformed for easier evaluation tracking.
 - List of evaluation questions drafted.
+- Added a chunks coverage dashboard so evaluators can trace which data sources fed each score.

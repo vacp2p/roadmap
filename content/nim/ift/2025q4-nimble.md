@@ -31,7 +31,7 @@ By the end of this quarter, we aim to have made significant progress on these fr
 
 * fully qualified name: `vac:nim:ift:2025q4-nimble:nimble-1.0.0`
 * owner: jmgomez
-* status: in progress (40%)
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -40,6 +40,11 @@ By the end of this quarter, we aim to have made significant progress on these fr
 All the relevant information can be found in [this GitHub issue](https://github.com/nim-lang/nimble/issues/1449).
 
 #### Deliverables
+- [Simplifies install dir bottleneck #1520](https://github.com/nim-lang/nimble/pull/1520)
+- [Add nim-chronos v4.0.4 as submodule #1518](https://github.com/nim-lang/nimble/pull/1518)
+- [Atomic parser fallback #1517](https://github.com/nim-lang/nimble/pull/1517)
+- [Use Nim binaries when no system is present for bootstrap nim #1516](https://github.com/nim-lang/nimble/pull/1516)
+- [Fix before install to keep hook execution graph #1515](https://github.com/nim-lang/nimble/pull/1515)
 - [Refactor Nim bin parametrization and bootstrap fixes #1514](https://github.com/nim-lang/nimble/pull/1514)
 - [Fixes nimble add assertion defect #1512](https://github.com/nim-lang/nimble/pull/1512)
 - [Adds call tree to instrumentation #1511](https://github.com/nim-lang/nimble/pull/1511)

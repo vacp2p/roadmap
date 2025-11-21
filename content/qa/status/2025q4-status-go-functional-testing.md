@@ -37,14 +37,15 @@ This taks will need to be broken down into smaller task once we have more info
 
 * fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:settings`
 * owner: aya
-* status: in progress (80%)
+* status: done
 * start-date: 2025/10/01
-* end-date: 2025/10/20
+* end-date: 2025/11/19
 
 #### Description
 Add functional test coverage to settings features.
 
 #### Deliverables
+* [test: First draft for settings wrappers and test file added](https://github.com/status-im/status-go/pull/6984)
 * PRs with the new tests
 
 ### Waku features
@@ -115,5 +116,6 @@ This includes updating tests for changes in `status-go`, addressing regressions,
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
+- [Flaky test `test_update_keycard_uid_success`](https://github.com/status-im/status-go/issues/7032)
 - [Temporary guard for `test_update_keycard_uid_success`](https://github.com/status-im/status-go/commit/92cd47e98b4553a9e6b153ef39a55e7205cad6c6)
 - PRs with the new tests

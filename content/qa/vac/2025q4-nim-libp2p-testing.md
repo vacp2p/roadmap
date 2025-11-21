@@ -111,7 +111,7 @@ Update GossipSub performance tests based on dev feedback and existing data gathe
 
 * fully qualified name: `vac:qa:vac:2025q4-nim-libp2p-testing:quic`
 * owner: radek
-* status: in progress (40%)
+* status: in progress (70%)
 * start-date: 2025/10/16
 * end-date: 2025/11/25
 
@@ -120,6 +120,11 @@ Improve QUIC transport test coverage for handshake enforcement (TLS, ALPN, trans
 stream and connection lifecycle, resilience/error paths, metrics, and interoperability.
 
 #### Deliverables
+- [test(performance): use p95 instead of max](https://github.com/vacp2p/nim-libp2p/pull/1883)
+- [test(quic): Misc tests](https://github.com/vacp2p/nim-libp2p/pull/1879)
+- [test: add more parallel streams test](https://github.com/vacp2p/nim-libp2p/pull/1861)
+- [Tor transport: Server with multiple connections processes data sequentially in the tests](https://github.com/vacp2p/nim-libp2p/issues/1859)
+- [test(transports): add parallel stream tests](https://github.com/vacp2p/nim-libp2p/pull/1838)
 - [chore: use test_all in coverage workflow](https://github.com/vacp2p/nim-libp2p/pull/1855)
 - [test(transports): stream tests](https://github.com/vacp2p/nim-libp2p/pull/1829)
 - [test: too many global vars workaround](https://github.com/vacp2p/nim-libp2p/pull/1816)

@@ -39,6 +39,9 @@ We want a local replica of the DST lab so that tests and changes can be tried ou
 safely before they reach the main environment. This local setup mirrors the 
 structure of the real lab.
 We want to have the same monitoring system, while also having public endpoints that
-allow us to test functionalities of data analysis (Prometheus) or log parsin (VictoriaLogs).
+allow us to test functionalities of data analysis (Prometheus) or log parsing (VictoriaLogs).
+Provide all needed resources to do this deployment, and also document how it can be used.
 
 #### Deliverables
+- Code:
+- Reports:

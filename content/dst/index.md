@@ -27,6 +27,7 @@ are not only effective but also maintain or improve system performance and scala
 * [[dst/ift/2025q4-dst-tooling|dst-tooling]]
 * [[dst/ift/2025q4-dst-research-destination|dst-research-destination]]
 * [[dst/ift/2025q4-scaling-think-tank|scaling-think-tank]]
+* [[dst/ift/2025q4-dst-lab|dst-lab]]
 
 ### `nomos`
 * [[dst/nomos/2025q4-nomos-scaling|nomos-scaling]]

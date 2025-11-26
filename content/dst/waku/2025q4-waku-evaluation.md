@@ -56,6 +56,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Reports:
 - [nwaku regression testing v0.37 findings](https://www.notion.so/nwaku-regression-testing-v0-37-October-2025-29c8f96fb65c80de9314c66dd3698b69)
+- [Waku regression testing v0.37 – November 2025](https://www.notion.so/Waku-regression-testing-v0-37-November-2025-2b18f96fb65c80ec8f54d4eee93fabb7)
 - Related PRs if apply:
 
 

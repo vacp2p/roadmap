@@ -33,6 +33,14 @@ Resolve runtime crashes, race conditions and excessive memory use in nim-quic. T
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- [feat: optimize send loop for release mode](https://github.com/vacp2p/nim-lsquic/pull/19)
+- [chore(many_queue): get() raises CancelledError](https://github.com/vacp2p/nim-lsquic/pull/17)
+- [fix(quic): muxer handling](https://github.com/vacp2p/nim-libp2p/pull/1885)
+- [chore(config.nims): add errors](https://github.com/vacp2p/nim-lsquic/pull/16)
+- [chore(many_queue): add test and new()](https://github.com/vacp2p/nim-lsquic/pull/15)
+- [test(transports): fix muxer handling](https://github.com/vacp2p/nim-libp2p/pull/1884)
+- [test: split tests](https://github.com/vacp2p/nim-lsquic/pull/13)
+- [feat: add ManyQueue](https://github.com/vacp2p/nim-lsquic/pull/12)
 - [vacp2p/nim-libp2p#1877: QuicMuxer is created without upgrader](https://github.com/vacp2p/nim-libp2p/pull/1877)
 - [vacp2p/nim-lsquic#8: perf tests and fix: pin connections and streams](https://github.com/vacp2p/nim-lsquic/pull/8)
 - [vacp2p/nim-lsquic#7: fix TODOs](https://github.com/vacp2p/nim-lsquic/pull/7)

@@ -56,7 +56,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-scaling:optimise-browser-bootstrapping`
 * owner: Pearson
-* status: in progress (65%)
+* status: in progress (85%)
 * start-date: 2025/10/15
 * end-date: 2025/10/31
 
@@ -167,7 +167,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-scaling:TWN-supports-RLN-tree`
 * owner: Alberto
-* status: in progress (90%)
+* status: in progress (95%)
 * start-date: 2025/10/06
 * end-date: 2025/10/24
 
@@ -177,3 +177,4 @@ to verify RLN proof within 5s, no matter the size of the tree.
 
 #### Deliverables
 - [Github Issue: Check for gasPrice overflow](https://github.com/waku-org/nwaku/pull/3636/files)
+- [Notion: RLN Issues](https://www.notion.so/RLN-issues-29d8f96fb65c8041967be722d496b4c0?source=copy_link#2b28f96fb65c801cba8ef0bc11741d59)

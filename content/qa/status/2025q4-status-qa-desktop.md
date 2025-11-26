@@ -32,6 +32,10 @@ Oversee testing strategy around releases.
   to the testing framework as needed.
 
 #### Deliverables
+- [chore(@e2e): bring back custom derivation path](https://github.com/status-im/status-desktop/pull/19308)
+- [chore(@e2e): use Qt Convenience API minimize function](https://github.com/status-im/status-desktop/pull/19269)
+- [Test of kick / ban user in community fails on CI](https://github.com/status-im/status-desktop/issues/19284)
+- [Investigate tests failures on Windows CI](https://github.com/status-im/status-desktop/issues/19285)
 - [chore(@e2e): if pcsc error shown, close the modal](https://github.com/status-im/status-desktop/pull/19245)
 - [Fix renaming keypair test (bypass pcsc error)](https://github.com/status-im/status-desktop/issues/19249)
 - [chore(@e2e): better usage of topLevel window](https://github.com/status-im/status-desktop/pull/19235)
@@ -70,6 +74,8 @@ Oversee testing strategy around releases.
 - Support releases **2.36** and **2.37** with testing.
 
 #### Deliverables
+- [Korean translation is broken](https://github.com/status-im/status-desktop/issues/19312)
+- [Can't quit the app with right click](https://github.com/status-im/status-desktop/issues/18458)
 - [Tested: add withdraw flow fixes](https://github.com/status-im/status-desktop/pull/19180)
 - [Tested: release patch set for PR #19227](https://github.com/status-im/status-desktop/pull/19227)
 - [fix tests for new component](https://github.com/status-im/status-desktop/pull/19122)
@@ -90,7 +96,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:app-load-time`
 * owner: nastya
-* status: not started
+* status: in progress (66%)
 * start-date: 2025/10/01
 * end-date: 2025/11/01
 
@@ -98,7 +104,7 @@ Oversee testing strategy around releases.
 - Track UI loading time of the desktop app wallet screens.
 
 #### Deliverables
-- PRs / Issues
+- [tests: track measurements for swap modal](https://github.com/status-im/status-desktop/pull/19333)
 
 ---
 

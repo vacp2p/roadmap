@@ -40,6 +40,7 @@ By the end of this quarter, we aim to have made significant progress on these fr
 All the relevant information can be found in [this GitHub issue](https://github.com/nim-lang/nimble/issues/1449).
 
 #### Deliverables
+- [Use releases.json as source of truth for nim binaries](https://github.com/nim-lang/nimble/pull/1525)
 - [Simplifies install dir bottleneck #1520](https://github.com/nim-lang/nimble/pull/1520)
 - [Add nim-chronos v4.0.4 as submodule #1518](https://github.com/nim-lang/nimble/pull/1518)
 - [Atomic parser fallback #1517](https://github.com/nim-lang/nimble/pull/1517)

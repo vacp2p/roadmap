@@ -40,6 +40,7 @@ This task encompasses all maintenance updates for Zerokit, including CI updates 
 
 #### Deliverables
 A set of PRs and issues to [vacp2p/zerokit](https://github.com/vacp2p/zerokit/). 
+- [Resolve memory leak in calc_witness and improve FFI deallocation](https://github.com/vacp2p/zerokit/pull/354)
 
 ### Wasm FFI Rework
 

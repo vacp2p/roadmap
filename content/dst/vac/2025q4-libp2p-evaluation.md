@@ -158,9 +158,9 @@ Report results of a single scenario (fixed parameters) using K8s and shadow.
 
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:rust-libp2p-node`
 * owner: Farooq
-* status: in progress (90%)
+* status: done
 * start-date: 2025/10/27
-* end-date: 2025/11/07
+* end-date: 2025/11/25
 
 #### Description
 Include rut-libp2p node to the [dst node repository](https://github.com/vacp2p/dst-libp2p-test-node).
@@ -170,4 +170,5 @@ Report results of a single scenario (fixed parameters) using K8s and shadow.
 
 #### Deliverables
 - PRs:
+  - [rust test node](https://github.com/vacp2p/dst-libp2p-test-node/pull/11)
 - Related Documents:

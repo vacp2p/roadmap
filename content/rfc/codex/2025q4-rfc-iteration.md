@@ -160,7 +160,7 @@ Capture the prover workflow, artefacts, and interface details to support Codex m
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:community-history`
 - owner: jimstir
-- status: in progress (25%)
+- status: in progress (80%)
 - start-date: 2025/11/05
 - end-date: 2025/11/15
 
@@ -168,4 +168,4 @@ Capture the prover workflow, artefacts, and interface details to support Codex m
 Author the community history RFC.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [Community history RFC draft](https://github.com/vacp2p/rfc-index/pull/214)

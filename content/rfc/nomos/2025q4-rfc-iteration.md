@@ -107,7 +107,7 @@ Create the RFC for the proof of leadership mechanism, including leader election 
 
 - fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:blend-network`
 - owner: cofson
-- status: in progress (20%)
+- status: in progress (50%)
 - start-date: 2025/11/17
 - end-date: 2025/12/15
 

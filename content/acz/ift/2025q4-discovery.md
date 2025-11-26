@@ -45,7 +45,7 @@ as a pull request by incorporating review feedback.
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:registrar-module`
 * owner: Arunima
-* status: in progress (20%)
+* status: in progress (40%)
 * start-date: 2025/10/20
 * end-date: 2025/10/27
 
@@ -63,7 +63,7 @@ with the network under enforced admission control rules.
 
 #### Deliverables
 
-* A PR to the [vacp2p/disc-NG](https://github.com/vacp2p/disc-ng/) repo.
+* [POC PR: registrar module thread-safety and verification](https://github.com/vacp2p/logos-capability-discovery-poc/pull/1)
 
 ### Advertiser Module
 
@@ -116,7 +116,7 @@ return accurate and timely results for active advertisements.
 
 * fully qualified name: `vac:acz:ift:2025q4-discovery:integration-validation`
 * owner: Arunima
-* status: not started
+* status: in progress (30%)
 * start-date: 2025/11/10
 * end-date: 2025/11/24
 
@@ -134,7 +134,7 @@ and the integrated system passes functional and performance validation tests.
 
 #### Deliverables
 
-* A PR to the [vacp2p/disc-NG](https://github.com/vacp2p/disc-ng/) repo.
+* [Integration tests and configuration for discovery POC](https://github.com/vacp2p/logos-capability-discovery-poc/pull/1)
 
 ### Logos Discovery Capability Spec
 

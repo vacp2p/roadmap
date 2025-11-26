@@ -121,7 +121,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:discovery`
 * owner: gabe
-* status: in progress (15%)
+* status: in progress (45%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -129,13 +129,13 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 Extend nim-libp2p discovery mechanism by providing a discovery interface that will use Kademlia DHT to advertise nodes and find peers
 
 #### Deliverables
-PRs
+- [chore(discovery): remove unused discovery interface](https://github.com/vacp2p/nim-libp2p/pull/1890)
 
 
 ### Interop
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:interop`
 * owner: gabe
-* status: not started
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -143,4 +143,4 @@ PRs
 Ensure interop is achieved between nim-libp2p's kad-dht implementation and other libp2p implementations
 
 #### Deliverables
-PRs
+- [chore(kad): add withKademlia to SwitchBuilder](https://github.com/vacp2p/nim-libp2p/pull/1907)

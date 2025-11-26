@@ -24,7 +24,7 @@ Extend and adjust the existing E2E test framework to support testing on mobile/t
 
 - fully qualified name: `vac:qa:status:2025q4-status-qa-mobile:port-tests`
 - owner: magnus
-- status: in progress (45%)
+- status: in progress (55%)
 - start-date: 2025/10/01
 - end-date: 2025/12/31
 
@@ -126,3 +126,4 @@ Enable tests that require multiple devices and basic concurrent execution.
 #### Deliverables
 - Supported test day
 - Bug triage calls
+- [Unable to create account with password (Android 14)](https://github.com/status-im/status-desktop/issues/19318)

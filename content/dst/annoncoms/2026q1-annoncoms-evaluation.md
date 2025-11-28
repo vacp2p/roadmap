@@ -11,13 +11,13 @@ and look for regressions,
 learn scaling properties and run scaling studies."
 ---
 
-`vac:dst:waku:2026q1-annoncoms-evaluation`
+`vac:dst:annoncoms:2026q1-annoncoms-evaluation`
 
 ## Description
 Test Annoncoms protocols on each new version or requested feature
 and look for regressions,
 learn scaling properties and run scaling studies,
-understand the limits of Waku and its behaviour.
+understand the limits of annoncoms projects and its behaviour.
 Deliver reports and actionable insights.
 Do this monthly, reliably, with documentation of findings.
 
@@ -26,7 +26,7 @@ Do this monthly, reliably, with documentation of findings.
 ### Mix
 > *Note*: This needs more input from project
 
-* fully qualified name: `vac:dst:waku:2026q1-annoncoms-evaluation:mix`
+* fully qualified name: `vac:dst:annoncoms:2026q1-annoncoms-evaluation:mix`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -41,7 +41,7 @@ Do this monthly, reliably, with documentation of findings.
 ### KAD-DHT
 > *Note*: This needs more input from project
 
-* fully qualified name: `vac:dst:waku:2026q1-annoncoms-evaluation:kad-dht`
+* fully qualified name: `vac:dst:annoncoms:2026q1-annoncoms-evaluation:kad-dht`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01

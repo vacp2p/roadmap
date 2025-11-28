@@ -33,6 +33,7 @@ Do this monthly, reliably, with documentation of findings.
 * end-date: 2026/03/31
 
 #### Description
+TBD
 
 #### Deliverables
 - Reports:
@@ -48,6 +49,7 @@ Do this monthly, reliably, with documentation of findings.
 * end-date: 2026/03/31
 
 #### Description
+TBD
 
 #### Deliverables
 - Reports:

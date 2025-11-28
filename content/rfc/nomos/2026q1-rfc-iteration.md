@@ -1,14 +1,14 @@
 ---
 title: RFC Iteration
 tags:
+  - 2026q1
   - rfc
   - nomos
-  - 2026q1
 draft: false
 description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected Nomos RFCs."
 ---
 
-`vac:rfc:nomos:2025q4-rfc-iteration`
+`vac:rfc:nomos:2026q1-rfc-iteration`
 
 Iteration commitments generally comprise:
 through discussion and curation,

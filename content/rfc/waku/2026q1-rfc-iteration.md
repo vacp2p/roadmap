@@ -44,8 +44,7 @@ editorial work through previous and future RFCs to improve them
 
 ### 10/WAKU2
 
-- Fully qualified name: 
-  `vac:rfc:waku:2026q1-rfc-iteration:10/WAKU2`
+- Fully qualified name: `vac:rfc:waku:2026q1-rfc-iteration:10/WAKU2`
 - Owner: jimstir
 - Status: not started
 - Start date: 2026/01/01
@@ -61,8 +60,7 @@ Waku v2 is a family of modular peer-to-peer protocols for secure communication.
 
 ### 12/WAKU2-FILTER
 
-- Fully qualified name: 
-  `vac:rfc:waku:2026q1-rfc-iteration:12/WAKU2-FILTER`
+- Fully qualified name: `vac:rfc:waku:2026q1-rfc-iteration:12/WAKU2-FILTER`
 - Owner: jimstir
 - Status: not started
 - Start date: 2026/01/16
@@ -79,8 +77,7 @@ receives.
 
 ### 13/WAKU2-STORE
 
-- Fully qualified name: 
-  `vac:rfc:waku:2026q1-rfc-iteration:13/WAKU2-STORE`
+- Fully qualified name: `vac:rfc:waku:2026q1-rfc-iteration:13/WAKU2-STORE`
 - Owner: jimstir
 - Status: not started
 - Start date: 2026/02/01
@@ -97,8 +94,7 @@ querying messages received through the relay protocol and stored by other nodes.
 
 ### 14/WAKU2-MESSAGE
 
-- Fully qualified name: 
-  `vac:rfc:waku:2026q1-rfc-iteration:14/WAKU2-MESSAGE`
+- Fully qualified name: `vac:rfc:waku:2026q1-rfc-iteration:14/WAKU2-MESSAGE`
 - Owner: jimstir
 - Status: not started
 - Start date: 2026/02/16
@@ -115,8 +111,7 @@ specific security goals and provide Whisper/Waku v1 backward compatibility.
 
 ### 19/WAKU2-LIGHTPUSH
 
-- Fully qualified name: 
-  `vac:rfc:waku:2026q1-rfc-iteration:19/WAKU2-LIGHTPUSH`
+- Fully qualified name: `vac:rfc:waku:2026q1-rfc-iteration:19/WAKU2-LIGHTPUSH`
 - Owner: jimstir
 - Status: not started
 - Start date: 2026/03/01
@@ -133,8 +128,7 @@ publish messages in the Waku network and receive confirmation of delivery.
 
 ### 34/WAKU2-PEER-EXCHANGE
 
-- Fully qualified name: 
-  `vac:rfc:waku:2026q1-rfc-iteration:34/WAKU2-PEER-EXCHANGE`
+- Fully qualified name: `vac:rfc:waku:2026q1-rfc-iteration:34/WAKU2-PEER-EXCHANGE`
 - Owner: jimstir
 - Status: not started
 - Start date: 2026/03/16
@@ -150,8 +144,7 @@ A peer discovery protocol for resource-restricted devices.
 
 ### 15/WAKU-BRIDGE
 
-- Fully qualified name: 
-  `vac:rfc:waku:2026q1-rfc-iteration:15/WAKU-BRIDGE`
+- Fully qualified name: `vac:rfc:waku:2026q1-rfc-iteration:15/WAKU-BRIDGE`
 - Owner: jimstir
 - Status: not started
 - Start date: 2026/03/16

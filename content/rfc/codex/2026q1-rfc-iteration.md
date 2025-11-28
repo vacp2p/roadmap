@@ -1,9 +1,9 @@
 ---
 title: RFC Iteration
 tags:
-  - 2025q4
+  - 2026q1
   - rfc
-  - codex
+  - nomos
 draft: false
 description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected RFCs."
 ---
@@ -33,18 +33,13 @@ editorial work through previous and future RFCs to improve them
 
 ## Task List
 
-### Slot Builder
+###  WIP
 
-- fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:slot-builder`
-- owner: jimstir
-- status: in progress (75%)
-- start-date: 2025/10/01
-- end-date: 2025/10/15
-
-#### Description
-Create the RFC for slot builder, updating design decisions and open questions.
+- fully qualified name: `vac:rfc:codex:2026q1-rfc-iteration:wip`
+- owner: cofson
+- status: not started
+- start-date: 2026/01/01
+- end-date: 2025/01/01
 
 
-#### Deliverables
-- PRs/Issues/Docs/Reports
 

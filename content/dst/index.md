@@ -20,6 +20,29 @@ are not only effective but also maintain or improve system performance and scala
 
 [[dst/preview|Roadmap Preview]]
 
+## 2026q1 `vac:dst:`
+---
+### `annoncoms`
+* [[dst/codex/2026q1-annoncoms-evaluation|annoncoms-evaluation]]
+
+### `codex`
+* [[dst/codex/2026q1-codex-evaluation|codex-evaluation]]
+
+### `ift`
+* [[dst/ift/2026q1-dst-lab|dst-lab]]
+* [[dst/ift/2026q1-dst-tooling|dst-tooling]]
+
+### `nomos`
+* [[dst/nomos/2026q1-nomos-evaluation|nomos-evaluation]]
+
+### `vac`
+* [[dst/vac/2026q1-libp2p-evaluation|libp2p-evaluation]]
+
+### `waku`
+* [[dst/waku/2026q1-waku-evaluation|waku-evaluation]]
+* [[dst/waku/2026q1-waku-scaling|waku-scaling]]
+
+---
 ## 2025q4 `vac:dst:`
 ---
 

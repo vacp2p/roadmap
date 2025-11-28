@@ -3,7 +3,7 @@ title: RFC Iteration
 tags:
   - 2026q1
   - rfc
-  - nomos
+  - codex
 draft: false
 description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected RFCs."
 ---
@@ -41,5 +41,10 @@ editorial work through previous and future RFCs to improve them
 - start-date: 2026/01/01
 - end-date: 2025/01/01
 
+#### Description
+WIP
 
+
+#### Deliverables
+- WIP
 

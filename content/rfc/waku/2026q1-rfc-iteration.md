@@ -1,7 +1,7 @@
 ---
 title: RFC Iteration
 tags:
-  - 2025q4
+  - 2026q1
   - rfc
   - waku
 draft: false

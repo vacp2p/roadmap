@@ -23,7 +23,7 @@ are not only effective but also maintain or improve system performance and scala
 ## 2026q1 `vac:dst:`
 ---
 ### `annoncoms`
-* [[dst/codex/2026q1-annoncoms-evaluation|annoncoms-evaluation]]
+* [[dst/annoncoms/2026q1-annoncoms-evaluation|annoncoms-evaluation]]
 
 ### `codex`
 * [[dst/codex/2026q1-codex-evaluation|codex-evaluation]]

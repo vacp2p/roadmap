@@ -34,7 +34,7 @@ theoretical analysis and experiments.
 ### Filehsharing client
 
 * fully qualified name: `vac:dst:codex:2026q1-codex-evaluation:filesharing-client`
-* owner: 
+* owner: TBD
 * status: not started
 * start-date: 2026/01/01
 * end-date: 2026/03/31
@@ -51,7 +51,7 @@ filesharing client implementation under heavy/big workloads.
 ### Filehsharing client + mix
 
 * fully qualified name: `vac:dst:codex:2026q1-codex-evaluation:filesharing-client-mix`
-* owner: 
+* owner: TBD
 * status: not started
 * start-date: 2026/01/01
 * end-date: 2026/03/31

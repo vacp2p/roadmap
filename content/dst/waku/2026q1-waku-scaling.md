@@ -102,6 +102,10 @@ Performance:
 1. Assuming a block time of 5 seconds,
    a user can execute an RLNaaS payment and send a message within 30 seconds (Vac-DST)
 
+#### Deliverables
+- PRs:
+- Related Documents:
+
 ### Rendezvous
 
 * fully qualified name: `vac:dst:waku:2026q1-waku-scaling:rendezvous`

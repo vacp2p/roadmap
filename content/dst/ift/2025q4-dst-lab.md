@@ -45,3 +45,43 @@ Provide all needed resources to do this deployment, and also document how it can
 #### Deliverables
 - Code:
 - Reports:
+
+
+### Local lab
+
+* fully qualified name: `vac:dst:ift:2025q4-dst-lab:local-lab`
+* owner: Mamoutou
+* status: in progress (0%)
+* start-date: 2025/10/24
+* end-date: 2025/12/05
+
+#### Description
+We want a local replica of the DST lab so that tests and changes can be tried out 
+safely before they reach the main environment. This local setup mirrors the 
+structure of the real lab.
+We want to have the same monitoring system, while also having public endpoints that
+allow us to test functionalities of data analysis (Prometheus) or log parsing (VictoriaLogs).
+Provide all needed resources to do this deployment, and also document how it can be used.
+
+#### Deliverables
+- Code:
+- Reports:
+
+### Lab duplication
+
+* fully qualified name: `vac:dst:ift:2025q4-dst-lab:lab-duplication`
+* owner: Mamoutou
+* status: in progress (0%)
+* start-date: 2025/12/01
+* end-date: 2025/12/31
+
+#### Description
+Gather information and take as reference the current structure of the DST lab
+to create a new setup.
+Document what is the current stack of the lab, what is the plan for the new setup,
+and also note what are the changes/improvements that are done in the stack, so everything
+is documented for future reference.
+
+#### Deliverables
+- Code:
+- Reports:

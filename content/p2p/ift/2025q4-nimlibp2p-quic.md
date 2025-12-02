@@ -24,7 +24,7 @@ In Q3 we discovered critical deficiencies in nim-quic, including runtime instabi
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-quic:stabilization`
 * owner: vlado/rramos
-* status: in progress (60%)
+* status: in progress (66%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -33,6 +33,8 @@ Resolve runtime crashes, race conditions and excessive memory use in nim-quic. T
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- [fix: use assembly files in linux and mac](https://github.com/vacp2p/nim-lsquic/pull/29)
+- [refactor: readInto](https://github.com/vacp2p/nim-lsquic/pull/23)
 - [feat: optimize send loop for release mode](https://github.com/vacp2p/nim-lsquic/pull/19)
 - [chore(many_queue): get() raises CancelledError](https://github.com/vacp2p/nim-lsquic/pull/17)
 - [fix(quic): muxer handling](https://github.com/vacp2p/nim-libp2p/pull/1885)

@@ -57,6 +57,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 - Reports:
 - [nwaku regression testing v0.37 findings](https://www.notion.so/nwaku-regression-testing-v0-37-October-2025-29c8f96fb65c80de9314c66dd3698b69)
 - [Waku regression testing v0.37 – November 2025](https://www.notion.so/Waku-regression-testing-v0-37-November-2025-2b18f96fb65c80ec8f54d4eee93fabb7)
+- [nWaku v0.37 regression report: Mixed environment](https://www.notion.so/Waku-v0-37-Bandwidth-Conasumption-Analysis-November-2025-2b58f96fb65c804fbe17ec493b827130)
 - Related PRs if apply:
 
 
@@ -104,7 +105,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-evaluation:nwaku-v0.37-bandwidth-regression`
 * owner: Farooq
-* status: not started
+* status: in progress (40%)
 * start-date: 2025/11/27
 * end-date: 2025/12/12
 
@@ -119,6 +120,7 @@ Depending on the results, we will iterate on further followups.
 
 #### Deliverables
 - Reports:
+- [Notion: 1K Relay + 3-Bootstrap Nodes](https://www.notion.so/1K-Relay-3-Bootstrap-Nodes-2bb8f96fb65c8036b66ef85fff17c515)
 - Related PRs if apply:
 
 

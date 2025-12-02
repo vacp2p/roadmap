@@ -31,7 +31,7 @@ By the end of this quarter, we aim to have made significant progress on these fr
 
 * fully qualified name: `vac:nim:ift:2025q4-nimble:nimble-1.0.0`
 * owner: jmgomez
-* status: in progress (50%)
+* status: in progress (60%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -40,6 +40,7 @@ By the end of this quarter, we aim to have made significant progress on these fr
 All the relevant information can be found in [this GitHub issue](https://github.com/nim-lang/nimble/issues/1449).
 
 #### Deliverables
+- [Package downloads improvements](https://github.com/nim-lang/nimble/pull/1526)
 - [Use releases.json as source of truth for nim binaries](https://github.com/nim-lang/nimble/pull/1525)
 - [Simplifies install dir bottleneck #1520](https://github.com/nim-lang/nimble/pull/1520)
 - [Add nim-chronos v4.0.4 as submodule #1518](https://github.com/nim-lang/nimble/pull/1518)

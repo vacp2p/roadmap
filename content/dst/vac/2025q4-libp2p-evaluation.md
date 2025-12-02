@@ -60,6 +60,7 @@ and ensure they don't happen again.
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 * Analysis:
+  * [Notion: lsquic analysis (early stage)](https://www.notion.so/lsquic-analysis-early-stage-2ad8f96fb65c804b8d42f3e980950ece?source=copy_link)
   * [Notion: lsquic analysis](https://www.notion.so/lsquic-analysis-2ad8f96fb65c804b8d42f3e980950ece)
   * [Notion: Nim-libp2p 1.14.0 Report](https://www.notion.so/Nim-libp2p-v1-14-0-regression-testing-October-2025-28d8f96fb65c803ba789ccdb73753cab)
   * [Notion: Quic-9dc03f0e-e63dafa2](https://www.notion.so/Quic-9dc03f0e-e63dafa2-29b8f96fb65c8069a21bf0b2e5c14412#2a38f96fb65c80e7b01cfd885da02b6f)

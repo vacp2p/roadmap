@@ -30,7 +30,7 @@ while allow provisioning to other teams dedicated machines if they are needed.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-lab:local-lab`
 * owner: Mamoutou
-* status: in progress (0%)
+* status: in progress (75%)
 * start-date: 2025/10/24
 * end-date: 2025/12/05
 
@@ -44,6 +44,7 @@ Provide all needed resources to do this deployment, and also document how it can
 
 #### Deliverables
 - Code:
+  - [Created vaclab-local repository with local lab setup](https://github.com/vacp2p/vaclab-local/pull/1)
 - Reports:
 
 

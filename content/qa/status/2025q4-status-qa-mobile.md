@@ -98,7 +98,7 @@ Reduce runtime gap vs local and eliminate avoidable waits/retries.
 
 - fully qualified name: `vac:qa:status:2025q4-status-qa-mobile:multi-device-support`
 - owner: magnus
-- status: not started
+- status: in progress (70%)
 - start-date: 2025/12/01
 - end-date: 2025/12/20
 

@@ -57,6 +57,5 @@ Ongoing maintenance of Waku testing frameworks.
 #### Description
 Extend Sonda tool to allow more advanced testing scenarios for the Store protocol, then add new advanced tests.
 
-Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - PRs and issues

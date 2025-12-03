@@ -12,7 +12,7 @@ description: Enhance functional and e2e testing for status-go features by implem
 
 ## Description
 Modernize the functional/e2e testing stack for status-go by cleaning up fixtures, 
-improving the Python SDK, and expanding community- and protocol-level test coverage.
+improving the Python SDK, and expanding test coverage as defined [here](https://github.com/orgs/status-im/projects/166/views/4).
 
 ## Task List
 

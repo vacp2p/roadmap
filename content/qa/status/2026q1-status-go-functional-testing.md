@@ -270,7 +270,7 @@ Add functional tests for local notification flows.
 
 ### Maintenance
 
-* fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:maintenance`
+* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:maintenance`
 * owner: egor
 * status: in progress (30%)
 * start-date: 2026/01/01

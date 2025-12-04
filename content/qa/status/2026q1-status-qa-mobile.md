@@ -122,7 +122,7 @@ Lay the groundwork for communities tests with page objects and a basic create/in
 
 - fully qualified name: `vac:qa:status:2026q1-status-qa-mobile:maintenance`
 - owner: magnus
-- status: ongoing
+- status: not started
 - start-date: 2026/01/01
 - end-date: 2026/03/31
 
@@ -139,7 +139,7 @@ Keep the framework healthy while the app changes.
 
 - fully qualified name: `vac:qa:status:2026q1-status-qa-mobile:release-testing`
 - owner: magnus
-- status: ongoing
+- status: not started
 - start-date: 2026/01/01
 - end-date: 2026/03/31
 
@@ -148,3 +148,6 @@ Keep the framework healthy while the app changes.
 Support mobile release testing efforts:
 - Exploratory testing on mobile builds
 - Regression test execution
+
+#### Deliverables
+PRs and Issues

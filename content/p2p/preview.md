@@ -7,7 +7,7 @@ tags:
 
 ## Roadmap Preview
 
-### 2025Q4
+### 2025Q1
 - Cross-compilation for mobile
     - Enable nim-libp2p builds for arm64/aarch64 targeting Android/iOS
     - Needed for integration into Status App.
@@ -17,13 +17,8 @@ tags:
       Refactoring the codebase would improve clarity, allowing contributors to grasp the code more easily. 
       Additionally, a more streamlined implementation would enhance maintainability, 
       leading to more efficient troubleshooting and debugging.
-- Mix-core in nim-libp2p as Done state
-    - core protocol logic stable; 
-    - no blocking issues
-    - Issues (if any) are around API polish
 
-
-### 2026Q1 and beyond
+### 2026Q2 and beyond
 - Unix Domain Socket transport (`/unix//tmp/foo`)
 - Performance & scale
     - Profiling and memory audit: guide future optimizations by identifying bottlenecks and alloc hotspots
@@ -33,9 +28,7 @@ tags:
     - tag connections with metadata
     - support protected connections (don’t trim them under pressure)
     - implement exponential dial backoff to avoid peer hammering
-- Modular Gossipsub
     - Pluggable GossipSub scoring
-    - TODO
 
 #### Uncategorized
 The following items are not part of our current roadmap. They haven't been requested by any consumer of nim-libp2p, so they do not have any prioritization status. Still, they are recorded here potential future consideration.

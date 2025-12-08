@@ -25,6 +25,9 @@ tags:
 ### `keycard:`
 * [[qa/keycard/2026q1-keycard-testing|keycard-testing ]]
 
+### `logos:`
+* [[qa/logos/2026q1-logos-core|logos-core ]]
+
 ---
 
 ## 2025q4 `vac:qa:`

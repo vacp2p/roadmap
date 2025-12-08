@@ -20,7 +20,7 @@ with focus on wallet, settings and waku methods.
 
 * fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:wallet`
 * owner: roman
-* status: in progress (15%)
+* status: in progress (20%)
 * start-date: 2025/10/01
 * end-date: 2025/12/01
 
@@ -31,6 +31,7 @@ Focus on e2e scenarios that can be automated at this level.
 This taks will need to be broken down into smaller task once we have more info
 
 #### Deliverables
+- [Signal and backend state inconsistency before accept_request_to_join_community call](https://github.com/status-im/status-go/issues/7161)
 - [Automatic member kick-off not working with fake token addresses](https://github.com/status-im/status-go/issues/7114)
 - [Unable to get user into Admin role](https://github.com/status-im/status-go/issues/7135)
 - [No stopMessenger equivalent implemented for the public API](https://github.com/status-im/status-go/issues/7139)

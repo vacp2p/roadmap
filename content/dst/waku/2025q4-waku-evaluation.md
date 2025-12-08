@@ -57,6 +57,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 - Reports:
 - [nwaku regression testing v0.37 findings](https://www.notion.so/nwaku-regression-testing-v0-37-October-2025-29c8f96fb65c80de9314c66dd3698b69)
 - [Waku regression testing v0.37 – November 2025](https://www.notion.so/Waku-regression-testing-v0-37-November-2025-2b18f96fb65c80ec8f54d4eee93fabb7)
+- [nWaku v0.37 regression report: Mixed environment](https://www.notion.so/Waku-v0-37-Bandwidth-Conasumption-Analysis-November-2025-2b58f96fb65c804fbe17ec493b827130)
 - Related PRs if apply:
 
 
@@ -94,6 +95,51 @@ It should be investigated if adding the Waku publisher here is also a useful ide
 Documentation and code clarity is required, as this could be used by the waku team, or other projects.
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
+#### Deliverables
+- Reports:
+- Related PRs if apply:
+
+
+
+### nWaku v0.37 bandwidth regression
+
+* fully qualified name: `vac:dst:waku:2025q4-waku-evaluation:nwaku-v0.37-bandwidth-regression`
+* owner: Farooq
+* status: in progress (40%)
+* start-date: 2025/11/27
+* end-date: 2025/12/12
+
+#### Description
+Set a baseline 1K nodes 1msg/s 1KB scenario with only relay nodes, + 3 bootstrap nodes.
+Get per a complete per protocol metric plots with the image provided by Waku. The plots in 
+the v0.37 notion report have missing protocols.
+After the previous run, do another one with rendezvous set to False. This protocol metric 
+should appear in the previous point plots, if it is not there, check why. 
+Also, check if this flag affects bandwidth and latency performance.
+Depending on the results, we will iterate on further followups.
+
+#### Deliverables
+- Reports:
+- [Notion: 1K Relay + 3-Bootstrap Nodes](https://www.notion.so/1K-Relay-3-Bootstrap-Nodes-2bb8f96fb65c8036b66ef85fff17c515)
+- Related PRs if apply:
+
+
+### nWaku v0.37 store regression
+
+* fully qualified name: `vac:dst:waku:2025q4-waku-evaluation:nwaku-v0.37-store-regression`
+* owner: Farooq
+* status: not started
+* start-date: 2025/11/27
+* end-date: 2025/12/12
+
+#### Description
+Experiment with different sizes of an experiment setup to better test store protocol. 
+For example, 500 nWaku relay nodes and 5 store nodes (+2 bootstrap nodes) should be enough.
+Inject a bunch of messages, and then query. Scenario should be is fast and reproducible.
+Understand what is the behavior of get store messages. The intention is to query nodes that 
+are not store nodes, to see if they are able to retrieve the messages.
+Document different responses of the query. Analyze the behavior.
+
 #### Deliverables
 - Reports:
 - Related PRs if apply:

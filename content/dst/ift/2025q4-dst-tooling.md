@@ -46,6 +46,8 @@ Should be made general when possible.
 
 #### Deliverables
 - PRs:
+    - [Figure ordering and colours](https://github.com/vacp2p/10ksim/pull/176)
+    - [Add metrics_path to scrape options](https://github.com/vacp2p/10ksim/pull/175)
     - [Remove unused _build in regression and fix ENR echo command in Helm template #168](https://github.com/vacp2p/10ksim/pull/168)
     - [Github PR: Fix nimlibp2p tracer #161](https://github.com/vacp2p/10ksim/pull/161)
     - [Github PR: Move metadata helpers to base_experiment #162](https://github.com/vacp2p/10ksim/pull/162)
@@ -134,9 +136,9 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:complete-deployment-refactor`
 * owner: Pearson
-* status: in progress (95%)
+* status: done
 * start-date: 2025/10/06
-* end-date: 2025/10/24
+* end-date: 2025/12/02
 
 #### Description
 After refactor feasibility was done in `vac:dst:ift:2025q3-dst-tooling:deployment-refactor`, continue
@@ -147,6 +149,7 @@ for the refactor functionalities to be tested. Other projects will be  added in 
 
 #### Deliverables
 - PRs:
+  - [Add builders for Waku bootstrap nodes](https://github.com/vacp2p/10ksim/pull/178)
   - [Deployment refactor: Generic classes](https://github.com/vacp2p/10ksim/pull/169)
   - [Deployment refactor: More Generic Classes](https://github.com/vacp2p/10ksim/pull/172)
   - [Add builders/waku for basic regression nodes](https://github.com/vacp2p/10ksim/pull/173)

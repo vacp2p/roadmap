@@ -42,7 +42,7 @@ Develop test plans for features currently under development:
 
 * fully qualified name: `vac:qa:vac:2025q4-nim-libp2p-testing:flaky-tests`
 * owner: radek
-* status: in progress (30%)
+* status: in progress (50%)
 * start-date: 2025/10/20
 * end-date: 2025/10/31
 
@@ -50,6 +50,10 @@ Develop test plans for features currently under development:
 Identify, investigate, and fix flaky tests in nim-libp2p to improve test reliability and CI stability.
 
 #### Deliverables
+* [test: report](https://github.com/vacp2p/nim-libp2p/pull/1912)
+* [test: Organise test files - Multiformat and Services](https://github.com/vacp2p/nim-libp2p/pull/1909)
+* [test: Organise test files - final rename](https://github.com/vacp2p/nim-libp2p/pull/1914)
+* [test: reorganise libp2p tests](https://github.com/vacp2p/nim-libp2p/pull/1911)
 * [test(autotls): Organise test files](https://github.com/vacp2p/nim-libp2p/pull/1905)
 * [test(mix): improve flaky test](https://github.com/vacp2p/nim-libp2p/pull/1896)
 * [test(transports): Generate cert for WSS](https://github.com/vacp2p/nim-libp2p/pull/1894)

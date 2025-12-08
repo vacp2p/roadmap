@@ -123,3 +123,27 @@ Create the RFC for the Anonymous Leaders Reward Protocol based on the Nomos raw 
 
 #### Deliverables
 - PRs/Issues/Docs/Reports - Wallet Technical Standard
+
+### Merge Open PRs
+
+- fully qualified name: `vac:rfc:nomos:2026q1-rfc-iteration:merge-open-prs`
+- owner: cofson
+- status: not started
+- start-date: 2026/01/01
+- end-date: 2026/04/30
+
+#### Description
+This task revolves around
+merging the existing open PRs,
+so that the process of merging PRs
+is as brief as possible.
+
+Current pipeline:
+- Message Formatting: https://github.com/vacp2p/rfc-index/pull/219
+- Message Encapsulation: https://github.com/vacp2p/rfc-index/pull/218
+- Proof of Quota: https://github.com/vacp2p/rfc-index/pull/217
+- Key Types and Generation: https://github.com/vacp2p/rfc-index/pull/216
+- Blend Protocol: https://github.com/vacp2p/rfc-index/pull/213
+- Digital Signature: https://github.com/vacp2p/rfc-index/pull/167
+#### Deliverables
+- Merged PRs

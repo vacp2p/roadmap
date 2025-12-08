@@ -9,6 +9,9 @@ tags:
 
 ## 2026q1 `vac:rfc:`
 
+### `anoncomms:`
+* [[rfc/anoncomms/2026q1-rfc-iteration|rfc-iteration]]
+
 ### `waku:`
 * [[rfc/waku/2026q1-rfc-iteration|rfc-iteration]]
 

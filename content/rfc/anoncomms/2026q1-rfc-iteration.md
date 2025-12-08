@@ -43,27 +43,9 @@ editorial work through previous and future RFCs to improve them
 - owner: cofson
 - status: not started
 - start-date: 2026/01/01
-- end-date: 2026/04/30
+- end-date: 2026/03/31
 #### Description
 Adding new Anoncomms specifications to work in the pipeline.
 
 #### Deliverables
 - New RFCs (WIP)
-### Merge Open PRs
-
-- fully qualified name: `vac:rfc:anoncomms:2026q1-rfc-iteration:merge-open-prs`
-- owner: cofson
-- status: not started
-- start-date: 2026/01/01
-- end-date: 2026/04/30
-
-#### Description
-This task revolves around
-merging the existing open PRs,
-so that the process of merging PRs
-is as brief as possible.
-
-Current pipeline:
-- WIP
-#### Deliverables
-- Merged PRs

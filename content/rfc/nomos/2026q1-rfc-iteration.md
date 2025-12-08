@@ -25,7 +25,6 @@ as well as making sure that the relevant document has enough information
 in order to ease the developer experience for coming developers.
 
 The specifications in pipeline:
-- Proof of Quota Specification
 - Mantle Specification
 - Bedrock Genesis Block
 - Service Reward Distribution Protocol
@@ -34,8 +33,6 @@ The specifications in pipeline:
 - Block Construction, Validation and Execution Specification
 - Bedrock Architecture Overview
 - Proof of Leadership Specification
-- Message Encapsulation Mechanism
-- Message Formatting Specification
 - Payload Formatting Specification
 
 ## Task List
@@ -130,7 +127,7 @@ Create the RFC for the Anonymous Leaders Reward Protocol based on the Nomos raw 
 - owner: cofson
 - status: not started
 - start-date: 2026/01/01
-- end-date: 2026/04/30
+- end-date: 2026/03/31
 
 #### Description
 This task revolves around

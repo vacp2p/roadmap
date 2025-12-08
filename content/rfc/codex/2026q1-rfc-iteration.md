@@ -40,7 +40,7 @@ editorial work through previous and future RFCs to improve them
 - owner: cofson
 - status: not started
 - start-date: 2026/01/01
-- end-date: 2026/04/30
+- end-date: 2026/03/31
 #### Description
 Adding new Codex PRs - or Logos Storage - to work in the pipeline.
 
@@ -52,7 +52,7 @@ Adding new Codex PRs - or Logos Storage - to work in the pipeline.
 - owner: cofson
 - status: not started
 - start-date: 2026/01/01
-- end-date: 2026/04/30
+- end-date: 2026/03/31
 
 #### Description
 This task revolves around
@@ -79,7 +79,7 @@ Current pipeline:
 - owner: cofson
 - status: not started
 - start-date: 2026/01/01
-- end-date: 2026/04/30
+- end-date: 2026/03/31
 
 #### Description
 Organize and hold a Spec Improvement Workshop,

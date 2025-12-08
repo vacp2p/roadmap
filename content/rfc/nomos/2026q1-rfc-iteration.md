@@ -25,28 +25,28 @@ as well as making sure that the relevant document has enough information
 in order to ease the developer experience for coming developers.
 
 The specifications in pipeline:
-- Mantle Specification
+- Mantle
 - Bedrock Genesis Block
 - Service Reward Distribution Protocol
 - Anonymous Leaders Reward Protocol
 - Wallet Technical Standard
-- Block Construction, Validation and Execution Specification
+- Block Construction, Validation and Execution
 - Bedrock Architecture Overview *(to be confirmed)*
-- Proof of Leadership Specification
-- Payload Formatting Specification
+- Proof of Leadership
+- Payload Formatting
 
 ## Task List
 
-### Mantle Specification
+### Mantle
 
-- fully qualified name: `vac:rfc:nomos:2026q1-rfc-iteration:mantle-specification`
+- fully qualified name: `vac:rfc:nomos:2026q1-rfc-iteration:mantle`
 - owner: cofson
 - status: not started
 - start-date: 2026/01/16
 - end-date: 2026/01/31
 
 #### Description
-Create the RFC for the Mantle Specification based on the Nomos raw spec that applies 1/COSS.
+Create the RFC for Mantle based on the Nomos raw spec that applies 1/COSS.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
@@ -65,16 +65,16 @@ Create the RFC for the Proof of Leadership based on the Nomos raw spec that appl
 #### Deliverables
 - PRs/Issues/Docs/Reports
 
-### Bedrock Genesis Block Specification (*to be confirmed*)
+### Bedrock Genesis Block
 
-- fully qualified name: `vac:rfc:nomos:2026q1-rfc-iteration:bedrock-genesis-block-specification`
+- fully qualified name: `vac:rfc:nomos:2026q1-rfc-iteration:bedrock-genesis-block`
 - owner: cofson
 - status: not started
 - start-date: 2026/02/01
 - end-date: 2026/02/15
 
 #### Description
-Create the RFC for the Bedrock Genesis Block Specification based on the Nomos raw spec that applies 1/COSS.
+Create the RFC for the Bedrock Genesis Block based on the Nomos raw spec that applies 1/COSS.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
@@ -121,23 +121,23 @@ Create the RFC for the Anonymous Leaders Reward Protocol based on the Nomos raw 
 #### Deliverables
 - PRs/Issues/Docs/Reports
 
-### Payload Formatting Specification
+### Payload Formatting
 
-- fully qualified name: `vac:rfc:nomos:2026q1-rfc-iteration:payload-formatting-specification`
+- fully qualified name: `vac:rfc:nomos:2026q1-rfc-iteration:payload-formatting`
 - owner: cofson
 - status: not started
 - start-date: 2026/03/16
 - end-date: 2026/03/31
 
 #### Description
-Create the RFC for the Payload Formatting Specification based on the Nomos raw spec that applies 1/COSS.
+Create the RFC for the Payload Formatting based on the Nomos raw spec that applies 1/COSS.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
 
-### Block Construction, Validation and Execution Specification
+### Block Construction, Validation and Execution
 
-- fully qualified name: `vac:rfc:nomos:2026q1-rfc-iteration:block-construction-validation-and-execution-specification`
+- fully qualified name: `vac:rfc:nomos:2026q1-rfc-iteration:block-construction-validation-and-execution`
 - owner: cofson
 - status: not started
 - start-date: 2026/03/16

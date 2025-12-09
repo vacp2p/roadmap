@@ -21,6 +21,8 @@ tags:
 ### `ift:`
 * [[nim/ift/2026q1-nim-core-libs|nim-core-libs]]
 * [[nim/ift/2026q1-nimble|nimble]]
+### `logos:`
+* [[nim/logos/2026q1-storage-nimble-integration|storage-nimble-integration]]
 
 ## 2025q4
 

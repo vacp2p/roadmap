@@ -34,7 +34,7 @@ work and improvements, and it is subjected to change.
 ### Blend benchmarking
 > *Note*: This was moved from previous quarter
 
-* fully qualified name: `vac:dst:nomos:2026q1-nomos-evaluation:nomos-blendnet-benchmarking`
+* fully qualified name: `vac:dst:nomos:2026q1-nomos-evaluation:blendnet-benchmarking`
 * owner: Alberto
 * status: not started
 * start-date: 2026/01/01
@@ -53,7 +53,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 ### DA benchmarking
 > *Note*: This was moved from previous quarter
 
-* fully qualified name: `vac:dst:nomos:2026q1-nomos-evaluation:nomos-da-benchmarking`
+* fully qualified name: `vac:dst:nomos:2026q1-nomos-evaluation:da-benchmarking`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -72,7 +72,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 ### Nomos consumption
 > *Note*: This was moved from previous quarter
 
-* fully qualified name: `vac:dst:nomos:2026q1-nomos-evaluation:nomos-consumption`
+* fully qualified name: `vac:dst:nomos:2026q1-nomos-evaluation:consumption`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01

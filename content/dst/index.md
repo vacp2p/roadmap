@@ -22,8 +22,8 @@ are not only effective but also maintain or improve system performance and scala
 
 ## 2026q1 `vac:dst:`
 ---
-### `annoncoms`
-* [[dst/annoncoms/2026q1-annoncoms-evaluation|annoncoms-evaluation]]
+### `anoncomms`
+* [[dst/anoncomms/2026q1-anoncomms-evaluation|anoncomms-evaluation]]
 
 ### `codex`
 * [[dst/codex/2026q1-codex-evaluation|codex-evaluation]]

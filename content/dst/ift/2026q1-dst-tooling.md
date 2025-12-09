@@ -110,16 +110,16 @@ Adjust deployment builders to support nomos.
 - PRs:
 - Related Documents:
 
-### Expand deployment - annoncoms
+### Expand deployment - anoncomms
 
-* fully qualified name: `vac:dst:ift:2026q1-dst-tooling:expand-deployment-annoncoms`
+* fully qualified name: `vac:dst:ift:2026q1-dst-tooling:expand-deployment-anoncomms`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
 #### Description
-Adjust deployment builders to support provided annoncoms binaries.
+Adjust deployment builders to support provided anoncomms binaries.
 
 #### Deliverables
 - PRs:

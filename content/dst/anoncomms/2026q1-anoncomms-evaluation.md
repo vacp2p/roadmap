@@ -1,23 +1,23 @@
 ---
-title: Annoncoms Evaluation
+title: Anoncomms Evaluation
 tags:
   - "2026q1"
   - "dst"
-  - "annoncoms"
+  - "anoncomms"
 draft: false
-description: "Test new annoncoms binaries on each new version 
+description: "Test new anoncomms binaries on each new version 
 or requested feature
 and look for regressions,
 learn scaling properties and run scaling studies."
 ---
 
-`vac:dst:annoncoms:2026q1-annoncoms-evaluation`
+`vac:dst:anoncomms:2026q1-anoncomms-evaluation`
 
 ## Description
-Test Annoncoms protocols on each new version or requested feature
+Test Anoncomms protocols on each new version or requested feature
 and look for regressions,
 learn scaling properties and run scaling studies,
-understand the limits of annoncoms projects and its behaviour.
+understand the limits of anoncomms projects and its behaviour.
 Deliver reports and actionable insights.
 Do this monthly, reliably, with documentation of findings.
 
@@ -26,7 +26,7 @@ Do this monthly, reliably, with documentation of findings.
 ### Mix
 > *Note*: This needs more input from project
 
-* fully qualified name: `vac:dst:annoncoms:2026q1-annoncoms-evaluation:mix`
+* fully qualified name: `vac:dst:anoncomms:2026q1-anoncomms-evaluation:mix`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -42,7 +42,7 @@ TBD
 ### KAD-DHT
 > *Note*: This needs more input from project
 
-* fully qualified name: `vac:dst:annoncoms:2026q1-annoncoms-evaluation:kad-dht`
+* fully qualified name: `vac:dst:anoncomms:2026q1-anoncomms-evaluation:kad-dht`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01

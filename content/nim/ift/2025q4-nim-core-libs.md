@@ -19,7 +19,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams, delive
 
 * fully qualified name: `vac:nim:ift:2025q4-nim-core-libs:cpu-integer-library`
 * owner: Constantine
-* status: in progress (60%)
+* status: in progress (70%)
 * start-date: 2025/11/15
 * end-date: 2025/12/31
 
@@ -27,6 +27,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams, delive
 - Extract low-level, hardware- and compiler-specific primitives from [`stint/private/primitives`](https://github.com/status-im/nim-stint/tree/master/stint/private/primitives) and turn them into a reusable, standalone library for CPU-sized integers. Model the design after [Rust’s integer intrinsics](https://github.com/rust-lang/rust/issues/85532), [`nim-stew` PR #187](https://github.com/status-im/nim-stew/pull/187), and [Constantine’s arithmetic core](https://github.com/mratsim/constantine/tree/master/constantine/math_arbitrary_precision/arithmetic), with clean abstractions, cross-platform support, and a minimal, well-documented API. The resulting library should serve as a foundational building block for bigint and cryptographic libraries like Stint and Constantine.
 
 #### Deliverables
+- [Added 32-bit integer support and migrated tests to unittest2](https://github.com/vacp2p/nim-intops/pull/5)
 - [Repository bootstrap with overflow/saturating arithmetic and tests](https://github.com/status-im/nim-intops)
 - [API docs for nim-intops](https://vacp2p.github.io/nim-intops/apidocs/intops.html)
 - [CI workflows for tests and docs](https://github.com/vacp2p/nim-intops/tree/develop/.github/workflows)

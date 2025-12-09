@@ -44,6 +44,8 @@ they will be addressed by our team.
 Handle inbound maintenance requests for deployed Status L2 contracts, including bug fixes and minor enhancements.
 
 #### Deliverables
+- [StakeManager: Allow leave while paused](https://github.com/status-im/status-network-monorepo/pull/87)
+- [StakeVault: Disallow migrate to self](https://github.com/status-im/status-network-monorepo/pull/86)
 - [fix(KarmaTiers): allow minKarma == maxKarma in tier config](https://github.com/status-im/status-network-monorepo/pull/66)
 - [docs(README): streamline repository readme](https://github.com/status-im/status-network-monorepo/pull/65)
 - [refactor: use `forge lint` over `solhint`](https://github.com/status-im/status-network-monorepo/pull/63)

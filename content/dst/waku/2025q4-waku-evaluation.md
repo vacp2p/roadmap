@@ -105,7 +105,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-evaluation:nwaku-v0.37-bandwidth-regression`
 * owner: Farooq
-* status: in progress (40%)
+* status: in progress (75%)
 * start-date: 2025/11/27
 * end-date: 2025/12/12
 
@@ -128,7 +128,7 @@ Depending on the results, we will iterate on further followups.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-evaluation:nwaku-v0.37-store-regression`
 * owner: Farooq
-* status: not started
+* status: in progress (65%)
 * start-date: 2025/11/27
 * end-date: 2025/12/12
 
@@ -142,4 +142,5 @@ Document different responses of the query. Analyze the behavior.
 
 #### Deliverables
 - Reports:
+- [Notion nwaku regression report: Get Store Messages Issue](https://www.notion.so/Get-Store-Messages-Issue-2bb8f96fb65c80bc8e0fdb7801cd0c79)
 - Related PRs if apply:

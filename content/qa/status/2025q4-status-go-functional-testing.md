@@ -20,7 +20,7 @@ with focus on wallet, settings and waku methods.
 
 * fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:wallet`
 * owner: roman
-* status: in progress (20%)
+* status: in progress (25%)
 * start-date: 2025/10/01
 * end-date: 2025/12/01
 
@@ -31,6 +31,7 @@ Focus on e2e scenarios that can be automated at this level.
 This taks will need to be broken down into smaller task once we have more info
 
 #### Deliverables
+- [Community changes not visible to members after owner added the owner token](https://github.com/status-im/status-go/issues/7167)
 - [Signal and backend state inconsistency before accept_request_to_join_community call](https://github.com/status-im/status-go/issues/7161)
 - [Automatic member kick-off not working with fake token addresses](https://github.com/status-im/status-go/issues/7114)
 - [Unable to get user into Admin role](https://github.com/status-im/status-go/issues/7135)
@@ -108,8 +109,8 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 ### Maintenance
 
 * fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:maintenance`
-* owner: roman
-* status: in progress (30%)
+* owner: egor
+* status: in progress (70%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -119,6 +120,8 @@ This includes updating tests for changes in `status-go`, addressing regressions,
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
+- [test: Remove usage of setup_backends fixture approach](https://github.com/status-im/status-go/pull/7176)
+- [test: replace usage of close status backend containers with backend new profile fixture approach](https://github.com/status-im/status-go/pull/7162)
 - [Flaky test `test_update_keycard_uid_success`](https://github.com/status-im/status-go/issues/7032)
 - [Temporary guard for `test_update_keycard_uid_success`](https://github.com/status-im/status-go/commit/92cd47e98b4553a9e6b153ef39a55e7205cad6c6)
 - PRs with the new tests

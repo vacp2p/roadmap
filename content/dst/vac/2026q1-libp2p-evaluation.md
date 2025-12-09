@@ -26,6 +26,7 @@ The scope of this commitment depends on the P2P team
 work and improvements, and it is subjected to change.
 
 ## Task list
+> Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 ### Regression testing (recurring)
 
@@ -44,7 +45,6 @@ Test for known regressions
 that have occurred in the past
 and ensure they don't happen again.
 
-Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 * Analysis:
 
@@ -61,7 +61,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 Help P2P with the development of ls-quic by providing benchmarks and feedback 
 between different commits.
 
-Schedule note: Dates reflect quarter bounds; update when actual timing is known.
+
 #### Deliverables
 - Reports:
 - Related PRs if apply:
@@ -69,7 +69,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 ### Quic-vs-tcp
 > *Note*: This was moved from previous quarter
-> 
+
 * fully qualified name: `vac:dst:vac:2026q1-libp2p-evaluation:quic-vs-tcp`
 * owner: TBD
 * status: not started
@@ -80,7 +80,6 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 Perform a comparison between nim-libp2p using quic and waku using mplex and yamux.
 
-Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Reports:
 - Related PRs if apply:
@@ -98,7 +97,6 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 Help P2P with the development of ls-quic by providing benchmarks and feedback 
 between different commits.
 
-Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Reports:
 - Related PRs if apply:

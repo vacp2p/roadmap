@@ -9,7 +9,7 @@ description: "Perform integration scenarios in logos core
 with different components and evaluate their behaviour."
 ---
 
-`vac:dst:logos-core:2026q1-logos-core`
+`vac:dst:logos-core:2026q1-logos-core-evaluation`
 
 
 ## Description

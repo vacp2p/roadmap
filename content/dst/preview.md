@@ -27,6 +27,9 @@ tags:
   - Perform theoretical and statistical models
   - Analyze scaling behavior
 
+- logos-core
+  - Discuss how the scenarios can be realized and what specific features are needed.
+
 - VAC
   - Improve lab infrastructure.
     - Automatize flow of delivering machines

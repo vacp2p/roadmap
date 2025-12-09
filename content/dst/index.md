@@ -33,7 +33,7 @@ are not only effective but also maintain or improve system performance and scala
 * [[dst/ift/2026q1-dst-tooling|dst-tooling]]
 
 ### `logos-core`
-* [[dst/logos-core/2026q1-logos-core|logos-core]]
+* [[dst/logos-core/2026q1-logos-core-evaluation|logos-core-evaluation]]
 
 ### `nomos`
 * [[dst/nomos/2026q1-nomos-evaluation|nomos-evaluation]]

@@ -167,7 +167,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-scaling:TWN-supports-RLN-tree`
 * owner: Alberto
-* status: in progress (95%)
+* status: in progress (99%)
 * start-date: 2025/10/06
 * end-date: 2025/10/24
 

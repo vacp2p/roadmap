@@ -40,7 +40,7 @@ editorial work through previous and future RFCs to improve them
 
 - fully qualified name: `vac:rfc:waku:2025q4-rfc-iteration:opchan`
 - owner: jimstir
-- status: in progress (30%)
+- status: in progress (50%)
 - start-date: 2025/11/01
 - end-date: 2025/11/30
 

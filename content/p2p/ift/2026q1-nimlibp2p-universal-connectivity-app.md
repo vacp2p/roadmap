@@ -24,8 +24,8 @@ Extend the universal connectivity app by adding quic support and kademlia dht to
 * fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-universal-connectivity-app:kad-dht`
 * owner: gabe
 * status: not started
-* start-date: 2026-01-01
-* end-date: 2026-03-31
+* start-date: 2026/01/01
+* end-date: 2026/03/31
 
 #### Description
 Add kademlia support to the universal connectivity app allowing the app to discover other nodes

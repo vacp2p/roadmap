@@ -24,7 +24,7 @@ This is done by using ls-quic which nim-libp2p already uses for quic transport
 
 ### Http3 engine
 * fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-webtransport:http3-engine`
-* owner: 
+* owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01
 * end-date: 2026/03/31
@@ -37,7 +37,7 @@ Extend nim-lsquic bindings to support acting as a proper http3 engine. enable co
 
 ### Client
 * fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-webtransport:client`
-* owner: 
+* owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01
 * end-date: 2026/03/31
@@ -46,11 +46,11 @@ Extend nim-lsquic bindings to support acting as a proper http3 engine. enable co
 Implement client-side webtransport session establishment
 
 #### Deliverables
-
+Client side functionality that allows establishing a connection via webtransport
 
 ### Server
 * fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-webtransport:server`
-* owner: 
+* owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01
 * end-date: 2026/03/31
@@ -59,11 +59,12 @@ Implement client-side webtransport session establishment
 Server acceptance of webtransport sessions
 
 #### Deliverables
+Server side functionality that allows accepting connections via webtransport
 
 
 ### Transport
 * fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-webtransport:transport`
-* owner: 
+* owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01
 * end-date: 2026/03/31
@@ -74,10 +75,11 @@ on a separate UDP port from raw quic transport. Map libp2p connection and stream
 webtransport sessions and streams.
 
 #### Deliverables
+A libp2p transport that allows web clients to communicate with nim-libp2p nodes via WebTransport
 
 ### Interop
 * fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-webtransport:interop`
-* owner: 
+* owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01
 * end-date: 2026/03/31

@@ -18,10 +18,12 @@ Major future work items on nim-libp2p (also beyond this reporting period are cap
 
 ### `ift:`
 * [[p2p/ift/2026q1-nimlibp2p-cbindings|nimlibp2p-cbindings]]
-* [[p2p/ift/2026q1-nimlibp2p-connection-management|connection-management]]
+* [[p2p/ift/2026q1-nimlibp2p-gossipsub-extensions|nimlibp2p-gossipsub-extensions]]
+* [[p2p/ift/2026q1-nimlibp2p-logos-core|nimlibp2p-logos-core]]
+* [[p2p/ift/2026q1-nimlibp2p-connection-management|nimlibp2p-connection-management]]
 * [[p2p/ift/2026q1-nimlibp2p-maintenance|nimlibp2p-maintenance]]
 * [[p2p/ift/2026q1-nimlibp2p-webtransport|nimlibp2p-webtransport]]
-* [[p2p/ift/2026q1-nimlibp2p-universal-connectivity-app|universal-connectivity-app]]
+* [[p2p/ift/2026q1-nimlibp2p-universal-connectivity-app|nimlibp2p-universal-connectivity-app]]
 
 
 

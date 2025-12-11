@@ -23,7 +23,7 @@ The current connection manager is limited to cap total connections but doesn’t
 
 ### Hi/Lo limits
 * fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-connection-management:limits`
-* owner: 
+* owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01
 * end-date: 2026/03/31
@@ -32,10 +32,11 @@ The current connection manager is limited to cap total connections but doesn’t
 Implement a hi/lo watermark subsystem. When connections exceed the higher limit, trigger a pruning cycle that continues until below the lower limit. Expose configuration options and allow switching between watermark mode and simple max-limit mode.
 
 #### Deliverables
+Hi-Lo watermark behavior for managing number of connections
 
 ### Connection score
 * fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-connection-management:score`
-* owner: 
+* owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01
 * end-date: 2026/03/31
@@ -49,7 +50,7 @@ Implement a per-connection scoring system with static and ephemeral tags. Epheme
 
 ### AutoPrune
 * fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-connection-management:autoprune`
-* owner: 
+* owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01
 * end-date: 2026/03/31

@@ -1,14 +1,14 @@
 ---
 title: Logos Core
 tags:
-  - "2026q1"
+  - "2026q2"
   - "web"
   - "logos"
 draft: false
 description: "Building prototypes using the Logos JS SDK framework, providing feedback on the framework's usability and capabilities, and contributing improvements back to the Logos tech stack."
 ---
 
-`vac:web:logos:2026q1-logos-core`
+`vac:web:logos:2026q2-logos-core`
 
 > *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
 
@@ -33,7 +33,7 @@ The Logos Core prototyping will support Logos' strategic objectives by:
 
 ### Prototyping with SDK
 
-* fully qualified name: `vac:web:logos:2026q1-logos-core:prototyping-with-sdk`
+* fully qualified name: `vac:web:logos:2026q2-logos-core:prototyping-with-sdk`
 * owner: <github/disord name of the CC responsible for this task>
 * status: <not started or in progress (0%-99%) or done>
 * start-date: <yyyy/mm/dd>

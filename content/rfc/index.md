@@ -11,7 +11,7 @@ tags:
 
 
 ### `logos:`
-*  [[content/rfc/logos/2026q1-rfc-iteration|rfc-iteration]]
+* [[rfc/logos/2026q1-rfc-iteration|rfc-iteration]]
 ### `anoncomms:`
 * [[rfc/anoncomms/2026q1-rfc-iteration|rfc-iteration]]
 

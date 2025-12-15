@@ -22,12 +22,6 @@ The Parallel Society website will support Logos' strategic objectives by:
 - **Information Hub**: Centralizing information about parallel societies, free cities, and intentional communities
 - **Brand Alignment**: Supporting Logos' mission to build open-source, volunteer-driven communities
 
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Showcasing alternative governance models and network state concepts
-- **Community Co-creation**: Providing tools and information that enable community organizing and participation
-- **Accessibility**: Making complex concepts about parallel societies accessible to broader audiences
-- **Brand Coherence**: Aligning with Logos' mission to build decentralized communities and governance systems
-
 ## Task List
 
 ### Layout

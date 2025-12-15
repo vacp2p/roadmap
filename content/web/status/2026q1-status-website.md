@@ -22,12 +22,6 @@ The Status website optimization will support Status' strategic objectives by:
 - **User Experience**: Maintaining and enhancing website performance and usability
 - **Content Updates**: Keeping website content current with latest Status developments and features
 
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Showcasing Status' commitment to privacy and censorship resistance
-- **Community Co-creation**: Providing information and resources that enable community participation
-- **Accessibility**: Making Status accessible to users worldwide through internationalization
-- **Brand Coherence**: Maintaining consistent brand identity and messaging across all website content
-
 ## Task List
 
 ### SEO

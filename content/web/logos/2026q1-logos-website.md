@@ -22,12 +22,6 @@ The Logos website enhancement will support Logos' strategic objectives by:
 - **Community Engagement**: Optimizing pathways for contribution, learning, and participation
 - **Content Updates**: Keeping website content current with latest Logos developments and community activities
 
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Showcasing Logos' commitment to building decentralized technologies
-- **Community Co-creation**: Providing tools and pathways that enable volunteer-driven community building
-- **Accessibility**: Making Logos technologies accessible to users of all technical levels
-- **Brand Coherence**: Maintaining consistent brand identity while supporting diverse user needs
-
 ## Task List
 
 ### Spaces/Calendar

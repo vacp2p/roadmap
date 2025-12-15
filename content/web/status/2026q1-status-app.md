@@ -22,11 +22,6 @@ The Status App web support will support Status' strategic objectives by:
 - **Protocol Integration**: Supporting new protocol features and improvements in web interfaces
 - **Feature Parity**: Maintaining feature consistency between native and web implementations
 
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Maintaining web tools that enable private, secure, and censorship-resistant communication
-- **Community Co-creation**: Ensuring web interfaces continue to support permissionless community formation and governance
-- **Accessibility**: Providing web-based access to Status App features for users across all platforms
-
 ## Task List
 
 ### External Social Link Preview

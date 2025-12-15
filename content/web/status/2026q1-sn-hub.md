@@ -22,12 +22,6 @@ The SN Hub development will support Status Network's strategic objectives by:
 - **User Experience Enhancement**: Improving onboarding flows, dashboard functionality, and overall usability
 - **Network Growth**: Enabling increased participation in staking, liquidity provision, and governance
 
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Providing user-controlled access to decentralized financial services
-- **Community Co-creation**: Enabling community participation in network governance and funding
-- **Accessibility**: Making complex DeFi operations accessible to users of all technical levels
-- **Brand Coherence**: Showcasing Status Network's capabilities through practical, user-friendly applications
-
 ## Task List
 
 ### Proxy API
@@ -60,7 +54,7 @@ The SN Hub development will support Status Network's strategic objectives by:
 * owner: <github/disord name of the CC responsible for this task>
 * status: <not started or in progress (0%-99%) or done>
 * start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* end-date: 2026/01/31
 
 #### Description
 
@@ -72,7 +66,7 @@ The SN Hub development will support Status Network's strategic objectives by:
 * owner: <github/disord name of the CC responsible for this task>
 * status: <not started or in progress (0%-99%) or done>
 * start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* end-date: 2026/02/28
 
 #### Description
 
@@ -99,3 +93,16 @@ The SN Hub development will support Status Network's strategic objectives by:
 * status: <not started or in progress (0%-99%) or done>
 * start-date: <yyyy/mm/dd>
 * end-date: <yyyy/mm/dd>
+
+
+### Gas quota system
+
+* fully qualified name: `vac:web:status:2026q1-sn-hub:gas-quota-system`
+* owner: <github/disord name of the CC responsible for this task>
+* status: <not started or in progress (0%-99%) or done>
+* start-date: <yyyy/mm/dd>
+* end-date: <yyyy/mm/dd>
+
+#### Description
+
+- Transactions available per account

@@ -23,11 +23,52 @@ The demos commitment supports IFT's strategic objectives by:
 - **Feedback Collection**: Gathering input from stakeholders, other teams, and the organization on completed work to improve future deliverables and alignment
 - **Cross-Functional Collaboration**: Enabling other teams to understand Web capabilities and identify collaboration opportunities based on demonstrated work
 
-**Alignment with IFT Narratives:**
-- **Organizational Transparency**: Making team work visible and accessible to the entire organization
-- **Continuous Improvement**: Using feedback to refine approaches and deliver better outcomes
-- **Knowledge Exchange**: Facilitating learning and knowledge transfer across IFT teams and service units
-- **Collaborative Innovation**: Enabling cross-team collaboration through shared understanding of Web team capabilities
-
 ## Task List
 
+### Biweekly 1 - IFT Townhall Demo
+
+* fully qualified name: `vac:web:ift:2026q1-demos:biweekly-1-ift-townhall`
+* owner: <github/disord name of the CC responsible for this task>
+* status: <not started or in progress (0%-99%) or done>
+* start-date: <yyyy/mm/dd>
+* end-date: <yyyy/mm/dd>
+
+### Biweekly 2 - IFT Townhall Demo
+
+* fully qualified name: `vac:web:ift:2026q1-demos:biweekly-2-ift-townhall`
+* owner: <github/disord name of the CC responsible for this task>
+* status: <not started or in progress (0%-99%) or done>
+* start-date: <yyyy/mm/dd>
+* end-date: <yyyy/mm/dd>
+
+### Biweekly 3 - IFT Townhall Demo
+
+* fully qualified name: `vac:web:ift:2026q1-demos:biweekly-3-ift-townhall`
+* owner: <github/disord name of the CC responsible for this task>
+* status: <not started or in progress (0%-99%) or done>
+* start-date: <yyyy/mm/dd>
+* end-date: <yyyy/mm/dd>
+
+### Biweekly 4 - IFT Townhall Demo
+
+* fully qualified name: `vac:web:ift:2026q1-demos:biweekly-4-ift-townhall`
+* owner: <github/disord name of the CC responsible for this task>
+* status: <not started or in progress (0%-99%) or done>
+* start-date: <yyyy/mm/dd>
+* end-date: <yyyy/mm/dd>
+
+### Biweekly 5 - IFT Townhall Demo
+
+* fully qualified name: `vac:web:ift:2026q1-demos:biweekly-5-ift-townhall`
+* owner: <github/disord name of the CC responsible for this task>
+* status: <not started or in progress (0%-99%) or done>
+* start-date: <yyyy/mm/dd>
+* end-date: <yyyy/mm/dd>
+
+### Biweekly 6 - IFT Townhall Demo
+
+* fully qualified name: `vac:web:ift:2026q1-demos:biweekly-6-ift-townhall`
+* owner: <github/disord name of the CC responsible for this task>
+* status: <not started or in progress (0%-99%) or done>
+* start-date: <yyyy/mm/dd>
+* end-date: <yyyy/mm/dd>

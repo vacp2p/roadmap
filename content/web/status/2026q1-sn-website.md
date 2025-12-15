@@ -11,7 +11,7 @@ description: "Development and optimization of the Status Network website to show
 `vac:web:status:2026q1-sn-website`
 
 > *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
-## Description
+## Description  
 
 This commitment involves developing and optimizing the Status Network website to showcase network features, provide comprehensive documentation, and support community engagement. The website serves as the primary information hub for the Status Network ecosystem.
 
@@ -20,12 +20,6 @@ The SN website development will support Status Network's strategic objectives by
 - **Documentation Hub**: Providing comprehensive technical documentation and guides
 - **Community Engagement**: Supporting community activities, events, and participation
 - **User Onboarding**: Helping new users understand and get started with Status Network
-
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Showcasing Status Network's commitment to decentralized infrastructure
-- **Community Co-creation**: Providing resources that enable community participation and contribution
-- **Accessibility**: Making Status Network information accessible to users of all technical levels
-- **Brand Coherence**: Maintaining consistent brand identity across all Status Network communications
 
 ## Task List
 

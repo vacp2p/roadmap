@@ -29,12 +29,6 @@ The Logos Core prototyping will support Logos' strategic objectives by:
 - **Contribution Back**: Submitting improvements, bug fixes, and enhancements to the Logos tech stack
 - **Collaboration**: Working with framework maintainers to improve the SDK based on prototyping experience
 
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Prototyping applications that explore decentralized governance and user sovereignty concepts
-- **Community Co-creation**: Contributing improvements back to the Logos tech stack for the benefit of all developers
-- **Accessibility**: Identifying ways to make the Logos framework more accessible through prototyping and feedback
-- **Brand Coherence**: Demonstrating commitment to improving Logos technologies through active contribution
-
 ## Task List
 
 ### Prototyping with SDK

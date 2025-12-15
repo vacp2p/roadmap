@@ -22,12 +22,6 @@ The Status Wallet Extension development will support Status' strategic objective
 - **User Experience Enhancement**: Refining UI/UX based on user feedback and market research
 - **Market Expansion**: Reaching broader audiences through improved features and marketing integration
 
-**Alignment with IFT Narratives:**
-- **Digital Liberties**: Providing user-controlled trading and portfolio management tools
-- **Community Co-creation**: Enabling community engagement through social features and token discovery
-- **Accessibility**: Making advanced trading tools accessible to casual traders and investors
-- **Brand Coherence**: Maintaining consistent brand identity while serving trading-focused users
-
 ## Task List
 
 ### Proxy API Rate Limiting

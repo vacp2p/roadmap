@@ -19,8 +19,8 @@ Deliver data visualisations and dashboards to support the Logos Circle event and
 ### Circle dashboard delivery
 
 * fully qualified name: `vac:bi:logos:2025q4-logos-circle-dashboard`
-* owner: nickninov
-* status: in progress (60%)
+* owner: claire
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

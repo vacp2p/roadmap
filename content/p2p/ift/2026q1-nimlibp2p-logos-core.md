@@ -15,7 +15,7 @@ description: Logos Core module for libp2p
 Continue exposing key nim-libp2p functionality via c-bindings to enables downstream projects like logoscore to embed libp2p functionality directly. 
 
 ## Description
-Using nim-libp2p's c-bindings develop logo-core modules that would let libp2p features to be consumed from within Logos
+Using nim-libp2p's c-bindings develop logos-core modules that would let libp2p features to be consumed from within Logos
 
 ## Task List
 
@@ -27,9 +27,9 @@ Using nim-libp2p's c-bindings develop logo-core modules that would let libp2p fe
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
-#### description
+#### Description
 Using the c-bindings module from nim-libp2p, develop a logos module that would allow nim-libp2p
 to be used in logos.
 
-#### deliverables
+#### Deliverables
 - Logos core module 

@@ -16,7 +16,7 @@ Implement WebTransport support in nim-libp2p, enabling browser/server bidirectio
 
 ## Description
 
-Extend the number of transports supported by nim-libp2p via the developent of Webtransport,
+Extend the number of transports supported by nim-libp2p via the development of Webtransport,
 which would allow browsers to establish bidirectional stream connections to nim-libp2p servers
 This is done by using ls-quic which nim-libp2p already uses for quic transport
 

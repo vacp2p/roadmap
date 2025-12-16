@@ -35,7 +35,7 @@ This commitment focuses on implementing [Gossipsub v1.3 - Extensions control mes
 - Test Extension implemented (optionally enabled via compile time flag)
 
 ### Implement Gossipsub Partial Messages Extension
-* fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-gossipsub-extensions:extensions`
+* fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-gossipsub-extensions:partial-messages`
 * owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01

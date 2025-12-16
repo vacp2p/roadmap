@@ -20,7 +20,7 @@ Extend the universal connectivity app by adding quic support and kademlia dht to
 
 ## Task List
 
-### Chat
+### Kad-DHT
 * fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-universal-connectivity-app:kad-dht`
 * owner: gabe
 * status: not started

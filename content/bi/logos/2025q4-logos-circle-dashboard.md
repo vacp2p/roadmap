@@ -33,3 +33,4 @@ Design, build, and publish dashboards tracking event performance and participant
 - Circle event dashboard available at [Superset](https://superset.bi.status.im/superset/dashboard/luma).
 - Updated the Discord extraction after the channels merge so engagement charts stayed accurate.
 - Researched participant location enrichment options ([status-im/data-docs#121](https://github.com/status-im/data-docs/issues/121)) to scope new dashboard slices.
+- Improved dashboard data quality and visuals based on post-event feedback.

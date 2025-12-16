@@ -89,8 +89,8 @@ Extend Waku end-to-end tests with network condition scenarios (high latency, low
 ### Maintenance
 
 * fully qualified name: `vac:qa:waku:2025q4-waku-testing:maintenance`
-* owner: fbarbu15
-* status: in progress (60%)
+* owner: Florin
+* status: in progress (80%)
 * start-date: 2025/10/01
 * end-date: 2025/12/30
 
@@ -98,6 +98,9 @@ Extend Waku end-to-end tests with network condition scenarios (high latency, low
 Ongoing maintenance of Waku testing frameworks. 
 
 #### Deliverables
+- [logos-messaging/logos-messaging-interop-tests#145](https://github.com/logos-messaging/logos-messaging-interop-tests/pull/145) chore/repo rename
+- [logos-messaging/logos-messaging-interop-tests#144](https://github.com/logos-messaging/logos-messaging-interop-tests/pull/144) maint/postgres payload size bytes
+- [logos-messaging/logos-messaging-interop-tests#143](https://github.com/logos-messaging/logos-messaging-interop-tests/pull/143) fix allure report link
 - [chore: admin tests fix](https://github.com/waku-org/waku-interop-tests/pull/140)
 - retested [fixed issue](https://github.com/waku-org/nwaku/issues/3572)
 - [chore: fixes and adjustments](https://github.com/waku-org/waku-interop-tests/pull/139)

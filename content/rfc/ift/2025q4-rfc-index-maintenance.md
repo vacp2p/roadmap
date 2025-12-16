@@ -22,7 +22,7 @@ to fix and update across the relevant RFC websites
 
 - Fully qualified name: `vac:rfc:ift:2025q4-rfc-index-maintenance:maintenance`
 - Owner: jimstir
-- Status: in progress (80%)
+- Status: in progress (75%)
 - Start date: 2025/10/01
 - End date: 2025/12/31
 

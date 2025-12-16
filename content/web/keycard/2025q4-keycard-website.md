@@ -80,3 +80,17 @@ Create a step-by-step getting started guide that walks new users through secure 
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
+
+### Maintenance
+
+* fully qualified name: `vac:web:keycard:2025q4-keycard-website:maintenance`
+* owner: Jakub
+* status: in progress (60%)
+* start-date: 2025/10/01
+* end-date: 2025/12/31
+
+#### Description
+Handle routine upkeep, security fixes, and content updates for the Keycard site.
+
+#### Deliverables
+- [keycard-tech/keycard-website#153](https://github.com/keycard-tech/keycard-website/pull/153) upgrade Next.js for critical patches

@@ -19,7 +19,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams, delive
 
 * fully qualified name: `vac:nim:ift:2025q4-nim-core-libs:cpu-integer-library`
 * owner: Constantine
-* status: in progress (70%)
+* status: in progress (85%)
 * start-date: 2025/11/15
 * end-date: 2025/12/31
 
@@ -44,6 +44,11 @@ Maintain and extend the foundational Nim libraries required by IFT teams, delive
 Advance command-line parsing utilities (e.g. https://github.com/status-im/nim-confutils), covering new ergonomics and integration support for Nim projects.
 
 #### Deliverables
+- [status-im/nim-confutils#130](https://github.com/status-im/nim-confutils/pull/130) fix dispatch
+- [status-im/nim-confutils#126](https://github.com/status-im/nim-confutils/pull/126) add debug tag for command line option
+- [status-im/nim-confutils#129](https://github.com/status-im/nim-confutils/pull/129) documentation clean up
+- [status-im/nim-confutils#127](https://github.com/status-im/nim-confutils/pull/127) fix #90; print help/version correctly
+- [status-im/nim-confutils#128](https://github.com/status-im/nim-confutils/pull/128) fix #45; handle unsigned args
 - [Argument alignment in --help](https://github.com/status-im/nim-confutils/pull/125)
 - [Nested cmd config file test](https://github.com/status-im/nim-confutils/pull/124)
 - [Fix #39; show case option in --help](https://github.com/status-im/nim-confutils/pull/122)

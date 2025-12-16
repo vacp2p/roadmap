@@ -24,7 +24,7 @@ Deliver a minimal set of c-bindings around nim-libp2p core. The bindings should 
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-cbindings:core`  
 * owner: rramos
-* status: in progress (15%)
+* status: in progress (60%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -44,6 +44,8 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 - Header file exposing ffi-safe api  
 - Integration tests demonstrating basic usage
 - Documentation
+- [vacp2p/nim-libp2p#1931](https://github.com/vacp2p/nim-libp2p/pull/1931) feat(cbind): peerInfo
+- [vacp2p/nim-libp2p#1927](https://github.com/vacp2p/nim-libp2p/pull/1927) feat(cbind): start/stop/connect/disconnect
 
 ---
 
@@ -51,7 +53,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-cbindings:kademlia`  
 * owner: rramos
-* status: not started
+* status: in progress (95%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -67,6 +69,9 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 - Updated c header + library with kademlia api  
 - Tests verifying kademlia behavior via ffi
 - Documentation
+- [vacp2p/nim-libp2p#1956](https://github.com/vacp2p/nim-libp2p/pull/1956) refactor(cbind): add userdata to topic handler
+- [vacp2p/nim-libp2p#1964](https://github.com/vacp2p/nim-libp2p/pull/1964) fix(cbind): do not use raw void* but an opaque type instead
+- [vacp2p/nim-libp2p#1955](https://github.com/vacp2p/nim-libp2p/pull/1955) feat(cbind): connected peers
 
 ---
 
@@ -74,7 +79,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-cbindings:gossipsub`  
 * owner: rramos
-* status: not started
+* status: in progress (85%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -88,6 +93,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### deliverables
 - Updated c header + library with gossipsub api  
 - Tests verifying pub/sub behavior via ffi
+- [vacp2p/nim-libp2p#1935](https://github.com/vacp2p/nim-libp2p/pull/1935) feat(cbind): pubsub
 - Documentation
 
 

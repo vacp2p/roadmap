@@ -22,7 +22,7 @@ and performing minor improvements to keep the framework functional and effective
 
 * fully qualified name: `vac:qa:nomos:2025q4-e2e-testing:maintenance`
 * owner: romanzac
-* status: not started
+* status: in progress (10%)
 * start-date: 2025/10/01
 * end-date: 2025/12/28
 
@@ -33,3 +33,4 @@ investigating and resolving issues, and implementing minor improvements to the t
 
 #### Deliverables
 PRs and issues
+- [fix: Path updates for nomos repo rename](https://github.com/logos-blockchain/logos-blockchain-e2e-tests/pull/21)

@@ -18,8 +18,8 @@ Support the Waku team as they integrate Nimble into Nwaku, troubleshoot and fix 
 ### Waku Nimble integration Support
 
 * fully qualified name: `vac:nim:waku:2025q4-waku-nimble-integration:integration-support`
-* owner: TBD
-* status: not started
+* owner: Juan
+* status: in progress (90%)
 * start-date: 2025/11/15
 * end-date: 2025/12/10
 
@@ -27,7 +27,10 @@ Support the Waku team as they integrate Nimble into Nwaku, troubleshoot and fix 
 Support the Waku team with fixing issues that come up during their Nimble -> Waku integration efforts.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [nim-lang/nimble#1535](https://github.com/nim-lang/nimble/pull/1535) avoid adding root package to lock file
+- [nim-lang/nimble#1534](https://github.com/nim-lang/nimble/pull/1534) fix topological sort case-sensitivity bug
+- [nim-lang/nimble#1533](https://github.com/nim-lang/nimble/pull/1533) warn when tag and nimble file mismatch
+- [nim-lang/nimble#1532](https://github.com/nim-lang/nimble/pull/1532) improvements toward big package support and solver fixes
 
 ### Complete Waku Nimble integration
 

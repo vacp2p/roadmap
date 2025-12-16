@@ -59,6 +59,7 @@ The Status Wallet Extension will support Status' strategic objectives by:
 Stand up a price proxy service that aggregates token pricing data and exposes cached feeds to the extension.
 
 #### Deliverables
+- [Implement proxies and production env vars](https://github.com/status-im/status-web/pull/860)
 - [Improve tag width calculation for better chart label](https://github.com/status-im/status-web/pull/868)
 
 

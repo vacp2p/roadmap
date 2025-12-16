@@ -22,7 +22,7 @@ Improve stability by addressing flaky tests and extend coverage for Identify/Pus
 
 * fully qualified name: `vac:qa:vac:2025q4-nim-libp2p-testing:test-plans`
 * owner: radek
-* status: in progress (30%)
+* status: in progress (35%)
 * start-date: 2025/10/01
 * end-date: 2025/10/20
 
@@ -42,14 +42,27 @@ Develop test plans for features currently under development:
 
 * fully qualified name: `vac:qa:vac:2025q4-nim-libp2p-testing:flaky-tests`
 * owner: radek
-* status: in progress (50%)
+* status: done
 * start-date: 2025/10/20
-* end-date: 2025/10/31
+* end-date: 2025/12/16
 
 #### Description
 Identify, investigate, and fix flaky tests in nim-libp2p to improve test reliability and CI stability.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#1962](https://github.com/vacp2p/nim-libp2p/pull/1962) test(gossipsub): remove hardcoded repeated topic "foobar"
+- [vacp2p/nim-libp2p#1961](https://github.com/vacp2p/nim-libp2p/pull/1961) test(pubsub): refactor Floodsub tests & waitSubscribe util
+- [vacp2p/nim-libp2p#1958](https://github.com/vacp2p/nim-libp2p/pull/1958) test(gossipsub): utilities that wait for nodes to subscribe
+- [vacp2p/nim-libp2p#1949](https://github.com/vacp2p/nim-libp2p/pull/1949) test: fix multiformat_exts tests are not executed on win
+- [vacp2p/nim-libp2p#1939](https://github.com/vacp2p/nim-libp2p/pull/1939) chore: organise nimble files
+- [vacp2p/nim-libp2p#1929](https://github.com/vacp2p/nim-libp2p/pull/1929) test: ensure tests run without flags
+* [test: only failed test in report](https://github.com/vacp2p/nim-libp2p/pull/1932)
+* [test(switch): improve flaky test](https://github.com/vacp2p/nim-libp2p/pull/1928)
+* [test: dynamic imports](https://github.com/vacp2p/nim-libp2p/pull/1918)
+* [test(coverage): ignore tests](https://github.com/vacp2p/nim-libp2p/pull/1922)
+* [test: fix logs](https://github.com/vacp2p/nim-libp2p/pull/1920)
+* [Check `chronicles` exports](https://github.com/vacp2p/nim-libp2p/issues/1941)
+* [Find solution for `chronicles` in `kademlia` tests workaround](https://github.com/vacp2p/nim-libp2p/issues/1940)
 * [test: report](https://github.com/vacp2p/nim-libp2p/pull/1912)
 * [test: Organise test files - Multiformat and Services](https://github.com/vacp2p/nim-libp2p/pull/1909)
 * [test: Organise test files - final rename](https://github.com/vacp2p/nim-libp2p/pull/1914)

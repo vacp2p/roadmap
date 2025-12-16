@@ -46,6 +46,7 @@ Should be made general when possible.
 
 #### Deliverables
 - PRs:
+    - [Add builders for Waku store nodes](https://github.com/vacp2p/10ksim/pull/179)
     - [Figure ordering and colours](https://github.com/vacp2p/10ksim/pull/176)
     - [Add metrics_path to scrape options](https://github.com/vacp2p/10ksim/pull/175)
     - [Remove unused _build in regression and fix ENR echo command in Helm template #168](https://github.com/vacp2p/10ksim/pull/168)
@@ -55,6 +56,7 @@ Should be made general when possible.
     - [Github PR: Mixnet analysis changes #163](https://github.com/vacp2p/10ksim/pull/163)
     - [Github PR: Allow multiple match groups for the same query in victoria_reader.py #164](https://github.com/vacp2p/10ksim/pull/164)
     - [Github PR: Updated Readme, Dockerfile, configurations #9](https://github.com/vacp2p/dst-libp2p-test-node/pull/9)
+    - [Github PR: updated shadowenv, Dockerfiles. Added Readme for go-test-node #12](https://github.com/vacp2p/dst-libp2p-test-node/pull/12)
     - [Local lab setup automation](https://github.com/PearsonWhite/lab_setup)
 - Documents:
 

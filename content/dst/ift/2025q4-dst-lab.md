@@ -30,9 +30,9 @@ while allow provisioning to other teams dedicated machines if they are needed.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-lab:local-lab`
 * owner: Mamoutou
-* status: in progress (75%)
+* status: done
 * start-date: 2025/10/24
-* end-date: 2025/12/05
+* end-date: 2025/12/16
 
 #### Description
 We want a local replica of the DST lab so that tests and changes can be tried out 
@@ -45,14 +45,16 @@ Provide all needed resources to do this deployment, and also document how it can
 #### Deliverables
 - Code:
   - [Created vaclab-local repository with local lab setup](https://github.com/vacp2p/vaclab-local/pull/1)
+  - [Exclude system namespaces and import remaining dashboards](https://github.com/vacp2p/vaclab-local/pull/2)
 - Reports:
+  - [Notion vaclab-local documentation: Local Vaclab usage information](https://www.notion.so/Local-Vaclab-usage-information-2c38f96fb65c80dd9e7df7294fdbdf72)
 
 
 ### Lab duplication
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-lab:lab-duplication`
 * owner: Mamoutou
-* status: in progress (0%)
+* status: in progress (75%)
 * start-date: 2025/12/01
 * end-date: 2025/12/31
 
@@ -66,3 +68,6 @@ is documented for future reference.
 #### Deliverables
 - Code:
 - Reports:
+  - [Notion: CNI Comparison for reproducible P2P Experiments](https://www.notion.so/Vaclab-2-0-Multi-tenancy-Pod-Networking-2c98f96fb65c817c819ffc0923d28092?source=copy_link#2c98f96fb65c814d9978cd0246c61e06)
+  - [Notion: Vaclab 1.0 - Current Stack](https://www.notion.so/Vaclab-1-0-Current-Stack-2c98f96fb65c8020abadfcb9494a9711)
+  - [Notion: Vaclab 2.0 - Multi-tenancy & Pod Networking](https://www.notion.so/Vaclab-2-0-Multi-tenancy-Pod-Networking-2c98f96fb65c817c819ffc0923d28092)

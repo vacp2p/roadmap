@@ -21,7 +21,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (75%)
+* status: in progress (80%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -74,7 +74,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:release-testing`
 * owner: nastya
-* status: in progress (5%)
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -97,6 +97,7 @@ Oversee testing strategy around releases.
 - [bug: Traces missing for release testing](https://github.com/status-im/status-desktop/issues/19119)
 - [bug: Investigate desktop login freeze](https://github.com/status-im/status-desktop/issues/19120)
 - [bug: Follow-up on mobile build reliability](https://github.com/status-im/status-desktop/issues/19135)
+- [release coverage for status-im/status-desktop#18965](https://github.com/status-im/status-desktop/pull/18965)
 
 ---
 
@@ -104,7 +105,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:app-load-time`
 * owner: nastya
-* status: in progress (66%)
+* status: in progress (70%)
 * start-date: 2025/10/01
 * end-date: 2025/11/01
 

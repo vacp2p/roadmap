@@ -7,6 +7,24 @@ tags:
 
 [[rfc/preview|Roadmap Preview]]
 
+## 2026q1 `vac:rfc:`
+
+
+### `logos:`
+* [[rfc/logos/2026q1-rfc-iteration|rfc-iteration]]
+
+### `anoncomms:`
+* [[rfc/anoncomms/2026q1-rfc-iteration|rfc-iteration]]
+
+### `waku:`
+* [[rfc/waku/2026q1-rfc-iteration|rfc-iteration]]
+
+### `nomos:`
+* [[rfc/nomos/2026q1-rfc-iteration|rfc-iteration]]
+
+### `codex:`
+* [[rfc/codex/2026q1-rfc-iteration|rfc-iteration]]
+
 ## 2025q4 `vac:rfc:`
 
 

@@ -36,7 +36,7 @@ they will be addressed by our team.
 
 * fully qualified name: `vac:sc:status-l2:2025q4-maintaining-status-l2-contracts:maintenance`
 * owner: r4bbit
-* status: in progress (45%)
+* status: in progress (60%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -44,8 +44,13 @@ they will be addressed by our team.
 Handle inbound maintenance requests for deployed Status L2 contracts, including bug fixes and minor enhancements.
 
 #### Deliverables
+- [status-im/status-network-monorepo#107](https://github.com/status-im/status-network-monorepo/pull/107) audit fixes
+- [status-im/status-network-monorepo#103](https://github.com/status-im/status-network-monorepo/pull/103) audit fixes
+- [status-im/status-network-monorepo#84](https://github.com/status-im/status-network-monorepo/pull/84) audit fixes
 - [StakeManager: Allow leave while paused](https://github.com/status-im/status-network-monorepo/pull/87)
 - [StakeVault: Disallow migrate to self](https://github.com/status-im/status-network-monorepo/pull/86)
+- [status-im/status-network-monorepo#89](https://github.com/status-im/status-network-monorepo/pull/89) rename onlySlasher modifier
+- [status-im/status-network-monorepo#85](https://github.com/status-im/status-network-monorepo/pull/85) block vault registration with incorrect owners
 - [fix(KarmaTiers): allow minKarma == maxKarma in tier config](https://github.com/status-im/status-network-monorepo/pull/66)
 - [docs(README): streamline repository readme](https://github.com/status-im/status-network-monorepo/pull/65)
 - [refactor: use `forge lint` over `solhint`](https://github.com/status-im/status-network-monorepo/pull/63)

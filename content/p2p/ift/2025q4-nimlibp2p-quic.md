@@ -24,7 +24,7 @@ In Q3 we discovered critical deficiencies in nim-quic, including runtime instabi
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-quic:stabilization`
 * owner: vlado/rramos
-* status: in progress (75%)
+* status: in progress (84%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -33,6 +33,13 @@ Resolve runtime crashes, race conditions and excessive memory use in nim-quic. T
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- [vacp2p/nim-libp2p#1966](https://github.com/vacp2p/nim-libp2p/pull/1966) fix: close streams concurrently
+- [status-im/nim-eth#834](https://github.com/status-im/nim-eth/pull/834) feat(nat): support multiple ports
+- [vacp2p/nim-libp2p#1968](https://github.com/vacp2p/nim-libp2p/pull/1968) test(gossipsub): making tests more robust pr9
+- [vacp2p/nim-libp2p#1965](https://github.com/vacp2p/nim-libp2p/pull/1965) test(gossipsub): making tests more robust pt8
+- [vacp2p/nim-libp2p#1963](https://github.com/vacp2p/nim-libp2p/pull/1963) test(gossipsub): making tests more robust pt7
+- [vacp2p/nim-libp2p#1950](https://github.com/vacp2p/nim-libp2p/pull/1950) test(gossipsub): making tests more robust pt6
+- [vacp2p/nim-libp2p#1947](https://github.com/vacp2p/nim-libp2p/pull/1947) test(gossipsub): making tests more robust pt5
 - [test(gossipsub): making tests more robust pt4](https://github.com/vacp2p/nim-libp2p/pull/1938)
 - [test(gossipsub): making tests more robust pt3](https://github.com/vacp2p/nim-libp2p/pull/1936)
 - [test(gossipsub): making tests more robust pt2](https://github.com/vacp2p/nim-libp2p/pull/1933)

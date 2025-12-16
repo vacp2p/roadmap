@@ -56,7 +56,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-scaling:optimise-browser-bootstrapping`
 * owner: Pearson
-* status: in progress (85%)
+* status: in progress (90%)
 * start-date: 2025/10/15
 * end-date: 2025/10/31
 
@@ -74,7 +74,7 @@ node, 100 service nodes and 500 browser nodes.
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
-- Code: 
+- Resolved lightpush regression in the updated js-waku image and documented outcomes ([Notion: Js-Waku logs](https://www.notion.so/Js-Waku-logs-2be8f96fb65c80e287f9dba2ebe5017c?source=copy_link#2c48f96fb65c80fcbe98d077f66866c9))
 - Report:
 
 
@@ -167,14 +167,15 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-scaling:TWN-supports-RLN-tree`
 * owner: Alberto
-* status: in progress (99%)
+* status: done
 * start-date: 2025/10/06
-* end-date: 2025/10/24
+* end-date: 2025/12/16
 
 #### Description
 Prove that a new node setup with an RLN membership can be ready
 to verify RLN proof within 5s, no matter the size of the tree.
 
 #### Deliverables
+- [Notion: RLN report](https://www.notion.so/RLN-report-TWN-supports-RLN-tree-2c68f96fb65c8018bc9fdcb149bbeb62)
 - [Github Issue: Check for gasPrice overflow](https://github.com/waku-org/nwaku/pull/3636/files)
 - [Notion: RLN Issues](https://www.notion.so/RLN-issues-29d8f96fb65c8041967be722d496b4c0?source=copy_link#2b28f96fb65c801cba8ef0bc11741d59)

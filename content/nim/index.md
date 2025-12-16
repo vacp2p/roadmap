@@ -33,6 +33,7 @@ tags:
 ### `ift:`
 * [[nim/ift/2025q4-nim-core-libs|nim-core-libs]]
 * [[nim/ift/2025q4-nimble|nimble]]
+* [[nim/ift/2025q4-nim-ide-tooling|nim-ide-tooling]]
 
 ### 2025Q3
 
@@ -51,7 +52,6 @@ tags:
 #### `ift:`
 * [[nim/ift/2025q1-nim-ide-tooling|2025q1-nim-ide-tooling]]
 * [[nim/ift/2025q1-nimble|2025q1-nimble]]
-
 
 
 

@@ -21,7 +21,7 @@ Extract the transcript from Youtube video to use it for RAG context and other po
 
 * fully qualified name: `vac:bi:rag:2025q4-rag-context-improvement:add-code-chunking`
 * owner: nickninov
-* status: in progress (45%)
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -38,6 +38,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 - Fixed the embedding pipeline regression that corrupted new chunks so fresh uploads now embed cleanly again.
 - Add task to dagster ETL to include code repository to the RAG context
 - Write documentation in Data-docs.
+- Tested VLLM deployment for context generation to validate performance for upcoming code ingestion.
 
 ### Google Meeting transcript
 

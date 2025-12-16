@@ -24,15 +24,17 @@ This commitment involves supporting the continued development of the Status App 
 
 * fully qualified name: `vac:web:status:2025q4-status-app:upgrade-waku`
 * owner: jkbktl
-* status: done
+* status: in progress (95%)
 * start-date: 2025/10/01
-* end-date: 2025/12/02
+* end-date: 2025/12/31
 
 #### Description
 Align Status web surfaces with the upcoming Waku upgrade, covering SDK updates and UI/UX regression checks.
 
 #### Deliverables
 - [Unblocking task](https://github.com/status-im/status-web/pull/847)
+- [status-im/status-web#875](https://github.com/status-im/status-web/pull/875) adjust shards for communities
+- [status-im/community-dapp#119](https://github.com/status-im/community-dapp/pull/119) community shards adjustments
 
 ### Community Shards
 

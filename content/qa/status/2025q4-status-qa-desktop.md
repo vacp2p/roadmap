@@ -74,7 +74,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:release-testing`
 * owner: nastya
-* status: in progress (30%)
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

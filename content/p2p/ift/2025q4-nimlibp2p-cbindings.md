@@ -24,7 +24,7 @@ Deliver a minimal set of c-bindings around nim-libp2p core. The bindings should 
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-cbindings:core`  
 * owner: rramos
-* status: in progress (15%)
+* status: in progress (60%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -74,7 +74,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-cbindings:gossipsub`  
 * owner: rramos
-* status: not started
+* status: in progress (85%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

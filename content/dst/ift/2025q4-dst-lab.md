@@ -30,7 +30,7 @@ while allow provisioning to other teams dedicated machines if they are needed.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-lab:local-lab`
 * owner: Mamoutou
-* status: in progress (75%)
+* status: in progress (99%)
 * start-date: 2025/10/24
 * end-date: 2025/12/05
 
@@ -46,13 +46,14 @@ Provide all needed resources to do this deployment, and also document how it can
 - Code:
   - [Created vaclab-local repository with local lab setup](https://github.com/vacp2p/vaclab-local/pull/1)
 - Reports:
+  - [Notion vaclab-local documentation: Local Vaclab usage information](https://www.notion.so/Local-Vaclab-usage-information-2c38f96fb65c80dd9e7df7294fdbdf72)
 
 
 ### Lab duplication
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-lab:lab-duplication`
 * owner: Mamoutou
-* status: in progress (0%)
+* status: in progress (25%)
 * start-date: 2025/12/01
 * end-date: 2025/12/31
 

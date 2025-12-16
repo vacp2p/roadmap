@@ -46,6 +46,7 @@ Should be made general when possible.
 
 #### Deliverables
 - PRs:
+    - [Add builders for Waku store nodes](https://github.com/vacp2p/10ksim/pull/179)
     - [Figure ordering and colours](https://github.com/vacp2p/10ksim/pull/176)
     - [Add metrics_path to scrape options](https://github.com/vacp2p/10ksim/pull/175)
     - [Remove unused _build in regression and fix ENR echo command in Helm template #168](https://github.com/vacp2p/10ksim/pull/168)

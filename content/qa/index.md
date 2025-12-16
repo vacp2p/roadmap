@@ -8,6 +8,28 @@ tags:
 
 [[qa/preview|Roadmap Preview]]
 
+## 2026q1 `vac:qa:`
+---
+
+### `vac:`
+* [[qa/vac/2026q1-nim-libp2p-testing|nim-libp2p-testing ]]
+
+### `waku:`
+* [[qa/waku/2026q1-waku-testing|waku-testing ]]
+
+### `status:`
+* [[qa/status/2026q1-status-go-functional-testing|status-go-functional-testing ]]
+* [[qa/status/2026q1-status-qa-desktop|status-qa-desktop ]]
+* [[qa/status/2026q1-status-qa-mobile|status-qa-mobile ]]
+
+### `keycard:`
+* [[qa/keycard/2026q1-keycard-testing|keycard-testing ]]
+
+### `logos:`
+* [[qa/logos/2026q1-logos-core|logos-core ]]
+
+---
+
 ## 2025q4 `vac:qa:`
 ---
 

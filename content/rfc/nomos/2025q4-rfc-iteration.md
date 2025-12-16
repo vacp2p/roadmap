@@ -45,13 +45,13 @@ The specifications in pipeline:
 Define payload formatting guidelines and supporting specs for Nomos to align upcoming RFCs and implementations.
 
 #### Deliverables
-- [Draft PR #226](https://github.com/vacp2p/rfc-index/pull/226)
+- [PR #226](https://github.com/vacp2p/rfc-index/pull/226)
 
 ### Block exchange
 
 - fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:block-exchange`
 - owner: Cofson
-- status: done (100%)
+- status: done
 - start-date: 2025/10/01
 - end-date: 2025/11/15
 
@@ -73,7 +73,7 @@ Specify block exchange flows and data structures to support Nomos syncing and va
 Create the RFC for the Cryptarchia v1 protocol covering validators, messages, and consensus flow.
 
 #### Deliverables
-- [Draft PR #227](https://github.com/vacp2p/rfc-index/pull/227)
+- [PR #227](https://github.com/vacp2p/rfc-index/pull/227)
 
 ### Cryptarchia v1 Bootstrapping & Synchronization
 

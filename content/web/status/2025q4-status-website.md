@@ -70,3 +70,20 @@ Optimize Status web SEO fundamentals—performance, structured data, and metadat
 #### Deliverables
 - PRs/Issues/Docs/Reports
 
+### CMS
+
+* fully qualified name: `vac:web:status:2025q4-status-website:cms`
+* owner: felicio
+* status: not started
+* start-date: 2025/10/01
+* end-date: 2025/12/31
+
+#### Description
+
+Evaluate and implement CMS solution for Status website. Review CMS comparison overview and create GitHub PRs for implementation.
+
+#### Deliverables
+
+- CMS evaluation report
+- CMS implementation GitHub PRs
+- CMS integration documentation

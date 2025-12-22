@@ -18,6 +18,30 @@ The unit's work directly supports IFT's strategic objective of scaling project c
 
 [[web/preview|Roadmap Preview]]
 
+## 2026q1
+
+### `ift:`
+
+* [[web/ift/2026q1-demos|demos]]
+* [[web/ift/2026q1-maintenance|maintenance]]
+
+### `status:`
+
+* [[web/status/2026q1-community-curation|community-curation]]
+* [[web/status/2026q1-sn-hub|sn-hub]]
+* [[web/status/2026q1-sn-website|sn-website]]
+* [[web/status/2026q1-status-wallet-extension|status-wallet-extension]]
+* [[web/status/2026q1-status-website|status-website]]
+* [[web/status/2026q1-status-app|status-app]]
+
+### `logos:`
+
+* [[web/logos/2026q1-contribute-portal|contribute-portal]]
+* [[web/logos/2026q1-logos-website|logos-website]]
+* [[web/logos/2026q1-logos-forum|logos-forum]]
+
+### 2025q4
+
 ## 2025q4 `vac:web:`
 
 ---

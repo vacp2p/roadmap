@@ -1,0 +1,204 @@
+---
+title: SN Hub
+tags:
+  - "2026q1"
+  - "web"
+  - "status"
+draft: false
+description: "Continued development and enhancement of Status Network Hub, the main portal application for Status Network users to access all network features including staking, yield earning, bridging, and public funding pool tracking."
+---
+
+`vac:web:status:2026q1-sn-hub`
+
+## Description
+
+This commitment involves continued development and enhancement of the Status Network Hub (SN Hub), building upon the Testnet MVP to add advanced features, improve user experience, and prepare for mainnet launch. The hub serves as the unified interface for all Status Network features and activities.
+
+The SN Hub development will support Status Network's strategic objectives by:
+- **Feature Expansion**: Adding advanced features beyond the Testnet MVP including analytics, tokenomics features, and governance tools
+- **Mainnet Preparation**: Ensuring all core features are ready for mainnet launch
+- **User Experience Enhancement**: Improving onboarding flows, dashboard functionality, and overall usability
+- **Network Growth**: Enabling increased participation in staking, liquidity provision, and governance
+
+## Task List
+
+### SDK
+
+* fully qualified name: `vac:web:status:2026q1-sn-hub:sdk`
+* owner: jkbktl
+* status: not started
+* start-date: 2026/01/01
+* end-date: 2026/01/22
+
+#### Description
+
+Implement SDK functionality for claiming Karma, distributing Karma, and authentication.
+
+#### Deliverables
+
+- SDK implementation
+- Karma claiming functionality
+- Karma distribution functionality
+- Authentication system
+
+### Proxy API
+
+* fully qualified name: `vac:web:status:2026q1-sn-hub:proxy-api`
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/01/01
+* end-date: 2026/01/22
+
+#### Description
+
+Set up proxy API infrastructure including Status RPC proxy, Status Market proxy, with dedicated credentials and quota management.
+
+#### Deliverables
+
+- Status RPC proxy implementation
+- Status Market proxy implementation
+- Credential and quota management system
+
+### Depositing
+
+* fully qualified name: `vac:web:status:2026q1-sn-hub:depositing`
+* owner: jinhojang6
+* status: not started
+* start-date: 2026/01/01
+* end-date: 2026/01/15
+
+#### Description
+
+Implement depositing functionality with GUSD vault integration.
+
+#### Deliverables
+
+- Depositing interface
+- GUSD vault integration
+- Transaction handling
+
+### Karma Evolution
+
+* fully qualified name: `vac:web:status:2026q1-sn-hub:karma-evolution`
+* owner: jkbktl
+* status: not started
+* start-date: 2026/01/08
+* end-date: 2026/01/29
+
+#### Description
+
+Implement Karma evolution system including Karma progress tracking and transaction allowance management.
+
+#### Deliverables
+
+- Karma progress system
+- Transaction allowance functionality
+- Evolution tracking
+
+### NFT Evolution
+
+* fully qualified name: `vac:web:status:2026q1-sn-hub:nft-evolution`
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/01/08
+* end-date: 2026/01/31
+
+#### Description
+
+Implement NFT evolution system based on contracts and Karma integration.
+
+#### Deliverables
+
+- NFT evolution system
+- Contract integration
+- Karma-based NFT logic
+
+### Backend
+
+* fully qualified name: `vac:web:status:2026q1-sn-hub:backend`
+* owner: jinhojang6
+* status: not started
+* start-date: 2026/01/15
+* end-date: 2026/02/28
+
+#### Description
+
+Implement backend functionality for leaderboard and app discovery features.
+
+#### Deliverables
+
+- Leaderboard backend
+- App discovery backend
+- API endpoints
+
+### QA
+
+* fully qualified name: `vac:web:status:2026q1-sn-hub:qa`
+* owner: jkbktl
+* status: not started
+* start-date: 2026/01/15
+* end-date: 2026/01/29
+
+#### Description
+
+Define test cases for QA testing of SN Hub features and functionality.
+
+#### Deliverables
+
+- Test case documentation
+- Test plan
+- QA reports
+
+### Selfhosting
+
+* fully qualified name: `vac:web:status:2026q1-sn-hub:selfhosting`
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/01/15
+* end-date: 2026/01/29
+
+#### Description
+
+Set up self-hosting infrastructure and deployment processes for SN Hub.
+
+#### Deliverables
+
+- Self-hosting configuration
+- Deployment documentation
+- Infrastructure setup
+
+### Translations
+
+* fully qualified name: `vac:web:status:2026q1-sn-hub:i18n`
+* owner: jinhojang6
+* status: not started
+* start-date: 2026/01/22
+* end-date: 2026/02/05
+
+#### Description
+
+Implement internationalization (i18n) support for SN Hub to enable multi-language functionality.
+
+#### Deliverables
+
+- i18n implementation
+- Translation files
+- Language selector
+
+### SEO
+
+* fully qualified name: `vac:web:status:2026q1-sn-hub:seo`
+* owner: jkbktl
+* status: not started
+* start-date: 2026/01/22
+* end-date: 2026/02/05
+
+#### Description
+
+Implement SEO optimization for SN Hub to improve search engine visibility and discoverability.
+
+#### Deliverables
+
+- SEO implementation
+- Meta tags and structured data
+- SEO audit and optimization report

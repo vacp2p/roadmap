@@ -106,3 +106,17 @@ connection limits, peer lifecycle handling, and resilience under different netwo
 
 #### Deliverables
 * PRs with links to added tests
+
+### Interop Test Plans
+
+* fully qualified name: `vac:qa:vac:2026q1-nim-libp2p-testing:interop-test-plans`
+* owner: radek
+* status: not started
+* start-date: 2026/02/01
+* end-date: 2026/02/28
+
+#### Description
+Integrate [libp2p test plans](https://github.com/libp2p/test-plans) and run into nim-libp2p
+
+#### Deliverables
+- PRs

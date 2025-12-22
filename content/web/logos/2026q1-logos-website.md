@@ -36,9 +36,10 @@ Integrate contribute portal leaderboard into the Logos website. Coordinate with 
 
 #### Deliverables
 
-- Leaderboard integration
-- Legal team review completed
-- EcoDev team review completed
+- Leaderboard component integration into Logos website
+- Legal team review documentation and sign-off
+- EcoDev team review documentation and sign-off
+- Leaderboard UI implementation on website
 
 ### Admin
 

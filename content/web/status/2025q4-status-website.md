@@ -80,5 +80,10 @@ Optimize Status web SEO fundamentals—performance, structured data, and metadat
 
 #### Description
 
-- GitHub PRs
-- or https://www.notion.so/CMS-ComparisonOverview-2c58f96fb65c80d2a2befd6aedac270c?source=copy_link
+Evaluate and implement CMS solution for Status website. Review CMS comparison overview and create GitHub PRs for implementation.
+
+#### Deliverables
+
+- CMS evaluation report
+- CMS implementation GitHub PRs
+- CMS integration documentation

@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (55%)
+* status: in progress (84%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -36,6 +36,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.
 
 #### Deliverables
+- [test(tools): rng singleton](https://github.com/vacp2p/nim-libp2p/pull/1895)
 - [PR 1874: test(waitgroup): fix tight timeouts](https://github.com/vacp2p/nim-libp2p/pull/1874)
 - [PR 1872: test: add wait group](https://github.com/vacp2p/nim-libp2p/pull/1872)
 - [PR 1871: fix(nimble): install should not install non-libp2p dependencies](https://github.com/vacp2p/nim-libp2p/pull/1871)
@@ -72,6 +73,8 @@ Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via impro
 - [[Deliverable] Maintenance 2025Q4]
 - [PR 1785: fix echo rendezvous regression](https://github.com/vacp2p/nim-libp2p/pull/1785)
 - [PR 1781: release nim-libp2p 1.14.2](https://github.com/vacp2p/nim-libp2p/pull/1781)
+- [vacp2p/nim-libp2p#1957](https://github.com/vacp2p/nim-libp2p/pull/1957) chore: utilize AsyncSemaphore from chronos
+- [vacp2p/nim-libp2p#1967](https://github.com/vacp2p/nim-libp2p/pull/1967) test: add import semaphore
 - [PR 1790: add verbose output for test binaries](https://github.com/vacp2p/nim-libp2p/pull/1790)
 - [PR 1791: increase message size for performance](https://github.com/vacp2p/nim-libp2p/pull/1791)
 - [PR 1792: bump quic dependency to v0.5.0](https://github.com/vacp2p/nim-libp2p/pull/1792)

@@ -36,6 +36,22 @@ The Status Network Hub will support Status Network's strategic objectives by:
 
 ## Task List
 
+### Release and post-release support
+
+* fully qualified name: `vac:web:status:2025q4-sn-hub:release-support`
+* owner: jkbktl
+* status: in progress (99%)
+* start-date: 2025/09/05
+* end-date: 2025/11/30
+
+#### Description
+
+Coordinate SN Hub release rollout and address immediate post-launch fixes.
+
+#### Deliverables
+- [status-im/status-web#827](https://github.com/status-im/status-web/pull/827) initial SN Hub release
+- [status-im/status-web#887](https://github.com/status-im/status-web/pull/887) post-release bugfixes and refactors
+
 ### Wallet Connect
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:wallet-connect`
@@ -80,12 +96,13 @@ Implement in-app feedback capture so newcomers can report issues and suggest imp
 
 #### Deliverables
 - [PR 809: addressed SN Hub feedback actions](https://github.com/status-im/status-web/pull/809).
+- [UI updates based on the Figma design](https://github.com/status-im/status-web/pull/876)
 
 ### Deposit
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:deposit`
 * owner: jkbktl
-* status: in progress (90%)
+* status: done
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
@@ -93,7 +110,8 @@ Implement in-app feedback capture so newcomers can report issues and suggest imp
 Design the deposit flow that guides users through bridging assets into the Status Network.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [UI for predeposit](https://github.com/status-im/status-web/pull/816)
+- [Fixing responsive Status Network hub](https://github.com/status-im/status-web/pull/873)
 
 ### Discovery
 

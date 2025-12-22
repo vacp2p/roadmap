@@ -50,8 +50,8 @@ The Status Wallet Extension will support Status' strategic objectives by:
 ### Price proxy
 
 * fully qualified name: `vac:web:status:2025q4-status-wallet-extension:price-proxy`
-* owner: jkbktl
-* status: not started
+* owner: jinhojang6
+* status: in progress (90%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -59,7 +59,8 @@ The Status Wallet Extension will support Status' strategic objectives by:
 Stand up a price proxy service that aggregates token pricing data and exposes cached feeds to the extension.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [Implement proxies and production env vars](https://github.com/status-im/status-web/pull/860)
+- [Improve tag width calculation for better chart label](https://github.com/status-im/status-web/pull/868)
 
 
 ### Token proxy

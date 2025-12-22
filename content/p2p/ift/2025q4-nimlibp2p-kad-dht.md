@@ -135,7 +135,7 @@ Extend nim-libp2p discovery mechanism by providing a discovery interface that wi
 ### Interop
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:interop`
 * owner: gabe
-* status: in progress (50%)
+* status: in progress (70%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -143,4 +143,10 @@ Extend nim-libp2p discovery mechanism by providing a discovery interface that wi
 Ensure interop is achieved between nim-libp2p's kad-dht implementation and other libp2p implementations
 
 #### Deliverables
+- [Kad PUT_VALUE response deviating from the spec](https://github.com/libp2p/rust-libp2p/issues/6217)
+- [Re-enable rust interop kad tests when they adhere to the spec](https://github.com/vacp2p/nim-libp2p/issues/1915)
+- [LPProtocol should have `method handler`](https://github.com/vacp2p/nim-libp2p/issues/1913)
+- [chore(kad): bootstrap does not need peerinfo](https://github.com/vacp2p/nim-libp2p/pull/1903)
+- [feat(kad): client mode](https://github.com/vacp2p/nim-libp2p/pull/1908)
+- [chore(kad): bootstrap on switch start](https://github.com/vacp2p/nim-libp2p/pull/1906)
 - [chore(kad): add withKademlia to SwitchBuilder](https://github.com/vacp2p/nim-libp2p/pull/1907)

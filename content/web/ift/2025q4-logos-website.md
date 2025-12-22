@@ -74,15 +74,18 @@ The Logos website will support the volunteer-driven community building strategy 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
 * owner: jinhojang6
-* status: in progress (90%)
+* status: done
 * start-date: 2025/05/09
-* end-date: 2025/10/31
+* end-date: 2025/12/02
 
 #### Description
 Finalize the responsive site layout, navigation structure, and page templates for the refreshed Logos web experience.
 
 #### Deliverables
 - [Deployed agency layout code with background video, interactive maps, manifesto page, and analytics instrumentation](https://github.com/acid-info/logos/commits/main/)
+- [Fixed the mobile UI issue with the email form](https://github.com/acid-info/logos/pull/14)
+- [Add Luma calendar embed iframe to the logos-circles page](https://github.com/acid-info/logos/pull/17)
+- [Upgraded Next.js to address CVE](https://github.com/acid-info/logos/commit/9e8716be86bdf6b98b1ea64703aeeed5fc5a8cf5)
 - PRs/Issues/Docs/Reports
 
 ### Components

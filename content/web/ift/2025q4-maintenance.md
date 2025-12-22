@@ -27,6 +27,10 @@ Provide upkeep, bug fixes, and small improvements for existing web properties ac
 Handle routine maintenance tickets, dependency bumps, and production support for shipped web projects.
 
 #### Deliverables
+- [status-web: upgrade Next.js to patch vulnerabilities](https://github.com/status-im/status-web/pull/886)
+- [status-web: Improve tag width calculation for better chart label](https://github.com/status-im/status-web/pull/868)
+- [status-web: Restrict analytics domains for Status Hub](https://github.com/status-im/status-web/pull/867)
+- [contribute.logos.co: Update logo references and dark theme logo](https://github.com/acid-info/contribute.logos.co/pull/13)
 - [status-web: add Umami analytics to SN Hub](https://github.com/status-im/status-web/pull/850)
 - [status-web: fix /specs after migration](https://github.com/status-im/status-web/pull/851)
 - [status-web: update Status Network assets](https://github.com/status-im/status-web/issues/849)

@@ -44,7 +44,8 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 Build the landing directory that lists active contributors with GitHub stats and quick links to their work.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [acid-info/contribute.logos.co#27](https://github.com/acid-info/contribute.logos.co/pull/27) static export compatibility and UI improvements
+- [acid-info/contribute.logos.co#25](https://github.com/acid-info/contribute.logos.co/pull/25) contributor directory UI updates
 
 ### Contributor Profiles
 
@@ -144,24 +145,3 @@ Launch the proposal submission flow so volunteers can pitch work or request supp
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
-
-### Analytics
-
-* fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:analytics`
-* owner: jinhojang6
-* status: not started
-* start-date: 2025/10/31
-* end-date: 2025/12/31
-
-#### Description
-
-- Umami
-
-### Design
-
-* fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:design`
-* owner: jinhojang6
-* status: not started
-* start-date: 2025/10/31
-* end-date: 2025/12/31
-

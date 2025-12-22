@@ -21,7 +21,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (71%)
+* status: in progress (80%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -32,6 +32,14 @@ Oversee testing strategy around releases.
   to the testing framework as needed.
 
 #### Deliverables
+- [chore(@e2e): fixes for tests on windows](https://github.com/status-im/status-desktop/pull/19406)
+- [chore(@e2e): try to close popup multiple times](https://github.com/status-im/status-desktop/pull/19386)
+- [windows: investigate failures for 1x1 chat](https://github.com/status-im/status-desktop/issues/19388)
+- [windows: investigate failures for group chat](https://github.com/status-im/status-desktop/issues/19389)
+- [windows: investigate failures for test_set_name_bio_social_links](https://github.com/status-im/status-desktop/issues/19400)
+- [Syncing devices is broken on widows](https://github.com/status-im/status-desktop/issues/19424)
+- [windows: investigate failures for test_add_edit_remove_duplicate_permissions](https://github.com/status-im/status-desktop/issues/19387)
+- [Modify e2e tests to work with new emoji list](https://github.com/status-im/status-desktop/issues/18878)
 - [chore(@e2e): bring back custom derivation path](https://github.com/status-im/status-desktop/pull/19308)
 - [chore(@e2e): use Qt Convenience API minimize function](https://github.com/status-im/status-desktop/pull/19269)
 - [Test of kick / ban user in community fails on CI](https://github.com/status-im/status-desktop/issues/19284)
@@ -66,7 +74,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:release-testing`
 * owner: nastya
-* status: in progress (5%)
+* status: in progress (50%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -89,6 +97,7 @@ Oversee testing strategy around releases.
 - [bug: Traces missing for release testing](https://github.com/status-im/status-desktop/issues/19119)
 - [bug: Investigate desktop login freeze](https://github.com/status-im/status-desktop/issues/19120)
 - [bug: Follow-up on mobile build reliability](https://github.com/status-im/status-desktop/issues/19135)
+- [release coverage for status-im/status-desktop#18965](https://github.com/status-im/status-desktop/pull/18965)
 
 ---
 
@@ -96,7 +105,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:app-load-time`
 * owner: nastya
-* status: in progress (66%)
+* status: in progress (70%)
 * start-date: 2025/10/01
 * end-date: 2025/11/01
 

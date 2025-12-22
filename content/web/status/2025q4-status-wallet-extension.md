@@ -51,7 +51,7 @@ The Status Wallet Extension will support Status' strategic objectives by:
 
 * fully qualified name: `vac:web:status:2025q4-status-wallet-extension:price-proxy`
 * owner: jinhojang6
-* status: in progress (90%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -66,8 +66,8 @@ Stand up a price proxy service that aggregates token pricing data and exposes ca
 ### Token proxy
 
 * fully qualified name: `vac:web:status:2025q4-status-wallet-extension:token-proxy`
-* owner: nnachionuwa
-* status: in progress (20%)
+* owner: jinhojang6
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

@@ -106,7 +106,7 @@ Build and document the reusable UI component library that powers the new Logos w
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:copyright`
 * owner: 0xbathang
-* status: in progress (50%)
+* status: done
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -162,7 +162,7 @@ Create implementation notes and content authoring guides so teams can maintain t
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:circles-map`
 * owner: jinhojang6
-* status: not started
+* status: done
 * start-date: 2025/10/20
 * end-date: 2025/11/14
 
@@ -176,7 +176,7 @@ Prototype an interactive map that visualizes Logos circles and makes it easy to 
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:spaces-calendar`
 * owner: jinhojang6
-* status: in progress (90%)
+* status: done
 * start-date: 2025/10/20
 * end-date: 2025/11/14
 
@@ -209,7 +209,7 @@ Design and implement the data visualization modules that communicate Logos impac
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:ctas`
 * owner: jinhojang6
-* status: in progress (20%)
+* status: done
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 

@@ -10,8 +10,6 @@ description: "Continued development and enhancement of the browser wallet extens
 
 `vac:web:status:2026q1-status-wallet-extension`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
-
 ## Description
 
 This commitment involves continued development and enhancement of the Status Wallet Extension, building upon the MVP to add advanced features, improve trading capabilities, and expand the portfolio management functionality. The extension serves as a comprehensive trading wallet and token price tracker for casual and meme coin traders and investors.
@@ -32,6 +30,16 @@ The Status Wallet Extension development will support Status' strategic objective
 * start-date: 2026/02/05
 * end-date: 2026/02/19
 
+#### Description
+
+Implement proxy API rate limiting to manage API usage and prevent abuse.
+
+#### Deliverables
+
+- Rate limiting implementation
+- API quota management
+- Rate limit configuration
+
 ### QA Defining Test Cases Together
 
 * fully qualified name: `vac:web:status:2026q1-status-wallet-extension:qa-defining-test-cases-together`
@@ -39,6 +47,16 @@ The Status Wallet Extension development will support Status' strategic objective
 * status: not started
 * start-date: 2026/02/05
 * end-date: 2026/02/19
+
+#### Description
+
+Collaborate with QA team to define comprehensive test cases for wallet extension features and functionality.
+
+#### Deliverables
+
+- Test case documentation
+- Test plan
+- QA collaboration notes
 
 ### Value Chart
 
@@ -48,6 +66,16 @@ The Status Wallet Extension development will support Status' strategic objective
 * start-date: 2026/02/12
 * end-date: 2026/03/05
 
+#### Description
+
+Implement value chart functionality to display portfolio value over time.
+
+#### Deliverables
+
+- Value chart component
+- Chart data integration
+- UI implementation
+
 ### Hide Small Balances
 
 * fully qualified name: `vac:web:status:2026q1-status-wallet-extension:hide-small-balances`
@@ -55,6 +83,16 @@ The Status Wallet Extension development will support Status' strategic objective
 * status: not started
 * start-date: 2026/02/12
 * end-date: 2026/02/26
+
+#### Description
+
+Implement feature to hide small token balances from the wallet view for cleaner UI.
+
+#### Deliverables
+
+- Hide small balances functionality
+- User preference settings
+- UI toggle implementation
 
 ### LI.FI Swap Integration
 
@@ -64,6 +102,16 @@ The Status Wallet Extension development will support Status' strategic objective
 * start-date: 2026/02/12
 * end-date: 2026/03/05
 
+#### Description
+
+Integrate LI.FI swap functionality to enable multi-chain token swaps within the wallet extension.
+
+#### Deliverables
+
+- LI.FI integration
+- Swap interface
+- Multi-chain support
+
 ### Send NFT
 
 * fully qualified name: `vac:web:status:2026q1-status-wallet-extension:send-nft`
@@ -71,6 +119,16 @@ The Status Wallet Extension development will support Status' strategic objective
 * status: not started
 * start-date: 2026/02/19
 * end-date: 2026/03/05
+
+#### Description
+
+Implement functionality to send NFTs from the wallet extension.
+
+#### Deliverables
+
+- Send NFT feature
+- NFT transfer interface
+- Transaction handling
 
 ### Global Password
 
@@ -80,6 +138,16 @@ The Status Wallet Extension development will support Status' strategic objective
 * start-date: 2026/02/19
 * end-date: 2026/03/05
 
+#### Description
+
+Implement global password functionality for unified authentication across wallet features.
+
+#### Deliverables
+
+- Global password system
+- Authentication integration
+- Password management UI
+
 ### Multi Account
 
 * fully qualified name: `vac:web:status:2026q1-status-wallet-extension:multi-account`
@@ -87,6 +155,16 @@ The Status Wallet Extension development will support Status' strategic objective
 * status: not started
 * start-date: 2026/02/26
 * end-date: 2026/03/19
+
+#### Description
+
+Implement multi-account support to allow users to manage multiple accounts within the wallet extension.
+
+#### Deliverables
+
+- Multi-account functionality
+- Account switching interface
+- Account management UI
 
 ### Multi Wallet
 
@@ -96,6 +174,16 @@ The Status Wallet Extension development will support Status' strategic objective
 * start-date: 2026/02/26
 * end-date: 2026/03/19
 
+#### Description
+
+Implement multi-wallet support to allow users to connect and manage multiple wallets simultaneously.
+
+#### Deliverables
+
+- Multi-wallet functionality
+- Wallet connection management
+- Wallet switching interface
+
 ### Dapp Connection
 
 * fully qualified name: `vac:web:status:2026q1-status-wallet-extension:dapp-connection`
@@ -103,6 +191,16 @@ The Status Wallet Extension development will support Status' strategic objective
 * status: not started
 * start-date: 2026/03/05
 * end-date: 2026/03/19
+
+#### Description
+
+Implement dApp connection functionality to enable wallet extension to connect with decentralized applications.
+
+#### Deliverables
+
+- dApp connection system
+- Connection approval interface
+- dApp integration support
 
 ### Hardware Wallets
 
@@ -114,7 +212,13 @@ The Status Wallet Extension development will support Status' strategic objective
 
 #### Description
 
-- QR code based, Keycard Shell support
+Implement hardware wallet support with QR code-based connection and Keycard Shell integration.
+
+#### Deliverables
+
+- Hardware wallet integration
+- QR code connection system
+- Keycard Shell support
 
 ### Browser and System Notifications
 
@@ -123,3 +227,13 @@ The Status Wallet Extension development will support Status' strategic objective
 * status: not started
 * start-date: 2026/03/12
 * end-date: 2026/03/26
+
+#### Description
+
+Implement browser and system notifications to alert users of wallet activities and transactions.
+
+#### Deliverables
+
+- Notification system implementation
+- Browser notification integration
+- System notification support

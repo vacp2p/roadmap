@@ -10,8 +10,6 @@ description: "Continued development and enhancement of Status Network Hub, the m
 
 `vac:web:status:2026q1-sn-hub`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
-
 ## Description
 
 This commitment involves continued development and enhancement of the Status Network Hub (SN Hub), building upon the Testnet MVP to add advanced features, improve user experience, and prepare for mainnet launch. The hub serves as the unified interface for all Status Network features and activities.
@@ -34,9 +32,14 @@ The SN Hub development will support Status Network's strategic objectives by:
 
 #### Description
 
-- Claiming Karma
-- Distributing Karma
-- Auth
+Implement SDK functionality for claiming Karma, distributing Karma, and authentication.
+
+#### Deliverables
+
+- SDK implementation
+- Karma claiming functionality
+- Karma distribution functionality
+- Authentication system
 
 ### Proxy API
 
@@ -48,9 +51,13 @@ The SN Hub development will support Status Network's strategic objectives by:
 
 #### Description
 
-- Status RPC proxy
-- Status Market proxy
-- Dedicated credentials and quota
+Set up proxy API infrastructure including Status RPC proxy, Status Market proxy, with dedicated credentials and quota management.
+
+#### Deliverables
+
+- Status RPC proxy implementation
+- Status Market proxy implementation
+- Credential and quota management system
 
 ### Depositing
 
@@ -60,9 +67,15 @@ The SN Hub development will support Status Network's strategic objectives by:
 * start-date: 2026/01/01
 * end-date: 2026/01/15
 
-Description
+#### Description
 
-- GUSD vault
+Implement depositing functionality with GUSD vault integration.
+
+#### Deliverables
+
+- Depositing interface
+- GUSD vault integration
+- Transaction handling
 
 ### Karma Evolution
 
@@ -74,8 +87,13 @@ Description
 
 #### Description
 
-- Karma progress
-- Transaction allowance
+Implement Karma evolution system including Karma progress tracking and transaction allowance management.
+
+#### Deliverables
+
+- Karma progress system
+- Transaction allowance functionality
+- Evolution tracking
 
 ### NFT Evolution
 
@@ -87,7 +105,13 @@ Description
 
 #### Description
 
-- Based on contracts and Karma
+Implement NFT evolution system based on contracts and Karma integration.
+
+#### Deliverables
+
+- NFT evolution system
+- Contract integration
+- Karma-based NFT logic
 
 ### Backend
 
@@ -99,8 +123,13 @@ Description
 
 #### Description
 
-- Leaderboard
-- App discovery
+Implement backend functionality for leaderboard and app discovery features.
+
+#### Deliverables
+
+- Leaderboard backend
+- App discovery backend
+- API endpoints
 
 ### QA
 
@@ -112,7 +141,13 @@ Description
 
 #### Description
 
-- Defining test cases
+Define test cases for QA testing of SN Hub features and functionality.
+
+#### Deliverables
+
+- Test case documentation
+- Test plan
+- QA reports
 
 ### Selfhosting
 
@@ -122,6 +157,16 @@ Description
 * start-date: 2026/01/15
 * end-date: 2026/01/29
 
+#### Description
+
+Set up self-hosting infrastructure and deployment processes for SN Hub.
+
+#### Deliverables
+
+- Self-hosting configuration
+- Deployment documentation
+- Infrastructure setup
+
 ### Translations
 
 * fully qualified name: `vac:web:status:2026q1-sn-hub:i18n`
@@ -130,6 +175,16 @@ Description
 * start-date: 2026/01/22
 * end-date: 2026/02/05
 
+#### Description
+
+Implement internationalization (i18n) support for SN Hub to enable multi-language functionality.
+
+#### Deliverables
+
+- i18n implementation
+- Translation files
+- Language selector
+
 ### SEO
 
 * fully qualified name: `vac:web:status:2026q1-sn-hub:seo`
@@ -137,3 +192,13 @@ Description
 * status: not started
 * start-date: 2026/01/22
 * end-date: 2026/02/05
+
+#### Description
+
+Implement SEO optimization for SN Hub to improve search engine visibility and discoverability.
+
+#### Deliverables
+
+- SEO implementation
+- Meta tags and structured data
+- SEO audit and optimization report

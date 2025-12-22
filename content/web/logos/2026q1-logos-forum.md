@@ -10,8 +10,6 @@ description: "Optimization of the Logos Forum experience to reduce onboarding fr
 
 `vac:web:logos:2026q1-logos-forum`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
-
 ## Description
 
 This commitment involves optimizing the Logos Forum experience to address critical bottlenecks that prevent community members from contributing their stories and engaging with the community. The current forum experience creates significant friction that causes potential contributors to drop off, requiring personal relationships and handholding to successfully onboard new users.
@@ -40,7 +38,13 @@ The Logos Forum optimization will support Logos' strategic objectives by:
 
 #### Description
 
-- Allow registration with custom domain email addresses
+Allow registration with custom domain email addresses to remove barriers for users with professional email domains.
+
+#### Deliverables
+
+- Email validation update
+- Custom domain support implementation
+- Registration flow updates
 
 ### Cooldown Bypass System
 
@@ -52,9 +56,13 @@ The Logos Forum optimization will support Logos' strategic objectives by:
 
 #### Description
 
-- Implement referral code on signup to bypass 24-hour cooldown period
-- If referral code system not possible, implement heart system that allows users to request bypassing the cooldown
-- Maintain spam protection while enabling legitimate community members to post immediately
+Implement referral code on signup to bypass 24-hour cooldown period. If referral code system not possible, implement heart system that allows users to request bypassing the cooldown. Maintain spam protection while enabling legitimate community members to post immediately.
+
+#### Deliverables
+
+- Referral code system or heart system implementation
+- Cooldown bypass logic
+- Spam protection maintenance
 
 ### First Post Intro Flow
 
@@ -66,11 +74,14 @@ The Logos Forum optimization will support Logos' strategic objectives by:
 
 #### Description
 
-- Enable new users to post their intro immediately, no matter what
-- Automatic flow that brings new users directly to a text field where they can write their intro
-- Single post button, no category choice required
-- Very straightforward, simplified posting experience
-- Remove 24-hour comment-only restriction for intro posts
+Enable new users to post their intro immediately, no matter what. Automatic flow that brings new users directly to a text field where they can write their intro. Single post button, no category choice required. Very straightforward, simplified posting experience. Remove 24-hour comment-only restriction for intro posts.
+
+#### Deliverables
+
+- Simplified intro posting flow
+- Automatic redirect to intro text field
+- Single-button posting interface
+- Removal of comment-only restriction
 
 ### Content Visibility
 
@@ -82,8 +93,12 @@ The Logos Forum optimization will support Logos' strategic objectives by:
 
 #### Description
 
-- Allow anyone, including first-time visitors who are not signed up, to see all posts and comments
-- Remove content restrictions based on user rank or registration status
-- Enable public viewing to encourage engagement with community member posts
+Allow anyone, including first-time visitors who are not signed up, to see all posts and comments. Remove content restrictions based on user rank or registration status. Enable public viewing to encourage engagement with community member posts.
+
+#### Deliverables
+
+- Public content visibility implementation
+- Removal of rank-based restrictions
+- Guest viewing capability
 
 > https://github.com/acid-info/logos/issues/19

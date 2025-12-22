@@ -3,7 +3,7 @@ title: Contribute Portal
 tags:
   - "2026q1"
   - "web"
-  - "ift"
+  - "logos"
 draft: false
 description: "Development of Contribute Portal, a contribution hub that recognizes open source contributors and helps new developers make their first contributions to strengthen the Logos ecosystem."
 ---
@@ -42,7 +42,12 @@ The Contribute Portal directly supports the quarterly KPIs by:
 
 #### Description
 
-- Copy review
+Review and update contribution guidelines copy to ensure clarity and completeness.
+
+#### Deliverables
+
+- Updated contribution guidelines documentation
+- Copy review report
 
 ### Use BI team's Github Data
 
@@ -54,9 +59,13 @@ The Contribute Portal directly supports the quarterly KPIs by:
 
 #### Description
 
-- Issue migration
-- Repository selection
-- API by BI team
+Integrate BI team's GitHub data API to power contributor metrics and analytics. Migrate issues and select repositories for data integration.
+
+#### Deliverables
+
+- API integration implementation
+- Issue migration completed
+- Repository selection documented
 
 ### Leaderboard
 
@@ -65,6 +74,15 @@ The Contribute Portal directly supports the quarterly KPIs by:
 * status: not started
 * start-date: 2026/03/05
 * end-date: 2026/03/19
+
+#### Description
+
+Implement seasonal and all-time leaderboards with sorting that highlights high-impact contributors across coding, design, documentation, and translation.
+
+#### Deliverables
+
+- Leaderboard UI implementation
+- Sorting and filtering functionality
 
 ### Tier & Scoring
 
@@ -76,7 +94,13 @@ The Contribute Portal directly supports the quarterly KPIs by:
 
 #### Description
 
-- https://zealous-polka-dc7.notion.site/Logos-Contribute-Portal-Ladder-System-Proposal-2698f96fb65c80158488dcc7d9f427ef
+Define the tier logic and scoring rules that map contributor activity into the recognition ladder system as specified in the proposal.
+
+#### Deliverables
+
+- Tier and scoring system implementation
+- Documentation of scoring rules
+- Ladder system integration
 
 ### Proposals
 
@@ -102,7 +126,13 @@ Launch the proposal submission flow so volunteers can pitch work or request supp
 
 #### Description
 
-- Umami
+Set up Umami analytics integration for tracking portal usage and contributor engagement metrics.
+
+#### Deliverables
+
+- Umami analytics integration
+- Analytics dashboard configuration
+- Tracking implementation
 
 ### Search
 
@@ -114,7 +144,12 @@ Launch the proposal submission flow so volunteers can pitch work or request supp
 
 #### Description
 
-- On dedicated pages only
+Implement search functionality on dedicated pages to allow users to search by GitHub username or repository name.
+
+#### Deliverables
+
+- Search functionality implementation
+- Search UI components
 
 ### Sign-up form
 
@@ -124,5 +159,13 @@ Launch the proposal submission flow so volunteers can pitch work or request supp
 * start-date: 2026/03/19
 * end-date: 2026/03/31
 
+#### Description
+
+Implement sign-up form for new contributors to register and join the portal.
+
+#### Deliverables
+
+- Sign-up form implementation
+- Form validation and submission
 
 > https://miro.com/app/board/uXjVGe0JT7A=/?moveToWidget=3458764651894962888&cot=14

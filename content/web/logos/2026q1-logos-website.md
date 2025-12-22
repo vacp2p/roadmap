@@ -10,8 +10,6 @@ description: "Continued development and enhancement of the Logos website, buildi
 
 `vac:web:logos:2026q1-logos-website`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
-
 ## Description
 
 This commitment involves continued development and enhancement of the Logos website, building upon the comprehensive platform launched in previous quarters. The work focuses on improving user journeys, adding new features, optimizing community engagement, and refining the dual-experience architecture for developers and non-developers.
@@ -34,9 +32,13 @@ The Logos website enhancement will support Logos' strategic objectives by:
 
 #### Description
 
-- Leaderboard
-- Legal team review
-- EcoDev team review
+Integrate contribute portal leaderboard into the Logos website. Coordinate with legal and EcoDev teams for review and approval.
+
+#### Deliverables
+
+- Leaderboard integration
+- Legal team review completed
+- EcoDev team review completed
 
 ### Admin
 
@@ -48,8 +50,13 @@ The Logos website enhancement will support Logos' strategic objectives by:
 
 #### Description
 
-- Production release
-- Infra team's pipeline
+Set up admin functionality for production release and integrate with infrastructure team's CI/CD pipeline.
+
+#### Deliverables
+
+- Admin panel implementation
+- Production release configuration
+- CI/CD pipeline integration
 
 ### CRM
 
@@ -61,8 +68,13 @@ The Logos website enhancement will support Logos' strategic objectives by:
 
 #### Description
 
-- https://miro.com/app/board/uXjVJiMfUbo=/
-- https://discord.com/channels/864066763682218004/1440632286365224992
+Implement CRM functionality as specified in the design board and Discord discussions for managing community relationships and engagement.
+
+#### Deliverables
+
+- CRM system implementation
+- Integration with website
+- Documentation
 
 ### CMS/Sanity
 
@@ -72,6 +84,15 @@ The Logos website enhancement will support Logos' strategic objectives by:
 * start-date: 2026/03/19
 * end-date: 2026/03/31
 
+#### Description
+
+Propose alternative to Sanity CMS for content management, enabling non-technical team members to update website content.
+
+#### Deliverables
+
+- Sanity CMS alternative proposal
+- Documentation and training materials
+
 ### Selfhosting
 
 * fully qualified name: `vac:web:logos:2026q1-logos-website:selfhosting`
@@ -79,3 +100,13 @@ The Logos website enhancement will support Logos' strategic objectives by:
 * status: not started
 * start-date: 2026/03/19
 * end-date: 2026/03/31
+
+#### Description
+
+Set up self-hosting infrastructure and deployment processes for the Logos website.
+
+#### Deliverables
+
+- Self-hosting configuration
+- Deployment documentation
+- Infrastructure setup

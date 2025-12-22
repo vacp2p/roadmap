@@ -10,8 +10,6 @@ description: "Continued optimization and maintenance of the Status website with 
 
 `vac:web:status:2026q1-status-website`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
-
 ## Description
 
 This commitment involves continued optimization and maintenance of the Status website, building upon previous work to enhance internationalization, improve SEO, and maintain high-quality user experience. The website serves as the primary public-facing interface for the Status ecosystem.
@@ -32,6 +30,16 @@ The Status website optimization will support Status' strategic objectives by:
 * start-date: 2026/02/12
 * end-date: 2026/02/26
 
+#### Description
+
+Implement SEO optimization for the Status website to improve search engine visibility and discoverability.
+
+#### Deliverables
+
+- SEO implementation
+- Meta tags and structured data
+- SEO audit and optimization report
+
 ### Translations
 
 * fully qualified name: `vac:web:status:2026q1-status-website:translations`
@@ -42,9 +50,14 @@ The Status website optimization will support Status' strategic objectives by:
 
 #### Description
 
-- Design
-- Public contributions
-- Automatic adding of copy to base (English) translation file
+Implement translations support with design improvements, public contribution flow, and automatic addition of copy to base English translation file.
+
+#### Deliverables
+
+- Translation system implementation
+- Public contribution flow
+- Automatic translation file updates
+- Translation UI design
 
 ### Copy Changes, Section Reduction
 
@@ -54,6 +67,16 @@ The Status website optimization will support Status' strategic objectives by:
 * start-date: 2026/02/19
 * end-date: 2026/03/05
 
+#### Description
+
+Update website copy and reduce sections to improve clarity and user experience.
+
+#### Deliverables
+
+- Updated copy content
+- Section reduction implementation
+- Content review documentation
+
 ### Selfhosting
 
 * fully qualified name: `vac:web:status:2026q1-status-website:selfhosting`
@@ -61,3 +84,13 @@ The Status website optimization will support Status' strategic objectives by:
 * status: not started
 * start-date: 2026/02/26
 * end-date: 2026/03/12
+
+#### Description
+
+Set up self-hosting infrastructure and deployment processes for the Status website.
+
+#### Deliverables
+
+- Self-hosting configuration
+- Deployment documentation
+- Infrastructure setup

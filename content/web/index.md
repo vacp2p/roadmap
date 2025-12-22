@@ -27,6 +27,7 @@ The unit's work directly supports IFT's strategic objective of scaling project c
 
 #### `status:`
 
+- [[web/status/2026q1-community-curation|2026q1-community-curation]]
 - [[web/status/2026q1-sn-hub|2026q1-sn-hub]]
 - [[web/status/2026q1-sn-website|2026q1-sn-website]]
 - [[web/status/2026q1-status-wallet-extension|2026q1-status-wallet-extension]]
@@ -35,9 +36,9 @@ The unit's work directly supports IFT's strategic objective of scaling project c
 
 #### `logos:`
 
+- [[web/logos/2026q1-contribute-portal|2026q1-contribute-portal]]
 - [[web/logos/2026q1-logos-website|2026q1-logos-website]]
 - [[web/logos/2026q1-logos-forum|2026q1-logos-forum]]
-- [[web/logos/2026q1-ps-website|2026q1-ps-website]]
 
 ### 2025q4
 

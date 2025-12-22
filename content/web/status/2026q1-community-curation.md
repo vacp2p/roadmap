@@ -10,8 +10,6 @@ description: "Migration of the Community Curation DApp to the status-web monorep
 
 `vac:web:status:2026q1-community-curation`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
-
 ## Description
 
 This commitment involves migrating the Community Curation DApp to the [status-web monorepo](https://github.com/status-im/status-web), a centralized repository for building user interfaces, websites, web applications, dApps, browser extensions, and APIs in the Status ecosystem.
@@ -50,7 +48,12 @@ The migration to the status-web monorepo will support Status' strategic objectiv
 
 #### Description
 
-- Migrate Community Curation DApp to the status-web monorepo
-- Integrate with existing monorepo structure, build tools, and shared packages
-- Ensure compatibility with status-web development workflows and deployment processes
+Migrate Community Curation DApp to the status-web monorepo. Integrate with existing monorepo structure, build tools, and shared packages. Ensure compatibility with status-web development workflows and deployment processes.
+
+#### Deliverables
+
+- Migrated DApp code
+- Monorepo integration
+- Build and deployment configuration
+- Documentation
 

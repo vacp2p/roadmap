@@ -10,7 +10,6 @@ description: "Development and optimization of the Status Network website to show
 
 `vac:web:status:2026q1-sn-website`
 
-> *note*: The `<` `>` mark places where information has to be filled in. Please do not copy the `<` and `>` characters into the actual commitment documents.
 ## Description  
 
 This commitment involves developing and optimizing the Status Network website to showcase network features, provide comprehensive documentation, and support community engagement. The website serves as the primary information hub for the Status Network ecosystem.
@@ -31,6 +30,16 @@ The SN website development will support Status Network's strategic objectives by
 * start-date: 2026/01/29
 * end-date: 2026/02/12
 
+#### Description
+
+Implement SEO optimization for the Status Network website to improve search engine visibility and discoverability.
+
+#### Deliverables
+
+- SEO implementation
+- Meta tags and structured data
+- SEO audit and optimization report
+
 ### Translations
 
 * fully qualified name: `vac:web:status:2026q1-sn-website:translations`
@@ -41,7 +50,13 @@ The SN website development will support Status Network's strategic objectives by
 
 #### Description
 
-- Public contribution flow https://github.com/status-im/translate.status.im?tab=readme-ov-file
+Implement translations support with public contribution flow for community translations.
+
+#### Deliverables
+
+- Translation system implementation
+- Public contribution flow integration
+- Translation files
 
 ### Analytics
 
@@ -53,7 +68,13 @@ The SN website development will support Status Network's strategic objectives by
 
 #### Description
 
-- Campaign tag management https://www.notion.so/Tracking-Pixels-2a48f96fb65c80fba723f26e272a976e
+Implement analytics with campaign tag management for tracking and measuring website performance.
+
+#### Deliverables
+
+- Analytics implementation
+- Campaign tag management system
+- Tracking configuration
 
 ### Selfhosting
 
@@ -65,5 +86,10 @@ The SN website development will support Status Network's strategic objectives by
 
 #### Description
 
-- Infra team's CDN guarantees
-- Infra team's automated CI
+Set up self-hosting infrastructure with infrastructure team's CDN guarantees and automated CI integration.
+
+#### Deliverables
+
+- Self-hosting configuration
+- CDN setup
+- CI/CD pipeline integration

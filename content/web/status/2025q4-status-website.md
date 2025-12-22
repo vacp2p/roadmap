@@ -45,7 +45,7 @@ The Status website optimization will support Status' strategic objectives by:
 
 * fully qualified name: `vac:web:status:2025q4-status-website:i18n`
 * owner: felicio
-* status: not started
+* status: in progress (90%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -59,8 +59,8 @@ Localize Status web properties and ensure translated content keeps parity with p
 ### SEO  
 
 * fully qualified name: `vac:web:status:2025q4-status-website:seo`
-* owner: felicio
-* status: not started
+* owner: jinhojang6
+* status: in progress (90%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

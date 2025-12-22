@@ -79,7 +79,7 @@ Author and publish contributor onboarding and etiquette guidelines to sit alongs
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:github-issues`
 * owner: JulesFiliot
-* status: in progress (90%)
+* status: in progress (95%)
 * start-date: 2025/09/08
 * end-date: 2025/10/31
 
@@ -93,7 +93,7 @@ Integrate curated GitHub issues into the portal so newcomers can quickly find ac
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:bi-data`
 * owner: JulesFiliot
-* status: in progress (20%)
+* status: in progress (70%)
 * start-date: 2025/09/08
 * end-date: 2025/10/31
 

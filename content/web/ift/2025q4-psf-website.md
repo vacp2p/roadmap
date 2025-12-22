@@ -26,7 +26,7 @@ The PSF website will support Logos' strategic objectives by:
 
 * fully qualified name: `vac:web:ift:2025q4-psf-website:website`
 * owner: jinhojang6
-* status: in progress (90%)
+* status: done
 * start-date: 2025/03/04
 * end-date: 2026/10/31
 
@@ -43,7 +43,7 @@ Build the core PSF public site with schedules, speakers, and storytelling that s
 
 * fully qualified name: `vac:web:ift:2025q4-psf-website:ticketing`
 * owner: lou
-* status: in progress (20%)
+* status: done
 * start-date: 2025/03/04
 * end-date: 2026/10/31
 
@@ -57,7 +57,7 @@ Integrate ticketing flows, payment handling, and attendee confirmations tailored
 
 * fully qualified name: `vac:web:ift:2025q4-psf-website:designs`
 * owner: Beachbuum
-* status: in progress (50%)
+* status: done
 * start-date: 2025/03/04
 * end-date: 2026/10/31
 
@@ -71,7 +71,7 @@ Produce the visual system, page comps, and responsive assets that underpin the P
 
 * fully qualified name: `vac:web:ift:2025q4-psf-website:copywriting`
 * owner: lou
-* status: in progress (20%)
+* status: done
 * start-date: 2025/03/04
 * end-date: 2026/10/31
 
@@ -85,7 +85,7 @@ Craft narrative copy that explains PSF’s mission, programming, and calls to ac
 
 * fully qualified name: `vac:web:ift:2025q4-psf-website:ctas`
 * owner: jinhojang6
-* status: in progress (20%)
+* status: done
 * start-date: 2025/03/04
 * end-date: 2026/10/31
 

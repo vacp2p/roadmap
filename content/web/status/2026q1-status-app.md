@@ -27,10 +27,10 @@ The Status App web support will support Status' strategic objectives by:
 ### External Social Link Preview
 
 * fully qualified name: `vac:web:status:2026q1-status-app:external-social-link-preview`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jkbktl
+* status: not started
+* start-date: 2026/02/26
+* end-date: 2026/03/12
 
 #### Description
 

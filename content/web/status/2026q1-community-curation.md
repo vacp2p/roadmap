@@ -43,10 +43,10 @@ The migration to the status-web monorepo will support Status' strategic objectiv
 ### Migration to status-web Monorepo
 
 * fully qualified name: `vac:web:status:2026q1-community-curation:migration-to-status-web-monorepo`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/03/05
+* end-date: 2026/03/26
 
 #### Description
 

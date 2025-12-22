@@ -24,36 +24,65 @@ The SN Hub development will support Status Network's strategic objectives by:
 
 ## Task List
 
+### SDK
+
+* fully qualified name: `vac:web:status:2026q1-sn-hub:sdk`
+* owner: jkbktl
+* status: not started
+* start-date: 2026/01/01
+* end-date: 2026/01/22
+
+#### Description
+
+- Claiming Karma
+- Distributing Karma
+- Auth
+
 ### Proxy API
 
 * fully qualified name: `vac:web:status:2026q1-sn-hub:proxy-api`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/01/01
+* end-date: 2026/01/22
 
-### Mobile Layout and Responsiveness
+#### Description
 
-* fully qualified name: `vac:web:status:2026q1-sn-hub:mobile-layout-responsiveness`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+- Status RPC proxy
+- Status Market proxy
+- Dedicated credentials and quota
 
 ### Depositing
 
 * fully qualified name: `vac:web:status:2026q1-sn-hub:depositing`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jinhojang6
+* status: not started
+* start-date: 2026/01/01
+* end-date: 2026/01/15
+
+Description
+
+- GUSD vault
+
+### Karma Evolution
+
+* fully qualified name: `vac:web:status:2026q1-sn-hub:karma-evolution`
+* owner: jkbktl
+* status: not started
+* start-date: 2026/01/08
+* end-date: 2026/01/29
+
+#### Description
+
+- Karma progress
+- Transaction allowance
 
 ### NFT Evolution
 
 * fully qualified name: `vac:web:status:2026q1-sn-hub:nft-evolution`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/01/08
 * end-date: 2026/01/31
 
 #### Description
@@ -63,24 +92,23 @@ The SN Hub development will support Status Network's strategic objectives by:
 ### Backend
 
 * fully qualified name: `vac:web:status:2026q1-sn-hub:backend`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
+* owner: jinhojang6
+* status: not started
+* start-date: 2026/01/15
 * end-date: 2026/02/28
 
 #### Description
 
 - Leaderboard
-- Karma claiming
 - App discovery
 
 ### QA
 
 * fully qualified name: `vac:web:status:2026q1-sn-hub:qa`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jkbktl
+* status: not started
+* start-date: 2026/01/15
+* end-date: 2026/01/29
 
 #### Description
 
@@ -89,20 +117,23 @@ The SN Hub development will support Status Network's strategic objectives by:
 ### Selfhosting
 
 * fully qualified name: `vac:web:status:2026q1-sn-hub:selfhosting`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/01/15
+* end-date: 2026/01/29
 
+### Translations
 
-### Gas quota system
+* fully qualified name: `vac:web:status:2026q1-sn-hub:i18n`
+* owner: jinhojang6
+* status: not started
+* start-date: 2026/01/22
+* end-date: 2026/02/05
 
-* fully qualified name: `vac:web:status:2026q1-sn-hub:gas-quota-system`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+### SEO
 
-#### Description
-
-- Transactions available per account
+* fully qualified name: `vac:web:status:2026q1-sn-hub:seo`
+* owner: jkbktl
+* status: not started
+* start-date: 2026/01/22
+* end-date: 2026/02/05

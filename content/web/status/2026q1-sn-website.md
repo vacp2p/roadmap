@@ -26,36 +26,44 @@ The SN website development will support Status Network's strategic objectives by
 ### SEO
 
 * fully qualified name: `vac:web:status:2026q1-sn-website:seo`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/01/29
+* end-date: 2026/02/12
 
 ### Translations
 
 * fully qualified name: `vac:web:status:2026q1-sn-website:translations`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jinhojang6
+* status: not started
+* start-date: 2026/01/29
+* end-date: 2026/02/12
+
+#### Description
+
+- Public contribution flow https://github.com/status-im/translate.status.im?tab=readme-ov-file
 
 ### Analytics
 
 * fully qualified name: `vac:web:status:2026q1-sn-website:analytics`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jkbktl
+* status: not started
+* start-date: 2026/02/05
+* end-date: 2026/02/19
 
 #### Description
 
-- UTMs
-- Campaign tag management
+- Campaign tag management https://www.notion.so/Tracking-Pixels-2a48f96fb65c80fba723f26e272a976e
 
 ### Selfhosting
 
 * fully qualified name: `vac:web:status:2026q1-sn-website:selfhosting`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/02/05
+* end-date: 2026/02/19
+
+#### Description
+
+- Infra team's CDN guarantees
+- Infra team's automated CI

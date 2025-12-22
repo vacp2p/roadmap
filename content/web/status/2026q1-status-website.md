@@ -27,18 +27,18 @@ The Status website optimization will support Status' strategic objectives by:
 ### SEO
 
 * fully qualified name: `vac:web:status:2026q1-status-website:seo`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jinhojang6
+* status: not started
+* start-date: 2026/02/12
+* end-date: 2026/02/26
 
 ### Translations
 
 * fully qualified name: `vac:web:status:2026q1-status-website:translations`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jkbktl
+* status: not started
+* start-date: 2026/02/12
+* end-date: 2026/02/26
 
 #### Description
 
@@ -49,15 +49,15 @@ The Status website optimization will support Status' strategic objectives by:
 ### Copy Changes, Section Reduction
 
 * fully qualified name: `vac:web:status:2026q1-status-website:copy-changes-section-reduction`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/02/19
+* end-date: 2026/03/05
 
 ### Selfhosting
 
 * fully qualified name: `vac:web:status:2026q1-status-website:selfhosting`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jinhojang6
+* status: not started
+* start-date: 2026/02/26
+* end-date: 2026/03/12

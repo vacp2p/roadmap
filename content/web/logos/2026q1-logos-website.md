@@ -24,58 +24,58 @@ The Logos website enhancement will support Logos' strategic objectives by:
 
 ## Task List
 
-### Spaces/Calendar
-
-* fully qualified name: `vac:web:logos:2026q1-logos-website:spaces-calendar`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
-
 ### Contribute Portal
 
 * fully qualified name: `vac:web:logos:2026q1-logos-website:contribute-portal`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jkbktl
+* status: not started
+* start-date: 2026/03/05
+* end-date: 2026/03/19
 
 #### Description
 
 - Leaderboard
+- Legal team review
+- EcoDev team review
 
 ### Admin
 
 * fully qualified name: `vac:web:logos:2026q1-logos-website:admin`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/03/12
+* end-date: 2026/03/26
 
 #### Description
 
 - Production release
+- Infra team's pipeline
 
 ### CRM
 
 * fully qualified name: `vac:web:logos:2026q1-logos-website:crm`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jinhojang6
+* status: not started
+* start-date: 2026/03/12
+* end-date: 2026/03/31
+
+#### Description
+
+- https://miro.com/app/board/uXjVJiMfUbo=/
+- https://discord.com/channels/864066763682218004/1440632286365224992
 
 ### CMS/Sanity
 
 * fully qualified name: `vac:web:logos:2026q1-logos-website:cms-sanity`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jkbktl
+* status: not started
+* start-date: 2026/03/19
+* end-date: 2026/03/31
 
 ### Selfhosting
 
 * fully qualified name: `vac:web:logos:2026q1-logos-website:selfhosting`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/03/19
+* end-date: 2026/03/31

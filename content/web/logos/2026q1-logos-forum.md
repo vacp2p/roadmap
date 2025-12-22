@@ -33,10 +33,10 @@ The Logos Forum optimization will support Logos' strategic objectives by:
 ### Custom Domain Email Support
 
 * fully qualified name: `vac:web:logos:2026q1-logos-forum:custom-domain-email-support`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jinhojang6
+* status: not started
+* start-date: 2026/03/05
+* end-date: 2026/03/19
 
 #### Description
 
@@ -45,10 +45,10 @@ The Logos Forum optimization will support Logos' strategic objectives by:
 ### Cooldown Bypass System
 
 * fully qualified name: `vac:web:logos:2026q1-logos-forum:cooldown-bypass-system`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jkbktl
+* status: not started
+* start-date: 2026/03/12
+* end-date: 2026/03/26
 
 #### Description
 
@@ -59,10 +59,10 @@ The Logos Forum optimization will support Logos' strategic objectives by:
 ### First Post Intro Flow
 
 * fully qualified name: `vac:web:logos:2026q1-logos-forum:first-post-intro-flow`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/03/19
+* end-date: 2026/03/31
 
 #### Description
 
@@ -75,10 +75,10 @@ The Logos Forum optimization will support Logos' strategic objectives by:
 ### Content Visibility
 
 * fully qualified name: `vac:web:logos:2026q1-logos-forum:content-visibility`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jinhojang6
+* status: not started
+* start-date: 2026/03/19
+* end-date: 2026/03/31
 
 #### Description
 

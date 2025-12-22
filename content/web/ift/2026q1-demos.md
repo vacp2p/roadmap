@@ -28,47 +28,47 @@ The demos commitment supports IFT's strategic objectives by:
 ### Biweekly 1 - IFT Townhall Demo
 
 * fully qualified name: `vac:web:ift:2026q1-demos:biweekly-1-ift-townhall`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/01/15
+* end-date: 2026/01/22
 
 ### Biweekly 2 - IFT Townhall Demo
 
 * fully qualified name: `vac:web:ift:2026q1-demos:biweekly-2-ift-townhall`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jinhojang6
+* status: not started
+* start-date: 2026/01/29
+* end-date: 2026/02/05
 
 ### Biweekly 3 - IFT Townhall Demo
 
 * fully qualified name: `vac:web:ift:2026q1-demos:biweekly-3-ift-townhall`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jkbktl
+* status: not started
+* start-date: 2026/02/12
+* end-date: 2026/02/19
 
 ### Biweekly 4 - IFT Townhall Demo
 
 * fully qualified name: `vac:web:ift:2026q1-demos:biweekly-4-ift-townhall`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/02/26
+* end-date: 2026/03/05
 
 ### Biweekly 5 - IFT Townhall Demo
 
 * fully qualified name: `vac:web:ift:2026q1-demos:biweekly-5-ift-townhall`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jinhojang6
+* status: not started
+* start-date: 2026/03/12
+* end-date: 2026/03/19
 
 ### Biweekly 6 - IFT Townhall Demo
 
 * fully qualified name: `vac:web:ift:2026q1-demos:biweekly-6-ift-townhall`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jkbktl
+* status: not started
+* start-date: 2026/03/26
+* end-date: 2026/03/31

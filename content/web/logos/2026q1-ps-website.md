@@ -27,15 +27,15 @@ The Parallel Society website will support Logos' strategic objectives by:
 ### Layout
 
 * fully qualified name: `vac:web:logos:2026q1-ps-website:layout`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jinhojang6
+* status: not started
+* start-date: 2026/03/12
+* end-date: 2026/03/26
 
 ### Ticketing
 
 * fully qualified name: `vac:web:logos:2026q1-ps-website:ticketing`
-* owner: <github/disord name of the CC responsible for this task>
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: jkbktl
+* status: not started
+* start-date: 2026/03/19
+* end-date: 2026/03/31

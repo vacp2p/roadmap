@@ -31,6 +31,7 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 - **GitHub Issues Integration**: Display curated issues from contribute.logos.co repository
 
 ## Task List
+
 ### Contributor Directory
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:contributor-directory`
@@ -101,6 +102,7 @@ Plumb BI-provided GitHub datasets into the portal to power contributor metrics a
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
+- API by BI team
 
 ### Leaderboard
 

@@ -23,8 +23,8 @@ This commitment involves supporting the continued development of the Status App 
 ### Upgrade Waku
 
 * fully qualified name: `vac:web:status:2025q4-status-app:upgrade-waku`
-* owner: jkbktl
-* status: in progress (95%)
+* owner: JulesFiliot
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -39,8 +39,8 @@ Align Status web surfaces with the upcoming Waku upgrade, covering SDK updates a
 ### Community Shards
 
 * fully qualified name: `vac:web:status:2025q4-status-app:community-shards`
-* owner: nnachionuwa
-* status: not started
+* owner: JulesFiliot
+* status: in progress (98%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

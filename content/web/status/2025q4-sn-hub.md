@@ -40,7 +40,7 @@ The Status Network Hub will support Status Network's strategic objectives by:
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:release-support`
 * owner: jkbktl
-* status: in progress (99%)
+* status: done
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
@@ -70,7 +70,7 @@ Ship the WalletConnect onboarding and session management flows so users can safe
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:staking`
 * owner: isaac
-* status: in progress (96%)
+* status: done
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
@@ -87,7 +87,7 @@ Build the staking dashboard that displays yields, validator options, and lets us
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:feedback`
 * owner: jkbktl
-* status: in progress (90%)
+* status: done
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 
@@ -131,7 +131,7 @@ Surface curated dApps, pools, and governance opportunities in a discovery view t
 
 * fully qualified name: `vac:web:status:2025q4-sn-hub:karma`
 * owner: jkbktl
-* status: in progress (95%)
+* status: done
 * start-date: 2025/09/05
 * end-date: 2025/11/30
 

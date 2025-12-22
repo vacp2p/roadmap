@@ -55,7 +55,7 @@ Localize the Keycard site and docs so core pages ship in the priority languages 
 
 * fully qualified name: `vac:web:keycard:2025q4-keycard-website:help`
 * owner: jkbktl
-* status: in progress (40%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -71,7 +71,7 @@ Author the help center covering setup, troubleshooting, and FAQs for both Keycar
 
 * fully qualified name: `vac:web:keycard:2025q4-keycard-website:start-guide`
 * owner: jkbktl
-* status: not started
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -84,8 +84,8 @@ Create a step-by-step getting started guide that walks new users through secure 
 ### Maintenance
 
 * fully qualified name: `vac:web:keycard:2025q4-keycard-website:maintenance`
-* owner: Jakub
-* status: in progress (60%)
+* owner: jkbktl
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

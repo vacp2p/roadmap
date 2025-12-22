@@ -28,6 +28,9 @@ tags:
 ### `logos:`
 * [[qa/logos/2026q1-logos-core|logos-core ]]
 
+### `anoncomms:`
+* [[qa/logos/2026q1-anoncomms-testing|anoncomms-testing ]]
+
 ---
 
 ## 2025q4 `vac:qa:`

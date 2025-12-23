@@ -82,6 +82,8 @@ The Logos website will support the volunteer-driven community building strategy 
 Finalize the responsive site layout, navigation structure, and page templates for the refreshed Logos web experience.
 
 #### Deliverables
+- [Adjust padding for responsive layout in WideMedia component](https://github.com/acid-info/logos/pull/23)
+- [Update copy writing and content in CMS](https://docs.google.com/spreadsheets/d/1uzdD6CA-BaotPJQ9GNGzhkuDkmJauSS1MJvkppeQ84g/edit?gid=0#gid=0)
 - [Deployed agency layout code with background video, interactive maps, manifesto page, and analytics instrumentation](https://github.com/acid-info/logos/commits/main/)
 - [Fixed the mobile UI issue with the email form](https://github.com/acid-info/logos/pull/14)
 - [Add Luma calendar embed iframe to the logos-circles page](https://github.com/acid-info/logos/pull/17)
@@ -184,6 +186,7 @@ Prototype an interactive map that visualizes Logos circles and makes it easy to 
 Embed an events calendar that aggregates upcoming Spaces sessions and community gatherings.
 
 #### Deliverables
+- [Add ChartWithModal component](https://github.com/acid-info/admin-acid.logos.co/pull/26)
 - Spaces Calendar frontend/backend iteration (CSV import, charting, staging deploy): [PR21](https://github.com/acid-info/admin-acid.logos.co/pull/21), [preview](https://logos-admin-git-spaces-calendar-features-acidinfo.vercel.app/spaces-calendar?tab=list).
 - Circles calendar proof-of-concept with real Luma data: [PR16](https://github.com/acid-info/logos-co/pull/16), [preview](https://logos-co-rvlb-git-implement-spaces-calendar-acidinfo.vercel.app/spaces-calendar).
 - Circles map PoC: [PR15](https://github.com/acid-info/logos-co/pull/15), [preview](https://logos-co-rvlb-git-implement-events-acidinfo.vercel.app/map).
@@ -277,7 +280,7 @@ Implement site-wide search that surfaces content across product pages, docs, and
 
 * fully qualified name: `vac:web:ift:2025q4-logos-website:social-proof`
 * owner: JulesFiliot
-* status: in progress (70%)
+* status: in progress (90%)
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -288,6 +291,7 @@ Implement site-wide search that surfaces content across product pages, docs, and
 - Members
 
 #### Deliverables
+- [status-im/data-docs#137](https://github.com/status-im/data-docs/issues/137) Retrieve number of circles
 
 > https://www.figma.com/design/hyehOA8iMTDiazHy4IDL6D/Logos-2?node-id=46-2287&p=f&t=fxzLuvGuIGzW0LaG-0
 > https://github.com/acid-info/logos-co

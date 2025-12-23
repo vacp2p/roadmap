@@ -109,6 +109,8 @@ Implement the logic for `GET_VALUE` and `GET_PROVIDERS`. Implement validation an
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- [vacp2p/nim-libp2p#1980](https://github.com/vacp2p/nim-libp2p/pull/1980) chore(kad): GetProviders retries only failed peers
+- [vacp2p/nim-libp2p#1975](https://github.com/vacp2p/nim-libp2p/pull/1975) chore(kad): iterative get providers
 - [vacp2p/nim-libp2p#1764](https://github.com/vacp2p/nim-libp2p/pull/1764) chore(kad): add alpha handling
 - [vacp2p/nim-libp2p#1750](https://github.com/vacp2p/nim-libp2p/pull/1750) feat(kad): add getValue
 - [vacp2p/nim-libp2p#1765](https://github.com/vacp2p/nim-libp2p/pull/1765) chore(kad): getVal loop improvements
@@ -143,6 +145,7 @@ Extend nim-libp2p discovery mechanism by providing a discovery interface that wi
 Ensure interop is achieved between nim-libp2p's kad-dht implementation and other libp2p implementations
 
 #### Deliverables
+- [vacp2p/nim-libp2p#1902](https://github.com/vacp2p/nim-libp2p/pull/1902) chore(kad): interop tests
 - [Kad PUT_VALUE response deviating from the spec](https://github.com/libp2p/rust-libp2p/issues/6217)
 - [Re-enable rust interop kad tests when they adhere to the spec](https://github.com/vacp2p/nim-libp2p/issues/1915)
 - [LPProtocol should have `method handler`](https://github.com/vacp2p/nim-libp2p/issues/1913)

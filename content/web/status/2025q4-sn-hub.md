@@ -49,6 +49,10 @@ The Status Network Hub will support Status Network's strategic objectives by:
 Coordinate SN Hub release rollout and address immediate post-launch fixes.
 
 #### Deliverables
+- [status-im/status-web#902](https://github.com/status-im/status-web/issues/902) Debugging TVL on VPN
+- [status-im/status-web#893](https://github.com/status-im/status-web/pull/893) Redirecting to hub
+- [status-im/status-web#891](https://github.com/status-im/status-web/pull/891) add faq to pre-deposit page
+- [status-im/status-web#890](https://github.com/status-im/status-web/pull/890) add pre-deposit disclaimer
 - [status-im/status-web#827](https://github.com/status-im/status-web/pull/827) initial SN Hub release
 - [status-im/status-web#887](https://github.com/status-im/status-web/pull/887) post-release bugfixes and refactors
 

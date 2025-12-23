@@ -31,7 +31,7 @@ By the end of this quarter, we aim to have made significant progress on these fr
 
 * fully qualified name: `vac:nim:ift:2025q4-nimble:nimble-1.0.0`
 * owner: jmgomez
-* status: in progress (70%)
+* status: in progress (90%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -40,6 +40,8 @@ By the end of this quarter, we aim to have made significant progress on these fr
 All the relevant information can be found in [this GitHub issue](https://github.com/nim-lang/nimble/issues/1449).
 
 #### Deliverables
+- [Track git errors during package discovery and show them](https://github.com/nim-lang/nimble/pull/1542)
+- [Nim special version can be used in requires](https://github.com/nim-lang/nimble/pull/1539)
 - [Fixes #1495 ^= version operator yields warning](https://github.com/nim-lang/nimble/pull/1530)
 - [Cleans up dep logs. Fixes #1487](https://github.com/nim-lang/nimble/pull/1529)
 - [Package downloads improvements](https://github.com/nim-lang/nimble/pull/1526)

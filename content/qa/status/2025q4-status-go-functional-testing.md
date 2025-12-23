@@ -20,7 +20,7 @@ with focus on wallet, settings and waku methods.
 
 * fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:wallet`
 * owner: roman
-* status: in progress (30%)
+* status: in progress (35%)
 * start-date: 2025/10/01
 * end-date: 2025/12/01
 
@@ -121,6 +121,7 @@ This includes updating tests for changes in `status-go`, addressing regressions,
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
+- [Simplify SignalClient](https://github.com/status-im/status-go/issues/7091)
 - [test: Remove usage of setup_backends fixture approach](https://github.com/status-im/status-go/pull/7176)
 - [test: move scan_waku_fleet.py to a separate container](https://github.com/status-im/status-go/pull/7202)
 - [test: replace usage of close status backend containers with backend new profile fixture approach](https://github.com/status-im/status-go/pull/7162)

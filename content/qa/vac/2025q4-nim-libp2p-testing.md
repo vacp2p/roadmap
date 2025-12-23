@@ -22,7 +22,7 @@ Improve stability by addressing flaky tests and extend coverage for Identify/Pus
 
 * fully qualified name: `vac:qa:vac:2025q4-nim-libp2p-testing:test-plans`
 * owner: radek
-* status: in progress (35%)
+* status: in progress (70%)
 * start-date: 2025/10/01
 * end-date: 2025/10/20
 
@@ -34,6 +34,8 @@ Develop test plans for features currently under development:
 - Kademlia  
 
 #### Deliverables
+- [Mix test plan](https://www.notion.so/Mix-2cb8f96fb65c80b99b1ccc1181a19666)
+- [Kademlia test plan](https://www.notion.so/Kademlia-DHT-2ce8f96fb65c808c816ff99d728a6670)
 - [QUIC test plan](https://www.notion.so/QUIC-28b8f96fb65c8018b6cdc21882cfd98a)
 
 ---

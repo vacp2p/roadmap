@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (84%)
+* status: in progress (91%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -36,6 +36,8 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#1972](https://github.com/vacp2p/nim-libp2p/pull/1972) chore: reduce size of docker image
+- [vacp2p/nim-libp2p#1934](https://github.com/vacp2p/nim-libp2p/pull/1934) chore: allFuturesThrowing renamed to allFuturesRaising
 - [test(tools): rng singleton](https://github.com/vacp2p/nim-libp2p/pull/1895)
 - [PR 1874: test(waitgroup): fix tight timeouts](https://github.com/vacp2p/nim-libp2p/pull/1874)
 - [PR 1872: test: add wait group](https://github.com/vacp2p/nim-libp2p/pull/1872)

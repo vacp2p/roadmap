@@ -30,4 +30,5 @@ https://github.com/status-im/
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- [Status account X tag dashboard](https://grafana.bi.status.im/d/ef79c393sp5hce/status-twitter-tags?orgId=1&from=2025-09-13T00:00:00.000Z&to=2025-12-22T00:00:00.000Z&timezone=UTC)
 - PRs/Issues/Docs/Reports

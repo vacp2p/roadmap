@@ -24,7 +24,7 @@ Enable IPv6 in nim-libp2p end-to-end so users of the library can run dual-stack 
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-ipv6:transport`
 * owner: vlado
-* status: in progress (50%)
+* status: in progress (75%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

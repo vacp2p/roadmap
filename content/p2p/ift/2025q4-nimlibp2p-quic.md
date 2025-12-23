@@ -24,7 +24,7 @@ In Q3 we discovered critical deficiencies in nim-quic, including runtime instabi
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-quic:stabilization`
 * owner: vlado/rramos
-* status: in progress (84%)
+* status: in progress (91%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -33,6 +33,14 @@ Resolve runtime crashes, race conditions and excessive memory use in nim-quic. T
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- [vacp2p/nim-lsquic#44](https://github.com/vacp2p/nim-lsquic/pull/44) chore: export via root file
+- [vacp2p/nim-lsquic#43](https://github.com/vacp2p/nim-lsquic/pull/43) chore: remove unused proc `receive`
+- [vacp2p/nim-lsquic#42](https://github.com/vacp2p/nim-lsquic/pull/42) refactor: export everything via api file
+- [vacp2p/nim-lsquic#41](https://github.com/vacp2p/nim-lsquic/pull/41) refactor: simplify ConnectionManager
+- [vacp2p/nim-lsquic#40](https://github.com/vacp2p/nim-lsquic/pull/40) fix: use absolute path for windows assembly
+- [vacp2p/nim-lsquic#38](https://github.com/vacp2p/nim-lsquic/pull/38) chore: use makefile for windows
+- [vacp2p/nim-lsquic#37](https://github.com/vacp2p/nim-lsquic/pull/37) chore: improvements
+- [vacp2p/nim-libp2p#1876](https://github.com/vacp2p/nim-libp2p/pull/1876) feat(transports): lsquic
 - [vacp2p/nim-libp2p#1966](https://github.com/vacp2p/nim-libp2p/pull/1966) fix: close streams concurrently
 - [status-im/nim-eth#834](https://github.com/status-im/nim-eth/pull/834) feat(nat): support multiple ports
 - [vacp2p/nim-libp2p#1968](https://github.com/vacp2p/nim-libp2p/pull/1968) test(gossipsub): making tests more robust pr9

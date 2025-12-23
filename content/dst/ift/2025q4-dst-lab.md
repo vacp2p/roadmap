@@ -54,7 +54,7 @@ Provide all needed resources to do this deployment, and also document how it can
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-lab:lab-duplication`
 * owner: Mamoutou
-* status: in progress (75%)
+* status: in progress (85%)
 * start-date: 2025/12/01
 * end-date: 2025/12/31
 
@@ -68,6 +68,7 @@ is documented for future reference.
 #### Deliverables
 - Code:
 - Reports:
+  - [Notion: Vaclab 2.0 - Bandwidth-Aware Scheduling](https://www.notion.so/Vaclab-2-0-Bandwidth-Aware-Scheduling-2d08f96fb65c804eb44fdc7b75e079f9)
   - [Notion: CNI Comparison for reproducible P2P Experiments](https://www.notion.so/Vaclab-2-0-Multi-tenancy-Pod-Networking-2c98f96fb65c817c819ffc0923d28092?source=copy_link#2c98f96fb65c814d9978cd0246c61e06)
   - [Notion: Vaclab 1.0 - Current Stack](https://www.notion.so/Vaclab-1-0-Current-Stack-2c98f96fb65c8020abadfcb9494a9711)
   - [Notion: Vaclab 2.0 - Multi-tenancy & Pod Networking](https://www.notion.so/Vaclab-2-0-Multi-tenancy-Pod-Networking-2c98f96fb65c817c819ffc0923d28092)

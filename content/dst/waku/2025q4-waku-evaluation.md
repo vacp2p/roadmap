@@ -83,7 +83,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-evaluation:nwaku-api-image`
 * owner: Pearson
-* status: in progress (50%)
+* status: in progress (60%)
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -105,9 +105,9 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-evaluation:nwaku-v0.37-bandwidth-regression`
 * owner: Farooq
-* status: in progress (85%)
+* status: done
 * start-date: 2025/11/27
-* end-date: 2025/12/12
+* end-date: 2025/12/23
 
 #### Description
 Set a baseline 1K nodes 1msg/s 1KB scenario with only relay nodes, + 3 bootstrap nodes.
@@ -120,6 +120,7 @@ Depending on the results, we will iterate on further followups.
 
 #### Deliverables
 - Reports:
+- [Notion nwaku regression report: Open Streams (1K Relay + 3-Bootstrap Nodes)](https://www.notion.so/Open-Streams-1K-Relay-3-Bootstrap-Nodes-2cc8f96fb65c80cabec6f78196a9c47a?pvs=25)
 - [Notion: 1K Relay + 3-Bootstrap Nodes](https://www.notion.so/1K-Relay-3-Bootstrap-Nodes-2bb8f96fb65c8036b66ef85fff17c515)
 - Related PRs if apply:
 
@@ -128,9 +129,9 @@ Depending on the results, we will iterate on further followups.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-evaluation:nwaku-v0.37-store-regression`
 * owner: Farooq
-* status: in progress (75%)
+* status: done
 * start-date: 2025/11/27
-* end-date: 2025/12/12
+* end-date: 2025/12/23
 
 #### Description
 Experiment with different sizes of an experiment setup to better test store protocol. 

@@ -32,6 +32,8 @@ Oversee testing strategy around releases.
   to the testing framework as needed.
 
 #### Deliverables
+- [Can't build Windows locally](https://github.com/status-im/status-app/issues/19608)
+- [Selecting Aragon token for permission creation fails the process](https://github.com/status-im/status-app/issues/19597)
 - [chore(@e2e): fixes for tests on windows](https://github.com/status-im/status-desktop/pull/19406)
 - [chore(@e2e): try to close popup multiple times](https://github.com/status-im/status-desktop/pull/19386)
 - [windows: investigate failures for 1x1 chat](https://github.com/status-im/status-desktop/issues/19388)

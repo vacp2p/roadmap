@@ -19,14 +19,16 @@ Provide upkeep, bug fixes, and small improvements for existing web properties ac
 
 * fully qualified name: `vac:web:ift:2025q4-maintenance:maintenance`
 * owner: JulesFiliot
-* status: in progress (50%)
+* status: done
 * start-date: 2025/10/01
-* end-date: 2025/12/31
+* end-date: 2025/12/23
 
 #### Description
 Handle routine maintenance tickets, dependency bumps, and production support for shipped web projects.
 
 #### Deliverables
+- [logos-press-engine: Replace broken link with active discord link](https://github.com/acid-info/logos-press-engine/pull/249)
+- [parallel-society: Add Umami analytics script](https://github.com/acid-info/parallel-society/pull/1)
 - [status-web: upgrade Next.js to patch vulnerabilities](https://github.com/status-im/status-web/pull/886)
 - [status-web: Improve tag width calculation for better chart label](https://github.com/status-im/status-web/pull/868)
 - [status-web: Restrict analytics domains for Status Hub](https://github.com/status-im/status-web/pull/867)

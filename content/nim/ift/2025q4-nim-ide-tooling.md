@@ -28,4 +28,4 @@ Deliver stability fixes and workflows for Nimlangserver and related IDE tooling,
 Harden Nimlangserver behavior (graceful shutdown, error handling) and document debugging practices to unblock contributors until upstream replacements land.
 
 #### Deliverables
-- PRs
+- [nim-lang/langserver#376](https://github.com/nim-lang/langserver/issues/376) langserver fails to run for langserver project

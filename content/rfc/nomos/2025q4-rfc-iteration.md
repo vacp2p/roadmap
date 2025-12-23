@@ -107,7 +107,7 @@ Create the RFC for the Cryptarchia fork choice rule logic and safety guarantees.
 
 - fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:total-stake-inference`
 - owner: cofson
-- status: not started
+- status: in progress (90%)
 - start-date: 2025/12/01
 - end-date: 2025/12/15
 
@@ -121,7 +121,7 @@ Create the RFC for total stake inference and state tracking within Cryptarchia.
 
 - fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:proof-of-leadership-specification`
 - owner: cofson
-- status: not started
+- status: in progress (90%)
 - start-date: 2025/12/20
 - end-date: 2025/12/31
 

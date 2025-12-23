@@ -60,9 +60,9 @@ Localize Status web properties and ensure translated content keeps parity with p
 
 * fully qualified name: `vac:web:status:2025q4-status-website:seo`
 * owner: jinhojang6
-* status: in progress (90%)
+* status: done
 * start-date: 2025/10/01
-* end-date: 2025/12/31
+* end-date: 2025/12/23
 
 #### Description
 Optimize Status web SEO fundamentals—performance, structured data, and metadata—to grow organic reach.

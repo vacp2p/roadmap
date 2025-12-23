@@ -113,12 +113,12 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 - Related Documents:
 
 
-### Scenario workflow manager
+### Local Stack Analysis
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:local-stack-analysis`
-* owner: TBD
-* status: not started
-* start-date: 2025/10/01
+* owner: Farooq
+* status: 15%
+* start-date: 2025/12/18
 * end-date: 2025/12/31
 
 #### Description

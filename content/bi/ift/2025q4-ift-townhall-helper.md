@@ -22,7 +22,7 @@ In order to help the Townhall organisation, a list of recent forum post, release
 
 * fully qualified name: `vac:bi:ift:2025q4-ift-townhall-helper:prepare-media-and-content`
 * owner: nickninov
-* status: in progress (60%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

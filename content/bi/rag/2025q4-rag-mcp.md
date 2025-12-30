@@ -20,7 +20,7 @@ Prototype a Model Context Protocol workflow so BI’s RAG data sources and evalu
 
 * fully qualified name: `vac:bi:rag:2025q4-rag-mcp:poc`
 * owner: nickninov
-* status: in progress (20%)
+* status: done
 * start-date: 2025/11/01
 * end-date: 2025/12/31
 

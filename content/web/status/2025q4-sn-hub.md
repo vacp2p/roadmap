@@ -143,7 +143,7 @@ Surface curated dApps, pools, and governance opportunities in a discovery view t
 Implement the Karma scoring module that rewards participation and unlocks network perks.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [status-im/status-web#902](https://github.com/status-im/status-web/issues/902) Debugging TVL on VPN
 
 ### Notifications
 

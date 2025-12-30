@@ -41,7 +41,7 @@ Airbyte connectors for :
 
 * fully qualified name: `vac:bi:logos:2025q4-logos-winnable-stories:find-sm-accounts`
 * owner: c2000bzh and nickninov
-* status: in progress (50%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -61,7 +61,7 @@ Regroup various sources to find the best account to follows
 
 * fully qualified name: `vac:bi:logos:2025q4-logos-winnable-stories:launch-strategy-insights`
 * owner: c2000bzh
-* status: in progress (15%)
+* status: done
 * start-date: 2025/11/04
 * end-date: 2025/12/31
 

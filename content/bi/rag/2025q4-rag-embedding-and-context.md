@@ -20,7 +20,7 @@ Improve RAG embedding by includind crypto context.
 
 * fully qualified name: `vac:bi:rag:2025q4-rag-embedding-and-context:improve-rag-embedding`
 * owner: nickninov
-* status: in progress (15%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

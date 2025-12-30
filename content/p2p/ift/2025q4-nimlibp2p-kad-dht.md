@@ -61,7 +61,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:network-maintenance-node-management`
 * owner: gabe
-* status: in progress (50%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -78,7 +78,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:data-storage`
 * owner: gabe
-* status: in progress (90%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -100,7 +100,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:data-retrieval`
 * owner: gabe
-* status: in progress (90%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -123,7 +123,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:discovery`
 * owner: gabe
-* status: in progress (45%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -137,7 +137,7 @@ Extend nim-libp2p discovery mechanism by providing a discovery interface that wi
 ### Interop
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-kad-dht:interop`
 * owner: gabe
-* status: in progress (70%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

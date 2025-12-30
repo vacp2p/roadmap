@@ -21,7 +21,7 @@ Work includes thematic styling, content ingestion automation, and ensuring partn
 
 * fully qualified name: `vac:bi:ift:2025q4-ift-weekly-news:site-maintenance`
 * owner: c2000bzh
-* status: in progress (65%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

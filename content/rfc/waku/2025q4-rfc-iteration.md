@@ -40,7 +40,7 @@ editorial work through previous and future RFCs to improve them
 
 - fully qualified name: `vac:rfc:waku:2025q4-rfc-iteration:opchan`
 - owner: jimstir
-- status: in progress (90%)
+- status: done
 - start-date: 2025/11/01
 - end-date: 2025/11/30
 
@@ -48,4 +48,4 @@ editorial work through previous and future RFCs to improve them
 Create the RFC for Opchan reflecting the latest Waku channel architecture and open questions.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [New RFC: OpChan](https://github.com/logos-messaging/specs/pull/98)

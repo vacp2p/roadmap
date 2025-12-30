@@ -57,7 +57,7 @@ ensure there are no failures, and analyze CPU and memory performance.
 
 * fully qualified name: `vac:qa:waku:2025q4-waku-testing:rendezvous`
 * owner: aya
-* status: in progress (20%)
+* status: done
 * start date: 2025/10/16
 * end date: 2025/10/26
 
@@ -90,7 +90,7 @@ Extend Waku end-to-end tests with network condition scenarios (high latency, low
 
 * fully qualified name: `vac:qa:waku:2025q4-waku-testing:maintenance`
 * owner: fbarbu15
-* status: in progress (80%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/30
 

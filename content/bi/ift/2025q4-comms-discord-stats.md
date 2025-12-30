@@ -20,7 +20,7 @@ Collect, analyse, and publish Discord channel statistics requested by the commun
 
 * fully qualified name: `vac:bi:ift:2025q4-comms-discord-stats`
 * owner: nickninov
-* status: in progress (65%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

@@ -21,7 +21,7 @@ Extract the transcript from Youtube video to use it for RAG context and other po
 
 * fully qualified name: `vac:bi:rag:2025q4-rag-context-improvement:add-code-chunking`
 * owner: nickninov
-* status: in progress (50%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -44,7 +44,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:bi:rag:2025q4-rag-context-improvement:google-meeting-transcript`
 * owner: nickninov
-* status: in progress (20%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

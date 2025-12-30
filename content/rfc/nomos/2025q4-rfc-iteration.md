@@ -79,7 +79,7 @@ Create the RFC for the Cryptarchia v1 protocol covering validators, messages, an
 
 - fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:cryptarchia-v1-bootstrapping-and-synchronization`
 - owner: cofson
-- status: not started
+- status: in progress (90%)
 - start-date: 2025/11/01
 - end-date: 2025/11/15
 
@@ -107,7 +107,7 @@ Create the RFC for the Cryptarchia fork choice rule logic and safety guarantees.
 
 - fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:total-stake-inference`
 - owner: cofson
-- status: in progress (90%)
+- status: done
 - start-date: 2025/12/01
 - end-date: 2025/12/15
 
@@ -115,13 +115,13 @@ Create the RFC for the Cryptarchia fork choice rule logic and safety guarantees.
 Create the RFC for total stake inference and state tracking within Cryptarchia.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [Add Cryptarchia Total Stake Inference specification](https://github.com/vacp2p/rfc-index/pull/236)
 
 ### Proof of Leadership Specification
 
 - fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:proof-of-leadership-specification`
 - owner: cofson
-- status: in progress (90%)
+- status: done
 - start-date: 2025/12/20
 - end-date: 2025/12/31
 
@@ -129,13 +129,13 @@ Create the RFC for total stake inference and state tracking within Cryptarchia.
 Create the RFC for the proof of leadership mechanism, including leader election and validation criteria.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [Add Cryptarchia Proof of Leadership Specification](https://github.com/vacp2p/rfc-index/pull/231)
 
 ### Blend Network
 
 - fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:blend-network`
 - owner: cofson
-- status: in progress (50%)
+- status: done
 - start-date: 2025/11/17
 - end-date: 2025/12/15
 
@@ -143,4 +143,4 @@ Create the RFC for the proof of leadership mechanism, including leader election 
 Produce the Blend Network specification capturing protocol goals, component interactions, and open questions gathered from the latest internal specs review.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [Created nomos/raw/nomos-blend-protocol.md file](https://github.com/vacp2p/rfc-index/pull/213)

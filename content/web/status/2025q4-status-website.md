@@ -53,7 +53,7 @@ The Status website optimization will support Status' strategic objectives by:
 Localize Status web properties and ensure translated content keeps parity with product updates.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [status-im/status-web#895](https://github.com/status-im/status-web/pull/895) Implemented technical SEO updates
 
 
 ### SEO  

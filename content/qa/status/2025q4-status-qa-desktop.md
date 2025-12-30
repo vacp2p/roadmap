@@ -21,9 +21,9 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (80%)
+* status: done
 * start-date: 2025/10/01
-* end-date: 2025/12/31
+* end-date: 2025/12/30
 
 #### Description
 - Ongoing maintenance of Status Desktop tests.  
@@ -32,6 +32,12 @@ Oversee testing strategy around releases.
   to the testing framework as needed.
 
 #### Deliverables
+- [status-im/status-app#19642](https://github.com/status-im/status-app/pull/19642) chore(@e2e): add clearing group chat history
+- [status-im/status-app#19630](https://github.com/status-im/status-app/pull/19630) chore(@e2e): fix community link verifications
+- [Community shows 0 members when using Join community button from the Portal](https://github.com/status-im/status-app/issues/19643)
+- [[Windows] Crash on login](https://github.com/status-im/status-app/issues/19631)
+- [Can't send ETH after importing seed to clean app](https://github.com/status-im/status-app/issues/19641)
+- [windows: investigate failure for minting community tokens test](https://github.com/status-im/status-app/issues/19390)
 - [Can't build Windows locally](https://github.com/status-im/status-app/issues/19608)
 - [Selecting Aragon token for permission creation fails the process](https://github.com/status-im/status-app/issues/19597)
 - [chore(@e2e): fixes for tests on windows](https://github.com/status-im/status-desktop/pull/19406)
@@ -76,7 +82,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:release-testing`
 * owner: nastya
-* status: in progress (50%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -107,7 +113,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:app-load-time`
 * owner: nastya
-* status: in progress (70%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/11/01
 
@@ -141,9 +147,9 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:qt6-migration`
 * owner: nastya
-* status: in progress (30%)
+* status: done
 * start-date: 2025/10/01
-* end-date: 2025/10/25
+* end-date: 2025/12/30
 
 #### Description
 - Work with developers and infra team.  
@@ -195,9 +201,9 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:qa:status:2025q4-status-qa-desktop:local-backup`
 * owner: nastya
-* status: in progress (75%)
+* status: done
 * start-date: 2025/10/07
-* end-date: 2025/10/20
+* end-date: 2025/12/30
 
 #### Description
 - Maintenance for **Local Backup** feature.

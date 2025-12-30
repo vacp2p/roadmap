@@ -20,7 +20,7 @@ Setting up an evaluation process for the RAG responses of predefined questions. 
 
 * fully qualified name: `vac:bi:rag:2025q4-rag-evaluation:setup-evaluation-process`
 * owner: nickninov
-* status: in progress (40%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

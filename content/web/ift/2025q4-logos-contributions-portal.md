@@ -66,15 +66,16 @@ Implement profile pages that surface individual contribution history, badges, an
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:contribution-guidelines`
 * owner: jinhojang6
-* status: in progress (90%)
+* status: done
 * start-date: 2025/09/25
-* end-date: 2025/10/31
+* end-date: 2025/12/30
 
 #### Description
 Author and publish contributor onboarding and etiquette guidelines to sit alongside the portal.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [acid-info/contribute.logos.co#30](https://github.com/acid-info/contribute.logos.co/pull/30) Merge activists page returning 404 for non-English locales
+- [acid-info/contribute.logos.co#35](https://github.com/acid-info/contribute.logos.co/pull/35) Fix activists page content mismatch across locales
 
 ### Display Github issues
 

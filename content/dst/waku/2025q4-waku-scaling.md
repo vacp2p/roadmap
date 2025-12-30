@@ -56,7 +56,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-scaling:optimise-browser-bootstrapping`
 * owner: Pearson
-* status: in progress (95%)
+* status: done
 * start-date: 2025/10/15
 * end-date: 2025/10/31
 

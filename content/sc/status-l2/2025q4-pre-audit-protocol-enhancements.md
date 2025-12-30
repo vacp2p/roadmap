@@ -25,7 +25,7 @@ These features are essential for the protocol's functionality and need to be in 
 ### Distributed slashing implementation
 * fully qualified name: `vac:sc:status-l2:2025q4-pre-audit-protocol-enhancements:distributed-slashing`
 * owner: Ricardo
-* status: in progress (35%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 

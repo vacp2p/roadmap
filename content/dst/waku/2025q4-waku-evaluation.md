@@ -39,7 +39,7 @@ side effects and other factors of Waku and its evolution.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-evaluation:regression-testing`
 * owner: Alberto/Farooq
-* status: in progress (70%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -83,7 +83,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:waku:2025q4-waku-evaluation:nwaku-api-image`
 * owner: Pearson
-* status: in progress (60%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

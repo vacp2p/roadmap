@@ -40,7 +40,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:bi:finance:2025q4-finance-wallets-monitoring:improve-dashboard`
 * owner: c2000bzh
-* status: in progress (40%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

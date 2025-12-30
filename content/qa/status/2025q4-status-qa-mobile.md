@@ -24,7 +24,7 @@ Extend and adjust the existing E2E test framework to support testing on mobile/t
 
 - fully qualified name: `vac:qa:status:2025q4-status-qa-mobile:port-tests`
 - owner: magnus
-- status: in progress (55%)
+- status: done
 - start-date: 2025/10/01
 - end-date: 2025/12/31
 
@@ -61,7 +61,7 @@ Investigate how to extend test hooks to reveal more qt properties to help with t
 
 - fully qualified name: `vac:qa:status:2025q4-status-qa-mobile:test-ci`
 - owner: magnus
-- status: in progress (85%)
+- status: done
 - start-date: 2025/11/01
 - end-date: 2025/11/15
 
@@ -98,7 +98,7 @@ Reduce runtime gap vs local and eliminate avoidable waits/retries.
 
 - fully qualified name: `vac:qa:status:2025q4-status-qa-mobile:multi-device-support`
 - owner: magnus
-- status: in progress (90%)
+- status: done
 - start-date: 2025/12/01
 - end-date: 2025/12/20
 
@@ -115,7 +115,7 @@ Enable tests that require multiple devices and basic concurrent execution.
 
 - fully qualified name: `vac:qa:status:2025q4-status-qa-mobile:release-testing`
 - owner: magnus
-- status: in progress (10%)
+- status: done
 - start-date: 2025/12/01
 - end-date: 2025/12/20
 

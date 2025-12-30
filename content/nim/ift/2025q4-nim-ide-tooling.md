@@ -20,7 +20,7 @@ Deliver stability fixes and workflows for Nimlangserver and related IDE tooling,
 
 * fully qualified name: `vac:nim:ift:2025q4-nim-ide-tooling:langserver-maintenance`
 * owner: Constantine
-* status: in progress (25%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

@@ -19,7 +19,7 @@ Ensure quality of Keycard applications, in particular Keycard shell.
 
 * fully qualified name: `vac:qa:keycard:2025q4-keycard-testing:wallet-compatibilty`
 * owner: romanzac
-* status: in progress (30%)
+* status: done
 * start-date: 2025/10/27
 * end-date: 2025/12/31
 

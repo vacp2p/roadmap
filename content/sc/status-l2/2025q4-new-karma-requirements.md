@@ -20,7 +20,7 @@ Build on the Q3 Karma work by introducing distributed slashing improvements that
 
 * fully qualified name: `vac:sc:status-l2:2025q4-new-karma-requirements:distributed-slashing`
 * owner: andreacavallini
-* status: in progress (35%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

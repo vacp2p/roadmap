@@ -53,7 +53,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-research-destination:forum-post`
 * owner: Alberto
-* status: in progress (50%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -67,7 +67,7 @@ Publish recurring DST forum updates that translate experiment results into clear
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-research-destination:public-reports`
 * owner: Alberto
-* status: in progress (50%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

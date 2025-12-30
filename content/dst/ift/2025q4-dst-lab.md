@@ -54,9 +54,9 @@ Provide all needed resources to do this deployment, and also document how it can
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-lab:lab-duplication`
 * owner: Mamoutou
-* status: in progress (85%)
+* status: done
 * start-date: 2025/12/01
-* end-date: 2025/12/31
+* end-date: 2025/12/30
 
 #### Description
 Gather information and take as reference the current structure of the DST lab

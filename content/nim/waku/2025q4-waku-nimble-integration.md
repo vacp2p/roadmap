@@ -19,7 +19,7 @@ Support the Waku team as they integrate Nimble into Nwaku, troubleshoot and fix 
 
 * fully qualified name: `vac:nim:waku:2025q4-waku-nimble-integration:integration-support`
 * owner: Juan
-* status: in progress (90%)
+* status: done
 * start-date: 2025/11/15
 * end-date: 2025/12/10
 

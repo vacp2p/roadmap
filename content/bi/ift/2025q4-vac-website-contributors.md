@@ -21,7 +21,7 @@ Ensure the production environment is ready, data sources are connected, and the 
 
 * fully qualified name: `vac:bi:ift:2025q4-vac-website-contributors`
 * owner: nickninov
-* status: in progress (40%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

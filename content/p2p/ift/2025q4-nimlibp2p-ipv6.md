@@ -24,7 +24,7 @@ Enable IPv6 in nim-libp2p end-to-end so users of the library can run dual-stack 
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-ipv6:transport`
 * owner: vlado
-* status: in progress (75%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -43,9 +43,9 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-ipv6:addresses`
 * owner: rramos
-* status: in progress (50%)
+* status: done
 * start-date: 2025/10/01
-* end-date: 2025/12/31
+* end-date: 2025/12/30
 
 #### Description
 Add IPv6 support in the switch when specifying listening multiaddresses containing ip6 component. 
@@ -62,14 +62,15 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-ipv6:testing`
 * owner: rramos
-* status: not started
+* status: done
 * start-date: 2025/10/01
-* end-date: 2025/12/31
+* end-date: 2025/12/30
 
 #### Description
 Ensure IPv6 support and ensure there are no regressions in IPv4 support. Add test units demonstrating the support, and check that interop against other implementations is achieved
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- [vacp2p/nim-libp2p#1985](https://github.com/vacp2p/nim-libp2p/pull/1985) ci(interop): use ipv6
 - Test units focusing on IPv6
 - Interop tests against other implementations that support IPv6

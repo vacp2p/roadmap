@@ -20,9 +20,9 @@ with focus on wallet, settings and waku methods.
 
 * fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:wallet`
 * owner: roman
-* status: in progress (35%)
+* status: done
 * start-date: 2025/10/01
-* end-date: 2025/12/01
+* end-date: 2025/12/30
 
 #### Description
 Add functional test coverage to wallet features,
@@ -31,6 +31,8 @@ Focus on e2e scenarios that can be automated at this level.
 This taks will need to be broken down into smaller task once we have more info
 
 #### Deliverables
+- [Linux_arm64 is not supported by choosenim - docker build](https://github.com/status-im/status-go/issues/7258)
+- [Unable to join community with anyone can become member permission](https://github.com/status-im/status-app/issues/19620)
 - [test: Token gated communities](https://github.com/status-im/status-go/pull/7113)
 - [Community changes not visible to members after owner added the owner token](https://github.com/status-im/status-go/issues/7167)
 - [Signal and backend state inconsistency before accept_request_to_join_community call](https://github.com/status-im/status-go/issues/7161)
@@ -57,7 +59,7 @@ Add functional test coverage to settings features.
 
 * fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:waku`
 * owner: fbarbu15
-* status: in progress (35%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/01
 
@@ -111,7 +113,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:qa:status:2025q4-status-go-functional-testing:maintenance`
 * owner: egor
-* status: in progress (70%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

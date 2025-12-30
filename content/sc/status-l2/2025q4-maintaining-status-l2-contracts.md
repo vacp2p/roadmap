@@ -36,7 +36,7 @@ they will be addressed by our team.
 
 * fully qualified name: `vac:sc:status-l2:2025q4-maintaining-status-l2-contracts:maintenance`
 * owner: r4bbit
-* status: in progress (60%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

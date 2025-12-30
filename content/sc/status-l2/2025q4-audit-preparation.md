@@ -31,7 +31,7 @@ leading to a more effective audit process.
 ### Review and update existing documentation
 * fully qualified name: `vac:sc:status-l2:2025q4-audit-preparation:review-documentation`
 * owner: r4bbit
-* status: in progress (95%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 
@@ -53,7 +53,7 @@ and ensure consistency across the codebase.
 ### Restructure tests into one contract per file
 * fully qualified name: `vac:sc:status-l2:2025q4-audit-preparation:restructure-test-files`
 * owner: r4bbit
-* status: in progress (60%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/10/30
 

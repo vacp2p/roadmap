@@ -24,7 +24,7 @@ Deliverables include curated study plans, shared notes, and exploratory reposito
 
 * fully qualified name: `vac:sc:logos:2025q4-risc0-upskilling:poc`
 * owner: Andrea
-* status: in progress (20%)
+* status: done
 * start-date: 2025/11/01
 * end-date: 2025/12/31
 

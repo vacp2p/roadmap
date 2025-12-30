@@ -47,7 +47,7 @@ editorial work through previous and future RFCs to improve them
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:slot-builder`
 - owner: jimstir
-- status: in progress (75%)
+- status: done
 - start-date: 2025/10/01
 - end-date: 2025/10/15
 
@@ -56,7 +56,7 @@ Create the RFC for slot builder, updating design decisions and open questions.
 
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [New RFC: CODEX-SLOT-BUILDER](https://github.com/vacp2p/rfc-index/pull/209)
 
 ###  Erasure Coding Module
 
@@ -90,7 +90,7 @@ Create the RFC for the purchase module covering pricing, incentives, and settlem
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:the-block-exchange`
 - owner: cofson
-- status: in progress (90%)
+- status: done
 - start-date: 2025/10/04
 - end-date: 2025/10/31
 
@@ -104,7 +104,7 @@ Create the RFC for the block exchange defining peer interactions for trading Cod
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:merkle-tree`
 - owner: cofson
-- status: in progress (80%)
+- status: done
 - start-date: 2025/10/04
 - end-date: 2025/11/10
 
@@ -112,13 +112,13 @@ Create the RFC for the block exchange defining peer interactions for trading Cod
 Document the Merkle tree component, clarifying hashing strategy, storage layout, and verifier expectations.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [Created codex/raw/codex-merkle-tree.md file](https://github.com/vacp2p/rfc-index/pull/203)
 
 ### Prover Module
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:prover`
 - owner: cofson
-- status: in progress (80%)
+- status: done
 - start-date: 2025/10/04
 - end-date: 2025/11/10
 
@@ -126,13 +126,13 @@ Document the Merkle tree component, clarifying hashing strategy, storage layout,
 Capture the prover workflow, artefacts, and interface details to support Codex storage proofs.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [Created codex/raw/codex-prover.md file](https://github.com/vacp2p/rfc-index/pull/205)
 
 ### Store Module
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:store`
 - owner: cofson
-- status: in progress (75%)
+- status: done
 - start-date: 2025/10/04
 - end-date: 2025/11/10
 
@@ -140,13 +140,13 @@ Capture the prover workflow, artefacts, and interface details to support Codex s
 Capture the prover workflow, artefacts, and interface details to support Codex store protocol.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [Created codex/raw/codex-store.md file](https://github.com/vacp2p/rfc-index/pull/207)
 
 ### Marketplace Module
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:marketplace`
 - owner: cofson
-- status: in progress (85%)
+- status: done
 - start-date: 2025/10/04
 - end-date: 2025/11/10
 
@@ -154,13 +154,13 @@ Capture the prover workflow, artefacts, and interface details to support Codex s
 Capture the prover workflow, artefacts, and interface details to support Codex marketplace protocol.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [CODEX-MARKETPLACE: New Raw RFC ](https://github.com/vacp2p/rfc-index/pull/36)
 
 ### Community History
 
 - fully qualified name: `vac:rfc:codex:2025q4-rfc-iteration:community-history`
 - owner: jimstir
-- status: in progress (80%)
+- status: done
 - start-date: 2025/11/05
 - end-date: 2025/11/15
 

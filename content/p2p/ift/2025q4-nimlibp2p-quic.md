@@ -24,15 +24,20 @@ In Q3 we discovered critical deficiencies in nim-quic, including runtime instabi
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-quic:stabilization`
 * owner: vlado/rramos
-* status: in progress (91%)
+* status: done
 * start-date: 2025/10/01
-* end-date: 2025/12/31
+* end-date: 2025/12/30
 
 #### Description
 Resolve runtime crashes, race conditions and excessive memory use in nim-quic. Target outcome is that quic can be enabled and run stably in both nimbus and waku test environments.
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- [vacp2p/nim-lsquic#51](https://github.com/vacp2p/nim-lsquic/pull/51) chore(nimble): task improvements
+- [vacp2p/nim-lsquic#48](https://github.com/vacp2p/nim-lsquic/pull/48) chore: remove duplicate nim deps
+- [vacp2p/nim-lsquic#49](https://github.com/vacp2p/nim-lsquic/pull/49) ci: add orc check
+- [vacp2p/nim-lsquic#50](https://github.com/vacp2p/nim-lsquic/pull/50) ci: add linters
+- [vacp2p/nim-lsquic#46](https://github.com/vacp2p/nim-lsquic/pull/46) revert: use makefile for windows
 - [vacp2p/nim-lsquic#44](https://github.com/vacp2p/nim-lsquic/pull/44) chore: export via root file
 - [vacp2p/nim-lsquic#43](https://github.com/vacp2p/nim-lsquic/pull/43) chore: remove unused proc `receive`
 - [vacp2p/nim-lsquic#42](https://github.com/vacp2p/nim-lsquic/pull/42) refactor: export everything via api file

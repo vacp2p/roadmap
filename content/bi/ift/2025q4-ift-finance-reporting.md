@@ -20,7 +20,7 @@ Produce a consolidated report of wallet balances and transactional activity so t
 
 * fully qualified name: `vac:bi:ift:2025q4-ift-finance-reporting:wallet-balance-report`
 * owner: c2000bzh
-* status: in progress (30%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

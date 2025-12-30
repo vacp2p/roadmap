@@ -117,7 +117,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:local-stack-analysis`
 * owner: Farooq
-* status: in progress (15%)
+* status: in progress (25%)
 * start-date: 2025/12/18
 * end-date: 2025/12/31
 

@@ -44,7 +44,7 @@ side effects and other factors of libp2p and its evolution.
 
 * fully qualified name: `vac:dst:vac:2025q4-libp2p-evaluation:regression-testing`
 * owner: Alberto
-* status: in progress (20%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

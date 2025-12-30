@@ -27,6 +27,9 @@ Provide upkeep, bug fixes, and small improvements for existing web properties ac
 Handle routine maintenance tickets, dependency bumps, and production support for shipped web projects.
 
 #### Deliverables
+- [acid-info/contribute.logos.co#349](https://github.com/acid-info/contribute.logos.co/pull/349) Contribute portal copy updates
+- [acid-info/admin-acid.logos.co#28](https://github.com/acid-info/admin-acid.logos.co/pull/28) Admin acid leaderboard implementation
+- [acid-info/logos-press-engine#250](https://github.com/acid-info/logos-press-engine/pull/250) Take Action button link update
 - [logos-press-engine: Replace broken link with active discord link](https://github.com/acid-info/logos-press-engine/pull/249)
 - [parallel-society: Add Umami analytics script](https://github.com/acid-info/parallel-society/pull/1)
 - [status-web: upgrade Next.js to patch vulnerabilities](https://github.com/status-im/status-web/pull/886)

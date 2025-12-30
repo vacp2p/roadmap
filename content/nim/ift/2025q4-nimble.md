@@ -31,15 +31,19 @@ By the end of this quarter, we aim to have made significant progress on these fr
 
 * fully qualified name: `vac:nim:ift:2025q4-nimble:nimble-1.0.0`
 * owner: jmgomez
-* status: in progress (90%)
+* status: done
 * start-date: 2025/10/01
-* end-date: 2025/12/31
+* end-date: 2025/12/30
 
 #### Description
 
 All the relevant information can be found in [this GitHub issue](https://github.com/nim-lang/nimble/issues/1449).
 
 #### Deliverables
+- [Fixes Infinite Reading official package list](https://github.com/nim-lang/nimble/pull/1545)
+- [Filter declarative parser warnings to solution packages only](https://github.com/nim-lang/nimble/pull/1544)
+- [Adds paths to nimble.nim.cfg to circunvent skipParentConfig when bootstrapping](https://github.com/nim-lang/nimble/pull/1543)
+- [Nim is added by default to the lock file](https://github.com/nim-lang/nimble/pull/1538)
 - [Track git errors during package discovery and show them](https://github.com/nim-lang/nimble/pull/1542)
 - [Nim special version can be used in requires](https://github.com/nim-lang/nimble/pull/1539)
 - [Fixes #1495 ^= version operator yields warning](https://github.com/nim-lang/nimble/pull/1530)

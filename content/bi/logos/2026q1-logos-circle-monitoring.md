@@ -8,7 +8,7 @@ draft: false
 description: Improve monitoring of Logos Circle event.
 ---
 
-`vac:bi:logos:2026q1-logos-circle-monitoring`
+`ift-ts:bi:logos:2026q1-logos-circle-monitoring`
 
 ## Description
 
@@ -18,7 +18,7 @@ Improve monitoring of the Logos Circle.
 
 ### Telegram monitoring
 
-* fully qualified name: `vac:bi:logos:2026q1-logos-circle-monitoring:telegram-monitoring`
+* fully qualified name: `ift-ts:bi:logos:2026q1-logos-circle-monitoring:telegram-monitoring`
 * owner: claire
 * status: not started
 * start-date: 2026/01/01
@@ -35,7 +35,7 @@ The Circles have migrated to Telegram for communication. Add an monitoring mecan
 
 ### Improve dashboards
 
-* fully qualified name: `vac:bi:logos:2026q1-logos-circle-monitoring:dashboard-improvement`
+* fully qualified name: `ift-ts:bi:logos:2026q1-logos-circle-monitoring:dashboard-improvement`
 * owner: claire
 * status: not started
 * start-date: 2026/01/01

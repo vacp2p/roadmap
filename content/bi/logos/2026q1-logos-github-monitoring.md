@@ -8,7 +8,7 @@ draft: false
 description: Update and improve Github Monitoring
 ---
 
-`vac:bi:logos:2026q1-logos-github-monitoring`
+`ift-ts:bi:logos:2026q1-logos-github-monitoring`
 
 ## Description
 
@@ -18,7 +18,7 @@ Improve monitoring of the Github Repository.
 
 ### Github Monitoring
 
-* fully qualified name: `vac:bi:logos:2026q1-logos-github-monitoring:impovement`
+* fully qualified name: `ift-ts:bi:logos:2026q1-logos-github-monitoring:impovement`
 * owner: claire
 * status: not started
 * start-date: 2026/01/01

@@ -46,7 +46,7 @@ def derive_identity(path: Path) -> Tuple[Optional[CommitmentIdentity], List[Vali
 
     quarter = match.group("quarter")
     slug = match.group("slug")
-    expected_base = f"vac:{unit}:{area}:{quarter}-{slug}"
+    expected_base = f"ift-ts:{unit}:{area}:{quarter}-{slug}"
     expected_tags = [quarter, unit, area]
     expected_identifier = expected_base
     identity = CommitmentIdentity(

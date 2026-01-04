@@ -8,7 +8,7 @@ draft: false
 description: Maintain and ensure the reliability of messaging tests.
 ---
 
-`vac:qa:messaging:2026q1-messaging-testing`
+`ift-ts:qa:messaging:2026q1-messaging-testing`
 
 ## Description
 Ensure the ongoing reliability of the messaging by enhancing and maintaining existing testing frameworks.  
@@ -19,7 +19,7 @@ and applying minor improvements to keep the frameworks functional and effective.
 
 ### Messaging Extended E2E Network Conditions Tests
 
-* fully qualified name: `vac:qa:messaging:2026q1-messaging-testing:network-conditions`
+* fully qualified name: `ift-ts:qa:messaging:2026q1-messaging-testing:network-conditions`
 * owner: aya
 * status: not started
 * start date: 2026/01/01
@@ -33,7 +33,7 @@ Extend messaging end-to-end tests with network condition scenarios (high latency
 
 ### Maintenance
 
-* fully qualified name: `vac:qa:messaging:2026q1-messaging-testing:maintenance`
+* fully qualified name: `ift-ts:qa:messaging:2026q1-messaging-testing:maintenance`
 * owner: aya
 * status: not started
 * start-date: 2026/01/01
@@ -48,7 +48,7 @@ Ongoing maintenance of messaging testing frameworks.
 
 ### Messaging Sonda Tool extension
 
-* fully qualified name: `vac:qa:messaging:2026q1-messaging-testing:sonda-extension`
+* fully qualified name: `ift-ts:qa:messaging:2026q1-messaging-testing:sonda-extension`
 * owner: aya
 * status: not started
 * start date: 2026/02/15

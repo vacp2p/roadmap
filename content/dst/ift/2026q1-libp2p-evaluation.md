@@ -3,7 +3,7 @@ title: Libp2p Evaluation
 tags:
   - "2026q1"
   - "dst"
-  - "ift-ts"
+  - "ift"
 draft: false
 description: "Test libp2p on each new version or feature
 and look for regressions,

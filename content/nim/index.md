@@ -2,10 +2,10 @@
 title: Nim Unit
 tags:
   - nim
-  - vac
+  - ift-ts
 ---
 
-## `vac:nim:`
+## `ift-ts:nim:`
 
 ---
 

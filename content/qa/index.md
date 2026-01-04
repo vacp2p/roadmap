@@ -2,20 +2,20 @@
 title: QA Service Unit
 tags:
 - qa
-- vac
+- ift-ts
 
 ---
 
 [[qa/preview|Roadmap Preview]]
 
-## 2026q1 `vac:qa:`
+## 2026q1 `ift-ts:qa:`
 ---
 
-### `vac:`
-* [[qa/vac/2026q1-nim-libp2p-testing|nim-libp2p-testing ]]
+### `ift`
+* [[qa/ift/2026q1-nim-libp2p-testing|nim-libp2p-testing ]]
 
-### `waku:`
-* [[qa/waku/2026q1-waku-testing|waku-testing ]]
+### `messaging:`
+* [[qa/messaging/2026q1-messaging-testing|messaging-testing ]]
 
 ### `status:`
 * [[qa/status/2026q1-status-go-functional-testing|status-go-functional-testing ]]

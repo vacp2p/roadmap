@@ -8,7 +8,7 @@ draft: false
 description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected RFCs."
 ---
 
-`vac:rfc:anoncomms:2026q1-rfc-iteration`
+`ift-ts:rfc:anoncomms:2026q1-rfc-iteration`
 
 Iteration commitments generally comprise:
 through discussion and curation,
@@ -39,7 +39,7 @@ editorial work through previous and future RFCs to improve them
 
 ###  WIP (new RFCs/Specs)
 
-- fully qualified name: `vac:rfc:anoncomms:2026q1-rfc-iteration:wip`
+- fully qualified name: `ift-ts:rfc:anoncomms:2026q1-rfc-iteration:wip`
 - owner: cofson
 - status: not started
 - start-date: 2026/01/01

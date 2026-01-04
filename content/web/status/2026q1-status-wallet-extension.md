@@ -8,7 +8,7 @@ draft: false
 description: "Continued development and enhancement of the browser wallet extension focused on trading and investor utility, featuring multi-chain swaps, portfolio management, and real-time token tracking."
 ---
 
-`vac:web:status:2026q1-status-wallet-extension`
+`ift-ts:web:status:2026q1-status-wallet-extension`
 
 ## Description
 
@@ -24,7 +24,7 @@ The Status Wallet Extension development will support Status' strategic objective
 
 ### Proxy API Rate Limiting
 
-* fully qualified name: `vac:web:status:2026q1-status-wallet-extension:proxy-api-rate-limiting`
+* fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:proxy-api-rate-limiting`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/02/05
@@ -42,7 +42,7 @@ Implement proxy API rate limiting to manage API usage and prevent abuse.
 
 ### QA Defining Test Cases Together
 
-* fully qualified name: `vac:web:status:2026q1-status-wallet-extension:qa-defining-test-cases-together`
+* fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:qa-defining-test-cases-together`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/02/05
@@ -60,7 +60,7 @@ Collaborate with QA team to define comprehensive test cases for wallet extension
 
 ### Value Chart
 
-* fully qualified name: `vac:web:status:2026q1-status-wallet-extension:value-chart`
+* fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:value-chart`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/02/12
@@ -78,7 +78,7 @@ Implement value chart functionality to display portfolio value over time.
 
 ### Hide Small Balances
 
-* fully qualified name: `vac:web:status:2026q1-status-wallet-extension:hide-small-balances`
+* fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:hide-small-balances`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/02/12
@@ -96,7 +96,7 @@ Implement feature to hide small token balances from the wallet view for cleaner 
 
 ### LI.FI Swap Integration
 
-* fully qualified name: `vac:web:status:2026q1-status-wallet-extension:lifi-swap-integration`
+* fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:lifi-swap-integration`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/02/12
@@ -114,7 +114,7 @@ Integrate LI.FI swap functionality to enable multi-chain token swaps within the 
 
 ### Send NFT
 
-* fully qualified name: `vac:web:status:2026q1-status-wallet-extension:send-nft`
+* fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:send-nft`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/02/19
@@ -132,7 +132,7 @@ Implement functionality to send NFTs from the wallet extension.
 
 ### Global Password
 
-* fully qualified name: `vac:web:status:2026q1-status-wallet-extension:global-password`
+* fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:global-password`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/02/19
@@ -150,7 +150,7 @@ Implement global password functionality for unified authentication across wallet
 
 ### Multi Account
 
-* fully qualified name: `vac:web:status:2026q1-status-wallet-extension:multi-account`
+* fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:multi-account`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/02/26
@@ -168,7 +168,7 @@ Implement multi-account support to allow users to manage multiple accounts withi
 
 ### Multi Wallet
 
-* fully qualified name: `vac:web:status:2026q1-status-wallet-extension:multi-wallet`
+* fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:multi-wallet`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/02/26
@@ -186,7 +186,7 @@ Implement multi-wallet support to allow users to connect and manage multiple wal
 
 ### Dapp Connection
 
-* fully qualified name: `vac:web:status:2026q1-status-wallet-extension:dapp-connection`
+* fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:dapp-connection`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/03/05
@@ -204,7 +204,7 @@ Implement dApp connection functionality to enable wallet extension to connect wi
 
 ### Hardware Wallets
 
-* fully qualified name: `vac:web:status:2026q1-status-wallet-extension:hardware-wallets`
+* fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:hardware-wallets`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/03/05
@@ -222,7 +222,7 @@ Implement hardware wallet support with QR code-based connection and Keycard Shel
 
 ### Browser and System Notifications
 
-* fully qualified name: `vac:web:status:2026q1-status-wallet-extension:browser-system-notifications`
+* fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:browser-system-notifications`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/03/12

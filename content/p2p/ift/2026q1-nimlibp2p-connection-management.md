@@ -10,7 +10,7 @@ description: Improved connection management in nim-libp2p
 
 ---
 
-`vac:p2p:ift:2026q1-nimlibp2p-connection-management`
+`ift-ts:p2p:ift:2026q1-nimlibp2p-connection-management`
 
 Improve nim-libp2p’s connection manager to provide hi/lo watermarks, score-driven pruning, decaying tags, and protected connections
 
@@ -22,7 +22,7 @@ The current connection manager is limited to cap total connections but doesn’t
 ## Task List
 
 ### Hi/Lo limits
-* fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-connection-management:limits`
+* fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-connection-management:limits`
 * owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01
@@ -35,7 +35,7 @@ Implement a hi/lo watermark subsystem. When connections exceed the higher limit,
 Hi-Lo watermark behavior for managing number of connections
 
 ### Connection score
-* fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-connection-management:score`
+* fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-connection-management:score`
 * owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01
@@ -49,7 +49,7 @@ Implement a per-connection scoring system with static and ephemeral tags. Epheme
 - Protected-peer mechanism with hard guarantees  
 
 ### AutoPrune
-* fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-connection-management:autoprune`
+* fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-connection-management:autoprune`
 * owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01

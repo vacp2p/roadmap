@@ -10,7 +10,7 @@ Anticipate untapped use cases and needs from other teams.
 Improve the usage of the lab by optimizing resources and time allocation."
 ---
 
-`vac:dst:ift:2026q1-dst-lab`
+`ift-ts:dst:ift:2026q1-dst-lab`
 
 ## Description
 
@@ -28,7 +28,7 @@ while allow provisioning to other teams dedicated machines if they are needed.
 
 ### Analyze current stack
 
-* fully qualified name: `vac:dst:ift:2026q1-dst-lab:analyze-current-stack`
+* fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:analyze-current-stack`
 * owner: Mamoutou
 * status: not started
 * start-date: 2026/01/01
@@ -46,7 +46,7 @@ Report findings with analysis and benchmarks of the results.
 
 ### Optimize data scrapping
 
-* fully qualified name: `vac:dst:ift:2026q1-dst-lab:optimize-data-scrapping`
+* fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:optimize-data-scrapping`
 * owner: Mamoutou
 * status: not started
 * start-date: 2026/01/01
@@ -64,7 +64,7 @@ Optimize the storage to reduce used space if data is older than a certain period
 
 ### Lab health monitoring
 
-* fully qualified name: `vac:dst:ift:2026q1-dst-lab:lab-health-monitoring`
+* fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:lab-health-monitoring`
 * owner: Mamoutou
 * status: not started
 * start-date: 2026/01/01

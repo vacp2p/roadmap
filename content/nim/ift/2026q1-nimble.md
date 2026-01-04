@@ -8,7 +8,7 @@ draft: false
 description: Nimble development.
 ---
 
-`vac:nim:ift:2026q1-nimble`
+`ift-ts:nim:ift:2026q1-nimble`
 
 ## Description
 
@@ -29,7 +29,7 @@ By the end of this quarter, we aim to have made significant progress on these fr
 
 ### Nimble 1.0.0
 
-* fully qualified name: `vac:nim:ift:2026q1-nimble:nimble-1.0.0`
+* fully qualified name: `ift-ts:nim:ift:2026q1-nimble:nimble-1.0.0`
 * owner: jmgomez
 * status: not started
 * start-date: 2026/01/01

@@ -11,7 +11,7 @@ and look for regressions,
 learn scaling properties and run scaling studies."
 ---
 
-`vac:dst:anoncomms:2026q1-anoncomms-evaluation`
+`ift-ts:dst:anoncomms:2026q1-anoncomms-evaluation`
 
 ## Description
 Test Anoncomms protocols on each new version or requested feature
@@ -26,7 +26,7 @@ Do this monthly, reliably, with documentation of findings.
 ### Mix
 > *Note*: This needs more input from project
 
-* fully qualified name: `vac:dst:anoncomms:2026q1-anoncomms-evaluation:mix`
+* fully qualified name: `ift-ts:dst:anoncomms:2026q1-anoncomms-evaluation:mix`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -42,7 +42,7 @@ TBD
 ### KAD-DHT
 > *Note*: This needs more input from project
 
-* fully qualified name: `vac:dst:anoncomms:2026q1-anoncomms-evaluation:kad-dht`
+* fully qualified name: `ift-ts:dst:anoncomms:2026q1-anoncomms-evaluation:kad-dht`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01

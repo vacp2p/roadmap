@@ -8,7 +8,7 @@ draft: false
 description: Status QA Desktop
 ---
 
-`vac:qa:status:2026q1-status-qa-desktop`
+`ift-ts:qa:status:2026q1-status-qa-desktop`
 
 ## Description
 Collaborate with Status team to ensure that the Status Desktop app behaves as expected.  
@@ -19,7 +19,7 @@ Oversee testing strategy around releases.
 
 ### Maintenance
 
-* fully qualified name: `vac:qa:status:2026q1-status-qa-desktop:maintenance`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:maintenance`
 * owner: nastya
 * status: not started
 * start-date: 2026/01/01
@@ -36,7 +36,7 @@ Oversee testing strategy around releases.
 
 ### Release Testing
 
-* fully qualified name: `vac:qa:status:2026q1-status-qa-desktop:release-testing`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:release-testing`
 * owner: nastya
 * status: not started
 * start-date: 2026/01/01
@@ -50,7 +50,7 @@ Oversee testing strategy around releases.
 
 ### Privacy Mode
 
-* fully qualified name: `vac:qa:status:2026q1-status-qa-desktop:privacy-mode`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:privacy-mode`
 * owner: nastya
 * status: not started
 * start-date: 2026/01/01
@@ -65,7 +65,7 @@ Oversee testing strategy around releases.
 
 ### Dapp Browser
 
-* fully qualified name: `vac:qa:status:2026q1-status-qa-desktop:dapp-browser`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:dapp-browser`
 * owner: nastya
 * status: not started
 * start-date: 2026/01/01
@@ -80,7 +80,7 @@ Oversee testing strategy around releases.
 
 ### Local Backup Opt-in
 
-* fully qualified name: `vac:qa:status:2026q1-status-qa-desktop:local-backup-opt-in`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:local-backup-opt-in`
 * owner: nastya
 * status: not started
 * start-date: 2026/01/01
@@ -94,7 +94,7 @@ Oversee testing strategy around releases.
 
 ### External Activity
 
-* fully qualified name: `vac:qa:status:2026q1-status-qa-desktop:external-activity`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:external-activity`
 * owner: nastya
 * status: not started
 * start-date: 2026/01/01
@@ -108,7 +108,7 @@ Oversee testing strategy around releases.
 
 ### Emoji Reactions
 
-* fully qualified name: `vac:qa:status:2026q1-status-qa-desktop:emoji-reactions`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:emoji-reactions`
 * owner: nastya
 * status: not started
 * start-date: 2026/01/01

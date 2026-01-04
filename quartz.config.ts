@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Vac R&D Roadmaps and Reports",
+    pageTitle: "IFT-TS Roadmaps and Reports",
     enableSPA: true,
     enablePopovers: true,
     defaultDateType: "modified",

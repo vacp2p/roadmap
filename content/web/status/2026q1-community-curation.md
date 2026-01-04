@@ -8,7 +8,7 @@ draft: false
 description: "Migration of the Community Curation DApp to the status-web monorepo, enabling SNT holders to vote on which communities should be included in the Status Communities directory."
 ---
 
-`vac:web:status:2026q1-community-curation`
+`ift-ts:web:status:2026q1-community-curation`
 
 ## Description
 
@@ -40,7 +40,7 @@ The migration to the status-web monorepo will support Status' strategic objectiv
 
 ### Migration to status-web Monorepo
 
-* fully qualified name: `vac:web:status:2026q1-community-curation:migration-to-status-web-monorepo`
+* fully qualified name: `ift-ts:web:status:2026q1-community-curation:migration-to-status-web-monorepo`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/03/05

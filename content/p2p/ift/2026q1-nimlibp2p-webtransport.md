@@ -10,7 +10,7 @@ description: Add webtransport support to nim-libp2p
 
 ---
 
-`vac:p2p:ift:2026q1-nimlibp2p-webtransport`
+`ift-ts:p2p:ift:2026q1-nimlibp2p-webtransport`
 
 Implement WebTransport support in nim-libp2p, enabling browser/server bidirectional streams via h3+quic. built atop nim-lsquic, extending its current quic-only integration.
 
@@ -23,7 +23,7 @@ This is done by using ls-quic which nim-libp2p already uses for quic transport
 ## Task List
 
 ### Http3 engine
-* fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-webtransport:http3-engine`
+* fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-webtransport:http3-engine`
 * owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01
@@ -36,7 +36,7 @@ Extend nim-lsquic bindings to support acting as a proper http3 engine. enable co
 - New h3-capable initialization api in nim-lsquic.
 
 ### Client
-* fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-webtransport:client`
+* fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-webtransport:client`
 * owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01
@@ -49,7 +49,7 @@ Implement client-side webtransport session establishment
 Client side functionality that allows establishing a connection via webtransport
 
 ### Server
-* fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-webtransport:server`
+* fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-webtransport:server`
 * owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01
@@ -63,7 +63,7 @@ Server side functionality that allows accepting connections via webtransport
 
 
 ### Transport
-* fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-webtransport:transport`
+* fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-webtransport:transport`
 * owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01
@@ -78,7 +78,7 @@ webtransport sessions and streams.
 A libp2p transport that allows web clients to communicate with nim-libp2p nodes via WebTransport
 
 ### Interop
-* fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-webtransport:interop`
+* fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-webtransport:interop`
 * owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01

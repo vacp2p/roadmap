@@ -14,8 +14,6 @@ tags:
 
 ## 2026q1
 
-### `waku:`
-* [[nim/waku/2026q1-waku-nimble-integration|waku-nimble-integration]]
 ### `nimbus:`
 * [[nim/nimbus/2026q1-nimbus-nimble-integration|nimbus-nimble-integration]]
 ### `ift:`
@@ -23,6 +21,7 @@ tags:
 * [[nim/ift/2026q1-nimble|nimble]]
 ### `logos:`
 * [[nim/logos/2026q1-storage-nimble-integration|storage-nimble-integration]]
+* [[nim/logos/2026q1-messaging-nimble-integration|messaging-nimble-integration]]
 
 ## 2025q4
 

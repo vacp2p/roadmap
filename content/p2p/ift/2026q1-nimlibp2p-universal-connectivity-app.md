@@ -10,7 +10,7 @@ description: Universal connectivity app
 
 ---
 
-`vac:p2p:ift:2026q1-nimlibp2p-universal-connectivity-app`
+`ift-ts:p2p:ift:2026q1-nimlibp2p-universal-connectivity-app`
 
 Extend universal connectivity app features
 
@@ -21,7 +21,7 @@ Extend the universal connectivity app by adding quic support and kademlia dht to
 ## Task List
 
 ### Kad-DHT
-* fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-universal-connectivity-app:kad-dht`
+* fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-universal-connectivity-app:kad-dht`
 * owner: gabe
 * status: not started
 * start-date: 2026/01/01

@@ -8,7 +8,7 @@ draft: false
 description: Continue evolving Nim core libraries.
 ---
 
-`vac:nim:ift:2026q1-nim-core-libs`
+`ift-ts:nim:ift:2026q1-nim-core-libs`
 
 ## Description
 Maintain and extend the foundational Nim libraries required by IFT teams.
@@ -17,7 +17,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 ### Json RPC
 
-* fully qualified name: `vac:nim:ift:2026q1-nim-core-libs:json-rpc`
+* fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:json-rpc`
 * owner: Nitely
 * status: not started
 * start-date: 2026/01/01
@@ -33,7 +33,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 ### Integrate nim-intops into nim-bncurve and nim-stint
 
-* fully qualified name: `vac:nim:ift:2026q1-nim-core-libs:intops-integration-bncurve-stint`
+* fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:intops-integration-bncurve-stint`
 * owner: Constantine
 * status: not started
 * start-date: 2026/01/01
@@ -47,7 +47,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 ### Protobuf Serialization in libp2p
 
-* fully qualified name: `vac:nim:ift:2026q1-nim-core-libs:libp2p-protobuf-serialization`
+* fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:libp2p-protobuf-serialization`
 * owner: Nitely
 * status: not started
 * start-date: 2026/02/15
@@ -61,7 +61,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 ### Language Server and Editor Integration
 
-* fully qualified name: `vac:nim:ift:2026q1-nim-core-libs:language-server-editor-integration`
+* fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:language-server-editor-integration`
 * owner: Constantine
 * status: not started
 * start-date: 2026/02/14
@@ -75,7 +75,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 ### Documentation
 
-* fully qualified name: `vac:nim:ift:2026q1-nim-core-libs:docs`
+* fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:docs`
 * owner: Constantine
 * status: not started
 * start-date: 2026/01/01

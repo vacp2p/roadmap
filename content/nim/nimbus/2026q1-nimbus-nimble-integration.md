@@ -8,7 +8,7 @@ draft: false
 description: Support the Nimbus team as they integrate Nimble into Nimbus.
 ---
 
-`vac:nim:nimbus:2026q1-nimbus-nimble-integration`
+`ift-ts:nim:nimbus:2026q1-nimbus-nimble-integration`
 
 ## Description
 Support the Nimbus team as they integrate Nimble into Nimbus, troubleshoot and fix integration mismatches, and document gaps for follow-up.
@@ -17,7 +17,7 @@ Support the Nimbus team as they integrate Nimble into Nimbus, troubleshoot and f
 
 ### Nimbus Nimble integration
 
-* fully qualified name: `vac:nim:nimbus:2026q1-nimbus-nimble-integration:integration`
+* fully qualified name: `ift-ts:nim:nimbus:2026q1-nimbus-nimble-integration:integration`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01

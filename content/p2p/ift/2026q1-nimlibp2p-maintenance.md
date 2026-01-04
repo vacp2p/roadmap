@@ -10,7 +10,7 @@ description: Maintain nim-libp2p through improvements, bug fixes, and user suppo
 
 ---
 
-`vac:p2p:ift:2026q1-nimlibp2p-maintenance`
+`ift-ts:p2p:ift:2026q1-nimlibp2p-maintenance`
 
 Maintain nim-libp2p through improvements, bug fixes, and user support
 
@@ -26,7 +26,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 ### Maintenance
 
-* fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-maintenance:maintenance`
+* fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-maintenance:maintenance`
 * owner: rramos
 * status: not started
 * start-date: 2026/01/01
@@ -40,7 +40,7 @@ Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via impro
 
 ### Kademlia Interop tests
 
-* fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-maintenance:kademlia-interop-tests`
+* fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-maintenance:kademlia-interop-tests`
 * owner: rramos
 * status: not started
 * start-date: 2026/01/01

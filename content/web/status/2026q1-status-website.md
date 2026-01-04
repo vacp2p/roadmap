@@ -8,7 +8,7 @@ draft: false
 description: "Continued optimization and maintenance of the Status website with internationalization support and SEO improvements to enhance global accessibility and discoverability."
 ---
 
-`vac:web:status:2026q1-status-website`
+`ift-ts:web:status:2026q1-status-website`
 
 ## Description
 
@@ -24,7 +24,7 @@ The Status website optimization will support Status' strategic objectives by:
 
 ### SEO
 
-* fully qualified name: `vac:web:status:2026q1-status-website:seo`
+* fully qualified name: `ift-ts:web:status:2026q1-status-website:seo`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/02/12
@@ -42,7 +42,7 @@ Implement SEO optimization for the Status website to improve search engine visib
 
 ### Translations
 
-* fully qualified name: `vac:web:status:2026q1-status-website:translations`
+* fully qualified name: `ift-ts:web:status:2026q1-status-website:translations`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/02/12
@@ -61,7 +61,7 @@ Implement translations support with design improvements, public contribution flo
 
 ### Copy Changes, Section Reduction
 
-* fully qualified name: `vac:web:status:2026q1-status-website:copy-changes-section-reduction`
+* fully qualified name: `ift-ts:web:status:2026q1-status-website:copy-changes-section-reduction`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/02/19
@@ -79,7 +79,7 @@ Update website copy and reduce sections to improve clarity and user experience.
 
 ### Selfhosting
 
-* fully qualified name: `vac:web:status:2026q1-status-website:selfhosting`
+* fully qualified name: `ift-ts:web:status:2026q1-status-website:selfhosting`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/02/26

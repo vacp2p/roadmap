@@ -8,7 +8,7 @@ draft: false
 description: "Ongoing maintenance and support for previously delivered web projects across the IFT ecosystem, ensuring continued functionality, security, and performance optimization."
 ---
 
-`vac:web:ift:2026q1-maintenance`
+`ift-ts:web:ift:2026q1-maintenance`
 
 ## Description
 
@@ -24,7 +24,7 @@ The maintenance commitment supports IFT's strategic objectives by:
 
 ### Support & Questions
 
-* fully qualified name: `vac:web:ift:2026q1-maintenance:support-questions`
+* fully qualified name: `ift-ts:web:ift:2026q1-maintenance:support-questions`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/01/01
@@ -42,7 +42,7 @@ Respond to questions and support requests raised by stakeholders, users, and tea
 
 ### Issue Logging & Planning
 
-* fully qualified name: `vac:web:ift:2026q1-maintenance:issue-logging`
+* fully qualified name: `ift-ts:web:ift:2026q1-maintenance:issue-logging`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/01/01
@@ -60,7 +60,7 @@ Log issues, bugs, and improvement requests on GitHub for planning and prioritiza
 
 ### Hotfixes
 
-* fully qualified name: `vac:web:ift:2026q1-maintenance:hotfixes`
+* fully qualified name: `ift-ts:web:ift:2026q1-maintenance:hotfixes`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/01/01

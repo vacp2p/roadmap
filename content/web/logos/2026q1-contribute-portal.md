@@ -8,7 +8,7 @@ draft: false
 description: "Development of Contribute Portal, a contribution hub that recognizes open source contributors and helps new developers make their first contributions to strengthen the Logos ecosystem."
 ---
 
-`vac:web:logos:2026q1-contribute-portal`
+`ift-ts:web:logos:2026q1-contribute-portal`
 
 ## Description
 
@@ -34,7 +34,7 @@ The Contribute Portal directly supports the quarterly KPIs by:
 
 ### Contribution Guidelines
 
-* fully qualified name: `vac:web:logos:2026q1-contribute-portal:contribution-guidelines`
+* fully qualified name: `ift-ts:web:logos:2026q1-contribute-portal:contribution-guidelines`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/02/26
@@ -51,7 +51,7 @@ Review and update contribution guidelines copy to ensure clarity and completenes
 
 ### Use BI team's Github Data
 
-* fully qualified name: `vac:web:logos:2026q1-contribute-portal:bi-data`
+* fully qualified name: `ift-ts:web:logos:2026q1-contribute-portal:bi-data`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/03/05
@@ -69,7 +69,7 @@ Integrate BI team's GitHub data API to power contributor metrics and analytics. 
 
 ### Leaderboard
 
-* fully qualified name: `vac:web:logos:2026q1-contribute-portal:leaderboard`
+* fully qualified name: `ift-ts:web:logos:2026q1-contribute-portal:leaderboard`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/03/05
@@ -86,7 +86,7 @@ Implement seasonal and all-time leaderboards with sorting that highlights high-i
 
 ### Tier & Scoring
 
-* fully qualified name: `vac:web:logos:2026q1-contribute-portal:tier-scoring`
+* fully qualified name: `ift-ts:web:logos:2026q1-contribute-portal:tier-scoring`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/03/12
@@ -104,7 +104,7 @@ Define the tier logic and scoring rules that map contributor activity into the r
 
 ### Proposals
 
-* fully qualified name: `vac:web:logos:2026q1-contribute-portal:proposals`
+* fully qualified name: `ift-ts:web:logos:2026q1-contribute-portal:proposals`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/03/12
@@ -118,7 +118,7 @@ Launch the proposal submission flow so volunteers can pitch work or request supp
 
 ### Analytics
 
-* fully qualified name: `vac:web:logos:2026q1-contribute-portal:analytics`
+* fully qualified name: `ift-ts:web:logos:2026q1-contribute-portal:analytics`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/03/19
@@ -136,7 +136,7 @@ Set up Umami analytics integration for tracking portal usage and contributor eng
 
 ### Search
 
-* fully qualified name: `vac:web:logos:2026q1-contribute-portal:search`
+* fully qualified name: `ift-ts:web:logos:2026q1-contribute-portal:search`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/03/19
@@ -153,7 +153,7 @@ Implement search functionality on dedicated pages to allow users to search by Gi
 
 ### Sign-up form
 
-* fully qualified name: `vac:web:logos:2026q1-contribute-portal:sign-up-form`
+* fully qualified name: `ift-ts:web:logos:2026q1-contribute-portal:sign-up-form`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/03/19

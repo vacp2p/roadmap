@@ -8,7 +8,7 @@ draft: false
 description: Enhance functional and e2e testing for status-go features by implementing tests using status-backend.
 ---
 
-`vac:qa:status:2026q1-status-go-functional-testing`
+`ift-ts:qa:status:2026q1-status-go-functional-testing`
 
 ## Description
 Modernize the functional/e2e testing stack for status-go by cleaning up fixtures, 
@@ -18,7 +18,7 @@ improving the Python SDK, and expanding test coverage as defined [here](https://
 
 ### Remove direct usage of Anvil pre-generated accounts
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7086`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7086`
 * owner: egor
 * status: not started
 * start-date: 2026/01/19
@@ -32,7 +32,7 @@ Eliminate hardcoded Anvil accounts and switch to dynamically managed identities.
 
 ### Deploy contracts as part of `docker compose` pre-requisite
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7087`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7087`
 * owner: egor
 * status: not started
 * start-date: 2026/02/02
@@ -46,7 +46,7 @@ Bundle contract deployment into the compose bootstrap to simplify test setup.
 
 ### Remove usage of `setup_backends` fixture approach
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7088`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7088`
 * owner: egor
 * status: not started
 * start-date: 2026/02/16
@@ -60,7 +60,7 @@ Refactor tests to drop legacy `setup_backends` fixtures in favor of the new flow
 
 ### Extract `scan_waku_fleet.py` to a separate container, run as part of waku fleet compose
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7089`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7089`
 * owner: egor
 * status: not started
 * start-date: 2026/03/02
@@ -74,7 +74,7 @@ Containerize the fleet scanner and integrate it into the compose workflow.
 
 ### Introduce `asyncio` into Python SDK
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7090`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7090`
 * owner: roman
 * status: not started
 * start-date: 2026/01/05
@@ -88,7 +88,7 @@ Add asyncio primitives to the Python SDK to enable async test flows.
 
 ### Simplify `SignalClient`
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7091`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7091`
 * owner: roman
 * status: not started
 * start-date: 2026/01/19
@@ -102,7 +102,7 @@ Reduce complexity in `SignalClient` to improve reliability and readability.
 
 ### Remove test classes inheritance to MessengerSteps
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7098`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7098`
 * owner: roman
 * status: not started
 * start-date: 2026/02/02
@@ -116,7 +116,7 @@ Uncouple tests from MessengerSteps inheritance to simplify fixtures and setup.
 
 ### Cleanup and simplify Python SDK
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7084`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7084`
 * owner: roman
 * status: not started
 * start-date: 2026/02/16
@@ -130,7 +130,7 @@ Perform broader cleanup of the Python SDK to reduce flakiness and maintenance ov
 
 ### Community Owner Token Functional Test
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7128`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7128`
 * owner: egor
 * status: not started
 * start-date: 2026/01/19
@@ -144,7 +144,7 @@ Validate ownership flows for community owner tokens.
 
 ### Community Token Master Functional Test
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7129`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7129`
 * owner: egor
 * status: not started
 * start-date: 2026/02/02
@@ -158,7 +158,7 @@ Cover token master responsibilities and guardrails.
 
 ### Community Admin Functional Test
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7130`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7130`
 * owner: egor
 * status: not started
 * start-date: 2026/02/16
@@ -172,7 +172,7 @@ Ensure admin-level permissions behave as expected in communities.
 
 ### Community Ownership Transfer Functional Test
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7131`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7131`
 * owner: egor
 * status: not started
 * start-date: 2026/03/02
@@ -186,7 +186,7 @@ Test community ownership transfer workflows and state transitions.
 
 ### Community Control Node Transfer Functional Test
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7132`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7132`
 * owner: egor
 * status: not started
 * start-date: 2026/03/16
@@ -200,7 +200,7 @@ Verify control node transfer procedures for communities.
 
 ### Community-Level Permissions Functional Test
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7133`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7133`
 * owner: egor
 * status: not started
 * start-date: 2026/03/09
@@ -214,7 +214,7 @@ Validate community-level permission rules and enforcement.
 
 ### Community Channel-Level Permissions Functional Test
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7134`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7134`
 * owner: egor
 * status: not started
 * start-date: 2026/03/18
@@ -228,7 +228,7 @@ Test permissions at the channel level within communities.
 
 ### Implement ENS functional tests
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7093`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7093`
 * owner: egor
 * status: not started
 * start-date: 2026/01/12
@@ -242,7 +242,7 @@ Create functional coverage for ENS integration paths.
 
 ### Expand nightly benchmarks
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7094`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7094`
 * owner: egor
 * status: not started
 * start-date: 2026/02/02
@@ -256,7 +256,7 @@ Broaden nightly benchmark scenarios to track performance and regressions.
 
 ### Implement local notifications functional tests
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:7095`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7095`
 * owner: egor
 * status: not started
 * start-date: 2026/02/23
@@ -270,7 +270,7 @@ Add functional tests for local notification flows.
 
 ### Maintenance
 
-* fully qualified name: `vac:qa:status:2026q1-status-go-functional-testing:maintenance`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:maintenance`
 * owner: egor
 * status: in progress (30%)
 * start-date: 2026/01/01

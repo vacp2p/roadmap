@@ -10,7 +10,7 @@ description: Logos Core module for libp2p
 
 ---
 
-`vac:p2p:ift:2026q1-nimlibp2p-logos-core`
+`ift-ts:p2p:ift:2026q1-nimlibp2p-logos-core`
 
 Continue exposing key nim-libp2p functionality via c-bindings to enables downstream projects like logoscore to embed libp2p functionality directly. 
 
@@ -21,7 +21,7 @@ Using nim-libp2p's c-bindings develop logos-core modules that would let libp2p f
 
 ### logos module
 
-* fully qualified name: `vac:p2p:ift:2026q1-nimlibp2p-logos-core:core`  
+* fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-logos-core:core`  
 * owner: not assigned yet
 * status: not started
 * start-date: 2026/01/01

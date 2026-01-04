@@ -8,7 +8,7 @@ draft: false
 description: "Demonstration of completed work and presentations to showcase the Web team's deliverables, share progress with the entire organization, and gather feedback for continuous improvement."
 ---
 
-`vac:web:ift:2026q1-demos`
+`ift-ts:web:ift:2026q1-demos`
 
 ## Description
 
@@ -25,7 +25,7 @@ The demos commitment supports IFT's strategic objectives by:
 
 ### Biweekly 1 - IFT Townhall Demo
 
-* fully qualified name: `vac:web:ift:2026q1-demos:biweekly-1-ift-townhall`
+* fully qualified name: `ift-ts:web:ift:2026q1-demos:biweekly-1-ift-townhall`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/01/15
@@ -42,7 +42,7 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 
 ### Biweekly 2 - IFT Townhall Demo
 
-* fully qualified name: `vac:web:ift:2026q1-demos:biweekly-2-ift-townhall`
+* fully qualified name: `ift-ts:web:ift:2026q1-demos:biweekly-2-ift-townhall`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/01/29
@@ -59,7 +59,7 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 
 ### Biweekly 3 - IFT Townhall Demo
 
-* fully qualified name: `vac:web:ift:2026q1-demos:biweekly-3-ift-townhall`
+* fully qualified name: `ift-ts:web:ift:2026q1-demos:biweekly-3-ift-townhall`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/02/12
@@ -76,7 +76,7 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 
 ### Biweekly 4 - IFT Townhall Demo
 
-* fully qualified name: `vac:web:ift:2026q1-demos:biweekly-4-ift-townhall`
+* fully qualified name: `ift-ts:web:ift:2026q1-demos:biweekly-4-ift-townhall`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/02/26
@@ -93,7 +93,7 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 
 ### Biweekly 5 - IFT Townhall Demo
 
-* fully qualified name: `vac:web:ift:2026q1-demos:biweekly-5-ift-townhall`
+* fully qualified name: `ift-ts:web:ift:2026q1-demos:biweekly-5-ift-townhall`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/03/12
@@ -110,7 +110,7 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 
 ### Biweekly 6 - IFT Townhall Demo
 
-* fully qualified name: `vac:web:ift:2026q1-demos:biweekly-6-ift-townhall`
+* fully qualified name: `ift-ts:web:ift:2026q1-demos:biweekly-6-ift-townhall`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/03/26

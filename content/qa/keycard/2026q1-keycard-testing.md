@@ -8,7 +8,7 @@ draft: false
 description: Ensure quality of Keycard applications.
 ---
 
-`vac:qa:keycard:2026q1-keycard-testing`
+`ift-ts:qa:keycard:2026q1-keycard-testing`
 
 ## Description
 Ensure quality of Keycard applications, in particular Keycard shell.
@@ -17,7 +17,7 @@ Ensure quality of Keycard applications, in particular Keycard shell.
 
 ### Keycard Shell Tests
 
-* fully qualified name: `vac:qa:keycard:2026q1-keycard-testing:wallet-compatibilty`
+* fully qualified name: `ift-ts:qa:keycard:2026q1-keycard-testing:wallet-compatibilty`
 * owner: romanzac
 * status: not started
 * start-date: 2026/01/01

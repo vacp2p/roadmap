@@ -9,7 +9,7 @@ description: "Perform integration scenarios in logos core
 with different components and evaluate their behaviour."
 ---
 
-`vac:dst:logos-core:2026q1-logos-core-evaluation`
+`ift-ts:dst:logos-core:2026q1-logos-core-evaluation`
 
 
 ## Description
@@ -26,7 +26,7 @@ These componentes are logos-messaging, logos-storage and logos-blockchain.
 
 ### logos-core evaluation
 
-* fully qualified name: `vac:dst:logos-core:2026q1-logos-core-evaluation:evaluation`
+* fully qualified name: `ift-ts:dst:logos-core:2026q1-logos-core-evaluation:evaluation`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -42,7 +42,7 @@ issues if they are found.
 
 
 ### logos-messaging
-* fully qualified name: `vac:dst:logos-core:2026q1-logos-core-evaluation:logos-messaging`
+* fully qualified name: `ift-ts:dst:logos-core:2026q1-logos-core-evaluation:logos-messaging`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -58,7 +58,7 @@ Realize the same scenarios and reports as in `evaluation` task.
 - Related PRs if apply:
 
 ### logos-storage
-* fully qualified name: `vac:dst:logos-core:2026q1-logos-core-evaluation:logos-storage`
+* fully qualified name: `ift-ts:dst:logos-core:2026q1-logos-core-evaluation:logos-storage`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -76,7 +76,7 @@ Realize the same scenarios and reports as in `evaluation` task.
 
 
 ### logos-blockchain
-* fully qualified name: `vac:dst:logos-core:2026q1-logos-core-evaluation:logos-blockchain`
+* fully qualified name: `ift-ts:dst:logos-core:2026q1-logos-core-evaluation:logos-blockchain`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -94,7 +94,7 @@ Realize the same scenarios and reports as in `evaluation` task.
 
 
 ### full stack
-* fully qualified name: `vac:dst:logos-core:2026q1-logos-core-evaluation:full-stack`
+* fully qualified name: `ift-ts:dst:logos-core:2026q1-logos-core-evaluation:full-stack`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01

@@ -3,14 +3,14 @@ title: Libp2p Evaluation
 tags:
   - "2026q1"
   - "dst"
-  - "vac"
+  - "ift"
 draft: false
 description: "Test libp2p on each new version or feature
 and look for regressions,
 learn scaling properties and run scaling studies."
 ---
 
-`vac:dst:vac:2026q1-libp2p-evaluation`
+`ift-ts:dst:ift:2026q1-libp2p-evaluation`
 
 
 ## Description
@@ -30,7 +30,7 @@ work and improvements, and it is subjected to change.
 
 ### Regression testing (recurring)
 
-* fully qualified name: `vac:dst:vac:2026q1-libp2p-evaluation:regression-testing`
+* fully qualified name: `ift-ts:dst:ift:2026q1-libp2p-evaluation:regression-testing`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -50,7 +50,7 @@ and ensure they don't happen again.
 
 
 ### ls-quic
-* fully qualified name: `vac:dst:vac:2026q1-libp2p-evaluation:ls-quic`
+* fully qualified name: `ift-ts:dst:ift:2026q1-libp2p-evaluation:ls-quic`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -70,7 +70,7 @@ between different commits.
 ### Quic-vs-tcp
 > *Note*: This was moved from previous quarter
 
-* fully qualified name: `vac:dst:vac:2026q1-libp2p-evaluation:quic-vs-tcp`
+* fully qualified name: `ift-ts:dst:ift:2026q1-libp2p-evaluation:quic-vs-tcp`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -86,7 +86,7 @@ Perform a comparison between nim-libp2p using quic and waku using mplex and yamu
 
 
 ### ls-quic
-* fully qualified name: `vac:dst:vac:2026q1-libp2p-evaluation:ls-quic`
+* fully qualified name: `ift-ts:dst:ift:2026q1-libp2p-evaluation:ls-quic`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01

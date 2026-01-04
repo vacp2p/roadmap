@@ -8,7 +8,7 @@ draft: false
 description: Expand QA coverage for anoncomms crypto and consensus components with negative-path and error-handling tests.
 ---
 
-`vac:qa:anoncomms:2026q1-anoncomms-testing`
+`ift-ts:qa:anoncomms:2026q1-anoncomms-testing`
 
 ## Description
 
@@ -24,7 +24,7 @@ Baseline test suites and file entry points for onboarding:
 
 ### Zerokit RLN negative-path hardening
 
-* fully qualified name: `vac:qa:anoncomms:2026q1-anoncomms-testing:rln-negative-paths`
+* fully qualified name: `ift-ts:qa:anoncomms:2026q1-anoncomms-testing:rln-negative-paths`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -49,7 +49,7 @@ Baseline test suites and file entry points for onboarding:
 
 ### Zerokit serialization and FFI error handling
 
-* fully qualified name: `vac:qa:anoncomms:2026q1-anoncomms-testing:serialization-ffi-errors`
+* fully qualified name: `ift-ts:qa:anoncomms:2026q1-anoncomms-testing:serialization-ffi-errors`
 * owner: TBD
 * status: not started
 * start-date: 2026/02/01
@@ -71,7 +71,7 @@ Baseline test suites and file entry points for onboarding:
 
 ### Hashgraph-like consensus negative tests
 
-* fully qualified name: `vac:qa:anoncomms:2026q1-anoncomms-testing:hashgraph-negative-tests`
+* fully qualified name: `ift-ts:qa:anoncomms:2026q1-anoncomms-testing:hashgraph-negative-tests`
 * owner: TBD
 * status: not started
 * start-date: 2026/02/15

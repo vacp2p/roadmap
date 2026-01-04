@@ -8,7 +8,7 @@ draft: false
 description: "Optimization of the Logos Forum experience to reduce onboarding friction, enable seamless story submission, and improve community contribution workflows."
 ---
 
-`vac:web:logos:2026q1-logos-forum`
+`ift-ts:web:logos:2026q1-logos-forum`
 
 ## Description
 
@@ -30,7 +30,7 @@ The Logos Forum optimization will support Logos' strategic objectives by:
 
 ### Custom Domain Email Support
 
-* fully qualified name: `vac:web:logos:2026q1-logos-forum:custom-domain-email-support`
+* fully qualified name: `ift-ts:web:logos:2026q1-logos-forum:custom-domain-email-support`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/03/05
@@ -48,7 +48,7 @@ Allow registration with custom domain email addresses to remove barriers for use
 
 ### Cooldown Bypass System
 
-* fully qualified name: `vac:web:logos:2026q1-logos-forum:cooldown-bypass-system`
+* fully qualified name: `ift-ts:web:logos:2026q1-logos-forum:cooldown-bypass-system`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/03/12
@@ -66,7 +66,7 @@ Implement referral code on signup to bypass 24-hour cooldown period. If referral
 
 ### First Post Intro Flow
 
-* fully qualified name: `vac:web:logos:2026q1-logos-forum:first-post-intro-flow`
+* fully qualified name: `ift-ts:web:logos:2026q1-logos-forum:first-post-intro-flow`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/03/19
@@ -85,7 +85,7 @@ Enable new users to post their intro immediately, no matter what. Automatic flow
 
 ### Content Visibility
 
-* fully qualified name: `vac:web:logos:2026q1-logos-forum:content-visibility`
+* fully qualified name: `ift-ts:web:logos:2026q1-logos-forum:content-visibility`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/03/19

@@ -1,16 +1,16 @@
 ---
-title: Nomos Evaluation
+title: Blockchain Evaluation
 tags:
   - "2026q1"
   - "dst"
-  - "nomos"
+  - "blockchain"
 draft: false
-description: "Test Nomos on each new version or requested feature
+description: "Test Blockchain on each new version or requested feature
 and look for regressions,
 learn scaling properties and run scaling studies."
 ---
 
-`vac:dst:nomos:2026q1-nomos-evaluation`
+`ift-ts:dst:blockchain:2026q1-blockchain-evaluation`
 
 
 ## Description
@@ -19,14 +19,14 @@ learn scaling properties and run scaling studies."
 Use real world testing,
 theoretical analysis
 and simulation
-to determine and improve Nomos's scaling properties.
-Find the limits of Nomos's capabilities
+to determine and improve Blockchain's scaling properties.
+Find the limits of Blockchain's capabilities
 and measure them in different scenarios.
 
-We will measure the real world speeds and latency of Nomos' mixnet,
+We will measure the real world speeds and latency of Blockchain' mixnet,
 and what use cases it is therefore able to support.
 
-The scope of this commitment depends on the Nomos team
+The scope of this commitment depends on the Blockchain team
 work and improvements, and it is subjected to change.
 
 ## Task List
@@ -34,7 +34,7 @@ work and improvements, and it is subjected to change.
 ### Blend benchmarking
 > *Note*: This was moved from previous quarter
 
-* fully qualified name: `vac:dst:nomos:2026q1-nomos-evaluation:blendnet-benchmarking`
+* fully qualified name: `ift-ts:dst:blockchain:2026q1-blockchain-evaluation:blendnet-benchmarking`
 * owner: Alberto
 * status: not started
 * start-date: 2026/01/01
@@ -42,7 +42,7 @@ work and improvements, and it is subjected to change.
 
 #### Description
 
-Measure the speed and reliability of Nomos's blendnet.
+Measure the speed and reliability of Blockchain's blendnet.
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
@@ -53,7 +53,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 ### DA benchmarking
 > *Note*: This was moved from previous quarter
 
-* fully qualified name: `vac:dst:nomos:2026q1-nomos-evaluation:da-benchmarking`
+* fully qualified name: `ift-ts:dst:blockchain:2026q1-blockchain-evaluation:da-benchmarking`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -61,7 +61,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 #### Description
 
-Measure Nomos bandwidth usage in DA per node and entire network.
+Measure Blockchain bandwidth usage in DA per node and entire network.
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
@@ -69,10 +69,10 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 * Documents:
 
 
-### Nomos consumption
+### Blockchain consumption
 > *Note*: This was moved from previous quarter
 
-* fully qualified name: `vac:dst:nomos:2026q1-nomos-evaluation:consumption`
+* fully qualified name: `ift-ts:dst:blockchain:2026q1-blockchain-evaluation:consumption`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -80,7 +80,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 #### Description
 
-Measure Nomos resource consumption (CPU/RAM) usage in different scenarios.
+Measure Blockchain resource consumption (CPU/RAM) usage in different scenarios.
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables

@@ -8,7 +8,7 @@ draft: false
 description: Improve Finance reporting
 ---
 
-`vac:bi:finance:2026q1-finance-reporting-helper`
+`ift-ts:bi:finance:2026q1-finance-reporting-helper`
 
 ## Description
 
@@ -18,7 +18,7 @@ Continue to help finance in the automation of reporting.
 
 ### Improve reporting
 
-* fully qualified name: `vac:bi:finance:2026q1-finance-reporting-helper:impovement`
+* fully qualified name: `ift-ts:bi:finance:2026q1-finance-reporting-helper:impovement`
 * owner: nikolay
 * status: not started
 * start-date: 2026/01/01

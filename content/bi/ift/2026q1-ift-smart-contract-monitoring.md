@@ -8,7 +8,7 @@ draft: false
 description: Monitore Smart Contract for different IFT teams
 ---
 
-`vac:bi:ift:2026q1-ift-smart-contract-monitoring`
+`ift-ts:bi:ift:2026q1-ift-smart-contract-monitoring`
 
 ## Description
 
@@ -18,7 +18,7 @@ Monitore Smart contract used by IFT teams.
 
 ### Status Network Vault
 
-* fully qualified name: `vac:bi:ift:2026q1-ift-smart-contract-monitoring:status-network-vault`
+* fully qualified name: `ift-ts:bi:ift:2026q1-ift-smart-contract-monitoring:status-network-vault`
 * owner: claire
 * status: not started
 * start-date: 2026/01/01
@@ -36,7 +36,7 @@ Monitore Vault for Status network (incoming / outgoing flow, ...).
 
 ### Lido V3 Vault
 
-* fully qualified name: `vac:bi:ift:2026q1-ift-smart-contract-monitoring:lido-v3-vault`
+* fully qualified name: `ift-ts:bi:ift:2026q1-ift-smart-contract-monitoring:lido-v3-vault`
 * owner: tbd
 * status: not started
 * start-date: 2026/01/01
@@ -55,7 +55,7 @@ Monitore Lido v3 vault since Develp team is participating in the setup.
 
 ### SNT Uniswap Pool
 
-* fully qualified name: `vac:bi:ift:2026q1-ift-smart-contract-monitoring:snt-uniswap-pool`
+* fully qualified name: `ift-ts:bi:ift:2026q1-ift-smart-contract-monitoring:snt-uniswap-pool`
 * owner: tdb
 * status: not started
 * start-date: 2026/01/01

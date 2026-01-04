@@ -3,18 +3,18 @@ title: RFC Iteration
 tags:
   - 2026q1
   - rfc
-  - codex
+  - storage
 draft: false
 description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected RFCs."
 ---
 
-`vac:rfc:codex:2026q1-rfc-iteration`
+`ift-ts:rfc:storage:2026q1-rfc-iteration`
 
 Iteration commitments generally comprise:
 through discussion and curation,
 support the process of auditing raw, draft, mature selected RFCs.
 
-This commitment covers this process for the following Codex RFCs:
+This commitment covers this process for the following Storage RFCs:
 Block Exchange, Slot builder, Prover, Community history,
 DHT, Store, Merkle tree, Erasure Coding, Manifest.
 
@@ -36,19 +36,19 @@ editorial work through previous and future RFCs to improve them
 
 ###  WIP (new RFCs/Specs)
 
-- fully qualified name: `vac:rfc:codex:2026q1-rfc-iteration:wip`
+- fully qualified name: `ift-ts:rfc:storage:2026q1-rfc-iteration:wip`
 - owner: cofson
 - status: not started
 - start-date: 2026/01/01
 - end-date: 2026/03/31
 #### Description
-Adding new Codex PRs - or Logos Storage - to work in the pipeline.
+Adding new Storage PRs - or Logos Storage - to work in the pipeline.
 
 #### Deliverables
 - New specs (WIP)
 ### Merge Open PRs
 
-- fully qualified name: `vac:rfc:codex:2026q1-rfc-iteration:merge-open-prs`
+- fully qualified name: `ift-ts:rfc:storage:2026q1-rfc-iteration:merge-open-prs`
 - owner: cofson
 - status: not started
 - start-date: 2026/01/01
@@ -65,9 +65,9 @@ Current pipeline:
 - Community History: https://github.com/vacp2p/rfc-index/pull/214
 - DHT: https://github.com/vacp2p/rfc-index/pull/210
 - Slot Builder: https://github.com/vacp2p/rfc-index/pull/209
-- Codex Store: https://github.com/vacp2p/rfc-index/pull/207 
-- Codex Prover: https://github.com/vacp2p/rfc-index/pull/205 
-- Codex Merkle Tree: https://github.com/vacp2p/rfc-index/pull/203 
+- Storage Store: https://github.com/vacp2p/rfc-index/pull/207 
+- Storage Prover: https://github.com/vacp2p/rfc-index/pull/205 
+- Storage Merkle Tree: https://github.com/vacp2p/rfc-index/pull/203 
 - Erasure Coding: https://github.com/vacp2p/rfc-index/pull/192
 - Manifest: https://github.com/vacp2p/rfc-index/pull/191
 #### Deliverables
@@ -75,7 +75,7 @@ Current pipeline:
 
 ###  Workshop
 
-- fully qualified name: `vac:rfc:codex:2026q1-rfc-iteration:workshop`
+- fully qualified name: `ift-ts:rfc:storage:2026q1-rfc-iteration:workshop`
 - owner: cofson
 - status: not started
 - start-date: 2026/01/01

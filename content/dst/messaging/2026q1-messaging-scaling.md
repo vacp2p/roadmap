@@ -1,36 +1,36 @@
 ---
-title: Waku Scaling
+title: Messaging Scaling
 tags:
   - "2026q1"
   - "dst"
-  - "waku"
+  - "messaging"
 draft: false
 description: "Use experiments determine and
-improve Waku's scaling properties.
-Find the limits of Waku's capabilities
+improve Messaging's scaling properties.
+Find the limits of Messaging's capabilities
 and measure them in different scenarios.
 Deliver hard numbers and actionable insights.
 Confirm or reject our ideas or presented ones."
 ---
 
-`vac:dst:waku:2026q1-waku-scaling`
+`ift-ts:dst:messaging:2026q1-messaging-scaling`
 
 ## Description
 
-We will use realistic Waku node experiments to evaluate
-and improve Waku's scalability by conducting
+We will use realistic Messaging node experiments to evaluate
+and improve Messaging's scalability by conducting
 performance measurements across its key components and tasks.
 These efforts contains supporting on-chain RLN memberships,
 strengthening the foundations for private chats, optimize 
 browser bootstrapping for improved responsiveness, 
-integrate nwaku in Status Desktop for seamless relay functionality,
+integrate nmessaging in Status Desktop for seamless relay functionality,
 and implement the SDS protocol for group messaging reliability and recovery.
 
 ## Task list
 
 ### scalable data sync
 
-* fully qualified name: `vac:dst:waku:2026q1-waku-scaling:scalable-data-sync`
+* fully qualified name: `ift-ts:dst:messaging:2026q1-messaging-scaling:scalable-data-sync`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -50,7 +50,7 @@ consistency within `6*S` seconds **(Vac-DST)**.
 
 ### Status communities
 
-* fully qualified name: `vac:dst:waku:2026q1-waku-scaling:status-communities`
+* fully qualified name: `ift-ts:dst:messaging:2026q1-messaging-scaling:status-communities`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -69,7 +69,7 @@ Logos-messaging specific FURPS, before Chat SDK integration.
 
 ### Status private chats
 
-* fully qualified name: `vac:dst:waku:2026q1-waku-scaling:status-private-chats`
+* fully qualified name: `ift-ts:dst:messaging:2026q1-messaging-scaling:status-private-chats`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -85,7 +85,7 @@ Logos-messaging specific FURPS, before Chat SDK integration.
 
 ### Incentivisation
 
-* fully qualified name: `vac:dst:waku:2026q1-waku-scaling:incentivisation`
+* fully qualified name: `ift-ts:dst:messaging:2026q1-messaging-scaling:incentivisation`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -108,7 +108,7 @@ Performance:
 
 ### Rendezvous
 
-* fully qualified name: `vac:dst:waku:2026q1-waku-scaling:rendezvous`
+* fully qualified name: `ift-ts:dst:messaging:2026q1-messaging-scaling:rendezvous`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -116,7 +116,7 @@ Performance:
 
 #### Description
 1. In an established network of 1k relay nodes on 10 shards with 1 bootstrap node,
-   100 new relay nodes (relay + discv5 + Waku PX + rendezvous)
+   100 new relay nodes (relay + discv5 + Messaging PX + rendezvous)
    can connect to 20 relay peers in the right shard within 1 minute (**Vac-DST**)
    ; run simulation without rendezvous to see the difference
 
@@ -126,7 +126,7 @@ Performance:
 
 ### RLN Relay
 
-* fully qualified name: `vac:dst:waku:2026q1-waku-scaling:rln-relay`
+* fully qualified name: `ift-ts:dst:messaging:2026q1-messaging-scaling:rln-relay`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -144,7 +144,7 @@ Performance:
 
 ### Store
 
-* fully qualified name: `vac:dst:waku:2026q1-waku-scaling:store`
+* fully qualified name: `ift-ts:dst:messaging:2026q1-messaging-scaling:store`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -163,7 +163,7 @@ and average message size under 500KiB  **(Vac-DST)**.
 
 ### Store sync
 
-* fully qualified name: `vac:dst:waku:2026q1-waku-scaling:store-sync`
+* fully qualified name: `ift-ts:dst:messaging:2026q1-messaging-scaling:store-sync`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01

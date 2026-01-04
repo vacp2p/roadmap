@@ -3,16 +3,16 @@ title: RFC Iteration
 tags:
   - 2026q1
   - rfc
-  - waku
+  - messaging
 draft: false
-description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected Waku RFCs."
+description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected Messaging RFCs."
 ---
 
-`vac:rfc:waku:2026q1-rfc-iteration`
+`ift-ts:rfc:messaging:2026q1-rfc-iteration`
 
 Iteration commitments generally comprise:
 through discussion and curation,
-support the process of auditing raw, draft, mature selected Waku RFCs.
+support the process of auditing raw, draft, mature selected Messaging RFCs.
 
 ## Description
 
@@ -44,7 +44,7 @@ editorial work through previous and future RFCs to improve them
 
 ### 10/WAKU2
 
-- Fully qualified name: `vac:rfc:waku:2026q1-rfc-iteration:10/WAKU2`
+- Fully qualified name: `ift-ts:rfc:messaging:2026q1-rfc-iteration:10/WAKU2`
 - Owner: jimstir
 - Status: not started
 - Start date: 2026/01/01
@@ -52,7 +52,7 @@ editorial work through previous and future RFCs to improve them
 
 #### Description
 
-Waku v2 is a family of modular peer-to-peer protocols for secure communication.
+Messaging v2 is a family of modular peer-to-peer protocols for secure communication.
 
 #### Deliverables
 
@@ -60,7 +60,7 @@ Waku v2 is a family of modular peer-to-peer protocols for secure communication.
 
 ### 12/WAKU2-FILTER
 
-- Fully qualified name: `vac:rfc:waku:2026q1-rfc-iteration:12/WAKU2-FILTER`
+- Fully qualified name: `ift-ts:rfc:messaging:2026q1-rfc-iteration:12/WAKU2-FILTER`
 - Owner: jimstir
 - Status: not started
 - Start date: 2026/01/16
@@ -68,7 +68,7 @@ Waku v2 is a family of modular peer-to-peer protocols for secure communication.
 
 #### Description
 
-`WakuFilter` is a protocol that enables subscribing to messages that a peer 
+`MessagingFilter` is a protocol that enables subscribing to messages that a peer 
 receives.
 
 #### Deliverables
@@ -77,7 +77,7 @@ receives.
 
 ### 13/WAKU2-STORE
 
-- Fully qualified name: `vac:rfc:waku:2026q1-rfc-iteration:13/WAKU2-STORE`
+- Fully qualified name: `ift-ts:rfc:messaging:2026q1-rfc-iteration:13/WAKU2-STORE`
 - Owner: jimstir
 - Status: not started
 - Start date: 2026/02/01
@@ -94,7 +94,7 @@ querying messages received through the relay protocol and stored by other nodes.
 
 ### 14/WAKU2-MESSAGE
 
-- Fully qualified name: `vac:rfc:waku:2026q1-rfc-iteration:14/WAKU2-MESSAGE`
+- Fully qualified name: `ift-ts:rfc:messaging:2026q1-rfc-iteration:14/WAKU2-MESSAGE`
 - Owner: jimstir
 - Status: not started
 - Start date: 2026/02/16
@@ -102,8 +102,8 @@ querying messages received through the relay protocol and stored by other nodes.
 
 #### Description
 
-Specification of the Waku v2 message format, used to encapsulate messages with 
-specific security goals and provide Whisper/Waku v1 backward compatibility.
+Specification of the Messaging v2 message format, used to encapsulate messages with 
+specific security goals and provide Whisper/Messaging v1 backward compatibility.
 
 #### Deliverables
 
@@ -111,7 +111,7 @@ specific security goals and provide Whisper/Waku v1 backward compatibility.
 
 ### 19/WAKU2-LIGHTPUSH
 
-- Fully qualified name: `vac:rfc:waku:2026q1-rfc-iteration:19/WAKU2-LIGHTPUSH`
+- Fully qualified name: `ift-ts:rfc:messaging:2026q1-rfc-iteration:19/WAKU2-LIGHTPUSH`
 - Owner: jimstir
 - Status: not started
 - Start date: 2026/03/01
@@ -120,7 +120,7 @@ specific security goals and provide Whisper/Waku v1 backward compatibility.
 #### Description
 
 `WAKU2-LIGHTPUSH` is a protocol for light nodes with limited resources to 
-publish messages in the Waku network and receive confirmation of delivery.
+publish messages in the Messaging network and receive confirmation of delivery.
 
 #### Deliverables
 
@@ -128,7 +128,7 @@ publish messages in the Waku network and receive confirmation of delivery.
 
 ### 34/WAKU2-PEER-EXCHANGE
 
-- Fully qualified name: `vac:rfc:waku:2026q1-rfc-iteration:34/WAKU2-PEER-EXCHANGE`
+- Fully qualified name: `ift-ts:rfc:messaging:2026q1-rfc-iteration:34/WAKU2-PEER-EXCHANGE`
 - Owner: jimstir
 - Status: not started
 - Start date: 2026/03/16
@@ -144,7 +144,7 @@ A peer discovery protocol for resource-restricted devices.
 
 ### 15/WAKU-BRIDGE
 
-- Fully qualified name: `vac:rfc:waku:2026q1-rfc-iteration:15/WAKU-BRIDGE`
+- Fully qualified name: `ift-ts:rfc:messaging:2026q1-rfc-iteration:15/WAKU-BRIDGE`
 - Owner: jimstir
 - Status: not started
 - Start date: 2026/03/16
@@ -152,7 +152,7 @@ A peer discovery protocol for resource-restricted devices.
 
 #### Description
 
-A bridge between Waku v1 and Waku v2.
+A bridge between Messaging v1 and Messaging v2.
 
 #### Deliverables
 

@@ -1,27 +1,27 @@
 ---
-title: Codex Evaluation
+title: Storage Evaluation
 tags:
   - "2026q1"
   - "dst"
-  - "codex"
+  - "storage"
 draft: false
-description: "Test Codex on each new version or requested feature
+description: "Test Storage on each new version or requested feature
 and look for regressions,
 learn scaling properties and run scaling studies."
 ---
 
-`vac:dst:codex:2026q1-codex-evaluation`
+`ift-ts:dst:storage:2026q1-storage-evaluation`
 
 
 ## Description
-Test Codex on each new version or requested feature
+Test Storage on each new version or requested feature
 and look for regressions if this is required.
-Help Codex with testing and benchmarking new features.
+Help Storage with testing and benchmarking new features.
 
 ### Background
 
 We want to learn specific, actionable information
-about Codex's behaviour
+about Storage's behaviour
 and how it is evolving over time
 with each new release
 and with each thing we are specifically asked to check and test.
@@ -33,7 +33,7 @@ theoretical analysis and experiments.
 
 ### Filehsharing client
 
-* fully qualified name: `vac:dst:codex:2026q1-codex-evaluation:filesharing-client`
+* fully qualified name: `ift-ts:dst:storage:2026q1-storage-evaluation:filesharing-client`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -41,7 +41,7 @@ theoretical analysis and experiments.
 
 #### Description
 
-Assist the Codex team to check the functionality of the
+Assist the Storage team to check the functionality of the
 filesharing client implementation under heavy/big workloads.
 
 #### Deliverables
@@ -50,7 +50,7 @@ filesharing client implementation under heavy/big workloads.
 
 ### Filehsharing client + mix
 
-* fully qualified name: `vac:dst:codex:2026q1-codex-evaluation:filesharing-client-mix`
+* fully qualified name: `ift-ts:dst:storage:2026q1-storage-evaluation:filesharing-client-mix`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -58,7 +58,7 @@ filesharing client implementation under heavy/big workloads.
 
 #### Description
 
-Assist the Codex team to check the functionality of the
+Assist the Storage team to check the functionality of the
 filesharing client implementation under heavy/big workloads using mix protocol.
 
 #### Deliverables

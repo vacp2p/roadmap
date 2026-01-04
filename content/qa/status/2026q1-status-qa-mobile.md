@@ -10,7 +10,7 @@ description: Status QA Mobile
 
 ---
 
-`vac:qa:status:2026q1-status-qa-mobile`
+`ift-ts:qa:status:2026q1-status-qa-mobile`
 
 ## Description
 
@@ -32,7 +32,7 @@ Continue building mobile/tablet test automation coverage for the Status app.
 
 ### Wallet test expansion
 
-- fully qualified name: `vac:qa:status:2026q1-status-qa-mobile:test-wallet`
+- fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:test-wallet`
 - owner: magnus
 - status: not started
 - start-date: 2026/01/01
@@ -50,7 +50,7 @@ Round out wallet automation to cover account edit, restart, receive, and setting
 
 ### iOS testing pilot
 
-- fully qualified name: `vac:qa:status:2026q1-status-qa-mobile:ios-pilot`
+- fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:ios-pilot`
 - owner: magnus
 - status: not started
 - start-date: 2026/01/20
@@ -66,7 +66,7 @@ Investigate feasibility of adding iOS coverage to framework.
 
 ### Messaging 1x1 additional features
 
-- fully qualified name: `vac:qa:status:2026q1-status-qa-mobile:test-messaging-1x1`
+- fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:test-messaging-1x1`
 - owner: magnus
 - status: not started
 - start-date: 2026/02/01
@@ -84,7 +84,7 @@ Bring the 1x1 messaging test to desktop parity, including edit/reply/react, medi
 
 ### Messaging group chat
 
-- fully qualified name: `vac:qa:status:2026q1-status-qa-mobile:test-messaging-group`
+- fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:test-messaging-group`
 - owner: magnus
 - status: not started
 - start-date: 2026/02/15
@@ -102,7 +102,7 @@ Stand up the first 3-device group chat test covering Activity Center acceptance,
 
 ### Communities foundation
 
-- fully qualified name: `vac:qa:status:2026q1-status-qa-mobile:test-communities`
+- fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:test-communities`
 - owner: magnus
 - status: not started
 - start-date: 2026/03/01
@@ -120,7 +120,7 @@ Lay the groundwork for communities tests with page objects and a basic create/in
 
 ### Maintenance
 
-- fully qualified name: `vac:qa:status:2026q1-status-qa-mobile:maintenance`
+- fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:maintenance`
 - owner: magnus
 - status: not started
 - start-date: 2026/01/01
@@ -137,7 +137,7 @@ Keep the framework healthy while the app changes.
 
 ### Release testing
 
-- fully qualified name: `vac:qa:status:2026q1-status-qa-mobile:release-testing`
+- fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:release-testing`
 - owner: magnus
 - status: not started
 - start-date: 2026/01/01

@@ -8,7 +8,7 @@ draft: false
 description: "Supporting continued development of Status App by ensuring web applications, interfaces, and extensions remain functional during native app upgrades, refactoring, and protocol improvements."
 ---
 
-`vac:web:status:2026q1-status-app`
+`ift-ts:web:status:2026q1-status-app`
 
 ## Description
 
@@ -24,7 +24,7 @@ The Status App web support will support Status' strategic objectives by:
 
 ### External Social Link Preview
 
-* fully qualified name: `vac:web:status:2026q1-status-app:external-social-link-preview`
+* fully qualified name: `ift-ts:web:status:2026q1-status-app:external-social-link-preview`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/02/26

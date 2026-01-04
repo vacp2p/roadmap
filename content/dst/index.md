@@ -2,11 +2,11 @@
 title: Distributed Systems Testing Service Unit
 tags:
 - dst
-- vac
+- ift-ts
 ---
 
 
-## `vac:dst:`
+## `ift-ts:dst:`
 
 ---
 
@@ -20,30 +20,28 @@ are not only effective but also maintain or improve system performance and scala
 
 [[dst/preview|Roadmap Preview]]
 
-## 2026q1 `vac:dst:`
+## 2026q1 `ift-ts:dst:`
 ---
 ### `anoncomms`
 * [[dst/anoncomms/2026q1-anoncomms-evaluation|anoncomms-evaluation]]
 
-### `codex`
-* [[dst/codex/2026q1-codex-evaluation|codex-evaluation]]
+### `storage`
+* [[dst/storage/2026q1-storage-evaluation|storage-evaluation]]
 
 ### `ift`
 * [[dst/ift/2026q1-dst-lab|dst-lab]]
 * [[dst/ift/2026q1-dst-tooling|dst-tooling]]
+* [[dst/ift/2026q1-libp2p-evaluation|libp2p-evaluation]]
 
 ### `logos-core`
 * [[dst/logos-core/2026q1-logos-core-evaluation|logos-core-evaluation]]
 
-### `nomos`
-* [[dst/nomos/2026q1-nomos-evaluation|nomos-evaluation]]
+### `blockchain`
+* [[dst/blockchain/2026q1-blockchain-evaluation|blockchain-evaluation]]
 
-### `vac`
-* [[dst/vac/2026q1-libp2p-evaluation|libp2p-evaluation]]
-
-### `waku`
-* [[dst/waku/2026q1-waku-evaluation|waku-evaluation]]
-* [[dst/waku/2026q1-waku-scaling|waku-scaling]]
+### `messaging`
+* [[dst/messaging/2026q1-messaging-evaluation|messaging-evaluation]]
+* [[dst/messaging/2026q1-messaging-scaling|messaging-scaling]]
 
 ---
 ## 2025q4 `vac:dst:`

@@ -2,12 +2,12 @@
 title: RFC Specifications Service Unit
 tags:
 - rfc
-- vac
+- ift-ts
 ---
 
 [[rfc/preview|Roadmap Preview]]
 
-## 2026q1 `vac:rfc:`
+## 2026q1 `ift-ts:rfc:`
 
 
 ### `logos:`
@@ -16,14 +16,14 @@ tags:
 ### `anoncomms:`
 * [[rfc/anoncomms/2026q1-rfc-iteration|rfc-iteration]]
 
-### `waku:`
-* [[rfc/waku/2026q1-rfc-iteration|rfc-iteration]]
+### `messaging:`
+* [[rfc/messaging/2026q1-rfc-iteration|rfc-iteration]]
 
-### `nomos:`
-* [[rfc/nomos/2026q1-rfc-iteration|rfc-iteration]]
+### `blockchain:`
+* [[rfc/blockchain/2026q1-rfc-iteration|rfc-iteration]]
 
-### `codex:`
-* [[rfc/codex/2026q1-rfc-iteration|rfc-iteration]]
+### `storage:`
+* [[rfc/storage/2026q1-rfc-iteration|rfc-iteration]]
 
 ## 2025q4 `vac:rfc:`
 

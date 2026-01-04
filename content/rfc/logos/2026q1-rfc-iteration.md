@@ -8,7 +8,7 @@ draft: false
 description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected Logos RFCs as well as upskilling efforts of our and other project teams."
 ---
 
-`vac:rfc:logos:2026q1-rfc-iteration`
+`ift-ts:rfc:logos:2026q1-rfc-iteration`
 
 Iteration commitments generally comprise:
 through discussion and curation,
@@ -32,7 +32,7 @@ This commitment also involves the upskilling of the RFC team,
 
 ### Upskilling the Team
 
-- fully qualified name: `vac:rfc:logos:2026q1-rfc-iteration:upskilling-the-team`
+- fully qualified name: `ift-ts:rfc:logos:2026q1-rfc-iteration:upskilling-the-team`
 - owner: cofson
 - status: not started
 - start-date: 2026/01/01

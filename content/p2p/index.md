@@ -2,7 +2,7 @@
 title: P2P Service Unit
 tags:
 - p2p
-- vac
+- ift-ts
 
 ---
 
@@ -14,7 +14,7 @@ Major future work items on nim-libp2p (also beyond this reporting period are cap
 
 [[p2p/preview|Roadmap Preview]]
 
-## 2026q1 `vac:p2p:`
+## 2026q1 `ift-ts:p2p:`
 
 ### `ift:`
 * [[p2p/ift/2026q1-nimlibp2p-cbindings|nimlibp2p-cbindings]]

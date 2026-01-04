@@ -8,7 +8,7 @@ draft: false
 description: Support the Logos team as they integrate Nimble into Logos Storage.
 ---
 
-`vac:nim:logos:2026q1-storage-nimble-integration`
+`ift-ts:nim:logos:2026q1-storage-nimble-integration`
 
 ## Description
 Support the Logos Storage team as they integrate Nimble into Logos Storage, troubleshoot and fix integration mismatches, and document gaps for follow-up.
@@ -17,7 +17,7 @@ Support the Logos Storage team as they integrate Nimble into Logos Storage, trou
 
 ### Logos Storage Nimble integration Support
 
-* fully qualified name: `vac:nim:logos:2026q1-storage-nimble-integration:integration-support`
+* fully qualified name: `ift-ts:nim:logos:2026q1-storage-nimble-integration:integration-support`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -31,7 +31,7 @@ Support the Logos Storage team with fixing issues that come up during their Nimb
 
 ### Complete Logos Storage Nimble integration
 
-* fully qualified name: `vac:nim:logos:2026q1-storage-nimble-integration:complete-integration`
+* fully qualified name: `ift-ts:nim:logos:2026q1-storage-nimble-integration:complete-integration`
 * owner: TBD
 * status: not started
 * start-date: 2026/02/10

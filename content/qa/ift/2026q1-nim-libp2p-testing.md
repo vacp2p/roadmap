@@ -3,13 +3,13 @@ title: Nim Libp2p Testing
 tags:
   - "2026q1"
   - "qa"
-  - "vac"  
+  - "ift"  
 draft: false  
 description: Expand nim-libp2p testing coverage with focus on new protocols, test plans, and stability improvements. 
 
 ---
 
-`vac:qa:vac:2026q1-nim-libp2p-testing`
+`ift-ts:qa:ift:2026q1-nim-libp2p-testing`
 
 ## Description
 Expand nim-libp2p testing coverage, documentation, and tooling with focus on new features under development.  
@@ -20,7 +20,7 @@ Extend coverage for Mix, Kad DHT, Autotls, Identify/Push and Connectivity protoc
 
 ### Test Plans
 
-* fully qualified name: `vac:qa:vac:2026q1-nim-libp2p-testing:test-plans`
+* fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:test-plans`
 * owner: radek
 * status: not started
 * start-date: 2026/01/01
@@ -37,7 +37,7 @@ Develop test plans for features currently under development:
 
 ### Mix Protocol Testing
 
-* fully qualified name: `vac:qa:vac:2026q1-nim-libp2p-testing:mix`
+* fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:mix`
 * owner: radek
 * status: not started
 * start-date: 2026/01/01
@@ -51,7 +51,7 @@ Implement unit and integration tests for the Mix protocol.
 
 ### Kad DHT Protocol Testing
 
-* fully qualified name: `vac:qa:vac:2026q1-nim-libp2p-testing:kad-dht`
+* fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:kad-dht`
 * owner: radek
 * status: not started
 * start-date: 2026/01/25
@@ -65,7 +65,7 @@ Implement unit and integration tests for the Kad DHT protocol.
 
 ### Autotls Protocol Testing
 
-* fully qualified name: `vac:qa:vac:2026q1-nim-libp2p-testing:autotls`
+* fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:autotls`
 * owner: radek
 * status: not started
 * start-date: 2026/02/15
@@ -79,7 +79,7 @@ Implement unit and integration tests for the Autotls protocol.
 
 ### Identify/Push Protocol Testing
 
-* fully qualified name: `vac:qa:vac:2026q1-nim-libp2p-testing:identify-push`
+* fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:identify-push`
 * owner: radek
 * status: not started
 * start-date: 2026/03/01
@@ -94,7 +94,7 @@ covering peer identification, metadata exchange, push updates, and error handlin
 
 ### Connectivity Protocol Testing
 
-* fully qualified name: `vac:qa:vac:2026q1-nim-libp2p-testing:connectivity`
+* fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:connectivity`
 * owner: radek
 * status: not started
 * start-date: 2026/03/15
@@ -109,7 +109,7 @@ connection limits, peer lifecycle handling, and resilience under different netwo
 
 ### Interop Test Plans
 
-* fully qualified name: `vac:qa:vac:2026q1-nim-libp2p-testing:interop-test-plans`
+* fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:interop-test-plans`
 * owner: radek
 * status: not started
 * start-date: 2026/02/01

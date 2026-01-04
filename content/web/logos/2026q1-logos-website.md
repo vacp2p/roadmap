@@ -8,7 +8,7 @@ draft: false
 description: "Continued development and enhancement of the Logos website, building upon the comprehensive platform to improve user journeys, add new features, and optimize community engagement."
 ---
 
-`vac:web:logos:2026q1-logos-website`
+`ift-ts:web:logos:2026q1-logos-website`
 
 ## Description
 
@@ -24,7 +24,7 @@ The Logos website enhancement will support Logos' strategic objectives by:
 
 ### Contribute Portal
 
-* fully qualified name: `vac:web:logos:2026q1-logos-website:contribute-portal`
+* fully qualified name: `ift-ts:web:logos:2026q1-logos-website:contribute-portal`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/03/05
@@ -43,7 +43,7 @@ Integrate contribute portal leaderboard into the Logos website. Coordinate with 
 
 ### Admin
 
-* fully qualified name: `vac:web:logos:2026q1-logos-website:admin`
+* fully qualified name: `ift-ts:web:logos:2026q1-logos-website:admin`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/03/12
@@ -61,7 +61,7 @@ Set up admin functionality for production release and integrate with infrastruct
 
 ### CRM
 
-* fully qualified name: `vac:web:logos:2026q1-logos-website:crm`
+* fully qualified name: `ift-ts:web:logos:2026q1-logos-website:crm`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/03/12
@@ -79,7 +79,7 @@ Implement CRM functionality as specified in the design board and Discord discuss
 
 ### CMS/Sanity
 
-* fully qualified name: `vac:web:logos:2026q1-logos-website:cms-sanity`
+* fully qualified name: `ift-ts:web:logos:2026q1-logos-website:cms-sanity`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/03/19
@@ -96,7 +96,7 @@ Propose alternative to Sanity CMS for content management, enabling non-technical
 
 ### Selfhosting
 
-* fully qualified name: `vac:web:logos:2026q1-logos-website:selfhosting`
+* fully qualified name: `ift-ts:web:logos:2026q1-logos-website:selfhosting`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/03/19

@@ -8,7 +8,7 @@ draft: false
 description: "Development and optimization of the Status Network website to showcase network features, provide documentation, and support community engagement."
 ---
 
-`vac:web:status:2026q1-sn-website`
+`ift-ts:web:status:2026q1-sn-website`
 
 ## Description  
 
@@ -24,7 +24,7 @@ The SN website development will support Status Network's strategic objectives by
 
 ### SEO
 
-* fully qualified name: `vac:web:status:2026q1-sn-website:seo`
+* fully qualified name: `ift-ts:web:status:2026q1-sn-website:seo`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/01/29
@@ -42,7 +42,7 @@ Implement SEO optimization for the Status Network website to improve search engi
 
 ### Translations
 
-* fully qualified name: `vac:web:status:2026q1-sn-website:translations`
+* fully qualified name: `ift-ts:web:status:2026q1-sn-website:translations`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/01/29
@@ -60,7 +60,7 @@ Implement translations support with public contribution flow for community trans
 
 ### Analytics
 
-* fully qualified name: `vac:web:status:2026q1-sn-website:analytics`
+* fully qualified name: `ift-ts:web:status:2026q1-sn-website:analytics`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/02/05
@@ -78,7 +78,7 @@ Implement analytics with campaign tag management for tracking and measuring webs
 
 ### Selfhosting
 
-* fully qualified name: `vac:web:status:2026q1-sn-website:selfhosting`
+* fully qualified name: `ift-ts:web:status:2026q1-sn-website:selfhosting`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/02/05

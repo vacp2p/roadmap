@@ -8,7 +8,7 @@ draft: false
 description: "Continued development and enhancement of Status Network Hub, the main portal application for Status Network users to access all network features including staking, yield earning, bridging, and public funding pool tracking."
 ---
 
-`vac:web:status:2026q1-sn-hub`
+`ift-ts:web:status:2026q1-sn-hub`
 
 ## Description
 
@@ -24,7 +24,7 @@ The SN Hub development will support Status Network's strategic objectives by:
 
 ### SDK
 
-* fully qualified name: `vac:web:status:2026q1-sn-hub:sdk`
+* fully qualified name: `ift-ts:web:status:2026q1-sn-hub:sdk`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/01/01
@@ -43,7 +43,7 @@ Implement SDK functionality for claiming Karma, distributing Karma, and authenti
 
 ### Proxy API
 
-* fully qualified name: `vac:web:status:2026q1-sn-hub:proxy-api`
+* fully qualified name: `ift-ts:web:status:2026q1-sn-hub:proxy-api`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/01/01
@@ -61,7 +61,7 @@ Set up proxy API infrastructure including Status RPC proxy, Status Market proxy,
 
 ### Depositing
 
-* fully qualified name: `vac:web:status:2026q1-sn-hub:depositing`
+* fully qualified name: `ift-ts:web:status:2026q1-sn-hub:depositing`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/01/01
@@ -79,7 +79,7 @@ Implement depositing functionality with GUSD vault integration.
 
 ### Karma Evolution
 
-* fully qualified name: `vac:web:status:2026q1-sn-hub:karma-evolution`
+* fully qualified name: `ift-ts:web:status:2026q1-sn-hub:karma-evolution`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/01/08
@@ -97,7 +97,7 @@ Implement Karma evolution system including Karma progress tracking and transacti
 
 ### NFT Evolution
 
-* fully qualified name: `vac:web:status:2026q1-sn-hub:nft-evolution`
+* fully qualified name: `ift-ts:web:status:2026q1-sn-hub:nft-evolution`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/01/08
@@ -115,7 +115,7 @@ Implement NFT evolution system based on contracts and Karma integration.
 
 ### Backend
 
-* fully qualified name: `vac:web:status:2026q1-sn-hub:backend`
+* fully qualified name: `ift-ts:web:status:2026q1-sn-hub:backend`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/01/15
@@ -133,7 +133,7 @@ Implement backend functionality for leaderboard and app discovery features.
 
 ### QA
 
-* fully qualified name: `vac:web:status:2026q1-sn-hub:qa`
+* fully qualified name: `ift-ts:web:status:2026q1-sn-hub:qa`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/01/15
@@ -151,7 +151,7 @@ Define test cases for QA testing of SN Hub features and functionality.
 
 ### Selfhosting
 
-* fully qualified name: `vac:web:status:2026q1-sn-hub:selfhosting`
+* fully qualified name: `ift-ts:web:status:2026q1-sn-hub:selfhosting`
 * owner: JulesFiliot
 * status: not started
 * start-date: 2026/01/15
@@ -169,7 +169,7 @@ Set up self-hosting infrastructure and deployment processes for SN Hub.
 
 ### Translations
 
-* fully qualified name: `vac:web:status:2026q1-sn-hub:i18n`
+* fully qualified name: `ift-ts:web:status:2026q1-sn-hub:i18n`
 * owner: jinhojang6
 * status: not started
 * start-date: 2026/01/22
@@ -187,7 +187,7 @@ Implement internationalization (i18n) support for SN Hub to enable multi-languag
 
 ### SEO
 
-* fully qualified name: `vac:web:status:2026q1-sn-hub:seo`
+* fully qualified name: `ift-ts:web:status:2026q1-sn-hub:seo`
 * owner: jkbktl
 * status: not started
 * start-date: 2026/01/22

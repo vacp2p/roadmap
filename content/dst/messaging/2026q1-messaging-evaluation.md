@@ -1,22 +1,22 @@
 ---
-title: Waku Evaluation
+title: Messaging Evaluation
 tags:
   - "2026q1"
   - "dst"
-  - "waku"
+  - "messaging"
 draft: false
-description: "Test Waku on each new version or requested feature
+description: "Test Messaging on each new version or requested feature
 and look for regressions,
 learn scaling properties and run scaling studies."
 ---
 
-`vac:dst:waku:2026q1-waku-evaluation`
+`ift-ts:dst:messaging:2026q1-messaging-evaluation`
 
 ## Description
-Test Waku on each new version or requested feature
+Test Messaging on each new version or requested feature
 and look for regressions,
 learn scaling properties and run scaling studies,
-understand the limits of Waku and its behaviour.
+understand the limits of Messaging and its behaviour.
 Deliver reports and actionable insights.
 Do this monthly, reliably, with documentation of findings.
 
@@ -24,7 +24,7 @@ Do this monthly, reliably, with documentation of findings.
 
 ### Regression testing (recurring)
 
-* fully qualified name: `vac:dst:waku:2026q1-waku-evaluation:regression-testing`
+* fully qualified name: `ift-ts:dst:messaging:2026q1-messaging-evaluation:regression-testing`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -33,7 +33,7 @@ Do this monthly, reliably, with documentation of findings.
 #### Description
 Run different scenarios
 and collect evidence and data
-of Waku's behaviour.
+of Messaging's behaviour.
 
 Test for known regressions
 that have occurred in the past

@@ -11,7 +11,7 @@ This includes functionalities such as deployments,
 monitoring, analysis, and control of aforementioned software's."
 ---
 
-`vac:dst:ift:2026q1-dst-tooling`
+`ift-ts:dst:ift:2026q1-dst-tooling`
 
 ## Description
 
@@ -34,7 +34,7 @@ adversarial conditions and control message behavior.
 
 ### General tooling (recurring)
 
-* fully qualified name: `vac:dst:ift:2026q1-dst-tooling:general-tooling`
+* fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:general-tooling`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -50,7 +50,7 @@ Should be made general when possible.
 
 ### Expand deployment - Waku
 
-* fully qualified name: `vac:dst:ift:2026q1-dst-tooling:expand-deployment-waku`
+* fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:expand-deployment-waku`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -67,7 +67,7 @@ specific experiments with them.
 
 ### Expand deployment - nim-libp2p
 
-* fully qualified name: `vac:dst:ift:2026q1-dst-tooling:expand-deployment-nim-libp2p`
+* fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:expand-deployment-nim-libp2p`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -82,7 +82,7 @@ Adjust deployment builders to support nim-libp2p.
 
 ### Expand deployment - codex
 
-* fully qualified name: `vac:dst:ift:2026q1-dst-tooling:expand-deployment-codex`
+* fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:expand-deployment-codex`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -97,7 +97,7 @@ Adjust deployment builders to support codex.
 
 ### Expand deployment - nomos
 
-* fully qualified name: `vac:dst:ift:2026q1-dst-tooling:expand-deployment-nomos`
+* fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:expand-deployment-nomos`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -112,7 +112,7 @@ Adjust deployment builders to support nomos.
 
 ### Expand deployment - anoncomms
 
-* fully qualified name: `vac:dst:ift:2026q1-dst-tooling:expand-deployment-anoncomms`
+* fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:expand-deployment-anoncomms`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01

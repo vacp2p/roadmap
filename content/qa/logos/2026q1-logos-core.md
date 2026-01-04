@@ -10,7 +10,7 @@ description: Validate the first Logos Core iteration and stand up automated test
 
 ---
 
-`vac:qa:logos:2026q1-logos-core`
+`ift-ts:qa:logos:2026q1-logos-core`
 
 ## Description
 
@@ -20,7 +20,7 @@ Exercise the first iteration of Logos Core to understand stability, feature comp
 
 ### Evaluate and test first iteration of Logos Core
 
-* fully qualified name: `vac:qa:logos:2026q1-logos-core:evaluate`
+* fully qualified name: `ift-ts:qa:logos:2026q1-logos-core:evaluate`
 * owner: egor
 * status: not started
 * start-date: 2026/03/01
@@ -38,7 +38,7 @@ Exercise the first iteration of Logos Core to understand stability, feature comp
 
 ### Establish automated testing framework
 
-* fully qualified name: `vac:qa:logos:2026q1-logos-core:automation-framework`
+* fully qualified name: `ift-ts:qa:logos:2026q1-logos-core:automation-framework`
 * owner: egor
 * status: not started
 * start-date: 2026/03/15

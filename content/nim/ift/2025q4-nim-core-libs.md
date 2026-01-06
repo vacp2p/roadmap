@@ -46,6 +46,12 @@ Maintain and extend the foundational Nim libraries required by IFT teams, delive
 Advance command-line parsing utilities (e.g. https://github.com/status-im/nim-confutils), covering new ergonomics and integration support for Nim projects.
 
 #### Deliverables
+- [status-im/nim-confutils#140](https://github.com/status-im/nim-confutils/pull/140) Fix #50; support multiple subcommands in a case branch
+- [nim-lang/Nim#25401](https://github.com/nim-lang/Nim/pull/25401) Add parseEnum support for triple-quoted and raw string enum values
+- [status-im/nim-confutils#138](https://github.com/status-im/nim-confutils/pull/138) Fix #60; display default subcommand desc in help message
+- [status-im/nim-confutils#136](https://github.com/status-im/nim-confutils/pull/136) Fix #62; add obsolete pragma
+- [status-im/nim-confutils#135](https://github.com/status-im/nim-confutils/pull/135) Fix #74; envVarsPrefix app file name when not set
+- [status-im/nim-confutils#134](https://github.com/status-im/nim-confutils/pull/134) Fix #87; support env var value list
 - [status-im/nim-confutils#123](https://github.com/status-im/nim-confutils/pull/123) Fix #112; add results.Opt support
 - [status-im/nim-confutils#132](https://github.com/status-im/nim-confutils/pull/132) Allow passing params to file decode
 - [status-im/nim-confutils#131](https://github.com/status-im/nim-confutils/pull/131) Include debug arg in help desc only if used

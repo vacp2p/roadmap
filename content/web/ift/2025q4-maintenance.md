@@ -27,6 +27,10 @@ Provide upkeep, bug fixes, and small improvements for existing web properties ac
 Handle routine maintenance tickets, dependency bumps, and production support for shipped web projects.
 
 #### Deliverables
+- [acid-info/admin-acid.logos.co#30](https://github.com/acid-info/admin-acid.logos.co/pull/30) Implement email template and PS email form
+- [acid-info/logos#18](https://github.com/acid-info/logos/pull/18) Update API endpoint for logos.co
+- [acid-info/contribute.logos.co#14](https://github.com/acid-info/contribute.logos.co/pull/14) Update API endpoint for the Contribute portal
+- [status-im/community-dapp#120](https://github.com/status-im/community-dapp/pull/120) Fix abort error and store data length for Communities
 - [acid-info/contribute.logos.co#349](https://github.com/acid-info/contribute.logos.co/pull/349) Contribute portal copy updates
 - [acid-info/admin-acid.logos.co#28](https://github.com/acid-info/admin-acid.logos.co/pull/28) Admin acid leaderboard implementation
 - [acid-info/logos-press-engine#250](https://github.com/acid-info/logos-press-engine/pull/250) Take Action button link update

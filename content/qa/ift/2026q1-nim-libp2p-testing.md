@@ -111,7 +111,7 @@ connection limits, peer lifecycle handling, and resilience under different netwo
 
 * fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:interop-test-plans`
 * owner: radek
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/02/01
 * end-date: 2026/02/28
 
@@ -119,4 +119,5 @@ connection limits, peer lifecycle handling, and resilience under different netwo
 Integrate [libp2p test plans](https://github.com/libp2p/test-plans) and run into nim-libp2p
 
 #### Deliverables
-- PRs
+- [vacp2p/nim-libp2p#1993](https://github.com/vacp2p/nim-libp2p/pull/1993) test(interop): Autonatv2 test template
+- [vacp2p/nim-libp2p#1994](https://github.com/vacp2p/nim-libp2p/pull/1994) docs: Improve Development section visibility

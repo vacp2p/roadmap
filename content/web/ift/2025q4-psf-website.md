@@ -34,6 +34,7 @@ The PSF website will support Logos' strategic objectives by:
 Build the core PSF public site with schedules, speakers, and storytelling that sells the festival experience.
 
 #### Deliverables
+- [acid-info/parallel-society#2](https://github.com/acid-info/parallel-society/pull/2) Implement PS email form submission
 - [acid-info/admin-acid.logos.co#29](https://github.com/acid-info/admin-acid.logos.co/pull/29) Implement auto reply email template for forms
 - [Removed background video to stabilize hero performance](https://github.com/acid-info/ps.logos.co/commit/575705c52089ecca3eafd3e584de6320aca66645)
 - [Updated copy across the site](https://github.com/acid-info/ps.logos.co/commit/a7704340571cc2e89c95d1af5a02e05ddbb66565)

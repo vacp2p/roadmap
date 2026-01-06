@@ -31,6 +31,7 @@ Focus on e2e scenarios that can be automated at this level.
 This taks will need to be broken down into smaller task once we have more info
 
 #### Deliverables
+- [Testing with testnets is seemingly open in UI but not really accessible](https://github.com/status-im/status-app/issues/19648)
 - [Linux_arm64 is not supported by choosenim - docker build](https://github.com/status-im/status-go/issues/7258)
 - [Unable to join community with anyone can become member permission](https://github.com/status-im/status-app/issues/19620)
 - [test: Token gated communities](https://github.com/status-im/status-go/pull/7113)

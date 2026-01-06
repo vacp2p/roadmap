@@ -114,6 +114,7 @@ Implement in-app feedback capture so newcomers can report issues and suggest imp
 Design the deposit flow that guides users through bridging assets into the Status Network.
 
 #### Deliverables
+- [status-im/status-web#921](https://github.com/status-im/status-web/pull/921) add available ETH to WETH vault
 - [UI for predeposit](https://github.com/status-im/status-web/pull/816)
 - [Fixing responsive Status Network hub](https://github.com/status-im/status-web/pull/873)
 

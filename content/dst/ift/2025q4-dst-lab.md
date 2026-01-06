@@ -67,7 +67,10 @@ is documented for future reference.
 
 #### Deliverables
 - Code:
+  - [Github PR: Implement vaclab Scheduler](https://github.com/vacp2p/vaclab-k8s-plugins/pull/2)
+  - [Github PR: Deploy Initial Components via Ansible](https://github.com/vacp2p/vaclab-2/pull/1)
 - Reports:
+  - [Notion: Vaclab 2.0 - Full Software Stack](https://www.notion.so/Vaclab-2-0-Full-Software-Stack-2d08f96fb65c8008abfdcfe86a2c3324)
   - [Notion: Vaclab 2.0 - Bandwidth-Aware Scheduling](https://www.notion.so/Vaclab-2-0-Bandwidth-Aware-Scheduling-2d08f96fb65c804eb44fdc7b75e079f9)
   - [Notion: CNI Comparison for reproducible P2P Experiments](https://www.notion.so/Vaclab-2-0-Multi-tenancy-Pod-Networking-2c98f96fb65c817c819ffc0923d28092?source=copy_link#2c98f96fb65c814d9978cd0246c61e06)
   - [Notion: Vaclab 1.0 - Current Stack](https://www.notion.so/Vaclab-1-0-Current-Stack-2c98f96fb65c8020abadfcb9494a9711)

@@ -21,7 +21,7 @@ and applying minor improvements to keep the frameworks functional and effective.
 
 * fully qualified name: `ift-ts:qa:messaging:2026q1-messaging-testing:network-conditions`
 * owner: aya
-* status: not started
+* status: in progress (5%)
 * start date: 2026/01/01
 * end date: 2026/02/15
 

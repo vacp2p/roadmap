@@ -92,8 +92,8 @@ Create the RFC for Cryptarchia bootstrapping and synchronization procedures.
 ### Cryptarchia Fork Choice Rule
 
 - fully qualified name: `vac:rfc:nomos:2025q4-rfc-iteration:cryptarchia-fork-choice-rule`
-- owner: cofson
-- status: not started
+- owner: Jimmy
+- status: in progress (60%)
 - start-date: 2025/12/01
 - end-date: 2025/12/15
 

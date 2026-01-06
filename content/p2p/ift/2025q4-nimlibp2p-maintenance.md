@@ -36,6 +36,8 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#1992](https://github.com/vacp2p/nim-libp2p/pull/1992) chore: remove duplicate license file
+- [vacp2p/nim-libp2p#1991](https://github.com/vacp2p/nim-libp2p/pull/1991) docs: add common hurdles
 - [vacp2p/nim-libp2p#1989](https://github.com/vacp2p/nim-libp2p/pull/1989) docs: improve docs and readme structure
 - [vacp2p/nim-libp2p#1983](https://github.com/vacp2p/nim-libp2p/pull/1983) chore: improve flaky test
 - [vacp2p/nim-libp2p#1972](https://github.com/vacp2p/nim-libp2p/pull/1972) chore: reduce size of docker image

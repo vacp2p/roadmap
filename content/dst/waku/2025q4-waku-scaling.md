@@ -74,6 +74,8 @@ node, 100 service nodes and 500 browser nodes.
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
+- [Github PR: jswaku experiments #170](https://github.com/vacp2p/10ksim/pull/170)
+- [Notion: JsWaku Experiment](https://www.notion.so/JsWaku-Experiment-2a18f96fb65c801baecfe910564b9e5d)
 - Resolved lightpush regression in the updated js-waku image and documented outcomes ([Notion: Js-Waku logs](https://www.notion.so/Js-Waku-logs-2be8f96fb65c80e287f9dba2ebe5017c?source=copy_link#2c48f96fb65c80fcbe98d077f66866c9))
 - Report:
 

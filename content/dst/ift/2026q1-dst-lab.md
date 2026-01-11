@@ -26,6 +26,25 @@ while allow provisioning to other teams dedicated machines if they are needed.
 
 ## Task list
 
+### Lab deployment code
+
+* fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:lab-deployment-code`
+* owner: Mamoutou
+* status: not started
+* start-date: 2026/01/05
+* end-date: 2026/01/16
+
+#### Description
+Complete the deployment and configuration of the remaining lab components using fleet, 
+and deliver a one-click Ansible playbook that fully provisions and configures the 
+new DST lab in a repeatable, automated way.
+Also, update BW resources during the scheduling cycle to avoid race conditions.
+
+#### Deliverables
+- Code:
+- Reports:
+
+
 ### Analyze current stack
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:analyze-current-stack`

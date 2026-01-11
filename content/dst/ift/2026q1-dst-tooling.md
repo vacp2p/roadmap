@@ -68,10 +68,10 @@ specific experiments with them.
 ### Expand deployment - nim-libp2p
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:expand-deployment-nim-libp2p`
-* owner: TBD
+* owner: Pearson
 * status: not started
-* start-date: 2026/01/01
-* end-date: 2026/03/31
+* start-date: 2026/01/12
+* end-date: 2026/01/23
 
 #### Description
 Adjust deployment builders to support nim-libp2p.

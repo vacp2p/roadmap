@@ -106,16 +106,16 @@ Oversee testing strategy around releases.
 #### Deliverables
 - PRs / Issues
 
-### Emoji Reactions
+### Integrate Linea chain
 
-* fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:emoji-reactions`
+* fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:linea-chain`
 * owner: nastya
 * status: not started
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
 #### Description
-- Maintenance for full emoji list in **Reactions** feature.
+- Support **Linea chain** feature in tests.
 
 #### Deliverables
 - PRs / Issues

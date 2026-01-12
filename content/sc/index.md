@@ -5,8 +5,20 @@ tags:
   - vac
 ---
 
+## 2026q1 `ift-ts:sc:`
+---
 
-[[sc/preview|Roadmap Preview]]
+### `ift:`
+
+* [[sc/ift/2026q1-sc-learnup-sessions|sc-learnup-sessions]]
+
+### `status-l2:`
+
+* [[sc/status-l2/2026q1-maintaining-status-l2-contracts|maintaining-status-l2-contracts]]
+
+### `logos:`
+
+* [[sc/logos/2026q1-implement-nssa-attestation|implement-nssa-attestation]]
 
 ## 2025q4 `vac:sc:`
 ---

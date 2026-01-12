@@ -5,7 +5,7 @@ tags:
   - vac
 ---
 
-## 2026q1 `vac:sc:`
+## 2026q1 `ift-ts:sc:`
 ---
 
 ### `ift:`

@@ -8,7 +8,7 @@ draft: false
 description: Implement NSSA attestation.
 ---
 
-`vac:sc:logos:2026q1-implement-nssa-attestation`
+`ift-ts:sc:logos:2026q1-implement-nssa-attestation`
 
 ## Description
 
@@ -29,7 +29,7 @@ and implementing the smart contracts with comprehensive testing and documentatio
 
 ### Research attestation systems and ZK approaches
 
-* fully qualified name: `vac:sc:logos:2026q1-implement-nssa-attestation:research`
+* fully qualified name: `ift-ts:sc:logos:2026q1-implement-nssa-attestation:research`
 * owner: TBD
 * status: not started
 * start-date: 2026/01/01
@@ -49,7 +49,7 @@ Identify design patterns, security considerations, and privacy guarantees applic
 
 ### Design NSSA attestation architecture
 
-* fully qualified name: `vac:sc:logos:2026q1-implement-nssa-attestation:design`
+* fully qualified name: `ift-ts:sc:logos:2026q1-implement-nssa-attestation:design`
 * owner: TBD
 * status: not started
 * start-date: 2026/02/01
@@ -71,7 +71,7 @@ Define the on-chain data structures for both modes and off-chain integration req
 
 ### Implement attestation smart contracts
 
-* fully qualified name: `vac:sc:logos:2026q1-implement-nssa-attestation:implementation`
+* fully qualified name: `ift-ts:sc:logos:2026q1-implement-nssa-attestation:implementation`
 * owner: TBD
 * status: not started
 * start-date: 2026/02/15

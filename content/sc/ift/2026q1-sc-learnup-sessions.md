@@ -8,7 +8,7 @@ draft: false
 description: Monthly learn up sessions about anything smart contracts related.
 ---
 
-`vac:sc:ift:2026q1-sc-learnup-sessions`
+`ift-ts:sc:ift:2026q1-sc-learnup-sessions`
 
 Monthly learn up sessions about smart contract development, protocols, security and alike.
 
@@ -26,7 +26,7 @@ improving cross-project collaboration.
 
 ### Smart Contracts LearnUp Sessions 2026 Q1
 
-* fully qualified name: `vac:sc:ift:2026q1-sc-learnup-sessions:2026q1`
+* fully qualified name: `ift-ts:sc:ift:2026q1-sc-learnup-sessions:2026q1`
 * owner: r4bbit
 * status: not started
 * start-date: 2026/01/01
@@ -42,7 +42,7 @@ Organize learn up session on a monthly basis and ensure meetings are recorded an
 
 ### SC LearnUp Session 2026/01
 
-* fully qualified name: `vac:sc:ift:2026q1-sc-learnup-sessions:2026-01`
+* fully qualified name: `ift-ts:sc:ift:2026q1-sc-learnup-sessions:2026-01`
 * owner: r4bbit
 * status: not started
 * start-date: 2026/01/01
@@ -58,7 +58,7 @@ Run a learn up session about topic of choice related to smart contract developme
 
 ### SC LearnUp Session 2026/02
 
-* fully qualified name: `vac:sc:ift:2026q1-sc-learnup-sessions:2026-02`
+* fully qualified name: `ift-ts:sc:ift:2026q1-sc-learnup-sessions:2026-02`
 * owner: r4bbit
 * status: not started
 * start-date: 2026/02/01
@@ -74,7 +74,7 @@ Run a learn up session about topic of choice related to smart contract developme
 
 ### SC LearnUp Session 2026/03
 
-* fully qualified name: `vac:sc:ift:2026q1-sc-learnup-sessions:2026-03`
+* fully qualified name: `ift-ts:sc:ift:2026q1-sc-learnup-sessions:2026-03`
 * owner: r4bbit
 * status: not started
 * start-date: 2026/03/01

@@ -8,7 +8,7 @@ draft: false
 description: Maintain and improve existing Status Network L2 smart contracts as requested.
 ---
 
-`vac:sc:status-l2:2026q1-maintaining-status-l2-contracts`
+`ift-ts:sc:status-l2:2026q1-maintaining-status-l2-contracts`
 
 Maintain and improve existing Status Network L2 smart contracts as requested.
 
@@ -34,7 +34,7 @@ they will be addressed by our team.
 
 ### Contract maintenance (recurring)
 
-* fully qualified name: `vac:sc:status-l2:2026q1-maintaining-status-l2-contracts:maintenance`
+* fully qualified name: `ift-ts:sc:status-l2:2026q1-maintaining-status-l2-contracts:maintenance`
 * owner: r4bbit
 * status: not started
 * start-date: 2026/01/01

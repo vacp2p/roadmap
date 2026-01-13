@@ -34,7 +34,7 @@ Continue building mobile/tablet test automation coverage for the Status app.
 
 - fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:test-wallet`
 - owner: magnus
-- status: not started
+- status: in progress (5%)
 - start-date: 2026/01/01
 - end-date: 2026/02/15
 

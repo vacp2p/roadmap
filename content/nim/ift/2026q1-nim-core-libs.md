@@ -19,7 +19,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:json-rpc`
 * owner: Nitely
-* status: not started
+* status: in progress (20%)
 * start-date: 2026/01/01
 * end-date: 2025/02/14
 
@@ -34,8 +34,8 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 ### Integrate nim-intops into nim-bncurve and nim-stint
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:intops-integration-bncurve-stint`
-* owner: Constantine
-* status: not started
+* owner: Juan/Constantine
+* status: in progress (5%)
 * start-date: 2026/01/01
 * end-date: 2026/02/14
 
@@ -49,7 +49,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:libp2p-protobuf-serialization`
 * owner: Nitely
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/02/15
 * end-date: 2026/03/31
 
@@ -77,7 +77,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:docs`
 * owner: Constantine
-* status: not started
+* status: in progress (20%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -86,3 +86,4 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 #### Deliverables
 - Docs
+  - [status-im/nim-chronos#612](https://github.com/status-im/nim-chronos/pull/612) Optimize mdBook build time

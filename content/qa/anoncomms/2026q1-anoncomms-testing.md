@@ -25,8 +25,8 @@ Baseline test suites and file entry points for onboarding:
 ### Zerokit RLN negative-path hardening
 
 * fully qualified name: `ift-ts:qa:anoncomms:2026q1-anoncomms-testing:rln-negative-paths`
-* owner: TBD
-* status: not started
+* owner: Roman
+* status: in progress (30%)
 * start-date: 2026/01/01
 * end-date: 2026/02/15
 

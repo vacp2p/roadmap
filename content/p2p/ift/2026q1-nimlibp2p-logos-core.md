@@ -22,8 +22,8 @@ Using nim-libp2p's c-bindings develop logos-core modules that would let libp2p f
 ### logos module
 
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-logos-core:core`  
-* owner: not assigned yet
-* status: not started
+* owner: Gabe
+* status: in progress (10%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -33,3 +33,4 @@ to be used in logos.
 
 #### Deliverables
 - Logos core module 
+- Created `logos-co/logos-libp2p-module` repo

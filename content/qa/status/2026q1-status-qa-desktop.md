@@ -119,3 +119,59 @@ Oversee testing strategy around releases.
 
 #### Deliverables
 - PRs / Issues
+
+### Standardized approach for Popups / Menus / Dropdowns
+
+* fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:standardized-approach`
+* owner: nastya
+* status: not started
+* start-date: 2026/01/01
+* end-date: 2026/03/31
+
+#### Description
+- Support **Standardized approach for Popups / Menus / Dropdowns** feature in tests.
+
+#### Deliverables
+- PRs / Issues
+
+### Private Transactions POC
+
+* fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:private-transactions`
+* owner: nastya
+* status: not started
+* start-date: 2026/01/01
+* end-date: 2026/03/31
+
+#### Description
+- Support **Private Transactions POC** feature in tests.
+
+#### Deliverables
+- PRs / Issues
+
+### Activity Center & Notifications
+
+* fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:activity-center-and-notifications`
+* owner: nastya
+* status: not started
+* start-date: 2026/01/01
+* end-date: 2026/03/31
+
+#### Description
+- Support **Activity Center & Notifications – UX, Consistency and Responsive Improvements** feature in tests.
+
+#### Deliverables
+- PRs / Issues
+
+### Backup feature improvements
+
+* fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:backup-improvements`
+* owner: nastya
+* status: not started
+* start-date: 2026/01/01
+* end-date: 2026/03/31
+
+#### Description
+- Support **Backup feature improvements** feature in tests.
+
+#### Deliverables
+- PRs / Issues

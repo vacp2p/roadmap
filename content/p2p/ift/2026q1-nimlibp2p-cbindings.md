@@ -21,6 +21,21 @@ Continue the work started in `ift-ts:p2p:ift:2026q1-nimlibp2p-cbindings` by expo
 
 TODO: move tasks that were not completed in 2026q1 here
 
+### Core c-bindings
+
+* fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-cbindings:core`  
+* owner: Richard
+* status: in progress (15%)
+* start-date: 2026/01/01
+* end-date: 2026/03/31
+
+#### Description
+Expose core nim-libp2p functionality via c-bindings, including stream read/write support and basic node/kademlia configuration.
+
+#### Deliverables
+- [vacp2p/nim-libp2p#2009](https://github.com/vacp2p/nim-libp2p/pull/2009) feat(cbind): config parameters
+- [vacp2p/nim-libp2p#1976](https://github.com/vacp2p/nim-libp2p/pull/1976) feat(cbind): stream read / write
+
 
 ### mix
 

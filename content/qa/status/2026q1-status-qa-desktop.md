@@ -175,3 +175,17 @@ Oversee testing strategy around releases.
 
 #### Deliverables
 - PRs / Issues
+
+### Unified Adaptive Navigation System
+
+* fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:unified-adaptive-navigation-system`
+* owner: nastya
+* status: not started
+* start-date: 2026/01/01
+* end-date: 2026/03/31
+
+#### Description
+- Support **Unified Adaptive Navigation System** feature in tests.
+
+#### Deliverables
+- PRs / Issues

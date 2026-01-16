@@ -45,7 +45,7 @@ Implement SDK functionality for claiming Karma, distributing Karma, and authenti
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:proxy-api`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/01/01
 * end-date: 2026/01/22
 
@@ -55,6 +55,8 @@ Set up proxy API infrastructure including Status RPC proxy, Status Market proxy,
 
 #### Deliverables
 
+- [TVL on VPN debugging](https://github.com/status-im/status-web/issues/902)
+- Configured a bot protection bypass on Vercel for VPN access
 - Status RPC proxy implementation
 - Status Market proxy implementation
 - Credential and quota management system
@@ -73,6 +75,7 @@ Implement depositing functionality with GUSD vault integration.
 
 #### Deliverables
 
+- [Change order of the vaults](https://github.com/status-im/status-web/pull/969)
 - Depositing interface
 - GUSD vault integration
 - Transaction handling
@@ -81,7 +84,7 @@ Implement depositing functionality with GUSD vault integration.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:karma-evolution`
 * owner: jkbktl
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/01/08
 * end-date: 2026/01/29
 
@@ -91,6 +94,9 @@ Implement Karma evolution system including Karma progress tracking and transacti
 
 #### Deliverables
 
+- [Implement Karma button in the top-nav](https://github.com/status-im/status-web/pull/968)
+- Restricted Karma hooks to Status Network Sepolia
+- Persisted Karma balance across network switches
 - Karma progress system
 - Transaction allowance functionality
 - Evolution tracking
@@ -117,7 +123,7 @@ Implement NFT evolution system based on contracts and Karma integration.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:backend`
 * owner: jinhojang6
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/01/15
 * end-date: 2026/02/28
 
@@ -135,7 +141,7 @@ Implement backend functionality for leaderboard and app discovery features.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:qa`
 * owner: jkbktl
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/01/15
 * end-date: 2026/01/29
 
@@ -153,7 +159,7 @@ Define test cases for QA testing of SN Hub features and functionality.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:selfhosting`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/01/15
 * end-date: 2026/01/29
 
@@ -171,7 +177,7 @@ Set up self-hosting infrastructure and deployment processes for SN Hub.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:i18n`
 * owner: jinhojang6
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/01/22
 * end-date: 2026/02/05
 
@@ -189,7 +195,7 @@ Implement internationalization (i18n) support for SN Hub to enable multi-languag
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:seo`
 * owner: jkbktl
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/01/22
 * end-date: 2026/02/05
 
@@ -199,6 +205,7 @@ Implement SEO optimization for SN Hub to improve search engine visibility and di
 
 #### Deliverables
 
+- [Redirect `/dashboard` to `/`](https://github.com/status-im/status-web/pull/970)
 - SEO implementation
 - Meta tags and structured data
 - SEO audit and optimization report

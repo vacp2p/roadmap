@@ -28,6 +28,20 @@ The Logos Forum optimization will support Logos' strategic objectives by:
 
 ## Task List
 
+### Forum analytics and coordination
+
+* fully qualified name: `ift-ts:web:logos:2026q1-logos-forum:analytics`
+* owner: JulesFiliot
+* status: in progress (5%)
+* start-date: 2026/01/01
+* end-date: 2026/03/31
+
+#### Description
+Analyze forum usage data, coordinate reporting needs, and align with BI for dashboard support.
+
+#### Deliverables
+- [BI dashboard request for forum stats](https://github.com/status-im/data-docs/issues/139)
+
 ### Custom Domain Email Support
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-forum:custom-domain-email-support`

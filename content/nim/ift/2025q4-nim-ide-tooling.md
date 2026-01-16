@@ -29,3 +29,4 @@ Harden Nimlangserver behavior (graceful shutdown, error handling) and document d
 
 #### Deliverables
 - [nim-lang/langserver#376](https://github.com/nim-lang/langserver/issues/376) langserver fails to run for langserver project
+- [nim-lang/langserver#372](https://github.com/nim-lang/langserver/pull/372) Graceful shutdown when nimsuggest is missing

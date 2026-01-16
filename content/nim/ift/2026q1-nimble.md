@@ -45,5 +45,10 @@ All the relevant information can be found in [this GitHub issue](https://github.
   - [nim-lang/nimble#1548](https://github.com/nim-lang/nimble/pull/1548) Improve local Docker
   - [nim-lang/nimble#1547](https://github.com/nim-lang/nimble/pull/1547) Load package version table from cache on startup
   - [nim-lang/nimble#1546](https://github.com/nim-lang/nimble/pull/1546) Prefer tagged versions over #head and remove maxTaggedVersions
+  - [nim-lang/nimble#1552](https://github.com/nim-lang/nimble/pull/1552) Use git show for version enumeration with declarative parser fallback
+  - [nim-lang/nimble#1553](https://github.com/nim-lang/nimble/pull/1553) Fix special versions replacing tagged versions in SAT solver
+  - [nim-lang/nimble#1554](https://github.com/nim-lang/nimble/pull/1554) Fix nim requirements being filtered during SAT nim selection pass
+  - [nim-lang/nimble#1555](https://github.com/nim-lang/nimble/pull/1555) Sets the nim url in the metadata for nim binaries
+  - [nim-lang/nimble#1556](https://github.com/nim-lang/nimble/pull/1556) Compute nim checksum from stdlib
 - Releases:
   - Released `setup-nimble-action`

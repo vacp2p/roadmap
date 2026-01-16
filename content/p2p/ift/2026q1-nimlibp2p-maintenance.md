@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: not started
+* status: in progress (12%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -37,6 +37,7 @@ Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via impro
 
 #### Deliverables
 - [[Deliverable] Maintenance 2026q1]
+- [vacp2p/nim-libp2p#2007](https://github.com/vacp2p/nim-libp2p/pull/2007) chore(ConnManager): avoid exposing impl details
 
 ### Kademlia Interop tests
 

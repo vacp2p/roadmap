@@ -53,7 +53,7 @@ Implement unit and integration tests for the Mix protocol.
 
 * fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:kad-dht`
 * owner: radek
-* status: not started
+* status: in progress (20%)
 * start-date: 2026/01/25
 * end-date: 2026/02/15
 
@@ -62,6 +62,12 @@ Implement unit and integration tests for the Kad DHT protocol.
 
 #### Deliverables
 * PRs with links to added tests
+    * [vacp2p/nim-libp2p#1996](https://github.com/vacp2p/nim-libp2p/pull/1996) test(kad): Key conversion
+    * [vacp2p/nim-libp2p#1998](https://github.com/vacp2p/nim-libp2p/pull/1998) test(kad): Routing table and refresh bucket
+    * [vacp2p/nim-libp2p#2005](https://github.com/vacp2p/nim-libp2p/pull/2005) fix(kad): GetProviders test hanging forever
+* Issues tracked
+    * [vacp2p/nim-libp2p#2006](https://github.com/vacp2p/nim-libp2p/issues/2006) Kad: Lookup random PeerId for each non-empty bucket during bootstrap
+    * [vacp2p/nim-libp2p#2003](https://github.com/vacp2p/nim-libp2p/issues/2003) flaky test(kad): Get providers
 
 ### Autotls Protocol Testing
 

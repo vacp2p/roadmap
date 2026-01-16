@@ -131,8 +131,8 @@ Perform broader cleanup of the Python SDK to reduce flakiness and maintenance ov
 ### Community Owner Token Functional Test
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7128`
-* owner: egor
-* status: not started
+* owner: Roman
+* status: in progress (38%)
 * start-date: 2026/01/19
 * end-date: 2026/01/30
 
@@ -145,8 +145,8 @@ Validate ownership flows for community owner tokens.
 ### Community Token Master Functional Test
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7129`
-* owner: egor
-* status: not started
+* owner: Roman
+* status: in progress (10%)
 * start-date: 2026/02/02
 * end-date: 2026/02/13
 

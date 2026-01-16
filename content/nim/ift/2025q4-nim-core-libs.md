@@ -27,6 +27,8 @@ Maintain and extend the foundational Nim libraries required by IFT teams, delive
 - Extract low-level, hardware- and compiler-specific primitives from [`stint/private/primitives`](https://github.com/status-im/nim-stint/tree/master/stint/private/primitives) and turn them into a reusable, standalone library for CPU-sized integers. Model the design after [Rust’s integer intrinsics](https://github.com/rust-lang/rust/issues/85532), [`nim-stew` PR #187](https://github.com/status-im/nim-stew/pull/187), and [Constantine’s arithmetic core](https://github.com/mratsim/constantine/tree/master/constantine/math_arbitrary_precision/arithmetic), with clean abstractions, cross-platform support, and a minimal, well-documented API. The resulting library should serve as a foundational building block for bigint and cryptographic libraries like Stint and Constantine.
 
 #### Deliverables
+- [vacp2p/nim-intops#9](https://github.com/vacp2p/nim-intops/pull/9)
+- [vacp2p/nim-intops#8](https://github.com/vacp2p/nim-intops/pull/8)
 - [vacp2p/nim-intops#7](https://github.com/vacp2p/nim-intops/pull/7)
 - [vacp2p/nim-intops#2](https://github.com/vacp2p/nim-intops/pull/2)
 - [Added 32-bit integer support and migrated tests to unittest2](https://github.com/vacp2p/nim-intops/pull/5)
@@ -46,6 +48,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams, delive
 Advance command-line parsing utilities (e.g. https://github.com/status-im/nim-confutils), covering new ergonomics and integration support for Nim projects.
 
 #### Deliverables
+- [status-im/nimbus-eth2#7826](https://github.com/status-im/nimbus-eth2/pull/7826) Use confutils obsolete for deprecated beacon node conf options
 - [status-im/nim-confutils#140](https://github.com/status-im/nim-confutils/pull/140) Fix #50; support multiple subcommands in a case branch
 - [nim-lang/Nim#25401](https://github.com/nim-lang/Nim/pull/25401) Add parseEnum support for triple-quoted and raw string enum values
 - [status-im/nim-confutils#138](https://github.com/status-im/nim-confutils/pull/138) Fix #60; display default subcommand desc in help message

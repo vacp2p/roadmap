@@ -44,7 +44,7 @@ Implement SEO optimization for the Status Network website to improve search engi
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-website:translations`
 * owner: jinhojang6
-* status: not started
+* status: in progress (95%)
 * start-date: 2026/01/29
 * end-date: 2026/02/12
 

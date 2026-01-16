@@ -36,7 +36,7 @@ The Contribute Portal directly supports the quarterly KPIs by:
 
 * fully qualified name: `ift-ts:web:logos:2026q1-contribute-portal:contribution-guidelines`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/02/26
 * end-date: 2026/03/12
 

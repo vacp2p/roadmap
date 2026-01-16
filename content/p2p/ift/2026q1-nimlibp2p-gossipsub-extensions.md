@@ -20,8 +20,8 @@ This commitment focuses on implementing [Gossipsub v1.3 - Extensions control mes
 
 ### Implement Gossipsub Extensions support
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-gossipsub-extensions:extensions`
-* owner: not assigned yet
-* status: not started
+* owner: Vlado
+* status: in progress (40%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 

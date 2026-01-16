@@ -97,7 +97,10 @@ Documentation and code clarity is required, as this could be used by the waku te
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Reports:
+- Docs:
+  - Expanded documentation for the nWaku API image
 - Related PRs if apply:
+  - [Refactor to use configs and server](https://github.com/vacp2p/pod-api-requester/pull/2)
 
 
 

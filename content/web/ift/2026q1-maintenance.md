@@ -22,6 +22,24 @@ The maintenance commitment supports IFT's strategic objectives by:
 
 ## Task List
 
+### Maintenance
+
+* fully qualified name: `ift-ts:web:ift:2026q1-maintenance:maintenance`
+* owner: jkbktl
+* status: in progress (5%)
+* start-date: 2026/01/01
+* end-date: 2026/03/31
+
+#### Description
+Ongoing maintenance and support across delivered web properties, including CI/deploy workflows and platform improvements.
+
+#### Deliverables
+- [Preview deploy workflow for external contributors](https://github.com/status-im/status-web/pull/872)
+- [Remove working directories from preview deploy](https://github.com/status-im/status-web/pull/973)
+- [Remove turbo telemetry from preview deploy](https://github.com/status-im/status-web/pull/972)
+- [Implement pagination for search results on LPE](https://github.com/acid-info/logos-press-engine/pull/252)
+- [Recipients notification feature for email templates](https://github.com/acid-info/admin-acid.logos.co/pull/32)
+
 ### Support & Questions
 
 * fully qualified name: `ift-ts:web:ift:2026q1-maintenance:support-questions`

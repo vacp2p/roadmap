@@ -97,7 +97,7 @@ Create the RFC for the Service Reward Distribution Protocol based on the Blockch
 
 - fully qualified name: `ift-ts:rfc:blockchain:2026q1-rfc-iteration:anonymous-leaders-reward-protocol`
 - owner: cofson
-- status: not started
+- status: in progress (70%)
 - start-date: 2026/03/01
 - end-date: 2026/03/15
 

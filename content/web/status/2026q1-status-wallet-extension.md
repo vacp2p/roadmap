@@ -97,8 +97,8 @@ Implement feature to hide small token balances from the wallet view for cleaner 
 ### LI.FI Swap Integration
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:lifi-swap-integration`
-* owner: jkbktl
-* status: not started
+* owner: JulesFiliot
+* status: in progress (5%)
 * start-date: 2026/02/12
 * end-date: 2026/03/05
 
@@ -133,8 +133,8 @@ Implement functionality to send NFTs from the wallet extension.
 ### Global Password
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:global-password`
-* owner: jinhojang6
-* status: not started
+* owner: JulesFiliot
+* status: in progress (5%)
 * start-date: 2026/02/19
 * end-date: 2026/03/05
 

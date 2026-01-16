@@ -30,7 +30,7 @@ while allow provisioning to other teams dedicated machines if they are needed.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:lab-deployment-code`
 * owner: Mamoutou
-* status: not started
+* status: in progress (50%)
 * start-date: 2026/01/05
 * end-date: 2026/01/16
 
@@ -43,6 +43,7 @@ Also, update BW resources during the scheduling cycle to avoid race conditions.
 #### Deliverables
 - Code:
 - Reports:
+  - [Notion: Vaclab 2.0 - Full Software Stack: Physical Infra Layer](https://www.notion.so/Vaclab-2-0-Full-Software-Stack-2d08f96fb65c8008abfdcfe86a2c3324?source=copy_link#2dc8f96fb65c809eaa4ef61286c663c2)
 
 
 ### Analyze current stack

@@ -8,7 +8,7 @@ tags:
 
 ## Description
 
-The Vac Web service unit specializes in developing user-facing web experiences, developer tools, and digital interfaces that expose and amplify the work of IFT projects and other Vac service units.
+The IFT Technical Services (IFT TS) Web service unit specializes in developing user-facing web experiences, developer tools, and digital interfaces that expose and amplify the work of IFT projects and other IFT TS service units.
 
 The unit focuses on developing reusable UI component libraries, web applications, dApp interfaces, browser extensions, APIs, privacy-preserving monitoring and internationalization that power communities and enable external contributions across the IFT ecosystem. The unit also aims to experiment with cutting-edge web technologies to push the boundaries of what's possible in decentralized web applications, ensuring IFT projects maintain a coherent brand identity and exceptional user experience.
 
@@ -40,11 +40,7 @@ The unit's work directly supports IFT's strategic objective of scaling project c
 * [[web/logos/2026q1-logos-website|logos-website]]
 * [[web/logos/2026q1-logos-forum|logos-forum]]
 
-### 2025q4
-
-## 2025q4 `vac:web:`
-
----
+## 2025q4
 
 ### `ift:`
 
@@ -68,7 +64,7 @@ The unit's work directly supports IFT's strategic objective of scaling project c
 * [[web/status/2025q4-status-wallet-extension|status-wallet-extension]]
 * [[web/status/2025q4-status-website|status-website]]
 
-## 2025q3 `vac:web:`
+## 2025q3
 
 ### `ift:`
 

@@ -64,7 +64,7 @@ Should be made general when possible.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:general-log-parser`
 * owner: Alberto
-* status: in progress (50%)
+* status: not started
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

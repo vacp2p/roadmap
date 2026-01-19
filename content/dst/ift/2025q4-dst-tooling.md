@@ -91,7 +91,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `vac:dst:ift:2025q4-dst-tooling:scenario-workflow-manager`
 * owner: TBD
-* status: not started
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 
@@ -111,6 +111,8 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - PRs:
 - Related Documents:
+  - Same work done in `vac:dst:ift:2025q4-dst-tooling:complete-deployment-refactor` 
+    and `vac:dst:ift:2025q4-dst-tooling:general-tooling`
 
 
 ### Local Stack Analysis

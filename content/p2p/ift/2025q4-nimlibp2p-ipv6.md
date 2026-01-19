@@ -34,7 +34,8 @@ Add IPv6 listen/dial for tcp and quic. Might require changes in chronos
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - [Add IPv6 TCP transport tests](https://github.com/vacp2p/nim-libp2p/pull/1850)
-- [Add `toMultiAddress` helper for IPv6](https://github.com/vacp2p/nim-libp2p/pull/1853)
+- [Add IPv6 support for Quic transport](https://github.com/vacp2p/nim-libp2p/pull/1981)
+- [lsquic: add support for IPv6](https://github.com/vacp2p/nim-lsquic/pull/39)
 - Nodes can listen on /ip6 and accept inbound requests
 - Dialer can dial /ip6 addresses
 
@@ -42,7 +43,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 ### addresses & identity
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-ipv6:addresses`
-* owner: rramos
+* owner: vlado
 * status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/30
@@ -61,7 +62,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 ### Testing, Interop & CI
 
 * fully qualified name: `vac:p2p:ift:2025q4-nimlibp2p-ipv6:testing`
-* owner: rramos
+* owner: vlado
 * status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/30
@@ -71,6 +72,6 @@ Ensure IPv6 support and ensure there are no regressions in IPv4 support. Add tes
 
 Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
-- [vacp2p/nim-libp2p#1985](https://github.com/vacp2p/nim-libp2p/pull/1985) ci(interop): use ipv6
+- [ci(interop): use ipv6](https://github.com/vacp2p/nim-libp2p/pull/1985)
 - Test units focusing on IPv6
 - Interop tests against other implementations that support IPv6

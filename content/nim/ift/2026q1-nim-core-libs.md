@@ -87,3 +87,17 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 #### Deliverables
 - Docs
   - [status-im/nim-chronos#612](https://github.com/status-im/nim-chronos/pull/612) Optimize mdBook build time
+
+### Maintenance
+
+* fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:maintenance`
+* owner: Constantine
+* status: in progress (20%)
+* start-date: 2026/01/01
+* end-date: 2026/03/31
+
+#### Description
+- Ongoing maintenance and fixes across Nim core libraries.
+
+#### Deliverables
+- PRs

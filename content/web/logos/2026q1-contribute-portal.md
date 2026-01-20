@@ -48,6 +48,9 @@ Review and update contribution guidelines copy to ensure clarity and completenes
 
 - Updated contribution guidelines documentation
 - Copy review report
+- [acid-info/contribute.logos.co#31](https://github.com/acid-info/contribute.logos.co/pull/31) Translate Resources content to French
+- [hotfix(csp): replace MDX runtime evaluation with react-markdown](https://github.com/acid-info/contribute.logos.co/commit/424eab9c66d15f3b721424111c85d65e603dd14a)
+- [hotfix(mdx): normalize multiline HTML tags for rehype-raw parsing](https://github.com/acid-info/contribute.logos.co/commit/e009f766efb330ad610f4e29e0004b3456063ee0)
 
 ### Use BI team's Github Data
 

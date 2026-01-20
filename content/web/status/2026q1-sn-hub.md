@@ -26,7 +26,7 @@ The SN Hub development will support Status Network's strategic objectives by:
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:sdk`
 * owner: jkbktl
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/01/01
 * end-date: 2026/01/22
 
@@ -36,6 +36,7 @@ Implement SDK functionality for claiming Karma, distributing Karma, and authenti
 
 #### Deliverables
 
+- [status-im/status-web#984](https://github.com/status-im/status-web/pull/984) Fix auth session route (SIWE)
 - SDK implementation
 - Karma claiming functionality
 - Karma distribution functionality
@@ -172,6 +173,7 @@ Set up self-hosting infrastructure and deployment processes for SN Hub.
 - Self-hosting configuration
 - Deployment documentation
 - Infrastructure setup
+- [status-im/status-web#934](https://github.com/status-im/status-web/issues/934) Setting up self-hosting
 
 ### Translations
 
@@ -190,6 +192,8 @@ Implement internationalization (i18n) support for SN Hub to enable multi-languag
 - i18n implementation
 - Translation files
 - Language selector
+- [status-im/status-web#892](https://github.com/status-im/status-web/pull/892) Releasing translated hub
+- [status-im/status-web#889](https://github.com/status-im/status-web/pull/889) Releasing translated website
 
 ### SEO
 

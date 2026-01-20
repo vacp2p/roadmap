@@ -53,7 +53,7 @@ Implement unit and integration tests for the Mix protocol.
 
 * fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:kad-dht`
 * owner: radek
-* status: in progress (20%)
+* status: in progress (45%)
 * start-date: 2026/01/25
 * end-date: 2026/02/15
 
@@ -62,6 +62,13 @@ Implement unit and integration tests for the Kad DHT protocol.
 
 #### Deliverables
 * PRs with links to added tests
+    * [vacp2p/nim-libp2p#2030](https://github.com/vacp2p/nim-libp2p/pull/2030) test(kad): put value 2 - new tests + small fix
+    * [vacp2p/nim-libp2p#2029](https://github.com/vacp2p/nim-libp2p/pull/2029) test(kad): put value 1 - refactor
+    * [vacp2p/nim-libp2p#2025](https://github.com/vacp2p/nim-libp2p/pull/2025) test(interop): Kad test template
+    * [vacp2p/nim-libp2p#2023](https://github.com/vacp2p/nim-libp2p/pull/2023) test(kad): bootstrap and refactor find tests
+    * [vacp2p/nim-libp2p#2022](https://github.com/vacp2p/nim-libp2p/pull/2022) fix(kad): Bootstrap
+    * [vacp2p/nim-libp2p#2018](https://github.com/vacp2p/nim-libp2p/pull/2018) test(kad): find & lookup 2
+    * [vacp2p/nim-libp2p#2014](https://github.com/vacp2p/nim-libp2p/pull/2014) test(kad): find & lookup
     * [vacp2p/nim-libp2p#1996](https://github.com/vacp2p/nim-libp2p/pull/1996) test(kad): Key conversion
     * [vacp2p/nim-libp2p#1998](https://github.com/vacp2p/nim-libp2p/pull/1998) test(kad): Routing table and refresh bucket
     * [vacp2p/nim-libp2p#2005](https://github.com/vacp2p/nim-libp2p/pull/2005) fix(kad): GetProviders test hanging forever

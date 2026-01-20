@@ -36,7 +36,7 @@ they will be addressed by our team.
 
 * fully qualified name: `ift-ts:sc:status-l2:2026q1-maintaining-status-l2-contracts:maintenance`
 * owner: r4bbit
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -44,4 +44,4 @@ they will be addressed by our team.
 Handle inbound maintenance requests for deployed Status L2 contracts, including bug fixes and minor enhancements.
 
 #### Deliverables
-- [ ] PRs/Issues/Docs/Reports
+- [status-im/status-network-monorepo#125](https://github.com/status-im/status-network-monorepo/pull/125) refactor(StakeVault): make use of ExcessivelySafeCall

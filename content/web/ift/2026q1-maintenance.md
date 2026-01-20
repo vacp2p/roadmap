@@ -26,7 +26,7 @@ The maintenance commitment supports IFT's strategic objectives by:
 
 * fully qualified name: `ift-ts:web:ift:2026q1-maintenance:maintenance`
 * owner: jkbktl
-* status: in progress (5%)
+* status: in progress (20%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -34,6 +34,8 @@ The maintenance commitment supports IFT's strategic objectives by:
 Ongoing maintenance and support across delivered web properties, including CI/deploy workflows and platform improvements.
 
 #### Deliverables
+- [acid-info/admin-acid.logos.co#34](https://github.com/acid-info/admin-acid.logos.co/pull/34) Rename spaces-calendar to calendar and spaces to events
+- [congratsdeberg/contribute.logos.co#1](https://github.com/congratsdeberg/contribute.logos.co/pull/1) Korean translation update for Contribute Portal
 - [Preview deploy workflow for external contributors](https://github.com/status-im/status-web/pull/872)
 - [Remove working directories from preview deploy](https://github.com/status-im/status-web/pull/973)
 - [Remove turbo telemetry from preview deploy](https://github.com/status-im/status-web/pull/972)

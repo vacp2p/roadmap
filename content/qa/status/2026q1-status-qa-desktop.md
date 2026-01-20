@@ -21,7 +21,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:maintenance`
 * owner: nastya
-* status: not started
+* status: in progress (74%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -33,6 +33,10 @@ Oversee testing strategy around releases.
 
 #### Deliverables
 - PRs / Issues
+  - [status-im/status-app#19696](https://github.com/status-im/status-app/issues/19696) Can't send ERC1155
+  - [status-im/status-app#19697](https://github.com/status-im/status-app/issues/19697) Can't select ERC721 and send it
+  - [status-im/status-app#19690](https://github.com/status-im/status-app/issues/19690) App crashes when getting fees for sticker pack
+  - [status-im/status-app#19631](https://github.com/status-im/status-app/issues/19631) [Windows] Crash on login
 
 ### Release Testing
 
@@ -110,7 +114,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:linea-chain`
 * owner: nastya
-* status: not started
+* status: in progress (50%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -119,6 +123,7 @@ Oversee testing strategy around releases.
 
 #### Deliverables
 - PRs / Issues
+  - [status-im/status-app#19688](https://github.com/status-im/status-app/issues/19688) Test Linea feature manually
 
 ### Standardized approach for Popups / Menus / Dropdowns
 
@@ -189,3 +194,4 @@ Oversee testing strategy around releases.
 
 #### Deliverables
 - PRs / Issues
+  - [status-im/status-app#19723](https://github.com/status-im/status-app/issues/19723) Fix tests for primary navigation sidebar

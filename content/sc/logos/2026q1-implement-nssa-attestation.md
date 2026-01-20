@@ -30,8 +30,8 @@ and implementing the smart contracts with comprehensive testing and documentatio
 ### Research attestation systems and ZK approaches
 
 * fully qualified name: `ift-ts:sc:logos:2026q1-implement-nssa-attestation:research`
-* owner: TBD
-* status: not started
+* owner: Andrea
+* status: in progress (5%)
 * start-date: 2026/01/01
 * end-date: 2026/01/31
 

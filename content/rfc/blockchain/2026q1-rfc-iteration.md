@@ -27,11 +27,12 @@ in order to ease the developer experience for coming developers.
 The specifications in pipeline:
 - Mantle
 - Bedrock Genesis Block
+- Bedrock Service Declaration Protocol
 - Service Reward Distribution Protocol
 - Anonymous Leaders Reward Protocol
 - Wallet Technical Standard
 - Block Construction, Validation and Execution
-- Bedrock Architecture Overview *(to be confirmed)*
+- Bedrock Architecture Overview
 - Proof of Leadership
 - Payload Formatting
 
@@ -75,6 +76,34 @@ Create the RFC for the Proof of Leadership based on the Blockchain raw spec that
 
 #### Description
 Create the RFC for the Bedrock Genesis Block based on the Blockchain raw spec that applies 1/COSS.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
+### Bedrock Service Declaration Protocol
+
+- fully qualified name: `ift-ts:rfc:blockchain:2026q1-rfc-iteration:bedrock-service-declaration-protocol`
+- owner: cofson
+- status: not started
+- start-date: 2026/02/01
+- end-date: 2026/02/15
+
+#### Description
+Create the RFC for the Bedrock Service Declaration Protocol based on the Blockchain raw spec that applies 1/COSS.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
+### Bedrock Architecture Overview
+
+- fully qualified name: `ift-ts:rfc:blockchain:2026q1-rfc-iteration:bedrock-architecture-overview`
+- owner: cofson
+- status: not started
+- start-date: 2026/02/01
+- end-date: 2026/02/15
+
+#### Description
+Create the RFC for the Bedrock Architecture Overview based on the Blockchain raw spec that applies 1/COSS.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports

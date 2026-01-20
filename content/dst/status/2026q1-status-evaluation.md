@@ -9,7 +9,7 @@ description: "Realize chat protocol benchmarks
 of Status."
 ---
 
-`vac:dst:status:2026q1-status-evaluation`
+`ift-ts:dst:status:2026q1-status-evaluation`
 
 ## Description
 
@@ -33,9 +33,9 @@ more baseline benchmarks are needed to be measured in FURPS.
 
 ### Benchmarks second iteration
 
-* fully qualified name: `vac:dst:status:2026q1-status-evaluation:benchmarks-second-iteration`
+* fully qualified name: `ift-ts:dst:status:2026q1-status-evaluation:benchmarks-second-iteration`
 * owner: Alberto
-* status: 50%
+* status: in progress (50%)
 * start-date: 2026/01/01
 * end-date: 2026/01/31
 

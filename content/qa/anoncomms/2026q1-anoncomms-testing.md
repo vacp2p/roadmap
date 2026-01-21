@@ -26,7 +26,7 @@ Baseline test suites and file entry points for onboarding:
 
 * fully qualified name: `ift-ts:qa:anoncomms:2026q1-anoncomms-testing:rln-negative-paths`
 * owner: Roman
-* status: in progress (30%)
+* status: in progress (35%)
 * start-date: 2026/01/01
 * end-date: 2026/02/15
 
@@ -46,6 +46,8 @@ Baseline test suites and file entry points for onboarding:
 
 - PR(s) with new RLN negative-path and resource error tests.
 - Test report listing covered gaps and remaining risks.
+- [vacp2p/zerokit#363](https://github.com/vacp2p/zerokit/pull/363) Test RLN proof verification failure cases
+- [vacp2p/zerokit#366](https://github.com/vacp2p/zerokit/issues/366) Unhandled error case mismatch between zkey_data and graph_data
 
 ### Zerokit serialization and FFI error handling
 

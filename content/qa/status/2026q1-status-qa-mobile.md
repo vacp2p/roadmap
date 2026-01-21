@@ -122,7 +122,7 @@ Lay the groundwork for communities tests with page objects and a basic create/in
 
 - fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:maintenance`
 - owner: magnus
-- status: not started
+- status: in progress (5%)
 - start-date: 2026/01/01
 - end-date: 2026/03/31
 
@@ -134,12 +134,13 @@ Keep the framework healthy while the app changes.
 
 - Stability of tests monitored and flakey tests triaged
 - Tests maintained through Status app refactors
+- [status-im/status-app#19310](https://github.com/status-im/status-app/pull/19310) chore(StatusListItem): add accessible name for e2e test ids
 
 ### Release testing
 
 - fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:release-testing`
 - owner: magnus
-- status: not started
+- status: in progress (5%)
 - start-date: 2026/01/01
 - end-date: 2026/03/31
 

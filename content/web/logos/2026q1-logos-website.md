@@ -80,8 +80,8 @@ Implement CRM functionality as specified in the design board and Discord discuss
 ### CMS/Sanity
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-website:cms-sanity`
-* owner: jkbktl
-* status: not started
+* owner: Felicio
+* status: in progress (5%)
 * start-date: 2026/03/19
 * end-date: 2026/03/31
 

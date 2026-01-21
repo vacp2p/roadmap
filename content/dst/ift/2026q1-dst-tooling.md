@@ -46,6 +46,8 @@ Should be made general when possible.
 
 #### Deliverables
 - PRs:
+  - [vacp2p/10ksim#187](https://github.com/vacp2p/10ksim/pull/187) Reorganize repo by feature
+  - [vacp2p/10ksim#186](https://github.com/vacp2p/10ksim/pull/186) Add namespace param to VictoriaReaderBuilder query
 - Documents:
 
 ### Expand deployment - Waku
@@ -69,7 +71,7 @@ specific experiments with them.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:expand-deployment-nim-libp2p`
 * owner: Pearson
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/01/12
 * end-date: 2026/01/23
 

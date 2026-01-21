@@ -29,6 +29,8 @@ Eliminate hardcoded Anvil accounts and switch to dynamically managed identities.
 
 #### Deliverables
 - PRs and/or Issues
+  - [status-im/status-go#7090](https://github.com/status-im/status-go/issues/7090) Introduce asyncio into Python SDK
+  - [status-im/status-go#7093](https://github.com/status-im/status-go/issues/7093) Implement ENS functional tests
 
 ### Deploy contracts as part of `docker compose` pre-requisite
 

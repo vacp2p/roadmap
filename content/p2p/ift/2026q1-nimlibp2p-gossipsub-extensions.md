@@ -21,9 +21,9 @@ This commitment focuses on implementing [Gossipsub v1.3 - Extensions control mes
 ### Implement Gossipsub Extensions support
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-gossipsub-extensions:extensions`
 * owner: Vlado
-* status: in progress (40%)
+* status: done
 * start-date: 2026/01/01
-* end-date: 2026/03/31
+* end-date: 2026/01/20
 
 #### Description
 * Modify RPC protobuffer to be aware of the existence of `ControlExtensions` control message
@@ -31,6 +31,7 @@ This commitment focuses on implementing [Gossipsub v1.3 - Extensions control mes
 * Test interoperability by implementing [Test Extension](https://github.com/libp2p/specs/blob/master/pubsub/gossipsub/extensions/experimental/test-extension.md)
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2000](https://github.com/vacp2p/nim-libp2p/pull/2000) feat(gossipsub): extensions control message
 - Gossipsub extensions supported
 - Test Extension implemented (optionally enabled via compile time flag)
 

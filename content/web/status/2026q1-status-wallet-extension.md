@@ -39,6 +39,7 @@ Implement proxy API rate limiting to manage API usage and prevent abuse.
 - Rate limiting implementation
 - API quota management
 - Rate limit configuration
+- [status-im/status-web#855](https://github.com/status-im/status-web/issues/855) Using the browser extension does not work while VPN is turned on
 
 ### QA Defining Test Cases Together
 
@@ -111,6 +112,7 @@ Integrate LI.FI swap functionality to enable multi-chain token swaps within the 
 - LI.FI integration
 - Swap interface
 - Multi-chain support
+- [status-im/status-web#966](https://github.com/status-im/status-web/pull/966) Integrate LI.FI widget to swap token on ETH network
 
 ### Send NFT
 

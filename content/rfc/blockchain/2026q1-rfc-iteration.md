@@ -84,7 +84,7 @@ Create the RFC for the Bedrock Genesis Block based on the Blockchain raw spec th
 
 - fully qualified name: `ift-ts:rfc:blockchain:2026q1-rfc-iteration:bedrock-service-declaration-protocol`
 - owner: cofson
-- status: not started
+- status: in progress (90%)
 - start-date: 2026/02/01
 - end-date: 2026/02/15
 
@@ -98,7 +98,7 @@ Create the RFC for the Bedrock Service Declaration Protocol based on the Blockch
 
 - fully qualified name: `ift-ts:rfc:blockchain:2026q1-rfc-iteration:bedrock-architecture-overview`
 - owner: cofson
-- status: not started
+- status: in progress (90%)
 - start-date: 2026/02/01
 - end-date: 2026/02/15
 
@@ -182,7 +182,7 @@ Create the RFC for the Block Construction, Validation and Execution based on the
 
 - fully qualified name: `ift-ts:rfc:blockchain:2026q1-rfc-iteration:merge-open-prs`
 - owner: cofson
-- status: not started
+- status: in progress (70%)
 - start-date: 2026/01/01
 - end-date: 2026/03/31
 

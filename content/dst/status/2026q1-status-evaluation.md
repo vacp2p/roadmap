@@ -53,6 +53,8 @@ This task is a mix of `vac:dst:waku:2025q4-waku-scaling:nwaku-in-status-desktop`
 - Github PRs:
   - [Github PR: Multiple consumers #35](https://github.com/vacp2p/status-benchmarks/pull/35)
   - [Github PR: Logger adjustments #37](https://github.com/vacp2p/status-benchmarks/pull/37)
+- Other:
+  - Fixed build issues in Status with nim logos-messaging (nWaku)
 - Documents:
   - [Notion: Status-light and nWaku filter](https://www.notion.so/Status-light-and-nWaku-filter-2858f96fb65c8019ac2af3a84c688d68)
   - [Notion: Status benchmark discovery issues](https://www.notion.so/Status-benchmark-discovery-issues-27a8f96fb65c80e9bc09e356371556a0)

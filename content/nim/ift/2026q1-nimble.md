@@ -41,6 +41,10 @@ All the relevant information can be found in [this GitHub issue](https://github.
 
 #### Deliverables
 - PRs:
+  - [nim-lang/nimble#1565](https://github.com/nim-lang/nimble/pull/1565) Fix develop packages being added twice in the lock
+  - [nim-lang/nimble#1564](https://github.com/nim-lang/nimble/pull/1564) Make global the default (next release only)
+  - [nim-lang/nimble#1561](https://github.com/nim-lang/nimble/pull/1561) Install nim from nimbinaries to pkgs2 for package consistency
+  - [nim-lang/nimble#1559](https://github.com/nim-lang/nimble/pull/1559) Backwards compatibility with existing nim lock files
   - [nim-lang/nimble#1550](https://github.com/nim-lang/nimble/pull/1550) Fix isRoot flag being loaded from cache causing wrong root package selection
   - [nim-lang/nimble#1548](https://github.com/nim-lang/nimble/pull/1548) Improve local Docker
   - [nim-lang/nimble#1547](https://github.com/nim-lang/nimble/pull/1547) Load package version table from cache on startup

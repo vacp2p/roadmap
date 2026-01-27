@@ -21,11 +21,18 @@ Additionally, it handle the RAG CaaS to ingest map the internal knowledge of IFT
 
 ### `ift`
 * [[bi/ift/2026q1-ift-smart-contract-monitoring|ift-smart-contract-monitoring]]
+* [[bi/ift/2026q1-ift-community-metrics|ift-community-metrics]]
 
 ### `logos`
 * [[bi/logos/2026q1-logos-circle-monitoring|logos-circle-monitoring]]
 * [[bi/logos/2026q1-logos-github-monitoring|logos-github-monitoring]]
+* [[bi/logos/2026q1-logos-content-army|logos-content-army]]
+* [[bi/logos/2026q1-logos-funnel-onboarding|logos-funnel-onboarding]]
 * [[bi/logos/2026q1-logos-public-rag|logos-public-rag]]
+
+### `status`
+
+* [[bi/status/2026q1-uss-status|uss-status]]
 
 ## 2025q4 `vac:bi:`
 ---

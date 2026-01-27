@@ -21,7 +21,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (74%)
+* status: in progress (75%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -33,6 +33,11 @@ Oversee testing strategy around releases.
 
 #### Deliverables
 - PRs / Issues
+  - [status-im/status-app#19763](https://github.com/status-im/status-app/pull/19763) chore(@e2e): add commit data to allure reports
+  - [status-im/status-go#7293](https://github.com/status-im/status-go/pull/7293) chore(@tests): update README.md
+  - [status-im/status-app#19733](https://github.com/status-im/status-app/pull/19733) chore(@e2e): handle slow VMs UI
+  - [status-im/status-app#19608](https://github.com/status-im/status-app/issues/19608) Can't build Windows locally
+  - [status-im/status-app#19119](https://github.com/status-im/status-app/issues/19119) Continue button is not enabled when last word is entered into the grid
   - [status-im/status-app#19696](https://github.com/status-im/status-app/issues/19696) Can't send ERC1155
   - [status-im/status-app#19697](https://github.com/status-im/status-app/issues/19697) Can't select ERC721 and send it
   - [status-im/status-app#19690](https://github.com/status-im/status-app/issues/19690) App crashes when getting fees for sticker pack
@@ -185,9 +190,9 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:unified-adaptive-navigation-system`
 * owner: nastya
-* status: not started
+* status: done
 * start-date: 2026/01/01
-* end-date: 2026/03/31
+* end-date: 2026/01/27
 
 #### Description
 - Support **Unified Adaptive Navigation System** feature in tests.

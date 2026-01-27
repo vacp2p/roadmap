@@ -21,7 +21,7 @@ and applying minor improvements to keep the frameworks functional and effective.
 
 * fully qualified name: `ift-ts:qa:messaging:2026q1-messaging-testing:network-conditions`
 * owner: aya
-* status: in progress (30%)
+* status: in progress (80%)
 * start date: 2026/01/01
 * end date: 2026/02/15
 
@@ -29,13 +29,13 @@ and applying minor improvements to keep the frameworks functional and effective.
 Extend messaging end-to-end tests with network condition scenarios (high latency, low bandwidth, packet loss) for up to 7 nodes.
 
 #### Deliverables
-- PRs and issues
+- [logos-messaging/logos-messaging-interop-tests#151](https://github.com/logos-messaging/logos-messaging-interop-tests/pull/151) Network conditions tests
 
 ### Maintenance
 
 * fully qualified name: `ift-ts:qa:messaging:2026q1-messaging-testing:maintenance`
 * owner: aya
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 

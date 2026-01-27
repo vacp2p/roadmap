@@ -37,8 +37,8 @@ This commitment focuses on implementing [Gossipsub v1.3 - Extensions control mes
 
 ### Implement Gossipsub Partial Messages Extension
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-gossipsub-extensions:partial-messages`
-* owner: not assigned yet
-* status: not started
+* owner: Vlado
+* status: in progress (30%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 

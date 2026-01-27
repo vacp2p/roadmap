@@ -26,14 +26,20 @@ The maintenance commitment supports IFT's strategic objectives by:
 
 * fully qualified name: `ift-ts:web:ift:2026q1-maintenance:maintenance`
 * owner: jkbktl
-* status: in progress (20%)
+* status: done
 * start-date: 2026/01/01
-* end-date: 2026/03/31
+* end-date: 2026/01/27
 
 #### Description
 Ongoing maintenance and support across delivered web properties, including CI/deploy workflows and platform improvements.
 
 #### Deliverables
+- [status-im/status-web#989](https://github.com/status-im/status-web/pull/989) fix(status-app): prevent RSS route build failures and handle missing blog posts
+- [acid-info/contribute.logos.co#39](https://github.com/acid-info/contribute.logos.co/pull/39) fix: window.umami object not set on successful umami script load
+- [acid-info/contribute.logos.co#38](https://github.com/acid-info/contribute.logos.co/pull/38) fix: umami object undefined crashing functions it's used in
+- [acid-info/logos-press-engine#256](https://github.com/acid-info/logos-press-engine/pull/256) Improve CalendarEventDetails layout with EventList wrapper and spacing
+- [acid-info/admin-acid.logos.co#37](https://github.com/acid-info/admin-acid.logos.co/pull/37) Link event types by ID and improve calendar APIs for admin-acid
+- [acid-info/logos-press-engine#255](https://github.com/acid-info/logos-press-engine/pull/255) Add Calendar component and integrate into homepage for LPE
 - [acid-info/admin-acid.logos.co#34](https://github.com/acid-info/admin-acid.logos.co/pull/34) Rename spaces-calendar to calendar and spaces to events
 - [congratsdeberg/contribute.logos.co#1](https://github.com/congratsdeberg/contribute.logos.co/pull/1) Korean translation update for Contribute Portal
 - [Preview deploy workflow for external contributors](https://github.com/status-im/status-web/pull/872)

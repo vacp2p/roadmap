@@ -44,7 +44,7 @@ Organize learn up session on a monthly basis and ensure meetings are recorded an
 
 * fully qualified name: `ift-ts:sc:ift:2026q1-sc-learnup-sessions:2026-01`
 * owner: r4bbit
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/01/01
 * end-date: 2026/01/31
 

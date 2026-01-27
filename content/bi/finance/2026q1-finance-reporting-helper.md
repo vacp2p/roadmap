@@ -20,7 +20,7 @@ Continue to help finance in the automation of reporting.
 
 * fully qualified name: `ift-ts:bi:finance:2026q1-finance-reporting-helper:impovement`
 * owner: nikolay
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 * issue: https://github.com/status-im/data-docs/issues/114
@@ -36,3 +36,4 @@ Possibilities:
 #### Deliverables
 
 - New charts and dashboard.
+- Presented finance reporting dashboard

@@ -51,7 +51,7 @@ Also, update BW resources during the scheduling cycle to avoid race conditions.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:analyze-current-stack`
 * owner: Mamoutou
-* status: not started
+* status: in progress (50%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -63,6 +63,8 @@ Report findings with analysis and benchmarks of the results.
 #### Deliverables
 - Code:
 - Reports:
+- Other:
+  - Deployed vaclab-2 stack on available nodes, exposed lab.vac.dev, and validated basic workloads
 
 
 ### Optimize data scrapping

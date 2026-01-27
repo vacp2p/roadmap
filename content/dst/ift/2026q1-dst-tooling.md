@@ -46,6 +46,10 @@ Should be made general when possible.
 
 #### Deliverables
 - PRs:
+  - [vacp2p/10ksim#190](https://github.com/vacp2p/10ksim/pull/190) Allow base_experiment.deploy to directly take result from builders
+  - [vacp2p/10ksim#189](https://github.com/vacp2p/10ksim/pull/189) Builders for building pods
+  - [vacp2p/10ksim#188](https://github.com/vacp2p/10ksim/pull/188) namespace fixes for builders
+  - [vacp2p/pod-api-requester#3](https://github.com/vacp2p/pod-api-requester/pull/3) Return better error info
   - [vacp2p/10ksim#187](https://github.com/vacp2p/10ksim/pull/187) Reorganize repo by feature
   - [vacp2p/10ksim#186](https://github.com/vacp2p/10ksim/pull/186) Add namespace param to VictoriaReaderBuilder query
 - Documents:
@@ -71,7 +75,7 @@ specific experiments with them.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:expand-deployment-nim-libp2p`
 * owner: Pearson
-* status: in progress (25%)
+* status: in progress (60%)
 * start-date: 2026/01/12
 * end-date: 2026/01/23
 

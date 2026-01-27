@@ -29,6 +29,7 @@ Eliminate hardcoded Anvil accounts and switch to dynamically managed identities.
 
 #### Deliverables
 - PRs and/or Issues
+  - [status-im/status-go#7286](https://github.com/status-im/status-go/issues/7286) Owner token contract deployment reverts
   - [status-im/status-go#7090](https://github.com/status-im/status-go/issues/7090) Introduce asyncio into Python SDK
   - [status-im/status-go#7093](https://github.com/status-im/status-go/issues/7093) Implement ENS functional tests
 
@@ -45,6 +46,8 @@ Bundle contract deployment into the compose bootstrap to simplify test setup.
 
 #### Deliverables
 - PRs and/or Issues
+  - [status-im/status-go#7295](https://github.com/status-im/status-go/pull/7295) Maintenance updates
+  - [status-im/status-go#7090](https://github.com/status-im/status-go/issues/7090) Introduce asyncio into Python SDK
 
 ### Remove usage of `setup_backends` fixture approach
 

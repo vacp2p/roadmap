@@ -41,6 +41,7 @@ All the relevant information can be found in [this GitHub issue](https://github.
 
 #### Deliverables
 - PRs:
+  - [nim-lang/nimble#1569](https://github.com/nim-lang/nimble/pull/1569) Refactor build pipeline
   - [nim-lang/nimble#1565](https://github.com/nim-lang/nimble/pull/1565) Fix develop packages being added twice in the lock
   - [nim-lang/nimble#1564](https://github.com/nim-lang/nimble/pull/1564) Make global the default (next release only)
   - [nim-lang/nimble#1561](https://github.com/nim-lang/nimble/pull/1561) Install nim from nimbinaries to pkgs2 for package consistency

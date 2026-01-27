@@ -132,6 +132,9 @@ Keep the framework healthy while the app changes.
 
 #### Deliverables
 
+- [status-im/status-app#19163](https://github.com/status-im/status-app/pull/19163) ci: add Jenkinsfile and config for e2e mobile tests
+- [status-im/status-app#19239](https://github.com/status-im/status-app/pull/19239) E2E Appium 1x1 chat
+- [status-im/infra-ci#222](https://github.com/status-im/infra-ci/issues/222) Configure job for mobile e2e tests
 - Stability of tests monitored and flakey tests triaged
 - Tests maintained through Status app refactors
 - [status-im/status-app#19310](https://github.com/status-im/status-app/pull/19310) chore(StatusListItem): add accessible name for e2e test ids

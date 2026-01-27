@@ -63,7 +63,7 @@ Implement translations support with design improvements, public contribution flo
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-website:copy-changes-section-reduction`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (6%)
 * start-date: 2026/02/19
 * end-date: 2026/03/05
 

@@ -19,7 +19,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:json-rpc`
 * owner: Nitely
-* status: in progress (30%)
+* status: in progress (40%)
 * start-date: 2026/01/01
 * end-date: 2025/02/14
 
@@ -35,7 +35,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:intops-integration-bncurve-stint`
 * owner: Juan/Constantine
-* status: in progress (5%)
+* status: in progress (80%)
 * start-date: 2026/01/01
 * end-date: 2026/02/14
 
@@ -44,6 +44,9 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 #### Deliverables
 - PRs
+  - [vacp2p/nim-intops#11](https://github.com/vacp2p/nim-intops/pull/11) Merged the benchmarks PR
+- Docs
+  - [Guide on creating new benchmarks](https://vacp2p.github.io/nim-intops/contrib.html#writing-benchmarks)
   - [vacp2p/nim-intops#18](https://github.com/vacp2p/nim-intops/pull/18) Added testing against more Nim versions
 - Releases
   - [nim-intops changelog](https://github.com/vacp2p/nim-intops/blob/develop/changelog.md) Released six intops versions

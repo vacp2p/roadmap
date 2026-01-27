@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (21%)
+* status: in progress (28%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -36,7 +36,11 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.
 
 #### Deliverables
-- [[Deliverable] Maintenance 2026q1]
+- [vacp2p/nim-libp2p#2047](https://github.com/vacp2p/nim-libp2p/pull/2047) chore(ci): update license header
+- [vacp2p/nim-libp2p#2046](https://github.com/vacp2p/nim-libp2p/pull/2046) feat: v1.15.1
+- [vacp2p/nim-libp2p#2045](https://github.com/vacp2p/nim-libp2p/pull/2045) chore: bump lsquic
+- [vacp2p/nim-lsquic#55](https://github.com/vacp2p/nim-lsquic/pull/55) fix: use localpassc and compile specific flags
+- [vacp2p/nim-lsquic#54](https://github.com/vacp2p/nim-lsquic/pull/54) fix: raise DialError when connection fails to be established
 - [vacp2p/nim-libp2p#2035](https://github.com/vacp2p/nim-libp2p/pull/2035) test: improving flakines for floodPublish with bandwidthEstimatebps
 - [vacp2p/nim-libp2p#2020](https://github.com/vacp2p/nim-libp2p/pull/2020) fix(kad-dht): stop condition on find_node and track whether node responded succesfully or not
 - [vacp2p/nim-libp2p#2019](https://github.com/vacp2p/nim-libp2p/pull/2019) feat: v1.15.0

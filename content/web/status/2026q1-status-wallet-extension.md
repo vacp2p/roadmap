@@ -136,7 +136,7 @@ Implement functionality to send NFTs from the wallet extension.
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:global-password`
 * owner: JulesFiliot
-* status: in progress (5%)
+* status: in progress (30%)
 * start-date: 2026/02/19
 * end-date: 2026/03/05
 
@@ -149,6 +149,7 @@ Implement global password functionality for unified authentication across wallet
 - Global password system
 - Authentication integration
 - Password management UI
+- [status-im/status-web#995](https://github.com/status-im/status-web/issues/995) Session-based keys management for wallet
 
 ### Multi Account
 

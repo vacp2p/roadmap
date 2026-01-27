@@ -57,6 +57,7 @@ Set up proxy API infrastructure including Status RPC proxy, Status Market proxy,
 #### Deliverables
 
 - [TVL on VPN debugging](https://github.com/status-im/status-web/issues/902)
+- [status-im/status-web#1001](https://github.com/status-im/status-web/pull/1001) fix: rpc mainnet
 - Configured a bot protection bypass on Vercel for VPN access
 - Status RPC proxy implementation
 - Status Market proxy implementation
@@ -66,7 +67,7 @@ Set up proxy API infrastructure including Status RPC proxy, Status Market proxy,
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:depositing`
 * owner: jinhojang6
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/01/01
 * end-date: 2026/01/15
 
@@ -76,6 +77,11 @@ Implement depositing functionality with GUSD vault integration.
 
 #### Deliverables
 
+- [status-im/status-web#1007](https://github.com/status-im/status-web/pull/1007) chore: update vault cards
+- [status-im/status-web#1002](https://github.com/status-im/status-web/pull/1002) chore: add generic points to modal
+- [status-im/status-web#999](https://github.com/status-im/status-web/pull/999) chore: update order of the vaults
+- [status-im/status-web#994](https://github.com/status-im/status-web/pull/994) feat: add feedback link to mobile
+- [status-im/status-web#992](https://github.com/status-im/status-web/pull/992) feat(wallet): enable GUSD vault
 - [Change order of the vaults](https://github.com/status-im/status-web/pull/969)
 - Depositing interface
 - GUSD vault integration
@@ -160,7 +166,7 @@ Define test cases for QA testing of SN Hub features and functionality.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:selfhosting`
 * owner: JulesFiliot
-* status: in progress (5%)
+* status: in progress (22%)
 * start-date: 2026/01/15
 * end-date: 2026/01/29
 
@@ -210,6 +216,8 @@ Implement SEO optimization for SN Hub to improve search engine visibility and di
 #### Deliverables
 
 - [Redirect `/dashboard` to `/`](https://github.com/status-im/status-web/pull/970)
+- [status-im/status-web#998](https://github.com/status-im/status-web/pull/998) Update the sitemap and metadata
+- [status-im/status-web#991](https://github.com/status-im/status-web/pull/991) Implement technical SEO improvements with i18n support
 - SEO implementation
 - Meta tags and structured data
 - SEO audit and optimization report

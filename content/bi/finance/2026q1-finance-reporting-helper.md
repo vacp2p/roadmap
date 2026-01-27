@@ -20,7 +20,13 @@ Continue to help finance in the automation of reporting.
 
 * fully qualified name: `ift-ts:bi:finance:2026q1-finance-reporting-helper:impovement`
 * owner: nikolay
+<<<<<<< HEAD
 * status: in progress (10%)
+||||||| parent of da3dba044 (bi: adjust tasks for q1 2026)
+* status: not started
+=======
+* status: in progress (80%)
+>>>>>>> da3dba044 (bi: adjust tasks for q1 2026)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 * issue: https://github.com/status-im/data-docs/issues/114

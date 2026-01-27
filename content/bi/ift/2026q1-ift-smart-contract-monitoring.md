@@ -20,7 +20,7 @@ Monitore Smart contract used by IFT teams.
 
 * fully qualified name: `ift-ts:bi:ift:2026q1-ift-smart-contract-monitoring:status-network-vault`
 * owner: claire
-* status: not started
+* status: in progress (33%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 * issue: https://github.com/status-im/data-docs/issues/128

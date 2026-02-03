@@ -137,7 +137,7 @@ Perform broader cleanup of the Python SDK to reduce flakiness and maintenance ov
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7128`
 * owner: Roman
-* status: in progress (38%)
+* status: in progress (39%)
 * start-date: 2026/01/19
 * end-date: 2026/01/30
 

@@ -34,6 +34,9 @@ The maintenance commitment supports IFT's strategic objectives by:
 Ongoing maintenance and support across delivered web properties, including CI/deploy workflows and platform improvements.
 
 #### Deliverables
+- [acid-info/free.technology#18](https://github.com/acid-info/free.technology/pull/18) Add Brand Assets link to footer
+- [acid-info/logos-press-engine#257](https://github.com/acid-info/logos-press-engine/pull/257) Improve table rendering and update navigation links
+- [forum.logos.co theme fix](https://forum.logos.co/admin/customize/themes/3/common/js/edit?safe_mode=no_themes) Resolve inline script admin notice
 - [status-im/status-web#989](https://github.com/status-im/status-web/pull/989) fix(status-app): prevent RSS route build failures and handle missing blog posts
 - [acid-info/contribute.logos.co#39](https://github.com/acid-info/contribute.logos.co/pull/39) fix: window.umami object not set on successful umami script load
 - [acid-info/contribute.logos.co#38](https://github.com/acid-info/contribute.logos.co/pull/38) fix: umami object undefined crashing functions it's used in
@@ -88,7 +91,7 @@ Log issues, bugs, and improvement requests on GitHub for planning and prioritiza
 
 * fully qualified name: `ift-ts:web:ift:2026q1-maintenance:hotfixes`
 * owner: jkbktl
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -98,6 +101,7 @@ Address critical bugs and security issues requiring immediate hotfixes across pr
 
 #### Deliverables
 
+- [status-im/status-web#1013](https://github.com/status-im/status-web/pull/1013) Hotfix disabled vaults
 - Hotfix implementations
 - Hotfix deployment documentation
 - Post-hotfix verification reports

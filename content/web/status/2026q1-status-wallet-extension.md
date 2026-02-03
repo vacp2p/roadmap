@@ -58,6 +58,9 @@ Collaborate with QA team to define comprehensive test cases for wallet extension
 - Test case documentation
 - Test plan
 - QA collaboration notes
+- [status-im/status-web#783](https://github.com/status-im/status-web/issues/783) Browser wallet QA testing - Beta
+- [status-im/status-web#771](https://github.com/status-im/status-web/issues/771) QA testing - build #93
+- [status-im/status-web#768](https://github.com/status-im/status-web/issues/768) Browser extension wallet QA checklist
 
 ### Value Chart
 
@@ -150,6 +153,7 @@ Implement global password functionality for unified authentication across wallet
 - Authentication integration
 - Password management UI
 - [status-im/status-web#995](https://github.com/status-im/status-web/issues/995) Session-based keys management for wallet
+- [Status wallet architecture response](https://github.com/status-im/status-web/issues/995#issuecomment-3821551558)
 
 ### Multi Account
 

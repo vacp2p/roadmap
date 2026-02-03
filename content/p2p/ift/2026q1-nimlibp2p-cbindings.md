@@ -40,8 +40,8 @@ Expose core nim-libp2p functionality via c-bindings, including stream read/write
 ### mix
 
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-cbindings:mix`  
-* owner: not assigned yet
-* status: not started
+* owner: Richard
+* status: in progress (50%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 

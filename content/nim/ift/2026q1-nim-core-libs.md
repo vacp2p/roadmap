@@ -19,7 +19,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:json-rpc`
 * owner: Nitely
-* status: in progress (40%)
+* status: in progress (45%)
 * start-date: 2026/01/01
 * end-date: 2025/02/14
 
@@ -30,12 +30,13 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 #### Deliverables
 - PRs
+  - [status-im/nim-json-rpc#259](https://github.com/status-im/nim-json-rpc/pull/259) Fix #239; allow custom JSON flavors for client code
 
 ### Integrate nim-intops into nim-bncurve and nim-stint
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:intops-integration-bncurve-stint`
 * owner: Juan/Constantine
-* status: in progress (80%)
+* status: in progress (90%)
 * start-date: 2026/01/01
 * end-date: 2026/02/14
 
@@ -92,6 +93,9 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 #### Deliverables
 - Docs
+  - [status-im/nimbus-common-workflow#17](https://github.com/status-im/nimbus-common-workflow/pull/17) Add common workflow for docs (mdBook)
+  - [status-im/nim-stint#171](https://github.com/status-im/nim-stint/pull/171) Docs updates
+  - [nim-stint docs site](https://status-im.github.io/nim-stint/)
   - [status-im/nim-chronos#612](https://github.com/status-im/nim-chronos/pull/612) Optimize mdBook build time
 
 ### Maintenance
@@ -107,3 +111,8 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 #### Deliverables
 - PRs
+  - [vacp2p/nim-intops#20](https://github.com/vacp2p/nim-intops/pull/20) Improve narrowingDiv based on review comments
+  - [status-im/nimbus-common-workflow#15](https://github.com/status-im/nimbus-common-workflow/pull/15/) Fix Nimbus common workflow for tests
+  - [status-im/nim-stint#172](https://github.com/status-im/nim-stint/pull/172/changes) Code review PR
+- Releases
+  - [nim-intops 1.0.7 changelog](https://github.com/vacp2p/nim-intops/blob/develop/changelog.md#107-february-2-2026)

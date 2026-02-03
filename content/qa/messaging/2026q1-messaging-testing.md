@@ -44,6 +44,7 @@ Ongoing maintenance of messaging testing frameworks.
 
 #### Deliverables
 - PRs and issues
+  - [logos-messaging/logos-messaging-interop-tests#156](https://github.com/logos-messaging/logos-messaging-interop-tests/pull/156) Lightpush and metrics test fixes
 
 
 ### Messaging Sonda Tool extension

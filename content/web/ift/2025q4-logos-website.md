@@ -8,7 +8,7 @@ draft: false
 description: "Development of a comprehensive Logos website showcasing the complete technology stack with optimal user journey design, dual-experience architecture for developers and non-developers, and integrated community features that prioritize bringing people together through multiple engagement options."
 ---
 
-`vac:web:ift:2025q4-logos-website`
+`ift-ts:web:ift:2025q4-logos-website`
 
 ## Description
 
@@ -72,7 +72,7 @@ The Logos website will support the volunteer-driven community building strategy 
 
 ### Layout
 
-* fully qualified name: `vac:web:ift:2025q4-logos-website:layout`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-website:layout`
 * owner: jinhojang6
 * status: done
 * start-date: 2025/05/09
@@ -92,7 +92,7 @@ Finalize the responsive site layout, navigation structure, and page templates fo
 
 ### Components
 
-* fully qualified name: `vac:web:ift:2025q4-logos-website:components`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-website:components`
 * owner: jinhojang6
 * status: in progress (90%)
 * start-date: 2025/05/09
@@ -106,7 +106,7 @@ Build and document the reusable UI component library that powers the new Logos w
 
 ### Copyright
 
-* fully qualified name: `vac:web:ift:2025q4-logos-website:copyright`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-website:copyright`
 * owner: 0xbathang
 * status: done
 * start-date: 2025/05/09
@@ -120,7 +120,7 @@ Update copyright, legal disclosures, and footer messaging to align with the late
 
 ### Internationalization
 
-* fully qualified name: `vac:web:ift:2025q4-logos-website:internationalization`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-website:internationalization`
 * owner: jinhojang6
 * status: in progress (50%)
 * start-date: 2025/05/09
@@ -134,7 +134,7 @@ Implement the translation workflow and locale switching needed for a multilingua
 
 ### SEO
 
-* fully qualified name: `vac:web:ift:2025q4-logos-website:seo`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-website:seo`
 * owner: jinhojang6
 * status: in progress (50%)
 * start-date: 2025/05/09
@@ -148,7 +148,7 @@ Optimize metadata, structured data, and performance budgets to improve discovery
 
 ### Documentation
 
-* fully qualified name: `vac:web:ift:2025q4-logos-website:documentation`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-website:documentation`
 * owner: jinhojang6
 * status: in progress (20%)
 * start-date: 2025/05/09
@@ -162,7 +162,7 @@ Create implementation notes and content authoring guides so teams can maintain t
 
 ### Circles map
 
-* fully qualified name: `vac:web:ift:2025q4-logos-website:circles-map`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-website:circles-map`
 * owner: jinhojang6
 * status: done
 * start-date: 2025/10/20
@@ -176,7 +176,7 @@ Prototype an interactive map that visualizes Logos circles and makes it easy to 
 
 ### Spaces Calendar
 
-* fully qualified name: `vac:web:ift:2025q4-logos-website:spaces-calendar`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-website:spaces-calendar`
 * owner: jinhojang6
 * status: done
 * start-date: 2025/10/20
@@ -196,7 +196,7 @@ Embed an events calendar that aggregates upcoming Spaces sessions and community 
 
 ### Data visualization
 
-* fully qualified name: `vac:web:ift:2025q4-logos-website:data-visualization`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-website:data-visualization`
 * owner: jackewing
 * status: in progress (50%)
 * start-date: 2025/05/09
@@ -210,7 +210,7 @@ Design and implement the data visualization modules that communicate Logos impac
 
 ### CTAs
 
-* fully qualified name: `vac:web:ift:2025q4-logos-website:ctas`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-website:ctas`
 * owner: jinhojang6
 * status: done
 * start-date: 2025/05/09
@@ -232,7 +232,7 @@ Design and implement the data visualization modules that communicate Logos impac
 
 ### Blog (Press Engine)
 
-* fully qualified name: `vac:web:ift:2025q4-logos-website:blog`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-website:blog`
 * owner: JulesFiliot
 * status: in progress (60%)
 * start-date: 2025/05/09
@@ -246,7 +246,7 @@ Stand up the press engine blog system with publishing workflow, tagging, and arc
 
 ### Search
 
-* fully qualified name: `vac:web:ift:2025q4-logos-website:search`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-website:search`
 * owner: JulesFiliot
 * status: in progress (50%)
 * start-date: 2025/05/09
@@ -263,7 +263,7 @@ Implement site-wide search that surfaces content across product pages, docs, and
 
 ### External references
 
-* fully qualified name: `vac:web:ift:2025q4-logos-website:external-references`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-website:external-references`
 * owner: jinhojang6
 * status: in progress (20%)
 * start-date: 2025/05/09
@@ -278,11 +278,11 @@ Implement site-wide search that surfaces content across product pages, docs, and
 
 ### Social Proof
 
-* fully qualified name: `vac:web:ift:2025q4-logos-website:social-proof`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-website:social-proof`
 * owner: JulesFiliot
-* status: in progress (90%)
+* status: done
 * start-date: 2025/05/09
-* end-date: 2025/10/31
+* end-date: 2026/02/03
 
 #### Description
 
@@ -291,6 +291,7 @@ Implement site-wide search that surfaces content across product pages, docs, and
 - Members
 
 #### Deliverables
+- [acid-info/logos#22](https://github.com/acid-info/logos/pull/22) Implement contributions data fetching and display in StatList
 - [status-im/data-docs#137](https://github.com/status-im/data-docs/issues/137) Retrieve number of circles
 
 > https://www.figma.com/design/hyehOA8iMTDiazHy4IDL6D/Logos-2?node-id=46-2287&p=f&t=fxzLuvGuIGzW0LaG-0

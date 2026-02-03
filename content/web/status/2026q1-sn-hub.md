@@ -57,6 +57,7 @@ Set up proxy API infrastructure including Status RPC proxy, Status Market proxy,
 #### Deliverables
 
 - [TVL on VPN debugging](https://github.com/status-im/status-web/issues/902)
+- [status-im/eth-rpc-proxy#102](https://github.com/status-im/eth-rpc-proxy/pull/102) Testing dev Status RPC proxy and requesting cache clearance
 - [status-im/status-web#1001](https://github.com/status-im/status-web/pull/1001) fix: rpc mainnet
 - Configured a bot protection bypass on Vercel for VPN access
 - Status RPC proxy implementation
@@ -83,6 +84,7 @@ Implement depositing functionality with GUSD vault integration.
 - [status-im/status-web#994](https://github.com/status-im/status-web/pull/994) feat: add feedback link to mobile
 - [status-im/status-web#992](https://github.com/status-im/status-web/pull/992) feat(wallet): enable GUSD vault
 - [Change order of the vaults](https://github.com/status-im/status-web/pull/969)
+- [status-im/status-web#1010](https://github.com/status-im/status-web/pull/1010) feat(hub): handle wallet can't switch chain error with a dialog
 - Depositing interface
 - GUSD vault integration
 - Transaction handling
@@ -161,6 +163,7 @@ Define test cases for QA testing of SN Hub features and functionality.
 - Test case documentation
 - Test plan
 - QA reports
+- [status-im/status-web#933](https://github.com/status-im/status-web/issues/933) Requesting QA help with tests
 
 ### Selfhosting
 

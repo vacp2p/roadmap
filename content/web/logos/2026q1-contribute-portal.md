@@ -56,7 +56,7 @@ Review and update contribution guidelines copy to ensure clarity and completenes
 
 * fully qualified name: `ift-ts:web:logos:2026q1-contribute-portal:bi-data`
 * owner: jinhojang6
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/03/05
 * end-date: 2026/03/26
 
@@ -66,6 +66,7 @@ Integrate BI team's GitHub data API to power contributor metrics and analytics. 
 
 #### Deliverables
 
+- [acid-info/contribute.logos.co#40](https://github.com/acid-info/contribute.logos.co/pull/40) Fetch social proof data through BI API
 - API integration implementation
 - Issue migration completed
 - Repository selection documented

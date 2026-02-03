@@ -35,7 +35,7 @@ more baseline benchmarks are needed to be measured in FURPS.
 
 * fully qualified name: `ift-ts:dst:status:2026q1-status-evaluation:benchmarks-second-iteration`
 * owner: Alberto
-* status: in progress (55%)
+* status: in progress (60%)
 * start-date: 2026/01/01
 * end-date: 2026/01/31
 
@@ -46,11 +46,15 @@ Using the fix in the discovery process for the
 to repeat the benchmarks adding light nodes in the same chat protocol benchmarks scenarios.
 Also, perform nwaku-based vs go-waku-based status-backend comparisons.
 
-This task is a mix of `vac:dst:waku:2025q4-waku-scaling:nwaku-in-status-desktop` and 
-`vac:dst:status:2025q4-status-evaluation:chat-protocol-benchmarks-followup`.
+This task is a mix of `ift-ts:dst:waku:2025q4-waku-scaling:nwaku-in-status-desktop` and 
+`ift-ts:dst:status:2025q4-status-evaluation:chat-protocol-benchmarks-followup`.
 
 #### Deliverables
 - Github PRs:
+  - [Github PR: Update private chat scenarios #42](https://github.com/vacp2p/status-benchmarks/pull/42)
+  - [Github PR: Update community scenarios #41](https://github.com/vacp2p/status-benchmarks/pull/41)
+  - [Github PR: Setup status changes #40](https://github.com/vacp2p/status-benchmarks/pull/40)
+  - [Github PR: Minor adjustments #39](https://github.com/vacp2p/status-benchmarks/pull/39)
   - [Github PR: Multiple consumers #35](https://github.com/vacp2p/status-benchmarks/pull/35)
   - [Github PR: Logger adjustments #37](https://github.com/vacp2p/status-benchmarks/pull/37)
 - Other:

@@ -46,7 +46,7 @@ Implement SDK functionality for claiming Karma, distributing Karma, and authenti
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:proxy-api`
 * owner: JulesFiliot
-* status: in progress (10%)
+* status: in progress (80%)
 * start-date: 2026/01/01
 * end-date: 2026/01/22
 
@@ -169,7 +169,7 @@ Define test cases for QA testing of SN Hub features and functionality.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:selfhosting`
 * owner: JulesFiliot
-* status: in progress (22%)
+* status: in progress (25%)
 * start-date: 2026/01/15
 * end-date: 2026/01/29
 

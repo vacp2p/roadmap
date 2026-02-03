@@ -121,7 +121,7 @@ Integrate LI.FI swap functionality to enable multi-chain token swaps within the 
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:send-nft`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/02/19
 * end-date: 2026/03/05
 

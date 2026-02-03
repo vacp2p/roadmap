@@ -63,7 +63,7 @@ Implement translations support with design improvements, public contribution flo
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-website:copy-changes-section-reduction`
 * owner: JulesFiliot
-* status: in progress (6%)
+* status: in progress (15%)
 * start-date: 2026/02/19
 * end-date: 2026/03/05
 
@@ -73,6 +73,7 @@ Update website copy and reduce sections to improve clarity and user experience.
 
 #### Deliverables
 
+- [status-im/status-web#987](https://github.com/status-im/status-web/pull/987) Releasing new mobile app announcement
 - Updated copy content
 - Section reduction implementation
 - Content review documentation

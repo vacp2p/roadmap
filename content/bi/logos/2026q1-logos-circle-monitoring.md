@@ -34,6 +34,23 @@ The Circles have migrated to Telegram for communication. Add an monitoring mecan
 - Charts with Telegram data (number of participant, number of active partcipant, ...)
 - Updated dashboard with Telegram data
 
+### WhatsApp monitoring research
+
+* fully qualified name: `ift-ts:bi:logos:2026q1-logos-circle-monitoring:whatsapp-monitoring`
+* owner: claire
+* status: in progress (10%)
+* start-date: 2026/01/01
+* end-date: 2026/03/31
+
+#### Description
+
+Research options for WhatsApp circle group monitoring and assess feasibility, privacy constraints, and alternatives.
+
+#### Deliverables
+
+#### Manual review
+- Research indicates WhatsApp circle monitoring is too invasive; need confirmation of the alternative approach and any shareable notes.
+
 ### Improve dashboards
 
 * fully qualified name: `ift-ts:bi:logos:2026q1-logos-circle-monitoring:dashboard-improvement`

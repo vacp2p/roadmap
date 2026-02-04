@@ -48,6 +48,8 @@ Research options for WhatsApp circle group monitoring and assess feasibility, pr
 
 #### Deliverables
 
+- Charts and dashboards
+
 #### Manual review
 - Research indicates WhatsApp circle monitoring is too invasive; need confirmation of the alternative approach and any shareable notes.
 

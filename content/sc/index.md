@@ -18,7 +18,8 @@ tags:
 
 ### `logos:`
 
-* [[sc/logos/2026q1-implement-nssa-attestation|implement-nssa-attestation]]
+* [[sc/logos/2026q1-implement-lee-attestation|implement-lee-attestation]]
+* [[sc/logos/2026q1-psf-workshop|psf-workshop]]
 
 ## 2025q4 `vac:sc:`
 ---

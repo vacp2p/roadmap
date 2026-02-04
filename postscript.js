@@ -30,6 +30,387 @@ document.addEventListener("nav", () => {
   }
 });
 })();
+(function () {// quartz/components/scripts/quartz/components/scripts/weeklyReport.inline.ts
+var currentFilter = "all";
+var currentTeam = "all";
+var teamHighlights = {};
+var teamIdPatterns = {
+  bi: /ift-ts.?bi|ifs-ts.?bi/i,
+  dst: /ift-ts.?dst/i,
+  nim: /ift-ts.?nim/i,
+  p2p: /ift-ts.?p2p/i,
+  qa: /ift-ts.?qa|vac.?qa/i,
+  rfc: /ift-ts.?rfc/i,
+  sc: /ift-ts.?sc/i,
+  sec: /ift-ts.?sec/i,
+  tke: /ift-ts.?tke|vac.?tke/i,
+  web: /ift-ts.?web|vac.?web/i
+};
+function setupWeeklyReport() {
+  const weeklyReport = document.querySelector(".weekly-report");
+  if (!weeklyReport)
+    return;
+  currentFilter = "all";
+  currentTeam = "all";
+  teamHighlights = {};
+  extractTeamHighlights();
+  wrapTeamSections();
+  hideOriginalHighlightsSection();
+  updateStats();
+  updateTeamBadges();
+  setupTabs();
+  setupSearch();
+  setupFilters();
+  setupExpandableHeaders();
+}
+function extractTeamHighlights() {
+  const content = document.getElementById("weekly-content");
+  if (!content)
+    return;
+  const teamHighlightsHeader = content.querySelector("h3#team-highlights");
+  if (!teamHighlightsHeader)
+    return;
+  let sibling = teamHighlightsHeader.nextElementSibling;
+  while (sibling && sibling.tagName !== "UL") {
+    sibling = sibling.nextElementSibling;
+  }
+  if (!sibling || sibling.tagName !== "UL")
+    return;
+  const highlightsList = sibling;
+  const items = highlightsList.querySelectorAll("li");
+  items.forEach((li) => {
+    const text = li.textContent || "";
+    const match = text.match(/^([A-Z]+):\s*(.+)$/i);
+    if (match) {
+      const team = match[1].toLowerCase();
+      const highlight = match[2].trim();
+      if (!teamHighlights[team]) {
+        teamHighlights[team] = [];
+      }
+      teamHighlights[team].push(highlight);
+    }
+  });
+}
+function hideOriginalHighlightsSection() {
+  const content = document.getElementById("weekly-content");
+  if (!content)
+    return;
+  const teamHighlightsHeader = content.querySelector("h3#team-highlights");
+  const topHighlightsHeader = content.querySelector("h3#top-highlights");
+  if (teamHighlightsHeader) {
+    ;
+    teamHighlightsHeader.style.display = "none";
+    let sibling = teamHighlightsHeader.nextElementSibling;
+    while (sibling && sibling.tagName !== "H3" && sibling.tagName !== "H2") {
+      ;
+      sibling.style.display = "none";
+      sibling = sibling.nextElementSibling;
+    }
+  }
+  if (topHighlightsHeader) {
+    ;
+    topHighlightsHeader.dataset.team = "highlights";
+    let sibling = topHighlightsHeader.nextElementSibling;
+    while (sibling && sibling.tagName !== "H3" && sibling.tagName !== "H2") {
+      ;
+      sibling.dataset.team = "highlights";
+      sibling = sibling.nextElementSibling;
+    }
+  }
+}
+function wrapTeamSections() {
+  const content = document.getElementById("weekly-content");
+  if (!content)
+    return;
+  const headers = content.querySelectorAll("h3");
+  headers.forEach((header, index) => {
+    if (header.dataset.wrapped)
+      return;
+    header.dataset.wrapped = "true";
+    const headerId = header.id || "";
+    const headerText = header.textContent || "";
+    let teamId = "other";
+    for (const [id, pattern] of Object.entries(teamIdPatterns)) {
+      if (pattern.test(headerId) || pattern.test(headerText.replace(/:/g, ""))) {
+        teamId = id;
+        break;
+      }
+    }
+    if (headerId === "team-highlights" || headerId === "top-highlights") {
+      teamId = "highlights";
+    }
+    header.dataset.team = teamId;
+    header.dataset.index = String(index);
+    const siblings = [];
+    let sibling = header.nextElementSibling;
+    while (sibling && sibling.tagName !== "H3" && sibling.tagName !== "H2") {
+      siblings.push(sibling);
+      sibling = sibling.nextElementSibling;
+    }
+    if (siblings.length > 0) {
+      const section = document.createElement("div");
+      section.className = "team-section";
+      section.dataset.team = teamId;
+      section.dataset.index = String(index);
+      header.parentNode?.insertBefore(section, siblings[0]);
+      siblings.forEach((el) => section.appendChild(el));
+      if (teamId !== "highlights" && teamId !== "other" && teamHighlights[teamId]) {
+        const highlightsBox = createHighlightsBox(teamId, teamHighlights[teamId]);
+        section.insertBefore(highlightsBox, section.firstChild);
+      }
+    }
+  });
+}
+function createHighlightsBox(teamId, highlights) {
+  const box = document.createElement("div");
+  box.className = "team-highlights-box";
+  box.dataset.team = teamId;
+  const title = document.createElement("div");
+  title.className = "highlights-title";
+  title.textContent = "Highlights";
+  const list = document.createElement("ul");
+  list.className = "highlights-list";
+  highlights.forEach((highlight) => {
+    const li = document.createElement("li");
+    li.textContent = highlight;
+    list.appendChild(li);
+  });
+  box.appendChild(title);
+  box.appendChild(list);
+  return box;
+}
+function updateStats() {
+  const content = document.getElementById("weekly-content");
+  if (!content)
+    return;
+  const githubLinks = content.querySelectorAll('a[data-link-type="github"]').length;
+  const teamSections = Array.from(content.querySelectorAll("h3")).filter((h) => {
+    const team = h.dataset.team;
+    return team && team !== "highlights" && team !== "other";
+  }).length;
+  const statTeams = document.getElementById("stat-teams");
+  const statPrs = document.getElementById("stat-prs");
+  if (statTeams)
+    statTeams.textContent = String(teamSections);
+  if (statPrs)
+    statPrs.textContent = String(githubLinks);
+}
+function updateTeamBadges() {
+  const content = document.getElementById("weekly-content");
+  if (!content)
+    return;
+  const teamCounts = {};
+  content.querySelectorAll(".team-section").forEach((section) => {
+    const team = section.dataset.team || "other";
+    if (team === "highlights" || team === "other")
+      return;
+    const topLevelUls = section.querySelectorAll(":scope > ul");
+    let count = 0;
+    topLevelUls.forEach((ul) => {
+      const directLis = ul.querySelectorAll(":scope > li");
+      count += directLis.length;
+    });
+    teamCounts[team] = (teamCounts[team] || 0) + count;
+  });
+  for (const [teamId, count] of Object.entries(teamCounts)) {
+    const badge = document.getElementById(`badge-${teamId}`);
+    if (badge)
+      badge.textContent = String(count);
+  }
+}
+function setupTabs() {
+  const tabs = document.querySelectorAll(".team-tab");
+  tabs.forEach((tab) => {
+    const newTab = tab.cloneNode(true);
+    tab.parentNode?.replaceChild(newTab, tab);
+    newTab.addEventListener("click", (e) => {
+      const target = e.currentTarget;
+      const team = target.dataset.team || "all";
+      document.querySelectorAll(".team-tab").forEach((t) => t.classList.remove("active"));
+      target.classList.add("active");
+      currentTeam = team;
+      filterByTeam(team);
+      const searchInput = document.getElementById("weekly-search");
+      const query = searchInput?.value.toLowerCase().trim() || "";
+      filterContent(query, currentFilter, team);
+    });
+  });
+}
+function filterByTeam(team) {
+  const content = document.getElementById("weekly-content");
+  if (!content)
+    return;
+  const headers = content.querySelectorAll("h3");
+  const sections = content.querySelectorAll(".team-section");
+  if (team === "all") {
+    content.classList.add("show-all");
+    headers.forEach((h) => {
+      const headerTeam = h.dataset.team;
+      if (headerTeam === "highlights") {
+        ;
+        h.style.display = "none";
+      } else {
+        ;
+        h.style.display = "";
+      }
+    });
+    sections.forEach((s) => {
+      const sectionTeam = s.dataset.team;
+      if (sectionTeam === "highlights") {
+        ;
+        s.style.display = "none";
+      } else {
+        ;
+        s.style.display = "";
+      }
+    });
+  } else {
+    content.classList.remove("show-all");
+    headers.forEach((h) => {
+      const headerTeam = h.dataset.team;
+      h.style.display = headerTeam === team ? "" : "none";
+    });
+    sections.forEach((s) => {
+      const sectionTeam = s.dataset.team;
+      s.style.display = sectionTeam === team ? "" : "none";
+    });
+  }
+}
+function setupSearch() {
+  const searchInput = document.getElementById("weekly-search");
+  if (!searchInput)
+    return;
+  const newSearchInput = searchInput.cloneNode(true);
+  searchInput.parentNode?.replaceChild(newSearchInput, searchInput);
+  newSearchInput.addEventListener("input", (e) => {
+    const query = e.target.value.toLowerCase().trim();
+    console.log("Search query:", query, "Team:", currentTeam, "Filter:", currentFilter);
+    filterContent(query, currentFilter, currentTeam);
+  });
+  newSearchInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      const query = e.target.value.toLowerCase().trim();
+      filterContent(query, currentFilter, currentTeam);
+    }
+  });
+}
+function setupFilters() {
+  const filterBtns = document.querySelectorAll(".filter-btn");
+  filterBtns.forEach((btn) => {
+    const newBtn = btn.cloneNode(true);
+    btn.parentNode?.replaceChild(newBtn, btn);
+    newBtn.addEventListener("click", (e) => {
+      const target = e.target;
+      const filter = target.dataset.filter || "all";
+      document.querySelectorAll(".filter-btn").forEach((b) => b.classList.remove("active"));
+      target.classList.add("active");
+      currentFilter = filter;
+      const searchInput = document.getElementById("weekly-search");
+      const query = searchInput?.value.toLowerCase().trim() || "";
+      filterContent(query, filter, currentTeam);
+    });
+  });
+}
+function setupExpandableHeaders() {
+  const content = document.getElementById("weekly-content");
+  if (!content)
+    return;
+  const headers = content.querySelectorAll("h3");
+  headers.forEach((header) => {
+    if (header.dataset.expandable)
+      return;
+    const team = header.dataset.team;
+    if (team === "highlights")
+      return;
+    header.dataset.expandable = "true";
+    header.addEventListener("click", () => {
+      const index = header.dataset.index;
+      const section = content.querySelector(`.team-section[data-index="${index}"]`);
+      header.classList.toggle("collapsed");
+      if (section) {
+        section.classList.toggle("hidden");
+      }
+    });
+  });
+}
+function filterContent(searchQuery, linkFilter, teamFilter) {
+  const content = document.getElementById("weekly-content");
+  const noResults = document.getElementById("weekly-no-results");
+  if (!content)
+    return;
+  let visibleItemCount = 0;
+  const headers = content.querySelectorAll("h3");
+  headers.forEach((header) => {
+    const headerEl = header;
+    const index = headerEl.dataset.index;
+    const section = content.querySelector(`.team-section[data-index="${index}"]`);
+    if (!section)
+      return;
+    const sectionEl = section;
+    const headerTeam = headerEl.dataset.team || "";
+    if (headerTeam === "highlights") {
+      headerEl.style.display = "none";
+      sectionEl.style.display = "none";
+      return;
+    }
+    const matchesTeam = teamFilter === "all" || headerTeam === teamFilter;
+    if (!matchesTeam) {
+      headerEl.classList.add("filtered-out");
+      sectionEl.classList.add("filtered-out");
+      return;
+    }
+    headerEl.classList.remove("filtered-out");
+    sectionEl.classList.remove("filtered-out");
+  });
+  content.querySelectorAll(".team-section:not(.filtered-out)").forEach((section) => {
+    const topLevelUls = section.querySelectorAll(":scope > ul");
+    topLevelUls.forEach((ul) => {
+      const items = ul.querySelectorAll(":scope > li");
+      items.forEach((item) => {
+        const itemEl = item;
+        const itemText = item.textContent?.toLowerCase() || "";
+        const matchesSearch = !searchQuery || itemText.includes(searchQuery);
+        let matchesLinkFilter = true;
+        if (linkFilter !== "all") {
+          const links = item.querySelectorAll(`a[data-link-type="${linkFilter}"]`);
+          matchesLinkFilter = links.length > 0;
+        }
+        const isVisible = matchesSearch && matchesLinkFilter;
+        if (isVisible) {
+          itemEl.classList.remove("filtered-out");
+          visibleItemCount++;
+        } else {
+          itemEl.classList.add("filtered-out");
+        }
+      });
+    });
+    const highlightsBox = section.querySelector(".team-highlights-box");
+    if (highlightsBox) {
+      const boxEl = highlightsBox;
+      if (searchQuery) {
+        boxEl.style.display = "none";
+      } else {
+        boxEl.style.display = "";
+      }
+    }
+  });
+  let sectionsWithVisibleItems = 0;
+  content.querySelectorAll(".team-section:not(.filtered-out)").forEach((section) => {
+    const visibleItems = section.querySelectorAll(":scope > ul > li:not(.filtered-out)");
+    if (visibleItems.length > 0) {
+      sectionsWithVisibleItems++;
+    }
+  });
+  if (noResults) {
+    noResults.style.display = visibleItemCount === 0 && (searchQuery || linkFilter !== "all") ? "block" : "none";
+  }
+}
+document.addEventListener("DOMContentLoaded", setupWeeklyReport);
+document.addEventListener("nav", () => {
+  setupWeeklyReport();
+});
+})();
 (function () {var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;

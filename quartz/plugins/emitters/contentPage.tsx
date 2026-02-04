@@ -12,8 +12,8 @@ import chalk from "chalk"
 export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpts) => {
   const opts: FullPageLayout = {
     ...sharedPageComponents,
+    pageBody: Content(), // default, can be overridden by layout
     ...defaultContentPageLayout,
-    pageBody: Content(),
     ...userOpts,
   }
 

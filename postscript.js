@@ -44,7 +44,8 @@ var teamIdPatterns = {
   sc: /ift-ts.?sc/i,
   sec: /ift-ts.?sec/i,
   tke: /ift-ts.?tke|vac.?tke/i,
-  web: /ift-ts.?web|vac.?web/i
+  web: /ift-ts.?web|vac.?web/i,
+  infra: /ift-ts.?infra|vac.?infra/i
 };
 function setupWeeklyReport() {
   const weeklyReport = document.querySelector(".weekly-report");

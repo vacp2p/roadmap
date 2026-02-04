@@ -55,6 +55,7 @@ Run a learn up session about topic of choice related to smart contract developme
 #### Deliverables
 
 - [ ] Recording of the session
+- [Presentation + demos (LEZ programs)](https://www.notion.so/Introduction-to-writing-LEZ-programs-2f68f96fb65c800d8265ef14645a1a4f)
 
 ### SC LearnUp Session 2026/02
 

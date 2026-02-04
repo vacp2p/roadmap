@@ -21,7 +21,7 @@ and applying minor improvements to keep the frameworks functional and effective.
 
 * fully qualified name: `ift-ts:qa:messaging:2026q1-messaging-testing:network-conditions`
 * owner: aya
-* status: in progress (80%)
+* status: in progress (90%)
 * start date: 2026/01/01
 * end date: 2026/02/15
 
@@ -30,6 +30,7 @@ Extend messaging end-to-end tests with network condition scenarios (high latency
 
 #### Deliverables
 - [logos-messaging/logos-messaging-interop-tests#151](https://github.com/logos-messaging/logos-messaging-interop-tests/pull/151) Network conditions tests
+- [logos-messaging/logos-messaging-interop-tests#155](https://github.com/logos-messaging/logos-messaging-interop-tests/pull/155) Network conditions improvements
 
 ### Maintenance
 
@@ -44,6 +45,7 @@ Ongoing maintenance of messaging testing frameworks.
 
 #### Deliverables
 - PRs and issues
+  - [logos-messaging/logos-messaging-interop-tests#156](https://github.com/logos-messaging/logos-messaging-interop-tests/pull/156) Lightpush and metrics test fixes
 
 
 ### Messaging Sonda Tool extension

@@ -28,6 +28,7 @@ function WeeklyReport({ fileData, tree }: QuartzComponentProps) {
     { id: "sec", name: "SEC", fullName: "Security", color: "#ff7b72" },
     { id: "tke", name: "TKE", fullName: "Token Economics", color: "#79c0ff" },
     { id: "web", name: "WEB", fullName: "Web Development", color: "#7ee787" },
+    { id: "infra", name: "INFRA", fullName: "Infrastructure", color: "#9da5ff" },
   ]
 
   return (

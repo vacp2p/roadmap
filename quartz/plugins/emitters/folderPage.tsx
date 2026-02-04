@@ -70,7 +70,7 @@ export const FolderPage: QuartzEmitterPlugin<FullPageLayout> = (userOpts) => {
 
       for (const folder of folders) {
         const slug = joinSegments(folder, "index") as FullSlug
-        const externalResources = pageResources(pathToRoot(slug), resources)
+        const externalResources = pageResources(pathToRoot(slug), resources, ctx.buildId)
         const [tree, file] = folderDescriptions[folder]
         const componentData: QuartzComponentProps = {
           fileData: file.data,

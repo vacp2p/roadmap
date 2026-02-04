@@ -17,18 +17,25 @@ interface RenderComponents {
   footer: QuartzComponent
 }
 
+function withCacheBust(path: string, cacheBust?: string) {
+  if (!cacheBust) return path
+  const separator = path.includes("?") ? "&" : "?"
+  return `${path}${separator}v=${cacheBust}`
+}
+
 export function pageResources(
   baseDir: FullSlug | RelativeURL,
   staticResources: StaticResources,
+  cacheBust?: string,
 ): StaticResources {
-  const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
+  const contentIndexPath = withCacheBust(joinSegments(baseDir, "static/contentIndex.json"), cacheBust)
   const contentIndexScript = `const fetchData = fetch(\`${contentIndexPath}\`).then(data => data.json())`
 
   return {
-    css: [joinSegments(baseDir, "index.css"), ...staticResources.css],
+    css: [withCacheBust(joinSegments(baseDir, "index.css"), cacheBust), ...staticResources.css],
     js: [
       {
-        src: joinSegments(baseDir, "prescript.js"),
+        src: withCacheBust(joinSegments(baseDir, "prescript.js"), cacheBust),
         loadTime: "beforeDOMReady",
         contentType: "external",
       },
@@ -40,7 +47,7 @@ export function pageResources(
       },
       ...staticResources.js,
       {
-        src: joinSegments(baseDir, "postscript.js"),
+        src: withCacheBust(joinSegments(baseDir, "postscript.js"), cacheBust),
         loadTime: "afterDOMReady",
         moduleType: "module",
         contentType: "external",

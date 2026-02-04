@@ -19,10 +19,15 @@ import { options } from "./util/sourcemap"
 import { Mutex } from "async-mutex"
 
 async function buildQuartz(argv: Argv, mut: Mutex, clientRefresh: () => void) {
+  const buildId =
+    process.env.GIT_COMMIT?.slice(0, 8) ||
+    process.env.GITHUB_SHA?.slice(0, 8) ||
+    Date.now().toString(36)
   const ctx: BuildCtx = {
     argv,
     cfg,
     allSlugs: [],
+    buildId,
   }
 
   const perf = new PerfTimer()

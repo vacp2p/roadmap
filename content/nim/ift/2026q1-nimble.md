@@ -41,6 +41,12 @@ All the relevant information can be found in [this GitHub issue](https://github.
 
 #### Deliverables
 - PRs:
+  - [nim-lang/nimble#1576](https://github.com/nim-lang/nimble/pull/1576) Recover from corrupted pkgcache directories during installation
+  - [nim-lang/nimble#1575](https://github.com/nim-lang/nimble/pull/1575) Fixes #1572 Offline switch not honoured past 2.0.0
+  - [nim-lang/nimble#1574](https://github.com/nim-lang/nimble/pull/1574) Fix dependency discovery when packages are loaded from cache
+  - [nim-lang/nimble#1573](https://github.com/nim-lang/nimble/pull/1573) Isolate VM parser evaluation in temp dir to prevent pkgcache pollution
+  - [nim-lang/nimble#1571](https://github.com/nim-lang/nimble/pull/1571) Strips # from directory names
+  - [nim-lang/nimble#1570](https://github.com/nim-lang/nimble/pull/1570) Extend buildtemp flow to support before-install hooks for all packages
   - [nim-lang/nimble#1569](https://github.com/nim-lang/nimble/pull/1569) Refactor build pipeline
   - [nim-lang/nimble#1565](https://github.com/nim-lang/nimble/pull/1565) Fix develop packages being added twice in the lock
   - [nim-lang/nimble#1564](https://github.com/nim-lang/nimble/pull/1564) Make global the default (next release only)

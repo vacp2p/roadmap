@@ -81,7 +81,7 @@ Implement CRM functionality as specified in the design board and Discord discuss
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-website:cms-sanity`
 * owner: Felicio
-* status: in progress (10%)
+* status: in progress (11%)
 * start-date: 2026/03/19
 * end-date: 2026/03/31
 
@@ -93,6 +93,7 @@ Propose alternative to Sanity CMS for content management, enabling non-technical
 
 - Sanity CMS alternative proposal
 - Documentation and training materials
+- [status-im/infra-office#87](https://github.com/status-im/infra-office/issues/87) Requesting CMS set-up for Logos
 - [Notion: Logos technical requirements](https://www.notion.so/Logos-co-technical-requirements-2e68f96fb65c80488a97c253d9969748)
 - [Miro: Logos CMS requirements](https://miro.com/app/board/uXjVGNc1VmM=/#)
 

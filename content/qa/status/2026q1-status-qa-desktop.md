@@ -33,6 +33,7 @@ Oversee testing strategy around releases.
 
 #### Deliverables
 - PRs / Issues
+  - [status-im/status-app#19801](https://github.com/status-im/status-app/pull/19801) tests(@e2e): add simple test for market tab
   - [status-im/status-app#19763](https://github.com/status-im/status-app/pull/19763) chore(@e2e): add commit data to allure reports
   - [status-im/status-go#7293](https://github.com/status-im/status-go/pull/7293) chore(@tests): update README.md
   - [status-im/status-app#19733](https://github.com/status-im/status-app/pull/19733) chore(@e2e): handle slow VMs UI
@@ -129,6 +130,8 @@ Oversee testing strategy around releases.
 #### Deliverables
 - PRs / Issues
   - [status-im/status-app#19688](https://github.com/status-im/status-app/issues/19688) Test Linea feature manually
+  - [status-im/status-app#19825](https://github.com/status-im/status-app/issues/19825) Crash on switching to Linea Sepolia after importing user account
+  - [status-im/status-app#19833](https://github.com/status-im/status-app/issues/19833) Internal error occurred when sending ETH
 
 ### Standardized approach for Popups / Menus / Dropdowns
 

@@ -26,9 +26,9 @@ The SN website development will support Status Network's strategic objectives by
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-website:seo`
 * owner: JulesFiliot
-* status: not started
+* status: done
 * start-date: 2026/01/29
-* end-date: 2026/02/12
+* end-date: 2026/02/03
 
 #### Description
 
@@ -36,6 +36,7 @@ Implement SEO optimization for the Status Network website to improve search engi
 
 #### Deliverables
 
+- [status-im/status-web#1004](https://github.com/status-im/status-web/pull/1004) SEO optimization for Status Network website
 - SEO implementation
 - Meta tags and structured data
 - SEO audit and optimization report

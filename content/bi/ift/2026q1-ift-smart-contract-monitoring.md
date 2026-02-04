@@ -31,6 +31,8 @@ Monitore Vault for Status network (incoming / outgoing flow, ...).
 
 #### Deliverables
 
+- [status-im/bi-smart-contract-monitoring](https://github.com/status-im/bi-smart-contract-monitoring) Vault monitoring extraction tooling
+- [Vault monitoring dashboard](https://grafana.test.bi.status.im/dashboards/f/vault-monitoring/)
 - Extraction Tool
 - Dashboard and Charts
 

@@ -194,6 +194,7 @@
       &[data-team="sec"].active::after { background: #ff7b72; }
       &[data-team="tke"].active::after { background: #79c0ff; }
       &[data-team="web"].active::after { background: #7ee787; }
+      &[data-team="infra"].active::after { background: #9da5ff; }
 
       .tab-badge {
         display: inline-block;
@@ -256,6 +257,7 @@
       &:nth-of-type(8) { border-left-color: #ff7b72; } // SEC
       &:nth-of-type(9) { border-left-color: #79c0ff; } // TKE
       &:nth-of-type(10) { border-left-color: #7ee787; } // WEB
+      &:nth-of-type(11) { border-left-color: #9da5ff; } // INFRA
     }
 
     // Team section content wrapper

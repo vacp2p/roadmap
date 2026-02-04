@@ -38,7 +38,7 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
           containsIndex = true
         }
 
-        const externalResources = pageResources(pathToRoot(slug), resources)
+        const externalResources = pageResources(pathToRoot(slug), resources, ctx.buildId)
         const componentData: QuartzComponentProps = {
           fileData: file.data,
           externalResources,

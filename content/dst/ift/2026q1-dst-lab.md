@@ -94,8 +94,8 @@ Optimize the storage to reduce used space if data is older than a certain period
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:lab-health-monitoring`
 * owner: Mamoutou
 * status: not started
-* start-date: 2026/01/01
-* end-date: 2026/03/31
+* start-date: 2026/02/02
+* end-date: 2026/02/13
 
 #### Description
 Design a set of metrics/dashboards that can be used to monitor the health of the lab.

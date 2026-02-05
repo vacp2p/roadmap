@@ -76,8 +76,8 @@ Report findings with analysis and benchmarks of the results.
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:optimize-data-scrapping`
 * owner: Mamoutou
 * status: not started
-* start-date: 2026/01/01
-* end-date: 2026/03/31
+* start-date: 2026/02/02
+* end-date: 2026/02/13
 
 #### Description
 Improve the monitoring system of the lab. Adjust scraping frequency and selected metrics.

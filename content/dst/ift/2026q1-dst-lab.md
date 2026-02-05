@@ -107,3 +107,19 @@ of repeat the same experiment again.
 #### Deliverables
 - Code:
 - Reports:
+
+
+### Fleet workshop
+
+* fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:fleet-workshop`
+* owner: Mamoutou
+* status: not started
+* start-date: 2026/02/05
+* end-date: 2026/02/13
+
+#### Description
+Prepare a workshop to teach fleet basics to infra-team.
+
+#### Deliverables
+- Slides:
+- Presentation:

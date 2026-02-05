@@ -57,6 +57,25 @@ Should be made general when possible.
   - [vacp2p/10ksim#186](https://github.com/vacp2p/10ksim/pull/186) Add namespace param to VictoriaReaderBuilder query
 - Documents:
 
+
+### Deployment analysis bridge
+
+* fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:deployment-analysis-bridge`
+* owner: Pearson
+* status: not started
+* start-date: 2026/02/09
+* end-date: 2026/02/20
+
+#### Description
+Bridge the new deployment builders with the analysis tools in the repository.
+Refactor the analysis tools to get rid of the configuration yaml files, and use a similar pattern
+to establish with analysis needs to be done after the deployment.
+
+#### Deliverables
+- PRs:
+- Related Documents:
+
+
 ### Expand deployment - Waku
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:expand-deployment-waku`

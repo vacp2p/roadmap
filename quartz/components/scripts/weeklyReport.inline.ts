@@ -65,7 +65,7 @@ function extractTeamHighlights() {
   // Parse each highlight - they start with "TEAM: highlight text"
   items.forEach((li) => {
     const text = li.textContent || ""
-    const match = text.match(/^([A-Z]+):\s*(.+)$/i)
+    const match = text.match(/^([A-Z0-9]+):\s*(.+)$/i)
     if (match) {
       const team = match[1].toLowerCase()
       const highlight = match[2].trim()

@@ -81,7 +81,7 @@ function extractTeamHighlights() {
   const items = highlightsList.querySelectorAll("li");
   items.forEach((li) => {
     const text = li.textContent || "";
-    const match = text.match(/^([A-Z]+):\s*(.+)$/i);
+    const match = text.match(/^([A-Z0-9]+):\s*(.+)$/i);
     if (match) {
       const team = match[1].toLowerCase();
       const highlight = match[2].trim();

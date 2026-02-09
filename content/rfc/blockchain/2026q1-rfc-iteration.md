@@ -59,7 +59,7 @@ Create the RFC for Mantle based on the Blockchain raw spec that applies 1/COSS.
 
 - fully qualified name: `ift-ts:rfc:blockchain:2026q1-rfc-iteration:proof-of-leadership`
 - owner: cofson
-- status: not started
+- status: done
 - start-date: 2026/01/16
 - end-date: 2026/01/31
 
@@ -68,12 +68,13 @@ Create the RFC for the Proof of Leadership based on the Blockchain raw spec that
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
+- Add Cryptarchia Proof of Leadership Specification - https://github.com/vacp2p/rfc-index/pull/231
 
 ### Bedrock Genesis Block
 
 - fully qualified name: `ift-ts:rfc:blockchain:2026q1-rfc-iteration:bedrock-genesis-block`
 - owner: cofson
-- status: done
+- status: done 
 - start-date: 2026/02/01
 - end-date: 2026/01/27
 
@@ -88,7 +89,7 @@ Create the RFC for the Bedrock Genesis Block based on the Blockchain raw spec th
 
 - fully qualified name: `ift-ts:rfc:blockchain:2026q1-rfc-iteration:bedrock-service-declaration-protocol`
 - owner: cofson
-- status: in progress (90%)
+- status: done 
 - start-date: 2026/02/01
 - end-date: 2026/02/15
 
@@ -97,12 +98,13 @@ Create the RFC for the Bedrock Service Declaration Protocol based on the Blockch
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
+- Add Bedrock Service Reward Distribution specification - https://github.com/vacp2p/rfc-index/pull/249
 
 ### Bedrock Architecture Overview
 
 - fully qualified name: `ift-ts:rfc:blockchain:2026q1-rfc-iteration:bedrock-architecture-overview`
 - owner: cofson
-- status: in progress (90%)
+- status: done
 - start-date: 2026/02/01
 - end-date: 2026/02/15
 
@@ -111,26 +113,13 @@ Create the RFC for the Bedrock Architecture Overview based on the Blockchain raw
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
-
-### Bedrock Architecture
-
-- fully qualified name: `ift-ts:rfc:blockchain:2026q1-rfc-iteration:bedrock-architecture`
-- owner: Filip
-- status: in progress (80%)
-- start-date: 2026/01/01
-- end-date: 2026/03/31
-
-#### Description
-Draft RFC for Bedrock architecture based on the raw spec.
-
-#### Deliverables
-- PRs/Issues/Docs/Reports
+- Nomos/raw/bedrock architecture overview raw - https://github.com/vacp2p/rfc-index/pull/257
 
 ### DA Encoding
 
 - fully qualified name: `ift-ts:rfc:blockchain:2026q1-rfc-iteration:da-encoding`
 - owner: Filip
-- status: in progress (75%)
+- status: done
 - start-date: 2026/01/01
 - end-date: 2026/03/31
 
@@ -139,12 +128,13 @@ Draft RFC for data availability encoding based on the raw spec.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
+- Replace nomosda-encoding with da-cryptographic-protocol - https://github.com/vacp2p/rfc-index/pull/264
 
 ### DA Rewarding
 
 - fully qualified name: `ift-ts:rfc:blockchain:2026q1-rfc-iteration:da-rewarding`
 - owner: Filip
-- status: in progress (90%)
+- status: done
 - start-date: 2026/01/01
 - end-date: 2026/03/31
 
@@ -153,6 +143,7 @@ Draft RFC for data availability rewarding based on the raw spec.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
+- Add NomosDA Rewarding specification - https://github.com/vacp2p/rfc-index/pull/269
 
 ###  Service Reward Distribution Protocol
 
@@ -202,7 +193,7 @@ Create the RFC for the Anonymous Leaders Reward Protocol based on the Blockchain
 
 - fully qualified name: `ift-ts:rfc:blockchain:2026q1-rfc-iteration:payload-formatting`
 - owner: cofson
-- status: not started
+- status: done
 - start-date: 2026/03/16
 - end-date: 2026/03/31
 
@@ -211,6 +202,7 @@ Create the RFC for the Payload Formatting based on the Blockchain raw spec that 
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
+- Add Nomos Payload Formatting Specification - https://github.com/vacp2p/rfc-index/pull/226
 
 ### Block Construction, Validation and Execution
 
@@ -231,7 +223,7 @@ Create the RFC for the Block Construction, Validation and Execution based on the
 
 - fully qualified name: `ift-ts:rfc:blockchain:2026q1-rfc-iteration:merge-open-prs`
 - owner: cofson
-- status: in progress (70%)
+- status: done (100%)
 - start-date: 2026/01/01
 - end-date: 2026/03/31
 

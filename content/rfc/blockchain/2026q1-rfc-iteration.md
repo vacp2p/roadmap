@@ -223,7 +223,7 @@ Create the RFC for the Block Construction, Validation and Execution based on the
 
 - fully qualified name: `ift-ts:rfc:blockchain:2026q1-rfc-iteration:merge-open-prs`
 - owner: cofson
-- status: done (100%)
+- status: done
 - start-date: 2026/01/01
 - end-date: 2026/03/31
 

@@ -46,6 +46,9 @@ Should be made general when possible.
 
 #### Deliverables
 - PRs:
+  - [vacp2p/10ksim#193](https://github.com/vacp2p/10ksim/pull/193) Add Waku functionality for pod_api_requester
+  - [vacp2p/pod-api-requester#4](https://github.com/vacp2p/pod-api-requester/pull/4) Add Waku router with endpoint "waku/relay"
+  - [vacp2p/10ksim#191](https://github.com/vacp2p/10ksim/pull/191) Add pod_api_requester
   - [vacp2p/10ksim#190](https://github.com/vacp2p/10ksim/pull/190) Allow base_experiment.deploy to directly take result from builders
   - [vacp2p/10ksim#189](https://github.com/vacp2p/10ksim/pull/189) Builders for building pods
   - [vacp2p/10ksim#188](https://github.com/vacp2p/10ksim/pull/188) namespace fixes for builders
@@ -53,6 +56,25 @@ Should be made general when possible.
   - [vacp2p/10ksim#187](https://github.com/vacp2p/10ksim/pull/187) Reorganize repo by feature
   - [vacp2p/10ksim#186](https://github.com/vacp2p/10ksim/pull/186) Add namespace param to VictoriaReaderBuilder query
 - Documents:
+
+
+### Deployment analysis bridge
+
+* fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:deployment-analysis-bridge`
+* owner: Pearson
+* status: not started
+* start-date: 2026/02/09
+* end-date: 2026/02/20
+
+#### Description
+Bridge the new deployment builders with the analysis tools in the repository.
+Refactor the analysis tools to get rid of the configuration yaml files, and use a similar pattern
+to establish with analysis needs to be done after the deployment.
+
+#### Deliverables
+- PRs:
+- Related Documents:
+
 
 ### Expand deployment - Waku
 
@@ -75,7 +97,7 @@ specific experiments with them.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:expand-deployment-nim-libp2p`
 * owner: Pearson
-* status: in progress (60%)
+* status: in progress (80%)
 * start-date: 2026/01/12
 * end-date: 2026/01/23
 
@@ -85,6 +107,7 @@ Adjust deployment builders to support nim-libp2p.
 #### Deliverables
 - PRs:
 - Related Documents:
+  - [Example deployment dummy.py](https://github.com/vacp2p/10ksim/blob/17b03f2ed49c889f10859a16ccb805b1a04950c2/deployments/experiments/dummy.py#L152)
 
 ### Expand deployment - codex
 

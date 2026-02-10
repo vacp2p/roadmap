@@ -12,8 +12,8 @@ import chalk from "chalk"
 export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpts) => {
   const opts: FullPageLayout = {
     ...sharedPageComponents,
+    pageBody: Content(), // default, can be overridden by layout
     ...defaultContentPageLayout,
-    pageBody: Content(),
     ...userOpts,
   }
 
@@ -38,7 +38,7 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
           containsIndex = true
         }
 
-        const externalResources = pageResources(pathToRoot(slug), resources)
+        const externalResources = pageResources(pathToRoot(slug), resources, ctx.buildId)
         const componentData: QuartzComponentProps = {
           fileData: file.data,
           externalResources,

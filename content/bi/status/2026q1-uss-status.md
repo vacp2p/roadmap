@@ -31,4 +31,5 @@ Create a dashboard to evaluate impact of USS Status SOcial media
 
 #### Deliverables
 
+- Dashboard updated with YouTube and Twitter episode statistics
 - Dashbaord: https://superset.bi.status.im/superset/dashboard/uss-status/

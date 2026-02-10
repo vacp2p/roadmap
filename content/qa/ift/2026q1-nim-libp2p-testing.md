@@ -53,15 +53,20 @@ Implement unit and integration tests for the Mix protocol.
 
 * fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:kad-dht`
 * owner: radek
-* status: in progress (75%)
+* status: done
 * start-date: 2026/01/25
-* end-date: 2026/02/15
+* end-date: 2026/02/03
 
 #### Description
 Implement unit and integration tests for the Kad DHT protocol.
 
 #### Deliverables
 * PRs with links to added tests
+    * [vacp2p/nim-libp2p#2061](https://github.com/vacp2p/nim-libp2p/pull/2061) test(kad): misc
+    * [vacp2p/nim-libp2p#2054](https://github.com/vacp2p/nim-libp2p/pull/2054) fix(kad): use `finished()` instead of `completed()` to track failed peers
+    * [vacp2p/nim-libp2p#2051](https://github.com/vacp2p/nim-libp2p/pull/2051) test(kad): Refactor utils
+    * [vacp2p/nim-libp2p#2048](https://github.com/vacp2p/nim-libp2p/pull/2048) test(kad): find & lookup 3
+    * [vacp2p/nim-libp2p#2043](https://github.com/vacp2p/nim-libp2p/pull/2043) test(kad): get providers
     * [vacp2p/nim-libp2p#2042](https://github.com/vacp2p/nim-libp2p/pull/2042) test(kad): add provider
     * [vacp2p/nim-libp2p#2039](https://github.com/vacp2p/nim-libp2p/pull/2039) test(kad): provider 1 - refactor
     * [vacp2p/nim-libp2p#2036](https://github.com/vacp2p/nim-libp2p/pull/2036) fix(kad): get value should reject mismatched key
@@ -77,6 +82,7 @@ Implement unit and integration tests for the Kad DHT protocol.
     * [vacp2p/nim-libp2p#1998](https://github.com/vacp2p/nim-libp2p/pull/1998) test(kad): Routing table and refresh bucket
     * [vacp2p/nim-libp2p#2005](https://github.com/vacp2p/nim-libp2p/pull/2005) fix(kad): GetProviders test hanging forever
 * Issues tracked
+    * [vacp2p/nim-libp2p#2053](https://github.com/vacp2p/nim-libp2p/issues/2053) kad dht: RespondedStatus.Failed is never reached in iterative lookup
     * [vacp2p/nim-libp2p#2006](https://github.com/vacp2p/nim-libp2p/issues/2006) Kad: Lookup random PeerId for each non-empty bucket during bootstrap
     * [vacp2p/nim-libp2p#2003](https://github.com/vacp2p/nim-libp2p/issues/2003) flaky test(kad): Get providers
 

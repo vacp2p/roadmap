@@ -50,7 +50,7 @@ Adding new Storage PRs - or Logos Storage - to work in the pipeline.
 
 - fully qualified name: `ift-ts:rfc:storage:2026q1-rfc-iteration:merge-open-prs`
 - owner: cofson
-- status: not started
+- status: done
 - start-date: 2026/01/01
 - end-date: 2026/03/31
 

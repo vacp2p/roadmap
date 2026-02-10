@@ -29,15 +29,12 @@ Eliminate hardcoded Anvil accounts and switch to dynamically managed identities.
 
 #### Deliverables
 - PRs and/or Issues
-  - [status-im/status-go#7286](https://github.com/status-im/status-go/issues/7286) Owner token contract deployment reverts
-  - [status-im/status-go#7090](https://github.com/status-im/status-go/issues/7090) Introduce asyncio into Python SDK
-  - [status-im/status-go#7093](https://github.com/status-im/status-go/issues/7093) Implement ENS functional tests
 
 ### Deploy contracts as part of `docker compose` pre-requisite
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7087`
 * owner: egor
-* status: not started
+* status: done
 * start-date: 2026/02/02
 * end-date: 2026/02/13
 
@@ -45,44 +42,14 @@ Eliminate hardcoded Anvil accounts and switch to dynamically managed identities.
 Bundle contract deployment into the compose bootstrap to simplify test setup.
 
 #### Deliverables
-- PRs and/or Issues
-  - [status-im/status-go#7295](https://github.com/status-im/status-go/pull/7295) Maintenance updates
-  - [status-im/status-go#7090](https://github.com/status-im/status-go/issues/7090) Introduce asyncio into Python SDK
-
-### Remove usage of `setup_backends` fixture approach
-
-* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7088`
-* owner: egor
-* status: not started
-* start-date: 2026/02/16
-* end-date: 2026/02/27
-
-#### Description
-Refactor tests to drop legacy `setup_backends` fixtures in favor of the new flow.
-
-#### Deliverables
-- PRs and/or Issues
-
-### Extract `scan_waku_fleet.py` to a separate container, run as part of waku fleet compose
-
-* fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7089`
-* owner: egor
-* status: not started
-* start-date: 2026/03/02
-* end-date: 2026/03/13
-
-#### Description
-Containerize the fleet scanner and integrate it into the compose workflow.
-
-#### Deliverables
-- PRs and/or Issues
+- https://github.com/status-im/status-go/pull/7289
 
 ### Introduce `asyncio` into Python SDK
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7090`
-* owner: roman
-* status: not started
-* start-date: 2026/01/05
+* owner: egor
+* status: in progress (80%)
+* start-date: 2026/01/01
 * end-date: 2026/01/16
 
 #### Description
@@ -94,8 +61,8 @@ Add asyncio primitives to the Python SDK to enable async test flows.
 ### Simplify `SignalClient`
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7091`
-* owner: roman
-* status: not started
+* owner: egor
+* status: in progress (80%)
 * start-date: 2026/01/19
 * end-date: 2026/01/30
 
@@ -108,7 +75,7 @@ Reduce complexity in `SignalClient` to improve reliability and readability.
 ### Remove test classes inheritance to MessengerSteps
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7098`
-* owner: roman
+* owner: egor
 * status: not started
 * start-date: 2026/02/02
 * end-date: 2026/02/13
@@ -122,7 +89,7 @@ Uncouple tests from MessengerSteps inheritance to simplify fixtures and setup.
 ### Cleanup and simplify Python SDK
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7084`
-* owner: roman
+* owner: egor
 * status: not started
 * start-date: 2026/02/16
 * end-date: 2026/02/27
@@ -137,7 +104,7 @@ Perform broader cleanup of the Python SDK to reduce flakiness and maintenance ov
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7128`
 * owner: Roman
-* status: in progress (38%)
+* status: in progress (39%)
 * start-date: 2026/01/19
 * end-date: 2026/01/30
 
@@ -287,4 +254,4 @@ This includes updating tests for changes in `status-go`, addressing regressions,
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
-- PRs and/or Issues
+- [status-im/status-go#7295](https://github.com/status-im/status-go/pull/7295)

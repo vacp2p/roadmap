@@ -51,7 +51,7 @@ Also, update BW resources during the scheduling cycle to avoid race conditions.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:analyze-current-stack`
 * owner: Mamoutou
-* status: in progress (50%)
+* status: in progress (60%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -62,7 +62,11 @@ Report findings with analysis and benchmarks of the results.
 
 #### Deliverables
 - Code:
+  - [status-im/infra-misc#457](https://github.com/status-im/infra-misc/pull/457) vacdst: Open Required Ports for Kube-OVN CNI
 - Reports:
+  - [Google Slides: DST Kubernetes Cluster](https://docs.google.com/presentation/d/1-L_hxYv61fVA_n5nBKLw8cMpZUzB0ilx/edit?usp=sharing&ouid=103968234498493387312&rtpof=true&sd=true)
+  - [Recording: DST Kubernetes Cluster](https://drive.google.com/file/d/1CiEujizGM9QO12s_Zo4d0ZWt-uMdci5w/view)
+  - [Notion: Vaclab 2.0 - Iperf Bandwidth Measurements](https://www.notion.so/Vaclab-2-0-Iperf-Bandwidth-Measurements-2f88f96fb65c808d88d9c53b595f3326)
 - Other:
   - Deployed vaclab-2 stack on available nodes, exposed lab.vac.dev, and validated basic workloads
 
@@ -72,8 +76,8 @@ Report findings with analysis and benchmarks of the results.
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:optimize-data-scrapping`
 * owner: Mamoutou
 * status: not started
-* start-date: 2026/01/01
-* end-date: 2026/03/31
+* start-date: 2026/02/02
+* end-date: 2026/02/13
 
 #### Description
 Improve the monitoring system of the lab. Adjust scraping frequency and selected metrics.
@@ -90,8 +94,8 @@ Optimize the storage to reduce used space if data is older than a certain period
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:lab-health-monitoring`
 * owner: Mamoutou
 * status: not started
-* start-date: 2026/01/01
-* end-date: 2026/03/31
+* start-date: 2026/02/02
+* end-date: 2026/02/13
 
 #### Description
 Design a set of metrics/dashboards that can be used to monitor the health of the lab.
@@ -103,3 +107,19 @@ of repeat the same experiment again.
 #### Deliverables
 - Code:
 - Reports:
+
+
+### Fleet workshop
+
+* fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:fleet-workshop`
+* owner: Mamoutou
+* status: not started
+* start-date: 2026/02/05
+* end-date: 2026/02/13
+
+#### Description
+Prepare a workshop to teach fleet basics to infra-team.
+
+#### Deliverables
+- Slides:
+- Presentation:

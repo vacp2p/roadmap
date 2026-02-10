@@ -49,3 +49,16 @@ Adding new Anoncomms specifications to work in the pipeline.
 
 #### Deliverables
 - New RFCs (WIP)
+
+### OpChan
+
+- fully qualified name: `ift-ts:rfc:anoncomms:2026q1-rfc-iteration:opchan`
+- owner: cofson
+- status: done
+- start-date: 2026/01/15
+- end-date: 2026/02/05
+#### Description
+Fixing and merging OpChan RFC
+
+#### Deliverables
+- New RFC: OpChan - https://github.com/logos-messaging/specs/pull/98

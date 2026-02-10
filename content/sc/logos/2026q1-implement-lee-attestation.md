@@ -1,19 +1,19 @@
 ---
-title: Implement NSSA Attestation
+title: Implement LEE Attestation
 tags:
   - "2026q1"
   - "sc"
   - "logos"
 draft: false
-description: Implement NSSA attestation.
+description: Implement LEE attestation.
 ---
 
-`ift-ts:sc:logos:2026q1-implement-nssa-attestation`
+`ift-ts:sc:logos:2026q1-implement-lee-attestation`
 
 ## Description
 
-Implement an attestation program for the Nescience State Separation Architecture (NSSA) that enables both transparent and private credential issuance and verification.
-Similar to Solana's attestation service, this system will allow organizations to issue verifiable credentials, but with NSSA's unique privacy capabilities.
+Implement an attestation program for the Logos Execution Environment (LEE) that enables both transparent and private credential issuance and verification.
+Similar to Solana's attestation service, this system will allow organizations to issue verifiable credentials, but with LEE's unique privacy capabilities.
 
 The attestation program must support two modes of operation:
 1. **Transparent attestations** with explicit schemas for public credentials where data structure and content visibility is acceptable
@@ -22,14 +22,14 @@ The attestation program must support two modes of operation:
 The system will support key roles including issuers who create and issue credentials,
 holders who receive and store attestations, and verifiers who validate credentials without necessarily learning their contents in private mode.
 
-This commitment includes researching existing attestation systems and ZK approaches, designing the NSSA-specific architecture for both transparent and private attestations,
+This commitment includes researching existing attestation systems and ZK approaches, designing the LEE architecture for both transparent and private attestations,
 and implementing the smart contracts with comprehensive testing and documentation.
 
 ## Task List
 
 ### Research attestation systems and ZK approaches
 
-* fully qualified name: `ift-ts:sc:logos:2026q1-implement-nssa-attestation:research`
+* fully qualified name: `ift-ts:sc:logos:2026q1-implement-lee-attestation:research`
 * owner: Andrea
 * status: in progress (5%)
 * start-date: 2026/01/01
@@ -39,7 +39,7 @@ and implementing the smart contracts with comprehensive testing and documentatio
 
 Research existing attestation systems and zero-knowledge credential protocols to understand best practices for both transparent and private credential issuance.
 Analyze the Solana Attestation Service for schema-based attestations and ZK credential systems for private attestations.
-Identify design patterns, security considerations, and privacy guarantees applicable to NSSA.
+Identify design patterns, security considerations, and privacy guarantees applicable to LEE.
 
 #### Deliverables
 
@@ -47,9 +47,9 @@ Identify design patterns, security considerations, and privacy guarantees applic
 - [ ] Security considerations and threat model documentation
 - [ ] Privacy guarantees and trade-offs analysis
 
-### Design NSSA attestation architecture
+### Design LEE attestation architecture
 
-* fully qualified name: `ift-ts:sc:logos:2026q1-implement-nssa-attestation:design`
+* fully qualified name: `ift-ts:sc:logos:2026q1-implement-lee-attestation:design`
 * owner: TBD
 * status: not started
 * start-date: 2026/02/01
@@ -57,7 +57,7 @@ Identify design patterns, security considerations, and privacy guarantees applic
 
 #### Description
 
-Design the dual-mode attestation program architecture for NSSA.
+Design the dual-mode attestation program architecture for LEE.
 For transparent mode: define attestation schema structure, credential formats, and public verification flows.
 For private mode: design zero-knowledge proof circuits, private credential structures, and privacy-preserving verification mechanisms.
 Define the on-chain data structures for both modes and off-chain integration requirements.
@@ -71,7 +71,7 @@ Define the on-chain data structures for both modes and off-chain integration req
 
 ### Implement attestation smart contracts
 
-* fully qualified name: `ift-ts:sc:logos:2026q1-implement-nssa-attestation:implementation`
+* fully qualified name: `ift-ts:sc:logos:2026q1-implement-lee-attestation:implementation`
 * owner: TBD
 * status: not started
 * start-date: 2026/02/15
@@ -79,7 +79,7 @@ Define the on-chain data structures for both modes and off-chain integration req
 
 #### Description
 
-Implement the NSSA attestation smart contracts supporting both transparent and private modes based on the approved design.
+Implement the LEE attestation smart contracts supporting both transparent and private modes based on the approved design.
 For transparent attestations: implement schema creation, credential issuance with explicit data, and public verification.
 For private attestations: implement ZK proof verification, private credential issuance, and privacy-preserving verification flows.
 Include lifecycle management, expiration handling, and revocation mechanisms for both modes.

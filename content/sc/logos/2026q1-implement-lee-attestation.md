@@ -72,8 +72,8 @@ Define the on-chain data structures for both modes and off-chain integration req
 ### Implement attestation smart contracts
 
 * fully qualified name: `ift-ts:sc:logos:2026q1-implement-lee-attestation:implementation`
-* owner: TBD
-* status: not started
+* owner: r4bbit
+* status: in progress (5%)
 * start-date: 2026/02/15
 * end-date: 2026/03/31
 
@@ -87,6 +87,7 @@ Ensure comprehensive test coverage and documentation.
 
 #### Deliverables
 
+- [logos-blockchain/lssa@75c0c31](https://github.com/logos-blockchain/lssa/commit/75c0c31472013d70de7f08b19c8fc5b91eb89c2a) Create a simple attestation program inspired by Optimism Attestation Station
 - [ ] Smart contract implementation for transparent private ZK-based attestations
 - [ ] Comprehensive test suite covering both modes and edge cases
 - [ ] Integration tests for issuer, holder, and verifier flows

@@ -30,9 +30,9 @@ while allow provisioning to other teams dedicated machines if they are needed.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:lab-deployment-code`
 * owner: Mamoutou
-* status: in progress (99%)
+* status: done
 * start-date: 2026/01/05
-* end-date: 2026/01/16
+* end-date: 2026/02/10
 
 #### Description
 Complete the deployment and configuration of the remaining lab components using fleet, 
@@ -51,7 +51,7 @@ Also, update BW resources during the scheduling cycle to avoid race conditions.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:analyze-current-stack`
 * owner: Mamoutou
-* status: in progress (60%)
+* status: in progress (70%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -62,6 +62,7 @@ Report findings with analysis and benchmarks of the results.
 
 #### Deliverables
 - Code:
+  - [vacp2p/vaclab-2#6](https://github.com/vacp2p/vaclab-2/pull/6) Add External DST Node
   - [status-im/infra-misc#457](https://github.com/status-im/infra-misc/pull/457) vacdst: Open Required Ports for Kube-OVN CNI
 - Reports:
   - [Google Slides: DST Kubernetes Cluster](https://docs.google.com/presentation/d/1-L_hxYv61fVA_n5nBKLw8cMpZUzB0ilx/edit?usp=sharing&ouid=103968234498493387312&rtpof=true&sd=true)
@@ -113,7 +114,7 @@ of repeat the same experiment again.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:fleet-workshop`
 * owner: Mamoutou
-* status: not started
+* status: in progress (80%)
 * start-date: 2026/02/05
 * end-date: 2026/02/13
 
@@ -123,3 +124,4 @@ Prepare a workshop to teach fleet basics to infra-team.
 #### Deliverables
 - Slides:
 - Presentation:
+  - [mamoutou-diarra/rancher-fleet-tuto](https://github.com/mamoutou-diarra/rancher-fleet-tuto) Rancher Fleet Hands-On Tutorial

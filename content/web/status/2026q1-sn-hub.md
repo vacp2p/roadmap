@@ -150,7 +150,7 @@ Implement backend functionality for leaderboard and app discovery features.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:qa`
 * owner: jkbktl
-* status: in progress (5%)
+* status: in progress (10%)
 * start-date: 2026/01/15
 * end-date: 2026/01/29
 

@@ -33,6 +33,10 @@ Oversee testing strategy around releases.
 
 #### Deliverables
 - PRs / Issues
+  - [status-im/status-app#19889](https://github.com/status-im/status-app/issues/19889) Can't join Status community, membership request is pending forever
+  - [status-im/status-app#19891](https://github.com/status-im/status-app/issues/19891) Fix tests for new onboarding through syncing flow
+  - [status-im/status-app#19863](https://github.com/status-im/status-app/pull/19863) chore(@e2e): attempt to make chats stable on VMs
+  - [status-im/status-app#19856](https://github.com/status-im/status-app/issues/19856) [Mobile] Can't create new account on Android
   - [status-im/status-app#19801](https://github.com/status-im/status-app/pull/19801) tests(@e2e): add simple test for market tab
   - [status-im/status-app#19763](https://github.com/status-im/status-app/pull/19763) chore(@e2e): add commit data to allure reports
   - [status-im/status-go#7293](https://github.com/status-im/status-go/pull/7293) chore(@tests): update README.md
@@ -120,15 +124,16 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:linea-chain`
 * owner: nastya
-* status: in progress (50%)
+* status: done
 * start-date: 2026/01/01
-* end-date: 2026/03/31
+* end-date: 2026/02/10
 
 #### Description
 - Support **Linea chain** feature in tests.
 
 #### Deliverables
 - PRs / Issues
+  - [status-im/status-app#19824](https://github.com/status-im/status-app/pull/19824) Tests: add Linea Sepolia to send ETH test
   - [status-im/status-app#19688](https://github.com/status-im/status-app/issues/19688) Test Linea feature manually
   - [status-im/status-app#19825](https://github.com/status-im/status-app/issues/19825) Crash on switching to Linea Sepolia after importing user account
   - [status-im/status-app#19833](https://github.com/status-im/status-app/issues/19833) Internal error occurred when sending ETH
@@ -202,4 +207,5 @@ Oversee testing strategy around releases.
 
 #### Deliverables
 - PRs / Issues
+  - [status-im/status-app#19858](https://github.com/status-im/status-app/issues/19858) Fix tests for sidebar and dock removal
   - [status-im/status-app#19723](https://github.com/status-im/status-app/issues/19723) Fix tests for primary navigation sidebar

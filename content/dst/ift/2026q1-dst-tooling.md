@@ -35,8 +35,8 @@ adversarial conditions and control message behavior.
 ### General tooling (recurring)
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:general-tooling`
-* owner: Pearson
-* status: in progress (10%)
+* owner: Pearson/Alberto
+* status: in progress (40%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -46,6 +46,7 @@ Should be made general when possible.
 
 #### Deliverables
 - PRs:
+  - [vacp2p/10ksim#177](https://github.com/vacp2p/10ksim/pull/177) Add utilities for plotting latency distribution for libp2p
   - [vacp2p/10ksim#193](https://github.com/vacp2p/10ksim/pull/193) Add Waku functionality for pod_api_requester
   - [vacp2p/pod-api-requester#4](https://github.com/vacp2p/pod-api-requester/pull/4) Add Waku router with endpoint "waku/relay"
   - [vacp2p/10ksim#191](https://github.com/vacp2p/10ksim/pull/191) Add pod_api_requester
@@ -62,7 +63,7 @@ Should be made general when possible.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:deployment-analysis-bridge`
 * owner: Pearson
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/02/09
 * end-date: 2026/02/20
 
@@ -97,15 +98,17 @@ specific experiments with them.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:expand-deployment-nim-libp2p`
 * owner: Pearson
-* status: in progress (80%)
+* status: done
 * start-date: 2026/01/12
-* end-date: 2026/01/23
+* end-date: 2026/02/10
 
 #### Description
 Adjust deployment builders to support nim-libp2p.
 
 #### Deliverables
 - PRs:
+  - [vacp2p/10ksim#195](https://github.com/vacp2p/10ksim/pull/195) Nimlibp2p builders: add env var options
+  - [vacp2p/10ksim#194](https://github.com/vacp2p/10ksim/pull/194) nimlibp2p builders
 - Related Documents:
   - [Example deployment dummy.py](https://github.com/vacp2p/10ksim/blob/17b03f2ed49c889f10859a16ccb805b1a04950c2/deployments/experiments/dummy.py#L152)
 

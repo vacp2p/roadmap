@@ -81,7 +81,7 @@ Implement CRM functionality as specified in the design board and Discord discuss
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-website:cms-sanity`
 * owner: Felicio
-* status: in progress (11%)
+* status: in progress (20%)
 * start-date: 2026/03/19
 * end-date: 2026/03/31
 

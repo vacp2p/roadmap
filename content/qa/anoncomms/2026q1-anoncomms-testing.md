@@ -26,9 +26,9 @@ Baseline test suites and file entry points for onboarding:
 
 * fully qualified name: `ift-ts:qa:anoncomms:2026q1-anoncomms-testing:rln-negative-paths`
 * owner: Roman
-* status: in progress (75%)
+* status: done
 * start-date: 2026/01/01
-* end-date: 2026/02/15
+* end-date: 2026/02/10
 
 #### Description
 
@@ -44,6 +44,8 @@ Baseline test suites and file entry points for onboarding:
 
 #### Deliverables
 
+- [vacp2p/zerokit#372](https://github.com/vacp2p/zerokit/pull/372) test: Improve coverage for protocol and circuit modules
+- [vacp2p/zerokit#371](https://github.com/vacp2p/zerokit/pull/371) chore: Test coverage report for CI
 - PR(s) with new RLN negative-path and resource error tests.
 - Test report listing covered gaps and remaining risks.
 - [vacp2p/zerokit#367](https://github.com/vacp2p/zerokit/pull/367) Test Merkle invalid proof and PM tree coverage tests

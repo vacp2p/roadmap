@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (36%)
+* status: in progress (43%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -36,6 +36,8 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.
 
 #### Deliverables
+- [status-im/nimbus-eth2#7916](https://github.com/status-im/nimbus-eth2/pull/7916) chore: bump nim-libp2p to 1.15.2
+- [status-im/nimbus-eth2#7906](https://github.com/status-im/nimbus-eth2/pull/7906) fix: OPENSSL_free warning
 - [vacp2p/nim-libp2p#2059](https://github.com/vacp2p/nim-libp2p/pull/2059) chore: bump lsquic
 - [status-im/nimbus-eth2#7898](https://github.com/status-im/nimbus-eth2/pull/7898) fix: lsquic nasm file compilation
 - [vacp2p/nim-lsquic#61](https://github.com/vacp2p/nim-lsquic/pull/61) chore: use static to compile windows assembly

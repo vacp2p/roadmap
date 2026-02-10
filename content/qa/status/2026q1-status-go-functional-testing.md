@@ -48,7 +48,7 @@ Bundle contract deployment into the compose bootstrap to simplify test setup.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7090`
 * owner: egor
-* status: in progress (80%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/01/16
 
@@ -56,13 +56,13 @@ Bundle contract deployment into the compose bootstrap to simplify test setup.
 Add asyncio primitives to the Python SDK to enable async test flows.
 
 #### Deliverables
-- PRs and/or Issues
+- [test: simplify signal client](https://github.com/status-im/status-go/pull/727)
 
 ### Simplify `SignalClient`
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7091`
 * owner: egor
-* status: in progress (80%)
+* status: done
 * start-date: 2026/01/19
 * end-date: 2026/01/30
 
@@ -70,7 +70,7 @@ Add asyncio primitives to the Python SDK to enable async test flows.
 Reduce complexity in `SignalClient` to improve reliability and readability.
 
 #### Deliverables
-- PRs and/or Issues
+- [test: simplify signal client](https://github.com/status-im/status-go/pull/727)
 
 ### Remove test classes inheritance to MessengerSteps
 
@@ -104,7 +104,7 @@ Perform broader cleanup of the Python SDK to reduce flakiness and maintenance ov
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7128`
 * owner: Roman
-* status: in progress (39%)
+* status: in progress (50%)
 * start-date: 2026/01/19
 * end-date: 2026/01/30
 

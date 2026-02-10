@@ -47,3 +47,22 @@ as well as understand and apply the IETF RFC process.
 #### Deliverables
 - Weekly reports on lessons learned.
 - Applied practices on our RFC process.
+
+### Review Pipeline
+
+- fully qualified name: `ift-ts:rfc:logos:2026q1-rfc-iteration:review-pipeline`
+- owner: cofson
+- status: not started
+- start-date: 2026/01/01
+- end-date: 2026/03/31
+
+#### Description
+This task revolves around
+the effort of reviews and support
+of all the teams that use the specifications,
+this includes (and not limited to)
+Blockchain, Storage, Anoncomms, ACZ.
+
+#### Deliverables
+- Reviews on existing written specifications, approvals
+and comments.

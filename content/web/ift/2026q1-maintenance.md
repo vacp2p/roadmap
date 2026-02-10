@@ -34,6 +34,10 @@ The maintenance commitment supports IFT's strategic objectives by:
 Ongoing maintenance and support across delivered web properties, including CI/deploy workflows and platform improvements.
 
 #### Deliverables
+- [status-im/status-web#1024](https://github.com/status-im/status-web/pull/1024) chore(apps/wallet): force lifi widget to light mode
+- [status-im/status-web#1018](https://github.com/status-im/status-web/pull/1018) fix(connector): two different zod instances being used
+- [status-im/status-web#1015](https://github.com/status-im/status-web/pull/1015) Updating alt text for images
+- [status-im/status-web#974](https://github.com/status-im/status-web/pull/974) update preview deployment pipeline
 - [acid-info/free.technology#18](https://github.com/acid-info/free.technology/pull/18) Add Brand Assets link to footer
 - [acid-info/logos-press-engine#257](https://github.com/acid-info/logos-press-engine/pull/257) Improve table rendering and update navigation links
 - [forum.logos.co theme fix](https://forum.logos.co/admin/customize/themes/3/common/js/edit?safe_mode=no_themes) Resolve inline script admin notice

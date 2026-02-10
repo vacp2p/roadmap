@@ -41,6 +41,14 @@ All the relevant information can be found in [this GitHub issue](https://github.
 
 #### Deliverables
 - PRs:
+  - [nim-lang/nimble#1585](https://github.com/nim-lang/nimble/pull/1585) Deduplicate packages by checksum and fix assertion without nimble file
+  - [nim-lang/nimble#1584](https://github.com/nim-lang/nimble/pull/1584) Show friendly error when running commands without nimble file
+  - [nim-lang/nimble#1583](https://github.com/nim-lang/nimble/pull/1583) Fix multiple versions appearing in nimble.paths when using lock file
+  - [nim-lang/nimble#1582](https://github.com/nim-lang/nimble/pull/1582) Fix lock file vcsRevision not being used during installation
+  - [nim-lang/nimble#1581](https://github.com/nim-lang/nimble/pull/1581) Use vnext path for nimble add command
+  - [nim-lang/nimble#1580](https://github.com/nim-lang/nimble/pull/1580) Use version-agnostic cache directories to avoid duplicate downloads
+  - [nim-lang/nimble#1579](https://github.com/nim-lang/nimble/pull/1579) Lock preservation
+  - [nim-lang/nimble#1578](https://github.com/nim-lang/nimble/pull/1578) Fix regression buildtemp
   - [nim-lang/nimble#1576](https://github.com/nim-lang/nimble/pull/1576) Recover from corrupted pkgcache directories during installation
   - [nim-lang/nimble#1575](https://github.com/nim-lang/nimble/pull/1575) Fixes #1572 Offline switch not honoured past 2.0.0
   - [nim-lang/nimble#1574](https://github.com/nim-lang/nimble/pull/1574) Fix dependency discovery when packages are loaded from cache

@@ -139,7 +139,7 @@ Implement functionality to send NFTs from the wallet extension.
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:global-password`
 * owner: JulesFiliot
-* status: in progress (30%)
+* status: in progress (60%)
 * start-date: 2026/02/19
 * end-date: 2026/03/05
 

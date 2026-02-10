@@ -19,7 +19,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:json-rpc`
 * owner: Nitely
-* status: in progress (45%)
+* status: in progress (55%)
 * start-date: 2026/01/01
 * end-date: 2025/02/14
 
@@ -36,7 +36,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:intops-integration-bncurve-stint`
 * owner: Juan/Constantine
-* status: in progress (90%)
+* status: in progress (99%)
 * start-date: 2026/01/01
 * end-date: 2026/02/14
 
@@ -93,6 +93,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 #### Deliverables
 - Docs
+  - [status-im/nim-chronos#617](https://github.com/status-im/nim-chronos/pull/617) Chronos tutorial chapters: Request and Concurrency
   - [status-im/nimbus-common-workflow#17](https://github.com/status-im/nimbus-common-workflow/pull/17) Add common workflow for docs (mdBook)
   - [status-im/nim-stint#171](https://github.com/status-im/nim-stint/pull/171) Docs updates
   - [nim-stint docs site](https://status-im.github.io/nim-stint/)

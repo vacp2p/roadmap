@@ -34,9 +34,9 @@ Continue building mobile/tablet test automation coverage for the Status app.
 
 - fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:test-wallet`
 - owner: magnus
-- status: in progress (5%)
+- status: done
 - start-date: 2026/01/01
-- end-date: 2026/02/15
+- end-date: 2026/02/10
 
 #### Description
 
@@ -44,6 +44,11 @@ Round out wallet automation to cover account edit, restart, receive, and setting
 
 #### Deliverables
 
+- [status-im/status-app#19770](https://github.com/status-im/status-app/issues/19770) [Epic] test(e2e-mobile): wallet test expansion
+- [status-im/status-app#19795](https://github.com/status-im/status-app/pull/19795) test(e2e-mobile): Add wallet account rename
+- [status-im/status-app#19802](https://github.com/status-im/status-app/pull/19802) test(e2e-mobile): Add app restart verification to wallet test
+- [status-im/status-app#19862](https://github.com/status-im/status-app/pull/19862) test(e2e-mobile): wallet account settings
+- [status-im/status-app#19860](https://github.com/status-im/status-app/pull/19860) test(e2e-mobile): wallet check for receive modal
 - Account rename + restart path automated in `test_wallet_accounts_basic.py`
 - Receive modal page object with QR/address assertions
 - `test_add_delete_account_from_settings.py` ported (settings navigation + details view)
@@ -68,7 +73,7 @@ Investigate feasibility of adding iOS coverage to framework.
 
 - fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:test-messaging-1x1`
 - owner: magnus
-- status: not started
+- status: in progress (55%)
 - start-date: 2026/02/01
 - end-date: 2026/02/21
 
@@ -132,6 +137,7 @@ Keep the framework healthy while the app changes.
 
 #### Deliverables
 
+- [status-im/status-app#19853](https://github.com/status-im/status-app/pull/19853) fix(e2e-mobile): stabilise 1x1 chat test and locators
 - [status-im/status-app#19163](https://github.com/status-im/status-app/pull/19163) ci: add Jenkinsfile and config for e2e mobile tests
 - [status-im/status-app#19239](https://github.com/status-im/status-app/pull/19239) E2E Appium 1x1 chat
 - [status-im/infra-ci#222](https://github.com/status-im/infra-ci/issues/222) Configure job for mobile e2e tests

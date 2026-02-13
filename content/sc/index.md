@@ -20,6 +20,8 @@ tags:
 
 * [[sc/logos/2026q1-implement-lee-attestation|implement-lee-attestation]]
 * [[sc/logos/2026q1-psf-workshop|psf-workshop]]
+* [[sc/logos/2026q1-amm-core-improvements|amm-core-improvements]]
+* [[sc/logos/2026q1-amm-fee-system-and-swap-improvements|amm-fee-system-and-swap-improvements]]
 
 ## 2025q4 `vac:sc:`
 ---

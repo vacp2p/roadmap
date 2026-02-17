@@ -69,13 +69,26 @@ Should be made general when possible.
 
 #### Description
 Bridge the new deployment builders with the analysis tools in the repository.
+
+#### Deliverables
+- PRs:
+- Related Documents:
+
+### Analysis yaml refactor
+
+* fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:analysis-yaml-refactor`
+* owner: Pearson
+* status: not started
+* start-date: 2026/02/23
+* end-date: 2026/03/06
+
+#### Description
 Refactor the analysis tools to get rid of the configuration yaml files, and use a similar pattern
 to establish with analysis needs to be done after the deployment.
 
 #### Deliverables
 - PRs:
 - Related Documents:
-
 
 ### Expand deployment - Waku
 

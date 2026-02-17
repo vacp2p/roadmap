@@ -63,7 +63,7 @@ Should be made general when possible.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:deployment-analysis-bridge`
 * owner: Pearson
-* status: in progress (10%)
+* status: in progress (80%)
 * start-date: 2026/02/09
 * end-date: 2026/02/20
 

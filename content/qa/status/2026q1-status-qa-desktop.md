@@ -21,7 +21,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (75%)
+* status: in progress (78%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -33,6 +33,9 @@ Oversee testing strategy around releases.
 
 #### Deliverables
 - PRs / Issues
+  - [status-im/status-app#19933](https://github.com/status-im/status-app/pull/19933) tests(@e2e): test to monitor assets loading time
+  - [status-im/status-app#19909](https://github.com/status-im/status-app/pull/19909) tests(@e2e): add test to measure status community loading time
+  - [status-im/status-app#19897](https://github.com/status-im/status-app/pull/19897) chore(@e2e): enhancements for tests on virtual machines
   - [status-im/status-app#19889](https://github.com/status-im/status-app/issues/19889) Can't join Status community, membership request is pending forever
   - [status-im/status-app#19891](https://github.com/status-im/status-app/issues/19891) Fix tests for new onboarding through syncing flow
   - [status-im/status-app#19863](https://github.com/status-im/status-app/pull/19863) chore(@e2e): attempt to make chats stable on VMs

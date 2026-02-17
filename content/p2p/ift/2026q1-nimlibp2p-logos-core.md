@@ -23,7 +23,7 @@ Using nim-libp2p's c-bindings develop logos-core modules that would let libp2p f
 
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-logos-core:core`  
 * owner: Gabe
-* status: in progress (60%)
+* status: in progress (67%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -32,6 +32,8 @@ Using the c-bindings module from nim-libp2p, develop a logos module that would a
 to be used in logos.
 
 #### Deliverables
+- [logos-co/logos-libp2p-module#9](https://github.com/logos-co/logos-libp2p-module/pull/9) feat(kad): add kademlia functions
+- [logos-co/logos-libp2p-module#8](https://github.com/logos-co/logos-libp2p-module/pull/8) feat(kad): add provider tests
 - [logos-co/logos-libp2p-module#6](https://github.com/logos-co/logos-libp2p-module/pull/6) chore(test): add nix check and ci tests
 - [vacp2p/nim-libp2p#2065](https://github.com/vacp2p/nim-libp2p/pull/2065) chore(cbind): add private key
 - [logos-co/logos-libp2p-module#3](https://github.com/logos-co/logos-libp2p-module/pull/3) feat: minimal module

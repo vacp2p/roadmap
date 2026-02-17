@@ -73,7 +73,7 @@ Investigate feasibility of adding iOS coverage to framework.
 
 - fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:test-messaging-1x1`
 - owner: magnus
-- status: in progress (55%)
+- status: in progress (70%)
 - start-date: 2026/02/01
 - end-date: 2026/02/21
 
@@ -83,6 +83,8 @@ Bring the 1x1 messaging test to desktop parity, including edit/reply/react, medi
 
 #### Deliverables
 
+- [status-im/status-app#19888](https://github.com/status-im/status-app/pull/19888) Media and emoji coverage for messaging
+- [status-im/status-app#19871](https://github.com/status-im/status-app/pull/19871) Message Context Menu and Emoji Picker locators
 - Messaging context menu + reaction/emoji helpers
 - Media/emoji/reaction coverage added to `test_messaging_1x1_chat.py`
 - Edit, reply, delete, clear-history assertions implemented
@@ -137,6 +139,7 @@ Keep the framework healthy while the app changes.
 
 #### Deliverables
 
+- [status-im/status-app#19908](https://github.com/status-im/status-app/pull/19908) finalize GitHub status in post block
 - [status-im/status-app#19853](https://github.com/status-im/status-app/pull/19853) fix(e2e-mobile): stabilise 1x1 chat test and locators
 - [status-im/status-app#19163](https://github.com/status-im/status-app/pull/19163) ci: add Jenkinsfile and config for e2e mobile tests
 - [status-im/status-app#19239](https://github.com/status-im/status-app/pull/19239) E2E Appium 1x1 chat

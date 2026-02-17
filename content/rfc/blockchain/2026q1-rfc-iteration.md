@@ -179,15 +179,16 @@ Create the RFC for the Anonymous Leaders Reward Protocol based on the Blockchain
 
 - fully qualified name: `ift-ts:rfc:blockchain:2026q1-rfc-iteration:wallet-technical-standard`
 - owner: cofson
-- status: not started
+- status: done
 - start-date: 2026/03/16
-- end-date: 2026/03/31
+- end-date: 2026/02/17
 
 #### Description
 Create the RFC for the Anonymous Leaders Reward Protocol based on the Blockchain raw spec that applies 1/COSS.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
+  - [vacp2p/rfc-index#292](https://github.com/vacp2p/rfc-index/pull/292) Wallet Technical Standard RFC
 
 ### Payload Formatting
 

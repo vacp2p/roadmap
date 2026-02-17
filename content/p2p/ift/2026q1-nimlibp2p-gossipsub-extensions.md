@@ -38,7 +38,7 @@ This commitment focuses on implementing [Gossipsub v1.3 - Extensions control mes
 ### Implement Gossipsub Partial Messages Extension
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-gossipsub-extensions:partial-messages`
 * owner: Vlado
-* status: in progress (85%)
+* status: in progress (95%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -47,6 +47,9 @@ This commitment focuses on implementing [Gossipsub v1.3 - Extensions control mes
 * This is especially useful in cases where there is a large messages and a peer is missing only a small part of the message.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2105](https://github.com/vacp2p/nim-libp2p/pull/2105) chore(partialmessage): push to selected peers
+- [vacp2p/nim-libp2p#2092](https://github.com/vacp2p/nim-libp2p/pull/2092) feat(partialmessage): gossip parts metadata
+- [vacp2p/nim-libp2p#2091](https://github.com/vacp2p/nim-libp2p/pull/2091) chore(partialmessage): sanity check for groupId
 - [vacp2p/nim-libp2p#2076](https://github.com/vacp2p/nim-libp2p/pull/2076) test(extensions): adding tests for partial message
 - [vacp2p/nim-libp2p#2074](https://github.com/vacp2p/nim-libp2p/pull/2074) test(extensions): improving tests
 - [vacp2p/nim-libp2p#2040](https://github.com/vacp2p/nim-libp2p/pull/2040) feat(gossipsub): partial message extension

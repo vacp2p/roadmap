@@ -28,12 +28,16 @@ The maintenance commitment supports IFT's strategic objectives by:
 * owner: jkbktl
 * status: done
 * start-date: 2026/01/01
-* end-date: 2026/01/27
+* end-date: 2026/02/17
 
 #### Description
 Ongoing maintenance and support across delivered web properties, including CI/deploy workflows and platform improvements.
 
 #### Deliverables
+- [status-im/status-specs#4](https://github.com/status-im/status-specs/pull/4) fix: formatting
+- [acid-info/logos#27](https://github.com/acid-info/logos/pull/27) Add umami tracking for Spanish commuity translation of FtW
+- [status-im/status-web#1031](https://github.com/status-im/status-web/pull/1031) fixed build issues on status.app website
+- [status-im/status-web#663](https://github.com/status-im/status-web/issues/663) Update Connector's assets
 - [status-im/status-web#1024](https://github.com/status-im/status-web/pull/1024) chore(apps/wallet): force lifi widget to light mode
 - [status-im/status-web#1018](https://github.com/status-im/status-web/pull/1018) fix(connector): two different zod instances being used
 - [status-im/status-web#1015](https://github.com/status-im/status-web/pull/1015) Updating alt text for images

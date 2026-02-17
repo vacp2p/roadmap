@@ -56,7 +56,7 @@ Bundle contract deployment into the compose bootstrap to simplify test setup.
 Add asyncio primitives to the Python SDK to enable async test flows.
 
 #### Deliverables
-- [test: simplify signal client](https://github.com/status-im/status-go/pull/727)
+- [test: simplify signal client](https://github.com/status-im/status-go/pull/7270)
 
 ### Simplify `SignalClient`
 
@@ -70,7 +70,7 @@ Add asyncio primitives to the Python SDK to enable async test flows.
 Reduce complexity in `SignalClient` to improve reliability and readability.
 
 #### Deliverables
-- [test: simplify signal client](https://github.com/status-im/status-go/pull/727)
+- [test: simplify signal client](https://github.com/status-im/status-go/pull/7270)
 
 ### Remove test classes inheritance to MessengerSteps
 
@@ -104,7 +104,7 @@ Perform broader cleanup of the Python SDK to reduce flakiness and maintenance ov
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7128`
 * owner: Roman
-* status: in progress (50%)
+* status: in progress (70%)
 * start-date: 2026/01/19
 * end-date: 2026/01/30
 
@@ -254,4 +254,7 @@ This includes updating tests for changes in `status-go`, addressing regressions,
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
+- [status-im/status-go#7321](https://github.com/status-im/status-go/pull/7321) fix flaky tests on dev's PR
+- [status-im/status-go#7289](https://github.com/status-im/status-go/pull/7289) deploy contracts as part of docker compose pre requesite
+- [status-im/status-go#7270](https://github.com/status-im/status-go/pull/7270) simplify signal client/Introduce asyncio into Python SDK
 - [status-im/status-go#7295](https://github.com/status-im/status-go/pull/7295)

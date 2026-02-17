@@ -64,7 +64,7 @@ Allow registration with custom domain email addresses to remove barriers for use
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-forum:cooldown-bypass-system`
 * owner: jkbktl
-* status: not started
+* status: in progress (30%)
 * start-date: 2026/03/12
 * end-date: 2026/03/26
 
@@ -74,6 +74,7 @@ Implement referral code on signup to bypass 24-hour cooldown period. If referral
 
 #### Deliverables
 
+- [logos forum cooldown bypass proposal](https://github.com/acid-info/logos/issues/19#issuecomment-3894570455)
 - Referral code system or heart system implementation
 - Cooldown bypass logic
 - Spam protection maintenance

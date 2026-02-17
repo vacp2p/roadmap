@@ -9,6 +9,8 @@ tags:
 
 ## 2026q1 `ift-ts:rfc:`
 
+### `ift:`
+* [[rfc/ift/2026q1-rfc-index-maintenance|rfc-index-maintenance]]
 
 ### `logos:`
 * [[rfc/logos/2026q1-rfc-iteration|rfc-iteration]]
@@ -133,4 +135,3 @@ tags:
 ### `waku:`
 * [ ] [[2024q4-rfc-iteration|2024q4-rfc-iteration]]
 * [ ] [[rfc/waku/raw-rfcs-to-rfc-index-migration.md|raw-rfcs-to-rfc-index-migration]]
-

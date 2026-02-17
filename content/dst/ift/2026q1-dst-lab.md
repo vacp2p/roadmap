@@ -51,7 +51,7 @@ Also, update BW resources during the scheduling cycle to avoid race conditions.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:analyze-current-stack`
 * owner: Mamoutou
-* status: in progress (70%)
+* status: in progress (80%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -62,9 +62,11 @@ Report findings with analysis and benchmarks of the results.
 
 #### Deliverables
 - Code:
+  - [vacp2p/vaclab-2#11](https://github.com/vacp2p/vaclab-2/pull/11) Improve Runtime Settings
   - [vacp2p/vaclab-2#6](https://github.com/vacp2p/vaclab-2/pull/6) Add External DST Node
   - [status-im/infra-misc#457](https://github.com/status-im/infra-misc/pull/457) vacdst: Open Required Ports for Kube-OVN CNI
 - Reports:
+  - [Notion: External node as K3S Master - System Components Traffic Share](https://www.notion.so/External-node-as-K3S-Master-2fe8f96fb65c80a49316ec4a3841f317?source=copy_link#3098f96fb65c80b5b713e86c4ddaa749)
   - [Google Slides: DST Kubernetes Cluster](https://docs.google.com/presentation/d/1-L_hxYv61fVA_n5nBKLw8cMpZUzB0ilx/edit?usp=sharing&ouid=103968234498493387312&rtpof=true&sd=true)
   - [Recording: DST Kubernetes Cluster](https://drive.google.com/file/d/1CiEujizGM9QO12s_Zo4d0ZWt-uMdci5w/view)
   - [Notion: Vaclab 2.0 - Iperf Bandwidth Measurements](https://www.notion.so/Vaclab-2-0-Iperf-Bandwidth-Measurements-2f88f96fb65c808d88d9c53b595f3326)
@@ -114,14 +116,15 @@ of repeat the same experiment again.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:fleet-workshop`
 * owner: Mamoutou
-* status: in progress (80%)
+* status: done
 * start-date: 2026/02/05
-* end-date: 2026/02/13
+* end-date: 2026/02/17
 
 #### Description
 Prepare a workshop to teach fleet basics to infra-team.
 
 #### Deliverables
 - Slides:
+  - [Google Slide: Rancher Fleet Tuto](https://docs.google.com/presentation/d/13rNYB4mRKB587WmAlQlDm6gXYsZZCz1M/edit?usp=sharing&ouid=103968234498493387312&rtpof=true&sd=true)
 - Presentation:
   - [mamoutou-diarra/rancher-fleet-tuto](https://github.com/mamoutou-diarra/rancher-fleet-tuto) Rancher Fleet Hands-On Tutorial

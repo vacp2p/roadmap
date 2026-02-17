@@ -19,7 +19,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:json-rpc`
 * owner: Nitely
-* status: in progress (55%)
+* status: in progress (60%)
 * start-date: 2026/01/01
 * end-date: 2025/02/14
 
@@ -30,6 +30,10 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 #### Deliverables
 - PRs
+  - [vacp2p/nim-cbor-serialization#24](https://github.com/vacp2p/nim-cbor-serialization/pull/24) Bump to v0.3.0
+  - [vacp2p/nim-cbor-serialization#23](https://github.com/vacp2p/nim-cbor-serialization/pull/23) Avoid DefaultFlavor ambiguity
+  - [vacp2p/nim-cbor-serialization#22](https://github.com/vacp2p/nim-cbor-serialization/pull/22) Prefix error types
+  - [vacp2p/nim-cbor-serialization#20](https://github.com/vacp2p/nim-cbor-serialization/pull/20) Avoid mixin ambiguity errors
   - [status-im/nim-json-rpc#259](https://github.com/status-im/nim-json-rpc/pull/259) Fix #239; allow custom JSON flavors for client code
 
 ### Integrate nim-intops into nim-bncurve and nim-stint
@@ -112,6 +116,10 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 #### Deliverables
 - PRs
+  - [status-im/nim-stew#266](https://github.com/status-im/nim-stew/pull/266) Deprecate saturating_arith and saturation_arith
+  - [status-im/nim-unittest2#65](https://github.com/status-im/nim-unittest2/pull/65) Fix print expression content
+  - [M] Pinned default mdBook version in the common docs workflow: https://github.com/status-im/nimbus-common-workflow/pull/20
+  - Reported that `nimble install -g foo bar` installs only `bar`: https://github.com/nim-lang/nimble/issues/1604
   - [vacp2p/nim-intops#20](https://github.com/vacp2p/nim-intops/pull/20) Improve narrowingDiv based on review comments
   - [status-im/nimbus-common-workflow#15](https://github.com/status-im/nimbus-common-workflow/pull/15/) Fix Nimbus common workflow for tests
   - [status-im/nim-stint#172](https://github.com/status-im/nim-stint/pull/172/changes) Code review PR

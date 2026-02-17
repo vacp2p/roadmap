@@ -41,6 +41,14 @@ All the relevant information can be found in [this GitHub issue](https://github.
 
 #### Deliverables
 - PRs:
+  - [nim-lang/nimble#1594](https://github.com/nim-lang/nimble/pull/1594) Update docs
+  - [nim-lang/nimble#1593](https://github.com/nim-lang/nimble/pull/1593) Prevent submodule population in pkgcache, fetch only in buildtemp
+  - [nim-lang/nimble#1591](https://github.com/nim-lang/nimble/pull/1591) Bumps sat "fix sat issue with mutating state"
+  - [nim-lang/nimble#1590](https://github.com/nim-lang/nimble/pull/1590) Move develop pkgsToInstall redirect from runVNext into installPkgs
+  - [nim-lang/nimble#1589](https://github.com/nim-lang/nimble/pull/1589) Skip setup after nimble shell
+  - [nim-lang/nimble#1588](https://github.com/nim-lang/nimble/pull/1588) Fix develop --withDependencies generating empty nimble.paths in vnext
+  - [nim-lang/nimble#1587](https://github.com/nim-lang/nimble/pull/1587) Allow -g flag to install packages globally even from a project directory
+  - [nim-lang/nimble#1586](https://github.com/nim-lang/nimble/pull/1586) Fix async download: deduplicate parallel requirement processing
   - [nim-lang/nimble#1585](https://github.com/nim-lang/nimble/pull/1585) Deduplicate packages by checksum and fix assertion without nimble file
   - [nim-lang/nimble#1584](https://github.com/nim-lang/nimble/pull/1584) Show friendly error when running commands without nimble file
   - [nim-lang/nimble#1583](https://github.com/nim-lang/nimble/pull/1583) Fix multiple versions appearing in nimble.paths when using lock file
@@ -70,4 +78,5 @@ All the relevant information can be found in [this GitHub issue](https://github.
   - [nim-lang/nimble#1555](https://github.com/nim-lang/nimble/pull/1555) Sets the nim url in the metadata for nim binaries
   - [nim-lang/nimble#1556](https://github.com/nim-lang/nimble/pull/1556) Compute nim checksum from stdlib
 - Releases:
+  - [nim-lang/nimble v0.22.0](https://github.com/nim-lang/nimble/releases/tag/v0.22.0)
   - Released `setup-nimble-action`

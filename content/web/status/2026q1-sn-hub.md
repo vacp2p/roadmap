@@ -160,6 +160,7 @@ Define test cases for QA testing of SN Hub features and functionality.
 
 #### Deliverables
 
+- [status-im/status-web#1029](https://github.com/status-im/status-web/pull/1029) chore: update docs
 - Test case documentation
 - Test plan
 - QA reports

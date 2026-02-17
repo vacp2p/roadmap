@@ -19,6 +19,7 @@ tags:
 
 ### `status:`
 * [[qa/status/2026q1-status-go-functional-testing|status-go-functional-testing ]]
+* [[qa/status/2026q1-status-network-hub|status-network-hub ]]
 * [[qa/status/2026q1-status-qa-desktop|status-qa-desktop ]]
 * [[qa/status/2026q1-status-qa-mobile|status-qa-mobile ]]
 

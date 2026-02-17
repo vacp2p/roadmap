@@ -56,7 +56,7 @@ Bundle contract deployment into the compose bootstrap to simplify test setup.
 Add asyncio primitives to the Python SDK to enable async test flows.
 
 #### Deliverables
-- [test: simplify signal client](https://github.com/status-im/status-go/pull/727)
+- [test: simplify signal client](https://github.com/status-im/status-go/pull/7270)
 
 ### Simplify `SignalClient`
 
@@ -70,7 +70,7 @@ Add asyncio primitives to the Python SDK to enable async test flows.
 Reduce complexity in `SignalClient` to improve reliability and readability.
 
 #### Deliverables
-- [test: simplify signal client](https://github.com/status-im/status-go/pull/727)
+- [test: simplify signal client](https://github.com/status-im/status-go/pull/7270)
 
 ### Remove test classes inheritance to MessengerSteps
 

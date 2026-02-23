@@ -17,7 +17,7 @@ learn scaling properties and run scaling studies."
 
 * fully qualified name: `ift-ts:dst:blockchain:2026q1-blockchain-evaluation:devnet`
 * owner: Alberto
-* status: 50%
+* status: in progress (50%)
 * start-date: 2026/02/17
 * end-date: 2026/03/05
 

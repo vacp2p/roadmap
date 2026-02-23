@@ -13,6 +13,26 @@ learn scaling properties and run scaling studies."
 `ift-ts:dst:blockchain:2026q1-blockchain-evaluation`
 
 
+### Devnet
+
+* fully qualified name: `ift-ts:dst:blockchain:2026q1-blockchain-evaluation:devnet`
+* owner: Alberto
+* status: in progress (50%)
+* start-date: 2026/02/17
+* end-date: 2026/03/05
+
+#### Description
+
+Assist blockchain team in running devnet experiments. Use the lab to support more nodes
+and help with debugging issues.
+
+#### Deliverables
+* Github:
+  - [Github Repo: Identify-Probe](https://github.com/vacp2p/identify-probe)
+  - [Github PR: fix(docker): Dockerfile fix for new releases #2214](https://github.com/logos-blockchain/logos-blockchain/pull/2214)
+* Documents:
+
+
 ## Description
 > *Note*: This needs more input from project
 

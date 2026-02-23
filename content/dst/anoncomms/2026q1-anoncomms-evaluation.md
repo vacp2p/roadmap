@@ -40,17 +40,17 @@ TBD
 - Related PRs if apply:
 
 ### KAD-DHT
-> *Note*: This needs more input from project
 
 * fully qualified name: `ift-ts:dst:anoncomms:2026q1-anoncomms-evaluation:kad-dht`
-* owner: TBD
-* status: not started
-* start-date: 2026/01/01
-* end-date: 2026/03/31
+* owner: Alberto
+* status: in progress (10%)
+* start-date: 2026/02/17
+* end-date: 2026/03/05
 
 #### Description
-TBD
+Create a node in nimlibp2p to evaluate KAD-DHT.
 
 #### Deliverables
+- Code:
+  - [Github branch: KAD-DHT](https://github.com/vacp2p/dst-libp2p-test-node/tree/Alberto/kad-dht)
 - Reports:
-- Related PRs if apply:

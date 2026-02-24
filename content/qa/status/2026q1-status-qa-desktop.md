@@ -212,3 +212,18 @@ Oversee testing strategy around releases.
 - PRs / Issues
   - [status-im/status-app#19858](https://github.com/status-im/status-app/issues/19858) Fix tests for sidebar and dock removal
   - [status-im/status-app#19723](https://github.com/status-im/status-app/issues/19723) Fix tests for primary navigation sidebar
+
+
+### Performance tests for desktop application on Windows
+
+* fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:windows-performance-tests`
+* owner: nastya
+* status: done
+* start-date: 2026/03/01
+* end-date: 2026/03/31
+
+#### Description
+- Add more tests to track the in-app performance (from UI side) on Windows
+
+#### Deliverables
+- PRs / Issues

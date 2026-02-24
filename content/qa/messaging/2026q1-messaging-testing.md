@@ -48,6 +48,20 @@ Ongoing maintenance of messaging testing frameworks.
   - [logos-messaging/logos-messaging-interop-tests#156](https://github.com/logos-messaging/logos-messaging-interop-tests/pull/156) Lightpush and metrics test fixes
 
 
+### Python bindings
+
+* fully qualified name: `ift-ts:qa:messaging:2026q1-messaging-testing:python-bindings`
+* owner: aya
+* status: in progress (30%)
+* start-date: 2026/02/16
+* end-date: 2026/03/31
+
+#### Description
+Build and validate Python bindings usage in the messaging test framework, including wrapper coverage and integration steps for the test repo.
+
+#### Deliverables
+- PRs and issues
+
 ### Messaging Sonda Tool extension
 
 * fully qualified name: `ift-ts:qa:messaging:2026q1-messaging-testing:sonda-extension`

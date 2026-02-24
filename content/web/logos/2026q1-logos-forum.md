@@ -45,10 +45,10 @@ Analyze forum usage data, coordinate reporting needs, and align with BI for dash
 ### Custom Domain Email Support
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-forum:custom-domain-email-support`
-* owner: jinhojang6
-* status: not started
+* owner: Jules
+* status: done
 * start-date: 2026/03/05
-* end-date: 2026/03/19
+* end-date: 2026/02/24
 
 #### Description
 
@@ -56,6 +56,9 @@ Allow registration with custom domain email addresses to remove barriers for use
 
 #### Deliverables
 
+- [acid-info/logos#19](https://github.com/acid-info/logos/issues/19#issuecomment-3918485753) Suggested & implemented the following actions
+- [acid-info/logos#19](https://github.com/acid-info/logos/issues/19#issuecomment-3918500703) Check custom domain emails -> all good
+- [acid-info/logos#19](https://github.com/acid-info/logos/issues/19) Wrap-up and close  issue
 - Email validation update
 - Custom domain support implementation
 - Registration flow updates
@@ -64,9 +67,9 @@ Allow registration with custom domain email addresses to remove barriers for use
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-forum:cooldown-bypass-system`
 * owner: jkbktl
-* status: in progress (30%)
+* status: done
 * start-date: 2026/03/12
-* end-date: 2026/03/26
+* end-date: 2026/02/24
 
 #### Description
 
@@ -74,6 +77,9 @@ Implement referral code on signup to bypass 24-hour cooldown period. If referral
 
 #### Deliverables
 
+- [acid-info/logos#19](https://github.com/acid-info/logos/issues/19#issuecomment-3918485753) Suggested & implemented the following actions
+- [acid-info/logos#19](https://github.com/acid-info/logos/issues/19#issuecomment-3918500703) Check custom domain emails -> all good
+- [acid-info/logos#19](https://github.com/acid-info/logos/issues/19) Wrap-up and close  issue
 - [logos forum cooldown bypass proposal](https://github.com/acid-info/logos/issues/19#issuecomment-3894570455)
 - Referral code system or heart system implementation
 - Cooldown bypass logic
@@ -82,10 +88,10 @@ Implement referral code on signup to bypass 24-hour cooldown period. If referral
 ### First Post Intro Flow
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-forum:first-post-intro-flow`
-* owner: JulesFiliot
-* status: not started
+* owner: Jules
+* status: done
 * start-date: 2026/03/19
-* end-date: 2026/03/31
+* end-date: 2026/02/24
 
 #### Description
 
@@ -93,6 +99,9 @@ Enable new users to post their intro immediately, no matter what. Automatic flow
 
 #### Deliverables
 
+- [acid-info/logos#19](https://github.com/acid-info/logos/issues/19#issuecomment-3918485753) Suggested & implemented the following actions
+- [acid-info/logos#19](https://github.com/acid-info/logos/issues/19#issuecomment-3918500703) Check custom domain emails -> all good
+- [acid-info/logos#19](https://github.com/acid-info/logos/issues/19) Wrap-up and close  issue
 - Simplified intro posting flow
 - Automatic redirect to intro text field
 - Single-button posting interface
@@ -101,10 +110,10 @@ Enable new users to post their intro immediately, no matter what. Automatic flow
 ### Content Visibility
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-forum:content-visibility`
-* owner: jinhojang6
-* status: not started
+* owner: Jules
+* status: done
 * start-date: 2026/03/19
-* end-date: 2026/03/31
+* end-date: 2026/02/24
 
 #### Description
 
@@ -112,6 +121,8 @@ Allow anyone, including first-time visitors who are not signed up, to see all po
 
 #### Deliverables
 
+- [acid-info/logos#19](https://github.com/acid-info/logos/issues/19#issuecomment-3918485753) Suggested & implemented the following actions
+- [acid-info/logos#19](https://github.com/acid-info/logos/issues/19#issuecomment-3918500703) Check custom domain emails -> all good
 - Public content visibility implementation
 - Removal of rank-based restrictions
 - Guest viewing capability

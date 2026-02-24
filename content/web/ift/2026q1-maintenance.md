@@ -28,12 +28,24 @@ The maintenance commitment supports IFT's strategic objectives by:
 * owner: jkbktl
 * status: done
 * start-date: 2026/01/01
-* end-date: 2026/02/17
+* end-date: 2026/02/24
 
 #### Description
 Ongoing maintenance and support across delivered web properties, including CI/deploy workflows and platform improvements.
 
 #### Deliverables
+- [keycard-tech/keycard-website#228](https://github.com/keycard-tech/keycard-website/pull/228)
+- [keycard-tech/keycard-website#230](https://github.com/keycard-tech/keycard-website/pull/230)
+- [acid-info/logos#28](https://github.com/acid-info/logos/pull/28) Implemented the auto-reply email for /take-action page
+- [acid-info/admin-acid.logos.co#40](https://github.com/acid-info/admin-acid.logos.co/pull/40) Refactored the auto-reply backend for /take-action page
+- [acid-info/lpe-cms#3](https://github.com/acid-info/lpe-cms/pull/3) Updating the Strapi backend for interactice articles
+- [acid-info/logos-press-engine#258](https://github.com/acid-info/logos-press-engine/pull/258) Updating the Logos Press Engine to support interactive articles
+- [acid-info/admin-acid.logos.co#39](https://github.com/acid-info/admin-acid.logos.co/pull/39) Contribute Portal leaderboard backend
+- [acid-info/contribute.logos.co#36](https://github.com/acid-info/contribute.logos.co/pull/36) Contribute Portal leaderboard frontend
+- [status-im/status-web#1022](https://github.com/status-im/status-web/pull/1022) \
+- [Slides](https://docs.google.com/presentation/d/1NtgzqJsAVTYId5wE7QJnwbc0lyh2QKqtW1zSSFMmjsE/edit?usp=sharing)
+- [content updates](https://discord.com/channels/973324189794697286/1474494850337603735)
+- [Discord](https://discord.com/channels/973324189794697286/1470545436103409814/1474404633102258186)
 - [status-im/status-specs#4](https://github.com/status-im/status-specs/pull/4) fix: formatting
 - [acid-info/logos#27](https://github.com/acid-info/logos/pull/27) Add umami tracking for Spanish commuity translation of FtW
 - [status-im/status-web#1031](https://github.com/status-im/status-web/pull/1031) fixed build issues on status.app website

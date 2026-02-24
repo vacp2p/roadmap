@@ -36,6 +36,9 @@ Implement external social link preview functionality for shared posts in the Sta
 
 #### Deliverables
 
+- [status-im/status-web#1048](https://github.com/status-im/status-web/pull/1048)
+- [status-im/status-web#1046](https://github.com/status-im/status-web/pull/1046)
+- remove widget with supported network in connector
 - Link preview implementation
 - Social media integration
 - Preview UI components

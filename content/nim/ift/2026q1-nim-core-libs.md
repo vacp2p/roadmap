@@ -19,7 +19,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:json-rpc`
 * owner: Nitely
-* status: in progress (60%)
+* status: in progress (70%)
 * start-date: 2026/01/01
 * end-date: 2025/02/14
 
@@ -74,7 +74,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:language-server-editor-integration`
 * owner: Constantine
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/02/14
 * end-date: 2026/03/31
 
@@ -82,6 +82,8 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 - Develop language-server capabilities and editor integrations.
 
 #### Deliverables
+- [nim-lang/langserver#380](https://github.com/nim-lang/langserver/issues/380) Started researching the issue with no backticked symbols in picker
+- [nim-lang/langserver#226](https://github.com/nim-lang/langserver/issues/226) Missing licence Misplaced inlay hints
 - PRs
 
 ### Documentation

@@ -51,7 +51,7 @@ Also, update BW resources during the scheduling cycle to avoid race conditions.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:analyze-current-stack`
 * owner: Mamoutou
-* status: in progress (80%)
+* status: in progress (95%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -61,6 +61,12 @@ Study if changes are helpful and improve overall performance of the lab.
 Report findings with analysis and benchmarks of the results.
 
 #### Deliverables
+- Fixed metal-01 pods internet issues (by restarting kubernetes and kube-proxy)
+- Scheduled Grafana an Authentik on the master node (using soft affinity weight => k3s will rescheduled on other nodes in case of issues)
+- [Notion: Current Vaclab Scheduler Benchmark](https://www.notion.so/Vaclab-2-0-Bandwidth-Aware-Scheduling-2d08f96fb65c804eb44fdc7b75e079f9?source=copy_link#2d88f96fb65c80f0ba35f55c22b87692)
+- Added tags to longhorn storage and nodes (for automatic definition of secondary data disk)
+- Updated Storage Classes to use only worker nodes as storage for monitoring components (using longhorn NodeSelector) and enabled data-locality for components scheduled on master node
+- Created Grafana panels to vizualise vaclab scheduler metrics
 - Code:
   - [vacp2p/vaclab-2#11](https://github.com/vacp2p/vaclab-2/pull/11) Improve Runtime Settings
   - [vacp2p/vaclab-2#6](https://github.com/vacp2p/vaclab-2/pull/6) Add External DST Node
@@ -78,9 +84,9 @@ Report findings with analysis and benchmarks of the results.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:optimize-data-scrapping`
 * owner: Mamoutou
-* status: not started
+* status: done
 * start-date: 2026/02/02
-* end-date: 2026/02/13
+* end-date: 2026/02/24
 
 #### Description
 Improve the monitoring system of the lab. Adjust scraping frequency and selected metrics.
@@ -88,6 +94,8 @@ Design a storage solution to store the data so it can be retrieved if necessary.
 Optimize the storage to reduce used space if data is older than a certain period.
 
 #### Deliverables
+- [vacp2p/vaclab-2#5](https://github.com/vacp2p/vaclab-2/pull/5)
+- [Notion: Vaclab 2.0 - Full Software Stack #Getting Metrics and Logs](https://www.notion.so/Vaclab-2-0-Full-Software-Stack-2d08f96fb65c8008abfdcfe86a2c3324?source=copy_link#2dd8f96fb65c80c9909af30df5726e26)
 - Code:
 - Reports:
 
@@ -96,7 +104,7 @@ Optimize the storage to reduce used space if data is older than a certain period
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:lab-health-monitoring`
 * owner: Mamoutou
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/02/02
 * end-date: 2026/02/13
 
@@ -108,6 +116,7 @@ week to a different week being confident that the results can be trusted, withou
 of repeat the same experiment again.
 
 #### Deliverables
+- [Notion: Vaclab 2.0 - Health Monitoring](https://www.notion.so/Vaclab-2-0-Health-Monitoring-30d8f96fb65c80e9b69ec23c03045d2a)
 - Code:
 - Reports:
 

@@ -44,6 +44,8 @@ they will be addressed by our team.
 Handle inbound maintenance requests for deployed Status L2 contracts, including bug fixes and minor enhancements.
 
 #### Deliverables
+- [status-im/status-network-monorepo#142](https://github.com/status-im/status-network-monorepo/pull/142) updated Gauge Voter PR after comments
+- [status-im/status-network-monorepo#143](https://github.com/status-im/status-network-monorepo/pull/143) fix(ERC20VotesUpgradeable): use `super.totalSupply()` in `mint()` overflow check
 - [status-im/status-network-token-v2#7](https://github.com/status-im/status-network-token-v2/pull/7) chore: add deployment config for hoodi
 - [status-im/status-network-monorepo#138](https://github.com/status-im/status-network-monorepo/pull/138) docs: add admin guide to contracts documentation
 - [status-im/status-network-monorepo#128](https://github.com/status-im/status-network-monorepo/pull/128) chore: update smart contracts changelog

@@ -24,8 +24,8 @@ Several items require research first to determine the exact impact and whether i
 ### Research dead shares and first-depositor attack impact
 
 * fully qualified name: `ift-ts:sc:logos:2026q1-amm-core-improvements:research-dead-shares`
-* owner: TBD
-* status: not started
+* owner: Ricardo
+* status: in progress (5%)
 * start-date: 2026/03/01
 * end-date: 2026/03/31
 
@@ -37,6 +37,7 @@ Produce a findings document with a clear recommendation on whether and how to im
 
 #### Deliverables
 
+- [logos-blockchain/lssa#344](https://github.com/logos-blockchain/lssa/issues/344)
 - [ ] Research document outlining first-depositor attack vectors and impact
 - [ ] Recommendation on implementation approach
 
@@ -101,8 +102,8 @@ This ensures the constant product invariant is maintained after every swap opera
 ### Research recovery of directly transferred pool tokens
 
 * fully qualified name: `ift-ts:sc:logos:2026q1-amm-core-improvements:research-token-recovery`
-* owner: TBD
-* status: not started
+* owner: Ricardo
+* status: in progress (5%)
 * start-date: 2026/03/01
 * end-date: 2026/03/31
 
@@ -113,6 +114,7 @@ Currently, tokens sent directly to the pool (outside the AMM program interface) 
 
 #### Deliverables
 
+- [logos-blockchain/lssa#342](https://github.com/logos-blockchain/lssa/issues/342)
 - [ ] Research document outlining the impact of unrecoverable tokens
 - [ ] Recommendation on implementation approach
 
@@ -138,8 +140,8 @@ This addresses the issue where tokens sent directly to the pool contract are cur
 ### Fix initial LP calculation to include tokenB amount
 
 * fully qualified name: `ift-ts:sc:logos:2026q1-amm-core-improvements:fix-initial-lp-calc`
-* owner: TBD
-* status: not started
+* owner: Andrea
+* status: in progress (5%)
 * start-date: 2026/03/01
 * end-date: 2026/03/31
 

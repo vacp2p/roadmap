@@ -36,6 +36,11 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.
 
 #### Deliverables
+- [vacp2p/nim-lsquic#63](https://github.com/vacp2p/nim-lsquic/pull/63) fix: stream creation when connections are nil
+- [vacp2p/nim-libp2p#2116](https://github.com/vacp2p/nim-libp2p/pull/2116) fix: memory leak and stream removal
+- [vacp2p/nim-libp2p#2109](https://github.com/vacp2p/nim-libp2p/pull/2109) refactor(conn): wait for peer-ready before handling streams
+- [vacp2p/nim-lsquic#62](https://github.com/vacp2p/nim-lsquic/pull/62) fix: workaround for os module using wrong path separator when cross compiling
+- Fixed issues related to QUIC
 - [vacp2p/nim-libp2p#2108](https://github.com/vacp2p/nim-libp2p/pull/2108) chore(mix): reuse utilities for generating node infoextension
 - [vacp2p/nim-libp2p#2106](https://github.com/vacp2p/nim-libp2p/pull/2106) fix: make storeMuxer async and not use asyncSpawn to trigger the connection events
 - [vacp2p/nim-libp2p#2096](https://github.com/vacp2p/nim-libp2p/pull/2096) chore(pubsub): add topicLabel

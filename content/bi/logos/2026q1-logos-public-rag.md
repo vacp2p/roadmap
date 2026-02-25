@@ -22,7 +22,7 @@ Principal github issue: https://github.com/status-im/data-docs/issues/122
 
 * fully qualified name: `ift-ts:bi:logos:2026q1-logos-public-rag:update-rag-pipelines`
 * owner: nickninov
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 * url: https://github.com/status-im/data-docs/issues/131

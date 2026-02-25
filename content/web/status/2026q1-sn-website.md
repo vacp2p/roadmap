@@ -36,6 +36,7 @@ Implement SEO optimization for the Status Network website to improve search engi
 
 #### Deliverables
 
+- Added the blog list and blog post page like status.app
 - [status-im/status-web#1004](https://github.com/status-im/status-web/pull/1004) SEO optimization for Status Network website
 - SEO implementation
 - Meta tags and structured data

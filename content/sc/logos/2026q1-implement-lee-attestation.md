@@ -87,6 +87,9 @@ Ensure comprehensive test coverage and documentation.
 
 #### Deliverables
 
+- [logos-blockchain/lssa#335](https://github.com/logos-blockchain/lssa/pull/335) fix(sequencer_rpc): add AMM program id
+- [logos-blockchain/lssa#296](https://github.com/logos-blockchain/lssa/pull/296) feat: add `--label` option to `wallet account new` sub command
+- [vacp2p/roadmap#398](https://github.com/vacp2p/roadmap/pull/398) chore: update SC commitments
 - [logos-blockchain/lssa@75c0c31](https://github.com/logos-blockchain/lssa/commit/75c0c31472013d70de7f08b19c8fc5b91eb89c2a) Create a simple attestation program inspired by Optimism Attestation Station
 - [ ] Smart contract implementation for transparent private ZK-based attestations
 - [ ] Comprehensive test suite covering both modes and edge cases

@@ -99,7 +99,7 @@ Optimize the storage to reduce used space if data is older than a certain period
 * owner: Mamoutou
 * status: in progress (25%)
 * start-date: 2026/02/02
-* end-date: 2026/02/13
+* end-date: 2026/03/15
 
 #### Description
 Design a set of metrics/dashboards that can be used to monitor the health of the lab.

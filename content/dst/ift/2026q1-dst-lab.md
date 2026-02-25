@@ -61,12 +61,6 @@ Study if changes are helpful and improve overall performance of the lab.
 Report findings with analysis and benchmarks of the results.
 
 #### Deliverables
-- Fixed metal-01 pods internet issues (by restarting kubernetes and kube-proxy)
-- Scheduled Grafana an Authentik on the master node (using soft affinity weight => k3s will rescheduled on other nodes in case of issues)
-- [Notion: Current Vaclab Scheduler Benchmark](https://www.notion.so/Vaclab-2-0-Bandwidth-Aware-Scheduling-2d08f96fb65c804eb44fdc7b75e079f9?source=copy_link#2d88f96fb65c80f0ba35f55c22b87692)
-- Added tags to longhorn storage and nodes (for automatic definition of secondary data disk)
-- Updated Storage Classes to use only worker nodes as storage for monitoring components (using longhorn NodeSelector) and enabled data-locality for components scheduled on master node
-- Created Grafana panels to vizualise vaclab scheduler metrics
 - Code:
   - [vacp2p/vaclab-2#11](https://github.com/vacp2p/vaclab-2/pull/11) Improve Runtime Settings
   - [vacp2p/vaclab-2#6](https://github.com/vacp2p/vaclab-2/pull/6) Add External DST Node
@@ -76,8 +70,7 @@ Report findings with analysis and benchmarks of the results.
   - [Google Slides: DST Kubernetes Cluster](https://docs.google.com/presentation/d/1-L_hxYv61fVA_n5nBKLw8cMpZUzB0ilx/edit?usp=sharing&ouid=103968234498493387312&rtpof=true&sd=true)
   - [Recording: DST Kubernetes Cluster](https://drive.google.com/file/d/1CiEujizGM9QO12s_Zo4d0ZWt-uMdci5w/view)
   - [Notion: Vaclab 2.0 - Iperf Bandwidth Measurements](https://www.notion.so/Vaclab-2-0-Iperf-Bandwidth-Measurements-2f88f96fb65c808d88d9c53b595f3326)
-- Other:
-  - Deployed vaclab-2 stack on available nodes, exposed lab.vac.dev, and validated basic workloads
+  - [Notion: Current Vaclab Scheduler Benchmark](https://www.notion.so/Vaclab-2-0-Bandwidth-Aware-Scheduling-2d08f96fb65c804eb44fdc7b75e079f9?source=copy_link#2d88f96fb65c80f0ba35f55c22b87692)
 
 
 ### Optimize data scrapping

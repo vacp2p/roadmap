@@ -109,8 +109,8 @@ Define the tier logic and scoring rules that map contributor activity into the r
 ### Proposals
 
 * fully qualified name: `ift-ts:web:logos:2026q1-contribute-portal:proposals`
-* owner: jinhojang6
-* status: not started
+* owner: Jules
+* status: in progress (5%)
 * start-date: 2026/03/12
 * end-date: 2026/03/31
 
@@ -118,7 +118,11 @@ Define the tier logic and scoring rules that map contributor activity into the r
 Launch the proposal submission flow so volunteers can pitch work or request support directly in the portal.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [status-im/status-web#1037](https://github.com/status-im/status-web/issues/1037)
+- [status-im/status-web#1038](https://github.com/status-im/status-web/issues/1038)
+- [chore(contribute.logos.co): sunset proposals & change CTA on all websites](https://github.com/status-im/status-web/issues/1037)
+- [feat(contribute.logos.co): add issues tagged good first issue on issues page](https://github.com/status-im/status-web/issues/1038)
+
 
 ### Analytics
 

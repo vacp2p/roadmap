@@ -46,6 +46,10 @@ Should be made general when possible.
 
 #### Deliverables
 - PRs:
+  - [vacp2p/10ksim#197](https://github.com/vacp2p/10ksim/pull/197)
+  - [vacp2p/10ksim#201](https://github.com/vacp2p/10ksim/pull/201)
+  - [vacp2p/10ksim#199](https://github.com/vacp2p/10ksim/pull/199)
+  - [vacp2p/10ksim#198](https://github.com/vacp2p/10ksim/pull/198)
   - [vacp2p/10ksim#177](https://github.com/vacp2p/10ksim/pull/177) Add utilities for plotting latency distribution for libp2p
   - [vacp2p/10ksim#193](https://github.com/vacp2p/10ksim/pull/193) Add Waku functionality for pod_api_requester
   - [vacp2p/pod-api-requester#4](https://github.com/vacp2p/pod-api-requester/pull/4) Add Waku router with endpoint "waku/relay"
@@ -63,22 +67,23 @@ Should be made general when possible.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:deployment-analysis-bridge`
 * owner: Pearson
-* status: in progress (80%)
+* status: done
 * start-date: 2026/02/09
-* end-date: 2026/02/20
+* end-date: 2026/02/24
 
 #### Description
 Bridge the new deployment builders with the analysis tools in the repository.
 
 #### Deliverables
 - PRs:
+  - [vacp2p/10ksim#200](https://github.com/vacp2p/10ksim/pull/200)
 - Related Documents:
 
 ### Analysis yaml refactor
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:analysis-yaml-refactor`
 * owner: Pearson
-* status: not started
+* status: in progress (30%)
 * start-date: 2026/02/23
 * end-date: 2026/03/06
 

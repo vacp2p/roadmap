@@ -56,6 +56,11 @@ Set up proxy API infrastructure including Status RPC proxy, Status Market proxy,
 
 #### Deliverables
 
+- [status-im/status-web#996](https://github.com/status-im/status-web/pull/996) Releasing self-hosted hub
+- [status-im/status-web#1003](https://github.com/status-im/status-web/pull/1003) Releasing hub on Status RPC proxy
+- [status-im/status-web#1039](https://github.com/status-im/status-web/pull/1039) Fixing TVL
+- [status-im/status-web#1044](https://github.com/status-im/status-web/pull/1044) Using testnet KARMA
+- [status-im/status-web#1034](https://github.com/status-im/status-web/issues/1034) Syncing on how-to for fund allocation
 - [TVL on VPN debugging](https://github.com/status-im/status-web/issues/902)
 - [status-im/eth-rpc-proxy#102](https://github.com/status-im/eth-rpc-proxy/pull/102) Testing dev Status RPC proxy and requesting cache clearance
 - [status-im/status-web#1001](https://github.com/status-im/status-web/pull/1001) fix: rpc mainnet

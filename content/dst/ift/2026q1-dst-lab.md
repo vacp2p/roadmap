@@ -51,7 +51,7 @@ Also, update BW resources during the scheduling cycle to avoid race conditions.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:analyze-current-stack`
 * owner: Mamoutou
-* status: in progress (80%)
+* status: in progress (95%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -70,17 +70,16 @@ Report findings with analysis and benchmarks of the results.
   - [Google Slides: DST Kubernetes Cluster](https://docs.google.com/presentation/d/1-L_hxYv61fVA_n5nBKLw8cMpZUzB0ilx/edit?usp=sharing&ouid=103968234498493387312&rtpof=true&sd=true)
   - [Recording: DST Kubernetes Cluster](https://drive.google.com/file/d/1CiEujizGM9QO12s_Zo4d0ZWt-uMdci5w/view)
   - [Notion: Vaclab 2.0 - Iperf Bandwidth Measurements](https://www.notion.so/Vaclab-2-0-Iperf-Bandwidth-Measurements-2f88f96fb65c808d88d9c53b595f3326)
-- Other:
-  - Deployed vaclab-2 stack on available nodes, exposed lab.vac.dev, and validated basic workloads
+  - [Notion: Current Vaclab Scheduler Benchmark](https://www.notion.so/Vaclab-2-0-Bandwidth-Aware-Scheduling-2d08f96fb65c804eb44fdc7b75e079f9?source=copy_link#2d88f96fb65c80f0ba35f55c22b87692)
 
 
 ### Optimize data scrapping
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:optimize-data-scrapping`
 * owner: Mamoutou
-* status: not started
+* status: done
 * start-date: 2026/02/02
-* end-date: 2026/02/13
+* end-date: 2026/02/24
 
 #### Description
 Improve the monitoring system of the lab. Adjust scraping frequency and selected metrics.
@@ -88,6 +87,8 @@ Design a storage solution to store the data so it can be retrieved if necessary.
 Optimize the storage to reduce used space if data is older than a certain period.
 
 #### Deliverables
+- [vacp2p/vaclab-2#5](https://github.com/vacp2p/vaclab-2/pull/5)
+- [Notion: Vaclab 2.0 - Full Software Stack #Getting Metrics and Logs](https://www.notion.so/Vaclab-2-0-Full-Software-Stack-2d08f96fb65c8008abfdcfe86a2c3324?source=copy_link#2dd8f96fb65c80c9909af30df5726e26)
 - Code:
 - Reports:
 
@@ -96,9 +97,9 @@ Optimize the storage to reduce used space if data is older than a certain period
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:lab-health-monitoring`
 * owner: Mamoutou
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/02/02
-* end-date: 2026/02/13
+* end-date: 2026/03/15
 
 #### Description
 Design a set of metrics/dashboards that can be used to monitor the health of the lab.
@@ -108,6 +109,7 @@ week to a different week being confident that the results can be trusted, withou
 of repeat the same experiment again.
 
 #### Deliverables
+- [Notion: Vaclab 2.0 - Health Monitoring](https://www.notion.so/Vaclab-2-0-Health-Monitoring-30d8f96fb65c80e9b69ec23c03045d2a)
 - Code:
 - Reports:
 

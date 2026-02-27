@@ -73,6 +73,7 @@ Update website copy and reduce sections to improve clarity and user experience.
 
 #### Deliverables
 
+- [status-im/status-web#1047](https://github.com/status-im/status-web/pull/1047)
 - [status-im/status-web#987](https://github.com/status-im/status-web/pull/987) Releasing new mobile app announcement
 - Updated copy content
 - Section reduction implementation

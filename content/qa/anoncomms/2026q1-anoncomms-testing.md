@@ -58,7 +58,7 @@ Baseline test suites and file entry points for onboarding:
 
 * fully qualified name: `ift-ts:qa:anoncomms:2026q1-anoncomms-testing:serialization-ffi-errors`
 * owner: Roman
-* status: in progress (30%)
+* status: in progress (90%)
 * start-date: 2026/02/01
 * end-date: 2026/03/15
 
@@ -73,6 +73,7 @@ Baseline test suites and file entry points for onboarding:
 
 #### Deliverables
 
+- [vacp2p/zerokit#383](https://github.com/vacp2p/zerokit/issues/383)
 - PR(s) with serialization and FFI error-path tests.
 - Test report describing validation behavior and coverage.
 

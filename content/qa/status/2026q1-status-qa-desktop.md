@@ -32,24 +32,26 @@ Oversee testing strategy around releases.
   to the testing framework as needed.
 
 #### Deliverables
-- PRs / Issues
-  - [status-im/status-app#19933](https://github.com/status-im/status-app/pull/19933) tests(@e2e): test to monitor assets loading time
-  - [status-im/status-app#19909](https://github.com/status-im/status-app/pull/19909) tests(@e2e): add test to measure status community loading time
-  - [status-im/status-app#19897](https://github.com/status-im/status-app/pull/19897) chore(@e2e): enhancements for tests on virtual machines
-  - [status-im/status-app#19889](https://github.com/status-im/status-app/issues/19889) Can't join Status community, membership request is pending forever
-  - [status-im/status-app#19891](https://github.com/status-im/status-app/issues/19891) Fix tests for new onboarding through syncing flow
-  - [status-im/status-app#19863](https://github.com/status-im/status-app/pull/19863) chore(@e2e): attempt to make chats stable on VMs
-  - [status-im/status-app#19856](https://github.com/status-im/status-app/issues/19856) [Mobile] Can't create new account on Android
-  - [status-im/status-app#19801](https://github.com/status-im/status-app/pull/19801) tests(@e2e): add simple test for market tab
-  - [status-im/status-app#19763](https://github.com/status-im/status-app/pull/19763) chore(@e2e): add commit data to allure reports
-  - [status-im/status-go#7293](https://github.com/status-im/status-go/pull/7293) chore(@tests): update README.md
-  - [status-im/status-app#19733](https://github.com/status-im/status-app/pull/19733) chore(@e2e): handle slow VMs UI
-  - [status-im/status-app#19608](https://github.com/status-im/status-app/issues/19608) Can't build Windows locally
-  - [status-im/status-app#19119](https://github.com/status-im/status-app/issues/19119) Continue button is not enabled when last word is entered into the grid
-  - [status-im/status-app#19696](https://github.com/status-im/status-app/issues/19696) Can't send ERC1155
-  - [status-im/status-app#19697](https://github.com/status-im/status-app/issues/19697) Can't select ERC721 and send it
-  - [status-im/status-app#19690](https://github.com/status-im/status-app/issues/19690) App crashes when getting fees for sticker pack
-  - [status-im/status-app#19631](https://github.com/status-im/status-app/issues/19631) [Windows] Crash on login
+- [status-im/status-app#19960](https://github.com/status-im/status-app/pull/19960) chore(@e2e): send base64 and jpeg in tests
+- [status-im/status-app#19284](https://github.com/status-im/status-app/issues/19284) Test of kick / ban user in community fails on CI
+- [status-im/status-app#18566](https://github.com/status-im/status-app/issues/18566) Measure load time for Status app
+- [status-im/status-app#19933](https://github.com/status-im/status-app/pull/19933) tests(@e2e): test to monitor assets loading time
+- [status-im/status-app#19909](https://github.com/status-im/status-app/pull/19909) tests(@e2e): add test to measure status community loading time
+- [status-im/status-app#19897](https://github.com/status-im/status-app/pull/19897) chore(@e2e): enhancements for tests on virtual machines
+- [status-im/status-app#19889](https://github.com/status-im/status-app/issues/19889) Can't join Status community, membership request is pending forever
+- [status-im/status-app#19891](https://github.com/status-im/status-app/issues/19891) Fix tests for new onboarding through syncing flow
+- [status-im/status-app#19863](https://github.com/status-im/status-app/pull/19863) chore(@e2e): attempt to make chats stable on VMs
+- [status-im/status-app#19856](https://github.com/status-im/status-app/issues/19856) [Mobile] Can't create new account on Android
+- [status-im/status-app#19801](https://github.com/status-im/status-app/pull/19801) tests(@e2e): add simple test for market tab
+- [status-im/status-app#19763](https://github.com/status-im/status-app/pull/19763) chore(@e2e): add commit data to allure reports
+- [status-im/status-go#7293](https://github.com/status-im/status-go/pull/7293) chore(@tests): update README.md
+- [status-im/status-app#19733](https://github.com/status-im/status-app/pull/19733) chore(@e2e): handle slow VMs UI
+- [status-im/status-app#19608](https://github.com/status-im/status-app/issues/19608) Can't build Windows locally
+- [status-im/status-app#19119](https://github.com/status-im/status-app/issues/19119) Continue button is not enabled when last word is entered into the grid
+- [status-im/status-app#19696](https://github.com/status-im/status-app/issues/19696) Can't send ERC1155
+- [status-im/status-app#19697](https://github.com/status-im/status-app/issues/19697) Can't select ERC721 and send it
+- [status-im/status-app#19690](https://github.com/status-im/status-app/issues/19690) App crashes when getting fees for sticker pack
+- [status-im/status-app#19631](https://github.com/status-im/status-app/issues/19631) [Windows] Crash on login
 
 ### Release Testing
 
@@ -63,7 +65,14 @@ Oversee testing strategy around releases.
 - Support Q1 releases with testing.
 
 #### Deliverables
-- PRs / Issues
+- [status-im/status-app#20036](https://github.com/status-im/status-app/issues/20036) [mobile] Cant share addresses with community with keycard account
+- [status-im/status-app#20034](https://github.com/status-im/status-app/issues/20034) [mobile] Status-go can't find keystore file on first login with keycard
+- [status-im/status-app#19964](https://github.com/status-im/status-app/issues/19964) [mobile] Account name and pin dots are overlapped with keyboard when authenticate with keycard
+- [status-im/status-app#19962](https://github.com/status-im/status-app/issues/19962) Qr code scanner popup is ugly and does not ask for permissions
+- [status-im/status-app#19963](https://github.com/status-im/status-app/issues/19963) [mobile] Buttons to delete / edit account in wallet are too huge
+- [status-im/status-app#19966](https://github.com/status-im/status-app/issues/19966) [mobile] Can't open dapp browser on mobile, constant blank screen appears
+- [status-im/status-app#19965](https://github.com/status-im/status-app/issues/19965) [mobile] Sent and accepted contact request on mobile does not result in chat creation
+- [status-im/status-app#19961](https://github.com/status-im/status-app/issues/19961) [mobile] Multiple success popups when adding account with keycard
 
 ### Privacy Mode
 

@@ -25,10 +25,10 @@ Do this monthly, reliably, with documentation of findings.
 ### Regression testing (recurring)
 
 * fully qualified name: `ift-ts:dst:messaging:2026q1-messaging-evaluation:regression-testing`
-* owner: TBD
-* status: not started
+* owner: Alberto
+* status: in progress (65%)
 * start-date: 2026/01/01
-* end-date: 2026/01/01
+* end-date: 2026/03/31
 
 #### Description
 Run different scenarios
@@ -39,7 +39,6 @@ Test for known regressions
 that have occurred in the past
 and ensure they don't happen again.
 
-Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Reports:
 - Related PRs if apply:

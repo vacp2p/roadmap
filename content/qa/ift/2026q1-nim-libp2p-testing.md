@@ -39,7 +39,7 @@ Develop test plans for features currently under development:
 
 * fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:mix`
 * owner: radek
-* status: in progress (30%)
+* status: in progress (50%)
 * start-date: 2026/01/01
 * end-date: 2026/01/25
 
@@ -48,6 +48,7 @@ Implement unit and integration tests for the Mix protocol.
 
 #### Deliverables
 * PRs with links to added tests
+    * [vacp2p/nim-libp2p#2107](https://github.com/vacp2p/nim-libp2p/pull/2107) test(mix): anonymity + error cases + getMaxMessageSizeForCodec
     * [vacp2p/nim-libp2p#2102](https://github.com/vacp2p/nim-libp2p/pull/2102) chore(mix): clean up mix_node
     * [vacp2p/nim-libp2p#2093](https://github.com/vacp2p/nim-libp2p/pull/2093) test(mix): add component tests
     * [vacp2p/nim-libp2p#2090](https://github.com/vacp2p/nim-libp2p/pull/2090) test(mix): multiple surbs
@@ -149,3 +150,17 @@ Integrate [libp2p test plans](https://github.com/libp2p/test-plans) and run into
 #### Deliverables
 - [vacp2p/nim-libp2p#1993](https://github.com/vacp2p/nim-libp2p/pull/1993) test(interop): Autonatv2 test template
 - [vacp2p/nim-libp2p#1994](https://github.com/vacp2p/nim-libp2p/pull/1994) docs: Improve Development section visibility
+
+### Logs Libp2p Module Testing
+
+* fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:libp2p-module-tests`
+* owner: radek
+* status: not started
+* start-date: 2026/03/01
+* end-date: 2026/03/15
+
+#### Description
+Implement unit and integration tests for the libp2p module, covering common user-facing scenarios, module API usage, and correctness of the cbind implementation.
+
+#### Deliverables
+PRs with links to added tests.

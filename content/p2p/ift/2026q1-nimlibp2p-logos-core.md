@@ -23,15 +23,25 @@ Using nim-libp2p's c-bindings develop logos-core modules that would let libp2p f
 
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-logos-core:core`  
 * owner: Gabe
-* status: in progress (90%)
+* status: done
 * start-date: 2026/01/01
-* end-date: 2026/03/31
+* end-date: 2026/03/03
 
 #### Description
 Using the c-bindings module from nim-libp2p, develop a logos module that would allow nim-libp2p
 to be used in logos.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2136](https://github.com/vacp2p/nim-libp2p/pull/2136) feat(cbind): add connection limits
+- [vacp2p/nim-libp2p#2137](https://github.com/vacp2p/nim-libp2p/pull/2137) feat(cbind): add circuit relay, autonat
+- [vacp2p/nim-libp2p#2131](https://github.com/vacp2p/nim-libp2p/pull/2131) feat(cbind): withAddresses, multiplexers
+- [vacp2p/nim-libp2p#2132](https://github.com/vacp2p/nim-libp2p/pull/2132) feat(cbind): add multiplexer
+- [vacp2p/nim-libp2p#2130](https://github.com/vacp2p/nim-libp2p/pull/2130) chore(cbind): remove duplicate flags
+- [logos-co/logos-libp2p-module#26](https://github.com/logos-co/logos-libp2p-module/pull/26) feat: add gossipsub
+- [logos-co/logos-libp2p-module#25](https://github.com/logos-co/logos-libp2p-module/pull/25) docs: add sync function return types
+- [logos-co/logos-libp2p-module#23](https://github.com/logos-co/logos-libp2p-module/pull/23) feat(ci): add windows
+- [logos-co/logos-libp2p-module#18](https://github.com/logos-co/logos-libp2p-module/pull/18) feat: add mix functions
+- [logos-co/logos-libp2p-module#22](https://github.com/logos-co/logos-libp2p-module/pull/22) chore(mix): integration tests and examples
 - [vacp2p/nim-libp2p#2123](https://github.com/vacp2p/nim-libp2p/pull/2123) fix(cbind): various
 - [logos-co/logos-libp2p-module#19](https://github.com/logos-co/logos-libp2p-module/pull/19) fix: macos CI
 - [logos-co/logos-libp2p-module#20](https://github.com/logos-co/logos-libp2p-module/pull/20) fix: increase timeout for failing sync op in linux aarch64

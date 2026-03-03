@@ -19,7 +19,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:json-rpc`
 * owner: Nitely
-* status: in progress (70%)
+* status: in progress (80%)
 * start-date: 2026/01/01
 * end-date: 2025/02/14
 
@@ -98,12 +98,12 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 - Produce documentation for the core libs.
 
 #### Deliverables
-- Docs
-  - [status-im/nim-chronos#617](https://github.com/status-im/nim-chronos/pull/617) Chronos tutorial chapters: Request and Concurrency
-  - [status-im/nimbus-common-workflow#17](https://github.com/status-im/nimbus-common-workflow/pull/17) Add common workflow for docs (mdBook)
-  - [status-im/nim-stint#171](https://github.com/status-im/nim-stint/pull/171) Docs updates
-  - [nim-stint docs site](https://status-im.github.io/nim-stint/)
-  - [status-im/nim-chronos#612](https://github.com/status-im/nim-chronos/pull/612) Optimize mdBook build time
+- Added intro to intops based on Jacek's comment: https://vacp2p.github.io/nim-intops/
+- [status-im/nim-chronos#617](https://github.com/status-im/nim-chronos/pull/617) Chronos tutorial chapters: Request and Concurrency
+- [status-im/nimbus-common-workflow#17](https://github.com/status-im/nimbus-common-workflow/pull/17) Add common workflow for docs (mdBook)
+- [status-im/nim-stint#171](https://github.com/status-im/nim-stint/pull/171) Docs updates
+- [nim-stint docs site](https://status-im.github.io/nim-stint/)
+- [status-im/nim-chronos#612](https://github.com/status-im/nim-chronos/pull/612) Optimize mdBook build time
 
 ### Maintenance
 
@@ -117,13 +117,13 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 - Ongoing maintenance and fixes across Nim core libraries.
 
 #### Deliverables
-- PRs
-  - [status-im/nim-stew#266](https://github.com/status-im/nim-stew/pull/266) Deprecate saturating_arith and saturation_arith
-  - [status-im/nim-unittest2#65](https://github.com/status-im/nim-unittest2/pull/65) Fix print expression content
-  - [M] Pinned default mdBook version in the common docs workflow: https://github.com/status-im/nimbus-common-workflow/pull/20
-  - Reported that `nimble install -g foo bar` installs only `bar`: https://github.com/nim-lang/nimble/issues/1604
-  - [vacp2p/nim-intops#20](https://github.com/vacp2p/nim-intops/pull/20) Improve narrowingDiv based on review comments
-  - [status-im/nimbus-common-workflow#15](https://github.com/status-im/nimbus-common-workflow/pull/15/) Fix Nimbus common workflow for tests
-  - [status-im/nim-stint#172](https://github.com/status-im/nim-stint/pull/172/changes) Code review PR
+- [status-im/nim-confutils#145](https://github.com/status-im/nim-confutils/pull/145) Fix #19 #52; Evaluate `defaultValueDesc` and `defaultValue` in help message
+- [status-im/nim-stew#266](https://github.com/status-im/nim-stew/pull/266) Deprecate saturating_arith and saturation_arith
+- [status-im/nim-unittest2#65](https://github.com/status-im/nim-unittest2/pull/65) Fix print expression content
+- [M] Pinned default mdBook version in the common docs workflow: https://github.com/status-im/nimbus-common-workflow/pull/20
+- Reported that `nimble install -g foo bar` installs only `bar`: https://github.com/nim-lang/nimble/issues/1604
+- [vacp2p/nim-intops#20](https://github.com/vacp2p/nim-intops/pull/20) Improve narrowingDiv based on review comments
+- [status-im/nimbus-common-workflow#15](https://github.com/status-im/nimbus-common-workflow/pull/15/) Fix Nimbus common workflow for tests
+- [status-im/nim-stint#172](https://github.com/status-im/nim-stint/pull/172/changes) Code review PR
 - Releases
-  - [nim-intops 1.0.7 changelog](https://github.com/vacp2p/nim-intops/blob/develop/changelog.md#107-february-2-2026)
+- [nim-intops 1.0.7 changelog](https://github.com/vacp2p/nim-intops/blob/develop/changelog.md#107-february-2-2026)

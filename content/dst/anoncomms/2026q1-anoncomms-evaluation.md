@@ -43,7 +43,7 @@ TBD
 
 * fully qualified name: `ift-ts:dst:anoncomms:2026q1-anoncomms-evaluation:kad-dht`
 * owner: Alberto
-* status: in progress (10%)
+* status: in progress (75%)
 * start-date: 2026/02/17
 * end-date: 2026/03/05
 
@@ -51,6 +51,10 @@ TBD
 Create a node in nimlibp2p to evaluate KAD-DHT.
 
 #### Deliverables
+- [dst-libp2p-test-node #kad-dht](https://github.com/vacp2p/dst-libp2p-test-node/tree/Alberto/kad-dht/nim-test-node/kad-dht)
+- Added utility to connect to bootstrap nodes
+- Added working FIND_NODE operations for normal nodes and probe nodes
+- Added the option to use KAD-DHT or extended KAD-DHT to the node
 - [Notion: KAD-DHT planning](https://www.notion.so/KAD-DHT-planning-3098f96fb65c801eb80ccc0b3f395eb6#3098f96fb65c80cdac81cb510c471e84)
 - Created a new nimlibp2p node to evaluate KAD-DHT and other discovery mechanisms
 - Code:

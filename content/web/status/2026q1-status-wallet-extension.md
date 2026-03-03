@@ -26,9 +26,9 @@ The Status Wallet Extension development will support Status' strategic objective
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:proxy-api-rate-limiting`
 * owner: jinhojang6
-* status: not started
+* status: done
 * start-date: 2026/02/05
-* end-date: 2026/02/19
+* end-date: 2026/03/03
 
 #### Description
 
@@ -36,6 +36,7 @@ Implement proxy API rate limiting to manage API usage and prevent abuse.
 
 #### Deliverables
 
+- [status-im/status-web#1058](https://github.com/status-im/status-web/pull/1058) Reopen the rate-limit PR
 - Rate limiting implementation
 - API quota management
 - Rate limit configuration
@@ -139,7 +140,7 @@ Implement functionality to send NFTs from the wallet extension.
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:global-password`
 * owner: JulesFiliot
-* status: in progress (60%)
+* status: in progress (85%)
 * start-date: 2026/02/19
 * end-date: 2026/03/05
 
@@ -195,7 +196,7 @@ Implement multi-wallet support to allow users to connect and manage multiple wal
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:dapp-connection`
 * owner: jinhojang6
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/03/05
 * end-date: 2026/03/19
 
@@ -205,6 +206,7 @@ Implement dApp connection functionality to enable wallet extension to connect wi
 
 #### Deliverables
 
+- [status-im/status-web#1030](https://github.com/status-im/status-web/pull/1030) chore: update extension assets
 - dApp connection system
 - Connection approval interface
 - dApp integration support

@@ -91,6 +91,7 @@ Propose alternative to Sanity CMS for content management, enabling non-technical
 
 #### Deliverables
 
+- [acid-info/logos#12](https://github.com/acid-info/logos/issues/12) feat: integrate umami directly into Sanity buttons
 - Sanity CMS alternative proposal
 - Documentation and training materials
 - [status-im/infra-office#87](https://github.com/status-im/infra-office/issues/87) Requesting CMS set-up for Logos

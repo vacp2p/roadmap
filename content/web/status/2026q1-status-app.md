@@ -26,7 +26,7 @@ The Status App web support will support Status' strategic objectives by:
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-app:external-social-link-preview`
 * owner: jkbktl
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/02/26
 * end-date: 2026/03/12
 
@@ -36,6 +36,7 @@ Implement external social link preview functionality for shared posts in the Sta
 
 #### Deliverables
 
+- [status-im/status-web#1055](https://github.com/status-im/status-web/pull/1055) update apple-app-site-association
 - [status-im/status-web#1048](https://github.com/status-im/status-web/pull/1048)
 - [status-im/status-web#1046](https://github.com/status-im/status-web/pull/1046)
 - remove widget with supported network in connector

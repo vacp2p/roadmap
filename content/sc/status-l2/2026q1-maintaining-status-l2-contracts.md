@@ -44,6 +44,12 @@ they will be addressed by our team.
 Handle inbound maintenance requests for deployed Status L2 contracts, including bug fixes and minor enhancements.
 
 #### Deliverables
+- [status-im/status-network-monorepo#154](https://github.com/status-im/status-network-monorepo/pull/154) Feat/karma clock mode
+- [status-im/status-network-monorepo#153](https://github.com/status-im/status-network-monorepo/pull/153) feat(Karma): introduce clock mode function for voting capabilities
+- [status-im/status-network-monorepo#151](https://github.com/status-im/status-network-monorepo/pull/151) refactor(RLN)!: remove `SLASHER_ROLE`
+- [status-im/status-network-monorepo#147](https://github.com/status-im/status-network-monorepo/pull/147) chore(ERC20VotesUpgradeable): update custom votes upgradeable contract
+- [status-im/status-network-monorepo#140](https://github.com/status-im/status-network-monorepo/pull/140) docs: add audit report
+- [status-im/status-network-monorepo#144](https://github.com/status-im/status-network-monorepo/pull/144) chore(deps): update OpenZeppelin contracts to v4.9.6
 - [status-im/status-network-monorepo#142](https://github.com/status-im/status-network-monorepo/pull/142) updated Gauge Voter PR after comments
 - [status-im/status-network-monorepo#143](https://github.com/status-im/status-network-monorepo/pull/143) fix(ERC20VotesUpgradeable): use `super.totalSupply()` in `mint()` overflow check
 - [status-im/status-network-token-v2#7](https://github.com/status-im/status-network-token-v2/pull/7) chore: add deployment config for hoodi

@@ -21,7 +21,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (78%)
+* status: in progress (83%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -32,6 +32,9 @@ Oversee testing strategy around releases.
   to the testing framework as needed.
 
 #### Deliverables
+- [status-im/status-app#20118](https://github.com/status-im/status-app/pull/20118) Reduce nightly job runtime by using dedicated tests mark in benchmark tests
+- [status-im/status-app#20106](https://github.com/status-im/status-app/pull/20106) chore(@e2e): handle education popup
+- [status-im/status-app#20085](https://github.com/status-im/status-app/issues/20085) Performance tests for Windows
 - [status-im/status-app#19960](https://github.com/status-im/status-app/pull/19960) chore(@e2e): send base64 and jpeg in tests
 - [status-im/status-app#19284](https://github.com/status-im/status-app/issues/19284) Test of kick / ban user in community fails on CI
 - [status-im/status-app#18566](https://github.com/status-im/status-app/issues/18566) Measure load time for Status app
@@ -56,8 +59,8 @@ Oversee testing strategy around releases.
 ### Release Testing
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:release-testing`
-* owner: nastya
-* status: not started
+* owner: Nastya
+* status: in progress (50%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -65,6 +68,7 @@ Oversee testing strategy around releases.
 - Support Q1 releases with testing.
 
 #### Deliverables
+- [status-im/status-app#18104](https://github.com/status-im/status-app/issues/18104) Add Black formatting rules to framework
 - [status-im/status-app#20036](https://github.com/status-im/status-app/issues/20036) [mobile] Cant share addresses with community with keycard account
 - [status-im/status-app#20034](https://github.com/status-im/status-app/issues/20034) [mobile] Status-go can't find keystore file on first login with keycard
 - [status-im/status-app#19964](https://github.com/status-im/status-app/issues/19964) [mobile] Account name and pin dots are overlapped with keyboard when authenticate with keycard

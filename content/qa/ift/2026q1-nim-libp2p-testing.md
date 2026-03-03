@@ -151,7 +151,7 @@ Integrate [libp2p test plans](https://github.com/libp2p/test-plans) and run into
 - [vacp2p/nim-libp2p#1993](https://github.com/vacp2p/nim-libp2p/pull/1993) test(interop): Autonatv2 test template
 - [vacp2p/nim-libp2p#1994](https://github.com/vacp2p/nim-libp2p/pull/1994) docs: Improve Development section visibility
 
-### Logs Libp2p Module Testing
+### Logos Libp2p Module Testing
 
 * fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:libp2p-module-tests`
 * owner: radek

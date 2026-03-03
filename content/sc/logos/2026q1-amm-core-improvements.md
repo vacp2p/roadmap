@@ -151,6 +151,7 @@ Fix the initial LP calculation which currently ignores the tokenB amount.
 The initial liquidity provision should properly account for both token amounts to ensure correct LP token minting balance.
 
 #### Deliverables
+- [logos-blockchain/lssa#352](https://github.com/logos-blockchain/lssa/pull/352) fixed all tests and merged PR to fix initial LP calculation
 
 - [ ] Fix initial LP calculation to consider both tokenA and tokenB amounts
 - [ ] Test coverage for initial LP scenarios

@@ -30,6 +30,7 @@ Monitore Smart contract used by IFT teams.
 Monitore Vault for Status network (incoming / outgoing flow, ...).
 
 #### Deliverables
+- First version of the dashboard and incorporated Status Network team feedback
 
 - [status-im/bi-smart-contract-monitoring](https://github.com/status-im/bi-smart-contract-monitoring) Vault monitoring extraction tooling
 - [Vault monitoring dashboard](https://grafana.test.bi.status.im/dashboards/f/vault-monitoring/)

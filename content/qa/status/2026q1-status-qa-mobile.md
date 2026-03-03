@@ -56,16 +56,17 @@ Round out wallet automation to cover account edit, restart, receive, and setting
 ### iOS testing pilot
 
 - fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:ios-pilot`
-- owner: magnus
-- status: not started
+- owner: Magnus
+- status: done
 - start-date: 2026/01/20
-- end-date: 2026/02/15
+- end-date: 2026/03/03
 
 #### Description
 
 Investigate feasibility of adding iOS coverage to framework.
 
 #### Deliverables
+- [status-im/status-app#20049](https://github.com/status-im/status-app/pull/20049) test(e2e-mobile): add iOS support for Appium test framework
 
 - Assessment for Q2 planning
 
@@ -138,6 +139,7 @@ Lay the groundwork for communities tests with page objects and a basic create/in
 Keep the framework healthy while the app changes.
 
 #### Deliverables
+- [status-im/status-app#19928](https://github.com/status-im/status-app/pull/19928) ci(e2e-mobile): add nightly Android E2E stage to combined pipeline
 
 - [status-im/status-app#19908](https://github.com/status-im/status-app/pull/19908) finalize GitHub status in post block
 - [status-im/status-app#19853](https://github.com/status-im/status-app/pull/19853) fix(e2e-mobile): stabilise 1x1 chat test and locators

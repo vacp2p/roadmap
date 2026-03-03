@@ -61,7 +61,7 @@ Run a learn up session about topic of choice related to smart contract developme
 
 * fully qualified name: `ift-ts:sc:ift:2026q1-sc-learnup-sessions:2026-02`
 * owner: r4bbit
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/02/01
 * end-date: 2026/02/28
 
@@ -70,6 +70,7 @@ Run a learn up session about topic of choice related to smart contract developme
 Run a learn up session about topic of choice related to smart contract development to present and discuss with the team.
 
 #### Deliverables
+- Gave a talk on using the AMM on LEZ
 
 - [ ] Recording of the session
 
@@ -77,7 +78,7 @@ Run a learn up session about topic of choice related to smart contract developme
 
 * fully qualified name: `ift-ts:sc:ift:2026q1-sc-learnup-sessions:2026-03`
 * owner: r4bbit
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/03/01
 * end-date: 2026/03/31
 
@@ -87,4 +88,5 @@ Run a learn up session about topic of choice related to smart contract developme
 
 #### Deliverables
 
+- Created workshop material for PSF workshop
 - [ ] Recording of the session

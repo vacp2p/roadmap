@@ -34,6 +34,8 @@ The maintenance commitment supports IFT's strategic objectives by:
 Ongoing maintenance and support across delivered web properties, including CI/deploy workflows and platform improvements.
 
 #### Deliverables
+- [acid-info/parallel-society#3](https://github.com/acid-info/parallel-society/pull/3) Fix optional chaining for image properties in MarqueeItems
+- [acid-info/logos-press-engine#263](https://github.com/acid-info/logos-press-engine/pull/263) Add external link for 'Book' in NavLinksItems
 - [keycard-tech/keycard-website#228](https://github.com/keycard-tech/keycard-website/pull/228)
 - [keycard-tech/keycard-website#230](https://github.com/keycard-tech/keycard-website/pull/230)
 - [acid-info/logos#28](https://github.com/acid-info/logos/pull/28) Implemented the auto-reply email for /take-action page

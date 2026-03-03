@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (51%)
+* status: in progress (67%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -36,6 +36,10 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2125](https://github.com/vacp2p/nim-libp2p/pull/2125) chore: bump lsquic
+- [litespeedtech/lsquic#620](https://github.com/litespeedtech/lsquic/pull/620) fix: inconsistent capitalization fo ws2tcpip.h
+- [vacp2p/nim-lsquic#65](https://github.com/vacp2p/nim-lsquic/pull/65) chore: make lpthread optional if using windows with clang
+- [vacp2p/nim-lsquic#66](https://github.com/vacp2p/nim-lsquic/pull/66) fix: inconsistent capitalization of ws2tcpip.h in lsquic
 - [vacp2p/nim-lsquic#63](https://github.com/vacp2p/nim-lsquic/pull/63) fix: stream creation when connections are nil
 - [vacp2p/nim-libp2p#2116](https://github.com/vacp2p/nim-libp2p/pull/2116) fix: memory leak and stream removal
 - [vacp2p/nim-libp2p#2109](https://github.com/vacp2p/nim-libp2p/pull/2109) refactor(conn): wait for peer-ready before handling streams

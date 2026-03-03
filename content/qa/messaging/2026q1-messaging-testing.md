@@ -44,15 +44,15 @@ Extend messaging end-to-end tests with network condition scenarios (high latency
 Ongoing maintenance of messaging testing frameworks. 
 
 #### Deliverables
-- PRs and issues
-  - [logos-messaging/logos-messaging-interop-tests#156](https://github.com/logos-messaging/logos-messaging-interop-tests/pull/156) Lightpush and metrics test fixes
+- [PR 161](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/161) Update YML configuration with the new repository name
+- [logos-messaging/logos-messaging-interop-tests#156](https://github.com/logos-messaging/logos-messaging-interop-tests/pull/156) Lightpush and metrics test fixes
 
 
 ### Python bindings
 
 * fully qualified name: `ift-ts:qa:messaging:2026q1-messaging-testing:python-bindings`
 * owner: aya
-* status: in progress (30%)
+* status: in progress (80%)
 * start-date: 2026/02/16
 * end-date: 2026/03/31
 

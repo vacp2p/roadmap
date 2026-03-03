@@ -56,6 +56,7 @@ Set up proxy API infrastructure including Status RPC proxy, Status Market proxy,
 
 #### Deliverables
 
+- [status-im/status-web#1062](https://github.com/status-im/status-web/pull/1062) fix: total staked value
 - [status-im/status-web#996](https://github.com/status-im/status-web/pull/996) Releasing self-hosted hub
 - [status-im/status-web#1003](https://github.com/status-im/status-web/pull/1003) Releasing hub on Status RPC proxy
 - [status-im/status-web#1039](https://github.com/status-im/status-web/pull/1039) Fixing TVL
@@ -165,6 +166,7 @@ Define test cases for QA testing of SN Hub features and functionality.
 
 #### Deliverables
 
+- [status-im/status-web#1032](https://github.com/status-im/status-web/pull/1032) test: add E2E testing framework with MetaMask integration for SN Hub
 - [status-im/status-web#1029](https://github.com/status-im/status-web/pull/1029) chore: update docs
 - Test case documentation
 - Test plan

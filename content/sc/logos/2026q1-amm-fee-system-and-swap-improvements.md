@@ -101,8 +101,8 @@ Once fees are implemented, the delta LP calculation needs to properly account fo
 ### Implement exact output amount swap
 
 * fully qualified name: `ift-ts:sc:logos:2026q1-amm-fee-system-and-swap-improvements:exact-output-swap`
-* owner: TBD
-* status: not started
+* owner: Andrea
+* status: in progress (5%)
 * start-date: 2026/03/01
 * end-date: 2026/03/31
 

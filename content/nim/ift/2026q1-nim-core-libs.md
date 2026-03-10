@@ -19,7 +19,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:json-rpc`
 * owner: Nitely
-* status: in progress (80%)
+* status: in progress (90%)
 * start-date: 2026/01/01
 * end-date: 2025/02/14
 
@@ -82,6 +82,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 - Develop language-server capabilities and editor integrations.
 
 #### Deliverables
+- [nim-lang/langserver#381](https://github.com/nim-lang/langserver/issues/381) Fix misplaced inlay hints
 - [nim-lang/langserver#380](https://github.com/nim-lang/langserver/issues/380) Started researching the issue with no backticked symbols in picker
 - [nim-lang/langserver#226](https://github.com/nim-lang/langserver/issues/226) Missing licence Misplaced inlay hints
 - PRs
@@ -98,6 +99,8 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 - Produce documentation for the core libs.
 
 #### Deliverables
+- Chronos docs: HTTP Client tutorial updated to replace copied snippets with includes.
+- Chronos docs: HTTP Client tutorial improved exception handling guidance.
 - Added intro to intops based on Jacek's comment: https://vacp2p.github.io/nim-intops/
 - [status-im/nim-chronos#617](https://github.com/status-im/nim-chronos/pull/617) Chronos tutorial chapters: Request and Concurrency
 - [status-im/nimbus-common-workflow#17](https://github.com/status-im/nimbus-common-workflow/pull/17) Add common workflow for docs (mdBook)
@@ -117,6 +120,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 - Ongoing maintenance and fixes across Nim core libraries.
 
 #### Deliverables
+- [vacp2p/nim-intops#22](https://github.com/vacp2p/nim-intops/issues/22) Add borrowingSub and carryingAdd flavors returning only borrow/carry
 - [status-im/nim-confutils#145](https://github.com/status-im/nim-confutils/pull/145) Fix #19 #52; Evaluate `defaultValueDesc` and `defaultValue` in help message
 - [status-im/nim-stew#266](https://github.com/status-im/nim-stew/pull/266) Deprecate saturating_arith and saturation_arith
 - [status-im/nim-unittest2#65](https://github.com/status-im/nim-unittest2/pull/65) Fix print expression content

@@ -17,7 +17,7 @@ learn scaling properties and run scaling studies."
 
 * fully qualified name: `ift-ts:dst:blockchain:2026q1-blockchain-evaluation:devnet`
 * owner: Alberto
-* status: in progress (80%)
+* status: in progress (99%)
 * start-date: 2026/02/17
 * end-date: 2026/03/05
 
@@ -31,6 +31,7 @@ and help with debugging issues.
   - [Github Repo: Identify-Probe](https://github.com/vacp2p/identify-probe)
   - [Github PR: fix(docker): Dockerfile fix for new releases #2214](https://github.com/logos-blockchain/logos-blockchain/pull/2214)
 * Documents:
+- Added Nomos testnet dashboard panels in Grafana to track resource consumption during devnet runs.
 
 
 ## Description

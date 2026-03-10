@@ -83,8 +83,8 @@ Baseline test suites and file entry points for onboarding:
 ### Hashgraph-like consensus negative tests
 
 * fully qualified name: `ift-ts:qa:anoncomms:2026q1-anoncomms-testing:hashgraph-negative-tests`
-* owner: TBD
-* status: not started
+* owner: Roman
+* status: in progress (90%)
 * start-date: 2026/02/15
 * end-date: 2026/03/31
 
@@ -99,5 +99,6 @@ Baseline test suites and file entry points for onboarding:
 
 #### Deliverables
 
+- [vacp2p/hashgraph-like-consensus#9](https://github.com/vacp2p/hashgraph-like-consensus/pull/9) test: Proposal vote lifecycle and timeout behavior
 - PR(s) with new negative-path consensus tests.
 - Test report summarizing outcomes and open issues.

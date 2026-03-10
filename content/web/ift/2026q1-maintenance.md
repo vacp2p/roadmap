@@ -72,6 +72,8 @@ Ongoing maintenance and support across delivered web properties, including CI/de
 - [Remove turbo telemetry from preview deploy](https://github.com/status-im/status-web/pull/972)
 - [Implement pagination for search results on LPE](https://github.com/acid-info/logos-press-engine/pull/252)
 - [Recipients notification feature for email templates](https://github.com/acid-info/admin-acid.logos.co/pull/32)
+- [acid-info/admin-acid.logos.co#41](https://github.com/acid-info/admin-acid.logos.co/pull/41) full chart data/scroll/navigation work
+- [acid-info/admin-acid.logos.co#42](https://github.com/acid-info/admin-acid.logos.co/pull/42) newsletter unsubscribe/API integration
 
 ### Support & Questions
 

@@ -21,7 +21,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (83%)
+* status: in progress (82%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -32,6 +32,10 @@ Oversee testing strategy around releases.
   to the testing framework as needed.
 
 #### Deliverables
+- [status-im/status-app#20154](https://github.com/status-im/status-app/issues/20154) Investigate issue with StatusInput on VMs
+- [status-im/status-app#20153](https://github.com/status-im/status-app/pull/20153) chore(@e2e): do not set color for community
+- [status-im/status-app#20142](https://github.com/status-im/status-app/pull/20142) chore(@e2e): add a contact from chat section with chat key
+- [status-im/status-app#20141](https://github.com/status-im/status-app/pull/20141) ci: exclude benchmark tests from nightly run
 - [status-im/status-app#20118](https://github.com/status-im/status-app/pull/20118) Reduce nightly job runtime by using dedicated tests mark in benchmark tests
 - [status-im/status-app#20106](https://github.com/status-im/status-app/pull/20106) chore(@e2e): handle education popup
 - [status-im/status-app#20085](https://github.com/status-im/status-app/issues/20085) Performance tests for Windows
@@ -60,7 +64,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:release-testing`
 * owner: Nastya
-* status: in progress (50%)
+* status: in progress (75%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -68,6 +72,7 @@ Oversee testing strategy around releases.
 - Support Q1 releases with testing.
 
 #### Deliverables
+- [status-im/status-app#20146](https://github.com/status-im/status-app/issues/20146) Re-submitting CR that was declined before should show Contact Request pending
 - [status-im/status-app#18104](https://github.com/status-im/status-app/issues/18104) Add Black formatting rules to framework
 - [status-im/status-app#20036](https://github.com/status-im/status-app/issues/20036) [mobile] Cant share addresses with community with keycard account
 - [status-im/status-app#20034](https://github.com/status-im/status-app/issues/20034) [mobile] Status-go can't find keystore file on first login with keycard

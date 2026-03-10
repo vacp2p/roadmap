@@ -140,7 +140,7 @@ Implement functionality to send NFTs from the wallet extension.
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:global-password`
 * owner: JulesFiliot
-* status: in progress (85%)
+* status: in progress (90%)
 * start-date: 2026/02/19
 * end-date: 2026/03/05
 
@@ -206,6 +206,7 @@ Implement dApp connection functionality to enable wallet extension to connect wi
 
 #### Deliverables
 
+- [status-im/status-web#1014](https://github.com/status-im/status-web/pull/1014) Show connection error when wallet connection fails due to permission issues
 - [status-im/status-web#1030](https://github.com/status-im/status-web/pull/1030) chore: update extension assets
 - dApp connection system
 - Connection approval interface

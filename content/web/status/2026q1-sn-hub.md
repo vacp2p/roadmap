@@ -26,7 +26,7 @@ The SN Hub development will support Status Network's strategic objectives by:
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:sdk`
 * owner: jkbktl
-* status: in progress (5%)
+* status: in progress (80%)
 * start-date: 2026/01/01
 * end-date: 2026/01/22
 

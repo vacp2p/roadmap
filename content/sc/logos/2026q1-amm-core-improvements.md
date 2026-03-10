@@ -37,6 +37,7 @@ Produce a findings document with a clear recommendation on whether and how to im
 
 #### Deliverables
 
+- [Research document: first-depositor attack vectors and impact](https://github.com/3esmit/lssa/blob/docs/research-amm-first-depositor/docs/research/amm-first-depositor-attack-vectors-and-impact.md)
 - [logos-blockchain/lssa#344](https://github.com/logos-blockchain/lssa/issues/344)
 - [ ] Research document outlining first-depositor attack vectors and impact
 - [ ] Recommendation on implementation approach
@@ -114,6 +115,7 @@ Currently, tokens sent directly to the pool (outside the AMM program interface) 
 
 #### Deliverables
 
+- [Research document: recovery impact of directly transferred pool tokens](https://github.com/3esmit/lssa/blob/docs/research-amm-direct-transfer/docs/research/amm-direct-transfer-impact.md)
 - [logos-blockchain/lssa#342](https://github.com/logos-blockchain/lssa/issues/342)
 - [ ] Research document outlining the impact of unrecoverable tokens
 - [ ] Recommendation on implementation approach

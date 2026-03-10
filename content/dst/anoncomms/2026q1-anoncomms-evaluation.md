@@ -43,7 +43,7 @@ TBD
 
 * fully qualified name: `ift-ts:dst:anoncomms:2026q1-anoncomms-evaluation:kad-dht`
 * owner: Alberto
-* status: in progress (75%)
+* status: in progress (90%)
 * start-date: 2026/02/17
 * end-date: 2026/03/05
 

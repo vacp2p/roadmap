@@ -10,6 +10,7 @@ tags:
 ## 2026q1 `ift-ts:rfc:`
 
 ### `ift:`
+* [[rfc/ift/2026q1-rfc-culture-establishment|rfc-culture-establishment]]
 * [[rfc/ift/2026q1-rfc-index-maintenance|rfc-index-maintenance]]
 
 ### `logos:`

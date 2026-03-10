@@ -41,6 +41,11 @@ All the relevant information can be found in [this GitHub issue](https://github.
 
 #### Deliverables
 - PRs:
+  - [nim-lang/nimble#1628](https://github.com/nim-lang/nimble/pull/1628) Bumps 0.22.2
+  - [nim-lang/nimble#1627](https://github.com/nim-lang/nimble/pull/1627) Bundle OpenSSL DLLs in Windows release binaries
+  - [nim-lang/nimble#1626](https://github.com/nim-lang/nimble/pull/1626) Add macOS aarch64 and universal binary builds
+  - [nim-lang/nimble#1625](https://github.com/nim-lang/nimble/pull/1625) Fix nimble shell skipping global pkgcache
+  - [nim-lang/nimble#1623](https://github.com/nim-lang/nimble/pull/1623) Fix normalizeSpecialVersions and normalizedRequirements handling
   - [nim-lang/nimble#1594](https://github.com/nim-lang/nimble/pull/1594) Update docs
   - [nim-lang/nimble#1593](https://github.com/nim-lang/nimble/pull/1593) Prevent submodule population in pkgcache, fetch only in buildtemp
   - [nim-lang/nimble#1591](https://github.com/nim-lang/nimble/pull/1591) Bumps sat "fix sat issue with mutating state"
@@ -78,5 +83,6 @@ All the relevant information can be found in [this GitHub issue](https://github.
   - [nim-lang/nimble#1555](https://github.com/nim-lang/nimble/pull/1555) Sets the nim url in the metadata for nim binaries
   - [nim-lang/nimble#1556](https://github.com/nim-lang/nimble/pull/1556) Compute nim checksum from stdlib
 - Releases:
+  - [nim-lang/nimble v0.22.2](https://github.com/nim-lang/nimble/releases/tag/v0.22.2)
   - [nim-lang/nimble v0.22.0](https://github.com/nim-lang/nimble/releases/tag/v0.22.0)
   - Released `setup-nimble-action`

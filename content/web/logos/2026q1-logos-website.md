@@ -81,7 +81,7 @@ Implement CRM functionality as specified in the design board and Discord discuss
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-website:cms-sanity`
 * owner: Felicio
-* status: in progress (20%)
+* status: in progress (90%)
 * start-date: 2026/03/19
 * end-date: 2026/03/31
 
@@ -91,6 +91,7 @@ Propose alternative to Sanity CMS for content management, enabling non-technical
 
 #### Deliverables
 
+- [acid-info/logos#32](https://github.com/acid-info/logos/pull/32) Umami tracking for buttons and signup inputs configurable in Sanity, plus related "Learn more" button fixes
 - [acid-info/logos#12](https://github.com/acid-info/logos/issues/12) feat: integrate umami directly into Sanity buttons
 - Sanity CMS alternative proposal
 - Documentation and training materials

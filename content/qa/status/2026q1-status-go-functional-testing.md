@@ -112,6 +112,7 @@ Perform broader cleanup of the Python SDK to reduce flakiness and maintenance ov
 Validate ownership flows for community owner tokens.
 
 #### Deliverables
+- [status-im/status-go#7167](https://github.com/status-im/status-go/issues/7167) Community changes not visible to members after owner added the owner token
 - PRs and/or Issues
 
 ### Community Token Master Functional Test
@@ -254,6 +255,7 @@ This includes updating tests for changes in `status-go`, addressing regressions,
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
+- [status-im/status-go#7098](https://github.com/status-im/status-go/issues/7098) Remove test classes inheritance to MessengerSteps
 - [status-im/status-go#7321](https://github.com/status-im/status-go/pull/7321) fix flaky tests on dev's PR
 - [status-im/status-go#7289](https://github.com/status-im/status-go/pull/7289) deploy contracts as part of docker compose pre requesite
 - [status-im/status-go#7270](https://github.com/status-im/status-go/pull/7270) simplify signal client/Introduce asyncio into Python SDK

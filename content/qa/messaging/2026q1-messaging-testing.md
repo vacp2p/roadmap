@@ -44,6 +44,8 @@ Extend messaging end-to-end tests with network condition scenarios (high latency
 Ongoing maintenance of messaging testing frameworks. 
 
 #### Deliverables
+- [status-fleet report: Nwaku v0.38 in status staging](https://www.notion.so/Nwaku-v0-38-in-status-staging-31a8f96fb65c8099bd2de05261183987)
+- [waku report: Waku regression testing v0.38](https://www.notion.so/Waku-regression-testing-v0-38-31a8f96fb65c807ab689cae8ecc9fad8)
 - [PR 161](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/161) Update YML configuration with the new repository name
 - [logos-messaging/logos-messaging-interop-tests#156](https://github.com/logos-messaging/logos-messaging-interop-tests/pull/156) Lightpush and metrics test fixes
 

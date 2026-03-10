@@ -155,7 +155,7 @@ Integrate [libp2p test plans](https://github.com/libp2p/test-plans) and run into
 
 * fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:libp2p-module-tests`
 * owner: radek
-* status: not started
+* status: in progress (15%)
 * start-date: 2026/03/01
 * end-date: 2026/03/15
 
@@ -163,4 +163,6 @@ Integrate [libp2p test plans](https://github.com/libp2p/test-plans) and run into
 Implement unit and integration tests for the libp2p module, covering common user-facing scenarios, module API usage, and correctness of the cbind implementation.
 
 #### Deliverables
-PRs with links to added tests.
+- [logos-co/logos-libp2p-module#32](https://github.com/logos-co/logos-libp2p-module/pull/32) refactor: introduce Libp2pModuleOptions struct and add config tests
+- [logos-co/logos-libp2p-module#31](https://github.com/logos-co/logos-libp2p-module/pull/31) test: add readme and fix examples on macos
+- PRs with links to added tests.

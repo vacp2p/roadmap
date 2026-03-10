@@ -51,7 +51,7 @@ Also, update BW resources during the scheduling cycle to avoid race conditions.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:analyze-current-stack`
 * owner: Mamoutou
-* status: in progress (97%)
+* status: in progress (98%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -61,6 +61,7 @@ Study if changes are helpful and improve overall performance of the lab.
 Report findings with analysis and benchmarks of the results.
 
 #### Deliverables
+- [vacp2p/vaclab-2#15](https://github.com/vacp2p/vaclab-2/pull/15) Improve Cluster Configuration Part 1
 - [Increase authentik-server memory limits to prevent OOMKill](https://github.com/vacp2p/vaclab-2/pull/13/changes/eff41ac92282287120e25ba4ab035590f6246412)
 - [Inspecting Network Flows with Hubble](https://www.notion.so/Inspecting-Network-Flows-with-Hubble-3168f96fb65c804ab4fdc3745c8be372)
 - [vacp2p/vaclab-2#11](https://github.com/vacp2p/vaclab-2/pull/11) Improve Runtime Settings

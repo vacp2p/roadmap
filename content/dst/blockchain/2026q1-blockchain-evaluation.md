@@ -13,6 +13,24 @@ learn scaling properties and run scaling studies."
 `ift-ts:dst:blockchain:2026q1-blockchain-evaluation`
 
 
+## Description
+> *Note*: This needs more input from project
+
+Use real world testing,
+theoretical analysis
+and simulation
+to determine and improve Blockchain's scaling properties.
+Find the limits of Blockchain's capabilities
+and measure them in different scenarios.
+
+We will measure the real world speeds and latency of Blockchain' mixnet,
+and what use cases it is therefore able to support.
+
+The scope of this commitment depends on the Blockchain team
+work and improvements, and it is subjected to change.
+
+## Task List
+
 ### Devnet
 
 * fully qualified name: `ift-ts:dst:blockchain:2026q1-blockchain-evaluation:devnet`
@@ -34,25 +52,6 @@ and help with debugging issues.
   - [Github PR: fix(docker): Dockerfile fix for new releases #2214](https://github.com/logos-blockchain/logos-blockchain/pull/2214)
 * Documents:
 - Added Nomos testnet dashboard panels in Grafana to track resource consumption during devnet runs.
-
-
-## Description
-> *Note*: This needs more input from project
-
-Use real world testing,
-theoretical analysis
-and simulation
-to determine and improve Blockchain's scaling properties.
-Find the limits of Blockchain's capabilities
-and measure them in different scenarios.
-
-We will measure the real world speeds and latency of Blockchain' mixnet,
-and what use cases it is therefore able to support.
-
-The scope of this commitment depends on the Blockchain team
-work and improvements, and it is subjected to change.
-
-## Task List
 
 ### Blend benchmarking
 > *Note*: This was moved from previous quarter

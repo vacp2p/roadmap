@@ -36,7 +36,7 @@ Extend messaging end-to-end tests with network condition scenarios (high latency
 
 * fully qualified name: `ift-ts:qa:messaging:2026q1-messaging-testing:maintenance`
 * owner: aya
-* status: in progress (10%)
+* status: in progress (5%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -44,6 +44,7 @@ Extend messaging end-to-end tests with network condition scenarios (high latency
 Ongoing maintenance of messaging testing frameworks. 
 
 #### Deliverables
+- [logos-messaging/logos-delivery#3758](https://github.com/logos-messaging/logos-delivery/issues/3758)
 - [status-fleet report: Nwaku v0.38 in status staging](https://www.notion.so/Nwaku-v0-38-in-status-staging-31a8f96fb65c8099bd2de05261183987)
 - [waku report: Waku regression testing v0.38](https://www.notion.so/Waku-regression-testing-v0-38-31a8f96fb65c807ab689cae8ecc9fad8)
 - [PR 161](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/161) Update YML configuration with the new repository name
@@ -54,7 +55,7 @@ Ongoing maintenance of messaging testing frameworks.
 
 * fully qualified name: `ift-ts:qa:messaging:2026q1-messaging-testing:python-bindings`
 * owner: aya
-* status: in progress (80%)
+* status: in progress (90%)
 * start-date: 2026/02/16
 * end-date: 2026/03/31
 
@@ -62,7 +63,7 @@ Ongoing maintenance of messaging testing frameworks.
 Build and validate Python bindings usage in the messaging test framework, including wrapper coverage and integration steps for the test repo.
 
 #### Deliverables
-- PRs and issues
+- [logos-messaging/logos-delivery-python-bindings#3](https://github.com/logos-messaging/logos-delivery-python-bindings/pull/3) merged with all developers comments
 
 ### Messaging Sonda Tool extension
 

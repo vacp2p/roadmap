@@ -38,15 +38,18 @@ This commitment focuses on implementing [Gossipsub v1.3 - Extensions control mes
 ### Implement Gossipsub Partial Messages Extension
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-gossipsub-extensions:partial-messages`
 * owner: Vlado
-* status: in progress (95%)
+* status: done
 * start-date: 2026/01/01
-* end-date: 2026/03/31
+* end-date: 2026/03/17
 
 #### Description
 * [Partial Messages Extensions](https://github.com/libp2p/specs/blob/marco/partial-messages/pubsub/gossipsub/partial-messages.md) allow users to transmit only a small part of a message rather than a full message. 
 * This is especially useful in cases where there is a large messages and a peer is missing only a small part of the message.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2140](https://github.com/vacp2p/nim-libp2p/pull/2140) test(interop): fix partial message flakines
+- [vacp2p/nim-libp2p#2119](https://github.com/vacp2p/nim-libp2p/pull/2119) test(interop): add partial message interop with go peer
+- [vacp2p/nim-libp2p#2115](https://github.com/vacp2p/nim-libp2p/pull/2115) test(interop): add partial message nim interop test
 - [vacp2p/nim-libp2p#2105](https://github.com/vacp2p/nim-libp2p/pull/2105) chore(partialmessage): push to selected peers
 - [vacp2p/nim-libp2p#2092](https://github.com/vacp2p/nim-libp2p/pull/2092) feat(partialmessage): gossip parts metadata
 - [vacp2p/nim-libp2p#2091](https://github.com/vacp2p/nim-libp2p/pull/2091) chore(partialmessage): sanity check for groupId
@@ -59,8 +62,8 @@ This commitment focuses on implementing [Gossipsub v1.3 - Extensions control mes
 
 ### Change Gossipsub 1.4 to an extension
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-gossipsub-extensions:1-4-extension`
-* owner: not assigned yet
-* status: not started
+* owner: Vlado
+* status: in progress (5%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -68,4 +71,5 @@ This commitment focuses on implementing [Gossipsub v1.3 - Extensions control mes
 Modify gossipsub 1.4 so it uses extensions instead of a new protocol Id. This task has low priority and should only be implemented if time allows it.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2144](https://github.com/vacp2p/nim-libp2p/pull/2144) refactor(gossipsub): convert ping pong to extensions
 - Gossipsub 1.4 implemented as a gossipsub extension

@@ -28,6 +28,8 @@ and help with debugging issues.
 
 #### Deliverables
 * Github:
+  - [Github PR: Add pannel for fork metric #18](https://github.com/vacp2p/vaclab-2/pull/18)
+  - [Github PR: Add dashboards for logos-blockchain #16](https://github.com/vacp2p/vaclab-2/pull/16)
   - [Github Repo: Identify-Probe](https://github.com/vacp2p/identify-probe)
   - [Github PR: fix(docker): Dockerfile fix for new releases #2214](https://github.com/logos-blockchain/logos-blockchain/pull/2214)
 * Documents:

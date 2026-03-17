@@ -155,7 +155,7 @@ Integrate [libp2p test plans](https://github.com/libp2p/test-plans) and run into
 
 * fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:libp2p-module-tests`
 * owner: radek
-* status: in progress (15%)
+* status: in progress (98%)
 * start-date: 2026/03/01
 * end-date: 2026/03/15
 
@@ -163,6 +163,11 @@ Integrate [libp2p test plans](https://github.com/libp2p/test-plans) and run into
 Implement unit and integration tests for the libp2p module, covering common user-facing scenarios, module API usage, and correctness of the cbind implementation.
 
 #### Deliverables
+- [logos-co/logos-libp2p-module#37](https://github.com/logos-co/logos-libp2p-module/pull/37) test: kad integration tests
+- [logos-co/logos-libp2p-module#36](https://github.com/logos-co/logos-libp2p-module/pull/36) test: integration tests
+- [vacp2p/nim-libp2p#2149](https://github.com/vacp2p/nim-libp2p/pull/2149) fix(cbind): add missing import
+- [vacp2p/nim-libp2p#2146](https://github.com/vacp2p/nim-libp2p/pull/2146) feat(cbind): add circuit relay client
+- [logos-co/logos-libp2p-module#35](https://github.com/logos-co/logos-libp2p-module/pull/35) feat: add circuit relay client
 - [logos-co/logos-libp2p-module#32](https://github.com/logos-co/logos-libp2p-module/pull/32) refactor: introduce Libp2pModuleOptions struct and add config tests
 - [logos-co/logos-libp2p-module#31](https://github.com/logos-co/logos-libp2p-module/pull/31) test: add readme and fix examples on macos
 - PRs with links to added tests.

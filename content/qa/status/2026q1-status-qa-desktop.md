@@ -32,6 +32,8 @@ Oversee testing strategy around releases.
   to the testing framework as needed.
 
 #### Deliverables
+- [status-im/status-app#20163](https://github.com/status-im/status-app/issues/20163) Cannot approve or reject requests to join a community that requires approval
+- [status-im/status-app#20161](https://github.com/status-im/status-app/issues/20161) Invalid changes made to identity error when building profile showcase
 - [status-im/status-app#20154](https://github.com/status-im/status-app/issues/20154) Investigate issue with StatusInput on VMs
 - [status-im/status-app#20153](https://github.com/status-im/status-app/pull/20153) chore(@e2e): do not set color for community
 - [status-im/status-app#20142](https://github.com/status-im/status-app/pull/20142) chore(@e2e): add a contact from chat section with chat key

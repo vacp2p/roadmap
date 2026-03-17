@@ -99,7 +99,7 @@ Optimize the storage to reduce used space if data is older than a certain period
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:lab-health-monitoring`
 * owner: Mamoutou
-* status: in progress (25%)
+* status: in progress (70%)
 * start-date: 2026/02/02
 * end-date: 2026/03/15
 
@@ -111,6 +111,8 @@ week to a different week being confident that the results can be trusted, withou
 of repeat the same experiment again.
 
 #### Deliverables
+- Created Iperf3 daemonsets/cronjobs for host and pod network health checks.
+- Added Prometheus/VictoriaLogs ingestion plus a [network health dashboard](https://grafana.lab.vac.dev/d/ma4jjrl/network?orgId=1&from=now-24h&to=now&timezone=browser&var-protocol=tcp&var-source=node-01.ih-eu-mda1.misc.vaclab) with throughput and RTT baselines.
 - [Notion: Vaclab 2.0 - Health Monitoring](https://www.notion.so/Vaclab-2-0-Health-Monitoring-30d8f96fb65c80e9b69ec23c03045d2a)
 - Code:
 - Reports:

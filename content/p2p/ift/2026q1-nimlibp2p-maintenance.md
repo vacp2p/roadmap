@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (67%)
+* status: in progress (82%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -36,6 +36,18 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.
 
 #### Deliverables
+- [status-im/nimbus-eth2#8064](https://github.com/status-im/nimbus-eth2/pull/8064) chore: use newer docker base images
+- [vacp2p/nim-libp2p#2151](https://github.com/vacp2p/nim-libp2p/pull/2151) chore(ai): add .github/copilot-instructions.md for coding agent onboarding
+- [vacp2p/nim-libp2p#2153](https://github.com/vacp2p/nim-libp2p/pull/2153) feat(ai): add suggestions from style guide
+- [vacp2p/nim-libp2p#2160](https://github.com/vacp2p/nim-libp2p/pull/2160) chore: avoid using deprecated callbacks
+- [vacp2p/nim-libp2p#2162](https://github.com/vacp2p/nim-libp2p/pull/2162) refactor: use results lib instead of options
+- [vacp2p/nim-libp2p#2159](https://github.com/vacp2p/nim-libp2p/pull/2159) chore: utilize newFutureCompleted
+- [vacp2p/nim-libp2p#2161](https://github.com/vacp2p/nim-libp2p/pull/2161) chore: fix deprecated warning for Future.cancel()
+- [vacp2p/nim-libp2p#2158](https://github.com/vacp2p/nim-libp2p/pull/2158) chore: avoid using deprecated type ByteAddress
+- [vacp2p/nim-libp2p#2155](https://github.com/vacp2p/nim-libp2p/pull/2155) chore: fix hints XDeclaredButNotUsed
+- [vacp2p/nim-libp2p#2157](https://github.com/vacp2p/nim-libp2p/pull/2157) chore: fix hint XCannotRaiseY
+- [vacp2p/nim-libp2p#2154](https://github.com/vacp2p/nim-libp2p/pull/2154) test: use rng instead of newRng
+- [vacp2p/nim-libp2p#2150](https://github.com/vacp2p/nim-libp2p/pull/2150) test: hardening and cosmetics
 - [vacp2p/nim-libp2p#2125](https://github.com/vacp2p/nim-libp2p/pull/2125) chore: bump lsquic
 - [litespeedtech/lsquic#620](https://github.com/litespeedtech/lsquic/pull/620) fix: inconsistent capitalization fo ws2tcpip.h
 - [vacp2p/nim-lsquic#65](https://github.com/vacp2p/nim-lsquic/pull/65) chore: make lpthread optional if using windows with clang

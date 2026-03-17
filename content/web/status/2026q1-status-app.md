@@ -36,6 +36,7 @@ Implement external social link preview functionality for shared posts in the Sta
 
 #### Deliverables
 
+- [status-im/status-web#1075](https://github.com/status-im/status-web/pull/1075) Add additional SHA256 fingerprint
 - [status-im/status-web#1068](https://github.com/status-im/status-web/pull/1068) Implement hidden blog posts for status.app
 - [status-im/status-web#1055](https://github.com/status-im/status-web/pull/1055) update apple-app-site-association
 - [status-im/status-web#1048](https://github.com/status-im/status-web/pull/1048)

@@ -113,7 +113,7 @@ Currently, only exact input swaps are supported. Users should also be able to sp
 
 #### Deliverables
 
-- [ ] Implementation of exact output amount swap
+- [X] Implementation of exact output amount swap
 - [ ] Test coverage for exact output swap scenarios
 - [ ] PRs with code reviews
 

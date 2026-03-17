@@ -104,7 +104,7 @@ Perform broader cleanup of the Python SDK to reduce flakiness and maintenance ov
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7128`
 * owner: Roman
-* status: in progress (90%)
+* status: in progress (95%)
 * start-date: 2026/01/19
 * end-date: 2026/01/30
 
@@ -112,14 +112,14 @@ Perform broader cleanup of the Python SDK to reduce flakiness and maintenance ov
 Validate ownership flows for community owner tokens.
 
 #### Deliverables
+- [status-im/status-go#7338](https://github.com/status-im/status-go/pull/7338) refactor: Add community token deployer overrides
 - [status-im/status-go#7167](https://github.com/status-im/status-go/issues/7167) Community changes not visible to members after owner added the owner token
-- PRs and/or Issues
 
 ### Community Token Master Functional Test
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7129`
 * owner: Roman
-* status: in progress (10%)
+* status: in progress (70%)
 * start-date: 2026/02/02
 * end-date: 2026/02/13
 
@@ -203,7 +203,7 @@ Test permissions at the channel level within communities.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7093`
 * owner: egor
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/01/12
 * end-date: 2026/01/23
 

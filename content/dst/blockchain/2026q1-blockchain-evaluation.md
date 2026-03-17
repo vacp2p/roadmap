@@ -93,19 +93,17 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 
 ### Blockchain consumption
-> *Note*: This was moved from previous quarter
 
 * fully qualified name: `ift-ts:dst:blockchain:2026q1-blockchain-evaluation:consumption`
-* owner: TBD
-* status: not started
-* start-date: 2026/01/01
+* owner: Alberto
+* status: in progress (25%)
+* start-date: 2026/03/16
 * end-date: 2026/03/31
 
 #### Description
 
 Measure Blockchain resource consumption (CPU/RAM) usage in different scenarios.
 
-Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 * PRS:
 * Documents:

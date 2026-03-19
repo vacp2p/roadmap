@@ -8,6 +8,24 @@ tags:
 
 [[qa/preview|Roadmap Preview]]
 
+## 2026q2 `ift-ts:qa:`
+---
+
+### `ift`
+* [[qa/ift/2026q2-nim-libp2p-testing|nim-libp2p-testing ]]
+
+### `status:`
+* [[qa/status/2026q2-status-go-functional-testing|status-go-functional-testing ]]
+* [[qa/status/2026q2-status-network-hub|status-network-hub ]]
+* [[qa/status/2026q2-status-qa-desktop|status-qa-desktop ]]
+* [[qa/status/2026q2-status-qa-mobile|status-qa-mobile ]]
+
+### `logos:`
+* [[qa/logos/2026q2-logos-core|logos-core ]]
+* [[qa/logos/2026q2-logos-messaging-testing|logos-messaging-testing ]]
+* [[qa/logos/2026q2-logos-lez-fuzz-testing|logos-lez-fuzz-testing ]]
+* [[qa/logos/2026q2-messaging-testing|messaging-testing ]]
+
 ## 2026q1 `ift-ts:qa:`
 ---
 

@@ -22,8 +22,8 @@ tags:
 
 ### `logos:`
 * [[qa/logos/2026q2-logos-core|logos-core ]]
-* [[qa/logos/2026q2-logos-messaging-testing|logos-messaging-testing ]]
-* [[qa/logos/2026q2-logos-lez-fuzz-testing|logos-lez-fuzz-testing ]]
+* [[qa/logos/2026q2-logos-messaging-integration|logos-messaging-integration ]]
+* [[qa/logos/2026q2-lez-fuzz-testing|lez-fuzz-testing ]]
 * [[qa/logos/2026q2-messaging-testing|messaging-testing ]]
 
 ## 2026q1 `ift-ts:qa:`

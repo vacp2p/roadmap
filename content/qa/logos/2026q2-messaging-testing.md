@@ -3,7 +3,7 @@ title: Messaging Testing
 tags:
   - "2026q2"
   - "qa"
-  - "messaging"
+  - "logos"
 draft: false
 description: Maintain and ensure the reliability of messaging tests.
 ---

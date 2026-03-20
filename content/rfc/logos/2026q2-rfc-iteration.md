@@ -3,7 +3,7 @@ title: RFC Iteration
 tags:
   - 2026q2
   - rfc
-  - storage
+  - logos
 draft: false
 description: "Iteration commitments generally comprise: through discussion and curation, support the process of auditing raw, draft, mature selected Logos RFCs as well as upskilling efforts of our and other project teams."
 ---

@@ -7,6 +7,24 @@ tags:
 
 [[rfc/preview|Roadmap Preview]]
 
+## 2026q2 `ift-ts:rfc:`
+
+### `ift:`
+* [[rfc/ift/2026q2-lip-index-maintenance|lip-index-maintenance]]
+
+### `logos:`
+* [[rfc/logos/2026q2-rfc-iteration|rfc-iteration]]
+
+### `anoncomms:`
+* [[rfc/anoncomms/2026q2-rfc-iteration|rfc-iteration]]
+
+### `blockchain:`
+* [[rfc/blockchain/2026q2-rfc-iteration|rfc-iteration]]
+
+### `storage:`
+* [[rfc/storage/2026q2-rfc-iteration|rfc-iteration]]
+
+
 ## 2026q1 `ift-ts:rfc:`
 
 ### `ift:`

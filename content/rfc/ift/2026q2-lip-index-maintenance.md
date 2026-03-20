@@ -29,6 +29,9 @@ reviewing updates, keeping references consistent, and handling routine quality i
 
 Maintain lip.logos.co quality through routine review and cleanup tasks, including fixes to
 content consistency, metadata, and publication hygiene.
+This includes (and is not limited to) fixing any errors found,
+adding new rules and features to the website,
+as well as any potential improvements discussed by the team(s).
 
 #### Deliverables
 
@@ -36,7 +39,7 @@ content consistency, metadata, and publication hygiene.
 
 ### Review Pipeline
 
-- fully qualified name: `ift-ts:ift:2026q2-lip-index-maintenance:review-pipeline`
+- fully qualified name: `ift-ts:rfc:ift:2026q2-lip-index-maintenance:review-pipeline`
 - owner: cofson
 - status: not started
 - start-date: 2026/04/01
@@ -55,7 +58,7 @@ and comments.
 
 ### Adversarial Spec - IFT
 
-* fully qualified name: `ift-ts:rfc:ift:2026q2-rfc-index-maintenance:adversarial-spec-ift`
+* fully qualified name: `ift-ts:rfc:ift:2026q2-lip-index-maintenance:adversarial-spec-ift`
 * owner: filip
 * status: not started
 * start-date: 2026/04/01
@@ -73,7 +76,7 @@ while polishing the skill and engaging in relevant workshops in regards to it.
 
 ### COSS Update
 
-* fully qualified name: `ift-ts:rfc:ift:2026q2-rfc-index-maintenance:coss-update`
+* fully qualified name: `ift-ts:rfc:ift:2026q2-lip-index-maintenance:coss-update`
 * owner: filip
 * status: not started
 * start-date: 2026/04/01

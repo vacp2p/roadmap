@@ -34,9 +34,9 @@ editorial work through previous and future RFCs to improve them
 
 ## Task List
 
-###  WIP (new RFCs/Specs)
+###  New RFCs
 
-- fully qualified name: `ift-ts:rfc:storage:2026q1-rfc-iteration:wip`
+- fully qualified name: `ift-ts:rfc:storage:2026q2-rfc-iteration:new-rfcs`
 - owner: cofson
 - status: not started
 - start-date: 2026/04/01

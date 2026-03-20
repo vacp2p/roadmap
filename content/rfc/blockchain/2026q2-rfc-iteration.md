@@ -31,3 +31,13 @@ The specifications in pipeline:
 
 ### New RFCs
 
+- fully qualified name: `ift-ts:rfc:blockchain:2026q2-rfc-iteration:new-rfcs`
+- owner: cofson
+- status: not started
+- start-date: 2026/04/01
+- end-date: 2026/07/31
+#### Description
+Adding new Blockchain specifications to work in the pipeline.
+
+#### Deliverables
+- New RFCs (WIP)

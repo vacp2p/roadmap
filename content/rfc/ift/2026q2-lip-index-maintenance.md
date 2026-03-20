@@ -27,7 +27,9 @@ reviewing updates, keeping references consistent, and handling routine quality i
 
 #### Description
 
-Maintain lip.logos.co quality through routine review and cleanup tasks, including fixes to
+Maintain lip.logos.co quality through routine review and cleanup tasks
+(such as new gitbook addons)
+including fixes to
 content consistency, metadata, and publication hygiene.
 This includes (and is not limited to) fixing any errors found,
 adding new rules and features to the website,
@@ -36,6 +38,7 @@ as well as any potential improvements discussed by the team(s).
 #### Deliverables
 
 - Updates to the lip.logos.co
+- 
 
 ### Review Pipeline
 

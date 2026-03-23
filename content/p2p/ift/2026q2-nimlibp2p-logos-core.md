@@ -55,3 +55,21 @@ through Logos Core.
 #### Deliverables
 - Logos Core wrappers for capability discovery
 - Tests or examples covering capability discovery through Logos Core
+
+
+### Logos Core module - Custom Protocols
+
+* fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-logos-core:custom-protocols`  
+* owner: not assigned yet
+* status: not started
+* start-date: 2026/04/01
+* end-date: 2026/06/30
+
+#### Description
+Using a set of new functions provided by Logos Core, allow registering custom protocols,
+Once a stream is received, these functions should be used to notify other modules that
+data might be available on a stream to write/read.
+
+#### Deliverables
+- New functions in logos core that would allow registering custom protocols
+- Tests or examples covering custom protocol handling

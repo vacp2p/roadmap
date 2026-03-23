@@ -138,3 +138,44 @@ execution to the next quarter.
 
 #### Deliverables
 nim-libp2p CI jobs work with both `--mm:refc` and `--mm:orc`
+
+
+### Exception Review
+
+* fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:exception-review`
+* owner: not assigned yet
+* status: not started
+* start-date: 2026/04/01
+* end-date: 2026/06/30
+
+#### Description
+Review the exceptions currently being traced in nim-libp2p and related
+flows, especially where excessive tracing adds noise. Reduce unnecessary tracing so logs provide better signal.
+
+#### Deliverables
+- Review of the most frequent traced exceptions and affected code paths
+- Changes to reduce noisy or redundant exception traces
+
+
+### WSS handler socket leak
+
+* fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:wss-socket-leak`
+* owner: not assigned yet
+* status: not started
+* start-date: 2026/04/01
+* end-date: 2026/06/30
+
+#### Description
+Review how to complete [logos-delivery#3634](https://github.com/logos-messaging/logos-delivery/issues/3634),
+validate the proposed solutions already documented in the related PRs and discussions,
+and decide whether nim-libp2p should take ownership of part of the fix. This
+should also assess whether Chronos accept concurrency work is required as part
+of the solution.
+Some related work available is:
+- https://github.com/status-im/nim-websock/pull/181
+- https://github.com/vacp2p/nim-libp2p/pull/1937
+
+#### Deliverables
+- Agreed technical direction for `logos-delivery#3634`
+- Ownership decision between nim-libp2p and the relevant dependent components
+- Follow-up issue or PR breakdown, including Chronos work if needed

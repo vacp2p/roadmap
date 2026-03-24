@@ -39,7 +39,7 @@ tags:
 * [[rfc/anoncomms/2026q1-rfc-iteration|rfc-iteration]]
 
 ### `messaging:`
-* [[2026q1-lip-iteration|rfc-iteration]]
+* [[content/rfc/messaging/2026q1-rfc-iteration|rfc-iteration]]
 
 ### `blockchain:`
 * [[rfc/blockchain/2026q1-rfc-iteration|rfc-iteration]]

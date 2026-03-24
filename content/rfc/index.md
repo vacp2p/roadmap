@@ -14,16 +14,16 @@ tags:
 * [[rfc/ift/2026q2-lip-index-maintenance|lip-index-maintenance]]
 
 ### `logos:`
-* [[rfc/logos/2026q2-rfc-iteration|rfc-iteration]]
+* [[rfc/logos/2026q2-lip-iteration|lip-iteration]]
 
 ### `anoncomms:`
-* [[rfc/anoncomms/2026q2-rfc-iteration|rfc-iteration]]
+* [[rfc/anoncomms/2026q2-lip-iteration|lip-iteration]]
 
 ### `blockchain:`
-* [[rfc/blockchain/2026q2-rfc-iteration|rfc-iteration]]
+* [[rfc/blockchain/2026q2-lip-iteration|lip-iteration]]
 
 ### `storage:`
-* [[rfc/storage/2026q2-rfc-iteration|rfc-iteration]]
+* [[rfc/storage/2026q2-lip-iteration|lip-iteration]]
 
 
 ## 2026q1 `ift-ts:rfc:`
@@ -39,7 +39,7 @@ tags:
 * [[rfc/anoncomms/2026q1-rfc-iteration|rfc-iteration]]
 
 ### `messaging:`
-* [[rfc/messaging/2026q1-rfc-iteration|rfc-iteration]]
+* [[2026q1-lip-iteration|rfc-iteration]]
 
 ### `blockchain:`
 * [[rfc/blockchain/2026q1-rfc-iteration|rfc-iteration]]

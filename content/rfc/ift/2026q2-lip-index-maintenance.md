@@ -5,7 +5,7 @@ tags:
   - rfc
   - ift
 draft: false
-description: Continuous maintenance of rfc-index and related publication workflows.
+description: Continuous maintenance of lip-index and related publication workflows.
 ---
 
 `ift-ts:rfc:ift:2026q2-lip-index-maintenance`
@@ -23,7 +23,7 @@ reviewing updates, keeping references consistent, and handling routine quality i
 * owner: filip
 * status: not started
 * start-date: 2026/04/01
-* end-date: 2026/07/31
+* end-date: 2026/06/30
 
 #### Description
 
@@ -46,7 +46,7 @@ as well as any potential improvements discussed by the team(s).
 - owner: cofson
 - status: not started
 - start-date: 2026/04/01
-- end-date: 2026/07/31
+- end-date: 2026/06/30
 
 #### Description
 This task revolves around
@@ -65,7 +65,7 @@ and comments.
 * owner: filip
 * status: not started
 * start-date: 2026/04/01
-* end-date: 2026/07/31
+* end-date: 2026/06/30
 
 #### Description
 
@@ -94,7 +94,7 @@ Based on discussions from Lisbon, do updates of 1/COSS:
 meaning it has been verified by the internal dev team
 and is ready to be moved to the Index.
 - Introduce a new document type (in addition to RFC) -
-CFR (Change For Request): used to aggregate multiple RFCs
+CFR (Change For Request): used to aggregate multiple LIPs
 and process their changes together. 
 - Miscellaneous fields that are currently mandatory should become optional,
 at least temporarily. TBD

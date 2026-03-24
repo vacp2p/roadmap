@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (82%)
+* status: in progress (90%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -36,6 +36,14 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2183](https://github.com/vacp2p/nim-libp2p/pull/2183) test(gossipsub): improve test "mesh is rebalanced during heartbeat - opportunistic grafting"
+- [vacp2p/nim-libp2p#2174](https://github.com/vacp2p/nim-libp2p/pull/2174) chore: update readme packages
+- [vacp2p/nim-libp2p#2168](https://github.com/vacp2p/nim-libp2p/pull/2168) chore(ai): add more instructions
+- [vacp2p/nim-libp2p#2133](https://github.com/vacp2p/nim-libp2p/pull/2133) chore: add msys+gcc build target for windows
+- [status-im/nim-eth#849](https://github.com/status-im/nim-eth/pull/849) fix: enrQuicPort
+- [vacp2p/nim-lsquic#71](https://github.com/vacp2p/nim-lsquic/pull/71) fix: make sure ip6 addrs are used when dest is ipv6
+- [vacp2p/nim-lsquic#69](https://github.com/vacp2p/nim-lsquic/pull/69) fix: various
+- [vacp2p/nim-lsquic#68](https://github.com/vacp2p/nim-lsquic/pull/68) fix: call stream.doProcess after writing immediatly succesfully
 - [status-im/nimbus-eth2#8064](https://github.com/status-im/nimbus-eth2/pull/8064) chore: use newer docker base images
 - [vacp2p/nim-libp2p#2151](https://github.com/vacp2p/nim-libp2p/pull/2151) chore(ai): add .github/copilot-instructions.md for coding agent onboarding
 - [vacp2p/nim-libp2p#2153](https://github.com/vacp2p/nim-libp2p/pull/2153) feat(ai): add suggestions from style guide

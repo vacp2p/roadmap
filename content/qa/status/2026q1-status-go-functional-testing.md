@@ -104,14 +104,16 @@ Perform broader cleanup of the Python SDK to reduce flakiness and maintenance ov
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7128`
 * owner: Roman
-* status: in progress (95%)
+* status: done
 * start-date: 2026/01/19
-* end-date: 2026/01/30
+* end-date: 2026/03/24
 
 #### Description
 Validate ownership flows for community owner tokens.
 
 #### Deliverables
+- [status-im/status-go#7215](https://github.com/status-im/status-go/pull/7215) test: Token gated communities - TC 7128
+- [status-im/status-go#7286](https://github.com/status-im/status-go/issues/7286) Owner token contract deployment reverts
 - [status-im/status-go#7338](https://github.com/status-im/status-go/pull/7338) refactor: Add community token deployer overrides
 - [status-im/status-go#7167](https://github.com/status-im/status-go/issues/7167) Community changes not visible to members after owner added the owner token
 
@@ -119,7 +121,7 @@ Validate ownership flows for community owner tokens.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7129`
 * owner: Roman
-* status: in progress (70%)
+* status: in progress (80%)
 * start-date: 2026/02/02
 * end-date: 2026/02/13
 
@@ -127,6 +129,8 @@ Validate ownership flows for community owner tokens.
 Cover token master responsibilities and guardrails.
 
 #### Deliverables
+- [status-im/status-go#7382](https://github.com/status-im/status-go/issues/7382) Unnecessary interaction with backend - storeDeployedOwnerToken
+- [status-im/status-go#7258](https://github.com/status-im/status-go/issues/7258) Linux_arm64 is not supported by choosenim - docker build
 - PRs and/or Issues
 
 ### Community Admin Functional Test
@@ -255,6 +259,9 @@ This includes updating tests for changes in `status-go`, addressing regressions,
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
+- [status-im/status-go#7358](https://github.com/status-im/status-go/pull/7358) Add ENS support to functional tests and implement ENS registration test
+- [status-im/status-go#7352](https://github.com/status-im/status-go/pull/7352) remove direct usage of Anvil pre-generated accounts
+- [status-im/status-go#7341](https://github.com/status-im/status-go/pull/7341) fix signal race conditions in send-all-then-verify-all patterns and rewrite `join_community` as robust state machine
 - [status-im/status-go#7098](https://github.com/status-im/status-go/issues/7098) Remove test classes inheritance to MessengerSteps
 - [status-im/status-go#7321](https://github.com/status-im/status-go/pull/7321) fix flaky tests on dev's PR
 - [status-im/status-go#7289](https://github.com/status-im/status-go/pull/7289) deploy contracts as part of docker compose pre requesite

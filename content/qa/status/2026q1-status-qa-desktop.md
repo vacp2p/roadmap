@@ -21,7 +21,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (82%)
+* status: in progress (83%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -32,6 +32,12 @@ Oversee testing strategy around releases.
   to the testing framework as needed.
 
 #### Deliverables
+- [status-im/status-app#20218](https://github.com/status-im/status-app/pull/20218) tests(@e2e): bring back tests with user data
+- [status-im/status-app#20216](https://github.com/status-im/status-app/pull/20216) chore(@e2e): small typo fix
+- [status-im/status-app#20206](https://github.com/status-im/status-app/pull/20206) chore(e2e): fix community member actions
+- [status-im/status-app#20205](https://github.com/status-im/status-app/pull/20205) chore(@e2e): fix scrolling on windows
+- [status-im/status-app#20182](https://github.com/status-im/status-app/pull/20182) chore(@e2e): refactor user.py
+- [status-im/status-app#20162](https://github.com/status-im/status-app/pull/20162) tests(@e2e): accept and decline community requests for community that requires approval to join
 - [status-im/status-app#20163](https://github.com/status-im/status-app/issues/20163) Cannot approve or reject requests to join a community that requires approval
 - [status-im/status-app#20161](https://github.com/status-im/status-app/issues/20161) Invalid changes made to identity error when building profile showcase
 - [status-im/status-app#20154](https://github.com/status-im/status-app/issues/20154) Investigate issue with StatusInput on VMs
@@ -74,6 +80,7 @@ Oversee testing strategy around releases.
 - Support Q1 releases with testing.
 
 #### Deliverables
+- [status-im/status-app#20221](https://github.com/status-im/status-app/issues/20221) NavBar is having too much space on top
 - [status-im/status-app#20146](https://github.com/status-im/status-app/issues/20146) Re-submitting CR that was declined before should show Contact Request pending
 - [status-im/status-app#18104](https://github.com/status-im/status-app/issues/18104) Add Black formatting rules to framework
 - [status-im/status-app#20036](https://github.com/status-im/status-app/issues/20036) [mobile] Cant share addresses with community with keycard account
@@ -193,7 +200,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:activity-center-and-notifications`
 * owner: nastya
-* status: not started
+* status: in progress (50%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -201,7 +208,7 @@ Oversee testing strategy around releases.
 - Support **Activity Center & Notifications – UX, Consistency and Responsive Improvements** feature in tests.
 
 #### Deliverables
-- PRs / Issues
+- [status-im/status-app#20224](https://github.com/status-im/status-app/issues/20224) Fix tests in PR 19887
 
 ### Backup feature improvements
 

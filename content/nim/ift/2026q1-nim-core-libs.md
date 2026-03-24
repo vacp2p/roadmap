@@ -60,7 +60,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:libp2p-protobuf-serialization`
 * owner: Nitely
-* status: in progress (5%)
+* status: in progress (10%)
 * start-date: 2026/02/15
 * end-date: 2026/03/31
 
@@ -69,6 +69,12 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 #### Deliverables
 - PRs
+  - [status-im/nim-protobuf-serialization#60](https://github.com/status-im/nim-protobuf-serialization/pull/60) import_proto3: packed option
+  - [status-im/nim-protobuf-serialization#59](https://github.com/status-im/nim-protobuf-serialization/pull/59) Avoid writing repeated packed default in proto3
+  - [status-im/nim-protobuf-serialization#58](https://github.com/status-im/nim-protobuf-serialization/pull/58) import_proto3: generate float32 for proto float
+  - [status-im/nim-protobuf-serialization#57](https://github.com/status-im/nim-protobuf-serialization/pull/57) Fixes #34; Skip unknown fields
+  - [status-im/nim-protobuf-serialization#56](https://github.com/status-im/nim-protobuf-serialization/pull/56) Fix conformance test
+  - [status-im/nim-protobuf-serialization#55](https://github.com/status-im/nim-protobuf-serialization/pull/55) Bump npeg and fix CI
 
 ### Language Server and Editor Integration
 
@@ -120,6 +126,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 - Ongoing maintenance and fixes across Nim core libraries.
 
 #### Deliverables
+- [status-im/nimbus-eth1#4028](https://github.com/status-im/nimbus-eth1/pull/4028) defaultValueDesc config cleanup and confutils bump
 - [vacp2p/nim-intops#22](https://github.com/vacp2p/nim-intops/issues/22) Add borrowingSub and carryingAdd flavors returning only borrow/carry
 - [status-im/nim-confutils#145](https://github.com/status-im/nim-confutils/pull/145) Fix #19 #52; Evaluate `defaultValueDesc` and `defaultValue` in help message
 - [status-im/nim-stew#266](https://github.com/status-im/nim-stew/pull/266) Deprecate saturating_arith and saturation_arith

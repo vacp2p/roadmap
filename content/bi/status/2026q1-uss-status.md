@@ -32,4 +32,6 @@ Create a dashboard to evaluate impact of USS Status SOcial media
 #### Deliverables
 
 - Dashboard updated with YouTube and Twitter episode statistics
+- Updated Apple Store metrics and linked current data with Google Analytics 4 for campaign analytics
+- Continued community-monitoring work on the Status bot
 - Dashbaord: https://superset.bi.status.im/superset/dashboard/uss-status/

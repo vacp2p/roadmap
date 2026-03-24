@@ -47,6 +47,7 @@ and ensure they don't happen again.
 
 #### Deliverables
 * Analysis:
+- Ran 250, 500, and 1k nim-libp2p node experiments and confirmed scraped metrics were available
 - [Nim-libp2p v1.15.0 regression testing - January 2026](https://www.notion.so/Nim-libp2p-v1-15-0-regression-testing-January-2026-2ea8f96fb65c8084a004f0d70b906208)
 
 

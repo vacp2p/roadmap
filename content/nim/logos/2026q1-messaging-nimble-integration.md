@@ -18,8 +18,8 @@ Support the messaging team as they integrate Nimble into nim-messaging, troubles
 ### Messaging Nimble integration Support
 
 * fully qualified name: `ift-ts:nim:logos:2026q1-messaging-nimble-integration:integration-support`
-* owner: TBD
-* status: not started
+* owner: jmgomez
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/02/10
 
@@ -27,13 +27,13 @@ Support the messaging team as they integrate Nimble into nim-messaging, troubles
 Support the messaging team with fixing issues that come up during their Nimble -> messaging integration efforts.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- Support offered and no issue reported from the messaging team
 
 ### Complete messaging Nimble integration
 
 * fully qualified name: `ift-ts:nim:logos:2026q1-messaging-nimble-integration:complete-integration`
-* owner: TBD
-* status: not started
+* owner: jmgomez
+* status: done
 * start-date: 2026/02/10
 * end-date: 2026/03/31
 
@@ -41,4 +41,4 @@ Support the messaging team with fixing issues that come up during their Nimble -
 Complete the integration of Nimble into messaging, if any tasks remain outstanding the messaging team did not complete yet.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- Integration completed and no issue reported from the messaging team

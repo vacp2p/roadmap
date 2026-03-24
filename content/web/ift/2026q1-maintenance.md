@@ -34,6 +34,8 @@ The maintenance commitment supports IFT's strategic objectives by:
 Ongoing maintenance and support across delivered web properties, including CI/deploy workflows and platform improvements.
 
 #### Deliverables
+- [acid-info/logos-press-engine#265](https://github.com/acid-info/logos-press-engine/pull/265) Add markdown_body field to Logos Press Engine
+- [acid-info/lpe-cms#4](https://github.com/acid-info/lpe-cms/pull/4) Add markdown_body support in the CMS backend
 - [acid-info/parallel-society#3](https://github.com/acid-info/parallel-society/pull/3) Fix optional chaining for image properties in MarqueeItems
 - [acid-info/logos-press-engine#263](https://github.com/acid-info/logos-press-engine/pull/263) Add external link for 'Book' in NavLinksItems
 - [keycard-tech/keycard-website#228](https://github.com/keycard-tech/keycard-website/pull/228)

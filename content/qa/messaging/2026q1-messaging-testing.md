@@ -36,7 +36,7 @@ Extend messaging end-to-end tests with network condition scenarios (high latency
 
 * fully qualified name: `ift-ts:qa:messaging:2026q1-messaging-testing:maintenance`
 * owner: aya
-* status: in progress (5%)
+* status: in progress (15%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -44,6 +44,7 @@ Extend messaging end-to-end tests with network condition scenarios (high latency
 Ongoing maintenance of messaging testing frameworks. 
 
 #### Deliverables
+- [logos-messaging/logos-delivery#3769](https://github.com/logos-messaging/logos-delivery/issues/3769)
 - [logos-messaging/logos-delivery#3758](https://github.com/logos-messaging/logos-delivery/issues/3758)
 - [status-fleet report: Nwaku v0.38 in status staging](https://www.notion.so/Nwaku-v0-38-in-status-staging-31a8f96fb65c8099bd2de05261183987)
 - [waku report: Waku regression testing v0.38](https://www.notion.so/Waku-regression-testing-v0-38-31a8f96fb65c807ab689cae8ecc9fad8)

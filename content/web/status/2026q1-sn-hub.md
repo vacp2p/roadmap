@@ -56,6 +56,8 @@ Set up proxy API infrastructure including Status RPC proxy, Status Market proxy,
 
 #### Deliverables
 
+- [status-im/status-web#1079](https://github.com/status-im/status-web/pull/1079) feat: pow based rpc auth
+- [status-im/status-web#1060](https://github.com/status-im/status-web/pull/1060) chore: migrate hoodi
 - [status-im/status-web#1062](https://github.com/status-im/status-web/pull/1062) fix: total staked value
 - [status-im/status-web#996](https://github.com/status-im/status-web/pull/996) Releasing self-hosted hub
 - [status-im/status-web#1003](https://github.com/status-im/status-web/pull/1003) Releasing hub on Status RPC proxy
@@ -84,6 +86,7 @@ Implement depositing functionality with GUSD vault integration.
 
 #### Deliverables
 
+- [status-im/status-web#1076](https://github.com/status-im/status-web/pull/1076) Fix MAX unstake amount causing transaction failure
 - [status-im/status-web#1007](https://github.com/status-im/status-web/pull/1007) chore: update vault cards
 - [status-im/status-web#1002](https://github.com/status-im/status-web/pull/1002) chore: add generic points to modal
 - [status-im/status-web#999](https://github.com/status-im/status-web/pull/999) chore: update order of the vaults

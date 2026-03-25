@@ -20,7 +20,7 @@ Improve monitoring of the Github Repository.
 
 * fully qualified name: `ift-ts:bi:logos:2026q1-logos-github-monitoring:impovement`
 * owner: claire
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 * issue: https://github.com/status-im/data-docs/issues/119

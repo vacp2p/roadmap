@@ -61,6 +61,7 @@ Study if changes are helpful and improve overall performance of the lab.
 Report findings with analysis and benchmarks of the results.
 
 #### Deliverables
+- [vacp2p/vaclab-2#20](https://github.com/vacp2p/vaclab-2/pull/20) Increase Vmetrics Components Resources
 - [vacp2p/vaclab-2#15](https://github.com/vacp2p/vaclab-2/pull/15) Improve Cluster Configuration Part 1
 - [Increase authentik-server memory limits to prevent OOMKill](https://github.com/vacp2p/vaclab-2/pull/13/changes/eff41ac92282287120e25ba4ab035590f6246412)
 - [Inspecting Network Flows with Hubble](https://www.notion.so/Inspecting-Network-Flows-with-Hubble-3168f96fb65c804ab4fdc3745c8be372)
@@ -99,7 +100,7 @@ Optimize the storage to reduce used space if data is older than a certain period
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:lab-health-monitoring`
 * owner: Mamoutou
-* status: in progress (70%)
+* status: in progress (80%)
 * start-date: 2026/02/02
 * end-date: 2026/03/15
 

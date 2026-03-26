@@ -103,7 +103,7 @@ Implement feature to hide small token balances from the wallet view for cleaner 
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:lifi-swap-integration`
 * owner: JulesFiliot
-* status: in progress (5%)
+* status: in progress (30%)
 * start-date: 2026/02/12
 * end-date: 2026/03/05
 
@@ -113,6 +113,7 @@ Integrate LI.FI swap functionality to enable multi-chain token swaps within the 
 
 #### Deliverables
 
+- [Chrome Web Store: Status Portfolio Wallet](https://chromewebstore.google.com/detail/status-portfolio-wallet-b/opkfeajbclhjdneghppfnfiannideafj)
 - LI.FI integration
 - Swap interface
 - Multi-chain support

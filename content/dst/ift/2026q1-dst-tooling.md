@@ -83,7 +83,7 @@ Bridge the new deployment builders with the analysis tools in the repository.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:analysis-yaml-refactor`
 * owner: Pearson
-* status: in progress (35%)
+* status: in progress (75%)
 * start-date: 2026/02/23
 * end-date: 2026/03/06
 

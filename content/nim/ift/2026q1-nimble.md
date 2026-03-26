@@ -40,6 +40,11 @@ By the end of this quarter, we aim to have made significant progress on these fr
 All the relevant information can be found in [this GitHub issue](https://github.com/nim-lang/nimble/issues/1449).
 
 #### Deliverables
+- [nim-lang/nimble#1638](https://github.com/nim-lang/nimble/pull/1638) Fix develop --with-dependencies to recursively vendor dependencies
+- [nim-lang/nimble#1637](https://github.com/nim-lang/nimble/pull/1637) Fix task exit code regression: set QuitFailure on CatchableError
+- [nim-lang/nimble#1635](https://github.com/nim-lang/nimble/pull/1635) don't replace nimble binary when symlinking nim companion tools
+- [nim-lang/nimble#1634](https://github.com/nim-lang/nimble/pull/1634) Lazy copyDir in version discovery: skip copy when git show succeeds
+- [nim-lang/nimble#1633](https://github.com/nim-lang/nimble/pull/1633) Symlink all nim binaries (nimsuggest, nimgrep, etc.)
 - [nim-lang/nimble#1631](https://github.com/nim-lang/nimble/pull/1631) Adds cibenchmark
 - [nim-lang/nimble#1630](https://github.com/nim-lang/nimble/pull/1630) Removes buildDependencyGraph fixes tdeps test
 - [nim-lang/nimble#1629](https://github.com/nim-lang/nimble/pull/1629) Removes the legacy, parser and solver flags

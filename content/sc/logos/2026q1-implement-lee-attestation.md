@@ -87,6 +87,8 @@ Ensure comprehensive test coverage and documentation.
 
 #### Deliverables
 
+- [logos-co/spel#76](https://github.com/logos-co/spel/pull/76) fix(cli)!: remove `-account` suffix
+- [logos-co/spel#77](https://github.com/logos-co/spel/pull/77) feat(lez-cli): add `generate-idl` subcommand for runtime IDL generation
 - [logos-blockchain/lssa#335](https://github.com/logos-blockchain/lssa/pull/335) fix(sequencer_rpc): add AMM program id
 - [logos-blockchain/lssa#296](https://github.com/logos-blockchain/lssa/pull/296) feat: add `--label` option to `wallet account new` sub command
 - [vacp2p/roadmap#398](https://github.com/vacp2p/roadmap/pull/398) chore: update SC commitments

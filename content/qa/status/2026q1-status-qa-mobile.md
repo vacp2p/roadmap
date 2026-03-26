@@ -130,7 +130,7 @@ Lay the groundwork for communities tests with page objects and a basic create/in
 
 - fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:maintenance`
 - owner: magnus
-- status: in progress (5%)
+- status: in progress (90%)
 - start-date: 2026/01/01
 - end-date: 2026/03/31
 
@@ -139,6 +139,8 @@ Lay the groundwork for communities tests with page objects and a basic create/in
 Keep the framework healthy while the app changes.
 
 #### Deliverables
+- [status-im/status-app#20220](https://github.com/status-im/status-app/pull/20220) test(mobile-e2e): remove analytics screen from onboarding flow
+- [status-im/status-app#20119](https://github.com/status-im/status-app/pull/20119) fix(e2e_appium): stabilize pr tests
 - [status-im/status-app#19928](https://github.com/status-im/status-app/pull/19928) ci(e2e-mobile): add nightly Android E2E stage to combined pipeline
 
 - [status-im/status-app#19908](https://github.com/status-im/status-app/pull/19908) finalize GitHub status in post block
@@ -154,7 +156,7 @@ Keep the framework healthy while the app changes.
 
 - fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:release-testing`
 - owner: magnus
-- status: in progress (5%)
+- status: in progress (90%)
 - start-date: 2026/01/01
 - end-date: 2026/03/31
 
@@ -165,4 +167,5 @@ Support mobile release testing efforts:
 - Regression test execution
 
 #### Deliverables
-PRs and Issues
+- [status-im/status-app#20217](https://github.com/status-im/status-app/issues/20217) Android: App not responding during app initialization
+- [status-im/status-app#20207](https://github.com/status-im/status-app/issues/20207) App will not start on Android

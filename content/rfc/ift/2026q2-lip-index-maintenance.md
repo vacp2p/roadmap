@@ -38,7 +38,7 @@ as well as any potential improvements discussed by the team(s).
 #### Deliverables
 
 - Updates to the lip.logos.co
-- 
+- PRs
 
 ### Review Pipeline
 

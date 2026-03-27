@@ -62,11 +62,11 @@ Analyze logos messaging using quic from nimlibp2p and compare results with mplex
 
 ### Scalable Data Sync
 > *Note*: This needs more input from project
-* fully qualified name: `ift-ts:dst:messaging:2026q1-messaging-scaling:scalable-data-sync`
+* fully qualified name: `ift-ts:dst:messaging:2026q2-messaging-scaling:scalable-data-sync`
 * owner: TBD
 * status: not started
-* start-date: 2026/01/01
-* end-date: 2026/03/31
+* start-date: 2026/04/01
+* end-date: 2026/06/30
 
 #### Description
 

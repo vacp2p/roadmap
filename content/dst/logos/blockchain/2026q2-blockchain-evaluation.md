@@ -32,7 +32,6 @@ work and improvements, and it is subjected to change.
 ## Task List
 
 ### Blend benchmarking
-> *Note*: This was moved from previous quarter
 > *Note*: This needs more input from project
 
 * fully qualified name: `ift-ts:dst:blockchain:2026q2-blockchain-evaluation:blendnet-benchmarking`

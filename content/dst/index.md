@@ -23,10 +23,10 @@ are not only effective but also maintain or improve system performance and scala
 ## 2026q2 `ift-ts:dst:`
 ---
 ### `anoncomms`
-* [[dst/anoncomms/2026q2-anoncomms-evaluation|anoncomms-evaluation]]
+* [[dst/logos/anoncomms/2026q2-anoncomms-evaluation|anoncomms-evaluation]]
 
 ### `blockchain`
-* [[dst/blockchain/2026q2-blockchain-evaluation|blockchain-evaluation]]
+* [[dst/logos/blockchain/2026q2-blockchain-evaluation|blockchain-evaluation]]
 
 ### `ift`
 * [[dst/ift/2026q2-dst-lab|dst-lab]]
@@ -34,13 +34,13 @@ are not only effective but also maintain or improve system performance and scala
 * [[dst/ift/2026q2-libp2p-evaluation|libp2p-evaluation]]
 
 ### `logos-core`
-* [[dst/logos-core/2026q2-logos-core-evaluation|logos-core-evaluation]]
+* [[dst/logos/logos-core/2026q2-logos-core-evaluation|logos-core-evaluation]]
 
 ### `messaging`
-* [[dst/messaging/2026q2-messaging-evaluation|messaging-evaluation]]
+* [[dst/logos/messaging/2026q2-messaging-evaluation|messaging-evaluation]]
 
 ### `storage`
-* [[dst/storage/2026q2-storage-evaluation|storage-evaluation]]
+* [[dst/logos/storage/2026q2-storage-evaluation|storage-evaluation]]
 
 ---
 ## 2026q1 `ift-ts:dst:`

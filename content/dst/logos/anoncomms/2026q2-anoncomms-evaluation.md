@@ -59,7 +59,7 @@ Evaluate service-discovery protocol. Compare it against KAD-DHT or any other req
 ### De-MLS
 > *Note*: This needs more input from project
 
-* fully qualified name: `ift-ts:dst:anoncomms:2026q2-anoncomms-evaluation:service-discovery`
+* fully qualified name: `ift-ts:dst:anoncomms:2026q2-anoncomms-evaluation:de-mls`
 * owner: TBD
 * status: not started
 * start-date: 2026/04/01

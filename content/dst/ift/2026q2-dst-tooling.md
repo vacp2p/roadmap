@@ -63,3 +63,24 @@ Present DST reports automatically in a dashboard for other CCs.
 #### Deliverables
 - Code:
 - Reports:
+
+
+### Shadow
+
+* fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:shadow`
+* owner: TBD
+* status: not started
+* start-date: 2026/04/01
+* end-date: 2026/06/30
+
+#### Description
+Shadow simulator is hardcoded at the moment in dst-libp2p-test-node for the nim version.
+We want to abstract builders from the main repository to take into account shadow.
+We want to be able to launch experiments on K8s, deciding if we want to use a realistic environment, or
+shadow.
+This needs to take into account further data analysis of the main pipeline. Can probably be split into
+subtasks.
+
+#### Deliverables
+- Code:
+- Reports:

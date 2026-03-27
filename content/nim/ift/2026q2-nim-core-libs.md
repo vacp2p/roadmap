@@ -39,11 +39,12 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 * end-date: 2026/05/15
 
 #### Description
-- Review and evaluate existing implementations that Mamy did Constantine.
-  - the Constantine thread pools build on nim-taskpools
-- extract and adapt reusable components from Constantine
+- Improve [`nim-taskpools`](https://github.com/status-im/nim-taskpools), with particular attention to the gaps tracked in issue `#6` and related missing functionality.
+- Review and evaluate the existing implementations that Mamy built in the [`mratsim/constantine`](https://github.com/mratsim/constantine) library.
+  - The Constantine thread pools build on `nim-taskpools`.
+- Extract and adapt reusable components from Constantine where appropriate.
 - Reach out to Mamy for potential collaboration and explore EF funding options.
-- Merge learnings into a robust, well-tested thread pool lib; implement what is missing (needs to be identified)
+- Merge the learnings into a robust, well-tested thread pool library and implement the missing parts identified during the review.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
@@ -59,6 +60,22 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 #### Description
 - Implement CDDL parsing in the CBOR library.
 - Establish the foundation needed for future CBOR/CDDL-driven features while keeping the scope focused on parser support for Q2.
+- This work should prepare for near-term needs around generating Nim code from CDDL, or the reverse direction, as those capabilities are expected to be needed soon.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
+### Unittest2 Expected Failures
+
+* fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:unittest2-expected-failures`
+* owner: Constantine
+* status: not started
+* start-date: 2026/05/15
+* end-date: 2026/05/30
+
+#### Description
+- Add support for expected failures in `nim-unittest2`.
+- Enable the testing workflow needed when work starts on larger features that require temporarily tracking known failing cases without losing test signal.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
@@ -73,6 +90,23 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 #### Description
 - Add protobuf serialization support within libp2p, aligning scope and design with the existing libp2p stack and future messaging needs.
+- Build on the stabilized protobuf library and make the integration practical for real libp2p protocol work.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
+### PCP Support in nim-nat-traversal
+
+* fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:nat-traversal-pcp-support`
+* owner: Constantine
+* status: not started
+* start-date: 2026/06/01
+* end-date: 2026/06/30
+
+#### Description
+- Implement PCP support in [`nim-nat-traversal`](https://github.com/status-im/nim-nat-traversal/issues/41).
+- Evaluate the preferred option of wrapping `libplum`, removing the other two libraries, and getting rid of the current make-based build system.
+- Keep the native Chronos-based implementation as an alternative if it proves more practical.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
@@ -88,6 +122,8 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 #### Description
 - Improve the Nim LSP implementation to make editor support substantially more stable and usable.
 - Continue bug hunting and implementation work already started in Q1.
+- Treat `nimsuggest` as the practical short-term path: fix low-hanging-fruit bugs with immediate benefits, improve stability and performance for Nim 2 codebases of our size, and then work toward better feature completeness on the LSP side.
+- The end goal is better `nim-langserver` behavior and better integration in editors such as VS Code, with the added benefit that language servers may also be used as MCP providers.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports

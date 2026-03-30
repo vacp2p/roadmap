@@ -35,9 +35,9 @@ work and improvements, and it is subjected to change.
 
 * fully qualified name: `ift-ts:dst:blockchain:2026q1-blockchain-evaluation:devnet`
 * owner: Alberto
-* status: in progress (99%)
+* status: done
 * start-date: 2026/02/17
-* end-date: 2026/03/05
+* end-date: 2026/03/24
 
 #### Description
 
@@ -46,6 +46,7 @@ and help with debugging issues.
 
 #### Deliverables
 * Github:
+  - [Github PR: Add panels for cache and memory RSS #19](https://github.com/vacp2p/vaclab-2/pull/19)
   - [Github PR: Add pannel for fork metric #18](https://github.com/vacp2p/vaclab-2/pull/18)
   - [Github PR: Add dashboards for logos-blockchain #16](https://github.com/vacp2p/vaclab-2/pull/16)
   - [Github Repo: Identify-Probe](https://github.com/vacp2p/identify-probe)
@@ -95,7 +96,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `ift-ts:dst:blockchain:2026q1-blockchain-evaluation:consumption`
 * owner: Alberto
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/03/16
 * end-date: 2026/03/31
 
@@ -106,3 +107,4 @@ Measure Blockchain resource consumption (CPU/RAM) usage in different scenarios.
 #### Deliverables
 * PRS:
 * Documents:
+  - [Notion report: Logos-blockchain memory](https://www.notion.so/Logos-blockchain-memory-3268f96fb65c807cab42e6abf5c44024)

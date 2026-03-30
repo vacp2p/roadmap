@@ -91,6 +91,9 @@ Propose alternative to Sanity CMS for content management, enabling non-technical
 
 #### Deliverables
 
+- [Status CMS alternative proposal](https://github.com/status-im/status-web/issues/959#issuecomment-4055223682)
+- [Payload website starter](https://github.com/acid-info/payload-website-starter)
+- [Custom page preview](https://payload-website-starter-git-main-acidinfo.vercel.app/poc-admin)
 - [acid-info/logos#32](https://github.com/acid-info/logos/pull/32) Umami tracking for buttons and signup inputs configurable in Sanity, plus related "Learn more" button fixes
 - [acid-info/logos#12](https://github.com/acid-info/logos/issues/12) feat: integrate umami directly into Sanity buttons
 - Sanity CMS alternative proposal

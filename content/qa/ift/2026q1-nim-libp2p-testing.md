@@ -39,15 +39,19 @@ Develop test plans for features currently under development:
 
 * fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:mix`
 * owner: radek
-* status: in progress (50%)
+* status: done
 * start-date: 2026/01/01
-* end-date: 2026/01/25
+* end-date: 2026/03/24
 
 #### Description
 Implement unit and integration tests for the Mix protocol.
 
 #### Deliverables
 * PRs with links to added tests
+    * [vacp2p/nim-libp2p#2178](https://github.com/vacp2p/nim-libp2p/pull/2178) test(mix): misc
+    * [vacp2p/nim-libp2p#2176](https://github.com/vacp2p/nim-libp2p/pull/2176) test(mix): unit tests
+    * [vacp2p/nim-libp2p#2175](https://github.com/vacp2p/nim-libp2p/pull/2175) test(mix): organise component tests
+    * [vacp2p/nim-libp2p#2167](https://github.com/vacp2p/nim-libp2p/pull/2167) test(mix): component tests
     * [vacp2p/nim-libp2p#2107](https://github.com/vacp2p/nim-libp2p/pull/2107) test(mix): anonymity + error cases + getMaxMessageSizeForCodec
     * [vacp2p/nim-libp2p#2102](https://github.com/vacp2p/nim-libp2p/pull/2102) chore(mix): clean up mix_node
     * [vacp2p/nim-libp2p#2093](https://github.com/vacp2p/nim-libp2p/pull/2093) test(mix): add component tests

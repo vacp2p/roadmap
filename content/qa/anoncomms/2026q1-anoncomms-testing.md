@@ -58,9 +58,9 @@ Baseline test suites and file entry points for onboarding:
 
 * fully qualified name: `ift-ts:qa:anoncomms:2026q1-anoncomms-testing:serialization-ffi-errors`
 * owner: Roman
-* status: in progress (95%)
+* status: done
 * start-date: 2026/02/01
-* end-date: 2026/03/15
+* end-date: 2026/03/24
 
 #### Description
 
@@ -72,6 +72,7 @@ Baseline test suites and file entry points for onboarding:
   - https://github.com/vacp2p/zerokit/tree/master/rln-wasm/tests
 
 #### Deliverables
+- [test: Cover code with potential to overflow panic](https://github.com/vacp2p/zerokit/pull/382)
 - [test: Serialization FFI error cases](https://github.com/vacp2p/zerokit/pull/376)
 - [test: RLN-WASM bindings error cases](https://github.com/vacp2p/zerokit/pull/381)
 - [#384](https://github.com/vacp2p/zerokit/issues/384)
@@ -84,9 +85,9 @@ Baseline test suites and file entry points for onboarding:
 
 * fully qualified name: `ift-ts:qa:anoncomms:2026q1-anoncomms-testing:hashgraph-negative-tests`
 * owner: Roman
-* status: in progress (95%)
+* status: done
 * start-date: 2026/02/15
-* end-date: 2026/03/31
+* end-date: 2026/03/24
 
 #### Description
 
@@ -99,6 +100,7 @@ Baseline test suites and file entry points for onboarding:
 
 #### Deliverables
 
+- [vacp2p/hashgraph-like-consensus#10](https://github.com/vacp2p/hashgraph-like-consensus/pull/10) test: Improve coverage
 - [vacp2p/hashgraph-like-consensus#11](https://github.com/vacp2p/hashgraph-like-consensus/issues/11)
 - [vacp2p/hashgraph-like-consensus#9](https://github.com/vacp2p/hashgraph-like-consensus/pull/9) test: Proposal vote lifecycle and timeout behavior
 - PR(s) with new negative-path consensus tests.

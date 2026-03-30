@@ -3,13 +3,13 @@ title: Logos-core Evaluation
 tags:
   - "2026q2"
   - "dst"
-  - "logos-core"
+  - "logos"
 draft: false
 description: "Perform integration scenarios in logos core
 with different components and evaluate their behaviour."
 ---
 
-`ift-ts:dst:logos-core:2026q2-logos-core-evaluation`
+`ift-ts:dst:logos:2026q2-logos-core-evaluation`
 
 
 ## Description
@@ -24,7 +24,7 @@ These componentes are logos-messaging, logos-storage and logos-blockchain.
 
 ### logos-core evaluation
 > *Note*: This needs more input from project
-* fully qualified name: `ift-ts:dst:logos-core:2026q2-logos-core-evaluation:evaluation`
+* fully qualified name: `ift-ts:dst:logos:2026q2-logos-core-evaluation:evaluation`
 * owner: TBD
 * status: not started
 * start-date: 2026/04/01
@@ -42,7 +42,7 @@ issues if they are found.
 
 ### logos-messaging
 > *Note*: This needs more input from project
-* fully qualified name: `ift-ts:dst:logos-core:2026q2-logos-core-evaluation:logos-messaging`
+* fully qualified name: `ift-ts:dst:logos:2026q2-logos-core-evaluation:logos-messaging`
 * owner: TBD
 * status: not started
 * start-date: 2026/04/01
@@ -60,7 +60,7 @@ Realize the same scenarios and reports as in `evaluation` task.
 
 ### logos-storage
 > *Note*: This needs more input from project
-* fully qualified name: `ift-ts:dst:logos-core:2026q2-logos-core-evaluation:logos-storage`
+* fully qualified name: `ift-ts:dst:logos:2026q2-logos-core-evaluation:logos-storage`
 * owner: TBD
 * status: not started
 * start-date: 2026/04/01
@@ -79,7 +79,7 @@ Realize the same scenarios and reports as in `evaluation` task.
 
 ### logos-blockchain
 > *Note*: This needs more input from project
-* fully qualified name: `ift-ts:dst:logos-core:2026q2-logos-core-evaluation:logos-blockchain`
+* fully qualified name: `ift-ts:dst:logos:2026q2-logos-core-evaluation:logos-blockchain`
 * owner: TBD
 * status: not started
 * start-date: 2026/04/01
@@ -97,7 +97,7 @@ Realize the same scenarios and reports as in `evaluation` task.
 
 ### full stack
 > *Note*: This needs more input from project
-* fully qualified name: `ift-ts:dst:logos-core:2026q2-logos-core-evaluation:full-stack`
+* fully qualified name: `ift-ts:dst:logos:2026q2-logos-core-evaluation:full-stack`
 * owner: TBD
 * status: not started
 * start-date: 2026/04/01

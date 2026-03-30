@@ -3,7 +3,7 @@ title: Anoncomms Evaluation
 tags:
   - "2026q2"
   - "dst"
-  - "anoncomms"
+  - "logos"
 draft: false
 description: "Test new anoncomms binaries on each new version 
 or requested feature
@@ -11,7 +11,7 @@ and look for regressions,
 learn scaling properties and run scaling studies."
 ---
 
-`ift-ts:dst:anoncomms:2026q2-anoncomms-evaluation`
+`ift-ts:dst:logos:2026q2-anoncomms-evaluation`
 
 ## Description
 Test Anoncomms protocols on each new version or requested feature
@@ -26,7 +26,7 @@ Do this monthly, reliably, with documentation of findings.
 ### Mix
 > *Note*: This needs more input from project
 
-* fully qualified name: `ift-ts:dst:anoncomms:2026q2-anoncomms-evaluation:mix`
+* fully qualified name: `ift-ts:dst:logos:2026q2-anoncomms-evaluation:mix`
 * owner: TBD
 * status: not started
 * start-date: 2026/04/01
@@ -42,7 +42,7 @@ TBD
 ### Service discovery
 > *Note*: This needs more input from project
 
-* fully qualified name: `ift-ts:dst:anoncomms:2026q2-anoncomms-evaluation:service-discovery`
+* fully qualified name: `ift-ts:dst:logos:2026q2-anoncomms-evaluation:service-discovery`
 * owner: TBD
 * status: not started
 * start-date: 2026/04/01
@@ -59,7 +59,7 @@ Evaluate service-discovery protocol. Compare it against KAD-DHT or any other req
 ### De-MLS
 > *Note*: This needs more input from project
 
-* fully qualified name: `ift-ts:dst:anoncomms:2026q2-anoncomms-evaluation:de-mls`
+* fully qualified name: `ift-ts:dst:logos:2026q2-anoncomms-evaluation:de-mls`
 * owner: TBD
 * status: not started
 * start-date: 2026/04/01

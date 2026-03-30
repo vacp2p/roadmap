@@ -3,14 +3,14 @@ title: Blockchain Evaluation
 tags:
   - "2026q2"
   - "dst"
-  - "blockchain"
+  - "logos"
 draft: false
 description: "Test Blockchain on each new version or requested feature
 and look for regressions,
 learn scaling properties and run scaling studies."
 ---
 
-`ift-ts:dst:blockchain:2026q2-blockchain-evaluation`
+`ift-ts:dst:logos:2026q2-blockchain-evaluation`
 
 
 ## Description
@@ -34,7 +34,7 @@ work and improvements, and it is subjected to change.
 ### Blend benchmarking
 > *Note*: This needs more input from project
 
-* fully qualified name: `ift-ts:dst:blockchain:2026q2-blockchain-evaluation:blendnet-benchmarking`
+* fully qualified name: `ift-ts:dst:logos:2026q2-blockchain-evaluation:blendnet-benchmarking`
 * owner: TBD
 * status: not started
 * start-date: 2026/04/01
@@ -54,7 +54,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 > *Note*: This was moved from previous quarter
 > *Note*: This needs more input from project
 
-* fully qualified name: `ift-ts:dst:blockchain:2026q2-blockchain-evaluation:da-benchmarking`
+* fully qualified name: `ift-ts:dst:logos:2026q2-blockchain-evaluation:da-benchmarking`
 * owner: TBD
 * status: not started
 * start-date: 2026/04/01
@@ -68,4 +68,3 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 #### Deliverables
 - Code:
 - Reports:
-

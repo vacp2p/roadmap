@@ -3,14 +3,14 @@ title: Messaging Evaluation
 tags:
   - "2026q2"
   - "dst"
-  - "messaging"
+  - "logos"
 draft: false
 description: "Test Messaging on each new version or requested feature
 and look for regressions,
 learn scaling properties and run scaling studies."
 ---
 
-`ift-ts:dst:messaging:2026q2-messaging-evaluation`
+`ift-ts:dst:logos:2026q2-messaging-evaluation`
 
 ## Description
 Test Messaging on each new version or requested feature
@@ -24,7 +24,7 @@ Do this monthly, reliably, with documentation of findings.
 
 ### Regression testing (recurring)
 
-* fully qualified name: `ift-ts:dst:messaging:2026q2-messaging-evaluation:regression-testing`
+* fully qualified name: `ift-ts:dst:logos:2026q2-messaging-evaluation:regression-testing`
 * owner: TBD
 * status: not started
 * start-date: 2026/04/01
@@ -46,7 +46,7 @@ and ensure they don't happen again.
 
 ### quic vs tcp
 
-* fully qualified name: `ift-ts:dst:messaging:2026q2-messaging-evaluation:quic-vs-tcp`
+* fully qualified name: `ift-ts:dst:logos:2026q2-messaging-evaluation:quic-vs-tcp`
 * owner: TBD
 * status: not started
 * start-date: 2026/04/01
@@ -62,7 +62,7 @@ Analyze logos messaging using quic from nimlibp2p and compare results with mplex
 
 ### Scalable Data Sync
 > *Note*: This needs more input from project
-* fully qualified name: `ift-ts:dst:messaging:2026q2-messaging-scaling:scalable-data-sync`
+* fully qualified name: `ift-ts:dst:logos:2026q2-messaging-evaluation:scalable-data-sync`
 * owner: TBD
 * status: not started
 * start-date: 2026/04/01

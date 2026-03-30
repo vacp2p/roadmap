@@ -86,7 +86,7 @@ do not consume queue space unnecessarily.
 
 #### Description
 Define drop-on-full behavior for non-priority traffic. Rebroadcast traffic is
-expected to have high queue ussage, and gossip can tolerate losing some of
+expected to have high queue usage, and gossip can tolerate losing some of
 these messages. Locally published messages should be prioritized over
 rebroadcasts, but they should not be allowed to grow an unbounded queue either.
 Revisit the current hardcoded low-priority threshold and document whether queue

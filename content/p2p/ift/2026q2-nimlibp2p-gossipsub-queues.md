@@ -32,7 +32,7 @@ messages are lost.
 ### Queue Priorities And Limits
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-gossipsub-queues:queue-priorities`
-* owner: not assigned yet
+* owner: richard
 * status: not started
 * start-date: 2026/04/01
 * end-date: 2026/06/30
@@ -57,7 +57,7 @@ cause unbounded memory growth.
 ### Priority Queue Semantics
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-gossipsub-queues:control-queue`
-* owner: not assigned yet
+* owner: richard
 * status: not started
 * start-date: 2026/04/01
 * end-date: 2026/06/30
@@ -79,7 +79,7 @@ do not consume queue space unnecessarily.
 ### Best-Effort Queue Policy
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-gossipsub-queues:best-effort-policy`
-* owner: not assigned yet
+* owner: richard
 * status: not started
 * start-date: 2026/04/01
 * end-date: 2026/06/30
@@ -101,7 +101,7 @@ depth should also contribute to peer scoring as a secondary pruning signal.
 ### Validation And Interop
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-gossipsub-queues:validation`
-* owner: not assigned yet
+* owner: richard
 * status: not started
 * start-date: 2026/04/01
 * end-date: 2026/06/30

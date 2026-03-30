@@ -42,10 +42,10 @@ List of maintenance-related PRs
 ### Peerstore Address TTL
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:peerstore-address-ttl`
-* owner: not assigned yet
+* owner: gabe
 * status: not started
-* start-date: 2026/04/01
-* end-date: 2026/06/30
+* start-date: 2026/05/01
+* end-date: 2026/05/05
 
 #### Description
 Add TTL support for addresses stored in the peerstore. Addresses should no
@@ -88,16 +88,16 @@ IdentifyPush protocol is mounted and used
 ### Quic Multiaddress Support
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:quic-maddrs`
-* owner: not assigned yet
-* status: not started
+* owner: vlado
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/04/02
 
 #### Description
 Add support for multiple QUIC v1 multiaddresses in the QUIC transport.
 
 #### Deliverables
-Switch can listen on multiple QUIC v1 addresses
+- [vacp2p/nim-libp2p#2193](https://github.com/vacp2p/nim-libp2p/pull/2193) feat(quic): add support for listening on many addresses
 
 
 ### Kademlia Interop tests
@@ -140,7 +140,7 @@ execution to the next quarter.
 nim-libp2p CI jobs work with both `--mm:refc` and `--mm:orc`
 
 
-### Exception Review
+### Exception trace cleanup
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:exception-review`
 * owner: not assigned yet
@@ -149,12 +149,17 @@ nim-libp2p CI jobs work with both `--mm:refc` and `--mm:orc`
 * end-date: 2026/06/30
 
 #### Description
-Review the exceptions currently being traced in nim-libp2p and related
-flows, especially where excessive tracing adds noise. Reduce unnecessary tracing so logs provide better signal.
+Review runtime exception traces emitted by `nim-libp2p` and related libraries in connection, transport, and protocol paths
+when those surface through `nim-libp2p` logs. Focus on the highest-noise
+or least-actionable exceptions, decide whether each one of them should stay as
+is, be downgraded, be deduplicated, or be handled without logging them, and
+implement the agreed changes. 
 
 #### Deliverables
-- Review of the most frequent traced exceptions and affected code paths
-- Changes to reduce noisy or redundant exception traces
+- Reviewed list of targeted exception, affected code paths, and the
+  chosen action for each
+- PRs or filed issues for the changes in `nim-libp2p` and any library that needs an update
+- Reduced noisy or redundant exception logs in the targeted high-frequency paths
 
 
 ### WSS handler socket leak

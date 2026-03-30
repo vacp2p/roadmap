@@ -25,10 +25,10 @@ external projects to integrate without depending on Nim toolchains.
 ### Peerstore
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-cbindings:peerstore`  
-* owner: not assigned yet
+* owner: gabe
 * status: not started
-* start-date: 2026/04/01
-* end-date: 2026/06/30
+* start-date: 2026/05/08
+* end-date: 2026/05/12
 
 #### Description
 Expose nim-libp2p peerstore functionality through C bindings so downstream
@@ -44,7 +44,7 @@ entries.
 ### Protocol Handlers
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-cbindings:handlers`  
-* owner: not assigned yet
+* owner: rramos
 * status: not started
 * start-date: 2026/04/01
 * end-date: 2026/06/30
@@ -62,10 +62,10 @@ custom protocol handlers and read from or write to streams.
 ### Capability Discovery
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-cbindings:capability-discovery`  
-* owner: not assigned yet
+* owner: gabe
 * status: not started
-* start-date: 2026/04/01
-* end-date: 2026/06/30
+* start-date: 2026/04/17
+* end-date: 2026/04/24
 
 #### Description
 Create a set of C functions that allows a user of the bindings to use

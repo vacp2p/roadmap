@@ -4,13 +4,13 @@ title: Anoncomms Consulting
 tags:
   - "2026q2"
   - "p2p"
-  - "anoncomms"
+  - "ift"
 draft: false
 description: P2P ad-hoc consulting for Anoncomms
 
 ---
 
-`vac:p2p:acz:2026q2-anoncomms-consulting`
+`ift-ts:p2p:ift:2026q2-anoncomms-consulting`
 
 P2P ad-hoc consulting for Anoncomms
 
@@ -26,11 +26,11 @@ implementation.
 
 ### Capability Discovery
 
-* fully qualified name: `vac:p2p:acz:2026q2-anoncomms-consulting:capability-discovery`
-* owner: not assigned yet
-* status: not started
+* fully qualified name: `ift-ts:p2p:ift:2026q2-anoncomms-consulting`
+* owner: gabe
+* status: in progress (0%)
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/04/17
 
 #### Description
 Implement capability discovery within nim-libp2p.

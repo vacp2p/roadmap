@@ -22,7 +22,7 @@ The current connection manager is limited to cap total connections but doesn’t
 
 ### Hi/Lo limits
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-connection-management:limits`
-* owner: not assigned yet
+* owner: vlado
 * status: not started
 * start-date: 2026/04/01
 * end-date: 2026/06/30
@@ -35,7 +35,7 @@ Hi-Lo watermark behavior for managing number of connections
 
 ### Connection score
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-connection-management:score`
-* owner: not assigned yet
+* owner: vlado
 * status: not started
 * start-date: 2026/04/01
 * end-date: 2026/06/30
@@ -49,7 +49,7 @@ Implement a per-connection scoring system with static and ephemeral tags. Epheme
 
 ### AutoPrune
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-connection-management:autoprune`
-* owner: not assigned yet
+* owner: vlado
 * status: not started
 * start-date: 2026/04/01
 * end-date: 2026/06/30

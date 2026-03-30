@@ -23,10 +23,10 @@ through the nim-libp2p C bindings.
 ### Logos Core module - peerstore
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-logos-core:peerstore`  
-* owner: not assigned yet
+* owner: gabe
 * status: not started
-* start-date: 2026/04/01
-* end-date: 2026/06/30
+* start-date: 2026/05/15
+* end-date: 2026/05/19
 
 #### Description
 Using the C bindings exposed in
@@ -41,10 +41,10 @@ functions in the Logos Core module for managing the nim-libp2p peerstore.
 ### Logos Core module - capability discovery
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-logos-core:capability-discovery`  
-* owner: not assigned yet
+* owner: gabe
 * status: not started
-* start-date: 2026/04/01
-* end-date: 2026/06/30
+* start-date: 2026/04/24
+* end-date: 2026/05/01
 
 #### Description
 Using the C bindings exposed in
@@ -60,9 +60,9 @@ through Logos Core.
 ### Logos Core module - Custom Protocols
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-logos-core:custom-protocols`  
-* owner: not assigned yet
+* owner: gabe
 * status: not started
-* start-date: 2026/04/01
+* start-date: 2026/06/19
 * end-date: 2026/06/30
 
 #### Description

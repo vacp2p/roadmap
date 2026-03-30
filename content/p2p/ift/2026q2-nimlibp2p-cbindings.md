@@ -70,7 +70,7 @@ custom protocol handlers and read from or write to streams.
 #### Description
 Create a set of C functions that allows a user of the bindings to use
 capability discovery.
-This task depends on `vac:p2p:acz:2026q2-anoncomms-consulting:capability-discovery` being delivered.
+This task depends on `ift-ts:p2p:ift:2026q2-anoncomms-consulting:capability-discovery` being delivered.
 
 #### Deliverables
 - C API for capability discovery

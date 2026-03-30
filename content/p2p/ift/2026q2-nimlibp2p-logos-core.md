@@ -66,7 +66,7 @@ through Logos Core.
 * end-date: 2026/06/30
 
 #### Description
-Using a set of new functions provided by Logos Core, allow registering custom protocols,
+Using a set of new functions provided by Logos Core, allow registering custom protocols.
 Once a stream is received, these functions should be used to notify other modules that
 data might be available on a stream to write/read.
 

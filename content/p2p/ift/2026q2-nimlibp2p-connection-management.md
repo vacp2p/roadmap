@@ -16,7 +16,7 @@ Improve nim-libp2p’s connection manager to provide hi/lo watermarks, score-dri
 
 ## Description
 
-The current connection manager is limited to cap total connections but doesn’t maintain a healthy steady state, doesn’t distinguish valuable peers, and keeps stale or useless connections. With this commitment new behavior will be introduced by having the connection manager maintain connection counts within configurable low/high watermarks and prune excess connections based on peer scores. It's tagging and decay system will prioritize valuable peers while ensuring unused or low-value connections are gracefully trimmed.
+The current connection manager is limited to cap total connections but doesn’t maintain a healthy steady state, doesn’t distinguish valuable peers, and keeps stale or useless connections. With this commitment new behavior will be introduced by having the connection manager maintain connection counts within configurable low/high watermarks and prune excess connections based on peer scores. Its tagging and decay system will prioritize valuable peers while ensuring unused or low-value connections are gracefully trimmed.
 
 ## Task List
 
@@ -41,7 +41,7 @@ Hi-Lo watermark behavior for managing number of connections
 * end-date: 2026/06/30
 
 #### Description
-Implement a per-connection scoring system with static and ephemeral tags. Ephemeral tags decay linearly (or by chosen function) so its importance decreases overtime. Allow marking connections as “protected” to exempt them from pruning. Outbound connections should naturally have a higher score than incoming connections
+Implement a per-connection scoring system with static and ephemeral tags. Ephemeral tags decay linearly (or by chosen function) so its importance decreases over time. Allow marking connections as “protected” to exempt them from pruning. Outbound connections should naturally have a higher score than incoming connections
 
 #### Deliverables
 - API for adding/removing tags, setting weights, toggling decay  

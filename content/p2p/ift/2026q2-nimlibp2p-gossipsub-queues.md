@@ -66,7 +66,7 @@ cause unbounded memory growth.
 Implement bounded handling for priority messages. If the priority queue is full,
 the peer should be disconnected instead of dropping the message, because
 messages such as subscription updates must be delivered to keep the protocol in
-sync. If possible Improve the priority path by refreshing or consolidating pending updates
+sync. If possible, improve the priority path by refreshing or consolidating pending updates
 when possible, so redundant sequences such as subscribe followed by unsubscribe
 do not consume queue space unnecessarily.
 

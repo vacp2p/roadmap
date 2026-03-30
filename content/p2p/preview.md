@@ -28,7 +28,7 @@ tags:
 - Unix Domain Socket transport (`/unix//tmp/foo`)
 - Performance & scale
     - Profiling and memory audit: guide future optimizations by identifying bottlenecks and alloc hotspots
-    - Implement zero-copy buffers between layes (transport / protocol / muxer / network libraries)
+    - Implement zero-copy buffers between layers (transport / protocol / muxer / network libraries)
 
 
 #### Uncategorized

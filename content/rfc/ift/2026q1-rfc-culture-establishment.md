@@ -21,7 +21,7 @@ piloting it on practical RFC content, and sharing a reusable approach for cross-
 
 * fully qualified name: `ift-ts:rfc:ift:2026q1-rfc-culture-establishment:adversarial-spec-workflow-adaptation`
 * owner: filip
-* status: in progress (20%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 

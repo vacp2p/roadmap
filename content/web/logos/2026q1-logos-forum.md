@@ -32,7 +32,7 @@ The Logos Forum optimization will support Logos' strategic objectives by:
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-forum:analytics`
 * owner: JulesFiliot
-* status: in progress (5%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 

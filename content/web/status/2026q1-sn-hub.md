@@ -26,9 +26,9 @@ The SN Hub development will support Status Network's strategic objectives by:
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:sdk`
 * owner: jkbktl
-* status: in progress (80%)
+* status: done
 * start-date: 2026/01/01
-* end-date: 2026/01/22
+* end-date: 2026/03/31
 
 #### Description
 
@@ -46,9 +46,9 @@ Implement SDK functionality for claiming Karma, distributing Karma, and authenti
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:proxy-api`
 * owner: JulesFiliot
-* status: in progress (80%)
+* status: done
 * start-date: 2026/01/01
-* end-date: 2026/01/22
+* end-date: 2026/03/31
 
 #### Description
 
@@ -76,9 +76,9 @@ Set up proxy API infrastructure including Status RPC proxy, Status Market proxy,
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:depositing`
 * owner: jinhojang6
-* status: in progress (10%)
+* status: done
 * start-date: 2026/01/01
-* end-date: 2026/01/15
+* end-date: 2026/03/31
 
 #### Description
 
@@ -86,6 +86,9 @@ Implement depositing functionality with GUSD vault integration.
 
 #### Deliverables
 
+- [status-im/status-web#1083](https://github.com/status-im/status-web/pull/1083) fix(hub): remove isConnecting from skeleton conditions on /stake page
+- [status-im/status-web#1081](https://github.com/status-im/status-web/pull/1081) Fix bug with hub pre-deposit min/max visibility
+- [status-im/status-web#1080](https://github.com/status-im/status-web/pull/1080) rename APY to APR
 - [status-im/status-web#1076](https://github.com/status-im/status-web/pull/1076) Fix MAX unstake amount causing transaction failure
 - [status-im/status-web#1007](https://github.com/status-im/status-web/pull/1007) chore: update vault cards
 - [status-im/status-web#1002](https://github.com/status-im/status-web/pull/1002) chore: add generic points to modal
@@ -102,9 +105,9 @@ Implement depositing functionality with GUSD vault integration.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:karma-evolution`
 * owner: jkbktl
-* status: in progress (5%)
+* status: done
 * start-date: 2026/01/08
-* end-date: 2026/01/29
+* end-date: 2026/03/31
 
 #### Description
 
@@ -141,9 +144,9 @@ Implement NFT evolution system based on contracts and Karma integration.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:backend`
 * owner: jinhojang6
-* status: in progress (5%)
+* status: done
 * start-date: 2026/01/15
-* end-date: 2026/02/28
+* end-date: 2026/03/31
 
 #### Description
 
@@ -159,9 +162,9 @@ Implement backend functionality for leaderboard and app discovery features.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:qa`
 * owner: jkbktl
-* status: in progress (10%)
+* status: done
 * start-date: 2026/01/15
-* end-date: 2026/01/29
+* end-date: 2026/03/31
 
 #### Description
 
@@ -180,9 +183,9 @@ Define test cases for QA testing of SN Hub features and functionality.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:selfhosting`
 * owner: JulesFiliot
-* status: in progress (25%)
+* status: done
 * start-date: 2026/01/15
-* end-date: 2026/01/29
+* end-date: 2026/03/31
 
 #### Description
 
@@ -199,9 +202,9 @@ Set up self-hosting infrastructure and deployment processes for SN Hub.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:i18n`
 * owner: jinhojang6
-* status: in progress (5%)
+* status: done
 * start-date: 2026/01/22
-* end-date: 2026/02/05
+* end-date: 2026/03/31
 
 #### Description
 
@@ -219,9 +222,9 @@ Implement internationalization (i18n) support for SN Hub to enable multi-languag
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:seo`
 * owner: jkbktl
-* status: in progress (5%)
+* status: done
 * start-date: 2026/01/22
-* end-date: 2026/02/05
+* end-date: 2026/03/31
 
 #### Description
 

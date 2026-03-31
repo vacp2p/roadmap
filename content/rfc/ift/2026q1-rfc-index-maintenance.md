@@ -21,7 +21,7 @@ reviewing updates, keeping references consistent, and handling routine quality i
 
 * fully qualified name: `ift-ts:rfc:ift:2026q1-rfc-index-maintenance:maintenance`
 * owner: filip
-* status: in progress (20%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 

@@ -20,7 +20,7 @@ Create monitoring for USS status
 
 * fully qualified name: `ift-ts:bi:status:2026q1-uss-status`
 * owner: alexis
-* status: in progress (90%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 * issue: https://github.com/status-im/data-docs/issues/142

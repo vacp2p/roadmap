@@ -20,7 +20,7 @@ Improve monitoring of the Logos Content Army.
 
 * fully qualified name: `ift-ts:bi:logos:2026q1-logos-content-army`
 * owner: alexis
-* status: in progress (33%)
+* status: done
 * start-date: 2026/01/23
 * end-date: 2026/03/31
 * issue: https://github.com/status-im/data-docs/issues/149

@@ -1,0 +1,30 @@
+---
+title: Nimbus Nimble Integration
+tags:
+  - "2026q2"
+  - "nim"
+  - "nimbus"
+draft: false
+description: Support the Nimbus team as they integrate Nimble into Nimbus.
+---
+
+`ift-ts:nim:nimbus:2026q2-nimbus-nimble-integration`
+
+## Description
+Support the Nimbus team as they integrate Nimble into Nimbus, troubleshoot and fix integration mismatches, and document gaps for follow-up.
+
+## Task List
+
+### Nimbus Nimble integration
+
+* fully qualified name: `ift-ts:nim:nimbus:2026q2-nimbus-nimble-integration:integration`
+* owner: TBD
+* status: not started
+* start-date: 2026/04/01
+* end-date: 2026/06/30
+
+#### Description
+Partner with Nimbus to wire Nimble into Nimbus, investigate build/runtime glitches, and land the required Nim fixes.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports

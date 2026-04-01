@@ -51,7 +51,7 @@ Also, update BW resources during the scheduling cycle to avoid race conditions.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:analyze-current-stack`
 * owner: Mamoutou
-* status: in progress (98%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -61,6 +61,8 @@ Study if changes are helpful and improve overall performance of the lab.
 Report findings with analysis and benchmarks of the results.
 
 #### Deliverables
+- Added external `metal-01` into the cluster as a tainted worker node.
+- Fixed Longhorn persistent volume creation by disabling `multipathd` across the nodes.
 - [vacp2p/vaclab-2#20](https://github.com/vacp2p/vaclab-2/pull/20) Increase Vmetrics Components Resources
 - [vacp2p/vaclab-2#15](https://github.com/vacp2p/vaclab-2/pull/15) Improve Cluster Configuration Part 1
 - [Increase authentik-server memory limits to prevent OOMKill](https://github.com/vacp2p/vaclab-2/pull/13/changes/eff41ac92282287120e25ba4ab035590f6246412)
@@ -100,9 +102,9 @@ Optimize the storage to reduce used space if data is older than a certain period
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-lab:lab-health-monitoring`
 * owner: Mamoutou
-* status: in progress (80%)
+* status: done
 * start-date: 2026/02/02
-* end-date: 2026/03/15
+* end-date: 2026/03/31
 
 #### Description
 Design a set of metrics/dashboards that can be used to monitor the health of the lab.
@@ -112,6 +114,10 @@ week to a different week being confident that the results can be trusted, withou
 of repeat the same experiment again.
 
 #### Deliverables
+- [Grafana: Node Hardware](https://grafana.lab.vac.dev/d/ds5hszfy/node-hardware?orgId=1&from=now-24h&to=now&timezone=browser&var-host=$__all&refresh=5m) Cluster node temperature dashboard
+- [Grafana: LATEST INTRA NODE THROUGHPUT](https://grafana.lab.vac.dev/d/mar8bph/network-copy?orgId=1&from=now-24h&to=now&timezone=browser&var-protocol=tcp&var-source=node-01.ih-eu-mda1.misc.vaclab) Intra-node network benchmark panels
+- Published private Krew releases of the `kubectl-health` plugin for Linux, Windows, and macOS.
+- Added intra-node benchmarking and tainted-node exclusion support to the health plugin.
 - Created Iperf3 daemonsets/cronjobs for host and pod network health checks.
 - Added Prometheus/VictoriaLogs ingestion plus a [network health dashboard](https://grafana.lab.vac.dev/d/ma4jjrl/network?orgId=1&from=now-24h&to=now&timezone=browser&var-protocol=tcp&var-source=node-01.ih-eu-mda1.misc.vaclab) with throughput and RTT baselines.
 - [Notion: Vaclab 2.0 - Health Monitoring](https://www.notion.so/Vaclab-2-0-Health-Monitoring-30d8f96fb65c80e9b69ec23c03045d2a)

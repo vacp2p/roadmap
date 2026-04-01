@@ -25,7 +25,7 @@ TODO: move tasks that were not completed in 2026q1 here
 
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-cbindings:core`  
 * owner: Richard
-* status: in progress (60%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 

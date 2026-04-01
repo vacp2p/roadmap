@@ -21,7 +21,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (83%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -32,6 +32,10 @@ Oversee testing strategy around releases.
   to the testing framework as needed.
 
 #### Deliverables
+- [status-im/status-app#20287](https://github.com/status-im/status-app/pull/20287) chore(@e2e): fix scrolling to mint button
+- [status-im/status-app#20288](https://github.com/status-im/status-app/issues/20288) Fix scrolling in minting tokens test
+- [status-im/status-app#20249](https://github.com/status-im/status-app/issues/20249) Support Qt 6.11 in e2e
+- [status-im/status-app#20247](https://github.com/status-im/status-app/pull/20247) chore(@e2e): stabilize test for creating channels
 - [status-im/status-app#20218](https://github.com/status-im/status-app/pull/20218) tests(@e2e): bring back tests with user data
 - [status-im/status-app#20216](https://github.com/status-im/status-app/pull/20216) chore(@e2e): small typo fix
 - [status-im/status-app#20206](https://github.com/status-im/status-app/pull/20206) chore(e2e): fix community member actions
@@ -72,7 +76,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:release-testing`
 * owner: Nastya
-* status: in progress (75%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -200,7 +204,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-qa-desktop:activity-center-and-notifications`
 * owner: nastya
-* status: in progress (50%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 

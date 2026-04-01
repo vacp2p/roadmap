@@ -42,9 +42,9 @@ The migration to the status-web monorepo will support Status' strategic objectiv
 
 * fully qualified name: `ift-ts:web:status:2026q1-community-curation:migration-to-status-web-monorepo`
 * owner: JulesFiliot
-* status: in progress (70%)
+* status: done
 * start-date: 2026/03/05
-* end-date: 2026/03/26
+* end-date: 2026/03/31
 
 #### Description
 

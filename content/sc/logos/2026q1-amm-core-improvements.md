@@ -25,7 +25,7 @@ Several items require research first to determine the exact impact and whether i
 
 * fully qualified name: `ift-ts:sc:logos:2026q1-amm-core-improvements:research-dead-shares`
 * owner: Ricardo
-* status: in progress (5%)
+* status: done
 * start-date: 2026/03/01
 * end-date: 2026/03/31
 
@@ -104,7 +104,7 @@ This ensures the constant product invariant is maintained after every swap opera
 
 * fully qualified name: `ift-ts:sc:logos:2026q1-amm-core-improvements:research-token-recovery`
 * owner: Ricardo
-* status: in progress (5%)
+* status: done
 * start-date: 2026/03/01
 * end-date: 2026/03/31
 
@@ -143,7 +143,7 @@ This addresses the issue where tokens sent directly to the pool contract are cur
 
 * fully qualified name: `ift-ts:sc:logos:2026q1-amm-core-improvements:fix-initial-lp-calc`
 * owner: Andrea
-* status: in progress (5%)
+* status: done
 * start-date: 2026/03/01
 * end-date: 2026/03/31
 

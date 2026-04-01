@@ -31,7 +31,7 @@ By the end of this quarter, we aim to have made significant progress on these fr
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nimble:nimble-1.0.0`
 * owner: jmgomez
-* status: in progress (10%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 

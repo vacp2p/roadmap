@@ -90,7 +90,7 @@ Uncouple tests from MessengerSteps inheritance to simplify fixtures and setup.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7084`
 * owner: egor
-* status: not started
+* status: done
 * start-date: 2026/02/16
 * end-date: 2026/02/27
 
@@ -121,7 +121,7 @@ Validate ownership flows for community owner tokens.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7129`
 * owner: Roman
-* status: in progress (80%)
+* status: done
 * start-date: 2026/02/02
 * end-date: 2026/02/13
 
@@ -207,9 +207,9 @@ Test permissions at the channel level within communities.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:7093`
 * owner: egor
-* status: in progress (5%)
+* status: done
 * start-date: 2026/01/12
-* end-date: 2026/01/23
+* end-date: 2026/03/31
 
 #### Description
 Create functional coverage for ENS integration paths.
@@ -249,7 +249,7 @@ Add functional tests for local notification flows.
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-go-functional-testing:maintenance`
 * owner: egor
-* status: in progress (30%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -259,6 +259,7 @@ This includes updating tests for changes in `status-go`, addressing regressions,
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
+- [status-im/status-go#7376](https://github.com/status-im/status-go/pull/7376) Enable parallel backend teardown in functional tests
 - [status-im/status-go#7358](https://github.com/status-im/status-go/pull/7358) Add ENS support to functional tests and implement ENS registration test
 - [status-im/status-go#7352](https://github.com/status-im/status-go/pull/7352) remove direct usage of Anvil pre-generated accounts
 - [status-im/status-go#7341](https://github.com/status-im/status-go/pull/7341) fix signal race conditions in send-all-then-verify-all patterns and rewrite `join_community` as robust state machine

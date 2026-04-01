@@ -21,7 +21,7 @@ The work focuses on wallet connection flows, core user journeys, and CI executio
 
 * fully qualified name: `ift-ts:qa:status:2026q1-status-network-hub:e2e-framework`
 * owner: egor
-* status: in progress (20%)
+* status: done
 * start-date: 2026/02/01
 * end-date: 2026/03/31
 

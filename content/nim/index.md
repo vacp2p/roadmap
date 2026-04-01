@@ -12,6 +12,17 @@ tags:
 [[nim/preview|Roadmap Preview]]
 
 
+## 2026q2
+
+### `nimbus:`
+* [[nim/nimbus/2026q2-nimbus-nimble-integration|nimbus-nimble-integration]]
+### `ift:`
+* [[nim/ift/2026q2-nim-core-libs|nim-core-libs]]
+* [[nim/ift/2026q2-nimble|nimble]]
+### `logos:`
+* [[nim/logos/2026q2-storage-nimble-integration|storage-nimble-integration]]
+* [[nim/logos/2026q2-messaging-nimble-integration|messaging-nimble-integration]]
+
 ## 2026q1
 
 ### `nimbus:`
@@ -51,6 +62,5 @@ tags:
 #### `ift:`
 * [[nim/ift/2025q1-nim-ide-tooling|2025q1-nim-ide-tooling]]
 * [[nim/ift/2025q1-nimble|2025q1-nimble]]
-
 
 

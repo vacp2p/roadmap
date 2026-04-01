@@ -32,7 +32,7 @@ work and improvements, and it is subjected to change.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-libp2p-evaluation:regression-testing`
 * owner: Alberto
-* status: in progress (5%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 

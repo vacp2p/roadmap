@@ -96,7 +96,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 
 * fully qualified name: `ift-ts:dst:blockchain:2026q1-blockchain-evaluation:consumption`
 * owner: Alberto
-* status: in progress (50%)
+* status: done
 * start-date: 2026/03/16
 * end-date: 2026/03/31
 
@@ -105,6 +105,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 Measure Blockchain resource consumption (CPU/RAM) usage in different scenarios.
 
 #### Deliverables
+- Deployed nodes with `jemalloc` in both IBD and non-IBD setups to compare memory consumption.
 * PRS:
 * Documents:
   - [Notion report: Logos-blockchain memory](https://www.notion.so/Logos-blockchain-memory-3268f96fb65c807cab42e6abf5c44024)

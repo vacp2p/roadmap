@@ -36,7 +36,7 @@ they will be addressed by our team.
 
 * fully qualified name: `ift-ts:sc:status-l2:2026q1-maintaining-status-l2-contracts:maintenance`
 * owner: r4bbit
-* status: in progress (5%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 

@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (90%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -36,6 +36,11 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2191](https://github.com/vacp2p/nim-libp2p/pull/2191) chore: add `with*` constructors to messages
+- [vacp2p/nim-lsquic#76](https://github.com/vacp2p/nim-lsquic/pull/76) chore: README
+- [vacp2p/nim-lsquic#75](https://github.com/vacp2p/nim-lsquic/pull/75) feat: tests
+- [vacp2p/nim-lsquic#70](https://github.com/vacp2p/nim-lsquic/pull/70) feat: use `sendmmsg` in linux, and increase parameter values while still remaining conservative
+- Ran nimbus-eth2 in kurtosis to demonstrate that QUIC integration worked.
 - [vacp2p/nim-libp2p#2183](https://github.com/vacp2p/nim-libp2p/pull/2183) test(gossipsub): improve test "mesh is rebalanced during heartbeat - opportunistic grafting"
 - [vacp2p/nim-libp2p#2174](https://github.com/vacp2p/nim-libp2p/pull/2174) chore: update readme packages
 - [vacp2p/nim-libp2p#2168](https://github.com/vacp2p/nim-libp2p/pull/2168) chore(ai): add more instructions

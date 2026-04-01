@@ -31,9 +31,9 @@ and implementing the smart contracts with comprehensive testing and documentatio
 
 * fully qualified name: `ift-ts:sc:logos:2026q1-implement-lee-attestation:research`
 * owner: Andrea
-* status: in progress (5%)
+* status: done
 * start-date: 2026/01/01
-* end-date: 2026/01/31
+* end-date: 2026/03/31
 
 #### Description
 
@@ -73,7 +73,7 @@ Define the on-chain data structures for both modes and off-chain integration req
 
 * fully qualified name: `ift-ts:sc:logos:2026q1-implement-lee-attestation:implementation`
 * owner: r4bbit
-* status: in progress (5%)
+* status: done
 * start-date: 2026/02/15
 * end-date: 2026/03/31
 

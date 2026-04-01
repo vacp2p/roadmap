@@ -21,7 +21,7 @@ and applying minor improvements to keep the frameworks functional and effective.
 
 * fully qualified name: `ift-ts:qa:messaging:2026q1-messaging-testing:network-conditions`
 * owner: aya
-* status: in progress (90%)
+* status: done
 * start date: 2026/01/01
 * end date: 2026/02/15
 
@@ -36,7 +36,7 @@ Extend messaging end-to-end tests with network condition scenarios (high latency
 
 * fully qualified name: `ift-ts:qa:messaging:2026q1-messaging-testing:maintenance`
 * owner: aya
-* status: in progress (15%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -44,6 +44,7 @@ Extend messaging end-to-end tests with network condition scenarios (high latency
 Ongoing maintenance of messaging testing frameworks. 
 
 #### Deliverables
+- [logos-messaging/logos-delivery#3779](https://github.com/logos-messaging/logos-delivery/issues/3779)
 - [logos-messaging/logos-delivery#3769](https://github.com/logos-messaging/logos-delivery/issues/3769)
 - [logos-messaging/logos-delivery#3758](https://github.com/logos-messaging/logos-delivery/issues/3758)
 - [status-fleet report: Nwaku v0.38 in status staging](https://www.notion.so/Nwaku-v0-38-in-status-staging-31a8f96fb65c8099bd2de05261183987)
@@ -56,7 +57,7 @@ Ongoing maintenance of messaging testing frameworks.
 
 * fully qualified name: `ift-ts:qa:messaging:2026q1-messaging-testing:python-bindings`
 * owner: aya
-* status: in progress (90%)
+* status: done
 * start-date: 2026/02/16
 * end-date: 2026/03/31
 
@@ -64,6 +65,7 @@ Ongoing maintenance of messaging testing frameworks.
 Build and validate Python bindings usage in the messaging test framework, including wrapper coverage and integration steps for the test repo.
 
 #### Deliverables
+- Retested recent changes and identified Python bindings issues in the compiled `.so` exports, publish flow, and metrics threading.
 - [logos-messaging/logos-delivery-python-bindings#3](https://github.com/logos-messaging/logos-delivery-python-bindings/pull/3) merged with all developers comments
 
 ### Messaging Sonda Tool extension

@@ -26,7 +26,7 @@ Do this monthly, reliably, with documentation of findings.
 
 * fully qualified name: `ift-ts:dst:messaging:2026q1-messaging-evaluation:regression-testing`
 * owner: Alberto
-* status: in progress (65%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 

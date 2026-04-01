@@ -144,7 +144,7 @@ connection limits, peer lifecycle handling, and resilience under different netwo
 
 * fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:interop-test-plans`
 * owner: radek
-* status: in progress (5%)
+* status: done
 * start-date: 2026/02/01
 * end-date: 2026/02/28
 
@@ -159,9 +159,9 @@ Integrate [libp2p test plans](https://github.com/libp2p/test-plans) and run into
 
 * fully qualified name: `ift-ts:qa:ift:2026q1-nim-libp2p-testing:libp2p-module-tests`
 * owner: radek
-* status: in progress (98%)
+* status: done
 * start-date: 2026/03/01
-* end-date: 2026/03/15
+* end-date: 2026/03/31
 
 #### Description
 Implement unit and integration tests for the libp2p module, covering common user-facing scenarios, module API usage, and correctness of the cbind implementation.

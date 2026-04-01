@@ -38,7 +38,7 @@ The Circles have migrated to Telegram for communication. Add an monitoring mecan
 
 * fully qualified name: `ift-ts:bi:logos:2026q1-logos-circle-monitoring:whatsapp-monitoring`
 * owner: claire
-* status: in progress (10%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 

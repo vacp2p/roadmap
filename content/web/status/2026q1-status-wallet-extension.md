@@ -103,9 +103,9 @@ Implement feature to hide small token balances from the wallet view for cleaner 
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:lifi-swap-integration`
 * owner: JulesFiliot
-* status: in progress (30%)
+* status: done
 * start-date: 2026/02/12
-* end-date: 2026/03/05
+* end-date: 2026/03/31
 
 #### Description
 
@@ -123,9 +123,9 @@ Integrate LI.FI swap functionality to enable multi-chain token swaps within the 
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:send-nft`
 * owner: JulesFiliot
-* status: in progress (5%)
+* status: done
 * start-date: 2026/02/19
-* end-date: 2026/03/05
+* end-date: 2026/03/31
 
 #### Description
 
@@ -141,9 +141,9 @@ Implement functionality to send NFTs from the wallet extension.
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:global-password`
 * owner: JulesFiliot
-* status: in progress (90%)
+* status: done
 * start-date: 2026/02/19
-* end-date: 2026/03/05
+* end-date: 2026/03/31
 
 #### Description
 
@@ -151,6 +151,7 @@ Implement global password functionality for unified authentication across wallet
 
 #### Deliverables
 
+- Added password auth layer to wallet actions.
 - Global password system
 - Authentication integration
 - Password management UI
@@ -197,7 +198,7 @@ Implement multi-wallet support to allow users to connect and manage multiple wal
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:dapp-connection`
 * owner: jinhojang6
-* status: in progress (10%)
+* status: done
 * start-date: 2026/03/05
 * end-date: 2026/03/19
 

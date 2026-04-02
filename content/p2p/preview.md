@@ -7,7 +7,15 @@ tags:
 
 ## Roadmap Preview
 
-### 2025Q1
+### 2026Q2
+- Connection management
+    - enforce upper bounds on total open connections to prevent fd exhaustion, trim connections to a lower bound
+    - tag connections with metadata
+    - support protected connections (don’t trim them under pressure)
+    - implement exponential dial backoff to avoid peer hammering
+    - Pluggable GossipSub scoring
+
+### 2026Q3 and beyond
 - Cross-compilation for mobile
     - Enable nim-libp2p builds for arm64/aarch64 targeting Android/iOS
     - Needed for integration into Status App.
@@ -17,22 +25,16 @@ tags:
       Refactoring the codebase would improve clarity, allowing contributors to grasp the code more easily. 
       Additionally, a more streamlined implementation would enhance maintainability, 
       leading to more efficient troubleshooting and debugging.
-
-### 2026Q2 and beyond
 - Unix Domain Socket transport (`/unix//tmp/foo`)
 - Performance & scale
     - Profiling and memory audit: guide future optimizations by identifying bottlenecks and alloc hotspots
-    - Implement zero-copy buffers between layes (transport / protocol / muxer / network libraries)
-- Connection management
-    - enforce upper bounds on total open connections to prevent fd exhaustion, trim connections to a lower bound
-    - tag connections with metadata
-    - support protected connections (don’t trim them under pressure)
-    - implement exponential dial backoff to avoid peer hammering
-    - Pluggable GossipSub scoring
+    - Implement zero-copy buffers between layers (transport / protocol / muxer / network libraries)
+
 
 #### Uncategorized
 The following items are not part of our current roadmap. They haven't been requested by any consumer of nim-libp2p, so they do not have any prioritization status. Still, they are recorded here potential future consideration.
 
+- Automatic NAT port mapping 
 - bluetooth transport
     - [ble exploration by berty](https://berty.tech/fr/blog/bluetooth-low-energy/).
     - Low-power proximity-based connections over BLE, mostly relevant in mobile/offline-first contexts.

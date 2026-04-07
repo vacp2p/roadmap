@@ -145,8 +145,8 @@ Add functional tests for local notification flows.
 ### Maintenance
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-go-functional-testing:maintenance`
-* owner: TBD
-* status: not started
+* owner: Egor
+* status: in progress (10%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 

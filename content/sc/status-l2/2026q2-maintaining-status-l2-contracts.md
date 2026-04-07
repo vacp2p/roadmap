@@ -36,7 +36,7 @@ they will be addressed by our team.
 
 * fully qualified name: `ift-ts:sc:status-l2:2026q2-maintaining-status-l2-contracts:maintenance`
 * owner: r4bbit
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -44,3 +44,4 @@ they will be addressed by our team.
 Handle inbound maintenance requests for deployed Status L2 contracts, including bug fixes and minor enhancements.
 
 #### Deliverables
+- Deployed communities contracts on hoodie

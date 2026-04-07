@@ -125,7 +125,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-desktop:activity-center-and-notifications`
 * owner: nastya
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/06/01
 * end-date: 2026/06/19
 
@@ -134,7 +134,7 @@ Oversee testing strategy around releases.
 - Add or update scenarios covering the revised notification behavior, responsive layouts, and user interaction flows.
 
 #### Deliverables
-- PRs / Issues
+- [status-im/status-app#20267](https://github.com/status-im/status-app/pull/20267) test(ActivityCenter): add QML component tests for notification controls
 
 ### Backup feature improvements
 

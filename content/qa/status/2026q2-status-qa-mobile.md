@@ -58,7 +58,7 @@ The tests were built in Q1 but reverted because of flakiness; the multi-device i
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-mobile:test-messaging-1x1`
 * owner: magnus
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/04/01
 * end-date: 2026/04/30
 
@@ -146,7 +146,7 @@ Extend the iOS POC beyond the single onboarding smoke test, informed by the Q1 f
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-mobile:maintenance`
 * owner: magnus
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -157,6 +157,8 @@ Keep the framework healthy while the app changes.
 - Stability of tests monitored and flaky tests triaged
 - Tests maintained through Status app refactors
 - Locator migration from `xpath` and `resource-id` to `accessibility_id` continued
+- [status-im/status-app#20308](https://github.com/status-im/status-app/pull/20308) fix(e2e_appium): improve test timing for light-client messaging
+- [status-im/status-go#7393](https://github.com/status-im/status-go/issues/7393) Light clients can silently lose messages sent immediately after contact acceptance
 
 ### Release testing
 

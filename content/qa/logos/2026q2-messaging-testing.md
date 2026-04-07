@@ -36,7 +36,7 @@ Ongoing maintenance of messaging testing frameworks.
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:python-bindings`
 * owner: aya
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/04/06
 * end-date: 2026/04/24
 
@@ -50,7 +50,7 @@ Continue the Python bindings work for the messaging test framework, including wr
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:e2e-testing-logosdelivery-preparation`
 * owner: aya
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/04/02
 * end-date: 2026/04/08
 

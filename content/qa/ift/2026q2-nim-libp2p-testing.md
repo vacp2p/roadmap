@@ -144,3 +144,21 @@ If time permits, improve the existing partial messages interop test with additio
 
 #### Deliverables
 - PRs / Issues / Docs / Reports
+
+### Maintenance
+
+* fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:maintenance`
+* owner: radek
+* status: not started
+* start-date: 2026/04/01
+* end-date: 2026/06/30
+
+#### Description
+Provide ongoing QA maintenance support for nim-libp2p throughout Q2.
+Cover small regression fixes, flaky-test follow-ups, test updates needed by upstream code changes, and issue-driven validation work that does not fit a larger feature-specific task.
+This includes quick-turn support for transport-start inconsistencies, protocol-level regressions, and improvements to existing unit or integration coverage where new bugs are found.
+
+#### Deliverables
+- PRs with maintenance or regression-test updates
+- Issues / reports for newly identified bugs or unstable scenarios
+- Validation notes for fixes landed outside the main feature-track tasks

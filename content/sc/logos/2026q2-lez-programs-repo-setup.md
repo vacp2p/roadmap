@@ -69,11 +69,13 @@ Ensure the ATA program has the same CI coverage and IDL generation as the AMM an
 
 Update `logos-execution-zone` to consume the programs from `lez-programs` as a Cargo dependency instead of maintaining its own copy.
 Remove the duplicate `programs/` directory from `logos-execution-zone` once the dependency is working.
+During the transition, keep the new `lez-programs` workspace in sync with ongoing AMM and program changes that are still landing in `logos-execution-zone`, so new functionality can be ported over without diverging code paths.
 
 #### Deliverables
 
 - [ ] `logos-execution-zone` builds with `lez-programs` as a Cargo dependency
 - [ ] Duplicate `programs/` directory removed from `logos-execution-zone`
+- [ ] Ongoing program changes ported or synchronized into `lez-programs` during the migration window
 - [ ] PR with code review
 
 ### Document local development setup

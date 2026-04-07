@@ -13,6 +13,27 @@ The BI Service unit is responsible for providing Data to the various IFT Project
 The teams extracts, transform and create visualization according to the request of each team.
 Additionally, it handle the RAG CaaS to ingest map the internal knowledge of IFTs teams.
 
+## 2026q2 `ift-ts:bi:`
+---
+
+### `finance`
+* [[bi/finance/2026q2-finance-trade-monitoring|finance-trade-monitoring]]
+
+### `logos`
+* [[bi/logos/2026q2-logos-ecodev-funnel|logos-ecodev-funnel]]
+* [[bi/logos/2026q2-logos-communication-overview|logos-communication-overview]]
+* [[bi/logos/2026q2-logos-youtube-analytics|logos-youtube-analytics]]
+* [[bi/logos/2026q2-logos-node-analytics|logos-node-analytics]]
+
+### `status`
+* [[bi/status/2026q2-status-community-monitoring|status-community-monitoring]]
+* [[bi/status/2026q2-status-download-analytic|status-download-analytic]]
+* [[bi/status/2026q2-status-network-monitoring|status-network-monitoring]]
+
+### `keycard`
+
+* [[bi/keycard/2026q2-keycard-social-media-analysis|keycard-social-media-analysis]]
+
 ## 2026q1 `ift-ts:bi:`
 ---
 

@@ -31,6 +31,25 @@ work and improvements, and it is subjected to change.
 
 ## Task List
 
+
+### Devnets
+* fully qualified name: `ift-ts:dst:logos:2026q2-blockchain-evaluation:devnets`
+* owner: Alberto
+* status: not started
+* start-date: 2026/04/01
+* end-date: 2026/06/30
+
+#### Description
+
+Help blockchain team deploying nodes in the DST lab for each new release.
+Help them measuring performance, memory, and other metrics that can be relevant, 
+and document behaviors and findings.
+
+#### Deliverables
+- Code:
+- Reports:
+
+
 ### Blend benchmarking
 > *Note*: This needs more input from project
 

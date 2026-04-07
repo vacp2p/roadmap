@@ -26,7 +26,7 @@ The maintenance commitment supports IFT's strategic objectives by:
 
 * fully qualified name: `ift-ts:web:ift:2026q1-maintenance:maintenance`
 * owner: jkbktl
-* status: done
+* status: not started
 * start-date: 2026/01/01
 * end-date: 2026/02/24
 
@@ -34,6 +34,7 @@ The maintenance commitment supports IFT's strategic objectives by:
 Ongoing maintenance and support across delivered web properties, including CI/deploy workflows and platform improvements.
 
 #### Deliverables
+
 - [acid-info/logos-press-engine#265](https://github.com/acid-info/logos-press-engine/pull/265) Add markdown_body field to Logos Press Engine
 - [acid-info/lpe-cms#4](https://github.com/acid-info/lpe-cms/pull/4) Add markdown_body support in the CMS backend
 - [acid-info/parallel-society#3](https://github.com/acid-info/parallel-society/pull/3) Fix optional chaining for image properties in MarqueeItems
@@ -117,7 +118,7 @@ Log issues, bugs, and improvement requests on GitHub for planning and prioritiza
 
 * fully qualified name: `ift-ts:web:ift:2026q1-maintenance:hotfixes`
 * owner: jkbktl
-* status: in progress (10%)
+* status: not started
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 

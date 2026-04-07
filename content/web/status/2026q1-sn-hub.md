@@ -26,7 +26,7 @@ The SN Hub development will support Status Network's strategic objectives by:
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:sdk`
 * owner: jkbktl
-* status: in progress (80%)
+* status: not started
 * start-date: 2026/01/01
 * end-date: 2026/01/22
 
@@ -46,7 +46,7 @@ Implement SDK functionality for claiming Karma, distributing Karma, and authenti
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:proxy-api`
 * owner: JulesFiliot
-* status: in progress (80%)
+* status: not started
 * start-date: 2026/01/01
 * end-date: 2026/01/22
 
@@ -76,7 +76,7 @@ Set up proxy API infrastructure including Status RPC proxy, Status Market proxy,
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:depositing`
 * owner: jinhojang6
-* status: in progress (10%)
+* status: not started
 * start-date: 2026/01/01
 * end-date: 2026/01/15
 
@@ -102,7 +102,7 @@ Implement depositing functionality with GUSD vault integration.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:karma-evolution`
 * owner: jkbktl
-* status: in progress (5%)
+* status: not started
 * start-date: 2026/01/08
 * end-date: 2026/01/29
 
@@ -141,7 +141,7 @@ Implement NFT evolution system based on contracts and Karma integration.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:backend`
 * owner: jinhojang6
-* status: in progress (5%)
+* status: not started
 * start-date: 2026/01/15
 * end-date: 2026/02/28
 
@@ -159,7 +159,7 @@ Implement backend functionality for leaderboard and app discovery features.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:qa`
 * owner: jkbktl
-* status: in progress (10%)
+* status: not started
 * start-date: 2026/01/15
 * end-date: 2026/01/29
 
@@ -180,7 +180,7 @@ Define test cases for QA testing of SN Hub features and functionality.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:selfhosting`
 * owner: JulesFiliot
-* status: in progress (25%)
+* status: not started
 * start-date: 2026/01/15
 * end-date: 2026/01/29
 
@@ -199,7 +199,7 @@ Set up self-hosting infrastructure and deployment processes for SN Hub.
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:i18n`
 * owner: jinhojang6
-* status: in progress (5%)
+* status: not started
 * start-date: 2026/01/22
 * end-date: 2026/02/05
 
@@ -219,7 +219,7 @@ Implement internationalization (i18n) support for SN Hub to enable multi-languag
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-hub:seo`
 * owner: jkbktl
-* status: in progress (5%)
+* status: not started
 * start-date: 2026/01/22
 * end-date: 2026/02/05
 

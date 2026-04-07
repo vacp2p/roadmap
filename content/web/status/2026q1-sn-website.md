@@ -26,7 +26,7 @@ The SN website development will support Status Network's strategic objectives by
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-website:seo`
 * owner: JulesFiliot
-* status: done
+* status: not started
 * start-date: 2026/01/29
 * end-date: 2026/02/03
 
@@ -50,7 +50,7 @@ Implement SEO optimization for the Status Network website to improve search engi
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-website:translations`
 * owner: jinhojang6
-* status: in progress (95%)
+* status: not started
 * start-date: 2026/01/29
 * end-date: 2026/02/12
 

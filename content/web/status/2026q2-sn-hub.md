@@ -45,7 +45,7 @@ Implement SDK functionality for claiming Karma, distributing Karma, and authenti
 
 * fully qualified name: `ift-ts:web:status:2026q2-sn-hub:proxy-api`
 * owner: unassigned
-* status: in progress (10%)
+* status: not started
 * start-date: 2026/04/01
 * end-date: 2026/04/22
 
@@ -64,7 +64,7 @@ Set up proxy API infrastructure including Status RPC proxy, Status Market proxy,
 
 * fully qualified name: `ift-ts:web:status:2026q2-sn-hub:karma-evolution`
 * owner: unassigned
-* status: in progress (5%)
+* status: not started
 * start-date: 2026/04/08
 * end-date: 2026/04/29
 
@@ -103,7 +103,7 @@ Implement NFT evolution system based on contracts and Karma integration.
 
 * fully qualified name: `ift-ts:web:status:2026q2-sn-hub:backend`
 * owner: unassigned
-* status: in progress (5%)
+* status: not started
 * start-date: 2026/04/15
 * end-date: 2026/05/28
 
@@ -121,7 +121,7 @@ Implement backend functionality for leaderboard and app discovery features.
 
 * fully qualified name: `ift-ts:web:status:2026q2-sn-hub:qa`
 * owner: unassigned
-* status: in progress (5%)
+* status: not started
 * start-date: 2026/04/15
 * end-date: 2026/04/29
 
@@ -139,7 +139,7 @@ Define test cases for QA testing of SN Hub features and functionality.
 
 * fully qualified name: `ift-ts:web:status:2026q2-sn-hub:seo`
 * owner: unassigned
-* status: in progress (5%)
+* status: not started
 * start-date: 2026/04/22
 * end-date: 2026/05/05
 

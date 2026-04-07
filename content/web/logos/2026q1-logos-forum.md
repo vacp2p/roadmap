@@ -32,7 +32,7 @@ The Logos Forum optimization will support Logos' strategic objectives by:
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-forum:analytics`
 * owner: JulesFiliot
-* status: in progress (5%)
+* status: not started
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -46,7 +46,7 @@ Analyze forum usage data, coordinate reporting needs, and align with BI for dash
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-forum:custom-domain-email-support`
 * owner: Jules
-* status: done
+* status: not started
 * start-date: 2026/03/05
 * end-date: 2026/02/24
 
@@ -67,7 +67,7 @@ Allow registration with custom domain email addresses to remove barriers for use
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-forum:cooldown-bypass-system`
 * owner: jkbktl
-* status: done
+* status: not started
 * start-date: 2026/03/12
 * end-date: 2026/02/24
 
@@ -89,7 +89,7 @@ Implement referral code on signup to bypass 24-hour cooldown period. If referral
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-forum:first-post-intro-flow`
 * owner: Jules
-* status: done
+* status: not started
 * start-date: 2026/03/19
 * end-date: 2026/02/24
 
@@ -111,7 +111,7 @@ Enable new users to post their intro immediately, no matter what. Automatic flow
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-forum:content-visibility`
 * owner: Jules
-* status: done
+* status: not started
 * start-date: 2026/03/19
 * end-date: 2026/02/24
 

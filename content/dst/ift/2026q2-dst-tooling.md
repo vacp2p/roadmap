@@ -52,7 +52,7 @@ Should be made general when possible.
 ### Dashboard
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:dashboard`
-* owner: TBD
+* owner: Mamoutou
 * status: not started
 * start-date: 2026/04/01
 * end-date: 2026/06/30

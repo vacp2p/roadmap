@@ -104,7 +104,7 @@ Respond to questions and support requests raised by stakeholders, users, and tea
 
 * fully qualified name: `ift-ts:web:ift:2026q1-maintenance:issue-logging`
 * owner: jinhojang6
-* status: not started
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -117,6 +117,7 @@ Log issues, bugs, and improvement requests on GitHub for planning and prioritiza
 - GitHub issues created
 - Issue documentation
 - Planning backlog updates
+- [acid-info/logos-press-engine#266](https://github.com/acid-info/logos-press-engine/issues/266) Pre-generate and store OG images as static files in Strapi
 
 ### Hotfixes
 

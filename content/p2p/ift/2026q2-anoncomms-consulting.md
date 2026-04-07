@@ -28,7 +28,7 @@ implementation.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-anoncomms-consulting:capability-discovery`
 * owner: gabe
-* status: in progress (0%)
+* status: in progress (40%)
 * start-date: 2026/04/01
 * end-date: 2026/04/17
 

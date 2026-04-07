@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -36,7 +36,16 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors, and bug fixes.
 
 #### Deliverables
-List of maintenance-related PRs
+- [vacp2p/nim-libp2p#2228](https://github.com/vacp2p/nim-libp2p/pull/2228) fix(mix): avoid creation of random
+- [vacp2p/nim-libp2p#2227](https://github.com/vacp2p/nim-libp2p/pull/2227) chore: change the run schedule of Daily i386 job
+- [vacp2p/nim-libp2p#2226](https://github.com/vacp2p/nim-libp2p/pull/2226) refactor(mix): add `Delay` type
+- [vacp2p/nim-libp2p#2221](https://github.com/vacp2p/nim-libp2p/pull/2221) chore(ai): add copilot instructions to avoid sleepAsync
+- [vacp2p/nim-libp2p#2219](https://github.com/vacp2p/nim-libp2p/pull/2219) chore(ci): remove discord notify
+- [vacp2p/nim-libp2p#2216](https://github.com/vacp2p/nim-libp2p/pull/2216) fix: nil pointer dereference issues caused when sha256 is used in ref object
+- [vacp2p/nim-libp2p#2214](https://github.com/vacp2p/nim-libp2p/pull/2214) fix(ci): make daily jobs setup consistent with ci.yml
+- [vacp2p/nim-libp2p#2211](https://github.com/vacp2p/nim-libp2p/pull/2211) chore(test): utilize rng() template
+- [vacp2p/nim-libp2p#2197](https://github.com/vacp2p/nim-libp2p/pull/2197) chore: reduce log level for noisy "too many channels created" log
+- [vacp2p/nim-libp2p#2056](https://github.com/vacp2p/nim-libp2p/pull/2056) chore: remove semaphore
 
 
 ### Peerstore Address TTL

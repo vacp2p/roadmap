@@ -98,6 +98,8 @@ Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via impro
 - [status-im/nim-eth#846](https://github.com/status-im/nim-eth/pull/846) fix(nat): use shared mem to send port mapping and description to thread
 - [vacp2p/nim-lsquic#53](https://github.com/vacp2p/nim-lsquic/pull/53) feat(win): keep asm list in a separate file that is used both in the makefile and .nimble
 - [vacp2p/nim-libp2p#2007](https://github.com/vacp2p/nim-libp2p/pull/2007) chore(ConnManager): avoid exposing impl details
+- [vacp2p/nim-libp2p#2215](https://github.com/vacp2p/nim-libp2p/pull/2215) fix(autonatv2): reachability greater than expected
+- [vacp2p/nim-libp2p#2204](https://github.com/vacp2p/nim-libp2p/pull/2204) fix(kad): get providers aggregates race
 
 ### Kademlia Interop tests
 

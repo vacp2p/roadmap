@@ -22,8 +22,8 @@ This commitment covers getting that repository fully operational: merging the in
 ### Review, finalize, and merge initial workspace setup (PR #1)
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-lez-programs-repo-setup:merge-initial-setup`
-* owner: TBD
-* status: not started
+* owner: r4bbit
+* status: in progress (10%)
 * start-date: 2026/04/01
 * end-date: 2026/04/10
 
@@ -34,15 +34,16 @@ The branch already contains the AMM and token programs ported over from `logos-e
 Address any review comments and get the branch merged to establish the canonical workspace.
 
 #### Deliverables
-
-- [ ] PR #1 reviewed and merged into `logos-blockchain/lez-programs`
-- [ ] CI passing on the main branch (build, test, lint)
+- [logos-blockchain/lez-programs#1](https://github.com/logos-blockchain/lez-programs/pull/1) chore: initial repository setup for programs
+- [logos-blockchain/lez-programs#22](https://github.com/logos-blockchain/lez-programs/pull/22) chore: update `spel` and `logos-execution-zone` dependencies
+- [logos-blockchain/lez-programs#23](https://github.com/logos-blockchain/lez-programs/pull/23) cleanup(ata): remove redundant test directive
+- [logos-blockchain/lez-programs#3](https://github.com/logos-blockchain/lez-programs/pull/3) skills: update `spel-cli` references to use `spel`
 
 ### Migrate ATA program into lez-programs
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-lez-programs-repo-setup:migrate-ata-program`
-* owner: TBD
-* status: not started
+* owner: r4bbit
+* status: in progress (10%)
 * start-date: 2026/04/01
 * end-date: 2026/04/15
 
@@ -52,10 +53,7 @@ Migrate the Associated Token Account (ATA) program from the open PR #387 in `log
 Ensure the ATA program has the same CI coverage and IDL generation as the AMM and token programs.
 
 #### Deliverables
-
-- [ ] ATA program migrated to `logos-blockchain/lez-programs`
-- [ ] CI covering ATA program build, test, and IDL generation
-- [ ] PR with code review
+- [logos-blockchain/lez-programs#2](https://github.com/logos-blockchain/lez-programs/pull/2) chore(ata): add IDL for ata program
 
 ### Make logos-execution-zone depend on lez-programs
 

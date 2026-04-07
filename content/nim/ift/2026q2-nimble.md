@@ -22,7 +22,7 @@ The emphasis is on improving correctness, maintainability, and user-facing error
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nimble:nimble-1.0.0`
 * owner: Juan
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -32,7 +32,11 @@ All the relevant information can be found in [this GitHub issue](https://github.
 This remains the short-term roadmap for replacing pieces of the Nimbus build system bit by bit while improving Nimble overall.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [nim-lang/nimble#1662](https://github.com/nim-lang/nimble/pull/1662) fix(#1648): prefer installed package versions over cached ones in SAT solver
+- [nim-lang/nimble#1661](https://github.com/nim-lang/nimble/pull/1661) Fixes #1650 use system temp dir so config.nims doesnt get leaked into
+- [nim-lang/nimble#1660](https://github.com/nim-lang/nimble/pull/1660) adds an alias to to specify localdeps
+- [nim-lang/nimble#1659](https://github.com/nim-lang/nimble/pull/1659) fix: feature resolution and SAT feature expansion for file:// URL
+- [nim-lang/nimble#1654](https://github.com/nim-lang/nimble/pull/1654) refactor: unify getPkgInfo entry point
 
 ### Resolver Improvements
 

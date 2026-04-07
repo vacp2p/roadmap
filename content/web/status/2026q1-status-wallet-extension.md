@@ -155,6 +155,7 @@ Implement global password functionality for unified authentication across wallet
 - Global password system
 - Authentication integration
 - Password management UI
+- [status-im/status-web#698](https://github.com/status-im/status-web/issues/698) Add password auth layer to wallet actions
 - [status-im/status-web#995](https://github.com/status-im/status-web/issues/995) Session-based keys management for wallet
 - [Status wallet architecture response](https://github.com/status-im/status-web/issues/995#issuecomment-3821551558)
 
@@ -180,7 +181,7 @@ Implement multi-account support to allow users to manage multiple accounts withi
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:multi-wallet`
 * owner: JulesFiliot
-* status: not started
+* status: done
 * start-date: 2026/02/26
 * end-date: 2026/03/19
 
@@ -193,6 +194,7 @@ Implement multi-wallet support to allow users to connect and manage multiple wal
 - Multi-wallet functionality
 - Wallet connection management
 - Wallet switching interface
+- [status-im/status-web#928](https://github.com/status-im/status-web/issues/928) multi-wallet
 
 ### Dapp Connection
 

@@ -19,7 +19,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:protobuf-library`
 * owner: Nitely
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/04/01
 * end-date: 2026/04/20
 
@@ -28,7 +28,9 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Close the remaining functionality, quality, and API gaps needed for broader adoption in IFT and Logos work.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [status-im/nim-protobuf-serialization#67](https://github.com/status-im/nim-protobuf-serialization/pull/67) Fix: treat unexpected wire type as unknown field
+- [status-im/nim-protobuf-serialization#68](https://github.com/status-im/nim-protobuf-serialization/pull/68) Improve test suite
+- [status-im/nim-protobuf-serialization#66](https://github.com/status-im/nim-protobuf-serialization/pull/66) Fix: length delimited records must only accept varint int32 length
 
 ### Multithreading and Thread Pool Library
 
@@ -115,7 +117,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:lsp-editor-support`
 * owner: Constantine
-* status: not started
+* status: in progress (20%)
 * start-date: 2026/04/01
 * end-date: 2026/06/01
 
@@ -132,7 +134,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:docs`
 * owner: Constantine
-* status: not started
+* status: in progress (20%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -140,13 +142,13 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Produce documentation for the core libs.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [nim-lang/nimble#1657](https://github.com/nim-lang/nimble/pull/1657) Fix nimble installation instructions
 
 ### Maintenance
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:maintenance`
 * owner: Constantine
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -154,4 +156,6 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Ongoing maintenance and fixes across Nim core libraries.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [status-im/nim-stint#157](https://github.com/status-im/nim-stint/issues/157) Implement carryingAdd on uint64 for 32-bit platforms
+- [status-im/nim-stint#179](https://github.com/status-im/nim-stint/issues/179) CI failing on 32-bit Linux
+- [nim-lang/nimble#1663](https://github.com/nim-lang/nimble/issues/1663) `nimble dump` resolves absolute paths incorrectly

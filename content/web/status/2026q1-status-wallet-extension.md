@@ -26,7 +26,7 @@ The Status Wallet Extension development will support Status' strategic objective
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:proxy-api-rate-limiting`
 * owner: jinhojang6
-* status: not started
+* status: done
 * start-date: 2026/02/05
 * end-date: 2026/03/03
 
@@ -103,7 +103,7 @@ Implement feature to hide small token balances from the wallet view for cleaner 
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:lifi-swap-integration`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (30%)
 * start-date: 2026/02/12
 * end-date: 2026/03/05
 
@@ -123,7 +123,7 @@ Integrate LI.FI swap functionality to enable multi-chain token swaps within the 
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:send-nft`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/02/19
 * end-date: 2026/03/05
 
@@ -141,7 +141,7 @@ Implement functionality to send NFTs from the wallet extension.
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:global-password`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (90%)
 * start-date: 2026/02/19
 * end-date: 2026/03/05
 
@@ -197,7 +197,7 @@ Implement multi-wallet support to allow users to connect and manage multiple wal
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-wallet-extension:dapp-connection`
 * owner: jinhojang6
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/03/05
 * end-date: 2026/03/19
 

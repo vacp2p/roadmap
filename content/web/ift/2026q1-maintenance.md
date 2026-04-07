@@ -26,7 +26,7 @@ The maintenance commitment supports IFT's strategic objectives by:
 
 * fully qualified name: `ift-ts:web:ift:2026q1-maintenance:maintenance`
 * owner: jkbktl
-* status: not started
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/02/24
 
@@ -118,7 +118,7 @@ Log issues, bugs, and improvement requests on GitHub for planning and prioritiza
 
 * fully qualified name: `ift-ts:web:ift:2026q1-maintenance:hotfixes`
 * owner: jkbktl
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 

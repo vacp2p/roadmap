@@ -26,7 +26,7 @@ The Status App web support will support Status' strategic objectives by:
 
 * fully qualified name: `ift-ts:web:status:2026q1-status-app:external-social-link-preview`
 * owner: jkbktl
-* status: not started
+* status: done
 * start-date: 2026/02/26
 * end-date: 2026/03/10
 

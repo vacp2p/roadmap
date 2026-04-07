@@ -1,6 +1,3 @@
-<!-- : redesign -->
-<!-- : self-hosting -->
-
 ---
 title: Logos Website
 tags:
@@ -24,6 +21,23 @@ The Logos website enhancement will support Logos' strategic objectives by:
 - **Content Updates**: Keeping website content current with latest Logos developments and community activities
 
 ## Task List
+
+### Website redesign
+
+* fully qualified name: `ift-ts:web:logos:2026q2-logos-website:website-redesign`
+* owner: unassigned
+* status: not started
+* start-date: 2026/04/01
+* end-date: 2026/06/15
+
+#### Description
+
+Redesign the Logos website.
+
+#### Deliverables
+
+- Approved design direction (Figma)
+- Design system
 
 ### CMS/Sanity
 

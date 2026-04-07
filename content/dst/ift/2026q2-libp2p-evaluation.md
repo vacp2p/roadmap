@@ -31,7 +31,7 @@ work and improvements, and it is subjected to change.
 ### Regression testing (recurring)
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:regression-testing`
-* owner: TBD
+* owner: Pearson
 * status: not started
 * start-date: 2026/04/01
 * end-date: 2026/06/30

@@ -34,7 +34,11 @@ The maintenance commitment supports IFT's strategic objectives by:
 Ongoing maintenance and support across delivered web properties, including CI/deploy workflows and platform improvements.
 
 #### Deliverables
-
+- [acid-info/free.technology#20](https://github.com/acid-info/free.technology/pull/20) Use multi-stage build to fix TypeScript 6.0 build failure
+- [acid-info/free.technology#19](https://github.com/acid-info/free.technology/pull/19) fix: comment out unused job board mappings for vac and waku
+- [acid-info/logos-press-engine@2bb9977](https://github.com/acid-info/logos-press-engine/commit/2bb9977457de122ad6558c5dfc04fa56b8786d14) enhance Calendar event details display by adding time formatting and improved layout for event items
+- Builders Hub repo migration from Acid to logos-co
+- Handled content update requests for Logos.co PDF and the IFT homepage
 - [acid-info/logos-press-engine#265](https://github.com/acid-info/logos-press-engine/pull/265) Add markdown_body field to Logos Press Engine
 - [acid-info/lpe-cms#4](https://github.com/acid-info/lpe-cms/pull/4) Add markdown_body support in the CMS backend
 - [acid-info/parallel-society#3](https://github.com/acid-info/parallel-society/pull/3) Fix optional chaining for image properties in MarqueeItems
@@ -100,7 +104,7 @@ Respond to questions and support requests raised by stakeholders, users, and tea
 
 * fully qualified name: `ift-ts:web:ift:2026q1-maintenance:issue-logging`
 * owner: jinhojang6
-* status: not started
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -113,12 +117,13 @@ Log issues, bugs, and improvement requests on GitHub for planning and prioritiza
 - GitHub issues created
 - Issue documentation
 - Planning backlog updates
+- [acid-info/logos-press-engine#266](https://github.com/acid-info/logos-press-engine/issues/266) Pre-generate and store OG images as static files in Strapi
 
 ### Hotfixes
 
 * fully qualified name: `ift-ts:web:ift:2026q1-maintenance:hotfixes`
 * owner: jkbktl
-* status: in progress (10%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 

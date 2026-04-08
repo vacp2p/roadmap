@@ -5,6 +5,24 @@ tags:
   - vac
 ---
 
+## 2026q2 `ift-ts:sc:`
+---
+
+### `ift:`
+
+* [[sc/ift/2026q2-sc-learnup-sessions|sc-learnup-sessions]]
+
+### `status-l2:`
+
+* [[sc/status-l2/2026q2-maintaining-status-l2-contracts|maintaining-status-l2-contracts]]
+
+### `logos:`
+
+* [[sc/logos/2026q2-lez-programs-repo-setup|lez-programs-repo-setup]]
+* [[sc/logos/2026q2-amm-program-completion|amm-program-completion]]
+* [[sc/logos/2026q2-dex-sdk|dex-sdk]]
+* [[sc/logos/2026q2-dex-logos-module|dex-logos-module]]
+
 ## 2026q1 `ift-ts:sc:`
 ---
 

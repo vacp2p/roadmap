@@ -25,7 +25,7 @@ The `remove_lp` function's delta LP calculation also needs to be updated to prop
 
 * fully qualified name: `ift-ts:sc:logos:2026q1-amm-fee-system-and-swap-improvements:clarify-fee-requirements`
 * owner: r4bbit
-* status: in progress (5%)
+* status: done
 * start-date: 2026/03/01
 * end-date: 2026/03/31
 
@@ -43,9 +43,9 @@ If fees are desired, determine the fee structure, fee parameters, and how they s
 
 * fully qualified name: `ift-ts:sc:logos:2026q1-amm-fee-system-and-swap-improvements:trading-fees`
 * owner: r4bbit
-* status: in progress (5%)
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/04/30
+* end-date: 2026/03/31
 
 #### Description
 
@@ -102,7 +102,7 @@ Once fees are implemented, the delta LP calculation needs to properly account fo
 
 * fully qualified name: `ift-ts:sc:logos:2026q1-amm-fee-system-and-swap-improvements:exact-output-swap`
 * owner: Andrea
-* status: in progress (5%)
+* status: done
 * start-date: 2026/03/01
 * end-date: 2026/03/31
 

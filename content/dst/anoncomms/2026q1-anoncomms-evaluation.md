@@ -43,9 +43,9 @@ TBD
 
 * fully qualified name: `ift-ts:dst:anoncomms:2026q1-anoncomms-evaluation:kad-dht`
 * owner: Alberto
-* status: in progress (95%)
+* status: done
 * start-date: 2026/02/17
-* end-date: 2026/03/05
+* end-date: 2026/03/31
 
 #### Description
 Create a node in nimlibp2p to evaluate KAD-DHT.

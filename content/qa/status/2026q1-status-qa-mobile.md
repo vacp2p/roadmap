@@ -74,7 +74,7 @@ Investigate feasibility of adding iOS coverage to framework.
 
 - fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:test-messaging-1x1`
 - owner: magnus
-- status: in progress (70%)
+- status: done
 - start-date: 2026/02/01
 - end-date: 2026/02/21
 
@@ -130,7 +130,7 @@ Lay the groundwork for communities tests with page objects and a basic create/in
 
 - fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:maintenance`
 - owner: magnus
-- status: in progress (90%)
+- status: done
 - start-date: 2026/01/01
 - end-date: 2026/03/31
 
@@ -139,6 +139,8 @@ Lay the groundwork for communities tests with page objects and a basic create/in
 Keep the framework healthy while the app changes.
 
 #### Deliverables
+- [status-im/status-app#20266](https://github.com/status-im/status-app/pull/20266) fix(e2e_appium): update gate tests (push notification, messaging, wallet)
+- [status-im/status-go#7393](https://github.com/status-im/status-go/issues/7393) Light clients can silently lose messages sent immediately after contact acceptance
 - [status-im/status-app#20220](https://github.com/status-im/status-app/pull/20220) test(mobile-e2e): remove analytics screen from onboarding flow
 - [status-im/status-app#20119](https://github.com/status-im/status-app/pull/20119) fix(e2e_appium): stabilize pr tests
 - [status-im/status-app#19928](https://github.com/status-im/status-app/pull/19928) ci(e2e-mobile): add nightly Android E2E stage to combined pipeline
@@ -156,7 +158,7 @@ Keep the framework healthy while the app changes.
 
 - fully qualified name: `ift-ts:qa:status:2026q1-status-qa-mobile:release-testing`
 - owner: magnus
-- status: in progress (90%)
+- status: done
 - start-date: 2026/01/01
 - end-date: 2026/03/31
 

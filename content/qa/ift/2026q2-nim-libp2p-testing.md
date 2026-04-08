@@ -133,7 +133,7 @@ Cover scenarios that can catch UDP and address-family issues, especially around 
 
 * fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:interop-test-plans`
 * owner: radek
-* status: not started
+* status: in progress (40%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -143,4 +143,23 @@ Revisit Kademlia interop coverage as part of this work if the upstream `libp2p/t
 If time permits, improve the existing partial messages interop test with additional logic, since functional coverage for partial messages and extensions is already considered complete.
 
 #### Deliverables
-- PRs / Issues / Docs / Reports
+- [vacp2p/nim-libp2p#2195](https://github.com/vacp2p/nim-libp2p/pull/2195) test(multiaddress): getField protobuf tests
+- [vacp2p/nim-libp2p#2189](https://github.com/vacp2p/nim-libp2p/pull/2189) test(interop): update hp script
+
+### Maintenance
+
+* fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:maintenance`
+* owner: radek
+* status: in progress (10%)
+* start-date: 2026/04/01
+* end-date: 2026/06/30
+
+#### Description
+Provide ongoing QA maintenance support for nim-libp2p throughout Q2.
+Cover small regression fixes, flaky-test follow-ups, test updates needed by upstream code changes, and issue-driven validation work that does not fit a larger feature-specific task.
+This includes quick-turn support for transport-start inconsistencies, protocol-level regressions, and improvements to existing unit or integration coverage where new bugs are found.
+
+#### Deliverables
+- [vacp2p/nim-libp2p#2229](https://github.com/vacp2p/nim-libp2p/pull/2229) test(transport): inconsistent start behaviour
+- [vacp2p/nim-libp2p#2230](https://github.com/vacp2p/nim-libp2p/issues/2230) transports: inconsistent start behaviour
+- Validation notes for fixes landed outside the main feature-track tasks

@@ -36,6 +36,7 @@ Implement SEO optimization for the Status Network website to improve search engi
 
 #### Deliverables
 
+- [status-im/status-web#1084](https://github.com/status-im/status-web/pull/1084) Show all published posts on /blog at status.network
 - [status-im/status-web#1070](https://github.com/status-im/status-web/pull/1070) Refactor blog post path generation to simplify locale handling
 - [status-im/status-web#1067](https://github.com/status-im/status-web/pull/1067) Use Ghost CMS meta fields and custom JSON-LD for blog SEO
 - [status-im/status-web#1064](https://github.com/status-im/status-web/pull/1064) [Hotfix] Fixes status.network blog rendering issues
@@ -50,9 +51,9 @@ Implement SEO optimization for the Status Network website to improve search engi
 
 * fully qualified name: `ift-ts:web:status:2026q1-sn-website:translations`
 * owner: jinhojang6
-* status: in progress (95%)
+* status: done
 * start-date: 2026/01/29
-* end-date: 2026/02/12
+* end-date: 2026/03/31
 
 #### Description
 

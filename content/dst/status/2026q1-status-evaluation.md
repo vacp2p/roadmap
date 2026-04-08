@@ -35,9 +35,9 @@ more baseline benchmarks are needed to be measured in FURPS.
 
 * fully qualified name: `ift-ts:dst:status:2026q1-status-evaluation:benchmarks-second-iteration`
 * owner: Alberto
-* status: in progress (60%)
+* status: done
 * start-date: 2026/01/01
-* end-date: 2026/01/31
+* end-date: 2026/03/31
 
 #### Description
 

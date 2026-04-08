@@ -36,7 +36,7 @@ adversarial conditions and control message behavior.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:general-tooling`
 * owner: Pearson/Alberto
-* status: in progress (40%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -45,6 +45,12 @@ Group of utilities that are added to the main repository.
 Should be made general when possible.
 
 #### Deliverables
+- [vacp2p/10ksim#215](https://github.com/vacp2p/10ksim/pull/215) Add message size config for libp2p experiment
+- [vacp2p/10ksim#214](https://github.com/vacp2p/10ksim/pull/214) Add with_image helpers
+- [vacp2p/10ksim#213](https://github.com/vacp2p/10ksim/pull/213) Fix import for with_readiness_probe
+- [vacp2p/10ksim#212](https://github.com/vacp2p/10ksim/pull/212) Add random int to output path
+- [vacp2p/dst-libp2p-test-node#17](https://github.com/vacp2p/dst-libp2p-test-node/pull/17) Make node compile with new nimlibp2p. Breaks mix feature.
+- [vacp2p/10ksim#208](https://github.com/vacp2p/10ksim/pull/208) Restructure
 - [vacp2p/10ksim#206](https://github.com/vacp2p/10ksim/pull/206) Fix imports in deployment scripts
 - [vacp2p/10ksim#197](https://github.com/vacp2p/10ksim/pull/197)
 - [vacp2p/10ksim#201](https://github.com/vacp2p/10ksim/pull/201)
@@ -83,7 +89,7 @@ Bridge the new deployment builders with the analysis tools in the repository.
 
 * fully qualified name: `ift-ts:dst:ift:2026q1-dst-tooling:analysis-yaml-refactor`
 * owner: Pearson
-* status: in progress (75%)
+* status: done
 * start-date: 2026/02/23
 * end-date: 2026/03/06
 
@@ -92,6 +98,7 @@ Refactor the analysis tools to get rid of the configuration yaml files, and use 
 to establish with analysis needs to be done after the deployment.
 
 #### Deliverables
+- Refactored metrics and plotting configuration from YAML to Python.
 - PRs:
 - Related Documents:
 

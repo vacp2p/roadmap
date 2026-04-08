@@ -36,9 +36,9 @@ The Contribute Portal directly supports the quarterly KPIs by:
 
 * fully qualified name: `ift-ts:web:logos:2026q1-contribute-portal:contribution-guidelines`
 * owner: JulesFiliot
-* status: in progress (5%)
+* status: done
 * start-date: 2026/02/26
-* end-date: 2026/03/12
+* end-date: 2026/03/31
 
 #### Description
 
@@ -56,9 +56,9 @@ Review and update contribution guidelines copy to ensure clarity and completenes
 
 * fully qualified name: `ift-ts:web:logos:2026q1-contribute-portal:bi-data`
 * owner: jinhojang6
-* status: in progress (10%)
+* status: done
 * start-date: 2026/03/05
-* end-date: 2026/03/26
+* end-date: 2026/03/31
 
 #### Description
 
@@ -110,7 +110,7 @@ Define the tier logic and scoring rules that map contributor activity into the r
 
 * fully qualified name: `ift-ts:web:logos:2026q1-contribute-portal:proposals`
 * owner: Jules
-* status: in progress (5%)
+* status: done
 * start-date: 2026/03/12
 * end-date: 2026/03/31
 

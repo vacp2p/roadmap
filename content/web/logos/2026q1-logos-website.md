@@ -26,7 +26,7 @@ The Logos website enhancement will support Logos' strategic objectives by:
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-website:contribute-portal`
 * owner: jkbktl
-* status: not started
+* status: done
 * start-date: 2026/03/05
 * end-date: 2026/03/19
 
@@ -40,6 +40,7 @@ Integrate contribute portal leaderboard into the Logos website. Coordinate with 
 - Legal team review documentation and sign-off
 - EcoDev team review documentation and sign-off
 - Leaderboard UI implementation on website
+- [acid-info/logos#35](https://github.com/acid-info/logos/pull/35) feat(circles): use BI's API to populate circles map
 
 ### Admin
 
@@ -81,7 +82,7 @@ Implement CRM functionality as specified in the design board and Discord discuss
 
 * fully qualified name: `ift-ts:web:logos:2026q1-logos-website:cms-sanity`
 * owner: Felicio
-* status: in progress (90%)
+* status: done
 * start-date: 2026/03/19
 * end-date: 2026/03/31
 

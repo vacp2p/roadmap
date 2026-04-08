@@ -19,9 +19,9 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:json-rpc`
 * owner: Nitely
-* status: in progress (90%)
+* status: done
 * start-date: 2026/01/01
-* end-date: 2025/02/14
+* end-date: 2026/03/31
 
 #### Description
 - Improve JSON-RPC (e.g: https://github.com/status-im/nim-json-rpc) by adding support for custom protocol flavors, 
@@ -40,9 +40,9 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:intops-integration-bncurve-stint`
 * owner: Juan/Constantine
-* status: in progress (99%)
+* status: done
 * start-date: 2026/01/01
-* end-date: 2026/02/14
+* end-date: 2026/03/31
 
 #### Description
 - Integrate [`nim-intops`](https://github.com/vacp2p/nim-intops) into both [`nim-bncurve`](https://github.com/status-im/nim-bncurve) and [`nim-stint`](https://github.com/status-im/nim-stint), ensuring compatibility, performance, and test coverage across both codebases.
@@ -60,7 +60,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:libp2p-protobuf-serialization`
 * owner: Nitely
-* status: in progress (10%)
+* status: done
 * start-date: 2026/02/15
 * end-date: 2026/03/31
 
@@ -69,6 +69,11 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 #### Deliverables
 - PRs
+  - [status-im/nim-protobuf-serialization#65](https://github.com/status-im/nim-protobuf-serialization/pull/65) Add `pbNone(default(T))`
+  - [status-im/nim-protobuf-serialization#64](https://github.com/status-im/nim-protobuf-serialization/pull/64) Add `pbSome(value)` for `PBOption[default(T)]`
+  - [status-im/nim-protobuf-serialization#63](https://github.com/status-im/nim-protobuf-serialization/pull/63) Avoid writing repeated packed default in proto2
+  - [status-im/nim-protobuf-serialization#62](https://github.com/status-im/nim-protobuf-serialization/pull/62) Conformance test for proto2
+  - [status-im/nim-protobuf-serialization#61](https://github.com/status-im/nim-protobuf-serialization/pull/61) Fix int32 negative varint encoding
   - [status-im/nim-protobuf-serialization#60](https://github.com/status-im/nim-protobuf-serialization/pull/60) import_proto3: packed option
   - [status-im/nim-protobuf-serialization#59](https://github.com/status-im/nim-protobuf-serialization/pull/59) Avoid writing repeated packed default in proto3
   - [status-im/nim-protobuf-serialization#58](https://github.com/status-im/nim-protobuf-serialization/pull/58) import_proto3: generate float32 for proto float
@@ -80,7 +85,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:language-server-editor-integration`
 * owner: Constantine
-* status: in progress (5%)
+* status: done
 * start-date: 2026/02/14
 * end-date: 2026/03/31
 
@@ -88,6 +93,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 - Develop language-server capabilities and editor integrations.
 
 #### Deliverables
+- [status-im/nim-chronos#621](https://github.com/status-im/nim-chronos/pull/621) Fix inlay hints in Chronos
 - [nim-lang/langserver#381](https://github.com/nim-lang/langserver/issues/381) Fix misplaced inlay hints
 - [nim-lang/langserver#380](https://github.com/nim-lang/langserver/issues/380) Started researching the issue with no backticked symbols in picker
 - [nim-lang/langserver#226](https://github.com/nim-lang/langserver/issues/226) Missing licence Misplaced inlay hints
@@ -97,7 +103,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:docs`
 * owner: Constantine
-* status: in progress (20%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -118,7 +124,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:maintenance`
 * owner: Constantine
-* status: in progress (20%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -126,6 +132,14 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 - Ongoing maintenance and fixes across Nim core libraries.
 
 #### Deliverables
+- [status-im/nim-testutils#66](https://github.com/status-im/nim-testutils/pull/66) Fix case object transition in CLI config
+- [vacp2p/nim-jwt#1](https://github.com/vacp2p/nim-jwt/pull/1) Fix: CI + Clang 15 + Claims ordering
+- [vacp2p/bearssl_pkey_decoder#1](https://github.com/vacp2p/bearssl_pkey_decoder/pull/1) Fix clang 15 compilation error
+- [status-im/nim-confutils#118](https://github.com/status-im/nim-confutils/pull/118) Fixes #114; Allow flattening options in objects
+- [vacp2p/nim-intops#27](https://github.com/vacp2p/nim-intops/pull/27) borrowingSub and carryingAdd flavors returning only borrow/carry
+- [status-im/nim-stint#176](https://github.com/status-im/nim-stint/pull/176) Replace borrowingSub with getBorrow
+- [status-im/nimbus-build-system#113](https://github.com/status-im/nimbus-build-system/pull/113) Remove add_submodule.sh
+- [nim-intops 1.0.8 changelog](https://github.com/vacp2p/nim-intops/blob/develop/changelog.md) Released nim-intops 1.0.8
 - [status-im/nimbus-eth1#4028](https://github.com/status-im/nimbus-eth1/pull/4028) defaultValueDesc config cleanup and confutils bump
 - [vacp2p/nim-intops#22](https://github.com/vacp2p/nim-intops/issues/22) Add borrowingSub and carryingAdd flavors returning only borrow/carry
 - [status-im/nim-confutils#145](https://github.com/status-im/nim-confutils/pull/145) Fix #19 #52; Evaluate `defaultValueDesc` and `defaultValue` in help message

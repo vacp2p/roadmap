@@ -20,7 +20,7 @@ Improve monitoring of the Logos content amry.
 
 * fully qualified name: `ift-ts:bi:logos:2026q1-logos-funnel-onboarding`
 * owner: alexis
-* status: in progress (50%)
+* status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 * issue: https://github.com/status-im/data-docs/issues/135

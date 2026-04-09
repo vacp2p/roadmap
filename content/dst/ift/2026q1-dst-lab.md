@@ -76,6 +76,7 @@ Report findings with analysis and benchmarks of the results.
 - [Recording: DST Kubernetes Cluster](https://drive.google.com/file/d/1CiEujizGM9QO12s_Zo4d0ZWt-uMdci5w/view)
 - [Notion: Vaclab 2.0 - Iperf Bandwidth Measurements](https://www.notion.so/Vaclab-2-0-Iperf-Bandwidth-Measurements-2f88f96fb65c808d88d9c53b595f3326)
 - [Notion: Current Vaclab Scheduler Benchmark](https://www.notion.so/Vaclab-2-0-Bandwidth-Aware-Scheduling-2d08f96fb65c804eb44fdc7b75e079f9?source=copy_link#2d88f96fb65c80f0ba35f55c22b87692)
+- [Notion: DST Explorer - Proposal For a Dynamic Public Lab Dashboard](https://www.notion.so/DST-Explorer-Proposal-For-a-Dynamic-Public-Lab-Dashboard-3388f96fb65c804787b7e55cf6beb027)
 
 
 ### Optimize data scrapping
@@ -114,16 +115,18 @@ week to a different week being confident that the results can be trusted, withou
 of repeat the same experiment again.
 
 #### Deliverables
-- [Grafana: Node Hardware](https://grafana.lab.vac.dev/d/ds5hszfy/node-hardware?orgId=1&from=now-24h&to=now&timezone=browser&var-host=$__all&refresh=5m) Cluster node temperature dashboard
-- [Grafana: LATEST INTRA NODE THROUGHPUT](https://grafana.lab.vac.dev/d/mar8bph/network-copy?orgId=1&from=now-24h&to=now&timezone=browser&var-protocol=tcp&var-source=node-01.ih-eu-mda1.misc.vaclab) Intra-node network benchmark panels
 - Published private Krew releases of the `kubectl-health` plugin for Linux, Windows, and macOS.
 - Added intra-node benchmarking and tainted-node exclusion support to the health plugin.
 - Created Iperf3 daemonsets/cronjobs for host and pod network health checks.
 - Added Prometheus/VictoriaLogs ingestion plus a [network health dashboard](https://grafana.lab.vac.dev/d/ma4jjrl/network?orgId=1&from=now-24h&to=now&timezone=browser&var-protocol=tcp&var-source=node-01.ih-eu-mda1.misc.vaclab) with throughput and RTT baselines.
-- [Notion: Vaclab 2.0 - Health Monitoring](https://www.notion.so/Vaclab-2-0-Health-Monitoring-30d8f96fb65c80e9b69ec23c03045d2a)
 - Code:
+- [Update Control Plane components Location #23](https://github.com/vacp2p/vaclab-2/pull/23)
 - Reports:
-
+- [Grafana: Node Hardware](https://grafana.lab.vac.dev/d/ds5hszfy/node-hardware?orgId=1&from=now-24h&to=now&timezone=browser&var-host=$__all&refresh=5m) Cluster node temperature dashboard
+- [Grafana: LATEST INTRA NODE THROUGHPUT](https://grafana.lab.vac.dev/d/mar8bph/network-copy?orgId=1&from=now-24h&to=now&timezone=browser&var-protocol=tcp&var-source=node-01.ih-eu-mda1.misc.vaclab) Intra-node network benchmark panels
+- [Grafana: Cluster CPU temperature High alert](https://grafana.lab.vac.dev/alerting/grafana/efi7tyt91vu9sc/view)
+- [Notion: Vaclab 2.0 - Health Monitoring](https://www.notion.so/Vaclab-2-0-Health-Monitoring-30d8f96fb65c80e9b69ec23c03045d2a)
+- [Notion: Vaclab 2.0 - Lightweight Health Monitoring](https://www.notion.so/Vaclab-2-0-Lightweight-Health-Monitoring-3398f96fb65c804f9d6ad119ecd98b0c)
 
 ### Fleet workshop
 

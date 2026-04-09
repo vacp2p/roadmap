@@ -32,7 +32,7 @@ work and improvements, and it is subjected to change.
 ## Task List
 
 
-### Devnets
+### Devnets (recurring)
 * fully qualified name: `ift-ts:dst:logos:2026q2-blockchain-evaluation:devnets`
 * owner: Alberto
 * status: not started

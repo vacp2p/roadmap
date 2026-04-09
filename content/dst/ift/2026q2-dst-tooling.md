@@ -35,7 +35,7 @@ adversarial conditions and control message behavior.
 ### General tooling (recurring)
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:general-tooling`
-* owner: TBD
+* owner: Pearson
 * status: not started
 * start-date: 2026/04/01
 * end-date: 2026/06/30

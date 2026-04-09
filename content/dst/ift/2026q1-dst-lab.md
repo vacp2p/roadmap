@@ -76,6 +76,7 @@ Report findings with analysis and benchmarks of the results.
 - [Recording: DST Kubernetes Cluster](https://drive.google.com/file/d/1CiEujizGM9QO12s_Zo4d0ZWt-uMdci5w/view)
 - [Notion: Vaclab 2.0 - Iperf Bandwidth Measurements](https://www.notion.so/Vaclab-2-0-Iperf-Bandwidth-Measurements-2f88f96fb65c808d88d9c53b595f3326)
 - [Notion: Current Vaclab Scheduler Benchmark](https://www.notion.so/Vaclab-2-0-Bandwidth-Aware-Scheduling-2d08f96fb65c804eb44fdc7b75e079f9?source=copy_link#2d88f96fb65c80f0ba35f55c22b87692)
+- [Notion: DST Explorer - Proposal For a Dynamic Public Lab Dashboard](https://www.notion.so/DST-Explorer-Proposal-For-a-Dynamic-Public-Lab-Dashboard-3388f96fb65c804787b7e55cf6beb027)
 
 
 ### Optimize data scrapping

@@ -49,7 +49,7 @@ and ensure they don't happen again.
 * Analysis:
 - Ran 250, 500, and 1k nim-libp2p node experiments and confirmed scraped metrics were available
 - [Nim-libp2p v1.15.0 regression testing - January 2026](https://www.notion.so/Nim-libp2p-v1-15-0-regression-testing-January-2026-2ea8f96fb65c8084a004f0d70b906208)
-
+- [Nim-libp2p v1.16.0 regression testing - March 2026](https://www.notion.so/Nim-libp2p-v1-16-0-regression-testing-March-2026-33a8f96fb65c80d890f2d6dc6b8e747c)
 
 ### ls-quic
 * fully qualified name: `ift-ts:dst:ift:2026q1-libp2p-evaluation:ls-quic`

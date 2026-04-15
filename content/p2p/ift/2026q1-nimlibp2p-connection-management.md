@@ -36,8 +36,8 @@ Hi-Lo watermark behavior for managing number of connections
 
 ### Connection score
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-connection-management:score`
-* owner: not assigned yet
-* status: not started
+* owner: vlado
+* status: in progress (5%)
 * start-date: 2026/01/01
 * end-date: 2026/03/31
 
@@ -45,6 +45,7 @@ Hi-Lo watermark behavior for managing number of connections
 Implement a per-connection scoring system with static and ephemeral tags. Ephemeral tags decay linearly (or by chosen function) so its importance decreases overtime. Allow marking connections as “protected” to exempt them from pruning. Outbound connections should naturally have a higher score than incoming connections
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2242](https://github.com/vacp2p/nim-libp2p/pull/2242) chore(connmanager): performance and cosmetic improvements
 - API for adding/removing tags, setting weights, toggling decay  
 - Protected-peer mechanism with hard guarantees  
 

@@ -26,7 +26,7 @@ Do this monthly, reliably, with documentation of findings.
 ### Closeness score
 * fully qualified name: `ift-ts:dst:logos:2026q2-anoncomms-evaluation:closeness-score`
 * owner: Alan
-* status: not started
+* status: in progress (20%)
 * start-date: 2026/04/09
 * end-date: 2026/04/24
 

@@ -21,7 +21,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-desktop:maintenance`
 * owner: nastya
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -30,7 +30,10 @@ Oversee testing strategy around releases.
 - Update tests for changes in Status Desktop, address regressions, investigate failures, and implement minor framework improvements needed to keep the suite reliable.
 
 #### Deliverables
-- PRs / Issues / Reports
+- [status-im/status-app#20352](https://github.com/status-im/status-app/issues/20352)
+- [status-im/status-app#20386](https://github.com/status-im/status-app/pull/20386)
+- [status-im/status-app#20373](https://github.com/status-im/status-app/pull/20373)
+- [status-im/status-app#20356](https://github.com/status-im/status-app/pull/20356)
 
 ### Release Testing
 

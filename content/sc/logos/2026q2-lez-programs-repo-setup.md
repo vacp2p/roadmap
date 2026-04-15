@@ -54,12 +54,13 @@ Ensure the ATA program has the same CI coverage and IDL generation as the AMM an
 
 #### Deliverables
 - [logos-blockchain/lez-programs#2](https://github.com/logos-blockchain/lez-programs/pull/2) chore(ata): add IDL for ata program
+- [logos-blockchain/lez-programs#24](https://github.com/logos-blockchain/lez-programs/pull/24) test(ata): add integration for private accounts create public ATAs
 
 ### Make logos-execution-zone depend on lez-programs
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-lez-programs-repo-setup:lez-dependency-integration`
-* owner: TBD
-* status: not started
+* owner: Ricardo
+* status: in progress (10%)
 * start-date: 2026/04/10
 * end-date: 2026/04/30
 

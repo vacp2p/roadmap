@@ -23,8 +23,8 @@ Transaction expiry support is tracked but blocked pending block context support 
 ### Complete and merge PR #371
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-amm-program-completion:complete-pr-371`
-* owner: TBD
-* status: not started
+* owner: Ricardo
+* status: in progress (10%)
 * start-date: 2026/04/01
 * end-date: 2026/04/15
 
@@ -41,6 +41,10 @@ Address any outstanding review comments, ensure full test coverage, and get the 
 
 - [ ] PR #371 merged with all review comments resolved
 - [ ] Test coverage for SyncReserves, RecoverSurplus, and minimum liquidity protection
+- [logos-blockchain/lez-programs#6](https://github.com/logos-blockchain/lez-programs/issues/6) Implement dead shares to avoid pool drain and first depositor attacks
+- [logos-blockchain/lez-programs#35](https://github.com/logos-blockchain/lez-programs/issues/35) Add SyncReserves Instruction For AMM Pools
+- [logos-blockchain/lez-programs#40](https://github.com/logos-blockchain/lez-programs/pull/40) feat(amm): add SyncReserves instruction
+- [logos-blockchain/lez-programs#39](https://github.com/logos-blockchain/lez-programs/pull/39) feat(amm)!: introduce minimum liquidity lock on pool initialization
 
 ### Complete exact output swap (tests + PR)
 
@@ -63,8 +67,8 @@ Write comprehensive tests covering exact output swap scenarios (including slippa
 ### Implement configurable fee tiers
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-amm-program-completion:fee-tiers`
-* owner: TBD
-* status: not started
+* owner: Ricardo
+* status: in progress (10%)
 * start-date: 2026/04/01
 * end-date: 2026/04/30
 
@@ -75,6 +79,7 @@ The `fees: u128` field already exists in `PoolDefinition` but is unused. Wire it
 
 #### Deliverables
 
+- [logos-blockchain/lez-programs#42](https://github.com/logos-blockchain/lez-programs/pull/42) feat(amm): add configurable fee tiers
 - [ ] Configurable fee tiers (0.01%, 0.05%, 0.3%, 1%) implemented in the AMM program
 - [ ] Fee tier validated at pool creation
 - [ ] Test coverage for all fee tier values
@@ -83,8 +88,8 @@ The `fees: u128` field already exists in `PoolDefinition` but is unused. Wire it
 ### Implement trading fees for LPs
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-amm-program-completion:trading-fees`
-* owner: TBD
-* status: not started
+* owner: Ricardo
+* status: in progress (10%)
 * start-date: 2026/04/01
 * end-date: 2026/04/30
 

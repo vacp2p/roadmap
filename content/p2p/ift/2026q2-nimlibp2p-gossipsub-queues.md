@@ -33,9 +33,9 @@ messages are lost.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-gossipsub-queues:queue-priorities`
 * owner: richard
-* status: not started
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/04/14
 
 #### Description
 Audit the current outbound message classification and replace the existing
@@ -58,9 +58,9 @@ cause unbounded memory growth.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-gossipsub-queues:control-queue`
 * owner: richard
-* status: not started
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/04/14
 
 #### Description
 Implement bounded handling for priority messages. If the priority queue is full,
@@ -80,7 +80,7 @@ do not consume queue space unnecessarily.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-gossipsub-queues:best-effort-policy`
 * owner: richard
-* status: not started
+* status: in progress (60%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -102,7 +102,7 @@ depth should also contribute to peer scoring as a secondary pruning signal.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-gossipsub-queues:validation`
 * owner: richard
-* status: not started
+* status: in progress (20%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -115,6 +115,7 @@ implementations especially in areas where aggressive dropping may
 affect mesh stability.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2241](https://github.com/vacp2p/nim-libp2p/pull/2241) feat(gossipsub): extend message priorities to H/M/L
 - Unit or integration tests for queue-pressure behavior
 - Interoperability checks for queue overflow and message dropping
 - Queue behavior validated for slow-peer and large-message scenarios

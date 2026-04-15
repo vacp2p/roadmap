@@ -54,7 +54,7 @@ and ensure they don't happen again.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:nim-lsquic-benchmark`
 * owner: Mamoutou
-* status: not started
+* status: in progress (50%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -68,4 +68,6 @@ this implementation or if there is another factor.
 
 #### Deliverables
 - Code:
+    - [vacp2p/dst-nim-lsquic-test](https://github.com/vacp2p/dst-nim-lsquic-test)
 - Reports:
+    - [LSQUIC RAW Benchmark in vaclab](https://www.notion.so/LSQUIC-RAW-Benchmark-in-vaclab-33c8f96fb65c802480baf186f3fa2fcf)

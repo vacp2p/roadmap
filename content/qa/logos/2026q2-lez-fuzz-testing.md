@@ -20,7 +20,7 @@ The work includes refining the fuzz targets with the LEZ team, implementing the 
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-lez-fuzz-testing:framework`
 * owner: Roman
-* status: in progress (10%)
+* status: in progress (15%)
 * start-date: 2026/04/13
 * end-date: 2026/05/01
 

@@ -36,7 +36,7 @@ adversarial conditions and control message behavior.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:general-tooling`
 * owner: Pearson
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -47,6 +47,8 @@ Should be made general when possible.
 #### Deliverables
 - Code:
 - Reports:
+- Other:
+  - Fixed `zerotesting-store` so it runs on k8s
 
 
 ### Dashboard

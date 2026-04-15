@@ -30,8 +30,8 @@ The maintenance commitment supports IFT's strategic objectives by:
 ### Maintenance
 
 * fully qualified name: `ift-ts:web:ift:2026q2-maintenance:maintenance`
-* owner: unassigned
-* status: not started
+* owner: Jinho/JulesFiliot
+* status: in progress (10%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -41,6 +41,10 @@ Execute upkeep across delivered web properties for Q2: dependency and security b
 
 #### Deliverables
 
+- [acid-info/lpe-cms#5](https://github.com/acid-info/lpe-cms/pull/5) Add og_image field and auto-generate JPEG OG images on post publish
+- [acid-info/logos-press-engine#267](https://github.com/acid-info/logos-press-engine/pull/267) Pre-generate OG images as JPEG via Strapi lifecycle and serve static URLs
+- [acid-info/logos-press-engine#268](https://github.com/acid-info/logos-press-engine/pull/268) feat(calendar): shift dates and times according to browser's time zone
+- [acid-info/admin-acid.logos.co#43](https://github.com/acid-info/admin-acid.logos.co/pull/43) refactor(calendar): make time field mandatory
 - Merged fixes and improvements on shipped repos (PRs as appropriate)
 - Stable CI/deploy and platform operations for maintained properties
 - Support and stakeholder questions addressed or documented with clear next steps

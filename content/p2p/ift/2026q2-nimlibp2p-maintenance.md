@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (10%)
+* status: in progress (13%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -36,6 +36,10 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors, and bug fixes.
 
 #### Deliverables
+- [vacp2p/nim-lsquic#79](https://github.com/vacp2p/nim-lsquic/pull/79) feat: benchmarks
+- [vacp2p/nim-lsquic#78](https://github.com/vacp2p/nim-lsquic/pull/78) fix: call engine_process synchronously if possible, otherwise defer to ticker event loop
+- [vacp2p/nim-libp2p#2244](https://github.com/vacp2p/nim-libp2p/pull/2244) chore: remove unused ngtcp2 dependency from pinned list
+- [vacp2p/nim-libp2p#2235](https://github.com/vacp2p/nim-libp2p/pull/2235) chore: update CI timeouts
 - [vacp2p/nim-libp2p#2228](https://github.com/vacp2p/nim-libp2p/pull/2228) fix(mix): avoid creation of random
 - [vacp2p/nim-libp2p#2227](https://github.com/vacp2p/nim-libp2p/pull/2227) chore: change the run schedule of Daily i386 job
 - [vacp2p/nim-libp2p#2226](https://github.com/vacp2p/nim-libp2p/pull/2226) refactor(mix): add `Delay` type

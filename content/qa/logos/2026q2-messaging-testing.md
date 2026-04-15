@@ -44,7 +44,7 @@ Ongoing maintenance of messaging testing frameworks.
 Continue the Python bindings work for the messaging test framework, including wrapper coverage, validation of the bindings in real test scenarios, and completion of the integration steps needed by the test repository.
 
 #### Deliverables
-- PRs / Issues
+- [logos-messaging/logos-delivery-python-bindings#4](https://github.com/logos-messaging/logos-delivery-python-bindings/pull/4) merged
 
 ### E2E testing LogosDelivery preparation
 
@@ -59,8 +59,7 @@ Configure the test environment with the necessary helpers and APIs before initia
 Prepare the setup needed to execute the upcoming Send API scenarios and identify missing pieces that should be requested from the developers.
 
 #### Deliverables
-- PRs / Issues
-- Suggestions or requests for new APIs to ease testing
+- [logos-messaging/logos-delivery#3800](https://github.com/logos-messaging/logos-delivery/issues/3800)
 
 ### Main tests of LogosDelivery part 1
 

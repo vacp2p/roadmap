@@ -210,6 +210,7 @@ Implement dApp connection functionality to enable wallet extension to connect wi
 
 #### Deliverables
 
+- [status-im/status-web#1033](https://github.com/status-im/status-web/pull/1033) feat: connect wallet to dApp
 - [status-im/status-web#1014](https://github.com/status-im/status-web/pull/1014) Show connection error when wallet connection fails due to permission issues
 - [status-im/status-web#1030](https://github.com/status-im/status-web/pull/1030) chore: update extension assets
 - dApp connection system

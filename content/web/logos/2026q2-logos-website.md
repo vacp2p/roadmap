@@ -42,9 +42,9 @@ Redesign the Logos website.
 ### CMS/Sanity
 
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-website:cms-sanity`
-* owner: unassigned
-* status: not started
-* start-date: 2026/06/19
+* owner: JulesFiliot
+* status: in progress (10%)
+* start-date: 2026/04/01
 * end-date: 2026/06/30
 
 #### Description
@@ -53,6 +53,7 @@ Propose alternative to Sanity CMS for content management, enabling non-technical
 
 #### Deliverables
 
+- [status-im/status-web#959](https://github.com/status-im/status-web/issues/959) propose alternative to Sanity CMS
 - Sanity CMS alternative proposal
 - Documentation and training materials
 

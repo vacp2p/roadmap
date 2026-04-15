@@ -32,6 +32,10 @@ All the relevant information can be found in [this GitHub issue](https://github.
 This remains the short-term roadmap for replacing pieces of the Nimbus build system bit by bit while improving Nimble overall.
 
 #### Deliverables
+- [nim-lang/nimble#1668](https://github.com/nim-lang/nimble/pull/1668) Dissolve vnext
+- [nim-lang/nimble#1667](https://github.com/nim-lang/nimble/pull/1667) Update version to 0.99.1
+- [nim-lang/nimble#1665](https://github.com/nim-lang/nimble/pull/1665) refactor: extract version discovery into versiondiscovery.nim
+- [nim-lang/nimble#1664](https://github.com/nim-lang/nimble/pull/1664) fix(#1663): use absolutePath for nimble dump to handle absolute paths
 - [nim-lang/nimble#1662](https://github.com/nim-lang/nimble/pull/1662) fix(#1648): prefer installed package versions over cached ones in SAT solver
 - [nim-lang/nimble#1661](https://github.com/nim-lang/nimble/pull/1661) Fixes #1650 use system temp dir so config.nims doesnt get leaked into
 - [nim-lang/nimble#1660](https://github.com/nim-lang/nimble/pull/1660) adds an alias to to specify localdeps

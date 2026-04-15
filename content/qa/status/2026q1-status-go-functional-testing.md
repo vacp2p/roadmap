@@ -131,7 +131,7 @@ Cover token master responsibilities and guardrails.
 #### Deliverables
 - [status-im/status-go#7382](https://github.com/status-im/status-go/issues/7382) Unnecessary interaction with backend - storeDeployedOwnerToken
 - [status-im/status-go#7258](https://github.com/status-im/status-go/issues/7258) Linux_arm64 is not supported by choosenim - docker build
-- PRs and/or Issues
+- [status-im/status-go#7359](https://github.com/status-im/status-go/pull/7359) test: Token gated communities - TC 7129
 
 ### Community Admin Functional Test
 

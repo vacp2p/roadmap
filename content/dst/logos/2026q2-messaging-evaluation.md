@@ -25,8 +25,8 @@ Do this monthly, reliably, with documentation of findings.
 ### Regression testing (recurring)
 
 * fully qualified name: `ift-ts:dst:logos:2026q2-messaging-evaluation:regression-testing`
-* owner: TBD
-* status: not started
+* owner: Alberto
+* status: in progress (10%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -41,6 +41,7 @@ and ensure they don't happen again.
 
 #### Deliverables
 - Code:
+    - [vacp2p/10ksim#241](https://github.com/vacp2p/10ksim/pull/241) Update broken message_injector
 - Reports:
 
 

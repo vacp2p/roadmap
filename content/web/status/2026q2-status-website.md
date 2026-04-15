@@ -25,10 +25,10 @@ The Status website optimization will support Status' strategic objectives by:
 ### SEO
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-website:seo`
-* owner: unassigned
-* status: not started
-* start-date: 2026/05/12
-* end-date: 2026/05/26
+* owner: jinhojang6
+* status: done
+* start-date: 2026/04/01
+* end-date: 2026/04/14
 
 #### Description
 
@@ -36,6 +36,7 @@ Implement SEO optimization for the Status website to improve search engine visib
 
 #### Deliverables
 
+- [status-im/status-web#1099](https://github.com/status-im/status-web/pull/1099) Update app metadata for iOS and Android with new app details
 - SEO implementation
 - Meta tags and structured data
 - SEO audit and optimization report

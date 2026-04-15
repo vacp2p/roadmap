@@ -100,6 +100,7 @@ to establish with analysis needs to be done after the deployment.
 #### Deliverables
 - Refactored metrics and plotting configuration from YAML to Python.
 - PRs:
+  - [vacp2p/10ksim#216](https://github.com/vacp2p/10ksim/pull/216) Analysis refactor
 - Related Documents:
 
 ### Expand deployment - Waku

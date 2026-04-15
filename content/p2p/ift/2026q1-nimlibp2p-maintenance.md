@@ -36,6 +36,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 Maintain [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors and bug fixes.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2232](https://github.com/vacp2p/nim-libp2p/pull/2232) fix(autonat): cleanup duplicated services on tests
 - [vacp2p/nim-libp2p#2191](https://github.com/vacp2p/nim-libp2p/pull/2191) chore: add `with*` constructors to messages
 - [vacp2p/nim-lsquic#76](https://github.com/vacp2p/nim-lsquic/pull/76) chore: README
 - [vacp2p/nim-lsquic#75](https://github.com/vacp2p/nim-lsquic/pull/75) feat: tests

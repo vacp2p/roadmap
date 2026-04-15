@@ -188,9 +188,9 @@ Ship **fund allocation** and related flows in SN Hub per design ([Figma — over
 ### Hoodi migration
 
 * fully qualified name: `ift-ts:web:status:2026q2-sn-hub:hoodi-migration`
-* owner: unassigned
-* status: not started
-* start-date: 2026/05/01
+* owner: Felicio
+* status: in progress (5%)
+* start-date: 2026/04/01
 * end-date: 2026/06/30
 
 #### Description

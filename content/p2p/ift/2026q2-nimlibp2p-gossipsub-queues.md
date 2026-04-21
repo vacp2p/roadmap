@@ -80,9 +80,9 @@ do not consume queue space unnecessarily.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-gossipsub-queues:best-effort-policy`
 * owner: richard
-* status: in progress (60%)
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/04/21
 
 #### Description
 Define drop-on-full behavior for non-priority traffic. Rebroadcast traffic is
@@ -96,6 +96,7 @@ depth should also contribute to peer scoring as a secondary pruning signal.
 - Drop-on-full behavior for non-priority outbound traffic
 - Updated thresholds for non-priority queues
 - Clear policy for how queue pressure interacts with peer scoring
+- [vacp2p/nim-libp2p#2269](https://github.com/vacp2p/nim-libp2p/pull/2269) feat(gossip): reduce score of slow peers
 
 
 ### Validation And Interop

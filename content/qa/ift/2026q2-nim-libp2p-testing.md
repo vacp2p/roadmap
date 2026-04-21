@@ -133,7 +133,7 @@ Cover scenarios that can catch UDP and address-family issues, especially around 
 
 * fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:interop-test-plans`
 * owner: radek
-* status: in progress (50%)
+* status: in progress (60%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -147,6 +147,8 @@ If time permits, improve the existing partial messages interop test with additio
 - [vacp2p/nim-libp2p#2239](https://github.com/vacp2p/nim-libp2p/pull/2239) feat: create Ed25519 key from seed
 - [vacp2p/nim-libp2p#2195](https://github.com/vacp2p/nim-libp2p/pull/2195) test(multiaddress): getField protobuf tests
 - [vacp2p/nim-libp2p#2189](https://github.com/vacp2p/nim-libp2p/pull/2189) test(interop): update hp script
+- [vacp2p/nim-libp2p#2249](https://github.com/vacp2p/nim-libp2p/pull/2249) test(interop): GossipSub - partial messages (part 2)
+- [vacp2p/nim-libp2p#2288](https://github.com/vacp2p/nim-libp2p/pull/2288) test(gossipsub): extensions race condition + fix
 
 ### Maintenance
 

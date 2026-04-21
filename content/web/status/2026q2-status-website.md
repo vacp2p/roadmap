@@ -37,6 +37,7 @@ Implement SEO optimization for the Status website to improve search engine visib
 #### Deliverables
 
 - [status-im/status-web#1099](https://github.com/status-im/status-web/pull/1099) Update app metadata for iOS and Android with new app details
+- [status-im/status-web#1106](https://github.com/status-im/status-web/pull/1106) Remove legacy iOS app associations from the AASA file for universal links
 - SEO implementation
 - Meta tags and structured data
 - SEO audit and optimization report

@@ -31,7 +31,7 @@ The maintenance commitment supports IFT's strategic objectives by:
 
 * fully qualified name: `ift-ts:web:ift:2026q2-maintenance:maintenance`
 * owner: Jinho/JulesFiliot
-* status: in progress (10%)
+* status: in progress (50%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -45,6 +45,10 @@ Execute upkeep across delivered web properties for Q2: dependency and security b
 - [acid-info/logos-press-engine#267](https://github.com/acid-info/logos-press-engine/pull/267) Pre-generate OG images as JPEG via Strapi lifecycle and serve static URLs
 - [acid-info/logos-press-engine#268](https://github.com/acid-info/logos-press-engine/pull/268) feat(calendar): shift dates and times according to browser's time zone
 - [acid-info/admin-acid.logos.co#43](https://github.com/acid-info/admin-acid.logos.co/pull/43) refactor(calendar): make time field mandatory
+- [status-im/status-web#1106](https://github.com/status-im/status-web/pull/1106) Remove legacy iOS app associations from the AASA file
+- [status-im/status-web#1109](https://github.com/status-im/status-web/pull/1109) Upgrade `nixpkgs` to version 25.11 in `flake.nix`
+- [status-im/status-web#1102](https://github.com/status-im/status-web/pull/1102) Add `/karma-tokenomics` page
+- [status-im/status-web#1103](https://github.com/status-im/status-web/issues/1103) fix(wallet): swaps not working
 - Merged fixes and improvements on shipped repos (PRs as appropriate)
 - Stable CI/deploy and platform operations for maintained properties
 - Support and stakeholder questions addressed or documented with clear next steps

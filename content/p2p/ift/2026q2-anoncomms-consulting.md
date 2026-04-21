@@ -28,7 +28,7 @@ implementation.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-anoncomms-consulting:capability-discovery`
 * owner: gabe
-* status: in progress (60%)
+* status: in progress (85%)
 * start-date: 2026/04/01
 * end-date: 2026/04/17
 
@@ -41,5 +41,11 @@ The following resources exist:
 #### Deliverables
 - [vacp2p/nim-libp2p#2245](https://github.com/vacp2p/nim-libp2p/pull/2245) chore(crypto): add pick utilities
 - [vacp2p/nim-libp2p#2237](https://github.com/vacp2p/nim-libp2p/pull/2237) chore(service-disco): add protobuf messages and utilities
+- [vacp2p/nim-libp2p#2275](https://github.com/vacp2p/nim-libp2p/pull/2275) feat(service-disco): add registrar
+- [vacp2p/nim-libp2p#2302](https://github.com/vacp2p/nim-libp2p/pull/2302) fix(service-disco): add missing tables import
+- [vacp2p/nim-libp2p#2290](https://github.com/vacp2p/nim-libp2p/pull/2290) chore(service-disco): use ServiceId type
+- [vacp2p/nim-libp2p#2274](https://github.com/vacp2p/nim-libp2p/pull/2274) feat(service-disco): routing table manager
+- [vacp2p/nim-libp2p#2267](https://github.com/vacp2p/nim-libp2p/pull/2267) feat(service-disco): add ipTree, signatures
+- [vacp2p/nim-libp2p#2246](https://github.com/vacp2p/nim-libp2p/pull/2246) chore(service-disco): add service discovery
 - Capability discovery support implemented in nim-libp2p
 - Integration guidance for Anoncomms based on the specification and PoC

@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (13%)
+* status: in progress (21%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -50,6 +50,25 @@ Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via i
 - [vacp2p/nim-libp2p#2211](https://github.com/vacp2p/nim-libp2p/pull/2211) chore(test): utilize rng() template
 - [vacp2p/nim-libp2p#2197](https://github.com/vacp2p/nim-libp2p/pull/2197) chore: reduce log level for noisy "too many channels created" log
 - [vacp2p/nim-libp2p#2056](https://github.com/vacp2p/nim-libp2p/pull/2056) chore: remove semaphore
+- [vacp2p/nim-libp2p#2294](https://github.com/vacp2p/nim-libp2p/pull/2294) feat: network simulation
+- [vacp2p/nim-libp2p#2286](https://github.com/vacp2p/nim-libp2p/pull/2286) feat(builder): `withPrivateAddressFilter`
+- [vacp2p/nim-libp2p#2279](https://github.com/vacp2p/nim-libp2p/pull/2279) chore(deps): use lsquic nimble package
+- [nim-lang/packages#3326](https://github.com/nim-lang/packages/pull/3326) Add lsquic package to `packages.json`
+- [vacp2p/nim-libp2p#2298](https://github.com/vacp2p/nim-libp2p/pull/2298) chore: add code formatting guidelines to instructions
+- [vacp2p/nim-libp2p#2277](https://github.com/vacp2p/nim-libp2p/pull/2277) chore: update API stability and experimental extensions section
+- [vacp2p/nim-libp2p#2272](https://github.com/vacp2p/nim-libp2p/pull/2272) fix(mix): track and cancel handleMixMessages futures
+- [vacp2p/nim-libp2p#2255](https://github.com/vacp2p/nim-libp2p/pull/2255) test(mix): fix flaky test "rate limit exceeded - message rejected at intermediate node"
+- [vacp2p/nim-libp2p#2259](https://github.com/vacp2p/nim-libp2p/pull/2259) test(gossipsub): fix flaky test when peers should be dropped in same heartbeat as publish
+- [vacp2p/nim-libp2p#2263](https://github.com/vacp2p/nim-libp2p/pull/2263) test(transports): fix flaky test "server writes after EOF"
+- [vacp2p/nim-libp2p#2271](https://github.com/vacp2p/nim-libp2p/pull/2271) fix: add asyncSleep before dial in "mount unstarted protocol" test to fix Windows flakiness
+- [vacp2p/nim-libp2p#2273](https://github.com/vacp2p/nim-libp2p/pull/2273) test(transports): replace sleepAsync with write loop in "server writes after EOF"
+- [vacp2p/nim-libp2p#2289](https://github.com/vacp2p/nim-libp2p/pull/2289) fix(gossipsub): flaky scoring test
+- [vacp2p/nim-libp2p#2262](https://github.com/vacp2p/nim-libp2p/pull/2262) fix(autotls): letsencrypt challenge type change
+- [vacp2p/nim-libp2p#2266](https://github.com/vacp2p/nim-libp2p/pull/2266) fix(bump): waku vendor init failing
+- [logos-messaging/logos-delivery#3812](https://github.com/logos-messaging/logos-delivery/pull/3812) chore: bump nim-jwt version
+- [vacp2p/nim-libp2p#2295](https://github.com/vacp2p/nim-libp2p/pull/2295) feat: extend libp2p_network_bytes and agents traffic metrics to all transports
+- [vacp2p/nim-libp2p#2293](https://github.com/vacp2p/nim-libp2p/pull/2293) chore: bump nph to v0.7.0
+- [vacp2p/nim-libp2p#2297](https://github.com/vacp2p/nim-libp2p/pull/2297) chore: update copilot instructions to reflect latest repository state
 
 
 ### Peerstore Address TTL

@@ -25,8 +25,8 @@ The Logos website enhancement will support Logos' strategic objectives by:
 ### Website redesign
 
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-website:website-redesign`
-* owner: unassigned
-* status: not started
+* owner: jinhojang6
+* status: in progress (5%)
 * start-date: 2026/04/01
 * end-date: 2026/06/15
 
@@ -37,6 +37,7 @@ Redesign the Logos website.
 #### Deliverables
 
 - Approved design direction (Figma)
+- [Logos website redesign review](https://www.figma.com/design/nTXI4ug9LoEc9RJqweQACC/Logos?node-id=2267-46450&t=KudG4LxotkTFovZB-0) Reviewed new website direction in Figma
 - Design system
 
 ### CMS/Sanity

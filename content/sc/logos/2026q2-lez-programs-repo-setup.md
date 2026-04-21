@@ -38,6 +38,7 @@ Address any review comments and get the branch merged to establish the canonical
 - [logos-blockchain/lez-programs#22](https://github.com/logos-blockchain/lez-programs/pull/22) chore: update `spel` and `logos-execution-zone` dependencies
 - [logos-blockchain/lez-programs#23](https://github.com/logos-blockchain/lez-programs/pull/23) cleanup(ata): remove redundant test directive
 - [logos-blockchain/lez-programs#3](https://github.com/logos-blockchain/lez-programs/pull/3) skills: update `spel-cli` references to use `spel`
+- [logos-blockchain/lez-programs#41](https://github.com/logos-blockchain/lez-programs/pull/41) ci: add IDL freshness check and consolidate artifacts
 
 ### Migrate ATA program into lez-programs
 
@@ -76,6 +77,9 @@ During the transition, keep the new `lez-programs` workspace in sync with ongoin
 - [ ] Duplicate `programs/` directory removed from `logos-execution-zone`
 - [ ] Ongoing program changes ported or synchronized into `lez-programs` during the migration window
 - [ ] PR with code review
+- [logos-blockchain/lez-programs#43](https://github.com/logos-blockchain/lez-programs/issues/43) Update to LEZ dependency to latest version
+- [logos-blockchain/lez-programs#48](https://github.com/logos-blockchain/lez-programs/issues/48) Update SPEL to the latest version
+- [logos-blockchain/lez-programs#52](https://github.com/logos-blockchain/lez-programs/pull/52) chore/update lez
 
 ### Document local development setup
 

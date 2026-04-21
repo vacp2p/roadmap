@@ -19,7 +19,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:protobuf-library`
 * owner: Nitely
-* status: in progress (50%)
+* status: in progress (75%)
 * start-date: 2026/04/01
 * end-date: 2026/04/20
 
@@ -31,6 +31,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [status-im/nim-protobuf-serialization#67](https://github.com/status-im/nim-protobuf-serialization/pull/67) Fix: treat unexpected wire type as unknown field
 - [status-im/nim-protobuf-serialization#68](https://github.com/status-im/nim-protobuf-serialization/pull/68) Improve test suite
 - [status-im/nim-protobuf-serialization#66](https://github.com/status-im/nim-protobuf-serialization/pull/66) Fix: length delimited records must only accept varint int32 length
+- [status-im/nim-protobuf-serialization#69](https://github.com/status-im/nim-protobuf-serialization/pull/69) import_proto3: Generate `seq[Entry]` for map type
 
 ### Multithreading and Thread Pool Library
 
@@ -117,7 +118,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:lsp-editor-support`
 * owner: Constantine
-* status: in progress (50%)
+* status: in progress (80%)
 * start-date: 2026/04/01
 * end-date: 2026/06/01
 
@@ -134,15 +135,16 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:docs`
 * owner: Constantine
-* status: in progress (25%)
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/04/21
 
 #### Description
 - Produce documentation for the core libs.
 
 #### Deliverables
 - [nim-lang/nimble#1657](https://github.com/nim-lang/nimble/pull/1657) Fix nimble installation instructions
+[status-im/nim-unittest2#70](https://github.com/status-im/nim-unittest2/pull/70) Add docs in MdBook format
 
 ### Maintenance
 

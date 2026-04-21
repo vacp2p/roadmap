@@ -34,6 +34,11 @@ Oversee testing strategy around releases.
 - [status-im/status-app#20386](https://github.com/status-im/status-app/pull/20386)
 - [status-im/status-app#20373](https://github.com/status-im/status-app/pull/20373)
 - [status-im/status-app#20356](https://github.com/status-im/status-app/pull/20356)
+- [status-im/status-app#20468](https://github.com/status-im/status-app/pull/20468) fix(@e2e): better config to use local waku fleet for local test development
+- [status-im/status-app#20431](https://github.com/status-im/status-app/pull/20431) tests(@e2e): add test to add community to profile showcase and verify it
+- [status-im/status-app#20391](https://github.com/status-im/status-app/pull/20391) chore(@e2e): remove duplicated screenshots from allure
+- [status-im/status-app#20271](https://github.com/status-im/status-app/issues/20271) Fix tests in 20214
+- [status-im/status-app#19856](https://github.com/status-im/status-app/issues/19856) App login is super slow when internet connection is bad
 
 ### Release Testing
 

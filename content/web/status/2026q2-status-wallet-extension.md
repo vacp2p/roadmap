@@ -80,9 +80,9 @@ Implement value chart functionality to display portfolio value over time.
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-wallet-extension:hide-small-balances`
 * owner: JulesFiliot
-* status: in progress (95%)
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/05/26
+* end-date: 2026/04/21
 
 #### Description
 
@@ -91,6 +91,7 @@ Implement feature to hide small token balances from the wallet view for cleaner 
 #### Deliverables
 
 - [status-im/status-web#1087](https://github.com/status-im/status-web/pull/1087) feat(wallet/assets-list): add hide assets < 1 USD filter
+- [status-im/status-web#1100](https://github.com/status-im/status-web/pull/1100) chore(wallet): change layout & messaging when hide<$1
 - Hide small balances functionality
 - User preference settings
 - UI toggle implementation
@@ -99,7 +100,7 @@ Implement feature to hide small token balances from the wallet view for cleaner 
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-wallet-extension:send-nft`
 * owner: jinhojang6
-* status: in progress (70%)
+* status: in progress (90%)
 * start-date: 2026/04/01
 * end-date: 2026/06/05
 
@@ -130,12 +131,13 @@ Implement multi-account support to allow users to manage multiple accounts withi
 - Multi-account functionality
 - Account switching interface
 - Account management UI
+- [status-im/status-web#1114](https://github.com/status-im/status-web/issues/1114) feat(wallet): implement multi-account support
 
 ### Multi Wallet
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-wallet-extension:multi-wallet`
 * owner: JulesFiliot
-* status: in progress (80%)
+* status: in progress (90%)
 * start-date: 2026/04/01
 * end-date: 2026/06/19
 
@@ -171,7 +173,7 @@ Implement dApp connection functionality to enable wallet extension to connect wi
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-wallet-extension:hardware-wallets`
 * owner: jinhojang6
-* status: in progress (70%)
+* status: in progress (90%)
 * start-date: 2026/04/01
 * end-date: 2026/06/26
 
@@ -189,7 +191,7 @@ Implement hardware wallet support with QR code-based connection and Keycard Shel
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-wallet-extension:browser-system-notifications`
 * owner: jinhojang6
-* status: in progress (70%)
+* status: in progress (90%)
 * start-date: 2026/04/01
 * end-date: 2026/06/26
 

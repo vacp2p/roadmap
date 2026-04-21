@@ -21,8 +21,8 @@ The Q2 LogosDelivery E2E effort is tracked under [logos-messaging/logos-delivery
 ### Maintenance
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:maintenance`
-* owner: aya
-* status: not started
+* owner: aya/roman
+* status: in progress (40%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -31,6 +31,7 @@ Ongoing maintenance of messaging testing frameworks.
 
 #### Deliverables
 - PRs / Issues / Reports
+- [logos-messaging/logos-delivery-interop-tests#164](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/164) chore: Refactor RLN tests
 
 ### Python bindings
 
@@ -60,12 +61,13 @@ Prepare the setup needed to execute the upcoming Send API scenarios and identify
 
 #### Deliverables
 - [logos-messaging/logos-delivery#3800](https://github.com/logos-messaging/logos-delivery/issues/3800)
+- [logos-messaging/logos-delivery-interop-tests#159](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/159) Prepare LogosDelivery E2E coverage
 
 ### Main tests of LogosDelivery part 1
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:logosdelivery-main-tests-part1`
 * owner: egor
-* status: not started
+* status: in progress (40%)
 * start-date: 2026/04/09
 * end-date: 2026/04/25
 
@@ -73,13 +75,13 @@ Prepare the setup needed to execute the upcoming Send API scenarios and identify
 Cover the following E2E test scenarios for the Send API: `S02`, `S06`, `S07`, `S08`, `S09`, `S10`, `S12`, `S14`, and `S15`.
 
 #### Deliverables
-- PRs / Issues
+- [logos-messaging/logos-delivery-interop-tests#173](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/173) Add S06 relay-only test and fix wrapper helpers
 
 ### Main tests of LogosDelivery part 2
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:logosdelivery-main-tests-part2`
 * owner: aya
-* status: not started
+* status: in progress (40%)
 * start-date: 2026/04/09
 * end-date: 2026/04/25
 
@@ -87,7 +89,7 @@ Cover the following E2E test scenarios for the Send API: `S02`, `S06`, `S07`, `S
 Cover the following E2E test scenarios for the Send API: `S17`, `S19`, `S20`, `S21`, `S22`, `S23`, `S24`, `S26`, `S30`, and `S31`.
 
 #### Deliverables
-- PRs / Issues
+- [logos-messaging/logos-delivery-interop-tests#172](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/172) add test s17
 
 ### Waku.test RLN smoke suite
 

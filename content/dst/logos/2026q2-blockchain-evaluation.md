@@ -35,7 +35,7 @@ work and improvements, and it is subjected to change.
 ### Devnets (recurring)
 * fully qualified name: `ift-ts:dst:logos:2026q2-blockchain-evaluation:devnets`
 * owner: Alberto
-* status: not started
+* status: in progress (30%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -47,6 +47,7 @@ and document behaviors and findings.
 
 #### Deliverables
 - Code:
+  - [vacp2p/vaclab-2#25](https://github.com/vacp2p/vaclab-2/pull/25) Update nomos consumption dashboard
 - Reports:
 
 

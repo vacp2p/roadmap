@@ -103,6 +103,7 @@ Fees accumulate as surplus in the pool vaults above the tracked reserves and are
 - [ ] Trading fee accumulation implemented in the swap instruction
 - [ ] Test coverage for fee accumulation across multiple swaps
 - [ ] PR with code review
+- [logos-blockchain/lez-programs#46](https://github.com/logos-blockchain/lez-programs/pull/46) feat(amm): apply trading fees to LP accounting
 
 ### Fix remove_lp to distribute proportional vault balance
 

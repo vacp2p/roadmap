@@ -26,7 +26,7 @@ Do this monthly, reliably, with documentation of findings.
 ### Closeness score
 * fully qualified name: `ift-ts:dst:logos:2026q2-anoncomms-evaluation:closeness-score`
 * owner: Alan
-* status: in progress (20%)
+* status: in progress (70%)
 * start-date: 2026/04/09
 * end-date: 2026/04/24
 
@@ -43,6 +43,8 @@ For more information, refer to [this document](https://www.notion.so/KAD-DHT-pla
 #### Deliverables
 - Code:
 - Reports:
+  - [KAD-DHT Planning](https://www.notion.so/KAD-DHT-planning-3098f96fb65c801eb80ccc0b3f395eb6#3098f96fb65c80a1bcf4f27cdafb5b9f)
+  - [Nim-libp2p Bootstrapping Bug](https://www.notion.so/Nim-libp2p-Bootstraping-Bug-3438f96fb65c809484e0cbf9575310d8)
 
 ### Mix
 > *Note*: This needs more input from project

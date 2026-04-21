@@ -53,6 +53,7 @@ The tests were built in Q1 but reverted because of flakiness; the multi-device i
 - `test_messaging_group_chat.py` with 3-device execution
 - Member management, link preview, and leave-chat assertions validated
 - 11 assertions matching desktop critical parity
+- First draft of the 3-device group chat suite covering 7 tests
 
 ### Messaging 1x1 completion
 
@@ -159,6 +160,7 @@ Keep the framework healthy while the app changes.
 - Locator migration from `xpath` and `resource-id` to `accessibility_id` continued
 - [status-im/status-app#20308](https://github.com/status-im/status-app/pull/20308) fix(e2e_appium): improve test timing for light-client messaging
 - [status-im/status-go#7393](https://github.com/status-im/status-go/issues/7393) Light clients can silently lose messages sent immediately after contact acceptance
+- [status-im/status-app#20460](https://github.com/status-im/status-app/issues/20460) Android splash / grey content after backgrounding
 
 ### Release testing
 
@@ -175,3 +177,4 @@ Support mobile release testing efforts:
 
 #### Deliverables
 - PRs and Issues
+- Manual 2.38 checks completed for 3 of 5 critical items, with notifications partially verified and one item blocked

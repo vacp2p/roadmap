@@ -72,3 +72,25 @@ this implementation or if there is another factor.
 - Reports:
     - [LSQUIC RAW Benchmark in vaclab](https://www.notion.so/LSQUIC-RAW-Benchmark-in-vaclab-33c8f96fb65c802480baf186f3fa2fcf)
     - [NimLibp2p Random Delay Spikes when using QUIC](https://www.notion.so/NimLibp2p-Random-Delay-Spikes-when-using-QUIC-3478f96fb65c80e3af66fa0e999dc975)
+
+
+### priority queues
+
+* fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:priority-queues`
+* owner: TBD
+* status: not started
+* start-date: 2026/04/01
+* end-date: 2026/06/30
+
+#### Description
+Help validating new changes around priority queues and slow peer behavbior in nim-libp2p introduced in
+https://github.com/vacp2p/nim-libp2p/pull/2269
+https://github.com/vacp2p/nim-libp2p/pull/2241
+Check that control message and subscriptions traffic remains reliable, Queues behave as expected, 
+that the slow peer penalty is applied and decays overtime, and that the values selected for `slowPeerPenaltyWeight`, 
+`slowPeerPenaltyThreshold` and `slowPeerPenaltyDecay` are not too aggressive, and that there are not regressions.
+
+
+#### Deliverables
+- Code:
+- Reports:

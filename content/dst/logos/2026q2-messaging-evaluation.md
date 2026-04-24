@@ -45,6 +45,22 @@ and ensure they don't happen again.
 - Reports:
 
 
+### load metric
+
+* fully qualified name: `ift-ts:dst:logos:2026q2-messaging-evaluation:load-metric`
+* owner: Alberto
+* status: not started
+* start-date: 2026/04/27
+* end-date: 2026/05/07
+
+#### Description
+Include new metric for load in logos-delivery experiments introduced in https://github.com/logos-messaging/logos-delivery/pull/3808
+
+#### Deliverables
+- Code:
+- Reports:
+
+
 ### quic vs tcp
 
 * fully qualified name: `ift-ts:dst:logos:2026q2-messaging-evaluation:quic-vs-tcp`

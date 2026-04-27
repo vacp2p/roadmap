@@ -21,8 +21,11 @@ Major future work items on nim-libp2p (also beyond this reporting period are cap
 * [[p2p/ift/2026q2-nimlibp2p-cbindings|nimlibp2p-cbindings]]
 * [[p2p/ift/2026q2-nimlibp2p-connection-management|nimlibp2p-connection-management]]
 * [[p2p/ift/2026q2-nimlibp2p-gossipsub-queues|nimlibp2p-gossipsub-queues]]
+* [[p2p/ift/2026q2-nimlibp2p-kad-dht-optimizations|nimlibp2p-kad-dht-optimizations]]
 * [[p2p/ift/2026q2-nimlibp2p-logos-core|nimlibp2p-logos-core]]
 * [[p2p/ift/2026q2-nimlibp2p-maintenance|nimlibp2p-maintenance]]
+* [[p2p/ift/2026q2-nimlibp2p-nat-traversal|nimlibp2p-nat-traversal]]
+* [[p2p/ift/2026q2-nimlibp2p-stream-connection-refactor|nimlibp2p-stream-connection-refactor]]
 
 
 ## 2026q1 `ift-ts:p2p:`
@@ -94,5 +97,4 @@ Major future work items on nim-libp2p (also beyond this reporting period are cap
 
 #### `acz:`
 * [[p2p/acz/2025q1-acz-consulting|2025q1-acz-consulting]]
-
 

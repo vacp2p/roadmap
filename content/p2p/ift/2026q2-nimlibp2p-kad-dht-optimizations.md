@@ -37,7 +37,7 @@ nim-libp2p Kad-DHT implementation.
 ### Kad-DHT Connection Field Privacy
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-kad-dht-optimizations:connection-field-privacy`
-* owner: not assigned yet
+* owner: gabe
 * status: not started
 * start-date: 2026/05/01
 * end-date: 2026/06/30
@@ -58,7 +58,7 @@ that send other `ConnectionType` values.
 ### Provider Record Spillover
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-kad-dht-optimizations:provider-record-spillover`
-* owner: not assigned yet
+* owner: gabe
 * status: not started
 * start-date: 2026/04/01
 * end-date: 2026/06/30

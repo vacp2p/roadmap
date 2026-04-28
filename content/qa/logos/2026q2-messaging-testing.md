@@ -22,7 +22,7 @@ The Q2 LogosDelivery E2E effort is tracked under [logos-messaging/logos-delivery
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:maintenance`
 * owner: aya/roman
-* status: in progress (40%)
+* status: in progress (60%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -32,6 +32,7 @@ Ongoing maintenance of messaging testing frameworks.
 #### Deliverables
 - PRs / Issues / Reports
 - [logos-messaging/logos-delivery-interop-tests#164](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/164) chore: Refactor RLN tests
+- [logos-messaging/logos-delivery-interop-tests#177](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/177) Fix for wrong url of reports
 
 ### Python bindings
 
@@ -89,7 +90,7 @@ Cover the following E2E test scenarios for the Send API: `S02`, `S06`, `S07`, `S
 Cover the following E2E test scenarios for the Send API: `S17`, `S19`, `S20`, `S21`, `S22`, `S23`, `S24`, `S26`, `S30`, and `S31`.
 
 #### Deliverables
-- [logos-messaging/logos-delivery-interop-tests#172](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/172) add test s17
+- [logos-messaging/logos-delivery#3827](https://github.com/logos-messaging/logos-delivery/issues/3827) Schema mismatch
 
 ### Waku.test RLN smoke suite
 

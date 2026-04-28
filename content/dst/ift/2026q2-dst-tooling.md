@@ -52,6 +52,7 @@ Should be made general when possible.
   - [vacp2p/dst-libp2p-test-node#21](https://github.com/vacp2p/dst-libp2p-test-node/pull/21) Update Docker files for amd and arm
   - [vacp2p/dst-libp2p-test-node#16](https://github.com/vacp2p/dst-libp2p-test-node/pull/16) update dockerfiles
   - [vacp2p/pod-api-requester#5](https://github.com/vacp2p/pod-api-requester/pull/5) Added lru cache to getting pods
+  - [vacp2p/10ksim#243](https://github.com/vacp2p/10ksim/pull/243) Analysis: Fix dumping logs for missed messages
 - Reports:
 - Other:
   - Fixed `zerotesting-store` so it runs on k8s

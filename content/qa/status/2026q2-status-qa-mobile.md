@@ -166,7 +166,7 @@ Keep the framework healthy while the app changes.
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-mobile:release-testing`
 * owner: magnus
-* status: not started
+* status: in progress (30%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -176,5 +176,5 @@ Support mobile release testing efforts:
 - Regression test execution
 
 #### Deliverables
-- PRs and Issues
+- [status-im/status-app#20513](https://github.com/status-im/status-app/issues/20513) Addition of new chains
 - Manual 2.38 checks completed for 3 of 5 critical items, with notifications partially verified and one item blocked

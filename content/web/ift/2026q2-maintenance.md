@@ -41,6 +41,8 @@ Execute upkeep across delivered web properties for Q2: dependency and security b
 
 #### Deliverables
 
+- [acid-info/logos-press-engine#269](https://github.com/acid-info/logos-press-engine/pull/269) fix(home): load all highlighted posts so "Show More" doesn't skip content
+- [acid-info/admin-acid.logos.co#31](https://github.com/acid-info/admin-acid.logos.co/issues/31) Use BI's GitHub data instead of ours
 - [acid-info/lpe-cms#5](https://github.com/acid-info/lpe-cms/pull/5) Add og_image field and auto-generate JPEG OG images on post publish
 - [acid-info/logos-press-engine#267](https://github.com/acid-info/logos-press-engine/pull/267) Pre-generate OG images as JPEG via Strapi lifecycle and serve static URLs
 - [acid-info/logos-press-engine#268](https://github.com/acid-info/logos-press-engine/pull/268) feat(calendar): shift dates and times according to browser's time zone

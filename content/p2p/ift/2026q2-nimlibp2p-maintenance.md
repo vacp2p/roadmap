@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (21%)
+* status: in progress (29%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -36,6 +36,13 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors, and bug fixes.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2307](https://github.com/vacp2p/nim-libp2p/pull/2307) chore(copilot): add more instructions
+- [vacp2p/nim-libp2p#2331](https://github.com/vacp2p/nim-libp2p/pull/2331) fix(floodsub): increase timeout for large message transfer in FloodSub message size validation 2
+- [vacp2p/nim-lsquic#83](https://github.com/vacp2p/nim-lsquic/pull/83) fix: shutdown and stream lifecycle handling
+- [vacp2p/nim-libp2p#2312](https://github.com/vacp2p/nim-libp2p/pull/2312) chore: bump deps
+- [vacp2p/nim-libp2p#2309](https://github.com/vacp2p/nim-libp2p/pull/2309) chore: use latest deps used on projects instead of just the latest deps
+- [vacp2p/nim-lsquic#81](https://github.com/vacp2p/nim-lsquic/pull/81) feat: StreamReset
+- [vacp2p/nim-libp2p#2304](https://github.com/vacp2p/nim-libp2p/pull/2304) fix(ci): new delete action cache job
 - [vacp2p/nim-lsquic#79](https://github.com/vacp2p/nim-lsquic/pull/79) feat: benchmarks
 - [vacp2p/nim-lsquic#78](https://github.com/vacp2p/nim-lsquic/pull/78) fix: call engine_process synchronously if possible, otherwise defer to ticker event loop
 - [vacp2p/nim-libp2p#2244](https://github.com/vacp2p/nim-libp2p/pull/2244) chore: remove unused ngtcp2 dependency from pinned list

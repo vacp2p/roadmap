@@ -49,8 +49,8 @@ Address any outstanding review comments, ensure full test coverage, and get the 
 ### Complete exact output swap (tests + PR)
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-amm-program-completion:exact-output-swap-tests`
-* owner: TBD
-* status: not started
+* owner: Andrea
+* status: in progress (30%)
 * start-date: 2026/04/01
 * end-date: 2026/04/15
 
@@ -60,9 +60,8 @@ The exact output swap implementation was completed in Q1 but lacks tests and a m
 Write comprehensive tests covering exact output swap scenarios (including slippage, edge cases, and fee interactions) and get the PR reviewed and merged.
 
 #### Deliverables
+- [logos-blockchain/lez-programs#50](https://github.com/logos-blockchain/lez-programs/pull/50) setup initial AMM app base UI
 
-- [ ] Test suite for exact output swap scenarios
-- [ ] PR with code review and merge
 
 ### Implement configurable fee tiers
 

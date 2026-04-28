@@ -82,8 +82,8 @@ Update website copy and reduce sections to improve clarity and user experience.
 ### Selfhosting
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-website:selfhosting`
-* owner: unassigned
-* status: not started
+* owner: Felicio
+* status: in progress (60%)
 * start-date: 2026/05/26
 * end-date: 2026/06/12
 
@@ -96,3 +96,4 @@ Set up self-hosting infrastructure and deployment processes for the Status websi
 - Self-hosting configuration
 - Deployment documentation
 - Infrastructure setup
+- [status-im/status-web#946](https://github.com/status-im/status-web/issues/946) Setting up self-hosting of status.app

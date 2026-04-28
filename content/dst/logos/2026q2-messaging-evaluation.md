@@ -43,6 +43,7 @@ and ensure they don't happen again.
 - Code:
     - [vacp2p/10ksim#241](https://github.com/vacp2p/10ksim/pull/241) Update broken message_injector
 - Reports:
+    - [Notion: Logos-delivery regression testing - v0.38 - April 2026](https://www.notion.so/Logos-delivery-regression-testing-v0-38-April-2026-WIP-34a8f96fb65c806b8fd2c7c830ba4463)
 
 
 ### load metric

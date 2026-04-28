@@ -19,7 +19,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:protobuf-library`
 * owner: Nitely
-* status: in progress (75%)
+* status: in progress (90%)
 * start-date: 2026/04/01
 * end-date: 2026/04/20
 
@@ -28,6 +28,10 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Close the remaining functionality, quality, and API gaps needed for broader adoption in IFT and Logos work.
 
 #### Deliverables
+- [status-im/nim-protobuf-serialization#74](https://github.com/status-im/nim-protobuf-serialization/pull/74) Return whether the field is known in `readFieldInto`
+- [status-im/nim-protobuf-serialization#73](https://github.com/status-im/nim-protobuf-serialization/pull/73) Validate `PBOption` inner type
+- [status-im/nim-protobuf-serialization#72](https://github.com/status-im/nim-protobuf-serialization/pull/72) Fix header varint read
+- [status-im/nim-protobuf-serialization#71](https://github.com/status-im/nim-protobuf-serialization/pull/71) Add `valueOr` for `PBOption`
 - [status-im/nim-protobuf-serialization#67](https://github.com/status-im/nim-protobuf-serialization/pull/67) Fix: treat unexpected wire type as unknown field
 - [status-im/nim-protobuf-serialization#68](https://github.com/status-im/nim-protobuf-serialization/pull/68) Improve test suite
 - [status-im/nim-protobuf-serialization#66](https://github.com/status-im/nim-protobuf-serialization/pull/66) Fix: length delimited records must only accept varint int32 length
@@ -158,6 +162,9 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Ongoing maintenance and fixes across Nim core libraries.
 
 #### Deliverables
+- [status-im/nim-json-rpc#264](https://github.com/status-im/nim-json-rpc/pull/264) Make async pragma required in rpc context API
+- [status-im/nim-json-rpc#271](https://github.com/status-im/nim-json-rpc/pull/271) Fix custom socket framing to support concurrency
+- [status-im/nim-json-rpc#270](https://github.com/status-im/nim-json-rpc/pull/270) Fix #261 regression; support unordered responses again
 - [status-im/nim-stint#180](https://github.com/status-im/nim-stint/pull/180) Fixed CI for 32-bit Linux
 - [status-im/nim-stint#157](https://github.com/status-im/nim-stint/issues/157) Implement carryingAdd on uint64 for 32-bit platforms
 - [status-im/nim-stint#179](https://github.com/status-im/nim-stint/issues/179) CI failing on 32-bit Linux

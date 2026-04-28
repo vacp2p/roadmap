@@ -20,8 +20,8 @@ reviewing updates, keeping references consistent, and handling routine quality i
 ### Maintenance
 
 * fully qualified name: `ift-ts:rfc:ift:2026q2-lip-index-maintenance:maintenance`
-* owner: filip
-* status: in progress (10%)
+* owner: filip/florin
+* status: in progress (30%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -36,15 +36,17 @@ adding new rules and features to the website,
 as well as any potential improvements discussed by the team(s).
 
 #### Deliverables
+- https://github.com/logos-co/logos-lips/pull/319
+- https://github.com/logos-co/logos-lips/pull/314
+- https://github.com/logos-co/logos-lips/pull/313
+- https://github.com/logos-co/logos-lips/pull/312
 
-- Updates to the lip.logos.co
-- PRs
 
 ### Review Pipeline
 
 - fully qualified name: `ift-ts:rfc:ift:2026q2-lip-index-maintenance:review-pipeline`
 - owner: cofson
-- status: not started
+- status: in progress (30%)
 - start-date: 2026/04/01
 - end-date: 2026/06/30
 
@@ -56,14 +58,16 @@ this includes (and not limited to)
 Blockchain, Storage, Anoncomms, ACZ.
 
 #### Deliverables
-- Reviews on existing written specifications, approvals
-and comments.
+- https://github.com/logos-co/logos-lips/pull/303
+- https://github.com/logos-co/logos-lips/pull/305
+- https://github.com/logos-co/logos-lips/pull/310
+
 
 ### Adversarial Spec - IFT
 
 * fully qualified name: `ift-ts:rfc:ift:2026q2-lip-index-maintenance:adversarial-spec-ift`
 * owner: filip
-* status: not started
+* status: in progress (40%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -74,14 +78,13 @@ of new specs based on https://github.com/vacp2p/adversarial-spec-ift
 while polishing the skill and engaging in relevant workshops in regards to it.
 
 #### Deliverables
-
-- New versions of adversarial spec.
+- https://github.com/vacp2p/adversarial-spec-ift/pull/1
 
 ### COSS Update
 
 * fully qualified name: `ift-ts:rfc:ift:2026q2-lip-index-maintenance:coss-update`
 * owner: filip
-* status: not started
+* status: done
 * start-date: 2026/04/01
 * end-date: 2026/05/01
 
@@ -102,7 +105,4 @@ at least temporarily. TBD
 when something has been implemented by a non-IFT entity.
 
 #### Deliverables
-
-- Updated 1/COSS
-- Any affected specs by these changes should be updated.
-Likely none.
+- https://github.com/logos-co/logos-lips/pull/308

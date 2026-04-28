@@ -133,7 +133,7 @@ Cover scenarios that can catch UDP and address-family issues, especially around 
 
 * fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:interop-test-plans`
 * owner: radek
-* status: in progress (60%)
+* status: in progress (85%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -143,6 +143,8 @@ Revisit Kademlia interop coverage as part of this work if the upstream `libp2p/t
 If time permits, improve the existing partial messages interop test with additional logic, since functional coverage for partial messages and extensions is already considered complete.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2313](https://github.com/vacp2p/nim-libp2p/pull/2313) test(interop): GossipSub - fixes (part 3)
+- [vacp2p/nim-libp2p#2310](https://github.com/vacp2p/nim-libp2p/pull/2310) test(gossipsub): partial messages with fanout bug + fix
 - [vacp2p/nim-libp2p#2240](https://github.com/vacp2p/nim-libp2p/pull/2240) test(interop): GossipSub - core instructions (part 1)
 - [vacp2p/nim-libp2p#2239](https://github.com/vacp2p/nim-libp2p/pull/2239) feat: create Ed25519 key from seed
 - [vacp2p/nim-libp2p#2195](https://github.com/vacp2p/nim-libp2p/pull/2195) test(multiaddress): getField protobuf tests

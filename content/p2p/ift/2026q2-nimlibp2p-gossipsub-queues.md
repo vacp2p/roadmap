@@ -103,7 +103,7 @@ depth should also contribute to peer scoring as a secondary pruning signal.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-gossipsub-queues:validation`
 * owner: richard
-* status: in progress (20%)
+* status: in progress (50%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 

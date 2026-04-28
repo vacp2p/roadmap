@@ -26,7 +26,7 @@ Do this monthly, reliably, with documentation of findings.
 ### Closeness score
 * fully qualified name: `ift-ts:dst:logos:2026q2-anoncomms-evaluation:closeness-score`
 * owner: Alan
-* status: in progress (70%)
+* status: in progress (90%)
 * start-date: 2026/04/09
 * end-date: 2026/04/24
 
@@ -42,9 +42,12 @@ For more information, refer to [this document](https://www.notion.so/KAD-DHT-pla
 
 #### Deliverables
 - Code:
+  - [vacp2p/nim-libp2p#2336](https://github.com/vacp2p/nim-libp2p/issues/2336) TCP connection bug in nim-libp2p
 - Reports:
   - [KAD-DHT Planning](https://www.notion.so/KAD-DHT-planning-3098f96fb65c801eb80ccc0b3f395eb6#3098f96fb65c80a1bcf4f27cdafb5b9f)
   - [Nim-libp2p Bootstrapping Bug](https://www.notion.so/Nim-libp2p-Bootstraping-Bug-3438f96fb65c809484e0cbf9575310d8)
+  - [KAD-DHT Testing Results](https://www.notion.so/KAD-DHT-Result-3498f96fb65c80d993d8d2cff989c141)
+  - [KAD-DHT Bootstrap Problems and Solutions](https://www.notion.so/Nim-libp2p-Bootstraping-Problems-with-KAD-DHT-3438f96fb65c809484e0cbf9575310d8)
 
 ### Mix
 > *Note*: This needs more input from project

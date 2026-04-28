@@ -30,7 +30,7 @@ while allow provisioning to other teams dedicated machines if they are needed.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-lab:analyze-current-stack`
 * owner: Mamoutou
-* status: not started
+* status: in progress
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -41,5 +41,5 @@ Report findings with analysis and benchmarks of the results.
 
 #### Deliverables
 - Code:
+  - [vacp2p/vaclab-2#27](https://github.com/vacp2p/vaclab-2/pull/27) Add OTLP Collector Authorization Bearer
 - Reports:
-

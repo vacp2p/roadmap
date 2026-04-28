@@ -54,7 +54,7 @@ and ensure they don't happen again.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:nim-lsquic-benchmark`
 * owner: Mamoutou
-* status: in progress (70%)
+* status: in progress (75%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -69,9 +69,11 @@ this implementation or if there is another factor.
 #### Deliverables
 - Code:
     - [vacp2p/dst-nim-lsquic-test](https://github.com/vacp2p/dst-nim-lsquic-test)
+    - [mamoutoudiarra/nim-libp2p-test:v1.1](https://hub.docker.com/repository/docker/mamoutoudiarra/nim-libp2p-test/tags/v1.1/sha256-8d71e4851734fdee37b6b87cda3f0d560336e4e05767c9d28db9640210f99942) Docker image with exposed GossipSub parameters
 - Reports:
     - [LSQUIC RAW Benchmark in vaclab](https://www.notion.so/LSQUIC-RAW-Benchmark-in-vaclab-33c8f96fb65c802480baf186f3fa2fcf)
     - [NimLibp2p Random Delay Spikes when using QUIC](https://www.notion.so/NimLibp2p-Random-Delay-Spikes-when-using-QUIC-3478f96fb65c80e3af66fa0e999dc975)
+    - [Experiments with Gossip parameters](https://www.notion.so/NimLibp2p-Random-Delay-Spikes-when-using-QUIC-3478f96fb65c80e3af66fa0e999dc975?source=copy_link#34f8f96fb65c80699751d64dcbc69ec7)
 
 
 ### priority queues

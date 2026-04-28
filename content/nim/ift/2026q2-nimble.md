@@ -32,6 +32,9 @@ All the relevant information can be found in [this GitHub issue](https://github.
 This remains the short-term roadmap for replacing pieces of the Nimbus build system bit by bit while improving Nimble overall.
 
 #### Deliverables
+- [nim-lang/nimble#1680](https://github.com/nim-lang/nimble/pull/1680) Make async discovery the default
+- [nim-lang/nimble#1679](https://github.com/nim-lang/nimble/pull/1679) Remove old sync version discovery path, add `--discovery:sync|async` flag
+- [nim-lang/nimble#1676](https://github.com/nim-lang/nimble/pull/1676) Enable async parallel package version discovery
 - [nim-lang/nimble#1668](https://github.com/nim-lang/nimble/pull/1668) Dissolve vnext
 - [nim-lang/nimble#1667](https://github.com/nim-lang/nimble/pull/1667) Update version to 0.99.1
 - [nim-lang/nimble#1665](https://github.com/nim-lang/nimble/pull/1665) refactor: extract version discovery into versiondiscovery.nim

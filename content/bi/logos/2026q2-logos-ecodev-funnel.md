@@ -32,3 +32,4 @@ Complet the Ecodev Funnel dashboard to show ecosystem activity
 #### Deliverables
 
 - Dashbaord: https://superset.bi.status.im/superset/dashboard/logos-funnel/
+- Issue mapping updated and Logos testnet node data extracted

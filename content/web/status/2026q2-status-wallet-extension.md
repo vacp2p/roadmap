@@ -61,8 +61,8 @@ Collaborate with QA team to define comprehensive test cases for wallet extension
 ### Value Chart
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-wallet-extension:value-chart`
-* owner: unassigned
-* status: not started
+* owner: JulesFiliot
+* status: in progress (10%)
 * start-date: 2026/05/12
 * end-date: 2026/06/05
 
@@ -113,6 +113,7 @@ Implement functionality to send NFTs from the wallet extension.
 - Send NFT feature
 - NFT transfer interface
 - Transaction handling
+- [status-im/status-web#1089](https://github.com/status-im/status-web/pull/1089) Implement NFT transfer functionality with gas fee estimation
 
 ### Multi Account
 
@@ -137,9 +138,9 @@ Implement multi-account support to allow users to manage multiple accounts withi
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-wallet-extension:multi-wallet`
 * owner: JulesFiliot
-* status: in progress (90%)
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/19
+* end-date: 2026/04/28
 
 #### Description
 
@@ -150,12 +151,13 @@ Implement multi-wallet support to allow users to connect and manage multiple wal
 - Multi-wallet functionality
 - Wallet connection management
 - Wallet switching interface
+- [status-im/status-web#1097](https://github.com/status-im/status-web/pull/1097) feat(wallet): implement multi-wallets
 
 ### Dapp Connection
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-wallet-extension:dapp-connection`
-* owner: unassigned
-* status: not started
+* owner: JulesFiliot
+* status: in progress (80%)
 * start-date: 2026/06/05
 * end-date: 2026/06/19
 
@@ -168,6 +170,7 @@ Implement dApp connection functionality to enable wallet extension to connect wi
 - dApp connection system
 - Connection approval interface
 - dApp integration support
+- [status-im/status-web#1117](https://github.com/status-im/status-web/issues/1117) fix(hub-wallet): connectkit bug on wallet connect - needs reload
 
 ### Hardware Wallets
 
@@ -204,3 +207,4 @@ Implement browser and system notifications to alert users of wallet activities a
 - Notification system implementation
 - Browser notification integration
 - System notification support
+- [status-im/status-web#1095](https://github.com/status-im/status-web/pull/1095) Add browser notifications for wallet transactions

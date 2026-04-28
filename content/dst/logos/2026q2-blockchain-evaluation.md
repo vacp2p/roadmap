@@ -47,7 +47,8 @@ and document behaviors and findings.
 
 #### Deliverables
 - Code:
-  - [vacp2p/vaclab-2#25](https://github.com/vacp2p/vaclab-2/pull/25) Update nomos consumption dashboard
+  - [vacp2p/vaclab-2#25](https://github.com/vacp2p/vaclab-2/pull/25) Update blockchain consumption dashboard
+  - [vacp2p/vaclab-2#26](https://github.com/vacp2p/vaclab-2/pull/26) Update blockchain dashboard
 - Reports:
 
 

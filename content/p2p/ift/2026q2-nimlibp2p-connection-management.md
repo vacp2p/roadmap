@@ -23,7 +23,7 @@ The current connection manager is limited to cap total connections but doesn’t
 ### Hi/Lo limits
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-connection-management:limits`
 * owner: vlado
-* status: not started
+* status: done
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -31,31 +31,30 @@ The current connection manager is limited to cap total connections but doesn’t
 Implement a hi/lo watermark subsystem. When connections exceed the higher limit, trigger a pruning cycle that continues until below the lower limit. Expose configuration options and allow switching between watermark mode and simple max-limit mode.
 
 #### Deliverables
-Hi-Lo watermark behavior for managing number of connections
+- [vacp2p/nim-libp2p#2325](https://github.com/vacp2p/nim-libp2p/pull/2325)
 
 ### Connection score
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-connection-management:score`
 * owner: vlado
-* status: not started
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/04/28
 
 #### Description
 Implement a per-connection scoring system with static and ephemeral tags. Ephemeral tags decay linearly (or by chosen function) so its importance decreases over time. Allow marking connections as “protected” to exempt them from pruning. Outbound connections should naturally have a higher score than incoming connections
 
 #### Deliverables
-- API for adding/removing tags, setting weights, toggling decay  
-- Protected-peer mechanism with hard guarantees  
+- [vacp2p/nim-libp2p#2316](https://github.com/vacp2p/nim-libp2p/pull/2316) feat(connmanager): ephemeral tags
 
 ### AutoPrune
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-connection-management:autoprune`
 * owner: vlado
-* status: not started
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/04/28
 
 #### Description
 Implement pruning logic driven by the connection score. During pruning cycles, sort peers by score; Trim the lowest first with ties broken by heuristics such as connection age. Emit connection events once connections are pruned
 
 #### Deliverables
-- Automatically prune connections
+- [vacp2p/nim-libp2p#2316](https://github.com/vacp2p/nim-libp2p/pull/2327)

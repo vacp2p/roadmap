@@ -78,8 +78,8 @@ Include unit tests covering instruction building and account derivation.
 ### Implement pre-swap simulation
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-dex-sdk:pre-swap-simulation`
-* owner: TBD
-* status: not started
+* owner: Ricardo
+* status: in progress (20%)
 * start-date: 2026/05/15
 * end-date: 2026/06/15
 

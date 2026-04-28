@@ -45,9 +45,9 @@ entries.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-cbindings:handlers`  
 * owner: rramos
-* status: not started
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/04/28
 
 #### Description
 Create a set of C functions that allows a user of the bindings to register
@@ -57,15 +57,16 @@ custom protocol handlers and read from or write to streams.
 - C API for registering custom protocol handlers
 - Stream read/write support exposed through the bindings
 - Tests covering protocol handler registration and stream I/O
+- [vacp2p/nim-libp2p#2314](https://github.com/vacp2p/nim-libp2p/pull/2314) feat(cbind): register custom protocol handlers
 
 
 ### Capability Discovery
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-cbindings:capability-discovery`  
 * owner: gabe
-* status: not started
+* status: done
 * start-date: 2026/04/17
-* end-date: 2026/04/24
+* end-date: 2026/04/28
 
 #### Description
 Create a set of C functions that allows a user of the bindings to use
@@ -75,6 +76,7 @@ This task depends on `ift-ts:p2p:ift:2026q2-anoncomms-consulting:capability-disc
 #### Deliverables
 - C API for capability discovery
 - Example or test coverage for capability discovery through the bindings
+- [vacp2p/nim-libp2p#2324](https://github.com/vacp2p/nim-libp2p/pull/2324) chore(cbind): add service discovery
 
 
 

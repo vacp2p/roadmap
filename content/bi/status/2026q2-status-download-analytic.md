@@ -36,3 +36,4 @@ Create a dashboard to monitore Public Community usage in status
 - Conversion rate with GIthub Download
 - App store download
 - Play store download
+- Dashboard updated with improved Play Store data

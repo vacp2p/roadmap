@@ -96,3 +96,23 @@ that the slow peer penalty is applied and decays overtime, and that the values s
 #### Deliverables
 - Code:
 - Reports:
+
+
+### connection manager
+
+* fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:connection-manager`
+* owner: TBD
+* status: not started
+* start-date: 2026/04/01
+* end-date: 2026/06/30
+
+#### Description
+Switch builder now has an option for pruning behavior, and connection manager has ephemeral tag mechanisms. More info:
+https://github.com/vacp2p/nim-libp2p/blob/master/examples/tutorial_5_connmanager.nim
+Help validating cahnges of watermark mode as well as connection scoring mechanism.
+Provide feedback if examples are not clear, and create scenarios to validate the behavior and impact of this new changes.
+
+
+#### Deliverables
+- Code:
+- Reports:

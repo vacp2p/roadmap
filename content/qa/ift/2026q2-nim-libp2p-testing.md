@@ -13,7 +13,7 @@ description: Expand nim-libp2p testing coverage with focus on new protocols, tes
 ## Description
 Expand nim-libp2p testing coverage, documentation, and tooling with focus on new features under development.
 Continue the remaining protocol coverage and interop planning work carried over from Q1.
-Support additional Q2 libp2p work where QA help is expected, including gossipsub queue behavior, connection management, peerstore TTL handling, QUIC-related validation, dual-stack IPv4/IPv6 coverage, and interop validation where useful.
+Support additional Q2 libp2p work where QA help is expected, including service discovery, gossipsub queue behavior, connection management, peerstore TTL handling, QUIC-related validation, dual-stack IPv4/IPv6 coverage, and interop validation where useful.
 
 ## Task List
 
@@ -169,3 +169,19 @@ This includes quick-turn support for transport-start inconsistencies, protocol-l
 - [vacp2p/nim-libp2p#2229](https://github.com/vacp2p/nim-libp2p/pull/2229) test(transport): inconsistent start behaviour
 - [vacp2p/nim-libp2p#2230](https://github.com/vacp2p/nim-libp2p/issues/2230) transports: inconsistent start behaviour
 - Validation notes for fixes landed outside the main feature-track tasks
+
+### Service Discovery Testing
+
+* fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:service-discovery`
+* owner: radek
+* status: not started
+* start-date: 2026/05/04
+* end-date: 2026/06/30
+
+#### Description
+Implement unit and component tests for the [Logos Service Discovery protocol](https://lip.logos.co/ift-ts/raw/logos-service-discovery.html).
+Cover the main advertise and discovery flows, including compatibility with Kad DHT behavior.
+Include tests for advertiser, discoverer, and registrar behavior, service ID hashing, advertisement expiry, admission control, lookups, and closer peer responses.
+
+#### Deliverables
+- PRs with added tests

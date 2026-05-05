@@ -104,7 +104,7 @@ Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via i
 
 ### KAD-DHT optimizations
 
-* fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-kad-dht-optimizations`
+* fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:kad-dht-optimizations`
 * owner: gabe
 * status: in progress (25%)
 * start-date: 2026/04/01

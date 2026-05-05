@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (29%)
+* status: in progress (36%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -76,6 +76,45 @@ Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via i
 - [vacp2p/nim-libp2p#2295](https://github.com/vacp2p/nim-libp2p/pull/2295) feat: extend libp2p_network_bytes and agents traffic metrics to all transports
 - [vacp2p/nim-libp2p#2293](https://github.com/vacp2p/nim-libp2p/pull/2293) chore: bump nph to v0.7.0
 - [vacp2p/nim-libp2p#2297](https://github.com/vacp2p/nim-libp2p/pull/2297) chore: update copilot instructions to reflect latest repository state
+- [vacp2p/nim-libp2p#2370](https://github.com/vacp2p/nim-libp2p/pull/2370) fix(pubsub): track pending sends without adding backpressure
+- [vacp2p/nim-libp2p#2368](https://github.com/vacp2p/nim-libp2p/pull/2368) feat(pubsub): reduce publish-time message copies with sink
+- [status-im/nimbus-eth2#7775](https://github.com/status-im/nimbus-eth2/pull/7775) feat: quic transport support
+- [vacp2p/nim-libp2p#2283](https://github.com/vacp2p/nim-libp2p/pull/2283) feat: reset stream
+- [vacp2p/nim-libp2p#2390](https://github.com/vacp2p/nim-libp2p/pull/2390) refactor: unify default DNS servers under dnsresolver
+- [vacp2p/nim-libp2p#2376](https://github.com/vacp2p/nim-libp2p/pull/2376) fix: prevent GossipSub from relaying messages back to original source
+- [vacp2p/nim-libp2p#2374](https://github.com/vacp2p/nim-libp2p/pull/2374) fix: truncated `identify: decoded message` log due to unbounded address list
+- [vacp2p/nim-libp2p#2377](https://github.com/vacp2p/nim-libp2p/pull/2377) chore: move interop ignore items to their own gitignore
+- [vacp2p/nim-libp2p#2379](https://github.com/vacp2p/nim-libp2p/pull/2379) fix: replace generic `payload` log key with descriptive names in pubsub
+- [vacp2p/nim-libp2p#2375](https://github.com/vacp2p/nim-libp2p/pull/2375) chore: add clang-format linter for cbind/ C code
+- [vacp2p/nim-libp2p#2389](https://github.com/vacp2p/nim-libp2p/pull/2389) fix: propagate shortAgent through wrapped connection chain to restore peer metrics
+- [vacp2p/nim-libp2p#2365](https://github.com/vacp2p/nim-libp2p/pull/2365) chore: removing `.public.` pragma
+- [vacp2p/nim-libp2p#2366](https://github.com/vacp2p/nim-libp2p/pull/2366) chore: removing deprecated things
+- [vacp2p/nim-libp2p#2386](https://github.com/vacp2p/nim-libp2p/pull/2386) chore(readme): license cosmetics
+- [vacp2p/nim-libp2p#2382](https://github.com/vacp2p/nim-libp2p/pull/2382) docs: add new items to navigation and reminder
+- [vacp2p/nim-libp2p#2381](https://github.com/vacp2p/nim-libp2p/pull/2381) ci(docs): use stable nim version
+- [vacp2p/nim-libp2p#2347](https://github.com/vacp2p/nim-libp2p/pull/2347) ci: add timeout for `coverage` workflow
+- [vacp2p/nim-libp2p#2355](https://github.com/vacp2p/nim-libp2p/pull/2355) chore: remove runAfter
+- [vacp2p/nim-libp2p#2399](https://github.com/vacp2p/nim-libp2p/pull/2399) fix(ci): codecov test clashing T type
+- [vacp2p/nim-libp2p#2360](https://github.com/vacp2p/nim-libp2p/pull/2360) fix(muxer): accept loop stuck
+- [vacp2p/nim-libp2p#2361](https://github.com/vacp2p/nim-libp2p/pull/2361) feat(kad): hide connection info
+- [vacp2p/nim-libp2p#2380](https://github.com/vacp2p/nim-libp2p/pull/2380) fix(ci): failing on nim < 2.2.6
+- [vacp2p/nim-libp2p#2345](https://github.com/vacp2p/nim-libp2p/pull/2345) fix(kad): race in randomFind
+- [vacp2p/nim-libp2p#2164](https://github.com/vacp2p/nim-libp2p/pull/2164) chore(kad): handle dial failed exception
+
+
+### KAD-DHT optimizations
+
+* fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:kad-dht-optimizations`
+* owner: gabe
+* status: in progress (25%)
+* start-date: 2026/04/01
+* end-date: 2026/06/30
+
+#### Description
+Implement KAD-DHT optimizations and follow-up hardening work for nim-libp2p.
+
+#### Deliverables
+- PRs / Issues / Reports
 
 
 ### Peerstore Address TTL

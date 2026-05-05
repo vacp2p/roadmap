@@ -24,8 +24,8 @@ LEZ's native deshield/re-shield privacy model is exposed transparently to users 
 ### Understand logos-module framework and define DEX module interface
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-dex-logos-module:research-logos-module`
-* owner: TBD
-* status: not started
+* owner: r4bbit
+* status: in progress (25%)
 * start-date: 2026/04/01
 * end-date: 2026/04/30
 
@@ -61,8 +61,8 @@ Define the data structures passed between the plugin and the Logos platform host
 ### Implement pool analytics view
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-dex-logos-module:pool-analytics`
-* owner: TBD
-* status: not started
+* owner: Andrea
+* status: in progress (25%)
 * start-date: 2026/05/01
 * end-date: 2026/05/31
 
@@ -97,12 +97,14 @@ Display public vs. private information clearly per RFP-004 requirements.
 - [ ] Pre-swap confirmation screen showing output amount, price impact, and fee cost
 - [ ] Support for exact input and exact output swap modes
 - [ ] PR with code review
+- [logos-blockchain/lez-programs#77](https://github.com/logos-blockchain/lez-programs/pull/77) updated swap UI styles to match the liquidity page
+- [logos-blockchain/lez-programs#68](https://github.com/logos-blockchain/lez-programs/pull/68) chore(amm-ui): add basic swap UI for Token Pair Selector and Swap Direction
 
 ### Implement liquidity management UI
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-dex-logos-module:liquidity-ui`
-* owner: TBD
-* status: not started
+* owner: Ricardo
+* status: in progress (50%)
 * start-date: 2026/05/15
 * end-date: 2026/06/15
 
@@ -117,6 +119,8 @@ Include pool discoverability: when a user attempts to create a new pool for a to
 - [ ] Remove liquidity UI showing current LP position and expected return
 - [ ] Pool discoverability: check LP token PDA existence before pool creation
 - [ ] PR with code review
+- [logos-blockchain/lez-programs#59](https://github.com/logos-blockchain/lez-programs/issues/59) Liquidity Provider UI for AMM Program
+- [logos-blockchain/lez-programs#66](https://github.com/logos-blockchain/lez-programs/pull/66) feat(amm-ui): add liquidity pool management flow
 
 ### Package and deploy DEX logos module
 

@@ -38,6 +38,10 @@ Implement SEO optimization for the Status website to improve search engine visib
 
 - [status-im/status-web#1099](https://github.com/status-im/status-web/pull/1099) Update app metadata for iOS and Android with new app details
 - [status-im/status-web#1106](https://github.com/status-im/status-web/pull/1106) Remove legacy iOS app associations from the AASA file for universal links
+- [status-im/status-web#1142](https://github.com/status-im/status-web/issues/1142) Status App SEO: Fix 500 errors on /specs/* routes
+- [status-im/status-web#1141](https://github.com/status-im/status-web/issues/1141) Status App SEO: Add 301 redirects for legacy URL patterns
+- [status-im/status-web#1139](https://github.com/status-im/status-web/issues/1139) Status App SEO: Fix sitemap.xml for status.app
+- [status-im/status-web#1143](https://github.com/status-im/status-web/pull/1143) Status App SEO fixes
 - SEO implementation
 - Meta tags and structured data
 - SEO audit and optimization report
@@ -83,7 +87,7 @@ Update website copy and reduce sections to improve clarity and user experience.
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-website:selfhosting`
 * owner: Felicio
-* status: in progress (60%)
+* status: in progress (75%)
 * start-date: 2026/05/26
 * end-date: 2026/06/12
 

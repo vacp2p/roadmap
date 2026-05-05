@@ -26,7 +26,7 @@ Do this monthly, reliably, with documentation of findings.
 
 * fully qualified name: `ift-ts:dst:logos:2026q2-messaging-evaluation:regression-testing`
 * owner: Alberto
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -44,6 +44,8 @@ and ensure they don't happen again.
     - [vacp2p/10ksim#241](https://github.com/vacp2p/10ksim/pull/241) Update broken message_injector
 - Reports:
     - [Notion: Logos-delivery regression testing - v0.38 - April 2026](https://www.notion.so/Logos-delivery-regression-testing-v0-38-April-2026-WIP-34a8f96fb65c806b8fd2c7c830ba4463)
+    - [Notion: Store issue extended information](https://www.notion.so/Store-issue-extended-information-3518f96fb65c80da8a72c6aabe4f667c)
+    - [Notion: Store issue - eviction proposal](https://www.notion.so/Store-issue-eviction-proposal-3538f96fb65c802591c0e9a1a1491779)
 
 
 ### load metric

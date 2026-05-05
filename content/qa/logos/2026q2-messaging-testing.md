@@ -22,7 +22,7 @@ The Q2 LogosDelivery E2E effort is tracked under [logos-messaging/logos-delivery
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:maintenance`
 * owner: aya/roman
-* status: in progress (60%)
+* status: in progress (80%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -33,12 +33,13 @@ Ongoing maintenance of messaging testing frameworks.
 - PRs / Issues / Reports
 - [logos-messaging/logos-delivery-interop-tests#164](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/164) chore: Refactor RLN tests
 - [logos-messaging/logos-delivery-interop-tests#177](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/177) Fix for wrong url of reports
+- [logos-messaging/logos-delivery#3846](https://github.com/logos-messaging/logos-delivery/issues/3846) RLN registration not working with latest docker image
 
 ### Python bindings
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:python-bindings`
 * owner: aya
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/04/06
 * end-date: 2026/04/24
 
@@ -63,12 +64,13 @@ Prepare the setup needed to execute the upcoming Send API scenarios and identify
 #### Deliverables
 - [logos-messaging/logos-delivery#3800](https://github.com/logos-messaging/logos-delivery/issues/3800)
 - [logos-messaging/logos-delivery-interop-tests#159](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/159) Prepare LogosDelivery E2E coverage
+- [logos-messaging/logos-integration-test-framework](https://github.com/logos-messaging/logos-integration-test-framework) Logos integration test framework
 
 ### Main tests of LogosDelivery part 1
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:logosdelivery-main-tests-part1`
 * owner: egor
-* status: in progress (40%)
+* status: in progress (75%)
 * start-date: 2026/04/09
 * end-date: 2026/04/25
 
@@ -77,12 +79,16 @@ Cover the following E2E test scenarios for the Send API: `S02`, `S06`, `S07`, `S
 
 #### Deliverables
 - [logos-messaging/logos-delivery-interop-tests#173](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/173) Add S06 relay-only test and fix wrapper helpers
+- [logos-messaging/logos-delivery-interop-tests#176](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/176) Add S07 and S10 send API tests with event invariants helper
+- [logos-messaging/logos-delivery-interop-tests#178](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/178) Add S14 and S15 send API tests
+- [logos-messaging/logos-delivery-interop-tests#174](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/174) Add S02/S12 send API tests and PR CI pipeline
+- [logos-messaging/logos-delivery-interop-tests#180](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/180) Add relay-to-lightpush fallback integration tests
 
 ### Main tests of LogosDelivery part 2
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:logosdelivery-main-tests-part2`
 * owner: aya
-* status: in progress (40%)
+* status: in progress (50%)
 * start-date: 2026/04/09
 * end-date: 2026/04/25
 
@@ -91,6 +97,7 @@ Cover the following E2E test scenarios for the Send API: `S17`, `S19`, `S20`, `S
 
 #### Deliverables
 - [logos-messaging/logos-delivery#3827](https://github.com/logos-messaging/logos-delivery/issues/3827) Schema mismatch
+- [logos-messaging/logos-delivery#3847](https://github.com/logos-messaging/logos-delivery/issues/3847) Test failures when the lightpushnode option is not used
 
 ### Waku.test RLN smoke suite
 

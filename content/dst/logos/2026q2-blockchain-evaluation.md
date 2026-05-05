@@ -35,7 +35,7 @@ work and improvements, and it is subjected to change.
 ### Devnets (recurring)
 * fully qualified name: `ift-ts:dst:logos:2026q2-blockchain-evaluation:devnets`
 * owner: Alberto
-* status: in progress (30%)
+* status: in progress (50%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -49,6 +49,11 @@ and document behaviors and findings.
 - Code:
   - [vacp2p/vaclab-2#25](https://github.com/vacp2p/vaclab-2/pull/25) Update blockchain consumption dashboard
   - [vacp2p/vaclab-2#26](https://github.com/vacp2p/vaclab-2/pull/26) Update blockchain dashboard
+  - [vacp2p/vaclab-2#28](https://github.com/vacp2p/vaclab-2/pull/28) Remove unused metrics in nomos consumption dashboard
+  - [vacp2p/vaclab-2#29](https://github.com/vacp2p/vaclab-2/pull/29) Create new dashboard for external nodes
+  - [vacp2p/vaclab-2#30](https://github.com/vacp2p/vaclab-2/pull/30) Fix dashboard name
+  - [vacp2p/vaclab-2#31](https://github.com/vacp2p/vaclab-2/pull/31) Fix uid
+  - [vacp2p/vaclab-2#33](https://github.com/vacp2p/vaclab-2/pull/33) Filter by only outsider nodes
 - Reports:
 
 

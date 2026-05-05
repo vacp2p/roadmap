@@ -19,7 +19,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:protobuf-library`
 * owner: Nitely
-* status: in progress (90%)
+* status: in progress (99%)
 * start-date: 2026/04/01
 * end-date: 2026/04/20
 
@@ -36,12 +36,14 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [status-im/nim-protobuf-serialization#68](https://github.com/status-im/nim-protobuf-serialization/pull/68) Improve test suite
 - [status-im/nim-protobuf-serialization#66](https://github.com/status-im/nim-protobuf-serialization/pull/66) Fix: length delimited records must only accept varint int32 length
 - [status-im/nim-protobuf-serialization#69](https://github.com/status-im/nim-protobuf-serialization/pull/69) import_proto3: Generate `seq[Entry]` for map type
+- [status-im/nim-protobuf-serialization#77](https://github.com/status-im/nim-protobuf-serialization/pull/77) Fix: do not add to `seq` if wire type is unexpected
+- [status-im/nim-protobuf-serialization#76](https://github.com/status-im/nim-protobuf-serialization/pull/76) Fix: do not set `PBOption` if wire type is unexpected
 
 ### Multithreading and Thread Pool Library
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:thread-pool-library`
 * owner: Nitely
-* status: not started
+* status: in progress (50%)
 * start-date: 2026/04/21
 * end-date: 2026/05/15
 
@@ -122,7 +124,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:lsp-editor-support`
 * owner: Constantine
-* status: in progress (80%)
+* status: in progress (95%)
 * start-date: 2026/04/01
 * end-date: 2026/06/01
 
@@ -133,7 +135,9 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - The end goal is better `nim-langserver` behavior and better integration in editors such as VS Code, with the added benefit that language servers may also be used as MCP providers.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [nim-lang/langserver#390](https://github.com/nim-lang/langserver/pull/390) Jump to next diagnostics
+- [nim-lang/langserver#387](https://github.com/nim-lang/langserver/issues/387) Neovim 0.12 compatibility
+- [nim-lang/langserver#388](https://github.com/nim-lang/langserver/pull/388) nimlangserver MCP server
 
 ### Documentation
 
@@ -154,7 +158,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:maintenance`
 * owner: Constantine
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -165,6 +169,14 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [status-im/nim-json-rpc#264](https://github.com/status-im/nim-json-rpc/pull/264) Make async pragma required in rpc context API
 - [status-im/nim-json-rpc#271](https://github.com/status-im/nim-json-rpc/pull/271) Fix custom socket framing to support concurrency
 - [status-im/nim-json-rpc#270](https://github.com/status-im/nim-json-rpc/pull/270) Fix #261 regression; support unordered responses again
+- [status-im/nim-json-rpc#272](https://github.com/status-im/nim-json-rpc/pull/272) v0.6.0
+- [status-im/nimbus-eth1#3914](https://github.com/status-im/nimbus-eth1/pull/3914) EthJson Rpc flavor
+- [status-im/nimbus-eth2#7853](https://github.com/status-im/nimbus-eth2/pull/7853) EthJson Rpc flavor
+- [status-im/nim-web3#237](https://github.com/status-im/nim-web3/pull/237) Replace JrpcConv by custom EthJson flavor
+- [status-im/nim-json-rpc#275](https://github.com/status-im/nim-json-rpc/pull/275) Fix json_rpc `meth` bug
+- [status-im/nim-json-rpc#274](https://github.com/status-im/nim-json-rpc/issues/274) json_rpc `meth` bug
+- [nim-lang/nimble#1692](https://github.com/nim-lang/nimble/issues/1692) Nimble and Chronos issue
+- [nim-lang/nimble#1693](https://github.com/nim-lang/nimble/issues/1693) `nimble upgrade pkg` issue
 - [status-im/nim-stint#180](https://github.com/status-im/nim-stint/pull/180) Fixed CI for 32-bit Linux
 - [status-im/nim-stint#157](https://github.com/status-im/nim-stint/issues/157) Implement carryingAdd on uint64 for 32-bit platforms
 - [status-im/nim-stint#179](https://github.com/status-im/nim-stint/issues/179) CI failing on 32-bit Linux

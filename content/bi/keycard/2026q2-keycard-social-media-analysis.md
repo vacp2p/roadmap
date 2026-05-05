@@ -21,7 +21,7 @@ Monitore Social Media to look for competitor bad review and suggess Keycard as s
 * fully qualified name: `ift-ts:bi:keycard:2026q2-keycard-social-media-analysis`
 
 * owner: tbd
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/04/01
 * end-date: 2026/07/31
 
@@ -31,4 +31,5 @@ Monitore X and Reddit for review of keycard competitors.
 
 #### Deliverables
 
-Pipeline to extract competitors bad review and prepare message for replies.
+- Pipeline to extract competitors bad review and prepare message for replies.
+- Continuous dashboard improvements and competitor review monitoring

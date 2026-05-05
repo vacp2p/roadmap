@@ -26,7 +26,7 @@ Do this monthly, reliably, with documentation of findings.
 ### Closeness score
 * fully qualified name: `ift-ts:dst:logos:2026q2-anoncomms-evaluation:closeness-score`
 * owner: Alan
-* status: in progress (90%)
+* status: in progress (99%)
 * start-date: 2026/04/09
 * end-date: 2026/04/24
 
@@ -43,6 +43,8 @@ For more information, refer to [this document](https://www.notion.so/KAD-DHT-pla
 #### Deliverables
 - Code:
   - [vacp2p/nim-libp2p#2336](https://github.com/vacp2p/nim-libp2p/issues/2336) TCP connection bug in nim-libp2p
+  - [vacp2p/dst-libp2p-test-node#23](https://github.com/vacp2p/dst-libp2p-test-node/pull/23) Enhance KAD-DHT bootstrap robustness, logging, and connection management
+  - [vacp2p/10ksim#251](https://github.com/vacp2p/10ksim/pull/251) Add ServiceBuilder, readiness probes, and deployment utilities
 - Reports:
   - [KAD-DHT Planning](https://www.notion.so/KAD-DHT-planning-3098f96fb65c801eb80ccc0b3f395eb6#3098f96fb65c80a1bcf4f27cdafb5b9f)
   - [Nim-libp2p Bootstrapping Bug](https://www.notion.so/Nim-libp2p-Bootstraping-Bug-3438f96fb65c809484e0cbf9575310d8)

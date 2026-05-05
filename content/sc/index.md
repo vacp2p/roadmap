@@ -19,6 +19,7 @@ tags:
 ### `logos:`
 
 * [[sc/logos/2026q2-lez-programs-repo-setup|lez-programs-repo-setup]]
+* [[sc/logos/2026q2-programs-development|programs-development]]
 * [[sc/logos/2026q2-amm-program-completion|amm-program-completion]]
 * [[sc/logos/2026q2-dex-sdk|dex-sdk]]
 * [[sc/logos/2026q2-dex-logos-module|dex-logos-module]]

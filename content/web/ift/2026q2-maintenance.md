@@ -51,6 +51,7 @@ Execute upkeep across delivered web properties for Q2: dependency and security b
 - [status-im/status-web#1109](https://github.com/status-im/status-web/pull/1109) Upgrade `nixpkgs` to version 25.11 in `flake.nix`
 - [status-im/status-web#1102](https://github.com/status-im/status-web/pull/1102) Add `/karma-tokenomics` page
 - [status-im/status-web#1103](https://github.com/status-im/status-web/issues/1103) fix(wallet): swaps not working
+- [acid-info/logos#36](https://github.com/acid-info/logos/pull/36) Add active circles page
 - Merged fixes and improvements on shipped repos (PRs as appropriate)
 - Stable CI/deploy and platform operations for maintained properties
 - Support and stakeholder questions addressed or documented with clear next steps

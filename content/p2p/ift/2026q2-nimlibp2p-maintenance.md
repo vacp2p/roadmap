@@ -223,3 +223,48 @@ Some related work available is:
 - Agreed technical direction for `logos-delivery#3634`
 - Ownership decision between nim-libp2p and the relevant dependent components
 - Follow-up issue or PR breakdown, including Chronos work if needed
+
+
+### Large RSA key limit
+
+* fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:large-rsa-key-limit`
+* owner: not assigned yet
+* status: not started
+* start-date: 2026/05/01
+* end-date: 2026/06/30
+
+#### Description
+Fix [vacp2p/nim-libp2p#1327](https://github.com/vacp2p/nim-libp2p/issues/1327)
+by rejecting RSA keys that are too large to parse or verify safely. This should
+protect nodes from resource exhaustion attacks where a malicious peer sends an
+oversized RSA key and forces expensive signature verification. Use the
+go-libp2p fix in
+[libp2p/go-libp2p#2454](https://github.com/libp2p/go-libp2p/pull/2454) as
+guidance, including the `<= 8192` bit maximum.
+
+#### Deliverables
+- Maximum RSA key size enforced during key parsing and generation
+- Tests for accepted RSA keys and rejected oversized RSA keys
+- Documentation or changelog note describing the compatibility/security behavior
+
+
+### Sink performance exploration
+
+* fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:sink-performance-exploration`
+* owner: not assigned yet
+* status: not started
+* start-date: 2026/05/01
+* end-date: 2026/06/30
+
+#### Description
+Explore using Nim `sink` parameters in internal code paths where ownership
+transfer can reduce unnecessary copies and improve memory performance. This is
+tracked in
+[vacp2p/nim-libp2p#1641](https://github.com/vacp2p/nim-libp2p/issues/1641).
+Maintain backward compatibility for public APIs
+
+#### Deliverables
+- Benchmarked list of candidate internal hot paths
+- PRs applying `sink` where the ownership semantics are clear and beneficial
+- Tests or benchmarks showing no behavioral regression
+- No public API break.

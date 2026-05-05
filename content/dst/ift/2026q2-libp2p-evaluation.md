@@ -32,7 +32,7 @@ work and improvements, and it is subjected to change.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:regression-testing`
 * owner: Pearson
-* status: not started
+* status: in progress (20%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -47,6 +47,8 @@ and ensure they don't happen again.
 
 #### Deliverables
 - Code:
+    - [vacp2p/nim-libp2p#2336](https://github.com/vacp2p/nim-libp2p/issues/2336) TCP connection handling in nim-libp2p
+    - [vacp2p/nim-libp2p#2335](https://github.com/vacp2p/nim-libp2p/issues/2335) CPU starvation issue in nim-libp2p
 - Reports:
 
 
@@ -54,7 +56,7 @@ and ensure they don't happen again.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:nim-lsquic-benchmark`
 * owner: Mamoutou
-* status: in progress (75%)
+* status: in progress (85%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -74,6 +76,7 @@ this implementation or if there is another factor.
     - [LSQUIC RAW Benchmark in vaclab](https://www.notion.so/LSQUIC-RAW-Benchmark-in-vaclab-33c8f96fb65c802480baf186f3fa2fcf)
     - [NimLibp2p Random Delay Spikes when using QUIC](https://www.notion.so/NimLibp2p-Random-Delay-Spikes-when-using-QUIC-3478f96fb65c80e3af66fa0e999dc975)
     - [Experiments with Gossip parameters](https://www.notion.so/NimLibp2p-Random-Delay-Spikes-when-using-QUIC-3478f96fb65c80e3af66fa0e999dc975?source=copy_link#34f8f96fb65c80699751d64dcbc69ec7)
+    - [Nim-libp2p Gossipsub Delivery Delay with LSQUIC Muxer](https://www.notion.so/Nim-libp2p-Gossipsub-Delivery-Delay-with-LSQUIC-Muxer-3558f96fb65c80cdb386dc4957b258e5)
 
 
 ### priority queues

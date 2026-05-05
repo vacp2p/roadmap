@@ -36,7 +36,7 @@ adversarial conditions and control message behavior.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:general-tooling`
 * owner: Pearson
-* status: in progress (20%)
+* status: in progress (25%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -53,6 +53,10 @@ Should be made general when possible.
   - [vacp2p/dst-libp2p-test-node#16](https://github.com/vacp2p/dst-libp2p-test-node/pull/16) update dockerfiles
   - [vacp2p/pod-api-requester#5](https://github.com/vacp2p/pod-api-requester/pull/5) Added lru cache to getting pods
   - [vacp2p/10ksim#243](https://github.com/vacp2p/10ksim/pull/243) Analysis: Fix dumping logs for missed messages
+  - [vacp2p/10ksim#247](https://github.com/vacp2p/10ksim/pull/247) Formatting for traffic.py
+  - [vacp2p/10ksim#248](https://github.com/vacp2p/10ksim/pull/248) data_puller improvements
+  - [vacp2p/10ksim#249](https://github.com/vacp2p/10ksim/pull/249) Fixed missing messages for nimlibp2p_analyzer
+  - [vacp2p/10ksim#250](https://github.com/vacp2p/10ksim/pull/250) Fix debug logging
 - Reports:
 - Other:
   - Fixed `zerotesting-store` so it runs on k8s

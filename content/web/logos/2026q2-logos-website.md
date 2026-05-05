@@ -26,7 +26,7 @@ The Logos website enhancement will support Logos' strategic objectives by:
 
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-website:website-redesign`
 * owner: jinhojang6
-* status: in progress (10%)
+* status: in progress (50%)
 * start-date: 2026/04/01
 * end-date: 2026/06/15
 
@@ -42,12 +42,13 @@ Redesign the Logos website.
 - [Logos website design system preview](https://logos-co-web.vercel.app/design-systems)
 - [Logos website homepage preview](https://logos-co-web.vercel.app/)
 - [Logos website technology stack preview](https://logos-co-web.vercel.app/technology-stack)
+- [Logos website redesign Figma](https://www.figma.com/design/nTXI4ug9LoEc9RJqweQACC/Logos?node-id=2364-78221&t=a1YfnsFSIfzS6Tnp-0)
 
 ### CMS/Sanity
 
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-website:cms-sanity`
 * owner: JulesFiliot
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -58,6 +59,7 @@ Propose alternative to Sanity CMS for content management, enabling non-technical
 #### Deliverables
 
 - [status-im/status-web#959](https://github.com/status-im/status-web/issues/959) propose alternative to Sanity CMS
+- [acid-info/logos-co CMS](https://github.com/acid-info/logos-co/tree/develop/apps/cms)
 - Sanity CMS alternative proposal
 - Documentation and training materials
 - CMS schema design

@@ -40,6 +40,7 @@ as well as any potential improvements discussed by the team(s).
 - https://github.com/logos-co/logos-lips/pull/314
 - https://github.com/logos-co/logos-lips/pull/313
 - https://github.com/logos-co/logos-lips/pull/312
+- https://github.com/logos-co/logos-lips/pull/320
 
 
 ### Review Pipeline
@@ -67,7 +68,7 @@ Blockchain, Storage, Anoncomms, ACZ.
 
 * fully qualified name: `ift-ts:rfc:ift:2026q2-lip-index-maintenance:adversarial-spec-ift`
 * owner: filip
-* status: in progress (40%)
+* status: in progress (60%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 

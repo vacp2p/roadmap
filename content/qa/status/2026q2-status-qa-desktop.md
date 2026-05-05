@@ -45,6 +45,9 @@ Oversee testing strategy around releases.
 - [status-im/status-app#20391](https://github.com/status-im/status-app/pull/20391) chore(@e2e): remove duplicated screenshots from allure
 - [status-im/status-app#20271](https://github.com/status-im/status-app/issues/20271) Fix tests in 20214
 - [status-im/status-app#19856](https://github.com/status-im/status-app/issues/19856) App login is super slow when internet connection is bad
+- [status-im/status-app#20655](https://github.com/status-im/status-app/pull/20655) tests(@e2e): send erc 20 on hoodi
+- [status-im/status-app#20600](https://github.com/status-im/status-app/pull/20600) tests(@qml): language selector and currency selector tests
+- [status-im/status-app#20576](https://github.com/status-im/status-app/pull/20576) tests(@e2e): Hoodi migration
 
 ### Release Testing
 

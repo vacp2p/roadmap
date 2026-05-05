@@ -176,9 +176,9 @@ Implement dApp connection functionality to enable wallet extension to connect wi
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-wallet-extension:hardware-wallets`
 * owner: jinhojang6
-* status: in progress (90%)
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/26
+* end-date: 2026/05/05
 
 #### Description
 
@@ -189,6 +189,7 @@ Implement hardware wallet support with QR code-based connection and Keycard Shel
 - Hardware wallet integration
 - QR code connection system
 - Keycard Shell support
+- [status-im/status-web#1093](https://github.com/status-im/status-web/pull/1093) Import hardware wallet via QR
 
 ### Browser and System Notifications
 

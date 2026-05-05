@@ -26,9 +26,9 @@ external projects to integrate without depending on Nim toolchains.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-cbindings:peerstore`  
 * owner: gabe
-* status: not started
+* status: done
 * start-date: 2026/05/08
-* end-date: 2026/05/12
+* end-date: 2026/05/05
 
 #### Description
 Expose nim-libp2p peerstore functionality through C bindings so downstream
@@ -39,6 +39,7 @@ entries.
 - C API for reading peerstore data
 - C API for adding, removing, and updating peerstore entries
 - Tests covering peerstore access through the bindings
+- [vacp2p/nim-libp2p#2346](https://github.com/vacp2p/nim-libp2p/pull/2346) feat(cbind): add peerstore
 
 
 ### Protocol Handlers

@@ -179,3 +179,17 @@ Oversee testing strategy around releases.
 
 #### Deliverables
 - PRs / Issues
+
+### Flatpak linux build support in tests
+
+* fully qualified name: `ift-ts:qa:status:2026q2-status-qa-desktop:support-flatpak-build`
+* owner: nastya
+* status: not started
+* start-date: 2026/06/08
+* end-date: 2026/06/26
+
+#### Description
+- Support **Linux flatpak build type** in tests.
+
+#### Deliverables
+- PRs / Issues

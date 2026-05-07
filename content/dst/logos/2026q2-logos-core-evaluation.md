@@ -23,17 +23,20 @@ These componentes are logos-messaging, logos-storage and logos-blockchain.
 ## Task list
 
 ### logos-core evaluation
-> *Note*: This needs more input from project
 * fully qualified name: `ift-ts:dst:logos:2026q2-logos-core-evaluation:evaluation`
-* owner: TBD
+* owner: Pearson
 * status: not started
-* start-date: 2026/04/01
+* start-date: 2026/05/05
 * end-date: 2026/06/30
 
 #### Description
 Integrate logos-core in the DST lab, evaluating its behaviour.
-Prepare new tools if needed, and report performance or
-issues if they are found.
+Take as an example [logos-integration-test-framework](https://github.com/logos-messaging/logos-integration-test-framework)
+and check if this could be reused or we need to add this functionality in 10ksim.
+This is supposed to be working with [logos-logoscore-py](https://github.com/logos-co/logos-logoscore-py).
+In order to better have an idea of how it will work, add logos-delivery(waku) to logos core.
+No need to evaluate logos-delivery. Just start the integration and report issues or missing functionalitys that we might 
+need to do our experiments.
 
 #### Deliverables
 - Code:

@@ -67,6 +67,22 @@ TBD
 - Code:
 - Reports:
 
+### Service discovery dogfood
+
+* fully qualified name: `ift-ts:dst:logos:2026q2-anoncomms-evaluation:service-discovery-dogfood`
+* owner: Alberto
+* status: not started
+* start-date: 2026/05/05
+* end-date: 2026/05/15
+
+#### Description
+Participate in the service discovery dogfood and provide feedback on how it could be improved, as well as findings
+and how to set up potential experiments using the DST lab.
+
+#### Deliverables
+- Code:
+- Reports:
+
 ### Service discovery
 > *Note*: This needs more input from project
 

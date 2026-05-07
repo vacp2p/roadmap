@@ -290,7 +290,7 @@ guidance, including the `<= 8192` bit maximum.
 ### Sink performance exploration
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:sink-performance-exploration`
-* owner: not assigned yet
+* owner: richard
 * status: not started
 * start-date: 2026/05/01
 * end-date: 2026/06/30

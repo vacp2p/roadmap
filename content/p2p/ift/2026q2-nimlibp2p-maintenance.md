@@ -300,7 +300,7 @@ Explore using Nim `sink` parameters in internal code paths where ownership
 transfer can reduce unnecessary copies and improve memory performance. This is
 tracked in
 [vacp2p/nim-libp2p#1641](https://github.com/vacp2p/nim-libp2p/issues/1641).
-Maintain backward compatibility for public APIs
+Maintain backward compatibility for public APIs.
 
 #### Deliverables
 - Benchmarked list of candidate internal hot paths

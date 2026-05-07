@@ -82,10 +82,10 @@ this implementation or if there is another factor.
 ### priority queues
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:priority-queues`
-* owner: TBD
+* owner: Mamoutou
 * status: not started
-* start-date: 2026/04/01
-* end-date: 2026/06/30
+* start-date: 2026/05/05
+* end-date: 2026/05/20
 
 #### Description
 Help validating new changes around priority queues and slow peer behavbior in nim-libp2p introduced in

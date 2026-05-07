@@ -44,6 +44,23 @@ and ensure they don't happen again.
     - [vacp2p/10ksim#241](https://github.com/vacp2p/10ksim/pull/241) Update broken message_injector
 - Reports:
     - [Notion: Logos-delivery regression testing - v0.38 - April 2026](https://www.notion.so/Logos-delivery-regression-testing-v0-38-April-2026-WIP-34a8f96fb65c806b8fd2c7c830ba4463)
+
+
+### store disconnect analysis
+
+* fully qualified name: `ift-ts:dst:logos:2026q2-messaging-evaluation:store-disconnect-analysis`
+* owner: Alberto
+* status: in progress (75%)
+* start-date: 2026/04/27
+* end-date: 2026/05/08
+
+#### Description
+Store protocol is [failing in protocol experiments in v0.38.0-rc.0](https://www.notion.so/Logos-delivery-regression-testing-v0-38-April-2026-WIP-34a8f96fb65c806b8fd2c7c830ba4463?source=copy_link#34c8f96fb65c801ca7a6d3694c59f08d). 
+Analyze what is happening and provide reports about findings and potential causes.
+
+#### Deliverables
+- Code:
+- Reports:
     - [Notion: Store issue extended information](https://www.notion.so/Store-issue-extended-information-3518f96fb65c80da8a72c6aabe4f667c)
     - [Notion: Store issue - eviction proposal](https://www.notion.so/Store-issue-eviction-proposal-3538f96fb65c802591c0e9a1a1491779)
 

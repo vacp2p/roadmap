@@ -42,9 +42,9 @@ functions in the Logos Core module for managing the nim-libp2p peerstore.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-logos-core:capability-discovery`  
 * owner: gabe
-* status: not started
+* status: done
 * start-date: 2026/04/24
-* end-date: 2026/05/01
+* end-date: 2026/04/28
 
 #### Description
 Using the C bindings exposed in
@@ -53,8 +53,9 @@ set of functions in the Logos Core module so capability discovery can be used
 through Logos Core.
 
 #### Deliverables
-- Logos Core wrappers for capability discovery
-- Tests or examples covering capability discovery through Logos Core
+- [logos-co/logos-libp2p-module#40](https://github.com/logos-co/logos-libp2p-module/pull/40) - feat: add service discovery
+- [vacp2p/nim-libp2p#2342](https://github.com/vacp2p/nim-libp2p/pull/2342) chore(service-disco): add ipSimCoefficient
+- [vacp2p/nim-libp2p#2338](https://github.com/vacp2p/nim-libp2p/pull/2338) chore(cbind): add service disco headers
 
 
 ### Logos Core module - Custom Protocols

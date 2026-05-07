@@ -31,3 +31,4 @@ Provide Weekly and monthly metrics for the communication activities.
 #### Deliverables
 
 - Dashboard with KPI
+- First version of the dashboard completed

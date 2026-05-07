@@ -28,9 +28,9 @@ implementation.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-anoncomms-consulting:capability-discovery`
 * owner: gabe
-* status: in progress (85%)
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/04/17
+* end-date: 2026/04/28
 
 #### Description
 Implement capability discovery within nim-libp2p.
@@ -39,6 +39,10 @@ The following resources exist:
 - PoC implementation: [feat(kad): capability discovery](https://github.com/vacp2p/nim-libp2p/pull/2055)
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2321](https://github.com/vacp2p/nim-libp2p/pull/2321) feat(service-disco): add missing API functions
+- [vacp2p/nim-libp2p#2308](https://github.com/vacp2p/nim-libp2p/pull/2308) chore(service-disco): add component tests
+- [vacp2p/nim-libp2p#2306](https://github.com/vacp2p/nim-libp2p/pull/2306) feat(service-disco): add discoverer
+- [vacp2p/nim-libp2p#2285](https://github.com/vacp2p/nim-libp2p/pull/2285) feat(service-disco): add advertiser
 - [vacp2p/nim-libp2p#2245](https://github.com/vacp2p/nim-libp2p/pull/2245) chore(crypto): add pick utilities
 - [vacp2p/nim-libp2p#2237](https://github.com/vacp2p/nim-libp2p/pull/2237) chore(service-disco): add protobuf messages and utilities
 - [vacp2p/nim-libp2p#2275](https://github.com/vacp2p/nim-libp2p/pull/2275) feat(service-disco): add registrar

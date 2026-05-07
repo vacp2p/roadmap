@@ -22,7 +22,7 @@ The emphasis is on improving correctness, maintainability, and user-facing error
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nimble:nimble-1.0.0`
 * owner: Juan
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -32,6 +32,9 @@ All the relevant information can be found in [this GitHub issue](https://github.
 This remains the short-term roadmap for replacing pieces of the Nimbus build system bit by bit while improving Nimble overall.
 
 #### Deliverables
+- [nim-lang/nimble#1680](https://github.com/nim-lang/nimble/pull/1680) Make async discovery the default
+- [nim-lang/nimble#1679](https://github.com/nim-lang/nimble/pull/1679) Remove old sync version discovery path, add `--discovery:sync|async` flag
+- [nim-lang/nimble#1676](https://github.com/nim-lang/nimble/pull/1676) Enable async parallel package version discovery
 - [nim-lang/nimble#1668](https://github.com/nim-lang/nimble/pull/1668) Dissolve vnext
 - [nim-lang/nimble#1667](https://github.com/nim-lang/nimble/pull/1667) Update version to 0.99.1
 - [nim-lang/nimble#1665](https://github.com/nim-lang/nimble/pull/1665) refactor: extract version discovery into versiondiscovery.nim
@@ -41,6 +44,11 @@ This remains the short-term roadmap for replacing pieces of the Nimbus build sys
 - [nim-lang/nimble#1660](https://github.com/nim-lang/nimble/pull/1660) adds an alias to to specify localdeps
 - [nim-lang/nimble#1659](https://github.com/nim-lang/nimble/pull/1659) fix: feature resolution and SAT feature expansion for file:// URL
 - [nim-lang/nimble#1654](https://github.com/nim-lang/nimble/pull/1654) refactor: unify getPkgInfo entry point
+- [nim-lang/nimble#1689](https://github.com/nim-lang/nimble/pull/1689) Rework slow test
+- [nim-lang/nimble#1688](https://github.com/nim-lang/nimble/pull/1688) CI Disables fail fast
+- [nim-lang/nimble#1687](https://github.com/nim-lang/nimble/pull/1687) Fix URL-keyed table entries
+- [nim-lang/nimble#1686](https://github.com/nim-lang/nimble/pull/1686) Fix URL normalization in SAT solver
+- [nim-lang/nimble#1682](https://github.com/nim-lang/nimble/pull/1682) Parallel downloads
 
 ### Resolver Improvements
 

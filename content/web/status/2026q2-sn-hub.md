@@ -189,7 +189,7 @@ Ship **fund allocation** and related flows in SN Hub per design ([Figma — over
 
 * fully qualified name: `ift-ts:web:status:2026q2-sn-hub:hoodi-migration`
 * owner: Felicio
-* status: in progress (5%)
+* status: in progress (25%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -208,3 +208,4 @@ Ship **fund allocation** and related flows in SN Hub per design ([Figma — over
 - Hoodi chain wired in hub flows that apply; staking UI and contract integrations match new StakeManager / Karma addresses
 - Vault limits and state calls match new interfaces; no references to removed getters
 - Gas quote UX shipped; unmigrated surfaces flagged; banner reflects testnet v2 where this commitment coordinates website changes
+- [status-im/status-web#1145](https://github.com/status-im/status-web/pull/1145) update copy for banners

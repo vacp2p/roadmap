@@ -21,7 +21,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (25%)
+* status: in progress (89%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -30,6 +30,12 @@ Oversee testing strategy around releases.
 - Update tests for changes in Status Desktop, address regressions, investigate failures, and implement minor framework improvements needed to keep the suite reliable.
 
 #### Deliverables
+- [status-im/status-app#20527](https://github.com/status-im/status-app/pull/20527) chore(@e2e): community tests fixes
+- [status-im/status-app#20545](https://github.com/status-im/status-app/issues/20545) Test Squish 9.2.2 for Qt 6.11 release on Windows and Linux
+- [status-im/status-app#20526](https://github.com/status-im/status-app/issues/20526) Address nightly failures 20-04-2026
+- [status-im/status-app#18543](https://github.com/status-im/status-app/issues/18543) Integrate custom waku fleets with e2e
+- [status-im/status-app#17006](https://github.com/status-im/status-app/issues/17006) Increase automation coverage for smoke run
+- [status-im/status-app#18274](https://github.com/status-im/status-app/issues/18274) Discover and join Communities
 - [status-im/status-app#20352](https://github.com/status-im/status-app/issues/20352)
 - [status-im/status-app#20386](https://github.com/status-im/status-app/pull/20386)
 - [status-im/status-app#20373](https://github.com/status-im/status-app/pull/20373)
@@ -39,12 +45,15 @@ Oversee testing strategy around releases.
 - [status-im/status-app#20391](https://github.com/status-im/status-app/pull/20391) chore(@e2e): remove duplicated screenshots from allure
 - [status-im/status-app#20271](https://github.com/status-im/status-app/issues/20271) Fix tests in 20214
 - [status-im/status-app#19856](https://github.com/status-im/status-app/issues/19856) App login is super slow when internet connection is bad
+- [status-im/status-app#20655](https://github.com/status-im/status-app/pull/20655) tests(@e2e): send erc 20 on hoodi
+- [status-im/status-app#20600](https://github.com/status-im/status-app/pull/20600) tests(@qml): language selector and currency selector tests
+- [status-im/status-app#20576](https://github.com/status-im/status-app/pull/20576) tests(@e2e): Hoodi migration
 
 ### Release Testing
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-desktop:release-testing`
 * owner: nastya
-* status: not started
+* status: in progress (30%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -52,8 +61,8 @@ Oversee testing strategy around releases.
 - Support Q2 desktop releases with test planning, exploratory testing, regression execution, and issue reporting.
 
 #### Deliverables
-- Test reports
-- PRs / Issues
+- [status-im/status-app#20581](https://github.com/status-im/status-app/issues/20581) Change password / Sign out and quit / Authenticate hang the app
+- [status-im/status-app#20530](https://github.com/status-im/status-app/issues/20530) Browser: tabs are closed when navigating to home
 
 ### Privacy Mode
 
@@ -170,6 +179,20 @@ Oversee testing strategy around releases.
 #### Description
 - Add more tests to track in-app performance for the desktop application on Windows from the UI side.
 - Improve coverage for the main performance-sensitive user flows and make the measurements useful for regression tracking.
+
+#### Deliverables
+- PRs / Issues
+
+### Flatpak linux build support in tests
+
+* fully qualified name: `ift-ts:qa:status:2026q2-status-qa-desktop:support-flatpak-build`
+* owner: nastya
+* status: not started
+* start-date: 2026/06/08
+* end-date: 2026/06/26
+
+#### Description
+- Support **Linux flatpak build type** in tests.
 
 #### Deliverables
 - PRs / Issues

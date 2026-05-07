@@ -26,8 +26,8 @@ The demos commitment supports IFT's strategic objectives by:
 ### Biweekly 1 - IFT Townhall Demo
 
 * fully qualified name: `ift-ts:web:ift:2026q2-demos:biweekly-1-ift-townhall`
-* owner: unassigned
-* status: not started
+* owner: JulesFiliot
+* status: in progress (30%)
 * start-date: 2026/04/15
 * end-date: 2026/04/22
 
@@ -39,6 +39,7 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 
 - Presentation materials
 - Demo recording/documentation
+- [status-im/status-web#1129](https://github.com/status-im/status-web/issues/1129) IFT townhall demo - biweekly 1
 
 ### Biweekly 2 - IFT Townhall Demo
 

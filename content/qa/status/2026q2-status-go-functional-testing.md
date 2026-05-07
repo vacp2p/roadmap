@@ -47,8 +47,8 @@ Perform broader cleanup of the Python SDK to reduce flakiness and maintenance ov
 ### Community Admin Functional Test
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-go-functional-testing:7130`
-* owner: TBD
-* status: not started
+* owner: Nastya
+* status: in progress (20%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -56,7 +56,7 @@ Perform broader cleanup of the Python SDK to reduce flakiness and maintenance ov
 Ensure admin-level permissions behave as expected in communities.
 
 #### Deliverables
-- PRs and/or Issues
+- [status-im/status-app#20584](https://github.com/status-im/status-app/issues/20584) Can't get Admin privileges even UI says I am admin in community
 
 ### Community Ownership Transfer Functional Test
 

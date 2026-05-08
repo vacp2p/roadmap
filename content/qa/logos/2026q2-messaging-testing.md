@@ -99,6 +99,21 @@ Cover the following E2E test scenarios for the Send API: `S17`, `S19`, `S20`, `S
 - [logos-messaging/logos-delivery#3827](https://github.com/logos-messaging/logos-delivery/issues/3827) Schema mismatch
 - [logos-messaging/logos-delivery#3847](https://github.com/logos-messaging/logos-delivery/issues/3847) Test failures when the lightpushnode option is not used
 
+### E2E tests for remaining LogosDelivery scenarios
+
+* fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:logosdelivery-e2e-tests-part3`
+* owner: aya
+* status: in progress (10%)
+* start-date: 2026/05/05
+* end-date: 2026/05/18
+
+#### Description
+Cover the remaining E2E test scenarios for the Send API beyond the 19 scenarios completed in parts 1 and 2: `S01`, `S03`, `S04`, `S05`, `S11`, `S13`, `S16`, `S18`, `S25`, `S27`, `S28`, and `S29`.
+
+#### Deliverables
+- PRs with Send API E2E tests for the remaining LogosDelivery scenarios.
+- Test report covering execution results, failures, and any follow-up issues.
+
 ### Waku.test RLN smoke suite
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:waku-test-rln-smoke`

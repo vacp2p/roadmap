@@ -82,10 +82,10 @@ this implementation or if there is another factor.
 ### priority queues
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:priority-queues`
-* owner: TBD
+* owner: Mamoutou
 * status: not started
-* start-date: 2026/04/01
-* end-date: 2026/06/30
+* start-date: 2026/05/05
+* end-date: 2026/05/20
 
 #### Description
 Help validating new changes around priority queues and slow peer behavbior in nim-libp2p introduced in
@@ -104,10 +104,10 @@ that the slow peer penalty is applied and decays overtime, and that the values s
 ### connection manager
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:connection-manager`
-* owner: TBD
+* owner: Alan
 * status: not started
-* start-date: 2026/04/01
-* end-date: 2026/06/30
+* start-date: 2026/05/05
+* end-date: 2026/05/15
 
 #### Description
 Switch builder now has an option for pruning behavior, and connection manager has ephemeral tag mechanisms. More info:

@@ -18,6 +18,7 @@ Major future work items on nim-libp2p (also beyond this reporting period are cap
 
 ### `ift:`
 * [[p2p/ift/2026q2-anoncomms-consulting|anoncomms-consulting]]
+* [[p2p/ift/2026q2-nimlibp2p-boringssl|nimlibp2p-boringssl-migration]]
 * [[p2p/ift/2026q2-nimlibp2p-cbindings|nimlibp2p-cbindings]]
 * [[p2p/ift/2026q2-nimlibp2p-connection-management|nimlibp2p-connection-management]]
 * [[p2p/ift/2026q2-nimlibp2p-gossipsub-queues|nimlibp2p-gossipsub-queues]]

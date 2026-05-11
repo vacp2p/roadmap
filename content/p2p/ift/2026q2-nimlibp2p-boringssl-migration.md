@@ -10,7 +10,7 @@ description: Replace BearSSL usage in nim-libp2p with BoringSSL-backed TLS, cryp
 
 ---
 
-`ift-ts:p2p:ift:2026q2-nimlibp2p-boringssl`
+`ift-ts:p2p:ift:2026q2-nimlibp2p-boringssl-migration`
 
 Replace BearSSL usage in nim-libp2p with BoringSSL-backed TLS,
 cryptography, and RNG paths.
@@ -33,9 +33,9 @@ call sites have been moved or downstream consumers no longer require it.
 
 ### TLS Backend Abstraction
 
-* fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-boringssl:tls-backend-abstraction`
+* fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-boringssl-migration:tls-backend-abstraction`
 * owner: richard
-* status: 40%
+* status: in progress (40%)
 * start-date: 2026/05/03
 * end-date: 2026/06/30
 
@@ -55,7 +55,7 @@ the wiring needed to use BoringSSL where QUIC already requires it.
 
 ### Cryptography and RNG Migration
 
-* fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-boringssl:crypto-rng-migration`
+* fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-boringssl-migration:crypto-rng-migration`
 * owner: richard
 * status: not started
 * start-date: 2026/05/01
@@ -75,4 +75,3 @@ the default dependency graph can move away from BearSSL incrementally.
 - Initial set of BearSSL crypto/RNG call sites migrated to BoringSSL-backed helpers
 - Tests proving migrated paths produce compatible behavior
 - Follow-up cleanup plan for remaining BearSSL usage
-

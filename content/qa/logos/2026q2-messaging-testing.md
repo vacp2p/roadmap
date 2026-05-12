@@ -137,6 +137,22 @@ The suite should perform RLN registration as part of the test flow and validate 
 - Test report covering RLN registration flow, execution results, and observed environment limitations.
 - [logos-messaging/logos-delivery-interop-tests#175](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/175) chore: Test waku fleet
 
+### Nim FFI E2E tests
+
+* fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:nim-ffi-e2e-tests`
+* owner: aya
+* status: not started
+* start-date: 2026/05/30
+* end-date: 2026/06/15
+
+#### Description
+Add end-to-end tests for the nim-ffi library ([logos-messaging/nim-ffi#13](https://github.com/logos-messaging/nim-ffi/issues/13)).
+Tests are written in C/C++ and consume the built Nim library through the generated glue code.
+The suite exercises the various types and structures passed over the FFI boundary.
+
+#### Deliverables
+- PRs with C/C++ E2E tests covering the generated glue code for the nim-ffi library.
+
 ### Messaging Sonda Tool extension
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:sonda-extension`

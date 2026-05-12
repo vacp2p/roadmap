@@ -48,6 +48,7 @@ Oversee testing strategy around releases.
 - [status-im/status-app#20655](https://github.com/status-im/status-app/pull/20655) tests(@e2e): send erc 20 on hoodi
 - [status-im/status-app#20600](https://github.com/status-im/status-app/pull/20600) tests(@qml): language selector and currency selector tests
 - [status-im/status-app#20576](https://github.com/status-im/status-app/pull/20576) tests(@e2e): Hoodi migration
+- [status-im/status-app#20750](https://github.com/status-im/status-app/pull/20750) chore(@e2e): fix for community channel form
 
 ### Release Testing
 
@@ -187,12 +188,13 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-desktop:support-flatpak-build`
 * owner: nastya
-* status: not started
-* start-date: 2026/06/08
-* end-date: 2026/06/26
+* status: done
+* start-date: 2026/05/05
+* end-date: 2026/05/12
 
 #### Description
 - Support **Linux flatpak build type** in tests.
 
 #### Deliverables
 - PRs / Issues
+- Manual Flatpak testing completed; automation investigation documented as not worth further Q2 investment unless e2e Flatpak support becomes necessary.

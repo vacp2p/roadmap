@@ -80,8 +80,8 @@ This view helps users understand pool health and select which pool to interact w
 ### Implement swap UI with pre-swap confirmation
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-dex-logos-module:swap-ui`
-* owner: TBD
-* status: not started
+* owner: Andrea
+* status: in progress (50%)
 * start-date: 2026/05/01
 * end-date: 2026/06/15
 
@@ -99,6 +99,9 @@ Display public vs. private information clearly per RFP-004 requirements.
 - [ ] PR with code review
 - [logos-blockchain/lez-programs#77](https://github.com/logos-blockchain/lez-programs/pull/77) updated swap UI styles to match the liquidity page
 - [logos-blockchain/lez-programs#68](https://github.com/logos-blockchain/lez-programs/pull/68) chore(amm-ui): add basic swap UI for Token Pair Selector and Swap Direction
+- [logos-blockchain/lez-programs#100](https://github.com/logos-blockchain/lez-programs/pull/100) add price impact panel
+- [logos-blockchain/lez-programs#81](https://github.com/logos-blockchain/lez-programs/pull/81) chore(amm-ui): add swap confirmation modal
+- [logos-blockchain/lez-programs#101](https://github.com/logos-blockchain/lez-programs/pull/101) feat(stablecoin): initial stablecoin scaffold
 
 ### Implement liquidity management UI
 

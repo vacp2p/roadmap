@@ -53,7 +53,7 @@ Continue the Python bindings work for the messaging test framework, including wr
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:e2e-testing-logosdelivery-preparation`
 * owner: aya
-* status: in progress (10%)
+* status: in progress (75%)
 * start-date: 2026/04/02
 * end-date: 2026/04/08
 
@@ -65,6 +65,9 @@ Prepare the setup needed to execute the upcoming Send API scenarios and identify
 - [logos-messaging/logos-delivery#3800](https://github.com/logos-messaging/logos-delivery/issues/3800)
 - [logos-messaging/logos-delivery-interop-tests#159](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/159) Prepare LogosDelivery E2E coverage
 - [logos-messaging/logos-integration-test-framework](https://github.com/logos-messaging/logos-integration-test-framework) Logos integration test framework
+- [logos-messaging/logos-integration-test-framework#5](https://github.com/logos-messaging/logos-integration-test-framework/pull/5) Update `logoscore` dependency to track upstream `master` branch
+- [logos-messaging/logos-integration-test-framework#4](https://github.com/logos-messaging/logos-integration-test-framework/pull/4) Add support for Python 3.13 and 3.14 in CI workflows
+- [logos-messaging/logos-integration-test-framework#3](https://github.com/logos-messaging/logos-integration-test-framework/pull/3) Add Apache 2.0 and MIT licenses to the repository, and update README
 
 ### Main tests of LogosDelivery part 1
 
@@ -88,7 +91,7 @@ Cover the following E2E test scenarios for the Send API: `S02`, `S06`, `S07`, `S
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:logosdelivery-main-tests-part2`
 * owner: aya
-* status: in progress (50%)
+* status: in progress (80%)
 * start-date: 2026/04/09
 * end-date: 2026/04/25
 
@@ -98,12 +101,14 @@ Cover the following E2E test scenarios for the Send API: `S17`, `S19`, `S20`, `S
 #### Deliverables
 - [logos-messaging/logos-delivery#3827](https://github.com/logos-messaging/logos-delivery/issues/3827) Schema mismatch
 - [logos-messaging/logos-delivery#3847](https://github.com/logos-messaging/logos-delivery/issues/3847) Test failures when the lightpushnode option is not used
+- [logos-messaging/logos-delivery-interop-tests#179](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/179) e2e_part2
+- [logos-messaging/logos-delivery#3848](https://github.com/logos-messaging/logos-delivery/issues/3848) Store validation fails when the store peer joins after propagation
 
 ### E2E tests for remaining LogosDelivery scenarios
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:logosdelivery-e2e-tests-part3`
 * owner: aya
-* status: in progress (10%)
+* status: in progress (40%)
 * start-date: 2026/05/05
 * end-date: 2026/05/18
 
@@ -113,14 +118,15 @@ Cover the remaining E2E test scenarios for the Send API beyond the 19 scenarios 
 #### Deliverables
 - PRs with Send API E2E tests for the remaining LogosDelivery scenarios.
 - Test report covering execution results, failures, and any follow-up issues.
+- [logos-messaging/logos-delivery#3863](https://github.com/logos-messaging/logos-delivery/issues/3863) S01 follow-up issue identified during remaining scenario coverage
 
 ### Waku.test RLN smoke suite
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:waku-test-rln-smoke`
-* owner: aya
-* status: not started
+* owner: roman
+* status: done
 * start-date: 2026/04/27
-* end-date: 2026/05/15
+* end-date: 2026/05/12
 
 #### Description
 Implement a smoke suite targeting the external Waku fleet `waku.test` where RLN is enabled.
@@ -129,6 +135,23 @@ The suite should perform RLN registration as part of the test flow and validate 
 #### Deliverables
 - PRs with smoke tests for `waku.test`.
 - Test report covering RLN registration flow, execution results, and observed environment limitations.
+- [logos-messaging/logos-delivery-interop-tests#175](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/175) chore: Test waku fleet
+
+### Nim FFI E2E tests
+
+* fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:nim-ffi-e2e-tests`
+* owner: aya
+* status: not started
+* start-date: 2026/05/30
+* end-date: 2026/06/15
+
+#### Description
+Add end-to-end tests for the nim-ffi library ([logos-messaging/nim-ffi#13](https://github.com/logos-messaging/nim-ffi/issues/13)).
+Tests are written in C/C++ and consume the built Nim library through the generated glue code.
+The suite exercises the various types and structures passed over the FFI boundary.
+
+#### Deliverables
+- PRs with C/C++ E2E tests covering the generated glue code for the nim-ffi library.
 
 ### Messaging Sonda Tool extension
 

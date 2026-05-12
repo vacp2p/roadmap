@@ -71,7 +71,7 @@ TBD
 
 * fully qualified name: `ift-ts:dst:logos:2026q2-anoncomms-evaluation:service-discovery-dogfood`
 * owner: Alberto
-* status: not started
+* status: in progress (50%)
 * start-date: 2026/05/05
 * end-date: 2026/05/15
 
@@ -81,6 +81,7 @@ and how to set up potential experiments using the DST lab.
 
 #### Deliverables
 - Code:
+  - [Github branch: Service Discovery node](https://github.com/vacp2p/dst-libp2p-test-node/tree/Alberto/service_discovery)
 - Reports:
 
 ### Service discovery

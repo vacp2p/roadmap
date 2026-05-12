@@ -63,10 +63,10 @@ Set up proxy API infrastructure including Status RPC proxy, Status Market proxy,
 ### Karma Evolution
 
 * fully qualified name: `ift-ts:web:status:2026q2-sn-hub:karma-evolution`
-* owner: unassigned
-* status: not started
+* owner: Jakub
+* status: done
 * start-date: 2026/04/08
-* end-date: 2026/04/29
+* end-date: 2026/05/12
 
 #### Description
 
@@ -80,6 +80,7 @@ Implement Karma evolution system including Karma progress tracking and transacti
 - Karma progress system
 - Transaction allowance functionality
 - Evolution tracking
+- [status-web#1137](https://github.com/status-im/status-web/pull/1137): Hub v2 merged.
 
 ### NFT Evolution
 

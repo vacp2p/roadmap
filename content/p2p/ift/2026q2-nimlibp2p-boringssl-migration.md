@@ -52,6 +52,12 @@ the wiring needed to use BoringSSL where QUIC already requires it.
 - BoringSSL-backed TLS path available through the shared abstraction
 - Compatibility tests covering existing secure websocket and TLS behavior
 - Updated dependency documentation describing backend selection and defaults
+- [status-im/nim-websock#194](https://github.com/status-im/nim-websock/pull/194) feat: make rng agnostic
+- [vacp2p/nim-libp2p#2435](https://github.com/vacp2p/nim-libp2p/pull/2435) chore: use >= to choose boringssl dependency
+- [vacp2p/nim-libp2p#2420](https://github.com/vacp2p/nim-libp2p/pull/2420) refactor(rng): make the rng a libp2p type
+- [vacp2p/nim-libp2p#2411](https://github.com/vacp2p/nim-libp2p/pull/2411) feat: boringssl
+- [vacp2p/nim-lsquic#84](https://github.com/vacp2p/nim-lsquic/pull/84) feat: boringssl as separate nimble package
+- [vacp2p/nim-libp2p#2429](https://github.com/vacp2p/nim-libp2p/pull/2429) fix(gossip): make slow peer penalty opt-in by default
 
 ### Cryptography and RNG Migration
 

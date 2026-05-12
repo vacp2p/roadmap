@@ -133,9 +133,9 @@ Cover scenarios that can catch UDP and address-family issues, especially around 
 
 * fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:interop-test-plans`
 * owner: radek
-* status: in progress (95%)
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/05/12
 
 #### Description
 Integrate [libp2p test plans](https://github.com/libp2p/test-plans) and run them against nim-libp2p.
@@ -153,6 +153,9 @@ If time permits, improve the existing partial messages interop test with additio
 - [vacp2p/nim-libp2p#2288](https://github.com/vacp2p/nim-libp2p/pull/2288) test(gossipsub): extensions race condition + fix
 - [vacp2p/nim-libp2p#2364](https://github.com/vacp2p/nim-libp2p/pull/2364) test(interop): perf
 - [vacp2p/nim-libp2p#2333](https://github.com/vacp2p/nim-libp2p/pull/2333) test(interop): unified-testing helpers
+- [vacp2p/nim-libp2p#2405](https://github.com/vacp2p/nim-libp2p/pull/2405) test(interop): transport fix
+- [vacp2p/nim-libp2p#2427](https://github.com/vacp2p/nim-libp2p/pull/2427) test(interop): GossipSub - fix message id
+- [libp2p/test-plans#850](https://github.com/libp2p/test-plans/pull/850) feat: add nim-libp2p to gossipsub interop
 
 ### Maintenance
 
@@ -176,7 +179,7 @@ This includes quick-turn support for transport-start inconsistencies, protocol-l
 
 * fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:service-discovery`
 * owner: radek
-* status: not started
+* status: in progress (20%)
 * start-date: 2026/05/04
 * end-date: 2026/06/30
 
@@ -187,3 +190,11 @@ Include tests for advertiser, discoverer, and registrar behavior, service ID has
 
 #### Deliverables
 - PRs with added tests
+- [vacp2p/nim-libp2p#2409](https://github.com/vacp2p/nim-libp2p/pull/2409) test(service-disco): refactor utils
+- [vacp2p/nim-libp2p#2415](https://github.com/vacp2p/nim-libp2p/pull/2415) test(service-disco): clean up and improve unit/component separation
+- [vacp2p/nim-libp2p#2432](https://github.com/vacp2p/nim-libp2p/pull/2432) test(service-disco): `addProvidedService` / `lookup` component tests
+- [vacp2p/nim-libp2p#2443](https://github.com/vacp2p/nim-libp2p/pull/2443) chore(service-disco): dedupe identical ads
+- [vacp2p/nim-libp2p#2441](https://github.com/vacp2p/nim-libp2p/pull/2441) chore(service-disco): rename `startDiscovering` to `registerInterest` + improve component test
+- [vacp2p/nim-libp2p#2417](https://github.com/vacp2p/nim-libp2p/issues/2417) service-disco: what is `startDiscovering` meant to do?
+- [vacp2p/nim-libp2p#2431](https://github.com/vacp2p/nim-libp2p/issues/2431) service-disco: lookup returns duplicates when multiple queried peers hold the same ad
+- [vacp2p/nim-libp2p#2430](https://github.com/vacp2p/nim-libp2p/issues/2430) service-disco: missing API for multi-service registration

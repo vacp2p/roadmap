@@ -20,9 +20,9 @@ Complet the Ecodev Logos Funnel to mesure community activity.
 
 * fully qualified name: `ift-ts:bi:logos:2026q2-logos-ecodev-funnel`
 * owner: Claire
-* status: in progress (50%)
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/07/31
+* end-date: 2026/05/12
 * issue: https://github.com/status-im/data-docs/issues/172
 
 #### Description
@@ -33,3 +33,4 @@ Complet the Ecodev Funnel dashboard to show ecosystem activity
 
 - Dashbaord: https://superset.bi.status.im/superset/dashboard/logos-funnel/
 - Issue mapping updated and Logos testnet node data extracted
+- Logos funnel v2 dashboard updated: https://superset.bi.status.im/superset/dashboard/logos_funnel_v2/

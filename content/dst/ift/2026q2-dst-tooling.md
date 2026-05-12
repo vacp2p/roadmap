@@ -36,7 +36,7 @@ adversarial conditions and control message behavior.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:general-tooling`
 * owner: Pearson
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -57,6 +57,13 @@ Should be made general when possible.
   - [vacp2p/10ksim#248](https://github.com/vacp2p/10ksim/pull/248) data_puller improvements
   - [vacp2p/10ksim#249](https://github.com/vacp2p/10ksim/pull/249) Fixed missing messages for nimlibp2p_analyzer
   - [vacp2p/10ksim#250](https://github.com/vacp2p/10ksim/pull/250) Fix debug logging
+  - [vacp2p/10ksim#256](https://github.com/vacp2p/10ksim/pull/256) Added WakuExperiment for regression tests
+  - [vacp2p/10ksim#254](https://github.com/vacp2p/10ksim/pull/254) NimLibp2pExperiment improvements
+  - [vacp2p/10ksim#255](https://github.com/vacp2p/10ksim/pull/255) Bump default pod-api-requester version
+  - [vacp2p/10ksim#258](https://github.com/vacp2p/10ksim/pull/258) Added MultiExperiment base class MultiNimlibp2p
+  - [vacp2p/10ksim#260](https://github.com/vacp2p/10ksim/pull/260) Allow custom condition in wait_for_rollout
+  - [vacp2p/10ksim#257](https://github.com/vacp2p/10ksim/pull/257) Fix metadata bridge when namespace not used
+  - [vacp2p/10ksim#259](https://github.com/vacp2p/10ksim/pull/259) add delay+jitter with initContainer logic
 - Reports:
 - Other:
   - Fixed `zerotesting-store` so it runs on k8s

@@ -26,10 +26,10 @@ The Circles product should keep **one coherent visual and content standard** so 
 ### Standardized Circle sites & admin experience
 
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-circles:standardized-sites-admin`
-* owner: unassigned
-* status: not started
+* owner: JulesFiliot
+* status: done
 * start-date: 2026/04/15
-* end-date: 2026/06/15
+* end-date: 2026/05/12
 
 #### Description
 
@@ -40,6 +40,7 @@ Define the **standardized site** pattern (layout, content slots, branding guardr
 - Written spec or RFC for the standard Circle site template and content model
 - Admin journey (wireframes or flow) covering updates to pages, contacts, and use-case blocks
 - Alignment checkpoints with design / EcoDev on Circles positioning
+- CiviCRM dashboard sync completed with Jerry and Kris.
 
 ### Deploy pipelines — GitHub & CMS/CRM
 

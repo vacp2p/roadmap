@@ -56,9 +56,9 @@ and ensure they don't happen again.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:nim-lsquic-benchmark`
 * owner: Mamoutou
-* status: in progress (85%)
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/05/12
 
 #### Description
 Run the core part of quic in [nimlibp2p](https://github.com/vacp2p/nim-lsquic) in an isolated manner, instead
@@ -72,6 +72,7 @@ this implementation or if there is another factor.
 - Code:
     - [vacp2p/dst-nim-lsquic-test](https://github.com/vacp2p/dst-nim-lsquic-test)
     - [mamoutoudiarra/nim-libp2p-test:v1.1](https://hub.docker.com/repository/docker/mamoutoudiarra/nim-libp2p-test/tags/v1.1/sha256-8d71e4851734fdee37b6b87cda3f0d560336e4e05767c9d28db9640210f99942) Docker image with exposed GossipSub parameters
+    - [Github branch: mamoutou/disable-lsquic-pacing](https://github.com/vacp2p/dst-libp2p-test-node/tree/mamoutou/disable-lsquic-pacing) LSQUIC performance test scenarios
 - Reports:
     - [LSQUIC RAW Benchmark in vaclab](https://www.notion.so/LSQUIC-RAW-Benchmark-in-vaclab-33c8f96fb65c802480baf186f3fa2fcf)
     - [NimLibp2p Random Delay Spikes when using QUIC](https://www.notion.so/NimLibp2p-Random-Delay-Spikes-when-using-QUIC-3478f96fb65c80e3af66fa0e999dc975)
@@ -83,7 +84,7 @@ this implementation or if there is another factor.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:priority-queues`
 * owner: Mamoutou
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/05/05
 * end-date: 2026/05/20
 
@@ -105,7 +106,7 @@ that the slow peer penalty is applied and decays overtime, and that the values s
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:connection-manager`
 * owner: Alan
-* status: not started
+* status: in progress (60%)
 * start-date: 2026/05/05
 * end-date: 2026/05/15
 
@@ -118,4 +119,8 @@ Provide feedback if examples are not clear, and create scenarios to validate the
 
 #### Deliverables
 - Code:
+    - [Github branch: connection manager test node](https://github.com/vacp2p/dst-libp2p-test-node/tree/alan/connmanager/nim-test-node/connmanager)
+    - [Github branch: connection manager experiment framework](https://github.com/vacp2p/10ksim/tree/alan/connmanager)
 - Reports:
+    - [Notion: connection manager planning report](https://www.notion.so/3588f96fb65c8174b5a6e85f966b3976)
+    - [Notion: connection manager results report](https://www.notion.so/3598f96fb65c81ea9dacd68f0450b296) 

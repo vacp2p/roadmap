@@ -25,7 +25,7 @@ These componentes are logos-messaging, logos-storage and logos-blockchain.
 ### logos-core evaluation
 * fully qualified name: `ift-ts:dst:logos:2026q2-logos-core-evaluation:evaluation`
 * owner: Pearson
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/05/05
 * end-date: 2026/06/30
 

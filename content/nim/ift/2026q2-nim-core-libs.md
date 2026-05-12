@@ -19,9 +19,9 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:protobuf-library`
 * owner: Nitely
-* status: in progress (99%)
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/04/20
+* end-date: 2026/05/12
 
 #### Description
 - Finalize the Nim Protobuf library implementation and bring it to a stable, production-ready state.
@@ -36,6 +36,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [status-im/nim-protobuf-serialization#68](https://github.com/status-im/nim-protobuf-serialization/pull/68) Improve test suite
 - [status-im/nim-protobuf-serialization#66](https://github.com/status-im/nim-protobuf-serialization/pull/66) Fix: length delimited records must only accept varint int32 length
 - [status-im/nim-protobuf-serialization#69](https://github.com/status-im/nim-protobuf-serialization/pull/69) import_proto3: Generate `seq[Entry]` for map type
+- [status-im/nim-protobuf-serialization#75](https://github.com/status-im/nim-protobuf-serialization/pull/75) Extensions: `enum` and `results.Opt`
 - [status-im/nim-protobuf-serialization#77](https://github.com/status-im/nim-protobuf-serialization/pull/77) Fix: do not add to `seq` if wire type is unexpected
 - [status-im/nim-protobuf-serialization#76](https://github.com/status-im/nim-protobuf-serialization/pull/76) Fix: do not set `PBOption` if wire type is unexpected
 
@@ -78,7 +79,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:unittest2-expected-failures`
 * owner: Constantine
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/05/15
 * end-date: 2026/05/30
 
@@ -93,7 +94,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:libp2p-protobuf-serialization`
 * owner: Nitely/Constantine
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/06/01
 * end-date: 2026/06/30
 
@@ -102,7 +103,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Build on the stabilized protobuf library and make the integration practical for real libp2p protocol work.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [vacp2p/nim-libp2p#2166](https://github.com/vacp2p/nim-libp2p/pull/2166) chore: Use protobuf_serialization in RendezVous protocol
 
 ### PCP Support in nim-nat-traversal
 
@@ -138,6 +139,8 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [nim-lang/langserver#390](https://github.com/nim-lang/langserver/pull/390) Jump to next diagnostics
 - [nim-lang/langserver#387](https://github.com/nim-lang/langserver/issues/387) Neovim 0.12 compatibility
 - [nim-lang/langserver#388](https://github.com/nim-lang/langserver/pull/388) nimlangserver MCP server
+- [nim-lang/langserver#393](https://github.com/nim-lang/langserver/pull/393) Fix compatibility with Neovim 0.12 diagnostic floating window
+- nimlangserver 1.14.0 released and announced.
 
 ### Documentation
 
@@ -152,7 +155,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 #### Deliverables
 - [nim-lang/nimble#1657](https://github.com/nim-lang/nimble/pull/1657) Fix nimble installation instructions
-[status-im/nim-unittest2#70](https://github.com/status-im/nim-unittest2/pull/70) Add docs in MdBook format
+- [status-im/nim-unittest2#70](https://github.com/status-im/nim-unittest2/pull/70) Add docs in MdBook format
 
 ### Maintenance
 
@@ -181,3 +184,4 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [status-im/nim-stint#157](https://github.com/status-im/nim-stint/issues/157) Implement carryingAdd on uint64 for 32-bit platforms
 - [status-im/nim-stint#179](https://github.com/status-im/nim-stint/issues/179) CI failing on 32-bit Linux
 - [nim-lang/nimble#1663](https://github.com/nim-lang/nimble/issues/1663) `nimble dump` resolves absolute paths incorrectly
+- [status-im/nim-json-rpc#276](https://github.com/status-im/nim-json-rpc/pull/276) Terminate conn on invalid response `id` and do not send a response for it

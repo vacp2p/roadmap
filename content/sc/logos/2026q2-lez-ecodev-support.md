@@ -33,7 +33,6 @@ including stablecoin app/program scaffolding, SPEL macro support, IDL-generation
 fixes, and coordination on program initialization through configuration accounts.
 
 #### Deliverables
-- [logos-co/spel#188](https://github.com/logos-co/spel/pull/188) Support `#[self_program_id]` parameter injection in handlers
 - [logos-co/spel#169](https://github.com/logos-co/spel/pull/169) Collect `#[account_type]` types from path-dependency crates during IDL generation
 - Stablecoin program and app issue triage
 - Program initialization support notes and follow-up issues

@@ -59,7 +59,7 @@ The tests were built in Q1 but reverted because of flakiness; the multi-device i
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-mobile:test-messaging-1x1`
 * owner: magnus
-* status: in progress (75%)
+* status: in progress (90%)
 * start-date: 2026/04/01
 * end-date: 2026/04/30
 
@@ -73,6 +73,8 @@ Close the remaining 1x1 messaging gaps to reach full desktop critical parity.
 - Receiver cannot-delete-sender's-message assertion
 - 3 additional assertions bringing 1x1 messaging to 12/12 desktop parity
 - Local 1x1 chat and portrait mode support validated, with BrowserStack network and latency differences under investigation
+- [status-im/status-app#20762](https://github.com/status-im/status-app/pull/20762) test(e2e/mobile): framework maintenance + 1x1 messaging
+- [status-im/status-app#20763](https://github.com/status-im/status-app/pull/20763) test(e2e/mobile): browserstack gate stability
 
 ### Communities groundwork
 

@@ -127,10 +127,10 @@ Update `remove_lp` to calculate the LP's proportional share of the real vault ba
 ### Add transaction expiry/deadline support
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-amm-program-completion:transaction-expiry`
-* owner: TBD
-* status: blocked
+* owner: r4bbit
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/05/12
 
 #### Description
 
@@ -140,10 +140,11 @@ Once LEZ provides block context, implement and test the deadline check in the sw
 
 #### Deliverables
 
-- [ ] Transaction deadline field added to swap instruction
-- [ ] Deadline validation implemented once block context is available in LEZ
-- [ ] Test coverage for expired transaction rejection
-- [ ] PR with code review
+- [x] Transaction deadline field added to swap instruction
+- [x] Deadline validation implemented once block context is available in LEZ
+- [x] Test coverage for expired transaction rejection
+- [x] PR with code review
+- [logos-blockchain/lez-programs#67](https://github.com/logos-blockchain/lez-programs/pull/67) feat(amm)!: add transaction deadlines to swap and liquidity instructions
 
 ### Deploy programs to testnet 0.2
 

@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (36%)
+* status: in progress (44%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -100,6 +100,17 @@ Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via i
 - [vacp2p/nim-libp2p#2380](https://github.com/vacp2p/nim-libp2p/pull/2380) fix(ci): failing on nim < 2.2.6
 - [vacp2p/nim-libp2p#2345](https://github.com/vacp2p/nim-libp2p/pull/2345) fix(kad): race in randomFind
 - [vacp2p/nim-libp2p#2164](https://github.com/vacp2p/nim-libp2p/pull/2164) chore(kad): handle dial failed exception
+- [vacp2p/nim-libp2p#2428](https://github.com/vacp2p/nim-libp2p/pull/2428) chore(MultiAddress): memory optimization
+- [vacp2p/nim-libp2p#2418](https://github.com/vacp2p/nim-libp2p/pull/2418) chore(identify): cosmetics improvement
+- [vacp2p/nim-libp2p#2414](https://github.com/vacp2p/nim-libp2p/pull/2414) test: stabilize flaky `Heartbeat::catch up on slow heartbeat` timing assertion
+- [vacp2p/nim-libp2p#2423](https://github.com/vacp2p/nim-libp2p/pull/2423) test(websocket): stabilize WebSocket EOF write assertion in stream transport tests
+- [vacp2p/nim-libp2p#2447](https://github.com/vacp2p/nim-libp2p/pull/2447) test: drop `untilTimeout` and standardize on `checkUntilTimeout`
+- [vacp2p/nim-libp2p#2445](https://github.com/vacp2p/nim-libp2p/pull/2445) test: fix flaky service-discovery test for two advertisers on one service
+- [vacp2p/nim-libp2p#2442](https://github.com/vacp2p/nim-libp2p/pull/2442) chore: drop `newStandardSwitch` and `newStandardSwitchBuilder` from public API
+- [vacp2p/nim-libp2p#2407](https://github.com/vacp2p/nim-libp2p/pull/2407) fix(daily): cover traffic leaking channels
+- [vacp2p/nim-libp2p#2410](https://github.com/vacp2p/nim-libp2p/pull/2410) fix(autotls): withAutotls independent ordering
+- [vacp2p/nim-libp2p#2396](https://github.com/vacp2p/nim-libp2p/pull/2396) chore: remove old nim hacks
+- [status-im/nim-websock#193](https://github.com/status-im/nim-websock/pull/193) chore: expose HTTP accept primitives
 
 
 ### KAD-DHT optimizations
@@ -121,7 +132,7 @@ Implement KAD-DHT optimizations and follow-up hardening work for nim-libp2p.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:peerstore-address-ttl`
 * owner: gabe
-* status: not started
+* status: in progress (80%)
 * start-date: 2026/05/01
 * end-date: 2026/05/05
 
@@ -141,14 +152,13 @@ depending on how trustworthy the address is:
 - Different TTL policies for unverified, validated, connected, and permanent addresses
 - Expiration logic to remove stale addresses automatically
 
-
 ### IdentifyPush
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:identify-push`
-* owner: not assigned yet
-* status: not started
+* owner: vlado
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/05/12
 
 #### Description
 Enable the IdentifyPush protocol so connected peers receive protocol and
@@ -160,7 +170,10 @@ protocol, remove it. Whenever our multiaddresses change or new protocols are
 mounted, send IdentifyPush updates to every peer in the set.
 
 #### Deliverables
-IdentifyPush protocol is mounted and used
+- IdentifyPush protocol is mounted and used
+- [vacp2p/nim-libp2p#2440](https://github.com/vacp2p/nim-libp2p/pull/2440) refactor(IdentifyPusher): as Service
+- [vacp2p/nim-libp2p#2439](https://github.com/vacp2p/nim-libp2p/pull/2439) feat(PeerInfo): add observer
+- [vacp2p/nim-libp2p#2412](https://github.com/vacp2p/nim-libp2p/pull/2412) feat: identify pusher
 
 
 ### Quic Multiaddress Support

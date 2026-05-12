@@ -31,9 +31,9 @@ The maintenance commitment supports IFT's strategic objectives by:
 
 * fully qualified name: `ift-ts:web:ift:2026q2-maintenance:maintenance`
 * owner: Jinho/JulesFiliot
-* status: in progress (50%)
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/05/12
 
 #### Description
 
@@ -52,6 +52,11 @@ Execute upkeep across delivered web properties for Q2: dependency and security b
 - [status-im/status-web#1102](https://github.com/status-im/status-web/pull/1102) Add `/karma-tokenomics` page
 - [status-im/status-web#1103](https://github.com/status-im/status-web/issues/1103) fix(wallet): swaps not working
 - [acid-info/logos#36](https://github.com/acid-info/logos/pull/36) Add active circles page
+- [status-im/status-web#1144](https://github.com/status-im/status-web/pull/1144) fix(wallet): pending-then-dropped transactions
+- [vacp2p/research.logos.co#178](https://github.com/vacp2p/research.logos.co/pull/178) chore: rebrand Vac to Logos Research & update docusaurus-preset
+- [acid-info/logos-docusaurus-plugins#316](https://github.com/acid-info/logos-docusaurus-plugins/pull/316) chore(docusaurus-preset): update vac assets
+- [acid-info/logos-docusaurus-plugins#314](https://github.com/acid-info/logos-docusaurus-plugins/pull/314) fix(docusaurus-theme): make white X icon actually white & resize
+- [Guidelines for Uploading Dynamic HTML Content](https://docs.google.com/document/d/1s565y_bS81R_ZhHU8VhOmmwRttCaOVQRul2zVgQQpSs/edit?usp=sharing)
 - Merged fixes and improvements on shipped repos (PRs as appropriate)
 - Stable CI/deploy and platform operations for maintained properties
 - Support and stakeholder questions addressed or documented with clear next steps

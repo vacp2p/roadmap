@@ -24,7 +24,7 @@ through the nim-libp2p C bindings.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-logos-core:peerstore`  
 * owner: gabe
-* status: not started
+* status: in progress (75%)
 * start-date: 2026/05/15
 * end-date: 2026/05/19
 
@@ -62,7 +62,7 @@ through Logos Core.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-logos-core:custom-protocols`  
 * owner: gabe
-* status: not started
+* status: in progress (75%)
 * start-date: 2026/06/19
 * end-date: 2026/06/30
 

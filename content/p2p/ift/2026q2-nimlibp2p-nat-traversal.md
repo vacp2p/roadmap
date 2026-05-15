@@ -30,7 +30,7 @@ the library instead of duplicating efforts downstream.
 ### NAT Address Setup API
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-nat-traversal:address-setup-api`
-* owner: not assigned yet
+* owner: gabe
 * status: not started
 * start-date: 2026/05/01
 * end-date: 2026/06/30
@@ -51,7 +51,7 @@ explicit external IP configuration.
 ### UPnP and NAT-PMP Integration
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-nat-traversal:upnp-pmp`
-* owner: not assigned yet
+* owner: gabe
 * status: not started
 * start-date: 2026/04/01
 * end-date: 2026/06/30

@@ -27,7 +27,6 @@ Major future work items on nim-libp2p (also beyond this reporting period are cap
 * [[p2p/ift/2026q2-nimlibp2p-maintenance|nimlibp2p-maintenance]]
 * [[p2p/ift/2026q2-nimlibp2p-nat-traversal|nimlibp2p-nat-traversal]]
 * [[p2p/ift/2026q2-nimlibp2p-stream-budgets|nimlibp2p-stream-budgets]]
-* [[p2p/ift/2026q2-nimlibp2p-stream-connection-refactor|nimlibp2p-stream-connection-refactor]]
 
 
 ## 2026q1 `ift-ts:p2p:`

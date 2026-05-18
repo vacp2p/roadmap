@@ -51,7 +51,7 @@ The unit's work directly supports IFT's strategic objective of scaling project c
 
 ### `logos:`
 
-* [[web/logos/2026q2-logos-cms|logos-cms]]
+* [[web/logos/2026q2-logos-crm|logos-crm]]
 * [[web/logos/2026q2-logos-contribute-portal|logos-contribute-portal]]
 * [[web/logos/2026q2-logos-core|logos-core]]
 * [[web/logos/2026q2-logos-website|logos-website]]

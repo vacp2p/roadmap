@@ -256,7 +256,7 @@ implement the agreed changes.
 ### WSS handler socket leak
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:wss-socket-leak`
-* owner: not assigned yet
+* owner: richard
 * status: not started
 * start-date: 2026/04/01
 * end-date: 2026/06/30

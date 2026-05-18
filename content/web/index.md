@@ -33,6 +33,7 @@ The unit's work directly supports IFT's strategic objective of scaling project c
 ### `logos:`
 
 * [[web/logos/2026q3-logos-circles|logos-circles]]
+* [[web/logos/2026q3-logos-crm|logos-crm]]
 * [[web/logos/2026q3-logos-website|logos-website]]
 
 ## 2026q2

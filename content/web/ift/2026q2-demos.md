@@ -27,7 +27,7 @@ The demos commitment supports IFT's strategic objectives by:
 
 * fully qualified name: `ift-ts:web:ift:2026q2-demos:biweekly-1-ift-townhall`
 * owner: JulesFiliot
-* status: in progress (30%)
+* status: done
 * start-date: 2026/04/15
 * end-date: 2026/04/22
 
@@ -46,8 +46,8 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 * fully qualified name: `ift-ts:web:ift:2026q2-demos:biweekly-2-ift-townhall`
 * owner: unassigned
 * status: not started
-* start-date: 2026/04/29
-* end-date: 2026/05/05
+* start-date: 2026/05/06
+* end-date: 2026/05/12
 
 #### Description
 
@@ -63,8 +63,8 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 * fully qualified name: `ift-ts:web:ift:2026q2-demos:biweekly-3-ift-townhall`
 * owner: unassigned
 * status: not started
-* start-date: 2026/05/12
-* end-date: 2026/05/19
+* start-date: 2026/05/20
+* end-date: 2026/05/26
 
 #### Description
 
@@ -80,8 +80,8 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 * fully qualified name: `ift-ts:web:ift:2026q2-demos:biweekly-4-ift-townhall`
 * owner: unassigned
 * status: not started
-* start-date: 2026/05/26
-* end-date: 2026/06/05
+* start-date: 2026/06/03
+* end-date: 2026/06/09
 
 #### Description
 
@@ -97,8 +97,8 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 * fully qualified name: `ift-ts:web:ift:2026q2-demos:biweekly-5-ift-townhall`
 * owner: unassigned
 * status: not started
-* start-date: 2026/06/12
-* end-date: 2026/06/19
+* start-date: 2026/06/17
+* end-date: 2026/06/23
 
 #### Description
 
@@ -114,7 +114,7 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 * fully qualified name: `ift-ts:web:ift:2026q2-demos:biweekly-6-ift-townhall`
 * owner: unassigned
 * status: not started
-* start-date: 2026/06/26
+* start-date: 2026/06/24
 * end-date: 2026/06/30
 
 #### Description

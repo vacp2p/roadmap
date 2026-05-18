@@ -21,8 +21,8 @@ description: "Integrate the Contribute Portal into the Logos Builders Hub at bui
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-contribute-portal:integrate-into-build-logos`
 * owner: unassigned
 * status: not started
-* start-date: 2026/04/01
-* end-date: 2026/06/30
+* start-date: 2026/04/20
+* end-date: 2026/05/15
 
 #### Description
 

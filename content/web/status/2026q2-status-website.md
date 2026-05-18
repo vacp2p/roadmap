@@ -52,8 +52,8 @@ Implement SEO optimization for the Status website to improve search engine visib
 * fully qualified name: `ift-ts:web:status:2026q2-status-website:translations`
 * owner: unassigned
 * status: not started
-* start-date: 2026/05/12
-* end-date: 2026/05/26
+* start-date: 2026/06/01
+* end-date: 2026/06/19
 
 #### Description
 
@@ -71,8 +71,8 @@ Implement translations support with design improvements, public contribution flo
 * fully qualified name: `ift-ts:web:status:2026q2-status-website:copy-changes-section-reduction`
 * owner: unassigned
 * status: not started
-* start-date: 2026/05/19
-* end-date: 2026/06/05
+* start-date: 2026/06/15
+* end-date: 2026/06/26
 
 #### Description
 

@@ -18,6 +18,23 @@ The unit's work directly supports IFT's strategic objective of scaling project c
 
 [[web/preview|Roadmap Preview]]
 
+## 2026q3
+
+### `ift:`
+
+* [[web/ift/2026q3-demos|demos]]
+* [[web/ift/2026q3-duty|duty]]
+* [[web/ift/2026q3-maintenance|maintenance]]
+
+### `status:`
+
+* [[web/status/2026q3-status-wallet-extension|status-wallet-extension]]
+
+### `logos:`
+
+* [[web/logos/2026q3-logos-circles|logos-circles]]
+* [[web/logos/2026q3-logos-website|logos-website]]
+
 ## 2026q2
 
 ### `ift:`
@@ -29,14 +46,13 @@ The unit's work directly supports IFT's strategic objective of scaling project c
 ### `status:`
 
 * [[web/status/2026q2-community-curation|community-curation]]
-* [[web/status/2026q2-sn-hub|sn-hub]]
 * [[web/status/2026q2-status-wallet-extension|status-wallet-extension]]
 * [[web/status/2026q2-status-website|status-website]]
 
 ### `logos:`
 
+* [[web/logos/2026q2-logos-cms|logos-cms]]
 * [[web/logos/2026q2-logos-contribute-portal|logos-contribute-portal]]
-* [[web/logos/2026q2-logos-circles|logos-circles]]
 * [[web/logos/2026q2-logos-core|logos-core]]
 * [[web/logos/2026q2-logos-website|logos-website]]
 

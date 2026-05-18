@@ -28,7 +28,7 @@ The Logos website enhancement will support Logos' strategic objectives by:
 * owner: jinhojang6
 * status: in progress (80%)
 * start-date: 2026/04/01
-* end-date: 2026/06/15
+* end-date: 2026/04/30
 
 #### Description
 
@@ -66,22 +66,3 @@ Propose alternative to Sanity CMS for content management, enabling non-technical
 - [CMS dashboard](https://logos-co-cms.vercel.app/admin/login)
 - Sanity CMS alternative proposal
 - Documentation and training materials
-- CMS schema design
-
-### Selfhosting
-
-* fully qualified name: `ift-ts:web:logos:2026q2-logos-website:selfhosting`
-* owner: unassigned
-* status: not started
-* start-date: 2026/06/19
-* end-date: 2026/06/30
-
-#### Description
-
-Set up self-hosting infrastructure and deployment processes for the Logos website.
-
-#### Deliverables
-
-- Self-hosting configuration
-- Deployment documentation
-- Infrastructure setup

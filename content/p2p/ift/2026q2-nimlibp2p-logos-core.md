@@ -24,7 +24,7 @@ through the nim-libp2p C bindings.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-logos-core:peerstore`  
 * owner: gabe
-* status: in progress (75%)
+* status: done
 * start-date: 2026/05/15
 * end-date: 2026/05/19
 
@@ -36,6 +36,7 @@ functions in the Logos Core module for managing the nim-libp2p peerstore.
 #### Deliverables
 - Logos Core wrappers for peerstore operations
 - Tests or examples covering peerstore usage through Logos Core
+- [logos-co/logos-libp2p-module#43](https://github.com/logos-co/logos-libp2p-module/pull/43) feat: add peerstore
 
 
 ### Logos Core module - capability discovery
@@ -62,7 +63,7 @@ through Logos Core.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-logos-core:custom-protocols`  
 * owner: gabe
-* status: in progress (75%)
+* status: in progress (90%)
 * start-date: 2026/06/19
 * end-date: 2026/06/30
 
@@ -74,3 +75,4 @@ data might be available on a stream to write/read.
 #### Deliverables
 - New functions in logos core that would allow registering custom protocols
 - Tests or examples covering custom protocol handling
+- [logos-co/logos-libp2p-module#45](https://github.com/logos-co/logos-libp2p-module/pull/45) feat: custom protocol registration

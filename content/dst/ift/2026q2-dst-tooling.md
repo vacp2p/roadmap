@@ -64,6 +64,8 @@ Should be made general when possible.
   - [vacp2p/10ksim#260](https://github.com/vacp2p/10ksim/pull/260) Allow custom condition in wait_for_rollout
   - [vacp2p/10ksim#257](https://github.com/vacp2p/10ksim/pull/257) Fix metadata bridge when namespace not used
   - [vacp2p/10ksim#259](https://github.com/vacp2p/10ksim/pull/259) add delay+jitter with initContainer logic
+  - [vacp2p/10ksim#268](https://github.com/vacp2p/10ksim/pull/268) Make format
+  - [vacp2p/10ksim#264](https://github.com/vacp2p/10ksim/pull/264) Fix missing messages again
 - Reports:
 - Other:
   - Fixed `zerotesting-store` so it runs on k8s

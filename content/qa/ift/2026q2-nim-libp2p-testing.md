@@ -179,7 +179,7 @@ This includes quick-turn support for transport-start inconsistencies, protocol-l
 
 * fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:service-discovery`
 * owner: radek
-* status: in progress (20%)
+* status: in progress (60%)
 * start-date: 2026/05/04
 * end-date: 2026/06/30
 
@@ -193,6 +193,13 @@ Include tests for advertiser, discoverer, and registrar behavior, service ID has
 - [vacp2p/nim-libp2p#2409](https://github.com/vacp2p/nim-libp2p/pull/2409) test(service-disco): refactor utils
 - [vacp2p/nim-libp2p#2415](https://github.com/vacp2p/nim-libp2p/pull/2415) test(service-disco): clean up and improve unit/component separation
 - [vacp2p/nim-libp2p#2432](https://github.com/vacp2p/nim-libp2p/pull/2432) test(service-disco): `addProvidedService` / `lookup` component tests
+- [vacp2p/nim-libp2p#2467](https://github.com/vacp2p/nim-libp2p/pull/2467) test(service-disco): misc component
+- [vacp2p/nim-libp2p#2463](https://github.com/vacp2p/nim-libp2p/pull/2463) test(service-disco): client mode + one register component
+- [vacp2p/nim-libp2p#2464](https://github.com/vacp2p/nim-libp2p/pull/2464) test(service-disco): error handling component
+- [vacp2p/nim-libp2p#2461](https://github.com/vacp2p/nim-libp2p/pull/2461) test(service-disco): lookup component
+- [vacp2p/nim-libp2p#2457](https://github.com/vacp2p/nim-libp2p/pull/2457) test(service-disco): advertise and registration response
+- [logos-co/logos-libp2p-module#46](https://github.com/logos-co/logos-libp2p-module/pull/46) chore(service-disco): rename `startDiscovering` to `registerInterest`
+- [vacp2p/nim-libp2p#2452](https://github.com/vacp2p/nim-libp2p/pull/2452) chore: regenerate nix deps
 - [vacp2p/nim-libp2p#2443](https://github.com/vacp2p/nim-libp2p/pull/2443) chore(service-disco): dedupe identical ads
 - [vacp2p/nim-libp2p#2441](https://github.com/vacp2p/nim-libp2p/pull/2441) chore(service-disco): rename `startDiscovering` to `registerInterest` + improve component test
 - [vacp2p/nim-libp2p#2417](https://github.com/vacp2p/nim-libp2p/issues/2417) service-disco: what is `startDiscovering` meant to do?

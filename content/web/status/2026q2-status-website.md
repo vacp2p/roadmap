@@ -43,6 +43,7 @@ Implement SEO optimization for the Status website to improve search engine visib
 - [status-im/status-web#1139](https://github.com/status-im/status-web/issues/1139) Status App SEO: Fix sitemap.xml for status.app
 - [status-im/status-web#1143](https://github.com/status-im/status-web/pull/1143) Status App SEO fixes
 - [status-im/status-web#1150](https://github.com/status-im/status-web/pull/1150) [status.app] Apply new meta titles and descriptions across pages
+- [status-im/status-web#1156](https://github.com/status-im/status-web/pull/1156) [status.app] Update title template to remove static suffix for blog
 - SEO implementation
 - Meta tags and structured data
 - SEO audit and optimization report
@@ -88,7 +89,7 @@ Update website copy and reduce sections to improve clarity and user experience.
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-website:selfhosting`
 * owner: Felicio
-* status: in progress (80%)
+* status: in progress (90%)
 * start-date: 2026/05/26
 * end-date: 2026/06/12
 

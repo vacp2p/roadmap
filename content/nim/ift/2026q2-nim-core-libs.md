@@ -63,7 +63,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:cbor-cddl-parsing`
 * owner: Nitely
-* status: not started
+* status: in progress (50%)
 * start-date: 2026/05/15
 * end-date: 2026/05/30
 
@@ -73,7 +73,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - This work should prepare for near-term needs around generating Nim code from CDDL, or the reverse direction, as those capabilities are expected to be needed soon.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [vacp2p/nim-cbor-serialization#28](https://github.com/vacp2p/nim-cbor-serialization/pull/28) Add diagnostic notation serializer
 
 ### Unittest2 Expected Failures
 
@@ -141,6 +141,8 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [nim-lang/langserver#388](https://github.com/nim-lang/langserver/pull/388) nimlangserver MCP server
 - [nim-lang/langserver#393](https://github.com/nim-lang/langserver/pull/393) Fix compatibility with Neovim 0.12 diagnostic floating window
 - nimlangserver 1.14.0 released and announced.
+- [nim-lang/langserver#400](https://github.com/nim-lang/langserver/pull/400) MCPB bundle
+- [Nim langserver MCP registry entry](https://registry.modelcontextprotocol.io/?q=nimlangserver)
 
 ### Documentation
 
@@ -156,6 +158,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 #### Deliverables
 - [nim-lang/nimble#1657](https://github.com/nim-lang/nimble/pull/1657) Fix nimble installation instructions
 - [status-im/nim-unittest2#70](https://github.com/status-im/nim-unittest2/pull/70) Add docs in MdBook format
+- [nim-lang/nimble#1701](https://github.com/nim-lang/nimble/pull/1701) Guide: Install Nim: Add instruction about installing devel Nim
 
 ### Maintenance
 

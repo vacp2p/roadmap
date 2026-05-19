@@ -58,6 +58,7 @@ the wiring needed to use BoringSSL where QUIC already requires it.
 - [vacp2p/nim-libp2p#2411](https://github.com/vacp2p/nim-libp2p/pull/2411) feat: boringssl
 - [vacp2p/nim-lsquic#84](https://github.com/vacp2p/nim-lsquic/pull/84) feat: boringssl as separate nimble package
 - [vacp2p/nim-libp2p#2429](https://github.com/vacp2p/nim-libp2p/pull/2429) fix(gossip): make slow peer penalty opt-in by default
+- [vacp2p/nim-boringssl#4](https://github.com/vacp2p/nim-boringssl/pull/4) chore: update BoringSSL submodule and bindings
 
 ### Cryptography and RNG Migration
 

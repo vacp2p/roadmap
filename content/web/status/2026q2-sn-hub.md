@@ -185,6 +185,8 @@ Ship **fund allocation** and related flows in SN Hub per design ([Figma — over
 - ENS/receiver/sign flows wired as in spec
 - Rewards path with external dapp handoff for SNT and LINEA
 - Linked “Learn more” content or routes as designed
+- [status-im/status-web#1159](https://github.com/status-im/status-web/pull/1159) Add hub airdrop checker page
+- [status-im/status-web#1161](https://github.com/status-im/status-web/pull/1161) fix(hub): resolve checker ENS via wagmi public client to avoid CSP blocks
 
 ### Hoodi migration
 

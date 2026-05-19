@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (44%)
+* status: in progress (52%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -111,6 +111,20 @@ Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via i
 - [vacp2p/nim-libp2p#2410](https://github.com/vacp2p/nim-libp2p/pull/2410) fix(autotls): withAutotls independent ordering
 - [vacp2p/nim-libp2p#2396](https://github.com/vacp2p/nim-libp2p/pull/2396) chore: remove old nim hacks
 - [status-im/nim-websock#193](https://github.com/status-im/nim-websock/pull/193) chore: expose HTTP accept primitives
+- [vacp2p/nim-libp2p#2459](https://github.com/vacp2p/nim-libp2p/pull/2459) fix(peerstore): reset identify stream on cancellation
+- [vacp2p/nim-libp2p#2465](https://github.com/vacp2p/nim-libp2p/pull/2465) chore(deps): bump nim-websock to >= 0.4.0
+- [status-im/nim-websock#195](https://github.com/status-im/nim-websock/pull/195) 0.4.0
+- [vacp2p/boringssl#2](https://github.com/vacp2p/boringssl/pull/2) chore: sync BoringSSL upstream
+- [vacp2p/nim-libp2p#2359](https://github.com/vacp2p/nim-libp2p/pull/2359) fix(ws): process pending handshakes concurrently
+- [vacp2p/nim-libp2p#2462](https://github.com/vacp2p/nim-libp2p/pull/2462) refactor(Switch): Service lifecycle
+- [vacp2p/nim-libp2p#2466](https://github.com/vacp2p/nim-libp2p/pull/2466) chore(SwitchBuilder): `build()` proc cleanup
+- [vacp2p/nim-libp2p#2473](https://github.com/vacp2p/nim-libp2p/pull/2473) chore(PeerInfo): cosmetics
+- [vacp2p/nim-libp2p#2472](https://github.com/vacp2p/nim-libp2p/pull/2472) test(Noise): cosmetics
+- [vacp2p/nim-libp2p#2451](https://github.com/vacp2p/nim-libp2p/pull/2451) chore: utilize `cancelAndWait` template
+- [vacp2p/nim-libp2p#2456](https://github.com/vacp2p/nim-libp2p/pull/2456) test: stabilize `Switch::e2e max outgoing connection limits` by forcing TCP transport
+- [vacp2p/nim-libp2p#2453](https://github.com/vacp2p/nim-libp2p/pull/2453) test: simplify `makeStandardSwitch` and `makeStandardSwitchBuilder`
+- [vacp2p/nim-libp2p#2454](https://github.com/vacp2p/nim-libp2p/pull/2454) chore: makefile instead of nimble
+- [vacp2p/nim-libp2p#2433](https://github.com/vacp2p/nim-libp2p/pull/2433) fix(ci): add skip to autotls integration tests
 
 
 ### KAD-DHT optimizations
@@ -132,9 +146,9 @@ Implement KAD-DHT optimizations and follow-up hardening work for nim-libp2p.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:peerstore-address-ttl`
 * owner: gabe
-* status: in progress (80%)
+* status: done
 * start-date: 2026/05/01
-* end-date: 2026/05/05
+* end-date: 2026/05/19
 
 #### Description
 Add TTL support for addresses stored in the peerstore. Addresses should no
@@ -151,6 +165,7 @@ depending on how trustworthy the address is:
 - Peerstore support for address TTLs
 - Different TTL policies for unverified, validated, connected, and permanent addresses
 - Expiration logic to remove stale addresses automatically
+- [vacp2p/nim-libp2p#2425](https://github.com/vacp2p/nim-libp2p/pull/2425) feat(peerstore): address TTL
 
 ### IdentifyPush
 

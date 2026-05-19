@@ -85,7 +85,7 @@ This task depends on `ift-ts:p2p:ift:2026q2-anoncomms-consulting:capability-disc
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-cbindings:nim-ffi`  
 * owner: gabe
-* status: in progress (44%)
+* status: in progress (60%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -101,3 +101,4 @@ existing bindings to take advantage of it.
 - [logos-messaging/nim-ffi#20](https://github.com/logos-messaging/nim-ffi/pull/20) chore: run tests with refc
 - [logos-messaging/nim-ffi#19](https://github.com/logos-messaging/nim-ffi/pull/19) chore: remove CatchableError
 - [logos-messaging/nim-ffi#21](https://github.com/logos-messaging/nim-ffi/pull/21) fix: context buffer overflow
+- [logos-messaging/nim-ffi#26](https://github.com/logos-messaging/nim-ffi/pull/26) chore(ci): run tests in parallel

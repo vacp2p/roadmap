@@ -41,6 +41,9 @@ Define the **standardized site** pattern (layout, content slots, branding guardr
 - Admin journey (wireframes or flow) covering updates to pages, contacts, and use-case blocks
 - Alignment checkpoints with design / EcoDev on Circles positioning
 - CiviCRM dashboard sync completed with Jerry and Kris.
+- [CiviCRM CMS Technical Design](https://www.notion.so/CiviCRM-CMS-Technical-Design-3618f96fb65c8003bcb7c7f2602861df?source=copy_link)
+- [Circle onboarding email template fix](https://civicrm.logos.co/civicrm/admin/messageTemplates/add?action=update&id=84&reset=1)
+- [CMS for CiviCRM proposal feedback](https://www.notion.so/CMS-CiviCRM-dev-plan-35e8f96fb65c804db9a2fe4b72b527a1?source=copy_link)
 
 ### Deploy pipelines — GitHub & CMS/CRM
 

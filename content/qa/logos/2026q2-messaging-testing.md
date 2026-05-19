@@ -91,9 +91,9 @@ Cover the following E2E test scenarios for the Send API: `S02`, `S06`, `S07`, `S
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:logosdelivery-main-tests-part2`
 * owner: aya
-* status: in progress (80%)
+* status: done
 * start-date: 2026/04/09
-* end-date: 2026/04/25
+* end-date: 2026/05/19
 
 #### Description
 Cover the following E2E test scenarios for the Send API: `S17`, `S19`, `S20`, `S21`, `S22`, `S23`, `S24`, `S26`, `S30`, and `S31`.
@@ -108,7 +108,7 @@ Cover the following E2E test scenarios for the Send API: `S17`, `S19`, `S20`, `S
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:logosdelivery-e2e-tests-part3`
 * owner: aya
-* status: in progress (40%)
+* status: in progress (70%)
 * start-date: 2026/05/05
 * end-date: 2026/05/18
 
@@ -119,6 +119,10 @@ Cover the remaining E2E test scenarios for the Send API beyond the 19 scenarios 
 - PRs with Send API E2E tests for the remaining LogosDelivery scenarios.
 - Test report covering execution results, failures, and any follow-up issues.
 - [logos-messaging/logos-delivery#3863](https://github.com/logos-messaging/logos-delivery/issues/3863) S01 follow-up issue identified during remaining scenario coverage
+- [logos-messaging/logos-delivery-interop-tests#181](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/181) e2e part3
+- [logos-messaging/logos-delivery-interop-tests#183](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/183) E2e s13 s16
+- [logos-messaging/logos-delivery#3873](https://github.com/logos-messaging/logos-delivery/issues/3873) S01 destroyed handle follow-up
+- [logos-messaging/logos-delivery#3887](https://github.com/logos-messaging/logos-delivery/issues/3887) S16 lightpush peer appears later follow-up
 
 ### Waku.test RLN smoke suite
 

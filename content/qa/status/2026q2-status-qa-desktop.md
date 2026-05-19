@@ -49,6 +49,10 @@ Oversee testing strategy around releases.
 - [status-im/status-app#20600](https://github.com/status-im/status-app/pull/20600) tests(@qml): language selector and currency selector tests
 - [status-im/status-app#20576](https://github.com/status-im/status-app/pull/20576) tests(@e2e): Hoodi migration
 - [status-im/status-app#20750](https://github.com/status-im/status-app/pull/20750) chore(@e2e): fix for community channel form
+- [status-im/status-app#20857](https://github.com/status-im/status-app/pull/20857) chore: bump waku version to 0.38.1 and fix configuration
+- [status-im/status-go#7442](https://github.com/status-im/status-go/pull/7442) chore: update waku version to latest release 0.38.1 and fix configuration
+- [status-im/status-app#20843](https://github.com/status-im/status-app/issues/20843) Fix tests in 20795
+- [status-im/infra-sites#126](https://github.com/status-im/infra-sites/issues/126) Status.app website is not accessible in Russian region
 
 ### Release Testing
 

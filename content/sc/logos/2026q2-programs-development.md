@@ -21,7 +21,7 @@ including follow-up work across token, ATA, and AMM program boundaries.
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-programs-development:chores`
 * owner: Ricardo/r4bbit
-* status: in progress (60%)
+* status: in progress (75%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -41,3 +41,13 @@ and follow-up issues across the LEZ token, ATA, and AMM programs.
 - [logos-blockchain/lez-programs#79](https://github.com/logos-blockchain/lez-programs/pull/79) chore(amm): validate fee tier in `sync_reserves`
 - [logos-blockchain/lez-programs#78](https://github.com/logos-blockchain/lez-programs/pull/78) chore(amm): add defensive check for lp token solvency
 - [logos-blockchain/lez-programs#71](https://github.com/logos-blockchain/lez-programs/pull/71) fix(amm): validate user deposit accounts are owned by vault's token program
+- [logos-blockchain/lez-programs#53](https://github.com/logos-blockchain/lez-programs/issues/53) ATA transfer recipient handling
+- [logos-blockchain/lez-programs#103](https://github.com/logos-blockchain/lez-programs/pull/103) fix(ata): lock down `ATA::Transfer` recipient contract
+- [logos-blockchain/lez-programs#83](https://github.com/logos-blockchain/lez-programs/issues/83) ATA token program dispatch and occupant validation
+- [logos-blockchain/lez-programs#108](https://github.com/logos-blockchain/lez-programs/pull/108) fix(ata): namespace accounts by token program
+- [logos-blockchain/lez-programs#89](https://github.com/logos-blockchain/lez-programs/issues/89) Implement `open_position`
+- [logos-blockchain/lez-programs#104](https://github.com/logos-blockchain/lez-programs/pull/104) feat(stablecoin): implement `open_position`
+- [logos-blockchain/lez-programs#96](https://github.com/logos-blockchain/lez-programs/issues/96) Price feed interface follow-up
+- [logos-blockchain/lez-programs#107](https://github.com/logos-blockchain/lez-programs/pull/107) fix(integration_tests) remove no longer needed program ID
+- [logos-co/spel#191](https://github.com/logos-co/spel/pull/191) fix(idl-gen): exclude ProgramContext from runtime-generated IDL
+- [logos-blockchain/lez-programs#105](https://github.com/logos-blockchain/lez-programs/pull/105) chore: update spel

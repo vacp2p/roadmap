@@ -56,6 +56,9 @@ Execute upkeep across delivered web properties for Q2: dependency and security b
 - [vacp2p/research.logos.co#178](https://github.com/vacp2p/research.logos.co/pull/178) chore: rebrand Vac to Logos Research & update docusaurus-preset
 - [acid-info/logos-docusaurus-plugins#316](https://github.com/acid-info/logos-docusaurus-plugins/pull/316) chore(docusaurus-preset): update vac assets
 - [acid-info/logos-docusaurus-plugins#314](https://github.com/acid-info/logos-docusaurus-plugins/pull/314) fix(docusaurus-theme): make white X icon actually white & resize
+- [acid-info/logos#38](https://github.com/acid-info/logos/pull/38) Patch Next.js high severity CVE
+- [acid-info/admin-acid.logos.co#44](https://github.com/acid-info/admin-acid.logos.co/pull/44) Patch Next.js high severity CVE
+- [status-im/status-web#1157](https://github.com/status-im/status-web/pull/1157) chore: upgrade next to version 15.5.16 across all projects
 - [Guidelines for Uploading Dynamic HTML Content](https://docs.google.com/document/d/1s565y_bS81R_ZhHU8VhOmmwRttCaOVQRul2zVgQQpSs/edit?usp=sharing)
 - Merged fixes and improvements on shipped repos (PRs as appropriate)
 - Stable CI/deploy and platform operations for maintained properties

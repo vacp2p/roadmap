@@ -90,10 +90,10 @@ Present DST reports automatically in a dashboard for other CCs.
 ### Shadow
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:shadow`
-* owner: TBD
+* owner: Alan
 * status: not started
-* start-date: 2026/04/01
-* end-date: 2026/06/30
+* start-date: 2026/05/18
+* end-date: 2026/05/27
 
 #### Description
 Shadow simulator is hardcoded at the moment in dst-libp2p-test-node for the nim version.

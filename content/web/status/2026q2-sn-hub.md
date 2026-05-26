@@ -139,10 +139,10 @@ Define test cases for QA testing of SN Hub features and functionality.
 ### SEO
 
 * fully qualified name: `ift-ts:web:status:2026q2-sn-hub:seo`
-* owner: unassigned
-* status: not started
+* owner: Felicio
+* status: in progress (95%)
 * start-date: 2026/04/22
-* end-date: 2026/05/05
+* end-date: 2026/05/26
 
 #### Description
 
@@ -154,12 +154,13 @@ Implement SEO optimization for SN Hub to improve search engine visibility and di
 - SEO implementation
 - Meta tags and structured data
 - SEO audit and optimization report
+- [status-im/status-web#1184](https://github.com/status-im/status-web/pull/1184) fix `/brand` page
 
 ### Fund allocation
 
 * fully qualified name: `ift-ts:web:status:2026q2-sn-hub:fund-allocation`
-* owner: unassigned
-* status: not started
+* owner: Felicio
+* status: in progress (95%)
 * start-date: 2026/05/01
 * end-date: 2026/06/30
 
@@ -187,6 +188,7 @@ Ship **fund allocation** and related flows in SN Hub per design ([Figma — over
 - Linked “Learn more” content or routes as designed
 - [status-im/status-web#1159](https://github.com/status-im/status-web/pull/1159) Add hub airdrop checker page
 - [status-im/status-web#1161](https://github.com/status-im/status-web/pull/1161) fix(hub): resolve checker ENS via wagmi public client to avoid CSP blocks
+- [status-im/status-web#1194](https://github.com/status-im/status-web/pull/1194) feat(hub): reorder vaults, update rewards, fix ko translation
 
 ### Hoodi migration
 

@@ -23,7 +23,7 @@ Monitore Social Media to look for competitor bad review and suggess Keycard as s
 * owner: tbd
 * status: done
 * start-date: 2026/04/01
-* end-date: 2026/05/12
+* end-date: 2026/05/26
 
 #### Description
 
@@ -35,3 +35,4 @@ Monitore X and Reddit for review of keycard competitors.
 - Continuous dashboard improvements and competitor review monitoring
 - Keycard analysis dashboard: https://superset.bi.status.im/superset/dashboard/keycard_analysis/
 - Twitter Ads targeting support and social media sentiment analysis updates completed.
+- X ads strategy support and continued Reddit social media research.

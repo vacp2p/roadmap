@@ -26,7 +26,7 @@ The Logos website enhancement will support Logos' strategic objectives by:
 
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-website:website-redesign`
 * owner: jinhojang6
-* status: in progress (85%)
+* status: in progress (90%)
 * start-date: 2026/04/01
 * end-date: 2026/06/15
 
@@ -42,6 +42,13 @@ Redesign the Logos website.
 - [Logos website design system preview](https://logos-co-web.vercel.app/design-systems)
 - [Logos website homepage preview](https://logos-co-web.vercel.app/)
 - [Logos website technology stack preview](https://logos-co-web.vercel.app/technology-stack)
+- [Logos website blockchain page preview](https://logos-co-web.vercel.app/technology-stack/blockchain)
+- [Logos website messaging page preview](https://logos-co-web.vercel.app/technology-stack/messaging)
+- [Logos website networking page preview](https://logos-co-web.vercel.app/technology-stack/networking)
+- [Logos website storage page preview](https://logos-co-web.vercel.app/technology-stack/storage)
+- [Logos website research page preview](https://logos-co-web.vercel.app/research)
+- [Logos website Basecamp page preview](https://logos-co-web.vercel.app/basecamp)
+- [UK Debt campaign preview](https://logos-git-uk-debt-acidinfo.vercel.app/ukdebt)
 - [Logos website redesign Figma](https://www.figma.com/design/nTXI4ug9LoEc9RJqweQACC/Logos?node-id=2364-78221&t=a1YfnsFSIfzS6Tnp-0)
 - Updated UI details and improved technical SEO.
 - [Builders Hub preview](https://logos-co-web.vercel.app/builders-hub)
@@ -57,7 +64,7 @@ Redesign the Logos website.
 
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-website:cms-sanity`
 * owner: JulesFiliot
-* status: in progress (85%)
+* status: in progress (90%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -77,6 +84,9 @@ Propose alternative to Sanity CMS for content management, enabling non-technical
 - CMS schema design
 - CMS functionality and admin UX improvements completed.
 - AI-friendly repository configuration added through AGENTS.md and README updates.
+- Logos forms deployed.
+- CMS PR workflow bugs fixed.
+- [CRM CMS technical specs](https://www.notion.so/CMS-for-CiviCRM-3518f96fb65c80f89cd4d2143a88c0ca) reviewed.
 
 ### Selfhosting
 

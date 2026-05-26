@@ -66,6 +66,9 @@ Should be made general when possible.
   - [vacp2p/10ksim#259](https://github.com/vacp2p/10ksim/pull/259) add delay+jitter with initContainer logic
   - [vacp2p/10ksim#268](https://github.com/vacp2p/10ksim/pull/268) Make format
   - [vacp2p/10ksim#264](https://github.com/vacp2p/10ksim/pull/264) Fix missing messages again
+  - [vacp2p/10ksim#273](https://github.com/vacp2p/10ksim/pull/273) Remove unused code
+  - [vacp2p/10ksim#269](https://github.com/vacp2p/10ksim/pull/269) BaseExperiment: Moved run params into fields
+  - [vacp2p/10ksim#253](https://github.com/vacp2p/10ksim/pull/253) Remove old init_logger in kube_utils
 - Reports:
 - Other:
   - Fixed `zerotesting-store` so it runs on k8s
@@ -91,7 +94,7 @@ Present DST reports automatically in a dashboard for other CCs.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:shadow`
 * owner: Alan
-* status: not started
+* status: in progress (70%)
 * start-date: 2026/05/18
 * end-date: 2026/05/27
 
@@ -106,3 +109,4 @@ subtasks.
 #### Deliverables
 - Code:
 - Reports:
+  - [Using Shadow at DST](https://www.notion.so/Using-Shadow-at-DST-3698f96fb65c8091b011db3f7d267d61) documents usage, design choices, and gotchas.

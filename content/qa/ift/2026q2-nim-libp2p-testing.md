@@ -179,7 +179,7 @@ This includes quick-turn support for transport-start inconsistencies, protocol-l
 
 * fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:service-discovery`
 * owner: radek
-* status: in progress (60%)
+* status: in progress (80%)
 * start-date: 2026/05/04
 * end-date: 2026/06/30
 
@@ -205,3 +205,11 @@ Include tests for advertiser, discoverer, and registrar behavior, service ID has
 - [vacp2p/nim-libp2p#2417](https://github.com/vacp2p/nim-libp2p/issues/2417) service-disco: what is `startDiscovering` meant to do?
 - [vacp2p/nim-libp2p#2431](https://github.com/vacp2p/nim-libp2p/issues/2431) service-disco: lookup returns duplicates when multiple queried peers hold the same ad
 - [vacp2p/nim-libp2p#2430](https://github.com/vacp2p/nim-libp2p/issues/2430) service-disco: missing API for multi-service registration
+- [vacp2p/nim-libp2p#2502](https://github.com/vacp2p/nim-libp2p/pull/2502) fix(service-disco): build advert once to keep adverts byte-identical
+- [vacp2p/nim-libp2p#2500](https://github.com/vacp2p/nim-libp2p/pull/2500) test(service-disco): add repro test for #2499
+- [vacp2p/nim-libp2p#2488](https://github.com/vacp2p/nim-libp2p/pull/2488) test(service-disco): non-32-byte keys + misc component
+- [vacp2p/nim-libp2p#2480](https://github.com/vacp2p/nim-libp2p/pull/2480) test(service-disco): validateRegisterMessage + message size
+- [vacp2p/nim-libp2p#2513](https://github.com/vacp2p/nim-libp2p/issues/2513) service-disco: XPR signed-envelope domain and payload type diverge from spec
+- [vacp2p/nim-libp2p#2499](https://github.com/vacp2p/nim-libp2p/issues/2499) service-disco: valid service-table peers are dropped when Kad bucketIndex is 16 or higher
+- [vacp2p/nim-libp2p#2487](https://github.com/vacp2p/nim-libp2p/issues/2487) service-disco: add size validation for ServiceInfo.data and encoded XPR
+- [vacp2p/nim-libp2p#2514](https://github.com/vacp2p/nim-libp2p/pull/2514) fix(service-disco): skip double-hashing service ID in bucket index

@@ -53,6 +53,12 @@ Oversee testing strategy around releases.
 - [status-im/status-go#7442](https://github.com/status-im/status-go/pull/7442) chore: update waku version to latest release 0.38.1 and fix configuration
 - [status-im/status-app#20843](https://github.com/status-im/status-app/issues/20843) Fix tests in 20795
 - [status-im/infra-sites#126](https://github.com/status-im/infra-sites/issues/126) Status.app website is not accessible in Russian region
+- [status-im/status-app#20980](https://github.com/status-im/status-app/issues/20980) Assets page remains empty for ~15s for new user with 0 balances
+- [status-im/status-app#20975](https://github.com/status-im/status-app/pull/20975) tests(@e2e): open asset and check the prices graph
+- [status-im/status-app#20978](https://github.com/status-im/status-app/issues/20978) Fix tests in 20950
+- [status-im/status-app#20929](https://github.com/status-im/status-app/pull/20929) chore(@e2e): wait longer on authenticate action
+- [status-im/status-app#20584](https://github.com/status-im/status-app/issues/20584) Can't get Admin privileges even UI says I am admin in community
+- [status-im/status-app#21000](https://github.com/status-im/status-app/pull/21000) chore(@e2e): fix failing tests
 
 ### Release Testing
 
@@ -68,6 +74,7 @@ Oversee testing strategy around releases.
 #### Deliverables
 - [status-im/status-app#20581](https://github.com/status-im/status-app/issues/20581) Change password / Sign out and quit / Authenticate hang the app
 - [status-im/status-app#20530](https://github.com/status-im/status-app/issues/20530) Browser: tabs are closed when navigating to home
+- [status-im/status-app#20930](https://github.com/status-im/status-app/pull/20930) chore: disable syncing test in release
 
 ### Privacy Mode
 

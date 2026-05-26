@@ -22,7 +22,7 @@ The emphasis is on improving correctness, maintainability, and user-facing error
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nimble:nimble-1.0.0`
 * owner: Juan
-* status: in progress (50%)
+* status: in progress (75%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -51,10 +51,14 @@ This remains the short-term roadmap for replacing pieces of the Nimbus build sys
 - [nim-lang/nimble#1682](https://github.com/nim-lang/nimble/pull/1682) Parallel downloads
 - [nim-lang/nimble#1702](https://github.com/nim-lang/nimble/pull/1702) Fixes #1510: 'nimble develop' without args sets up all dependencies
 - [nim-lang/nimble#1700](https://github.com/nim-lang/nimble/pull/1700) Drop legacy getPackageMinimalVersionsFromRepo variants, keep only one
+- [nim-lang/nimble#1709](https://github.com/nim-lang/nimble/pull/1709) Fixes #1508: develop --withDeps vendors under canonical name not git
+- [nim-lang/nimble#1708](https://github.com/nim-lang/nimble/pull/1708) Fixes #1000: nimble check doesn't reject develop overrides of == pinned
+- [nim-lang/nimble#1707](https://github.com/nim-lang/nimble/pull/1707) Fixes #1344: nimble path respects develop file
 - [nim-lang/nimble#1699](https://github.com/nim-lang/nimble/pull/1699) Fix SAT solver missing git tags when tagged_versions.json is stale
 - [nim-lang/nimble#1698](https://github.com/nim-lang/nimble/pull/1698) Fixes #1691: SAT solver skips versions with missing dependencies instead
 - [nim-lang/nimble#1697](https://github.com/nim-lang/nimble/pull/1697) Fix develop --withDeps including pkgs2 paths when package is also
 - [nim-lang/nimble#1696](https://github.com/nim-lang/nimble/pull/1696) Fixes #1693: nimble upgrade pkg only upgrades the specified package
+- [nim-lang/nimble#1710](https://github.com/nim-lang/nimble/pull/1710) Add regression test for #1566 (nimble setup reuses vendor packages after
 
 ### Resolver Improvements
 

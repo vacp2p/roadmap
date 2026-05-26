@@ -54,6 +54,7 @@ and document behaviors and findings.
   - [vacp2p/vaclab-2#30](https://github.com/vacp2p/vaclab-2/pull/30) Fix dashboard name
   - [vacp2p/vaclab-2#31](https://github.com/vacp2p/vaclab-2/pull/31) Fix uid
   - [vacp2p/vaclab-2#33](https://github.com/vacp2p/vaclab-2/pull/33) Filter by only outsider nodes
+  - [vacp2p/10ksim#210](https://github.com/vacp2p/10ksim/pull/210) Devnet deployment files
 - Reports:
 
 

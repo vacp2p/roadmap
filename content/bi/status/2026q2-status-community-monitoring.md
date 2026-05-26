@@ -22,7 +22,7 @@ Create dashboard for status community monitoring
 * owner: Nikolay
 * status: done
 * start-date: 2026/04/01
-* end-date: 2026/05/12
+* end-date: 2026/05/26
 * issue: https://github.com/status-im/data-docs/issues/153
 
 #### Description
@@ -36,3 +36,4 @@ Dashboard showing:
 - WoW number of message send
 - WoW channel activity
 - Status community monitoring dashboard prepared.
+- Improved community-monitoring bot work continued.

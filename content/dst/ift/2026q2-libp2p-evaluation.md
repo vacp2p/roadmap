@@ -84,7 +84,7 @@ this implementation or if there is another factor.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:priority-queues`
 * owner: Mamoutou
-* status: in progress (45%)
+* status: in progress (99%)
 * start-date: 2026/05/05
 * end-date: 2026/05/20
 
@@ -102,15 +102,16 @@ that the slow peer penalty is applied and decays overtime, and that the values s
 - Reports:
     - [Notion: Gossipsub Priority Queues Test](https://www.notion.so/Gossipsub-Priority-Queues-Test-3638f96fb65c80f69df4de8b27508371)
     - [Grafana Dashboard DEV: Gossipsub Queues - ALL](https://grafana.lab.vac.dev/d/ma8p7g5/gossipsub-queues-all?orgId=1&from=2026-05-17T22:55:52.208Z&to=2026-05-17T23:49:05.560Z&timezone=browser&var-namespace=libp2p-lab&var-pod=nim-quic-1&var-pod=nim-quic-10&var-pod=nim-quic-70&var-muxer=$__all)
+    - [Grafana: New panels for H/M/L queues analysis](https://grafana.lab.vac.dev/d/ma8p7g5/gossipsub-queues-all?orgId=1&from=2026-05-24T11:24:01.380Z&to=2026-05-24T13:31:46.583Z&timezone=browser&var-namespace=libp2p-lab&var-pod=$__all&var-muxer=$__all&var-query0=&var-peer_id=12D3KooWAPY95zCGogURoa1E7HkV35xNZMPM9apFsXkWJRpee4Gw)
 
 
 ### connection manager
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:connection-manager`
 * owner: Alan
-* status: in progress (95%)
+* status: done
 * start-date: 2026/05/05
-* end-date: 2026/05/15
+* end-date: 2026/05/26
 
 #### Description
 Switch builder now has an option for pruning behavior, and connection manager has ephemeral tag mechanisms. More info:
@@ -125,6 +126,8 @@ Provide feedback if examples are not clear, and create scenarios to validate the
     - [Github branch: connection manager experiment framework](https://github.com/vacp2p/10ksim/tree/alan/connmanager)
     - [vacp2p/dst-libp2p-test-node#24](https://github.com/vacp2p/dst-libp2p-test-node/pull/24) Add Connection Manager Experiment Node
     - [vacp2p/10ksim#267](https://github.com/vacp2p/10ksim/pull/267) Connection Manager Experiment Deployment
+    - [vacp2p/10ksim#266](https://github.com/vacp2p/10ksim/pull/266) Add Connection Manager Experiment Analysis
 - Reports:
     - [Notion: connection manager planning report](https://www.notion.so/3588f96fb65c8174b5a6e85f966b3976)
     - [Notion: connection manager results report](https://www.notion.so/3598f96fb65c81ea9dacd68f0450b296)
+    - Automatic post-run analysis added for deployment, analysis, and plot generation.

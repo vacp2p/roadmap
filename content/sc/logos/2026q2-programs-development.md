@@ -51,3 +51,6 @@ and follow-up issues across the LEZ token, ATA, and AMM programs.
 - [logos-blockchain/lez-programs#107](https://github.com/logos-blockchain/lez-programs/pull/107) fix(integration_tests) remove no longer needed program ID
 - [logos-co/spel#191](https://github.com/logos-co/spel/pull/191) fix(idl-gen): exclude ProgramContext from runtime-generated IDL
 - [logos-blockchain/lez-programs#105](https://github.com/logos-blockchain/lez-programs/pull/105) chore: update spel
+- [logos-blockchain/lez-programs#110](https://github.com/logos-blockchain/lez-programs/pull/110) chore: update spel to v0.3.0
+- [TWAP Oracle account design research](https://notes.status.im/4PlwprLaQEWW4Q_SDT36zw)
+- [logos-blockchain/lez-programs#112](https://github.com/logos-blockchain/lez-programs/pull/112) feat(stablecoin): implement withdraw_collateral 

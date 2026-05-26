@@ -63,9 +63,9 @@ through Logos Core.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-logos-core:custom-protocols`  
 * owner: gabe
-* status: in progress (90%)
-* start-date: 2026/06/19
-* end-date: 2026/06/30
+* status: done
+* start-date: 2026/05/19
+* end-date: 2026/05/26
 
 #### Description
 Using a set of new functions provided by Logos Core, allow registering custom protocols.

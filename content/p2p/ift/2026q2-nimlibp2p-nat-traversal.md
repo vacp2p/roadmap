@@ -31,9 +31,9 @@ the library instead of duplicating efforts downstream.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-nat-traversal:address-setup-api`
 * owner: gabe
-* status: not started
+* status: done
 * start-date: 2026/05/01
-* end-date: 2026/06/30
+* end-date: 2026/05/26
 
 #### Description
 Provide a reusable nim-libp2p API and builder/config integration for NAT public
@@ -46,13 +46,15 @@ explicit external IP configuration.
 - Support for `any`, `none`, `upnp`, `pmp`, and `extip:<IP>` modes or equivalent typed configuration
 - Public address and mapped port results exposed to transport/listen address handling
 - Tests for mode parsing, explicit external IP handling, and disabled NAT setup
+- [vacp2p/nim-libp2p#2493](https://github.com/vacp2p/nim-libp2p/pull/2493) feat(nat): NATService skeleton
+- [vacp2p/nim-libp2p#2483](https://github.com/vacp2p/nim-libp2p/pull/2483) feat(nat): announcedAddrs
 
 
 ### UPnP and NAT-PMP Integration
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-nat-traversal:upnp-pmp`
 * owner: gabe
-* status: not started
+* status: in progress (60%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 

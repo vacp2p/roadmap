@@ -22,9 +22,9 @@ The Q2 LogosDelivery E2E effort is tracked under [logos-messaging/logos-delivery
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:maintenance`
 * owner: aya/roman
-* status: in progress (80%)
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/05/26
 
 #### Description
 Ongoing maintenance of messaging testing frameworks.
@@ -34,6 +34,7 @@ Ongoing maintenance of messaging testing frameworks.
 - [logos-messaging/logos-delivery-interop-tests#164](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/164) chore: Refactor RLN tests
 - [logos-messaging/logos-delivery-interop-tests#177](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/177) Fix for wrong url of reports
 - [logos-messaging/logos-delivery#3846](https://github.com/logos-messaging/logos-delivery/issues/3846) RLN registration not working with latest docker image
+- [logos-messaging/logos-delivery-interop-tests#185](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/185) fix: Enable RLN registration for fleet tests
 
 ### Python bindings
 
@@ -108,9 +109,9 @@ Cover the following E2E test scenarios for the Send API: `S17`, `S19`, `S20`, `S
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:logosdelivery-e2e-tests-part3`
 * owner: aya
-* status: in progress (70%)
+* status: done
 * start-date: 2026/05/05
-* end-date: 2026/05/18
+* end-date: 2026/05/26
 
 #### Description
 Cover the remaining E2E test scenarios for the Send API beyond the 19 scenarios completed in parts 1 and 2: `S01`, `S03`, `S04`, `S05`, `S11`, `S13`, `S16`, `S18`, `S25`, `S27`, `S28`, and `S29`.
@@ -121,8 +122,26 @@ Cover the remaining E2E test scenarios for the Send API beyond the 19 scenarios 
 - [logos-messaging/logos-delivery#3863](https://github.com/logos-messaging/logos-delivery/issues/3863) S01 follow-up issue identified during remaining scenario coverage
 - [logos-messaging/logos-delivery-interop-tests#181](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/181) e2e part3
 - [logos-messaging/logos-delivery-interop-tests#183](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/183) E2e s13 s16
+- [logos-messaging/logos-delivery-interop-tests#184](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/184) Fix failing tests
 - [logos-messaging/logos-delivery#3873](https://github.com/logos-messaging/logos-delivery/issues/3873) S01 destroyed handle follow-up
 - [logos-messaging/logos-delivery#3887](https://github.com/logos-messaging/logos-delivery/issues/3887) S16 lightpush peer appears later follow-up
+- [Test Report Summary](https://www.notion.so/E2E-testing-report-of-new-LogosDelivery-API-send-3678f96fb65c80d9a8e1eb8e0e9dd2e1?source=copy_link)
+- [Test Structure Reference](https://www.notion.so/Wrapper-Tests-Structure-Overview-3678f96fb65c80408aedcd8cae439f0e?source=copy_link)
+
+### LogosDelivery bindings maintenance
+
+* fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:logosdelivery-bindings-maintenance`
+* owner: aya
+* status: in progress (20%)
+* start-date: 2026/05/19
+* end-date: 2026/06/30
+
+#### Description
+Maintain LogosDelivery bindings test coverage, including port tests, failure analysis,
+and coordination of findings with developers.
+
+#### Deliverables
+- [logos-messaging/logos-delivery-interop-tests#186](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/186) Add port tests and analyze current failures
 
 ### Waku.test RLN smoke suite
 

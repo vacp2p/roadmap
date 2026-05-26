@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (52%)
+* status: in progress (59%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -125,6 +125,23 @@ Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via i
 - [vacp2p/nim-libp2p#2453](https://github.com/vacp2p/nim-libp2p/pull/2453) test: simplify `makeStandardSwitch` and `makeStandardSwitchBuilder`
 - [vacp2p/nim-libp2p#2454](https://github.com/vacp2p/nim-libp2p/pull/2454) chore: makefile instead of nimble
 - [vacp2p/nim-libp2p#2433](https://github.com/vacp2p/nim-libp2p/pull/2433) fix(ci): add skip to autotls integration tests
+- [vacp2p/nim-libp2p#2508](https://github.com/vacp2p/nim-libp2p/pull/2508) chore: use `protobuf_serialization` 0.4.0
+- [vacp2p/nim-libp2p#2495](https://github.com/vacp2p/nim-libp2p/pull/2495) fix(cancellation): preserve `CancelledError` in handlers
+- [vacp2p/nim-lsquic#85](https://github.com/vacp2p/nim-lsquic/pull/85) chore: bump lsquic
+- [vacp2p/nim-libp2p#2482](https://github.com/vacp2p/nim-libp2p/pull/2482) chore: better names for streams and connections
+- [vacp2p/nim-boringssl#5](https://github.com/vacp2p/nim-boringssl/pull/5) chore: update BoringSSL submodule and bindings
+- [vacp2p/boringssl#3](https://github.com/vacp2p/boringssl/pull/3) chore: sync BoringSSL upstream
+- [vacp2p/nim-libp2p#2506](https://github.com/vacp2p/nim-libp2p/pull/2506) chore: remove implicit `result` variable usage across libp2p source
+- [vacp2p/nim-libp2p#2518](https://github.com/vacp2p/nim-libp2p/pull/2518) chore: remove remaining `result` keyword usage
+- [vacp2p/nim-libp2p#2497](https://github.com/vacp2p/nim-libp2p/pull/2497) fix(autotls): parsing failed due to missing enum value
+- [vacp2p/nim-libp2p#2519](https://github.com/vacp2p/nim-libp2p/pull/2519) fix(autotls): avoid `dns-persist-01` challenge and raise api errors
+- [vacp2p/nim-libp2p#2507](https://github.com/vacp2p/nim-libp2p/pull/2507) chore(readme): add Mix Protocol to project list
+- [vacp2p/nim-libp2p#2498](https://github.com/vacp2p/nim-libp2p/pull/2498) chore(ai): add instruction for perserving error message
+- [vacp2p/nim-libp2p#2486](https://github.com/vacp2p/nim-libp2p/pull/2486) chore(SwitchBuilder): gracePeriod disabled by default
+- [vacp2p/nim-libp2p#2475](https://github.com/vacp2p/nim-libp2p/pull/2475) chore(SwitchBuilder): drop `withServices`
+- [vacp2p/nim-libp2p#2476](https://github.com/vacp2p/nim-libp2p/pull/2476) chore(SwitchBuilder): avoid braking building chain
+- [vacp2p/nim-libp2p#2481](https://github.com/vacp2p/nim-libp2p/pull/2481) chore(ci): unify dependency cache keys across workflows
+- [vacp2p/nim-libp2p#2471](https://github.com/vacp2p/nim-libp2p/pull/2471) fix(websocket): avoid asyncSpawn
 
 
 ### KAD-DHT optimizations
@@ -295,10 +312,10 @@ Some related work available is:
 ### Large RSA key limit
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:large-rsa-key-limit`
-* owner: not assigned yet
-* status: not started
+* owner: richard
+* status: done
 * start-date: 2026/05/01
-* end-date: 2026/06/30
+* end-date: 2026/05/26
 
 #### Description
 Fix [vacp2p/nim-libp2p#1327](https://github.com/vacp2p/nim-libp2p/issues/1327)
@@ -313,15 +330,17 @@ guidance, including the `<= 8192` bit maximum.
 - Maximum RSA key size enforced during key parsing and generation
 - Tests for accepted RSA keys and rejected oversized RSA keys
 - Documentation or changelog note describing the compatibility/security behavior
+- [vacp2p/nim-libp2p#2494](https://github.com/vacp2p/nim-libp2p/pull/2494) fix(rsa): cap max key size
+- [vacp2p/nim-libp2p#2491](https://github.com/vacp2p/nim-libp2p/pull/2491) fix(rsa): reject imported keys below 2048 bits
 
 
 ### Sink performance exploration
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:sink-performance-exploration`
 * owner: richard
-* status: not started
+* status: done
 * start-date: 2026/05/01
-* end-date: 2026/06/30
+* end-date: 2026/05/26
 
 #### Description
 Explore using Nim `sink` parameters in internal code paths where ownership
@@ -335,3 +354,7 @@ Maintain backward compatibility for public APIs.
 - PRs applying `sink` where the ownership semantics are clear and beneficial
 - Tests or benchmarks showing no behavioral regression
 - No public API break.
+- [vacp2p/nim-libp2p#2504](https://github.com/vacp2p/nim-libp2p/pull/2504) feat(protobuf): Use `sink` in protobuf decode paths
+- [vacp2p/nim-libp2p#2503](https://github.com/vacp2p/nim-libp2p/pull/2503) feat(pubsub): use `sink` for RPC buffers
+- [vacp2p/nim-libp2p#2501](https://github.com/vacp2p/nim-libp2p/pull/2501) feat(streams): use `sink` for write buffers
+- [vacp2p/nim-libp2p#2517](https://github.com/vacp2p/nim-libp2p/pull/2517) feat: more `sink` changes

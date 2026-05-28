@@ -131,3 +131,20 @@ Provide feedback if examples are not clear, and create scenarios to validate the
     - [Notion: connection manager planning report](https://www.notion.so/3588f96fb65c8174b5a6e85f966b3976)
     - [Notion: connection manager results report](https://www.notion.so/3598f96fb65c81ea9dacd68f0450b296)
     - Automatic post-run analysis added for deployment, analysis, and plot generation.
+
+  
+### lsquic and queues to framework
+
+* fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:lsquic-and-queues-to-framework`
+* owner: Mamoutou
+* status: not started
+* start-date: 2026/05/25
+* end-date: 2026/06/12
+
+#### Description
+Add experiments realized in `priority-queues` and `nim-lsquic-benchmark` to the python framework.
+
+
+#### Deliverables
+- Code:
+- Reports:

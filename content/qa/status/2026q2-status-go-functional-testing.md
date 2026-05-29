@@ -157,3 +157,17 @@ investigating and resolving issues, and implementing minor improvements to the t
 
 #### Deliverables
 - PRs / Issues / Reports
+
+### Add force reevaluation functionality for community tests
+
+* fully qualified name: `ift-ts:qa:status:2026q2-status-go-functional-testing:7481`
+* owner: TBD
+* status: not started
+* start-date: 2026/04/01
+* end-date: 2026/06/30
+
+#### Description
+Add functionality to use force reevalutaion for community permission check
+
+#### Deliverables
+- PRs / Issues

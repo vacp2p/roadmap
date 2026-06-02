@@ -25,7 +25,7 @@ These componentes are logos-messaging, logos-storage and logos-blockchain.
 ### logos-core evaluation
 * fully qualified name: `ift-ts:dst:logos:2026q2-logos-core-evaluation:evaluation`
 * owner: Pearson
-* status: in progress (75%)
+* status: in progress (90%)
 * start-date: 2026/05/05
 * end-date: 2026/06/30
 
@@ -41,6 +41,7 @@ need to do our experiments.
 #### Deliverables
 - Code:
 - Reports:
+  - https://app.notion.com/p/Work-in-Progress-logos-core-10ksim-integration-36b8f96fb65c801bab58d1124fefa2b4
 
 
 ### logos-messaging

@@ -47,6 +47,8 @@ Implement SEO optimization for the Status website to improve search engine visib
 - SEO implementation
 - Meta tags and structured data
 - SEO audit and optimization report
+- [status-im/status-web#1183](https://github.com/status-im/status-web/pull/1183) [status.app] Improve technical SEO
+- [status-im/status-web#1211](https://github.com/status-im/status-web/pull/1211) Add Learn page and integrate with sitemap and footer
 
 ### Translations
 
@@ -107,7 +109,7 @@ Set up self-hosting infrastructure and deployment processes for the Status websi
 
 ### SN Website Selfhosting
 
-* fully qualified name: `ift-ts:web:status:2026q2-sn-website:selfhosting`
+* fully qualified name: `ift-ts:web:status:2026q2-status-website:sn-website-selfhosting`
 * owner: Felicio
 * status: in progress (50%)
 * start-date: 2026/05/19

@@ -64,7 +64,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-desktop:release-testing`
 * owner: nastya
-* status: in progress (30%)
+* status: in progress (40%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -75,6 +75,9 @@ Oversee testing strategy around releases.
 - [status-im/status-app#20581](https://github.com/status-im/status-app/issues/20581) Change password / Sign out and quit / Authenticate hang the app
 - [status-im/status-app#20530](https://github.com/status-im/status-app/issues/20530) Browser: tabs are closed when navigating to home
 - [status-im/status-app#20930](https://github.com/status-im/status-app/pull/20930) chore: disable syncing test in release
+- [status-im/status-app#21034](https://github.com/status-im/status-app/issues/21034) Starting 2 app instances on Windows leads to Illegal storage access error sporadically
+- [status-im/status-app#21053](https://github.com/status-im/status-app/pull/21053) chore: bump status-go version in master
+- [status-im/status-app#21020](https://github.com/status-im/status-app/issues/21020) Application rendering is very slow on first launch after install on Windows
 
 ### Privacy Mode
 

@@ -22,7 +22,7 @@ initialization patterns needed by downstream teams.
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-lez-ecodev-support:chores`
 * owner: r4bbit
-* status: in progress (20%)
+* status: in progress (25%)
 * start-date: 2026/05/05
 * end-date: 2026/06/30
 
@@ -35,4 +35,6 @@ fixes, and coordination on program initialization through configuration accounts
 #### Deliverables
 - [logos-co/spel#169](https://github.com/logos-co/spel/pull/169) Collect `#[account_type]` types from path-dependency crates during IDL generation
 - Stablecoin program and app issue triage
+- [logos-blockchain/lez-programs#124](https://github.com/logos-blockchain/lez-programs/issues/124) Stablecoin: use real debt values
+- [logos-blockchain/lez-programs#132](https://github.com/logos-blockchain/lez-programs/issues/132) Stablecoin: use real minted values
 - Program initialization support notes and follow-up issues

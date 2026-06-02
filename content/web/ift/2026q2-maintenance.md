@@ -71,3 +71,4 @@ Execute upkeep across delivered web properties for Q2: dependency and security b
 - [status-im/status-web#1189](https://github.com/status-im/status-web/pull/1189) chore(sn-legal): add pre-deposit withdrawal disclaimer and update legal-external remote
 - [status-im/status-web#1191](https://github.com/status-im/status-web/pull/1191) chore(sn/status.app): withdrawal updates
 - [acid-info/admin-acid.logos.co#45](https://github.com/acid-info/admin-acid.logos.co/pull/45) chore: deprecate projects routes and remove supporting pipeline
+- [Brave Search re-indexing request for logos.co pages](https://discord.com/channels/973324189794697286/1508951064471408742/1509380170216247356)

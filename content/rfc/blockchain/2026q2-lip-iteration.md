@@ -32,12 +32,14 @@ The specifications in pipeline:
 ### New LIPs
 
 - fully qualified name: `ift-ts:rfc:blockchain:2026q2-lip-iteration:new-lips`
-- owner: cofson
-- status: not started
+- owner: fbarbu15
+- status: in progress (80%)
 - start-date: 2026/04/01
 - end-date: 2026/06/30
 #### Description
 Adding new Blockchain specifications to work in the pipeline.
 
 #### Deliverables
-- New LIPs (WIP)
+- [logos-co/logos-lips#347](https://github.com/logos-co/logos-lips/pull/347) Chore: mirror blochain specs into github/mdbook
+- [logos-co/logos-lips#349](https://github.com/logos-co/logos-lips/pull/349) chore: fix math issue
+- [logos-co/logos-lips#350](https://github.com/logos-co/logos-lips/pull/350) chore: fix math issues

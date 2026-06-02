@@ -59,6 +59,9 @@ This remains the short-term roadmap for replacing pieces of the Nimbus build sys
 - [nim-lang/nimble#1697](https://github.com/nim-lang/nimble/pull/1697) Fix develop --withDeps including pkgs2 paths when package is also
 - [nim-lang/nimble#1696](https://github.com/nim-lang/nimble/pull/1696) Fixes #1693: nimble upgrade pkg only upgrades the specified package
 - [nim-lang/nimble#1710](https://github.com/nim-lang/nimble/pull/1710) Add regression test for #1566 (nimble setup reuses vendor packages after
+- [nim-lang/nimble#1716](https://github.com/nim-lang/nimble/pull/1716) Fixes #405: surface develop-linked dependencies in resolver output
+- [nim-lang/nimble#1714](https://github.com/nim-lang/nimble/pull/1714) Closes #1165: regression test for live lib + bin simultaneous develop
+- [nim-lang/nimble#1712](https://github.com/nim-lang/nimble/pull/1712) Fixes #853: drop misleading 'binaries will not be compiled' warning
 
 ### Resolver Improvements
 

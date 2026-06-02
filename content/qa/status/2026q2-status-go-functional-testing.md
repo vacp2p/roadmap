@@ -48,15 +48,16 @@ Perform broader cleanup of the Python SDK to reduce flakiness and maintenance ov
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-go-functional-testing:7130`
 * owner: Nastya
-* status: in progress (50%)
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/06/02
 
 #### Description
 Ensure admin-level permissions behave as expected in communities.
 
 #### Deliverables
 - [status-im/status-app#20584](https://github.com/status-im/status-app/issues/20584) Can't get Admin privileges even UI says I am admin in community
+- [status-im/status-go#7454](https://github.com/status-im/status-go/pull/7454) test: add test to check admin functionality in community
 
 ### Community Ownership Transfer Functional Test
 
@@ -161,13 +162,13 @@ investigating and resolving issues, and implementing minor improvements to the t
 ### Add force reevaluation functionality for community tests
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-go-functional-testing:7481`
-* owner: TBD
-* status: not started
+* owner: Nastya
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/06/02
 
 #### Description
 Add functionality to use force reevalutaion for community permission check
 
 #### Deliverables
-- PRs / Issues
+- [status-im/status-go#7481](https://github.com/status-im/status-go/issues/7481) Implement force reevaluation flag for functional tests

@@ -40,7 +40,7 @@ Platform Constraints Identified in Q1:
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-mobile:test-messaging-group`
 * owner: magnus
-* status: not started
+* status: in progress (50%)
 * start-date: 2026/04/01
 * end-date: 2026/05/15
 
@@ -54,6 +54,7 @@ The tests were built in Q1 but reverted because of flakiness; the multi-device i
 - Member management, link preview, and leave-chat assertions validated
 - 11 assertions matching desktop critical parity
 - First draft of the 3-device group chat suite covering 7 tests
+- [status-im/status-app#21070](https://github.com/status-im/status-app/pull/21070) test(e2e_appium): add 3-device group chat suite
 
 ### Messaging 1x1 completion
 

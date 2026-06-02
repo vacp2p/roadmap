@@ -54,7 +54,7 @@ explicit external IP configuration.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-nat-traversal:upnp-pmp`
 * owner: gabe
-* status: in progress (60%)
+* status: in progress (85%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -69,3 +69,6 @@ structured so UDP-capable transports can use the same setup path.
 - Address propagation into identify/listen address reporting where applicable
 - Downstream migration guidance for Logos and Nimbus NAT configuration
 - Tests or examples covering mapped TCP address advertisement
+- [vacp2p/nim-libp2p#2570](https://github.com/vacp2p/nim-libp2p/pull/2570) feat(nat): upnp, nat-pmp build infra
+- [vacp2p/nim-libp2p#2571](https://github.com/vacp2p/nim-libp2p/pull/2571) feat(nat): portmapper interface
+- [vacp2p/nim-libp2p#2573](https://github.com/vacp2p/nim-libp2p/pull/2573) feat(nat): upnp

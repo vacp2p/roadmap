@@ -54,3 +54,7 @@ and follow-up issues across the LEZ token, ATA, and AMM programs.
 - [logos-blockchain/lez-programs#110](https://github.com/logos-blockchain/lez-programs/pull/110) chore: update spel to v0.3.0
 - [TWAP Oracle account design research](https://notes.status.im/4PlwprLaQEWW4Q_SDT36zw)
 - [logos-blockchain/lez-programs#112](https://github.com/logos-blockchain/lez-programs/pull/112) feat(stablecoin): implement withdraw_collateral 
+- [logos-blockchain/lez-programs#90](https://github.com/logos-blockchain/lez-programs/issues/90) Implement Deposit Collateral
+- [logos-blockchain/lez-programs#123](https://github.com/logos-blockchain/lez-programs/pull/123) docs: update README and CLAUDE.md to reflect current state
+- [logos-blockchain/lez-programs#122](https://github.com/logos-blockchain/lez-programs/pull/122) refactor: move programs into `programs` and UIs into `apps`
+- [logos-blockchain/lez-programs#121](https://github.com/logos-blockchain/lez-programs/pull/121) chore(Makefile): add `idl` command to `Makefile`

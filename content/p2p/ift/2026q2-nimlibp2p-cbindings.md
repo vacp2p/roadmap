@@ -85,7 +85,7 @@ This task depends on `ift-ts:p2p:ift:2026q2-anoncomms-consulting:capability-disc
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-cbindings:nim-ffi`  
 * owner: gabe
-* status: in progress (70%)
+* status: in progress (80%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -104,3 +104,6 @@ existing bindings to take advantage of it.
 - [logos-messaging/nim-ffi#26](https://github.com/logos-messaging/nim-ffi/pull/26) chore(ci): run tests in parallel
 - [logos-messaging/nim-ffi#38](https://github.com/logos-messaging/nim-ffi/pull/38) chore(ci): extend cpp-e2e to OS matrix
 - [logos-messaging/nim-ffi#34](https://github.com/logos-messaging/nim-ffi/pull/34) chore(ci): fsanitize tests
+- [logos-messaging/nim-ffi#46](https://github.com/logos-messaging/nim-ffi/pull/46) chore: avoid throwing exceptions in C++ bindings
+- [logos-messaging/nim-ffi#41](https://github.com/logos-messaging/nim-ffi/pull/41) tests: cover gaps in CBOR type coverage
+- [logos-messaging/nim-ffi#42](https://github.com/logos-messaging/nim-ffi/pull/42) test(cpp-e2e): add multi-context, cross-library, pipeline, stress tests

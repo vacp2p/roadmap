@@ -69,6 +69,10 @@ Should be made general when possible.
   - [vacp2p/10ksim#273](https://github.com/vacp2p/10ksim/pull/273) Remove unused code
   - [vacp2p/10ksim#269](https://github.com/vacp2p/10ksim/pull/269) BaseExperiment: Moved run params into fields
   - [vacp2p/10ksim#253](https://github.com/vacp2p/10ksim/pull/253) Remove old init_logger in kube_utils
+  - [vacp2p/10ksim#271](https://github.com/vacp2p/10ksim/pull/271) Add pull policy methods to builders
+  - [vacp2p/10ksim#272](https://github.com/vacp2p/10ksim/pull/272) Allow to specify service + dns searchs
+  - [vacp2p/10ksim#275](https://github.com/vacp2p/10ksim/pull/275) Add nimp2p-service to nimlibp2p nodes
+  - [vacp2p/10ksim#278](https://github.com/vacp2p/10ksim/pull/278) Add dump to BaseExp and fix run defs
 - Reports:
 - Other:
   - Fixed `zerotesting-store` so it runs on k8s
@@ -94,7 +98,7 @@ Present DST reports automatically in a dashboard for other CCs.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:shadow`
 * owner: Alan
-* status: in progress (70%)
+* status: in progress (95%)
 * start-date: 2026/05/18
 * end-date: 2026/05/27
 

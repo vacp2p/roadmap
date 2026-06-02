@@ -47,6 +47,8 @@ Implement SEO optimization for the Status website to improve search engine visib
 - SEO implementation
 - Meta tags and structured data
 - SEO audit and optimization report
+- [status-im/status-web#1183](https://github.com/status-im/status-web/pull/1183) [status.app] Improve technical SEO
+- [status-im/status-web#1211](https://github.com/status-im/status-web/pull/1211) Add Learn page and integrate with sitemap and footer
 
 ### Translations
 

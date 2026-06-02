@@ -32,7 +32,7 @@ work and improvements, and it is subjected to change.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:regression-testing`
 * owner: Pearson
-* status: in progress (20%)
+* status: in progress (50%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -49,6 +49,9 @@ and ensure they don't happen again.
 - Code:
     - [vacp2p/nim-libp2p#2336](https://github.com/vacp2p/nim-libp2p/issues/2336) TCP connection handling in nim-libp2p
     - [vacp2p/nim-libp2p#2335](https://github.com/vacp2p/nim-libp2p/issues/2335) CPU starvation issue in nim-libp2p
+    - [vacp2p/dst-libp2p-test-node#29](https://github.com/vacp2p/dst-libp2p-test-node/pull/29) Move regression node to its own folder
+    - [vacp2p/dst-libp2p-test-node#30](https://github.com/vacp2p/dst-libp2p-test-node/pull/30) Remove mix from regression node
+    - [vacp2p/dst-libp2p-test-node#32](https://github.com/vacp2p/dst-libp2p-test-node/pull/32) Update node to match v2.0.0
 - Reports:
 
 
@@ -84,9 +87,9 @@ this implementation or if there is another factor.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:priority-queues`
 * owner: Mamoutou
-* status: in progress (99%)
+* status: done
 * start-date: 2026/05/05
-* end-date: 2026/05/20
+* end-date: 2026/06/02
 
 #### Description
 Help validating new changes around priority queues and slow peer behavbior in nim-libp2p introduced in
@@ -99,6 +102,7 @@ that the slow peer penalty is applied and decays overtime, and that the values s
 
 #### Deliverables
 - Code:
+    - [vacp2p/dst-libp2p-test-node#25](https://github.com/vacp2p/dst-libp2p-test-node/pull/25) Add Node and Publisher for Priority Queues tests
 - Reports:
     - [Notion: Gossipsub Priority Queues Test](https://www.notion.so/Gossipsub-Priority-Queues-Test-3638f96fb65c80f69df4de8b27508371)
     - [Grafana Dashboard DEV: Gossipsub Queues - ALL](https://grafana.lab.vac.dev/d/ma8p7g5/gossipsub-queues-all?orgId=1&from=2026-05-17T22:55:52.208Z&to=2026-05-17T23:49:05.560Z&timezone=browser&var-namespace=libp2p-lab&var-pod=nim-quic-1&var-pod=nim-quic-10&var-pod=nim-quic-70&var-muxer=$__all)

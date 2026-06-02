@@ -54,6 +54,8 @@ as well as any potential improvements discussed by the team(s).
 - https://github.com/logos-co/logos-lips/pull/337
 - https://github.com/logos-co/logos-lips/pull/338
 - https://github.com/logos-co/logos-lips/pull/339
+- https://github.com/logos-co/logos-lips/pull/340
+
 
 
 ### Review Pipeline

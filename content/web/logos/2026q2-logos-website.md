@@ -26,7 +26,7 @@ The Logos website enhancement will support Logos' strategic objectives by:
 
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-website:website-redesign`
 * owner: jinhojang6
-* status: in progress (90%)
+* status: in progress (95%)
 * start-date: 2026/04/01
 * end-date: 2026/06/15
 
@@ -59,6 +59,20 @@ Redesign the Logos website.
 - [Logos Broadcast Network preview](https://logos-co-web.vercel.app/logos-broadcast-network)
 - [@acid-info/logos-tokens](https://www.npmjs.com/package/@acid-info/logos-tokens)
 - [@acid-info/logos-ui](https://www.npmjs.com/package/@acid-info/logos-ui)
+- [logos-co/logos-web#24](https://github.com/logos-co/logos-web/pull/24) UI detail updates
+- [logos-co/logos-web#17](https://github.com/logos-co/logos-web/pull/17) UI detail updates
+- [logos-co/logos-web#16](https://github.com/logos-co/logos-web/pull/16) UI detail updates
+- [logos-co/logos-web#15](https://github.com/logos-co/logos-web/pull/15) UI detail updates
+- [logos-co/logos-web#14](https://github.com/logos-co/logos-web/pull/14) UI detail updates
+- [logos-co/logos-web#13](https://github.com/logos-co/logos-web/pull/13) UI detail updates
+- [logos-co/logos-web#12](https://github.com/logos-co/logos-web/pull/12) UI detail updates
+- [logos-co/logos-web#11](https://github.com/logos-co/logos-web/pull/11) UI detail updates
+- [logos-co/logos-web#10](https://github.com/logos-co/logos-web/pull/10) UI detail updates
+- [logos-co/logos-web#9](https://github.com/logos-co/logos-web/pull/9) UI detail updates
+- [logos-co/logos-web#18](https://github.com/logos-co/logos-web/pull/18) fix(web): remove sitewide max-w centering causing edge gaps at >1440px
+- [logos-co/logos-web#19](https://github.com/logos-co/logos-web/pull/19) fix(web): align navbar UI with Figma across closed and overlay states
+- [logos-co/logos-web#20](https://github.com/logos-co/logos-web/pull/20) fix(ui): add button hover effects and fix arrow icon
+- [logos-co/logos-web#21](https://github.com/logos-co/logos-web/pull/21) feat(ui): add tsup watch mode to packages/ui
 
 ### CMS/Sanity
 
@@ -91,8 +105,8 @@ Propose alternative to Sanity CMS for content management, enabling non-technical
 ### Selfhosting
 
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-website:selfhosting`
-* owner: unassigned
-* status: not started
+* owner: jinhojang6
+* status: in progress (10%)
 * start-date: 2026/06/19
 * end-date: 2026/06/30
 
@@ -102,6 +116,7 @@ Set up self-hosting infrastructure and deployment processes for the Logos websit
 
 #### Deliverables
 
+- [status-im/infra-sites#132](https://github.com/status-im/infra-sites/issues/132) Github application hosting with the infra team
 - Self-hosting configuration
 - Deployment documentation
 - Infrastructure setup

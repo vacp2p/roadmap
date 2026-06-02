@@ -35,6 +35,8 @@ Ongoing maintenance of messaging testing frameworks.
 - [logos-messaging/logos-delivery-interop-tests#177](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/177) Fix for wrong url of reports
 - [logos-messaging/logos-delivery#3846](https://github.com/logos-messaging/logos-delivery/issues/3846) RLN registration not working with latest docker image
 - [logos-messaging/logos-delivery-interop-tests#185](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/185) fix: Enable RLN registration for fleet tests
+- [logos-messaging/logos-delivery-interop-tests#187](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/187) chore: Change fleet tests to run once a week
+
 
 ### Python bindings
 
@@ -69,6 +71,7 @@ Prepare the setup needed to execute the upcoming Send API scenarios and identify
 - [logos-messaging/logos-integration-test-framework#5](https://github.com/logos-messaging/logos-integration-test-framework/pull/5) Update `logoscore` dependency to track upstream `master` branch
 - [logos-messaging/logos-integration-test-framework#4](https://github.com/logos-messaging/logos-integration-test-framework/pull/4) Add support for Python 3.13 and 3.14 in CI workflows
 - [logos-messaging/logos-integration-test-framework#3](https://github.com/logos-messaging/logos-integration-test-framework/pull/3) Add Apache 2.0 and MIT licenses to the repository, and update README
+- [logos-co/logos-chat-module#24](https://github.com/logos-co/logos-chat-module/pull/24) Add two-user integration tests for chat-module
 
 ### Main tests of LogosDelivery part 1
 

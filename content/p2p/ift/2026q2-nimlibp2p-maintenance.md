@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (59%)
+* status: in progress (67%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -142,6 +142,33 @@ Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via i
 - [vacp2p/nim-libp2p#2476](https://github.com/vacp2p/nim-libp2p/pull/2476) chore(SwitchBuilder): avoid braking building chain
 - [vacp2p/nim-libp2p#2481](https://github.com/vacp2p/nim-libp2p/pull/2481) chore(ci): unify dependency cache keys across workflows
 - [vacp2p/nim-libp2p#2471](https://github.com/vacp2p/nim-libp2p/pull/2471) fix(websocket): avoid asyncSpawn
+- [vacp2p/nim-libp2p#2548](https://github.com/vacp2p/nim-libp2p/pull/2548) chore: harden ZeroQueue edge cases
+- [vacp2p/nim-libp2p#2567](https://github.com/vacp2p/nim-libp2p/pull/2567) fix(quic): harden certificate parsing and peer verification
+- [vacp2p/nim-lsquic#86](https://github.com/vacp2p/nim-lsquic/pull/86) fix: handle closed accepts and client redials
+- [vacp2p/nim-libp2p#2562](https://github.com/vacp2p/nim-libp2p/pull/2562) fix(hpservice): stop autorelay with hole punching service
+- [vacp2p/nim-libp2p#2553](https://github.com/vacp2p/nim-libp2p/pull/2553) fix(ping): keep inbound ping streams reusable
+- [vacp2p/nim-libp2p#2549](https://github.com/vacp2p/nim-libp2p/pull/2549) fix: avoid nim range-backed integer types
+- [vacp2p/nim-libp2p#2546](https://github.com/vacp2p/nim-libp2p/pull/2546) fix(multiaddress): onion size and DNS/IP consistency
+- [vacp2p/nim-libp2p#2545](https://github.com/vacp2p/nim-libp2p/pull/2545) fix(peerinfo): wrap peer ID initialization errors
+- [vacp2p/nim-libp2p#2547](https://github.com/vacp2p/nim-libp2p/pull/2547) fix(SwitchBuilder): initialization of services dependent of Rng
+- [vacp2p/nim-libp2p#2550](https://github.com/vacp2p/nim-libp2p/pull/2550) refactor(dial): keep low-level dial APIs off Dial interface
+- [vacp2p/nim-libp2p#2552](https://github.com/vacp2p/nim-libp2p/pull/2552) chore: remove standard_switch.nim
+- [vacp2p/nim-libp2p#2527](https://github.com/vacp2p/nim-libp2p/pull/2527) feat: v2.0.0
+- [vacp2p/nim-libp2p#2569](https://github.com/vacp2p/nim-libp2p/pull/2569) fix(PartialMessage): handle messages if requested partial for topic
+- [vacp2p/nim-libp2p#2543](https://github.com/vacp2p/nim-libp2p/pull/2543) chore(future): add completeOnce template
+- [vacp2p/nim-libp2p#2531](https://github.com/vacp2p/nim-libp2p/pull/2531) chore: more standard builders
+- [vacp2p/nim-libp2p#2530](https://github.com/vacp2p/nim-libp2p/pull/2530) test(tools): adding multiaddress tools
+- [vacp2p/nim-libp2p#2525](https://github.com/vacp2p/nim-libp2p/pull/2525) chore(MultistreamSelect): handle cosmetics
+- [status-im/nim-style-guide#33](https://github.com/status-im/nim-style-guide/pull/33) add compiler page
+- [vacp2p/nim-libp2p#2560](https://github.com/vacp2p/nim-libp2p/pull/2560) chore(kad): limits
+- [vacp2p/nim-libp2p#2559](https://github.com/vacp2p/nim-libp2p/pull/2559) refactor(kad): rewrite randomRecords around new lookOnce primitive
+- [vacp2p/nim-libp2p#2556](https://github.com/vacp2p/nim-libp2p/pull/2556) chore(autotls): remove libp2p_autotls_support flag
+- [vacp2p/nim-libp2p#2536](https://github.com/vacp2p/nim-libp2p/pull/2536) chore: replace unmaintained dnsclient with internal DNS codec
+- [vacp2p/nim-libp2p#2534](https://github.com/vacp2p/nim-libp2p/pull/2534) chore(autotls): encapsulate broker interaction behind AutotlsBroker
+- [vacp2p/nim-libp2p#2539](https://github.com/vacp2p/nim-libp2p/pull/2539) chore: replace nim-jwt with internal JWS signer
+- [vacp2p/nim-libp2p#2538](https://github.com/vacp2p/nim-libp2p/pull/2538) chore: unify and dedup utilities
+- [vacp2p/nim-libp2p#2535](https://github.com/vacp2p/nim-libp2p/pull/2535) chore(builders): avoid ref objects for SwitchBuilder configs
+- [vacp2p/nim-libp2p#2537](https://github.com/vacp2p/nim-libp2p/pull/2537) chore: remove Nim <2 leftovers (unsafeAddr, newSeqUninit shim)
 
 
 ### KAD-DHT optimizations

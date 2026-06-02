@@ -103,8 +103,8 @@ any counter reservation.
 ### Metrics And Validation
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-stream-budgets:metrics-validation`
-* owner: not assigned yet
-* status: not started
+* owner: Vlado
+* status: in progress (75%)
 * start-date: 2026/05/01
 * end-date: 2026/06/30
 
@@ -114,6 +114,7 @@ and lifecycle scenarios. Metrics should include protocol, direction, and scope
 labels where useful, but should not add a per-peer label.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2577](https://github.com/vacp2p/nim-libp2p/pull/2577) feat(LPProtocol): add metrics
 - `libp2p_protocol_stream_cap_rejections_total{protocol, direction, scope}` metric
 - `libp2p_protocol_streams_open{protocol, direction}` metric
 - Integration tests for inbound and outbound cap breaches

@@ -179,9 +179,9 @@ This includes quick-turn support for transport-start inconsistencies, protocol-l
 
 * fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:service-discovery`
 * owner: radek
-* status: in progress (80%)
+* status: done
 * start-date: 2026/05/04
-* end-date: 2026/06/30
+* end-date: 2026/06/02
 
 #### Description
 Implement unit and component tests for the [Logos Service Discovery protocol](https://lip.logos.co/ift-ts/raw/logos-service-discovery.html).
@@ -213,3 +213,11 @@ Include tests for advertiser, discoverer, and registrar behavior, service ID has
 - [vacp2p/nim-libp2p#2499](https://github.com/vacp2p/nim-libp2p/issues/2499) service-disco: valid service-table peers are dropped when Kad bucketIndex is 16 or higher
 - [vacp2p/nim-libp2p#2487](https://github.com/vacp2p/nim-libp2p/issues/2487) service-disco: add size validation for ServiceInfo.data and encoded XPR
 - [vacp2p/nim-libp2p#2514](https://github.com/vacp2p/nim-libp2p/pull/2514) fix(service-disco): skip double-hashing service ID in bucket index
+- [vacp2p/nim-libp2p#2528](https://github.com/vacp2p/nim-libp2p/pull/2528) test(service-disco): closer peers
+- [vacp2p/nim-libp2p#2532](https://github.com/vacp2p/nim-libp2p/pull/2532) test(service-disco): improve flaky test `discoverer learns closer peers from GET_ADS reply`
+- [vacp2p/nim-libp2p#2544](https://github.com/vacp2p/nim-libp2p/pull/2544) test(service-disco): invalid ticket tInit propagates into registrar-signed response
+- [vacp2p/nim-libp2p#2541](https://github.com/vacp2p/nim-libp2p/pull/2541) test(service-disco): advertiser registration maintenance
+- [vacp2p/nim-libp2p#2529](https://github.com/vacp2p/nim-libp2p/issues/2529) service-disco: problems
+- [vacp2p/nim-libp2p#2526](https://github.com/vacp2p/nim-libp2p/issues/2526) service-disco: registrar closerPeers do not use RegT
+- [vacp2p/nim-libp2p#2540](https://github.com/vacp2p/nim-libp2p/issues/2540) service-disco: advertiser does not replenish registrations after churn or rejection
+- [vacp2p/nim-libp2p#2542](https://github.com/vacp2p/nim-libp2p/issues/2542) service-disco: invalid retry tickets are not rejected and preserve forged tInit in registrar-signed tickets

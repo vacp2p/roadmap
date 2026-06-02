@@ -29,10 +29,13 @@ The unit's work directly supports IFT's strategic objective of scaling project c
 ### `status:`
 
 * [[web/status/2026q3-status-wallet-extension|status-wallet-extension]]
+* [[web/status/2026q3-status-website|status-website]]
 
 ### `logos:`
 
 * [[web/logos/2026q3-logos-circles|logos-circles]]
+* [[web/logos/2026q3-logos-core|logos-core]]
+* [[web/logos/2026q3-logos-crm|logos-crm]]
 * [[web/logos/2026q3-logos-website|logos-website]]
 
 ## 2026q2

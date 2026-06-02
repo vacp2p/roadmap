@@ -109,7 +109,7 @@ Set up self-hosting infrastructure and deployment processes for the Status websi
 
 ### SN Website Selfhosting
 
-* fully qualified name: `ift-ts:web:status:2026q2-sn-website:selfhosting`
+* fully qualified name: `ift-ts:web:status:2026q2-status-website:sn-website-selfhosting`
 * owner: Felicio
 * status: in progress (50%)
 * start-date: 2026/05/19

@@ -33,7 +33,7 @@ The maintenance commitment supports IFT's strategic objectives by:
 * owner: Jinho/JulesFiliot
 * status: done
 * start-date: 2026/04/01
-* end-date: 2026/05/12
+* end-date: 2026/05/26
 
 #### Description
 
@@ -56,8 +56,19 @@ Execute upkeep across delivered web properties for Q2: dependency and security b
 - [vacp2p/research.logos.co#178](https://github.com/vacp2p/research.logos.co/pull/178) chore: rebrand Vac to Logos Research & update docusaurus-preset
 - [acid-info/logos-docusaurus-plugins#316](https://github.com/acid-info/logos-docusaurus-plugins/pull/316) chore(docusaurus-preset): update vac assets
 - [acid-info/logos-docusaurus-plugins#314](https://github.com/acid-info/logos-docusaurus-plugins/pull/314) fix(docusaurus-theme): make white X icon actually white & resize
+- [acid-info/logos#38](https://github.com/acid-info/logos/pull/38) Patch Next.js high severity CVE
+- [acid-info/admin-acid.logos.co#44](https://github.com/acid-info/admin-acid.logos.co/pull/44) Patch Next.js high severity CVE
+- [status-im/status-web#1157](https://github.com/status-im/status-web/pull/1157) chore: upgrade next to version 15.5.16 across all projects
 - [Guidelines for Uploading Dynamic HTML Content](https://docs.google.com/document/d/1s565y_bS81R_ZhHU8VhOmmwRttCaOVQRul2zVgQQpSs/edit?usp=sharing)
 - Merged fixes and improvements on shipped repos (PRs as appropriate)
 - Stable CI/deploy and platform operations for maintained properties
 - Support and stakeholder questions addressed or documented with clear next steps
 - Issues created or updated for planning; hotfixes verified and briefly recorded
+- [acid-info/logos-press-engine#270](https://github.com/acid-info/logos-press-engine/pull/270) Update domain references from press.logos.co to blog.logos.co
+- [status-im/status-web#1192](https://github.com/status-im/status-web/pull/1192) ci(website): scope workspace build to hub
+- [status-im/status-software-legal-documents#28](https://github.com/status-im/status-software-legal-documents/pull/28) feat(sn): add withdrawal disclaimer
+- [status-im/status-software-legal-documents#29](https://github.com/status-im/status-software-legal-documents/pull/29) chore(sn): update withdrawal disclaimer formatting
+- [status-im/status-web#1189](https://github.com/status-im/status-web/pull/1189) chore(sn-legal): add pre-deposit withdrawal disclaimer and update legal-external remote
+- [status-im/status-web#1191](https://github.com/status-im/status-web/pull/1191) chore(sn/status.app): withdrawal updates
+- [acid-info/admin-acid.logos.co#45](https://github.com/acid-info/admin-acid.logos.co/pull/45) chore: deprecate projects routes and remove supporting pipeline
+- [Brave Search re-indexing request for logos.co pages](https://discord.com/channels/973324189794697286/1508951064471408742/1509380170216247356)

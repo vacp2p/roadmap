@@ -20,7 +20,7 @@ The work includes refining the fuzz targets with the LEZ team, implementing the 
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-lez-fuzz-testing:framework`
 * owner: Roman
-* status: in progress (45%)
+* status: in progress (75%)
 * start-date: 2026/04/13
 * end-date: 2026/05/01
 
@@ -41,3 +41,5 @@ The work includes refining the fuzz targets with the LEZ team, implementing the 
 - Issues / follow-up tasks for additional targets, benchmarks, or infrastructure gaps.
 - [logos-blockchain/lez-fuzzing](https://github.com/logos-blockchain/lez-fuzzing) First LEZ fuzzing proof of concept
 - [current_vs_alternative_approach.md](https://github.com/logos-blockchain/lez-fuzzing/blob/main/current_vs_alternative_approach.md) Alternative implementation approaches comparison
+- Added five fuzz targets and extracted reusable invariants into `fuzz_props/invariants.rs`.
+- [`sequencer_vs_replayer`](https://github.com/logos-blockchain/lez-fuzzing/blob/feat-add-afl-fuzzing/fuzz/fuzz_targets/fuzz_sequencer_vs_replayer.rs) fuzz target added.

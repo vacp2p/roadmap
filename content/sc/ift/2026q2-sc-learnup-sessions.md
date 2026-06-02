@@ -56,10 +56,10 @@ Run a learn up session about a topic of choice related to smart contract develop
 ### SC LearnUp Session 2026/05
 
 * fully qualified name: `ift-ts:sc:ift:2026q2-sc-learnup-sessions:2026-05`
-* owner: TBD
-* status: not started
+* owner: r4bbit
+* status: done
 * start-date: 2026/05/01
-* end-date: 2026/05/31
+* end-date: 2026/06/02
 
 #### Description
 
@@ -67,7 +67,7 @@ Run a learn up session about a topic of choice related to smart contract develop
 
 #### Deliverables
 
-- [ ] Recording of the session
+- [Learn up session about EIP 8004 recording](https://drive.google.com/file/d/1sNWYiHA21J9T_E5Fk6fkr8bX4U3ENNlG/view?usp=sharing)
 
 ### SC LearnUp Session 2026/06
 

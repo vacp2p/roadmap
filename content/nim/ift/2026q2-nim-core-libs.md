@@ -39,6 +39,10 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [status-im/nim-protobuf-serialization#75](https://github.com/status-im/nim-protobuf-serialization/pull/75) Extensions: `enum` and `results.Opt`
 - [status-im/nim-protobuf-serialization#77](https://github.com/status-im/nim-protobuf-serialization/pull/77) Fix: do not add to `seq` if wire type is unexpected
 - [status-im/nim-protobuf-serialization#76](https://github.com/status-im/nim-protobuf-serialization/pull/76) Fix: do not set `PBOption` if wire type is unexpected
+- [status-im/nim-protobuf-serialization#79](https://github.com/status-im/nim-protobuf-serialization/pull/79) Bump to v0.4.0
+- [status-im/nim-protobuf-serialization#78](https://github.com/status-im/nim-protobuf-serialization/pull/78) Fix verification error for `seq[object]` extensions
+- [status-im/nim-protobuf-serialization#80](https://github.com/status-im/nim-protobuf-serialization/pull/80) Support custom seq[T] serializer for extensions
+- [status-im/nim-protobuf-serialization#81](https://github.com/status-im/nim-protobuf-serialization/pull/81) Fix `newSeqUninitialized` deprecation warning
 
 ### Multithreading and Thread Pool Library
 
@@ -63,9 +67,9 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:cbor-cddl-parsing`
 * owner: Nitely
-* status: not started
+* status: done
 * start-date: 2026/05/15
-* end-date: 2026/05/30
+* end-date: 2026/05/26
 
 #### Description
 - Implement CDDL parsing in the CBOR library.
@@ -73,7 +77,11 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - This work should prepare for near-term needs around generating Nim code from CDDL, or the reverse direction, as those capabilities are expected to be needed soon.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [vacp2p/nim-cbor-serialization#28](https://github.com/vacp2p/nim-cbor-serialization/pull/28) Add diagnostic notation serializer
+- [vacp2p/nim-cbor-serialization#29](https://github.com/vacp2p/nim-cbor-serialization/pull/29) Add CDDL parser
+- [vacp2p/nim-cbor-serialization#31](https://github.com/vacp2p/nim-cbor-serialization/pull/31) CDDL: `int` -> `int64`; `uint` -> `uint64`
+- [vacp2p/nim-cbor-serialization#30](https://github.com/vacp2p/nim-cbor-serialization/pull/30) CDDL: `any` -> `CborBytes`; `tools/cddl` -> `cddl`
+- [vacp2p/nim-cbor-serialization#17](https://github.com/vacp2p/nim-cbor-serialization/pull/17) Perf improvement
 
 ### Unittest2 Expected Failures
 
@@ -94,7 +102,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:libp2p-protobuf-serialization`
 * owner: Nitely/Constantine
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/06/01
 * end-date: 2026/06/30
 
@@ -104,12 +112,13 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 #### Deliverables
 - [vacp2p/nim-libp2p#2166](https://github.com/vacp2p/nim-libp2p/pull/2166) chore: Use protobuf_serialization in RendezVous protocol
+- [vacp2p/nim-libp2p#2477](https://github.com/vacp2p/nim-libp2p/pull/2477) Protobuf serialization of the DCUtR protocol
 
 ### PCP Support in nim-nat-traversal
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:nat-traversal-pcp-support`
 * owner: Constantine
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/06/01
 * end-date: 2026/06/30
 
@@ -120,6 +129,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 #### Deliverables
 - PRs/Issues/Docs/Reports
+- [status-im/nim-nat-traversal#41](https://github.com/status-im/nim-nat-traversal/issues/41) PCP support in nim-nat-traversal
 
 ### Nim LSP Stability and Editor Support
 
@@ -141,6 +151,10 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [nim-lang/langserver#388](https://github.com/nim-lang/langserver/pull/388) nimlangserver MCP server
 - [nim-lang/langserver#393](https://github.com/nim-lang/langserver/pull/393) Fix compatibility with Neovim 0.12 diagnostic floating window
 - nimlangserver 1.14.0 released and announced.
+- [nim-lang/langserver#400](https://github.com/nim-lang/langserver/pull/400) MCPB bundle
+- [Nim langserver MCP registry entry](https://registry.modelcontextprotocol.io/?q=nimlangserver)
+- [nim-lang/langserver#416](https://github.com/nim-lang/langserver/pull/416) Speed up initialization by not waiting for nimsuggest to start
+- [nim-lang/nimble#1713](https://github.com/nim-lang/nimble/issues/1713) Slow `nimble dump` issue reported with collected data
 
 ### Documentation
 
@@ -156,6 +170,8 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 #### Deliverables
 - [nim-lang/nimble#1657](https://github.com/nim-lang/nimble/pull/1657) Fix nimble installation instructions
 - [status-im/nim-unittest2#70](https://github.com/status-im/nim-unittest2/pull/70) Add docs in MdBook format
+- [nim-lang/nimble#1701](https://github.com/nim-lang/nimble/pull/1701) Guide: Install Nim: Add instruction about installing devel Nim
+- [nim-lang/langserver#406](https://github.com/nim-lang/langserver/pull/406) Resolve conflicts in the nimlangserver mdBook PR
 
 ### Maintenance
 
@@ -185,3 +201,4 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [status-im/nim-stint#179](https://github.com/status-im/nim-stint/issues/179) CI failing on 32-bit Linux
 - [nim-lang/nimble#1663](https://github.com/nim-lang/nimble/issues/1663) `nimble dump` resolves absolute paths incorrectly
 - [status-im/nim-json-rpc#276](https://github.com/status-im/nim-json-rpc/pull/276) Terminate conn on invalid response `id` and do not send a response for it
+- [status-im/nim-stew#271](https://github.com/status-im/nim-stew/pull/271) enums: fix `hasHoles` overflow in 32bit platforms for int32 enum values

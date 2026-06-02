@@ -59,7 +59,7 @@ that send other `ConnectionType` values.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-kad-dht-optimizations:provider-record-spillover`
 * owner: gabe
-* status: in progress (65%)
+* status: in progress (80%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -76,3 +76,4 @@ path rather than repeatedly targeting only the closest nodes to a popular key.
 - Metrics or simulation coverage showing advertisement load distribution
 - Tests for provider record limits, rejection, spillover, and lookup behavior
 - [vacp2p/nim-libp2p#2394](https://github.com/vacp2p/nim-libp2p/pull/2394) feat(kad): add provider rejection and spillover
+- [vacp2p/specs#2](https://github.com/vacp2p/specs/pull/2) kademlia provider record spillover

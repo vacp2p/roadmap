@@ -42,7 +42,7 @@ Netowrk indicators:
 
 * fully qualified name: `ift-ts:bi:logos:2026q2-logos-node-analytics:storage`
 * owner: tbd
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/04/01
 * end-date: 2026/07/31
 * issue: tbd
@@ -57,6 +57,7 @@ Extract various network metrics from the Logos storage nodes.
 * Amount of storage used
 * number of new files
 * ...
+* Research started on Logos storage metrics.
 
 ### Logos Delivery Analytics
 

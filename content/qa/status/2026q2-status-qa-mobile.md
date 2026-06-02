@@ -40,7 +40,7 @@ Platform Constraints Identified in Q1:
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-mobile:test-messaging-group`
 * owner: magnus
-* status: not started
+* status: in progress (50%)
 * start-date: 2026/04/01
 * end-date: 2026/05/15
 
@@ -54,6 +54,7 @@ The tests were built in Q1 but reverted because of flakiness; the multi-device i
 - Member management, link preview, and leave-chat assertions validated
 - 11 assertions matching desktop critical parity
 - First draft of the 3-device group chat suite covering 7 tests
+- [status-im/status-app#21070](https://github.com/status-im/status-app/pull/21070) test(e2e_appium): add 3-device group chat suite
 
 ### Messaging 1x1 completion
 
@@ -150,7 +151,7 @@ Extend the iOS POC beyond the single onboarding smoke test, informed by the Q1 f
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-mobile:maintenance`
 * owner: magnus
-* status: in progress (10%)
+* status: in progress (30%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -164,6 +165,7 @@ Keep the framework healthy while the app changes.
 - [status-im/status-app#20308](https://github.com/status-im/status-app/pull/20308) fix(e2e_appium): improve test timing for light-client messaging
 - [status-im/status-go#7393](https://github.com/status-im/status-go/issues/7393) Light clients can silently lose messages sent immediately after contact acceptance
 - [status-im/status-app#20460](https://github.com/status-im/status-app/issues/20460) Android splash / grey content after backgrounding
+- [status-im/status-app#21021](https://github.com/status-im/status-app/pull/21021) fix(e2e_appium): stabilise messaging gate
 
 ### Release testing
 

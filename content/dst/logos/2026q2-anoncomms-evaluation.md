@@ -71,9 +71,9 @@ TBD
 
 * fully qualified name: `ift-ts:dst:logos:2026q2-anoncomms-evaluation:service-discovery-dogfood`
 * owner: Alberto
-* status: in progress (50%)
+* status: done
 * start-date: 2026/05/05
-* end-date: 2026/05/15
+* end-date: 2026/06/02
 
 #### Description
 Participate in the service discovery dogfood and provide feedback on how it could be improved, as well as findings
@@ -82,7 +82,11 @@ and how to set up potential experiments using the DST lab.
 #### Deliverables
 - Code:
   - [Github branch: Service Discovery node](https://github.com/vacp2p/dst-libp2p-test-node/tree/Alberto/service_discovery)
+  - [vacp2p/dst-libp2p-test-node#27](https://github.com/vacp2p/dst-libp2p-test-node/pull/27) Service discovery node
+  - [vacp2p/10ksim#274](https://github.com/vacp2p/10ksim/pull/274) Service discovery base experiment
 - Reports:
+  - [Notion: Service Discovery - Discovery Issue](https://www.notion.so/Service-Discovery-Discovery-Issue-3608f96fb65c8042a00ada2813c4fc1f)
+  - [Forum: Service discovery network simulation](https://forum.research.logos.co/t/service-discovery-network-simulation/689/4?u=alberto)
 
 ### Service discovery
 > *Note*: This needs more input from project

@@ -179,9 +179,9 @@ This includes quick-turn support for transport-start inconsistencies, protocol-l
 
 * fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:service-discovery`
 * owner: radek
-* status: in progress (20%)
+* status: done
 * start-date: 2026/05/04
-* end-date: 2026/06/30
+* end-date: 2026/06/02
 
 #### Description
 Implement unit and component tests for the [Logos Service Discovery protocol](https://lip.logos.co/ift-ts/raw/logos-service-discovery.html).
@@ -193,8 +193,31 @@ Include tests for advertiser, discoverer, and registrar behavior, service ID has
 - [vacp2p/nim-libp2p#2409](https://github.com/vacp2p/nim-libp2p/pull/2409) test(service-disco): refactor utils
 - [vacp2p/nim-libp2p#2415](https://github.com/vacp2p/nim-libp2p/pull/2415) test(service-disco): clean up and improve unit/component separation
 - [vacp2p/nim-libp2p#2432](https://github.com/vacp2p/nim-libp2p/pull/2432) test(service-disco): `addProvidedService` / `lookup` component tests
+- [vacp2p/nim-libp2p#2467](https://github.com/vacp2p/nim-libp2p/pull/2467) test(service-disco): misc component
+- [vacp2p/nim-libp2p#2463](https://github.com/vacp2p/nim-libp2p/pull/2463) test(service-disco): client mode + one register component
+- [vacp2p/nim-libp2p#2464](https://github.com/vacp2p/nim-libp2p/pull/2464) test(service-disco): error handling component
+- [vacp2p/nim-libp2p#2461](https://github.com/vacp2p/nim-libp2p/pull/2461) test(service-disco): lookup component
+- [vacp2p/nim-libp2p#2457](https://github.com/vacp2p/nim-libp2p/pull/2457) test(service-disco): advertise and registration response
+- [logos-co/logos-libp2p-module#46](https://github.com/logos-co/logos-libp2p-module/pull/46) chore(service-disco): rename `startDiscovering` to `registerInterest`
+- [vacp2p/nim-libp2p#2452](https://github.com/vacp2p/nim-libp2p/pull/2452) chore: regenerate nix deps
 - [vacp2p/nim-libp2p#2443](https://github.com/vacp2p/nim-libp2p/pull/2443) chore(service-disco): dedupe identical ads
 - [vacp2p/nim-libp2p#2441](https://github.com/vacp2p/nim-libp2p/pull/2441) chore(service-disco): rename `startDiscovering` to `registerInterest` + improve component test
 - [vacp2p/nim-libp2p#2417](https://github.com/vacp2p/nim-libp2p/issues/2417) service-disco: what is `startDiscovering` meant to do?
 - [vacp2p/nim-libp2p#2431](https://github.com/vacp2p/nim-libp2p/issues/2431) service-disco: lookup returns duplicates when multiple queried peers hold the same ad
 - [vacp2p/nim-libp2p#2430](https://github.com/vacp2p/nim-libp2p/issues/2430) service-disco: missing API for multi-service registration
+- [vacp2p/nim-libp2p#2502](https://github.com/vacp2p/nim-libp2p/pull/2502) fix(service-disco): build advert once to keep adverts byte-identical
+- [vacp2p/nim-libp2p#2500](https://github.com/vacp2p/nim-libp2p/pull/2500) test(service-disco): add repro test for #2499
+- [vacp2p/nim-libp2p#2488](https://github.com/vacp2p/nim-libp2p/pull/2488) test(service-disco): non-32-byte keys + misc component
+- [vacp2p/nim-libp2p#2480](https://github.com/vacp2p/nim-libp2p/pull/2480) test(service-disco): validateRegisterMessage + message size
+- [vacp2p/nim-libp2p#2513](https://github.com/vacp2p/nim-libp2p/issues/2513) service-disco: XPR signed-envelope domain and payload type diverge from spec
+- [vacp2p/nim-libp2p#2499](https://github.com/vacp2p/nim-libp2p/issues/2499) service-disco: valid service-table peers are dropped when Kad bucketIndex is 16 or higher
+- [vacp2p/nim-libp2p#2487](https://github.com/vacp2p/nim-libp2p/issues/2487) service-disco: add size validation for ServiceInfo.data and encoded XPR
+- [vacp2p/nim-libp2p#2514](https://github.com/vacp2p/nim-libp2p/pull/2514) fix(service-disco): skip double-hashing service ID in bucket index
+- [vacp2p/nim-libp2p#2528](https://github.com/vacp2p/nim-libp2p/pull/2528) test(service-disco): closer peers
+- [vacp2p/nim-libp2p#2532](https://github.com/vacp2p/nim-libp2p/pull/2532) test(service-disco): improve flaky test `discoverer learns closer peers from GET_ADS reply`
+- [vacp2p/nim-libp2p#2544](https://github.com/vacp2p/nim-libp2p/pull/2544) test(service-disco): invalid ticket tInit propagates into registrar-signed response
+- [vacp2p/nim-libp2p#2541](https://github.com/vacp2p/nim-libp2p/pull/2541) test(service-disco): advertiser registration maintenance
+- [vacp2p/nim-libp2p#2529](https://github.com/vacp2p/nim-libp2p/issues/2529) service-disco: problems
+- [vacp2p/nim-libp2p#2526](https://github.com/vacp2p/nim-libp2p/issues/2526) service-disco: registrar closerPeers do not use RegT
+- [vacp2p/nim-libp2p#2540](https://github.com/vacp2p/nim-libp2p/issues/2540) service-disco: advertiser does not replenish registrations after churn or rejection
+- [vacp2p/nim-libp2p#2542](https://github.com/vacp2p/nim-libp2p/issues/2542) service-disco: invalid retry tickets are not rejected and preserve forged tInit in registrar-signed tickets

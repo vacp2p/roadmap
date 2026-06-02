@@ -62,9 +62,9 @@ Collaborate with QA team to define comprehensive test cases for wallet extension
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-wallet-extension:value-chart`
 * owner: JulesFiliot
-* status: in progress (10%)
+* status: done
 * start-date: 2026/05/12
-* end-date: 2026/06/05
+* end-date: 2026/05/19
 
 #### Description
 
@@ -75,6 +75,8 @@ Implement value chart functionality to display portfolio value over time.
 - Value chart component
 - Chart data integration
 - UI implementation
+- [status-im/status-web#1135](https://github.com/status-im/status-web/pull/1135) feat(wallet): add token value chart
+- [status-im/status-web#1154](https://github.com/status-im/status-web/pull/1154) fix(wallet): revalidate price chart cache on first stale read
 
 ### Hide Small Balances
 

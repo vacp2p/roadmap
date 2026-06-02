@@ -58,3 +58,8 @@ Implement or integrate **deployment** so Circle sites can ship **either** throug
 - GitHub pipeline outline or implementation (permissions, envs, deploy target) for at least one pilot Circle
 - CMS/CRM publishing path documented or prototyped, reusing Logos website stack decisions where applicable
 - Short operator doc: how to onboard a Circle, publish, and roll back
+- [acid-info/logos-co#18](https://github.com/acid-info/logos-co/pull/18) feat(civi-crm-cms): architecture doc and project skeleton
+- [acid-info/logos-co#19](https://github.com/acid-info/logos-co/pull/19) feat(civi-crm): types and CiviCRM HTTP client
+- [acid-info/logos-co#20](https://github.com/acid-info/logos-co/pull/20) feat(civi-crm): implement query layer and activity logger
+- [acid-info/logos-co#21](https://github.com/acid-info/logos-co/pull/21) feat(civi-crm): implement API route handlers
+- [logos-co/logos-web#23](https://github.com/logos-co/logos-web/pull/23) CiviCRM integration work

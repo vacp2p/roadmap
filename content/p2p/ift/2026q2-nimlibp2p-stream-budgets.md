@@ -33,10 +33,10 @@ compatibility decision changes existing defaults.
 ### Budget API And Accounting
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-stream-budgets:budget-api`
-* owner: not assigned yet
-* status: not started
+* owner: Vlado
+* status: done
 * start-date: 2026/05/01
-* end-date: 2026/06/30
+* end-date: 2026/05/26
 
 #### Description
 Extend `LPProtocol` with stream budget settings for inbound total streams,
@@ -52,15 +52,16 @@ compatible codec strings should share the same budget.
 - Existing `maxIncomingStreams` behavior preserved as the inbound per-peer cap
 - Open stream accounting scoped by mounted protocol handler and direction
 - Shared budget behavior for compatible codec strings mounted by the same protocol handler
+- [vacp2p/nim-libp2p#2522](https://github.com/vacp2p/nim-libp2p/pull/2522) feat(LPProtocol): stream limits
 
 
 ### Inbound Stream Enforcement
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-stream-budgets:inbound-enforcement`
-* owner: not assigned yet
-* status: not started
+* owner: Vlado
+* status: done
 * start-date: 2026/05/01
-* end-date: 2026/06/30
+* end-date: 2026/05/26
 
 #### Description
 Enforce inbound per-peer and total protocol caps in the multistream accept path
@@ -74,6 +75,7 @@ handler crash, and muxer close paths.
 - Inbound total stream limit enforced per mounted protocol handler
 - Rejection behavior that closes only the new stream and keeps the connection up
 - Tests covering clean close, error close, connection drop, handler crash, and muxer close
+- [vacp2p/nim-libp2p#2522](https://github.com/vacp2p/nim-libp2p/pull/2522) feat(LPProtocol): stream limits
 
 
 ### Outbound Stream Enforcement
@@ -101,8 +103,8 @@ any counter reservation.
 ### Metrics And Validation
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-stream-budgets:metrics-validation`
-* owner: not assigned yet
-* status: not started
+* owner: Vlado
+* status: in progress (75%)
 * start-date: 2026/05/01
 * end-date: 2026/06/30
 
@@ -112,6 +114,7 @@ and lifecycle scenarios. Metrics should include protocol, direction, and scope
 labels where useful, but should not add a per-peer label.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2577](https://github.com/vacp2p/nim-libp2p/pull/2577) feat(LPProtocol): add metrics
 - `libp2p_protocol_stream_cap_rejections_total{protocol, direction, scope}` metric
 - `libp2p_protocol_streams_open{protocol, direction}` metric
 - Integration tests for inbound and outbound cap breaches

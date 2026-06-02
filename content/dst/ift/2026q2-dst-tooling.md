@@ -64,6 +64,15 @@ Should be made general when possible.
   - [vacp2p/10ksim#260](https://github.com/vacp2p/10ksim/pull/260) Allow custom condition in wait_for_rollout
   - [vacp2p/10ksim#257](https://github.com/vacp2p/10ksim/pull/257) Fix metadata bridge when namespace not used
   - [vacp2p/10ksim#259](https://github.com/vacp2p/10ksim/pull/259) add delay+jitter with initContainer logic
+  - [vacp2p/10ksim#268](https://github.com/vacp2p/10ksim/pull/268) Make format
+  - [vacp2p/10ksim#264](https://github.com/vacp2p/10ksim/pull/264) Fix missing messages again
+  - [vacp2p/10ksim#273](https://github.com/vacp2p/10ksim/pull/273) Remove unused code
+  - [vacp2p/10ksim#269](https://github.com/vacp2p/10ksim/pull/269) BaseExperiment: Moved run params into fields
+  - [vacp2p/10ksim#253](https://github.com/vacp2p/10ksim/pull/253) Remove old init_logger in kube_utils
+  - [vacp2p/10ksim#271](https://github.com/vacp2p/10ksim/pull/271) Add pull policy methods to builders
+  - [vacp2p/10ksim#272](https://github.com/vacp2p/10ksim/pull/272) Allow to specify service + dns searchs
+  - [vacp2p/10ksim#275](https://github.com/vacp2p/10ksim/pull/275) Add nimp2p-service to nimlibp2p nodes
+  - [vacp2p/10ksim#278](https://github.com/vacp2p/10ksim/pull/278) Add dump to BaseExp and fix run defs
 - Reports:
 - Other:
   - Fixed `zerotesting-store` so it runs on k8s
@@ -88,10 +97,10 @@ Present DST reports automatically in a dashboard for other CCs.
 ### Shadow
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:shadow`
-* owner: TBD
-* status: not started
-* start-date: 2026/04/01
-* end-date: 2026/06/30
+* owner: Alan
+* status: in progress (95%)
+* start-date: 2026/05/18
+* end-date: 2026/05/27
 
 #### Description
 Shadow simulator is hardcoded at the moment in dst-libp2p-test-node for the nim version.
@@ -104,3 +113,4 @@ subtasks.
 #### Deliverables
 - Code:
 - Reports:
+  - [Using Shadow at DST](https://www.notion.so/Using-Shadow-at-DST-3698f96fb65c8091b011db3f7d267d61) documents usage, design choices, and gotchas.

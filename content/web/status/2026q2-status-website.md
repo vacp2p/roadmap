@@ -43,17 +43,20 @@ Implement SEO optimization for the Status website to improve search engine visib
 - [status-im/status-web#1139](https://github.com/status-im/status-web/issues/1139) Status App SEO: Fix sitemap.xml for status.app
 - [status-im/status-web#1143](https://github.com/status-im/status-web/pull/1143) Status App SEO fixes
 - [status-im/status-web#1150](https://github.com/status-im/status-web/pull/1150) [status.app] Apply new meta titles and descriptions across pages
+- [status-im/status-web#1156](https://github.com/status-im/status-web/pull/1156) [status.app] Update title template to remove static suffix for blog
 - SEO implementation
 - Meta tags and structured data
 - SEO audit and optimization report
+- [status-im/status-web#1183](https://github.com/status-im/status-web/pull/1183) [status.app] Improve technical SEO
+- [status-im/status-web#1211](https://github.com/status-im/status-web/pull/1211) Add Learn page and integrate with sitemap and footer
 
 ### Translations
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-website:translations`
-* owner: unassigned
-* status: not started
-* start-date: 2026/06/01
-* end-date: 2026/06/19
+* owner: Felicio
+* status: done
+* start-date: 2026/05/12
+* end-date: 2026/05/26
 
 #### Description
 
@@ -88,7 +91,7 @@ Update website copy and reduce sections to improve clarity and user experience.
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-website:selfhosting`
 * owner: Felicio
-* status: in progress (80%)
+* status: in progress (95%)
 * start-date: 2026/05/26
 * end-date: 2026/06/12
 
@@ -102,3 +105,18 @@ Set up self-hosting infrastructure and deployment processes for the Status websi
 - Deployment documentation
 - Infrastructure setup
 - [status-im/status-web#946](https://github.com/status-im/status-web/issues/946) Setting up self-hosting of status.app
+- [get.status.app deployment](https://discord.com/channels/864066763682218004/1420097240738824212/1504120743816855725)
+
+### SN Website Selfhosting
+
+* fully qualified name: `ift-ts:web:status:2026q2-status-website:sn-website-selfhosting`
+* owner: Felicio
+* status: in progress (50%)
+* start-date: 2026/05/19
+* end-date: 2026/06/30
+
+#### Description
+Set up self-hosting infrastructure and deployment processes for the Status Network website.
+
+#### Deliverables
+- PRs

@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (44%)
+* status: in progress (67%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -111,6 +111,64 @@ Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via i
 - [vacp2p/nim-libp2p#2410](https://github.com/vacp2p/nim-libp2p/pull/2410) fix(autotls): withAutotls independent ordering
 - [vacp2p/nim-libp2p#2396](https://github.com/vacp2p/nim-libp2p/pull/2396) chore: remove old nim hacks
 - [status-im/nim-websock#193](https://github.com/status-im/nim-websock/pull/193) chore: expose HTTP accept primitives
+- [vacp2p/nim-libp2p#2459](https://github.com/vacp2p/nim-libp2p/pull/2459) fix(peerstore): reset identify stream on cancellation
+- [vacp2p/nim-libp2p#2465](https://github.com/vacp2p/nim-libp2p/pull/2465) chore(deps): bump nim-websock to >= 0.4.0
+- [status-im/nim-websock#195](https://github.com/status-im/nim-websock/pull/195) 0.4.0
+- [vacp2p/boringssl#2](https://github.com/vacp2p/boringssl/pull/2) chore: sync BoringSSL upstream
+- [vacp2p/nim-libp2p#2359](https://github.com/vacp2p/nim-libp2p/pull/2359) fix(ws): process pending handshakes concurrently
+- [vacp2p/nim-libp2p#2462](https://github.com/vacp2p/nim-libp2p/pull/2462) refactor(Switch): Service lifecycle
+- [vacp2p/nim-libp2p#2466](https://github.com/vacp2p/nim-libp2p/pull/2466) chore(SwitchBuilder): `build()` proc cleanup
+- [vacp2p/nim-libp2p#2473](https://github.com/vacp2p/nim-libp2p/pull/2473) chore(PeerInfo): cosmetics
+- [vacp2p/nim-libp2p#2472](https://github.com/vacp2p/nim-libp2p/pull/2472) test(Noise): cosmetics
+- [vacp2p/nim-libp2p#2451](https://github.com/vacp2p/nim-libp2p/pull/2451) chore: utilize `cancelAndWait` template
+- [vacp2p/nim-libp2p#2456](https://github.com/vacp2p/nim-libp2p/pull/2456) test: stabilize `Switch::e2e max outgoing connection limits` by forcing TCP transport
+- [vacp2p/nim-libp2p#2453](https://github.com/vacp2p/nim-libp2p/pull/2453) test: simplify `makeStandardSwitch` and `makeStandardSwitchBuilder`
+- [vacp2p/nim-libp2p#2454](https://github.com/vacp2p/nim-libp2p/pull/2454) chore: makefile instead of nimble
+- [vacp2p/nim-libp2p#2433](https://github.com/vacp2p/nim-libp2p/pull/2433) fix(ci): add skip to autotls integration tests
+- [vacp2p/nim-libp2p#2508](https://github.com/vacp2p/nim-libp2p/pull/2508) chore: use `protobuf_serialization` 0.4.0
+- [vacp2p/nim-libp2p#2495](https://github.com/vacp2p/nim-libp2p/pull/2495) fix(cancellation): preserve `CancelledError` in handlers
+- [vacp2p/nim-lsquic#85](https://github.com/vacp2p/nim-lsquic/pull/85) chore: bump lsquic
+- [vacp2p/nim-libp2p#2482](https://github.com/vacp2p/nim-libp2p/pull/2482) chore: better names for streams and connections
+- [vacp2p/nim-boringssl#5](https://github.com/vacp2p/nim-boringssl/pull/5) chore: update BoringSSL submodule and bindings
+- [vacp2p/boringssl#3](https://github.com/vacp2p/boringssl/pull/3) chore: sync BoringSSL upstream
+- [vacp2p/nim-libp2p#2506](https://github.com/vacp2p/nim-libp2p/pull/2506) chore: remove implicit `result` variable usage across libp2p source
+- [vacp2p/nim-libp2p#2518](https://github.com/vacp2p/nim-libp2p/pull/2518) chore: remove remaining `result` keyword usage
+- [vacp2p/nim-libp2p#2497](https://github.com/vacp2p/nim-libp2p/pull/2497) fix(autotls): parsing failed due to missing enum value
+- [vacp2p/nim-libp2p#2519](https://github.com/vacp2p/nim-libp2p/pull/2519) fix(autotls): avoid `dns-persist-01` challenge and raise api errors
+- [vacp2p/nim-libp2p#2507](https://github.com/vacp2p/nim-libp2p/pull/2507) chore(readme): add Mix Protocol to project list
+- [vacp2p/nim-libp2p#2498](https://github.com/vacp2p/nim-libp2p/pull/2498) chore(ai): add instruction for perserving error message
+- [vacp2p/nim-libp2p#2486](https://github.com/vacp2p/nim-libp2p/pull/2486) chore(SwitchBuilder): gracePeriod disabled by default
+- [vacp2p/nim-libp2p#2475](https://github.com/vacp2p/nim-libp2p/pull/2475) chore(SwitchBuilder): drop `withServices`
+- [vacp2p/nim-libp2p#2476](https://github.com/vacp2p/nim-libp2p/pull/2476) chore(SwitchBuilder): avoid braking building chain
+- [vacp2p/nim-libp2p#2481](https://github.com/vacp2p/nim-libp2p/pull/2481) chore(ci): unify dependency cache keys across workflows
+- [vacp2p/nim-libp2p#2471](https://github.com/vacp2p/nim-libp2p/pull/2471) fix(websocket): avoid asyncSpawn
+- [vacp2p/nim-libp2p#2548](https://github.com/vacp2p/nim-libp2p/pull/2548) chore: harden ZeroQueue edge cases
+- [vacp2p/nim-libp2p#2567](https://github.com/vacp2p/nim-libp2p/pull/2567) fix(quic): harden certificate parsing and peer verification
+- [vacp2p/nim-lsquic#86](https://github.com/vacp2p/nim-lsquic/pull/86) fix: handle closed accepts and client redials
+- [vacp2p/nim-libp2p#2562](https://github.com/vacp2p/nim-libp2p/pull/2562) fix(hpservice): stop autorelay with hole punching service
+- [vacp2p/nim-libp2p#2553](https://github.com/vacp2p/nim-libp2p/pull/2553) fix(ping): keep inbound ping streams reusable
+- [vacp2p/nim-libp2p#2549](https://github.com/vacp2p/nim-libp2p/pull/2549) fix: avoid nim range-backed integer types
+- [vacp2p/nim-libp2p#2546](https://github.com/vacp2p/nim-libp2p/pull/2546) fix(multiaddress): onion size and DNS/IP consistency
+- [vacp2p/nim-libp2p#2545](https://github.com/vacp2p/nim-libp2p/pull/2545) fix(peerinfo): wrap peer ID initialization errors
+- [vacp2p/nim-libp2p#2547](https://github.com/vacp2p/nim-libp2p/pull/2547) fix(SwitchBuilder): initialization of services dependent of Rng
+- [vacp2p/nim-libp2p#2550](https://github.com/vacp2p/nim-libp2p/pull/2550) refactor(dial): keep low-level dial APIs off Dial interface
+- [vacp2p/nim-libp2p#2552](https://github.com/vacp2p/nim-libp2p/pull/2552) chore: remove standard_switch.nim
+- [vacp2p/nim-libp2p#2527](https://github.com/vacp2p/nim-libp2p/pull/2527) feat: v2.0.0
+- [vacp2p/nim-libp2p#2569](https://github.com/vacp2p/nim-libp2p/pull/2569) fix(PartialMessage): handle messages if requested partial for topic
+- [vacp2p/nim-libp2p#2543](https://github.com/vacp2p/nim-libp2p/pull/2543) chore(future): add completeOnce template
+- [vacp2p/nim-libp2p#2531](https://github.com/vacp2p/nim-libp2p/pull/2531) chore: more standard builders
+- [vacp2p/nim-libp2p#2530](https://github.com/vacp2p/nim-libp2p/pull/2530) test(tools): adding multiaddress tools
+- [vacp2p/nim-libp2p#2525](https://github.com/vacp2p/nim-libp2p/pull/2525) chore(MultistreamSelect): handle cosmetics
+- [status-im/nim-style-guide#33](https://github.com/status-im/nim-style-guide/pull/33) add compiler page
+- [vacp2p/nim-libp2p#2560](https://github.com/vacp2p/nim-libp2p/pull/2560) chore(kad): limits
+- [vacp2p/nim-libp2p#2559](https://github.com/vacp2p/nim-libp2p/pull/2559) refactor(kad): rewrite randomRecords around new lookOnce primitive
+- [vacp2p/nim-libp2p#2556](https://github.com/vacp2p/nim-libp2p/pull/2556) chore(autotls): remove libp2p_autotls_support flag
+- [vacp2p/nim-libp2p#2536](https://github.com/vacp2p/nim-libp2p/pull/2536) chore: replace unmaintained dnsclient with internal DNS codec
+- [vacp2p/nim-libp2p#2534](https://github.com/vacp2p/nim-libp2p/pull/2534) chore(autotls): encapsulate broker interaction behind AutotlsBroker
+- [vacp2p/nim-libp2p#2539](https://github.com/vacp2p/nim-libp2p/pull/2539) chore: replace nim-jwt with internal JWS signer
+- [vacp2p/nim-libp2p#2538](https://github.com/vacp2p/nim-libp2p/pull/2538) chore: unify and dedup utilities
+- [vacp2p/nim-libp2p#2535](https://github.com/vacp2p/nim-libp2p/pull/2535) chore(builders): avoid ref objects for SwitchBuilder configs
+- [vacp2p/nim-libp2p#2537](https://github.com/vacp2p/nim-libp2p/pull/2537) chore: remove Nim <2 leftovers (unsafeAddr, newSeqUninit shim)
 
 
 ### KAD-DHT optimizations
@@ -132,9 +190,9 @@ Implement KAD-DHT optimizations and follow-up hardening work for nim-libp2p.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:peerstore-address-ttl`
 * owner: gabe
-* status: in progress (80%)
+* status: done
 * start-date: 2026/05/01
-* end-date: 2026/05/05
+* end-date: 2026/05/19
 
 #### Description
 Add TTL support for addresses stored in the peerstore. Addresses should no
@@ -151,6 +209,7 @@ depending on how trustworthy the address is:
 - Peerstore support for address TTLs
 - Different TTL policies for unverified, validated, connected, and permanent addresses
 - Expiration logic to remove stale addresses automatically
+- [vacp2p/nim-libp2p#2425](https://github.com/vacp2p/nim-libp2p/pull/2425) feat(peerstore): address TTL
 
 ### IdentifyPush
 
@@ -280,10 +339,10 @@ Some related work available is:
 ### Large RSA key limit
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:large-rsa-key-limit`
-* owner: not assigned yet
-* status: not started
+* owner: richard
+* status: done
 * start-date: 2026/05/01
-* end-date: 2026/06/30
+* end-date: 2026/05/26
 
 #### Description
 Fix [vacp2p/nim-libp2p#1327](https://github.com/vacp2p/nim-libp2p/issues/1327)
@@ -298,15 +357,17 @@ guidance, including the `<= 8192` bit maximum.
 - Maximum RSA key size enforced during key parsing and generation
 - Tests for accepted RSA keys and rejected oversized RSA keys
 - Documentation or changelog note describing the compatibility/security behavior
+- [vacp2p/nim-libp2p#2494](https://github.com/vacp2p/nim-libp2p/pull/2494) fix(rsa): cap max key size
+- [vacp2p/nim-libp2p#2491](https://github.com/vacp2p/nim-libp2p/pull/2491) fix(rsa): reject imported keys below 2048 bits
 
 
 ### Sink performance exploration
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:sink-performance-exploration`
 * owner: richard
-* status: not started
+* status: done
 * start-date: 2026/05/01
-* end-date: 2026/06/30
+* end-date: 2026/05/26
 
 #### Description
 Explore using Nim `sink` parameters in internal code paths where ownership
@@ -320,3 +381,7 @@ Maintain backward compatibility for public APIs.
 - PRs applying `sink` where the ownership semantics are clear and beneficial
 - Tests or benchmarks showing no behavioral regression
 - No public API break.
+- [vacp2p/nim-libp2p#2504](https://github.com/vacp2p/nim-libp2p/pull/2504) feat(protobuf): Use `sink` in protobuf decode paths
+- [vacp2p/nim-libp2p#2503](https://github.com/vacp2p/nim-libp2p/pull/2503) feat(pubsub): use `sink` for RPC buffers
+- [vacp2p/nim-libp2p#2501](https://github.com/vacp2p/nim-libp2p/pull/2501) feat(streams): use `sink` for write buffers
+- [vacp2p/nim-libp2p#2517](https://github.com/vacp2p/nim-libp2p/pull/2517) feat: more `sink` changes

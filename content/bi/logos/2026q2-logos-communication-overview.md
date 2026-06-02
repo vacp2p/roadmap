@@ -22,7 +22,7 @@ Create a Dashboard to give Weekly and monthly report of the Communication team a
 * owner: Nikolay
 * status: done
 * start-date: 2026/04/01
-* end-date: 2026/05/12
+* end-date: 2026/05/26
 * issue: https://github.com/status-im/data-docs/issues/180
 
 #### Description
@@ -33,3 +33,4 @@ Provide Weekly and monthly metrics for the communication activities.
 - Dashboard with KPI
 - First version of the dashboard completed
 - Communication dashboard updated: https://superset.bi.status.im/superset/dashboard/logos-comunication/
+- Research started on automating KOL discovery via the X API.

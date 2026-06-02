@@ -21,7 +21,7 @@ reviewing updates, keeping references consistent, and handling routine quality i
 
 * fully qualified name: `ift-ts:rfc:ift:2026q2-lip-index-maintenance:maintenance`
 * owner: filip/florin
-* status: in progress (30%)
+* status: in progress (50%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -51,6 +51,11 @@ as well as any potential improvements discussed by the team(s).
 - https://github.com/logos-co/logos-lips/pull/322
 - https://github.com/logos-co/logos-lips/pull/323
 - https://github.com/logos-co/logos-lips/pull/327
+- https://github.com/logos-co/logos-lips/pull/337
+- https://github.com/logos-co/logos-lips/pull/338
+- https://github.com/logos-co/logos-lips/pull/339
+- https://github.com/logos-co/logos-lips/pull/340
+
 
 
 ### Review Pipeline

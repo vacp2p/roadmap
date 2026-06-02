@@ -84,6 +84,9 @@ In parallel, **audit CiviCRM API permissions against the actual service key** fo
 - Short spec (1–2 pages) referencing the dev plan and this commitment
 - Verified permissions checklist for the 6 endpoints under the real service key
 - Sign-off from People Ops, Ecodev, Movement on what is in MVP vs Q3
+- CiviCRM dashboard sync completed with Jerry and Kris.
+- [CiviCRM CMS Technical Design](https://www.notion.so/CiviCRM-CMS-Technical-Design-3618f96fb65c8003bcb7c7f2602861df?source=copy_link)
+- [CMS for CiviCRM proposal feedback](https://www.notion.so/CMS-CiviCRM-dev-plan-35e8f96fb65c804db9a2fe4b72b527a1?source=copy_link)
 
 ### Three intake form variations on logos.co
 
@@ -172,6 +175,7 @@ Remaining templates (no-show, post-call redirect, onboarding-by-profile, all-tra
 - CiviRules wired for the 4 MVP-critical flows above
 - Email templates in CiviCRM, rendered and tested with a real test contact
 - Operator doc: how to tweak templates from CiviCRM admin without touching code
+- [Circle onboarding email template fix](https://civicrm.logos.co/civicrm/admin/messageTemplates/add?action=update&id=84&reset=1)
 
 ## Out of scope for Q2 (tracked in 2026q3-logos-crm)
 

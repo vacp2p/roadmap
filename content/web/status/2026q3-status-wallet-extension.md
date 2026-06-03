@@ -21,7 +21,7 @@ Paired send/receive flows ship per chain (BTC first, then SOL) so end-to-end tes
 ### Receive BTC
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-wallet-extension:receive-btc`
-* owner: unassigned
+* owner: JulesFiliot
 * status: not started
 * start-date: 2026/07/01
 * end-date: 2026/07/17
@@ -39,7 +39,7 @@ Implement Receive BTC flow in the wallet extension (address generation/display, 
 ### Recovery Phrase Accessible Form
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-wallet-extension:recovery-phrase-accessible-form`
-* owner: unassigned
+* owner: JulesFiliot
 * status: not started
 * start-date: 2026/07/13
 * end-date: 2026/07/24
@@ -57,7 +57,7 @@ Replace the single recovery phrase input field with an accessible per-word form.
 ### Send BTC
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-wallet-extension:send-btc`
-* owner: unassigned
+* owner: JulesFiliot
 * status: not started
 * start-date: 2026/07/20
 * end-date: 2026/07/31
@@ -75,7 +75,7 @@ Implement Send BTC flow in the wallet extension (address input, amount, fee esti
 ### Receive SOL
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-wallet-extension:receive-sol`
-* owner: unassigned
+* owner: JulesFiliot
 * status: not started
 * start-date: 2026/08/03
 * end-date: 2026/08/14
@@ -93,7 +93,7 @@ Implement Receive SOL flow in the wallet extension. Tracked in [#983](https://gi
 ### Send SOL
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-wallet-extension:send-sol`
-* owner: unassigned
+* owner: JulesFiliot
 * status: not started
 * start-date: 2026/08/17
 * end-date: 2026/08/28
@@ -111,7 +111,7 @@ Implement Send SOL flow in the wallet extension (address input, amount, fee, sig
 ### Support Non-EVM Balances
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-wallet-extension:support-non-evm-balances`
-* owner: unassigned
+* owner: JulesFiliot
 * status: not started
 * start-date: 2026/09/01
 * end-date: 2026/09/25

@@ -26,7 +26,7 @@ The Circles product should keep **one coherent visual and content standard** so 
 ### Standardized Circle sites & admin experience
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-circles:standardized-sites-admin`
-* owner: unassigned
+* owner: jinhojang6
 * status: not started
 * start-date: 2026/07/01
 * end-date: 2026/08/01
@@ -44,7 +44,7 @@ Define the **standardized site** pattern (layout, content slots, branding guardr
 ### Deploy pipelines — GitHub & CMS/CRM
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-circles:deploy-pipelines`
-* owner: unassigned
+* owner: jinhojang6
 * status: not started
 * start-date: 2026/08/04
 * end-date: 2026/08/28

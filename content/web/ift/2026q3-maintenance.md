@@ -49,7 +49,7 @@ Execute upkeep across delivered web properties for Q3: dependency and security b
 ### Merge Vercel teams under IFT-TS
 
 * fully qualified name: `ift-ts:web:ift:2026q3-maintenance:merge-vercel-teams-ift-ts`
-* owner: unassigned
+* owner: Felicio
 * status: not started
 * start-date: 2026/07/01
 * end-date: 2026/07/24
@@ -87,3 +87,21 @@ Plan (per Vercel):
 - Recipient team renamed to **IFT-TS** (`vercel.com/ift` or `vercel.com/ift-ts`)
 - Source team closed
 - Brief operator note: who/what to ping for Vercel access under the new team, including the support-thread context
+
+### Merge Figma teams under IFT-TS
+
+* fully qualified name: `ift-ts:web:ift:2026q3-maintenance:merge-figma-teams-ift-ts`
+* owner: Felicio
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/07/24
+
+#### Description
+
+Consolidate the Figma teams the Web unit currently uses into a single team named **IFT-TS** (IFT Technical Services), mirroring the same change being made on Vercel ([[#Merge Vercel teams under IFT-TS|merge-vercel-teams-ift-ts]] above). One team means a single source of truth for files, projects, libraries, and member access.
+
+#### Deliverables
+
+- Inventory note (projects, files, libraries, plugins, members on both teams) with migration mapping
+- All projects + files moved to the recipient team; per-project sanity check that shared libraries, prototypes, comments, and Dev Mode handoffs still work
+- Recipient team renamed to **IFT-TS**

@@ -5,7 +5,7 @@ tags:
   - "web"
   - "status"
 draft: false
-description: "Q3 continuation of Status website work — adds searchable blog at status.app/blog and a second copy / section-reduction pass after the Q2 round."
+description: "Q3 continuation of Status website work — adds searchable blog at status.app/blog, a second copy / section-reduction pass after the Q2 round, and an alternative status.app deployment for A/B testing and marketing iteration."
 ---
 
 `ift-ts:web:status:2026q3-status-website`
@@ -16,13 +16,14 @@ Q3 continuation of [[web/status/2026q2-status-website|2026q2-status-website]]. T
 
 - **Discoverability inside the blog** at [status.app/blog](https://status.app/blog): a search field that indexes posts across the existing seven categories (News, Product, Developers, Privacy & Security, Dapps, Community, Keycard) so readers can find content by title, summary, body, and tag/category.
 - A **second copy / section-reduction pass** on the main marketing pages, following up on the Q2 round once we have a few weeks of analytics + stakeholder feedback.
+- An **alternative deployment of [status.app](https://status.app/)** so marketing can run A/B tests or ship different iterations of positioning, hero copy, navigation, and CTAs without touching the canonical site.
 
 ## Task List
 
 ### Blog search at status.app/blog
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:blog-search`
-* owner: unassigned
+* owner: Felicio
 * status: not started
 * start-date: 2026/07/13
 * end-date: 2026/07/31
@@ -55,7 +56,7 @@ Add a **search experience** to [status.app/blog](https://status.app/blog). Goals
 ### Copy Changes, Section Reduction
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:copy-changes-section-reduction`
-* owner: unassigned
+* owner: Felicio
 * status: not started
 * start-date: 2026/08/17
 * end-date: 2026/08/28
@@ -69,3 +70,22 @@ Second copy / section-reduction pass on the Status website, following the Q2 rou
 - Updated copy on the targeted pages
 - Section reductions and content-review notes
 - Brief before/after summary referencing the Q2 baseline
+
+### Alternative status.app deployment for A/B testing
+
+* fully qualified name: `ift-ts:web:status:2026q3-status-website:alternative-deployment-ab`
+* owner: Felicio
+* status: not started
+* start-date: 2026/08/03
+* end-date: 2026/09/04
+
+#### Description
+
+Deploy an **alternative version of [status.app](https://status.app/)** so marketing can run **A/B tests** or ship different iterations of positioning, hero copy, navigation, sections, and CTAs without touching the canonical production site.
+
+#### Deliverables
+
+- Alternative `status.app` deployment live (split-traffic mechanism or parallel URL — decided in build)
+- Variant selection mechanism (feature flag, query param, cookie, or edge split) documented
+- Analytics tagged per variant so the marketing team can read impact
+- Operator note for marketing: how to propose, deploy, and read a new iteration

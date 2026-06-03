@@ -68,7 +68,7 @@ The dev plan is right to scope down and ship; this commitment formalises that de
 ### Architecture spec & API audit
 
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-crm:architecture-spec-and-audit`
-* owner: unassigned
+* owner: JulesFiliot
 * status: not started
 * start-date: 2026/05/18
 * end-date: 2026/05/22
@@ -91,7 +91,7 @@ In parallel, **audit CiviCRM API permissions against the actual service key** fo
 ### Three intake form variations on logos.co
 
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-crm:contact-form-variations`
-* owner: unassigned
+* owner: Felicio
 * status: not started
 * start-date: 2026/05/18
 * end-date: 2026/05/29

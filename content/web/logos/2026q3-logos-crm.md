@@ -49,7 +49,7 @@ The **intake forms MVP is already live** on logos.co and continues to be built o
 ### Notion workspace architecture & Movement set-up
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:notion-workspace-setup`
-* owner: unassigned
+* owner: JulesFiliot
 * status: not started
 * start-date: 2026/07/01
 * end-date: 2026/07/17
@@ -71,7 +71,7 @@ Define the data model so Ecodev and Leadership can extend the same workspace in 
 ### Movement kanban view
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:movement-kanban`
-* owner: unassigned
+* owner: JulesFiliot
 * status: not started
 * start-date: 2026/07/06
 * end-date: 2026/07/17
@@ -89,7 +89,7 @@ Configure a Notion kanban view over Circles onboarding cases (`New Lead → Elig
 ### Ecodev case management — databases & views
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:ecodev-case-management`
-* owner: unassigned
+* owner: JulesFiliot
 * status: not started
 * start-date: 2026/07/13
 * end-date: 2026/08/14
@@ -110,7 +110,7 @@ Reuse the Movement pattern: dedicated database(s), linked Contacts/Orgs, activit
 ### Ecodev kanban view
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:ecodev-kanban`
-* owner: unassigned
+* owner: JulesFiliot
 * status: not started
 * start-date: 2026/08/03
 * end-date: 2026/08/21
@@ -128,7 +128,7 @@ Configure a Notion kanban view over Ecodev case Stage (`Lead → Preliminary Int
 ### Leadership reporting + exports
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:leadership-reporting`
-* owner: unassigned
+* owner: JulesFiliot
 * status: not started
 * start-date: 2026/08/10
 * end-date: 2026/09/04
@@ -147,7 +147,7 @@ Reporting surface for Movement / Leadership inside Notion: funnel counts per sta
 ### Notifications — @mentions + Discord bridge
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:notifications`
-* owner: unassigned
+* owner: JulesFiliot
 * status: not started
 * start-date: 2026/08/17
 * end-date: 2026/09/04
@@ -165,7 +165,7 @@ Implement notification flows when team members are mentioned on case notes. Noti
 ### Google Calendar two-way sync
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:google-calendar-sync`
-* owner: unassigned
+* owner: JulesFiliot
 * status: not started
 * start-date: 2026/08/24
 * end-date: 2026/09/18
@@ -183,7 +183,7 @@ Reminder flow: a case-coordinator sets a follow-up date on a Notion case → an 
 ### Automations, email templates & intake forms maintenance
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:emails-and-automations-rest`
-* owner: unassigned
+* owner: JulesFiliot
 * status: not started
 * start-date: 2026/07/01
 * end-date: 2026/08/07
@@ -204,7 +204,7 @@ Continue maintaining and adjusting the logos.co intake forms as requirements evo
 ### Support existing Notion users & integration set-up
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:notion-team-support`
-* owner: unassigned
+* owner: JulesFiliot
 * status: not started
 * start-date: 2026/07/13
 * end-date: 2026/08/07
@@ -223,7 +223,7 @@ Other internal teams already use Notion for related work. Provide technical set-
 ### Workspace governance + polish + maintenance hand-off
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:hardening-and-polish`
-* owner: unassigned
+* owner: JulesFiliot
 * status: not started
 * start-date: 2026/09/07
 * end-date: 2026/09/25

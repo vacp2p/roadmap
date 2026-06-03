@@ -19,7 +19,7 @@ Q3 continuation of [[web/logos/2026q2-logos-website|2026q2-logos-website]]: once
 ### Selfhosting
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-website:selfhosting`
-* owner: unassigned
+* owner: Felicio
 * status: not started
 * start-date: 2026/08/24
 * end-date: 2026/09/04

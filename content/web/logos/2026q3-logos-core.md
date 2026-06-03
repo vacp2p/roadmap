@@ -32,7 +32,7 @@ The Q3 work continues to support Logos’ strategic objectives by:
 ### Prototyping with SDK (Q3 continuation)
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-core:prototyping-with-sdk`
-* owner: unassigned
+* owner: Felicio
 * status: not started
 * start-date: 2026/07/01
 * end-date: 2026/09/25

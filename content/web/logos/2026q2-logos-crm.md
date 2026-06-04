@@ -69,7 +69,7 @@ The dev plan is right to scope down and ship; this commitment formalises that de
 
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-crm:architecture-spec-and-audit`
 * owner: JulesFiliot
-* status: not started
+* status: done
 * start-date: 2026/05/18
 * end-date: 2026/05/22
 
@@ -87,25 +87,6 @@ In parallel, **audit CiviCRM API permissions against the actual service key** fo
 - CiviCRM dashboard sync completed with Jerry and Kris.
 - [CiviCRM CMS Technical Design](https://www.notion.so/CiviCRM-CMS-Technical-Design-3618f96fb65c8003bcb7c7f2602861df?source=copy_link)
 - [CMS for CiviCRM proposal feedback](https://www.notion.so/CMS-CiviCRM-dev-plan-35e8f96fb65c804db9a2fe4b72b527a1?source=copy_link)
-
-### Three intake form variations on logos.co
-
-* fully qualified name: `ift-ts:web:logos:2026q2-logos-crm:contact-form-variations`
-* owner: Felicio
-* status: not started
-* start-date: 2026/05/18
-* end-date: 2026/05/29
-
-#### Description
-
-Ship three variations of the contact form on logos.co (Activist Leader / Steward, Activist Builder, Coalition Partner) per the briefed [form spec](https://docs.google.com/document/d/1LnPSFyv3Lxcm-iU0yOwCQPoXwMfwn3iOaUP6TfWickc/edit?tab=t.0). Submissions feed CiviCRM as new contacts, set `Profile` + `Lead Source` tags, store long-form answers, set funnel stage to `New Lead`, auto-create a Circles onboarding case, subscribe to Circles contact groups, and notify the relevant internal reviewer. hCaptcha is already in place.
-
-#### Deliverables
-
-- Three form variants embedded on logos.co
-- CiviCRM submission flow exercises all required tags, case creation, and notification rules
-- Double opt-in subscription for general newsletter / local events
-- Smoke test plan + one-page operator note for People Ops
 
 ### Basic-auth gate (Keycloak fallback)
 
@@ -128,8 +109,8 @@ Add an **env-var basic-auth gate** in front of the CRM so it can go live even if
 ### CRM MVP — /cases list + /case/:id detail
 
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-crm:crm-mvp`
-* owner: unassigned
-* status: not started
+* owner: JulesFiliot
+* status: 50%
 * start-date: 2026/05/25
 * end-date: 2026/06/12
 
@@ -154,8 +135,8 @@ Per the dev plan: ~1 week core build + 1 week testing / back-and-forth with Kris
 ### CiviRules + email templates (parallel CiviCRM admin)
 
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-crm:civirules-and-emails-mvp`
-* owner: unassigned
-* status: not started
+* owner: Jerry
+* status: done
 * start-date: 2026/05/25
 * end-date: 2026/06/05
 

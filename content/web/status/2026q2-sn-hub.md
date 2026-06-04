@@ -139,8 +139,8 @@ Define test cases for QA testing of SN Hub features and functionality.
 ### SEO
 
 * fully qualified name: `ift-ts:web:status:2026q2-sn-hub:seo`
-* owner: Felicio
-* status: in progress (95%)
+* owner: jinhojang6
+* status: done
 * start-date: 2026/04/22
 * end-date: 2026/05/26
 

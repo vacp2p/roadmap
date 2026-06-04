@@ -36,7 +36,7 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:contributor-directory`
 * owner: JulesFiliot
-* status: in progress (90%)
+* status: done
 * start-date: 2025/08/11
 * end-date: 2025/10/31
 
@@ -52,7 +52,7 @@ Build the landing directory that lists active contributors with GitHub stats and
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:contributor-profiles`
 * owner: JulesFiliot
-* status: in progress (90%)
+* status: done
 * start-date: 2025/08/11
 * end-date: 2025/10/31
 
@@ -81,7 +81,7 @@ Author and publish contributor onboarding and etiquette guidelines to sit alongs
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:github-issues`
 * owner: JulesFiliot
-* status: in progress (95%)
+* status: done
 * start-date: 2025/09/08
 * end-date: 2025/10/31
 
@@ -110,7 +110,7 @@ Plumb BI-provided GitHub datasets into the portal to power contributor metrics a
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:leaderboard`
 * owner: JulesFiliot
-* status: in progress (80%)
+* status: done
 * start-date: 2025/08/20
 * end-date: 2025/10/31
 
@@ -124,7 +124,7 @@ Implement seasonal and all-time leaderboards with sorting that highlights high-i
 
 * fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:tier-scoring`
 * owner: jinhojang6
-* status: in progress (50%)
+* status: done
 * start-date: 2025/08/20
 * end-date: 2025/10/31
 

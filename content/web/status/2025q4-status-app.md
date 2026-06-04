@@ -40,7 +40,7 @@ Align Status web surfaces with the upcoming Waku upgrade, covering SDK updates a
 
 * fully qualified name: `vac:web:status:2025q4-status-app:community-shards`
 * owner: JulesFiliot
-* status: in progress (98%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

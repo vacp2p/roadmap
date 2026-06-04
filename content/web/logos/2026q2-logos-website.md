@@ -28,7 +28,7 @@ The Logos website enhancement will support Logos' strategic objectives by:
 * owner: jinhojang6
 * status: in progress (95%)
 * start-date: 2026/04/01
-* end-date: 2026/04/30
+* end-date: 2026/06/30
 
 #### Description
 

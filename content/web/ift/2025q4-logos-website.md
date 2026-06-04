@@ -94,7 +94,7 @@ Finalize the responsive site layout, navigation structure, and page templates fo
 
 * fully qualified name: `ift-ts:web:ift:2025q4-logos-website:components`
 * owner: jinhojang6
-* status: in progress (90%)
+* status: done
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -136,7 +136,7 @@ Implement the translation workflow and locale switching needed for a multilingua
 
 * fully qualified name: `ift-ts:web:ift:2025q4-logos-website:seo`
 * owner: jinhojang6
-* status: in progress (50%)
+* status: done
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -150,7 +150,7 @@ Optimize metadata, structured data, and performance budgets to improve discovery
 
 * fully qualified name: `ift-ts:web:ift:2025q4-logos-website:documentation`
 * owner: jinhojang6
-* status: in progress (20%)
+* status: done
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -198,7 +198,7 @@ Embed an events calendar that aggregates upcoming Spaces sessions and community 
 
 * fully qualified name: `ift-ts:web:ift:2025q4-logos-website:data-visualization`
 * owner: jackewing
-* status: in progress (50%)
+* status: done
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -248,7 +248,7 @@ Stand up the press engine blog system with publishing workflow, tagging, and arc
 
 * fully qualified name: `ift-ts:web:ift:2025q4-logos-website:search`
 * owner: JulesFiliot
-* status: in progress (50%)
+* status: done
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 
@@ -265,7 +265,7 @@ Implement site-wide search that surfaces content across product pages, docs, and
 
 * fully qualified name: `ift-ts:web:ift:2025q4-logos-website:external-references`
 * owner: jinhojang6
-* status: in progress (20%)
+* status: done
 * start-date: 2025/05/09
 * end-date: 2025/10/31
 

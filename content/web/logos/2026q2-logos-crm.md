@@ -110,7 +110,7 @@ Add an **env-var basic-auth gate** in front of the CRM so it can go live even if
 
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-crm:crm-mvp`
 * owner: JulesFiliot
-* status: 50%
+* status: in progress (50%)
 * start-date: 2026/05/25
 * end-date: 2026/06/12
 

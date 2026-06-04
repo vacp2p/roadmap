@@ -8,7 +8,7 @@ draft: false
 description: "Development of Logos Contribute, a contribution hub that recognizes open source contributors and helps new developers make their first contributions to strengthen the Logos ecosystem."
 ---
 
-`vac:web:ift:2025q4-logos-contributions-portal`
+`ift-ts:web:ift:2025q4-logos-contributions-portal`
 
 ## Description
 
@@ -34,7 +34,7 @@ The Logos Contribute portal directly supports the quarterly KPIs by:
 
 ### Contributor Directory
 
-* fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:contributor-directory`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-contributions-portal:contributor-directory`
 * owner: JulesFiliot
 * status: done
 * start-date: 2025/08/11
@@ -50,7 +50,7 @@ Build the landing directory that lists active contributors with GitHub stats and
 
 ### Contributor Profiles
 
-* fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:contributor-profiles`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-contributions-portal:contributor-profiles`
 * owner: JulesFiliot
 * status: done
 * start-date: 2025/08/11
@@ -64,7 +64,7 @@ Implement profile pages that surface individual contribution history, badges, an
 
 ### Contribution Guidelines
 
-* fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:contribution-guidelines`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-contributions-portal:contribution-guidelines`
 * owner: jinhojang6
 * status: done
 * start-date: 2025/09/25
@@ -79,7 +79,7 @@ Author and publish contributor onboarding and etiquette guidelines to sit alongs
 
 ### Display Github issues
 
-* fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:github-issues`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-contributions-portal:github-issues`
 * owner: JulesFiliot
 * status: done
 * start-date: 2025/09/08
@@ -93,7 +93,7 @@ Integrate curated GitHub issues into the portal so newcomers can quickly find ac
 
 ### Use BI team's Github Data
 
-* fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:bi-data`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-contributions-portal:bi-data`
 * owner: JulesFiliot
 * status: in progress (70%)
 * start-date: 2025/09/08
@@ -108,7 +108,7 @@ Plumb BI-provided GitHub datasets into the portal to power contributor metrics a
 
 ### Leaderboard
 
-* fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:leaderboard`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-contributions-portal:leaderboard`
 * owner: JulesFiliot
 * status: done
 * start-date: 2025/08/20
@@ -122,7 +122,7 @@ Implement seasonal and all-time leaderboards with sorting that highlights high-i
 
 ### Tier & Scoring
 
-* fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:tier-scoring`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-contributions-portal:tier-scoring`
 * owner: jinhojang6
 * status: done
 * start-date: 2025/08/20
@@ -136,7 +136,7 @@ Define the tier logic and scoring rules that map contributor activity into the r
 
 ### Proposals
 
-* fully qualified name: `vac:web:ift:2025q4-logos-contributions-portal:proposals`
+* fully qualified name: `ift-ts:web:ift:2025q4-logos-contributions-portal:proposals`
 * owner: jinhojang6
 * status: done
 * start-date: 2025/09/20

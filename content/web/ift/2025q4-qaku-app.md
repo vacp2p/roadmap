@@ -8,7 +8,7 @@ draft: false
 description: "Development of Qaku app as a Logos product powered by Waku for IFT Townhalls and events, positioning it as a competitive alternative to existing solutions like Slido."
 ---
 
-`vac:web:ift:2025q4-qaku-app`
+`ift-ts:web:ift:2025q4-qaku-app`
 
 ## Description
 
@@ -32,7 +32,7 @@ The Qaku app will support Logos' strategic objectives by:
 
 ### App
 
-* fully qualified name: `vac:web:ift:2025q4-qaku-app:app`
+* fully qualified name: `ift-ts:web:ift:2025q4-qaku-app:app`
 * owner: JulesFiliot
 * status: done
 * start-date: 2025/08/01

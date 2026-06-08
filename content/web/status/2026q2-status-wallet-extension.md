@@ -27,8 +27,8 @@ The Status Wallet Extension development will support Status' strategic objective
 * fully qualified name: `ift-ts:web:status:2026q2-status-wallet-extension:proxy-api-rate-limiting`
 * owner: unassigned
 * status: not started
-* start-date: 2026/05/05
-* end-date: 2026/05/19
+* start-date: 2026/05/11
+* end-date: 2026/05/22
 
 #### Description
 
@@ -45,8 +45,8 @@ Implement proxy API rate limiting to manage API usage and prevent abuse.
 * fully qualified name: `ift-ts:web:status:2026q2-status-wallet-extension:qa-defining-test-cases-together`
 * owner: unassigned
 * status: not started
-* start-date: 2026/05/05
-* end-date: 2026/05/19
+* start-date: 2026/05/18
+* end-date: 2026/05/29
 
 #### Description
 

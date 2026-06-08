@@ -1,14 +1,14 @@
 ---
 title: Demos
 tags:
-  - "2026q2"
+  - "2026q3"
   - "web"
   - "ift"
 draft: false
 description: "Demonstration of completed work and presentations to showcase the Web team's deliverables, share progress with the entire organization, and gather feedback for continuous improvement."
 ---
 
-`ift-ts:web:ift:2026q2-demos`
+`ift-ts:web:ift:2026q3-demos`
 
 ## Description
 
@@ -25,11 +25,11 @@ The demos commitment supports IFT's strategic objectives by:
 
 ### Biweekly 1 - IFT Townhall Demo
 
-* fully qualified name: `ift-ts:web:ift:2026q2-demos:biweekly-1-ift-townhall`
-* owner: JulesFiliot
-* status: done
-* start-date: 2026/04/15
-* end-date: 2026/04/22
+* fully qualified name: `ift-ts:web:ift:2026q3-demos:biweekly-1-ift-townhall`
+* owner: unassigned
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/07/07
 
 #### Description
 
@@ -39,15 +39,14 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 
 - Presentation materials
 - Demo recording/documentation
-- [status-im/status-web#1129](https://github.com/status-im/status-web/issues/1129) IFT townhall demo - biweekly 1
 
 ### Biweekly 2 - IFT Townhall Demo
 
-* fully qualified name: `ift-ts:web:ift:2026q2-demos:biweekly-2-ift-townhall`
+* fully qualified name: `ift-ts:web:ift:2026q3-demos:biweekly-2-ift-townhall`
 * owner: unassigned
 * status: not started
-* start-date: 2026/05/06
-* end-date: 2026/05/12
+* start-date: 2026/07/15
+* end-date: 2026/07/21
 
 #### Description
 
@@ -60,11 +59,11 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 
 ### Biweekly 3 - IFT Townhall Demo
 
-* fully qualified name: `ift-ts:web:ift:2026q2-demos:biweekly-3-ift-townhall`
+* fully qualified name: `ift-ts:web:ift:2026q3-demos:biweekly-3-ift-townhall`
 * owner: unassigned
 * status: not started
-* start-date: 2026/05/20
-* end-date: 2026/05/26
+* start-date: 2026/07/29
+* end-date: 2026/08/04
 
 #### Description
 
@@ -77,11 +76,11 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 
 ### Biweekly 4 - IFT Townhall Demo
 
-* fully qualified name: `ift-ts:web:ift:2026q2-demos:biweekly-4-ift-townhall`
+* fully qualified name: `ift-ts:web:ift:2026q3-demos:biweekly-4-ift-townhall`
 * owner: unassigned
 * status: not started
-* start-date: 2026/06/03
-* end-date: 2026/06/09
+* start-date: 2026/08/12
+* end-date: 2026/08/18
 
 #### Description
 
@@ -94,11 +93,11 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 
 ### Biweekly 5 - IFT Townhall Demo
 
-* fully qualified name: `ift-ts:web:ift:2026q2-demos:biweekly-5-ift-townhall`
+* fully qualified name: `ift-ts:web:ift:2026q3-demos:biweekly-5-ift-townhall`
 * owner: unassigned
 * status: not started
-* start-date: 2026/06/17
-* end-date: 2026/06/23
+* start-date: 2026/08/26
+* end-date: 2026/09/01
 
 #### Description
 
@@ -111,11 +110,11 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 
 ### Biweekly 6 - IFT Townhall Demo
 
-* fully qualified name: `ift-ts:web:ift:2026q2-demos:biweekly-6-ift-townhall`
+* fully qualified name: `ift-ts:web:ift:2026q3-demos:biweekly-6-ift-townhall`
 * owner: unassigned
 * status: not started
-* start-date: 2026/06/24
-* end-date: 2026/06/30
+* start-date: 2026/09/23
+* end-date: 2026/09/29
 
 #### Description
 

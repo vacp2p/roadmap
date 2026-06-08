@@ -8,7 +8,7 @@ draft: false
 description: "Supporting continued development of Status App by ensuring web applications, interfaces, and extensions remain functional during native app upgrades, refactoring, and protocol improvements."
 ---
 
-`vac:web:status:2025q4-status-app`
+`ift-ts:web:status:2025q4-status-app`
 
 ## Description
 
@@ -22,7 +22,7 @@ This commitment involves supporting the continued development of the Status App 
 
 ### Upgrade Waku
 
-* fully qualified name: `vac:web:status:2025q4-status-app:upgrade-waku`
+* fully qualified name: `ift-ts:web:status:2025q4-status-app:upgrade-waku`
 * owner: JulesFiliot
 * status: done
 * start-date: 2025/10/01
@@ -38,9 +38,9 @@ Align Status web surfaces with the upcoming Waku upgrade, covering SDK updates a
 
 ### Community Shards
 
-* fully qualified name: `vac:web:status:2025q4-status-app:community-shards`
+* fully qualified name: `ift-ts:web:status:2025q4-status-app:community-shards`
 * owner: JulesFiliot
-* status: in progress (98%)
+* status: done
 * start-date: 2025/10/01
 * end-date: 2025/12/31
 

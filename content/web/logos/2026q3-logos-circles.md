@@ -1,14 +1,14 @@
 ---
 title: Logos Circles
 tags:
-  - "2026q2"
+  - "2026q3"
   - "web"
   - "logos"
 draft: false
 description: "Standardized sites for Circle admins so communities can showcase use cases for Logos tech (blockchain, messaging, storage) and manage contacts, with deployment via GitHub or CMS/CRM aligned with Logos website work."
 ---
 
-`ift-ts:web:logos:2026q2-logos-circles`
+`ift-ts:web:logos:2026q3-logos-circles`
 
 ## Description
 
@@ -25,11 +25,11 @@ The Circles product should keep **one coherent visual and content standard** so 
 
 ### Standardized Circle sites & admin experience
 
-* fully qualified name: `ift-ts:web:logos:2026q2-logos-circles:standardized-sites-admin`
-* owner: JulesFiliot
-* status: done
-* start-date: 2026/04/15
-* end-date: 2026/05/12
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-circles:standardized-sites-admin`
+* owner: jinhojang6
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/08/01
 
 #### Description
 
@@ -40,18 +40,14 @@ Define the **standardized site** pattern (layout, content slots, branding guardr
 - Written spec or RFC for the standard Circle site template and content model
 - Admin journey (wireframes or flow) covering updates to pages, contacts, and use-case blocks
 - Alignment checkpoints with design / EcoDev on Circles positioning
-- CiviCRM dashboard sync completed with Jerry and Kris.
-- [CiviCRM CMS Technical Design](https://www.notion.so/CiviCRM-CMS-Technical-Design-3618f96fb65c8003bcb7c7f2602861df?source=copy_link)
-- [Circle onboarding email template fix](https://civicrm.logos.co/civicrm/admin/messageTemplates/add?action=update&id=84&reset=1)
-- [CMS for CiviCRM proposal feedback](https://www.notion.so/CMS-CiviCRM-dev-plan-35e8f96fb65c804db9a2fe4b72b527a1?source=copy_link)
 
 ### Deploy pipelines — GitHub & CMS/CRM
 
-* fully qualified name: `ift-ts:web:logos:2026q2-logos-circles:deploy-pipelines`
-* owner: Jules
-* status: in progress (50%)
-* start-date: 2026/05/01
-* end-date: 2026/06/30
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-circles:deploy-pipelines`
+* owner: jinhojang6
+* status: not started
+* start-date: 2026/08/04
+* end-date: 2026/08/28
 
 #### Description
 

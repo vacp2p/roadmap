@@ -34,8 +34,8 @@ The Logos Core prototyping will support Logos' strategic objectives by:
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-core:prototyping-with-sdk`
 * owner: unassigned
 * status: not started
-* start-date: 2026/04/01
-* end-date: 2026/06/30
+* start-date: 2026/04/13
+* end-date: 2026/06/12
 
 #### Description
 

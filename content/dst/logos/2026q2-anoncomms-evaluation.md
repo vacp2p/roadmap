@@ -26,7 +26,7 @@ Do this monthly, reliably, with documentation of findings.
 ### Closeness score
 * fully qualified name: `ift-ts:dst:logos:2026q2-anoncomms-evaluation:closeness-score`
 * owner: Alan
-* status: in progress (99%)
+* status: done
 * start-date: 2026/04/09
 * end-date: 2026/04/24
 
@@ -92,10 +92,10 @@ and how to set up potential experiments using the DST lab.
 > *Note*: This needs more input from project
 
 * fully qualified name: `ift-ts:dst:logos:2026q2-anoncomms-evaluation:service-discovery`
-* owner: TBD
+* owner: Alberto
 * status: not started
-* start-date: 2026/04/01
-* end-date: 2026/06/30
+* start-date: 2026/06/01
+* end-date: 2026/06/19
 
 #### Description
 Evaluate service-discovery protocol. Compare it against KAD-DHT or any other request that comes from anoncomms team.

@@ -21,6 +21,7 @@ pipeline {
       numToKeepStr: '20',
       daysToKeepStr: '30',
       artifactNumToKeepStr: '1',
+      daysToKeepStr: '14',
     ))
     disableConcurrentBuilds()
     disableRestartFromStage()

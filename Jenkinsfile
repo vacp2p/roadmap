@@ -21,7 +21,7 @@ pipeline {
       numToKeepStr: '20',
       daysToKeepStr: '30',
       artifactNumToKeepStr: '1',
-      daysToKeepStr: '14',
+      artifactDaysToKeepStr: '14',
     ))
     disableConcurrentBuilds()
     disableRestartFromStage()
@@ -50,7 +50,7 @@ pipeline {
       when { expression { GIT_BRANCH.endsWith('master') } }
       steps { script {
         sshagent(credentials: ['status-im-auto-ssh']) {
-          nix.develop('ghp-import -c roadmap.vac.dev -p public', pure: false)
+          nix.develop('ghp-import -c roadmap.vac.dev -p -f -o public', pure: false)
         }
       } }
     }

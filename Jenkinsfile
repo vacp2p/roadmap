@@ -50,7 +50,7 @@ pipeline {
       when { expression { GIT_BRANCH.endsWith('master') } }
       steps { script {
         sshagent(credentials: ['status-im-auto-ssh']) {
-          nix.develop('ghp-import -c roadmap.vac.dev -p -f -o public', pure: false)
+          nix.develop('ghp-import -c roadmap.vac.dev -p public', pure: false)
         }
       } }
     }

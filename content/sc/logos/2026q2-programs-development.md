@@ -58,3 +58,11 @@ and follow-up issues across the LEZ token, ATA, and AMM programs.
 - [logos-blockchain/lez-programs#123](https://github.com/logos-blockchain/lez-programs/pull/123) docs: update README and CLAUDE.md to reflect current state
 - [logos-blockchain/lez-programs#122](https://github.com/logos-blockchain/lez-programs/pull/122) refactor: move programs into `programs` and UIs into `apps`
 - [logos-blockchain/lez-programs#121](https://github.com/logos-blockchain/lez-programs/pull/121) chore(Makefile): add `idl` command to `Makefile`
+- [logos-blockchain/lez-programs#95](https://github.com/logos-blockchain/lez-programs/issues/95) Stablecoin program follow-up
+- [logos-co/scaffold#202](https://github.com/logos-co/scaffold/issues/202) Local sequencer integration-test follow-up
+- [logos-co/scaffold#203](https://github.com/logos-co/scaffold/issues/203) Local sequencer integration-test follow-up
+- [logos-co/scaffold#204](https://github.com/logos-co/scaffold/issues/204) Local sequencer integration-test follow-up
+- [logos-co/scaffold#205](https://github.com/logos-co/scaffold/issues/205) Local sequencer integration-test follow-up
+- [logos-co/scaffold#206](https://github.com/logos-co/scaffold/issues/206) Local sequencer integration-test follow-up
+- [logos-co/scaffold#207](https://github.com/logos-co/scaffold/issues/207) Local sequencer integration-test follow-up
+- [logos-co/scaffold#208](https://github.com/logos-co/scaffold/issues/208) Local sequencer integration-test follow-up

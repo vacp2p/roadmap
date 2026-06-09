@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (67%)
+* status: in progress (75%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -169,6 +169,21 @@ Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via i
 - [vacp2p/nim-libp2p#2538](https://github.com/vacp2p/nim-libp2p/pull/2538) chore: unify and dedup utilities
 - [vacp2p/nim-libp2p#2535](https://github.com/vacp2p/nim-libp2p/pull/2535) chore(builders): avoid ref objects for SwitchBuilder configs
 - [vacp2p/nim-libp2p#2537](https://github.com/vacp2p/nim-libp2p/pull/2537) chore: remove Nim <2 leftovers (unsafeAddr, newSeqUninit shim)
+- [nim-libp2p v2.0.0](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.0.0) Release with connection manager, service discovery, expanded C bindings, GossipSub, Kademlia, NAT, Identify, and transport upgrades
+- [vacp2p/nim-libp2p#2587](https://github.com/vacp2p/nim-libp2p/pull/2587) Support QUIC hole punching
+- [vacp2p/nim-libp2p#2598](https://github.com/vacp2p/nim-libp2p/pull/2598) Support CIDv1 peer IDs
+- [vacp2p/nim-lsquic#89](https://github.com/vacp2p/nim-lsquic/pull/89) Route shared-socket QUIC packets by destination CID
+- [vacp2p/nim-lsquic#87](https://github.com/vacp2p/nim-lsquic/pull/87) Add shared socket endpoint
+- [vacp2p/nim-lsquic#88](https://github.com/vacp2p/nim-lsquic/pull/88) Map enums manually
+- [vacp2p/nim-boringssl#7](https://github.com/vacp2p/nim-boringssl/pull/7) Avoid automatic mapping for `ptr_diff` and enums
+- [vacp2p/nim-libp2p#2593](https://github.com/vacp2p/nim-libp2p/pull/2593) Remove unnecessary transport argument
+- [vacp2p/nim-libp2p#2589](https://github.com/vacp2p/nim-libp2p/pull/2589) Remove codecs from `addHandler`
+- [vacp2p/nim-libp2p#2602](https://github.com/vacp2p/nim-libp2p/pull/2602) Bump metrics to v0.2.2
+- [vacp2p/nim-libp2p#2599](https://github.com/vacp2p/nim-libp2p/pull/2599) Clean up Identify
+- [vacp2p/nim-libp2p#2594](https://github.com/vacp2p/nim-libp2p/pull/2594) Fix flaky peer-limit test
+- [vacp2p/nim-libp2p#2558](https://github.com/vacp2p/nim-libp2p/pull/2558) Remove go-libp2p patch from AutoNAT v2 tests
+- [libp2p/go-libp2p#3513](https://github.com/libp2p/go-libp2p/pull/3513) Expose `AllowPrivateAddrs` through an option
+- [vacp2p/nim-libp2p#2601](https://github.com/vacp2p/nim-libp2p/pull/2601) Use `protobuf_serialization` in Identify
 
 
 ### KAD-DHT optimizations
@@ -271,8 +286,8 @@ interop tests were not available.
 ### ORC in CI
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:orc-ci`
-* owner: not assigned yet
-* status: not started
+* owner: gabe
+* status: in progress (75%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -287,7 +302,8 @@ ORC. If Nim 2.2.10 is not released during Q2, prepare the CI changes and defer
 execution to the next quarter.
 
 #### Deliverables
-nim-libp2p CI jobs work with both `--mm:refc` and `--mm:orc`
+- nim-libp2p CI jobs work with both `--mm:refc` and `--mm:orc`
+- [vacp2p/nim-libp2p#2595](https://github.com/vacp2p/nim-libp2p/pull/2595) Shard `test_all` to fix i386 and ORC out-of-memory failures
 
 
 ### Exception trace cleanup

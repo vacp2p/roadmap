@@ -104,9 +104,9 @@ any counter reservation.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-stream-budgets:metrics-validation`
 * owner: Vlado
-* status: in progress (75%)
+* status: done
 * start-date: 2026/05/01
-* end-date: 2026/06/30
+* end-date: 2026/06/09
 
 #### Description
 Expose protocol stream budget metrics and validate the feature against overload
@@ -115,6 +115,8 @@ labels where useful, but should not add a per-peer label.
 
 #### Deliverables
 - [vacp2p/nim-libp2p#2577](https://github.com/vacp2p/nim-libp2p/pull/2577) feat(LPProtocol): add metrics
+- [vacp2p/nim-libp2p#2603](https://github.com/vacp2p/nim-libp2p/pull/2603) Add LPProtocol metrics-value tests
+- [vacp2p/nim-libp2p#2584](https://github.com/vacp2p/nim-libp2p/pull/2584) Add LPProtocol fast path when there are no limits
 - `libp2p_protocol_stream_cap_rejections_total{protocol, direction, scope}` metric
 - `libp2p_protocol_streams_open{protocol, direction}` metric
 - Integration tests for inbound and outbound cap breaches

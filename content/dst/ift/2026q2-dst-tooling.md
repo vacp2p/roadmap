@@ -35,8 +35,8 @@ adversarial conditions and control message behavior.
 ### General tooling (recurring)
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:general-tooling`
-* owner: Pearson
-* status: in progress (50%)
+* owner: DST
+* status: in progress (75%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -73,6 +73,7 @@ Should be made general when possible.
   - [vacp2p/10ksim#272](https://github.com/vacp2p/10ksim/pull/272) Allow to specify service + dns searchs
   - [vacp2p/10ksim#275](https://github.com/vacp2p/10ksim/pull/275) Add nimp2p-service to nimlibp2p nodes
   - [vacp2p/10ksim#278](https://github.com/vacp2p/10ksim/pull/278) Add dump to BaseExp and fix run defs
+  - [vacp2p/10ksim#287](https://github.com/vacp2p/10ksim/pull/287) Fix `poll_rollout_status` return value
 - Reports:
 - Other:
   - Fixed `zerotesting-store` so it runs on k8s
@@ -82,7 +83,7 @@ Should be made general when possible.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:dashboard`
 * owner: Mamoutou
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -112,5 +113,8 @@ subtasks.
 
 #### Deliverables
 - Code:
+  - [vacp2p/10ksim#276](https://github.com/vacp2p/10ksim/pull/276) Run GossipSub experiments with Shadow
+  - [vacp2p/10ksim#285](https://github.com/vacp2p/10ksim/pull/285) Add post-run Shadow analysis for metrics and message reliability
+  - [vacp2p/dst-libp2p-test-node#28](https://github.com/vacp2p/dst-libp2p-test-node/pull/28) Add Shadow runner base image
 - Reports:
   - [Using Shadow at DST](https://www.notion.so/Using-Shadow-at-DST-3698f96fb65c8091b011db3f7d267d61) documents usage, design choices, and gotchas.

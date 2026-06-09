@@ -54,9 +54,9 @@ explicit external IP configuration.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-nat-traversal:upnp-pmp`
 * owner: gabe
-* status: in progress (85%)
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/06/09
 
 #### Description
 Integrate UPnP and NAT-PMP address mapping through existing Nim NAT traversal
@@ -72,3 +72,23 @@ structured so UDP-capable transports can use the same setup path.
 - [vacp2p/nim-libp2p#2570](https://github.com/vacp2p/nim-libp2p/pull/2570) feat(nat): upnp, nat-pmp build infra
 - [vacp2p/nim-libp2p#2571](https://github.com/vacp2p/nim-libp2p/pull/2571) feat(nat): portmapper interface
 - [vacp2p/nim-libp2p#2573](https://github.com/vacp2p/nim-libp2p/pull/2573) feat(nat): upnp
+- [vacp2p/nim-libp2p#2596](https://github.com/vacp2p/nim-libp2p/pull/2596) Add NATService
+- [vacp2p/nim-libp2p#2575](https://github.com/vacp2p/nim-libp2p/pull/2575) Add NATService
+- [vacp2p/nim-libp2p#2574](https://github.com/vacp2p/nim-libp2p/pull/2574) Add NAT-PMP
+- [vacp2p/nim-libp2p#2576](https://github.com/vacp2p/nim-libp2p/pull/2576) Add NAT mock tests
+
+
+### AutoNAT Integration
+
+* fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-nat-traversal:autonat-integration`
+* owner: gabe
+* status: in progress (90%)
+* start-date: 2026/06/01
+* end-date: 2026/06/30
+
+#### Description
+Absorb AutoNAT and hole-punching behavior into NATService so NAT traversal
+logic is centralized and reusable across nim-libp2p.
+
+#### Deliverables
+- AutoNAT and hole-punching integration into NATService

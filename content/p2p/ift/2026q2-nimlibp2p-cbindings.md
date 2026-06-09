@@ -107,3 +107,4 @@ existing bindings to take advantage of it.
 - [logos-messaging/nim-ffi#46](https://github.com/logos-messaging/nim-ffi/pull/46) chore: avoid throwing exceptions in C++ bindings
 - [logos-messaging/nim-ffi#41](https://github.com/logos-messaging/nim-ffi/pull/41) tests: cover gaps in CBOR type coverage
 - [logos-messaging/nim-ffi#42](https://github.com/logos-messaging/nim-ffi/pull/42) test(cpp-e2e): add multi-context, cross-library, pipeline, stress tests
+- [logos-messaging/nim-ffi#71](https://github.com/logos-messaging/nim-ffi/pull/71) Add event-thread scaffolding and split `FFIContext` lifecycle work

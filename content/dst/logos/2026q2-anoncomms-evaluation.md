@@ -93,7 +93,7 @@ and how to set up potential experiments using the DST lab.
 
 * fully qualified name: `ift-ts:dst:logos:2026q2-anoncomms-evaluation:service-discovery`
 * owner: Alberto
-* status: not started
+* status: in progress (20%)
 * start-date: 2026/06/01
 * end-date: 2026/06/19
 

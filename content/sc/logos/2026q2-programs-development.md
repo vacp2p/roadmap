@@ -59,10 +59,10 @@ and follow-up issues across the LEZ token, ATA, and AMM programs.
 - [logos-blockchain/lez-programs#122](https://github.com/logos-blockchain/lez-programs/pull/122) refactor: move programs into `programs` and UIs into `apps`
 - [logos-blockchain/lez-programs#121](https://github.com/logos-blockchain/lez-programs/pull/121) chore(Makefile): add `idl` command to `Makefile`
 - [logos-blockchain/lez-programs#95](https://github.com/logos-blockchain/lez-programs/issues/95) Stablecoin program follow-up
-- [logos-co/scaffold#202](https://github.com/logos-co/scaffold/issues/202) Local sequencer integration-test follow-up
-- [logos-co/scaffold#203](https://github.com/logos-co/scaffold/issues/203) Local sequencer integration-test follow-up
-- [logos-co/scaffold#204](https://github.com/logos-co/scaffold/issues/204) Local sequencer integration-test follow-up
-- [logos-co/scaffold#205](https://github.com/logos-co/scaffold/issues/205) Local sequencer integration-test follow-up
-- [logos-co/scaffold#206](https://github.com/logos-co/scaffold/issues/206) Local sequencer integration-test follow-up
-- [logos-co/scaffold#207](https://github.com/logos-co/scaffold/issues/207) Local sequencer integration-test follow-up
-- [logos-co/scaffold#208](https://github.com/logos-co/scaffold/issues/208) Local sequencer integration-test follow-up
+- [logos-co/scaffold#202](https://github.com/logos-co/scaffold/issues/202) Expose current scaffold features as a public Rust API
+- [logos-co/scaffold#203](https://github.com/logos-co/scaffold/issues/203) Isolated local sequencer test nodes
+- [logos-co/scaffold#204](https://github.com/logos-co/scaffold/issues/204) Caller-provided state seeding for test nodes
+- [logos-co/scaffold#205](https://github.com/logos-co/scaffold/issues/205) Structured transaction outcomes for test nodes
+- [logos-co/scaffold#206](https://github.com/logos-co/scaffold/issues/206) Deterministic block and clock context for test-node replay
+- [logos-co/scaffold#207](https://github.com/logos-co/scaffold/issues/207) Stable account and proof snapshots for parity assertions
+- [logos-co/scaffold#208](https://github.com/logos-co/scaffold/issues/208) Caller project LEZ and circuits pins for test nodes

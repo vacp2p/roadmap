@@ -78,6 +78,8 @@ Oversee testing strategy around releases.
 - [status-im/status-app#21034](https://github.com/status-im/status-app/issues/21034) Starting 2 app instances on Windows leads to Illegal storage access error sporadically
 - [status-im/status-app#21053](https://github.com/status-im/status-app/pull/21053) chore: bump status-go version in master
 - [status-im/status-app#21020](https://github.com/status-im/status-app/issues/21020) Application rendering is very slow on first launch after install on Windows
+- [status-im/status-app#21106](https://github.com/status-im/status-app/pull/21106) Disable saved-address tests
+- [status-im/status-app#20352](https://github.com/status-im/status-app/issues/20352) ENS names cannot be bought on Hoodi because STT balance is zero
 
 ### Privacy Mode
 

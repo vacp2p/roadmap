@@ -172,17 +172,18 @@ Add functionality to use force reevalutaion for community permission check
 
 #### Deliverables
 - [status-im/status-go#7481](https://github.com/status-im/status-go/issues/7481) Implement force reevaluation flag for functional tests
+- [status-im/status-go#7488](https://github.com/status-im/status-go/pull/7488) Use force reevaluation for community tests
 
 ### Stabilise tests for light client
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-go-functional-testing:7515`
-* owner: TBD
-* status: not started
+* owner: Nastya
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/02
+* end-date: 2026/06/09
 
 #### Description
 Make tests with light client stable
 
 #### Deliverables
--  PRs
+- [status-im/status-go#7519](https://github.com/status-im/status-go/pull/7519) Add small test improvements for light-client stability

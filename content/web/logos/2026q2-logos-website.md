@@ -26,7 +26,7 @@ The Logos website enhancement will support Logos' strategic objectives by:
 
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-website:website-redesign`
 * owner: jinhojang6
-* status: in progress (95%)
+* status: in progress (98%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -73,6 +73,11 @@ Redesign the Logos website.
 - [logos-co/logos-web#19](https://github.com/logos-co/logos-web/pull/19) fix(web): align navbar UI with Figma across closed and overlay states
 - [logos-co/logos-web#20](https://github.com/logos-co/logos-web/pull/20) fix(ui): add button hover effects and fix arrow icon
 - [logos-co/logos-web#21](https://github.com/logos-co/logos-web/pull/21) feat(ui): add tsup watch mode to packages/ui
+- [logos-co/logos-web#26](https://github.com/logos-co/logos-web/pull/26) Fix pending Comms and Movement requests before launch
+- [logos-co/logos-web#34](https://github.com/logos-co/logos-web/pull/34) Publish the UK debt campaign landing page
+- [logos-co/logos-web#36](https://github.com/logos-co/logos-web/pull/36) Update and migrate UK debt campaign content
+- [acid-info/logos#40](https://github.com/acid-info/logos/pull/40) Launch and update the UK debt campaign
+- [status-im/status-web#1217](https://github.com/status-im/status-web/pull/1217) Fix job detail page
 
 ### CMS/Sanity
 
@@ -101,6 +106,7 @@ Propose alternative to Sanity CMS for content management, enabling non-technical
 - Logos forms deployed.
 - CMS PR workflow bugs fixed.
 - [CRM CMS technical specs](https://www.notion.so/CMS-for-CiviCRM-3518f96fb65c80f89cd4d2143a88c0ca) reviewed.
+- [logos-co/logos-web#35](https://github.com/logos-co/logos-web/pull/35) Fix Logos forms
 
 ### Selfhosting
 

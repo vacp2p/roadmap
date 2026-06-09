@@ -135,7 +135,7 @@ Cover the remaining E2E test scenarios for the Send API beyond the 19 scenarios 
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:logosdelivery-bindings-maintenance`
 * owner: aya
-* status: in progress (20%)
+* status: in progress (25%)
 * start-date: 2026/05/19
 * end-date: 2026/06/30
 
@@ -145,6 +145,7 @@ and coordination of findings with developers.
 
 #### Deliverables
 - [logos-messaging/logos-delivery-interop-tests#186](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/186) Add port tests and analyze current failures
+- Shared library build fixed.
 
 ### Waku.test RLN smoke suite
 

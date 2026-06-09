@@ -32,7 +32,7 @@ work and improvements, and it is subjected to change.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:regression-testing`
 * owner: Pearson
-* status: in progress (50%)
+* status: in progress (75%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -53,6 +53,7 @@ and ensure they don't happen again.
     - [vacp2p/dst-libp2p-test-node#30](https://github.com/vacp2p/dst-libp2p-test-node/pull/30) Remove mix from regression node
     - [vacp2p/dst-libp2p-test-node#32](https://github.com/vacp2p/dst-libp2p-test-node/pull/32) Update node to match v2.0.0
 - Reports:
+    - [Nim-libp2p v2.0.0 regression testing report](https://app.notion.com/p/Nim-libp2p-v2-0-0-regression-testing-June-2026-WIP-3758f96fb65c806ba584fc93f72c3762)
 
 
 ### nim-lsquic benchmark
@@ -103,6 +104,7 @@ that the slow peer penalty is applied and decays overtime, and that the values s
 #### Deliverables
 - Code:
     - [vacp2p/dst-libp2p-test-node#25](https://github.com/vacp2p/dst-libp2p-test-node/pull/25) Add Node and Publisher for Priority Queues tests
+    - [vacp2p/pod-api-requester#7](https://github.com/vacp2p/pod-api-requester/pull/7) Enable generic load tests for GossipSub queues
 - Reports:
     - [Notion: Gossipsub Priority Queues Test](https://www.notion.so/Gossipsub-Priority-Queues-Test-3638f96fb65c80f69df4de8b27508371)
     - [Grafana Dashboard DEV: Gossipsub Queues - ALL](https://grafana.lab.vac.dev/d/ma8p7g5/gossipsub-queues-all?orgId=1&from=2026-05-17T22:55:52.208Z&to=2026-05-17T23:49:05.560Z&timezone=browser&var-namespace=libp2p-lab&var-pod=nim-quic-1&var-pod=nim-quic-10&var-pod=nim-quic-70&var-muxer=$__all)
@@ -141,7 +143,7 @@ Provide feedback if examples are not clear, and create scenarios to validate the
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:lsquic-and-queues-to-framework`
 * owner: Mamoutou
-* status: not started
+* status: in progress (75%)
 * start-date: 2026/05/25
 * end-date: 2026/06/12
 
@@ -151,4 +153,5 @@ Add experiments realized in `priority-queues` and `nim-lsquic-benchmark` to the 
 
 #### Deliverables
 - Code:
+    - [Mamoutou/add_gossip_priority_queues_experiments branch](https://github.com/vacp2p/10ksim/tree/Mamoutou/add_gossip_priority_queues_experiments) Add priority-queue experiments to 10ksim
 - Reports:

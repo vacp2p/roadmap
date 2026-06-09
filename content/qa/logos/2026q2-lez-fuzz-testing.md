@@ -20,7 +20,7 @@ The work includes refining the fuzz targets with the LEZ team, implementing the 
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-lez-fuzz-testing:framework`
 * owner: Roman
-* status: in progress (75%)
+* status: in progress (85%)
 * start-date: 2026/04/13
 * end-date: 2026/05/01
 
@@ -43,3 +43,5 @@ The work includes refining the fuzz targets with the LEZ team, implementing the 
 - [current_vs_alternative_approach.md](https://github.com/logos-blockchain/lez-fuzzing/blob/main/current_vs_alternative_approach.md) Alternative implementation approaches comparison
 - Added five fuzz targets and extracted reusable invariants into `fuzz_props/invariants.rs`.
 - [`sequencer_vs_replayer`](https://github.com/logos-blockchain/lez-fuzzing/blob/feat-add-afl-fuzzing/fuzz/fuzz_targets/fuzz_sequencer_vs_replayer.rs) fuzz target added.
+- [logos-blockchain/logos-execution-zone#513](https://github.com/logos-blockchain/logos-execution-zone/issues/513) Empty WitnessSet is unconditionally valid
+- [logos-blockchain/logos-execution-zone#514](https://github.com/logos-blockchain/logos-execution-zone/issues/514) Possible Schnorr signature verification problem

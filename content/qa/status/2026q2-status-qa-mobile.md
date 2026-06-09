@@ -40,7 +40,7 @@ Platform Constraints Identified in Q1:
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-mobile:test-messaging-group`
 * owner: magnus
-* status: in progress (50%)
+* status: in progress (75%)
 * start-date: 2026/04/01
 * end-date: 2026/05/15
 
@@ -151,7 +151,7 @@ Extend the iOS POC beyond the single onboarding smoke test, informed by the Q1 f
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-mobile:maintenance`
 * owner: magnus
-* status: in progress (30%)
+* status: in progress (50%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -166,6 +166,7 @@ Keep the framework healthy while the app changes.
 - [status-im/status-go#7393](https://github.com/status-im/status-go/issues/7393) Light clients can silently lose messages sent immediately after contact acceptance
 - [status-im/status-app#20460](https://github.com/status-im/status-app/issues/20460) Android splash / grey content after backgrounding
 - [status-im/status-app#21021](https://github.com/status-im/status-app/pull/21021) fix(e2e_appium): stabilise messaging gate
+- [status-im/status-app#21156](https://github.com/status-im/status-app/pull/21156) Scroll the seed Continue button into view before tapping
 
 ### Release testing
 
@@ -183,3 +184,5 @@ Support mobile release testing efforts:
 #### Deliverables
 - [status-im/status-app#20513](https://github.com/status-im/status-app/issues/20513) Addition of new chains
 - Manual 2.38 checks completed for 3 of 5 critical items, with notifications partially verified and one item blocked
+- [status-im/status-app#21086](https://github.com/status-im/status-app/issues/21086) Mobile performance testing
+- [status-im/status-app#21045](https://github.com/status-im/status-app/issues/21045) Battery usage investigation

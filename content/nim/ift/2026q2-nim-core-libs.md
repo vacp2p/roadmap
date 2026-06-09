@@ -43,6 +43,13 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [status-im/nim-protobuf-serialization#78](https://github.com/status-im/nim-protobuf-serialization/pull/78) Fix verification error for `seq[object]` extensions
 - [status-im/nim-protobuf-serialization#80](https://github.com/status-im/nim-protobuf-serialization/pull/80) Support custom seq[T] serializer for extensions
 - [status-im/nim-protobuf-serialization#81](https://github.com/status-im/nim-protobuf-serialization/pull/81) Fix `newSeqUninitialized` deprecation warning
+- [status-im/nim-protobuf-serialization#92](https://github.com/status-im/nim-protobuf-serialization/pull/92) Bump to v0.5.0
+- [status-im/nim-protobuf-serialization#70](https://github.com/status-im/nim-protobuf-serialization/pull/70) Implement `Oneof` fields
+- [status-im/nim-protobuf-serialization#86](https://github.com/status-im/nim-protobuf-serialization/pull/86) Support `results.Opt` extension in `proto3`
+- [status-im/nim-protobuf-serialization#91](https://github.com/status-im/nim-protobuf-serialization/pull/91) Add missing `seq[byte]` proto2 validation
+- [status-im/nim-protobuf-serialization#87](https://github.com/status-im/nim-protobuf-serialization/pull/87) Fix optional field message merging
+- [status-im/nim-protobuf-serialization#84](https://github.com/status-im/nim-protobuf-serialization/pull/84) Fix `PBOption` for invalid `std/enum` values
+- [status-im/nim-protobuf-serialization#85](https://github.com/status-im/nim-protobuf-serialization/pull/85) Pass `--enforce_recommended` to conformance tests
 
 ### Multithreading and Thread Pool Library
 
@@ -102,7 +109,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:libp2p-protobuf-serialization`
 * owner: Nitely/Constantine
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/06/01
 * end-date: 2026/06/30
 
@@ -113,6 +120,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 #### Deliverables
 - [vacp2p/nim-libp2p#2166](https://github.com/vacp2p/nim-libp2p/pull/2166) chore: Use protobuf_serialization in RendezVous protocol
 - [vacp2p/nim-libp2p#2477](https://github.com/vacp2p/nim-libp2p/pull/2477) Protobuf serialization of the DCUtR protocol
+- [vacp2p/nim-libp2p#2608](https://github.com/vacp2p/nim-libp2p/pull/2608) Bump `protobuf_serialization` to v0.5.0
 
 ### PCP Support in nim-nat-traversal
 

@@ -37,3 +37,4 @@ Dashboard showing:
 - WoW channel activity
 - Status community monitoring dashboard prepared.
 - Improved community-monitoring bot work continued.
+- Researched spam-detection signals for Status community monitoring.

@@ -22,7 +22,7 @@ The emphasis is on improving correctness, maintainability, and user-facing error
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nimble:nimble-1.0.0`
 * owner: Juan
-* status: in progress (75%)
+* status: in progress (90%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -62,6 +62,10 @@ This remains the short-term roadmap for replacing pieces of the Nimbus build sys
 - [nim-lang/nimble#1716](https://github.com/nim-lang/nimble/pull/1716) Fixes #405: surface develop-linked dependencies in resolver output
 - [nim-lang/nimble#1714](https://github.com/nim-lang/nimble/pull/1714) Closes #1165: regression test for live lib + bin simultaneous develop
 - [nim-lang/nimble#1712](https://github.com/nim-lang/nimble/pull/1712) Fixes #853: drop misleading 'binaries will not be compiled' warning
+- [nim-lang/nimble#1729](https://github.com/nim-lang/nimble/pull/1729) Fix issue #1721
+- [nim-lang/nimble#1728](https://github.com/nim-lang/nimble/pull/1728) Bump `vendor/zippy` for 32-bit `DivByZeroDefect`
+- [nim-lang/nimble#1727](https://github.com/nim-lang/nimble/pull/1727) Pin `csources` commit per Nim version when bootstrapping from source
+- [status-im/nim-metrics#100](https://github.com/status-im/nim-metrics/pull/100) Fix Nimble-related CI issue
 
 ### Resolver Improvements
 

@@ -36,3 +36,4 @@ Monitore X and Reddit for review of keycard competitors.
 - Keycard analysis dashboard: https://superset.bi.status.im/superset/dashboard/keycard_analysis/
 - Twitter Ads targeting support and social media sentiment analysis updates completed.
 - X ads strategy support and continued Reddit social media research.
+- SEO research for Keycard social/media discovery.

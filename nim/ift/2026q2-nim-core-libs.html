@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html><head><title>2026q2 Nim Core Libraries</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="2026q2 Nim Core Libraries"/><meta property="og:description" content="Continue evolving Nim core libraries."/><meta property="og:image" content="https://roadmap.vac.dev/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="Continue evolving Nim core libraries."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../../index.css?v=mq6gldi3" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=sans-serif:wght@400;700&amp;family=sans-serif:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js?v=mq6gldi3" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../../static/contentIndex.json?v=mq6gldi3`).then(data => data.json())</script></head><body data-slug="nim/ift/2026q2-nim-core-libs"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title "><a href="../..">IFT-TS Roadmaps and Reports</a></h1><div class="spacer mobile-only"></div><div class="search "><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode "><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true"><h1>Explorer</h1><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container " aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../..">Home</a><p> > </p></div><div class="breadcrumb-element"><a href="../../nim/">nim</a><p> > </p></div><div class="breadcrumb-element"><a href="../../nim/ift/">ift</a><p> > </p></div><div class="breadcrumb-element"><a href>2026q2 Nim Core Libraries</a></div></nav><h1 class="article-title ">2026q2 Nim Core Libraries</h1><p class="content-meta ">Jun 09, 2026, 5 min read</p><ul class="tags "><li><a href="../../tags/2026q2" class="internal tag-link">#2026q2</a></li><li><a href="../../tags/nim" class="internal tag-link">#nim</a></li><li><a href="../../tags/ift" class="internal tag-link">#ift</a></li></ul></div></div><article class="popover-hint"><p><code>ift-ts:nim:ift:2026q2-nim-core-libs</code></p>
+<h2 id="description">Description<a aria-hidden="true" tabindex="-1" href="#description" class="internal"> §</a></h2>
+<p>Maintain and extend the foundational Nim libraries required by IFT teams.</p>
+<h2 id="task-list">Task List<a aria-hidden="true" tabindex="-1" href="#task-list" class="internal"> §</a></h2>
+<h3 id="protobuf-library-stabilization">Protobuf Library Stabilization<a aria-hidden="true" tabindex="-1" href="#protobuf-library-stabilization" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:nim:ift:2026q2-nim-core-libs:protobuf-library</code></li>
+<li>owner: Nitely</li>
+<li>status: done</li>
+<li>start-date: 2026/04/01</li>
+<li>end-date: 2026/05/12</li>
+</ul>
+<h4 id="description-1">Description<a aria-hidden="true" tabindex="-1" href="#description-1" class="internal"> §</a></h4>
+<ul>
+<li>Finalize the Nim Protobuf library implementation and bring it to a stable, production-ready state.</li>
+<li>Close the remaining functionality, quality, and API gaps needed for broader adoption in IFT and Logos work.</li>
+</ul>
+<h4 id="deliverables">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/74" class="external">status-im/nim-protobuf-serialization#74</a> Return whether the field is known in <code>readFieldInto</code></li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/73" class="external">status-im/nim-protobuf-serialization#73</a> Validate <code>PBOption</code> inner type</li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/72" class="external">status-im/nim-protobuf-serialization#72</a> Fix header varint read</li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/71" class="external">status-im/nim-protobuf-serialization#71</a> Add <code>valueOr</code> for <code>PBOption</code></li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/67" class="external">status-im/nim-protobuf-serialization#67</a> Fix: treat unexpected wire type as unknown field</li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/68" class="external">status-im/nim-protobuf-serialization#68</a> Improve test suite</li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/66" class="external">status-im/nim-protobuf-serialization#66</a> Fix: length delimited records must only accept varint int32 length</li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/69" class="external">status-im/nim-protobuf-serialization#69</a> import_proto3: Generate <code>seq[Entry]</code> for map type</li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/75" class="external">status-im/nim-protobuf-serialization#75</a> Extensions: <code>enum</code> and <code>results.Opt</code></li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/77" class="external">status-im/nim-protobuf-serialization#77</a> Fix: do not add to <code>seq</code> if wire type is unexpected</li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/76" class="external">status-im/nim-protobuf-serialization#76</a> Fix: do not set <code>PBOption</code> if wire type is unexpected</li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/79" class="external">status-im/nim-protobuf-serialization#79</a> Bump to v0.4.0</li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/78" class="external">status-im/nim-protobuf-serialization#78</a> Fix verification error for <code>seq[object]</code> extensions</li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/80" class="external">status-im/nim-protobuf-serialization#80</a> Support custom seq[T] serializer for extensions</li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/81" class="external">status-im/nim-protobuf-serialization#81</a> Fix <code>newSeqUninitialized</code> deprecation warning</li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/92" class="external">status-im/nim-protobuf-serialization#92</a> Bump to v0.5.0</li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/70" class="external">status-im/nim-protobuf-serialization#70</a> Implement <code>Oneof</code> fields</li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/86" class="external">status-im/nim-protobuf-serialization#86</a> Support <code>results.Opt</code> extension in <code>proto3</code></li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/91" class="external">status-im/nim-protobuf-serialization#91</a> Add missing <code>seq[byte]</code> proto2 validation</li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/87" class="external">status-im/nim-protobuf-serialization#87</a> Fix optional field message merging</li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/84" class="external">status-im/nim-protobuf-serialization#84</a> Fix <code>PBOption</code> for invalid <code>std/enum</code> values</li>
+<li><a href="https://github.com/status-im/nim-protobuf-serialization/pull/85" class="external">status-im/nim-protobuf-serialization#85</a> Pass <code>--enforce_recommended</code> to conformance tests</li>
+</ul>
+<h3 id="multithreading-and-thread-pool-library">Multithreading and Thread Pool Library<a aria-hidden="true" tabindex="-1" href="#multithreading-and-thread-pool-library" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:nim:ift:2026q2-nim-core-libs:thread-pool-library</code></li>
+<li>owner: Nitely</li>
+<li>status: in progress (50%)</li>
+<li>start-date: 2026/04/21</li>
+<li>end-date: 2026/05/15</li>
+</ul>
+<h4 id="description-2">Description<a aria-hidden="true" tabindex="-1" href="#description-2" class="internal"> §</a></h4>
+<ul>
+<li>Improve <a href="https://github.com/status-im/nim-taskpools" class="external"><code>nim-taskpools</code></a>, with particular attention to the gaps tracked in issue <code>#6</code> and related missing functionality.</li>
+<li>Review and evaluate the existing implementations that Mamy built in the <a href="https://github.com/mratsim/constantine" class="external"><code>mratsim/constantine</code></a> library.
+<ul>
+<li>The Constantine thread pools build on <code>nim-taskpools</code>.</li>
+</ul>
+</li>
+<li>Extract and adapt reusable components from Constantine where appropriate.</li>
+<li>Reach out to Mamy for potential collaboration and explore EF funding options.</li>
+<li>Merge the learnings into a robust, well-tested thread pool library and implement the missing parts identified during the review.</li>
+</ul>
+<h4 id="deliverables-1">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-1" class="internal"> §</a></h4>
+<ul>
+<li>PRs/Issues/Docs/Reports</li>
+</ul>
+<h3 id="cbor-library-cddl-parsing">CBOR Library CDDL Parsing<a aria-hidden="true" tabindex="-1" href="#cbor-library-cddl-parsing" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:nim:ift:2026q2-nim-core-libs:cbor-cddl-parsing</code></li>
+<li>owner: Nitely</li>
+<li>status: done</li>
+<li>start-date: 2026/05/15</li>
+<li>end-date: 2026/05/26</li>
+</ul>
+<h4 id="description-3">Description<a aria-hidden="true" tabindex="-1" href="#description-3" class="internal"> §</a></h4>
+<ul>
+<li>Implement CDDL parsing in the CBOR library.</li>
+<li>Establish the foundation needed for future CBOR/CDDL-driven features while keeping the scope focused on parser support for Q2.</li>
+<li>This work should prepare for near-term needs around generating Nim code from CDDL, or the reverse direction, as those capabilities are expected to be needed soon.</li>
+</ul>
+<h4 id="deliverables-2">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-2" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/vacp2p/nim-cbor-serialization/pull/28" class="external">vacp2p/nim-cbor-serialization#28</a> Add diagnostic notation serializer</li>
+<li><a href="https://github.com/vacp2p/nim-cbor-serialization/pull/29" class="external">vacp2p/nim-cbor-serialization#29</a> Add CDDL parser</li>
+<li><a href="https://github.com/vacp2p/nim-cbor-serialization/pull/31" class="external">vacp2p/nim-cbor-serialization#31</a> CDDL: <code>int</code> -> <code>int64</code>; <code>uint</code> -> <code>uint64</code></li>
+<li><a href="https://github.com/vacp2p/nim-cbor-serialization/pull/30" class="external">vacp2p/nim-cbor-serialization#30</a> CDDL: <code>any</code> -> <code>CborBytes</code>; <code>tools/cddl</code> -> <code>cddl</code></li>
+<li><a href="https://github.com/vacp2p/nim-cbor-serialization/pull/17" class="external">vacp2p/nim-cbor-serialization#17</a> Perf improvement</li>
+</ul>
+<h3 id="unittest2-expected-failures">Unittest2 Expected Failures<a aria-hidden="true" tabindex="-1" href="#unittest2-expected-failures" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:nim:ift:2026q2-nim-core-libs:unittest2-expected-failures</code></li>
+<li>owner: Constantine</li>
+<li>status: in progress (10%)</li>
+<li>start-date: 2026/05/15</li>
+<li>end-date: 2026/05/30</li>
+</ul>
+<h4 id="description-4">Description<a aria-hidden="true" tabindex="-1" href="#description-4" class="internal"> §</a></h4>
+<ul>
+<li>Add support for expected failures in <code>nim-unittest2</code>.</li>
+<li>Enable the testing workflow needed when work starts on larger features that require temporarily tracking known failing cases without losing test signal.</li>
+</ul>
+<h4 id="deliverables-3">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-3" class="internal"> §</a></h4>
+<ul>
+<li>PRs/Issues/Docs/Reports</li>
+</ul>
+<h3 id="protobuf-serialization-in-libp2p">Protobuf Serialization in libp2p<a aria-hidden="true" tabindex="-1" href="#protobuf-serialization-in-libp2p" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:nim:ift:2026q2-nim-core-libs:libp2p-protobuf-serialization</code></li>
+<li>owner: Nitely/Constantine</li>
+<li>status: in progress (50%)</li>
+<li>start-date: 2026/06/01</li>
+<li>end-date: 2026/06/30</li>
+</ul>
+<h4 id="description-5">Description<a aria-hidden="true" tabindex="-1" href="#description-5" class="internal"> §</a></h4>
+<ul>
+<li>Add protobuf serialization support within libp2p, aligning scope and design with the existing libp2p stack and future messaging needs.</li>
+<li>Build on the stabilized protobuf library and make the integration practical for real libp2p protocol work.</li>
+</ul>
+<h4 id="deliverables-4">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-4" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/2166" class="external">vacp2p/nim-libp2p#2166</a> chore: Use protobuf_serialization in RendezVous protocol</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/2477" class="external">vacp2p/nim-libp2p#2477</a> Protobuf serialization of the DCUtR protocol</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/2608" class="external">vacp2p/nim-libp2p#2608</a> Bump <code>protobuf_serialization</code> to v0.5.0</li>
+</ul>
+<h3 id="pcp-support-in-nim-nat-traversal">PCP Support in nim-nat-traversal<a aria-hidden="true" tabindex="-1" href="#pcp-support-in-nim-nat-traversal" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:nim:ift:2026q2-nim-core-libs:nat-traversal-pcp-support</code></li>
+<li>owner: Constantine</li>
+<li>status: in progress (10%)</li>
+<li>start-date: 2026/06/01</li>
+<li>end-date: 2026/06/30</li>
+</ul>
+<h4 id="description-6">Description<a aria-hidden="true" tabindex="-1" href="#description-6" class="internal"> §</a></h4>
+<ul>
+<li>Implement PCP support in <a href="https://github.com/status-im/nim-nat-traversal/issues/41" class="external"><code>nim-nat-traversal</code></a>.</li>
+<li>Evaluate the preferred option of wrapping <code>libplum</code>, removing the other two libraries, and getting rid of the current make-based build system.</li>
+<li>Keep the native Chronos-based implementation as an alternative if it proves more practical.</li>
+</ul>
+<h4 id="deliverables-5">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-5" class="internal"> §</a></h4>
+<ul>
+<li>PRs/Issues/Docs/Reports</li>
+<li><a href="https://github.com/status-im/nim-nat-traversal/issues/41" class="external">status-im/nim-nat-traversal#41</a> PCP support in nim-nat-traversal</li>
+</ul>
+<h3 id="nim-lsp-stability-and-editor-support">Nim LSP Stability and Editor Support<a aria-hidden="true" tabindex="-1" href="#nim-lsp-stability-and-editor-support" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:nim:ift:2026q2-nim-core-libs:lsp-editor-support</code></li>
+<li>owner: Constantine</li>
+<li>status: in progress (95%)</li>
+<li>start-date: 2026/04/01</li>
+<li>end-date: 2026/06/01</li>
+</ul>
+<h4 id="description-7">Description<a aria-hidden="true" tabindex="-1" href="#description-7" class="internal"> §</a></h4>
+<ul>
+<li>Improve the Nim LSP implementation to make editor support substantially more stable and usable.</li>
+<li>Continue bug hunting and implementation work already started in Q1.</li>
+<li>Treat <code>nimsuggest</code> as the practical short-term path: fix low-hanging-fruit bugs with immediate benefits, improve stability and performance for Nim 2 codebases of our size, and then work toward better feature completeness on the LSP side.</li>
+<li>The end goal is better <code>nim-langserver</code> behavior and better integration in editors such as VS Code, with the added benefit that language servers may also be used as MCP providers.</li>
+</ul>
+<h4 id="deliverables-6">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-6" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/nim-lang/langserver/pull/390" class="external">nim-lang/langserver#390</a> Jump to next diagnostics</li>
+<li><a href="https://github.com/nim-lang/langserver/issues/387" class="external">nim-lang/langserver#387</a> Neovim 0.12 compatibility</li>
+<li><a href="https://github.com/nim-lang/langserver/pull/388" class="external">nim-lang/langserver#388</a> nimlangserver MCP server</li>
+<li><a href="https://github.com/nim-lang/langserver/pull/393" class="external">nim-lang/langserver#393</a> Fix compatibility with Neovim 0.12 diagnostic floating window</li>
+<li>nimlangserver 1.14.0 released and announced.</li>
+<li><a href="https://github.com/nim-lang/langserver/pull/400" class="external">nim-lang/langserver#400</a> MCPB bundle</li>
+<li><a href="https://registry.modelcontextprotocol.io/?q=nimlangserver" class="external">Nim langserver MCP registry entry</a></li>
+<li><a href="https://github.com/nim-lang/langserver/pull/416" class="external">nim-lang/langserver#416</a> Speed up initialization by not waiting for nimsuggest to start</li>
+<li><a href="https://github.com/nim-lang/nimble/issues/1713" class="external">nim-lang/nimble#1713</a> Slow <code>nimble dump</code> issue reported with collected data</li>
+</ul>
+<h3 id="documentation">Documentation<a aria-hidden="true" tabindex="-1" href="#documentation" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:nim:ift:2026q2-nim-core-libs:docs</code></li>
+<li>owner: Constantine</li>
+<li>status: done</li>
+<li>start-date: 2026/04/01</li>
+<li>end-date: 2026/04/21</li>
+</ul>
+<h4 id="description-8">Description<a aria-hidden="true" tabindex="-1" href="#description-8" class="internal"> §</a></h4>
+<ul>
+<li>Produce documentation for the core libs.</li>
+</ul>
+<h4 id="deliverables-7">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-7" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/nim-lang/nimble/pull/1657" class="external">nim-lang/nimble#1657</a> Fix nimble installation instructions</li>
+<li><a href="https://github.com/status-im/nim-unittest2/pull/70" class="external">status-im/nim-unittest2#70</a> Add docs in MdBook format</li>
+<li><a href="https://github.com/nim-lang/nimble/pull/1701" class="external">nim-lang/nimble#1701</a> Guide: Install Nim: Add instruction about installing devel Nim</li>
+<li><a href="https://github.com/nim-lang/langserver/pull/406" class="external">nim-lang/langserver#406</a> Resolve conflicts in the nimlangserver mdBook PR</li>
+</ul>
+<h3 id="maintenance">Maintenance<a aria-hidden="true" tabindex="-1" href="#maintenance" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:nim:ift:2026q2-nim-core-libs:maintenance</code></li>
+<li>owner: Constantine</li>
+<li>status: in progress (25%)</li>
+<li>start-date: 2026/04/01</li>
+<li>end-date: 2026/06/30</li>
+</ul>
+<h4 id="description-9">Description<a aria-hidden="true" tabindex="-1" href="#description-9" class="internal"> §</a></h4>
+<ul>
+<li>Ongoing maintenance and fixes across Nim core libraries.</li>
+</ul>
+<h4 id="deliverables-8">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-8" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/status-im/nim-json-rpc/pull/264" class="external">status-im/nim-json-rpc#264</a> Make async pragma required in rpc context API</li>
+<li><a href="https://github.com/status-im/nim-json-rpc/pull/271" class="external">status-im/nim-json-rpc#271</a> Fix custom socket framing to support concurrency</li>
+<li><a href="https://github.com/status-im/nim-json-rpc/pull/270" class="external">status-im/nim-json-rpc#270</a> Fix #261 regression; support unordered responses again</li>
+<li><a href="https://github.com/status-im/nim-json-rpc/pull/272" class="external">status-im/nim-json-rpc#272</a> v0.6.0</li>
+<li><a href="https://github.com/status-im/nimbus-eth1/pull/3914" class="external">status-im/nimbus-eth1#3914</a> EthJson Rpc flavor</li>
+<li><a href="https://github.com/status-im/nimbus-eth2/pull/7853" class="external">status-im/nimbus-eth2#7853</a> EthJson Rpc flavor</li>
+<li><a href="https://github.com/status-im/nim-web3/pull/237" class="external">status-im/nim-web3#237</a> Replace JrpcConv by custom EthJson flavor</li>
+<li><a href="https://github.com/status-im/nim-json-rpc/pull/275" class="external">status-im/nim-json-rpc#275</a> Fix json_rpc <code>meth</code> bug</li>
+<li><a href="https://github.com/status-im/nim-json-rpc/issues/274" class="external">status-im/nim-json-rpc#274</a> json_rpc <code>meth</code> bug</li>
+<li><a href="https://github.com/nim-lang/nimble/issues/1692" class="external">nim-lang/nimble#1692</a> Nimble and Chronos issue</li>
+<li><a href="https://github.com/nim-lang/nimble/issues/1693" class="external">nim-lang/nimble#1693</a> <code>nimble upgrade pkg</code> issue</li>
+<li><a href="https://github.com/status-im/nim-stint/pull/180" class="external">status-im/nim-stint#180</a> Fixed CI for 32-bit Linux</li>
+<li><a href="https://github.com/status-im/nim-stint/issues/157" class="external">status-im/nim-stint#157</a> Implement carryingAdd on uint64 for 32-bit platforms</li>
+<li><a href="https://github.com/status-im/nim-stint/issues/179" class="external">status-im/nim-stint#179</a> CI failing on 32-bit Linux</li>
+<li><a href="https://github.com/nim-lang/nimble/issues/1663" class="external">nim-lang/nimble#1663</a> <code>nimble dump</code> resolves absolute paths incorrectly</li>
+<li><a href="https://github.com/status-im/nim-json-rpc/pull/276" class="external">status-im/nim-json-rpc#276</a> Terminate conn on invalid response <code>id</code> and do not send a response for it</li>
+<li><a href="https://github.com/status-im/nim-stew/pull/271" class="external">status-im/nim-stew#271</a> enums: fix <code>hasHoles</code> overflow in 32bit platforms for int32 enum values</li>
+</ul></article></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#description" data-for="description">Description</a></li><li class="depth-0"><a href="#task-list" data-for="task-list">Task List</a></li><li class="depth-1"><a href="#protobuf-library-stabilization" data-for="protobuf-library-stabilization">Protobuf Library Stabilization</a></li><li class="depth-1"><a href="#multithreading-and-thread-pool-library" data-for="multithreading-and-thread-pool-library">Multithreading and Thread Pool Library</a></li><li class="depth-1"><a href="#cbor-library-cddl-parsing" data-for="cbor-library-cddl-parsing">CBOR Library CDDL Parsing</a></li><li class="depth-1"><a href="#unittest2-expected-failures" data-for="unittest2-expected-failures">Unittest2 Expected Failures</a></li><li class="depth-1"><a href="#protobuf-serialization-in-libp2p" data-for="protobuf-serialization-in-libp2p">Protobuf Serialization in libp2p</a></li><li class="depth-1"><a href="#pcp-support-in-nim-nat-traversal" data-for="pcp-support-in-nim-nat-traversal">PCP Support in nim-nat-traversal</a></li><li class="depth-1"><a href="#nim-lsp-stability-and-editor-support" data-for="nim-lsp-stability-and-editor-support">Nim LSP Stability and Editor Support</a></li><li class="depth-1"><a href="#documentation" data-for="documentation">Documentation</a></li><li class="depth-1"><a href="#maintenance" data-for="maintenance">Maintenance</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li><a href="../../nim/" class="internal">Nim Unit</a></li><li><a href="../../weeklies/2026-04-06" class="internal">2026-04-06 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-04-13" class="internal">2026-04-13 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-04-20" class="internal">2026-04-20 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-04-27" class="internal">2026-04-27 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-05-04" class="internal">2026-05-04 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-05-11" class="internal">2026-05-11 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-05-18" class="internal">2026-05-18 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-05-25" class="internal">2026-05-25 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-06-01" class="internal">2026-06-01 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-06-08" class="internal">2026-06-08 IFT-TS weekly</a></li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a>, © 2026</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../postscript.js?v=mq6gldi3" type="module"></script></html>

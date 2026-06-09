@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html><head><title>2025-06-09 Vac weekly</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="2025-06-09 Vac weekly"/><meta property="og:description" content="Vac 2025/06/09 § highlights § Finished refactoring the DST analysis codebase, now is more modular and easier to expand for other projects. Implementations of L1/2EthBridge for SN have started."/><meta property="og:image" content="https://roadmap.vac.dev/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Vac 2025/06/09 § highlights § Finished refactoring the DST analysis codebase, now is more modular and easier to expand for other projects. Implementations of L1/2EthBridge for SN have started."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css?v=mq6gldi3" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=sans-serif:wght@400;700&amp;family=sans-serif:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js?v=mq6gldi3" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json?v=mq6gldi3`).then(data => data.json())</script></head><body data-slug="weeklies/2025-06-09"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title "><a href="..">IFT-TS Roadmaps and Reports</a></h1><div class="spacer mobile-only"></div><div class="search "><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode "><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true"><h1>Explorer</h1><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container " aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="..">Home</a><p> > </p></div><div class="breadcrumb-element"><a href="../weeklies/">weeklies</a><p> > </p></div><div class="breadcrumb-element"><a href>2025-06-09 Vac weekly</a></div></nav><h1 class="article-title ">2025-06-09 Vac weekly</h1><p class="content-meta ">Jun 09, 2025, 9 min read</p><ul class="tags "><li><a href="../tags/vac-updates" class="internal tag-link">#vac-updates</a></li></ul></div></div><div class="weekly-report"><div class="weekly-stats-bar"><div class="stat"><div class="stat-value" id="stat-teams">0</div><div class="stat-label">Teams</div></div><div class="stat"><div class="stat-value" id="stat-prs">0</div><div class="stat-label">GitHub Links</div></div></div><div class="weekly-controls"><input type="text" class="weekly-search" id="weekly-search" placeholder="Search updates, PRs, teams..."/><div class="weekly-filters"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="github">GitHub</button><button class="filter-btn" data-filter="internal">Internal</button><button class="filter-btn" data-filter="external">External</button></div></div><div class="weekly-legend"><span class="legend-title">Link Types:</span><span class="legend-item"><span class="legend-color github"></span><span>GitHub</span></span><span class="legend-item"><span class="legend-color internal"></span><span>Internal (roadmap.vac.dev)</span></span><span class="legend-item"><span class="legend-color external"></span><span>External</span></span><span class="legend-item"><span class="legend-color task-id"></span><span>Task ID</span></span></div><div class="weekly-tabs" id="weekly-tabs"><button class="team-tab active" data-team="all">All Teams</button><button class="team-tab" data-team="bi" title="Business Intelligence">BI<span class="tab-badge" id="badge-bi">0</span></button><button class="team-tab" data-team="dst" title="Distributed Systems Testing">DST<span class="tab-badge" id="badge-dst">0</span></button><button class="team-tab" data-team="nim" title="Language &amp; Libraries">Nim<span class="tab-badge" id="badge-nim">0</span></button><button class="team-tab" data-team="p2p" title="Peer-to-Peer">P2P<span class="tab-badge" id="badge-p2p">0</span></button><button class="team-tab" data-team="qa" title="Quality Assurance">QA<span class="tab-badge" id="badge-qa">0</span></button><button class="team-tab" data-team="rfc" title="Request for Comments">RFC<span class="tab-badge" id="badge-rfc">0</span></button><button class="team-tab" data-team="sc" title="Smart Contracts">SC<span class="tab-badge" id="badge-sc">0</span></button><button class="team-tab" data-team="sec" title="Security">SEC<span class="tab-badge" id="badge-sec">0</span></button><button class="team-tab" data-team="tke" title="Token Economics">TKE<span class="tab-badge" id="badge-tke">0</span></button><button class="team-tab" data-team="web" title="Web Development">WEB<span class="tab-badge" id="badge-web">0</span></button><button class="team-tab" data-team="infra" title="Infrastructure">INFRA<span class="tab-badge" id="badge-infra">0</span></button></div><article class="popover-hint weekly-content show-all" id="weekly-content"><h2 id="vac-20250609">Vac 2025/06/09<a aria-hidden="true" tabindex="-1" href="#vac-20250609" class="internal" data-link-type="internal"> §</a></h2>
+<h3 id="highlights">highlights<a aria-hidden="true" tabindex="-1" href="#highlights" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li>Finished refactoring the DST analysis codebase, now is more modular and easier to expand for other projects.</li>
+<li>Implementations of L1/2EthBridge for SN have started.</li>
+<li>Released Zerokit <a href="https://github.com/vacp2p/zerokit/releases/tag/v0.8.0" class="external" data-link-type="github" data-github-type="repo">v0.8</a>.</li>
+<li>Finalize production version of Security App Catalogue update process</li>
+</ul>
+<h3 id="vacp2p">vac:p2p:<a aria-hidden="true" tabindex="-1" href="#vacp2p" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>ift:2025q1-gossipsub-perf-improvements</code>
+<ul>
+<li>Worked on GossipSub v1.4 production implementation. First <a href="https://github.com/vacp2p/nim-libp2p/pull/1448" class="external" data-link-type="github" data-github-type="pr">PR is here</a>.
+<ul>
+<li>Still need to add safety strategy (Will need 1-2 days more).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>vac:p2p:acz:2025q2-acz-consulting:libp2p-mix-consulting</code>
+<ul>
+<li>Had a pair session with Ben from ACZ going over the libp2p changes for mix.</li>
+<li>Gave some tips on how to improve the code</li>
+<li>We went over the publish / receive logic of gossipsub. Suggested to use a set of fixed node keys to make it easier to debug issues with mix</li>
+<li>Troubleshoot the custom connections PR to see why Gossipsub tests were failing. Found the issue and suggested fix (wrong method signature)</li>
+</ul>
+</li>
+<li><code>vac:p2p:ift:2025q2-nimlibp2p-kad-dht:routing-and-rpc</code>
+<ul>
+<li>Did a small refactoring over the kad-dht code to separate the concept of keys and peerIds in the routing table</li>
+</ul>
+</li>
+<li><code>vac:p2p:acz:2025q2-acz-consulting:de-mls-consulting</code>
+<ul>
+<li>Helped publish a new version of zerokit RLN in npm</li>
+<li>Asked Franck from Waku to grant access to waku’s npm org to Ekaterina so she can publish new versions herself and not blocked by this</li>
+</ul>
+</li>
+<li><code>vac:p2p:ift:2025q2-nimlibp2p-maintenance:maintenance</code>
+<ul>
+<li>investigated <a href="https://github.com/vacp2p/nim-libp2p/pull/1367" class="external" data-link-type="github" data-github-type="pr">nim-libp2p#1367</a>: hole punching interop tests stopped working
+<ul>
+<li>was able to run hp tests locally, with suprisngly small effort</li>
+<li>no other libp2p implementation has this implemented and working
+<ul>
+<li>rust have this tests but are failing</li>
+<li>other implementations don’t have these tests</li>
+</ul>
+</li>
+<li>notified libp2p discord communiti; raising concerns</li>
+<li>suggestion: to postpone with futher efforts on making this work untill tests are fixed or there is some other implementation with working tests</li>
+</ul>
+</li>
+<li>chore(gossipsub): add consts <a href="https://github.com/vacp2p/nim-libp2p/pull/1447" class="external" data-link-type="github" data-github-type="pr">nim-libp2p#1447</a></li>
+<li>fix(ci-daily): delete cache action will continue on error <a href="https://github.com/vacp2p/nim-libp2p/pull/1435" class="external" data-link-type="github" data-github-type="pr">nim-libp2p#1435</a></li>
+<li>work on <code>libp2p/test-plans</code>
+<ul>
+<li>implemented libp2p perf for nim
+<ul>
+<li>has to be back&amp;forth; running locally requires AWS</li>
+<li>PR with ongoing effort <a href="https://github.com/libp2p/test-plans/pull/659" class="external" data-link-type="github" data-github-type="pr">test-plans#659</a></li>
+<li>PR form maintainer <a href="https://github.com/libp2p/test-plans/pull/658" class="external" data-link-type="github" data-github-type="pr">test-plans#658</a></li>
+</ul>
+</li>
+<li>add nim-libp2p impl for hole punching <a href="https://github.com/libp2p/test-plans/pull/322" class="external" data-link-type="github" data-github-type="pr">libp2p/test-plans#322</a>
+<ul>
+<li>should postpone effrot untill #1367 is fixed</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://github.com/vacp2p/roadmap/pull/174" class="external" data-link-type="github" data-github-type="pr">roadmap#174</a> wrote the universal connectivity app commitment for the roadmap</li>
+<li>Worked with Ivan from Waku on <a href="https://github.com/vacp2p/nim-libp2p/pull/1438" class="external" data-link-type="github" data-github-type="pr">nim-libp2p#1438</a>
+<ul>
+<li>The purpose was trying to figure out if a Future was not being completed.</li>
+<li>Ended up closign the PR due to not understanding correctly the behavior of the
+<code>connectedFut</code>future when writing the PR so the solution was incorrect and not needed</li>
+</ul>
+</li>
+<li><a href="https://github.com/libp2p/test-plans/pull/656" class="external" data-link-type="github" data-github-type="pr">libp2p/test-plan#656</a>: update transport-interop to v1.10.x
+<ul>
+<li>@manushel from libp2p reported the chronicles 0.10.3 / 0.11.0 issue with interop. Ended up creating a PR -</li>
+</ul>
+</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1439" class="external" data-link-type="github" data-github-type="pr">nim-libp2p#1439</a> - Add <code>libp2p_network_bytes</code> metric to Quic</li>
+<li>Managed to run the prometheus metrics with libp2p. Still trying to figure out what’s up with nim-libp2p memory usage when using quic. I might need to run pprof equivalent for nim, as nim-metrics does not display any useful metric</li>
+</ul>
+</li>
+<li>Troubleshoot nim-chronicles breaking things downstream
+- Spent a lot of time with Ben and Akshaya trying to get couple of projects to compile
+- In addition to that happening, a related issue affected DST Gossipsub Test Node, not letting the code compile
+- The problem seems to be happening in nimble and an opened <a href="https://github.com/nim-lang/nimble/issues/1403" class="external" data-link-type="github" data-github-type="issue">nim-lang/nimble#1403</a> in nimble repo for @jmgomez</li>
+<li><code>vac:p2p:ift:2025q2-nimlibp2p-autotls</code>
+<ul>
+<li>Started to do <code>peeridauth</code> (this is a nice byproduct of autotls btw) <a href="https://github.com/vacp2p/nim-libp2p/pull/1445" class="external" data-link-type="github" data-github-type="pr">#1445</a></li>
+<li>Submitted the AutoTLS Client spec to libp2p <a href="https://github.com/libp2p/specs/issues/682" class="external" data-link-type="github" data-github-type="issue">#682</a></li>
+<li>addressed a couple grammar issues they found</li>
+<li><code>vac:p2p:ift:2025q2-nimlibp2p-webtransport:http3-client</code>
+<ul>
+<li>continue on http3 client <a href="https://github.com/vacp2p/nim-quic/pull/322" class="external" data-link-type="github" data-github-type="pr">nim-quic#322</a></li>
+</ul>
+</li>
+<li><code>vac:p2p:ift:2025q2-nimlibp2p-autotls:acme-registration</code>
+<ul>
+<li>merged in <a href="https://github.com/vacp2p/nim-libp2p/pull/1436" class="external" data-link-type="github" data-github-type="pr">#1436</a></li>
+</ul>
+</li>
+<li><code>vac:p2p:ift:2025q2-nimlibp2p-autotls:certificate-request-challenge</code>
+<ul>
+<li>merged in <a href="https://github.com/vacp2p/nim-libp2p/pull/1436" class="external" data-link-type="github" data-github-type="pr">#1436</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>misc/admin</code>:
+<ul>
+<li><a href="https://discord.com/channels/864066763682218004/1379069276559773777/1380238564750790767" class="external" data-link-type="external">Ongoing discussion</a> about how to handle semver for libraries</li>
+<li>Presented roadmap proposal for next Qs <a href="https://notes.status.im/Gee9qLXVQo-6PVi43J2J8g" class="external" data-link-type="external">https://notes.status.im/Gee9qLXVQo-6PVi43J2J8g</a></li>
+<li>1 CC 1d off</li>
+</ul>
+</li>
+</ul>
+<h3 id="vactke">vac:tke:<a aria-hidden="true" tabindex="-1" href="#vactke" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>vac:tke:ift:support-to-ift-units::logos-basket</code>
+<ul>
+<li>reviewed other $LOGOS token proposals</li>
+<li>addressed team feedback about current proposal</li>
+<li>met with stakeholders and discuss proposals</li>
+<li>Review the work of J&amp;F and add own ideas/comments</li>
+<li>work basket and joint value accrual</li>
+</ul>
+</li>
+<li><code>vac:tke:ift:support-to-ift-units::tge</code>
+<ul>
+<li>reviewed and commented on the proposed documents</li>
+</ul>
+</li>
+<li><code>vac:tke:codex:cdx-launch::preparations</code>
+<ul>
+<li>discussed our token model with Rahul</li>
+<li>proposeed a token emission schedule based on a KPI</li>
+<li>met with Codex team to discuss</li>
+<li>Prepare a proposal/ideas for incentivized testnet for Thu call with Codex</li>
+<li>help on token emission schedule based on a KPI</li>
+</ul>
+</li>
+<li><code>vac:tke:nomos:macroeconomy::block-rewards</code>
+<ul>
+<li>implemented a dashboard that produces the token emission schedule given any number of KPIs</li>
+</ul>
+</li>
+<li><code>vac:tke:nomos:macroeconomy::revision-economic-model</code>
+<ul>
+<li>addressed feedback in the Stake Estimation doc</li>
+</ul>
+</li>
+<li><code>vac:tke:ift:tokenomics-research-forum:grantico</code>
+<ul>
+<li>Look into the grant schemes discussed at EthPrague</li>
+</ul>
+</li>
+<li><code>vac:tke:status:karma-incentives:karma-params</code>
+<ul>
+<li>Catch up with the bridge progress</li>
+<li>Start modeling Karma onboarding flow and leveling up</li>
+<li>Work on getting data analysis of priority fees</li>
+</ul>
+</li>
+<li><code>vac:tke:nomos:macroeconomy::tfms-primer</code>
+<ul>
+<li>Push on tasks related to nomos DA, TFMs and block rewards</li>
+</ul>
+</li>
+<li><code>vac:tke:ift:tokenomics-research-forum::minting-control</code>
+<ul>
+<li>Keep refining work on optimal control and minting</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacqa">vac:qa:<a aria-hidden="true" tabindex="-1" href="#vacqa" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>status:2025q2-status-qa:v2-34</code>
+<ul>
+<li>Finished main round of testing for mobile v2.34, <a href="https://www.notion.so/2-34-Mobile-Release-Coordination-1f88f96fb65c80589326d087cfc6f0f5" class="external" data-link-type="external">full report</a></li>
+<li>Retested several fixes, reported 12 issues</li>
+<li>Leftover testing for 2.34, dealing with missing token list</li>
+<li>Investigated bug with missing token list</li>
+<li>Logged several issues including e2e results
+<ul>
+<li><a href="https://github.com/status-im/status-desktop/issues/18053" class="external" data-link-type="github" data-github-type="issue">https://github.com/status-im/status-desktop/issues/18053</a></li>
+<li><a href="https://github.com/status-im/status-desktop/issues/18043" class="external" data-link-type="github" data-github-type="issue">https://github.com/status-im/status-desktop/issues/18043</a></li>
+<li><a href="https://github.com/status-im/status-desktop/issues/18018" class="external" data-link-type="github" data-github-type="issue">https://github.com/status-im/status-desktop/issues/18018</a></li>
+</ul>
+</li>
+<li>Testing for Qt6 build <a href="https://github.com/status-im/status-desktop/pull/18019" class="external" data-link-type="github" data-github-type="pr">https://github.com/status-im/status-desktop/pull/18019</a></li>
+<li>Opened PR to remove unused code and merge similar tests <a href="https://github.com/status-im/status-desktop/pull/18052" class="external" data-link-type="github" data-github-type="pr">https://github.com/status-im/status-desktop/pull/18052</a></li>
+<li>Fixed functional test setup and reviewed mind map coverage</li>
+<li>Started adapting tests for Qt 6.9 app</li>
+<li>Debugged major Waku-related issue <a href="https://github.com/status-im/status-desktop/issues/18063" class="external" data-link-type="github" data-github-type="issue">https://github.com/status-im/status-desktop/issues/18063</a></li>
+<li>RC testing research shared with team</li>
+<li>Local env set up for:
+<ul>
+<li>status-backend tests</li>
+<li>squish e2e tests</li>
+<li>qml tests</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>nomos:2025q2-da-testing:data-confidentiality</code>
+<ul>
+<li>Test/data confidentiality
+<a href="https://github.com/logos-co/nomos-e2e-tests/pull/18" class="external" data-link-type="github" data-github-type="pr">PR 18 - merged</a></li>
+</ul>
+</li>
+<li><code>nomos:2025q2-da-testing:dispersal-resilience</code>
+<ul>
+<li>chore: Nomos node with mutated DA transport
+<a href="https://github.com/logos-co/nomos-security-tests/pull/2" class="external" data-link-type="github" data-github-type="pr">PR 2 - in progress</a></li>
+<li>Changes to <code>validator.rs</code> and <code>mutated_transport.rs</code> for new DA layer logic</li>
+</ul>
+</li>
+<li><code>waku:2025q2-interop-testing:maintenance</code>
+<ul>
+<li>bug: node won’t start with RLN in on-chain dynamic mode 2
+<a href="https://github.com/waku-org/nwaku/issues/3208" class="external" data-link-type="github" data-github-type="issue">Issue 3208</a> – blocked waiting for release</li>
+</ul>
+</li>
+<li><code>vac:2025q2-nim-libp2p-testing:gossipsub-extended-part2</code>
+<ul>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1431" class="external" data-link-type="github" data-github-type="pr">test(gossipsub): message cache</a> - merged</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1437" class="external" data-link-type="github" data-github-type="pr">test: checkUntilTimeout refactor</a> - merged</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1405" class="external" data-link-type="github" data-github-type="pr">fix(GossipSub): save sent iHave in first element</a> - merged</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1442" class="external" data-link-type="github" data-github-type="pr">test(gossipsub): paremeters</a> - merged</li>
+</ul>
+</li>
+<li><code>waku:2025q2-status-go-functional-testing:group-chats-tests</code>
+<ul>
+<li>Maintenance and onboarding support</li>
+</ul>
+</li>
+<li><code>admin/misc</code>
+<ul>
+<li>Catch up with teams and planning</li>
+<li>Sync calls with team and project stakeholders</li>
+<li>OOO: 4.5 CC days</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacdst">vac:dst:<a aria-hidden="true" tabindex="-1" href="#vacdst" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>admin/misc</code>
+<ul>
+<li>Create lookahead document: <a href="https://notes.status.im/LNug-k1QRJ-L4u8gZzlMCg" class="external" data-link-type="external">notes.status link</a></li>
+<li>Q3 commitments draft: <a href="https://github.com/vacp2p/roadmap/pull/175" class="external" data-link-type="github" data-github-type="pr">Github PR</a></li>
+<li>gossipsub analysis task: <a href="https://github.com/vacp2p/roadmap/pull/176" class="external" data-link-type="github" data-github-type="pr">Github PR</a></li>
+</ul>
+</li>
+<li><code>vac:dst:ift:2025q2-dst-tooling:analysis-refactor</code>
+<ul>
+<li>Finished main part of the refactor: <a href="https://github.com/vacp2p/10ksim/pull/66" class="external" data-link-type="github" data-github-type="pr">Github PR</a></li>
+</ul>
+</li>
+<li><code>vac:dst:vac:2025q2-libp2p-evaluation:mix-gossipsub</code>
+<ul>
+<li>Issue compiling new branches, versioning.
+<ul>
+<li><a href="https://github.com/nim-lang/nimble/issues/1403" class="external" data-link-type="github" data-github-type="issue">Github Issue</a> on nimble by p2p</li>
+<li><a href="https://github.com/vacp2p/dst-gossipsub-test-node/pull/9/files/ccf8120f3acea5146782f9eeb219d066efa5d050..32f6c4cfd1cba566af326f59f4db44e2d34253ae" class="external" data-link-type="github" data-github-type="pr">Github PR</a> with fixes by p2p</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>vac:dst:ift:2025q2-dst-tooling:adapt-experiments</code>
+<ul>
+<li><a href="https://github.com/vacp2p/10ksim/pull/70" class="external" data-link-type="github" data-github-type="pr">Draft Github PR #70</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="vacsc">vac:sc:<a aria-hidden="true" tabindex="-1" href="#vacsc" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>status:2025q2-sn-native-bridge-yield-bearing-module:research-design</code>
+<ul>
+<li>first implementation of L1ETHBridge</li>
+<li>organized the issues for L1</li>
+<li>opened PR with the first part of the L1ETHBridge <a href="https://github.com/vacp2p/linea-monorepo/pull/3" class="external" data-link-type="github" data-github-type="pr">https://github.com/vacp2p/linea-monorepo/pull/3</a></li>
+<li>finished organizing L2 tasks</li>
+<li>created second PR to add YieldRollup inheriting from LineaRollup and adding all the checks for the L1/L2 bridges <a href="https://github.com/vacp2p/linea-monorepo/pull/4" class="external" data-link-type="github" data-github-type="pr">https://github.com/vacp2p/linea-monorepo/pull/4</a></li>
+<li>PR adding the L2ETHBridge contract <a href="https://github.com/vacp2p/linea-monorepo/pull/5" class="external" data-link-type="github" data-github-type="pr">https://github.com/vacp2p/linea-monorepo/pull/5</a></li>
+<li>working on a new contract L2YieldMessageService that inherits from L2MessageService and validate messages between l1/l2 ETH bridges</li>
+</ul>
+</li>
+<li><code>status:2025q2-karma-rln:implementation</code>
+<ul>
+<li>Finalize &amp; Merge 221/220</li>
+</ul>
+</li>
+<li><code>admin/misc</code>
+<ul>
+<li>Review new spec doc</li>
+<li>Update commitments and add new ones for Q3
+<ul>
+<li><a href="https://github.com/vacp2p/roadmap/pull/177" class="external" data-link-type="github" data-github-type="pr">https://github.com/vacp2p/roadmap/pull/177</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>status:2025q2-karma-rln:slash-karma</code>
+<ul>
+<li>Landed slashing feature</li>
+<li>Additional formal verification rules will be added in follow-up PRs
+<ul>
+<li><a href="https://github.com/vacp2p/staking-reward-streamer/pull/215" class="external" data-link-type="github" data-github-type="pr">https://github.com/vacp2p/staking-reward-streamer/pull/215</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>status:2025q2-karma-rln:karma-tiers</code>
+<ul>
+<li>Started implementing karma tiers contract</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacacz">vac:acz:<a aria-hidden="true" tabindex="-1" href="#vacacz" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>ift:2025q2-libp2p-mix-testnet:update-rfc</code>
+<ul>
+<li>Finalized Section 7; Working on Section 8 out of 10, <a href="https://github.com/vacp2p/rfc-index/pull/158" class="external" data-link-type="github" data-github-type="pr">PR</a></li>
+</ul>
+</li>
+<li><code>ift:2025q2-libp2p-mix-testnet:nomos-comparison</code>
+<ul>
+<li>Continued reviewing the Blend Protocol spec; Updated Blend protocol overview on <a href="https://www.notion.so/WiP-Blend-Protocol-Mix-1ff8f96fb65c802589c5f5e26673e69f" class="external" data-link-type="external">Notion Doc</a>.</li>
+</ul>
+</li>
+<li><code>nes:2025q2-nescience-consulting:light-users</code>
+<ul>
+<li>Began work on <a href="https://www.notion.so/nes-2025q2-nescience-consulting-light-users-2068f96fb65c802db086d6981a50e71f" class="external" data-link-type="external">light user analysis</a> for NSSA.</li>
+<li>Discovered an <a href="https://www.notion.so/Inflation-exploit-and-mitigation-20a8f96fb65c80fdbc77ff02b681f70f" class="external" data-link-type="external">inflation exploit</a> in UTXO design/usage.</li>
+</ul>
+</li>
+<li><code>acz:nomos:2025q2-nomos-consulting:zk-consulting-nomos-2</code>
+<ul>
+<li>Began review of <a href="https://www.notion.so/nomos-tech/Preliminary-Research-Impact-of-the-Service-Declaration-Protocol-on-the-statistical-inference-of-rel-206261aa09df807bad8afccf8474c6c9#209261aa09df803d9e07f14c76435c45" class="external" data-link-type="external">relative stake document</a>.</li>
+</ul>
+</li>
+<li><code>ift:2025q2-ift-zk-calls:ift-zk-call-3</code>
+<ul>
+<li>Led <a href="https://www.notion.so/Past-Meeting-Notes-1198f96fb65c80e6a51afa9a507aa64e?source=copy_link#2098f96fb65c801c8fa5e892e91d1296" class="external" data-link-type="external">zk call</a> and post corresponding forum post.</li>
+</ul>
+</li>
+<li><code>2025q2-libp2p-mix-testnet:solve-discrepancy</code>
+<ul>
+<li>Merged structured, feature-flagged logging system <a href="https://github.com/vacp2p/mix/pull/25" class="external" data-link-type="github" data-github-type="pr">PR 25</a></li>
+<li>Significant issues with dependency and docker build <a href="https://github.com/nim-lang/nimble/issues/1403" class="external" data-link-type="github" data-github-type="issue">issues</a></li>
+<li>Had detailed syncs with Ben to align on tasks; clarified next steps.
+<ul>
+<li>Reviewed and commented on <a href="https://github.com/vacp2p/mix/issues/24" class="external" data-link-type="github" data-github-type="issue">Issue #24</a>.</li>
+</ul>
+</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1420" class="external" data-link-type="github" data-github-type="pr">PR #1420</a>
+<ul>
+<li>Incrementally reintroduced changes to isolate and resolve prior GossipSub test and CI failures.</li>
+<li>Made PR stable and ready for review.</li>
+<li>Addressed all initial review comments.</li>
+<li>Working on tests for custom connection logic.
+<ul>
+<li>Encountering time out error with  <code>DummyConnection</code> [WiP].</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Worked with DST on benchmarking setup; faced dependency issues.</li>
+</ul>
+</li>
+<li><code>ift:2025q2-zerokit:perfomance-updates-blogpost</code>
+<ul>
+<li>Received input: <a href="https://github.com/vacp2p/zerokit/issues/314" class="external" data-link-type="github" data-github-type="issue">Issue 314</a></li>
+</ul>
+</li>
+<li><code>ift:2025q2-rln-status-l2:rpc-node-modification</code>
+<ul>
+<li>Add test cases for the current modifications to the RPC node <a href="https://github.com/vacp2p/status-linea-besu/pull/1" class="external" data-link-type="github" data-github-type="pr">(PR)</a></li>
+<li>Continue setting up the connection to Linea mainnet on the test machine</li>
+</ul>
+</li>
+<li><code>ift:2025q2-zerokit:release</code>
+<ul>
+<li>Published new zerokit <a href="https://github.com/vacp2p/zerokit/releases/tag/v0.8.0" class="external" data-link-type="github" data-github-type="repo">release</a>. It includes new releases for zerokit-utils and zerokit-wasm</li>
+</ul>
+</li>
+<li><code>ift:2025q2-de-mls-tesnet:consensus-rfc</code>
+<ul>
+<li>Pushed few minor formatting changes into <a href="https://github.com/vacp2p/rfc-index/pull/142" class="external" data-link-type="github" data-github-type="pr">consensus rfc</a></li>
+</ul>
+</li>
+<li><code>ift:2025q2-de-mls-tesnet:blogpost-de-mls-over-waku</code>
+<ul>
+<li>Pushed few minor changes into <a href="https://github.com/vacp2p/vac.dev/pull/159" class="external" data-link-type="github" data-github-type="pr">PR</a></li>
+<li>Update the <a href="https://github.com/vacp2p/vac.dev/pull/159" class="external" data-link-type="github" data-github-type="pr">PR</a> by changing admin words to steward and it is on review.</li>
+</ul>
+</li>
+<li><code>ift:2025q2-de-mls-tesnet:commit-and-proposal</code>
+<ul>
+<li>Worked on splitting commit message to proposal and commit message <a href="https://github.com/vacp2p/de-mls/tree/feat_extract_proposal" class="external" data-link-type="github" data-github-type="repo">branch</a></li>
+</ul>
+</li>
+<li><code>ift:2025q2-zerokit:zerokit-maintaining</code>
+<ul>
+<li><a href="https://github.com/vacp2p/zerokit/pull/317" class="external" data-link-type="github" data-github-type="pr">use all cleanup</a></li>
+<li><a href="https://github.com/vacp2p/zerokit/pull/316" class="external" data-link-type="github" data-github-type="pr">recover secret id error</a></li>
+<li>Review <a href="https://github.com/vacp2p/zerokit/pull/315" class="external" data-link-type="github" data-github-type="pr">Zerokit 0.8 release PR</a></li>
+<li>Reviewed <a href="https://github.com/vacp2p/zerokit/pull/317" class="external" data-link-type="github" data-github-type="pr">PR#317</a> and <a href="https://github.com/vacp2p/zerokit/pull/316" class="external" data-link-type="github" data-github-type="pr">PR#316</a> with some improvements</li>
+</ul>
+</li>
+<li><code>ift:2025q2-rln-status-l2:prover-service</code>
+<ul>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/3" class="external" data-link-type="github" data-github-type="pr">Proof generation end to end</a></li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/4" class="external" data-link-type="github" data-github-type="pr">Karma SC integration</a></li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/5" class="external" data-link-type="github" data-github-type="pr">Karma RLN SC integration</a></li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/6" class="external" data-link-type="github" data-github-type="pr">Zerokit v0.8.0 integration</a></li>
+</ul>
+</li>
+<li><code>admin/misc</code>
+<ul>
+<li>1 cc was ooo for 3 days (bank holiday)</li>
+<li>1 cc was ooo for 2 days (family care)</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacnim">vac:nim:<a aria-hidden="true" tabindex="-1" href="#vacnim" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>ift:2025q1-nimble</code>
+<ul>
+<li>vNext WIP #1402
+<ul>
+<li>Allow for installing global url packages</li>
+<li>Fixes an issue where <code>.babel</code> packages wasnt picking their requires correctly</li>
+<li>Install root package in the nimble directory when in global (There is an issue with nimble itself)</li>
+<li>Partial support for uninstall in vnext (to be complete, we need to take into account develop)</li>
+<li>Progress</li>
+<li>Support for <code>requires</code> flags. Support for custom actions (aka test)</li>
+<li>Fixes some tests</li>
+<li>Dont log the action if not in vnext (it makes some fragile tests to fail)</li>
+<li>Handles namedBins for the root package. Fixes an issue with <code>install</code></li>
+<li>mark as used</li>
+<li>removes unnecessary echo</li>
+</ul>
+</li>
+<li>vnext lock support</li>
+<li>[WIP] fixes #1403 “Error on nimble install: Cannot satisfy the dependency</li>
+<li>Review PRs</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacrfc">vac:rfc:<a aria-hidden="true" tabindex="-1" href="#vacrfc" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>admin/misc</code>
+<ul>
+<li>Finished draft on Status Network Staking RFC, waiting for feedback - <a href="https://github.com/vacp2p/rfc-index/pull/161" class="external" data-link-type="github" data-github-type="pr">https://github.com/vacp2p/rfc-index/pull/161</a></li>
+<li>ZK Call support: <a href="https://youtu.be/_VOkyVOSsqA?si=W41V48r6w3jm8bHU" class="external" data-link-type="external">https://youtu.be/_VOkyVOSsqA?si=W41V48r6w3jm8bHU</a></li>
+</ul>
+</li>
+<li><code>vac:rfc:waku:2025q2-rfc-iteration:waku2-enr</code>
+<ul>
+<li>Continued update for WAKU2-ENR</li>
+</ul>
+</li>
+<li><code>vac:rfc:nescience:2025q2-rfc-iteration:utxo-specification</code>
+<ul>
+<li>Nescience UTXO spec draft PR: <a href="https://github.com/vacp2p/rfc-index/pull/164" class="external" data-link-type="github" data-github-type="pr">https://github.com/vacp2p/rfc-index/pull/164</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="vacsec">vac:sec:<a aria-hidden="true" tabindex="-1" href="#vacsec" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>ift:2025q2-signatory-registry-implementation:signatory-inventory-revalidation</code>
+<ul>
+<li>EOA included</li>
+</ul>
+</li>
+<li><code>ift:2025q2-signatory-registry-implementation:signatory-vault-deployment</code>
+<ul>
+<li>Started the deployment of a secure vault to store the master signatory db</li>
+</ul>
+</li>
+<li><code>ift:2025q2-signatory-registry-implementation:signatory-data-verification</code>
+<ul>
+<li>Continued the collection of signatory information</li>
+</ul>
+</li>
+<li><code>ift:2025q2-audit-plan-refinement:smart-contract-testing</code>
+<ul>
+<li>Designed negative test cases targeting Vault withdrawal and access control logic.</li>
+<li>Collaborated with the Codex engineering team to review recent Vault optimizations for hidden risks.</li>
+<li>Automated invariant checks for Vault contract behaviors under simulated high-load conditions.</li>
+</ul>
+</li>
+<li><code>ift:2025q2-cicd-security-review:gha-hardening</code>
+<ul>
+<li>Worked with remediation plans for unresolved CodeQL issues across top repositories.</li>
+<li>Audited dependencies flagged by Dependabot for transitive risk and perform validations.</li>
+</ul>
+</li>
+<li><code>ift:2025q2-vulma-and-ir:remediation-tracking</code>
+<ul>
+<li>Performed a security audit of the Status web architectural changes outlined in status-web <a href="https://github.com/status-im/status-web/issues/692" class="external" data-link-type="github" data-github-type="issue">(issue#692)</a>.</li>
+</ul>
+</li>
+<li><code>ift:2025q2-security-automation: POC for app catalogue update from Expensify</code>
+<ul>
+<li>Fixed list of fields for App Catalogue, considering incoming data from Expensify</li>
+</ul>
+</li>
+<li><code>ift:2025q2-iam-operations:remove-unnecessary-users</code>
+<ul>
+<li>Defined a security role for Google Admin to be able to revalidate users and groups</li>
+<li>Continued investigation of CC removal from Iplicit and Expensify</li>
+<li>Removed users from Github, Discord and Notion</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacnes">vac:nes:<a aria-hidden="true" tabindex="-1" href="#vacnes" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>state-separation-architecture-poc:hybrid</code>
+<ul>
+<li>Quick overview of Ethereum account model to fit within NSSA.</li>
+<li>Continued <a href="https://www.notion.so/Brainstorming-adaptation-of-Solana-s-model-to-NSSA-2028f96fb65c80cbb99fe978c2957758" class="external" data-link-type="external">drafting ideas</a> on how Solana’s model could be adapted to support a companion private state and hybrid executions. Described potential ways to adapt the functions that would be needed for a private version of the hello world example.</li>
+<li>Delved deeper into the Solana codebase to understand inner workings and where some consistency checks are performed.</li>
+</ul>
+</li>
+<li><code>state-separation-architecture-poc:sc-utility</code>
+<ul>
+<li>PR reviews</li>
+<li>Autogen template work <a href="https://github.com/vacp2p/nescience-testnet/pull/84" class="external" data-link-type="github" data-github-type="pr">PR</a></li>
+<li>Implemented autogeneration template. <a href="https://github.com/vacp2p/nescience-testnet/pull/83" class="external" data-link-type="github" data-github-type="pr">Merge request</a></li>
+</ul>
+</li>
+<li><code>acz:t2</code>
+<ul>
+<li>Delivered SE/DE optimization document.</li>
+</ul>
+</li>
+<li><code>acz:t3</code>
+<ul>
+<li>Began work on <a href="https://www.notion.so/nes-2025q2-nescience-consulting-light-users-2068f96fb65c802db086d6981a50e71f" class="external" data-link-type="external">light user support analysis</a>. Outline security and privacy concerns, investigate light user support in other projects.</li>
+<li>Detected an <a href="https://www.notion.so/Inflation-exploit-and-mitigation-20a8f96fb65c80fdbc77ff02b681f70f" class="external" data-link-type="external">inflation exploit</a> in current UTXO</li>
+</ul>
+</li>
+</ul></article><div class="weekly-no-results" id="weekly-no-results" style="display:none;"><h4>No results found</h4><p>Try adjusting your search or filter criteria.</p></div></div></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#vac-20250609" data-for="vac-20250609">Vac 2025/06/09</a></li><li class="depth-1"><a href="#highlights" data-for="highlights">highlights</a></li><li class="depth-1"><a href="#vacp2p" data-for="vacp2p">vac:p2p:</a></li><li class="depth-1"><a href="#vactke" data-for="vactke">vac:tke:</a></li><li class="depth-1"><a href="#vacqa" data-for="vacqa">vac:qa:</a></li><li class="depth-1"><a href="#vacdst" data-for="vacdst">vac:dst:</a></li><li class="depth-1"><a href="#vacsc" data-for="vacsc">vac:sc:</a></li><li class="depth-1"><a href="#vacacz" data-for="vacacz">vac:acz:</a></li><li class="depth-1"><a href="#vacnim" data-for="vacnim">vac:nim:</a></li><li class="depth-1"><a href="#vacrfc" data-for="vacrfc">vac:rfc:</a></li><li class="depth-1"><a href="#vacsec" data-for="vacsec">vac:sec:</a></li><li class="depth-1"><a href="#vacnes" data-for="vacnes">vac:nes:</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a>, © 2026</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js?v=mq6gldi3" type="module"></script></html>

@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html><head><title>2025-11-24 Vac weekly</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="2025-11-24 Vac weekly"/><meta property="og:description" content="Vac 2025/11/24 § highlights § QA: Status-go wallet gated community test is close to completion with multiple related issues triaged. QA: Nim-libp2p QA reduced QUIC flakiness and refreshed the QUIC test plan scope."/><meta property="og:image" content="https://roadmap.vac.dev/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Vac 2025/11/24 § highlights § QA: Status-go wallet gated community test is close to completion with multiple related issues triaged. QA: Nim-libp2p QA reduced QUIC flakiness and refreshed the QUIC test plan scope."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css?v=mq6gldi3" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=sans-serif:wght@400;700&amp;family=sans-serif:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js?v=mq6gldi3" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json?v=mq6gldi3`).then(data => data.json())</script></head><body data-slug="weeklies/2025-11-24"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title "><a href="..">IFT-TS Roadmaps and Reports</a></h1><div class="spacer mobile-only"></div><div class="search "><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode "><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true"><h1>Explorer</h1><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container " aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="..">Home</a><p> > </p></div><div class="breadcrumb-element"><a href="../weeklies/">weeklies</a><p> > </p></div><div class="breadcrumb-element"><a href>2025-11-24 Vac weekly</a></div></nav><h1 class="article-title ">2025-11-24 Vac weekly</h1><p class="content-meta ">Nov 24, 2025, 8 min read</p><ul class="tags "><li><a href="../tags/vac-updates" class="internal tag-link">#vac-updates</a></li></ul></div></div><div class="weekly-report"><div class="weekly-stats-bar"><div class="stat"><div class="stat-value" id="stat-teams">0</div><div class="stat-label">Teams</div></div><div class="stat"><div class="stat-value" id="stat-prs">0</div><div class="stat-label">GitHub Links</div></div></div><div class="weekly-controls"><input type="text" class="weekly-search" id="weekly-search" placeholder="Search updates, PRs, teams..."/><div class="weekly-filters"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="github">GitHub</button><button class="filter-btn" data-filter="internal">Internal</button><button class="filter-btn" data-filter="external">External</button></div></div><div class="weekly-legend"><span class="legend-title">Link Types:</span><span class="legend-item"><span class="legend-color github"></span><span>GitHub</span></span><span class="legend-item"><span class="legend-color internal"></span><span>Internal (roadmap.vac.dev)</span></span><span class="legend-item"><span class="legend-color external"></span><span>External</span></span><span class="legend-item"><span class="legend-color task-id"></span><span>Task ID</span></span></div><div class="weekly-tabs" id="weekly-tabs"><button class="team-tab active" data-team="all">All Teams</button><button class="team-tab" data-team="bi" title="Business Intelligence">BI<span class="tab-badge" id="badge-bi">0</span></button><button class="team-tab" data-team="dst" title="Distributed Systems Testing">DST<span class="tab-badge" id="badge-dst">0</span></button><button class="team-tab" data-team="nim" title="Language &amp; Libraries">Nim<span class="tab-badge" id="badge-nim">0</span></button><button class="team-tab" data-team="p2p" title="Peer-to-Peer">P2P<span class="tab-badge" id="badge-p2p">0</span></button><button class="team-tab" data-team="qa" title="Quality Assurance">QA<span class="tab-badge" id="badge-qa">0</span></button><button class="team-tab" data-team="rfc" title="Request for Comments">RFC<span class="tab-badge" id="badge-rfc">0</span></button><button class="team-tab" data-team="sc" title="Smart Contracts">SC<span class="tab-badge" id="badge-sc">0</span></button><button class="team-tab" data-team="sec" title="Security">SEC<span class="tab-badge" id="badge-sec">0</span></button><button class="team-tab" data-team="tke" title="Token Economics">TKE<span class="tab-badge" id="badge-tke">0</span></button><button class="team-tab" data-team="web" title="Web Development">WEB<span class="tab-badge" id="badge-web">0</span></button><button class="team-tab" data-team="infra" title="Infrastructure">INFRA<span class="tab-badge" id="badge-infra">0</span></button></div><article class="popover-hint weekly-content show-all" id="weekly-content"><h2 id="vac-20251124">Vac 2025/11/24<a aria-hidden="true" tabindex="-1" href="#vac-20251124" class="internal" data-link-type="internal"> §</a></h2>
+<h3 id="highlights">highlights<a aria-hidden="true" tabindex="-1" href="#highlights" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li>QA: Status-go wallet gated community test is close to completion with multiple related issues triaged.</li>
+<li>QA: Nim-libp2p QA reduced QUIC flakiness and refreshed the QUIC test plan scope.</li>
+<li>QA: Desktop QA maintained release coverage and added app load-time measurements.</li>
+<li>QA: Mobile QA progressed desktop test porting and continued mobile release checks.</li>
+<li>QA: Waku interop admin tests were fixed upstream.</li>
+<li>DST: LSQUIC regression analysis compared five commits, covering leaks, latency, and connection behaviour.</li>
+<li>DST: TWN RLN scaling uncovered gas and rate-limit mismatches during Anvil testing.</li>
+<li>DST: Status chat benchmarks resolved bootstrap blocking but still struggle to discover filter-enabled relays.</li>
+<li>DST: Deployment refactor PRs for 10ksim merged and spawned a follow-up feature list.</li>
+<li>DST: Browser bootstrapping tests updated Waku deps and Kubernetes config while tackling random disconnects.</li>
+<li>DST: nwaku v0.37 regression tests progressed alongside merged Rust test node support.</li>
+<li>Nim: Nimble download pipeline now uses releases.json and thread-safe async helpers for cloning and fetching.</li>
+<li>Nim: Parallel Nimble builds advanced with CI race condition fixes.</li>
+<li>Nim: Confutils added results.Opt support, improved help output, and option flattening.</li>
+<li>Nim: New <code>nim-intops</code> library delivers overflow/carry/saturating arithmetic with tests and README.</li>
+<li>P2P: LSQUIC leak fix and send-loop stabilizations landed alongside muxer handling tweaks.</li>
+<li>P2P: QUIC Nimbus integration kicked off.</li>
+<li>P2P: Kad DHT gained client mode, bootstrap refinements, and interop coverage.</li>
+<li>P2P: Maintainer tooling added RNG singleton tests while C bindings work resumes.</li>
+<li>P2P: Travel and illness reduced capacity for part of the team.</li>
+<li>TKE: Devconnect participation wrapped; follow-ups with ecodev and leadership pending.</li>
+<li>TKE: Iterating on finance feedback for price prediction modelling.</li>
+<li>TKE: Syncing Karma incentives and Logos token sale plans post-event.</li>
+<li>TKE: Exploring attestations as a potential Logos product and optimal control research.</li>
+<li>SC: Team resumed after Devconnect with RISC0 upskilling focus.</li>
+<li>SC: Cyfrin audit partnership finalized to support Status L2.</li>
+<li>SC: Status L2 contract maintenance planning underway with auditors.</li>
+<li>ACZ: DE-MLS hashgraph extraction continues toward a standalone library and API.</li>
+<li>ACZ: Zerokit wasm FFI rework under active review, with memory and example fixes merged.</li>
+<li>ACZ: RLN shared database PR received cross-review and follow-up discussions.</li>
+<li>ACZ: Discovery registrar/spec work added thread safety, signature verification, and integration tests.</li>
+<li>ACZ: NSSA consulting supported AMM testing and NFT approach reviews.</li>
+<li>ACZ: RLN Status L2 maintenance tracked alloy issue follow-ups.</li>
+<li>RFC: Community history RFC drafted and opened for review.</li>
+<li>RFC: Block exchange RFC merged with a follow-up improvement PR in flight.</li>
+<li>RFC: Blend protocol draft prepared for ongoing review.</li>
+<li>RFC: Slot builder RFC queued for completeness updates.</li>
+<li>RFC: opChan RFC initial drafting underway.</li>
+<li>Security: Web3 security essentials expanded with new checklists.</li>
+<li>Security: Secure signing environment tested across Keystone USB passthrough and QR signing.</li>
+<li>Security: Endpoint security evaluated Falcon and Bitdefender with malware simulation planned.</li>
+<li>Security: Status Desktop design reviews deepened around message signing, IPC, and dependency hygiene.</li>
+<li>Security: Incident response advanced correlation for Status-352 and rotated secrets verification.</li>
+<li>Security: Admin automation extended GitHub/Notion audits and finance sync logic.</li>
+<li>Web: SN Hub MVP release PR opened with TVL overview requests underway.</li>
+<li>Web: Cloudinary cost reductions delivered via asset optimizations and firewall controls.</li>
+<li>Web: Logos site enhancements shipped role-aware email forms and spaces calendar PoC with tracking.</li>
+<li>Web: Status wallet extension wired to market and ETH RPC proxies, updating privacy policy accordingly.</li>
+<li>Web: Waku dependency updates progressed across status-web and community-dapp.</li>
+<li>Web: Maintenance covered Cloudinary contract updates and admin tooling cleanup.</li>
+<li>Infra: Team was at Devconnect; limited updates shared.</li>
+<li>BI: Entire team onsite at Devconnect; started Superset analytics dashboard and Discord data extraction.</li>
+<li>Nescience: Drafted a self-contained voting program and merged wallet UX fixes while AMM testing continues.</li>
+</ul>
+<h3 id="vacqa">vac:qa:<a aria-hidden="true" tabindex="-1" href="#vacqa" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><a href="../qa/waku/2025q4-waku-testing#maintenance" class="internal" data-slug="qa/waku/2025q4-waku-testing" data-link-type="internal"><code>vac:qa:waku:2025q4-waku-testing:maintenance</code></a>
+<ul>
+<li>Fixed admin tests via <a href="https://github.com/waku-org/waku-interop-tests/pull/140" class="external" data-link-type="github" data-github-type="pr">PR 140</a>.</li>
+</ul>
+</li>
+<li><code>status:2025q4-status-go-functional-testing:wallet</code>
+<ul>
+<li>Advanced token-gated communities test and triaged admin role, stopMessenger, and fake token address issues.</li>
+</ul>
+</li>
+<li><a href="../qa/vac/2025q4-nim-libp2p-testing#flaky-test-fixes" class="internal" data-slug="qa/vac/2025q4-nim-libp2p-testing" data-link-type="internal"><code>vac:2025q4-nim-libp2p-testing:flaky-tests</code></a>
+<ul>
+<li>Stabilised autotls, mix, transport certificate generation, and rng singleton tests across PRs 1905, 1896, 1894.</li>
+</ul>
+</li>
+<li><a href="../qa/vac/2025q4-nim-libp2p-testing#test-plans-for-new-features" class="internal" data-slug="qa/vac/2025q4-nim-libp2p-testing" data-link-type="internal"><code>vac:2025q4-nim-libp2p-testing:test-plans</code></a>
+<ul>
+<li>Updated the QUIC plan to focus on nim-libp2p coverage.</li>
+</ul>
+</li>
+<li><a href="../qa/status/2025q4-status-qa-desktop#maintenance" class="internal" data-slug="qa/status/2025q4-status-qa-desktop" data-link-type="internal"><code>vac:qa:status:2025q4-status-qa-desktop:maintenance</code></a>
+<ul>
+<li>Restored custom derivation path handling, improved Qt minimize usage, and investigated CI failures.</li>
+</ul>
+</li>
+<li><a href="../qa/status/2025q4-status-qa-desktop#release-testing" class="internal" data-slug="qa/status/2025q4-status-qa-desktop" data-link-type="internal"><code>vac:qa:status:2025q4-status-qa-desktop:release-testing</code></a>
+<ul>
+<li>Monitored Korean translation breakage and quit-app regression.</li>
+</ul>
+</li>
+<li><a href="../qa/status/2025q4-status-qa-desktop#measure-app-load-time" class="internal" data-slug="qa/status/2025q4-status-qa-desktop" data-link-type="internal"><code>vac:qa:status:2025q4-status-qa-desktop:app-load-time</code></a>
+<ul>
+<li>Added swap modal measurement tracking in PR 19333.</li>
+</ul>
+</li>
+<li><a href="../qa/status/2025q4-status-qa-mobile#port-desktop-tests" class="internal" data-slug="qa/status/2025q4-status-qa-mobile" data-link-type="internal"><code>vac:qa:status:2025q4-status-qa-mobile:port-tests</code></a>
+<ul>
+<li>Continued 1x1 chat porting and added accessibility IDs.</li>
+</ul>
+</li>
+<li><a href="../qa/status/2025q4-status-qa-mobile#release-testing" class="internal" data-slug="qa/status/2025q4-status-qa-mobile" data-link-type="internal"><code>vac:qa:status:2025q4-status-qa-mobile:release-testing</code></a>
+<ul>
+<li>Investigated Android 14 account creation failure.</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacdst">vac:dst:<a aria-hidden="true" tabindex="-1" href="#vacdst" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><a href="../dst/vac/2025q4-libp2p-evaluation#regression-testing-recurring" class="internal" data-slug="dst/vac/2025q4-libp2p-evaluation" data-link-type="internal"><code>vac:dst:vac:2025q4-libp2p-evaluation:regression-testing</code></a>
+<ul>
+<li>Analyzed five new lsquic commits for leaks, latency, and connection/stream behaviour; coordinated with P2P and documented findings.</li>
+</ul>
+</li>
+<li><a href="../dst/waku/2025q4-waku-scaling#twn-supports-rln-onchain-tree-and-deposits-existing-memberships-only" class="internal" data-slug="dst/waku/2025q4-waku-scaling" data-link-type="internal"><code>vac:dst:waku:2025q4-waku-scaling:twn-supports-rln-tree</code></a>
+<ul>
+<li>Mitigated gas issues with <code>--disable-min-priority-fee</code> and identified contract ratelimit mismatch against Sepolia values.</li>
+</ul>
+</li>
+<li><a href="../dst/status/2025q4-status-evaluation#chat-protocol-benchmarks-followup" class="internal" data-slug="dst/status/2025q4-status-evaluation" data-link-type="internal"><code>vac:dst:status:2025q4-status-evaluation:chat-protocol-benchmarks-followup</code></a>
+<ul>
+<li>Fixed bootstrap blocking for light nodes; remaining issue is discovering relay nodes offering filter.</li>
+</ul>
+</li>
+<li><a href="../dst/ift/2025q4-dst-tooling#complete-deployment-refactor" class="internal" data-slug="dst/ift/2025q4-dst-tooling" data-link-type="internal"><code>vac:dst:ift:2025q4-dst-tooling:complete-deployment-refactor</code></a>
+<ul>
+<li>Merged PRs 172 and 173 to generalize deployment classes and add regression builders; captured follow-up feature list.</li>
+</ul>
+</li>
+<li><a href="../dst/waku/2025q4-waku-scaling#optimise-browser-bootstrapping" class="internal" data-slug="dst/waku/2025q4-waku-scaling" data-link-type="internal"><code>vac:dst:waku:2025q4-waku-scaling:optimise-browser-bootstrapping</code></a>
+<ul>
+<li>Updated js-waku dependencies, fixed Kubernetes disconnects, and drafted PR 170 while experimenting with random disconnects.</li>
+</ul>
+</li>
+<li><a href="../dst/waku/2025q4-waku-evaluation#regression-testing-recurring" class="internal" data-slug="dst/waku/2025q4-waku-evaluation" data-link-type="internal"><code>vac:dst:waku:2025q4-waku-evaluation:regression-testing</code></a>
+<ul>
+<li>Continued nwaku v0.37 performance comparisons and bandwidth analysis.</li>
+</ul>
+</li>
+<li><a href="../dst/ift/2025q4-dst-tooling#general-tooling-recurring" class="internal" data-slug="dst/ift/2025q4-dst-tooling" data-link-type="internal"><code>vac:dst:ift:2025q4-dst-tooling:general-tooling</code></a>
+<ul>
+<li>Updated nim-libp2p test node for mix protocol and expanded latency analysis scripts; ran mixed-node shadow experiments.</li>
+</ul>
+</li>
+<li><a href="../dst/vac/2025q4-libp2p-evaluation#rust-libp2p-node" class="internal" data-slug="dst/vac/2025q4-libp2p-evaluation" data-link-type="internal"><code>vac:dst:vac:2025q4-libp2p-evaluation:rust-libp2p-node</code></a>
+<ul>
+<li>Merged the Rust test node PR for harness integration.</li>
+</ul>
+</li>
+<li><a href="../dst/waku/2025q4-waku-scaling#optimise-browser-bootstrapping" class="internal" data-slug="dst/waku/2025q4-waku-scaling" data-link-type="internal"><code>vac:dst:waku:2025q4-waku-scaling:optimise-browser-bootstrapping</code></a>
+<ul>
+<li>Identified js-waku client logging gaps blocking richer diagnostics.</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacnim">vac:nim:<a aria-hidden="true" tabindex="-1" href="#vacnim" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><a href="../nim/ift/2025q4-nimble#nimble-100" class="internal" data-slug="nim/ift/2025q4-nimble" data-link-type="internal"><code>vac:nim:ift:2025q4-nimble:nimble-1.0.0</code></a>
+<ul>
+<li>Hardened package download path with async git/tarball operations and thread-safety refactors; switched binaries source to releases.json; progressed parallel builds with CI race fixes.</li>
+</ul>
+</li>
+<li><a href="../nim/ift/2025q4-nim-core-libs#command-line-parsers" class="internal" data-slug="nim/ift/2025q4-nim-core-libs" data-link-type="internal"><code>vac:nim:ift:2025q4-nim-core-libs:command-line-parsers</code></a>
+<ul>
+<li>Added results.Opt support, multiple help output fixes, and option flattening across confutils/toml serialization PRs.</li>
+</ul>
+</li>
+<li><a href="../nim/ift/2025q4-nim-core-libs#create-standalone-cpu-integer-library" class="internal" data-slug="nim/ift/2025q4-nim-core-libs" data-link-type="internal"><code>vac:nim:ift:2025q4-nim-core-libs:cpu-integer-library</code></a>
+<ul>
+<li>Created <code>nim-intops</code> repo with overflow/carry/saturating add/sub, widening mul, tests, and initial docs; completed onboarding material.</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacp2p">vac:p2p:<a aria-hidden="true" tabindex="-1" href="#vacp2p" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><a href="../p2p/ift/2025q4-nimlibp2p-quic#quic-stabilization" class="internal" data-slug="p2p/ift/2025q4-nimlibp2p-quic" data-link-type="internal"><code>vac:p2p:ift:2025q4-nimlibp2p-quic:stabilization</code></a>
+<ul>
+<li>Fixed readInto leak in <a href="https://github.com/vacp2p/nim-lsquic/pull/23" class="external" data-link-type="github" data-github-type="pr">PR 23</a>; merged send loop optimizations, muxer handling, and ManyQueue/test splits across PRs 21, 19, 1885, 13, 12, 16, 15, 17.</li>
+</ul>
+</li>
+<li><code>vac:p2p:ift:2025q4-nimlibp2p-quic:nimbus</code>
+<ul>
+<li>Began QUIC integration work for Nimbus.</li>
+</ul>
+</li>
+<li><a href="../p2p/ift/2025q4-nimlibp2p-maintenance#maintenance" class="internal" data-slug="p2p/ift/2025q4-nimlibp2p-maintenance" data-link-type="internal"><code>vac:p2p:ift:2025q4-nimlibp2p-maintenance:maintenance</code></a>
+<ul>
+<li>Added RNG singleton test coverage in <a href="https://github.com/vacp2p/nim-libp2p/pull/1895" class="external" data-link-type="github" data-github-type="pr">PR 1895</a>.</li>
+</ul>
+</li>
+<li><a href="../p2p/ift/2025q4-nimlibp2p-cbindings#core-bindings" class="internal" data-slug="p2p/ift/2025q4-nimlibp2p-cbindings" data-link-type="internal"><code>vac:p2p:ift:2025q4-nimlibp2p-cbindings:core</code></a>
+<ul>
+<li>Devconnect presentation and roadmap discussions set up next steps.</li>
+</ul>
+</li>
+<li><a href="../p2p/ift/2025q4-nimlibp2p-kad-dht#interop" class="internal" data-slug="p2p/ift/2025q4-nimlibp2p-kad-dht" data-link-type="internal"><code>vac:p2p:ift:2025q4-nimlibp2p-kad-dht:interop</code></a>
+<ul>
+<li>Added bootstrap on switch start, client mode support, and interop tests via PRs 1906, 1908, 1903, 1907, 1902.</li>
+</ul>
+</li>
+<li><a href="../p2p/ift/2025q4-nimlibp2p-kad-dht#discovery" class="internal" data-slug="p2p/ift/2025q4-nimlibp2p-kad-dht" data-link-type="internal"><code>vac:p2p:ift:2025q4-nimlibp2p-kad-dht:discovery</code></a>
+<ul>
+<li>Removed unused discovery interface and aligned expectations with Waku.</li>
+</ul>
+</li>
+<li><code>admin/misc</code>
+<ul>
+<li>Devconnect attendance and roadmap presentation.</li>
+</ul>
+</li>
+</ul>
+<h3 id="vactke">vac:tke:<a aria-hidden="true" tabindex="-1" href="#vactke" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>admin</code>
+<ul>
+<li>Devconnect attendance and 5 CC days off.</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacsc">vac:sc:<a aria-hidden="true" tabindex="-1" href="#vacsc" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>admin/misc</code>
+<ul>
+<li>Devconnect attendance and audit partner setup.</li>
+</ul>
+</li>
+<li><a href="../sc/logos/2025q4-risc0-upskilling#risc0-proof-of-concepts" class="internal" data-slug="sc/logos/2025q4-risc0-upskilling" data-link-type="internal"><code>vac:sc:logos:2025q4-risc0-upskilling</code></a>
+<ul>
+<li>RISC0 learning and experimentation.</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacacz">vac:acz:<a aria-hidden="true" tabindex="-1" href="#vacacz" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><a href="../acz/ift/2025q4-de-mls-testnet#de-mls-maintenance" class="internal" data-slug="acz/ift/2025q4-de-mls-testnet" data-link-type="internal"><code>vac:acz:ift:2025q4-de-mls-tesnet:de-mls-maintaining</code></a>
+<ul>
+<li>Continued separating hashgraph consensus into its own library.</li>
+</ul>
+</li>
+<li><a href="../acz/ift/2025q4-zerokit#wasm-ffi-rework" class="internal" data-slug="acz/ift/2025q4-zerokit" data-link-type="internal"><code>vac:acz:ift:2025q4-zerokit:wasm-ffi-rework</code></a>
+<ul>
+<li>Reviewed PR 352, merged rln-wasm-utils, fixed Node.js example, and addressed review comments.</li>
+</ul>
+</li>
+<li><a href="../acz/ift/2025q4-zerokit#public-api-rework" class="internal" data-slug="acz/ift/2025q4-zerokit" data-link-type="internal"><code>vac:acz:ift:2025q4-zerokit:public-api-rework</code></a>
+<ul>
+<li>Reworked RLN structures for FFI/wasm, unified proof types, and updated serialization utilities.</li>
+</ul>
+</li>
+<li><a href="../acz/ift/2025q4-zerokit#zerokit-maintaining" class="internal" data-slug="acz/ift/2025q4-zerokit" data-link-type="internal"><code>vac:acz:ift:2025q4-zerokit:zerokit-maintaining</code></a>
+<ul>
+<li>Merged memory leak fixes in PR 354 and reviewed wasm FFI changes.</li>
+</ul>
+</li>
+<li><a href="../acz/ift/2025q4-rln-status-l2#multi-prover-with-shared-database" class="internal" data-slug="acz/ift/2025q4-rln-status-l2" data-link-type="internal"><code>vac:acz:ift:2025q4-rln-status-l2:shared-db</code></a>
+<ul>
+<li>Reviewed private repo changes and coordinated follow-ups for the monorepo PR.</li>
+</ul>
+</li>
+<li><a href="../acz/ift/2025q4-rln-status-l2#prover-module-maintaining" class="internal" data-slug="acz/ift/2025q4-rln-status-l2" data-link-type="internal"><code>vac:acz:ift:2025q4-rln-status-l2:maintaining</code></a>
+<ul>
+<li>Followed up on Alloy issue 2744.</li>
+</ul>
+</li>
+<li><a href="../acz/ift/2025q4-discovery#draft-rfc" class="internal" data-slug="acz/ift/2025q4-discovery" data-link-type="internal"><code>vac:acz:ift:2025q4-discovery:draft-rfc</code></a>
+<ul>
+<li>Reviewed discovery PoC PR 1 and RFC PR 212.</li>
+</ul>
+</li>
+<li><a href="../acz/ift/2025q4-discovery#registrar-module" class="internal" data-slug="acz/ift/2025q4-discovery" data-link-type="internal"><code>vac:acz:ift:2025q4-discovery:registrar-module</code></a>
+<ul>
+<li>Added synchronization and signature verification in the PoC.</li>
+</ul>
+</li>
+<li><a href="../acz/ift/2025q4-discovery#logos-discovery-capability-spec" class="internal" data-slug="acz/ift/2025q4-discovery" data-link-type="internal"><code>vac:acz:ift:2025q4-discovery:logos-disc-specs</code></a>
+<ul>
+<li>Addressed review comments on the Logos discovery specs.</li>
+</ul>
+</li>
+<li><a href="../acz/ift/2025q4-discovery#integration-and-validation" class="internal" data-slug="acz/ift/2025q4-discovery" data-link-type="internal"><code>vac:acz:ift:2025q4-discovery:integration-validation</code></a>
+<ul>
+<li>Added integration tests and configurable parameters for large-scale runs.</li>
+</ul>
+</li>
+<li><a href="../acz/nes/2025q4-nescience-consulting" class="internal" data-slug="acz/nes/2025q4-nescience-consulting" data-link-type="internal"><code>vac:acz:nes:2025q4-nescience-consulting:simple-amm</code></a>
+<ul>
+<li>Progressed PR 152 with AMM state-level tests.</li>
+</ul>
+</li>
+<li><a href="../acz/nes/2025q4-nescience-consulting" class="internal" data-slug="acz/nes/2025q4-nescience-consulting" data-link-type="internal"><code>vac:acz:nes:2025q4-nescience-consulting:nfts</code></a>
+<ul>
+<li>Reviewed Solana-inspired NFT approach for NSSAv0.2.</li>
+</ul>
+</li>
+<li><a href="../acz/nes/2025q4-nescience-consulting" class="internal" data-slug="acz/nes/2025q4-nescience-consulting" data-link-type="internal"><code>vac:acz:nes:2025q4-nescience-consulting:light-users</code></a>
+<ul>
+<li>Reviewed light user design doc.</li>
+</ul>
+</li>
+<li><code>admin/misc</code>
+<ul>
+<li>OOO: 4 CC days.</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacrfc">vac:rfc:<a aria-hidden="true" tabindex="-1" href="#vacrfc" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><a href="../rfc/codex/2025q4-rfc-iteration#community-history" class="internal" data-slug="rfc/codex/2025q4-rfc-iteration" data-link-type="internal"><code>vac:rfc:codex:2025q4-rfc-iteration:community-history</code></a>
+<ul>
+<li>Opened first draft in <a href="https://github.com/vacp2p/rfc-index/pull/214" class="external" data-link-type="github" data-github-type="pr">PR 214</a>.</li>
+</ul>
+</li>
+<li><a href="../rfc/ift/2025q4-rfc-index-maintenance#maintenance" class="internal" data-slug="rfc/ift/2025q4-rfc-index-maintenance" data-link-type="internal"><code>vac:rfc:ift:2025q4-rfc-index-maintenance:maintenance</code></a>
+<ul>
+<li>Responded to open reviews.</li>
+</ul>
+</li>
+<li><a href="../rfc/waku/2025q4-rfc-iteration#opchan" class="internal" data-slug="rfc/waku/2025q4-rfc-iteration" data-link-type="internal"><code>vac:rfc:waku:2025q4-rfc-iteration:opchan</code></a>
+<ul>
+<li>Started drafting.</li>
+</ul>
+</li>
+<li><a href="../rfc/codex/2025q4-rfc-iteration#block-exchange" class="internal" data-slug="rfc/codex/2025q4-rfc-iteration" data-link-type="internal"><code>vac:rfc:codex:2025q4-rfc-iteration:block-exchange</code></a>
+<ul>
+<li>Merged initial version (<a href="https://github.com/vacp2p/rfc-index/pull/211" class="external" data-link-type="github" data-github-type="pr">PR 211</a>) and opened improvements in <a href="https://github.com/vacp2p/rfc-index/pull/215" class="external" data-link-type="github" data-github-type="pr">PR 215</a>.</li>
+</ul>
+</li>
+<li><a href="../rfc/nomos/2025q4-rfc-iteration#blend-protocol" class="internal" data-slug="rfc/nomos/2025q4-rfc-iteration" data-link-type="internal"><code>vac:rfc:nomos:2025q4-rfc-iteration:blend-protocol</code></a>
+<ul>
+<li>Drafted the blend protocol in <a href="https://github.com/vacp2p/rfc-index/pull/213" class="external" data-link-type="github" data-github-type="pr">PR 213</a>.</li>
+</ul>
+</li>
+<li><code>admin/misc</code>
+<ul>
+<li>Q1 2026 commitments drafting paused while focusing on RFCs.</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacsec">vac:sec:<a aria-hidden="true" tabindex="-1" href="#vacsec" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>vac:sec:ift:2025q4-awareness-program:web3-security-essentials</code>
+<ul>
+<li>Added new defi, development, and job search checklists.</li>
+</ul>
+</li>
+<li><code>vac:sec:ift:2025q4-secure-signing-env-deployment:build-a-secure-vm-for signing</code>
+<ul>
+<li>Tested Keystone USB passthrough and QR signing flows.</li>
+</ul>
+</li>
+<li><code>vac:sec:ift:2025q4-secure-signing-environment:endpoint-security-evaluation</code>
+<ul>
+<li>Completed Falcon trial and deployed Bitdefender on test devices.</li>
+</ul>
+</li>
+<li><code>vac:sec:ift:2025q4-cicd-security-review:status-design-reviews</code>
+<ul>
+<li>Reviewed Desktop/Wallet signing flows, SBOM diffs, and access lists across security tools.</li>
+</ul>
+</li>
+<li><code>vac:sec:ift:2025q4-vulma-and-ir:incidents</code>
+<ul>
+<li>Investigated Status-352 via Jenkins config checks and built credential misuse correlation queries.</li>
+</ul>
+</li>
+<li><code>vac:sec:ift:2025q4-vulma-and-ir:remediation-tracking</code>
+<ul>
+<li>Revalidated CodeQL scans and patched npm/network CVEs with retesting.</li>
+</ul>
+</li>
+<li><code>vac:sec:ift:2025q4-finance-automation-enhancements</code>
+<ul>
+<li>Enhanced bank data synchronization.</li>
+</ul>
+</li>
+<li><code>vac:sec:ift:2025q4-iam-operations:admin-audit</code>
+<ul>
+<li>Tested GitHub admin/member checks and Notion webhook-driven admin actions.</li>
+</ul>
+</li>
+<li><code>vac:sec:ift:2025q4-Create hierarchy boards in Miro</code>
+<ul>
+<li>Tested consolidated frame logic and new board generation.</li>
+</ul>
+</li>
+<li><code>vac:sec:ift:2025q4-Migrate Sec workflows to n8n Sec Cloud</code>
+<ul>
+<li>Fixed Notion credential and Google API issues.</li>
+</ul>
+</li>
+<li><code>admin/misc</code>
+<ul>
+<li>Drafted 2026Q1 commitments and tasks.</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacweb">vac:web:<a aria-hidden="true" tabindex="-1" href="#vacweb" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><a href="../web/status/2025q4-sn-hub#discovery" class="internal" data-slug="web/status/2025q4-sn-hub" data-link-type="internal"><code>vac:web:status:2025q4-sn-hub</code></a>
+<ul>
+<li>Prepared MVP release (PR 827) and requested TVL overview integration.</li>
+</ul>
+</li>
+<li><a href="../web/ift/2025q4-maintenance#maintenance" class="internal" data-slug="web/ift/2025q4-maintenance" data-link-type="internal"><code>vac:web:ift:2025q4-maintenance:maintenance</code></a>
+<ul>
+<li>Adjusted Cloudinary contract plan; reviewed staking page skeleton; updated Waku dependencies (status-web PR 847, community-dapp PR 118); proposed Logos role collection (PR 10) and removed Status admin tool (PR 859); added search to SpacesTable (PR 24); investigated status.app <code>/c[slug]</code> Waku data fetch issue; reviewed Cloudinary usage reduction PR 858.</li>
+</ul>
+</li>
+<li><code>admin/misc</code>
+<ul>
+<li>OOO: 1 CC day; led reviews.</li>
+</ul>
+</li>
+<li><a href="../web/status/2025q4-status-wallet-extension#price-proxy" class="internal" data-slug="web/status/2025q4-status-wallet-extension" data-link-type="internal"><code>vac:web:status:2025q4-status-wallet-extension:price-proxy</code></a>
+<ul>
+<li>Unblocked tasks via PR 860 and progressed price proxy implementation replacing Cryptocompare/Infura with market and ETH RPC proxies; updated privacy policy PR 21.</li>
+</ul>
+</li>
+<li><code>vac:web:status:2025q4-status-website:maintenance</code>
+<ul>
+<li>Reduced Cloudinary usage by optimizing assets, removing unused media, and adding firewall rules; analyzed traffic/bandwidth.</li>
+</ul>
+</li>
+<li><a href="../web/ift/2025q4-logos-website#layout" class="internal" data-slug="web/ift/2025q4-logos-website" data-link-type="internal"><code>vac:web:ift:2025q4-logos-website:layout</code></a>
+<ul>
+<li>Added role selection and Umami tracking for email forms; delivered spaces calendar PoC and responsive updates.</li>
+</ul>
+</li>
+<li><a href="../web/ift/2025q4-logos-website#components" class="internal" data-slug="web/ift/2025q4-logos-website" data-link-type="internal"><code>vac:web:ift:2025q4-logos-website:components</code></a>
+<ul>
+<li>Added button subtext field via PR 11.</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacinfra">vac:infra:<a aria-hidden="true" tabindex="-1" href="#vacinfra" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>admin/misc</code>
+<ul>
+<li>Devconnect attendance.</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacbi">vac:bi:<a aria-hidden="true" tabindex="-1" href="#vacbi" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>admin/misc</code>
+<ul>
+<li>Devconnect participation.</li>
+</ul>
+</li>
+<li><a href="../bi/ift/2025q4-comms-discord-stats#channel-analytics-delivery" class="internal" data-slug="bi/ift/2025q4-comms-discord-stats" data-link-type="internal"><code>vac:bi:ift:2025q4-comms-discord-stats</code></a>
+<ul>
+<li>Extracted Discord data for Keycard.</li>
+</ul>
+</li>
+<li><code>vac:bi:ift:2025q4-vac-website</code>
+<ul>
+<li>Began website analytics dashboard in Superset.</li>
+</ul>
+</li>
+<li><code>vac:bi:rag:2025q4-rag-context</code>
+<ul>
+<li>Explored Open RAG options for Logos with Corey.</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacnescience">vac:nescience:<a aria-hidden="true" tabindex="-1" href="#vacnescience" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>other</code>
+<ul>
+<li>Planning calls, docs review, and onboarding tasks.</li>
+</ul>
+</li>
+<li><code>state-separation-architecture-poc:voting</code>
+<ul>
+<li>Drafted a simplified self-contained voting program.</li>
+</ul>
+</li>
+<li><code>state-separation-architecture-poc:ux-wallet</code>
+<ul>
+<li>Merged PRs 147 and 148; continued wallet improvements.</li>
+</ul>
+</li>
+<li><code>state-separation-architecture-poc:issues</code>
+<ul>
+<li>Opened PR 166 for borsh derivation changes.</li>
+</ul>
+</li>
+<li><code>state-separation-architecture-poc:seed-recovery</code>
+<ul>
+<li>Resolved threads on PR 149.</li>
+</ul>
+</li>
+<li><code>vac:nes:2025q4:state-separation-architecture-poc:privacy-tail-calls</code>
+<ul>
+<li>Implemented privacy-preserving tail calls in PR 151.</li>
+</ul>
+</li>
+<li><code>vac:nes:2025q4:state-separation-architecture-poc:multi-chain-calls</code>
+<ul>
+<li>Fixed tail-call account dropping bug in PR 161.</li>
+</ul>
+</li>
+<li><code>vac:nes:2025q4:state-separation-architecture-poc:pda-public-accounts</code>
+<ul>
+<li>Planned PDA public account work.</li>
+</ul>
+</li>
+<li><a href="../acz/nes/2025q4-nescience-consulting" class="internal" data-slug="acz/nes/2025q4-nescience-consulting" data-link-type="internal"><code>vac:acz:nes:2025q4-nescience-consulting:simple-amm</code></a>
+<ul>
+<li>Continued PR 152 with AMM state-level tests.</li>
+</ul>
+</li>
+<li><a href="../acz/nes/2025q4-nescience-consulting" class="internal" data-slug="acz/nes/2025q4-nescience-consulting" data-link-type="internal"><code>vac:acz:nes:2025q4-nescience-consulting:nfts</code></a>
+<ul>
+<li>Investigated Solana NFT model and proposed simplified NSSA approach.</li>
+</ul>
+</li>
+<li><a href="../acz/nes/2025q4-nescience-consulting" class="internal" data-slug="acz/nes/2025q4-nescience-consulting" data-link-type="internal"><code>vac:acz:nes:2025q4-nescience-consulting:light-users</code></a>
+<ul>
+<li>Reviewed light users document.</li>
+</ul>
+</li>
+</ul></article><div class="weekly-no-results" id="weekly-no-results" style="display:none;"><h4>No results found</h4><p>Try adjusting your search or filter criteria.</p></div></div></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#vac-20251124" data-for="vac-20251124">Vac 2025/11/24</a></li><li class="depth-1"><a href="#highlights" data-for="highlights">highlights</a></li><li class="depth-1"><a href="#vacqa" data-for="vacqa">vac:qa:</a></li><li class="depth-1"><a href="#vacdst" data-for="vacdst">vac:dst:</a></li><li class="depth-1"><a href="#vacnim" data-for="vacnim">vac:nim:</a></li><li class="depth-1"><a href="#vacp2p" data-for="vacp2p">vac:p2p:</a></li><li class="depth-1"><a href="#vactke" data-for="vactke">vac:tke:</a></li><li class="depth-1"><a href="#vacsc" data-for="vacsc">vac:sc:</a></li><li class="depth-1"><a href="#vacacz" data-for="vacacz">vac:acz:</a></li><li class="depth-1"><a href="#vacrfc" data-for="vacrfc">vac:rfc:</a></li><li class="depth-1"><a href="#vacsec" data-for="vacsec">vac:sec:</a></li><li class="depth-1"><a href="#vacweb" data-for="vacweb">vac:web:</a></li><li class="depth-1"><a href="#vacinfra" data-for="vacinfra">vac:infra:</a></li><li class="depth-1"><a href="#vacbi" data-for="vacbi">vac:bi:</a></li><li class="depth-1"><a href="#vacnescience" data-for="vacnescience">vac:nescience:</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a>, © 2026</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js?v=mq6gldi3" type="module"></script></html>

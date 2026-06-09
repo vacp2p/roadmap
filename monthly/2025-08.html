@@ -1,0 +1,1412 @@
+<!DOCTYPE html>
+<html><head><title>2025-08 Vac monthly</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="2025-08 Vac monthly"/><meta property="og:description" content="P2P § highlights § Mix senders are able to get responses from destination nodes via SURBs Universal Connectivity App work’s been completed Achieved interop between diff implementations Kademlia support will be added once Kademlia commitment is completed so in the meantime, connection to peers must be done manually Release v1."/><meta property="og:image" content="https://roadmap.vac.dev/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="P2P § highlights § Mix senders are able to get responses from destination nodes via SURBs Universal Connectivity App work’s been completed Achieved interop between diff implementations Kademlia support will be added once Kademlia commitment is completed so in the meantime, connection to peers must be done manually Release v1."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css?v=mq6gldi3" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=sans-serif:wght@400;700&amp;family=sans-serif:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js?v=mq6gldi3" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json?v=mq6gldi3`).then(data => data.json())</script></head><body data-slug="monthly/2025-08"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title "><a href="..">IFT-TS Roadmaps and Reports</a></h1><div class="spacer mobile-only"></div><div class="search "><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode "><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true"><h1>Explorer</h1><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container " aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="..">Home</a><p> > </p></div><div class="breadcrumb-element"><a href="../monthly/">monthly</a><p> > </p></div><div class="breadcrumb-element"><a href>2025-08 Vac monthly</a></div></nav><h1 class="article-title ">2025-08 Vac monthly</h1><p class="content-meta ">Jun 09, 2026, 18 min read</p><ul class="tags "><li><a href="../tags/vac-monthly" class="internal tag-link">#vac-monthly</a></li></ul></div></div><article class="popover-hint"><h3 id="p2p">P2P<a aria-hidden="true" tabindex="-1" href="#p2p" class="internal"> §</a></h3>
+<h4 id="highlights">highlights<a aria-hidden="true" tabindex="-1" href="#highlights" class="internal"> §</a></h4>
+<ul>
+<li>Mix senders are able to get responses from destination nodes via SURBs</li>
+<li>Universal Connectivity App work’s been completed
+<ul>
+<li>Achieved interop between diff implementations</li>
+<li>Kademlia support will be added once Kademlia commitment is completed so in the meantime, connection to peers must be done manually</li>
+</ul>
+</li>
+<li>Release <a href="https://github.com/vacp2p/nim-libp2p/releases/tag/v1.12.0" class="external">v1.12.0</a> of nim-libp2p</li>
+</ul>
+<h4 id="report">report<a aria-hidden="true" tabindex="-1" href="#report" class="internal"> §</a></h4>
+<ul>
+<li><code>vac:p2p:ift:2025q3-nimlibp2p-mix:mix-core</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Implemented SURBs so senders can receive replies from request/response protocols</li>
+<li>Refactorings to improve code quality and easier testing by DST</li>
+<li>Remove <code>exit == destination</code> use case as it is not part of the spec</li>
+<li>Added support for circuit relay and quic</li>
+</ul>
+</li>
+<li>Delivered deliverables:
+<ul>
+<li><a href="https://github.com/vacp2p/mix/pull/83" class="external">mix#83</a> chore: add comments to public API</li>
+<li><a href="https://github.com/vacp2p/mix/pull/81" class="external">mix#81</a> refactor: remove <code>exit == destination</code></li>
+<li><a href="https://github.com/vacp2p/mix/pull/80" class="external">mix#80</a> feat: mixrunner</li>
+<li><a href="https://github.com/vacp2p/mix/pull/79" class="external">mix#79</a> fix: don’t use global variables</li>
+<li><a href="https://github.com/vacp2p/mix/pull/78" class="external">mix#78</a> feat: replies</li>
+<li><a href="https://github.com/vacp2p/mix/pull/73" class="external">mix#73</a> feat: create SURBs and send response back</li>
+<li><a href="https://github.com/vacp2p/mix/pull/71" class="external">mix#71</a> fix: do not encode a delay for last hop</li>
+<li><a href="https://github.com/vacp2p/mix/pull/70" class="external">mix#70</a> refactor: remove entry_connection_callbacks and gossipsub related procs</li>
+<li><a href="https://github.com/vacp2p/mix/pull/69" class="external">mix#69</a> feat: add support for circuit relay multiaddresses and fixes quic multiaddresses</li>
+<li><a href="https://github.com/vacp2p/mix/pull/68" class="external">mix#68</a> feat: Add Single-Use Reply Block (SURB) Functionality</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>vac:p2p:ift:2025q2-nimlibp2p-universal-connectivity-app</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Completed the development of the universal connectivity app, with an UI and behavior that matches other implementations</li>
+<li>Implements also file exchange (which has not been completed yet by other implementations)</li>
+<li>KadDHT support is still pending as this protocol is still under active development</li>
+</ul>
+</li>
+<li>Completed tasks:
+<ul>
+<li><code>vac:p2p:ift:2025q2-nimlibp2p-universal-connectivity-app:chat</code></li>
+<li><code>vac:p2p:ift:2025q2-nimlibp2p-universal-connectivity-app:file-exchange</code></li>
+</ul>
+</li>
+<li>Delivered deliverables:
+<ul>
+<li><a href="https://github.com/vacp2p/universal-connectivity/pull/1" class="external">vacp2p/universal-connectivity#1</a></li>
+<li><a href="https://github.com/libp2p/universal-connectivity/pull/306" class="external">libp2p/universal-connectivity#306</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>vac:p2p:ift:2025q3-nimlibp2p-autonatv2</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Completed the development of the server side of the protocol</li>
+<li>Client side and Service in progress</li>
+</ul>
+</li>
+<li>Delivered deliverables:
+<ul>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1637" class="external">nim-libp2p#1637</a> Message Types</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1658" class="external">nim-libp2p#1658</a> Server</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>vac:p2p:ift:2025q3-nimlibp2p-kad-dht</code>
+<ul>
+<li>Overview
+<ul>
+<li>Implemented <code>PUT_VALUE</code></li>
+<li>Refactors and follow up on pending items from <code>FIND_NODE</code></li>
+</ul>
+</li>
+<li>Delivered deliverables:
+<ul>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1582" class="external">nim-libp2p#1624</a> feat: <code>PUT_VALUE</code></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1623" class="external">nim-libp2p#1623</a> key-refactor to not track hash-state</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>vac:p2p:ift:2025q3-nimlibp2p-maintenance:maintenance</code>
+<ul>
+<li>Overview:
+- Release <a href="https://github.com/vacp2p/nim-libp2p/releases/tag/v1.12.0" class="external">v1.12.0</a> of nim-libp2p
+<ul>
+<li>Fixed issue in which a GoAway was being sent when closing a stream, effectively disconnecting all active streams in Yamux</li>
+<li>Refactoring and code improvements over Quic, removing possible race conditions when transport is closed or EOF is sent</li>
+<li>Debugging to determine conditions under which sometimes FIN flags are not being sent</li>
+<li>Enabled Quic transport in unit tests</li>
+<li>Compile nimbus on daily</li>
+<li>Fixed transport interop tasks which was failing due to redis dependency</li>
+<li>Fixed generation of docs for nim-libp2p</li>
+</ul>
+</li>
+<li>Delivered deliverables:
+<ul>
+<li>Maintenance work is being tracked in <a href="https://github.com/vacp2p/nim-libp2p/issues/1509" class="external">Maintenance 2025Q3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>misc/admin</code>
+<ul>
+<li>Overview:
+<ul>
+<li>9.5 OOO days from CCs</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="tokenomics">Tokenomics<a aria-hidden="true" tabindex="-1" href="#tokenomics" class="internal"> §</a></h3>
+<h4 id="highlights-1">highlights<a aria-hidden="true" tabindex="-1" href="#highlights-1" class="internal"> §</a></h4>
+<ul>
+<li>Karma Incentives: Enhanced the Staking app with a Karma tier system, broader wallet support, improved faucet functionality, and seamless chain switching.</li>
+<li>Nomos Cryptoeconomics: Produced final specs for the Execution Market, Data Storage Market, Block Rewards, and Minimum Stake for SDP; contributed an overview of Nomos’ cryptoeconomics and updated KPI emission models.</li>
+<li>Research Contributions: Compiled a resource hub for Tokenomics and DeFi learners and completed a data-driven token valuation study using Random Forest Regression.</li>
+</ul>
+<h4 id="report-1">report<a aria-hidden="true" tabindex="-1" href="#report-1" class="internal"> §</a></h4>
+<ul>
+<li>
+<p><code>vac:tke:status:karma-incentives</code></p>
+<ul>
+<li>Overview:
+<ul>
+<li>Extented the Staking app with the introduction of the Karma tier system</li>
+<li>Fixed bugs and added support to more wallets based on public feedback</li>
+<li>Improved the faucet functionality</li>
+<li>Added chain check and switching functionality</li>
+</ul>
+</li>
+<li>Completed tasks:
+<ul>
+<li><code>vac:tke:status:karma-incentives:staking-demo-tiers</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>vac:tke:nomos:stress-test</code></p>
+<ul>
+<li>Overview:
+<ul>
+<li>Delievered final and revised versions of four Cryptoeconomic-related specs for Nomos, namely the Execution Market, the Data Storage Market, the Block Rewards, and the Minimum Stake for the SDP.</li>
+<li>Assisted Nomos to write an overview document about Cryptoeconomics of Nomos</li>
+</ul>
+</li>
+<li>Completed tasks:
+<ul>
+<li><code>vac:tke:nomos:stress-test:review-block-rewards</code></li>
+<li><code>vac:tke:nomos:stress-test:review-nomos-da</code></li>
+<li><code>vac:tke:nomos:stress-test:review-stake-estimation</code></li>
+<li><code>vac:tke:nomos:stress-test:review-cryptoeconomics</code></li>
+<li><code>vac:tke:nomos:stress-test:blockspace-target</code></li>
+<li><code>vac:tke:nomos:stress-test:redefine-storage</code></li>
+<li><code>vac:tke:nomos:stress-test:update-kpi-emission</code></li>
+<li><code>vac:tke:nomos:stress-test:improve-blockspace</code></li>
+<li><code>vac:tke:nomos:stress-test:review-blockspace</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>vac:tke:ift:tokenomics-research-forum</code></p>
+<ul>
+<li>Overview:
+<ul>
+<li>Prepared a general, non-exhaustive list of Tokenomics‑ and DeFi‑related links for those willing to learn more about these topics</li>
+<li>Finalized a data-driven study of token valuation metrics using Random Forest Regression</li>
+</ul>
+</li>
+<li>Completed tasks:
+<ul>
+<li><code>vac:tke:ift:tokenomics-research-forum:tke-resources</code></li>
+<li><code>vac:tke:ift:tokenomics-research-forum:token-valuation</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="qa">QA<a aria-hidden="true" tabindex="-1" href="#qa" class="internal"> §</a></h3>
+<h4 id="highlights-2">highlights<a aria-hidden="true" tabindex="-1" href="#highlights-2" class="internal"> §</a></h4>
+<ul>
+<li>Implemented onboarding flow tests and expanded accounts service coverage for <code>status-go</code>.</li>
+<li>Enhanced Waku interop tests: REST APIs, rendezvous discovery, lite protocol, and WakuCannary investigations.</li>
+<li>Expanded RLN smart contract unit tests with edge-case scenarios and reentrancy protection.</li>
+<li>Achieved major nim-libp2p testing milestones: performance testing, rendezvous tests, yamux coverage, and pagination fixes.</li>
+<li>Validated multiple Status Desktop releases, fixed failing tests, added Windows CI support, and improved load-time measurement.</li>
+<li>Advanced Keycard Shell testing: single-chain, multichain, and new OS version integrations.</li>
+<li>Launched Status Mobile framework with Appium, seed phrase tests, and accessibility hooks.</li>
+<li>Conducted hiring activities, interviews, and handled team OOO schedules.</li>
+</ul>
+<h4 id="report-2">report<a aria-hidden="true" tabindex="-1" href="#report-2" class="internal"> §</a></h4>
+<ul>
+<li><code>status:2025q3-status-go-functional-testing:critical-flows</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Added onboarding, backup/restore, account creation, and accounts service tests across multiple phases.</li>
+<li>Logged issues for seed account problems and message delivery failures.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li>PRs: <a href="https://github.com/status-im/status-go/pull/6789" class="external">6789</a>, <a href="https://github.com/status-im/status-go/pull/6795" class="external">6795</a>, <a href="https://github.com/status-im/status-go/pull/6814" class="external">6814</a>, <a href="https://github.com/status-im/status-go/pull/6850" class="external">6850</a>, <a href="https://github.com/status-im/status-go/pull/6859" class="external">6859</a></li>
+<li>Issues: <a href="https://github.com/status-im/status-go/issues/6849" class="external">6849</a>, <a href="https://github.com/status-im/status-go/issues/6857" class="external">6857</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>status:2025q3-status-go-functional-testing:framework-improvements</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Refactored schema validation and improved test reliability for status-go backend.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li>PRs: <a href="https://github.com/status-im/status-go/pull/6806" class="external">6806</a>, <a href="https://github.com/status-im/status-go/pull/6827" class="external">6827</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>waku:2025q3-interop-testing:wakucannary</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Developed WebSocket protocol tests, debugged connection issues, logged infra problems.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li>PRs: <a href="https://github.com/waku-org/waku-interop-tests/pull/130" class="external">130</a></li>
+<li>Issues: <a href="https://github.com/waku-org/nwaku/issues/3546" class="external">3546</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>waku:2025q3-interop-testing:REST-APIs-Extended</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Added debug/admin API coverage, log-level tests, and resolved peer connection inconsistencies.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li>PRs: <a href="https://github.com/waku-org/waku-interop-tests/pull/133" class="external">133</a>, <a href="https://github.com/waku-org/waku-interop-tests/pull/134" class="external">134</a></li>
+<li>Issues: <a href="https://github.com/waku-org/nwaku/issues/3541" class="external">3541</a>, <a href="https://github.com/waku-org/nwaku/issues/3542" class="external">3542</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>waku:2025q3-interop-testing:rendezvous-peer-discovery</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Implemented and debugged peer discovery tests, reported blocking infra issues.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li>PRs: <a href="https://github.com/waku-org/waku-interop-tests/pull/132" class="external">132</a></li>
+<li>Issues: <a href="https://github.com/waku-org/nwaku/issues/3549" class="external">3549</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>waku:2025q3-interop-testing:liteprotocoltester</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Started Store protocol testing using performance scripts and automation.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li>PRs: <a href="https://github.com/waku-org/waku-interop-tests/pull/135" class="external">135</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>waku:2025q3-waku-go-bindings-testing:12hlongevity</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Enhanced CI scripts, optimized memory usage logging, and filtered flaky tests.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li>PRs: <a href="https://github.com/waku-org/waku-go-bindings/pull/89" class="external">89</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>waku:2025q3-rln-smart-contract-testing:edge-cases</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Expanded unit tests, added reentrancy protection, addressed edge conditions.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li>PRs: <a href="https://github.com/waku-org/waku-rlnv2-contract/pull/31" class="external">31</a></li>
+<li>Issues: <a href="https://github.com/waku-org/waku-rlnv2-contract/issues/32" class="external">32</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>vac:2025q3-nim-libp2p-testing:gossipsub-performance</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Merged base scenarios, aggregation scripts, docker stats, and latency history visualization.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li>PRs: <a href="https://github.com/vacp2p/nim-libp2p/pull/1573" class="external">1573</a>, <a href="https://github.com/vacp2p/nim-libp2p/pull/1577" class="external">1577</a>, <a href="https://github.com/vacp2p/nim-libp2p/pull/1585" class="external">1585</a>, <a href="https://github.com/vacp2p/nim-libp2p/pull/1593" class="external">1593</a>, <a href="https://github.com/vacp2p/nim-libp2p/pull/1597" class="external">1597</a>, <a href="https://github.com/vacp2p/nim-libp2p/pull/1608" class="external">1608</a>, <a href="https://github.com/vacp2p/nim-libp2p/pull/1617" class="external">1617</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>vac:2025q3-nim-libp2p-testing:rendezvous</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Refactored rendezvous tests, fixed pagination issues, and started new scenario coverage.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li>PRs: <a href="https://github.com/vacp2p/nim-libp2p/pull/1644" class="external">1644</a>, <a href="https://github.com/vacp2p/nim-libp2p/pull/1646" class="external">1646</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>vac:2025q3-nim-libp2p-testing:yamux</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Added header and frame handling tests before yamux deprecation notice.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li>PRs: <a href="https://github.com/vacp2p/nim-libp2p/pull/1625" class="external">1625</a>, <a href="https://github.com/vacp2p/nim-libp2p/pull/1634" class="external">1634</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>keycard:2025q3-keycard-testing:shell-tests</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Completed single-chain, multichain, and OS v0.10 wallet tests with SLIP39 verification.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li>Reports: <a href="https://www.notion.so/Keycard-Shell-Test-Results-22b8f96fb65c80faa06fcc195373624b" class="external">Keycard Shell Test Results</a>, <a href="https://www.notion.so/3rd-Party-Wallet-Integration-Smoke-Test-2578f96fb65c80d8b7d2c5ab30addd0e" class="external">3rd Party Wallet Smoke Test</a>, <a href="https://www.notion.so/2548f96fb65c8036961ef84e3cbc71cc?v=2548f96fb65c80b0b2ed000c09db9e3a" class="external">SLIP39 Tests</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>status:2025q3-status-qa-desktop:maintenance</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Fixed failing tests, added Windows CI support, improved load time measurement, and cleaned backlog.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li>PRs: <a href="https://github.com/status-im/status-desktop/pull/18445" class="external">18445</a>, <a href="https://github.com/status-im/status-desktop/pull/18470" class="external">18470</a>, <a href="https://github.com/status-im/status-desktop/pull/18672" class="external">18672</a>, <a href="https://github.com/status-im/status-desktop/pull/18603" class="external">18603</a>, <a href="https://github.com/status-im/status-desktop/pull/18574" class="external">18574</a>, <a href="https://github.com/status-im/status-desktop/pull/18735" class="external">18735</a>, <a href="https://github.com/status-im/status-desktop/pull/18726" class="external">18726</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>status:2025q3-status-qa-desktop:release-testing</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Supported releases 2.35/2.36, validated Nwaku builds, monitored crashes, tested fixes.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li>Issues: <a href="https://github.com/status-im/status-desktop/issues/18458" class="external">18458</a>, <a href="https://github.com/status-im/status-desktop/issues/18471" class="external">18471</a>, <a href="https://github.com/status-im/status-desktop/issues/18503" class="external">18503</a>, <a href="https://github.com/status-im/status-desktop/issues/18522" class="external">18522</a>, <a href="https://github.com/status-im/status-desktop/issues/18524" class="external">18524</a>, <a href="https://github.com/status-im/status-desktop/issues/18555" class="external">18555</a>, <a href="https://github.com/status-im/status-desktop/issues/18569" class="external">18569</a>, <a href="https://github.com/status-im/status-desktop/issues/18601" class="external">18601</a></li>
+<li>PRs: <a href="https://github.com/status-im/status-desktop/pull/18532" class="external">18532</a>, <a href="https://github.com/status-im/status-desktop/pull/18539" class="external">18539</a>, <a href="https://github.com/status-im/status-desktop/pull/18558" class="external">18558</a>, <a href="https://github.com/status-im/status-desktop/pull/18495" class="external">18495</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>status:2025q3-status-qa-desktop:app-load-time</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Added initial wallet loading time measurement tests.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li>PRs: <a href="https://github.com/status-im/status-desktop/pull/18592" class="external">18592</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>status:2025q3-status-qa-mobile:framework-adjustments</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Developed Appium framework, CI integration, accessibility hooks, and recovery phrase fixtures.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li>PRs: <a href="https://github.com/status-im/status-desktop/pull/18366" class="external">18366</a>, <a href="https://github.com/status-im/status-desktop/pull/18670" class="external">18670</a>, <a href="https://github.com/status-im/status-desktop/pull/18698" class="external">18698</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>status:2025q3-status-qa-documentation:requirements-framework</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Built initial data model for headless CMS-based requirements tracking.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>admin/misc</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Managed hiring pipeline, interviews, planning, and OOO scheduling.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li>OOO: 24 CC Days</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="dst">DST<a aria-hidden="true" tabindex="-1" href="#dst" class="internal"> §</a></h3>
+<h4 id="highlights-3">highlights<a aria-hidden="true" tabindex="-1" href="#highlights-3" class="internal"> §</a></h4>
+<ul>
+<li>Discovered a bug in Grafana thanks fo Infra team</li>
+<li>Discovered issue in Status functional tests</li>
+<li>Created docker utility for nwaku interaction</li>
+<li>Started working on a libp2p cross implementation repository</li>
+</ul>
+<h4 id="report-3">report<a aria-hidden="true" tabindex="-1" href="#report-3" class="internal"> §</a></h4>
+<ul>
+<li><code>admin/misc</code>
+<ul>
+<li>Overview
+<ul>
+<li>2 sick leave days from CCs</li>
+<li>7 OOO days from CCs</li>
+<li>Meetings with new CC to explain DST workflow</li>
+<li>Cleared Grafana dashboards, discovered Grafana but with infra team
+<ul>
+<li>Github issue in Grafana repo not created yet because lack of time.</li>
+<li>Related issues for track:
+<ul>
+<li><a href="https://github.com/grafana/grafana/issues/95946" class="external">Github: Issue</a></li>
+<li><a href="https://github.com/grafana/grafana/issues/96063" class="external">Github: Issue</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Call with Waku for setting Tailscale + Grafana + Victorialogs</li>
+<li>Create <a href="https://github.com/orgs/vacp2p/projects/9/views/4?sliceBy%5Bvalue%5D=2025Q3" class="external">DST Github Timeline 2025Q3</a> for tracking task dates.</li>
+<li>Call with Status from Status to check status scalability
+<ul>
+<li>Discussed several follow ups</li>
+<li>Discovered issues in Status functional tests</li>
+</ul>
+</li>
+<li>Created <a href="https://www.notion.so/Lab-usage-information-24c8f96fb65c8024bb98e5b240eecbdd" class="external">lab usage information notion page</a></li>
+<li>Published research blog on <a href="https://vac.dev/rlog/gsub-perf-imp-comparison" class="external">GossipSub improvements comparison</a></li>
+<li>Created requested VM for ACZ</li>
+<li>Created job description for DevOps</li>
+<li>Call with Codex team
+<ul>
+<li>Discussed differences between both frameworks, and approaches that could be taken</li>
+<li>Created notion document for next steps on the framework</li>
+</ul>
+</li>
+<li>Coordinate with Nescience to use this machine next week</li>
+<li>Track <a href="https://github.com/libp2p/specs/pull/695" class="external">gossipsub metrics spec draft</a></li>
+</ul>
+</li>
+<li>Delivered deliverables
+<ul>
+<li><a href="https://github.com/orgs/vacp2p/projects/9/views/4?sliceBy%5Bvalue%5D=2025Q3" class="external">Github: DST Timeline</a></li>
+<li><a href="https://www.notion.so/Lab-usage-information-24c8f96fb65c8024bb98e5b240eecbdd" class="external">Notion: Lab usage information notion page</a></li>
+<li><a href="https://vac.dev/rlog/gsub-perf-imp-comparison" class="external">Vac.dev: GossipSub improvements comparison</a></li>
+<li><a href="https://www.notion.so/Deployment-Workflow-25d8f96fb65c80f7801ce9a06dede8a4" class="external">Notion: Workflow Document</a></li>
+<li><a href="https://github.com/status-im/infra-misc/pull/428" class="external">Github PR: Keys for ACZ in DST machine</a></li>
+</ul>
+</li>
+<li>Closed tasks
+<ul>
+<li>No closed tasks</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>vac:dst:ift:2025q3-dst-research-destination</code>
+<ul>
+<li>Overview
+<ul>
+<li>Worked on EF proposal:
+<ul>
+<li>Add comparisons of Shadow and Kurtosis. Testground still missing.</li>
+<li>Add another DST CC, and some links with his work</li>
+<li>Answered some doc comments</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Delivered deliverables</li>
+<li>Closed tasks</li>
+</ul>
+</li>
+<li><code>vac:dst:vac:2025q3-libp2p-evaluation</code>
+<ul>
+<li>Overview
+<ul>
+<li>Regression analysis for nim-libp2p 1.12
+<ul>
+<li>Bandwidth weird patterns helped discover lab inestabilities again</li>
+<li>Bandwidth measurements are not accurate because of this</li>
+<li>Still can be checked that Quic is not fully stable yet</li>
+</ul>
+</li>
+<li>Started second Mix analysis</li>
+</ul>
+</li>
+<li>Delivered deliverables
+<ul>
+<li><a href="https://www.notion.so/Nim-libp2p-v1-12-0-regression-testing-August-2025-WIP-2468f96fb65c8071b0a4dbf6f5807e94" class="external">Notion: nim-libp2p v1.12 Report</a></li>
+<li><a href="https://github.com/vacp2p/dst-gossipsub-test-node/commit/f05cc4ea7b7715f82110adfb9567b87231b1b320" class="external">Github commit: Fix for build docker</a></li>
+<li><a href="https://github.com/vacp2p/10ksim/pull/137" class="external">Github PR: DRAFT mix node deployment changes</a></li>
+</ul>
+</li>
+<li>Closed tasks
+<ul>
+<li><code>vac:dst:vac:2025q3-libp2p-evaluation:regression-testing</code></li>
+<li><code>vac:dst:vac:2025q3-libp2p-evaluation:evaluate-quic-v0.2.9</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>vac:dst:waku:2025q3-waku-evaluation</code>
+<ul>
+<li>Overview
+<ul>
+<li>Analyze discv5 usage from waku. Not as high as initially expected.</li>
+<li>Discovered discrepancies in store protocol when hitting messages endpoint (PEER_DIAL_FAILURE).</li>
+<li>Upgraded <code>getEnr.tpl</code> and <code>getAddress.tpl</code> so it can be used to generate k8s deployment template for jswaku</li>
+</ul>
+</li>
+<li>Delivered deliverables
+<ul>
+<li><a href="https://www.notion.so/Waku-Discv5-analysis-over-time-2378f96fb65c80a5b60bc24d09b5de3a?showMoveTo=true&amp;saveParent=true" class="external">Notion: Nwaku 0.36 discv5 analysis</a></li>
+<li><a href="https://github.com/waku-org/nwaku/issues/3524" class="external">Github: Issue - PEER_DIAL_FAILURE</a></li>
+<li><a href="https://github.com/waku-org/js-waku/issues/2565" class="external">Github Issue: jswaku nodes don’t connect to peers</a></li>
+<li><a href="https://github.com/vacp2p/10ksim/pull/133" class="external">Github PR: lightpush client and getAddress fixes</a></li>
+</ul>
+</li>
+<li>Closed tasks
+<ul>
+<li><code>vac:dst:waku:2025q3-waku-evaluation:regression-testing</code></li>
+<li><code>vac:dst:waku:2025q3-waku-evaluation:discv5-feasibility-comparison</code></li>
+<li><code>vac:dst:waku:2025q3-waku-evaluation:store-dial-failure-followup</code></li>
+<li><code>vac:dst:waku:2025q3-waku-evaluation:js-waku</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>vac:dst:waku:2025q3-dst-tooling</code>
+<ul>
+<li>Overview
+<ul>
+<li>Added logging of events to experiments framework and use it to automatically generate time intervals for analysis script</li>
+<li>Changed requirements for uv in 10ksim repo
+<ul>
+<li>Removed unused functionalities</li>
+</ul>
+</li>
+<li>Improved special character replacement when doing queries</li>
+<li>Update getenr version to support quering different services</li>
+<li>Moved waku request functionalities to a new repository
+<ul>
+<li>Add debug mode for message store requester</li>
+</ul>
+</li>
+<li>Added Events logging</li>
+<li>Working on shadow integration in workflow
+<ul>
+<li>Shadow test runs with both, docker executable and build method</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Delivered deliverables
+<ul>
+<li><a href="https://github.com/vacp2p/10ksim/pull/78" class="external">Github PR: Logging events</a></li>
+<li><a href="https://github.com/vacp2p/10ksim/pull/130" class="external">Github PR: UV</a></li>
+<li><a href="http://github.com/vacp2p/10ksim/pull/128" class="external">Github PR: Better query parsing</a></li>
+<li><a href="https://github.com/vacp2p/10ksim/pull/127" class="external">Github PR: Update getenr</a></li>
+<li><a href="https://github.com/vacp2p/pod-api-requester/pull/1" class="external">Github PR: msg_retriever debug mode</a></li>
+<li><a href="https://github.com/vacp2p/pod-api-requester" class="external">Github repo: Pod requester</a></li>
+<li><a href="https://github.com/vacp2p/10ksim/pull/78" class="external">Github PR: Events logging</a></li>
+<li><a href="https://github.com/vacp2p/10ksim/pull/124" class="external">Github PR: Reorganize repo</a></li>
+<li><a href="https://github.com/vacp2p/10ksim/pull/134" class="external">Github PR: Organize experiment output better</a></li>
+<li><a href="https://github.com/vacp2p/10ksim/pull/132" class="external">Github PR: BaseExperiment deploy</a></li>
+<li><a href="https://github.com/vacp2p/10ksim/pull/131" class="external">Github PR: Events refactor</a></li>
+<li><a href="https://github.com/vacp2p/10ksim/pull/136" class="external">Github PR: Add cls.name when registering experiments</a></li>
+<li><a href="https://github.com/vacp2p/dst-libp2p-test-node/tree/master" class="external">Github repo: libp2p cross-implementation nodes</a></li>
+</ul>
+</li>
+<li>Closed tasks
+<ul>
+<li><code>vac:dst:waku:2025q3-dst-tooling:general-tooling</code> (recurring)</li>
+<li><code>vac:dst:ift:2025q3-dst-tooling:python-uv</code></li>
+<li><code>vac:dst:ift:2025q3-dst-tooling:improve-tooling</code></li>
+<li><code>vac:dst:ift:2025q3-dst-tooling:shadow-integration-scaffold</code></li>
+<li><code>vac:dst:ift:2025q3-dst-tooling:workdir-experiments-track</code></li>
+<li><code>vac:dst:ift:2025q3-dst-tooling:deployment-updates</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>vac:dst:status:2025q3-status-go-chat-protocol-benchmarks</code>
+<ul>
+<li>Overview
+<ul>
+<li>Status-waku discovered an issue with bootstraping
+<ul>
+<li>Call with waku to debug issue, and analyzed behavior depending on how waku is connected.</li>
+<li>Confirmed that peers added through <code>staticnode</code> argument are not exposed to be discovered even they have discv5 enabled.</li>
+<li>Discussions and troubleshooting to help status</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Delivered deliverables
+<ul>
+<li><a href="https://github.com/status-im/status-go/issues/6886#issuecomment-3243230720" class="external">Github Issue by Status</a></li>
+</ul>
+</li>
+<li>Closed tasks
+<ul>
+<li><code>vac:dst:status:2025q3-status-go-chat-protocol-benchmarks:delay-and-store</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="sc">SC<a aria-hidden="true" tabindex="-1" href="#sc" class="internal"> §</a></h3>
+<h4 id="highlights-4">highlights<a aria-hidden="true" tabindex="-1" href="#highlights-4" class="internal"> §</a></h4>
+<ul>
+<li>Participated in 2 contests, lots of learnings</li>
+<li>Moved StatusL2 contract to mono repo</li>
+<li>Certora alternative research ongoing</li>
+</ul>
+<h4 id="report-4">report<a aria-hidden="true" tabindex="-1" href="#report-4" class="internal"> §</a></h4>
+<ul>
+<li><code>ift:2025q3-security-audits</code>
+<ul>
+<li>Participated in two public audit contests</li>
+<li>Learnings were turned into a learnup session</li>
+<li><strong>Completed tasks</strong>
+<ul>
+<li>This is ongoing</li>
+</ul>
+</li>
+<li><strong>Deliverables</strong>
+<ul>
+<li><a href="https://www.notion.so/Understanding-Lending-Protocols-2578f96fb65c80e09ebaec1527ca2935" class="external">LearnUp Session on Lending Protocols</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>status:2025q3-maintaining-status-contracts</code>
+<ul>
+<li>Moved StatusL2 related contracts to status network monorepo</li>
+<li>Implemented various features and fixes in the staking protocol</li>
+<li><strong>Completed tasks</strong>
+<ul>
+<li>No concrete tasks were planned</li>
+</ul>
+</li>
+<li><strong>Deliverables</strong>
+<ul>
+<li>No concrete deliverables were planned</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>ift:2025q3-sc-learnup-sessions</code>
+<ul>
+<li>Held and recorded learn up session on Understanding Lending protocls</li>
+<li><strong>Completed tasks</strong>
+<ul>
+<li><code>ift:2025q3-sc-learnup-sessions:2025-08</code></li>
+</ul>
+</li>
+<li><strong>Deliverables</strong>
+<ul>
+<li><a href="https://www.notion.so/Understanding-Lending-Protocols-2578f96fb65c80e09ebaec1527ca2935" class="external">Video Recording of LearnUp Session</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>ift:2025q3-fv-tools-research</code>
+<ul>
+<li>Researched alternatives for Certora as a tool for formal verification</li>
+<li>Tried out “Kontrol” and ran quickly into issues and limitations</li>
+<li>Also played around with selfhosted open source version of Certora</li>
+<li>So far, verdict is to use OSS Certora locally for quick runs and use SaaS for debugging</li>
+<li>We’re creating a document with the results</li>
+<li><strong>Completed tasks</strong>
+<ul>
+<li>This is not done, but rather ongoing</li>
+</ul>
+</li>
+<li><strong>Deliverables</strong>
+<ul>
+<li>Document with results not yet finished</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="acz">ACZ<a aria-hidden="true" tabindex="-1" href="#acz" class="internal"> §</a></h3>
+<h4 id="highlights-5">highlights<a aria-hidden="true" tabindex="-1" href="#highlights-5" class="internal"> §</a></h4>
+<ul>
+<li>Released first version of <a href="https://rfc.vac.dev/vac/raw/eth-mls-offchain" class="external">de-MLS RFC</a></li>
+<li>Improved CONTRIBUTING.md for zerokit by an external <a href="https://github.com/vacp2p/zerokit/pull/331" class="external">PR</a></li>
+<li>Released Zerokit performance blog post: <a href="https://vac.dev/rlog/2025-zerokit-perf" class="external">Zerokit optimizations: A performance journey </a></li>
+</ul>
+<h4 id="report-5">report<a aria-hidden="true" tabindex="-1" href="#report-5" class="internal"> §</a></h4>
+<ul>
+<li>
+<p><code>ift:2025q3-de-mls-testnet</code></p>
+<ul>
+<li>Overview:
+<ul>
+<li>Implemented hashlike consensus for de-MLS</li>
+<li>Improved CONTRIBUTING.md for zerokit by an external <a href="https://github.com/vacp2p/zerokit/pull/331" class="external">PR</a></li>
+</ul>
+</li>
+<li>Delivered deliverables:
+<ul>
+<li><a href="https://github.com/vacp2p/de-mls/pull/43" class="external">chore: implement consensus mechanism #43</a></li>
+<li><a href="https://github.com/vacp2p/zerokit/pull/331" class="external">docs: add comprehensive CONTRIBUTING.md with contributing guidelines #331</a></li>
+<li><a href="https://github.com/vacp2p/rfc-index/pull/166" class="external">VAC/RAW/ ETH-MLS-OFFCHAIN RFC PR #166</a></li>
+</ul>
+</li>
+<li>Completed tasks:</li>
+</ul>
+</li>
+<li>
+<p><code>ift:2025q3-zerokit</code></p>
+<ul>
+<li>Overview:
+<ul>
+<li>Improved CI for zerokit</li>
+<li>Improved parallelizm in wasm</li>
+<li>Started to integrate big-endian (BE) support</li>
+<li>Update docs for merkle tree for zerokit</li>
+<li>Released zerokit performance improvement <a href="https://vac.dev/rlog/2025-zerokit-perf" class="external">blog post</a></li>
+</ul>
+</li>
+<li>Delivered deliverables:
+<ul>
+<li><a href="https://github.com/vacp2p/zerokit/pull/326" class="external">feat: support feature-specific binary generation PR#326</a></li>
+<li><a href="https://github.com/vacp2p/zerokit/pull/328" class="external">feat: add wasm parallel testcase PR#328</a></li>
+<li><a href="https://github.com/vacp2p/pmtree/pull/4" class="external">feat: bump rayon version, parallel feature flag PR#4</a></li>
+<li><a href="https://github.com/vacp2p/zerokit/pull/329" class="external">feat: resolve overlap between stateless and merkletree feature flags #329 </a></li>
+<li><a href="https://github.com/vacp2p/zerokit/pull/330" class="external">feat(rln): add big endian support for the whole API #330</a></li>
+<li><a href="https://github.com/vacp2p/zerokit/pull/332#issue-3277195280" class="external">feat(rln-wasm-utils): extracting the generation and hash functions into a separate module #332</a></li>
+<li><a href="https://github.com/vacp2p/zerokit/pull/333" class="external">chore: consistent naming and update docs for merkle trees #333</a></li>
+<li><a href="https://vac.dev/rlog/2025-zerokit-perf" class="external">Zerokit optimizations: A performance journey </a></li>
+</ul>
+</li>
+<li>Completed tasks:
+<ul>
+<li><code>ift:2025q3-zerokit:ci-revising</code></li>
+<li><code>ift:2025q3-zerokit:rln-wasm-maintaining</code></li>
+<li><code>ift:2025q3-zerokit:merkle-tree-revising</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>ift:2025q3-rln-status-l2</code></p>
+<ul>
+<li>Overview:
+<ul>
+<li>Tested smart contract intections with prover</li>
+<li>Tested e2e functionality</li>
+<li>Maintain <a href="https://github.com/vacp2p/status-rln-prover/" class="external">rln-prover repo</a> with CI workflow, update Zerokit version</li>
+<li>Began work on stress testing the prover module for shadow benchmarking</li>
+<li>Drafted decentralizes slashing document</li>
+</ul>
+</li>
+<li>Delivered deliverables:
+<ul>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/24" class="external">Test and fix smart contract interaction #24</a></li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/23" class="external">Update for new KarmaTiers smart contract #23</a></li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/28" class="external">Extend testcase timeout to prevent panic, seperate anvil feature for testcase. PR #28</a></li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/30" class="external">Use exact zerokit version, move common deps to workspace, remove unuse deps to reduce build size PR #30</a></li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/27" class="external">Add zeroize support for private key PR #27</a></li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/22" class="external">Add throughput measurement for prover benchmark PR #22</a></li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/21" class="external">Split unit tests in several new files PR #21</a></li>
+<li><a href="https://www.notion.so/Decentralized-slashing-2558f96fb65c8000b3f2df2d871633cc" class="external">Decentralized slashing document</a></li>
+</ul>
+</li>
+<li>Completed tasks:
+<ul>
+<li><code>ift:2025q3-rln-status-l2:sc-testing</code></li>
+<li><code>ift:2025q3-rln-status-l2:track-and-monitor</code></li>
+<li><code>ift:2025q3-rln-status-l2:profiling</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>ift:2025q3-ift-zk-calls</code></p>
+<ul>
+<li>Overview:
+<ul>
+<li>August IFT ZK Call is conducted</li>
+</ul>
+</li>
+<li>Delivered deliverables:
+<ul>
+<li><a href="https://www.youtube.com/watch?v=rJpjX_3JxwE" class="external">Presentation record</a></li>
+<li><a href="https://forum.vac.dev/t/discussion-on-the-sumcheck-protocol/401" class="external">Forum post</a></li>
+</ul>
+</li>
+<li>Completed tasks:
+<ul>
+<li><code>ift:2025q3-ift-zk-calls:ift-zk-call-2</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>ift:2025q3-libp2p-mix-testnet</code></p>
+<ul>
+<li>Overview:
+<ul>
+<li>Resuming updating <a href="https://github.com/vacp2p/rfc-index/pull/173" class="external">libp2p-mix RFC</a></li>
+<li>Resuming consulting P2P team</li>
+<li>Identifying the requirements for multi-SURB</li>
+</ul>
+</li>
+<li>Delivered deliverables:
+<ul>
+<li><a href="https://github.com/vacp2p/mix/issues/41" class="external">Support for Anonymous Replies Using SURBs issue #41</a></li>
+</ul>
+</li>
+<li>Completed tasks:</li>
+</ul>
+</li>
+<li>
+<p><code>nes:2025q3-nescience-consulting</code></p>
+<ul>
+<li>Overview:
+<ul>
+<li>Finished specs for key protocol</li>
+<li>Deliver cosmos-l2-feasibility zone document</li>
+<li>Started to work on deep dive existing project</li>
+</ul>
+</li>
+<li>Delivered deliverables:
+<ul>
+<li><a href="https://www.notion.so/Concrete-key-protocol-specifications-23b8f96fb65c8011b488c8fe0d2f87ae" class="external">Concrete key protocol specifications</a></li>
+<li><a href="https://www.notion.so/NSSA-as-a-Cosmos-Zone-2388f96fb65c8042ad4ae1e805fcc604" class="external">NSSA as a Cosmos Zone</a></li>
+</ul>
+</li>
+<li>Completed tasks:
+<ul>
+<li><code>nes:2025q3-nescience-consulting:key-protocol-spec</code></li>
+<li><code>nes:2025q3-nescience-consulting:cosmos-l2-feasibility</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>nomos:2025q3-nomos-consulting</code></p>
+<ul>
+<li>Overview:
+<ul>
+<li>Review Nomos doc for total stake</li>
+</ul>
+</li>
+<li>Delivered deliverables:
+<ul>
+<li><a href="https://nomos-tech.notion.site/Total-Stake-Inference-Analysis-237261aa09df800285cccbb00b3aeb0a" class="external">Total Stake Inference Analysis</a></li>
+</ul>
+</li>
+<li>Completed tasks:
+<ul>
+<li><code>nomos:2025q3-nomos-consulting:zk-consulting-nomos-2</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="rfc">RFC<a aria-hidden="true" tabindex="-1" href="#rfc" class="internal"> §</a></h3>
+<h4 id="highlights-6">highlights<a aria-hidden="true" tabindex="-1" href="#highlights-6" class="internal"> §</a></h4>
+<ul>
+<li>Merged the first batch of Nomos specs.</li>
+<li>Started hands-on work on first Codex specs.</li>
+<li>Started work on Logos POCs.</li>
+</ul>
+<h4 id="report-6">report<a aria-hidden="true" tabindex="-1" href="#report-6" class="internal"> §</a></h4>
+<ul>
+<li><code>vac:rfc:waku:2025q3-rfc-iteration</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Work in progress, business as usual: current scope qaku and maintenance of other specs.</li>
+<li>Created a list of Waku specs for q4: 21/WAKU2-FAULT-TOLERANT-STORE, 34/WAKU2-PEER-EXCHANGE, WAKU2-NOISE-SESSIONS, WAKU2-NOISE</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li><code>vac:rfc:waku:2025q3-rfc-iteration:rln-keystore</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>vac:rfc:codex:2025q3-rfc-iteration</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Started reviewing the new codex specs, right now focus on Slot-builder and DHT</li>
+</ul>
+</li>
+<li>Delivered deliverables:
+<ul>
+<li>WIP</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>`vac:rfc:nomos:2025q3-rfc-iteration
+<ul>
+<li>Overview:
+<ul>
+<li>Completed and merged the initial batch of specs, now focusing on full v1.</li>
+</ul>
+</li>
+<li>Delivered Deliverables:
+<ul>
+<li><code>vac:rfc:nomos:2025q3-rfc-iteration:da-network</code></li>
+<li><code>vac:rfc:nomos:2025q3-rfc-iteration:p2p-network</code></li>
+<li><code>vac:rfc:nomos:2025q3-rfc-iteration:hardware-requirements</code></li>
+<li><code>vac:rfc:nomos:2025q3-rfc-iteration:da-encoding</code></li>
+<li><code>vac:rfc:nomos:2025q3-rfc-iteration:sdp</code></li>
+<li><code>vac:rfc:nomos:2025q3-rfc-iteration:mantle-digital-signature</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>vac:rfc:logos:2025q3-rfc-iteration:logos-pocs</code>
+<ul>
+<li>Overview:
+<ul>
+<li>Started reading the documentation and creating a wireframe according to COSS.</li>
+</ul>
+</li>
+<li>Delivered deliverables:
+<ul>
+<li>[WIP] <a href="https://github.com/logos-co/logos-core-poc/blob/develop/docs/specs.md" class="external">https://github.com/logos-co/logos-core-poc/blob/develop/docs/specs.md</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>admin-misc</code>
+<ul>
+<li>1 CC OOO for 10 days.</li>
+</ul>
+</li>
+</ul>
+<h3 id="nim">Nim<a aria-hidden="true" tabindex="-1" href="#nim" class="internal"> §</a></h3>
+<h4 id="highlights-7">highlights<a aria-hidden="true" tabindex="-1" href="#highlights-7" class="internal"> §</a></h4>
+<h4 id="report-7">report<a aria-hidden="true" tabindex="-1" href="#report-7" class="internal"> §</a></h4>
+<ul>
+<li>
+<p><code>ift:2025q3-nimble</code></p>
+<ul>
+<li>Overview:
+<ul>
+<li>All work below is towards the road to Nimble version 1.0.0.</li>
+</ul>
+</li>
+<li>Delivered deliverables:
+<ul>
+<li><a href="https://github.com/nim-lang/nimble/pull/1431" class="external">https://github.com/nim-lang/nimble/pull/1431</a></li>
+<li><a href="https://github.com/status-im/nimbus-build-system/pull/106" class="external">https://github.com/status-im/nimbus-build-system/pull/106</a></li>
+<li><a href="https://github.com/nim-lang/nimble/pull/1431" class="external">https://github.com/nim-lang/nimble/pull/1431</a></li>
+<li><a href="https://github.com/nim-lang/nimble/pull/1433" class="external">https://github.com/nim-lang/nimble/pull/1433</a></li>
+<li><a href="https://github.com/nim-lang/nimble/pull/1435" class="external">https://github.com/nim-lang/nimble/pull/1435</a></li>
+<li><a href="https://github.com/nim-lang/nimble/pull/1436" class="external">https://github.com/nim-lang/nimble/pull/1436</a></li>
+<li><a href="https://github.com/nim-lang/nimble/pull/1437" class="external">https://github.com/nim-lang/nimble/pull/1437</a></li>
+<li><a href="https://github.com/nim-lang/nimble/pull/1439" class="external">https://github.com/nim-lang/nimble/pull/1439</a></li>
+<li><a href="https://github.com/nim-lang/nimble/pull/1440" class="external">https://github.com/nim-lang/nimble/pull/1440</a></li>
+<li><a href="https://github.com/nim-lang/nimble/pull/1441" class="external">https://github.com/nim-lang/nimble/pull/1441</a></li>
+<li><a href="https://github.com/nim-lang/nimble/pull/1442" class="external">https://github.com/nim-lang/nimble/pull/1442</a></li>
+<li><a href="https://github.com/nim-lang/nimble/pull/1443" class="external">https://github.com/nim-lang/nimble/pull/1443</a></li>
+<li><a href="https://github.com/nim-lang/nimble/pull/1446" class="external">https://github.com/nim-lang/nimble/pull/1446</a></li>
+<li><a href="https://github.com/nim-lang/nimble/pull/1448" class="external">https://github.com/nim-lang/nimble/pull/1448</a></li>
+<li><a href="https://github.com/nim-lang/nimble/issues/1449" class="external">https://github.com/nim-lang/nimble/issues/1449</a></li>
+<li><a href="https://github.com/nim-lang/nimble/pull/1452" class="external">https://github.com/nim-lang/nimble/pull/1452</a></li>
+<li><a href="https://github.com/nim-lang/nimble/pull/1453" class="external">https://github.com/nim-lang/nimble/pull/1453</a></li>
+<li><a href="https://github.com/nim-lang/nimble/pull/1457" class="external">https://github.com/nim-lang/nimble/pull/1457</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>vac:nim:ift:2025q3-nim-core-libs:nim-cbor-serialization</code></p>
+<ul>
+<li>Overview:
+<ul>
+<li>New CC joined to work on Nim Core Libs, initial focus on nim-cbor-serialization.</li>
+<li>Setup CI workflow: tests, nph lint</li>
+<li>Added docs, book, examples</li>
+<li>Plugable bignum support</li>
+<li>Refactored bigints into a plugin</li>
+<li>Added missing <code>CborRaw</code> type to parse/write raw CBOR data</li>
+</ul>
+</li>
+<li>Delivered deliverables:
+<ul>
+<li><a href="https://github.com/vacp2p/nim-cbor-serialization/pull/1" class="external">https://github.com/vacp2p/nim-cbor-serialization/pull/1</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="security">Security<a aria-hidden="true" tabindex="-1" href="#security" class="internal"> §</a></h3>
+<h4 id="highlights-8">highlights<a aria-hidden="true" tabindex="-1" href="#highlights-8" class="internal"> §</a></h4>
+<ul>
+<li>Reviewed and updated the Master Wallet Index repository</li>
+<li>Created a Signing Account Index</li>
+<li>Reviewed and updated the Multisig Owner Addition Process</li>
+<li>Removed users and groups no longer needed in critical services and apps</li>
+<li>Shared web3 news about crime, phishing, malware, hacks and IoC with Finance</li>
+<li>Started integrating the multisig wallet validator to n8n</li>
+<li>Finalized workflows and tests for log extraction from Google and Github</li>
+<li>Finalized workflows for verifying inactive users from Google, Github, Notion, Discord</li>
+<li>Updated IR runbooks with a “first-hour” response checklist for phishing incidents</li>
+<li>Conducted a short tabletop exercise with key stakeholders simulating a wallet compromise scenario</li>
+<li>Investigated new bug bounty submissions with PoC validation against staging environment</li>
+<li>Wrote and shared mid-cycle summary of remediations (including trends, blockers, progress rate)</li>
+<li>Performed secure code review on the latest Status wallet PRs focusing on authentication, key management, and storage handling</li>
+<li>Cross-checked implemented fixes from last quarter’s review against current codebase for regressions</li>
+</ul>
+<h4 id="report-8">report<a aria-hidden="true" tabindex="-1" href="#report-8" class="internal"> §</a></h4>
+<ul>
+<li>
+<p><code>ift:2025q3-secure-treasury-management:wallet-policy-update</code></p>
+<ul>
+<li>Revalidate, update and/or create policies, processes and procedures around web3 security and wallet management</li>
+<li><strong>Output:</strong>
+<ul>
+<li>Created a Signing Account Index</li>
+<li>Created a Signatory Onboarding Process (Identity Verification)</li>
+<li>Reviewed and updated Multisig Owner Addition Process (Signing Accounts)</li>
+<li>Reviewed and updated the Master Wallet Index reposiroty (Org Wallets Index)</li>
+<li>Started updating/creating backup and recovery policies and processes</li>
+</ul>
+</li>
+<li><strong>Tasks:</strong>
+<ul>
+<li><code>ift:2025q3-wallet-policy-update:write-and-review-new-version</code></li>
+<li><code>ift:2025q3-wallet-policy-update:backup-and-recovery-policies</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>ift:2025q3-secure-treasury-management:multisig-secondary-interface-deployment</code></p>
+<ul>
+<li>Avoid having a unique interface to access multisig wallets and lose access to funds in case of outage of the primary UI</li>
+<li><strong>Output:</strong>
+<ul>
+<li>Used Onchain Den with real transactions</li>
+<li>Wrote guidelines and procedures for backup and recovery, including the use of Onchain Den when needed</li>
+</ul>
+</li>
+<li><strong>Tasks:</strong>
+<ul>
+<li><code>ift:2025q3-multisig-secondary-interface-deployment:test-new-interfaces</code></li>
+<li><code>ift:2025q3-multisig-secondary-interface-deployment:write-guides-and-best-practices</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>ift:2025q3-training-and-awareness-program:web3-security-guidelines</code></p>
+<ul>
+<li>Provide security guidelines and best practices about web3 and wallet management</li>
+<li><strong>Output:</strong>
+<ul>
+<li>Prepared web3 education material to be shared across the org (1st wave: Finance and POps)</li>
+<li>Shared web3 news about crime, phishing, malware, hacks and IoC with Finance</li>
+<li>Continued testing the integration of n8n with AI Agents and BlockThreat to feed security news across the org</li>
+</ul>
+</li>
+<li><strong>Tasks:</strong>
+<ul>
+<li><code>ift:2025q3-awareness-program:web3-security-essentials</code></li>
+<li><code>ift:2025q3-security-workflow-automation:feed-web3-news-automatically</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>ift:2025q3-security-workflow-automation</code></p>
+<ul>
+<li>Design, deploy and maintain automated workflows to support critical Security Ops and procedures</li>
+<li><strong>Output:</strong>
+<ul>
+<li>Started integrating the multisig wallet validator to n8n</li>
+<li>Etherscan API integration</li>
+<li>Started python script inclusion, dependence on Python n8n docker</li>
+<li>Continue workflow development for web3 security alerts (n8n with AI Agent + BlockThreat)
+<ul>
+<li>Added social media feeds</li>
+<li>Tested AI Prompts</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Tasks:</strong>
+<ul>
+<li><code>ift:2025q3-security-automation:automatic-wallet-index-updates</code></li>
+<li><code>ift:2025q3-security-workflow-automation:feed-web3-news-automatically</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>ift:2025q3-iam-operations</code></p>
+<ul>
+<li>Mediate access to DeFi protocols and smart contracts to Investment Roles</li>
+<li>Remove users and groups no longer needed in critical services and apps</li>
+<li><strong>Output:</strong>
+<ul>
+<li>Removed users no longer needed in Github</li>
+<li>Removed users no longer needed in Google</li>
+<li>Removed users no longer needed in Notion</li>
+<li>Finalized workflows and tests for log extraction from Google and Github</li>
+<li>Finalized workflows and tests for identifying, verifying leavers from systems</li>
+<li>Finalized workflows for verifying inactive users from Google, Github, Notion, Discord</li>
+<li>Added reporting and notifications for inactive Notion &amp; Google users</li>
+</ul>
+</li>
+<li><strong>Tasks:</strong>
+<ul>
+<li><code>ift:2025q3-iam-operations:remove-unnecessary-users</code></li>
+<li><code>ift:2025q3-security-automation:access-revalidation</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>ift:2025q3-incident-response-and-vulnerability-management</code></p>
+<ul>
+<li>Identify, assess, prioritize, and mitigate security vulnerabilities across the org infrastructure and programs.</li>
+<li>Identify, respond to, and resolve security incidents, with clear communication, ensuring minimal disruption to business operations.</li>
+<li><strong>Output:</strong>
+<ul>
+<li>Collected and archived phishing-related artifacts (email headers, wallet activity logs, message history)</li>
+<li>Performed log correlation analysis to detect possible secondary targets from the SNT phishing incident</li>
+<li>Run endpoint scans on affected accounts/devices to validate containment of potential compromise</li>
+<li>Updated IR runbooks with a “first-hour” response checklist for phishing incidents</li>
+<li>Conducted a short tabletop exercise with key stakeholders simulating a wallet compromise scenario</li>
+<li>Investigated new bug bounty submissions with PoC validation against staging environment</li>
+<li>Manually validated top 10 unresolved CodeQL alerts across 3 repos and flag false positives</li>
+<li>Wrote and shared mid-cycle summary of remediations (including trends, blockers, progress rate)</li>
+<li>Run a targeted static analysis review for crypto-related vulnerabilities across top repositories</li>
+<li>Verified recent CodeQL fixes were deployed in production and covered by CI security tests</li>
+<li>Cross-checked static analysis findings against runtime logs to confirm exploitability</li>
+<li>Coordinated with repo owners to close at atleast top 5 high/medium security issues by hands-on patch review</li>
+</ul>
+</li>
+<li><strong>Tasks:</strong>
+<ul>
+<li><code>ift:2025q3-security-operations:incident-response</code></li>
+<li><code>ift:2025q3-security-operations:vulnerability-management</code></li>
+<li><code>ift:2025q3-vulma-and-ir:remediation-tracking</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>ift:2025q3-cicd-security-improvement</code></p>
+</li>
+<li>
+<p><code>ift:2025q3-threat-modelling-and architecture-design-reviews</code></p>
+<ul>
+<li>Review security requirements and protocols in the design and architecture of software</li>
+<li><strong>Output:</strong>
+<ul>
+<li>Manually traced CI/CD boundaries across top-5 components and linked security gaps (Dependabot/CodeQL)</li>
+<li>Open tracking issues for each identified architecture concern needing mitigation</li>
+<li>Performed secure code review on the latest Status wallet PRs focusing on authentication, key management, and storage handling</li>
+<li>Cross-checked implemented fixes from last quarter’s review against current codebase for regressions</li>
+<li>Audited CI pipeline secrets usage and validate enforcement of rotation policies</li>
+<li>Held architecture discussion with Status team on wallet security design and integration boundaries</li>
+<li>Deep dive secure code review on new Status browser and messaging PRs (focus: encryption, IPC, storage access)</li>
+<li>Manually tested wallet PRs for insecure key handling or bypass of authentication logic</li>
+<li>Reviewed CI/CD pipeline configs for provisioned token scopes and improper access permissions</li>
+</ul>
+</li>
+<li><strong>Tasks:</strong>
+<ul>
+<li><code>ift:2025q2-cicd-security-review:status-design-reviews</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>ift:2025q3-finance-workflow-automation</code></p>
+<ul>
+<li>Develop and/or support with development of new automations for Finance.</li>
+<li><strong>Output:</strong>
+<ul>
+<li>Followed-up on changes to Expensify PO process</li>
+<li>Verified changes in Iplicit API - impact on data synch</li>
+<li>Continued improvement lists for finance processes</li>
+<li>Mass PO improvements</li>
+</ul>
+</li>
+<li><strong>Tasks:</strong>
+<ul>
+<li><code>ift:2025q3-finance-automation</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="nescience">Nescience<a aria-hidden="true" tabindex="-1" href="#nescience" class="internal"> §</a></h3>
+<h4 id="highlights-9">Highlights<a aria-hidden="true" tabindex="-1" href="#highlights-9" class="internal"> §</a></h4>
+<ul>
+<li>Defined NSSA v0.1 protocol specs.</li>
+<li>Defined NSSA sequencer specs.</li>
+<li>Worked on R0 encryption demos.</li>
+<li>Designed Token Program and native token for NSSA.</li>
+<li>Improved our key protocol.</li>
+<li>Worked on implementing wallet extraction.</li>
+<li>80% of the specs were implemented.</li>
+<li>80% of the key protocol was implemented.</li>
+<li>Result-wise, we have defined and implemented the first version of the specs and improved our code. This Sprint helped us improve our architecture, with the possibility to have a first testnet prior to the deadline.</li>
+</ul>
+<h4 id="report-9">Report<a aria-hidden="true" tabindex="-1" href="#report-9" class="internal"> §</a></h4>
+<ul>
+<li><code>vac:nes:state-separation-architecture-poc</code>
+<ul>
+<li>
+<p>Overview:</p>
+<ul>
+<li>Research-wise, we:
+<ul>
+<li>Investigated and defined NSSA v0.1 protocol specs including types, accounts, programs, transactions’ structure, and state transitions.</li>
+<li>Investigated and defined NSSA sequencer specs including the block assembly process, the block structure and types, and the criteria for a well-formed block. All with pseudocode.</li>
+<li>Worked on and implemented different types of cipher stream needed for the protocol using R0, including Chacha20 and Shake256.</li>
+<li>Designed the Token Program for NSSA and native Token. This includes the token creation and supply, the transfer logic, and the account types.</li>
+<li>Drafted a first version of the fee mechanism for NSSA.</li>
+<li>Improved our key protocol by updating some data.</li>
+</ul>
+</li>
+<li>Engineering-wise, we implemented:
+<ul>
+<li>Node refactor.</li>
+<li>Wallet extraction.</li>
+<li>Structural improvements.</li>
+<li>Protocol public state and private state.</li>
+<li>80% of the sequencer specs.</li>
+<li>80% of the key protocol.</li>
+<li>R0 encryption demos.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>List of deliverables (ordered as in <a href="https://www.notion.so/2308f96fb65c80488d53dbac15257ecf?v=2308f96fb65c811cad37000cc0d5a955" class="external">task management</a>):</p>
+<ul>
+<li><a href="https://www.notion.so/NSSA-v0-1-specs-23e8f96fb65c80b984eed9b0d076d138" class="external">NSSA v0.1 specs</a></li>
+<li><a href="https://www.notion.so/Sequencer-specs-2428f96fb65c802da2bfea7b0b214ecb" class="external">Sequencer specs</a></li>
+<li><a href="https://www.notion.so/NSSA-sequencer-pseudocode-2508f96fb65c805e8859e047dffd6785" class="external">Sequencer pseudocode</a></li>
+<li><a href="https://www.notion.so/Token-program-design-2538f96fb65c80a1b4bdc4fd9dd162d7" class="external">Token Program design</a></li>
+<li><a href="https://www.notion.so/Native-token-as-a-normal-token-owned-by-the-token-program-2558f96fb65c80c59eb5d914d171ba12" class="external">Native token</a></li>
+<li><a href="https://www.notion.so/Fee-mechanism-draft-2578f96fb65c807289f9f4977f510199" class="external">Fee mechanism</a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/99" class="external">Data storage removal and node refactor</a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/100" class="external">Implement NSSA v0.1 Public State</a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/101" class="external">Wallet CLI extension</a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/102" class="external">Structural improvements</a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/103" class="external">Implement NSSA v0.1 Private State</a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/104" class="external">Key protocol update public part</a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/105" class="external">Sequencer specs implementation</a></li>
+<li><a href="https://github.com/vacp2p/nescience-zkvm-testing/pull/11" class="external">Chacha20 in R0</a></li>
+<li><a href="https://github.com/vacp2p/nescience-zkvm-testing/pull/14" class="external">Shake256 in R0</a></li>
+</ul>
+</li>
+<li>
+<p>Completed tasks (big tasks):</p>
+<ul>
+<li><code>vac:nes:2025q2:state-separation-architecture-poc:specs</code></li>
+<li><code>vac:nes:2025q2:state-separation-architecture-poc:swallet</code></li>
+<li><code>vac:nes:2025q2:state-separation-architecture-poc:token-design</code></li>
+<li><code>vac:nes:2025q2:state-separation-architecture-poc:specs-impl</code></li>
+<li><code>vac:nes:2025q2:state-separation-architecture-poc:fee</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></article></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#p2p" data-for="p2p">P2P</a></li><li class="depth-0"><a href="#tokenomics" data-for="tokenomics">Tokenomics</a></li><li class="depth-0"><a href="#qa" data-for="qa">QA</a></li><li class="depth-0"><a href="#dst" data-for="dst">DST</a></li><li class="depth-0"><a href="#sc" data-for="sc">SC</a></li><li class="depth-0"><a href="#acz" data-for="acz">ACZ</a></li><li class="depth-0"><a href="#rfc" data-for="rfc">RFC</a></li><li class="depth-0"><a href="#nim" data-for="nim">Nim</a></li><li class="depth-0"><a href="#security" data-for="security">Security</a></li><li class="depth-0"><a href="#nescience" data-for="nescience">Nescience</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a>, © 2026</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js?v=mq6gldi3" type="module"></script></html>

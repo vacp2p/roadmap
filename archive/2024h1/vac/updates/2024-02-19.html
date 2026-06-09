@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html><head><title>2024-02-19 Vac weekly</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="2024-02-19 Vac weekly"/><meta property="og:description" content="Vac 2024/02/19 § vac:p2p: § nimlibp2p:vac:webrtc-transport https://github.com/status-im/nim-libp2p/pull/960 Testing made it clear that the WebRtcMuxer wasn’t finished Fix an oversight regarding datachannel incoming streams Get the streamId from SCTP to WebRtcTransport (missing a SCTP flag) Fix a bug with binary-serialization (missing a compilation flag) Fix a possible infinite loop that could occur while closing a stream Fix WebRtcMuxer."/><meta property="og:image" content="https://roadmap.vac.dev/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../../../../static/icon.png"/><meta name="description" content="Vac 2024/02/19 § vac:p2p: § nimlibp2p:vac:webrtc-transport https://github.com/status-im/nim-libp2p/pull/960 Testing made it clear that the WebRtcMuxer wasn’t finished Fix an oversight regarding datachannel incoming streams Get the streamId from SCTP to WebRtcTransport (missing a SCTP flag) Fix a bug with binary-serialization (missing a compilation flag) Fix a possible infinite loop that could occur while closing a stream Fix WebRtcMuxer."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../../../../index.css?v=mq6gldi3" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=sans-serif:wght@400;700&amp;family=sans-serif:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../../../../prescript.js?v=mq6gldi3" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../../../../static/contentIndex.json?v=mq6gldi3`).then(data => data.json())</script></head><body data-slug="archive/2024h1/vac/updates/2024-02-19"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title "><a href="../../../..">IFT-TS Roadmaps and Reports</a></h1><div class="spacer mobile-only"></div><div class="search "><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode "><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true"><h1>Explorer</h1><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container " aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../../..">Home</a><p> > </p></div><div class="breadcrumb-element"><a href="../../../../archive/">archive</a><p> > </p></div><div class="breadcrumb-element"><a href="../../../../archive/2024h1/">2024h1</a><p> > </p></div><div class="breadcrumb-element"><a href="../../../../archive/2024h1/vac/">vac</a><p> > </p></div><div class="breadcrumb-element"><a href="../../../../archive/2024h1/vac/updates/">updates</a><p> > </p></div><div class="breadcrumb-element"><a href>2024-02-19 Vac weekly</a></div></nav><h1 class="article-title ">2024-02-19 Vac weekly</h1><p class="content-meta ">Feb 19, 2024, 5 min read</p><ul class="tags "><li><a href="../../../../tags/vac-updates" class="internal tag-link">#vac-updates</a></li></ul></div></div><article class="popover-hint"><h2 id="vac-20240219">Vac 2024/02/19<a aria-hidden="true" tabindex="-1" href="#vac-20240219" class="internal"> §</a></h2>
+<h3 id="vacp2p">vac:p2p:<a aria-hidden="true" tabindex="-1" href="#vacp2p" class="internal"> §</a></h3>
+<ul>
+<li><code>nimlibp2p:vac:webrtc-transport</code>
+<ul>
+<li><a href="https://github.com/status-im/nim-libp2p/pull/960" class="external">https://github.com/status-im/nim-libp2p/pull/960</a></li>
+<li>Testing made it clear that the WebRtcMuxer wasn’t finished
+<ul>
+<li>Fix an oversight regarding datachannel incoming streams</li>
+<li>Get the streamId from SCTP to WebRtcTransport (missing a SCTP flag)</li>
+<li>Fix a bug with binary-serialization (missing a compilation flag)</li>
+<li>Fix a possible infinite loop that could occur while closing a stream</li>
+<li>Fix WebRtcMuxer.new() (missing the connection field)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>nimlibp2p:vac:gossipsub-stagger-send</code>
+<ul>
+<li>More improvements, now merged - <a href="https://github.com/status-im/nim-libp2p/pull/1015" class="external">https://github.com/status-im/nim-libp2p/pull/1015</a> (feat: message prioritization with immediate peer-published dispatch and queuing for other msgs)</li>
+<li>Making it ready to be merged - <a href="https://github.com/status-im/nim-libp2p/pull/1017" class="external">https://github.com/status-im/nim-libp2p/pull/1017</a> (feat: drop msgs to be relayed waiting for too long in the queue)</li>
+<li>Writing <a href="https://www.notion.so/Gossipsub-latency-improvements-9748092d135643ffb092939d9460fed0" class="external">https://www.notion.so/Gossipsub-latency-improvements-9748092d135643ffb092939d9460fed0</a></li>
+<li>Planning on how to check the IDONTWANT info before relaying a msg</li>
+</ul>
+</li>
+</ul>
+<h3 id="vactke">vac:tke:<a aria-hidden="true" tabindex="-1" href="#vactke" class="internal"> §</a></h3>
+<ul>
+<li><code>nomos:cryptarchia-wealth-concentration-estimated-stake</code>
+<ul>
+<li>implemented one more metric about wealth concentration (@Frederico)</li>
+<li>prepared the Figures that go into the report about Nomos wealth concentration (@Frederico)</li>
+<li>review Frederico’s work on wealth concentration (Martin)</li>
+</ul>
+</li>
+<li><code>codex:cdx</code>
+<ul>
+<li>designed a diagram with Codex interactions (@Frederico)</li>
+<li>created a copy of the original Codex litepaper on GitHub (@Frederico)</li>
+<li>catch up on latest developments to prepare for the call on Fr. (@Martin)</li>
+</ul>
+</li>
+<li><code>waku:economic-analysis</code>
+<ul>
+<li>catch up on Sergei’s ongoing work (@Martin)</li>
+<li>analyze the proposed store v3 protocol from a token economics perspective (@Martin)</li>
+<li>proceed with defining RLN pricing properties and suggest suitable mechanisms (@Martin)</li>
+</ul>
+</li>
+<li><code>status:SNT-staking</code>
+<ul>
+<li>reviewing  Ricardo’s new implementation of the staking contract (resolving the accounting issue) (@Martin)</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacdst">vac:dst:<a aria-hidden="true" tabindex="-1" href="#vacdst" class="internal"> §</a></h3>
+<ul>
+<li><code>eng-10ktool:vac:bandwidth-test</code>
+<ul>
+<li>Using framework to get Thanos metrics
+<ul>
+<li>First draft PR (<a href="https://github.com/vacp2p/10ksim/pull/3" class="external">https://github.com/vacp2p/10ksim/pull/3</a>)</li>
+</ul>
+</li>
+<li>Started plotting module aswell (<a href="https://github.com/vacp2p/10ksim/tree/plotter" class="external">https://github.com/vacp2p/10ksim/tree/plotter</a>)</li>
+</ul>
+</li>
+<li><code>eng-10ktool:vac:bandwidth-test</code>
+<ul>
+<li>Spun up a new test tracking page</li>
+<li>Ran a few (~3-4) simulations trying to test new metric scale</li>
+<li>Fixed a major issue with a node which improved our bandwidth by ~1/3rd
+<ul>
+<li>This also dropped packet loss to under 100 pps even under massive loads</li>
+</ul>
+</li>
+<li>Brought distributed storage (CubeFS) properly online</li>
+<li>Re-ran simulations with Nwaku - stable swarms up to about 2000 peers, we were unable to see connections above that</li>
+<li>VLAN migrations continue</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacqa">vac:qa:<a aria-hidden="true" tabindex="-1" href="#vacqa" class="internal"> §</a></h3>
+<ul>
+<li><code>waku:test-automation-js-waku</code>
+<ul>
+<li>Refactor and handle mocha hooks timeouts <a href="https://github.com/waku-org/js-waku/pull/1841" class="external">gracefully</a>(@Florin)</li>
+<li>Adjust tests regarding latest failures on <a href="https://github.com/waku-org/js-waku/pull/1844" class="external">nwaku latest</a>(@Florin)
+<ul>
+<li>Issues reported:
+<ul>
+<li><a href="https://github.com/waku-org/js-waku/issues/1845" class="external">https://github.com/waku-org/js-waku/issues/1845</a></li>
+<li><a href="https://github.com/waku-org/js-waku/issues/1835" class="external">https://github.com/waku-org/js-waku/issues/1835</a></li>
+<li><a href="https://github.com/waku-org/js-waku/issues/1848" class="external">https://github.com/waku-org/js-waku/issues/1848</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>waku:interop-testing</code>
+<ul>
+<li>Adjust tests regarding latest <a href="https://github.com/waku-org/waku-interop-tests/pull/17" class="external">failures</a>(@Florin)
+<ul>
+<li>Issues reported:
+<ul>
+<li><a href="https://github.com/waku-org/go-waku/issues/1034" class="external">https://github.com/waku-org/go-waku/issues/1034</a></li>
+<li><a href="https://github.com/waku-org/nwaku/issues/2436" class="external">https://github.com/waku-org/nwaku/issues/2436</a></li>
+<li><a href="https://github.com/waku-org/nwaku/issues/2437" class="external">https://github.com/waku-org/nwaku/issues/2437</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>RLN support and <a href="https://github.com/waku-org/waku-interop-tests/pull/16" class="external">tests added</a>(@Roman)
+<ul>
+<li>Issues reported:
+<ul>
+<li>message not delivered during <a href="https://github.com/waku-org/nwaku/issues/2369" class="external">interop test</a></li>
+<li>health check <a href="https://github.com/waku-org/docs.waku.org/issues/165" class="external">endpoint needed</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>waku:test-automation-go-waku</code>
+<ul>
+<li>Improve unit test coverage for <a href="https://github.com/waku-org/go-waku/pull/1035" class="external">peermanager</a>(@Roman)</li>
+</ul>
+</li>
+<li><code>waku:test-automation-nwaku</code>
+<ul>
+<li>Finish investigating peer exchange and extend negative cases(@Alex)</li>
+</ul>
+</li>
+<li><code>admin/misc</code>
+- <a href="https://github.com/waku-org/nwaku/pull/2417" class="external">Yamux PR</a>(@Alex)</li>
+</ul>
+<h3 id="vacacz">vac:acz:<a aria-hidden="true" tabindex="-1" href="#vacacz" class="internal"> §</a></h3>
+<ul>
+<li><code>rlnp2p:waku:rln-relay-v2</code>
+<ul>
+<li>serde tests for rln-v2 in nwaku: <a href="https://github.com/waku-org/nwaku/pull/2421" class="external">https://github.com/waku-org/nwaku/pull/2421</a></li>
+<li>solved previously known issue of waku-rln-relay continuing to run when the tree is in a bad state. now, whenever the node detects something wrong with the eth rpc endpoint, it disconnects and crashes: <a href="https://github.com/waku-org/nwaku/pull/2429" class="external">https://github.com/waku-org/nwaku/pull/2429</a></li>
+</ul>
+</li>
+<li><code>rlnp2p:waku:rln-relay-enhancements</code>
+<ul>
+<li>improved node setup with TWN config is set: <a href="https://github.com/waku-org/nwaku/pull/2423" class="external">https://github.com/waku-org/nwaku/pull/2423</a></li>
+<li>deprecate wss/ws support from nwaku for eth rpc endpoint: <a href="https://github.com/waku-org/nwaku/pull/2442" class="external">https://github.com/waku-org/nwaku/pull/2442</a> &amp; follow up: <a href="https://github.com/waku-org/nwaku/pull/2444" class="external">https://github.com/waku-org/nwaku/pull/2444</a></li>
+<li>updated <code>waku.test</code> fleet config with http url instead of ws: <a href="https://github.com/status-im/infra-waku/pull/11" class="external">https://github.com/status-im/infra-waku/pull/11</a></li>
+</ul>
+</li>
+<li><code>rlnp2p:waku:rln-doc-and-outreach</code>
+<ul>
+<li>updated docs for rln-relay in nwaku-compose: <a href="https://github.com/waku-org/nwaku-compose/pull/52" class="external">https://github.com/waku-org/nwaku-compose/pull/52</a></li>
+</ul>
+</li>
+<li><code>secure-channels:waku:ethereum-chat</code>
+<ul>
+<li>Completed a first draft of the following sections of the paper: Introduction; Related work; MLS and SIWE.</li>
+<li>Finished the doc about comparion of the security mechanisms of Tor Messenger, Briar and update the existing doc in <a href="https://www.notion.so/Comparison-between-secure-channel-protocols-3226a0f71c3f42748756d6bec3f33575" class="external">notion.</a></li>
+<li>Study about the stealth addresses for anonymous secure chat.</li>
+</ul>
+</li>
+<li><code>zerokit:vac:maintenance</code>
+<ul>
+<li>started working on a serde implementation of issue  <a href="https://github.com/vacp2p/zerokit/issues/21" class="external">https://github.com/vacp2p/zerokit/issues/21</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="vacsc">vac:sc::<a aria-hidden="true" tabindex="-1" href="#vacsc" class="internal"> §</a></h3>
+<ul>
+<li><code>status:community-contracts-maintemance</code>
+<ul>
+<li>fix certora specs in github PRs (upgrade certoraRun)</li>
+<li>add rule for setMaxSupply</li>
+<li>clean up spec</li>
+<li>import config from r4bbit’s PR</li>
+</ul>
+</li>
+<li><code>status:community-contracts-token-import</code>
+<ul>
+<li>started working on (Allow for community vaults to keep track of deposited tokens) <a href="https://github.com/status-im/communities-contracts/issues/31" class="external">https://github.com/status-im/communities-contracts/issues/31</a></li>
+</ul>
+</li>
+<li><code>status:staking-contracts-v1</code>
+<ul>
+<li>Multiplier points estimation issue
+<ul>
+<li><a href="https://github.com/logos-co/staking/issues/48" class="external">https://github.com/logos-co/staking/issues/48</a></li>
+</ul>
+</li>
+<li>Refactor MP logic and fix bugs <a href="https://github.com/logos-co/staking/issues/51" class="external">https://github.com/logos-co/staking/issues/51</a>
+<ul>
+<li><a href="https://github.com/logos-co/staking/pull/52" class="external">https://github.com/logos-co/staking/pull/52</a></li>
+</ul>
+</li>
+<li>Updated existing tasks based on latest discussions</li>
+<li>Added new tasks to plan milestone</li>
+</ul>
+</li>
+<li><code>status:community-contracts-multitoken</code>
+<ul>
+<li>Created new milestone and tasks for upcoming effort to implement a new token contract for the desktop team
+<ul>
+<li><a href="https://github.com/status-im/communities-contracts/milestone/4" class="external">https://github.com/status-im/communities-contracts/milestone/4</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>vac:maintainance/misc</code>
+<ul>
+<li>Add deployment address to sticker market repo
+<ul>
+<li><a href="https://github.com/status-im/sticker-market/pull/15" class="external">https://github.com/status-im/sticker-market/pull/15</a></li>
+</ul>
+</li>
+<li>Added project board automation to relevant repos
+<ul>
+<li><a href="https://github.com/status-im/communities-contracts/pull/37" class="external">https://github.com/status-im/communities-contracts/pull/37</a></li>
+<li><a href="https://github.com/status-im/communities-contracts/pull/39" class="external">https://github.com/status-im/communities-contracts/pull/39</a></li>
+<li><a href="https://github.com/vacp2p/foundry-template/pull/15" class="external">https://github.com/vacp2p/foundry-template/pull/15</a></li>
+<li><a href="https://github.com/logos-co/staking/pull/50" class="external">https://github.com/logos-co/staking/pull/50</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacrfc">vac:rfc:<a aria-hidden="true" tabindex="-1" href="#vacrfc" class="internal"> §</a></h3>
+<ul>
+<li><code>rfc-process-restructuring</code>
+<ul>
+<li>Worked on Waku specs, should be ready for first merge - <a href="https://github.com/waku-org/specs/pull/1" class="external">https://github.com/waku-org/specs/pull/1</a></li>
+<li>Started updating COSS, not ready for feedback - <a href="https://github.com/vacp2p/rfc-index/tree/1-COSS" class="external">https://github.com/vacp2p/rfc-index/tree/1-COSS</a></li>
+<li>Worked on Vac RFC Index, updated some files and updated readme - <a href="https://github.com/vacp2p/rfc-index/pull/2" class="external">https://github.com/vacp2p/rfc-index/pull/2</a></li>
+</ul>
+</li>
+<li><code>waku:core-rfc-updates</code>
+<ul>
+<li>Worked on updating 10/Waku2 based on feedback - <a href="https://github.com/vacp2p/rfc/pull/661" class="external">https://github.com/vacp2p/rfc/pull/661</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="vacdr">vac:dr:<a aria-hidden="true" tabindex="-1" href="#vacdr" class="internal"> §</a></h3>
+<ul>
+<li><code>valpriv:vac:val-priv-net</code>
+<ul>
+<li>added new design ideas (<a href="https://docs.google.com/document/d/15X4vJTK_Hr3g3K01XF77R3KCqLI8LIm3/edit?usp=sharing&amp;ouid=109850114495777070500&amp;rtpof=true&amp;sd=true" class="external">https://docs.google.com/document/d/15X4vJTK_Hr3g3K01XF77R3KCqLI8LIm3/edit?usp=sharing&amp;ouid=109850114495777070500&amp;rtpof=true&amp;sd=true</a>)</li>
+</ul>
+</li>
+<li><code>valpriv:vac:tor-push-poc</code>
+<ul>
+<li>merging torpush changes in the latest nimbus-eth2 stable release</li>
+</ul>
+</li>
+<li><code>valpriv:vac:tor-push-paper</code>
+<ul>
+<li>revised last comments about structure</li>
+</ul>
+</li>
+<li><code>gsub-scaling:vac:gossipsub-simulation</code>
+<ul>
+<li>Created a PR to minimize the relay peers set based on idontwant/receieved messages. <a href="https://github.com/status-im/nim-libp2p/pull/1027" class="external">https://github.com/status-im/nim-libp2p/pull/1027</a>
+<ul>
+<li>showing small bandwidth and latency improvement with the increasing message sizes (still to test on very large messages)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>zk:codex:storage-proofs-open-problems-review</code>
+<ul>
+<li>Provide feedback on <a href="https://github.com/codex-storage/zk-research-artifacts/blob/master/notes/range-check/range_check.pdf" class="external">Range Proof example</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="vacnes">vac:nes:<a aria-hidden="true" tabindex="-1" href="#vacnes" class="internal"> §</a></h3>
+<ul>
+<li><code>state-separation:vac:state-separation-doc</code>
+<ul>
+<li>Researched the Privacy Directed Acyclic Graph (PDAG) framework for privacy guarantees (Moudy)</li>
+<li>Made progress on the integration of Cryptographic primitives in SE and DE (Ugur + Moudy)</li>
+<li>Made progress on adress hiding and signature verification focusing on RingCT (Marvin)</li>
+<li>Finished the report about SE and DE kernel circuits in <a href="https://www.notion.so/Nescience-cd358fe429b14fa2ab38ca42835a8451?pvs=4#140df768f8964eb5ac9fc1b09617cf5b" class="external">notion.</a> (Ugur)</li>
+<li>Studied about a problem about nullifying randomization of notes (Ugur)</li>
+</ul>
+</li>
+<li><code>proofsystems:vac:benchmarks</code>
+<ul>
+<li>Finished updating <a href="https://www.notion.so/Nescience-cd358fe429b14fa2ab38ca42835a8451?pvs=4#3763c2a7ce794875978a1af2ae418a12" class="external">Arecibo</a> document (Moudy)</li>
+<li>Finished  updating <a href="https://www.notion.so/Nescience-cd358fe429b14fa2ab38ca42835a8451?pvs=4#d015c95ca971483c805e21c584de818b" class="external">halo2</a> document (Moudy)</li>
+<li>Updated the main Benchmarks <a href="https://github.com/vacp2p/zk-explorations/blob/main/benchmarks.md" class="external">document</a> (Moudy)</li>
+<li>Begin theoretical complexities for various proof systems (Rostyslav + Moudy + Marvin)</li>
+</ul>
+</li>
+</ul></article></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#vac-20240219" data-for="vac-20240219">Vac 2024/02/19</a></li><li class="depth-1"><a href="#vacp2p" data-for="vacp2p">vac:p2p:</a></li><li class="depth-1"><a href="#vactke" data-for="vactke">vac:tke:</a></li><li class="depth-1"><a href="#vacdst" data-for="vacdst">vac:dst:</a></li><li class="depth-1"><a href="#vacqa" data-for="vacqa">vac:qa:</a></li><li class="depth-1"><a href="#vacacz" data-for="vacacz">vac:acz:</a></li><li class="depth-1"><a href="#vacsc" data-for="vacsc">vac:sc::</a></li><li class="depth-1"><a href="#vacrfc" data-for="vacrfc">vac:rfc:</a></li><li class="depth-1"><a href="#vacdr" data-for="vacdr">vac:dr:</a></li><li class="depth-1"><a href="#vacnes" data-for="vacnes">vac:nes:</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a>, © 2026</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../../../postscript.js?v=mq6gldi3" type="module"></script></html>

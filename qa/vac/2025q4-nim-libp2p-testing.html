@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html><head><title>Nim Libp2p Testing</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Nim Libp2p Testing"/><meta property="og:description" content="Expand nim-libp2p testing coverage with focus on new protocols, test plans, and stability improvements."/><meta property="og:image" content="https://roadmap.vac.dev/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="Expand nim-libp2p testing coverage with focus on new protocols, test plans, and stability improvements."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../../index.css?v=mq6gldi3" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=sans-serif:wght@400;700&amp;family=sans-serif:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js?v=mq6gldi3" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../../static/contentIndex.json?v=mq6gldi3`).then(data => data.json())</script></head><body data-slug="qa/vac/2025q4-nim-libp2p-testing"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title "><a href="../..">IFT-TS Roadmaps and Reports</a></h1><div class="spacer mobile-only"></div><div class="search "><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode "><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true"><h1>Explorer</h1><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container " aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../..">Home</a><p> > </p></div><div class="breadcrumb-element"><a href="../../qa/">qa</a><p> > </p></div><div class="breadcrumb-element"><a href="../../qa/vac/">vac</a><p> > </p></div><div class="breadcrumb-element"><a href>Nim Libp2p Testing</a></div></nav><h1 class="article-title ">Nim Libp2p Testing</h1><p class="content-meta ">Jun 09, 2026, 3 min read</p><ul class="tags "><li><a href="../../tags/2025q4" class="internal tag-link">#2025q4</a></li><li><a href="../../tags/qa" class="internal tag-link">#qa</a></li><li><a href="../../tags/vac" class="internal tag-link">#vac</a></li></ul></div></div><article class="popover-hint"><p><code>vac:qa:vac:2025q4-nim-libp2p-testing</code></p>
+<h2 id="description">Description<a aria-hidden="true" tabindex="-1" href="#description" class="internal"> §</a></h2>
+<p>Expand nim-libp2p testing coverage, documentation, and tooling with focus on new features under development.<br/>
+Create test plans for AutonatV2, Quic, Mix, and Kademlia.<br/>
+Improve stability by addressing flaky tests and extend coverage for Identify/Push and Connectivity protocols.</p>
+<h2 id="task-list">Task List<a aria-hidden="true" tabindex="-1" href="#task-list" class="internal"> §</a></h2>
+<h3 id="test-plans-for-new-features">Test Plans for New Features<a aria-hidden="true" tabindex="-1" href="#test-plans-for-new-features" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>vac:qa:vac:2025q4-nim-libp2p-testing:test-plans</code></li>
+<li>owner: radek</li>
+<li>status: done</li>
+<li>start-date: 2025/10/01</li>
+<li>end-date: 2025/10/20</li>
+</ul>
+<h4 id="description-1">Description<a aria-hidden="true" tabindex="-1" href="#description-1" class="internal"> §</a></h4>
+<p>Develop test plans for features currently under development:</p>
+<ul>
+<li>AutonatV2</li>
+<li>Quic</li>
+<li>Mix</li>
+<li>Kademlia</li>
+</ul>
+<h4 id="deliverables">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://www.notion.so/Mix-2cb8f96fb65c80b99b1ccc1181a19666" class="external">Mix test plan</a></li>
+<li><a href="https://www.notion.so/Kademlia-DHT-2ce8f96fb65c808c816ff99d728a6670" class="external">Kademlia test plan</a></li>
+<li><a href="https://www.notion.so/QUIC-28b8f96fb65c8018b6cdc21882cfd98a" class="external">QUIC test plan</a></li>
+</ul>
+<hr/>
+<h3 id="flaky-test-fixes">Flaky Test Fixes<a aria-hidden="true" tabindex="-1" href="#flaky-test-fixes" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>vac:qa:vac:2025q4-nim-libp2p-testing:flaky-tests</code></li>
+<li>owner: radek</li>
+<li>status: done</li>
+<li>start-date: 2025/10/20</li>
+<li>end-date: 2025/12/16</li>
+</ul>
+<h4 id="description-2">Description<a aria-hidden="true" tabindex="-1" href="#description-2" class="internal"> §</a></h4>
+<p>Identify, investigate, and fix flaky tests in nim-libp2p to improve test reliability and CI stability.</p>
+<h4 id="deliverables-1">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-1" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1962" class="external">vacp2p/nim-libp2p#1962</a> test(gossipsub): remove hardcoded repeated topic “foobar”</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1961" class="external">vacp2p/nim-libp2p#1961</a> test(pubsub): refactor Floodsub tests &amp; waitSubscribe util</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1958" class="external">vacp2p/nim-libp2p#1958</a> test(gossipsub): utilities that wait for nodes to subscribe</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1949" class="external">vacp2p/nim-libp2p#1949</a> test: fix multiformat_exts tests are not executed on win</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1939" class="external">vacp2p/nim-libp2p#1939</a> chore: organise nimble files</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1929" class="external">vacp2p/nim-libp2p#1929</a> test: ensure tests run without flags</li>
+</ul>
+<ul>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1932" class="external">test: only failed test in report</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1928" class="external">test(switch): improve flaky test</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1918" class="external">test: dynamic imports</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1922" class="external">test(coverage): ignore tests</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1920" class="external">test: fix logs</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/issues/1941" class="external">Check <code>chronicles</code> exports</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/issues/1940" class="external">Find solution for <code>chronicles</code> in <code>kademlia</code> tests workaround</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1912" class="external">test: report</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1909" class="external">test: Organise test files - Multiformat and Services</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1914" class="external">test: Organise test files - final rename</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1911" class="external">test: reorganise libp2p tests</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1905" class="external">test(autotls): Organise test files</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1896" class="external">test(mix): improve flaky test</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1894" class="external">test(transports): Generate cert for WSS</a></li>
+</ul>
+<hr/>
+<h3 id="identifypush-protocol-testing">Identify/Push Protocol Testing<a aria-hidden="true" tabindex="-1" href="#identifypush-protocol-testing" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>vac:qa:vac:2025q4-nim-libp2p-testing:identify-push</code></li>
+<li>owner: radek</li>
+<li>status: not started</li>
+<li>start-date: 2025/11/01</li>
+<li>end-date: 2025/11/15</li>
+</ul>
+<h4 id="description-3">Description<a aria-hidden="true" tabindex="-1" href="#description-3" class="internal"> §</a></h4>
+<p>Implement unit and integration tests for the Identify/Push protocol,<br/>
+covering peer identification, metadata exchange, push updates, and error handling.</p>
+<h4 id="deliverables-2">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-2" class="internal"> §</a></h4>
+<ul>
+<li>PRs with links to added tests</li>
+</ul>
+<hr/>
+<h3 id="connectivity-protocol-testing">Connectivity Protocol Testing<a aria-hidden="true" tabindex="-1" href="#connectivity-protocol-testing" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>vac:qa:vac:2025q4-nim-libp2p-testing:connectivity</code></li>
+<li>owner: radek</li>
+<li>status: not started</li>
+<li>start-date: 2025/11/15</li>
+<li>end-date: 2025/12/01</li>
+</ul>
+<h4 id="description-4">Description<a aria-hidden="true" tabindex="-1" href="#description-4" class="internal"> §</a></h4>
+<p>Implement tests for the Connectivity protocol to validate connection management,<br/>
+connection limits, peer lifecycle handling, and resilience under different network conditions.</p>
+<h4 id="deliverables-3">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-3" class="internal"> §</a></h4>
+<ul>
+<li>PRs with links to added tests</li>
+</ul>
+<hr/>
+<h3 id="gossipsub-performance-testing-enhacements">GossipSub Performance Testing Enhacements<a aria-hidden="true" tabindex="-1" href="#gossipsub-performance-testing-enhacements" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>vac:qa:vac:2025q4-nim-libp2p-testing:gossipsub-performance</code></li>
+<li>owner: radek</li>
+<li>status: done</li>
+<li>start-date: 2025/10/01</li>
+<li>end-date: 2025/10/15</li>
+</ul>
+<h4 id="description-5">Description:<a aria-hidden="true" tabindex="-1" href="#description-5" class="internal"> §</a></h4>
+<p>Update GossipSub performance tests based on dev feedback and existing data gathered so far.</p>
+<h4 id="deliverables-4">Deliverables:<a aria-hidden="true" tabindex="-1" href="#deliverables-4" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1631" class="external">test(performance): Add QUIC scenario</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1718" class="external">test(performance): chart generation refactor</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1735" class="external">test(performance): Refactor runner</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1729" class="external">test(performance): reliability workflow</a></li>
+</ul>
+<hr/>
+<h3 id="quic-protocol-testing">QUIC Protocol Testing<a aria-hidden="true" tabindex="-1" href="#quic-protocol-testing" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>vac:qa:vac:2025q4-nim-libp2p-testing:quic</code></li>
+<li>owner: radek</li>
+<li>status: done</li>
+<li>start-date: 2025/10/16</li>
+<li>end-date: 2025/11/25</li>
+</ul>
+<h4 id="description-6">Description<a aria-hidden="true" tabindex="-1" href="#description-6" class="internal"> §</a></h4>
+<p>Improve QUIC transport test coverage for handshake enforcement (TLS, ALPN, transport parameters),
+stream and connection lifecycle, resilience/error paths, metrics, and interoperability.</p>
+<h4 id="deliverables-5">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-5" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1883" class="external">test(performance): use p95 instead of max</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1879" class="external">test(quic): Misc tests</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1861" class="external">test: add more parallel streams test</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/issues/1859" class="external">Tor transport: Server with multiple connections processes data sequentially in the tests</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1838" class="external">test(transports): add parallel stream tests</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1855" class="external">chore: use test_all in coverage workflow</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1829" class="external">test(transports): stream tests</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1816" class="external">test: too many global vars workaround</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/issues/1833" class="external">Transports: Inconsistent EOF behavior between QUIC and Mplex: first readOnce after EOF</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/issues/1834" class="external">Transports: Inconsistent EOF behavior between QUIC and Mplex: consecutive readOnce after EOF</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1768" class="external">fix(quic): GossipSub outbound peers</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1772" class="external">test(quic): Add tests 1</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1776" class="external">test: organise transports tests</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1784" class="external">test(quic): Add Multiaddress Handling tests</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1786" class="external">test: Refactor common transports tests</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/issues/1788" class="external">Transports tests: Inconsistent behaviour for writes when EOF</a></li>
+</ul></article></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#description" data-for="description">Description</a></li><li class="depth-0"><a href="#task-list" data-for="task-list">Task List</a></li><li class="depth-1"><a href="#test-plans-for-new-features" data-for="test-plans-for-new-features">Test Plans for New Features</a></li><li class="depth-1"><a href="#flaky-test-fixes" data-for="flaky-test-fixes">Flaky Test Fixes</a></li><li class="depth-1"><a href="#identifypush-protocol-testing" data-for="identifypush-protocol-testing">Identify/Push Protocol Testing</a></li><li class="depth-1"><a href="#connectivity-protocol-testing" data-for="connectivity-protocol-testing">Connectivity Protocol Testing</a></li><li class="depth-1"><a href="#gossipsub-performance-testing-enhacements" data-for="gossipsub-performance-testing-enhacements">GossipSub Performance Testing Enhacements</a></li><li class="depth-1"><a href="#quic-protocol-testing" data-for="quic-protocol-testing">QUIC Protocol Testing</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li><a href="../../qa/" class="internal">QA Service Unit</a></li><li><a href="../../weeklies/2025-11-03" class="internal">2025-11-03 Vac weekly</a></li><li><a href="../../weeklies/2025-11-10" class="internal">2025-11-10 Vac weekly</a></li><li><a href="../../weeklies/2025-11-17" class="internal">2025-11-17 Vac weekly</a></li><li><a href="../../weeklies/2025-11-24" class="internal">2025-11-24 Vac weekly</a></li><li><a href="../../weeklies/2025-12-01" class="internal">2025-12-01 Vac weekly</a></li><li><a href="../../weeklies/2025-12-08" class="internal">2025-12-08 Vac weekly</a></li><li><a href="../../weeklies/2025-12-22" class="internal">2025-12-22 Vac weekly</a></li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a>, © 2026</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../postscript.js?v=mq6gldi3" type="module"></script></html>

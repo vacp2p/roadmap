@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html><head><title>Nim Libp2p Testing</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Nim Libp2p Testing"/><meta property="og:description" content="Continue expanding nim-libp2p testing coverage with focus on pubsub, yamux, rendezvous and floodsub protocols."/><meta property="og:image" content="https://roadmap.vac.dev/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="Continue expanding nim-libp2p testing coverage with focus on pubsub, yamux, rendezvous and floodsub protocols."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../../index.css?v=mq6gldi3" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=sans-serif:wght@400;700&amp;family=sans-serif:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js?v=mq6gldi3" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../../static/contentIndex.json?v=mq6gldi3`).then(data => data.json())</script></head><body data-slug="qa/vac/2025q3-nim-libp2p-testing"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title "><a href="../..">IFT-TS Roadmaps and Reports</a></h1><div class="spacer mobile-only"></div><div class="search "><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode "><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true"><h1>Explorer</h1><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container " aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../..">Home</a><p> > </p></div><div class="breadcrumb-element"><a href="../../qa/">qa</a><p> > </p></div><div class="breadcrumb-element"><a href="../../qa/vac/">vac</a><p> > </p></div><div class="breadcrumb-element"><a href>Nim Libp2p Testing</a></div></nav><h1 class="article-title ">Nim Libp2p Testing</h1><p class="content-meta ">Jun 09, 2026, 4 min read</p><ul class="tags "><li><a href="../../tags/2025q3" class="internal tag-link">#2025q3</a></li><li><a href="../../tags/qa" class="internal tag-link">#qa</a></li><li><a href="../../tags/vac" class="internal tag-link">#vac</a></li></ul></div></div><article class="popover-hint"><p><code>vac:qa:vac:2025q3-nim-libp2p-testing</code></p>
+<h2 id="description">Description<a aria-hidden="true" tabindex="-1" href="#description" class="internal"> §</a></h2>
+<p>Continue expanding nim-libp2p testing coverage, documentation, and tooling with focus on protocols beyond Gossipsub.</p>
+<p>Complete any remaining Gossipsub testing tasks, expand pubsub testing coverage for scenarios not covered by Gossipsub tests, implement comprehensive testing for Yamux multiplexer and Rendezvous protocol, and add Floodsub testing if time permits.
+Improve tooling around nim libp2p testing and ensure all implemented modules have adequate test coverage.</p>
+<p><strong>Alignment with VAC Narratives:</strong></p>
+<ul>
+<li>Nim-libp2p is a key component of the VAC ecosystem,
+and improving its testing coverage and tooling strengthens our internal expertise
+and the overall reliability of the network.</li>
+<li>By enhancing these tests, and creating test plans,
+we support the RFC culture by providing feedback to the specifications,
+ensuring they align with real-world implementation.</li>
+<li>These efforts also contribute to scaling the project’s capacity,
+as better testing tools empower the open-source community to participate effectively.</li>
+</ul>
+<h2 id="task-list">Task List<a aria-hidden="true" tabindex="-1" href="#task-list" class="internal"> §</a></h2>
+<h3 id="gossipsub-extended---completion">Gossipsub Extended - Completion<a aria-hidden="true" tabindex="-1" href="#gossipsub-extended---completion" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>vac:qa:vac:2025q3-nim-libp2p-testing:gossipsub-completion</code></li>
+<li>owner: radek</li>
+<li>status: done</li>
+<li>start-date: 2025/07/01</li>
+<li>end-date: 2025/07/22</li>
+</ul>
+<h4 id="description-1">Description<a aria-hidden="true" tabindex="-1" href="#description-1" class="internal"> §</a></h4>
+<p>Complete any remaining Gossipsub testing tasks from Q2 if not fully finished.
+Ensure all edge cases and advanced scenarios are properly covered.</p>
+<h4 id="deliverables">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1495" class="external">test(gossipsub): refactor compatibility related tests</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1496" class="external">test(gossipsub): Signature flags tests</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1501" class="external">test(gossipsub): behavior unit tests 1</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1503" class="external">test(gossipsub): behavior unit tests 2</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1508" class="external">test(gossipsub): gossipsub unit tests 1</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1511" class="external">test(gossipsub): gossipsub unit tests 2</a></li>
+</ul>
+<h3 id="pubsub-testing">Pubsub Testing<a aria-hidden="true" tabindex="-1" href="#pubsub-testing" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>vac:qa:vac:2025q3-nim-libp2p-testing:pubsub</code></li>
+<li>owner: radek</li>
+<li>status: not started</li>
+<li>start-date: 2025/07/15</li>
+<li>end-date: 2025/07/31</li>
+</ul>
+<h4 id="description-2">Description<a aria-hidden="true" tabindex="-1" href="#description-2" class="internal"> §</a></h4>
+<p>Investigate and implement pubsub tests that can be done in isolation and make sense
+beyond what is already covered by Gossipsub testing. Focus on core pubsub functionality,
+base protocol behaviors, subscription management, message validation, and pubsub router
+interactions that are protocol-agnostic.</p>
+<h4 id="deliverables-1">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-1" class="internal"> §</a></h4>
+<ul>
+<li>PRs with links to added tests</li>
+</ul>
+<h3 id="yamux-multiplexer-testing">Yamux Multiplexer Testing<a aria-hidden="true" tabindex="-1" href="#yamux-multiplexer-testing" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>vac:qa:vac:2025q3-nim-libp2p-testing:yamux</code></li>
+<li>owner: radek</li>
+<li>status: done</li>
+<li>start-date: 2025/08/01</li>
+<li>end-date: 2025/08/31</li>
+</ul>
+<h4 id="description-3">Description<a aria-hidden="true" tabindex="-1" href="#description-3" class="internal"> §</a></h4>
+<p>Implement testing for the Yamux multiplexer protocol in nim-libp2p.
+Yamux is a stream multiplexing protocol that allows multiple logical streams
+over a single connection. Testing should cover stream creation and management,
+flow control, backpressure handling, concurrent stream operations, error handling,
+and edge cases.</p>
+<h4 id="deliverables-2">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-2" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1625" class="external">test(yamux): Add header unit tests</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1634" class="external">test(yamux): Add unit tests - frame handling and stream initiation</a></li>
+</ul>
+<h3 id="rendezvous-protocol-testing">Rendezvous Protocol Testing<a aria-hidden="true" tabindex="-1" href="#rendezvous-protocol-testing" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>vac:qa:vac:2025q3-nim-libp2p-testing:rendezvous</code></li>
+<li>owner: radek</li>
+<li>status: done</li>
+<li>start-date: 2025/09/01</li>
+<li>end-date: 2025/09/30</li>
+</ul>
+<h4 id="description-4">Description<a aria-hidden="true" tabindex="-1" href="#description-4" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1644" class="external">test(rendezvous): Refactor Rendezvous tests</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1646" class="external">fix(rendezvous): pagination offset</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1655" class="external">test(rendezvous): Registration TTL tests</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1656" class="external">fix(rendezvous): peer registration limit</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1677" class="external">test(rendezvous): Simplify test setup</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1671" class="external">refactor(rendezvous): Split Rendezvous Protobuf and add tests</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1683" class="external">test(rendezvous): error cases</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1715" class="external">test(rendezvous): refactor and extend discovery manager tests </a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1716" class="external">test(rendezvous): misc </a></li>
+</ul>
+<h4 id="deliverables-3">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-3" class="internal"> §</a></h4>
+<ul>
+<li>PRs with links to added tests</li>
+</ul>
+<h3 id="floodsub-testing-if-time-permits">Floodsub Testing (If Time Permits)<a aria-hidden="true" tabindex="-1" href="#floodsub-testing-if-time-permits" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>vac:qa:vac:2025q3-nim-libp2p-testing:floodsub</code></li>
+<li>owner: radek</li>
+<li>status: not started</li>
+<li>start-date: 2025/09/15</li>
+<li>end-date: 2025/09/30</li>
+</ul>
+<h4 id="description-5">Description<a aria-hidden="true" tabindex="-1" href="#description-5" class="internal"> §</a></h4>
+<p>If previous tasks are completed ahead of schedule, implement comprehensive
+testing for the Floodsub protocol. Floodsub is a basic pubsub implementation
+that floods messages to all peers in the network, serving as a simpler
+alternative to Gossipsub.</p>
+<h4 id="deliverables-4">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-4" class="internal"> §</a></h4>
+<ul>
+<li>PRs with links to added tests</li>
+</ul>
+<h3 id="test-plans-and-documentation">Test Plans and Documentation<a aria-hidden="true" tabindex="-1" href="#test-plans-and-documentation" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>vac:qa:vac:2025q3-nim-libp2p-testing:test-plans</code></li>
+<li>owner: fbarbu15</li>
+<li>status: not started</li>
+<li>start-date: 2025/07/01</li>
+<li>end-date: 2025/09/30</li>
+</ul>
+<h4 id="description-6">Description<a aria-hidden="true" tabindex="-1" href="#description-6" class="internal"> §</a></h4>
+<p>Update and add new test plans for identify / push identify, ping, mplex multiplexer,
+and others to be determined later.</p>
+<h4 id="deliverables-5">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-5" class="internal"> §</a></h4>
+<ul>
+<li>Link with the Notion pages</li>
+</ul>
+<h3 id="gossipsub-performance-testing">GossipSub Performance Testing<a aria-hidden="true" tabindex="-1" href="#gossipsub-performance-testing" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>vac:qa:vac:2025q3-nim-libp2p-testing:gossipsub-performance</code></li>
+<li>owner: radek</li>
+<li>status: done</li>
+<li>start-date: 2025/07/15</li>
+<li>end-date: 2025/07/31</li>
+</ul>
+<h4 id="description-7">Description:<a aria-hidden="true" tabindex="-1" href="#description-7" class="internal"> §</a></h4>
+<p>Implement small scale performance tests for GossipSub that can run between a few nodes in the nim-libp2p repository. Set up GitHub Actions workflow to run these tests automatically and post results to PRs. Focus on performance scenarios that make sense at the integration test level, complementary to DST’s multi-node testing. Include baseline measurements and automated result reporting.</p>
+<h4 id="deliverables-6">Deliverables:<a aria-hidden="true" tabindex="-1" href="#deliverables-6" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1544" class="external">test(gossipsub): performance tests PoC</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1573" class="external">test(gossipsub): Performance tests - base scenario and runner</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1577" class="external">test(gossipsub): Performance tests - aggregation script and workflow</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1585" class="external">test(gossipsub): Performance tests - more scenarios</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1593" class="external">test(gossipsub): Performance tests - docker stats</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1597" class="external">test(gossipsub): Performance tests - plot docker stats</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1608" class="external">test(gossipsub): Performance tests - plot latency history</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1617" class="external">test(performance): fetch before push and improve latency history</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1631" class="external">test(performance): Add QUIC scenario</a></li>
+</ul></article></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#description" data-for="description">Description</a></li><li class="depth-0"><a href="#task-list" data-for="task-list">Task List</a></li><li class="depth-1"><a href="#gossipsub-extended---completion" data-for="gossipsub-extended---completion">Gossipsub Extended - Completion</a></li><li class="depth-1"><a href="#pubsub-testing" data-for="pubsub-testing">Pubsub Testing</a></li><li class="depth-1"><a href="#yamux-multiplexer-testing" data-for="yamux-multiplexer-testing">Yamux Multiplexer Testing</a></li><li class="depth-1"><a href="#rendezvous-protocol-testing" data-for="rendezvous-protocol-testing">Rendezvous Protocol Testing</a></li><li class="depth-1"><a href="#floodsub-testing-if-time-permits" data-for="floodsub-testing-if-time-permits">Floodsub Testing (If Time Permits)</a></li><li class="depth-1"><a href="#test-plans-and-documentation" data-for="test-plans-and-documentation">Test Plans and Documentation</a></li><li class="depth-1"><a href="#gossipsub-performance-testing" data-for="gossipsub-performance-testing">GossipSub Performance Testing</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li><a href="../../qa/" class="internal">QA Service Unit</a></li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a>, © 2026</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../postscript.js?v=mq6gldi3" type="module"></script></html>

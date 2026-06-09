@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html><head><title>Status Wallet Extension</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Status Wallet Extension"/><meta property="og:description" content="Continued development and enhancement of the browser wallet extension focused on trading and investor utility, featuring multi-chain swaps, portfolio management, and real-time token tracking."/><meta property="og:image" content="https://roadmap.vac.dev/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="Continued development and enhancement of the browser wallet extension focused on trading and investor utility, featuring multi-chain swaps, portfolio management, and real-time token tracking."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../../index.css?v=mq6gldi3" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=sans-serif:wght@400;700&amp;family=sans-serif:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js?v=mq6gldi3" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../../static/contentIndex.json?v=mq6gldi3`).then(data => data.json())</script></head><body data-slug="web/status/2026q1-status-wallet-extension"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title "><a href="../..">IFT-TS Roadmaps and Reports</a></h1><div class="spacer mobile-only"></div><div class="search "><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode "><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true"><h1>Explorer</h1><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container " aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../..">Home</a><p> > </p></div><div class="breadcrumb-element"><a href="../../web/">web</a><p> > </p></div><div class="breadcrumb-element"><a href="../../web/status/">status</a><p> > </p></div><div class="breadcrumb-element"><a href>Status Wallet Extension</a></div></nav><h1 class="article-title ">Status Wallet Extension</h1><p class="content-meta ">Jun 09, 2026, 4 min read</p><ul class="tags "><li><a href="../../tags/2026q1" class="internal tag-link">#2026q1</a></li><li><a href="../../tags/web" class="internal tag-link">#web</a></li><li><a href="../../tags/status" class="internal tag-link">#status</a></li></ul></div></div><article class="popover-hint"><p><code>ift-ts:web:status:2026q1-status-wallet-extension</code></p>
+<h2 id="description">Description<a aria-hidden="true" tabindex="-1" href="#description" class="internal"> §</a></h2>
+<p>This commitment involves continued development and enhancement of the Status Wallet Extension, building upon the MVP to add advanced features, improve trading capabilities, and expand the portfolio management functionality. The extension serves as a comprehensive trading wallet and token price tracker for casual and meme coin traders and investors.</p>
+<p>The Status Wallet Extension development will support Status’ strategic objectives by:</p>
+<ul>
+<li><strong>Feature Expansion</strong>: Adding advanced trading features, social aspects, and enhanced portfolio management</li>
+<li><strong>Revenue Optimization</strong>: Improving swap fees, bridge transactions, and subscription models</li>
+<li><strong>User Experience Enhancement</strong>: Refining UI/UX based on user feedback and market research</li>
+<li><strong>Market Expansion</strong>: Reaching broader audiences through improved features and marketing integration</li>
+</ul>
+<h2 id="task-list">Task List<a aria-hidden="true" tabindex="-1" href="#task-list" class="internal"> §</a></h2>
+<h3 id="proxy-api-rate-limiting">Proxy API Rate Limiting<a aria-hidden="true" tabindex="-1" href="#proxy-api-rate-limiting" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:web:status:2026q1-status-wallet-extension:proxy-api-rate-limiting</code></li>
+<li>owner: jinhojang6</li>
+<li>status: done</li>
+<li>start-date: 2026/02/05</li>
+<li>end-date: 2026/03/03</li>
+</ul>
+<h4 id="description-1">Description<a aria-hidden="true" tabindex="-1" href="#description-1" class="internal"> §</a></h4>
+<p>Implement proxy API rate limiting to manage API usage and prevent abuse.</p>
+<h4 id="deliverables">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/status-im/status-web/pull/1058" class="external">status-im/status-web#1058</a> Reopen the rate-limit PR</li>
+<li>Rate limiting implementation</li>
+<li>API quota management</li>
+<li>Rate limit configuration</li>
+<li><a href="https://github.com/status-im/status-web/issues/855" class="external">status-im/status-web#855</a> Using the browser extension does not work while VPN is turned on</li>
+</ul>
+<h3 id="qa-defining-test-cases-together">QA Defining Test Cases Together<a aria-hidden="true" tabindex="-1" href="#qa-defining-test-cases-together" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:web:status:2026q1-status-wallet-extension:qa-defining-test-cases-together</code></li>
+<li>owner: jkbktl</li>
+<li>status: not started</li>
+<li>start-date: 2026/02/05</li>
+<li>end-date: 2026/02/19</li>
+</ul>
+<h4 id="description-2">Description<a aria-hidden="true" tabindex="-1" href="#description-2" class="internal"> §</a></h4>
+<p>Collaborate with QA team to define comprehensive test cases for wallet extension features and functionality.</p>
+<h4 id="deliverables-1">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-1" class="internal"> §</a></h4>
+<ul>
+<li>Test case documentation</li>
+<li>Test plan</li>
+<li>QA collaboration notes</li>
+<li><a href="https://github.com/status-im/status-web/issues/783" class="external">status-im/status-web#783</a> Browser wallet QA testing - Beta</li>
+<li><a href="https://github.com/status-im/status-web/issues/771" class="external">status-im/status-web#771</a> QA testing - build #93</li>
+<li><a href="https://github.com/status-im/status-web/issues/768" class="external">status-im/status-web#768</a> Browser extension wallet QA checklist</li>
+</ul>
+<h3 id="value-chart">Value Chart<a aria-hidden="true" tabindex="-1" href="#value-chart" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:web:status:2026q1-status-wallet-extension:value-chart</code></li>
+<li>owner: JulesFiliot</li>
+<li>status: not started</li>
+<li>start-date: 2026/02/12</li>
+<li>end-date: 2026/03/05</li>
+</ul>
+<h4 id="description-3">Description<a aria-hidden="true" tabindex="-1" href="#description-3" class="internal"> §</a></h4>
+<p>Implement value chart functionality to display portfolio value over time.</p>
+<h4 id="deliverables-2">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-2" class="internal"> §</a></h4>
+<ul>
+<li>Value chart component</li>
+<li>Chart data integration</li>
+<li>UI implementation</li>
+</ul>
+<h3 id="hide-small-balances">Hide Small Balances<a aria-hidden="true" tabindex="-1" href="#hide-small-balances" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:web:status:2026q1-status-wallet-extension:hide-small-balances</code></li>
+<li>owner: jinhojang6</li>
+<li>status: not started</li>
+<li>start-date: 2026/02/12</li>
+<li>end-date: 2026/02/26</li>
+</ul>
+<h4 id="description-4">Description<a aria-hidden="true" tabindex="-1" href="#description-4" class="internal"> §</a></h4>
+<p>Implement feature to hide small token balances from the wallet view for cleaner UI.</p>
+<h4 id="deliverables-3">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-3" class="internal"> §</a></h4>
+<ul>
+<li>Hide small balances functionality</li>
+<li>User preference settings</li>
+<li>UI toggle implementation</li>
+</ul>
+<h3 id="lifi-swap-integration">LI.FI Swap Integration<a aria-hidden="true" tabindex="-1" href="#lifi-swap-integration" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:web:status:2026q1-status-wallet-extension:lifi-swap-integration</code></li>
+<li>owner: JulesFiliot</li>
+<li>status: done</li>
+<li>start-date: 2026/02/12</li>
+<li>end-date: 2026/03/31</li>
+</ul>
+<h4 id="description-5">Description<a aria-hidden="true" tabindex="-1" href="#description-5" class="internal"> §</a></h4>
+<p>Integrate LI.FI swap functionality to enable multi-chain token swaps within the wallet extension.</p>
+<h4 id="deliverables-4">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-4" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://chromewebstore.google.com/detail/status-portfolio-wallet-b/opkfeajbclhjdneghppfnfiannideafj" class="external">Chrome Web Store: Status Portfolio Wallet</a></li>
+<li>LI.FI integration</li>
+<li>Swap interface</li>
+<li>Multi-chain support</li>
+<li><a href="https://github.com/status-im/status-web/pull/966" class="external">status-im/status-web#966</a> Integrate LI.FI widget to swap token on ETH network</li>
+</ul>
+<h3 id="send-nft">Send NFT<a aria-hidden="true" tabindex="-1" href="#send-nft" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:web:status:2026q1-status-wallet-extension:send-nft</code></li>
+<li>owner: JulesFiliot</li>
+<li>status: done</li>
+<li>start-date: 2026/02/19</li>
+<li>end-date: 2026/03/31</li>
+</ul>
+<h4 id="description-6">Description<a aria-hidden="true" tabindex="-1" href="#description-6" class="internal"> §</a></h4>
+<p>Implement functionality to send NFTs from the wallet extension.</p>
+<h4 id="deliverables-5">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-5" class="internal"> §</a></h4>
+<ul>
+<li>Send NFT feature</li>
+<li>NFT transfer interface</li>
+<li>Transaction handling</li>
+</ul>
+<h3 id="global-password">Global Password<a aria-hidden="true" tabindex="-1" href="#global-password" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:web:status:2026q1-status-wallet-extension:global-password</code></li>
+<li>owner: JulesFiliot</li>
+<li>status: done</li>
+<li>start-date: 2026/02/19</li>
+<li>end-date: 2026/03/31</li>
+</ul>
+<h4 id="description-7">Description<a aria-hidden="true" tabindex="-1" href="#description-7" class="internal"> §</a></h4>
+<p>Implement global password functionality for unified authentication across wallet features.</p>
+<h4 id="deliverables-6">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-6" class="internal"> §</a></h4>
+<ul>
+<li>Added password auth layer to wallet actions.</li>
+<li>Global password system</li>
+<li>Authentication integration</li>
+<li>Password management UI</li>
+<li><a href="https://github.com/status-im/status-web/issues/698" class="external">status-im/status-web#698</a> Add password auth layer to wallet actions</li>
+<li><a href="https://github.com/status-im/status-web/issues/995" class="external">status-im/status-web#995</a> Session-based keys management for wallet</li>
+<li><a href="https://github.com/status-im/status-web/issues/995#issuecomment-3821551558" class="external">Status wallet architecture response</a></li>
+</ul>
+<h3 id="multi-account">Multi Account<a aria-hidden="true" tabindex="-1" href="#multi-account" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:web:status:2026q1-status-wallet-extension:multi-account</code></li>
+<li>owner: jkbktl</li>
+<li>status: not started</li>
+<li>start-date: 2026/02/26</li>
+<li>end-date: 2026/03/19</li>
+</ul>
+<h4 id="description-8">Description<a aria-hidden="true" tabindex="-1" href="#description-8" class="internal"> §</a></h4>
+<p>Implement multi-account support to allow users to manage multiple accounts within the wallet extension.</p>
+<h4 id="deliverables-7">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-7" class="internal"> §</a></h4>
+<ul>
+<li>Multi-account functionality</li>
+<li>Account switching interface</li>
+<li>Account management UI</li>
+</ul>
+<h3 id="multi-wallet">Multi Wallet<a aria-hidden="true" tabindex="-1" href="#multi-wallet" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:web:status:2026q1-status-wallet-extension:multi-wallet</code></li>
+<li>owner: JulesFiliot</li>
+<li>status: done</li>
+<li>start-date: 2026/02/26</li>
+<li>end-date: 2026/03/19</li>
+</ul>
+<h4 id="description-9">Description<a aria-hidden="true" tabindex="-1" href="#description-9" class="internal"> §</a></h4>
+<p>Implement multi-wallet support to allow users to connect and manage multiple wallets simultaneously.</p>
+<h4 id="deliverables-8">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-8" class="internal"> §</a></h4>
+<ul>
+<li>Multi-wallet functionality</li>
+<li>Wallet connection management</li>
+<li>Wallet switching interface</li>
+<li><a href="https://github.com/status-im/status-web/issues/928" class="external">status-im/status-web#928</a> multi-wallet</li>
+</ul>
+<h3 id="dapp-connection">Dapp Connection<a aria-hidden="true" tabindex="-1" href="#dapp-connection" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:web:status:2026q1-status-wallet-extension:dapp-connection</code></li>
+<li>owner: jinhojang6</li>
+<li>status: done</li>
+<li>start-date: 2026/03/05</li>
+<li>end-date: 2026/03/19</li>
+</ul>
+<h4 id="description-10">Description<a aria-hidden="true" tabindex="-1" href="#description-10" class="internal"> §</a></h4>
+<p>Implement dApp connection functionality to enable wallet extension to connect with decentralized applications.</p>
+<h4 id="deliverables-9">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-9" class="internal"> §</a></h4>
+<ul>
+<li><a href="https://github.com/status-im/status-web/pull/1033" class="external">status-im/status-web#1033</a> feat: connect wallet to dApp</li>
+<li><a href="https://github.com/status-im/status-web/pull/1014" class="external">status-im/status-web#1014</a> Show connection error when wallet connection fails due to permission issues</li>
+<li><a href="https://github.com/status-im/status-web/pull/1030" class="external">status-im/status-web#1030</a> chore: update extension assets</li>
+<li>dApp connection system</li>
+<li>Connection approval interface</li>
+<li>dApp integration support</li>
+</ul>
+<h3 id="hardware-wallets">Hardware Wallets<a aria-hidden="true" tabindex="-1" href="#hardware-wallets" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:web:status:2026q1-status-wallet-extension:hardware-wallets</code></li>
+<li>owner: jkbktl</li>
+<li>status: not started</li>
+<li>start-date: 2026/03/05</li>
+<li>end-date: 2026/03/26</li>
+</ul>
+<h4 id="description-11">Description<a aria-hidden="true" tabindex="-1" href="#description-11" class="internal"> §</a></h4>
+<p>Implement hardware wallet support with QR code-based connection and Keycard Shell integration.</p>
+<h4 id="deliverables-10">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-10" class="internal"> §</a></h4>
+<ul>
+<li>Hardware wallet integration</li>
+<li>QR code connection system</li>
+<li>Keycard Shell support</li>
+</ul>
+<h3 id="browser-and-system-notifications">Browser and System Notifications<a aria-hidden="true" tabindex="-1" href="#browser-and-system-notifications" class="internal"> §</a></h3>
+<ul>
+<li>fully qualified name: <code>ift-ts:web:status:2026q1-status-wallet-extension:browser-system-notifications</code></li>
+<li>owner: JulesFiliot</li>
+<li>status: not started</li>
+<li>start-date: 2026/03/12</li>
+<li>end-date: 2026/03/26</li>
+</ul>
+<h4 id="description-12">Description<a aria-hidden="true" tabindex="-1" href="#description-12" class="internal"> §</a></h4>
+<p>Implement browser and system notifications to alert users of wallet activities and transactions.</p>
+<h4 id="deliverables-11">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables-11" class="internal"> §</a></h4>
+<ul>
+<li>Notification system implementation</li>
+<li>Browser notification integration</li>
+<li>System notification support</li>
+</ul></article></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#description" data-for="description">Description</a></li><li class="depth-0"><a href="#task-list" data-for="task-list">Task List</a></li><li class="depth-1"><a href="#proxy-api-rate-limiting" data-for="proxy-api-rate-limiting">Proxy API Rate Limiting</a></li><li class="depth-1"><a href="#qa-defining-test-cases-together" data-for="qa-defining-test-cases-together">QA Defining Test Cases Together</a></li><li class="depth-1"><a href="#value-chart" data-for="value-chart">Value Chart</a></li><li class="depth-1"><a href="#hide-small-balances" data-for="hide-small-balances">Hide Small Balances</a></li><li class="depth-1"><a href="#lifi-swap-integration" data-for="lifi-swap-integration">LI.FI Swap Integration</a></li><li class="depth-1"><a href="#send-nft" data-for="send-nft">Send NFT</a></li><li class="depth-1"><a href="#global-password" data-for="global-password">Global Password</a></li><li class="depth-1"><a href="#multi-account" data-for="multi-account">Multi Account</a></li><li class="depth-1"><a href="#multi-wallet" data-for="multi-wallet">Multi Wallet</a></li><li class="depth-1"><a href="#dapp-connection" data-for="dapp-connection">Dapp Connection</a></li><li class="depth-1"><a href="#hardware-wallets" data-for="hardware-wallets">Hardware Wallets</a></li><li class="depth-1"><a href="#browser-and-system-notifications" data-for="browser-and-system-notifications">Browser and System Notifications</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li><a href="../../web/" class="internal">Web Service Unit</a></li><li><a href="../../weeklies/2026-01-12" class="internal">2026-01-12 Vac weekly</a></li><li><a href="../../weeklies/2026-01-19" class="internal">2026-01-19 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-01-26" class="internal">2026-01-26 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-02-02" class="internal">2026-02-02 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-02-09" class="internal">2026-02-09 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-02-16" class="internal">2026-02-16 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-02-23" class="internal">2026-02-23 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-03-02" class="internal">2026-03-02 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-03-09" class="internal">2026-03-09 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-03-16" class="internal">2026-03-16 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-03-23" class="internal">2026-03-23 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-03-30" class="internal">2026-03-30 IFT-TS weekly</a></li><li><a href="../../weeklies/2026-04-06" class="internal">2026-04-06 IFT-TS weekly</a></li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a>, © 2026</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../postscript.js?v=mq6gldi3" type="module"></script></html>

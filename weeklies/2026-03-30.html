@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html><head><title>2026-03-30 IFT-TS weekly</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="2026-03-30 IFT-TS weekly"/><meta property="og:description" content="IFT-TS 2026/03/30 § top highlights § SEC started LEZ security audit, built the interactive security checklist for IFT core contributors, and created the Security Guidelines page."/><meta property="og:image" content="https://roadmap.vac.dev/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="IFT-TS 2026/03/30 § top highlights § SEC started LEZ security audit, built the interactive security checklist for IFT core contributors, and created the Security Guidelines page."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css?v=mq6gldi3" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=sans-serif:wght@400;700&amp;family=sans-serif:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js?v=mq6gldi3" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json?v=mq6gldi3`).then(data => data.json())</script></head><body data-slug="weeklies/2026-03-30"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title "><a href="..">IFT-TS Roadmaps and Reports</a></h1><div class="spacer mobile-only"></div><div class="search "><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode "><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true"><h1>Explorer</h1><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container " aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="..">Home</a><p> > </p></div><div class="breadcrumb-element"><a href="../weeklies/">weeklies</a><p> > </p></div><div class="breadcrumb-element"><a href>2026-03-30 IFT-TS weekly</a></div></nav><h1 class="article-title ">2026-03-30 IFT-TS weekly</h1><p class="content-meta ">Mar 30, 2026, 9 min read</p><ul class="tags "><li><a href="../tags/vac-updates" class="internal tag-link">#vac-updates</a></li></ul></div></div><div class="weekly-report"><div class="weekly-stats-bar"><div class="stat"><div class="stat-value" id="stat-teams">0</div><div class="stat-label">Teams</div></div><div class="stat"><div class="stat-value" id="stat-prs">0</div><div class="stat-label">GitHub Links</div></div></div><div class="weekly-controls"><input type="text" class="weekly-search" id="weekly-search" placeholder="Search updates, PRs, teams..."/><div class="weekly-filters"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="github">GitHub</button><button class="filter-btn" data-filter="internal">Internal</button><button class="filter-btn" data-filter="external">External</button></div></div><div class="weekly-legend"><span class="legend-title">Link Types:</span><span class="legend-item"><span class="legend-color github"></span><span>GitHub</span></span><span class="legend-item"><span class="legend-color internal"></span><span>Internal (roadmap.vac.dev)</span></span><span class="legend-item"><span class="legend-color external"></span><span>External</span></span><span class="legend-item"><span class="legend-color task-id"></span><span>Task ID</span></span></div><div class="weekly-tabs" id="weekly-tabs"><button class="team-tab active" data-team="all">All Teams</button><button class="team-tab" data-team="bi" title="Business Intelligence">BI<span class="tab-badge" id="badge-bi">0</span></button><button class="team-tab" data-team="dst" title="Distributed Systems Testing">DST<span class="tab-badge" id="badge-dst">0</span></button><button class="team-tab" data-team="nim" title="Language &amp; Libraries">Nim<span class="tab-badge" id="badge-nim">0</span></button><button class="team-tab" data-team="p2p" title="Peer-to-Peer">P2P<span class="tab-badge" id="badge-p2p">0</span></button><button class="team-tab" data-team="qa" title="Quality Assurance">QA<span class="tab-badge" id="badge-qa">0</span></button><button class="team-tab" data-team="rfc" title="Request for Comments">RFC<span class="tab-badge" id="badge-rfc">0</span></button><button class="team-tab" data-team="sc" title="Smart Contracts">SC<span class="tab-badge" id="badge-sc">0</span></button><button class="team-tab" data-team="sec" title="Security">SEC<span class="tab-badge" id="badge-sec">0</span></button><button class="team-tab" data-team="tke" title="Token Economics">TKE<span class="tab-badge" id="badge-tke">0</span></button><button class="team-tab" data-team="web" title="Web Development">WEB<span class="tab-badge" id="badge-web">0</span></button><button class="team-tab" data-team="infra" title="Infrastructure">INFRA<span class="tab-badge" id="badge-infra">0</span></button></div><article class="popover-hint weekly-content show-all" id="weekly-content"><h2 id="ift-ts-20260330">IFT-TS 2026/03/30<a aria-hidden="true" tabindex="-1" href="#ift-ts-20260330" class="internal" data-link-type="internal"> §</a></h2>
+<h3 id="top-highlights">top highlights<a aria-hidden="true" tabindex="-1" href="#top-highlights" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li>SEC started LEZ security audit, built the interactive security checklist for IFT core contributors, and created the Security Guidelines page.</li>
+<li>TKE prepared Logos model parameters with BI, defined a first LEZ fee-market model, and advanced investor-facing token work.</li>
+<li>NIM landed new Nimble 0.22.3 release, progressing protobuf-serialization fixes and integration with libp2p, core-libs maintenance, and Chronos documentation.</li>
+</ul>
+<h3 id="team-highlights">team highlights<a aria-hidden="true" tabindex="-1" href="#team-highlights" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li>BI: Updated Status Apple Store metrics and linked them with Google Analytics 4 for campaign analytics.</li>
+<li>BI: Refreshed Status Network monitoring and continued Logos app-download and GitHub release extraction work.</li>
+<li>DST: Finished a scalable KAD-DHT evaluation plan and documented hop-collection and latency issues.</li>
+<li>DST: Compared jemalloc-backed IBD and non-IBD blockchain nodes and documented continued memory-growth findings.</li>
+<li>DST: Converted metrics and plotting from YAML to Python and cleaned up the deployment-analysis bridge work.</li>
+<li>DST: Extended vaclab health monitoring with krew packaging, intra-node benchmarks, and new hardware dashboards.</li>
+<li>NIM: Landed Nimble cleanup, backport, and patch-release work across the 1.0.0 stream.</li>
+<li>NIM: Advanced protobuf serialization with default-option handling, conformance tests, negative-varint fixes, and RendezVous adoption work.</li>
+<li>NIM: Continued core-libs maintenance through borrow/carry helpers, dependency bumps, and compiler or CLI fixes.</li>
+<li>NIM: Progressed Chronos documentation and language-server integration fixes.</li>
+<li>P2P: Merged a broad maintenance batch across nim-libp2p, nim-lsquic, and Nimbus QUIC support.</li>
+<li>P2P: Added support for listening on many QUIC addresses ahead of the next maintenance stream.</li>
+<li>P2P: Finished the gossipsub 1.4 preamble-extension refactor.</li>
+<li>P2P: Added follow-up improvements to the gossipsub partial-messages extension.</li>
+<li>QA: Continued token-gated community functional testing with review feedback and complexity-audit work.</li>
+<li>QA: Progressed messaging maintenance through RLN refactoring and flaky-test fixes.</li>
+<li>QA: Re-tested Logos Delivery Python bindings and documented missing APIs, publish failures, and metrics-thread issues.</li>
+<li>QA: Advanced Status desktop and mobile E2E maintenance, including Activity Center tests and light-client messaging fixes.</li>
+<li>QA: Added status-go maintenance changes and nim-libp2p transport-interop test-plan work.</li>
+<li>RFC: Reviewed several RFC index pull requests and prepared the next 1/COSS update.</li>
+<li>RFC: Continued adversary-spec updates and completed retrospective follow-up work.</li>
+<li>SC: Updated exact-output swap work with overflow fixes and added supporting tests.</li>
+<li>SC: Iterated on AMM completion work for PR 371 and LP delta fixes.</li>
+<li>SC: Opened the initial <code>lez-programs</code> repository setup and continued ATA-program integration work.</li>
+<li>SEC: Shared the draft LEZ security audit with the dev team.</li>
+<li>SEC: Built the interactive security checklist for IFT core contributors.</li>
+<li>SEC: Created the Security Guidelines page and requested production merge.</li>
+<li>SEC: Continued repository-wide security reviews, Keycard remediation validation, and dependency or incident triage.</li>
+<li>TKE: Prepared Logos model parameters with BI and continued deployment planning for the macroeconomic model.</li>
+<li>TKE: Defined an initial LEZ fee-market model and advanced stablecoin and RFP review work.</li>
+<li>TKE: Progressed fundraising and token work with investor-data-room drafting and LBP review.</li>
+<li>TKE: Continued xPrize and broader ecodev process work, including Builder Hub shaping and RFP reviews.</li>
+<li>WEB: Continued SN Hub Hoodi migration and opened proof-of-work RPC auth.</li>
+<li>WEB: Fixed stake-page visibility and loading-state issues in SN Hub while keeping max-stake fixes under retest.</li>
+<li>WEB: Progressed the wallet-extension dApp-connection flow.</li>
+<li>WEB: Advanced the community-curation monorepo migration and Status Network blog updates.</li>
+<li>WEB: Delivered maintenance and content work across free.technology, Logos sites, and Builder’s Hub.</li>
+</ul>
+<h3 id="ift-tsbi">ift-ts:bi:<a aria-hidden="true" tabindex="-1" href="#ift-tsbi" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><a href="../bi/status/2026q1-uss-status#uss-status-monitoring" class="internal" data-slug="bi/status/2026q1-uss-status" data-link-type="internal"><code>ift-ts:bi:status:2026q1-uss-status</code></a>
+<ul>
+<li>Updated Apple Store metrics and linked current data with Google Analytics 4 for campaign analytics.</li>
+<li>Continued community-monitoring work on status-bot.</li>
+</ul>
+</li>
+<li><code>ift-ts:bi:status-network</code>
+<ul>
+<li>Updated Status Network testnet monitoring in <a href="https://grafana.bi.status.im/d/dfehnpkxtsfswb/sepolia-network-activity-overview?orgId=1&amp;from=now-30d&amp;to=now&amp;timezone=UTC" class="external" data-link-type="external">Grafana</a>.</li>
+</ul>
+</li>
+<li><code>ift-ts:bi:keycard</code>
+<ul>
+<li>Researched Shopify analytics updates.</li>
+</ul>
+</li>
+<li><a href="../bi/logos/2026q1-logos-github-monitoring" class="internal" data-slug="bi/logos/2026q1-logos-github-monitoring" data-link-type="internal"><code>ift-ts:bi:logos:2026q1-logos-github-monitoring</code></a>
+<ul>
+<li>Continued extracting Logos app download and GitHub release data.</li>
+</ul>
+</li>
+<li><code>ift-ts:bi:finance</code>
+<ul>
+<li>Fixed a small data issue.</li>
+</ul>
+</li>
+</ul>
+<h3 id="ift-tsdst">ift-ts:dst:<a aria-hidden="true" tabindex="-1" href="#ift-tsdst" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><a href="../dst/ift/2026q1-dst-tooling#general-tooling-recurring" class="internal" data-slug="dst/ift/2026q1-dst-tooling" data-link-type="internal"><code>ift-ts:dst:ift:2026q1-dst-tooling:general-tooling</code></a>
+<ul>
+<li>Merged <a href="https://github.com/vacp2p/10ksim/pull/212" class="external" data-link-type="github" data-github-type="pr">vacp2p/10ksim#212</a>, <a href="https://github.com/vacp2p/10ksim/pull/213" class="external" data-link-type="github" data-github-type="pr">#213</a>, <a href="https://github.com/vacp2p/10ksim/pull/214" class="external" data-link-type="github" data-github-type="pr">#214</a>, <a href="https://github.com/vacp2p/10ksim/pull/215" class="external" data-link-type="github" data-github-type="pr">#215</a>, and <a href="https://github.com/vacp2p/dst-libp2p-test-node/pull/17" class="external" data-link-type="github" data-github-type="pr">vacp2p/dst-libp2p-test-node#17</a>.</li>
+<li>Kept <a href="https://github.com/vacp2p/dst-libp2p-test-node/pull/18" class="external" data-link-type="github" data-github-type="pr">vacp2p/dst-libp2p-test-node#18</a> and <a href="https://github.com/vacp2p/dst-libp2p-test-node/pull/16" class="external" data-link-type="github" data-github-type="pr">#16</a> in review, and continued repository restructuring in <a href="https://github.com/vacp2p/10ksim/pull/208" class="external" data-link-type="github" data-github-type="pr">vacp2p/10ksim#208</a>.</li>
+</ul>
+</li>
+<li><a href="../dst/anoncomms/2026q1-anoncomms-evaluation#kad-dht" class="internal" data-slug="dst/anoncomms/2026q1-anoncomms-evaluation" data-link-type="internal"><code>ift-ts:dst:anoncomms:2026q1-anoncomms-evaluation:kad-dht</code></a>
+<ul>
+<li>Documented the KAD-DHT plan, identified issues with hop collection and large latencies, and opened <a href="https://github.com/vacp2p/dst-libp2p-test-node/pull/19" class="external" data-link-type="github" data-github-type="pr">vacp2p/dst-libp2p-test-node#19</a>.</li>
+<li>Published supporting <a href="https://github.com/vacp2p/nim-libp2p/tree/dst/improve_kad_logging" class="external" data-link-type="github" data-github-type="repo">nim-libp2p branch</a> and <a href="https://github.com/vacp2p/10ksim/commits/Alberto/kad-dht-analysis/" class="external" data-link-type="github" data-github-type="repo">10ksim analysis branch</a>.</li>
+</ul>
+</li>
+<li><a href="../dst/blockchain/2026q1-blockchain-evaluation#blockchain-consumption" class="internal" data-slug="dst/blockchain/2026q1-blockchain-evaluation" data-link-type="internal"><code>ift-ts:dst:blockchain:2026q1-blockchain-evaluation:consumption</code></a>
+<ul>
+<li>Deployed jemalloc-backed IBD and non-IBD nodes and documented the memory investigation in <a href="https://www.notion.so/Logos-blockchain-memory-issue-3268f96fb65c807cab42e6abf5c44024" class="external" data-link-type="external">Notion</a>.</li>
+<li>Confirmed jemalloc keeps memory lower and more stable, while memory growth still continues; next step is voucher-management optimization.</li>
+</ul>
+</li>
+<li><a href="../dst/ift/2026q1-dst-tooling#deployment-analysis-bridge" class="internal" data-slug="dst/ift/2026q1-dst-tooling" data-link-type="internal"><code>ift-ts:dst:ift:2026q1-dst-tooling:deployment-analysis-bridge</code></a>
+<ul>
+<li>Cleaned up the bridge work in <a href="https://github.com/vacp2p/10ksim/pull/216" class="external" data-link-type="github" data-github-type="pr">vacp2p/10ksim#216</a> after closing <a href="https://github.com/vacp2p/10ksim/pull/209" class="external" data-link-type="github" data-github-type="pr">#209</a> in favor of the new PR.</li>
+</ul>
+</li>
+<li><a href="../dst/ift/2026q1-libp2p-evaluation#regression-testing-recurring" class="internal" data-slug="dst/ift/2026q1-libp2p-evaluation" data-link-type="internal"><code>ift-ts:dst:ift:2026q1-libp2p-evaluation:regression-testing</code></a>
+<ul>
+<li>Started nim-libp2p plots and documented work-in-progress results in <a href="https://www.notion.so/nimlibp2p-1-16-0-WIP-3328f96fb65c807dba1df2f19480e65f?showMoveTo=true&amp;saveParent=true" class="external" data-link-type="external">Notion</a>.</li>
+</ul>
+</li>
+<li><a href="../dst/ift/2026q1-dst-tooling#analysis-yaml-refactor" class="internal" data-slug="dst/ift/2026q1-dst-tooling" data-link-type="internal"><code>ift-ts:dst:ift:2026q1-dst-tooling:analysis-yaml-refactor</code></a>
+<ul>
+<li>Converted metrics and plotting flows from YAML to Python and continued cleanup.</li>
+</ul>
+</li>
+<li><a href="../dst/ift/2026q1-dst-lab#lab-health-monitoring" class="internal" data-slug="dst/ift/2026q1-dst-lab" data-link-type="internal"><code>ift-ts:dst:ift:2026q1-dst-lab:lab-health-monitoring</code></a>
+<ul>
+<li>Opened <a href="https://github.com/vacp2p/vaclab-k8s-plugins/pull/8" class="external" data-link-type="github" data-github-type="pr">vacp2p/vaclab-k8s-plugins#8</a> with intra-node benchmarking, tainted-node exclusions, krew packaging, and installation instructions.</li>
+<li>Opened <a href="https://github.com/vacp2p/vaclab-2/pull/22" class="external" data-link-type="github" data-github-type="pr">vacp2p/vaclab-2#22</a> with intra-node throughput panels and a node-hardware dashboard.</li>
+</ul>
+</li>
+<li><a href="../dst/ift/2026q1-dst-lab#analyze-current-stack" class="internal" data-slug="dst/ift/2026q1-dst-lab" data-link-type="internal"><code>ift-ts:dst:ift:2026q1-dst-lab:analyze-current-stack</code></a>
+<ul>
+<li>Added <code>metal-01</code> as a tainted worker node and fixed Longhorn persistent-volume creation by disabling <code>multipathd</code>.</li>
+<li>Awaited approval to move monitoring components and related volumes onto <code>metal-01</code>.</li>
+</ul>
+</li>
+<li><code>other notes</code>
+<ul>
+<li>Reviewed more CVs, ran a pair-programming interview, and prepared the DST retrospective and Q2 commitments.</li>
+<li>Investigated Logos Messaging <code>v0.38.0-rc.0</code> questions and the de-MLS assumption for new work.</li>
+</ul>
+</li>
+</ul>
+<h3 id="ift-tsnim">ift-ts:nim:<a aria-hidden="true" tabindex="-1" href="#ift-tsnim" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><a href="../nim/ift/2026q1-nimble#nimble-1-0-0" class="internal" data-slug="nim/ift/2026q1-nimble" data-link-type="internal"><code>ift-ts:nim:ift:2026q1-nimble:nimble-1.0.0</code></a>
+<ul>
+<li>Merged Nimble cleanup, backport, and release work in <a href="https://github.com/nim-lang/nimble/pull/1651" class="external" data-link-type="github" data-github-type="pr">nim-lang/nimble#1651</a>, <a href="https://github.com/nim-lang/nimble/pull/1645" class="external" data-link-type="github" data-github-type="pr">#1645</a>, <a href="https://github.com/nim-lang/nimble/pull/1644" class="external" data-link-type="github" data-github-type="pr">#1644</a>, <a href="https://github.com/nim-lang/nimble/pull/1643" class="external" data-link-type="github" data-github-type="pr">#1643</a>, and <a href="https://github.com/nim-lang/nimble/pull/1641" class="external" data-link-type="github" data-github-type="pr">#1641</a>, and shipped a patch release.</li>
+<li>Reviewed community PRs.</li>
+</ul>
+</li>
+<li><a href="../nim/ift/2026q1-nim-core-libs#protobuf-serialization-in-libp2p" class="internal" data-slug="nim/ift/2026q1-nim-core-libs" data-link-type="internal"><code>ift-ts:nim:ift:2026q1-nim-core-libs:libp2p-protobuf-serialization</code></a>
+<ul>
+<li>Added <code>pbNone(default(T))</code>, <code>pbSome(value)</code> for default options, proto2 conformance coverage, avoidance of repeated packed defaults, and negative <code>int32</code> varint fixes in <a href="https://github.com/status-im/nim-protobuf-serialization/pull/65" class="external" data-link-type="github" data-github-type="pr">status-im/nim-protobuf-serialization#65</a>, <a href="https://github.com/status-im/nim-protobuf-serialization/pull/64" class="external" data-link-type="github" data-github-type="pr">#64</a>, <a href="https://github.com/status-im/nim-protobuf-serialization/pull/62" class="external" data-link-type="github" data-github-type="pr">#62</a>, <a href="https://github.com/status-im/nim-protobuf-serialization/pull/63" class="external" data-link-type="github" data-github-type="pr">#63</a>, and <a href="https://github.com/status-im/nim-protobuf-serialization/pull/61" class="external" data-link-type="github" data-github-type="pr">#61</a>.</li>
+<li>Continued RendezVous adoption in <a href="https://github.com/vacp2p/nim-libp2p/pull/2166" class="external" data-link-type="github" data-github-type="pr">vacp2p/nim-libp2p#2166</a>.</li>
+</ul>
+</li>
+<li><a href="../nim/ift/2026q1-nim-core-libs#maintenance" class="internal" data-slug="nim/ift/2026q1-nim-core-libs" data-link-type="internal"><code>ift-ts:nim:ift:2026q1-nim-core-libs:maintenance</code></a>
+<ul>
+<li>Updated dependency and compiler compatibility work across <a href="https://github.com/vacp2p/nim-libp2p/pull/2199" class="external" data-link-type="github" data-github-type="pr">vacp2p/nim-libp2p#2199</a>, <a href="https://github.com/status-im/nim-testutils/pull/66" class="external" data-link-type="github" data-github-type="pr">status-im/nim-testutils#66</a>, <a href="https://github.com/vacp2p/nim-jwt/pull/1" class="external" data-link-type="github" data-github-type="pr">vacp2p/nim-jwt#1</a>, <a href="https://github.com/vacp2p/bearssl_pkey_decoder/pull/1" class="external" data-link-type="github" data-github-type="pr">vacp2p/bearssl_pkey_decoder#1</a>, and <a href="https://github.com/status-im/nim-confutils/pull/118" class="external" data-link-type="github" data-github-type="pr">status-im/nim-confutils#118</a>.</li>
+<li>Reworked borrow/carry-only helpers in <a href="https://github.com/vacp2p/nim-intops/pull/27" class="external" data-link-type="github" data-github-type="pr">vacp2p/nim-intops#27</a>, updated <a href="https://github.com/status-im/nim-stint/pull/176" class="external" data-link-type="github" data-github-type="pr">status-im/nim-stint#176</a>, reviewed <a href="https://github.com/nim-lang/nimble/pull/1622#pullrequestreview-4026238080" class="external" data-link-type="github" data-github-type="pr">nim-lang/nimble#1622</a>, released <code>nim-intops 1.0.8</code>, and removed <code>add_submodule.sh</code> in <a href="https://github.com/status-im/nimbus-build-system/pull/113" class="external" data-link-type="github" data-github-type="pr">status-im/nimbus-build-system#113</a>.</li>
+</ul>
+</li>
+<li><a href="../nim/ift/2026q1-nim-core-libs#documentation" class="internal" data-slug="nim/ift/2026q1-nim-core-libs" data-link-type="internal"><code>ift-ts:nim:ift:2026q1-nim-core-libs:docs</code></a>
+<ul>
+<li>Continued the Chronos HTTP server tutorial in <a href="https://github.com/status-im/nim-chronos/pull/622" class="external" data-link-type="github" data-github-type="pr">status-im/nim-chronos#622</a> and selected <code>nim-unittest2</code> as the next documentation target.</li>
+</ul>
+</li>
+<li><a href="../nim/ift/2026q1-nim-core-libs#language-server-and-editor-integration" class="internal" data-slug="nim/ift/2026q1-nim-core-libs" data-link-type="internal"><code>ift-ts:nim:ift:2026q1-nim-core-libs:language-server-editor-integration</code></a>
+<ul>
+<li>Fixed Chronos inlay hints in <a href="https://github.com/status-im/nim-chronos/pull/621" class="external" data-link-type="github" data-github-type="pr">status-im/nim-chronos#621</a>.</li>
+</ul>
+</li>
+</ul>
+<h3 id="ift-tsp2p">ift-ts:p2p:<a aria-hidden="true" tabindex="-1" href="#ift-tsp2p" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><a href="../p2p/ift/2026q1-nimlibp2p-maintenance#maintenance" class="internal" data-slug="p2p/ift/2026q1-nimlibp2p-maintenance" data-link-type="internal"><code>ift-ts:p2p:ift:2026q1-nimlibp2p-maintenance:maintenance</code></a>
+<ul>
+<li>Merged maintenance and compatibility work in <a href="https://github.com/vacp2p/nim-libp2p/pull/2196" class="external" data-link-type="github" data-github-type="pr">vacp2p/nim-libp2p#2196</a>, <a href="https://github.com/vacp2p/nim-libp2p/pull/2197" class="external" data-link-type="github" data-github-type="pr">#2197</a>, <a href="https://github.com/vacp2p/nim-libp2p/pull/2191" class="external" data-link-type="github" data-github-type="pr">#2191</a>, <a href="https://github.com/vacp2p/nim-lsquic/pull/76" class="external" data-link-type="github" data-github-type="pr">vacp2p/nim-lsquic#76</a>, <a href="https://github.com/vacp2p/nim-lsquic/pull/75" class="external" data-link-type="github" data-github-type="pr">#75</a>, <a href="https://github.com/vacp2p/nim-lsquic/pull/70" class="external" data-link-type="github" data-github-type="pr">#70</a>, <a href="https://github.com/vacp2p/nim-libp2p/pull/2125" class="external" data-link-type="github" data-github-type="pr">vacp2p/nim-libp2p#2125</a>, and <a href="https://github.com/vacp2p/nim-libp2p/pull/2059" class="external" data-link-type="github" data-github-type="pr">#2059</a>.</li>
+<li>Got Nimbus QUIC support working through <a href="https://github.com/status-im/nimbus-eth2/pull/7775" class="external" data-link-type="github" data-github-type="pr">status-im/nimbus-eth2#7775</a>, ran it in Kurtosis, and investigated CI dependency failures.</li>
+</ul>
+</li>
+<li><code>ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:quic-maddrs</code>
+<ul>
+<li>Added support for listening on many addresses in <a href="https://github.com/vacp2p/nim-libp2p/pull/2193" class="external" data-link-type="github" data-github-type="pr">vacp2p/nim-libp2p#2193</a>.</li>
+</ul>
+</li>
+<li><a href="../p2p/ift/2026q1-nimlibp2p-gossipsub-extensions#implement-gossipsub-partial-messages-extension" class="internal" data-slug="p2p/ift/2026q1-nimlibp2p-gossipsub-extensions" data-link-type="internal"><code>ift-ts:p2p:ift:2026q1-nimlibp2p-gossipsub-extensions:partial-messages</code></a>
+<ul>
+<li>Added more generic misbehavior callbacks in <a href="https://github.com/vacp2p/nim-libp2p/pull/2187" class="external" data-link-type="github" data-github-type="pr">vacp2p/nim-libp2p#2187</a> and new penalty cases in <a href="https://github.com/vacp2p/nim-libp2p/pull/2188" class="external" data-link-type="github" data-github-type="pr">#2188</a>.</li>
+</ul>
+</li>
+<li><a href="../p2p/ift/2026q1-nimlibp2p-gossipsub-extensions#change-gossipsub-1-4-to-an-extension" class="internal" data-slug="p2p/ift/2026q1-nimlibp2p-gossipsub-extensions" data-link-type="internal"><code>ift-ts:p2p:ift:2026q1-nimlibp2p-gossipsub-extensions:1-4-extension</code></a>
+<ul>
+<li>Added the preamble extension in <a href="https://github.com/vacp2p/nim-libp2p/pull/2179" class="external" data-link-type="github" data-github-type="pr">vacp2p/nim-libp2p#2179</a>.</li>
+</ul>
+</li>
+<li><code>other notes</code>
+<ul>
+<li>Interviewed 2 candidates.</li>
+<li>Reported that the gossipsub extensions stream is fully finished, including partial messages and experimental extensions.</li>
+</ul>
+</li>
+</ul>
+<h3 id="ift-tsqa">ift-ts:qa:<a aria-hidden="true" tabindex="-1" href="#ift-tsqa" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><a href="../qa/status/2026q1-status-go-functional-testing#community-token-master-functional-test" class="internal" data-slug="qa/status/2026q1-status-go-functional-testing" data-link-type="internal"><code>ift-ts:qa:status:2026q1-status-go-functional-testing:7129</code></a>
+<ul>
+<li>Continued <a href="https://github.com/status-im/status-go/pull/7359" class="external" data-link-type="github" data-github-type="pr">status-im/status-go#7359</a>, added a <a href="https://github.com/user-attachments/files/26339924/audit_token_permissions_test_complexity.md" class="external" data-link-type="github" data-github-type="repo">backend complexity audit</a>, and kept review feedback moving.</li>
+</ul>
+</li>
+<li><a href="../qa/messaging/2026q1-messaging-testing#maintenance" class="internal" data-slug="qa/messaging/2026q1-messaging-testing" data-link-type="internal"><code>ift-ts:qa:messaging:2026q1-messaging-testing:maintenance</code></a>
+<ul>
+<li>Continued RLN-test refactoring in <a href="https://github.com/logos-messaging/logos-delivery-interop-tests/pull/164" class="external" data-link-type="github" data-github-type="pr">logos-messaging/logos-delivery-interop-tests#164</a> and tracked the blocker in <a href="https://github.com/logos-messaging/logos-delivery/issues/3779" class="external" data-link-type="github" data-github-type="issue">logos-messaging/logos-delivery#3779</a>.</li>
+<li>Opened <a href="https://github.com/logos-messaging/logos-delivery-interop-tests/pull/167" class="external" data-link-type="github" data-github-type="pr">logos-messaging/logos-delivery-interop-tests#167</a> to reduce flakiness by stabilizing node setup.</li>
+</ul>
+</li>
+<li><a href="../qa/messaging/2026q1-messaging-testing#python-bindings" class="internal" data-slug="qa/messaging/2026q1-messaging-testing" data-link-type="internal"><code>ift-ts:qa:messaging:2026q1-messaging-testing:python-bindings</code></a>
+<ul>
+<li>Re-tested recent changes, confirmed missing <code>.so</code> APIs and unresolved metrics issues, and documented 3 issues in <a href="https://github.com/logos-messaging/logos-delivery-python-bindings/pull/4" class="external" data-link-type="github" data-github-type="pr">logos-messaging/logos-delivery-python-bindings#4</a>.</li>
+</ul>
+</li>
+<li><code>ift:2026q2-nim-libp2p-testing:interop-test-plans</code>
+<ul>
+<li>Exposed known-error input in <a href="https://github.com/libp2p/test-plans/pull/842" class="external" data-link-type="github" data-github-type="pr">libp2p/test-plans#842</a>, updated unified-testing transport workflows in <a href="https://github.com/vacp2p/nim-libp2p/pull/2185" class="external" data-link-type="github" data-github-type="pr">vacp2p/nim-libp2p#2185</a>, kept <a href="https://github.com/vacp2p/nim-libp2p/pull/2195" class="external" data-link-type="github" data-github-type="pr">#2195</a> in review, and progressed <a href="https://github.com/vacp2p/nim-libp2p/pull/2189" class="external" data-link-type="github" data-github-type="pr">#2189</a>.</li>
+</ul>
+</li>
+<li><a href="../qa/status/2026q1-status-qa-desktop#maintenance" class="internal" data-slug="qa/status/2026q1-status-qa-desktop" data-link-type="internal"><code>ift-ts:qa:status:2026q1-status-qa-desktop:maintenance</code></a>
+<ul>
+<li>Merged or tracked scrolling, channel creation, Qt 6.11, StatusInput, PR 19887, and NavBar spacing fixes in <a href="https://github.com/status-im/status-app/pull/20287" class="external" data-link-type="github" data-github-type="pr">status-im/status-app#20287</a>, <a href="https://github.com/status-im/status-app/issues/20288" class="external" data-link-type="github" data-github-type="issue">#20288</a>, <a href="https://github.com/status-im/status-app/issues/20249" class="external" data-link-type="github" data-github-type="issue">#20249</a>, <a href="https://github.com/status-im/status-app/pull/20247" class="external" data-link-type="github" data-github-type="pr">#20247</a>, <a href="https://github.com/status-im/status-app/issues/20154" class="external" data-link-type="github" data-github-type="issue">#20154</a>, <a href="https://github.com/status-im/status-app/issues/20224" class="external" data-link-type="github" data-github-type="issue">#20224</a>, and <a href="https://github.com/status-im/status-app/issues/20221" class="external" data-link-type="github" data-github-type="issue">#20221</a>.</li>
+</ul>
+</li>
+<li><a href="../qa/status/2026q1-status-qa-desktop#activity-center-notifications" class="internal" data-slug="qa/status/2026q1-status-qa-desktop" data-link-type="internal"><code>ift-ts:qa:status:2026q1-status-qa-desktop:activity-center-and-notifications</code></a>
+<ul>
+<li>Added Activity Center QML component tests in <a href="https://github.com/status-im/status-app/pull/20267" class="external" data-link-type="github" data-github-type="pr">status-im/status-app#20267</a>.</li>
+</ul>
+</li>
+<li><a href="../qa/status/2026q1-status-qa-mobile#maintenance" class="internal" data-slug="qa/status/2026q1-status-qa-mobile" data-link-type="internal"><code>ift-ts:qa:status:2026q1-status-qa-mobile:maintenance</code></a>
+<ul>
+<li>Improved Appium timing in <a href="https://github.com/status-im/status-app/pull/20308" class="external" data-link-type="github" data-github-type="pr">status-im/status-app#20308</a>, updated gate tests in <a href="https://github.com/status-im/status-app/pull/20266" class="external" data-link-type="github" data-github-type="pr">#20266</a>, and logged the light-client messaging regression in <a href="https://github.com/status-im/status-go/issues/7393" class="external" data-link-type="github" data-github-type="issue">status-im/status-go#7393</a>.</li>
+</ul>
+</li>
+<li><a href="../qa/status/2026q1-status-go-functional-testing#maintenance" class="internal" data-slug="qa/status/2026q1-status-go-functional-testing" data-link-type="internal"><code>ift-ts:qa:status:2026q1-status-go-functional-testing:maintenance</code></a>
+<ul>
+<li>Made review changes in <a href="https://github.com/status-im/status-go/pull/7372" class="external" data-link-type="github" data-github-type="pr">status-im/status-go#7372</a>, progressed parallel teardown in <a href="https://github.com/status-im/status-go/pull/7376" class="external" data-link-type="github" data-github-type="pr">#7376</a>, and updated Anvil-based deposit E2E tests in <a href="https://github.com/status-im/status-web/pull/1066" class="external" data-link-type="github" data-github-type="pr">status-im/status-web#1066</a>.</li>
+</ul>
+</li>
+<li><code>other notes</code>
+<ul>
+<li>OOO: 3 CC days.</li>
+</ul>
+</li>
+</ul>
+<h3 id="ift-tsrfc">ift-ts:rfc:<a aria-hidden="true" tabindex="-1" href="#ift-tsrfc" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><a href="../rfc/ift/2026q1-rfc-index-maintenance#maintenance" class="internal" data-slug="rfc/ift/2026q1-rfc-index-maintenance" data-link-type="internal"><code>ift-ts:rfc:ift:2026q1-rfc-index-maintenance:maintenance</code></a>
+<ul>
+<li>Reviewed <a href="https://github.com/vacp2p/rfc-index/pull/299" class="external" data-link-type="github" data-github-type="pr">vacp2p/rfc-index#299</a>, <a href="https://github.com/vacp2p/rfc-index/pull/300" class="external" data-link-type="github" data-github-type="pr">#300</a>, <a href="https://github.com/vacp2p/rfc-index/pull/298" class="external" data-link-type="github" data-github-type="pr">#298</a>, and <a href="https://github.com/vacp2p/rfc-index/pull/297" class="external" data-link-type="github" data-github-type="pr">#297</a>.</li>
+<li>Continued 1/COSS changes and adversary-spec updates for the next version.</li>
+</ul>
+</li>
+<li><code>other notes</code>
+<ul>
+<li>Completed retro follow-up in <a href="https://www.notion.so/RFC-retro-2026q1-3308f96fb65c80d99340d8c2a55a56d2" class="external" data-link-type="external">Notion</a> and <a href="https://miro.com/app/board/uXjVGqhqw3I=/" class="external" data-link-type="external">Miro</a>.</li>
+</ul>
+</li>
+</ul>
+<h3 id="ift-tssc">ift-ts:sc:<a aria-hidden="true" tabindex="-1" href="#ift-tssc" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><a href="../sc/logos/2026q1-amm-fee-system-and-swap-improvements#implement-exact-output-amount-swap" class="internal" data-slug="sc/logos/2026q1-amm-fee-system-and-swap-improvements" data-link-type="internal"><code>ift-ts:sc:logos:2026q1-amm-fee-system-and-swap-improvements:exact-output-swap</code></a>
+<ul>
+<li>Updated the exact-output swap PR in <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/406" class="external" data-link-type="github" data-github-type="pr">logos-blockchain/logos-execution-zone#406</a> with overflow fixes and tests.</li>
+</ul>
+</li>
+<li><code>ift-ts:sc:logos:2026q2-amm-program-completion:complete-pr-371</code>
+<ul>
+<li>Iterated on <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/371" class="external" data-link-type="github" data-github-type="pr">logos-blockchain/logos-execution-zone#371</a> and the related follow-up <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/373" class="external" data-link-type="github" data-github-type="pr">#373</a>.</li>
+</ul>
+</li>
+<li><code>ift-ts:sc:logos:2026q2-amm-program-completion:fix-remove-lp-delta</code>
+<ul>
+<li>Worked on <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/420" class="external" data-link-type="github" data-github-type="pr">logos-blockchain/logos-execution-zone#420</a>.</li>
+</ul>
+</li>
+<li><code>other notes</code>
+<ul>
+<li>Continued reorganizing LEE and LSSA docs from Notion into Obsidian.</li>
+<li>Added the Associated Token Account program with wallet CLI and tutorial in <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/387" class="external" data-link-type="github" data-github-type="pr">logos-blockchain/logos-execution-zone#387</a>.</li>
+<li>Opened initial repository setup in <a href="https://github.com/logos-blockchain/lez-programs/pull/1" class="external" data-link-type="github" data-github-type="pr">logos-blockchain/lez-programs#1</a> and kept integration tests in progress.</li>
+<li>Updated <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/300" class="external" data-link-type="github" data-github-type="pr">logos-blockchain/logos-execution-zone#300</a> according to review comments and opened the SC Q2 commitments PR <a href="https://github.com/vacp2p/roadmap/pull/424" class="external" data-link-type="github" data-github-type="pr">vacp2p/roadmap#424</a>.</li>
+</ul>
+</li>
+</ul>
+<h3 id="ift-tssec">ift-ts:sec:<a aria-hidden="true" tabindex="-1" href="#ift-tssec" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>ift:2026q1-awareness-program:web3-security-essentials</code>
+<ul>
+<li>Created the <a href="https://www.notion.so/Security-Guidelines-3298f96fb65c800195a4fdfec798b32d" class="external" data-link-type="external">Security Guidelines</a> page and requested merge into the production page.</li>
+</ul>
+</li>
+<li><code>ift:2026q1-cicd-security-review:security-checklist-development</code>
+<ul>
+<li>Built the interactive <a href="https://sclist.logos.co/" class="external" data-link-type="external">security checklist</a> for IFT core contributors, covering communication security, Web3 wallets, AI and LLM safety, and privacy.</li>
+</ul>
+</li>
+<li><code>ift:2026q2-degoogling:sign-in-dependencies-review</code>
+<ul>
+<li>Evaluated Okta and Auth0 providers and updated onboarding docs to encourage the deGoogling initiative.</li>
+</ul>
+</li>
+<li><code>ift:2026q1-iam-operations:defi-strategy-access-control</code>
+<ul>
+<li>Executed the whitelisting request for updating Morpho Sentora settings.</li>
+</ul>
+</li>
+<li><code>ift:2026q1-cicd-security-review:pr-and-commit-reviews</code>
+<ul>
+<li>Performed security reviews across IFT repositories, with focus on cryptography, key management, authentication flows, Keycard firmware, Waku protocol changes, and Status wallet signing flows.</li>
+</ul>
+</li>
+<li><code>ift:2026q1-cicd-security-review:keycard-remediation-validation</code>
+<ul>
+<li>Continued validating Keycard audit fixes, reviewed new remediation PRs, and tested memory-safety and bounds-checking edge cases.</li>
+</ul>
+</li>
+<li><code>ift:2026q1-vulma-and-ir:dependency-and-alert-triage</code>
+<ul>
+<li>Triaged new CodeQL and Dependabot alerts, assessed exploitability, and coordinated high-priority dependency updates.</li>
+</ul>
+</li>
+<li><code>ift:2026q1-vulma-and-ir:incident-monitoring</code>
+<ul>
+<li>Monitored new security incidents, followed up on resolved ones, reviewed anomalies, and updated incident documentation.</li>
+</ul>
+</li>
+<li><code>ift:2026q1-vulma-and-ir:bug-bounty-triage</code>
+<ul>
+<li>Triaged bug bounty submissions across Waku, Status, and IFT projects and coordinated validation and remediation.</li>
+</ul>
+</li>
+<li><code>ift:2026q1-finance-automation-bug fixing &amp; support</code>
+<ul>
+<li>Monitored Finance executions daily and verified expense PO generation.</li>
+</ul>
+</li>
+<li><code>ift:2026q1-security-automation:refine -app-catalogue-update-from-expensify</code>
+<ul>
+<li>Monitored duplicate-data scenarios in the automated application-catalogue update flow.</li>
+</ul>
+</li>
+<li><code>ift:2026q1-security-automation:identify &amp; post sec related news</code>
+<ul>
+<li>Finalized the DigiBastion news-snippet workflow and investigated a source database for a trained AI agent.</li>
+</ul>
+</li>
+<li><code>ift:2026q1-lez-security-review:security-audit-onboarding</code>
+<ul>
+<li>Defined the audit process, completed the initial <a href="https://github.com/logos-co/ift-security/blob/master/security-audit/audit-lez-draft.md" class="external" data-link-type="github" data-github-type="repo">LEZ security audit draft</a>, and shared findings with the dev team.</li>
+</ul>
+</li>
+<li><code>other notes</code>
+<ul>
+<li>Conducted the Q1 Security retrospective and drafted or validated Q2 objectives and task breakdowns.</li>
+</ul>
+</li>
+</ul>
+<h3 id="ift-tstke">ift-ts:tke:<a aria-hidden="true" tabindex="-1" href="#ift-tstke" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><code>vac:tke:ift:support-to-ift-units:explore-bi</code>
+<ul>
+<li>Prepared a spreadsheet with Logos model parameters and coordinated with BI on deployment of the macroeconomic model.</li>
+</ul>
+</li>
+<li><code>vac:tke:blockchain:stress-test:lez-fee-market</code>
+<ul>
+<li>Defined the first fee-market version for LEZ.</li>
+</ul>
+</li>
+<li><code>vac:tke:ift:support-to-ift-units:logos-stablecoin</code>
+<ul>
+<li>Reviewed the RAI and HAI model and notebook, and authored the stablecoin RFP.</li>
+</ul>
+</li>
+<li><code>vac:tke:ift:logos-token:fundraise</code>
+<ul>
+<li>Met the new fundraising team member, caught up on the latest discussions, and wrote a Logos token doc for the investor data room.</li>
+</ul>
+</li>
+<li><code>vac:tke:ift:ecodev::private-dex</code>
+<ul>
+<li>Reviewed the RFP on GitHub and Juan’s draft.</li>
+</ul>
+</li>
+<li><code>vac:tke:ift:ecodev::lending</code>
+<ul>
+<li>Reviewed the RFP on GitHub.</li>
+</ul>
+</li>
+<li><code>vac:tke:ift:logos-token:lbp</code>
+<ul>
+<li>Studied the LBP work and implementation.</li>
+</ul>
+</li>
+<li><code>vac:tke:ift:ecodev:xprize</code>
+<ul>
+<li>Continued documenting the process, shaping the Builder Hub lambdaPrize section, coordinating new prizes, and detailing how Circles fits into lambdaPrize.</li>
+</ul>
+</li>
+<li><code>vac:tke:ift:ecodev</code>
+<ul>
+<li>Reviewed RFPs.</li>
+</ul>
+</li>
+<li><code>other notes</code>
+<ul>
+<li>OOO: 1 CC days.</li>
+</ul>
+</li>
+</ul>
+<h3 id="ift-tsweb">ift-ts:web:<a aria-hidden="true" tabindex="-1" href="#ift-tsweb" class="internal" data-link-type="internal"> §</a></h3>
+<ul>
+<li><a href="../web/status/2026q1-sn-hub" class="internal" data-slug="web/status/2026q1-sn-hub" data-link-type="internal"><code>ift-ts:web:status:2026q1-sn-hub</code></a>
+<ul>
+<li>Continued Hoodi migration in <a href="https://github.com/status-im/status-web/pull/1060" class="external" data-link-type="github" data-github-type="pr">status-im/status-web#1060</a> with updated contracts and UI.</li>
+<li>Opened proof-of-work RPC auth in <a href="https://github.com/status-im/status-web/pull/1079" class="external" data-link-type="github" data-github-type="pr">status-im/status-web#1079</a> and coordinated with Infra and Andrey on the RPC proxy.</li>
+<li>Fixed pre-deposit min/max visibility in <a href="https://github.com/status-im/status-web/pull/1081" class="external" data-link-type="github" data-github-type="pr">status-im/status-web#1081</a>, kept max-extension staking fixes under retest in <a href="https://github.com/status-im/status-web/pull/1076" class="external" data-link-type="github" data-github-type="pr">#1076</a>, removed stale skeleton conditions in <a href="https://github.com/status-im/status-web/pull/1083" class="external" data-link-type="github" data-github-type="pr">#1083</a>, and renamed APY to APR in <a href="https://github.com/status-im/status-web/pull/1080" class="external" data-link-type="github" data-github-type="pr">#1080</a>.</li>
+</ul>
+</li>
+<li><a href="../web/status/2026q1-status-wallet-extension#dapp-connection" class="internal" data-slug="web/status/2026q1-status-wallet-extension" data-link-type="internal"><code>ift-ts:web:status:2026q1-status-wallet-extension:dapp-connection</code></a>
+<ul>
+<li>Continued the wallet-to-dApp connection flow in <a href="https://github.com/status-im/status-web/pull/1033" class="external" data-link-type="github" data-github-type="pr">status-im/status-web#1033</a>.</li>
+</ul>
+</li>
+<li><a href="../web/status/2026q1-community-curation#migration-to-status-web-monorepo" class="internal" data-slug="web/status/2026q1-community-curation" data-link-type="internal"><code>ift-ts:web:status:2026q1-community-curation:migration-to-status-web-monorepo</code></a>
+<ul>
+<li>Continued the community-curation monorepo migration in <a href="https://github.com/status-im/status-web/pull/1077" class="external" data-link-type="github" data-github-type="pr">status-im/status-web#1077</a> and published a Vercel preview.</li>
+</ul>
+</li>
+<li><a href="../web/status/2026q1-sn-website" class="internal" data-slug="web/status/2026q1-sn-website" data-link-type="internal"><code>ift-ts:web:status:2026q1-sn-website</code></a>
+<ul>
+<li>Continued showing all published posts on <code>/blog</code> in <a href="https://github.com/status-im/status-web/pull/1084" class="external" data-link-type="github" data-github-type="pr">status-im/status-web#1084</a>.</li>
+</ul>
+</li>
+<li><a href="../web/ift/2026q1-maintenance#maintenance" class="internal" data-slug="web/ift/2026q1-maintenance" data-link-type="internal"><code>ift-ts:web:ift:2026q1-maintenance:maintenance</code></a>
+<ul>
+<li>Fixed the TypeScript 6.0 build with a multi-stage build in <a href="https://github.com/acid-info/free.technology/pull/20" class="external" data-link-type="github" data-github-type="pr">acid-info/free.technology#20</a> and commented out unused job-board mappings in <a href="https://github.com/acid-info/free.technology/pull/19" class="external" data-link-type="github" data-github-type="pr">#19</a>.</li>
+<li>Fixed thumbnail rendering and calendar-event details in <a href="https://github.com/acid-info/logos-press-engine/commit/2bb9977457de122ad6558c5dfc04fa56b8786d14" class="external" data-link-type="github" data-github-type="commit">logos-press-engine commit <code>2bb9977</code></a>, completed the Builders Hub repo migration, and handled Logos.co PDF and IFT homepage content updates.</li>
+</ul>
+</li>
+<li><a href="../web/logos/2026q1-logos-website" class="internal" data-slug="web/logos/2026q1-logos-website" data-link-type="internal"><code>ift-ts:web:logos:2026q1-logos-website</code></a>
+<ul>
+<li>Implemented the Circles map using BI’s API in <a href="https://github.com/acid-info/logos/pull/35" class="external" data-link-type="github" data-github-type="pr">acid-info/logos#35</a>.</li>
+</ul>
+</li>
+<li><code>other notes</code>
+<ul>
+<li>OOO: 4 CC days.</li>
+</ul>
+</li>
+</ul></article><div class="weekly-no-results" id="weekly-no-results" style="display:none;"><h4>No results found</h4><p>Try adjusting your search or filter criteria.</p></div></div></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#ift-ts-20260330" data-for="ift-ts-20260330">IFT-TS 2026/03/30</a></li><li class="depth-1"><a href="#top-highlights" data-for="top-highlights">top highlights</a></li><li class="depth-1"><a href="#team-highlights" data-for="team-highlights">team highlights</a></li><li class="depth-1"><a href="#ift-tsbi" data-for="ift-tsbi">ift-ts:bi:</a></li><li class="depth-1"><a href="#ift-tsdst" data-for="ift-tsdst">ift-ts:dst:</a></li><li class="depth-1"><a href="#ift-tsnim" data-for="ift-tsnim">ift-ts:nim:</a></li><li class="depth-1"><a href="#ift-tsp2p" data-for="ift-tsp2p">ift-ts:p2p:</a></li><li class="depth-1"><a href="#ift-tsqa" data-for="ift-tsqa">ift-ts:qa:</a></li><li class="depth-1"><a href="#ift-tsrfc" data-for="ift-tsrfc">ift-ts:rfc:</a></li><li class="depth-1"><a href="#ift-tssc" data-for="ift-tssc">ift-ts:sc:</a></li><li class="depth-1"><a href="#ift-tssec" data-for="ift-tssec">ift-ts:sec:</a></li><li class="depth-1"><a href="#ift-tstke" data-for="ift-tstke">ift-ts:tke:</a></li><li class="depth-1"><a href="#ift-tsweb" data-for="ift-tsweb">ift-ts:web:</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a>, © 2026</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js?v=mq6gldi3" type="module"></script></html>

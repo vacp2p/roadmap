@@ -33,7 +33,7 @@ compatibility decision changes existing defaults.
 ### Budget API And Accounting
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-stream-budgets:budget-api`
-* owner: Vlado
+* owner: vlado
 * status: done
 * start-date: 2026/05/01
 * end-date: 2026/05/26
@@ -58,7 +58,7 @@ compatible codec strings should share the same budget.
 ### Inbound Stream Enforcement
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-stream-budgets:inbound-enforcement`
-* owner: Vlado
+* owner: vlado
 * status: done
 * start-date: 2026/05/01
 * end-date: 2026/05/26
@@ -81,8 +81,8 @@ handler crash, and muxer close paths.
 ### Outbound Stream Enforcement
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-stream-budgets:outbound-enforcement`
-* owner: not assigned yet
-* status: not started
+* owner: vlado
+* status: done
 * start-date: 2026/05/01
 * end-date: 2026/06/30
 
@@ -98,12 +98,13 @@ any counter reservation.
 - Outbound total stream limit enforced per mounted protocol handler
 - Counter rollback for negotiation failure, cancellation, stream close/reset, and muxer close
 - Tests covering outbound negotiation failure and outbound cancellation
+- [vacp2p/nim-libp2p#2522](https://github.com/vacp2p/nim-libp2p/pull/2522) feat(LPProtocol): stream limits
 
 
 ### Metrics And Validation
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-stream-budgets:metrics-validation`
-* owner: Vlado
+* owner: vlado
 * status: done
 * start-date: 2026/05/01
 * end-date: 2026/06/09

@@ -38,7 +38,7 @@ nim-libp2p Kad-DHT implementation.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-kad-dht-optimizations:connection-field-privacy`
 * owner: gabe
-* status: not started
+* status: done
 * start-date: 2026/05/01
 * end-date: 2026/06/30
 
@@ -53,13 +53,14 @@ that send other `ConnectionType` values.
 - Receive-side compatibility for non-compliant peers
 - Tests covering encoding and parsing of `ConnectionType` values
 - Documentation of the privacy behavior and compatibility policy
+- [vacp2p/nim-libp2p#2361](https://github.com/vacp2p/nim-libp2p/pull/2361) feat(kad): hide connection info
 
 
 ### Provider Record Spillover
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-kad-dht-optimizations:provider-record-spillover`
 * owner: gabe
-* status: in progress (80%)
+* status: done
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 

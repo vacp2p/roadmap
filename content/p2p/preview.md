@@ -7,13 +7,6 @@ tags:
 
 ## Roadmap Preview
 
-### 2026Q2
-- Connection management
-    - enforce upper bounds on total open connections to prevent fd exhaustion, trim connections to a lower bound
-    - tag connections with metadata
-    - support protected connections (don’t trim them under pressure)
-    - implement exponential dial backoff to avoid peer hammering
-    - Pluggable GossipSub scoring
 
 ### 2026Q3 and beyond
 - Cross-compilation for mobile
@@ -28,13 +21,10 @@ tags:
 - Unix Domain Socket transport (`/unix//tmp/foo`)
 - Performance & scale
     - Profiling and memory audit: guide future optimizations by identifying bottlenecks and alloc hotspots
-    - Implement zero-copy buffers between layers (transport / protocol / muxer / network libraries)
-
 
 #### Uncategorized
 The following items are not part of our current roadmap. They haven't been requested by any consumer of nim-libp2p, so they do not have any prioritization status. Still, they are recorded here potential future consideration.
 
-- Automatic NAT port mapping 
 - bluetooth transport
     - [ble exploration by berty](https://berty.tech/fr/blog/bluetooth-low-energy/).
     - Low-power proximity-based connections over BLE, mostly relevant in mobile/offline-first contexts.
@@ -57,5 +47,3 @@ The following items are not part of our current roadmap. They haven't been reque
     - compile nim-libp2p to a wasm library for embedding in browser environments. 
     - no spec, but precedent exists in js-libp2p and rust efforts.
 - native nim impl of Quic
-- evaluate whether to keep using nim-protobuf-serialization or migrate to minprotobuf
-    - (This is in addition to other maintenance tasks).

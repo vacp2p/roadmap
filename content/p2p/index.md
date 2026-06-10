@@ -14,6 +14,11 @@ Major future work items on nim-libp2p (also beyond this reporting period are cap
 
 [[p2p/preview|Roadmap Preview]]
 
+## 2026q3 `ift-ts:p2p:`
+
+### `ift:`
+* [[p2p/ift/2026q3-addr-manager]]
+
 ## 2026q2 `ift-ts:p2p:`
 
 ### `ift:`

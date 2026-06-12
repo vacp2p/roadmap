@@ -103,7 +103,7 @@ depth should also contribute to peer scoring as a secondary pruning signal.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-gossipsub-queues:validation`
 * owner: richard
-* status: in progress (50%)
+* status: done
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -117,6 +117,7 @@ affect mesh stability.
 
 #### Deliverables
 - [vacp2p/nim-libp2p#2241](https://github.com/vacp2p/nim-libp2p/pull/2241) feat(gossipsub): extend message priorities to H/M/L
+- [DST Report](https://zealous-polka-dc7.notion.site/Gossipsub-Priority-Queues-Test-3638f96fb65c80f69df4de8b27508371)
 - Unit or integration tests for queue-pressure behavior
 - Interoperability checks for queue overflow and message dropping
 - Queue behavior validated for slow-peer and large-message scenarios

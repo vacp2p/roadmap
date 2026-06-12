@@ -1,11 +1,18 @@
 ---
+
 title: nim-libp2p Address Manager
-meta-description: Revamp the observed address manager into a unified address manager and add a pluggable reachability verifier.
+tags:
+  - "2026q3"
+  - "p2p"
+  - "ift"
+draft: false
+description: Revamp the observed address manager into a unified address manager and add a pluggable reachability verifier
+
 ---
 
 # nim-libp2p Address Manager
 
-`ift-ts:p2p:ift:2026q3-nimlibp2p-address-manager`
+`ift-ts:p2p:ift:2026q3-nimlibp2p-addr-manager`
 
 Revamp nim-libp2p's observed address manager into a unified address manager that owns the announce path, separate address discovery from reachability confirmation, and add a pluggable per-address reachability verifier backed by AutoNATv2.
 
@@ -17,9 +24,9 @@ nim-libp2p's `ObservedAddrManager` lives inside Identify as a flat list of obser
 
 ### Decouple & Relocate ObservedAddrManager
 
-- fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-address-manager:obsaddr-decouple`
+- fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-addr-manager:obsaddr-decouple`
 - owner: gabe
-- status: planned
+- status: not started
 - start-date: 2026/07/01
 - end-date: 2026/07/14
 
@@ -39,9 +46,9 @@ Move `ObservedAddrManager` ownership out of Identify to a switch-level component
 
 ### Revamp into Address Manager
 
-- fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-address-manager:obsaddr-revamp`
+- fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-addr-manager:obsaddr-revamp`
 - owner: gabe
-- status: planned
+- status: not started
 - start-date: 2026/07/14
 - end-date: 2026/08/04
 
@@ -64,9 +71,9 @@ Restructure the relocated manager into the authoritative address manager. Replac
 
 ### Verifier Interface & AutoNATv2 Implementation
 
-- fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-address-manager:verifier`
+- fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-addr-manager:verifier`
 - owner: gabe
-- status: planned
+- status: not started
 - start-date: 2026/08/04
 - end-date: 2026/08/25
 
@@ -84,9 +91,9 @@ Add a `Verifier` interface the manager calls on a heartbeat to confirm individua
 
 ### Verifier Wiring & Consumer Migration
 
-- fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-address-manager:consumers`
+- fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-addr-manager:consumers`
 - owner: gabe
-- status: planned
+- status: not started
 - start-date: 2026/08/25
 - end-date: 2026/09/08
 

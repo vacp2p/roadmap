@@ -17,7 +17,7 @@ Major future work items on nim-libp2p (also beyond this reporting period are cap
 ## 2026q3 `ift-ts:p2p:`
 
 ### `ift:`
-* [[p2p/ift/2026q3-addr-manager]]
+* [[p2p/ift/2026q3-nimlibp2p-addr-manager|nimlibp2p-addr-manager]]
 
 ## 2026q2 `ift-ts:p2p:`
 

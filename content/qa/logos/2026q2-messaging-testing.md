@@ -169,16 +169,14 @@ The suite should perform RLN registration as part of the test flow and validate 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:nim-ffi-e2e-tests`
 * owner: aya
 * status: not started
-* start-date: 2026/05/30
-* end-date: 2026/06/15
+* start-date: 2026/06/22
+* end-date: 2026/06/24
 
 #### Description
-Add end-to-end tests for the nim-ffi library ([logos-messaging/nim-ffi#13](https://github.com/logos-messaging/nim-ffi/issues/13)).
-Tests are written in C/C++ and consume the built Nim library through the generated glue code.
-The suite exercises the various types and structures passed over the FFI boundary.
-
+Having a look on the end-to-end tests for the nim-ffi library ([logos-messaging/nim-ffi#13](https://github.com/logos-messaging/nim-ffi/issues/13)).
+and add extra tests if needed 
 #### Deliverables
-- PRs with C/C++ E2E tests covering the generated glue code for the nim-ffi library.
+- PRs with C/C++ E2E tests covering the generated glue code for the nim-ffi library (if needed).
 
 ### Messaging Sonda Tool extension
 

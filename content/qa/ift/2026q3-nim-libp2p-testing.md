@@ -48,12 +48,6 @@ Cover explicit outbound queue priorities and limits, disconnect-on-full behavior
 - Tests for best-effort dropping under queue pressure
 - Issues / reports for interop risks, instability, or uncovered edge cases
 
-#### Deliverables
-- PRs with tests for hi/lo limits and pruning triggers
-- Tests for connection scoring, tag decay, and protected-peer handling
-- Tests for automatic pruning and peer selection behavior
-- Issues / reports for uncovered edge cases or regressions
-
 ### Peerstore TTL Testing
 
 * fully qualified name: `ift-ts:qa:ift:2026q3-nim-libp2p-testing:peerstore-ttl`

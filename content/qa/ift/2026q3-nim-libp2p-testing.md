@@ -12,7 +12,7 @@ description: Expand nim-libp2p testing coverage with focus on new protocols and 
 
 ## Description
 Continue expanding nim-libp2p testing coverage, documentation, and tooling with focus on feature work and stability improvements carried from Q2.
-Support libp2p work where QA help is expected, including Autotls, gossipsub queue behavior, peerstore TTL handling, QUIC-related validation, dual-stack IPv4/IPv6 coverage, and maintenance work.
+Support libp2p work where QA help is expected, including Autotls, gossipsub queue behavior, opt-in dial ranking and backoffs, peerstore TTL handling, QUIC-related validation, dual-stack IPv4/IPv6 coverage, and maintenance work.
 
 ## Task List
 
@@ -62,6 +62,21 @@ Implement tests for peerstore TTL handling, including expiration behavior, refre
 #### Deliverables
 - PRs with peerstore TTL tests
 - Issues / reports for behavioral gaps or flaky scenarios
+
+### Opt-in Dial Ranking and Backoffs Testing
+
+* fully qualified name: `ift-ts:qa:ift:2026q3-nim-libp2p-testing:opt-in-dial-ranking-and-backoffs`
+* owner: radek
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+Implement tests for opt-in dial ranking and backoff behavior.
+
+#### Deliverables
+- PRs with dial ranking and backoff tests
+- Issues / reports for uncovered edge cases or regressions
 
 ### QUIC Repository Testing
 

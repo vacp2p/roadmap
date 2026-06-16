@@ -20,7 +20,7 @@ The work covers building the test framework needed for this integration layer an
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-logos-messaging-integration:framework`
 * owner: egor
-* status: not started
+* status: done
 * start-date: 2026/04/06
 * end-date: 2026/04/24
 
@@ -30,14 +30,17 @@ The work covers building the test framework needed for this integration layer an
 - Ensure the framework is structured so additional messaging scenarios can be added incrementally.
 
 #### Deliverables
-- PR with initial framework and test harness.
-- Documentation for setup, execution, and extension points.
+- [logos-messaging/logos-integration-test-framework#5](https://github.com/logos-messaging/logos-integration-test-framework/pull/5) Update `logoscore` dependency to track upstream `master` branch.
+- [logos-messaging/logos-integration-test-framework#4](https://github.com/logos-messaging/logos-integration-test-framework/pull/4) Add support for Python 3.13 and 3.14 in CI workflows
+- [logos-messaging/logos-integration-test-framework#3](https://github.com/logos-messaging/logos-integration-test-framework/pull/3) Add Apache 2.0 and MIT licenses to the repository, and update README
+- [logos-co/logos-logoscore-py#2](https://github.com/logos-co/logos-logoscore-py/pull/2) Add support for attaching daemon containers to caller-managed Docker
+- [logos-messaging/logos-integration-test-framework#2](https://github.com/logos-messaging/logos-integration-test-framework/pull/2) Update README.md to reflect updated repository URL
 
 ### One-to-one messaging
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-logos-messaging-integration:one-to-one-messaging`
 * owner: egor
-* status: not started
+* status: done
 * start-date: 2026/04/27
 * end-date: 2026/05/15
 
@@ -48,6 +51,7 @@ The work covers building the test framework needed for this integration layer an
 #### Deliverables
 - PRs with one-to-one smoke tests.
 - Test report with covered scenarios and identified gaps.
+- [logos-co/logos-chat-module#24](https://github.com/logos-co/logos-chat-module/pull/24) Add two-user integration tests for chat-module
 
 ### Group chat
 

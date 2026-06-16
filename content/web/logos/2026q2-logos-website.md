@@ -78,6 +78,13 @@ Redesign the Logos website.
 - [logos-co/logos-web#36](https://github.com/logos-co/logos-web/pull/36) Update and migrate UK debt campaign content
 - [acid-info/logos#40](https://github.com/acid-info/logos/pull/40) Launch and update the UK debt campaign
 - [status-im/status-web#1217](https://github.com/status-im/status-web/pull/1217) Fix job detail page
+- [logos-co/logos-web#39](https://github.com/logos-co/logos-web/pull/39) fix(ui): prevent nav overlay card text overlapping thumbnail on tablet
+- [logos-co/logos-web#41](https://github.com/logos-co/logos-web/pull/41) fix(content): update winnable issues and initiative details for moveent page
+- [logos-co/logos-web#42](https://github.com/logos-co/logos-web/pull/42) feat(web): add Manifesto page with routing and content
+- [logos-co/logos-web#43](https://github.com/logos-co/logos-web/pull/43) Rebrand blog to Logos Media, refresh copy, and polish stack/hero UI
+- [logos-co/logos-web#44](https://github.com/logos-co/logos-web/pull/44) Track sitewide Umami clicks
+- [logos-co/logos-web#25](https://github.com/logos-co/logos-web/pull/25) feat(funnel): migrate /connect to afform-submit flow
+- [logos-co/logos-web#1](https://github.com/logos-co/logos-web/pull/1) add forms for CRM funnels
 
 ### CMS/Sanity
 

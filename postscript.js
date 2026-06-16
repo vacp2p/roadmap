@@ -213,11 +213,16 @@ function updateTeamBadges() {
     });
     teamCounts[team] = (teamCounts[team] || 0) + count;
   });
-  for (const [teamId, count] of Object.entries(teamCounts)) {
+  document.querySelectorAll(".team-tab").forEach((tab) => {
+    const teamId = tab.dataset.team;
+    if (!teamId || teamId === "all")
+      return;
+    const count = teamCounts[teamId] || 0;
     const badge = document.getElementById(`badge-${teamId}`);
     if (badge)
       badge.textContent = String(count);
-  }
+    tab.style.display = count > 0 ? "" : "none";
+  });
 }
 function setupTabs() {
   const tabs = document.querySelectorAll(".team-tab");

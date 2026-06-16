@@ -37,3 +37,5 @@ Monitore X and Reddit for review of keycard competitors.
 - Twitter Ads targeting support and social media sentiment analysis updates completed.
 - X ads strategy support and continued Reddit social media research.
 - SEO research for Keycard social/media discovery.
+- Shopify data updated.
+- Benchmark analysis completed.

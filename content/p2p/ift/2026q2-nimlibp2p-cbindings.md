@@ -85,7 +85,7 @@ This task depends on `ift-ts:p2p:ift:2026q2-anoncomms-consulting:capability-disc
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-cbindings:nim-ffi`  
 * owner: gabe
-* status: in progress (80%)
+* status: in progress (85%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -108,3 +108,5 @@ existing bindings to take advantage of it.
 - [logos-messaging/nim-ffi#41](https://github.com/logos-messaging/nim-ffi/pull/41) tests: cover gaps in CBOR type coverage
 - [logos-messaging/nim-ffi#42](https://github.com/logos-messaging/nim-ffi/pull/42) test(cpp-e2e): add multi-context, cross-library, pipeline, stress tests
 - [logos-messaging/nim-ffi#71](https://github.com/logos-messaging/nim-ffi/pull/71) Add event-thread scaffolding and split `FFIContext` lifecycle work
+- [logos-messaging/nim-ffi#69](https://github.com/logos-messaging/nim-ffi/pull/69) feat: move user event code to a dedicated event thread
+- [logos-messaging/nim-ffi#77](https://github.com/logos-messaging/nim-ffi/pull/77) chore(ci): add nph linting

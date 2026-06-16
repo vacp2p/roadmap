@@ -34,3 +34,5 @@ oracle price design, PublishPrice, RecordTick, and current-tick refactors.
 #### Deliverables
 - [TWAP Oracle account design research](https://notes.status.im/4PlwprLaQEWW4Q_SDT36zw)
 - [logos-blockchain/lez-programs#138](https://github.com/logos-blockchain/lez-programs/issues/138) Alternative cascading solution for sampling price ticks over time
+- [logos-blockchain/lez-programs#143](https://github.com/logos-blockchain/lez-programs/pull/143) fix(twap_oracle): validate clock account
+- [logos-blockchain/lez-programs#128](https://github.com/logos-blockchain/lez-programs/pull/128) feat(twap-oracle): implement create_price_feed instruction

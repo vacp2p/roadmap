@@ -59,6 +59,8 @@ Oversee testing strategy around releases.
 - [status-im/status-app#20929](https://github.com/status-im/status-app/pull/20929) chore(@e2e): wait longer on authenticate action
 - [status-im/status-app#20584](https://github.com/status-im/status-app/issues/20584) Can't get Admin privileges even UI says I am admin in community
 - [status-im/status-app#21000](https://github.com/status-im/status-app/pull/21000) chore(@e2e): fix failing tests
+- [status-im/status-app#20986](https://github.com/status-im/status-app/pull/20986) chore(@e2e): reduce timeout for loading assets and update assets list
+- [status-im/status-app#21136](https://github.com/status-im/status-app/pull/21136) tests: move community category tests from e2e to QML
 
 ### Release Testing
 
@@ -115,15 +117,15 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-desktop:local-backup-opt-in`
 * owner: nastya
-* status: not started
+* status: done
 * start-date: 2026/05/04
-* end-date: 2026/05/15
+* end-date: 2026/06/16
 
 #### Description
 - Add or update tests covering opt-in messaging and related flows for the Local Backup feature.
 
 #### Deliverables
-- PRs / Issues
+- [status-im/status-app#21194](https://github.com/status-im/status-app/pull/21194) tests(@e2e): add test to check syncing of messages with local pairing
 
 ### Standardized approach for Popups / Menus / Dropdowns
 

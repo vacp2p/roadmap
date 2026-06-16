@@ -66,6 +66,11 @@ This remains the short-term roadmap for replacing pieces of the Nimbus build sys
 - [nim-lang/nimble#1728](https://github.com/nim-lang/nimble/pull/1728) Bump `vendor/zippy` for 32-bit `DivByZeroDefect`
 - [nim-lang/nimble#1727](https://github.com/nim-lang/nimble/pull/1727) Pin `csources` commit per Nim version when bootstrapping from source
 - [status-im/nim-metrics#100](https://github.com/status-im/nim-metrics/pull/100) Fix Nimble-related CI issue
+- [nim-lang/nimble#1731](https://github.com/nim-lang/nimble/pull/1731) Fixes #1730: copy symlinked files into buildtemp during install
+- [nim-lang/nimble#1732](https://github.com/nim-lang/nimble/pull/1732) Fix unformatted string literals in SAT solver error output
+- [nim-lang/nimble#1733](https://github.com/nim-lang/nimble/pull/1733) Align develop checkouts to resolved versions on nimble lock
+- [nim-lang/nimble#1734](https://github.com/nim-lang/nimble/pull/1734) nimble upgrade with no args upgrades all deps to newest compatible
+- [nim-lang/nimble#1735](https://github.com/nim-lang/nimble/pull/1735) Fix false-negative version-range checks on develop deps (declarative …
 
 ### Resolver Improvements
 

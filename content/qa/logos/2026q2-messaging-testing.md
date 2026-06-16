@@ -179,6 +179,34 @@ and add extra tests if needed
 #### Deliverables
 - PRs with C/C++ E2E tests covering the generated glue code for the nim-ffi library (if needed).
 
+### RLN interaction with LEZ
+
+* fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:rln-lez-interaction`
+* owner: roman
+* status: not started
+* start-date: 2026/06/16
+* end-date: 2026/06/30
+
+#### Description
+Test the interaction between RLN and LEZ and report integration issues or missing coverage.
+
+#### Deliverables
+- PRs / Issues / Reports
+
+### Reliable Channel API tests
+
+* fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:reliable-channel-api-tests`
+* owner: aya
+* status: not started
+* start-date: 2026/06/16
+* end-date: 2026/06/30
+
+#### Description
+Add API tests for the [Reliable Channel API](https://github.com/logos-co/logos-lips/blob/master/docs/messaging/raw/reliable-channel-api.md), covering the main reliable-channel behavior exposed by the implementation.
+
+#### Deliverables
+- PRs / Issues / Reports
+
 ### Messaging Sonda Tool extension
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:sonda-extension`

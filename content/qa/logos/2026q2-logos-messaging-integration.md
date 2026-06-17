@@ -73,7 +73,7 @@ The work covers building the test framework needed for this integration layer an
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-logos-messaging-integration:delivery-module-e2e`
 * owner: egor
-* status: started
+* status: in progress (30%)
 * start-date: 2026/06/16
 * end-date: 2026/06/30
 

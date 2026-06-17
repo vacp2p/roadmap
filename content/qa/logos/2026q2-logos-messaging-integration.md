@@ -79,7 +79,6 @@ The work covers building the test framework needed for this integration layer an
 
 #### Description
 - Build a Python e2e suite that boots logoscore daemons in Docker, loads the Logos Delivery module, and drives it over RPC.
-- Exercise the plugin-load, codegen, RPC, and two-node network-delivery paths that the in-process C++ tests cannot cover.
 - Integrate the suite into CI as a dedicated e2e job so delivery module integration is validated on every run.
 
 #### Deliverables

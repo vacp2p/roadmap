@@ -31,6 +31,21 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 #### Deliverables
 - PRs / Issues / Reports
 
+### New tests
+
+* fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:new-tests`
+* owner: nastya
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+- Add new automated tests from the existing backlog.
+- Add or update tests for new Status Desktop features as they are planned and implemented.
+
+#### Deliverables
+- PRs / Issues / Reports
+
 ### Release Testing
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:release-testing`

@@ -68,3 +68,19 @@ The work covers building the test framework needed for this integration layer an
 #### Deliverables
 - PRs with group messaging smoke tests.
 - Test report with covered scenarios and follow-up issues.
+
+### Logos Delivery module e2e testing and CI integration
+
+* fully qualified name: `ift-ts:qa:logos:2026q2-logos-messaging-integration:delivery-module-e2e`
+* owner: egor
+* status: in progress (30%)
+* start-date: 2026/06/16
+* end-date: 2026/06/30
+
+#### Description
+- Build a Python e2e suite that boots logoscore daemons in Docker, loads the Logos Delivery module, and drives it over RPC.
+- Integrate the suite into CI as a dedicated e2e job so delivery module integration is validated on every run.
+
+#### Deliverables
+- PRs with tests.
+- Test report with covered scenarios and follow-up issues.

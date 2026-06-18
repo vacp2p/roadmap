@@ -31,6 +31,21 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 #### Deliverables
 - PRs/Issues/Docs/Reports
 
+### Protobuf Serialization Docs
+
+* fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:protobuf-serialization-docs`
+* owner: Constantine
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+- Improve documentation for Protobuf Serialization.
+- Cover usage guidance, examples, and integration notes needed by downstream teams.
+
+#### Deliverables
+- PRs/Issues/Docs/Reports
+
 ### Maintenance
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:maintenance`

@@ -11,9 +11,128 @@ description: Status QA Mobile
 `ift-ts:qa:status:2026q3-status-qa-mobile`
 
 ## Description
-Continue closing mobile automation coverage gaps in communities, device sync, iOS, and small parity wins while keeping the mobile test framework healthy through app changes.
+Continue building mobile test automation for the Status app, with three priorities for Q3:
+- make the per-PR gate a trustworthy signal again,
+- close the wallet-send and keycard coverage gaps where users risk funds and keys,
+- and move backend correctness (delivery, sync, sends) down to status-go functional tests so the mobile suite holds what only a real device proves.
+
+The performance work is a priority as there is an intention to use performance metrics as part of the gate for future releases.
 
 ## Task List
+
+### Performance and resource monitoring
+
+* fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:performance`
+* owner: magnus
+* status: in progress (40%)
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+Make the mobile performance pipeline run unattended and extend it from response times to resource usage. The response-time dashboard already covers around 39 app surfaces on a fresh account; the priority this quarter is measuring a loaded account, getting the nightly run reliable, and adding battery, CPU, and memory tracking.
+
+#### Deliverables
+- Loaded-account measurement column published to the status-app-benchmarks dashboard
+- Unattended nightly run with failure alerting, proven over consecutive nights
+- Battery, CPU, and memory findings linked to [status-im/status-app#21045](https://github.com/status-im/status-app/issues/21045)
+- Second test device (Moto G55) added to the runs
+- Tracks [status-im/status-app#21086](https://github.com/status-im/status-app/issues/21086)
+
+### Gate-health stabilisation
+
+* fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:gate-health`
+* owner: magnus
+* status: in progress (15%)
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+Restore the Android per-PR gate as a trustworthy signal. Re-triage expected-fail tests and rebalance the gate into a stable set covering onboarding, messaging, wallet, and settings journeys.
+
+#### Deliverables
+- Expected-fail messaging tests re-triaged and re-enabled or refiled
+- A rebalanced gate marker covering onboarding, messaging, wallet, and settings journeys
+- `prs-android` job passing reliably on the rebalanced set
+
+### Accessibility testability contract
+
+* fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:a11y-contract`
+* owner: magnus
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+Add accessibility properties (`objectName` / `Accessible.name`) on screens the tests currently cannot read, improving assertions and reducing brittle locators.
+
+#### Deliverables
+- An agreed `objectName` / `Accessible.name` convention, lint-checked warn-only on touched files
+- The reply, pin, and members `objectName`s added
+- Disabled chat-title, message-text, and synced-name checks converted to assertions as properties land
+
+### Mobile binding contract test
+
+* fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:binding-contract`
+* owner: magnus
+* status: in progress (10%)
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+Add a fast Go test that checks every backend method the mobile app calls is still exposed by status-go, so renamed or removed methods fail in CI instead of surfacing only on device.
+
+#### Deliverables
+- A method-existence test in status-go's `mobile` package covering the `wakuext` namespace, running in CI
+- The app's referenced method names enumerated from source
+- Coverage extended to the `wallet` and `accounts` namespaces
+
+### Backend-peer messaging gate
+
+* fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:backend-peer-gate`
+* owner: magnus
+* status: in progress (15%)
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+Replace flaky two-phone messaging checks with a headless status-backend acting as the second participant, while retaining the on-phone smoke as a backup.
+
+#### Deliverables
+- A headless status-backend second-participant harness
+- 1:1 delivery and receipt asserted through the backend peer in CI without a device pair
+- Transport decided for Pi/emulator and BrowserStack paths
+- The on-phone delivery smoke retained as a backup pending a production-network check
+
+### Wallet-send and community smokes
+
+* fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:journey-smokes`
+* owner: magnus
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+Add smoke tests for critical journeys missing from the gate: wallet send and joining a community. Both join the gate once gate-health has stabilised it.
+
+#### Deliverables
+- A wallet-send smoke asserting recipient and amount through to signing, with a `send_modal` page object
+- A community browse-and-join smoke, with community page objects
+
+### Keycard UI coverage
+
+* fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:keycard-ui`
+* owner: magnus
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+Cover the new keycard on-screen flows on mobile: PIN entry, PUK unblock, onboarding, and recovery. Dev may provide a keycard test mock that makes these flows automatable without a physical card.
+
+#### Deliverables
+- Keycard page objects and locators against the new screens
+- Automated PIN, onboarding, and recovery flows once the mock is reachable in the mobile build
+- Tracks [status-im/status-app#20305](https://github.com/status-im/status-app/issues/20305) and [status-im/status-app#20289](https://github.com/status-im/status-app/issues/20289)
 
 ### Communities groundwork
 
@@ -24,8 +143,7 @@ Continue closing mobile automation coverage gaps in communities, device sync, iO
 * end-date: 2026/09/30
 
 #### Description
-Land community page objects and establish mobile-feasible test coverage.
-Community creation is desktop-only, so test environment setup will be investigated using the backend API directly.
+Land community page objects and establish mobile-feasible test coverage. Community creation is desktop-only, so test environment setup will be investigated using the backend API directly.
 
 #### Deliverables
 - Investigation of backend API for community creation and test environment setup
@@ -43,8 +161,7 @@ Community creation is desktop-only, so test environment setup will be investigat
 * end-date: 2026/09/30
 
 #### Description
-Implement mobile login-via-sync-code test coverage.
-Sync code generation is desktop-only through the UI, so the backend API will be investigated for generating sync codes directly.
+Implement mobile login-via-sync-code test coverage. Sync code generation is desktop-only through the UI, so the backend API will be investigated for generating sync codes directly.
 
 #### Deliverables
 - Investigation of backend API for sync code generation
@@ -78,26 +195,40 @@ Close small assertion gaps that require minimal new infrastructure.
 * end-date: 2026/09/30
 
 #### Description
-Extend the iOS POC beyond the single onboarding smoke test, informed by the Q1 feasibility assessment from PR `#20049`.
+Get a working iOS test build into the automation so iOS coverage can be expanded later. The framework already supports iOS with one onboarding smoke, based on the Q1 feasibility work in [status-im/status-app#20049](https://github.com/status-im/status-app/pull/20049).
 
 #### Deliverables
-- Additional iOS smoke tests covering wallet and messaging critical paths
-- iOS CI integration assessment
+- A working iOS test build available to the Appium framework (TestFlight or BrowserStack)
+- An assessment of the iOS CI job
 - iOS coverage roadmap for follow-up work
 
 ### Maintenance
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:maintenance`
 * owner: magnus
+* status: in progress (50%)
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+Keep the framework healthy as the app changes: triage flaky tests, follow app refactors, continue locator migration, and continue rolling out test-traceability markers.
+
+#### Deliverables
+- Brittle xpath locators reduced in messaging and wallet locator files, toward `tid()` / `objectName`
+- Test-traceability markers extended beyond messaging suites to wallet and onboarding tests
+- PRs / Issues / Reports
+
+### Release testing
+
+* fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:release-testing`
+* owner: magnus
 * status: not started
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
 #### Description
-Keep the framework healthy while the app changes.
+Support release testing for the 2.39 and 2.40 mobile builds: exploratory testing, regression execution, and reporting issues found.
 
 #### Deliverables
-- Stability of tests monitored and flaky tests triaged
-- Tests maintained through Status app refactors
-- Locator migration from `xpath` and `resource-id` to `accessibility_id` continued
-- PRs / Issues / Reports
+- Critical-path sign-off for the 2.39 and 2.40 mobile releases
+- Bugs and follow-up issues filed during release testing

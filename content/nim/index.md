@@ -11,6 +11,15 @@ tags:
 
 [[nim/preview|Roadmap Preview]]
 
+## 2026q3
+
+### `nimbus:`
+* [[nim/nimbus/2026q3-nimbus-nimble-integration|nimbus-nimble-integration]]
+### `ift:`
+* [[nim/ift/2026q3-nim-core-libs|nim-core-libs]]
+* [[nim/ift/2026q3-nimble|nimble]]
+### `logos:`
+* [[nim/logos/2026q3-storage-nimble-integration|storage-nimble-integration]]
 
 ## 2026q2
 

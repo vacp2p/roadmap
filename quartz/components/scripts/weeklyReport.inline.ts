@@ -235,11 +235,16 @@ function updateTeamBadges() {
     teamCounts[team] = (teamCounts[team] || 0) + count
   })
 
-  // Update badges
-  for (const [teamId, count] of Object.entries(teamCounts)) {
+  // Show tabs only for teams that have data on this weekly page.
+  document.querySelectorAll(".team-tab").forEach((tab) => {
+    const teamId = (tab as HTMLElement).dataset.team
+    if (!teamId || teamId === "all") return
+
+    const count = teamCounts[teamId] || 0
     const badge = document.getElementById(`badge-${teamId}`)
     if (badge) badge.textContent = String(count)
-  }
+    ;(tab as HTMLElement).style.display = count > 0 ? "" : "none"
+  })
 }
 
 function setupTabs() {

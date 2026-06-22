@@ -50,6 +50,12 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [status-im/nim-protobuf-serialization#87](https://github.com/status-im/nim-protobuf-serialization/pull/87) Fix optional field message merging
 - [status-im/nim-protobuf-serialization#84](https://github.com/status-im/nim-protobuf-serialization/pull/84) Fix `PBOption` for invalid `std/enum` values
 - [status-im/nim-protobuf-serialization#85](https://github.com/status-im/nim-protobuf-serialization/pull/85) Pass `--enforce_recommended` to conformance tests
+- [status-im/nim-protobuf-serialization#93](https://github.com/status-im/nim-protobuf-serialization/pull/93) Fixes #52; import_proto3: add `service` parsing & type generation hook
+- [status-im/nim-protobuf-serialization#96](https://github.com/status-im/nim-protobuf-serialization/pull/96) import_proto3: parse enum field options
+- [status-im/nim-protobuf-serialization#99](https://github.com/status-im/nim-protobuf-serialization/pull/99) import_proto3: fix deeply nested messages
+- [status-im/nim-protobuf-serialization#100](https://github.com/status-im/nim-protobuf-serialization/pull/100) import_proto3: `optional` field support
+- [status-im/nim-protobuf-serialization#101](https://github.com/status-im/nim-protobuf-serialization/pull/101) Bump to v0.5.2
+- [status-im/nim-protobuf-serialization#102](https://github.com/status-im/nim-protobuf-serialization/pull/102) Validate `Opt[seq]`, `Opt[Opt]`, `Opt[PBOption]` are not allowed
 
 ### Multithreading and Thread Pool Library
 
@@ -89,6 +95,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [vacp2p/nim-cbor-serialization#31](https://github.com/vacp2p/nim-cbor-serialization/pull/31) CDDL: `int` -> `int64`; `uint` -> `uint64`
 - [vacp2p/nim-cbor-serialization#30](https://github.com/vacp2p/nim-cbor-serialization/pull/30) CDDL: `any` -> `CborBytes`; `tools/cddl` -> `cddl`
 - [vacp2p/nim-cbor-serialization#17](https://github.com/vacp2p/nim-cbor-serialization/pull/17) Perf improvement
+- [vacp2p/nim-cbor-serialization#32](https://github.com/vacp2p/nim-cbor-serialization/pull/32) Bump to v0.4.0
 
 ### Unittest2 Expected Failures
 
@@ -138,6 +145,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 #### Deliverables
 - PRs/Issues/Docs/Reports
 - [status-im/nim-nat-traversal#41](https://github.com/status-im/nim-nat-traversal/issues/41) PCP support in nim-nat-traversal
+- [logos-storage/nim-libplum#9](https://github.com/logos-storage/nim-libplum/issues/9) Tests: Use Nim Docker image
 
 ### Nim LSP Stability and Editor Support
 
@@ -180,6 +188,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [status-im/nim-unittest2#70](https://github.com/status-im/nim-unittest2/pull/70) Add docs in MdBook format
 - [nim-lang/nimble#1701](https://github.com/nim-lang/nimble/pull/1701) Guide: Install Nim: Add instruction about installing devel Nim
 - [nim-lang/langserver#406](https://github.com/nim-lang/langserver/pull/406) Resolve conflicts in the nimlangserver mdBook PR
+- HTTP client tutorial rewritten with two new chapters.
 
 ### Maintenance
 
@@ -203,6 +212,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [status-im/nim-json-rpc#275](https://github.com/status-im/nim-json-rpc/pull/275) Fix json_rpc `meth` bug
 - [status-im/nim-json-rpc#274](https://github.com/status-im/nim-json-rpc/issues/274) json_rpc `meth` bug
 - [nim-lang/nimble#1692](https://github.com/nim-lang/nimble/issues/1692) Nimble and Chronos issue
+- [status-im/nim-json-rpc#278](https://github.com/status-im/nim-json-rpc/pull/278) Bump to v0.6.1
 - [nim-lang/nimble#1693](https://github.com/nim-lang/nimble/issues/1693) `nimble upgrade pkg` issue
 - [status-im/nim-stint#180](https://github.com/status-im/nim-stint/pull/180) Fixed CI for 32-bit Linux
 - [status-im/nim-stint#157](https://github.com/status-im/nim-stint/issues/157) Implement carryingAdd on uint64 for 32-bit platforms

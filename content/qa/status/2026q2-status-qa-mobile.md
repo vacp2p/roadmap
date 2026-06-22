@@ -186,3 +186,7 @@ Support mobile release testing efforts:
 - Manual 2.38 checks completed for 3 of 5 critical items, with notifications partially verified and one item blocked
 - [status-im/status-app#21086](https://github.com/status-im/status-app/issues/21086) Mobile performance testing
 - [status-im/status-app#21045](https://github.com/status-im/status-app/issues/21045) Battery usage investigation
+- [status-im/status-app#21034](https://github.com/status-im/status-app/issues/21034) Starting 2 app instances on Windows leads to Illegal storage access error sporadically
+- [status-im/status-app#20988](https://github.com/status-im/status-app/issues/20988) Fix tests to address changes in 20987
+- [status-im/status-app#20146](https://github.com/status-im/status-app/issues/20146) Re-submitting CR that was declined before should show Contact Request pending
+- [status-im/status-app#21020](https://github.com/status-im/status-app/issues/21020) Application rendering is very slow on first launch after install on Windows

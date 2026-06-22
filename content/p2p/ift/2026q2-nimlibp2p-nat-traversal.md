@@ -82,9 +82,9 @@ structured so UDP-capable transports can use the same setup path.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-nat-traversal:autonat-integration`
 * owner: gabe
-* status: in progress (90%)
+* status: done
 * start-date: 2026/06/01
-* end-date: 2026/06/30
+* end-date: 2026/06/16
 
 #### Description
 Absorb AutoNAT and hole-punching behavior into NATService so NAT traversal
@@ -92,3 +92,4 @@ logic is centralized and reusable across nim-libp2p.
 
 #### Deliverables
 - AutoNAT and hole-punching integration into NATService
+- [vacp2p/nim-libp2p#2604](https://github.com/vacp2p/nim-libp2p/pull/2604) feat(nat): absorb autonat / hole-punching into NATService

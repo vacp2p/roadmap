@@ -75,3 +75,9 @@ Execute upkeep across delivered web properties for Q2: dependency and security b
 - [acid-info/free.technology#21](https://github.com/acid-info/free.technology/pull/21) Remove Status Network homepage references
 - [acid-info/logos-press-engine#271](https://github.com/acid-info/logos-press-engine/pull/271) Logos blog maintenance
 - [acid-info/logos-press-engine#272](https://github.com/acid-info/logos-press-engine/pull/272) Logos blog maintenance
+- [status-im/status-web#1198](https://github.com/status-im/status-web/pull/1198) self-host `apps/get.status.app`
+- [status-im/status-web#1210](https://github.com/status-im/status-web/pull/1210) update `get.status.app`
+- [status-im/status-web#1197](https://github.com/status-im/status-web/pull/1197) self-host `apps/status.network`
+- [status-im/status-web#1199](https://github.com/status-im/status-web/pull/1199) self-host `apps/status.app`
+- [status-im/status-web#1214](https://github.com/status-im/status-web/pull/1214) Deleting unnecessary ref url "ref=our.status.im"
+- [acid-info/logos#42](https://github.com/acid-info/logos/pull/42) logos.co: Track sitewide button and link clicks in Umami

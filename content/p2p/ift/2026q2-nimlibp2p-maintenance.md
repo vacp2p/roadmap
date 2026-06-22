@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (75%)
+* status: in progress (82%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -175,6 +175,12 @@ Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via i
 - [vacp2p/nim-libp2p#2594](https://github.com/vacp2p/nim-libp2p/pull/2594) Fix flaky peer-limit test
 - [vacp2p/nim-libp2p#2558](https://github.com/vacp2p/nim-libp2p/pull/2558) Remove go-libp2p patch from AutoNAT v2 tests
 - [libp2p/go-libp2p#3513](https://github.com/libp2p/go-libp2p/pull/3513) Expose `AllowPrivateAddrs` through an option
+- [vacp2p/nim-libp2p#2618](https://github.com/vacp2p/nim-libp2p/pull/2618) fix: enable hole punching
+- [logos-storage/logos-storage-nim#1443](https://github.com/logos-storage/logos-storage-nim/pull/1443) chore: update libp2p to 2.0.0
+- [vacp2p/roadmap#473](https://github.com/vacp2p/roadmap/pull/473) chore: update p2p commitments
+- [vacp2p/nim-libp2p#2606](https://github.com/vacp2p/nim-libp2p/pull/2606) refactor(Identify): remove peerId argument form IdentifyPushHandler
+- [logos-co/logos-libp2p-module#50](https://github.com/logos-co/logos-libp2p-module/pull/50) fix: small improvements
+- [logos-co/logos-libp2p-module#48](https://github.com/logos-co/logos-libp2p-module/pull/48) feat(ci): ASan and TSan jobs for unit tests
 
 
 ### KAD-DHT optimizations
@@ -401,7 +407,7 @@ Maintain backward compatibility for public APIs.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:nim-protobuf-serialization`
 * owner: vlado
-* status: in progress (30%)
+* status: in progress (60%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -411,3 +417,9 @@ Replace minprotobuf usage within nim-libp2p with nim-protobuf-serialization. See
 #### Deliverables
 - [vacp2p/nim-libp2p#2508](https://github.com/vacp2p/nim-libp2p/pull/2508) chore: use `protobuf_serialization` 0.4.0
 - [vacp2p/nim-libp2p#2601](https://github.com/vacp2p/nim-libp2p/pull/2601) Use `protobuf_serialization` in Identify
+- [vacp2p/nim-libp2p#2612](https://github.com/vacp2p/nim-libp2p/pull/2612) chore(autonatv2): utilize protobuf_serialization
+- [vacp2p/nim-libp2p#2619](https://github.com/vacp2p/nim-libp2p/pull/2619) chore(protobuf): add chronos/time extensions
+- [vacp2p/nim-libp2p#2616](https://github.com/vacp2p/nim-libp2p/pull/2616) chore(relay): utilize protobuf_serialization
+- [vacp2p/nim-libp2p#2614](https://github.com/vacp2p/nim-libp2p/pull/2614) chore(routing-record): utilize protobuf_serialization
+- [vacp2p/nim-libp2p#2610](https://github.com/vacp2p/nim-libp2p/pull/2610) chore(Noise): utilize protobuf_serialization
+- [vacp2p/nim-libp2p#2609](https://github.com/vacp2p/nim-libp2p/pull/2609) chore(protobuf): decode procs to return result

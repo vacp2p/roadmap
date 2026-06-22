@@ -74,6 +74,12 @@ Should be made general when possible.
   - [vacp2p/10ksim#275](https://github.com/vacp2p/10ksim/pull/275) Add nimp2p-service to nimlibp2p nodes
   - [vacp2p/10ksim#278](https://github.com/vacp2p/10ksim/pull/278) Add dump to BaseExp and fix run defs
   - [vacp2p/10ksim#287](https://github.com/vacp2p/10ksim/pull/287) Fix `poll_rollout_status` return value
+  - [vacp2p/pod-api-requester#9](https://github.com/vacp2p/pod-api-requester/pull/9) Set log level from env var
+  - [vacp2p/10ksim#286](https://github.com/vacp2p/10ksim/pull/286) kube utils tests
+  - [vacp2p/10ksim#288](https://github.com/vacp2p/10ksim/pull/288) Remove outdated test suite
+  - [vacp2p/10ksim#289](https://github.com/vacp2p/10ksim/pull/289) Add security_context to ContainerConfig
+  - [vacp2p/10ksim#290](https://github.com/vacp2p/10ksim/pull/290) Split kube_utils into focused modules
+  - [vacp2p/10ksim#295](https://github.com/vacp2p/10ksim/pull/295) Add serialize/deserialize BaseExperiment
 - Reports:
 - Other:
   - Fixed `zerotesting-store` so it runs on k8s
@@ -83,7 +89,7 @@ Should be made general when possible.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:dashboard`
 * owner: Mamoutou
-* status: in progress (5%)
+* status: in progress (25%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -93,6 +99,7 @@ Present DST reports automatically in a dashboard for other CCs.
 #### Deliverables
 - Code:
 - Reports:
+  - [DST Dashboard - Proposal For a Dynamic Public Lab Dashboard](https://app.notion.com/p/DST-Dashboard-Proposal-For-a-Dynamic-Public-Lab-Dashboard-3388f96fb65c804787b7e55cf6beb027) updated architecture, experiment descriptor, and embedded DB approach.
 
 
 ### Shadow

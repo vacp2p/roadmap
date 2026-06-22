@@ -59,6 +59,7 @@ Extract various network metrics from the Logos storage nodes.
 * ...
 * Research started on Logos storage metrics.
 * Continued research on storage metrics and dashboard inputs.
+* Research continued on Logos storage monitoring.
 
 ### Logos Delivery Analytics
 

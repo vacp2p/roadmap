@@ -35,3 +35,4 @@ Provide Weekly and monthly metrics for the communication activities.
 - Communication dashboard updated: https://superset.bi.status.im/superset/dashboard/logos-comunication/
 - Research started on automating KOL discovery via the X API.
 - Prepared web analytics for the Logos UK campaign.
+- [Umami setup tutorial](https://docs.bi.status.im/guides/umami-setup.html)

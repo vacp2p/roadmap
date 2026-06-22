@@ -31,6 +31,51 @@ Ongoing maintenance of messaging testing frameworks.
 #### Deliverables
 - PRs / Issues / Reports
 
+### RLN interaction with LEZ
+
+* fully qualified name: `ift-ts:qa:logos:2026q3-messaging-testing:rln-lez-interaction`
+* owner: roman
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+Support QA for [RLN on Logos Blockchain](https://roadmap.logos.co/messaging/roadmap/milestones/2026-add-support-for-rln-on-lee).
+Focus on library-level testing for the interaction between RLN and LEZ and report integration issues or missing coverage.
+
+#### Deliverables
+- PRs / Issues / Reports
+
+### Reliable Channel API tests
+
+* fully qualified name: `ift-ts:qa:logos:2026q3-messaging-testing:reliable-channel-api-tests`
+* owner: aya
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+Support QA for [Reliable Channel API — General Availability](https://roadmap.logos.co/messaging/roadmap/milestones/2026-reliable-channel-api-general-availability).
+Add API tests based on the [Reliable Channel API](https://github.com/logos-co/logos-lips/blob/master/docs/messaging/raw/reliable-channel-api.md), covering the main reliable-channel behavior exposed by the implementation.
+
+#### Deliverables
+- PRs / Issues / Reports
+
+### Chat Developer Preview QA
+
+* fully qualified name: `ift-ts:qa:logos:2026q3-messaging-testing:chat-developer-preview`
+* owner: aya
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+Support QA for [Chat — Developer Preview](https://roadmap.logos.co/messaging/roadmap/milestones/2026-chat-developer-preview).
+Focus on library-level and module-level testing where feasible, including delivery module tests similar to the existing chat module coverage.
+
+#### Deliverables
+- PRs / Issues / Reports
+
 ### Messaging Sonda Tool extension
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-messaging-testing:sonda-extension`

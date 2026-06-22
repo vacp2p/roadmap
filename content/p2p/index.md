@@ -17,7 +17,24 @@ Major future work items on nim-libp2p (also beyond this reporting period are cap
 ## 2026q3 `ift-ts:p2p:`
 
 ### `ift:`
+* [[p2p/ift/2026q3-logos-delivery-consulting|logos-delivery-consulting]]
+* [[p2p/ift/2026q3-anoncomms-unified-networking|anoncomms-unified-networking]]
+* [[p2p/ift/2026q3-logos-core-custom-protocol-support|logos-core-custom-protocol-support]]
+* [[p2p/ift/2026q3-logos-core-node-management-ui|logos-core-node-management-ui]]
+* [[p2p/ift/2026q3-logos-core-learning-materials|logos-core-learning-materials]]
+* [[p2p/ift/2026q3-nimlibp2p-libplum-nat-traversal|nimlibp2p-libplum-nat-traversal]]
+* [[p2p/ift/2026q3-nimlibp2p-mobile-targets|nimlibp2p-mobile-targets]]
 * [[p2p/ift/2026q3-nimlibp2p-addr-manager|nimlibp2p-addr-manager]]
+* [[p2p/ift/2026q3-dst-testing-node-consulting|dst-testing-node-consulting]]
+* [[p2p/ift/2026q3-nimlibp2p-lockfile-dependency-pinning|nimlibp2p-lockfile-dependency-pinning]]
+* [[p2p/ift/2026q3-logos-messaging-nim-ffi-integration|logos-messaging-nim-ffi-integration]]
+* [[p2p/ift/2026q3-nim-lsquic-per-connection-cert-validators|nim-lsquic-per-connection-cert-validators]]
+* [[p2p/ift/2026q3-nimlibp2p-dial-ranking-backoffs|nimlibp2p-dial-ranking-backoffs]]
+* [[p2p/ift/2026q3-nim-lsquic-configuration-settings|nim-lsquic-configuration-settings]]
+* [[p2p/ift/2026q3-nimlibp2p-log-noise-reduction|nimlibp2p-log-noise-reduction]]
+* [[p2p/ift/2026q3-nimlibp2p-result-error-handling|nimlibp2p-result-error-handling]]
+* [[p2p/ift/2026q3-nimlibp2p-tls-sni-multiaddr|nimlibp2p-tls-sni-multiaddr]]
+* [[p2p/ift/2026q3-nimlibp2p-wasm-targets|nimlibp2p-wasm-targets]]
 
 ## 2026q2 `ift-ts:p2p:`
 

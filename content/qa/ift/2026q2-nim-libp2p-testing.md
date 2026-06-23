@@ -50,7 +50,7 @@ Implement unit and integration tests for the Autotls protocol.
 
 * fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:gossipsub-queue`
 * owner: radek
-* status: not started
+* status: in progress (95%)
 * start-date: 2026/04/06
 * end-date: 2026/04/24
 
@@ -63,14 +63,16 @@ Cover explicit outbound queue priorities and limits, disconnect-on-full behavior
 - Tests for priority-message overflow and queue refresh behavior
 - Tests for best-effort dropping under queue pressure
 - Issues / reports for interop risks, instability, or uncovered edge cases
+- [vacp2p/nim-libp2p#2642](https://github.com/vacp2p/nim-libp2p/pull/2642) test(gossipsub): priority queues
+- [vacp2p/nim-libp2p#2646](https://github.com/vacp2p/nim-libp2p/pull/2646) test(gossipsub): priority queues 2
 
 ### Connection Management Testing
 
 * fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:connection-management`
 * owner: radek
-* status: not started
+* status: done
 * start-date: 2026/04/27
-* end-date: 2026/05/15
+* end-date: 2026/06/23
 
 #### Description
 Implement tests for the Q2 connection management work.
@@ -81,6 +83,8 @@ Cover hi/lo watermarks, score-driven pruning, decaying and static tags, protecte
 - Tests for connection scoring, tag decay, and protected-peer handling
 - Tests for automatic pruning and peer selection behavior
 - Issues / reports for uncovered edge cases or regressions
+- [vacp2p/nim-libp2p#2620](https://github.com/vacp2p/nim-libp2p/pull/2620) test(conn-manager): event ordering issue
+- [vacp2p/nim-libp2p#2628](https://github.com/vacp2p/nim-libp2p/pull/2628) test(conn-manager): misc
 
 ### Peerstore TTL Testing
 
@@ -161,7 +165,7 @@ If time permits, improve the existing partial messages interop test with additio
 
 * fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:maintenance`
 * owner: radek
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -174,6 +178,7 @@ This includes quick-turn support for transport-start inconsistencies, protocol-l
 - [vacp2p/nim-libp2p#2229](https://github.com/vacp2p/nim-libp2p/pull/2229) test(transport): inconsistent start behaviour
 - [vacp2p/nim-libp2p#2230](https://github.com/vacp2p/nim-libp2p/issues/2230) transports: inconsistent start behaviour
 - Validation notes for fixes landed outside the main feature-track tasks
+- [vacp2p/nim-libp2p#2629](https://github.com/vacp2p/nim-libp2p/pull/2629) test(service-disco): improve flaky test
 
 ### Service Discovery Testing
 

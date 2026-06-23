@@ -21,7 +21,7 @@ including follow-up work across token, ATA, and AMM program boundaries.
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-programs-development:chores`
 * owner: Ricardo/r4bbit
-* status: in progress (75%)
+* status: in progress (80%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -66,3 +66,5 @@ and follow-up issues across the LEZ token, ATA, and AMM programs.
 - [logos-co/scaffold#206](https://github.com/logos-co/scaffold/issues/206) Deterministic block and clock context for test-node replay
 - [logos-co/scaffold#207](https://github.com/logos-co/scaffold/issues/207) Stable account and proof snapshots for parity assertions
 - [logos-co/scaffold#208](https://github.com/logos-co/scaffold/issues/208) Caller project LEZ and circuits pins for test nodes
+- [logos-co/scaffold#227](https://github.com/logos-co/scaffold/issues/227) Add fast block-time support to test-node config API
+- [logos-blockchain/lez-programs#191](https://github.com/logos-blockchain/lez-programs/pull/191) refactor(pda): use descriptive string seeds for PDA derivation

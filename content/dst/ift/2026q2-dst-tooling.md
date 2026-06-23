@@ -80,6 +80,7 @@ Should be made general when possible.
   - [vacp2p/10ksim#289](https://github.com/vacp2p/10ksim/pull/289) Add security_context to ContainerConfig
   - [vacp2p/10ksim#290](https://github.com/vacp2p/10ksim/pull/290) Split kube_utils into focused modules
   - [vacp2p/10ksim#295](https://github.com/vacp2p/10ksim/pull/295) Add serialize/deserialize BaseExperiment
+  - [vacp2p/10ksim#299](https://github.com/vacp2p/10ksim/pull/299) Add tests for src/deployments/core/builders.py
 - Reports:
 - Other:
   - Fixed `zerotesting-store` so it runs on k8s
@@ -89,7 +90,7 @@ Should be made general when possible.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:dashboard`
 * owner: Mamoutou
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -106,9 +107,9 @@ Present DST reports automatically in a dashboard for other CCs.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:shadow`
 * owner: Alan
-* status: in progress (95%)
+* status: done
 * start-date: 2026/05/18
-* end-date: 2026/05/27
+* end-date: 2026/06/23
 
 #### Description
 Shadow simulator is hardcoded at the moment in dst-libp2p-test-node for the nim version.
@@ -123,5 +124,8 @@ subtasks.
   - [vacp2p/10ksim#276](https://github.com/vacp2p/10ksim/pull/276) Run GossipSub experiments with Shadow
   - [vacp2p/10ksim#285](https://github.com/vacp2p/10ksim/pull/285) Add post-run Shadow analysis for metrics and message reliability
   - [vacp2p/dst-libp2p-test-node#28](https://github.com/vacp2p/dst-libp2p-test-node/pull/28) Add Shadow runner base image
+  - [vacp2p/pod-api-requester#10](https://github.com/vacp2p/pod-api-requester/pull/10) Shadow Support
+  - [vacp2p/dst-libp2p-test-node#36](https://github.com/vacp2p/dst-libp2p-test-node/pull/36) Shadow base requester
+  - [vacp2p/10ksim#297](https://github.com/vacp2p/10ksim/pull/297) Use pod-api-requester as the publisher for Shadow
 - Reports:
   - [Using Shadow at DST](https://www.notion.so/Using-Shadow-at-DST-3698f96fb65c8091b011db3f7d267d61) documents usage, design choices, and gotchas.

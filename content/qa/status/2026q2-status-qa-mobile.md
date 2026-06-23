@@ -151,7 +151,7 @@ Extend the iOS POC beyond the single onboarding smoke test, informed by the Q1 f
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-mobile:maintenance`
 * owner: magnus
-* status: in progress (50%)
+* status: in progress (75%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -167,12 +167,17 @@ Keep the framework healthy while the app changes.
 - [status-im/status-app#20460](https://github.com/status-im/status-app/issues/20460) Android splash / grey content after backgrounding
 - [status-im/status-app#21021](https://github.com/status-im/status-app/pull/21021) fix(e2e_appium): stabilise messaging gate
 - [status-im/status-app#21156](https://github.com/status-im/status-app/pull/21156) Scroll the seed Continue button into view before tapping
+- [status-im/status-app#21264](https://github.com/status-im/status-app/pull/21264) test(e2e_appium): fix seed-import, password-change, and profile re-import on Android
+- [status-im/status-app#21263](https://github.com/status-im/status-app/pull/21263) fix(e2e_appium): complete onboarding when the splash clears the accessibility tree
+- [status-im/status-app#21276](https://github.com/status-im/status-app/pull/21276) chore(@e2e): add object names to community cards and home tiles
+- [status-im/status-app#21242](https://github.com/status-im/status-app/pull/21242) fix(a11y): expose message text and key controls to accessibility
+- [status-im/status-app#21221](https://github.com/status-im/status-app/pull/21221) fix(e2e_appium): verify arrival on drawer navigation, add dedicated drawer testFix/e2e nav arrival verify
 
 ### Release testing
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-mobile:release-testing`
 * owner: magnus
-* status: in progress (50%)
+* status: in progress (75%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -190,3 +195,4 @@ Support mobile release testing efforts:
 - [status-im/status-app#20988](https://github.com/status-im/status-app/issues/20988) Fix tests to address changes in 20987
 - [status-im/status-app#20146](https://github.com/status-im/status-app/issues/20146) Re-submitting CR that was declined before should show Contact Request pending
 - [status-im/status-app#21020](https://github.com/status-im/status-app/issues/21020) Application rendering is very slow on first launch after install on Windows
+- [Mobile performance scorecard and documentation](https://north661.gitbook.io/docs/performance/performance)

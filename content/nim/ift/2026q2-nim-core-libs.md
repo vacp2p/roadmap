@@ -56,6 +56,10 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [status-im/nim-protobuf-serialization#100](https://github.com/status-im/nim-protobuf-serialization/pull/100) import_proto3: `optional` field support
 - [status-im/nim-protobuf-serialization#101](https://github.com/status-im/nim-protobuf-serialization/pull/101) Bump to v0.5.2
 - [status-im/nim-protobuf-serialization#102](https://github.com/status-im/nim-protobuf-serialization/pull/102) Validate `Opt[seq]`, `Opt[Opt]`, `Opt[PBOption]` are not allowed
+- [status-im/nim-protobuf-serialization#103](https://github.com/status-im/nim-protobuf-serialization/pull/103) Test with ASan, refc, orc
+- [status-im/nim-protobuf-serialization#104](https://github.com/status-im/nim-protobuf-serialization/pull/104) Require Pb type instead of packed param in `extensionDefaults`
+- [status-im/nim-protobuf-serialization#105](https://github.com/status-im/nim-protobuf-serialization/pull/105) Packed field helpers
+- [status-im/nim-protobuf-serialization#106](https://github.com/status-im/nim-protobuf-serialization/pull/106) Bump to v0.5.3
 
 ### Multithreading and Thread Pool Library
 
@@ -96,6 +100,8 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [vacp2p/nim-cbor-serialization#30](https://github.com/vacp2p/nim-cbor-serialization/pull/30) CDDL: `any` -> `CborBytes`; `tools/cddl` -> `cddl`
 - [vacp2p/nim-cbor-serialization#17](https://github.com/vacp2p/nim-cbor-serialization/pull/17) Perf improvement
 - [vacp2p/nim-cbor-serialization#32](https://github.com/vacp2p/nim-cbor-serialization/pull/32) Bump to v0.4.0
+- [vacp2p/nim-cbor-serialization#34](https://github.com/vacp2p/nim-cbor-serialization/pull/34) JSON to CBOR converter
+- [vacp2p/nim-cbor-serialization#35](https://github.com/vacp2p/nim-cbor-serialization/pull/35) Bump to v0.4.1
 
 ### Unittest2 Expected Failures
 
@@ -116,7 +122,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:libp2p-protobuf-serialization`
 * owner: Nitely/Constantine
-* status: in progress (50%)
+* status: in progress (75%)
 * start-date: 2026/06/01
 * end-date: 2026/06/30
 
@@ -128,12 +134,13 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [vacp2p/nim-libp2p#2166](https://github.com/vacp2p/nim-libp2p/pull/2166) chore: Use protobuf_serialization in RendezVous protocol
 - [vacp2p/nim-libp2p#2477](https://github.com/vacp2p/nim-libp2p/pull/2477) Protobuf serialization of the DCUtR protocol
 - [vacp2p/nim-libp2p#2608](https://github.com/vacp2p/nim-libp2p/pull/2608) Bump `protobuf_serialization` to v0.5.0
+- [vacp2p/nim-libp2p#2655](https://github.com/vacp2p/nim-libp2p/pull/2655) chore(deps): Bump `protobuf_serialization` to v0.5.3
 
 ### PCP Support in nim-nat-traversal
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:nat-traversal-pcp-support`
 * owner: Constantine
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/06/01
 * end-date: 2026/06/30
 
@@ -189,12 +196,14 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [nim-lang/nimble#1701](https://github.com/nim-lang/nimble/pull/1701) Guide: Install Nim: Add instruction about installing devel Nim
 - [nim-lang/langserver#406](https://github.com/nim-lang/langserver/pull/406) Resolve conflicts in the nimlangserver mdBook PR
 - HTTP client tutorial rewritten with two new chapters.
+- [status-im/nim-chronos#662](https://github.com/status-im/nim-chronos/issues/662) Move examples out of docs
+- [nim-lang/Nim#25921](https://github.com/nim-lang/Nim/issues/25921) Multiple exceptions in one `except` branch do not work in `async` procs
 
 ### Maintenance
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:maintenance`
 * owner: Constantine
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -220,3 +229,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [nim-lang/nimble#1663](https://github.com/nim-lang/nimble/issues/1663) `nimble dump` resolves absolute paths incorrectly
 - [status-im/nim-json-rpc#276](https://github.com/status-im/nim-json-rpc/pull/276) Terminate conn on invalid response `id` and do not send a response for it
 - [status-im/nim-stew#271](https://github.com/status-im/nim-stew/pull/271) enums: fix `hasHoles` overflow in 32bit platforms for int32 enum values
+- [status-im/nimbus-common-workflow#24](https://github.com/status-im/nimbus-common-workflow/pull/24) Nimble install with `--useSystemNim`
+- [status-im/nim-toml-serialization#114](https://github.com/status-im/nim-toml-serialization/pull/114) Drop Nim 1.6 support
+- [status-im/nim-json-serialization#144](https://github.com/status-im/nim-json-serialization/pull/144) CI: remove pinned nimble
+- [status-im/nim-confutils#147](https://github.com/status-im/nim-confutils/pull/147) CI: remove pinned nimble

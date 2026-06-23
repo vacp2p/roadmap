@@ -20,7 +20,7 @@ The work includes refining the fuzz targets with the LEZ team, implementing the 
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-lez-fuzz-testing:framework`
 * owner: Roman
-* status: in progress (90%)
+* status: in progress (95%)
 * start-date: 2026/04/13
 * end-date: 2026/05/01
 
@@ -47,3 +47,6 @@ The work includes refining the fuzz targets with the LEZ team, implementing the 
 - [logos-blockchain/logos-execution-zone#514](https://github.com/logos-blockchain/logos-execution-zone/issues/514) Possible Schnorr signature verification problem
 - [logos-blockchain/lez-fuzzing#2](https://github.com/logos-blockchain/lez-fuzzing/pull/2) feat: AFL++ fuzzing layer
 - [logos-blockchain/logos-execution-zone#522](https://github.com/logos-blockchain/logos-execution-zone/pull/522) test: Address missed mutants discovered during fuzzing
+- [logos-blockchain/lez-fuzzing#3](https://github.com/logos-blockchain/lez-fuzzing/pull/3) chore: Test quality diagnostics with cargo mutants
+- [logos-blockchain/lez-fuzzing#4](https://github.com/logos-blockchain/lez-fuzzing/pull/4) chore: Corpus update libFuzzer AFL++ 30 minutes
+- [logos-blockchain/lez-fuzzing#5](https://github.com/logos-blockchain/lez-fuzzing/pull/5) test: Privacy preserving features

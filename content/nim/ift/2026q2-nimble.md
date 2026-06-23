@@ -71,6 +71,10 @@ This remains the short-term roadmap for replacing pieces of the Nimbus build sys
 - [nim-lang/nimble#1733](https://github.com/nim-lang/nimble/pull/1733) Align develop checkouts to resolved versions on nimble lock
 - [nim-lang/nimble#1734](https://github.com/nim-lang/nimble/pull/1734) nimble upgrade with no args upgrades all deps to newest compatible
 - [nim-lang/nimble#1735](https://github.com/nim-lang/nimble/pull/1735) Fix false-negative version-range checks on develop deps (declarative …
+- [nim-lang/nimble#1736](https://github.com/nim-lang/nimble/pull/1736) Remove global develop
+- [nim-lang/nimble#1737](https://github.com/nim-lang/nimble/pull/1737) develop <pkg> outside a project records a free develop file
+- [nim-lang/nimble#1739](https://github.com/nim-lang/nimble/pull/1739) Fix nested vendor/ dirs when developing inside a vendored package
+- [nim-lang/nimble#1740](https://github.com/nim-lang/nimble/pull/1740) tests: write test nimbleDir to a temp dir outside the repo tree
 
 ### Resolver Improvements
 

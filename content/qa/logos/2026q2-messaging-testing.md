@@ -37,6 +37,8 @@ Ongoing maintenance of messaging testing frameworks.
 - [logos-messaging/logos-delivery-interop-tests#185](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/185) fix: Enable RLN registration for fleet tests
 - [logos-messaging/logos-delivery-interop-tests#187](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/187) chore: Change fleet tests to run once a week
 - [logos-messaging/logos-delivery-interop-tests#182](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/182) Add the number of shards fix suggested to address CI issue
+- [logos-messaging/logos-delivery-interop-tests#190](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/190) run CI for latest release
+- [nwaku release v0.39.0-rc.0 test results](https://app.notion.com/p/nwaku-release-v0-39-0-rc-0-Tests-results-3818f96fb65c80d2bd16f5acdda5462d)
 
 
 ### Python bindings

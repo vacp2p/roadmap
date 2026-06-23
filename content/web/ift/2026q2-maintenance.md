@@ -81,3 +81,9 @@ Execute upkeep across delivered web properties for Q2: dependency and security b
 - [status-im/status-web#1199](https://github.com/status-im/status-web/pull/1199) self-host `apps/status.app`
 - [status-im/status-web#1214](https://github.com/status-im/status-web/pull/1214) Deleting unnecessary ref url "ref=our.status.im"
 - [acid-info/logos#42](https://github.com/acid-info/logos/pull/42) logos.co: Track sitewide button and link clicks in Umami
+- [acid-info/lpe-cms#6](https://github.com/acid-info/lpe-cms/pull/6) fix: keep OG image URL stable and serialize generation
+- [status-im/status-web#1224](https://github.com/status-im/status-web/pull/1224) chore(e2e): remove dead pre-deposit deposit tests
+- [status-im/status-web#1225](https://github.com/status-im/status-web/pull/1225) feat(e2e): add reusable Anvil wallet harness
+- [status-im/status-web#1226](https://github.com/status-im/status-web/pull/1226) fix(community-dapp): fix vercel build for monorepo deployment
+- [status-im/status-web#1227](https://github.com/status-im/status-web/pull/1227) test(e2e): run the suite against a local Hub
+- [status-im/status-web#1228](https://github.com/status-im/status-web/pull/1228) test(e2e): add Hub withdrawal test suite

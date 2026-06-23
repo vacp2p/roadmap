@@ -32,7 +32,7 @@ work and improvements, and it is subjected to change.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-libp2p-evaluation:regression-testing`
 * owner: Pearson
-* status: in progress (75%)
+* status: in progress (90%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -53,6 +53,8 @@ and ensure they don't happen again.
     - [vacp2p/dst-libp2p-test-node#30](https://github.com/vacp2p/dst-libp2p-test-node/pull/30) Remove mix from regression node
     - [vacp2p/dst-libp2p-test-node#32](https://github.com/vacp2p/dst-libp2p-test-node/pull/32) Update node to match v2.0.0
     - [vacp2p/dst-libp2p-test-node#33](https://github.com/vacp2p/dst-libp2p-test-node/pull/33) Ping in regression node
+    - [vacp2p/10ksim#298](https://github.com/vacp2p/10ksim/pull/298) Use kad-dht discovery for nimlibp2p regression mesh
+    - [vacp2p/dst-libp2p-test-node#37](https://github.com/vacp2p/dst-libp2p-test-node/pull/37) Form regression mesh via kad-dht instead of static connectTo
 - Reports:
     - [Nim-libp2p v2.0.0 regression testing report](https://app.notion.com/p/Nim-libp2p-v2-0-0-regression-testing-June-2026-WIP-3758f96fb65c806ba584fc93f72c3762)
 

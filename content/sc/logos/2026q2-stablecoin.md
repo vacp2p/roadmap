@@ -22,7 +22,7 @@ architecture documentation.
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-stablecoin`
 * owner: Andrea/r4bbit/Ricardo
-* status: in progress (60%)
+* status: in progress (75%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -37,3 +37,5 @@ minted-value handling, and redemption-rate feedback-controller follow-up.
 - [logos-blockchain/lez-programs#124](https://github.com/logos-blockchain/lez-programs/issues/124) Stablecoin: use real debt values
 - [logos-blockchain/lez-programs#132](https://github.com/logos-blockchain/lez-programs/issues/132) Stablecoin: use real minted values
 - [logos-blockchain/lez-programs#95](https://github.com/logos-blockchain/lez-programs/issues/95) Feedback controller for redemption rate
+- [logos-blockchain/lez-programs#155](https://github.com/logos-blockchain/lez-programs/issues/155) Stablecoin (RFP-013) — implementation
+- [logos-blockchain/lez-programs#156](https://github.com/logos-blockchain/lez-programs/issues/156) Plan 1 — Foundation + Bootstrap

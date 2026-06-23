@@ -26,9 +26,9 @@ The Logos website enhancement will support Logos' strategic objectives by:
 
 * fully qualified name: `ift-ts:web:logos:2026q2-logos-website:website-redesign`
 * owner: jinhojang6
-* status: in progress (98%)
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/06/23
 
 #### Description
 
@@ -85,6 +85,19 @@ Redesign the Logos website.
 - [logos-co/logos-web#44](https://github.com/logos-co/logos-web/pull/44) Track sitewide Umami clicks
 - [logos-co/logos-web#25](https://github.com/logos-co/logos-web/pull/25) feat(funnel): migrate /connect to afform-submit flow
 - [logos-co/logos-web#1](https://github.com/logos-co/logos-web/pull/1) add forms for CRM funnels
+- [logos.co](https://logos.co/) released and deployed
+- [logos-co/logos-web#45](https://github.com/logos-co/logos-web/pull/45) feat: redesign homepage with stacked scroll sections
+- [logos-co/logos-web#46](https://github.com/logos-co/logos-web/pull/46) feat: add card-wide link overlays to TechBuilderCtaDeck and refine manifesto layout
+- [logos-co/logos-web#47](https://github.com/logos-co/logos-web/pull/47) feat: homepage redesign with new sections, mobile polish, and Umami click tracking
+- [logos-co/logos-web#48](https://github.com/logos-co/logos-web/pull/48) fix: clean up section padding and homepage hero mobile CTA gap
+- [logos-co/logos-web#49](https://github.com/logos-co/logos-web/pull/49) fix: refresh homepage media and copy
+- [logos-co/logos-web#50](https://github.com/logos-co/logos-web/pull/50) fix: remove About page and related navigation entry
+- [logos-co/logos-web#51](https://github.com/logos-co/logos-web/pull/51) UI copy updates
+- [logos-co/logos-web#52](https://github.com/logos-co/logos-web/pull/52) Update website copy, CTAs, and responsive layouts
+- [logos-co/logos-web#53](https://github.com/logos-co/logos-web/pull/53) feat(web): make homepage winnable issues count dynamic
+- [logos-co/logos-web#54](https://github.com/logos-co/logos-web/pull/54) fix(web): improve home stat & path card responsiveness on tablet
+- [Logos website manual testing](https://app.notion.com/p/Manual-testing-3848f96fb65c80c1984dfc39a9cfd4be#3848f96fb65c80659afac33bb1acc3e2) Cross-browser and multi-device UI fixes
+- [Logos mobile UI fixes on develop](https://github.com/logos-co/logos-web/commits/develop/?since=2026-06-14&until=2026-06-20&author=JulesFiliot)
 
 ### CMS/Sanity
 

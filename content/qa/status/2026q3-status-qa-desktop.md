@@ -124,3 +124,19 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 #### Deliverables
 - PRs / Issues / Reports
 - Resource usage findings linked to [status-im/status-app#21249](https://github.com/status-im/status-app/issues/21249).
+
+### E2E tests for keycard with mock
+
+* fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:e2e-kyecard-mock`
+* owner: nastya
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+- Once keycard mock is ready (new implementation), bring back to life existing e2e tests if possible or create new ones, to cover main keycard interactions with desktop app
+- Work with infra team (if needed) to build proper app (the one that will use keycard mock), including macOS
+
+#### Deliverables
+- PRs / Issues / Reports
+

@@ -12,7 +12,7 @@ description: Expand nim-libp2p testing coverage with focus on new protocols and 
 
 ## Description
 Continue expanding nim-libp2p testing coverage, documentation, and tooling with focus on feature work and stability improvements carried from Q2.
-Support libp2p work where QA help is expected, including Autotls, gossipsub queue behavior, opt-in dial ranking and backoffs, peerstore TTL handling, QUIC-related validation, dual-stack IPv4/IPv6 coverage, and maintenance work.
+Support libp2p work where QA help is expected, including Autotls, opt-in dial ranking and backoffs, QUIC-related validation, dual-stack IPv4/IPv6 coverage, and maintenance work.
 
 ## Task List
 
@@ -29,39 +29,6 @@ Implement unit and integration tests for the Autotls protocol.
 
 #### Deliverables
 - PRs with links to added tests
-
-### Gossipsub Queue Work Testing
-
-* fully qualified name: `ift-ts:qa:ift:2026q3-nim-libp2p-testing:gossipsub-queue`
-* owner: radek
-* status: not started
-* start-date: 2026/07/01
-* end-date: 2026/09/30
-
-#### Description
-Implement or extend tests for the gossipsub queue work.
-Cover explicit outbound queue priorities and limits, disconnect-on-full behavior for protocol-critical traffic, drop-on-full behavior for best-effort traffic, and validation of queue behavior under slow-peer and burst scenarios.
-
-#### Deliverables
-- PRs with tests covering queue priorities and limits
-- Tests for priority-message overflow and queue refresh behavior
-- Tests for best-effort dropping under queue pressure
-- Issues / reports for interop risks, instability, or uncovered edge cases
-
-### Peerstore TTL Testing
-
-* fully qualified name: `ift-ts:qa:ift:2026q3-nim-libp2p-testing:peerstore-ttl`
-* owner: radek
-* status: not started
-* start-date: 2026/07/01
-* end-date: 2026/09/30
-
-#### Description
-Implement tests for peerstore TTL handling, including expiration behavior, refresh semantics, and correctness of peer data retention and cleanup.
-
-#### Deliverables
-- PRs with peerstore TTL tests
-- Issues / reports for behavioral gaps or flaky scenarios
 
 ### Opt-in Dial Ranking and Backoffs Testing
 

@@ -35,6 +35,7 @@ Major future work items on nim-libp2p (also beyond this reporting period are cap
 * [[p2p/ift/2026q3-nimlibp2p-result-error-handling|nimlibp2p-result-error-handling]]
 * [[p2p/ift/2026q3-nimlibp2p-tls-sni-multiaddr|nimlibp2p-tls-sni-multiaddr]]
 * [[p2p/ift/2026q3-nimlibp2p-wasm-targets|nimlibp2p-wasm-targets]]
+* [[p2p/ift/2026q3-nimlibp2p-maintenance|nimlibp2p-maintenance]]
 
 ## 2026q2 `ift-ts:p2p:`
 

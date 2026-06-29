@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (82%)
+* status: in progress (90%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -181,6 +181,27 @@ Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via i
 - [vacp2p/nim-libp2p#2606](https://github.com/vacp2p/nim-libp2p/pull/2606) refactor(Identify): remove peerId argument form IdentifyPushHandler
 - [logos-co/logos-libp2p-module#50](https://github.com/logos-co/logos-libp2p-module/pull/50) fix: small improvements
 - [logos-co/logos-libp2p-module#48](https://github.com/logos-co/logos-libp2p-module/pull/48) feat(ci): ASan and TSan jobs for unit tests
+- [vacp2p/nim-libp2p#2643](https://github.com/vacp2p/nim-libp2p/pull/2643) chore(kad): refine routing table peer admission
+- [vacp2p/nim-lsquic#93](https://github.com/vacp2p/nim-lsquic/pull/93) fix: certificate verify callback should not raise
+- [vacp2p/nim-lsquic#92](https://github.com/vacp2p/nim-lsquic/pull/92) fix: require certverifier in client context
+- [vacp2p/nim-libp2p#2641](https://github.com/vacp2p/nim-libp2p/pull/2641) chore(peerstore): validate spr updates
+- [vacp2p/nim-libp2p#2640](https://github.com/vacp2p/nim-libp2p/pull/2640) fix(yamux): clean up flushed stream tracking
+- [vacp2p/nim-lsquic#90](https://github.com/vacp2p/nim-lsquic/pull/90) chore(ffi): generate lsquic bindings with nodeclguards
+- [vacp2p/nim-boringssl#9](https://github.com/vacp2p/nim-boringssl/pull/9) chore: unity build
+- [vacp2p/nim-boringssl#8](https://github.com/vacp2p/nim-boringssl/pull/8) chore: `nodeclguards`
+- [vacp2p/nim-libp2p#2630](https://github.com/vacp2p/nim-libp2p/pull/2630) fix: strip peeIDs fom dial addresses
+- [vacp2p/nim-libp2p#2633](https://github.com/vacp2p/nim-libp2p/pull/2633) chore(kad): add local record store limit
+- [vacp2p/nim-libp2p#2635](https://github.com/vacp2p/nim-libp2p/pull/2635) feat: v2.1.0
+- [vacp2p/nim-libp2p#2631](https://github.com/vacp2p/nim-libp2p/pull/2631) chore(autonatv2): normalize response address selection
+- [vacp2p/nim-libp2p#2632](https://github.com/vacp2p/nim-libp2p/pull/2632) chore: handle der encoding
+- [vacp2p/nim-libp2p#2626](https://github.com/vacp2p/nim-libp2p/pull/2626) fix(relay): restore v2 presence validation
+- [vacp2p/nim-libp2p#2636](https://github.com/vacp2p/nim-libp2p/pull/2636) chore: move `debugutils` file to utils
+- [vacp2p/nim-libp2p#2657](https://github.com/vacp2p/nim-libp2p/pull/2657) fix(pubsub): peerEventHandler to unsubscribe peer only on left event
+- [vacp2p/nim-libp2p#2652](https://github.com/vacp2p/nim-libp2p/pull/2652) chore(gossipsub): cap partial-message group state
+- [vacp2p/nim-libp2p#2651](https://github.com/vacp2p/nim-libp2p/pull/2651) chore(yamux): fix send window integer bounds
+- [vacp2p/nim-libp2p#2653](https://github.com/vacp2p/nim-libp2p/pull/2653) chore(ci): parallelize test execution
+- [vacp2p/nim-libp2p#2639](https://github.com/vacp2p/nim-libp2p/pull/2639) fix(ci): install latest daily deps into nimbledeps/
+- [vacp2p/nim-libp2p#2648](https://github.com/vacp2p/nim-libp2p/pull/2648) chore: enable XCannotRaiseY warning-as-error
 
 
 ### KAD-DHT optimizations
@@ -407,7 +428,7 @@ Maintain backward compatibility for public APIs.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:nim-protobuf-serialization`
 * owner: vlado
-* status: in progress (60%)
+* status: in progress (90%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -423,3 +444,7 @@ Replace minprotobuf usage within nim-libp2p with nim-protobuf-serialization. See
 - [vacp2p/nim-libp2p#2614](https://github.com/vacp2p/nim-libp2p/pull/2614) chore(routing-record): utilize protobuf_serialization
 - [vacp2p/nim-libp2p#2610](https://github.com/vacp2p/nim-libp2p/pull/2610) chore(Noise): utilize protobuf_serialization
 - [vacp2p/nim-libp2p#2609](https://github.com/vacp2p/nim-libp2p/pull/2609) chore(protobuf): decode procs to return result
+- [vacp2p/nim-libp2p#2650](https://github.com/vacp2p/nim-libp2p/pull/2650) chore(signed-envelope): utilize protobuf-serialization
+- [vacp2p/nim-libp2p#2649](https://github.com/vacp2p/nim-libp2p/pull/2649) chore(examples): utilize protobuf_serialization
+- [vacp2p/nim-libp2p#2637](https://github.com/vacp2p/nim-libp2p/pull/2637) feat(protobuf): add universal protobuf metrics
+- [vacp2p/nim-libp2p#2617](https://github.com/vacp2p/nim-libp2p/pull/2617) chore(kad): protobuf_serialization

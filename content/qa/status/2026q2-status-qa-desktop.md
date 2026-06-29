@@ -21,7 +21,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (89%)
+* status: in progress (90%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -61,6 +61,10 @@ Oversee testing strategy around releases.
 - [status-im/status-app#21000](https://github.com/status-im/status-app/pull/21000) chore(@e2e): fix failing tests
 - [status-im/status-app#20986](https://github.com/status-im/status-app/pull/20986) chore(@e2e): reduce timeout for loading assets and update assets list
 - [status-im/status-app#21136](https://github.com/status-im/status-app/pull/21136) tests: move community category tests from e2e to QML
+- [status-im/status-app#21290](https://github.com/status-im/status-app/pull/21290) chore(@e2e): fix test to change community visibility
+- [status-im/status-app#21280](https://github.com/status-im/status-app/pull/21280) chore(@wallet): fix route estimation for hoodie network
+- [status-im/status-app-benchmarks#5](https://github.com/status-im/status-app-benchmarks/pull/5) Update charts representation
+- [status-im/status-app#21253](https://github.com/status-im/status-app/pull/21253) chore(@e2e): adapt test to landed bugfix
 
 ### Release Testing
 

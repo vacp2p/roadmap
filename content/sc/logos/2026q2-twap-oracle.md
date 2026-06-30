@@ -32,6 +32,10 @@ Track TWAP oracle research and implementation work for LEZ programs, including
 oracle price design, PublishPrice, RecordTick, and current-tick refactors.
 
 #### Deliverables
+- [logos-blockchain/lez-programs#195](https://github.com/logos-blockchain/lez-programs/pull/195) test(twap): cover CreateOraclePriceAccount and PublishPrice end-to-end
+- [logos-blockchain/lez-programs#196](https://github.com/logos-blockchain/lez-programs/pull/196) feat(amm): create TWAP oracle price account on behalf of the pool
+- [logos-blockchain/lez-programs#193](https://github.com/logos-blockchain/lez-programs/pull/193) test(twap): cover RecordTick end-to-end and add zkVM cycle benchmark
+- [logos-blockchain/lez-programs#137](https://github.com/logos-blockchain/lez-programs/pull/137) feat(twap-oracle): implement PublishPrice with real tick-to-price conversion
 - [TWAP Oracle account design research](https://notes.status.im/4PlwprLaQEWW4Q_SDT36zw)
 - [logos-blockchain/lez-programs#138](https://github.com/logos-blockchain/lez-programs/issues/138) Alternative cascading solution for sampling price ticks over time
 - [logos-blockchain/lez-programs#143](https://github.com/logos-blockchain/lez-programs/pull/143) fix(twap_oracle): validate clock account

@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:maintenance`
 * owner: rramos
-* status: in progress (90%)
+* status: in progress (98%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -36,6 +36,22 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors, and bug fixes.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2694](https://github.com/vacp2p/nim-libp2p/pull/2694) chore: fix job names in daily jobs
+- [vacp2p/nim-libp2p#2670](https://github.com/vacp2p/nim-libp2p/pull/2670) fix(connmanager): emit Joined before trimming new peers
+- [vacp2p/nim-libp2p#2687](https://github.com/vacp2p/nim-libp2p/pull/2687) fix(tests): remove chronicles import hacks
+- [vacp2p/nim-libp2p#2693](https://github.com/vacp2p/nim-libp2p/pull/2693) chore(ci): add mm to the job names
+- [vacp2p/nim-libp2p#2695](https://github.com/vacp2p/nim-libp2p/pull/2695) test: linux i386 asan
+- [vacp2p/nim-libp2p#2692](https://github.com/vacp2p/nim-libp2p/pull/2692) chore: bump lsquic to handle cancel of pending reads/writes
+- [vacp2p/nim-libp2p#2689](https://github.com/vacp2p/nim-libp2p/pull/2689) chore: handle pending reads and writes in Quic
+- [vacp2p/nim-libp2p#2676](https://github.com/vacp2p/nim-libp2p/pull/2676) fix(gossipsub): keep extension subscriptions within topic cap
+- [vacp2p/nim-lsquic#95](https://github.com/vacp2p/nim-lsquic/pull/95) fix: ensure lsquic engine processes shutdown regardless of being at EoF or not
+- [vacp2p/nim-libp2p#2675](https://github.com/vacp2p/nim-libp2p/pull/2675) fix(quic): guard against concurrent session close
+- [vacp2p/nim-lsquic#94](https://github.com/vacp2p/nim-lsquic/pull/94) fix: clear pending stream I/O tasks on cancellation
+- [vacp2p/nim-libp2p#2647](https://github.com/vacp2p/nim-libp2p/pull/2647) chore(pubsub): adjust incoming message validation order
+- [vacp2p/nim-libp2p#2686](https://github.com/vacp2p/nim-libp2p/pull/2686) fix(quic): QuicMuxer.close improvements
+- [vacp2p/nim-libp2p#2678](https://github.com/vacp2p/nim-libp2p/pull/2678) fix(quic): `cancelStreamHandlers` nil pointer dereference
+- [vacp2p/nim-libp2p#2667](https://github.com/vacp2p/nim-libp2p/pull/2667) fix(pubsub): cap number of topics a peer can subscribe to
+- [vacp2p/nim-libp2p#2605](https://github.com/vacp2p/nim-libp2p/pull/2605) fix: track and cancel asyncSpawn-ed futures on teardown
 - [vacp2p/nim-libp2p#2307](https://github.com/vacp2p/nim-libp2p/pull/2307) chore(copilot): add more instructions
 - [vacp2p/nim-libp2p#2331](https://github.com/vacp2p/nim-libp2p/pull/2331) fix(floodsub): increase timeout for large message transfer in FloodSub message size validation 2
 - [vacp2p/nim-lsquic#83](https://github.com/vacp2p/nim-lsquic/pull/83) fix: shutdown and stream lifecycle handling
@@ -428,7 +444,7 @@ Maintain backward compatibility for public APIs.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-maintenance:nim-protobuf-serialization`
 * owner: vlado
-* status: in progress (90%)
+* status: done
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -436,6 +452,13 @@ Maintain backward compatibility for public APIs.
 Replace minprotobuf usage within nim-libp2p with nim-protobuf-serialization. See [nim-libp2p#841](https://github.com/vacp2p/nim-libp2p/issues/841)
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2690](https://github.com/vacp2p/nim-libp2p/pull/2690) chore(protobuf): add metric for count of messages received/set
+- [vacp2p/nim-libp2p#2682](https://github.com/vacp2p/nim-libp2p/pull/2682) chore(protobuf): cosmetics
+- [vacp2p/nim-libp2p#2677](https://github.com/vacp2p/nim-libp2p/pull/2677) chore(protobuf): main type encode/decode metrics
+- [vacp2p/nim-libp2p#2672](https://github.com/vacp2p/nim-libp2p/pull/2672) chore: removing usage of minprotobuf
+- [vacp2p/nim-libp2p#2665](https://github.com/vacp2p/nim-libp2p/pull/2665) chore(ExtendedPeerRecord): protobuf_serialization
+- [vacp2p/nim-libp2p#2666](https://github.com/vacp2p/nim-libp2p/pull/2666) chore(crypto): protobuf_serialization
+- [vacp2p/nim-libp2p#2638](https://github.com/vacp2p/nim-libp2p/pull/2638) chore(pubsub)!: protobuf_serialization
 - [vacp2p/nim-libp2p#2508](https://github.com/vacp2p/nim-libp2p/pull/2508) chore: use `protobuf_serialization` 0.4.0
 - [vacp2p/nim-libp2p#2601](https://github.com/vacp2p/nim-libp2p/pull/2601) Use `protobuf_serialization` in Identify
 - [vacp2p/nim-libp2p#2612](https://github.com/vacp2p/nim-libp2p/pull/2612) chore(autonatv2): utilize protobuf_serialization

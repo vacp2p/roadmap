@@ -58,6 +58,7 @@ and ensure they don't happen again.
 - Reports:
     - [Nim-libp2p v2.0.0 regression testing report](https://app.notion.com/p/Nim-libp2p-v2-0-0-regression-testing-June-2026-WIP-3758f96fb65c806ba584fc93f72c3762)
 
+    - Updated the v2.1.0 results report with the new numbers and plots: [Nim-libp2p v2.1.0 Regression Testing with KAD-DHT](https://app.notion.com/p/3828f96fb65c8058a5dcd7258b2032d4).
 
 ### nim-lsquic benchmark
 

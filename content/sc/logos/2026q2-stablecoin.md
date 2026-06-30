@@ -33,6 +33,7 @@ repository, including architecture diagrams, account overviews, real debt and
 minted-value handling, and redemption-rate feedback-controller follow-up.
 
 #### Deliverables
+- [logos-blockchain/lez-programs#192](https://github.com/logos-blockchain/lez-programs/pull/192) feat(stablecoin): add fixed-point math utilities
 - [stablecoin/docs/README.md](https://github.com/logos-blockchain/lez-programs/blob/c1651588839234fa4483cd77b175f77d49af4f64/stablecoin/docs/README.md) Stablecoin architecture diagrams and protocol/account overview
 - [logos-blockchain/lez-programs#124](https://github.com/logos-blockchain/lez-programs/issues/124) Stablecoin: use real debt values
 - [logos-blockchain/lez-programs#132](https://github.com/logos-blockchain/lez-programs/issues/132) Stablecoin: use real minted values

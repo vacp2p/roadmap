@@ -31,6 +31,11 @@ Track recurring program hardening, defensive checks, dependency upkeep,
 and follow-up issues across the LEZ token, ATA, and AMM programs.
 
 #### Deliverables
+- [logos-blockchain/lez-programs#194](https://github.com/logos-blockchain/lez-programs/pull/194) docs(stablecoin): move design document into docs folder
+- [logos-blockchain/lez-programs#203](https://github.com/logos-blockchain/lez-programs/pull/203) chore: add integration test task to make file
+- [logos-blockchain/lez-programs#200](https://github.com/logos-blockchain/lez-programs/pull/200) chore: pin ruint dep
+- [logos-blockchain/logos-execution-zone#571](https://github.com/logos-blockchain/logos-execution-zone/pull/571) fix(nix): build risc0 Metal kernels on macOS by fixing xcrun env
+- Created run book and user journey to document deployment on testnet
 - [logos-blockchain/lez-programs#70](https://github.com/logos-blockchain/lez-programs/issues/70) Lock token-program ownership and chained-call dispatch across AMM, ATA, and token
 - [logos-blockchain/lez-programs#80](https://github.com/logos-blockchain/lez-programs/issues/80) Reject foreign-owned token definitions in InitializeAccount
 - [logos-blockchain/lez-programs#73](https://github.com/logos-blockchain/lez-programs/pull/73) chore: fix RISC-V guest build on macOS 26

@@ -147,6 +147,9 @@ Maintain LogosDelivery bindings test coverage, including port tests, failure ana
 and coordination of findings with developers.
 
 #### Deliverables
+- [logos-messaging/logos-delivery#3983](https://github.com/logos-messaging/logos-delivery/pull/3983) PR 3983
+- [logos-messaging/logos-delivery-interop-tests#194](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/194) PR 194
+- [logos-messaging/logos-delivery#4003](https://github.com/logos-messaging/logos-delivery/issues/4003) opened for the double ports shift problem surfaced while fixing S26
 - [logos-messaging/logos-delivery-interop-tests#186](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/186) Add port tests and analyze current failures
 - Shared library build fixed.
 

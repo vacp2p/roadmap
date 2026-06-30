@@ -41,6 +41,7 @@ Execute upkeep across delivered web properties for Q2: dependency and security b
 
 #### Deliverables
 
+- [Opening logos-web repo to public and setting protection rules](https://discord.com/channels/864066763682218004/1505856448058626088/1518936704973537351)
 - [acid-info/logos-press-engine#269](https://github.com/acid-info/logos-press-engine/pull/269) fix(home): load all highlighted posts so "Show More" doesn't skip content
 - [acid-info/admin-acid.logos.co#31](https://github.com/acid-info/admin-acid.logos.co/issues/31) Use BI's GitHub data instead of ours
 - [acid-info/lpe-cms#5](https://github.com/acid-info/lpe-cms/pull/5) Add og_image field and auto-generate JPEG OG images on post publish
@@ -87,3 +88,4 @@ Execute upkeep across delivered web properties for Q2: dependency and security b
 - [status-im/status-web#1226](https://github.com/status-im/status-web/pull/1226) fix(community-dapp): fix vercel build for monorepo deployment
 - [status-im/status-web#1227](https://github.com/status-im/status-web/pull/1227) test(e2e): run the suite against a local Hub
 - [status-im/status-web#1228](https://github.com/status-im/status-web/pull/1228) test(e2e): add Hub withdrawal test suite
+- [status-im/status-web#1229](https://github.com/status-im/status-web/pull/1229) chore(status.app): remove beta warning admonition on help pages

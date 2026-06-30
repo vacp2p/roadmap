@@ -32,6 +32,11 @@ All the relevant information can be found in [this GitHub issue](https://github.
 This remains the short-term roadmap for replacing pieces of the Nimbus build system bit by bit while improving Nimble overall.
 
 #### Deliverables
+- [nim-lang/nimble#1747](https://github.com/nim-lang/nimble/pull/1747) Fixes #1037
+- [nim-lang/nimble#1745](https://github.com/nim-lang/nimble/pull/1745) Discards non version tags from releases
+- [nim-lang/nimble#1744](https://github.com/nim-lang/nimble/pull/1744) refactor: replace hasErrors/nestedRequires bools with set[NimbleFileIssue]; fix computed versions
+- [nim-lang/nimble#1743](https://github.com/nim-lang/nimble/pull/1743) fix: cache version discovery downloads per resolution pass instead of…
+- [nim-lang/nimble#1742](https://github.com/nim-lang/nimble/pull/1742) Executing 'nimble develop pkg' in an non project dir, prepares the env to develop `pkg`
 - [nim-lang/nimble#1680](https://github.com/nim-lang/nimble/pull/1680) Make async discovery the default
 - [nim-lang/nimble#1679](https://github.com/nim-lang/nimble/pull/1679) Remove old sync version discovery path, add `--discovery:sync|async` flag
 - [nim-lang/nimble#1676](https://github.com/nim-lang/nimble/pull/1676) Enable async parallel package version discovery

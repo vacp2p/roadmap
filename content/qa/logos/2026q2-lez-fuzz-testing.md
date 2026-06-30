@@ -20,7 +20,7 @@ The work includes refining the fuzz targets with the LEZ team, implementing the 
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-lez-fuzz-testing:framework`
 * owner: Roman
-* status: in progress (95%)
+* status: in progress (97%)
 * start-date: 2026/04/13
 * end-date: 2026/05/01
 
@@ -35,6 +35,9 @@ The work includes refining the fuzz targets with the LEZ team, implementing the 
 - Evaluate whether the fuzzing setup can run in GitHub Actions runners with useful CI coverage, and document any constraints or need for stronger machines.
 
 #### Deliverables
+- [logos-blockchain/lez-fuzzing#7](https://github.com/logos-blockchain/lez-fuzzing/pull/7) feat: Automatic corpus updates
+- [logos-blockchain/lez-fuzzing#8](https://github.com/logos-blockchain/lez-fuzzing/pull/8) chore: automated weekly corpus update
+- [logos-blockchain/lez-fuzzing#10](https://github.com/logos-blockchain/lez-fuzzing/pull/10) + , ,
 - Documented LEZ fuzz target definition and scope.
 - PRs with initial fuzz harnesses and target implementations.
 - Report on CI feasibility and recommended execution model.

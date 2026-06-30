@@ -85,7 +85,7 @@ This task depends on `ift-ts:p2p:ift:2026q2-anoncomms-consulting:capability-disc
 
 * fully qualified name: `ift-ts:p2p:ift:2026q2-nimlibp2p-cbindings:nim-ffi`  
 * owner: gabe
-* status: in progress (85%)
+* status: in progress (98%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -96,6 +96,15 @@ executed in separate worker threads. Once that work is available, refactor the
 existing bindings to take advantage of it.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2668](https://github.com/vacp2p/nim-libp2p/pull/2668) feat(cbind): user-provided XPRs
+- [vacp2p/nim-libp2p#2625](https://github.com/vacp2p/nim-libp2p/pull/2625) feat(cbind): expose metrics via libp2p_collect_metrics
+- [logos-messaging/nim-ffi#100](https://github.com/logos-messaging/nim-ffi/pull/100) chore: bump Nim to 2.2.6
+- [logos-messaging/nim-ffi#99](https://github.com/logos-messaging/nim-ffi/pull/99) feat(ffi): scalar type mappings + seq[byte] byte-string codec
+- [logos-messaging/nim-ffi#97](https://github.com/logos-messaging/nim-ffi/pull/97) test(bench): submit-throughput scaling gate for sendRequestToFFIThread (issue #90)
+- [logos-messaging/nim-ffi#88](https://github.com/logos-messaging/nim-ffi/pull/88) feat(ffi): cwire codec composite fields
+- [logos-messaging/nim-ffi#87](https://github.com/logos-messaging/nim-ffi/pull/87) feat(ffi): cwire codec core (flat scalars + strings)
+- [logos-messaging/nim-ffi#86](https://github.com/logos-messaging/nim-ffi/pull/86) test(bench): cbor vs c (cwire) codec microbenchmark
+- [logos-messaging/nim-ffi#85](https://github.com/logos-messaging/nim-ffi/pull/85) feat(ffi): per-interaction ABI-format annotations + c codec (ffiRaw)
 - Existing bindings refactored to use the new FFI approach
 - Callback execution aligned with the worker-thread model
 - [logos-messaging/nim-ffi#20](https://github.com/logos-messaging/nim-ffi/pull/20) chore: run tests with refc

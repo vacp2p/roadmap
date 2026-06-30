@@ -81,6 +81,10 @@ Should be made general when possible.
   - [vacp2p/10ksim#290](https://github.com/vacp2p/10ksim/pull/290) Split kube_utils into focused modules
   - [vacp2p/10ksim#295](https://github.com/vacp2p/10ksim/pull/295) Add serialize/deserialize BaseExperiment
   - [vacp2p/10ksim#299](https://github.com/vacp2p/10ksim/pull/299) Add tests for src/deployments/core/builders.py
+  - [vacp2p/10ksim#303](https://github.com/vacp2p/10ksim/pull/303) Update str with Paths
+  - [vacp2p/10ksim#302](https://github.com/vacp2p/10ksim/pull/302) Remove old helm_deployment files
+  - [vacp2p/10ksim#305](https://github.com/vacp2p/10ksim/pull/305) Add kaniko cluster-build tooling for native amd64 image builds
+  - [vacp2p/dst-libp2p-test-node#39](https://github.com/vacp2p/dst-libp2p-test-node/pull/39) Speed up regression node build: drop unused ggplotnim, merge apt layers
 - Reports:
 - Other:
   - Fixed `zerotesting-store` so it runs on k8s
@@ -90,7 +94,7 @@ Should be made general when possible.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:dashboard`
 * owner: Mamoutou
-* status: in progress (50%)
+* status: in progress (60%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 

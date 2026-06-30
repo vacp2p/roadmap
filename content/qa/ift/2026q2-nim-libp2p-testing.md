@@ -50,15 +50,16 @@ Implement unit and integration tests for the Autotls protocol.
 
 * fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:gossipsub-queue`
 * owner: radek
-* status: in progress (95%)
+* status: done
 * start-date: 2026/04/06
-* end-date: 2026/04/24
+* end-date: 2026/06/30
 
 #### Description
 Implement or extend tests for the Q2 gossipsub queue work.
 Cover explicit outbound queue priorities and limits, disconnect-on-full behavior for protocol-critical traffic, drop-on-full behavior for best-effort traffic, and validation of queue behavior under slow-peer and burst scenarios.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2656](https://github.com/vacp2p/nim-libp2p/pull/2656) test(gossipsub): priority queues 3
 - PRs with tests covering queue priorities and limits
 - Tests for priority-message overflow and queue refresh behavior
 - Tests for best-effort dropping under queue pressure
@@ -89,15 +90,19 @@ Cover hi/lo watermarks, score-driven pruning, decaying and static tags, protecte
 ### Peerstore TTL Testing
 
 * fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:peerstore-ttl`
-* owner: radek
-* status: not started
+* owner: Radek
+* status: done
 * start-date: 2026/05/18
-* end-date: 2026/06/05
+* end-date: 2026/06/30
 
 #### Description
 Implement tests for peerstore TTL handling, including expiration behavior, refresh semantics, and correctness of peer data retention and cleanup.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2662](https://github.com/vacp2p/nim-libp2p/pull/2662) test(peerstore): Address TTL 1
+- [vacp2p/nim-libp2p#2663](https://github.com/vacp2p/nim-libp2p/pull/2663) test(peerstore): address TTL 2
+- [vacp2p/nim-libp2p#2664](https://github.com/vacp2p/nim-libp2p/pull/2664) test(peerstore): address TTL 3
+- [vacp2p/nim-libp2p#2684](https://github.com/vacp2p/nim-libp2p/issues/2684) peerstore: should an address expire while we're still connected to the peer?
 - PRs with peerstore TTL tests
 - Issues / reports for behavioral gaps or flaky scenarios
 
@@ -175,6 +180,7 @@ Cover small regression fixes, flaky-test follow-ups, test updates needed by upst
 This includes quick-turn support for transport-start inconsistencies, protocol-level regressions, and improvements to existing unit or integration coverage where new bugs are found.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2658](https://github.com/vacp2p/nim-libp2p/pull/2658) chore: remove outdated performance/reliability tests
 - [vacp2p/nim-libp2p#2229](https://github.com/vacp2p/nim-libp2p/pull/2229) test(transport): inconsistent start behaviour
 - [vacp2p/nim-libp2p#2230](https://github.com/vacp2p/nim-libp2p/issues/2230) transports: inconsistent start behaviour
 - Validation notes for fixes landed outside the main feature-track tasks

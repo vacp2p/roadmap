@@ -64,8 +64,8 @@ Focus on targeted tests that can catch transport-level issues earlier and comple
 ### Dual-Stack IPv4 and IPv6 Testing
 
 * fully qualified name: `ift-ts:qa:ift:2026q3-nim-libp2p-testing:dual-stack-ipv4-ipv6`
-* owner: radek
-* status: not started
+* owner: Radek
+* status: in progress (10%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 

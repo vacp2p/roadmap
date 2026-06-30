@@ -191,6 +191,8 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Produce documentation for the core libs.
 
 #### Deliverables
+- [status-im/nim-chronos#667](https://github.com/status-im/nim-chronos/pull/667) Add tutorial examples to `nimble examples`
+- [status-im/nim-chronos#671](https://github.com/status-im/nim-chronos/pull/671) Docs: Fix API ref links
 - [nim-lang/nimble#1657](https://github.com/nim-lang/nimble/pull/1657) Fix nimble installation instructions
 - [status-im/nim-unittest2#70](https://github.com/status-im/nim-unittest2/pull/70) Add docs in MdBook format
 - [nim-lang/nimble#1701](https://github.com/nim-lang/nimble/pull/1701) Guide: Install Nim: Add instruction about installing devel Nim
@@ -211,6 +213,8 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Ongoing maintenance and fixes across Nim core libraries.
 
 #### Deliverables
+- [nim-lang/nimble#1749](https://github.com/nim-lang/nimble/pull/1749) Fix --requires flag for nim package.
+- [nim-lang/nimble#1748](https://github.com/nim-lang/nimble/issues/1748) Regression: Test "nimble builds with all supported Nim versions" from tnimbinaries fails in `master`
 - [status-im/nim-json-rpc#264](https://github.com/status-im/nim-json-rpc/pull/264) Make async pragma required in rpc context API
 - [status-im/nim-json-rpc#271](https://github.com/status-im/nim-json-rpc/pull/271) Fix custom socket framing to support concurrency
 - [status-im/nim-json-rpc#270](https://github.com/status-im/nim-json-rpc/pull/270) Fix #261 regression; support unordered responses again

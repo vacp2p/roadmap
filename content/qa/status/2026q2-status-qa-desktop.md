@@ -30,6 +30,10 @@ Oversee testing strategy around releases.
 - Update tests for changes in Status Desktop, address regressions, investigate failures, and implement minor framework improvements needed to keep the suite reliable.
 
 #### Deliverables
+- [status-im/status-app#21342](https://github.com/status-im/status-app/pull/21342) #21342 improve change password e2e test
+- [status-im/status-app#21318](https://github.com/status-im/status-app/pull/21318) tests(@qml): add tests for sorting on assets and collectibles tabs in main wallet screen
+- [status-im/status-app#21328](https://github.com/status-im/status-app/pull/21328) chore(@e2e): bump allure version
+- [status-im/status-app#21325](https://github.com/status-im/status-app/pull/21325) chore(@e2e): fix test to open keycard page
 - [status-im/status-app#20527](https://github.com/status-im/status-app/pull/20527) chore(@e2e): community tests fixes
 - [status-im/status-app#20545](https://github.com/status-im/status-app/issues/20545) Test Squish 9.2.2 for Qt 6.11 release on Windows and Linux
 - [status-im/status-app#20526](https://github.com/status-im/status-app/issues/20526) Address nightly failures 20-04-2026
@@ -204,6 +208,8 @@ Oversee testing strategy around releases.
 - Improve coverage for the main performance-sensitive user flows and make the measurements useful for regression tracking.
 
 #### Deliverables
+- [status-im/status-app#21346](https://github.com/status-im/status-app/pull/21346) tests(@e2e): split community benchmark tests to 2
+- [status-im/status-app-benchmarks#6](https://github.com/status-im/status-app-benchmarks/pull/6) Split community benchmark charts and label every data point on desktop graphs
 - PRs / Issues
 
 ### Flatpak linux build support in tests

@@ -73,8 +73,8 @@ Implement translations support with design improvements, public contribution flo
 ### Copy Changes, Section Reduction
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-website:copy-changes-section-reduction`
-* owner: unassigned
-* status: not started
+* owner: Jinho
+* status: in progress (10%)
 * start-date: 2026/06/15
 * end-date: 2026/06/26
 
@@ -84,6 +84,7 @@ Update website copy and reduce sections to improve clarity and user experience.
 
 #### Deliverables
 
+- [status-im/status-web#1233](https://github.com/status-im/status-web/pull/1233) chore(status.app): comment out org chart section on team page
 - Updated copy content
 - Section reduction implementation
 - Content review documentation
@@ -102,6 +103,9 @@ Set up self-hosting infrastructure and deployment processes for the Status websi
 
 #### Deliverables
 
+- [status-im/status-web#1231](https://github.com/status-im/status-web/pull/1231) Dockerizing the CMS environment
+- [Status website structure and assets update](https://discord.com/channels/864066763682218004/1504120743816855725/1519933683543314603)
+- [get.status.app permissions and copy changes deployment](https://discord.com/channels/864066763682218004/1504120743816855725/1519999128023859311)
 - Self-hosting configuration
 - Deployment documentation
 - Infrastructure setup

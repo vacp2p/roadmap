@@ -187,6 +187,8 @@ Support mobile release testing efforts:
 - Regression test execution
 
 #### Deliverables
+- [Document](https://north661.gitbook.io/docs/performance/performance/mobile)
+- Working through feedback and added new surfaces on performance dashboard
 - [status-im/status-app#20513](https://github.com/status-im/status-app/issues/20513) Addition of new chains
 - Manual 2.38 checks completed for 3 of 5 critical items, with notifications partially verified and one item blocked
 - [status-im/status-app#21086](https://github.com/status-im/status-app/issues/21086) Mobile performance testing

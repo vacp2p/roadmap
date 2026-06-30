@@ -57,6 +57,7 @@ and document behaviors and findings.
   - [vacp2p/10ksim#210](https://github.com/vacp2p/10ksim/pull/210) Devnet deployment files
   - [vacp2p/10ksim#300](https://github.com/vacp2p/10ksim/pull/300) Add yamls for devnet rc 11
   - [vacp2p/vaclab-2#37](https://github.com/vacp2p/vaclab-2/pull/37) Add tip poll triggered panel
+  - [vacp2p/10ksim#311](https://github.com/vacp2p/10ksim/pull/311) Add deployment for rc 13
 - Reports:
 
 

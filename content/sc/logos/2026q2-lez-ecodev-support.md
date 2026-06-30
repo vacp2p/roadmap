@@ -33,6 +33,12 @@ including stablecoin app/program scaffolding, SPEL macro support, IDL-generation
 fixes, and coordination on program initialization through configuration accounts.
 
 #### Deliverables
+- [logos-blockchain/lez-programs#201](https://github.com/logos-blockchain/lez-programs/issues/201)
+- [logos-co/spel#234](https://github.com/logos-co/spel/issues/234)
+- [logos-co/spel#235](https://github.com/logos-co/spel/issues/235)
+- [logos-co/spel#236](https://github.com/logos-co/spel/issues/236)
+- [logos-co/spel#237](https://github.com/logos-co/spel/issues/237)
+- [logos-co/spel#239](https://github.com/logos-co/spel/issues/239)
 - [logos-co/spel#169](https://github.com/logos-co/spel/pull/169) Collect `#[account_type]` types from path-dependency crates during IDL generation
 - Stablecoin program and app issue triage
 - [logos-blockchain/lez-programs#124](https://github.com/logos-blockchain/lez-programs/issues/124) Stablecoin: use real debt values

@@ -149,8 +149,8 @@ Once LEZ provides block context, implement and test the deadline check in the sw
 ### Deploy programs to testnet 0.2
 
 * fully qualified name: `ift-ts:sc:logos:2026q2-amm-program-completion:deploy-testnet-02`
-* owner: TBD
-* status: not started
+* owner: Ricardo
+* status: in progress (25%)
 * start-date: 2026/06/01
 * end-date: 2026/06/30
 
@@ -161,6 +161,9 @@ Verify that all instructions (NewDefinition, AddLiquidity, RemoveLiquidity, Swap
 
 #### Deliverables
 
+- [logos-blockchain/lez-programs#205](https://github.com/logos-blockchain/lez-programs/pull/205) Remove metadata/symbol/debug sections from release binaries
+- [logos-blockchain/lez-programs#207](https://github.com/logos-blockchain/lez-programs/issues/207)
+- [logos-blockchain/lez-programs#204](https://github.com/logos-blockchain/lez-programs/issues/204)
 - [ ] AMM, ATA, and token programs deployed to testnet 0.2
 - [ ] Verification that all AMM instructions work end-to-end on testnet 0.2
 - [ ] Deployment documentation (program IDs, testnet configuration)

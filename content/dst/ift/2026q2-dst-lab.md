@@ -45,4 +45,5 @@ Report findings with analysis and benchmarks of the results.
   - [vacp2p/vaclab-2#32](https://github.com/vacp2p/vaclab-2/pull/32) Add pod name, ip, uid and namespace to otlp Metrics and Log
   - [vacp2p/vaclab-2#34](https://github.com/vacp2p/vaclab-2/pull/34) Keep Waku Metrics and Increase Grafana DS interval
   - [vacp2p/vaclab-2#35](https://github.com/vacp2p/vaclab-2/pull/35) Add Gossipsub Priority Queues Related Metrics
+  - [vacp2p/vaclab-2#38](https://github.com/vacp2p/vaclab-2/pull/38) Create Public OTLP Collector and Victoria Stack for external pushes
 - Reports:

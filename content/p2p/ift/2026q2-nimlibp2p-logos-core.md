@@ -54,6 +54,9 @@ set of functions in the Logos Core module so capability discovery can be used
 through Logos Core.
 
 #### Deliverables
+- [logos-co/logos-libp2p-module#63](https://github.com/logos-co/logos-libp2p-module/pull/63) feat(servicedisco): add discoLookup data to expected output
+- [logos-co/logos-libp2p-module#60](https://github.com/logos-co/logos-libp2p-module/pull/60) fix(docs): document service_discovery example in examples README
+- [logos-co/logos-libp2p-module#59](https://github.com/logos-co/logos-libp2p-module/pull/59) feat: multi-node bootstrap service discovery example
 - [logos-co/logos-libp2p-module#40](https://github.com/logos-co/logos-libp2p-module/pull/40) - feat: add service discovery
 - [vacp2p/nim-libp2p#2342](https://github.com/vacp2p/nim-libp2p/pull/2342) chore(service-disco): add ipSimCoefficient
 - [vacp2p/nim-libp2p#2338](https://github.com/vacp2p/nim-libp2p/pull/2338) chore(cbind): add service disco headers
@@ -73,6 +76,11 @@ Once a stream is received, these functions should be used to notify other module
 data might be available on a stream to write/read.
 
 #### Deliverables
+- [logos-co/logos-libp2p-module#68](https://github.com/logos-co/logos-libp2p-module/pull/68) feat: decode XPR
+- [logos-co/logos-libp2p-module#62](https://github.com/logos-co/logos-libp2p-module/pull/62) feat: user-provided XPRs
+- [logos-co/logos-libp2p-module#65](https://github.com/logos-co/logos-libp2p-module/pull/65) chore: dedup the sync-over-async bridge, split plugin.h, surface init failure
+- [logos-co/logos-libp2p-module#66](https://github.com/logos-co/logos-libp2p-module/pull/66) fix(tsan): guard emitEvent against the worker-thread data race
+- [logos-co/logos-libp2p-module#67](https://github.com/logos-co/logos-libp2p-module/pull/67) test: split tests into fast (unit) and integration, cover timeout/queue gaps
 - New functions in logos core that would allow registering custom protocols
 - Tests or examples covering custom protocol handling
 - [logos-co/logos-libp2p-module#45](https://github.com/logos-co/logos-libp2p-module/pull/45) feat: custom protocol registration

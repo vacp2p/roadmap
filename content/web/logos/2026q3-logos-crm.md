@@ -184,7 +184,7 @@ Reminder flow: a case-coordinator sets a follow-up date on a Notion case → an 
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:emails-and-automations-rest`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/08/07
 
@@ -196,6 +196,11 @@ Continue maintaining and adjusting the logos.co intake forms as requirements evo
 
 #### Deliverables
 
+- [status-im/infra-sites#142](https://github.com/status-im/infra-sites/issues/142) chore(logos.co): update env variables & CSP
+- [logos-co/logos-web#61](https://github.com/logos-co/logos-web/pull/61) feat: limit funnel form fields to 2000 chars
+- [logos-co/logos-web#60](https://github.com/logos-co/logos-web/pull/60) chore(civi-crm): add Notion evaluation template
+- [logos-co/logos-web#63](https://github.com/logos-co/logos-web/pull/63) feat(civi-crm): split funnel websites into discrete Notion columns
+- [logos-co/logos-web#64](https://github.com/logos-co/logos-web/pull/64) fix(civi-crm): pin Notion writes to one data source
 - All automations wired for Movement funnel end-to-end
 - Email templates configured and tested with real test contacts
 - Intake forms kept in sync with Notion schema changes

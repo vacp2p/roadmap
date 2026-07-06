@@ -40,7 +40,7 @@ Platform Constraints Identified in Q1:
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-mobile:test-messaging-group`
 * owner: magnus
-* status: in progress (75%)
+* status: done
 * start-date: 2026/04/01
 * end-date: 2026/05/15
 
@@ -60,7 +60,7 @@ The tests were built in Q1 but reverted because of flakiness; the multi-device i
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-mobile:test-messaging-1x1`
 * owner: magnus
-* status: in progress (90%)
+* status: done
 * start-date: 2026/04/01
 * end-date: 2026/04/30
 
@@ -151,7 +151,7 @@ Extend the iOS POC beyond the single onboarding smoke test, informed by the Q1 f
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-mobile:maintenance`
 * owner: magnus
-* status: in progress (75%)
+* status: done
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -177,7 +177,7 @@ Keep the framework healthy while the app changes.
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-mobile:release-testing`
 * owner: magnus
-* status: in progress (75%)
+* status: done
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 

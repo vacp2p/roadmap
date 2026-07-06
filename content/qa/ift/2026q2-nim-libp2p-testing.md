@@ -170,7 +170,7 @@ If time permits, improve the existing partial messages interop test with additio
 
 * fully qualified name: `ift-ts:qa:ift:2026q2-nim-libp2p-testing:maintenance`
 * owner: radek
-* status: in progress (25%)
+* status: done
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 

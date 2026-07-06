@@ -45,7 +45,7 @@ Ongoing maintenance of messaging testing frameworks.
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:python-bindings`
 * owner: aya
-* status: in progress (25%)
+* status: done
 * start-date: 2026/04/06
 * end-date: 2026/04/24
 
@@ -59,7 +59,7 @@ Continue the Python bindings work for the messaging test framework, including wr
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:e2e-testing-logosdelivery-preparation`
 * owner: aya
-* status: in progress (75%)
+* status: done
 * start-date: 2026/04/02
 * end-date: 2026/04/08
 
@@ -80,7 +80,7 @@ Prepare the setup needed to execute the upcoming Send API scenarios and identify
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:logosdelivery-main-tests-part1`
 * owner: egor
-* status: in progress (75%)
+* status: done
 * start-date: 2026/04/09
 * end-date: 2026/04/25
 
@@ -138,7 +138,7 @@ Cover the remaining E2E test scenarios for the Send API beyond the 19 scenarios 
 
 * fully qualified name: `ift-ts:qa:logos:2026q2-messaging-testing:logosdelivery-bindings-maintenance`
 * owner: aya
-* status: in progress (25%)
+* status: done
 * start-date: 2026/05/19
 * end-date: 2026/06/30
 

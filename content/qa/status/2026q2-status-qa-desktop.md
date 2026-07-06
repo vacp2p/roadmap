@@ -21,7 +21,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (90%)
+* status: done
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -74,7 +74,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-desktop:release-testing`
 * owner: nastya
-* status: in progress (40%)
+* status: done
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -169,7 +169,7 @@ Oversee testing strategy around releases.
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-qa-desktop:activity-center-and-notifications`
 * owner: nastya
-* status: in progress (10%)
+* status: done
 * start-date: 2026/06/01
 * end-date: 2026/06/19
 

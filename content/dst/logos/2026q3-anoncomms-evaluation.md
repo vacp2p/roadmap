@@ -72,3 +72,20 @@ TBD
 #### Deliverables
 - Code:
 - Reports:
+
+
+### Service discovery scenarios
+> *Note*: This needs more input from project
+
+* fully qualified name: `ift-ts:dst:logos:2026q3-anoncomms-evaluation:service-discovery-scenarios`
+* owner: TBD
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+Perform scenarios described by annoncoms team and do measurements of those using service discovery.
+
+#### Deliverables
+- Code:
+- Reports:

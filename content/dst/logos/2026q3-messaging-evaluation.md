@@ -53,7 +53,7 @@ and ensure they don't happen again.
 * end-date: 2026/09/30
 
 #### Description
-Include new metric for load in logos-delivery experiments introduced in https://github.com/logos-messaging/logos-delivery/pull/3808
+Include new metric (`event_loop_accumulated_lag_secs`) for load in logos-delivery experiments introduced in https://github.com/logos-messaging/logos-delivery/pull/3833
 
 #### Deliverables
 - Code:

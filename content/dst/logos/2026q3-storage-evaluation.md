@@ -48,7 +48,7 @@ filesharing client implementation under heavy/big workloads.
 - Reports:
 - Related PRs if apply:
 
-### Filehsharing client + mix
+### Filesharing client + mix
 > *Note*: This needs more input from project
 * fully qualified name: `ift-ts:dst:logos:2026q3-storage-evaluation:filesharing-client-mix`
 * owner: TBD

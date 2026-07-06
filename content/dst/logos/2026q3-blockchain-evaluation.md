@@ -33,7 +33,7 @@ work and improvements, and it is subjected to change.
 
 
 ### Devnets (recurring)
-* fully qualified name: `ift-ts:dst:logos:2026q2-blockchain-evaluation:devnets`
+* fully qualified name: `ift-ts:dst:logos:2026q3-blockchain-evaluation:devnets`
 * owner: TBD
 * status: not started
 * start-date: 2026/07/01
@@ -53,7 +53,7 @@ and document behaviors and findings.
 ### Blend benchmarking
 > *Note*: This needs more input from project
 
-* fully qualified name: `ift-ts:dst:logos:2026q2-blockchain-evaluation:blendnet-benchmarking`
+* fully qualified name: `ift-ts:dst:logos:2026q3-blockchain-evaluation:blendnet-benchmarking`
 * owner: TBD
 * status: not started
 * start-date: 2026/07/01
@@ -73,7 +73,7 @@ Schedule note: Dates reflect quarter bounds; update when actual timing is known.
 > *Note*: This was moved from previous quarter
 > *Note*: This needs more input from project
 
-* fully qualified name: `ift-ts:dst:logos:2026q2-blockchain-evaluation:da-benchmarking`
+* fully qualified name: `ift-ts:dst:logos:2026q3-blockchain-evaluation:da-benchmarking`
 * owner: TBD
 * status: not started
 * start-date: 2026/07/01

@@ -33,7 +33,7 @@ theoretical analysis and experiments.
 
 ### Filehsharing client
 > *Note*: This needs more input from project
-* fully qualified name: `ift-ts:dst:logos:2026q2-storage-evaluation:filesharing-client`
+* fully qualified name: `ift-ts:dst:logos:2026q3-storage-evaluation:filesharing-client`
 * owner: TBD
 * status: not started
 * start-date: 2026/07/01
@@ -50,7 +50,7 @@ filesharing client implementation under heavy/big workloads.
 
 ### Filehsharing client + mix
 > *Note*: This needs more input from project
-* fully qualified name: `ift-ts:dst:logos:2026q2-storage-evaluation:filesharing-client-mix`
+* fully qualified name: `ift-ts:dst:logos:2026q3-storage-evaluation:filesharing-client-mix`
 * owner: TBD
 * status: not started
 * start-date: 2026/07/01

@@ -21,7 +21,7 @@ In Q3 we will continue the Nimble 1.0.0 track and migrate remaining HTTP downloa
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nimble:nimble-1.0.0`
 * owner: Juan
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -31,19 +31,22 @@ All the relevant information can be found in [this GitHub issue](https://github.
 This remains the short-term roadmap for replacing pieces of the Nimbus build system bit by bit while improving Nimble overall.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [nim-lang/nimble#1755](https://github.com/nim-lang/nimble/pull/1755) fixes #1752 set psInstalled for packages read from pkgs2
+- [nim-lang/nimble#1753](https://github.com/nim-lang/nimble/pull/1753) Adds semver pre-release version ordering and parsing support
+- [nim-lang/nimble#1751](https://github.com/nim-lang/nimble/pull/1751) Introduces resolver:min|max version selection
+- [nim-lang/nimble#1750](https://github.com/nim-lang/nimble/pull/1750) fix: extract Nim .tar.xz with tar when unxz is absent
 
 ### Chronos HTTP downloads
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nimble:chronos-http-downloads`
-* owner: moigagoo
-* status: not started
+* owner: Constantine
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/07/07
 
 #### Description
 - Migrate the remaining Nimble HTTP download paths to Chronos.
 - Remove dependency on `asyncdispatch` / OpenSSL where possible so Nimble can run on Windows without requiring OpenSSL DLLs.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [nim-lang/nimble#1746](https://github.com/nim-lang/nimble/pull/1746) Replace asyncdispatch with Chronos

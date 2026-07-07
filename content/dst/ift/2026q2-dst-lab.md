@@ -46,4 +46,5 @@ Report findings with analysis and benchmarks of the results.
   - [vacp2p/vaclab-2#34](https://github.com/vacp2p/vaclab-2/pull/34) Keep Waku Metrics and Increase Grafana DS interval
   - [vacp2p/vaclab-2#35](https://github.com/vacp2p/vaclab-2/pull/35) Add Gossipsub Priority Queues Related Metrics
   - [vacp2p/vaclab-2#38](https://github.com/vacp2p/vaclab-2/pull/38) Create Public OTLP Collector and Victoria Stack for external pushes
+  - [vacp2p/vaclab-2#39](https://github.com/vacp2p/vaclab-2/pull/39) Add testnet-0.2 ScrapeConfig and Dashboards
 - Reports:

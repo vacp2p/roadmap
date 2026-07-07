@@ -30,8 +30,8 @@ The maintenance commitment supports IFT's strategic objectives by:
 ### Maintenance
 
 * fully qualified name: `ift-ts:web:ift:2026q3-maintenance:maintenance`
-* owner: unassigned
-* status: not started
+* owner: Felicio/Jinho/JulesFiliot
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -45,6 +45,8 @@ Execute upkeep across delivered web properties for Q3: dependency and security b
 - Stable CI/deploy and platform operations for maintained properties
 - Support and stakeholder questions addressed or documented with clear next steps
 - Issues created or updated for planning; hotfixes verified and briefly recorded
+- Removed sample Cloudinary assets
+- [Operator sunset Discord thread](https://discord.com/channels/864066763682218004/1522722281736896603/1522722529674919947)
 
 ### Merge Vercel teams under IFT-TS
 

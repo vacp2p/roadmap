@@ -24,7 +24,7 @@ The performance work is a priority as there is an intention to use performance m
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:performance`
 * owner: magnus
-* status: in progress (40%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -37,6 +37,7 @@ Make the mobile performance pipeline run unattended and extend it from response 
 - Battery, CPU, and memory findings linked to [status-im/status-app#21045](https://github.com/status-im/status-app/issues/21045)
 - Second test device (Moto G55) added to the runs
 - Tracks [status-im/status-app#21086](https://github.com/status-im/status-app/issues/21086)
+- [Mobile performance docs](https://north661.gitbook.io/docs/performance/performance/mobile)
 
 ### Gate-health stabilisation
 
@@ -53,12 +54,13 @@ Restore the Android per-PR gate as a trustworthy signal. Re-triage expected-fail
 - Expected-fail messaging tests re-triaged and re-enabled or refiled
 - A rebalanced gate marker covering onboarding, messaging, wallet, and settings journeys
 - `prs-android` job passing reliably on the rebalanced set
+- [status-im/status-app#21405](https://github.com/status-im/status-app/issues/21405) [QA - Android] Contact requests stop reaching the receiver after the 2026-07-02 status-go bump
 
 ### Accessibility testability contract
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:a11y-contract`
 * owner: magnus
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -69,6 +71,7 @@ Add accessibility properties (`objectName` / `Accessible.name`) on screens the t
 - An agreed `objectName` / `Accessible.name` convention, lint-checked warn-only on touched files
 - The reply, pin, and members `objectName`s added
 - Disabled chat-title, message-text, and synced-name checks converted to assertions as properties land
+- [status-im/status-app#21368](https://github.com/status-im/status-app/pull/21368) fix: expose the edited-message indicator to accessibility
 
 ### Mobile binding contract test
 
@@ -107,7 +110,7 @@ Replace flaky two-phone messaging checks with a headless status-backend acting a
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:journey-smokes`
 * owner: magnus
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -117,12 +120,13 @@ Add smoke tests for critical journeys missing from the gate: wallet send and joi
 #### Deliverables
 - A wallet-send smoke asserting recipient and amount through to signing, with a `send_modal` page object
 - A community browse-and-join smoke, with community page objects
+- [status-im/status-app#21383](https://github.com/status-im/status-app/issues/21383) [QA - Android] e2e smoke: wallet send reaches the signing step
 
 ### Keycard UI coverage
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:keycard-ui`
 * owner: magnus
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -132,6 +136,7 @@ Cover the new keycard on-screen flows on mobile: PIN entry, PUK unblock, onboard
 #### Deliverables
 - Keycard page objects and locators against the new screens
 - Automated PIN, onboarding, and recovery flows once the mock is reachable in the mobile build
+- Drafted keycard QA test plan for the new simulator-based stack
 - Tracks [status-im/status-app#20305](https://github.com/status-im/status-app/issues/20305) and [status-im/status-app#20289](https://github.com/status-im/status-app/issues/20289)
 
 ### Communities groundwork
@@ -216,7 +221,8 @@ Keep the framework healthy as the app changes: triage flaky tests, follow app re
 #### Deliverables
 - Brittle xpath locators reduced in messaging and wallet locator files, toward `tid()` / `objectName`
 - Test-traceability markers extended beyond messaging suites to wallet and onboarding tests
-- PRs / Issues / Reports
+- [status-im/status-app#21367](https://github.com/status-im/status-app/pull/21367) fix(e2e_appium): context-menu and wallet account gate tests
+- [status-im/status-app#21304](https://github.com/status-im/status-app/issues/21304) [Epic] test(e2e-mobile): maintenance
 
 ### Release testing
 

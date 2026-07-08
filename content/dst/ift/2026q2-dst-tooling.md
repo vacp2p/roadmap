@@ -88,13 +88,17 @@ Should be made general when possible.
 - Reports:
 - Other:
   - Fixed `zerotesting-store` so it runs on k8s
+  - [vacp2p/10ksim#306](https://github.com/vacp2p/10ksim/pull/306) Split base bridge and tests
+  - [vacp2p/10ksim#304](https://github.com/vacp2p/10ksim/pull/304) BaseExperiment deploy: allow multiple deployments at once
+  - [vacp2p/10ksim#310](https://github.com/vacp2p/10ksim/pull/310) Improve experiment config CLI params
+  - [vacp2p/10ksim#312](https://github.com/vacp2p/10ksim/pull/312) Fix libp2p memory and high-peers metric queries
 
 
 ### Dashboard
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:dashboard`
 * owner: Mamoutou
-* status: in progress (60%)
+* status: in progress (85%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30
 
@@ -105,6 +109,8 @@ Present DST reports automatically in a dashboard for other CCs.
 - Code:
 - Reports:
   - [DST Dashboard - Proposal For a Dynamic Public Lab Dashboard](https://app.notion.com/p/DST-Dashboard-Proposal-For-a-Dynamic-Public-Lab-Dashboard-3388f96fb65c804787b7e55cf6beb027) updated architecture, experiment descriptor, and embedded DB approach.
+  - [DST Dashboard V0.0](https://dev.dashboard.lab.vac.dev/) deployed as the current dev version in Vaclab
+  - Completed backend processors, dataset and panel storage, ECharts conversions, React frontend, Dockerfiles, and end-to-end experiment loading from `config.yaml`
 
 
 ### Shadow

@@ -20,7 +20,7 @@ The work includes updating fuzz targets, corpus handling, CI execution, and foll
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-lez-fuzz-testing:framework-maintenance`
 * owner: Roman
-* status: not started
+* status: in progress (98%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -30,4 +30,6 @@ The work includes updating fuzz targets, corpus handling, CI execution, and foll
 - Keep corpus update automation and CI execution useful, documenting constraints or infrastructure gaps when they appear.
 
 #### Deliverables
-- PRs / Issues / Reports
+- [logos-blockchain/lez-fuzzing#13](https://github.com/logos-blockchain/lez-fuzzing/pull/13) chore: automated weekly corpus update
+- [logos-blockchain/lez-fuzzing#14](https://github.com/logos-blockchain/lez-fuzzing/pull/14) test: Transaction ordering independence
+- [logos-blockchain/lez-fuzzing#15](https://github.com/logos-blockchain/lez-fuzzing/pull/15) test: Model based stateful lockstep

@@ -20,7 +20,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:maintenance`
 * owner: nastya
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -29,7 +29,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Update tests for changes in Status Desktop, address regressions, investigate failures, and implement minor framework improvements needed to keep the suite reliable.
 
 #### Deliverables
-- PRs / Issues / Reports
+- [status-im/status-go#7561](https://github.com/status-im/status-go/pull/7561) test(functional): use Docker-assigned ephemeral host ports
 
 ### New tests
 
@@ -139,4 +139,3 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 #### Deliverables
 - PRs / Issues / Reports
-

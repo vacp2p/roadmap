@@ -47,8 +47,8 @@ Perform broader cleanup of the Python SDK to reduce flakiness and maintenance ov
 ### Community Control Node Transfer Functional Test
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-go-functional-testing:7132`
-* owner: TBD
-* status: not started
+* owner: Aya
+* status: in progress (10%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -117,8 +117,8 @@ Add functional tests for local notification flows.
 ### Maintenance
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-go-functional-testing:maintenance`
-* owner: TBD
-* status: not started
+* owner: Egor
+* status: in progress (10%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -128,4 +128,4 @@ This includes updating tests for changes in `status-go`, addressing regressions,
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
-- PRs / Issues / Reports
+- [status-im/status-go#7582](https://github.com/status-im/status-go/pull/7582) ci(tests): report coverage to Codecov on PRs

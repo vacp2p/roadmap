@@ -62,3 +62,21 @@ Improve first approach delivered in Q2.
 #### Deliverables
 - Code:
 - Reports:
+
+
+### Slow proof analysis
+
+* fully qualified name: `ift-ts:dst:ift:2026q3-dst-tooling:slow-proof-analysis`
+* owner: Mamoutou
+* status: not started
+* start-date: 2026/07/09
+* end-date: 2026/09/24
+
+#### Description
+RLN proofs in logos-delivery and blend proofs in logos-blockchain takes a suspiciously high amount of time.
+Coordinate with CCs to get what are the estimations that should work, and check why in the lab these times are sometimes
+x6 or even higher. 
+
+#### Deliverables
+- Code:
+- Reports:

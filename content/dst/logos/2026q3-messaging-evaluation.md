@@ -63,10 +63,10 @@ Include new metric (`event_loop_accumulated_lag_secs`) for load in logos-deliver
 ### quic vs tcp
 
 * fully qualified name: `ift-ts:dst:logos:2026q3-messaging-evaluation:quic-vs-tcp`
-* owner: TBD
+* owner: Pearson
 * status: not started
-* start-date: 2026/07/01
-* end-date: 2026/09/30
+* start-date: 2026/07/08
+* end-date: 2026/09/17
 
 #### Description
 Analyze logos messaging using quic from nimlibp2p and compare results with mplex/yamux.

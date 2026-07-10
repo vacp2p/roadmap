@@ -19,6 +19,9 @@ tags:
 * [[qa/status/2026q3-status-qa-desktop|status-qa-desktop ]]
 * [[qa/status/2026q3-status-qa-mobile|status-qa-mobile ]]
 
+### `keycard:`
+* [[qa/keycard/2026q3-keycard-testing|keycard-testing ]]
+
 ### `logos:`
 * [[qa/logos/2026q3-logos-basecamp|logos-basecamp ]]
 * [[qa/logos/2026q3-logos-core|logos-core ]]

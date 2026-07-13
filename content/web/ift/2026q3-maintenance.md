@@ -5,7 +5,7 @@ tags:
   - "web"
   - "ift"
 draft: false
-description: "Planned upkeep, fixes, and improvements on shipped web properties—distinct from weekly channel duty, which triages inbound requests."
+description: "Planned upkeep, fixes, and improvements on shipped web properties—distinct from weekly channel duty, which triages inbound requests. Includes AI-assisted review, debugging, testing, and guarded agent commits."
 ---
 
 `ift-ts:web:ift:2026q3-maintenance`
@@ -24,6 +24,7 @@ The maintenance commitment supports IFT's strategic objectives by:
 - **User Experience Continuity**: Regressions and rough edges are addressed deliberately
 - **Technical Debt Management**: Post-launch issues are fixed or tracked rather than forgotten
 - **Clear handoff from duty**: Issues triaged on duty land here (or in project backlogs) as **concrete maintenance work**
+- **AI-assisted delivery**: Copilot / Claude / Cursor used for PR review, debugging, testing, and guarded low-risk commits — always with human approval before merge; no secrets in prompts
 
 ## Task List
 
@@ -107,3 +108,76 @@ Consolidate the Figma teams the Web unit currently uses into a single team named
 - Inventory note (projects, files, libraries, plugins, members on both teams) with migration mapping
 - All projects + files moved to the recipient team; per-project sanity check that shared libraries, prototypes, comments, and Dev Mode handoffs still work
 - Recipient team renamed to **IFT-TS**
+
+### Review workflows — Copilot, Claude, and agent PR review
+
+* fully qualified name: `ift-ts:web:ift:2026q3-maintenance:review-workflows`
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/07/18
+
+#### Description
+
+Define and roll out **PR review workflows** that combine GitHub Copilot review with Claude / Cursor (or equivalent) agent review for Web repos. Document when to use each tool, what to expect from automated review vs human review, and how to triage false positives.
+
+#### Deliverables
+
+- Written workflow: Copilot review + agent review checklist for Web PRs
+- Enabled on at least the primary repos (`status-im/status-web`, `logos-co/logos-web`)
+- Example PRs reviewed with both tools; notes on signal vs noise
+- Team agreement on minimum human review before merge
+
+### Agent-assisted debugging
+
+* fully qualified name: `ift-ts:web:ift:2026q3-maintenance:agent-debugging`
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/07/07
+* end-date: 2026/07/25
+
+#### Description
+
+Use agents for **debugging support**: summarising errors, proposing hypotheses, suggesting minimal repro steps, and drafting fix diffs — always validated by a developer before merge. Fold into duty/maintenance triage where it speeds up first response without skipping reproduction.
+
+#### Deliverables
+
+- Short guide: effective debugging prompts and repo context (AGENTS.md / rules where useful)
+- At least two real bugs triaged or fixed with agent assistance, documented briefly
+- Guardrails doc: what not to paste into prompts (tokens, PII, prod credentials)
+
+### Agent-assisted testing
+
+* fully qualified name: `ift-ts:web:ift:2026q3-maintenance:agent-testing`
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/07/14
+* end-date: 2026/08/01
+
+#### Description
+
+Use agents to **draft and extend tests** — unit, integration, and E2E where the stack supports it — with developers reviewing assertions and flakiness. Prioritise high-traffic paths (wallet extension, marketing pages, forms) and regressions found on duty.
+
+#### Deliverables
+
+- Testing guide: when agent-generated tests are acceptable vs hand-written
+- At least one merged PR with agent-drafted or agent-extended test coverage
+- Notes on CI integration and required human edits before merge
+
+### Guarded agent commits
+
+* fully qualified name: `ift-ts:web:ift:2026q3-maintenance:guarded-agent-commits`
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/08/04
+* end-date: 2026/08/22
+
+#### Description
+
+Pilot **agent-authored commits** for low-risk, scoped work: lint/format fixes, dependency bump PRs with clear changelogs, copy or config updates, and roadmap/doc edits. Every agent commit goes through normal PR review; no bypass of branch protection.
+
+#### Deliverables
+
+- Policy: allowed vs disallowed agent commit types
+- At least three merged PRs authored primarily by an agent, with human review recorded
+- Retrospective note: time saved, quality issues, adjustments for Q4

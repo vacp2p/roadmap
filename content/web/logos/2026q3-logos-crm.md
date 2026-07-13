@@ -5,7 +5,7 @@ tags:
   - "web"
   - "logos"
 draft: false
-description: "Q3 Logos CRM on Notion: pivot from a custom CiviCRM dashboard to Notion as database and UI. Extend intake forms, configure Notion workspaces for Movement/Ecodev/Leadership workflows, and add integrations, automations, and team support."
+description: "Q3 Logos CRM on Notion: pivot from a custom CiviCRM dashboard to Notion as database and UI. Extend intake forms, configure Notion workspaces, funnel email via MailGun webhook, and add integrations, automations, and team support."
 ---
 
 `ift-ts:web:logos:2026q3-logos-crm`
@@ -43,6 +43,17 @@ The **intake forms MVP is already live** on logos.co and continues to be built o
 - Notion native automations may not cover every conditional email branch; budget time for integration-tool workarounds (Make/Zapier).
 - Custom case property surface for Ecodev is wide (dozens of fields per the doc) — Q3 v1 should ship a **scoped subset** (~10–12 highest-priority fields), with the long tail deferred to a Q4 polish pass.
 - Notion API rate limits and relation cardinality grow as databases expand; monitor and adjust schema if list views slow down.
+
+**Funnel outbound email**
+
+People Ops / Ecodev need to **send emails to leads** in the Notion BD database as part of funnel automations. **Recommended direction:** webhook + **MailGun on a dedicated subdomain** (`funnel.logos.co` or `forms.logos.co`) rather than a Workspace `noreply@logos.co` Gmail alias:
+
+- Avoids **reputation / blacklisting risk** for the primary `logos.co` marketing domain
+- **Separate stats and logs** on the MailGun dashboard
+- Can be **decommissioned** without affecting other projects
+- A **project-specific subdomain** fits the funnel use case better than a generic noreply on the apex domain
+
+Alternative considered: Gmail alias via Google Workspace (add alias domain + configure in Notion). Webhook path is cleaner if no alias exists yet; optional admin UI on [admin-acid.logos.co](https://admin-acid.logos.co/) for template editing.
 
 ## Task List
 
@@ -243,6 +254,85 @@ Once the surface is feature-complete: workspace governance (permissions audit, b
 - Runbook (schema changes, common integration failures, how to add a new automation)
 - Mobile-friendly case list and detail views verified
 - Maintenance hand-off note folded into the Web maintenance commitment
+
+### Sending domain and MailGun setup
+
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:mailgun-domain-setup`
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/07/07
+* end-date: 2026/07/18
+
+#### Description
+
+Pick and provision the **sending subdomain** (`funnel.logos.co` or `forms.logos.co` — confirm with stakeholders). Infra sets up **MailGun** (DNS, SPF/DKIM, tracking domain if needed) and provides credentials for staging/production.
+
+Document why this was chosen over a Workspace `noreply@logos.co` alias.
+
+#### Deliverables
+
+- Subdomain name decided and DNS/MailGun configured
+- Staging credentials shared with Web for integration testing
+- Short runbook: DNS records, MailGun dashboard access, rollback
+
+### Webhook API for Notion-triggered sends
+
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:webhook-api`
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/07/14
+* end-date: 2026/08/08
+
+#### Description
+
+Build a **webhook endpoint** Notion automations can call to send templated email to a lead (recipient, template id/key, merge fields from the Notion record). Authenticate requests (shared secret or signed payload). Send via MailGun; log message id and errors for debugging.
+
+Host on the existing Web stack (e.g. `admin-acid.logos.co` API routes or a small service in the Logos admin repo).
+
+#### Deliverables
+
+- POST webhook endpoint documented (payload, auth, response codes)
+- MailGun integration with error handling and structured logs
+- Staging test: Notion automation → webhook → delivered test message
+- Rate limiting / abuse basics considered
+
+### Funnel email templates and optional admin UI
+
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:funnel-email-templates-admin-ui`
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/08/04
+* end-date: 2026/08/29
+
+#### Description
+
+Initial **email templates** for the highest-priority BD funnel steps (coordinate with People Ops / Ecodev on copy). Optionally add a **minimal admin UI** on [admin-acid.logos.co](https://admin-acid.logos.co/) to edit template subject/body and preview merge fields — so non-engineers can adjust copy without code deploys.
+
+If v1 is template-in-repo only, document the edit/deploy path instead of building UI in Q3.
+
+#### Deliverables
+
+- At least 2–3 production templates wired to the webhook
+- Admin UI **or** documented repo-based template workflow (decision recorded)
+- Operator note: how to add a new template and connect a Notion automation
+
+### Funnel email — Notion automation integration and handoff
+
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:funnel-email-notion-integration`
+* owner: JulesFiliot
+* status: not started
+* start-date: 2026/08/18
+* end-date: 2026/09/05
+
+#### Description
+
+Wire **Notion BD database automations** to the webhook for the agreed funnel triggers (e.g. status change → send template X). Test with real-shaped test contacts. Hand off to CRM operators with monitoring pointers (MailGun logs, failed webhook retries).
+
+#### Deliverables
+
+- Notion automations live for agreed triggers (staging → production)
+- End-to-end test checklist signed off with stakeholders
+- Handoff doc in CRM operator materials
 
 ## Out of scope for Q3 (stretch / Q4+)
 

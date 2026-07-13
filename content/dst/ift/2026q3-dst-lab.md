@@ -1,7 +1,7 @@
 ---
 title: DST Lab
 tags:
-  - "2026q2"
+  - "2026q3"
   - "dst"
   - "ift"
 draft: false
@@ -10,7 +10,7 @@ Anticipate untapped use cases and needs from other teams.
 Improve the usage of the lab by optimizing resources and time allocation."
 ---
 
-`ift-ts:dst:ift:2026q2-dst-lab`
+`ift-ts:dst:ift:2026q3-dst-lab`
 
 ## Description
 
@@ -28,11 +28,11 @@ while allow provisioning to other teams dedicated machines if they are needed.
 
 ### Analyze current stack (recurrent)
 
-* fully qualified name: `ift-ts:dst:ift:2026q2-dst-lab:analyze-current-stack`
-* owner: Mamoutou
-* status: in progress (30%)
-* start-date: 2026/04/01
-* end-date: 2026/06/30
+* fully qualified name: `ift-ts:dst:ift:2026q3-dst-lab:analyze-current-stack`
+* owner: TBD
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/09/30
 
 #### Description
 Compare the current stack with new stack proposals.
@@ -41,10 +41,4 @@ Report findings with analysis and benchmarks of the results.
 
 #### Deliverables
 - Code:
-  - [vacp2p/vaclab-2#27](https://github.com/vacp2p/vaclab-2/pull/27) Add OTLP Collector Authorization Bearer
-  - [vacp2p/vaclab-2#32](https://github.com/vacp2p/vaclab-2/pull/32) Add pod name, ip, uid and namespace to otlp Metrics and Log
-  - [vacp2p/vaclab-2#34](https://github.com/vacp2p/vaclab-2/pull/34) Keep Waku Metrics and Increase Grafana DS interval
-  - [vacp2p/vaclab-2#35](https://github.com/vacp2p/vaclab-2/pull/35) Add Gossipsub Priority Queues Related Metrics
-  - [vacp2p/vaclab-2#38](https://github.com/vacp2p/vaclab-2/pull/38) Create Public OTLP Collector and Victoria Stack for external pushes
-  - [vacp2p/vaclab-2#39](https://github.com/vacp2p/vaclab-2/pull/39) Add testnet-0.2 ScrapeConfig and Dashboards
 - Reports:

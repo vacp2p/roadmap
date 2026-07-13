@@ -42,6 +42,7 @@ need to do our experiments.
 - Code:
   - Added Dockerfile scripts so StatefulSets automatically create their secrets.
   - Integrated logos-core with pod-api-requester for Kubernetes secret token retrieval and arbitrary function calls.
+  - [vacp2p/10ksim#301](https://github.com/vacp2p/10ksim/pull/301) logos core builder changes
 - Reports:
   - https://app.notion.com/p/Work-in-Progress-logos-core-10ksim-integration-36b8f96fb65c801bab58d1124fefa2b4
 

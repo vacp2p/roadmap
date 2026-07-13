@@ -20,6 +20,24 @@ are not only effective but also maintain or improve system performance and scala
 
 [[dst/preview|Roadmap Preview]]
 
+## 2026q3 `ift-ts:dst:`
+---
+### `ift`
+* [[dst/ift/2026q3-dst-lab|dst-lab]]
+* [[dst/ift/2026q3-dst-tooling|dst-tooling]]
+* [[dst/ift/2026q3-libp2p-evaluation|libp2p-evaluation]]
+
+### `logos`
+* [[dst/logos/2026q3-anoncomms-evaluation|anoncomms-evaluation]]
+* [[dst/logos/2026q3-blockchain-evaluation|blockchain-evaluation]]
+* [[dst/logos/2026q3-logos-core-evaluation|logos-core-evaluation]]
+* [[dst/logos/2026q3-messaging-evaluation|messaging-evaluation]]
+* [[dst/logos/2026q3-storage-evaluation|storage-evaluation]]
+
+### `status`
+* [[dst/status/2026q3-status-evaluation|status-evaluation]]
+
+---
 ## 2026q2 `ift-ts:dst:`
 ---
 ### `ift`

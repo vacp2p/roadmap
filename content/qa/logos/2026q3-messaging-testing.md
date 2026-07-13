@@ -21,7 +21,7 @@ and applying minor improvements to keep the frameworks functional and effective.
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-messaging-testing:maintenance`
 * owner: aya
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -29,7 +29,8 @@ and applying minor improvements to keep the frameworks functional and effective.
 Ongoing maintenance of messaging testing frameworks.
 
 #### Deliverables
-- PRs / Issues / Reports
+- [logos-messaging/logos-delivery-interop-tests#195](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/195) fix test s26
+- [logos-messaging/logos-delivery#4003](https://github.com/logos-messaging/logos-delivery/issues/4003) portsShift double-applied: node advertises a port it isn't listening on
 
 ### RLN interaction with LEZ
 

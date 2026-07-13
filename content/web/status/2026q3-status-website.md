@@ -105,9 +105,9 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 #### Deliverables
 
-- Root-cause note per error class
-- Fixes merged and deployed
-- Post-fix validation (Search Console or equivalent)
+- Root-cause doc per error class
+- Fixes merged and deployed (PR)
+- Post-fix validation report (Search Console or equivalent)
 
 ### 404 audit and redirects
 

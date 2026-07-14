@@ -93,9 +93,9 @@ and how to set up potential experiments using the DST lab.
 
 * fully qualified name: `ift-ts:dst:logos:2026q2-anoncomms-evaluation:service-discovery`
 * owner: Alberto
-* status: in progress (99%)
+* status: done
 * start-date: 2026/06/01
-* end-date: 2026/06/19
+* end-date: 2026/07/14
 
 #### Description
 Evaluate service-discovery protocol. Compare it against KAD-DHT or any other request that comes from anoncomms team.
@@ -104,6 +104,7 @@ Evaluate service-discovery protocol. Compare it against KAD-DHT or any other req
 - Code:
   - [vacp2p/dst-libp2p-test-node#35](https://github.com/vacp2p/dst-libp2p-test-node/pull/35) Service Discovery connectivity issues fix
 - Reports:
+  - Identified that invalid-ticket errors originate in the service-discovery registrar path and that forced bootstrapping is unexpectedly slow.
 
 
 ### De-MLS

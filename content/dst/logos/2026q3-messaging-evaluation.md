@@ -64,7 +64,7 @@ Include new metric (`event_loop_accumulated_lag_secs`) for load in logos-deliver
 
 * fully qualified name: `ift-ts:dst:logos:2026q3-messaging-evaluation:quic-vs-tcp`
 * owner: Pearson
-* status: not started
+* status: in progress (30%)
 * start-date: 2026/07/08
 * end-date: 2026/09/17
 

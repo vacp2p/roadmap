@@ -30,3 +30,18 @@ Validate the integration of the Logos Messaging module inside the Logos Core pla
 #### Deliverables
 - PRs with group messaging smoke tests.
 - Test report with covered scenarios and follow-up issues.
+
+### Logos Delivery module E2E testing and CI integration
+
+* fully qualified name: `ift-ts:qa:logos:2026q3-logos-messaging-integration:delivery-module-e2e`
+* owner: egor
+* status: in progress (25%)
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+- Move the Delivery module E2E tests into the `logos-delivery-module` repository.
+- Extend the Python E2E suite that drives the Delivery module over RPC and integrate it into CI.
+
+#### Deliverables
+- [logos-co/logos-delivery-module#58](https://github.com/logos-co/logos-delivery-module/issues/58) delivery_module `start` hangs depending on the build.

@@ -32,8 +32,8 @@ path.
 ### Cross-Compilation Support
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-mobile-targets:cross-compilation`
-* owner: not assigned yet
-* status: not started
+* owner: Richard
+* status: in progress (80%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -46,6 +46,7 @@ Add the build configuration and dependency fixes needed for nim-libp2p to
 compile for the selected mobile targets.
 
 #### Deliverables
+- [vacp2p/nim-lsquic#98](https://github.com/vacp2p/nim-lsquic/pull/98) fix: android msg_iovlen type
 - Android `arm64-v8a` build succeeds
 - Android `x86_64` build succeeds
 - iOS `arm64` build succeeds

@@ -32,7 +32,7 @@ The maintenance commitment supports IFT's strategic objectives by:
 
 * fully qualified name: `ift-ts:web:ift:2026q3-maintenance:maintenance`
 * owner: Felicio/Jinho/JulesFiliot
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -42,6 +42,11 @@ Execute upkeep across delivered web properties for Q3: dependency and security b
 
 #### Deliverables
 
+- [logos-co/logos-web#95](https://github.com/logos-co/logos-web/pull/95) Add operators closure page
+- [logos-co/logos-web#104](https://github.com/logos-co/logos-web/pull/104) fix: replace ukdebt hero image with watermark-free Big Ben
+- [status-im/status-web#1248](https://github.com/status-im/status-web/pull/1248) fix layout for statically exported `apps/`
+- [status-im/infra-sites#140](https://github.com/status-im/infra-sites/issues/140) Unblocked Docker setup for status.app
+- [status-im/infra-sites#138](https://github.com/status-im/infra-sites/issues/138) Unblocked the static build for status.network
 - Merged fixes and improvements on shipped repos (PRs as appropriate)
 - Stable CI/deploy and platform operations for maintained properties
 - Support and stakeholder questions addressed or documented with clear next steps
@@ -53,9 +58,9 @@ Execute upkeep across delivered web properties for Q3: dependency and security b
 
 * fully qualified name: `ift-ts:web:ift:2026q3-maintenance:merge-vercel-teams-ift-ts`
 * owner: Felicio
-* status: not started
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/07/24
+* end-date: 2026/07/14
 
 #### Description
 
@@ -84,6 +89,7 @@ Plan (per Vercel):
 
 #### Deliverables
 
+- Vercel team migration completed.
 - Inventory note (projects, domains, env vars, integrations, members on both teams) with migration mapping
 - All projects + domains moved to the recipient team; per-project sanity check that deploys + previews + custom domains still work
 - Recipient team switched to the right Pro plan
@@ -113,7 +119,7 @@ Consolidate the Figma teams the Web unit currently uses into a single team named
 
 * fully qualified name: `ift-ts:web:ift:2026q3-maintenance:review-workflows`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (90%)
 * start-date: 2026/07/01
 * end-date: 2026/07/18
 

@@ -48,7 +48,7 @@ Perform broader cleanup of the Python SDK to reduce flakiness and maintenance ov
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-go-functional-testing:7132`
 * owner: Aya
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -56,7 +56,8 @@ Perform broader cleanup of the Python SDK to reduce flakiness and maintenance ov
 Verify control node transfer procedures for communities.
 
 #### Deliverables
-- PRs and/or Issues
+- [status-im/status-go#7619](https://github.com/status-im/status-go/issues/7619) Community update is not applied after paired control-node container pause/unpause
+- [status-im/status-go#7615](https://github.com/status-im/status-go/issues/7615) bug: LoginAccount does not restore custom networks, causing token-gated community events to be dropped
 
 ### Community-Level Permissions Functional Test
 
@@ -118,7 +119,7 @@ Add functional tests for local notification flows.
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-go-functional-testing:maintenance`
 * owner: Egor
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -128,4 +129,5 @@ This includes updating tests for changes in `status-go`, addressing regressions,
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
+- [status-im/status-go#7612](https://github.com/status-im/status-go/pull/7612) test: skip light-client tests that are flaky under #7393
 - [status-im/status-go#7582](https://github.com/status-im/status-go/pull/7582) ci(tests): report coverage to Codecov on PRs

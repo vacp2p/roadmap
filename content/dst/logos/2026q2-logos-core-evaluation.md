@@ -25,9 +25,9 @@ These componentes are logos-messaging, logos-storage and logos-blockchain.
 ### logos-core evaluation
 * fully qualified name: `ift-ts:dst:logos:2026q2-logos-core-evaluation:evaluation`
 * owner: Pearson
-* status: in progress (99%)
+* status: done
 * start-date: 2026/05/05
-* end-date: 2026/06/30
+* end-date: 2026/07/14
 
 #### Description
 Integrate logos-core in the DST lab, evaluating its behaviour.
@@ -40,6 +40,9 @@ need to do our experiments.
 
 #### Deliverables
 - Code:
+  - [vacp2p/10ksim#318](https://github.com/vacp2p/10ksim/pull/318) Logoscore: Add builders
+  - [vacp2p/10ksim#317](https://github.com/vacp2p/10ksim/pull/317) Logoscore: Framework changes
+  - [vacp2p/10ksim#343](https://github.com/vacp2p/10ksim/pull/343) Logoscore: experiment
   - Added Dockerfile scripts so StatefulSets automatically create their secrets.
   - Integrated logos-core with pod-api-requester for Kubernetes secret token retrieval and arbitrary function calls.
   - [vacp2p/10ksim#301](https://github.com/vacp2p/10ksim/pull/301) logos core builder changes

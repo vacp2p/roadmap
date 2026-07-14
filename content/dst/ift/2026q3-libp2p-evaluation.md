@@ -31,8 +31,8 @@ work and improvements, and it is subjected to change.
 ### Regression testing (recurring)
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-libp2p-evaluation:regression-testing`
-* owner: TBD
-* status: not started
+* owner: Alan
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -48,6 +48,7 @@ and ensure they don't happen again.
 #### Deliverables
 - Code:
 - Reports:
+  - [Nim-libp2p v2.2.0 Regression Report](https://app.notion.com/p/3978f96fb65c8042ae7dd621decae98a)
 
 
 ### Interop at scale

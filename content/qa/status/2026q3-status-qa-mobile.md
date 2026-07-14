@@ -24,7 +24,7 @@ The performance work is a priority as there is an intention to use performance m
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:performance`
 * owner: magnus
-* status: in progress (50%)
+* status: in progress (75%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -32,6 +32,11 @@ The performance work is a priority as there is an intention to use performance m
 Make the mobile performance pipeline run unattended and extend it from response times to resource usage. The response-time dashboard already covers around 39 app surfaces on a fresh account; the priority this quarter is measuring a loaded account, getting the nightly run reliable, and adding battery, CPU, and memory tracking.
 
 #### Deliverables
+- [status-im/status-app#21448](https://github.com/status-im/status-app/issues/21448) [QA - Android] Regression: Wallet Swap screen takes >1s to open (was ~0.7s)
+- [status-im/status-app#21447](https://github.com/status-im/status-app/issues/21447) [QA - Android] Regression: Wallet Send screen takes >1s to open (was ~0.7s)
+- [status-im/status-app#21430](https://github.com/status-im/status-app/issues/21430) [QA - Android] Communities directory takes 17–80s to load — latest check never loaded (120s+)
+- [status-im/status-app#21429](https://github.com/status-im/status-app/issues/21429) [QA] Screens in the slow performance band (>1.0s) — optimization backlog
+- [status-im/status-go#7614](https://github.com/status-im/status-go/issues/7614) Fresh light-client account downloads gigabytes of background data on login
 - Loaded-account measurement column published to the status-app-benchmarks dashboard
 - Unattended nightly run with failure alerting, proven over consecutive nights
 - Battery, CPU, and memory findings linked to [status-im/status-app#21045](https://github.com/status-im/status-app/issues/21045)
@@ -43,7 +48,7 @@ Make the mobile performance pipeline run unattended and extend it from response 
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:gate-health`
 * owner: magnus
-* status: in progress (15%)
+* status: in progress (75%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -51,6 +56,9 @@ Make the mobile performance pipeline run unattended and extend it from response 
 Restore the Android per-PR gate as a trustworthy signal. Re-triage expected-fail tests and rebalance the gate into a stable set covering onboarding, messaging, wallet, and settings journeys.
 
 #### Deliverables
+- [status-im/status-go#7610](https://github.com/status-im/status-go/issues/7610) QA: functional test for the history-reconcile fetch path (test removed during #7604 review)
+- [status-im/status-go#7609](https://github.com/status-im/status-go/issues/7609) QA: verify that light clients recover messages missed while staying online (gap deferred from #7604)
+- [status-im/status-go#7606](https://github.com/status-im/status-go/issues/7606) Android light clients can't resolve boot-node DNS → no Waku peers → can't publish
 - Expected-fail messaging tests re-triaged and re-enabled or refiled
 - A rebalanced gate marker covering onboarding, messaging, wallet, and settings journeys
 - `prs-android` job passing reliably on the rebalanced set
@@ -60,7 +68,7 @@ Restore the Android per-PR gate as a trustworthy signal. Re-triage expected-fail
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:a11y-contract`
 * owner: magnus
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -68,6 +76,7 @@ Restore the Android per-PR gate as a trustworthy signal. Re-triage expected-fail
 Add accessibility properties (`objectName` / `Accessible.name`) on screens the tests currently cannot read, improving assertions and reducing brittle locators.
 
 #### Deliverables
+- [status-im/status-app#21392](https://github.com/status-im/status-app/pull/21392) fix: expose send-confirm values to accessibility
 - An agreed `objectName` / `Accessible.name` convention, lint-checked warn-only on touched files
 - The reply, pin, and members `objectName`s added
 - Disabled chat-title, message-text, and synced-name checks converted to assertions as properties land
@@ -110,7 +119,7 @@ Replace flaky two-phone messaging checks with a headless status-backend acting a
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:journey-smokes`
 * owner: magnus
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -118,6 +127,7 @@ Replace flaky two-phone messaging checks with a headless status-backend acting a
 Add smoke tests for critical journeys missing from the gate: wallet send and joining a community. Both join the gate once gate-health has stabilised it.
 
 #### Deliverables
+- [status-im/status-app#21420](https://github.com/status-im/status-app/pull/21420) test(e2e-mobile): wallet-send smoke
 - A wallet-send smoke asserting recipient and amount through to signing, with a `send_modal` page object
 - A community browse-and-join smoke, with community page objects
 - [status-im/status-app#21383](https://github.com/status-im/status-app/issues/21383) [QA - Android] e2e smoke: wallet send reaches the signing step

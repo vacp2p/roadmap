@@ -98,9 +98,9 @@ Should be made general when possible.
 
 * fully qualified name: `ift-ts:dst:ift:2026q2-dst-tooling:dashboard`
 * owner: Mamoutou
-* status: in progress (85%)
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/07/14
 
 #### Description
 Present DST reports automatically in a dashboard for other CCs.
@@ -111,7 +111,8 @@ Present DST reports automatically in a dashboard for other CCs.
   - [DST Dashboard - Proposal For a Dynamic Public Lab Dashboard](https://app.notion.com/p/DST-Dashboard-Proposal-For-a-Dynamic-Public-Lab-Dashboard-3388f96fb65c804787b7e55cf6beb027) updated architecture, experiment descriptor, and embedded DB approach.
   - [DST Dashboard V0.0](https://dev.dashboard.lab.vac.dev/) deployed as the current dev version in Vaclab
   - Completed backend processors, dataset and panel storage, ECharts conversions, React frontend, Dockerfiles, and end-to-end experiment loading from `config.yaml`
-
+  - [DST Dashboard Backend](https://github.com/vacp2p/10ksim/pull/349)
+  - [DST Dashboard Frontend](https://github.com/vacp2p/10ksim/pull/350)
 
 ### Shadow
 

@@ -29,8 +29,8 @@ while allow provisioning to other teams dedicated machines if they are needed.
 ### Analyze current stack (recurrent)
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-dst-lab:analyze-current-stack`
-* owner: TBD
-* status: not started
+* owner: Mamoutou
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -42,3 +42,6 @@ Report findings with analysis and benchmarks of the results.
 #### Deliverables
 - Code:
 - Reports:
+  - [DST Dashboard](https://dashboard.lab.vac.dev) deployed with production and development infrastructure.
+  - [DST Dashboard Admin UI](https://api.dashboard.lab.vac.dev/admin/token) protected by Authentik authentication.
+  - [VacLab Home](https://lab.vac.dev) updated with dashboard shortcuts and status.

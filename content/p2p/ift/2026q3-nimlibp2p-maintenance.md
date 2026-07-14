@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-maintenance:maintenance`
 * owner: rramos/vlado/gabe
-* status: in progress (5%)
+* status: in progress (13%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -36,6 +36,34 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors, and bug fixes.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2803](https://github.com/vacp2p/nim-libp2p/pull/2803) ci: drop i386_temp workflow
+- [vacp2p/nim-libp2p#2808](https://github.com/vacp2p/nim-libp2p/pull/2808) fix(ci): stop dcutr test leaking a channel; run full daily CI on label
+- [vacp2p/nim-libp2p#2770](https://github.com/vacp2p/nim-libp2p/pull/2770) chore: add issue and feature templates
+- [vacp2p/nim-libp2p#2807](https://github.com/vacp2p/nim-libp2p/pull/2807) fix(routing-record): use proto3 peer record encoding
+- [vacp2p/nim-libp2p#2789](https://github.com/vacp2p/nim-libp2p/pull/2789) fix(protobuf): tolerate empty custom fields
+- [vacp2p/nim-libp2p#2790](https://github.com/vacp2p/nim-libp2p/pull/2790) fix(autonat): optional msgType and status fields
+- [vacp2p/nim-libp2p#2785](https://github.com/vacp2p/nim-libp2p/pull/2785) chore(relay)!: make v1 hop opt-in
+- [vacp2p/nim-libp2p#2801](https://github.com/vacp2p/nim-libp2p/pull/2801) test: fix flakines with "client-mode node successfully completes lookup against server-mode registrars"
+- [vacp2p/nim-libp2p#2795](https://github.com/vacp2p/nim-libp2p/pull/2795) ci: single file for daily test_all workflow
+- [vacp2p/nim-libp2p#2794](https://github.com/vacp2p/nim-libp2p/pull/2794) feat(tests): tests as subproject of repo
+- [vacp2p/nim-libp2p#2804](https://github.com/vacp2p/nim-libp2p/pull/2804) chore(cbind): change dep commit
+- [vacp2p/nim-libp2p#2797](https://github.com/vacp2p/nim-libp2p/pull/2797) ci: dropping i386 orc from tests
+- [vacp2p/nim-libp2p#2792](https://github.com/vacp2p/nim-libp2p/pull/2792) chore(makefile): simplify code
+- [vacp2p/nim-libp2p#2791](https://github.com/vacp2p/nim-libp2p/pull/2791) ci: save build cache when in merge queue
+- [vacp2p/nim-libp2p#2788](https://github.com/vacp2p/nim-libp2p/pull/2788) fix(kademlia): align DHT message and provider limits for interop
+- [vacp2p/nim-libp2p#2787](https://github.com/vacp2p/nim-libp2p/pull/2787) fix(yamux): align default window with spec and reject invalid versions
+- [vacp2p/nim-libp2p#2765](https://github.com/vacp2p/nim-libp2p/pull/2765) fix(memory-transport): serialize concurrent writes
+- [vacp2p/nim-libp2p#2761](https://github.com/vacp2p/nim-libp2p/pull/2761) test(mplex): make tests teardown more robust
+- [vacp2p/nim-libp2p#2764](https://github.com/vacp2p/nim-libp2p/pull/2764) test(autonat): fix flaky test "Peer must be not reachable and then reachable"
+- [vacp2p/nim-libp2p#2767](https://github.com/vacp2p/nim-libp2p/pull/2767) ci(daily-report): add runnable examples to report
+- [vacp2p/nim-libp2p#2762](https://github.com/vacp2p/nim-libp2p/pull/2762) test(dcutr): better synchronisation and assertion for "DCUtR establishes a new QUIC connection"
+- [vacp2p/nim-libp2p#2766](https://github.com/vacp2p/nim-libp2p/pull/2766) ci: use macos for "Daily without feature flags" workflow
+- [vacp2p/nim-libp2p#2769](https://github.com/vacp2p/nim-libp2p/pull/2769) ci: add merge_group
+- [logos-co/nim-libp2p-mix#25](https://github.com/logos-co/nim-libp2p-mix/pull/25) fix(mix): limit replay cache and defer tag insertion
+- [vacp2p/nim-libp2p#2752](https://github.com/vacp2p/nim-libp2p/pull/2752) ci: dropping daily pinned
+- [vacp2p/nim-libp2p#2754](https://github.com/vacp2p/nim-libp2p/pull/2754) test: remove unnecessary test that takes too much time
+- [status-im/nimbus-eth2#8701](https://github.com/status-im/nimbus-eth2/pull/8701) chore: bump libp2p to 2.1.4
+- [vacp2p/nim-libp2p#2751](https://github.com/vacp2p/nim-libp2p/pull/2751) fix: avoid deadlock when dropping peers from stream handler
 - [status-im/nimbus-eth2#8699](https://github.com/status-im/nimbus-eth2/pull/8699) chore: bump libp2p to 2.1.3
 - [vacp2p/nim-libp2p#2745](https://github.com/vacp2p/nim-libp2p/pull/2745) test(pubsub): cover stale peer cleanup after dropped connection
 - [vacp2p/nim-boringssl#11](https://github.com/vacp2p/nim-boringssl/pull/11) chore(ci): test PR against nim-libp2p and nim-lsquic

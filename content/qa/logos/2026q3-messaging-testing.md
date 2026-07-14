@@ -51,7 +51,7 @@ Focus on library-level testing for the interaction between RLN and LEZ and repor
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-messaging-testing:reliable-channel-api-tests`
 * owner: aya
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -60,7 +60,7 @@ Support QA for [Reliable Channel API — General Availability](https://roadmap.l
 Add API tests based on the [Reliable Channel API](https://github.com/logos-co/logos-lips/blob/master/docs/messaging/raw/reliable-channel-api.md), covering the main reliable-channel behavior exposed by the implementation.
 
 #### Deliverables
-- PRs / Issues / Reports
+- [logos-messaging/logos-delivery-python-bindings#7](https://github.com/logos-messaging/logos-delivery-python-bindings/pull/7) Channel api wrappers
 
 ### Chat Developer Preview QA
 

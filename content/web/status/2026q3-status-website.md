@@ -95,7 +95,7 @@ Deploy an **alternative version of [status.app](https://status.app/)** so market
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:5xx-server-errors`
 * owner: jinhojang6
-* status: not started
+* status: in progress (75%)
 * start-date: 2026/07/01
 * end-date: 2026/07/11
 
@@ -105,6 +105,7 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 #### Deliverables
 
+- [status-im/status-web#1268](https://github.com/status-im/status-web/pull/1268) Fix blog crawler 5xx errors
 - Root-cause doc per error class
 - Fixes merged and deployed (PR)
 - Post-fix validation report (Search Console or equivalent)
@@ -113,7 +114,7 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:404-audit-redirects`
 * owner: jinhojang6
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/07/07
 * end-date: 2026/07/25
 
@@ -131,7 +132,7 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:noindex-audit`
 * owner: jinhojang6
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/07/14
 * end-date: 2026/07/25
 
@@ -239,7 +240,7 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:structured-data`
 * owner: jinhojang6
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/08/25
 * end-date: 2026/09/12
 

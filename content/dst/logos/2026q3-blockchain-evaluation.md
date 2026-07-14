@@ -34,8 +34,8 @@ work and improvements, and it is subjected to change.
 
 ### Devnets (recurring)
 * fully qualified name: `ift-ts:dst:logos:2026q3-blockchain-evaluation:devnets`
-* owner: TBD
-* status: not started
+* owner: Alberto
+* status: in progress (10%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 

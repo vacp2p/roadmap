@@ -65,15 +65,18 @@ Focus on targeted tests that can catch transport-level issues earlier and comple
 
 * fully qualified name: `ift-ts:qa:ift:2026q3-nim-libp2p-testing:dual-stack-ipv4-ipv6`
 * owner: Radek
-* status: in progress (80%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/07/14
 
 #### Description
 Implement tests for dual-stack IPv4 and IPv6 behavior on the libp2p side.
 Cover scenarios that can catch UDP and address-family issues, especially around mixed IPv4/IPv6 environments and regressions that should be detected by unit or integration tests.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2746](https://github.com/vacp2p/nim-libp2p/pull/2746) test(misc): dual stack 5
+- [vacp2p/nim-libp2p#2756](https://github.com/vacp2p/nim-libp2p/issues/2756) service-disco: extend IP-similarity scoring to IPv6
+- [vacp2p/nim-libp2p#2757](https://github.com/vacp2p/nim-libp2p/issues/2757) wildcard-resolver: :: expansion unconditionally adds IPv4 interfaces, assuming a dual-stack socket
 - PRs with dual-stack IPv4 and IPv6 tests
 - Issues / reports for regressions or uncovered gaps in mixed-stack behavior
 - [vacp2p/nim-libp2p#2698](https://github.com/vacp2p/nim-libp2p/pull/2698) test(transports): dual stack 1
@@ -89,7 +92,7 @@ Cover scenarios that can catch UDP and address-family issues, especially around 
 
 * fully qualified name: `ift-ts:qa:ift:2026q3-nim-libp2p-testing:maintenance`
 * owner: radek
-* status: in progress (20%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -98,6 +101,15 @@ Provide ongoing QA maintenance support for nim-libp2p throughout Q3.
 Cover small regression fixes, flaky-test follow-ups, test updates needed by upstream code changes, and issue-driven validation work that does not fit a larger feature-specific task.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2802](https://github.com/vacp2p/nim-libp2p/pull/2802) test(identify): repro test for #2800
+- [vacp2p/nim-libp2p#2800](https://github.com/vacp2p/nim-libp2p/issues/2800) identify: outgoing identify hangs against peers that don't serve identify
+- [vacp2p/nim-libp2p#2806](https://github.com/vacp2p/nim-libp2p/issues/2806) dcutr: quic hole punching dials from both peers
+- [vacp2p/nim-libp2p#2793](https://github.com/vacp2p/nim-libp2p/pull/2793) fix(identify): handle missing optional pub key
+- [vacp2p/nim-libp2p#2786](https://github.com/vacp2p/nim-libp2p/issues/2786) identify: absent publicKey is rejected and drops the connection
+- [vacp2p/nim-libp2p#2783](https://github.com/vacp2p/nim-libp2p/pull/2783) fix(multiaddress): decode empty optional observedAddr
+- [vacp2p/nim-libp2p#2781](https://github.com/vacp2p/nim-libp2p/issues/2781) identify: empty observedAddr aborts message decode and drops the connection
+- [vacp2p/nim-libp2p#2759](https://github.com/vacp2p/nim-libp2p/pull/2759) test(transports): accept fails
+- [vacp2p/nim-libp2p#2755](https://github.com/vacp2p/nim-libp2p/issues/2755) transports: no tests for what happens when a transport's `accept` fails
 - [vacp2p/nim-libp2p#2725](https://github.com/vacp2p/nim-libp2p/pull/2725) test(transports): improve hanging test
 - [vacp2p/nim-libp2p#2714](https://github.com/vacp2p/nim-libp2p/pull/2714) test(transports): multiple addresses
 - [vacp2p/nim-libp2p#2713](https://github.com/vacp2p/nim-libp2p/issues/2713) transports: inconsistency when stopping pending accept

@@ -18,8 +18,8 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 ### NAT traversal and nim-libplum
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:nat-traversal-nim-libplum`
-* owner: moigagoo
-* status: not started
+* owner: Constantine
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -29,13 +29,17 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Decide whether consumers should migrate directly to nim-libplum or whether a compatibility layer / nat-traversal API emulation is worth implementing.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [logos-storage/nim-libplum#15](https://github.com/logos-storage/nim-libplum/pull/15) feat: protocol filter
+- [logos-storage/nim-libplum#16](https://github.com/logos-storage/nim-libplum/pull/16) chore: release 0.6.0
+- [logos-storage/nim-libplum#14](https://github.com/logos-storage/nim-libplum/pull/14) chore: point libplum submodule to upstream paullouisageneau master (v0.6.0)
+- [logos-storage/nim-libplum#10](https://github.com/logos-storage/nim-libplum/pull/10) Use Nim Docker  image
+- [logos-storage/nim-libplum#11](https://github.com/logos-storage/nim-libplum/pull/11) Remove cmake
 
 ### Protobuf Serialization Docs
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:protobuf-serialization-docs`
 * owner: Constantine
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -44,7 +48,23 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Cover usage guidance, examples, and integration notes needed by downstream teams.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [status-im/nim-protobuf-serialization#83](https://github.com/status-im/nim-protobuf-serialization/pull/83) Add docs about serializing with type extensions
+
+### Thread Pool Library
+
+* fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:thread-pool-library`
+* owner: Esteban
+* status: in progress (25%)
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+- Continue improving [`nim-taskpools`](https://github.com/status-im/nim-taskpools) with fixes and missing functionality.
+- Port the remaining relevant taskpool features from [`mratsim/constantine`](https://github.com/mratsim/constantine) into `nim-taskpools`.
+- Keep the ported functionality covered by tests and suitable for downstream consumers.
+
+#### Deliverables
+- [status-im/nim-taskpools#52](https://github.com/status-im/nim-taskpools/pull/52) Fix TSan detected data races
 
 ### Nim Web3 Error Handling and Issue Triage
 
@@ -66,7 +86,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:maintenance`
 * owner: Constantine
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -74,6 +94,9 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Ongoing maintenance and fixes across Nim core libraries.
 
 #### Deliverables
+- [status-im/nim-json-rpc#286](https://github.com/status-im/nim-json-rpc/pull/286) CI: test with ASan
+- [status-im/nim-json-rpc#281](https://github.com/status-im/nim-json-rpc/pull/281) Fix #280; Result of method returning `void` fails to parse
+- [status-im/nim-chronos#688](https://github.com/status-im/nim-chronos/pull/688) Fix error in `new` after replacing getAddress with getHttpAddress
 - [status-im/nim-json-rpc#283](https://github.com/status-im/nim-json-rpc/pull/283) Restrict proxy server raises to `JsonRpcError`
 - [status-im/nim-json-rpc#282](https://github.com/status-im/nim-json-rpc/pull/282) Restrict client raises to `JsonRpcError`
 - [status-im/nim-json-rpc#279](https://github.com/status-im/nim-json-rpc/pull/279) Support notification in rpc context for non-async method

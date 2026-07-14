@@ -71,7 +71,7 @@ Ensure admin-level permissions behave as expected in communities.
 Test community ownership transfer workflows and state transitions.
 
 #### Deliverables
-- PRs and/or Issues
+- [status-im/status-go#7556](https://github.com/status-im/status-go/pull/7556) test: #7131 transfer ownership
 
 ### Community Control Node Transfer Functional Test
 

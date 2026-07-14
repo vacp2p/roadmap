@@ -19,7 +19,7 @@ Ensure quality of Keycard Shell compatibility with third-party software wallets 
 
 * fully qualified name: `ift-ts:qa:keycard:2026q3-keycard-testing:wallet-compatibility`
 * owner: romanzac
-* status: not started
+* status: in progress (5%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 

@@ -35,8 +35,8 @@ adversarial conditions and control message behavior.
 ### General tooling (recurring)
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-dst-tooling:general-tooling`
-* owner: TBD
-* status: not started
+* owner: Mamoutou/Alan
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -46,6 +46,7 @@ Should be made general when possible.
 
 #### Deliverables
 - Code:
+  - [vacp2p/10ksim#346](https://github.com/vacp2p/10ksim/pull/346) Kad-dht regression sweep across versions and muxers
 - Reports:
 
 ### Dashboard improvements

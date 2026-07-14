@@ -105,7 +105,7 @@ Evaluate service-discovery protocol. Compare it against KAD-DHT or any other req
   - [vacp2p/dst-libp2p-test-node#35](https://github.com/vacp2p/dst-libp2p-test-node/pull/35) Service Discovery connectivity issues fix
 - Reports:
   - Identified that invalid-ticket errors originate in the service-discovery registrar path and that forced bootstrapping is unexpectedly slow.
-
+  - [Notion: Service Discovery scenarios](https://app.notion.com/p/Service-discovery-scenario-39d8f96fb65c8098864bdfe91b012abf)
 
 ### De-MLS
 > *Note*: This needs more input from project

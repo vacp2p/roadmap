@@ -161,7 +161,7 @@ without compromising coverage.
 * end-date: 2024/12/09
 
 #### Description
-Integrate a subset of the interop tests into the existing nwaku/go-waku CI pipelines.
+Integrate a subset of the interop tests into the existing nwaku/go-waku CI pipelines
 The execution time should not exceed 15 minutes,
 balancing speed with meaningful test coverage.
 The goal is to catch issues earlier in the PR lifecycle

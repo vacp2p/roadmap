@@ -1,4 +1,6 @@
 .DS_Store
+.gitignore
+node_modules
 public
 prof
 tsconfig.tsbuildinfo
@@ -7,7 +9,8 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
-node_modules
+.quartz/
+quartz/cli/tui/dist/
 .ipynb_checkpoints/
 .cache
 __pycache__

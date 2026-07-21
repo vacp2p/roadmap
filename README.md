@@ -4,7 +4,7 @@
 This repository contains the aggregated technical roadmaps of Vac R&D Service Units.
 It is an attempt to provide easy access to what we're all actively working on, and how it's going.
 
-In its current form, it is an implementation of a [Quartz]() "mind-garden".
+In its current form, it is an implementation of a [Quartz](https://quartz.jzhao.xyz/) "mind-garden".
 This repository is built and served to https://roadmap.vac.co
 
 ## Contribution
@@ -42,4 +42,3 @@ In order to use the templates in the `Templates` folder for auto populating comm
   - assign whichever templates you want to be triggered when a new file is created in a given folder.
 
 Refer the [Templater documentation](https://silentvoid13.github.io/Templater/) for how to create your own templates.
-

@@ -35,7 +35,8 @@ pipeline {
   stages {
     stage('Deps') {
       steps { script {
-        nix.develop('npm install')
+        nix.develop('npm ci')
+        nix.develop('npx quartz plugin install')
       } }
     }
 

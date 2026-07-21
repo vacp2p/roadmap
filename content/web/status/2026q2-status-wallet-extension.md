@@ -121,7 +121,7 @@ Implement functionality to send NFTs from the wallet extension.
 
 * fully qualified name: `ift-ts:web:status:2026q2-status-wallet-extension:multi-account`
 * owner: JulesFiliot
-* status: in progress (20%)
+* status: in progress (75%)
 * start-date: 2026/04/01
 * end-date: 2026/06/19
 
@@ -131,6 +131,9 @@ Implement multi-account support to allow users to manage multiple accounts withi
 
 #### Deliverables
 
+- [status-im/status-web#1094](https://github.com/status-im/status-web/issues/1094) feat(wallet): retrieve all accounts from mnemonic import
+- [status-im/status-web#1276](https://github.com/status-im/status-web/pull/1276) feat(wallet): mnemonic account discovery and selection
+- [status-im/status-web#1127](https://github.com/status-im/status-web/issues/1127) status wallet extension: multi account
 - Multi-account functionality
 - Account switching interface
 - Account management UI

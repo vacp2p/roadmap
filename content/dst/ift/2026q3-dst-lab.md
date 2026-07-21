@@ -41,6 +41,7 @@ Report findings with analysis and benchmarks of the results.
 
 #### Deliverables
 - Code:
+  - [vacp2p/vaclab-2#41](https://github.com/vacp2p/vaclab-2/pull/41) Deploy DST Dashboard and Update HomePage
 - Reports:
   - [DST Dashboard](https://dashboard.lab.vac.dev) deployed with production and development infrastructure.
   - [DST Dashboard Admin UI](https://api.dashboard.lab.vac.dev/admin/token) protected by Authentik authentication.

@@ -64,9 +64,9 @@ Include new metric (`event_loop_accumulated_lag_secs`) for load in logos-deliver
 
 * fully qualified name: `ift-ts:dst:logos:2026q3-messaging-evaluation:quic-vs-tcp`
 * owner: Pearson
-* status: in progress (30%)
+* status: done
 * start-date: 2026/07/08
-* end-date: 2026/09/17
+* end-date: 2026/07/21
 
 #### Description
 Analyze logos messaging using quic from nimlibp2p and compare results with mplex/yamux.
@@ -74,6 +74,8 @@ Analyze logos messaging using quic from nimlibp2p and compare results with mplex
 #### Deliverables
 - Code:
 - Reports:
+  - [Waku quic vs yamux](https://app.notion.com/p/Waku-quic-vs-yamux-39b8f96fb65c806288b0e68544207b45)
+  - [nWaku Regression Testing Notes](https://app.notion.com/p/nWaku-Regression-Testing-Notes-39e8f96fb65c80bea716f022bac100fa)
 
 
 ### Scalable Data Sync

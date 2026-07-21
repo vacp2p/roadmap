@@ -31,10 +31,10 @@ behavior.
 ### NATService Migration
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-libplum-nat-traversal:natservice-migration`
-* owner: not assigned yet
-* status: not started
+* owner: Gabe
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/07/21
 
 #### Description
 Replace `nim-nat-traversal` usage in nim-libp2p NATService with
@@ -42,6 +42,7 @@ Replace `nim-nat-traversal` usage in nim-libp2p NATService with
 possible.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2821](https://github.com/vacp2p/nim-libp2p/pull/2821) chore(nat): replace nim-nat-traversal with nim-libplum
 - NATService uses `nim-libplum` for supported port mapping behavior
 - Existing NATService configuration remains source-compatible or has documented migration steps
 - Tests updated for UPnP, NAT-PMP, explicit external IP, and disabled NAT setup

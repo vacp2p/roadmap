@@ -49,7 +49,7 @@ Implement tests for opt-in dial ranking and backoff behavior.
 
 * fully qualified name: `ift-ts:qa:ift:2026q3-nim-libp2p-testing:quic-repo`
 * owner: radek
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -101,6 +101,14 @@ Provide ongoing QA maintenance support for nim-libp2p throughout Q3.
 Cover small regression fixes, flaky-test follow-ups, test updates needed by upstream code changes, and issue-driven validation work that does not fit a larger feature-specific task.
 
 #### Deliverables
+- [libp2p/unified-testing#78](https://github.com/libp2p/unified-testing/pull/78) feat: hole-punch nim-v2.2 peer
+- [libp2p/unified-testing#77](https://github.com/libp2p/unified-testing/pull/77) feat: transport nim-v2.2
+- [vacp2p/nim-libp2p#2820](https://github.com/vacp2p/nim-libp2p/issues/2820) kad-dht: should handleAddProvider require provider keys to be valid multihashes?
+- [vacp2p/nim-libp2p#2824](https://github.com/vacp2p/nim-libp2p/pull/2824) chore(kad-dht): loosen validation on AddProvider for interop tests
+- [vacp2p/nim-libp2p#2826](https://github.com/vacp2p/nim-libp2p/issues/2826) kad-dht: closerPeers advertise a peer's observed connection address
+- [vacp2p/nim-libp2p#2832](https://github.com/vacp2p/nim-libp2p/pull/2832) test(interop): kad-dht for unified-testing
+- [vacp2p/nim-libp2p#2840](https://github.com/vacp2p/nim-libp2p/pull/2840) test(interop): build unified-testing dockerfiles workflow
+- [vacp2p/nim-libp2p#2848](https://github.com/vacp2p/nim-libp2p/issues/2848) kad-dht: should closerPeers exclude the requester?
 - [vacp2p/nim-libp2p#2802](https://github.com/vacp2p/nim-libp2p/pull/2802) test(identify): repro test for #2800
 - [vacp2p/nim-libp2p#2800](https://github.com/vacp2p/nim-libp2p/issues/2800) identify: outgoing identify hangs against peers that don't serve identify
 - [vacp2p/nim-libp2p#2806](https://github.com/vacp2p/nim-libp2p/issues/2806) dcutr: quic hole punching dials from both peers

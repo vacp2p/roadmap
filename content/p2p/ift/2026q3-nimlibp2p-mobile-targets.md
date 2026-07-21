@@ -33,9 +33,9 @@ path.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-mobile-targets:cross-compilation`
 * owner: Richard
-* status: in progress (80%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/07/21
 
 #### Description
 Define the supported Android and iOS build matrix and document the toolchains,
@@ -57,8 +57,8 @@ compile for the selected mobile targets.
 ### CI And Example App
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-mobile-targets:ci-example`
-* owner: not assigned yet
-* status: not started
+* owner: Richard
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 #### Description
@@ -67,6 +67,10 @@ application or integration harness that proves nim-libp2p can be linked and
 started on mobile.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2827](https://github.com/vacp2p/nim-libp2p/pull/2827) feat(android): simulator
+- [vacp2p/nim-libp2p#2833](https://github.com/vacp2p/nim-libp2p/pull/2833) feat(ios): simulator
+- [vacp2p/nim-libp2p#2814](https://github.com/vacp2p/nim-libp2p/pull/2814) build(ios): add libp2p_ffi mobile targets
+- [vacp2p/nim-libp2p#2813](https://github.com/vacp2p/nim-libp2p/pull/2813) build(android): add libp2p_ffi mobile targets
 - CI smoke builds for feasible Android and iOS targets
 - Example app or minimal integration harness
 - Documentation for running the example locally

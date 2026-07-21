@@ -20,7 +20,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -29,6 +29,10 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Update tests for changes in Status Desktop, address regressions, investigate failures, and implement minor framework improvements needed to keep the suite reliable.
 
 #### Deliverables
+- [status-im/status-app#21476](https://github.com/status-im/status-app/issues/21476) Fix MacOS setup with Squish 9.2
+- [status-im/status-app#21518](https://github.com/status-im/status-app/pull/21518) tests(@qml): add tests for custom order for assets in wallet
+- [status-im/status-app#21517](https://github.com/status-im/status-app/issues/21517) Custom assets order from wallet settings is not applied to wallet
+- [status-im/status-app#21423](https://github.com/status-im/status-app/pull/21423) chore(@e2e): fix Squish setup on macOS
 - [status-im/status-go#7561](https://github.com/status-im/status-go/pull/7561) test(functional): use Docker-assigned ephemeral host ports
 
 ### New tests
@@ -50,7 +54,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:release-testing`
 * owner: nastya
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -60,6 +64,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Track release risks and bugs found during manual release validation.
 
 #### Deliverables
+- [status-im/status-app#21524](https://github.com/status-im/status-app/issues/21524) iOS app crashes on swipe-to-close action
 - Bugs and follow-up issues found during 2.39 and 2.40 release testing.
 - Release testing notes / reports.
 
@@ -98,7 +103,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:windows-performance-tests`
 * owner: nastya
-* status: not started
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -107,13 +112,21 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Improve coverage for the main performance-sensitive user flows and make the measurements useful for regression tracking.
 
 #### Deliverables
+- [status-im/status-app-benchmarks#16](https://github.com/status-im/status-app-benchmarks/pull/16) desktop: add wallet resource metrics and improve benchmark dashboard
+- [status-im/status-app-benchmarks#15](https://github.com/status-im/status-app-benchmarks/pull/15) desktop: add baselines
+- [status-im/status-app-benchmarks#13](https://github.com/status-im/status-app-benchmarks/pull/13) desktop: align benchmark charts with mobile layout and split by account variant
+- [status-im/status-app#21509](https://github.com/status-im/status-app/pull/21509) chore(@e2e): add fresh-user variants to desktop benchmark tests
+- [status-im/status-app-benchmarks#12](https://github.com/status-im/status-app-benchmarks/pull/12) desktop: add run spread bands and responsive Plotly charts for multi-run benchmarks
+- [status-im/status-app#21493](https://github.com/status-im/status-app/pull/21493) chore(@ci): collect Windows system info in nightly benchmark push
+- [status-im/status-app-benchmarks#11](https://github.com/status-im/status-app-benchmarks/pull/11) desktop: small refactoring
+- [status-im/status-app-benchmarks#10](https://github.com/status-im/status-app-benchmarks/pull/10) desktop: add system info panel and --machine-info for Windows benchmarks
 - PRs / Issues
 
 ### Battery, CPU, and RAM usage
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:battery-cpu-ram-usage`
 * owner: nastya
-* status: not started
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -122,6 +135,12 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Use [status-im/status-app#21249](https://github.com/status-im/status-app/issues/21249) as the reference issue for scope and follow-up.
 
 #### Deliverables
+- [status-im/status-app#21537](https://github.com/status-im/status-app/pull/21537) chore(@ci): fix benchmark job log path
+- [status-im/status-app-benchmarks#17](https://github.com/status-im/status-app-benchmarks/pull/17) desktop: fix parser
+- [status-im/status-app#21536](https://github.com/status-im/status-app/pull/21536) chore(@e2e): expand wallet performance benchmarks with CPU and RAM metrics
+- [status-im/status-app-benchmarks#14](https://github.com/status-im/status-app-benchmarks/pull/14) desktop: align CPU and RAM charts with load-time chart style
+- [status-im/status-app#21480](https://github.com/status-im/status-app/pull/21480) chore(@e2e): cpu data is 0 in benchmark reports
+- [status-im/status-app#21475](https://github.com/status-im/status-app/pull/21475) chore(@e2e): cpu measurements fix
 - PRs / Issues / Reports
 - Resource usage findings linked to [status-im/status-app#21249](https://github.com/status-im/status-app/issues/21249).
 

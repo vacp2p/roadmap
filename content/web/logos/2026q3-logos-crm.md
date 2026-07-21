@@ -279,7 +279,7 @@ Document why this was chosen over a Workspace `noreply@logos.co` alias.
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:webhook-api`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/07/14
 * end-date: 2026/08/08
 
@@ -291,6 +291,7 @@ Host on the existing Web stack (e.g. `admin-acid.logos.co` API routes or a small
 
 #### Deliverables
 
+- [logos-co/logos-web#109](https://github.com/logos-co/logos-web/pull/109) feat(civi-crm): forward steward submissions to n8n webhook
 - POST webhook endpoint documented (payload, auth, response codes)
 - MailGun integration with error handling and structured logs
 - Staging test: Notion automation → webhook → delivered test message
@@ -320,7 +321,7 @@ If v1 is template-in-repo only, document the edit/deploy path instead of buildin
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:funnel-email-notion-integration`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/08/18
 * end-date: 2026/09/05
 
@@ -330,6 +331,7 @@ Wire **Notion BD database automations** to the webhook for the agreed funnel tri
 
 #### Deliverables
 
+- [Automated email after form submission](https://github.com/acid-info/admin-acid.logos.co/issues/52)
 - Notion automations live for agreed triggers (staging → production)
 - End-to-end test checklist signed off with stakeholders
 - Handoff doc in CRM operator materials

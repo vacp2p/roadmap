@@ -51,8 +51,8 @@ required.
 ### Service Discovery And Kademlia Support
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-delivery-consulting:service-discovery-kad`
-* owner: not assigned yet
-* status: not started
+* owner: Gabe
+* status: in progress (21%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -63,6 +63,9 @@ bootstrap, provider record, discovery, and routing-table behavior as integration
 questions arise.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2850](https://github.com/vacp2p/nim-libp2p/pull/2850) fix(kad): exclude the requester from closerPeers
+- [vacp2p/nim-libp2p#2842](https://github.com/vacp2p/nim-libp2p/pull/2842) fix(kad): target the requested bucket when refreshing
+- [vacp2p/nim-libp2p#2841](https://github.com/vacp2p/nim-libp2p/pull/2841) fix(service-disco): don't rescale bucket index by maxBuckets
 - Guidance for service discovery and Kademlia configuration
 - Implementation support for integration blockers found during Q3
 

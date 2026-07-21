@@ -77,7 +77,7 @@ Build and validate Python bindings usage in the messaging test framework, includ
 * end date: 2026/03/31
 
 #### Description
-Extend Sonda tool to allow more advanced testing scenarios for the Store protocol, then add new advanced tests.
+Extend Sonda tool to allow more advanced testing scenarios for the Store protocol, then add new advanced tests
 
 #### Deliverables
 - PRs and issues

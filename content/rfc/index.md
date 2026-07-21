@@ -5,6 +5,9 @@ tags:
 - ift-ts
 ---
 
+> [!NOTE]
+> The RFC team has merged into the [[qa|Quality Assurance team]].
+
 [[rfc/preview|Roadmap Preview]]
 
 ## 2026q2 `ift-ts:rfc:`

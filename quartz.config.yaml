@@ -140,7 +140,7 @@ plugins:
       groupOptions:
         grow: true
   - source: github:quartz-community/backlinks
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 50
@@ -186,7 +186,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/logos-co/roadmap
+        GitHub: https://github.com/vacp2p/roadmap
         Discord Community: https://discord.com/invite/logos-state
 layout:
   groups:

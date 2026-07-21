@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html><head><title>2025-07 Vac monthly</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="2025-07 Vac monthly"/><meta property="og:description" content="P2P § highlights § AutoTLS development is complete (hidden behind feature flag) Gossipsub 1.4 development is complete (hidden behind feature flag) Dropped 1."/><meta property="og:image" content="https://roadmap.vac.dev/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="P2P § highlights § AutoTLS development is complete (hidden behind feature flag) Gossipsub 1.4 development is complete (hidden behind feature flag) Dropped 1."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css?v=mronsb2m" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=sans-serif:wght@400;700&amp;family=sans-serif:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js?v=mronsb2m" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json?v=mronsb2m`).then(data => data.json())</script></head><body data-slug="monthly/2025-07"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title "><a href="..">IFT-TS Roadmaps and Reports</a></h1><div class="spacer mobile-only"></div><div class="search "><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode "><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true"><h1>Explorer</h1><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container " aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="..">Home</a><p> > </p></div><div class="breadcrumb-element"><a href="../monthly/">monthly</a><p> > </p></div><div class="breadcrumb-element"><a href>2025-07 Vac monthly</a></div></nav><h1 class="article-title ">2025-07 Vac monthly</h1><p class="content-meta ">Jul 17, 2026, 16 min read</p><ul class="tags "><li><a href="../tags/vac-monthly" class="internal tag-link">#vac-monthly</a></li></ul></div></div><article class="popover-hint"><h3 id="p2p">P2P<a aria-hidden="true" tabindex="-1" href="#p2p" class="internal"> §</a></h3>
-<h4 id="highlights">highlights<a aria-hidden="true" tabindex="-1" href="#highlights" class="internal"> §</a></h4>
+<html lang="en" dir="ltr"><head><title>2025-07 Vac monthly</title><meta charset="utf-8"/><link rel="preload" href="../index-d96f1e41.css" as="style"/><link rel="preload" href="../prescript-ee7931aa.js" as="script"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;family=Inter:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="IFT-TS Roadmaps and Reports"/><meta property="og:title" content="2025-07 Vac monthly"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="2025-07 Vac monthly"/><meta name="twitter:description" content="P2P highlights AutoTLS development is complete (hidden behind feature flag) Gossipsub 1.4 development is complete (hidden behind feature flag) Dropped 1.6 support for nim-libp2p Added daily job for testing nimbus with latest nim-libp2p Performance improvements on nim-libp2p due to refactors nim-libp..."/><meta property="og:description" content="P2P highlights AutoTLS development is complete (hidden behind feature flag) Gossipsub 1.4 development is complete (hidden behind feature flag) Dropped 1.6 support for nim-libp2p Added daily job for testing nimbus with latest nim-libp2p Performance improvements on nim-libp2p due to refactors nim-libp..."/><meta property="og:image:alt" content="P2P highlights AutoTLS development is complete (hidden behind feature flag) Gossipsub 1.4 development is complete (hidden behind feature flag) Dropped 1.6 support for nim-libp2p Added daily job for testing nimbus with latest nim-libp2p Performance improvements on nim-libp2p due to refactors nim-libp..."/><meta property="og:image" content="https://roadmap.vac.dev/static/og-image.png"/><meta property="og:image:url" content="https://roadmap.vac.dev/static/og-image.png"/><meta name="twitter:image" content="https://roadmap.vac.dev/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="roadmap.vac.dev"/><meta property="og:url" content="https://roadmap.vac.dev/monthly/2025-07"/><meta property="twitter:url" content="https://roadmap.vac.dev/monthly/2025-07"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="P2P highlights AutoTLS development is complete (hidden behind feature flag) Gossipsub 1.4 development is complete (hidden behind feature flag) Dropped 1.6 support for nim-libp2p Added daily job for testing nimbus with latest nim-libp2p Performance improvements on nim-libp2p due to refactors nim-libp..."/><meta name="generator" content="Quartz"/><link href="../index-d96f1e41.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-735924e0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-589c1cea.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-2911f5d1.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-7f220492.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-53b25b2b.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-c93c6a44.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-8a06014f.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-77d6a441.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-1ea6ad18.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-34bdfded.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-788c9ca3.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-4abc06bd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-274a3dfe.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-94cb6c84.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-b848783d.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-bbc3f7c0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-a5c806d2.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-6bd36952.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript-ee7931aa.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script></head><body data-slug="monthly/2025-07" data-basepath><div id="quartz-root" class="page" data-frame="default"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">IFT-TS Roadmaps and Reports</a></h2><div class="mobile-only"><div class="spacer"></div></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" aria-label="Search" aria-expanded="false"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something..." placeholder="Search for something..."/><div class="search-layout" data-preview="true" data-field-priority="[&quot;title&quot;,&quot;content&quot;,&quot;tags&quot;]"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode" aria-label="Dark mode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div></div><div class="desktop-only"><div class="explorer nav-files-container" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a2, b2) => {\n    if (!a2.isFolder &amp;&amp; !b2.isFolder || a2.isFolder &amp;&amp; b2.isFolder) {\n      return (a2.displayName || \&quot;\&quot;).localeCompare(b2.displayName || \&quot;\&quot;, void 0, {\n        numeric: true,\n        sensitivity: \&quot;base\&quot;\n      });\n    }\n    if (!a2.isFolder &amp;&amp; b2.isFolder) {\n      return 1;\n    }\n    return -1;\n  }&quot;,&quot;filterFn&quot;:&quot;(node) => node.slugSegment !== \&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;(node) => {\n    return node;\n  }&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-427" aria-label="Explorer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-427" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#" class="nav-file-title tree-item-self"></a></li></template><template id="template-folder"><li><div class="folder-container nav-folder-title tree-item-self"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon nav-folder-collapse-indicator collapse-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content tree-item-children"></ul></div></li></template></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../monthly/">monthly</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>2025-07 Vac monthly</a></div></nav><h1 class="article-title">2025-07 Vac monthly</h1><p show-comma="true" class="content-meta"><time datetime="2025-07-31T00:00:00.000Z">Jul 31, 2025</time><span>16 min read</span></p><ul class="tags"><li><a href="../tags/vac-monthly" class="internal tag-link">vac-monthly</a></li></ul></div></div><article class="popover-hint"><div class="markdown-preview-view markdown-rendered"><h3 id="p2p">P2P<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#p2p" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h4 id="highlights">highlights<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#highlights" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li>AutoTLS development is complete (hidden behind feature flag)</li>
 <li>Gossipsub 1.4 development is complete (hidden behind feature flag)</li>
@@ -9,7 +9,7 @@
 <li>Performance improvements on nim-libp2p due to refactors</li>
 <li>nim-libp2p presentation done @ LibP2P day</li>
 </ul>
-<h4 id="report">report<a aria-hidden="true" tabindex="-1" href="#report" class="internal"> §</a></h4>
+<h4 id="report">report<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#report" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li><code>ift:2025q3-gossipsub-perf-improvements</code>
 <ul>
@@ -28,7 +28,7 @@
 </li>
 <li>Delivered deliverables:
 <ul>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pulls/1448" class="external">vacp2p/nim-libp2p#1448</a> feat: GossipSub v1.4</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pulls/1448" class="external external-link">vacp2p/nim-libp2p#1448<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> feat: GossipSub v1.4</li>
 </ul>
 </li>
 </ul>
@@ -43,7 +43,7 @@
 </li>
 <li>Delivered deliverables:
 <ul>
-<li><a href="https://github.com/vacp2p/mix/pull/52" class="external">vacp2p/mix#52</a> refactor: integrate mix-waku-integ and poc/gossipsub</li>
+<li><a href="https://github.com/vacp2p/mix/pull/52" class="external external-link">vacp2p/mix#52<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> refactor: integrate mix-waku-integ and poc/gossipsub</li>
 </ul>
 </li>
 </ul>
@@ -64,7 +64,7 @@
 </li>
 <li>Delivered deliverables:
 <ul>
-<li>Maintenance work is being tracked in <a href="https://github.com/vacp2p/nim-libp2p/issues/1509" class="external">Maintenance 2025Q3</a></li>
+<li>Maintenance work is being tracked in <a href="https://github.com/vacp2p/nim-libp2p/issues/1509" class="external external-link">Maintenance 2025Q3<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -84,8 +84,8 @@
 </li>
 <li>Delivered deliverables:
 <ul>
-<li><a href="https://github.com/libp2p/specs/pulls/682" class="external">libp2p/specs#682</a> Add AutoTLS client spec (pending approval)</li>
-<li>AutoTLS is available as part of nim-libp2p <a href="https://github.com/vacp2p/nim-libp2p/releases/tag/v1.12.0" class="external">v1.12.0</a> release</li>
+<li><a href="https://github.com/libp2p/specs/pulls/682" class="external external-link">libp2p/specs#682<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> Add AutoTLS client spec (pending approval)</li>
+<li>AutoTLS is available as part of nim-libp2p <a href="https://github.com/vacp2p/nim-libp2p/releases/tag/v1.12.0" class="external external-link">v1.12.0<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> release</li>
 </ul>
 </li>
 </ul>
@@ -101,7 +101,7 @@
 </li>
 <li>Delivered deliverables:
 <ul>
-<li><a href="https://github.com/vacp2p/nim-libp2p#1324" class="external">vacp2p/nim-libp2p#1324</a> feat(kad-dht): find nodes</li>
+<li><a href="https://github.com/vacp2p/nim-libp2p#1324" class="external external-link">vacp2p/nim-libp2p#1324<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> feat(kad-dht): find nodes</li>
 </ul>
 </li>
 </ul>
@@ -125,14 +125,14 @@
 </li>
 <li>Delivered deliverables
 <ul>
-<li>Libp2p Day presentation: <a href="https://www.youtube.com/watch?v=N3KAPPRlRp4" class="external">Intro to nim-libp2p</a></li>
+<li>Libp2p Day presentation: <a href="https://www.youtube.com/watch?v=N3KAPPRlRp4" class="external external-link">Intro to nim-libp2p<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<h3 id="tokenomics">Tokenomics<a aria-hidden="true" tabindex="-1" href="#tokenomics" class="internal"> §</a></h3>
-<h4 id="highlights-1">highlights<a aria-hidden="true" tabindex="-1" href="#highlights-1" class="internal"> §</a></h4>
+<h3 id="tokenomics">Tokenomics<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#tokenomics" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h4 id="highlights-1">highlights<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#highlights-1" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li>Studied and implemented tier derivation logic using relational definitions and thresholds; demonstrated via a Streamlit dashboard.</li>
 <li>Reviewed and discussed block rewards, blockspace design, and NomosDA specs in collaboration with the Nomos team.</li>
@@ -143,7 +143,7 @@
 <li>Modeled LOGOS–BU arbitrage dynamics across multi-venue liquidity paths (LOGOS/ETH, BU/ETH, Treasury) under price shock conditions.</li>
 <li>Designed and evaluated a redemption throttling system using the Swing Adjustment Factor to mitigate fast value extraction during arbitrage windows.</li>
 </ul>
-<h4 id="report-1">report<a aria-hidden="true" tabindex="-1" href="#report-1" class="internal"> §</a></h4>
+<h4 id="report-1">report<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#report-1" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li>
 <p><code>vac:tke:status:karma-incentives</code></p>
@@ -201,8 +201,8 @@
 </ul>
 </li>
 </ul>
-<h3 id="qa">QA<a aria-hidden="true" tabindex="-1" href="#qa" class="internal"> §</a></h3>
-<h4 id="highlights-2">highlights<a aria-hidden="true" tabindex="-1" href="#highlights-2" class="internal"> §</a></h4>
+<h3 id="qa">QA<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#qa" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h4 id="highlights-2">highlights<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#highlights-2" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li>Delivered complete Waku Store Sync test suite and enhanced 12h endurance job for Go bindings.</li>
 <li>Hardened JS-Waku filter tests under various network stress conditions.</li>
@@ -213,7 +213,7 @@
 <li>Cleaned up Status Desktop tests, fixed critical release issues, and reduced nightly runtime.</li>
 <li>Started Android Appium framework and prepared roadmap for future work.</li>
 </ul>
-<h4 id="report-2">report<a aria-hidden="true" tabindex="-1" href="#report-2" class="internal"> §</a></h4>
+<h4 id="report-2">report<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#report-2" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li>
 <p><code>waku:2025q3-interop-testing:jswaku-filter-hardening</code></p>
@@ -225,8 +225,8 @@
 </li>
 <li><strong>Delivered Deliverables:</strong>
 <ul>
-<li><a href="https://github.com/waku-org/js-waku/pull/2444" class="external">PR 2444</a></li>
-<li><a href="https://github.com/waku-org/js-waku/pull/2450" class="external">PR 2450</a></li>
+<li><a href="https://github.com/waku-org/js-waku/pull/2444" class="external external-link">PR 2444<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/waku-org/js-waku/pull/2450" class="external external-link">PR 2450<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -241,7 +241,7 @@
 </li>
 <li><strong>Delivered Deliverables:</strong>
 <ul>
-<li><a href="https://github.com/waku-org/waku-interop-tests/pull/128" class="external">PR 128</a></li>
+<li><a href="https://github.com/waku-org/waku-interop-tests/pull/128" class="external external-link">PR 128<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -256,8 +256,8 @@
 </li>
 <li><strong>Delivered Deliverables:</strong>
 <ul>
-<li><a href="https://github.com/waku-org/nwaku/issues/3518" class="external">Issue 3518</a></li>
-<li><a href="https://github.com/waku-org/waku-interop-tests/pull/130" class="external">PR 130</a></li>
+<li><a href="https://github.com/waku-org/nwaku/issues/3518" class="external external-link">Issue 3518<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/waku-org/waku-interop-tests/pull/130" class="external external-link">PR 130<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -272,8 +272,8 @@
 </li>
 <li><strong>Delivered Deliverables:</strong>
 <ul>
-<li><a href="https://github.com/waku-org/waku-interop-tests/pull/125" class="external">PR 125</a></li>
-<li><a href="https://github.com/waku-org/waku-interop-tests/pull/129" class="external">PR 129</a></li>
+<li><a href="https://github.com/waku-org/waku-interop-tests/pull/125" class="external external-link">PR 125<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/waku-org/waku-interop-tests/pull/129" class="external external-link">PR 129<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -288,7 +288,7 @@
 </li>
 <li><strong>Delivered Deliverables:</strong>
 <ul>
-<li><a href="https://github.com/waku-org/waku-go-bindings/pull/89" class="external">PR 89</a></li>
+<li><a href="https://github.com/waku-org/waku-go-bindings/pull/89" class="external external-link">PR 89<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -303,8 +303,8 @@
 </li>
 <li><strong>Delivered Deliverables:</strong>
 <ul>
-<li><a href="https://github.com/status-im/status-go/pull/6767" class="external">PR 6767</a></li>
-<li><a href="https://github.com/status-im/status-go/pull/6725" class="external">PR 6725</a></li>
+<li><a href="https://github.com/status-im/status-go/pull/6767" class="external external-link">PR 6767<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/status-im/status-go/pull/6725" class="external external-link">PR 6725<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -319,8 +319,8 @@
 </li>
 <li><strong>Delivered Deliverables:</strong>
 <ul>
-<li><a href="https://github.com/status-im/status-go/issues/6752" class="external">Issue 6752</a></li>
-<li><a href="https://github.com/status-im/status-go/pull/6746" class="external">PR 6746</a></li>
+<li><a href="https://github.com/status-im/status-go/issues/6752" class="external external-link">Issue 6752<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/status-im/status-go/pull/6746" class="external external-link">PR 6746<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -335,9 +335,9 @@
 </li>
 <li><strong>Delivered Deliverables:</strong>
 <ul>
-<li><a href="https://www.notion.so/status-staging-testing-guide-2248f96fb65c80efb5eafe029d964343" class="external">Staging Guide</a></li>
-<li><a href="https://www.notion.so/Nwaku-v0-36-in-status-staging-2248f96fb65c8023b38cd4901646a105" class="external">Nwaku v0.36 Test Report</a></li>
-<li><a href="https://www.notion.so/Waku-regression-testing-v0-36-2268f96fb65c8073bd6bce16733d09cb" class="external">Waku Regression Report</a></li>
+<li><a href="https://www.notion.so/status-staging-testing-guide-2248f96fb65c80efb5eafe029d964343" class="external external-link">Staging Guide<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Nwaku-v0-36-in-status-staging-2248f96fb65c8023b38cd4901646a105" class="external external-link">Nwaku v0.36 Test Report<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Waku-regression-testing-v0-36-2268f96fb65c8073bd6bce16733d09cb" class="external external-link">Waku Regression Report<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -352,9 +352,9 @@
 </li>
 <li><strong>Delivered Deliverables:</strong>
 <ul>
-<li><a href="https://www.notion.so/Keycard-Shell-Test-Results-22b8f96fb65c80faa06fcc195373624b" class="external">Results</a></li>
-<li><a href="https://github.com/keycard-tech/keycard-shell/issues/145" class="external">Issue 145</a></li>
-<li><a href="https://github.com/keycard-tech/keycard-shell/issues/81" class="external">Issue 81</a></li>
+<li><a href="https://www.notion.so/Keycard-Shell-Test-Results-22b8f96fb65c80faa06fcc195373624b" class="external external-link">Results<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/keycard-tech/keycard-shell/issues/145" class="external external-link">Issue 145<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/keycard-tech/keycard-shell/issues/81" class="external external-link">Issue 81<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -369,13 +369,13 @@
 </li>
 <li><strong>Delivered Deliverables:</strong>
 <ul>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1487" class="external">PR 1487</a></li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1495" class="external">PR 1495</a></li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1496" class="external">PR 1496</a></li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1501" class="external">PR 1501</a></li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1503" class="external">PR 1503</a></li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1508" class="external">PR 1508</a></li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1511" class="external">PR 1511</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1487" class="external external-link">PR 1487<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1495" class="external external-link">PR 1495<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1496" class="external external-link">PR 1496<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1501" class="external external-link">PR 1501<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1503" class="external external-link">PR 1503<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1508" class="external external-link">PR 1508<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1511" class="external external-link">PR 1511<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -390,9 +390,9 @@
 </li>
 <li><strong>Delivered Deliverables:</strong>
 <ul>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1544" class="external">PR 1544</a></li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1573" class="external">PR 1573</a></li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1577" class="external">PR 1577</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1544" class="external external-link">PR 1544<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1573" class="external external-link">PR 1573<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1577" class="external external-link">PR 1577<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -407,7 +407,7 @@
 </li>
 <li><strong>Delivered Deliverables:</strong>
 <ul>
-<li><a href="https://github.com/status-im/status-desktop/pulls" class="external">PRs 18351, 18368, 18380, 18390, 18398, 18407, 18414, 18427</a></li>
+<li><a href="https://github.com/status-im/status-desktop/pulls" class="external external-link">PRs 18351, 18368, 18380, 18390, 18398, 18407, 18414, 18427<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -422,8 +422,8 @@
 </li>
 <li><strong>Delivered Deliverables:</strong>
 <ul>
-<li><a href="https://github.com/status-im/status-desktop/issues" class="external">Issues 18395, 18396, 18412</a></li>
-<li><a href="https://github.com/status-im/status-desktop/pull/18411" class="external">PR 18411</a></li>
+<li><a href="https://github.com/status-im/status-desktop/issues" class="external external-link">Issues 18395, 18396, 18412<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/status-im/status-desktop/pull/18411" class="external external-link">PR 18411<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -438,8 +438,8 @@
 </li>
 <li><strong>Delivered Deliverables:</strong>
 <ul>
-<li><a href="https://github.com/status-im/status-desktop/pull/18366" class="external">PR 18366</a></li>
-<li><a href="https://github.com/status-im/status-desktop/issues/18436" class="external">Roadmap</a></li>
+<li><a href="https://github.com/status-im/status-desktop/pull/18366" class="external external-link">PR 18366<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/status-im/status-desktop/issues/18436" class="external external-link">Roadmap<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -470,13 +470,13 @@
 </ul>
 </li>
 </ul>
-<h3 id="dst">DST<a aria-hidden="true" tabindex="-1" href="#dst" class="internal"> §</a></h3>
-<h4 id="highlights-3">highlights<a aria-hidden="true" tabindex="-1" href="#highlights-3" class="internal"> §</a></h4>
+<h3 id="dst">DST<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#dst" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h4 id="highlights-3">highlights<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#highlights-3" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li>First report for status chat protocol benchmarks finished</li>
 <li>Found reproducible issues for nwaku Store protocol</li>
 </ul>
-<h4 id="report-3">report<a aria-hidden="true" tabindex="-1" href="#report-3" class="internal"> §</a></h4>
+<h4 id="report-3">report<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#report-3" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li><code>admin/misc</code>
 <ul>
@@ -491,12 +491,12 @@
 </li>
 <li>Delivered deliverables:
 <ul>
-<li><a href="https://www.notion.so/DST-retro-2025q2-2168f96fb65c8025b5d3f9e2ddb5ec61" class="external">Notion: Q2 DST retrospective</a></li>
-<li><a href="https://github.com/vacp2p/roadmap/pull/204/files" class="external">GH PR #204: DST Weekly</a></li>
-<li><a href="https://github.com/vacp2p/roadmap/pull/207" class="external">GH PR #207: DST Weekly</a></li>
-<li><a href="https://github.com/vacp2p/roadmap/pull/215" class="external">GH PR #215: DST Weekly</a></li>
-<li><a href="https://github.com/vacp2p/roadmap/pull/224" class="external">GH PR #224: DST Weekly</a></li>
-<li><a href="https://github.com/vacp2p/roadmap/pull/228" class="external">GH PR #228: DST Weekly</a></li>
+<li><a href="https://www.notion.so/DST-retro-2025q2-2168f96fb65c8025b5d3f9e2ddb5ec61" class="external external-link">Notion: Q2 DST retrospective<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/roadmap/pull/204/files" class="external external-link">GH PR #204: DST Weekly<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/roadmap/pull/207" class="external external-link">GH PR #207: DST Weekly<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/roadmap/pull/215" class="external external-link">GH PR #215: DST Weekly<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/roadmap/pull/224" class="external external-link">GH PR #224: DST Weekly<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/roadmap/pull/228" class="external external-link">GH PR #228: DST Weekly<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -526,32 +526,32 @@
 </li>
 <li>Delivered deliverables
 <ul>
-<li><a href="https://www.notion.so/Status-backend-chat-protocol-benchmarks-22a8f96fb65c80b3b49ec05b87edee3c" class="external">Notion: Status chat protocol benchmarks main document</a></li>
-<li><a href="https://www.notion.so/Subscription-Performance-2348f96fb65c80c6b04dc2100f3e1fea" class="external">Notion: Subscription performance</a></li>
-<li><a href="https://www.notion.so/Store-Performance-2368f96fb65c80889a10cfe276e51623" class="external">Notion: Store performance</a></li>
-<li><a href="https://www.notion.so/Message-sending-2368f96fb65c803fae4ac428bd0b7227" class="external">Notion: Message sending</a></li>
-<li><a href="https://www.notion.so/Request-to-join-community-Mix-2368f96fb65c80998456d81b39a2df93" class="external">Notion: Join community mix</a></li>
-<li><a href="https://www.notion.so/Idle-Relay-2368f96fb65c8029b825eaedc8b56677" class="external">Notion: Idle relay</a></li>
-<li><a href="https://www.notion.so/Idle-Light-2368f96fb65c8093a283c2afc4748a4d" class="external">Notion: Idle light</a></li>
-<li><a href="https://www.notion.so/Contact-request-2368f96fb65c8039a772f2a90c034eb0" class="external">Notion: Contact request</a></li>
-<li><a href="https://www.notion.so/Send-one-to-one-message-2368f96fb65c8037a8b7eb0b8e9d9f69" class="external">Notion: Send one to one message</a></li>
-<li><a href="https://www.notion.so/Create-private-group-2368f96fb65c80629a16d3bdf388ac9d" class="external">Notion: Create private group</a></li>
-<li><a href="https://www.notion.so/Send-group-message-2368f96fb65c80d79b66d8e01701f845" class="external">Notion: Send group message</a></li>
-<li><a href="https://github.com/vacp2p/status-benchmarks/pull/12" class="external">GH PR #12: Status setup</a></li>
-<li><a href="https://github.com/vacp2p/status-benchmarks/pull/13" class="external">GH PR #13: Asyncio</a></li>
-<li><a href="https://github.com/vacp2p/status-benchmarks/pull/14" class="external">GH PR #14: Buffered queue</a></li>
-<li><a href="https://github.com/vacp2p/status-benchmarks/pull/15" class="external">GH PR #15: Status store benchmark</a></li>
-<li><a href="https://github.com/vacp2p/status-benchmarks/pull/16" class="external">GH PR #16: Message sending</a></li>
-<li><a href="https://github.com/vacp2p/status-benchmarks/pull/17" class="external">GH PR #17: Join communities mix</a></li>
-<li><a href="https://github.com/vacp2p/status-benchmarks/pull/18/" class="external">GH PR #18: Isolated traffic chat messages</a></li>
-<li><a href="https://github.com/vacp2p/status-benchmarks/pull/19" class="external">GH PR #19: Isolated traffic request to join</a></li>
-<li><a href="https://github.com/vacp2p/status-benchmarks/pull/20" class="external">GH PR #20: Minor improvements</a></li>
-<li><a href="https://github.com/vacp2p/status-benchmarks/pull/21" class="external">GH PR #21: Idle relay</a></li>
-<li><a href="https://github.com/vacp2p/status-benchmarks/pull/22" class="external">GH PR #22: Idle light</a></li>
-<li><a href="https://github.com/vacp2p/status-benchmarks/pull/23" class="external">GH PR #23: Contact request</a></li>
-<li><a href="https://github.com/vacp2p/status-benchmarks/pull/24" class="external">GH PR #24: Send one to one message</a></li>
-<li><a href="https://github.com/vacp2p/status-benchmarks/pull/25" class="external">GH PR #25: Create private group</a></li>
-<li><a href="https://github.com/vacp2p/status-benchmarks/pull/26" class="external">GH PR #26: Send group message</a></li>
+<li><a href="https://www.notion.so/Status-backend-chat-protocol-benchmarks-22a8f96fb65c80b3b49ec05b87edee3c" class="external external-link">Notion: Status chat protocol benchmarks main document<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Subscription-Performance-2348f96fb65c80c6b04dc2100f3e1fea" class="external external-link">Notion: Subscription performance<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Store-Performance-2368f96fb65c80889a10cfe276e51623" class="external external-link">Notion: Store performance<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Message-sending-2368f96fb65c803fae4ac428bd0b7227" class="external external-link">Notion: Message sending<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Request-to-join-community-Mix-2368f96fb65c80998456d81b39a2df93" class="external external-link">Notion: Join community mix<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Idle-Relay-2368f96fb65c8029b825eaedc8b56677" class="external external-link">Notion: Idle relay<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Idle-Light-2368f96fb65c8093a283c2afc4748a4d" class="external external-link">Notion: Idle light<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Contact-request-2368f96fb65c8039a772f2a90c034eb0" class="external external-link">Notion: Contact request<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Send-one-to-one-message-2368f96fb65c8037a8b7eb0b8e9d9f69" class="external external-link">Notion: Send one to one message<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Create-private-group-2368f96fb65c80629a16d3bdf388ac9d" class="external external-link">Notion: Create private group<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Send-group-message-2368f96fb65c80d79b66d8e01701f845" class="external external-link">Notion: Send group message<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-benchmarks/pull/12" class="external external-link">GH PR #12: Status setup<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-benchmarks/pull/13" class="external external-link">GH PR #13: Asyncio<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-benchmarks/pull/14" class="external external-link">GH PR #14: Buffered queue<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-benchmarks/pull/15" class="external external-link">GH PR #15: Status store benchmark<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-benchmarks/pull/16" class="external external-link">GH PR #16: Message sending<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-benchmarks/pull/17" class="external external-link">GH PR #17: Join communities mix<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-benchmarks/pull/18/" class="external external-link">GH PR #18: Isolated traffic chat messages<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-benchmarks/pull/19" class="external external-link">GH PR #19: Isolated traffic request to join<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-benchmarks/pull/20" class="external external-link">GH PR #20: Minor improvements<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-benchmarks/pull/21" class="external external-link">GH PR #21: Idle relay<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-benchmarks/pull/22" class="external external-link">GH PR #22: Idle light<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-benchmarks/pull/23" class="external external-link">GH PR #23: Contact request<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-benchmarks/pull/24" class="external external-link">GH PR #24: Send one to one message<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-benchmarks/pull/25" class="external external-link">GH PR #25: Create private group<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-benchmarks/pull/26" class="external external-link">GH PR #26: Send group message<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Completed tasks
@@ -582,11 +582,11 @@
 </li>
 <li>Delivered deliverables
 <ul>
-<li><a href="https://github.com/vacp2p/10ksim/pull/73" class="external">GH PR #73: Update lightpush API from v1 to v3</a></li>
-<li><a href="https://github.com/waku-org/nwaku/issues/3524" class="external">GH Issue #3524: Bug in get store</a></li>
-<li><a href="https://www.notion.so/Waku-regression-testing-v0-36-June-2025-21c8f96fb65c804dab04d676c2a6121e" class="external">Notion: nWaku v0.36</a></li>
-<li><a href="https://www.notion.so/Experiments-for-nWaku-v36-0-21e8f96fb65c801e9ffcd25cf0d88370#21f8f96fb65c806fafe3dbf5f8025459" class="external">Notion: Experiment notes</a></li>
-<li><a href="https://www.notion.so/Waku-Discv5-analysis-over-time-2378f96fb65c80a5b60bc24d09b5de3a?showMoveTo=true&amp;saveParent=true" class="external">Notion: Discv5 notes</a></li>
+<li><a href="https://github.com/vacp2p/10ksim/pull/73" class="external external-link">GH PR #73: Update lightpush API from v1 to v3<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/waku-org/nwaku/issues/3524" class="external external-link">GH Issue #3524: Bug in get store<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Waku-regression-testing-v0-36-June-2025-21c8f96fb65c804dab04d676c2a6121e" class="external external-link">Notion: nWaku v0.36<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Experiments-for-nWaku-v36-0-21e8f96fb65c801e9ffcd25cf0d88370#21f8f96fb65c806fafe3dbf5f8025459" class="external external-link">Notion: Experiment notes<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Waku-Discv5-analysis-over-time-2378f96fb65c80a5b60bc24d09b5de3a?showMoveTo=true&amp;saveParent=true" class="external external-link">Notion: Discv5 notes<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Completed tasks
@@ -608,9 +608,9 @@
 </li>
 <li>Delivered deliverables
 <ul>
-<li><a href="https://github.com/vacp2p/10ksim/pull/74" class="external">GH PR #74:Make regression experiments self contained</a></li>
-<li><a href="https://github.com/vacp2p/10ksim/pull/75" class="external">GH PR #75: Add get filter messages and get store messages</a></li>
-<li><a href="https://github.com/vacp2p/10ksim/pull/76" class="external">GH PR #76: X axis fix</a></li>
+<li><a href="https://github.com/vacp2p/10ksim/pull/74" class="external external-link">GH PR #74:Make regression experiments self contained<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/10ksim/pull/75" class="external external-link">GH PR #75: Add get filter messages and get store messages<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/10ksim/pull/76" class="external external-link">GH PR #76: X axis fix<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Completed tasks
@@ -629,7 +629,7 @@
 </li>
 <li>Delivered deliverables
 <ul>
-<li><a href="https://forum.vac.dev/t/dst-reports-q2/528" class="external">Forum post</a></li>
+<li><a href="https://forum.vac.dev/t/dst-reports-q2/528" class="external external-link">Forum post<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Completed tasks
@@ -640,14 +640,14 @@
 </ul>
 </li>
 </ul>
-<h3 id="sc">SC<a aria-hidden="true" tabindex="-1" href="#sc" class="internal"> §</a></h3>
-<h4 id="highlights-4">highlights<a aria-hidden="true" tabindex="-1" href="#highlights-4" class="internal"> §</a></h4>
+<h3 id="sc">SC<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#sc" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h4 id="highlights-4">highlights<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#highlights-4" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li>Yield bridge work has been taken over by Linea</li>
 <li>Presented Constant Function Market Makers</li>
 <li>Participated in audit contest</li>
 </ul>
-<h4 id="report-4">report<a aria-hidden="true" tabindex="-1" href="#report-4" class="internal"> §</a></h4>
+<h4 id="report-4">report<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#report-4" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li><code>status:2025q2-sn-native-bridge-yield-bearing-module</code>
 <ul>
@@ -681,7 +681,7 @@
 </li>
 <li><strong>Deliverables</strong>
 <ul>
-<li><a href="https://github.com/vacp2p/staking-reward-streamer/pull/228" class="external">Refactor PR</a></li>
+<li><a href="https://github.com/vacp2p/staking-reward-streamer/pull/228" class="external external-link">Refactor PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -712,34 +712,34 @@
 </li>
 <li><strong>Deliverables</strong>
 <ul>
-<li><a href="https://drive.google.com/file/d/159MFMSabAgDiMpXteohZAWFT48qeqlZ2/view?usp=sharing" class="external">Video Recording of LearnUp Session</a></li>
+<li><a href="https://drive.google.com/file/d/159MFMSabAgDiMpXteohZAWFT48qeqlZ2/view?usp=sharing" class="external external-link">Video Recording of LearnUp Session<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<h3 id="acz">ACZ<a aria-hidden="true" tabindex="-1" href="#acz" class="internal"> §</a></h3>
-<h4 id="highlights-5">highlights<a aria-hidden="true" tabindex="-1" href="#highlights-5" class="internal"> §</a></h4>
+<h3 id="acz">ACZ<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#acz" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h4 id="highlights-5">highlights<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#highlights-5" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li>Zerokit has new improved CI</li>
 <li>Zerokit has new rln-wasm feature where stateless feature enablement is standardized.</li>
 </ul>
-<h4 id="report-5">report<a aria-hidden="true" tabindex="-1" href="#report-5" class="internal"> §</a></h4>
+<h4 id="report-5">report<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#report-5" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li><code>ift:2025q3-de-mls-testnet</code>
 <ul>
 <li>Overview:
 <ul>
 <li>Improved CI in scope of <code>ift:2025q3-de-mls-tesnet:de-mls-maintaining</code> task</li>
-<li>Started to implementation of <a href="https://github.com/vacp2p/rfc-index/tree/consensus-hashgraph-like" class="external">consensus RFC</a></li>
+<li>Started to implementation of <a href="https://github.com/vacp2p/rfc-index/tree/consensus-hashgraph-like" class="external external-link">consensus RFC<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 <li>Prepare de-MLS RFC to merge</li>
 </ul>
 </li>
 <li>Delivered deliverables:
 <ul>
-<li><a href="https://github.com/vacp2p/de-mls/pull/42" class="external">Improved CI PR</a></li>
-<li><a href="https://github.com/vacp2p/de-mls/tree/feat_consensus" class="external">Consensus implementation branch</a></li>
-<li><a href="https://github.com/vacp2p/rfc-index/pull/166" class="external">de-MLS RFC PR</a></li>
+<li><a href="https://github.com/vacp2p/de-mls/pull/42" class="external external-link">Improved CI PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/de-mls/tree/feat_consensus" class="external external-link">Consensus implementation branch<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/rfc-index/pull/166" class="external external-link">de-MLS RFC PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Completed tasks:</li>
@@ -750,13 +750,13 @@
 <li>Overview:</li>
 <li>Delivered deliverables:
 <ul>
-<li><a href="https://github.com/vacp2p/zerokit/pull/332" class="external">rln-wasm-utils PR</a></li>
-<li><a href="https://github.com/vacp2p/zerokit/pull/329" class="external">resolve overlap between stateless and merkletree PR</a></li>
-<li><a href="https://github.com/vacp2p/zerokit/pull/328" class="external">add wasm parallel testcase</a></li>
-<li><a href="https://github.com/vacp2p/zerokit/pull/326" class="external">support feature-specific binary generation</a></li>
-<li><a href="https://github.com/vacp2p/zerokit/pull/325" class="external">improve CI</a></li>
-<li><a href="https://github.com/vacp2p/zerokit/pull/324" class="external">Add pmtree delete function docstring</a></li>
-<li><a href="https://www.notion.so/RLN-Deployment-Spec-on-Review-1f98f96fb65c806c8737d94851b4d14d#23b8f96fb65c80e79bbfed04f699f74f" class="external">Draft specs of SN RLN deployment</a></li>
+<li><a href="https://github.com/vacp2p/zerokit/pull/332" class="external external-link">rln-wasm-utils PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/zerokit/pull/329" class="external external-link">resolve overlap between stateless and merkletree PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/zerokit/pull/328" class="external external-link">add wasm parallel testcase<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/zerokit/pull/326" class="external external-link">support feature-specific binary generation<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/zerokit/pull/325" class="external external-link">improve CI<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/zerokit/pull/324" class="external external-link">Add pmtree delete function docstring<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/RLN-Deployment-Spec-on-Review-1f98f96fb65c806c8737d94851b4d14d#23b8f96fb65c80e79bbfed04f699f74f" class="external external-link">Draft specs of SN RLN deployment<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Completed tasks:</li>
@@ -767,20 +767,20 @@
 <li>Overview:
 <ul>
 <li>Release a draft RLN deployment spec</li>
-<li>Added track and monitoring features to the <a href="https://github.com/vacp2p/status-rln-prover" class="external">rln-prover</a> repo</li>
-<li>Added unit tests in scope of <a href="https://roadmap.vac.dev/acz/ift/2025q3-rln-status-l2#e2e-prover-module-testing" class="external">e2e-prover-testing task</a></li>
+<li>Added track and monitoring features to the <a href="https://github.com/vacp2p/status-rln-prover" class="external external-link">rln-prover<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> repo</li>
+<li>Added unit tests in scope of <a href="https://roadmap.vac.dev/acz/ift/2025q3-rln-status-l2#e2e-prover-module-testing" class="external external-link">e2e-prover-testing task<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Delivered deliverables:
 <ul>
-<li><a href="https://github.com/vacp2p/status-rln-prover/pull/23" class="external">Update for new KarmaTiers smart contract PR</a></li>
-<li><a href="https://github.com/vacp2p/status-rln-prover/pull/22" class="external">Add throughput measurement PR</a></li>
-<li><a href="https://github.com/vacp2p/status-rln-prover/pull/20" class="external">Add histogram metrics PR</a></li>
-<li><a href="https://github.com/vacp2p/status-rln-prover/pull/19" class="external">tracing + oltp PR</a></li>
-<li><a href="https://github.com/vacp2p/status-rln-prover/pull/18" class="external">Add initial metrics for Prometheus PR</a></li>
-<li><a href="https://github.com/vacp2p/status-rln-prover/pull/17" class="external">Improve test_notify unit test PR </a></li>
-<li><a href="https://github.com/vacp2p/status-rln-prover/pull/16" class="external">Initial benchmarks proof generation PR</a></li>
-<li><a href="https://github.com/vacp2p/status-rln-prover/pull/15" class="external">E2E grpc test PR</a></li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/23" class="external external-link">Update for new KarmaTiers smart contract PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/22" class="external external-link">Add throughput measurement PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/20" class="external external-link">Add histogram metrics PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/19" class="external external-link">tracing + oltp PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/18" class="external external-link">Add initial metrics for Prometheus PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/17" class="external external-link">Improve test_notify unit test PR <svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/16" class="external external-link">Initial benchmarks proof generation PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/15" class="external external-link">E2E grpc test PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Completed tasks:
@@ -799,8 +799,8 @@
 </li>
 <li>Delivered deliverables:
 <ul>
-<li><a href="https://www.youtube.com/watch?v=laZADpEj7v0" class="external">Presentation record</a></li>
-<li><a href="https://forum.vac.dev/t/arithmetic-circuit-representations/525" class="external">Forum post</a></li>
+<li><a href="https://www.youtube.com/watch?v=laZADpEj7v0" class="external external-link">Presentation record<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://forum.vac.dev/t/arithmetic-circuit-representations/525" class="external external-link">Forum post<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Completed tasks:
@@ -814,17 +814,17 @@
 <ul>
 <li>Overview:
 <ul>
-<li>Update the mix-repo <a href="https://github.com/vacp2p/dst-gossipsub-test-node/tree/dst-changes" class="external">DST branch</a> for benchmarking</li>
+<li>Update the mix-repo <a href="https://github.com/vacp2p/dst-gossipsub-test-node/tree/dst-changes" class="external external-link">DST branch<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> for benchmarking</li>
 <li>Updating libp2p-mix RFC with latest updates</li>
-<li>Investigating the <a href="https://github.com/vacp2p/mix/issues/61" class="external">issue</a></li>
+<li>Investigating the <a href="https://github.com/vacp2p/mix/issues/61" class="external external-link">issue<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 <li>Consulting to p2p team by reviewing PRs.</li>
 <li>Continueing the multi-surb design as a RFC section.</li>
 </ul>
 </li>
 <li>Delivered deliverables:
 <ul>
-<li><a href="https://github.com/vacp2p/rfc-index/tree/mix-rev1-continue" class="external">A branch for update RFC</a></li>
-<li><a href="https://github.com/vacp2p/dst-gossipsub-test-node/tree/dst-changes" class="external">DST branch for benchmarking</a></li>
+<li><a href="https://github.com/vacp2p/rfc-index/tree/mix-rev1-continue" class="external external-link">A branch for update RFC<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/dst-gossipsub-test-node/tree/dst-changes" class="external external-link">DST branch for benchmarking<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Completed tasks:
@@ -844,9 +844,9 @@
 </li>
 <li>Delivered deliverables:
 <ul>
-<li><a href="https://www.notion.so/Proposal-Merkle-tree-as-UTXO-commitment-2308f96fb65c80e68523d3a8435e6290" class="external">New UTXO proposal</a></li>
-<li><a href="https://www.notion.so/zkVM-benchmark-results-22b8f96fb65c805d985cedbab0f7130d" class="external">zkVM benchmark doc</a></li>
-<li><a href="https://www.notion.so/NSSA-as-a-Cosmos-Zone-2388f96fb65c8042ad4ae1e805fcc604" class="external">NSSA as a cosmos zone doc</a></li>
+<li><a href="https://www.notion.so/Proposal-Merkle-tree-as-UTXO-commitment-2308f96fb65c80e68523d3a8435e6290" class="external external-link">New UTXO proposal<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/zkVM-benchmark-results-22b8f96fb65c805d985cedbab0f7130d" class="external external-link">zkVM benchmark doc<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/NSSA-as-a-Cosmos-Zone-2388f96fb65c8042ad4ae1e805fcc604" class="external external-link">NSSA as a cosmos zone doc<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Completed tasks:
@@ -875,9 +875,9 @@
 </ul>
 </li>
 </ul>
-<h3 id="rfc">RFC<a aria-hidden="true" tabindex="-1" href="#rfc" class="internal"> §</a></h3>
-<h4 id="highlights-6">highlights<a aria-hidden="true" tabindex="-1" href="#highlights-6" class="internal"> §</a></h4>
-<h4 id="report-6">report<a aria-hidden="true" tabindex="-1" href="#report-6" class="internal"> §</a></h4>
+<h3 id="rfc">RFC<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#rfc" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h4 id="highlights-6">highlights<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#highlights-6" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<h4 id="report-6">report<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#report-6" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li>
 <p><code>vac:rfc:waku:2025q3-rfc-iteration</code></p>
@@ -890,8 +890,8 @@
 </li>
 <li>Delivered deliverables
 <ul>
-<li>RLN Keystore: <a href="https://github.com/waku-org/specs/pull/78" class="external">https://github.com/waku-org/specs/pull/78</a></li>
-<li>Qaku (draft): <a href="https://github.com/waku-org/specs/pull/77" class="external">https://github.com/waku-org/specs/pull/77</a></li>
+<li>RLN Keystore: <a href="https://github.com/waku-org/specs/pull/78" class="external external-link">https://github.com/waku-org/specs/pull/78<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Qaku (draft): <a href="https://github.com/waku-org/specs/pull/77" class="external external-link">https://github.com/waku-org/specs/pull/77<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Completed tasks
@@ -912,8 +912,8 @@
 </li>
 <li>Delivered deliverables
 <ul>
-<li>Mantle Digital Signature: <a href="https://github.com/vacp2p/rfc-index/pull/167" class="external">https://github.com/vacp2p/rfc-index/pull/167</a></li>
-<li>P2P Network Specification: <a href="https://github.com/vacp2p/rfc-index/pull/169" class="external">https://github.com/vacp2p/rfc-index/pull/169</a></li>
+<li>Mantle Digital Signature: <a href="https://github.com/vacp2p/rfc-index/pull/167" class="external external-link">https://github.com/vacp2p/rfc-index/pull/167<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>P2P Network Specification: <a href="https://github.com/vacp2p/rfc-index/pull/169" class="external external-link">https://github.com/vacp2p/rfc-index/pull/169<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Completed tasks
@@ -933,7 +933,7 @@
 </li>
 <li>Delivered deliverables
 <ul>
-<li>First draft: <a href="https://github.com/vacp2p/rfc-index/tree/codex/raw/codex-block-exchange-raw" class="external">https://github.com/vacp2p/rfc-index/tree/codex/raw/codex-block-exchange-raw</a></li>
+<li>First draft: <a href="https://github.com/vacp2p/rfc-index/tree/codex/raw/codex-block-exchange-raw" class="external external-link">https://github.com/vacp2p/rfc-index/tree/codex/raw/codex-block-exchange-raw<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Completed tasks
@@ -953,7 +953,7 @@
 </li>
 <li>Delivered deliverables
 <ul>
-<li>Staking RFC: <a href="https://github.com/vacp2p/rfc-index/pull/161" class="external">https://github.com/vacp2p/rfc-index/pull/161</a></li>
+<li>Staking RFC: <a href="https://github.com/vacp2p/rfc-index/pull/161" class="external external-link">https://github.com/vacp2p/rfc-index/pull/161<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Completed tasks
@@ -973,8 +973,8 @@
 </li>
 <li>Delivered deliverables
 <ul>
-<li>UTXO spec: <a href="https://github.com/vacp2p/rfc-index/pull/164" class="external">https://github.com/vacp2p/rfc-index/pull/164</a></li>
-<li>NSSA Key Protocol: <a href="https://github.com/vacp2p/rfc-index/pull/162" class="external">https://github.com/vacp2p/rfc-index/pull/162</a></li>
+<li>UTXO spec: <a href="https://github.com/vacp2p/rfc-index/pull/164" class="external external-link">https://github.com/vacp2p/rfc-index/pull/164<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>NSSA Key Protocol: <a href="https://github.com/vacp2p/rfc-index/pull/162" class="external external-link">https://github.com/vacp2p/rfc-index/pull/162<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Completed tasks
@@ -989,20 +989,20 @@
 <ul>
 <li>Overview
 <ul>
-<li>Reviewed MLS off-chain rfc - <a href="https://github.com/vacp2p/rfc-index/pull/166" class="external">https://github.com/vacp2p/rfc-index/pull/166</a></li>
+<li>Reviewed MLS off-chain rfc - <a href="https://github.com/vacp2p/rfc-index/pull/166" class="external external-link">https://github.com/vacp2p/rfc-index/pull/166<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<h3 id="nim">Nim<a aria-hidden="true" tabindex="-1" href="#nim" class="internal"> §</a></h3>
-<h4 id="highlights-7">highlights<a aria-hidden="true" tabindex="-1" href="#highlights-7" class="internal"> §</a></h4>
+<h3 id="nim">Nim<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#nim" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h4 id="highlights-7">highlights<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#highlights-7" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li>Continue work in Road to Nimble 1.0</li>
 <li>Nimble build system now supports NIMBLE_COMMIT</li>
 </ul>
-<h3 id="security">Security<a aria-hidden="true" tabindex="-1" href="#security" class="internal"> §</a></h3>
-<h4 id="highlights-8">highlights<a aria-hidden="true" tabindex="-1" href="#highlights-8" class="internal"> §</a></h4>
+<h3 id="security">Security<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#security" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h4 id="highlights-8">highlights<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#highlights-8" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li>Reviewed and updated the Master Wallet Index documentation</li>
 <li>Remove users and groups no longer needed in critical services and apps</li>
@@ -1013,7 +1013,7 @@
 <li>Fixed issues with Expensify PO process</li>
 <li>Mass PO monthly compensation dev workflow finalized</li>
 </ul>
-<h4 id="report-7">report<a aria-hidden="true" tabindex="-1" href="#report-7" class="internal"> §</a></h4>
+<h4 id="report-7">report<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#report-7" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li>
 <p><code>ift:2025q2-secure-treasury-management:signatory-registry-implementation</code></p>
@@ -1078,7 +1078,7 @@
 <li>Remove users and groups no longer needed in critical services and apps</li>
 <li><strong>Output:</strong>
 <ul>
-<li>Removed users no longer needed in Github. [<a href="https://github.com/enterprises/ift/settings/audit-log?q=action%3Ateam.remove_member" class="external">Reference</a>]</li>
+<li>Removed users no longer needed in Github. [<a href="https://github.com/enterprises/ift/settings/audit-log?q=action%3Ateam.remove_member" class="external external-link">Reference<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>]</li>
 <li>Completed extracting user details for user management (GitHub, Discord, Google)</li>
 <li>Continued workflows for identifying, verifying and removing access for leavers from systems</li>
 </ul>
@@ -1187,8 +1187,8 @@
 </ul>
 </li>
 </ul>
-<h3 id="nescience">Nescience<a aria-hidden="true" tabindex="-1" href="#nescience" class="internal"> §</a></h3>
-<h4 id="highlights-9">highlights<a aria-hidden="true" tabindex="-1" href="#highlights-9" class="internal"> §</a></h4>
+<h3 id="nescience">Nescience<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#nescience" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h4 id="highlights-9">highlights<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#highlights-9" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li>Investigated and chosen a zkVM that fits NSSA’s needs.</li>
 <li>Investigated and settled on a model for public and private state.</li>
@@ -1196,7 +1196,7 @@
 <li>Implemented a PoC for selective privacy.</li>
 <li>Result-wise, we have settled on Risczero as the best fit for NSSA and also designed the public and private states and accounts that allows us to use selective privacy within the architecture. Our code was also improved by working on and advanced version of the sequencer as well as adding integration tests.</li>
 </ul>
-<h4 id="report-8">report<a aria-hidden="true" tabindex="-1" href="#report-8" class="internal"> §</a></h4>
+<h4 id="report-8">report<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#report-8" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
 <ul>
 <li><code>vac:nes:state-separation-architecture-poc</code>
 <ul>
@@ -1224,29 +1224,29 @@
 </ul>
 </li>
 <li>
-<p>List of deliverables (ordered as in <a href="https://www.notion.so/State-separation-architecture-PoC-20c8f96fb65c801f91cecd37a727fd99" class="external">task management</a>):</p>
+<p>List of deliverables (ordered as in <a href="https://www.notion.so/State-separation-architecture-PoC-20c8f96fb65c801f91cecd37a727fd99" class="external external-link">task management<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>):</p>
 <ul>
-<li><a href="https://www.notion.so/Determinism-in-Risc0-s-implementation-of-rv32im-2248f96fb65c80efa57fea2f93c5fde2?source=copy_link" class="external">Determinism in R0</a></li>
-<li><a href="https://www.notion.so/Instruction-count-analysis-22a8f96fb65c80ada5e0f5d2b0857214?source=copy_link" class="external">Instruction count analysis</a></li>
-<li><a href="https://www.notion.so/Conclusions-and-POC-writeup-22c8f96fb65c80eab8ebc6dc98053873?source=copy_link" class="external">PoC of selective privacy</a></li>
-<li><a href="https://www.notion.so/zkVM-selection-2268f96fb65c805292eae929dde0c2ee?source=copy_link" class="external">zkVM analysis</a></li>
-<li><a href="https://www.notion.so/Conclusion-on-the-chosen-VM-and-zkVM-for-NSSA-2318f96fb65c806a810ed1300f56992d?source=copy_link" class="external">Conclusion on zkVM selection</a></li>
-<li><a href="https://www.notion.so/State-transition-mechanisms-2398f96fb65c8031849effa7ff739934?source=copy_link" class="external">State transition</a></li>
-<li><a href="https://www.notion.so/Ethereum-vs-Solana-analysis-2338f96fb65c80e38aeaf290c53971bc?source=copy_link" class="external">Ethereum vs. Solana</a></li>
-<li><a href="https://www.notion.so/Public-state-model-decision-2388f96fb65c80758b20c76de07b1fcc?source=copy_link" class="external">Public state model decision</a></li>
-<li><a href="https://github.com/vacp2p/nescience-testnet/pull/86" class="external">UTXO nullifier calculation fix and circuits updates</a></li>
-<li><a href="https://github.com/vacp2p/nescience-testnet/pull/87" class="external">Zkvm tests</a></li>
-<li><a href="https://github.com/vacp2p/nescience-testnet/pull/88" class="external">SequencerAccountsStore updates</a></li>
-<li><a href="https://github.com/vacp2p/nescience-testnet/pull/89" class="external">Remove precomputed hash from Transaction</a></li>
-<li><a href="https://github.com/vacp2p/nescience-testnet/pull/90" class="external">Bump risc0 version to 2.2</a></li>
-<li><a href="https://github.com/vacp2p/nescience-testnet/pull/93" class="external">Add MIT LICENSE</a></li>
-<li><a href="https://github.com/vacp2p/nescience-testnet/pull/78" class="external">Add clippy to CI</a></li>
-<li><a href="https://github.com/vacp2p/nescience-testnet/pull/91" class="external">Add signature validation for transactions in sequencer</a></li>
-<li><a href="https://github.com/vacp2p/nescience-testnet/pull/94" class="external">Add get account balance method to sequencer RPC server</a></li>
-<li><a href="https://github.com/vacp2p/nescience-testnet/pull/95" class="external">Add get transaction by hash method to RPC server</a></li>
-<li><a href="https://github.com/vacp2p/nescience-testnet/pull/92" class="external">State transition for token transfer</a></li>
-<li><a href="https://github.com/vacp2p/nescience-testnet/pull/97" class="external">Prevent replay attacks with nonce mechanism</a></li>
-<li><a href="https://github.com/vacp2p/nescience-testnet/pull/96" class="external">Integration tests</a></li>
+<li><a href="https://www.notion.so/Determinism-in-Risc0-s-implementation-of-rv32im-2248f96fb65c80efa57fea2f93c5fde2?source=copy_link" class="external external-link">Determinism in R0<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Instruction-count-analysis-22a8f96fb65c80ada5e0f5d2b0857214?source=copy_link" class="external external-link">Instruction count analysis<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Conclusions-and-POC-writeup-22c8f96fb65c80eab8ebc6dc98053873?source=copy_link" class="external external-link">PoC of selective privacy<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/zkVM-selection-2268f96fb65c805292eae929dde0c2ee?source=copy_link" class="external external-link">zkVM analysis<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Conclusion-on-the-chosen-VM-and-zkVM-for-NSSA-2318f96fb65c806a810ed1300f56992d?source=copy_link" class="external external-link">Conclusion on zkVM selection<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/State-transition-mechanisms-2398f96fb65c8031849effa7ff739934?source=copy_link" class="external external-link">State transition<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Ethereum-vs-Solana-analysis-2338f96fb65c80e38aeaf290c53971bc?source=copy_link" class="external external-link">Ethereum vs. Solana<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://www.notion.so/Public-state-model-decision-2388f96fb65c80758b20c76de07b1fcc?source=copy_link" class="external external-link">Public state model decision<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/86" class="external external-link">UTXO nullifier calculation fix and circuits updates<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/87" class="external external-link">Zkvm tests<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/88" class="external external-link">SequencerAccountsStore updates<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/89" class="external external-link">Remove precomputed hash from Transaction<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/90" class="external external-link">Bump risc0 version to 2.2<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/93" class="external external-link">Add MIT LICENSE<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/78" class="external external-link">Add clippy to CI<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/91" class="external external-link">Add signature validation for transactions in sequencer<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/94" class="external external-link">Add get account balance method to sequencer RPC server<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/95" class="external external-link">Add get transaction by hash method to RPC server<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/92" class="external external-link">State transition for token transfer<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/97" class="external external-link">Prevent replay attacks with nonce mechanism<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nescience-testnet/pull/96" class="external external-link">Integration tests<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>
@@ -1261,64 +1261,14 @@
 </li>
 </ul>
 </li>
-</ul></article></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
-	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
-	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
-	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
-	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
-	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
-	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
-	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
-	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
-	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
-	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#p2p" data-for="p2p">P2P</a></li><li class="depth-0"><a href="#tokenomics" data-for="tokenomics">Tokenomics</a></li><li class="depth-0"><a href="#qa" data-for="qa">QA</a></li><li class="depth-0"><a href="#dst" data-for="dst">DST</a></li><li class="depth-0"><a href="#sc" data-for="sc">SC</a></li><li class="depth-0"><a href="#acz" data-for="acz">ACZ</a></li><li class="depth-0"><a href="#rfc" data-for="rfc">RFC</a></li><li class="depth-0"><a href="#nim" data-for="nim">Nim</a></li><li class="depth-0"><a href="#security" data-for="security">Security</a></li><li class="depth-0"><a href="#nescience" data-for="nescience">Nescience</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a>, © 2026</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
-function toggleCallout() {
-  const outerBlock = this.parentElement;
-  outerBlock.classList.toggle(`is-collapsed`);
-  const collapsed = outerBlock.classList.contains(`is-collapsed`);
-  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
-  outerBlock.style.maxHeight = height + `px`;
-  let current = outerBlock;
-  let parent = outerBlock.parentElement;
-  while (parent) {
-    if (!parent.classList.contains(`callout`)) {
-      return;
-    }
-    const collapsed2 = parent.classList.contains(`is-collapsed`);
-    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
-    parent.style.maxHeight = height2 + `px`;
-    current = parent;
-    parent = parent.parentElement;
-  }
-}
-function setupCallout() {
-  const collapsible = document.getElementsByClassName(
-    `callout is-collapsible`
-  );
-  for (const div of collapsible) {
-    const title = div.firstElementChild;
-    if (title) {
-      title.removeEventListener(`click`, toggleCallout);
-      title.addEventListener(`click`, toggleCallout);
-      const collapsed = div.classList.contains(`is-collapsed`);
-      const height = collapsed ? title.scrollHeight : div.scrollHeight;
-      div.style.maxHeight = height + `px`;
-    }
-  }
-}
-document.addEventListener(`nav`, setupCallout);
-window.addEventListener(`resize`, setupCallout);
-</script><script type="module">
-          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
-          mermaid.initialize({
-            startOnLoad: false,
-            securityLevel: 'loose',
-            theme: darkMode ? 'dark' : 'default'
-          });
-          document.addEventListener('nav', async () => {
-            await mermaid.run({
-              querySelector: '.mermaid'
-            })
-          });
-          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js?v=mronsb2m" type="module"></script></html>
+</ul></div></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="desktop-only"><div class="toc"><button type="button" class="toc-header" aria-controls="toc-393" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-0" class="toc-content overflow"><li class="depth-0"><a href="#p2p" data-for="p2p">P2P</a></li><li class="depth-0"><a href="#tokenomics" data-for="tokenomics">Tokenomics</a></li><li class="depth-0"><a href="#qa" data-for="qa">QA</a></li><li class="depth-0"><a href="#dst" data-for="dst">DST</a></li><li class="depth-0"><a href="#sc" data-for="sc">SC</a></li><li class="depth-0"><a href="#acz" data-for="acz">ACZ</a></li><li class="depth-0"><a href="#rfc" data-for="rfc">RFC</a></li><li class="depth-0"><a href="#nim" data-for="nim">Nim</a></li><li class="depth-0"><a href="#security" data-for="security">Security</a></li><li class="depth-0"><a href="#nescience" data-for="nescience">Nescience</a></li><li class="overflow-end"></li></ul></div></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v5.0.0</a> © 2026</p><ul><li><a href="https://github.com/vacp2p/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></div></body><script src="../static/resource-after-e13fffa1.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-8b336f9a.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-baba652b.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-5eb75950.js" type="module" data-persist="true"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript-cad920a4.js" type="module" data-persist="true"></script></html>

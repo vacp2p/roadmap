@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html><head><title>2025-10-13 Vac weekly</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="2025-10-13 Vac weekly"/><meta property="og:description" content="Vac 2025/10/13 § highlights § QA: Status-go functional testing progressed with new community chat tests. QA: Waku RLN contract property-based fuzz tests refined; adversarial security tests in progress."/><meta property="og:image" content="https://roadmap.vac.dev/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Vac 2025/10/13 § highlights § QA: Status-go functional testing progressed with new community chat tests. QA: Waku RLN contract property-based fuzz tests refined; adversarial security tests in progress."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css?v=mronsb2m" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=sans-serif:wght@400;700&amp;family=sans-serif:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js?v=mronsb2m" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json?v=mronsb2m`).then(data => data.json())</script></head><body data-slug="weeklies/2025-10-13"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title "><a href="..">IFT-TS Roadmaps and Reports</a></h1><div class="spacer mobile-only"></div><div class="search "><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode "><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true"><h1>Explorer</h1><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container " aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="..">Home</a><p> > </p></div><div class="breadcrumb-element"><a href="../weeklies/">weeklies</a><p> > </p></div><div class="breadcrumb-element"><a href>2025-10-13 Vac weekly</a></div></nav><h1 class="article-title ">2025-10-13 Vac weekly</h1><p class="content-meta ">Oct 13, 2025, 8 min read</p><ul class="tags "><li><a href="../tags/vac-updates" class="internal tag-link">#vac-updates</a></li></ul></div></div><div class="weekly-report"><div class="weekly-stats-bar"><div class="stat"><div class="stat-value" id="stat-teams">0</div><div class="stat-label">Teams</div></div><div class="stat"><div class="stat-value" id="stat-prs">0</div><div class="stat-label">GitHub Links</div></div></div><div class="weekly-controls"><input type="text" class="weekly-search" id="weekly-search" placeholder="Search updates, PRs, teams..."/><div class="weekly-filters"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="github">GitHub</button><button class="filter-btn" data-filter="internal">Internal</button><button class="filter-btn" data-filter="external">External</button></div></div><div class="weekly-legend"><span class="legend-title">Link Types:</span><span class="legend-item"><span class="legend-color github"></span><span>GitHub</span></span><span class="legend-item"><span class="legend-color internal"></span><span>Internal (roadmap.vac.dev)</span></span><span class="legend-item"><span class="legend-color external"></span><span>External</span></span><span class="legend-item"><span class="legend-color task-id"></span><span>Task ID</span></span></div><div class="weekly-tabs" id="weekly-tabs"><button class="team-tab active" data-team="all">All Teams</button><button class="team-tab" data-team="bi" title="Business Intelligence">BI<span class="tab-badge" id="badge-bi">0</span></button><button class="team-tab" data-team="dst" title="Distributed Systems Testing">DST<span class="tab-badge" id="badge-dst">0</span></button><button class="team-tab" data-team="nim" title="Language &amp; Libraries">Nim<span class="tab-badge" id="badge-nim">0</span></button><button class="team-tab" data-team="p2p" title="Peer-to-Peer">P2P<span class="tab-badge" id="badge-p2p">0</span></button><button class="team-tab" data-team="qa" title="Quality Assurance">QA<span class="tab-badge" id="badge-qa">0</span></button><button class="team-tab" data-team="rfc" title="Request for Comments">RFC<span class="tab-badge" id="badge-rfc">0</span></button><button class="team-tab" data-team="sc" title="Smart Contracts">SC<span class="tab-badge" id="badge-sc">0</span></button><button class="team-tab" data-team="sec" title="Security">SEC<span class="tab-badge" id="badge-sec">0</span></button><button class="team-tab" data-team="tke" title="Token Economics">TKE<span class="tab-badge" id="badge-tke">0</span></button><button class="team-tab" data-team="web" title="Web Development">WEB<span class="tab-badge" id="badge-web">0</span></button><button class="team-tab" data-team="infra" title="Infrastructure">INFRA<span class="tab-badge" id="badge-infra">0</span></button></div><article class="popover-hint weekly-content show-all" id="weekly-content"><h2 id="vac-20251013">Vac 2025/10/13<a aria-hidden="true" tabindex="-1" href="#vac-20251013" class="internal" data-link-type="internal"> §</a></h2>
-<h3 id="highlights">highlights<a aria-hidden="true" tabindex="-1" href="#highlights" class="internal" data-link-type="internal"> §</a></h3>
+<html lang="en" dir="ltr"><head><title>2025-10-13 Vac weekly</title><meta charset="utf-8"/><link rel="preload" href="../index-d96f1e41.css" as="style"/><link rel="preload" href="../prescript-ee7931aa.js" as="script"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;family=Inter:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="IFT-TS Roadmaps and Reports"/><meta property="og:title" content="2025-10-13 Vac weekly"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="2025-10-13 Vac weekly"/><meta name="twitter:description" content="Vac 2025/10/13 highlights QA: Status-go functional testing progressed with new community chat tests."/><meta property="og:description" content="Vac 2025/10/13 highlights QA: Status-go functional testing progressed with new community chat tests."/><meta property="og:image:alt" content="Vac 2025/10/13 highlights QA: Status-go functional testing progressed with new community chat tests."/><meta property="og:image" content="https://roadmap.vac.dev/static/og-image.png"/><meta property="og:image:url" content="https://roadmap.vac.dev/static/og-image.png"/><meta name="twitter:image" content="https://roadmap.vac.dev/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="roadmap.vac.dev"/><meta property="og:url" content="https://roadmap.vac.dev/weeklies/2025-10-13"/><meta property="twitter:url" content="https://roadmap.vac.dev/weeklies/2025-10-13"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Vac 2025/10/13 highlights QA: Status-go functional testing progressed with new community chat tests."/><meta name="generator" content="Quartz"/><link href="../index-d96f1e41.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-735924e0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-589c1cea.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-2911f5d1.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-7f220492.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-53b25b2b.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-c93c6a44.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-8a06014f.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-77d6a441.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-1ea6ad18.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-34bdfded.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-788c9ca3.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-4abc06bd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-274a3dfe.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-94cb6c84.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-b848783d.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-bbc3f7c0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-a5c806d2.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-6bd36952.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript-ee7931aa.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script></head><body data-slug="weeklies/2025-10-13" data-basepath><div id="quartz-root" class="page" data-frame="default"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">IFT-TS Roadmaps and Reports</a></h2><div class="mobile-only"><div class="spacer"></div></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" aria-label="Search" aria-expanded="false"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something..." placeholder="Search for something..."/><div class="search-layout" data-preview="true" data-field-priority="[&quot;title&quot;,&quot;content&quot;,&quot;tags&quot;]"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode" aria-label="Dark mode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div></div><div class="desktop-only"><div class="explorer nav-files-container" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a2, b2) => {\n    if (!a2.isFolder &amp;&amp; !b2.isFolder || a2.isFolder &amp;&amp; b2.isFolder) {\n      return (a2.displayName || \&quot;\&quot;).localeCompare(b2.displayName || \&quot;\&quot;, void 0, {\n        numeric: true,\n        sensitivity: \&quot;base\&quot;\n      });\n    }\n    if (!a2.isFolder &amp;&amp; b2.isFolder) {\n      return 1;\n    }\n    return -1;\n  }&quot;,&quot;filterFn&quot;:&quot;(node) => node.slugSegment !== \&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;(node) => {\n    return node;\n  }&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-877" aria-label="Explorer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-877" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#" class="nav-file-title tree-item-self"></a></li></template><template id="template-folder"><li><div class="folder-container nav-folder-title tree-item-self"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon nav-folder-collapse-indicator collapse-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content tree-item-children"></ul></div></li></template></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../weeklies/">weeklies</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>2025-10-13 Vac weekly</a></div></nav><h1 class="article-title">2025-10-13 Vac weekly</h1><p show-comma="true" class="content-meta"><time datetime="2025-10-13T00:00:00.000Z">Oct 13, 2025</time><span>8 min read</span></p><ul class="tags"><li><a href="../tags/vac-updates" class="internal tag-link">vac-updates</a></li></ul></div></div><div class="weekly-report"><div class="weekly-stats-bar"><div class="stat"><div class="stat-value" id="stat-teams">0</div><div class="stat-label">Teams</div></div><div class="stat"><div class="stat-value" id="stat-prs">0</div><div class="stat-label">GitHub Links</div></div></div><div class="weekly-controls"><input type="text" class="weekly-search" id="weekly-search" placeholder="Search updates, PRs, teams..."/><div class="weekly-filters"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="github">GitHub</button><button class="filter-btn" data-filter="internal">Internal</button><button class="filter-btn" data-filter="external">External</button></div></div><div class="weekly-legend"><span class="legend-title">Link Types:</span><span class="legend-item"><span class="legend-color github"></span><span>GitHub</span></span><span class="legend-item"><span class="legend-color internal"></span><span>Internal (roadmap.vac.dev)</span></span><span class="legend-item"><span class="legend-color external"></span><span>External</span></span><span class="legend-item"><span class="legend-color task-id"></span><span>Task ID</span></span></div><div class="weekly-tabs" id="weekly-tabs"><button class="team-tab active" data-team="all">All Teams</button><button class="team-tab" data-team="bi" title="Business Intelligence">BI<span class="tab-badge" id="badge-bi">0</span></button><button class="team-tab" data-team="dst" title="Distributed Systems Testing">DST<span class="tab-badge" id="badge-dst">0</span></button><button class="team-tab" data-team="nim" title="Language &amp; Libraries">Nim<span class="tab-badge" id="badge-nim">0</span></button><button class="team-tab" data-team="p2p" title="Peer-to-Peer">P2P<span class="tab-badge" id="badge-p2p">0</span></button><button class="team-tab" data-team="qa" title="Quality Assurance">QA<span class="tab-badge" id="badge-qa">0</span></button><button class="team-tab" data-team="rfc" title="Request for Comments">RFC<span class="tab-badge" id="badge-rfc">0</span></button><button class="team-tab" data-team="sc" title="Smart Contracts">SC<span class="tab-badge" id="badge-sc">0</span></button><button class="team-tab" data-team="sec" title="Security">SEC<span class="tab-badge" id="badge-sec">0</span></button><button class="team-tab" data-team="tke" title="Token Economics">TKE<span class="tab-badge" id="badge-tke">0</span></button><button class="team-tab" data-team="web" title="Web Development">WEB<span class="tab-badge" id="badge-web">0</span></button><button class="team-tab" data-team="infra" title="Infrastructure">INFRA<span class="tab-badge" id="badge-infra">0</span></button></div><article class="popover-hint weekly-content show-all" id="weekly-content"><h2 id="vac-20251013">Vac 2025/10/13<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vac-20251013" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="highlights">highlights<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#highlights" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
 <li>QA: Status-go functional testing progressed with new community chat tests.</li>
 <li>QA: Waku RLN contract property-based fuzz tests refined; adversarial security tests in progress.</li>
@@ -12,20 +12,20 @@
 <li>ACZ: Shared a nim test for Zerokit FFI support.</li>
 <li>ACZ: Conduct IFT ZK call on verifiable credentials topic.</li>
 <li>ACZ: Released improvement on de-mls repo</li>
-<li>ACZ: Released initial discovery mechanism named <a href="https://www.notion.so/DISC-NG-Service-Discovery-Protocol-for-libp2p-Kademlia-DHT-28a8f96fb65c80888df7fc0de13f1e22" class="external" data-link-type="external">Disc-ng functionality on kad-dht</a></li>
-<li>Web: Integrating depositing by Aragon team <a href="https://github.com/status-im/status-web/issues/775" class="external" data-link-type="github" data-github-type="issue">https://github.com/status-im/status-web/issues/775</a></li>
+<li>ACZ: Released initial discovery mechanism named <a href="https://www.notion.so/DISC-NG-Service-Discovery-Protocol-for-libp2p-Kademlia-DHT-28a8f96fb65c80888df7fc0de13f1e22" class="external external-link" data-link-type="external">Disc-ng functionality on kad-dht<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Web: Integrating depositing by Aragon team <a href="https://github.com/status-im/status-web/issues/775" class="external external-link" data-link-type="github" data-github-type="issue">https://github.com/status-im/status-web/issues/775<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 <li>Web: Streamlining ticketing integration</li>
-<li>Web: Implementing A/B testing for <code>/farewell-to-westphalia</code> page <a href="https://github.com/acid-info/logos.co/pull/85" class="external" data-link-type="github" data-github-type="pr">https://github.com/acid-info/logos.co/pull/85</a></li>
+<li>Web: Implementing A/B testing for <code>/farewell-to-westphalia</code> page <a href="https://github.com/acid-info/logos.co/pull/85" class="external external-link" data-link-type="github" data-github-type="pr">https://github.com/acid-info/logos.co/pull/85<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 <li>Web: Using BI’s team GitHub data</li>
 </ul>
-<h3 id="vacp2p">vac:p2p:<a aria-hidden="true" tabindex="-1" href="#vacp2p" class="internal" data-link-type="internal"> §</a></h3>
+<h3 id="vacp2p">vac:p2p:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vacp2p" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
 <li><code>vac:p2p:ift:2025q4-nimlibp2p-quic:openssl-replacement</code>
 <ul>
-<li><a href="https://github.com/vacp2p/nim-ngtcp2/pull/21" class="external" data-link-type="github" data-github-type="pr">vacp2p/nim-ngtcp2#21</a> feat: replace picotls by aws-lc.</li>
-<li><a href="https://github.com/vacp2p/nim-quic/pull/140" class="external" data-link-type="github" data-github-type="pr">vacp2p/nim-quic#140</a> feat: use aws-lc</li>
+<li><a href="https://github.com/vacp2p/nim-ngtcp2/pull/21" class="external external-link" data-link-type="github" data-github-type="pr">vacp2p/nim-ngtcp2#21<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> feat: replace picotls by aws-lc.</li>
+<li><a href="https://github.com/vacp2p/nim-quic/pull/140" class="external external-link" data-link-type="github" data-github-type="pr">vacp2p/nim-quic#140<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> feat: use aws-lc</li>
 <li>Both of the previous PRs can’t be merged yet, as nim-libp2p still uses openssl for generating the certificates</li>
-<li>Attempted to extract aws-lc into a separate <a href="https://github.com/vacp2p/nim-awslc/pull/1" class="external" data-link-type="github" data-github-type="pr">repository</a>, however,
+<li>Attempted to extract aws-lc into a separate <a href="https://github.com/vacp2p/nim-awslc/pull/1" class="external external-link" data-link-type="github" data-github-type="pr">repository<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>, however,
 while attempting to use this repo as a dependency of nim-ngtcp2, some compilation errors appear due to missing libraries</li>
 </ul>
 </li>
@@ -33,64 +33,64 @@ while attempting to use this repo as a dependency of nim-ngtcp2, some compilatio
 Add additional logs to determine why are exit nodes running out of outgoing slots</li>
 <li><code>vac:p2p:ift:2025q4-nimlibp2p-maintenance:maintenance</code>
 <ul>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1751" class="external" data-link-type="github" data-github-type="pr">vacp2p/nim-libp2p#1751</a>: release v1.14.0</li>
-<li>chore(quic): better error handling <a href="https://github.com/vacp2p/nim-libp2p/pull/1747" class="external" data-link-type="github" data-github-type="pr">nim-libp2p#1747</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1751" class="external external-link" data-link-type="github" data-github-type="pr">vacp2p/nim-libp2p#1751<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>: release v1.14.0</li>
+<li>chore(quic): better error handling <a href="https://github.com/vacp2p/nim-libp2p/pull/1747" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1747<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 <li>Spent monday trying to get rid of <code>bearssl_pkey_decoder</code> but since bearssl won’t take a PR and we won’t move away from bearssl and we won’t import unrelated code into nim-libp2p, we’re stuck with that dependency</li>
-<li>chore(interop): update autonatv2 go-peer deps <a href="https://github.com/vacp2p/nim-libp2p/pull/1745" class="external" data-link-type="github" data-github-type="pr">nim-libp2p#1745</a></li>
+<li>chore(interop): update autonatv2 go-peer deps <a href="https://github.com/vacp2p/nim-libp2p/pull/1745" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1745<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>vac:p2p:ift:2025q4-nimlibp2p-quic:stabilization</code>
 <ul>
-<li>chore: specify raised errors <a href="https://github.com/vacp2p/nim-quic/pull/141" class="external" data-link-type="github" data-github-type="pr">nim-quic#141</a></li>
-<li>chore(test): add more api tests <a href="https://github.com/vacp2p/nim-quic/pull/146" class="external" data-link-type="github" data-github-type="pr">nim-quic#146</a></li>
-<li>fix: close conn after timeout <a href="https://github.com/vacp2p/nim-quic/pull/139" class="external" data-link-type="github" data-github-type="pr">nim-quic#139</a></li>
-<li>refactor(conn state): specify raised error and fix for method overriding <a href="https://github.com/vacp2p/nim-quic/pull/137" class="external" data-link-type="github" data-github-type="pr">nim-quic#137</a></li>
-<li>fix: reduce memory trashing by trySend <a href="https://github.com/vacp2p/nim-quic/pull/149" class="external" data-link-type="github" data-github-type="pr">nim-quic#149</a></li>
+<li>chore: specify raised errors <a href="https://github.com/vacp2p/nim-quic/pull/141" class="external external-link" data-link-type="github" data-github-type="pr">nim-quic#141<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>chore(test): add more api tests <a href="https://github.com/vacp2p/nim-quic/pull/146" class="external external-link" data-link-type="github" data-github-type="pr">nim-quic#146<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>fix: close conn after timeout <a href="https://github.com/vacp2p/nim-quic/pull/139" class="external external-link" data-link-type="github" data-github-type="pr">nim-quic#139<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>refactor(conn state): specify raised error and fix for method overriding <a href="https://github.com/vacp2p/nim-quic/pull/137" class="external external-link" data-link-type="github" data-github-type="pr">nim-quic#137<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>fix: reduce memory trashing by trySend <a href="https://github.com/vacp2p/nim-quic/pull/149" class="external external-link" data-link-type="github" data-github-type="pr">nim-quic#149<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>vac:p2p:ift:2025q4-nimlibp2p-kad-dht:network-maintenance-node-management</code>
 <ul>
-<li>feat(kad): add ping <a href="https://github.com/vacp2p/nim-libp2p/pull/1744" class="external" data-link-type="github" data-github-type="pr">nim-libp2p#1744</a></li>
-<li>chore(kad): routing table eviction policy <a href="https://github.com/vacp2p/nim-libp2p/pull/1746" class="external" data-link-type="github" data-github-type="pr">nim-libp2p#1746</a></li>
+<li>feat(kad): add ping <a href="https://github.com/vacp2p/nim-libp2p/pull/1744" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1744<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>chore(kad): routing table eviction policy <a href="https://github.com/vacp2p/nim-libp2p/pull/1746" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1746<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>vac:p2p:ift:2025q4-nimlibp2p-kad-dht:data-retrieval</code>
 <ul>
-<li>Tidy up putVal <a href="https://github.com/vacp2p/nim-libp2p/pull/1749" class="external" data-link-type="github" data-github-type="pr">nim-libp2p#1750</a></li>
-<li>Started implementing getvalue <a href="https://github.com/vacp2p/nim-libp2p/pull/1750" class="external" data-link-type="github" data-github-type="pr">nim-libp2p#1750</a></li>
+<li>Tidy up putVal <a href="https://github.com/vacp2p/nim-libp2p/pull/1749" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1750<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Started implementing getvalue <a href="https://github.com/vacp2p/nim-libp2p/pull/1750" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1750<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
-<h3 id="vactke">vac:tke:<a aria-hidden="true" tabindex="-1" href="#vactke" class="internal" data-link-type="internal"> §</a></h3>
-<h3 id="vacqa">vac:qa:<a aria-hidden="true" tabindex="-1" href="#vacqa" class="internal" data-link-type="internal"> §</a></h3>
+<h3 id="vactke">vac:tke:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vactke" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h3 id="vacqa">vac:qa:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vacqa" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
 <li><code>status:2025q4-status-go-functional-testing:waku</code>
 <ul>
-<li><a href="https://github.com/status-im/status-go/issues/6985" class="external" data-link-type="github" data-github-type="issue">Issue 6985: displayName ignored for wakuext_createCommunityChat</a></li>
-<li><a href="https://github.com/status-im/status-go/pull/6987" class="external" data-link-type="github" data-github-type="pr">PR 6987: community chats</a></li>
+<li><a href="https://github.com/status-im/status-go/issues/6985" class="external external-link" data-link-type="github" data-github-type="issue">Issue 6985: displayName ignored for wakuext_createCommunityChat<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/status-im/status-go/pull/6987" class="external external-link" data-link-type="github" data-github-type="pr">PR 6987: community chats<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>waku:2025q4-waku-testing:maintenance</code>
 <ul>
-<li>Retested <a href="https://github.com/waku-org/nwaku/issues/3572" class="external" data-link-type="github" data-github-type="issue">Issue 3572 fix</a></li>
-<li><a href="https://github.com/waku-org/waku-interop-tests/pull/139" class="external" data-link-type="github" data-github-type="pr">PR 139: fixes and adjustments</a></li>
+<li>Retested <a href="https://github.com/waku-org/nwaku/issues/3572" class="external external-link" data-link-type="github" data-github-type="issue">Issue 3572 fix<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/waku-org/waku-interop-tests/pull/139" class="external external-link" data-link-type="github" data-github-type="pr">PR 139: fixes and adjustments<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>waku:2025q4-rln-smart-contract-testing:property-based</code>
 <ul>
-<li><a href="https://github.com/waku-org/waku-rlnv2-contract/pull/40" class="external" data-link-type="github" data-github-type="pr">PR 40: fuzz test expansion</a></li>
+<li><a href="https://github.com/waku-org/waku-rlnv2-contract/pull/40" class="external external-link" data-link-type="github" data-github-type="pr">PR 40: fuzz test expansion<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 <li>Value range broadening and CI removal proposed</li>
 </ul>
 </li>
 <li><code>waku:2025q4-rln-smart-contract-testing:security-adversarial</code>
 <ul>
-<li><a href="https://github.com/waku-org/waku-rlnv2-contract/pull/42" class="external" data-link-type="github" data-github-type="pr">PR 42: adversarial tests</a></li>
-<li><a href="https://github.com/waku-org/waku-rlnv2-contract/issues/43" class="external" data-link-type="github" data-github-type="issue">Issue 43: fund drain protection</a></li>
+<li><a href="https://github.com/waku-org/waku-rlnv2-contract/pull/42" class="external external-link" data-link-type="github" data-github-type="pr">PR 42: adversarial tests<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/waku-org/waku-rlnv2-contract/issues/43" class="external external-link" data-link-type="github" data-github-type="issue">Issue 43: fund drain protection<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>status:2025q4-status-go-functional-testing:settings</code>
 <ul>
-<li>Added more tests &amp; test env updates <a href="https://github.com/status-im/status-go/pull/6984" class="external" data-link-type="github" data-github-type="pr">PR 6984</a></li>
+<li>Added more tests &amp; test env updates <a href="https://github.com/status-im/status-go/pull/6984" class="external external-link" data-link-type="github" data-github-type="pr">PR 6984<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>waku:2025q4-waku-testing:rendezvous</code>
@@ -105,9 +105,9 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 </li>
 <li><code>vac:2025q4-nim-libp2p-testing:gossipsub-performance</code>
 <ul>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1718" class="external" data-link-type="github" data-github-type="pr">PR 1718: chart generation refactor</a></li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1735" class="external" data-link-type="github" data-github-type="pr">PR 1735: refactor runner</a></li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1729" class="external" data-link-type="github" data-github-type="pr">PR 1729: reliability workflow</a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1718" class="external external-link" data-link-type="github" data-github-type="pr">PR 1718: chart generation refactor<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1735" class="external external-link" data-link-type="github" data-github-type="pr">PR 1735: refactor runner<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1729" class="external external-link" data-link-type="github" data-github-type="pr">PR 1729: reliability workflow<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>vac:2025q4-nim-libp2p-testing:test-plans</code>
@@ -117,36 +117,36 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 </li>
 <li><code>status:2025q4-status-qa-desktop:local-backup</code>
 <ul>
-<li><a href="https://github.com/status-im/status-desktop/pull/18953" class="external" data-link-type="github" data-github-type="pr">PR 18953: fixed tests</a></li>
+<li><a href="https://github.com/status-im/status-desktop/pull/18953" class="external external-link" data-link-type="github" data-github-type="pr">PR 18953: fixed tests<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>status:2025q4-status-qa-desktop:e2e-windows</code>
 <ul>
-<li><a href="https://github.com/status-im/minimal-qt-squish-app/pull/4" class="external" data-link-type="github" data-github-type="pr">PR 4: merged minimal-qt-squish-app</a></li>
-<li><a href="https://github.com/status-im/status-desktop/pull/18724" class="external" data-link-type="github" data-github-type="pr">PR 18724: Windows CI tests</a></li>
+<li><a href="https://github.com/status-im/minimal-qt-squish-app/pull/4" class="external external-link" data-link-type="github" data-github-type="pr">PR 4: merged minimal-qt-squish-app<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/status-im/status-desktop/pull/18724" class="external external-link" data-link-type="github" data-github-type="pr">PR 18724: Windows CI tests<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>status:2025q4-status-qa-desktop:maintenance</code>
 <ul>
-<li><a href="https://github.com/status-im/status-desktop/pull/18980" class="external" data-link-type="github" data-github-type="pr">PR 18980: reduce duplicated code</a></li>
-<li><a href="https://github.com/status-im/status-desktop/issues/18983" class="external" data-link-type="github" data-github-type="issue">Issue 18983: language selector coverage</a></li>
-<li>Nightly reviews stable except for <a href="https://github.com/status-im/status-desktop/issues/18954" class="external" data-link-type="github" data-github-type="issue">Issue 18954</a></li>
+<li><a href="https://github.com/status-im/status-desktop/pull/18980" class="external external-link" data-link-type="github" data-github-type="pr">PR 18980: reduce duplicated code<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/status-im/status-desktop/issues/18983" class="external external-link" data-link-type="github" data-github-type="issue">Issue 18983: language selector coverage<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Nightly reviews stable except for <a href="https://github.com/status-im/status-desktop/issues/18954" class="external external-link" data-link-type="github" data-github-type="issue">Issue 18954<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>status:2025q4-status-qa-desktop:release-testing</code>
 <ul>
-<li><a href="https://github.com/status-im/status-desktop/pull/18924" class="external" data-link-type="github" data-github-type="pr">PR 18924: tested</a></li>
+<li><a href="https://github.com/status-im/status-desktop/pull/18924" class="external external-link" data-link-type="github" data-github-type="pr">PR 18924: tested<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>status:2025q4-status-qa-mobile:test-ci</code>
 <ul>
-<li><a href="https://github.com/status-im/status-desktop/pull/18975" class="external" data-link-type="github" data-github-type="pr">PR 18975: refactor GitHub workflow</a></li>
-<li><a href="https://github.com/status-im/status-go/pull/6990" class="external" data-link-type="github" data-github-type="pr">PR 6990: status-go x86_64 builds</a></li>
+<li><a href="https://github.com/status-im/status-desktop/pull/18975" class="external external-link" data-link-type="github" data-github-type="pr">PR 18975: refactor GitHub workflow<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="https://github.com/status-im/status-go/pull/6990" class="external external-link" data-link-type="github" data-github-type="pr">PR 6990: status-go x86_64 builds<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>status:2025q4-status-qa-mobile:port-tests</code>
 <ul>
-<li><a href="https://github.com/status-im/status-desktop/pull/18977" class="external" data-link-type="github" data-github-type="pr">PR 18977: password change scenario</a></li>
+<li><a href="https://github.com/status-im/status-desktop/pull/18977" class="external external-link" data-link-type="github" data-github-type="pr">PR 18977: password change scenario<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>admin/misc</code>
@@ -156,7 +156,7 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 </ul>
 </li>
 </ul>
-<h3 id="vacdst">vac:dst:<a aria-hidden="true" tabindex="-1" href="#vacdst" class="internal" data-link-type="internal"> §</a></h3>
+<h3 id="vacdst">vac:dst:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vacdst" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
 <li><code>admin/misc</code>
 <ul>
@@ -171,7 +171,7 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 </li>
 <li><code>vac:dst:ift:2025q3-dst-research-destination:forum-post</code> (recurrent)
 <ul>
-<li>Create forum post with summary deliverables: <a href="https://forum.vac.dev/t/dst-summary-2025q3/577" class="external" data-link-type="external">Post</a></li>
+<li>Create forum post with summary deliverables: <a href="https://forum.vac.dev/t/dst-summary-2025q3/577" class="external external-link" data-link-type="external">Post<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>vac:dst:ift:2025q3-dst-research-destination:public-reports</code> (recurrent)
@@ -197,10 +197,10 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 <li><code>vac:dst:ift:2025q4-dst-tooling:general-tooling</code>
 <ul>
 <li>Much cleanup and many fixes (Github PR to be up this week)</li>
-<li><a href="https://github.com/vacp2p/10ksim/pull/161" class="external" data-link-type="github" data-github-type="pr">Github PR: Fix nimlibp2p tracer #161</a></li>
+<li><a href="https://github.com/vacp2p/10ksim/pull/161" class="external external-link" data-link-type="github" data-github-type="pr">Github PR: Fix nimlibp2p tracer #161<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 <li>New dst-gossipsub-test-node docker image
 <ul>
-<li><a href="https://github.com/vacp2p/dst-gossipsub-test-node/commit/c16faa8fb1d18570823e3a511e8a91618e13d937" class="external" data-link-type="github" data-github-type="commit">Github commit: c16faa8</a></li>
+<li><a href="https://github.com/vacp2p/dst-gossipsub-test-node/commit/c16faa8fb1d18570823e3a511e8a91618e13d937" class="external external-link" data-link-type="github" data-github-type="commit">Github commit: c16faa8<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -209,7 +209,7 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 <ul>
 <li>Worked on adding mix support to the refactor node
 <ul>
-<li><a href="https://github.com/vacp2p/dst-libp2p-test-node/pull/7" class="external" data-link-type="github" data-github-type="pr">Github PR: mix-integeration # 7</a></li>
+<li><a href="https://github.com/vacp2p/dst-libp2p-test-node/pull/7" class="external external-link" data-link-type="github" data-github-type="pr">Github PR: mix-integeration # 7<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -218,7 +218,7 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 <ul>
 <li>Finalized node refactor
 <ul>
-<li><a href="https://github.com/vacp2p/dst-libp2p-test-node/pull/3" class="external" data-link-type="github" data-github-type="pr">Github PR: http endpoint for detatched publish controller # 3</a></li>
+<li><a href="https://github.com/vacp2p/dst-libp2p-test-node/pull/3" class="external external-link" data-link-type="github" data-github-type="pr">Github PR: http endpoint for detatched publish controller # 3<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -229,24 +229,24 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 </ul>
 </li>
 </ul>
-<h3 id="vacsc">vac:sc:<a aria-hidden="true" tabindex="-1" href="#vacsc" class="internal" data-link-type="internal"> §</a></h3>
+<h3 id="vacsc">vac:sc:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vacsc" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
 <li><code>statusl2:2025q4-pre-audit-protocol-enhancements:offchain-reward-distributor</code>
 <ul>
-<li>created a simple karma distributor <a href="https://github.com/status-im/status-network-monorepo/pull/48/files" class="external" data-link-type="github" data-github-type="pr">https://github.com/status-im/status-network-monorepo/pull/48/files</a></li>
-<li>added a function to get the balance of a user without counting the virtual Karma <a href="https://github.com/status-im/status-network-monorepo/pull/47" class="external" data-link-type="github" data-github-type="pr">https://github.com/status-im/status-network-monorepo/pull/47</a></li>
+<li>created a simple karma distributor <a href="https://github.com/status-im/status-network-monorepo/pull/48/files" class="external external-link" data-link-type="github" data-github-type="pr">https://github.com/status-im/status-network-monorepo/pull/48/files<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>added a function to get the balance of a user without counting the virtual Karma <a href="https://github.com/status-im/status-network-monorepo/pull/47" class="external external-link" data-link-type="github" data-github-type="pr">https://github.com/status-im/status-network-monorepo/pull/47<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>statusl2:2025q4-pre-audit-protocol-enhancements:distributed-slashing</code>
 <ul>
-<li>added a commit-reveal scheme to slashing <a href="https://github.com/status-im/status-network-monorepo/pull/45" class="external" data-link-type="github" data-github-type="pr">https://github.com/status-im/status-network-monorepo/pull/45</a></li>
+<li>added a commit-reveal scheme to slashing <a href="https://github.com/status-im/status-network-monorepo/pull/45" class="external external-link" data-link-type="github" data-github-type="pr">https://github.com/status-im/status-network-monorepo/pull/45<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>statusl2:2025q4-pre-audit-protocol-enhancements:convert-erc20votes-tests</code>
 <ul>
 <li>Implement ERC20Votes tests in foundry
 <ul>
-<li><a href="https://github.com/status-im/status-network-monorepo/pull/49" class="external" data-link-type="github" data-github-type="pr">https://github.com/status-im/status-network-monorepo/pull/49</a></li>
+<li><a href="https://github.com/status-im/status-network-monorepo/pull/49" class="external external-link" data-link-type="github" data-github-type="pr">https://github.com/status-im/status-network-monorepo/pull/49<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -255,43 +255,43 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 <ul>
 <li>Deploy latest version of Karma and staking protocol
 <ul>
-<li>Contract addresses: <a href="https://www.notion.so/Contract-Deployment-Addresses-d6dd98b1b4f6461d82eec6ab18b852c8" class="external" data-link-type="external">https://www.notion.so/Contract-Deployment-Addresses-d6dd98b1b4f6461d82eec6ab18b852c8</a></li>
+<li>Contract addresses: <a href="https://www.notion.so/Contract-Deployment-Addresses-d6dd98b1b4f6461d82eec6ab18b852c8" class="external external-link" data-link-type="external">https://www.notion.so/Contract-Deployment-Addresses-d6dd98b1b4f6461d82eec6ab18b852c8<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Implement upgrade script for Karma
 <ul>
-<li><a href="https://github.com/status-im/status-network-monorepo/pull/46" class="external" data-link-type="github" data-github-type="pr">https://github.com/status-im/status-network-monorepo/pull/46</a></li>
+<li><a href="https://github.com/status-im/status-network-monorepo/pull/46" class="external external-link" data-link-type="github" data-github-type="pr">https://github.com/status-im/status-network-monorepo/pull/46<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li>Uncovered and fixed bug in deployment script
 <ul>
-<li><a href="https://github.com/status-im/status-network-monorepo/pull/44" class="external" data-link-type="github" data-github-type="pr">https://github.com/status-im/status-network-monorepo/pull/44</a></li>
+<li><a href="https://github.com/status-im/status-network-monorepo/pull/44" class="external external-link" data-link-type="github" data-github-type="pr">https://github.com/status-im/status-network-monorepo/pull/44<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<h3 id="vacacz">vac:acz:<a aria-hidden="true" tabindex="-1" href="#vacacz" class="internal" data-link-type="internal"> §</a></h3>
+<h3 id="vacacz">vac:acz:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vacacz" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
 <li><code>nes:2025q4-nescience-consulting:consensus-survey</code>
 <ul>
-<li>Finished consensus survey <a href="https://www.notion.so/Consensus-survey-in-NSSA-2818f96fb65c80eeb93afdad0fc9edec" class="external" data-link-type="external">document</a>.</li>
+<li>Finished consensus survey <a href="https://www.notion.so/Consensus-survey-in-NSSA-2818f96fb65c80eeb93afdad0fc9edec" class="external external-link" data-link-type="external">document<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.</li>
 </ul>
 </li>
 <li><code>nes:2025q4-nescience-consulting:multikeys</code>
 <ul>
-<li>Began hierarchical deterministic wallet for NSSA <a href="https://www.notion.so/Hierarchical-Deterministic-wallets-in-NSSA-2878f96fb65c80659325d84dd66a5630" class="external" data-link-type="external">document</a> so that a single seed can general multiple keys.</li>
+<li>Began hierarchical deterministic wallet for NSSA <a href="https://www.notion.so/Hierarchical-Deterministic-wallets-in-NSSA-2878f96fb65c80659325d84dd66a5630" class="external external-link" data-link-type="external">document<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> so that a single seed can general multiple keys.</li>
 </ul>
 </li>
 <li><code>ift:2025q4-ift-zk-calls:ift-zk-call-1</code>
 <ul>
-<li>Lead zk call and post corresponding <a href="https://forum.vac.dev/t/discussion-on-zk-verification/578" class="external" data-link-type="external">forum post</a>. As well as joined in a discussion on the forum post.</li>
+<li>Lead zk call and post corresponding <a href="https://forum.vac.dev/t/discussion-on-zk-verification/578" class="external external-link" data-link-type="external">forum post<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>. As well as joined in a discussion on the forum post.</li>
 </ul>
 </li>
 <li><code>ift:2025q3-libp2p-mix-testnet:update-rfc</code>
 <ul>
-<li>Finalized Section 8: Packet Construction and Handling, opened <a href="https://github.com/vacp2p/rfc-index/pull/202" class="external" data-link-type="github" data-github-type="pr">PR #202</a></li>
-<li>Responded to review comments on <a href="https://github.com/vacp2p/rfc-index/pull/194" class="external" data-link-type="github" data-github-type="pr">PR #194</a></li>
+<li>Finalized Section 8: Packet Construction and Handling, opened <a href="https://github.com/vacp2p/rfc-index/pull/202" class="external external-link" data-link-type="github" data-github-type="pr">PR #202<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Responded to review comments on <a href="https://github.com/vacp2p/rfc-index/pull/194" class="external external-link" data-link-type="github" data-github-type="pr">PR #194<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>ift:2025q3-libp2p-mix-testnet:unexpected-latency</code>
@@ -307,95 +307,95 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 </li>
 <li><code>ift:2025q4-rln-status-l2:maintaining</code>
 <ul>
-<li>Reviewed the Decentralized Slashing <a href="https://github.com/status-im/status-network-monorepo/pull/42" class="external" data-link-type="github" data-github-type="pr">PR</a> in monorepo.</li>
+<li>Reviewed the Decentralized Slashing <a href="https://github.com/status-im/status-network-monorepo/pull/42" class="external external-link" data-link-type="github" data-github-type="pr">PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> in monorepo.</li>
 </ul>
 </li>
 <li><code>ift:2025q4-zerokit:zerokit-maintaining</code>
 <ul>
-<li>Reviewed <a href="https://github.com/vacp2p/zerokit/pull/346" class="external" data-link-type="github" data-github-type="pr">PR</a> and found an upstream bug from nightly rustc.</li>
+<li>Reviewed <a href="https://github.com/vacp2p/zerokit/pull/346" class="external external-link" data-link-type="github" data-github-type="pr">PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> and found an upstream bug from nightly rustc.</li>
 <li>Support nwaku team regarding updating zerokit version and using in waku-rust-bindings</li>
 <li>Discussed changes in zerokit for prover</li>
 </ul>
 </li>
 <li><code>ift:2025q4-rln-status-l2:more-user-support</code>
 <ul>
-<li><a href="https://github.com/vacp2p/status-rln-prover/pull/49" class="external" data-link-type="github" data-github-type="pr">Multi tree PR</a> - WIP</li>
+<li><a href="https://github.com/vacp2p/status-rln-prover/pull/49" class="external external-link" data-link-type="github" data-github-type="pr">Multi tree PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - WIP</li>
 </ul>
 </li>
 <li><code>ift:2025q4-zerokit:ffi-rework</code>
 <ul>
-<li>Finished the first version of FFI2 with unit tests and C examples <a href="https://github.com/vacp2p/zerokit/pull/337" class="external" data-link-type="github" data-github-type="pr">PR</a></li>
-<li>Refactored the FFI2 interface to align with Nim and fixed the <a href="https://github.com/vacp2p/zerokit/tree/feature/ffi_rework_1/rln/ffi_nim_examples" class="external" data-link-type="github" data-github-type="repo">Nim example</a> error.</li>
-<li>Start reviewing <a href="https://github.com/vacp2p/zerokit/pull/337" class="external" data-link-type="github" data-github-type="pr">FFI rework PR</a></li>
-<li>Reviewed ffi <a href="https://github.com/vacp2p/zerokit/pull/337" class="external" data-link-type="github" data-github-type="pr">PR</a></li>
-<li>Implemented an example on Nim for FFI, discovered some minor issues when exporting functions. <a href="https://github.com/vacp2p/zerokit/pull/337" class="external" data-link-type="github" data-github-type="pr">PR</a></li>
+<li>Finished the first version of FFI2 with unit tests and C examples <a href="https://github.com/vacp2p/zerokit/pull/337" class="external external-link" data-link-type="github" data-github-type="pr">PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Refactored the FFI2 interface to align with Nim and fixed the <a href="https://github.com/vacp2p/zerokit/tree/feature/ffi_rework_1/rln/ffi_nim_examples" class="external external-link" data-link-type="github" data-github-type="repo">Nim example<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> error.</li>
+<li>Start reviewing <a href="https://github.com/vacp2p/zerokit/pull/337" class="external external-link" data-link-type="github" data-github-type="pr">FFI rework PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Reviewed ffi <a href="https://github.com/vacp2p/zerokit/pull/337" class="external external-link" data-link-type="github" data-github-type="pr">PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Implemented an example on Nim for FFI, discovered some minor issues when exporting functions. <a href="https://github.com/vacp2p/zerokit/pull/337" class="external external-link" data-link-type="github" data-github-type="pr">PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>ift:2025q4-discovery:draft-RFC</code>
 <ul>
-<li>Completed initial draft for <a href="https://www.notion.so/DISC-NG-Service-Discovery-Protocol-for-libp2p-Kademlia-DHT-28a8f96fb65c80888df7fc0de13f1e22" class="external" data-link-type="external">Disc-ng RFC on kad-dht</a></li>
+<li>Completed initial draft for <a href="https://www.notion.so/DISC-NG-Service-Discovery-Protocol-for-libp2p-Kademlia-DHT-28a8f96fb65c80888df7fc0de13f1e22" class="external external-link" data-link-type="external">Disc-ng RFC on kad-dht<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>ift:2025q4-de-mls-tesnet:multi-steward-rfc</code>
 <ul>
-<li>Refined <a href="https://github.com/vacp2p/rfc-index/pull/193" class="external" data-link-type="github" data-github-type="pr">PR</a>, now its open to review. Extracted few items as open questions or require clarifications.</li>
+<li>Refined <a href="https://github.com/vacp2p/rfc-index/pull/193" class="external external-link" data-link-type="github" data-github-type="pr">PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>, now its open to review. Extracted few items as open questions or require clarifications.</li>
 </ul>
 </li>
 <li><code>ift:2025q4-rln-status-l2:rln-spec-maintain</code>
 <ul>
 <li>Work on new Zerokit feature and presented to the discussion</li>
-<li>Came across a research that may be used on <a href="https://www.notion.so/Signature-like-RLN-without-revealing-the-secret-key-1ac8f96fb65c80fcae7bd92f77ced37c#1ac8f96fb65c80fcae7bd92f77ced37c" class="external" data-link-type="external">signature-like-rln</a> and inits a discussion about it</li>
-<li>Addressed questions from SC team about <a href="https://www.notion.so/RLN-Deployment-Spec-on-Review-1f98f96fb65c806c8737d94851b4d14d?source=copy_link#2708f96fb65c800097ece503ddc92bc6" class="external" data-link-type="external">decentralized slashing</a></li>
+<li>Came across a research that may be used on <a href="https://www.notion.so/Signature-like-RLN-without-revealing-the-secret-key-1ac8f96fb65c80fcae7bd92f77ced37c#1ac8f96fb65c80fcae7bd92f77ced37c" class="external external-link" data-link-type="external">signature-like-rln<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> and inits a discussion about it</li>
+<li>Addressed questions from SC team about <a href="https://www.notion.so/RLN-Deployment-Spec-on-Review-1f98f96fb65c806c8737d94851b4d14d?source=copy_link#2708f96fb65c800097ece503ddc92bc6" class="external external-link" data-link-type="external">decentralized slashing<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>nes:2025q4-nescience-consulting:account-security</code>
 <ul>
-<li>Finish to review <a href="https://www.notion.so/Account-security-and-privacy-in-NSSA-v0-1-27e8f96fb65c80699e8ae51c321c25a7" class="external" data-link-type="external">document</a> on NSSAv0.1 security and cryptographic assumptions.</li>
+<li>Finish to review <a href="https://www.notion.so/Account-security-and-privacy-in-NSSA-v0-1-27e8f96fb65c80699e8ae51c321c25a7" class="external external-link" data-link-type="external">document<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> on NSSAv0.1 security and cryptographic assumptions.</li>
 </ul>
 </li>
 <li><code>admin/misc</code>
 <ul>
-<li>Began examining a Nomos <a href="https://www.notion.so/nomos-tech/Statistical-mechanics-of-anonymous-communication-262261aa09df80d6aaeecbf54740f592?source=copy_link#277261aa09df80fab01de5ff85963e7b" class="external" data-link-type="external">question</a> on how to prove a specific inequality, and asked for clarification concerning the work Alexander has already done.</li>
-<li>Discussed the impracticalness of using a new <a href="https://x.com/HiokiLeona/status/1976290740344061986" class="external" data-link-type="external">proposal</a> for RLN.</li>
+<li>Began examining a Nomos <a href="https://www.notion.so/nomos-tech/Statistical-mechanics-of-anonymous-communication-262261aa09df80d6aaeecbf54740f592?source=copy_link#277261aa09df80fab01de5ff85963e7b" class="external external-link" data-link-type="external">question<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> on how to prove a specific inequality, and asked for clarification concerning the work Alexander has already done.</li>
+<li>Discussed the impracticalness of using a new <a href="https://x.com/HiokiLeona/status/1976290740344061986" class="external external-link" data-link-type="external">proposal<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> for RLN.</li>
 <li>Discussed zerokit support for the nwaku repo</li>
 <li>1 cc was ooo for 3 days</li>
 <li>1 cc was ooo for a day</li>
 </ul>
 </li>
 </ul>
-<h3 id="vacrfc">vac:rfc:<a aria-hidden="true" tabindex="-1" href="#vacrfc" class="internal" data-link-type="internal"> §</a></h3>
+<h3 id="vacrfc">vac:rfc:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vacrfc" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
 <li><code>vac:rfc:codex:2025q4-rfc-iteration:erasure-coding</code>
 <ul>
-<li>Continued work on codex erasure coding spec, still in draft - <a href="https://github.com/vacp2p/rfc-index/pull/192" class="external" data-link-type="github" data-github-type="pr">https://github.com/vacp2p/rfc-index/pull/192</a></li>
+<li>Continued work on codex erasure coding spec, still in draft - <a href="https://github.com/vacp2p/rfc-index/pull/192" class="external external-link" data-link-type="github" data-github-type="pr">https://github.com/vacp2p/rfc-index/pull/192<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>vac:rfc:codex:2025q4-rfc-iteration:sales-component</code>
 <ul>
-<li>Draft spec <a href="https://github.com/vacp2p/rfc-index/pull/201" class="external" data-link-type="github" data-github-type="pr">https://github.com/vacp2p/rfc-index/pull/201</a> and also given feedback to the Codex team <a href="https://discord.com/channels/895609329053474826/1426139281520332840/1426139286008238233" class="external" data-link-type="external">https://discord.com/channels/895609329053474826/1426139281520332840/1426139286008238233</a></li>
+<li>Draft spec <a href="https://github.com/vacp2p/rfc-index/pull/201" class="external external-link" data-link-type="github" data-github-type="pr">https://github.com/vacp2p/rfc-index/pull/201<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> and also given feedback to the Codex team <a href="https://discord.com/channels/895609329053474826/1426139281520332840/1426139286008238233" class="external external-link" data-link-type="external">https://discord.com/channels/895609329053474826/1426139281520332840/1426139286008238233<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>vac:rfc:codex:2025q4-rfc-iteration:purchase-component</code>
 <ul>
-<li>Draft spec <a href="https://github.com/vacp2p/rfc-index/pull/200" class="external" data-link-type="github" data-github-type="pr">https://github.com/vacp2p/rfc-index/pull/200</a></li>
+<li>Draft spec <a href="https://github.com/vacp2p/rfc-index/pull/200" class="external external-link" data-link-type="github" data-github-type="pr">https://github.com/vacp2p/rfc-index/pull/200<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
-<h3 id="vacnim">vac:nim:<a aria-hidden="true" tabindex="-1" href="#vacnim" class="internal" data-link-type="internal"> §</a></h3>
+<h3 id="vacnim">vac:nim:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vacnim" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
 <li><code>vac:nim:ift:2025q3-nim-core-libs:compile-time-support-for-json-and-cbor</code>
 <ul>
 <li><code>nim-json-serialization</code> compile-time support:
 <ul>
-<li>Spec tests: <a href="https://github.com/status-im/nim-json-serialization/pull/133" class="external" data-link-type="github" data-github-type="pr">https://github.com/status-im/nim-json-serialization/pull/133</a></li>
-<li>Fix float output to be consistent at runtime/compile-time <a href="https://github.com/status-im/nim-json-serialization/pull/134" class="external" data-link-type="github" data-github-type="pr">https://github.com/status-im/nim-json-serialization/pull/134</a></li>
+<li>Spec tests: <a href="https://github.com/status-im/nim-json-serialization/pull/133" class="external external-link" data-link-type="github" data-github-type="pr">https://github.com/status-im/nim-json-serialization/pull/133<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Fix float output to be consistent at runtime/compile-time <a href="https://github.com/status-im/nim-json-serialization/pull/134" class="external external-link" data-link-type="github" data-github-type="pr">https://github.com/status-im/nim-json-serialization/pull/134<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
-<li>unittest2 fix for compile-time tests <a href="https://github.com/status-im/nim-unittest2/pull/58" class="external" data-link-type="github" data-github-type="pr">https://github.com/status-im/nim-unittest2/pull/58</a></li>
+<li>unittest2 fix for compile-time tests <a href="https://github.com/status-im/nim-unittest2/pull/58" class="external external-link" data-link-type="github" data-github-type="pr">https://github.com/status-im/nim-unittest2/pull/58<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
-<h3 id="vacsec">vac:sec:<a aria-hidden="true" tabindex="-1" href="#vacsec" class="internal" data-link-type="internal"> §</a></h3>
+<h3 id="vacsec">vac:sec:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vacsec" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
 <li><code>ift:2025q4-continuity-plan:write-guides-and-best-practices</code>
 <ul>
@@ -436,16 +436,16 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 </ul>
 </li>
 </ul>
-<h3 id="vacnes">vac:nes:<a aria-hidden="true" tabindex="-1" href="#vacnes" class="internal" data-link-type="internal"> §</a></h3>
+<h3 id="vacnes">vac:nes:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vacnes" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
 <li>
 <p><code>state-separation-architecture-poc:cpc</code></p>
 <ul>
-<li>Drafted a <a href="https://www.notion.so/NSSA-cross-program-calls-Tail-call-model-proposal-high-level-2838f96fb65c800e943ef66419c9b03c?source=copy_link" class="external" data-link-type="external">high level</a> idea for cross program calls.</li>
-<li>Drafted a <a href="https://www.notion.so/NSSA-cross-program-calls-Tail-call-model-proposal-extended-version-2838f96fb65c8096b3a2d390444193b6?source=copy_link" class="external" data-link-type="external">complete version + specs</a> for tail-call arppoach.</li>
-<li>Drafted a <a href="https://www.notion.so/AMM-toy-example-2858f96fb65c80d79251c375289c51a8?source=copy_link" class="external" data-link-type="external">toy example</a> for AMM on NSSA.</li>
+<li>Drafted a <a href="https://www.notion.so/NSSA-cross-program-calls-Tail-call-model-proposal-high-level-2838f96fb65c800e943ef66419c9b03c?source=copy_link" class="external external-link" data-link-type="external">high level<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> idea for cross program calls.</li>
+<li>Drafted a <a href="https://www.notion.so/NSSA-cross-program-calls-Tail-call-model-proposal-extended-version-2838f96fb65c8096b3a2d390444193b6?source=copy_link" class="external external-link" data-link-type="external">complete version + specs<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> for tail-call arppoach.</li>
+<li>Drafted a <a href="https://www.notion.so/AMM-toy-example-2858f96fb65c80d79251c375289c51a8?source=copy_link" class="external external-link" data-link-type="external">toy example<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> for AMM on NSSA.</li>
 <li>Started writing specs for AMM.</li>
-<li>Contributed to Moudy’s work on cross-calls (<a href="https://www.notion.so/R1-Cross-program-call-specifications-27d8f96fb65c80ddaf15e1f11497ad2b" class="external" data-link-type="external">document</a>).</li>
+<li>Contributed to Moudy’s work on cross-calls (<a href="https://www.notion.so/R1-Cross-program-call-specifications-27d8f96fb65c80ddaf15e1f11497ad2b" class="external external-link" data-link-type="external">document<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>).</li>
 </ul>
 </li>
 <li>
@@ -457,8 +457,8 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 <li>
 <p><code>state-separation-architecture-poc:wallet-functionality</code></p>
 <ul>
-<li>Finalized <a href="https://github.com/vacp2p/nescience-testnet/pull/122" class="external" data-link-type="github" data-github-type="pr">PR 122</a> on pinata private claims.</li>
-<li>Started <a href="https://github.com/vacp2p/nescience-testnet/pull/124" class="external" data-link-type="github" data-github-type="pr">PR 124</a> on private token program interactions.</li>
+<li>Finalized <a href="https://github.com/vacp2p/nescience-testnet/pull/122" class="external external-link" data-link-type="github" data-github-type="pr">PR 122<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> on pinata private claims.</li>
+<li>Started <a href="https://github.com/vacp2p/nescience-testnet/pull/124" class="external external-link" data-link-type="github" data-github-type="pr">PR 124<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> on private token program interactions.</li>
 </ul>
 </li>
 <li>
@@ -466,8 +466,8 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 <ul>
 <li>Created two PRs regarding non-determinism
 <ul>
-<li>Build script <a href="https://github.com/vacp2p/nescience-testnet/pull/125" class="external" data-link-type="github" data-github-type="pr">PR</a> to use <code>cargo risczero build</code> for our guest programs.</li>
-<li>Wall command <a href="https://github.com/vacp2p/nescience-testnet/pull/123" class="external" data-link-type="github" data-github-type="pr">PR</a> to check IDs match those used by the node.</li>
+<li>Build script <a href="https://github.com/vacp2p/nescience-testnet/pull/125" class="external external-link" data-link-type="github" data-github-type="pr">PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> to use <code>cargo risczero build</code> for our guest programs.</li>
+<li>Wall command <a href="https://github.com/vacp2p/nescience-testnet/pull/123" class="external external-link" data-link-type="github" data-github-type="pr">PR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> to check IDs match those used by the node.</li>
 </ul>
 </li>
 </ul>
@@ -475,7 +475,7 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 <li>
 <p><code>state-separation-architecture-poc:specsv2.0</code></p>
 <ul>
-<li>Wrote NSSA specs v2.0 (<a href="https://www.notion.so/R-Write-NSSA-v0-2-specs-2848f96fb65c808c9ac9d86e3ea3d85b" class="external" data-link-type="external">document</a>).</li>
+<li>Wrote NSSA specs v2.0 (<a href="https://www.notion.so/R-Write-NSSA-v0-2-specs-2848f96fb65c808c9ac9d86e3ea3d85b" class="external external-link" data-link-type="external">document<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>).</li>
 </ul>
 </li>
 <li>
@@ -485,26 +485,26 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 </ul>
 </li>
 </ul>
-<h3 id="vacweb">vac:web:<a aria-hidden="true" tabindex="-1" href="#vacweb" class="internal" data-link-type="internal"> §</a></h3>
+<h3 id="vacweb">vac:web:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vacweb" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
 <li><code>admin/misc</code>
 <ul>
-<li>Planning team commitments <a href="https://github.com/vacp2p/roadmap/pull/286" class="external" data-link-type="github" data-github-type="pr">https://github.com/vacp2p/roadmap/pull/286</a></li>
+<li>Planning team commitments <a href="https://github.com/vacp2p/roadmap/pull/286" class="external external-link" data-link-type="github" data-github-type="pr">https://github.com/vacp2p/roadmap/pull/286<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 <li>Estimating team capacity</li>
 <li>Selecting buddy program</li>
 </ul>
 </li>
 <li><code>status:2025q3-sn-hub</code>
 <ul>
-<li>Calling Staking contracts <a href="https://github.com/status-im/status-web/issues/777" class="external" data-link-type="github" data-github-type="issue">https://github.com/status-im/status-web/issues/777</a></li>
-<li>Authenticating (SIWE) <a href="https://github.com/status-im/status-web/issues/815" class="external" data-link-type="github" data-github-type="issue">https://github.com/status-im/status-web/issues/815</a></li>
+<li>Calling Staking contracts <a href="https://github.com/status-im/status-web/issues/777" class="external external-link" data-link-type="github" data-github-type="issue">https://github.com/status-im/status-web/issues/777<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Authenticating (SIWE) <a href="https://github.com/status-im/status-web/issues/815" class="external external-link" data-link-type="github" data-github-type="issue">https://github.com/status-im/status-web/issues/815<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>ift:2025q4-logos-website</code>
 <ul>
-<li>Implementing menu/page structure <a href="https://github.com/acid-info/logos-co/pull/6" class="external" data-link-type="github" data-github-type="pr">https://github.com/acid-info/logos-co/pull/6</a></li>
+<li>Implementing menu/page structure <a href="https://github.com/acid-info/logos-co/pull/6" class="external external-link" data-link-type="github" data-github-type="pr">https://github.com/acid-info/logos-co/pull/6<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 <li>Making all docs pages static
-<a href="https://github.com/acid-info/logos-co/pull/9" class="external" data-link-type="github" data-github-type="pr">https://github.com/acid-info/logos-co/pull/9</a></li>
+<a href="https://github.com/acid-info/logos-co/pull/9" class="external external-link" data-link-type="github" data-github-type="pr">https://github.com/acid-info/logos-co/pull/9<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>ift:2025q4-psf-website</code>
@@ -514,13 +514,13 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 </li>
 <li><code>keycard:2025q4-keycard-website</code>
 <ul>
-<li>Merging quick start guide <a href="https://github.com/keycard-tech/keycard-website/pull/106" class="external" data-link-type="github" data-github-type="pr">PR#106</a></li>
+<li>Merging quick start guide <a href="https://github.com/keycard-tech/keycard-website/pull/106" class="external external-link" data-link-type="github" data-github-type="pr">PR#106<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>2025q4-maintenance</code>
 <ul>
 <li>Implementing A/B testing for <code>/farewell-to-westphalia</code> page
-<a href="https://github.com/acid-info/logos.co/pull/85" class="external" data-link-type="github" data-github-type="pr">https://github.com/acid-info/logos.co/pull/85</a></li>
+<a href="https://github.com/acid-info/logos.co/pull/85" class="external external-link" data-link-type="github" data-github-type="pr">https://github.com/acid-info/logos.co/pull/85<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>ift:2025q4-logos-contributions-portal</code>
@@ -529,8 +529,8 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 </ul>
 </li>
 </ul>
-<h3 id="vacinfra">vac:infra:<a aria-hidden="true" tabindex="-1" href="#vacinfra" class="internal" data-link-type="internal"> §</a></h3>
-<h3 id="vacbi">vac:bi:<a aria-hidden="true" tabindex="-1" href="#vacbi" class="internal" data-link-type="internal"> §</a></h3>
+<h3 id="vacinfra">vac:infra:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vacinfra" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h3 id="vacbi">vac:bi:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vacbi" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <p><code>vac:bi:rag:2025q3-rag-evaluation-pipeline</code>: Improving the monitoring of the RAG usage to help listing recurrent query for evaluation</p>
 <ul>
 <li><code>vac:bi:rag:2025q4-rag-content</code>: meeting with Nenad to see if the RAG could be use for Discord.</li>
@@ -544,64 +544,14 @@ Add additional logs to determine why are exit nodes running out of outgoing slot
 <li><code>vac:bi:ift:2025q4-ift-townhall-content-helper</code> Start working on the tasks</li>
 <li><code>vac:bi:comm:2025q4-comm-x-spaces-analytics</code> Finished tasks</li>
 <li><code>vac:bi:ift:2025q4-ift-townhall-transcript</code> continue task and documentation</li>
-</ul></article><div class="weekly-no-results" id="weekly-no-results" style="display:none;"><h4>No results found</h4><p>Try adjusting your search or filter criteria.</p></div></div></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
-	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
-	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
-	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
-	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
-	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
-	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
-	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
-	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
-	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
-	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#vac-20251013" data-for="vac-20251013">Vac 2025/10/13</a></li><li class="depth-1"><a href="#highlights" data-for="highlights">highlights</a></li><li class="depth-1"><a href="#vacp2p" data-for="vacp2p">vac:p2p:</a></li><li class="depth-1"><a href="#vactke" data-for="vactke">vac:tke:</a></li><li class="depth-1"><a href="#vacqa" data-for="vacqa">vac:qa:</a></li><li class="depth-1"><a href="#vacdst" data-for="vacdst">vac:dst:</a></li><li class="depth-1"><a href="#vacsc" data-for="vacsc">vac:sc:</a></li><li class="depth-1"><a href="#vacacz" data-for="vacacz">vac:acz:</a></li><li class="depth-1"><a href="#vacrfc" data-for="vacrfc">vac:rfc:</a></li><li class="depth-1"><a href="#vacnim" data-for="vacnim">vac:nim:</a></li><li class="depth-1"><a href="#vacsec" data-for="vacsec">vac:sec:</a></li><li class="depth-1"><a href="#vacnes" data-for="vacnes">vac:nes:</a></li><li class="depth-1"><a href="#vacweb" data-for="vacweb">vac:web:</a></li><li class="depth-1"><a href="#vacinfra" data-for="vacinfra">vac:infra:</a></li><li class="depth-1"><a href="#vacbi" data-for="vacbi">vac:bi:</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a>, © 2026</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
-function toggleCallout() {
-  const outerBlock = this.parentElement;
-  outerBlock.classList.toggle(`is-collapsed`);
-  const collapsed = outerBlock.classList.contains(`is-collapsed`);
-  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
-  outerBlock.style.maxHeight = height + `px`;
-  let current = outerBlock;
-  let parent = outerBlock.parentElement;
-  while (parent) {
-    if (!parent.classList.contains(`callout`)) {
-      return;
-    }
-    const collapsed2 = parent.classList.contains(`is-collapsed`);
-    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
-    parent.style.maxHeight = height2 + `px`;
-    current = parent;
-    parent = parent.parentElement;
-  }
-}
-function setupCallout() {
-  const collapsible = document.getElementsByClassName(
-    `callout is-collapsible`
-  );
-  for (const div of collapsible) {
-    const title = div.firstElementChild;
-    if (title) {
-      title.removeEventListener(`click`, toggleCallout);
-      title.addEventListener(`click`, toggleCallout);
-      const collapsed = div.classList.contains(`is-collapsed`);
-      const height = collapsed ? title.scrollHeight : div.scrollHeight;
-      div.style.maxHeight = height + `px`;
-    }
-  }
-}
-document.addEventListener(`nav`, setupCallout);
-window.addEventListener(`resize`, setupCallout);
-</script><script type="module">
-          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
-          mermaid.initialize({
-            startOnLoad: false,
-            securityLevel: 'loose',
-            theme: darkMode ? 'dark' : 'default'
-          });
-          document.addEventListener('nav', async () => {
-            await mermaid.run({
-              querySelector: '.mermaid'
-            })
-          });
-          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js?v=mronsb2m" type="module"></script></html>
+</ul></article><div class="weekly-no-results" id="weekly-no-results" style="display:none;"><h4>No results found</h4><p>Try adjusting your search or filter criteria.</p></div></div><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="desktop-only"><div class="toc"><button type="button" class="toc-header" aria-controls="toc-832" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-0" class="toc-content overflow"><li class="depth-0"><a href="#vac-20251013" data-for="vac-20251013">Vac 2025/10/13</a></li><li class="depth-1"><a href="#highlights" data-for="highlights">highlights</a></li><li class="depth-1"><a href="#vacp2p" data-for="vacp2p">vac:p2p:</a></li><li class="depth-1"><a href="#vactke" data-for="vactke">vac:tke:</a></li><li class="depth-1"><a href="#vacqa" data-for="vacqa">vac:qa:</a></li><li class="depth-1"><a href="#vacdst" data-for="vacdst">vac:dst:</a></li><li class="depth-1"><a href="#vacsc" data-for="vacsc">vac:sc:</a></li><li class="depth-1"><a href="#vacacz" data-for="vacacz">vac:acz:</a></li><li class="depth-1"><a href="#vacrfc" data-for="vacrfc">vac:rfc:</a></li><li class="depth-1"><a href="#vacnim" data-for="vacnim">vac:nim:</a></li><li class="depth-1"><a href="#vacsec" data-for="vacsec">vac:sec:</a></li><li class="depth-1"><a href="#vacnes" data-for="vacnes">vac:nes:</a></li><li class="depth-1"><a href="#vacweb" data-for="vacweb">vac:web:</a></li><li class="depth-1"><a href="#vacinfra" data-for="vacinfra">vac:infra:</a></li><li class="depth-1"><a href="#vacbi" data-for="vacbi">vac:bi:</a></li><li class="overflow-end"></li></ul></div></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v5.0.0</a> © 2026</p><ul><li><a href="https://github.com/vacp2p/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></div></body><script src="../static/resource-after-e13fffa1.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-8b336f9a.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-baba652b.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-5eb75950.js" type="module" data-persist="true"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript-cad920a4.js" type="module" data-persist="true"></script></html>

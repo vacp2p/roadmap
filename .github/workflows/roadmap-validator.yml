@@ -46,7 +46,7 @@ jobs:
         uses: tj-actions/changed-files@v42
         with:
           files: |
-            **/*.md
+            content/**/*.md
 
       - name: Run roadmap validator
         run: |

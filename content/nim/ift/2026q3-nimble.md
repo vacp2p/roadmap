@@ -31,6 +31,14 @@ All the relevant information can be found in [this GitHub issue](https://github.
 This remains the short-term roadmap for replacing pieces of the Nimbus build system bit by bit while improving Nimble overall.
 
 #### Deliverables
+- [nim-lang/Nim#26011](https://github.com/nim-lang/Nim/pull/26011) Update Nimble Commit to version 0.24.1
+- [nim-lang/nimble#1776](https://github.com/nim-lang/nimble/pull/1776) Bump 0.24.1
+- [nim-lang/nimble#1774](https://github.com/nim-lang/nimble/pull/1774) Fixes #1768
+- [nim-lang/nimble#1773](https://github.com/nim-lang/nimble/pull/1773) fix: SIGSEGV in version discovery under gcc-14 LTO on Nim <= 2.2 (#16…
+- [nim-lang/nimble#1772](https://github.com/nim-lang/nimble/pull/1772) Moves sat-retry outside Except blog to avoid crash in old Nim versions
+- [nim-lang/nimble#1771](https://github.com/nim-lang/nimble/pull/1771) fix: clear stale solvedPkgs in solveLocalPackages so withNimBinFallba…
+- [nim-lang/nimble#1770](https://github.com/nim-lang/nimble/pull/1770) Use BearSSL only, drop OpenSSL dependency from the binary
+- [nim-lang/nimble#1769](https://github.com/nim-lang/nimble/pull/1769) Fix #1717
 - Released Nimble 0.24.0.
 - [nim-lang/nimble#1766](https://github.com/nim-lang/nimble/pull/1766) Bump 0.24.0
 - [nim-lang/nimble#1764](https://github.com/nim-lang/nimble/pull/1764) develop --with-dependencies vendors nim when the lock file pins it

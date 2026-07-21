@@ -32,9 +32,9 @@ The maintenance commitment supports IFT's strategic objectives by:
 
 * fully qualified name: `ift-ts:web:ift:2026q3-maintenance:maintenance`
 * owner: Felicio/Jinho/JulesFiliot
-* status: in progress (50%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/07/21
 
 #### Description
 
@@ -42,6 +42,10 @@ Execute upkeep across delivered web properties for Q3: dependency and security b
 
 #### Deliverables
 
+- [logos-co/logos-web#92](https://github.com/logos-co/logos-web/pull/92) feat(ci): add /ai-review dual-model PR review workflow (pilot, review-only)
+- [Fixed Vercel deployments](https://discord.com/channels/864066763682218004/1526192188675985569/1526602522159091752)
+- [Fixed downloading of Status builds](https://discord.com/channels/864066763682218004/1420097240738824212/1527053842674487489)
+- [Unblocked deployment of dockerized website](https://discord.com/channels/864066763682218004/1526610430901096538/1526610438480068850)
 - [logos-co/logos-web#95](https://github.com/logos-co/logos-web/pull/95) Add operators closure page
 - [logos-co/logos-web#104](https://github.com/logos-co/logos-web/pull/104) fix: replace ukdebt hero image with watermark-free Big Ben
 - [status-im/status-web#1248](https://github.com/status-im/status-web/pull/1248) fix layout for statically exported `apps/`

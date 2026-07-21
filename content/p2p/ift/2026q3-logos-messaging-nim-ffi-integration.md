@@ -32,9 +32,9 @@ to use nim-libp2p through the improved integration path.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-messaging-nim-ffi-integration:integration-support`
 * owner: gabe
-* status: in progress (65%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/07/21
 
 #### Description
 Support implementation and testing of `nim-ffi` features that unblock
@@ -42,6 +42,12 @@ nim-libp2p usage. This may include reviewing designs, contributing fixes,
 writing compatibility tests, or adapting nim-libp2p wrappers.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2780](https://github.com/vacp2p/nim-libp2p/pull/2780) chore(cbind): nim-ffi migration [9/9] — flip to libp2p.nim, delete legacy cbind
+- [vacp2p/nim-libp2p#2779](https://github.com/vacp2p/nim-libp2p/pull/2779) chore(cbind): nim-ffi migration [8/9] — relay, peerstore, metrics (API parity)
+- [vacp2p/nim-libp2p#2778](https://github.com/vacp2p/nim-libp2p/pull/2778) chore(cbind): nim-ffi migration [7/9] — service discovery + extended peer records
+- [vacp2p/nim-libp2p#2777](https://github.com/vacp2p/nim-libp2p/pull/2777) chore(cbind): nim-ffi migration [6/9] — kademlia + CID + crypto
+- [vacp2p/nim-libp2p#2776](https://github.com/vacp2p/nim-libp2p/pull/2776) chore(cbind): nim-ffi migration [5/9] — pubsub / gossipsub (+ gossipsub example)
+- [vacp2p/nim-libp2p#2775](https://github.com/vacp2p/nim-libp2p/pull/2775) chore(cbind): nim-ffi migration [4/9] — streams & custom protocols (+ echo example)
 - [logos-messaging/nim-ffi#119](https://github.com/logos-messaging/nim-ffi/pull/119) feat: shrink the genbindings incantation
 - [logos-messaging/nim-ffi#116](https://github.com/logos-messaging/nim-ffi/pull/116) feat(ffi): compile-time validation of --nimMainPrefix
 - [logos-messaging/nim-ffi#117](https://github.com/logos-messaging/nim-ffi/pull/117) feat(nimble): actionable remediation message on stale-bindings check failure
@@ -65,7 +71,7 @@ writing compatibility tests, or adapting nim-libp2p wrappers.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-messaging-nim-ffi-integration:migration-path`
 * owner: gabe
-* status: in progress (70%)
+* status: in progress (80%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -74,6 +80,9 @@ Define how projects can migrate from the current C bindings to the cleaner
 `nim-ffi` integration path without breaking existing users.
 
 #### Deliverables
+- [logos-messaging/nim-ffi#132](https://github.com/logos-messaging/nim-ffi/pull/132) chore: reduce walls of comments
+- [logos-messaging/nim-ffi#130](https://github.com/logos-messaging/nim-ffi/pull/130) chore(codegen): unify the C and c_abi binding generators into one
+- [logos-messaging/nim-ffi#124](https://github.com/logos-messaging/nim-ffi/pull/124) feat(codegen): scalar-fast-path bindings for the abi = c header
 - [vacp2p/nim-libp2p#2775](https://github.com/vacp2p/nim-libp2p/pull/2775) chore(cbind): nim-ffi migration [4/9] — streams & custom protocols (+ echo example)
 - [vacp2p/nim-libp2p#2774](https://github.com/vacp2p/nim-libp2p/pull/2774) chore(cbind): nim-ffi migration [3/9] — connectivity & identity
 - [vacp2p/nim-libp2p#2773](https://github.com/vacp2p/nim-libp2p/pull/2773) chore(cbind): nim-ffi migration [2/9] — new-library scaffold + CI

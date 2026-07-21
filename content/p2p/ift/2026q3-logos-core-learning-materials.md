@@ -31,8 +31,8 @@ custom protocols where available, and debugging common setup problems.
 ### Plan
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-core-learning-materials:plan`
-* owner: not assigned yet
-* status: not started
+* owner: Vlado
+* status: in progress (10%)
 * start-date: 2026/07/01
 * end-date: 2026/07/05
 
@@ -41,6 +41,10 @@ Define the tutorial and example set for Q3, prioritizing workflows that Logos
 Delivery, Anoncomms, and Logos Core developers are expected to use.
 
 #### Deliverables
+- [logos-co/logos-web#110](https://github.com/logos-co/logos-web/issues/110) some text have really small font size
+- [logos-co/logos-web#112](https://github.com/logos-co/logos-web/issues/112) Install Basecamp is throught web wrongly implemented
+- [logos-co/logos-basecamp#268](https://github.com/logos-co/logos-basecamp/issues/268) bug: hide/show is not working after second click
+- [logos-co/logos-basecamp#269](https://github.com/logos-co/logos-basecamp/issues/269) feat: make text selectable on Settings screen
 - Tutorial outline for Q3 Logos Core libp2p material
 - Decision on which examples should be executable tests
 
@@ -48,8 +52,8 @@ Delivery, Anoncomms, and Logos Core developers are expected to use.
 ### Tutorials
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-core-learning-materials:tutorials`
-* owner: not assigned yet
-* status: not started
+* owner: Vlado
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -59,6 +63,8 @@ tutorials should be concise, runnable where practical, and aligned with the
 current Logos libp2p module API.
 
 #### Deliverables
+- [logos-co/logos-docs#398](https://github.com/logos-co/logos-docs/pull/398) fix command
+- [logos-co/logos-docs#397](https://github.com/logos-co/logos-docs/pull/397) add libp2p module
 - Tutorial for creating and starting a libp2p node through Logos Core
 - Tutorial for peer discovery and Kademlia usage
 - Tutorial for connecting peers and exchanging protocol data

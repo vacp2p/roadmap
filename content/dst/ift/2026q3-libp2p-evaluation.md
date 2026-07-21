@@ -47,6 +47,8 @@ and ensure they don't happen again.
 
 #### Deliverables
 - Code:
+  - [vacp2p/10ksim#316](https://github.com/vacp2p/10ksim/pull/316) shadow-gossipsub: select muxer and discovery (static | kad-dht)
+  - [vacp2p/10ksim#351](https://github.com/vacp2p/10ksim/pull/351) Shadow: scrape gossipsub control/efficiency metrics
 - Reports:
   - [Nim-libp2p v2.2.0 Regression Report](https://app.notion.com/p/3978f96fb65c8042ae7dd621decae98a)
 

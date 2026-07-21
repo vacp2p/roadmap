@@ -76,16 +76,16 @@ Test community ownership transfer workflows and state transitions.
 ### Community Control Node Transfer Functional Test
 
 * fully qualified name: `ift-ts:qa:status:2026q2-status-go-functional-testing:7132`
-* owner: TBD
-* status: not started
+* owner: Aya
+* status: done
 * start-date: 2026/04/01
-* end-date: 2026/06/30
+* end-date: 2026/07/21
 
 #### Description
 Verify control node transfer procedures for communities.
 
 #### Deliverables
-- PRs and/or Issues
+- [status-im/status-go#7584](https://github.com/status-im/status-go/pull/7584) test(functional): add #7132 community control node transfer test
 
 ### Community-Level Permissions Functional Test
 

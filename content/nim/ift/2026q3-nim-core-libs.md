@@ -54,7 +54,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:thread-pool-library`
 * owner: Esteban
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -64,6 +64,8 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Keep the ported functionality covered by tests and suitable for downstream consumers.
 
 #### Deliverables
+- [status-im/nim-taskpools#51](https://github.com/status-im/nim-taskpools/pull/51) Fix #6; Support tasks submitted from a thread that is not managed by the threadpool
+- [status-im/nim-taskpools#55](https://github.com/status-im/nim-taskpools/pull/55) Test suite based on benchs
 - [status-im/nim-taskpools#52](https://github.com/status-im/nim-taskpools/pull/52) Fix TSan detected data races
 
 ### Nim Web3 Error Handling and Issue Triage
@@ -94,6 +96,12 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Ongoing maintenance and fixes across Nim core libraries.
 
 #### Deliverables
+- [nim-lang/nimble#1781](https://github.com/nim-lang/nimble/issues/1781) `nimble dump`: nimDir is empty a special version of Nim is required
+- [nim-lang/langserver#425](https://github.com/nim-lang/langserver/pull/425) Fix SIGSEGV in writeOutput when writing after stdio teardown
+- [nim-lang/langserver#426](https://github.com/nim-lang/langserver/pull/426) Prevent CancelledError escaping addProjectFileToPendingRequest killing the server
+- [nim-lang/langserver#427](https://github.com/nim-lang/langserver/pull/427) Fix KeyError in removeIdleNimsuggests aborting idle project cleanup
+- [nim-lang/langserver#429](https://github.com/nim-lang/langserver/pull/429) Make markFailed idempotent so one nimsuggest crash restarts once
+- [nim-lang/langserver#430](https://github.com/nim-lang/langserver/pull/430) Reset failTable count when a nimsuggest starts successfully
 - [status-im/nim-json-rpc#286](https://github.com/status-im/nim-json-rpc/pull/286) CI: test with ASan
 - [status-im/nim-json-rpc#281](https://github.com/status-im/nim-json-rpc/pull/281) Fix #280; Result of method returning `void` fails to parse
 - [status-im/nim-chronos#688](https://github.com/status-im/nim-chronos/pull/688) Fix error in `new` after replacing getAddress with getHttpAddress

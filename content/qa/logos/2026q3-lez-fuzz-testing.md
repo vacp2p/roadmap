@@ -30,6 +30,7 @@ The work includes updating fuzz targets, corpus handling, CI execution, and foll
 - Keep corpus update automation and CI execution useful, documenting constraints or infrastructure gaps when they appear.
 
 #### Deliverables
+- [logos-blockchain/lez-fuzzing#20](https://github.com/logos-blockchain/lez-fuzzing/pull/20) fix: Add timeout to model based stateful lockstep
 - [Town Hall presentation and demo](https://youtu.be/XIwJwK0RAlk?t=357)
 - [logos-blockchain/lez-fuzzing#19](https://github.com/logos-blockchain/lez-fuzzing/pull/19) chore: automated weekly corpus update
 - [logos-blockchain/logos-execution-zone#609](https://github.com/logos-blockchain/logos-execution-zone/pull/609) test: Address missed mutants - bridge guard

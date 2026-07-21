@@ -30,6 +30,7 @@ Set up self-hosting infrastructure and deployment processes for the Logos websit
 
 #### Deliverables
 
+- [logos-co/logos-web#107](https://github.com/logos-co/logos-web/pull/107) Track Get Started card clicks
 - Self-hosting configuration
 - Deployment documentation
 - Infrastructure setup

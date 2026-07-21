@@ -51,7 +51,7 @@ Focus on library-level testing for the interaction between RLN and LEZ and repor
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-messaging-testing:reliable-channel-api-tests`
 * owner: aya
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -60,6 +60,9 @@ Support QA for [Reliable Channel API — General Availability](https://roadmap.l
 Add API tests based on the [Reliable Channel API](https://github.com/logos-co/logos-lips/blob/master/docs/messaging/raw/reliable-channel-api.md), covering the main reliable-channel behavior exposed by the implementation.
 
 #### Deliverables
+- [logos-messaging/logos-delivery-interop-tests#199](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/199) Channel api rc03 rc04 variants
+- [logos-messaging/logos-delivery-interop-tests#197](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/197) Channel API RC01-RC02
+- [logos-messaging/logos-delivery#4048](https://github.com/logos-messaging/logos-delivery/issues/4048) bug: Channel API A → B delivery does not produce a `channel_message_received` event on B
 - [logos-messaging/logos-delivery-python-bindings#7](https://github.com/logos-messaging/logos-delivery-python-bindings/pull/7) Channel api wrappers
 
 ### Chat Developer Preview QA

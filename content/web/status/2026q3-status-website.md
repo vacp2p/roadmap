@@ -114,7 +114,7 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:404-audit-redirects`
 * owner: jinhojang6
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/07/07
 * end-date: 2026/07/25
 
@@ -124,6 +124,7 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 #### Deliverables
 
+- [status-im/status-web#1270](https://github.com/status-im/status-web/pull/1270) Fix 404s for renamed spec doc slugs
 - Spreadsheet or doc mapping all 217 URLs → action (301 / restore / ignore)
 - 301 rules implemented for agreed URLs
 - Sample re-crawl confirming top-traffic 404s resolved
@@ -132,7 +133,7 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:noindex-audit`
 * owner: jinhojang6
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/07/14
 * end-date: 2026/07/25
 
@@ -142,6 +143,7 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 #### Deliverables
 
+- [status-im/status-web#1269](https://github.com/status-im/status-web/pull/1269) Noindex work-in-progress help docs (noindex audit)
 - Audit list with intentional / fix / defer per URL group
 - Unintentional noindex removed where agreed
 - Re-submit or validate indexing on a sample of fixed URLs
@@ -150,7 +152,7 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:robots-txt-review`
 * owner: jinhojang6
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/07/14
 * end-date: 2026/07/18
 
@@ -160,6 +162,7 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 #### Deliverables
 
+- [status-im/status-web#1277](https://github.com/status-im/status-web/pull/1277) Fix robots.txt path matching
 - Current robots.txt documented with rationale per rule
 - Fixes deployed for mistaken blocks
 - Short operator note for future robots changes
@@ -240,7 +243,7 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:structured-data`
 * owner: jinhojang6
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/08/25
 * end-date: 2026/09/12
 
@@ -250,6 +253,7 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 #### Deliverables
 
+- [status-im/status-web#1273](https://github.com/status-im/status-web/pull/1273) Add structured data for status.app pages
 - Schema map: page types → JSON-LD templates
 - Article + FAQ schema live on agreed templates
 - Validation screenshots or Search Console rich-result checks

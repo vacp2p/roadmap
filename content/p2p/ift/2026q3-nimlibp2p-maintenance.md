@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-maintenance:maintenance`
 * owner: rramos/vlado/gabe
-* status: in progress (13%)
+* status: in progress (21%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -36,6 +36,21 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors, and bug fixes.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2844](https://github.com/vacp2p/nim-libp2p/pull/2844) fix(kad): avoid advertising ephemeral peer addresses
+- [vacp2p/nim-libp2p#2843](https://github.com/vacp2p/nim-libp2p/pull/2843) chore: print selected platform in test_multiformat_exts
+- [vacp2p/nim-libp2p#2838](https://github.com/vacp2p/nim-libp2p/pull/2838) fix(dcutr): preserve QUIC server role during hole punching
+- [vacp2p/nim-libp2p#2837](https://github.com/vacp2p/nim-libp2p/pull/2837) fix(quic): propagate accept errors instead of nil
+- [vacp2p/nim-libp2p#2830](https://github.com/vacp2p/nim-libp2p/pull/2830) fix: avoid unused allFinished copies
+- [vacp2p/nim-libp2p#2836](https://github.com/vacp2p/nim-libp2p/pull/2836) fix(ci): daily workflow job names
+- [vacp2p/nim-boringssl#13](https://github.com/vacp2p/nim-boringssl/pull/13) chore: remove natlibs
+- [vacp2p/nim-libp2p#2828](https://github.com/vacp2p/nim-libp2p/pull/2828) fix(dialer): reset streams after failed protocol negotiation
+- [vacp2p/nim-lsquic#99](https://github.com/vacp2p/nim-lsquic/pull/99) fix: close QUIC streams after receiving FIN
+- [status-im/nimbus-eth2#8756](https://github.com/status-im/nimbus-eth2/pull/8756) chore: bump libp2p to 2.1.5
+- [vacp2p/nim-libp2p#2823](https://github.com/vacp2p/nim-libp2p/pull/2823) fix(service-discovery): drain bootstrap futures on shutdown
+- [vacp2p/nim-libp2p#2819](https://github.com/vacp2p/nim-libp2p/pull/2819) chore(builders): disable IdentifyPusher by default
+- [vacp2p/nim-libp2p#2815](https://github.com/vacp2p/nim-libp2p/pull/2815) fix(gossipsub): concurrent peers table access during topic unsubscribe
+- [vacp2p/nim-libp2p#2829](https://github.com/vacp2p/nim-libp2p/pull/2829) fix(ci): ignore missing sources in coverage genhtml
+- [vacp2p/nim-libp2p#2605](https://github.com/vacp2p/nim-libp2p/pull/2605) fix: track and cancel asyncSpawn-ed futures on teardown
 - [vacp2p/nim-libp2p#2803](https://github.com/vacp2p/nim-libp2p/pull/2803) ci: drop i386_temp workflow
 - [vacp2p/nim-libp2p#2808](https://github.com/vacp2p/nim-libp2p/pull/2808) fix(ci): stop dcutr test leaking a channel; run full daily CI on label
 - [vacp2p/nim-libp2p#2770](https://github.com/vacp2p/nim-libp2p/pull/2770) chore: add issue and feature templates

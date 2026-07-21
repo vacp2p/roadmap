@@ -78,8 +78,8 @@ TBD
 > *Note*: This needs more input from project
 
 * fully qualified name: `ift-ts:dst:logos:2026q3-anoncomms-evaluation:service-discovery-scenarios`
-* owner: TBD
-* status: not started
+* owner: Alberto
+* status: in progress (20%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -89,3 +89,7 @@ Perform scenarios described by annoncoms team and do measurements of those using
 #### Deliverables
 - Code:
 - Reports:
+  - [Invalid ticket issue](https://app.notion.com/p/Invalid-ticket-log-line-answer-3a08f96fb65c80419b21ee2bf040a9e6)
+  - [Bootstrap refresh time question](https://app.notion.com/p/Refresh-time-answer-39e8f96fb65c8054824dd27a0036b052)
+  - [CPU 100% and stale node issue](https://app.notion.com/p/CPU-stale-answer-3a08f96fb65c8095b9ead7b028eb30dd)
+  - [Service Discovery main report](https://app.notion.com/p/Service-discovery-analysis-39d8f96fb65c8098864bdfe91b012abf)

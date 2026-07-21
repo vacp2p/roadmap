@@ -32,6 +32,8 @@ The performance work is a priority as there is an intention to use performance m
 Make the mobile performance pipeline run unattended and extend it from response times to resource usage. The response-time dashboard already covers around 39 app surfaces on a fresh account; the priority this quarter is measuring a loaded account, getting the nightly run reliable, and adding battery, CPU, and memory tracking.
 
 #### Deliverables
+- [status-im/status-app#21470](https://github.com/status-im/status-app/issues/21470) [Android] CPU, GPU, Battery and Device surface temperature go sharply app when actively using the app
+- [status-im/status-app#21513](https://github.com/status-im/status-app/pull/21513) chore: up status-go to get cpu and download improvements
 - [status-im/status-app#21448](https://github.com/status-im/status-app/issues/21448) [QA - Android] Regression: Wallet Swap screen takes >1s to open (was ~0.7s)
 - [status-im/status-app#21447](https://github.com/status-im/status-app/issues/21447) [QA - Android] Regression: Wallet Send screen takes >1s to open (was ~0.7s)
 - [status-im/status-app#21430](https://github.com/status-im/status-app/issues/21430) [QA - Android] Communities directory takes 17–80s to load — latest check never loaded (120s+)
@@ -86,7 +88,7 @@ Add accessibility properties (`objectName` / `Accessible.name`) on screens the t
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:binding-contract`
 * owner: magnus
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -94,6 +96,7 @@ Add accessibility properties (`objectName` / `Accessible.name`) on screens the t
 Add a fast Go test that checks every backend method the mobile app calls is still exposed by status-go, so renamed or removed methods fail in CI instead of surfacing only on device.
 
 #### Deliverables
+- [status-im/status-app#21496](https://github.com/status-im/status-app/pull/21496) test(contract): check wakuext FFI method names against vendored status-go
 - A method-existence test in status-go's `mobile` package covering the `wakuext` namespace, running in CI
 - The app's referenced method names enumerated from source
 - Coverage extended to the `wallet` and `accounts` namespaces
@@ -127,6 +130,7 @@ Replace flaky two-phone messaging checks with a headless status-backend acting a
 Add smoke tests for critical journeys missing from the gate: wallet send and joining a community. Both join the gate once gate-health has stabilised it.
 
 #### Deliverables
+- [status-im/status-app#21482](https://github.com/status-im/status-app/pull/21482) ci(e2e-android): provide the wallet test seed to the e2e job
 - [status-im/status-app#21420](https://github.com/status-im/status-app/pull/21420) test(e2e-mobile): wallet-send smoke
 - A wallet-send smoke asserting recipient and amount through to signing, with a `send_modal` page object
 - A community browse-and-join smoke, with community page objects
@@ -229,6 +233,7 @@ Get a working iOS test build into the automation so iOS coverage can be expanded
 Keep the framework healthy as the app changes: triage flaky tests, follow app refactors, continue locator migration, and continue rolling out test-traceability markers.
 
 #### Deliverables
+- [status-im/status-app#21499](https://github.com/status-im/status-app/issues/21499) Pending Requests list renders its content at the bottom of the view
 - Brittle xpath locators reduced in messaging and wallet locator files, toward `tid()` / `objectName`
 - Test-traceability markers extended beyond messaging suites to wallet and onboarding tests
 - [status-im/status-app#21367](https://github.com/status-im/status-app/pull/21367) fix(e2e_appium): context-menu and wallet account gate tests

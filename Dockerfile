@@ -1,16 +1,10 @@
-FROM node:22-slim AS builder
-
-# install git to install plugins
-RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
-
+FROM node:20-slim as builder
 WORKDIR /usr/src/app
 COPY package.json .
 COPY package-lock.json* .
-COPY quartz/ ./quartz/
-COPY quartz.lock.json .
-RUN npm ci; npx quartz plugin install
+RUN npm ci
 
-FROM node:22-slim
+FROM node:20-slim
 WORKDIR /usr/src/app
 COPY --from=builder /usr/src/app/ /usr/src/app/
 COPY . .

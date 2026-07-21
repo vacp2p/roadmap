@@ -1,7 +1,7 @@
 ---
 title: Callouts
 tags:
-  - feature/transformer
+  - plugin/transformer
 ---
 
 Quartz supports the same Admonition-callout syntax as Obsidian.
@@ -19,78 +19,68 @@ This includes
 See [documentation on supported types and syntax here](https://help.obsidian.md/Editing+and+formatting/Callouts).
 
 > [!warning]
-> Wondering why callouts may not be showing up even if you have them enabled? You may need to reorder your plugins so that [[ObsidianFlavoredMarkdown]] is _after_ [[SyntaxHighlighting]].
+> Wondering why callouts may not be showing up even if you have them enabled? You may need to reorder your plugins so that `Plugin.ObsidianFlavoredMarkdown()` is _after_ `Plugin.SyntaxHighlighting()`.
 
 ## Customization
 
-The callouts are a functionality of the [[ObsidianFlavoredMarkdown]] plugin. See the plugin page for how to enable or disable them.
-
-You can edit the icons by customizing `quartz/styles/callouts.scss`.
-
-### Add custom callouts
-
-By default, custom callouts are handled by applying the `note` style. To make fancy ones, you have to add these lines to `custom.scss`.
-
-```scss title="quartz/styles/custom.scss"
-.callout {
-  &[data-callout="custom"] {
-    --color: #customcolor;
-    --border: #custombordercolor;
-    --bg: #custombg;
-    --callout-icon: url("data:image/svg+xml; utf8, <custom formatted svg>"); //SVG icon code
-  }
-}
-```
-
-> [!warning]
-> Don't forget to ensure that the SVG is URL encoded before putting it in the CSS. You can use tools like [this one](https://yoksel.github.io/url-encoder/) to help you do that.
+- Disable callouts: simply pass `callouts: false` to the plugin: `Plugin.ObsidianFlavoredMarkdown({ callouts: false })`
+- Editing icons: `quartz/plugins/transformers/ofm.ts`
 
 ## Showcase
 
 > [!info]
 > Default title
 
-> [!question]+ Can callouts be _nested_?
+> [!question]+ Can callouts be nested?
 >
-> > [!todo]- Yes!, they can. And collapsed!
+> > [!todo]- Yes!, they can.
 > >
 > > > [!example] You can even use multiple layers of nesting.
 
-> [!note]
-> Aliases: "note"
+> [!EXAMPLE] Examples
+>
+> Aliases: example
 
-> [!abstract]
-> Aliases: "abstract", "summary", "tldr"
+> [!note] Notes
+>
+> Aliases: note
 
-> [!info]
-> Aliases: "info"
+> [!abstract] Summaries
+>
+> Aliases: abstract, summary, tldr
 
-> [!todo]
-> Aliases: "todo"
+> [!info] Info
+>
+> Aliases: info, todo
 
-> [!tip]
-> Aliases: "tip", "hint", "important"
+> [!tip] Hint
+>
+> Aliases: tip, hint, important
 
-> [!success]
-> Aliases: "success", "check", "done"
+> [!success] Success
+>
+> Aliases: success, check, done
 
-> [!question]
-> Aliases: "question", "help", "faq"
+> [!question] Question
+>
+> Aliases: question, help, faq
 
-> [!warning]
-> Aliases: "warning", "attention", "caution"
+> [!warning] Warning
+>
+> Aliases: warning, caution, attention
 
-> [!failure]
-> Aliases: "failure", "missing", "fail"
+> [!failure] Failure
+>
+> Aliases: failure, fail, missing
 
-> [!danger]
-> Aliases: "danger", "error"
+> [!danger] Error
+>
+> Aliases: danger, error
 
-> [!bug]
-> Aliases: "bug"
+> [!bug] Bug
+>
+> Aliases: bug
 
-> [!example]
-> Aliases: "example"
-
-> [!quote]
-> Aliases: "quote", "cite"
+> [!quote] Quote
+>
+> Aliases: quote, cite

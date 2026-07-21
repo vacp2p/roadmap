@@ -5,9 +5,6 @@ tags:
   - vac
 ---
 
-> [!NOTE]
-> The ACZ roadmap has moved to the [Logos Anoncomms roadmap](https://roadmap.logos.co/anoncomms).
-
 [[acz/preview|Roadmap Preview]]
 
 ## 2025q4 `vac:acz:`

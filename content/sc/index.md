@@ -5,9 +5,6 @@ tags:
   - vac
 ---
 
-> [!NOTE]
-> The Smart Contracts team roadmap has moved to the [Logos Core roadmap](https://roadmap.logos.co/logoscore/roadmap).
-
 ## 2026q2 `ift-ts:sc:`
 ---
 

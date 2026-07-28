@@ -39,8 +39,8 @@ Implement Receive BTC flow in the wallet extension (address generation/display, 
 ### Recovery Phrase Accessible Form
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-wallet-extension:recovery-phrase-accessible-form`
-* owner: JulesFiliot
-* status: not started
+* owner: Jinho
+* status: in progress (25%)
 * start-date: 2026/07/13
 * end-date: 2026/07/24
 
@@ -50,6 +50,7 @@ Replace the single recovery phrase input field with an accessible per-word form.
 
 #### Deliverables
 
+- [status-im/status-web#1280](https://github.com/status-im/status-web/pull/1280) feat(wallet): create account from the wallet selector
 - Per-word recovery phrase input component (12/24 words)
 - Accessibility review (keyboard nav, screen-reader labels, paste handling)
 - Updated UX in onboarding and import flows

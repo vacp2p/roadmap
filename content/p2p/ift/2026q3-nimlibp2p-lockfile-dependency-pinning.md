@@ -27,10 +27,10 @@ is easier for contributors and downstream projects to reproduce.
 ### Lock File Migration
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-lockfile-dependency-pinning:lockfile-migration`
-* owner: not assigned yet
-* status: not started
+* owner: Richard
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/07/27
 
 #### Description
 Determine the  `.pinned` usage in nim-libp2p, CI, docker, interop tests and scripts.
@@ -38,6 +38,8 @@ Replace `.pinned` driven dependency setup with Nimble lock file based installati
 in the relevant workflows.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2882](https://github.com/vacp2p/nim-libp2p/pull/2882) fix(build): remove --noLockFile and dir rm
+- [vacp2p/nim-libp2p#2871](https://github.com/vacp2p/nim-libp2p/pull/2871) build(deps): replace custom pins with Nimble resolver setup
 - Nimble lock file created or updated for nim-libp2p dependency pinning
 - CI and interop scripts use lock file based dependency installation
 - `.pinned` usage removed from active workflows

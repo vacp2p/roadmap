@@ -20,7 +20,7 @@ Create custom Dashboard to analyse Youtube metrics.
 
 * fully qualified name: `ift-ts:bi:status:2026q3-status-scam-detection`
 * owner: Nikolay
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/07/01
 * end-date: 2026/09/31
 * issue: https://github.com/status-im/data-docs/issues/204
@@ -31,5 +31,7 @@ Build a solution to detect scam account in Status communities
 
 #### Deliverables
 
+- IFT Town Hall presentation on Status SDK usage
+- PyPI account set up for publishing the Status SDK library
 - Pipeline for Scam detection
 - expose the account List

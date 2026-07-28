@@ -79,7 +79,7 @@ TBD
 
 * fully qualified name: `ift-ts:dst:logos:2026q3-anoncomms-evaluation:service-discovery-scenarios`
 * owner: Alberto
-* status: in progress (20%)
+* status: in progress (40%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -88,6 +88,7 @@ Perform scenarios described by annoncoms team and do measurements of those using
 
 #### Deliverables
 - Code:
+  - [vacp2p/10ksim#309](https://github.com/vacp2p/10ksim/pull/309) Improve service discovery experiment
 - Reports:
   - [Invalid ticket issue](https://app.notion.com/p/Invalid-ticket-log-line-answer-3a08f96fb65c80419b21ee2bf040a9e6)
   - [Bootstrap refresh time question](https://app.notion.com/p/Refresh-time-answer-39e8f96fb65c8054824dd27a0036b052)

@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-maintenance:maintenance`
 * owner: rramos/vlado/gabe
-* status: in progress (21%)
+* status: in progress (28%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -36,6 +36,12 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors, and bug fixes.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2881](https://github.com/vacp2p/nim-libp2p/pull/2881) ci: harden workflow permissions
+- [logos-co/logos-libp2p-module#88](https://github.com/logos-co/logos-libp2p-module/pull/88) chore: harden CI workflow permissions
+- [vacp2p/nim-libp2p#2876](https://github.com/vacp2p/nim-libp2p/pull/2876) ci: composite actions for dependencies
+- [vacp2p/nim-libp2p#2874](https://github.com/vacp2p/nim-libp2p/pull/2874) ci: fix dependnecies cache keys
+- [vacp2p/nim-libp2p#2873](https://github.com/vacp2p/nim-libp2p/pull/2873) chore(deps): bump nimble to v0.24.1
+- [vacp2p/nim-libp2p#2867](https://github.com/vacp2p/nim-libp2p/pull/2867) chore(tests): use `await` insted of `waitFor`
 - [vacp2p/nim-libp2p#2844](https://github.com/vacp2p/nim-libp2p/pull/2844) fix(kad): avoid advertising ephemeral peer addresses
 - [vacp2p/nim-libp2p#2843](https://github.com/vacp2p/nim-libp2p/pull/2843) chore: print selected platform in test_multiformat_exts
 - [vacp2p/nim-libp2p#2838](https://github.com/vacp2p/nim-libp2p/pull/2838) fix(dcutr): preserve QUIC server role during hole punching

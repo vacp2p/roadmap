@@ -53,9 +53,9 @@ Delivery, Anoncomms, and Logos Core developers are expected to use.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-core-learning-materials:tutorials`
 * owner: Vlado
-* status: in progress (25%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/07/27
 
 #### Description
 Write step-by-step tutorials for using nim-libp2p through Logos Core. The
@@ -63,6 +63,15 @@ tutorials should be concise, runnable where practical, and aligned with the
 current Logos libp2p module API.
 
 #### Deliverables
+- [logos-co/logos-libp2p-module#90](https://github.com/logos-co/logos-libp2p-module/pull/90) docs(tutorial): add introduction tutorial
+- [logos-co/logos-libp2p-module#87](https://github.com/logos-co/logos-libp2p-module/pull/87) docs(tutorial): add tutorials 9, 10 and 11
+- [logos-co/logos-libp2p-module#91](https://github.com/logos-co/logos-libp2p-module/pull/91) chore: drop examples
+- [logos-co/logos-libp2p-module#89](https://github.com/logos-co/logos-libp2p-module/pull/89) docs(tutorial): add separator after introduction to tutorial ends
+- [logos-co/logos-libp2p-module#84](https://github.com/logos-co/logos-libp2p-module/pull/84) docs(tutorial): add tutorials 5, 6, 7, 8
+- [logos-co/logos-libp2p-module#85](https://github.com/logos-co/logos-libp2p-module/pull/85) ci(tutorials): add smoke test for code
+- [logos-co/logos-libp2p-module#86](https://github.com/logos-co/logos-libp2p-module/pull/86) chore(tutorials): remove borders from rendered .md navigation
+- [logos-co/logos-libp2p-module#81](https://github.com/logos-co/logos-libp2p-module/pull/81) docs(tutorial): add tutorials 2, 3 and 4
+- [logos-co/logos-libp2p-module#80](https://github.com/logos-co/logos-libp2p-module/pull/80) feat(tutorial) add support for runnable tutorials with CI and docs generation
 - [logos-co/logos-docs#398](https://github.com/logos-co/logos-docs/pull/398) fix command
 - [logos-co/logos-docs#397](https://github.com/logos-co/logos-docs/pull/397) add libp2p module
 - Tutorial for creating and starting a libp2p node through Logos Core

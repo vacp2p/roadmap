@@ -49,8 +49,8 @@ Validate the main package manager and module workflows, including install, launc
 ### Test coverage and maintenance
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-logos-basecamp:maintenance`
-* owner: tbd
-* status: not started
+* owner: Roman
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -58,5 +58,7 @@ Validate the main package manager and module workflows, including install, launc
 Maintain and extend the existing Basecamp smoke, UI, sandbox, and doctest coverage as the project evolves.
 
 #### Deliverables
+- [logos-co/logos-basecamp#286](https://github.com/logos-co/logos-basecamp/pull/286) Chore/add remaining tests to CI
+- [logos-co/logos-basecamp#284](https://github.com/logos-co/logos-basecamp/pull/284) Fix/qml tests and references in flake file
 - PRs extending or stabilizing tests.
 - Issues for uncovered regressions or flaky scenarios.

@@ -34,7 +34,7 @@ The maintenance commitment supports IFT's strategic objectives by:
 * owner: Felicio/Jinho/JulesFiliot
 * status: done
 * start-date: 2026/07/01
-* end-date: 2026/07/21
+* end-date: 2026/07/27
 
 #### Description
 
@@ -42,7 +42,10 @@ Execute upkeep across delivered web properties for Q3: dependency and security b
 
 #### Deliverables
 
-- [logos-co/logos-web#92](https://github.com/logos-co/logos-web/pull/92) feat(ci): add /ai-review dual-model PR review workflow (pilot, review-only)
+- [status-im/status-web#1281](https://github.com/status-im/status-web/pull/1281) Harden proxy rate limiting
+- [status-im/infra-sites#139](https://github.com/status-im/infra-sites/issues/139) Finalized self-hosting of get.status.app
+- [status-im/status-web#1285](https://github.com/status-im/status-web/pull/1285) fix(status.app): prevent desktop navbar overflow
+- [status-im/status-web#1282](https://github.com/status-im/status-web/pull/1282) fix(status.app): prevent keycard section overflow
 - [Fixed Vercel deployments](https://discord.com/channels/864066763682218004/1526192188675985569/1526602522159091752)
 - [Fixed downloading of Status builds](https://discord.com/channels/864066763682218004/1420097240738824212/1527053842674487489)
 - [Unblocked deployment of dockerized website](https://discord.com/channels/864066763682218004/1526610430901096538/1526610438480068850)
@@ -57,6 +60,7 @@ Execute upkeep across delivered web properties for Q3: dependency and security b
 - Issues created or updated for planning; hotfixes verified and briefly recorded
 - Removed sample Cloudinary assets
 - [Operator sunset Discord thread](https://discord.com/channels/864066763682218004/1522722281736896603/1522722529674919947)
+- Removed the status.app domain from Vercel.
 
 ### Merge Vercel teams under IFT-TS
 
@@ -133,6 +137,7 @@ Define and roll out **PR review workflows** that combine GitHub Copilot review w
 
 #### Deliverables
 
+- [logos-co/logos-web#92](https://github.com/logos-co/logos-web/pull/92) feat(ci): add /ai-review dual-model PR review workflow (pilot, review-only)
 - Written workflow: Copilot review + agent review checklist for Web PRs
 - Enabled on at least the primary repos (`status-im/status-web`, `logos-co/logos-web`)
 - Example PRs reviewed with both tools; notes on signal vs noise

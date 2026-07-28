@@ -29,6 +29,8 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Update tests for changes in Status Desktop, address regressions, investigate failures, and implement minor framework improvements needed to keep the suite reliable.
 
 #### Deliverables
+- [status-im/status-app#21545](https://github.com/status-im/status-app/pull/21545) tests(@qml): add wallet account reordering tests
+- [status-im/status-app#21578](https://github.com/status-im/status-app/pull/21578) chore(@e2e): screenshots helper
 - [status-im/status-app#21476](https://github.com/status-im/status-app/issues/21476) Fix MacOS setup with Squish 9.2
 - [status-im/status-app#21518](https://github.com/status-im/status-app/pull/21518) tests(@qml): add tests for custom order for assets in wallet
 - [status-im/status-app#21517](https://github.com/status-im/status-app/issues/21517) Custom assets order from wallet settings is not applied to wallet
@@ -103,7 +105,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:windows-performance-tests`
 * owner: nastya
-* status: in progress (50%)
+* status: in progress (75%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -112,6 +114,15 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Improve coverage for the main performance-sensitive user flows and make the measurements useful for regression tracking.
 
 #### Deliverables
+- [status-im/status-app#21594](https://github.com/status-im/status-app/pull/21594) chore(@e2e): fix for benchmarks test
+- [status-im/status-app#21590](https://github.com/status-im/status-app/pull/21590) chore(@e2e): do not rely on is_visible property for empty activity list
+- [status-im/status-app-benchmarks#21](https://github.com/status-im/status-app-benchmarks/pull/21) desktop: post regression report on the website as well
+- [status-im/status-app-benchmarks#20](https://github.com/status-im/status-app-benchmarks/pull/20) desktop: update summary
+- [status-im/status-app-benchmarks#19](https://github.com/status-im/status-app-benchmarks/pull/19) desktop: update dashboard profile stats and add colored profile chips
+- [status-im/status-app#21566](https://github.com/status-im/status-app/pull/21566) chore(@e2e): update BD for benchmark profiles to store transactions data
+- [status-im/status-app#21556](https://github.com/status-im/status-app/pull/21556) chore(@e2e): do not wait for balances for benchmark tests
+- [status-im/status-app-benchmarks#18](https://github.com/status-im/status-app-benchmarks/pull/18) desktop: baseline for 2.38.0
+- [status-im/status-app#21542](https://github.com/status-im/status-app/pull/21542) chore(@e2e): do not wait for collectibles to be loaded in benchmark test
 - [status-im/status-app-benchmarks#16](https://github.com/status-im/status-app-benchmarks/pull/16) desktop: add wallet resource metrics and improve benchmark dashboard
 - [status-im/status-app-benchmarks#15](https://github.com/status-im/status-app-benchmarks/pull/15) desktop: add baselines
 - [status-im/status-app-benchmarks#13](https://github.com/status-im/status-app-benchmarks/pull/13) desktop: align benchmark charts with mobile layout and split by account variant

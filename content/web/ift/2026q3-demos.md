@@ -60,8 +60,8 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 ### Biweekly 3 - IFT Townhall Demo
 
 * fully qualified name: `ift-ts:web:ift:2026q3-demos:biweekly-3-ift-townhall`
-* owner: unassigned
-* status: not started
+* owner: JulesFiliot
+* status: in progress (10%)
 * start-date: 2026/07/29
 * end-date: 2026/08/04
 

@@ -31,6 +31,9 @@ All the relevant information can be found in [this GitHub issue](https://github.
 This remains the short-term roadmap for replacing pieces of the Nimbus build system bit by bit while improving Nimble overall.
 
 #### Deliverables
+- [nim-lang/nimble#1792](https://github.com/nim-lang/nimble/pull/1792) Makes it so special versions get a distinct cache key
+- [nim-lang/nimble#1787](https://github.com/nim-lang/nimble/pull/1787) Same special version twice should not warn
+- [nim-lang/nimble#1784](https://github.com/nim-lang/nimble/pull/1784) Fixes #1779
 - [nim-lang/Nim#26011](https://github.com/nim-lang/Nim/pull/26011) Update Nimble Commit to version 0.24.1
 - [nim-lang/nimble#1776](https://github.com/nim-lang/nimble/pull/1776) Bump 0.24.1
 - [nim-lang/nimble#1774](https://github.com/nim-lang/nimble/pull/1774) Fixes #1768
@@ -56,7 +59,7 @@ This remains the short-term roadmap for replacing pieces of the Nimbus build sys
 ### Chronos HTTP downloads
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nimble:chronos-http-downloads`
-* owner: Constantine
+* owner: Constantine/Juan
 * status: done
 * start-date: 2026/07/01
 * end-date: 2026/07/07
@@ -67,3 +70,5 @@ This remains the short-term roadmap for replacing pieces of the Nimbus build sys
 
 #### Deliverables
 - [nim-lang/nimble#1746](https://github.com/nim-lang/nimble/pull/1746) Replace asyncdispatch with Chronos
+- [status-im/nim-chronos#698](https://github.com/status-im/nim-chronos/pull/698) perf(http): cut per-request allocs (buffer memset, header keys, empty tables
+

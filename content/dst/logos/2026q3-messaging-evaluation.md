@@ -79,6 +79,25 @@ Analyze logos messaging using quic from nimlibp2p and compare results with mplex
   - [Waku quic vs yamux](https://app.notion.com/p/Waku-quic-vs-yamux-39b8f96fb65c806288b0e68544207b45)
   - [nWaku Regression Testing Notes](https://app.notion.com/p/nWaku-Regression-Testing-Notes-39e8f96fb65c80bea716f022bac100fa)
 
+  
+### Logos delivery node
+* fully qualified name: `ift-ts:dst:logos:2026q3-messaging-evaluation:logos-delivery-node`
+* owner: TBD
+* status: not started
+* start-date: 2026/07/28
+* end-date: 2026/08/07
+
+#### Description
+
+Try new image provided by logos-messaging introduced in [this PR](https://github.com/logos-messaging/logos-delivery/pull/4059)
+Note: [REST API interface](https://github.com/logos-messaging/logos-delivery-rest-api/pull/21)
+Build image and reproduce some experiments to see if results match and if we need to do modifications in our framework. 
+
+#### Deliverables
+- Code:
+- Reports:
+
+
 
 ### Scalable Data Sync
 > *Note*: This needs more input from project

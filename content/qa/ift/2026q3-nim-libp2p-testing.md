@@ -49,7 +49,7 @@ Implement tests for opt-in dial ranking and backoff behavior.
 
 * fully qualified name: `ift-ts:qa:ift:2026q3-nim-libp2p-testing:quic-repo`
 * owner: radek
-* status: in progress (10%)
+* status: in progress (40%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -58,6 +58,10 @@ Add QA coverage in the QUIC repository where it would be most useful for the bro
 Focus on targeted tests that can catch transport-level issues earlier and complement the nim-libp2p coverage.
 
 #### Deliverables
+- [vacp2p/nim-lsquic#105](https://github.com/vacp2p/nim-lsquic/pull/105) test: lifecycle guards and stream peer-reset behavior
+- [vacp2p/nim-lsquic#104](https://github.com/vacp2p/nim-lsquic/pull/104) test: connection
+- [vacp2p/nim-lsquic#102](https://github.com/vacp2p/nim-lsquic/pull/102) test: improvements 2
+- [vacp2p/nim-lsquic#100](https://github.com/vacp2p/nim-lsquic/pull/100) test: improvements
 - PRs with tests added or improved in the QUIC repository
 - Issues / reports for uncovered transport bugs, edge cases, or missing scenarios
 
@@ -101,6 +105,7 @@ Provide ongoing QA maintenance support for nim-libp2p throughout Q3.
 Cover small regression fixes, flaky-test follow-ups, test updates needed by upstream code changes, and issue-driven validation work that does not fit a larger feature-specific task.
 
 #### Deliverables
+- [libp2p/unified-testing#119](https://github.com/libp2p/unified-testing/pull/119) feat: add nim to kad-dht and enable quic in hole-punch
 - [libp2p/unified-testing#78](https://github.com/libp2p/unified-testing/pull/78) feat: hole-punch nim-v2.2 peer
 - [libp2p/unified-testing#77](https://github.com/libp2p/unified-testing/pull/77) feat: transport nim-v2.2
 - [vacp2p/nim-libp2p#2820](https://github.com/vacp2p/nim-libp2p/issues/2820) kad-dht: should handleAddProvider require provider keys to be valid multihashes?

@@ -71,7 +71,7 @@ writing compatibility tests, or adapting nim-libp2p wrappers.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-messaging-nim-ffi-integration:migration-path`
 * owner: gabe
-* status: in progress (80%)
+* status: in progress (90%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -80,6 +80,13 @@ Define how projects can migrate from the current C bindings to the cleaner
 `nim-ffi` integration path without breaking existing users.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2885](https://github.com/vacp2p/nim-libp2p/pull/2885) chore(cbind): adopt nim-ffi 0.3.0
+- [logos-messaging/nim-ffi#138](https://github.com/logos-messaging/nim-ffi/pull/138) feat(ffi): {.ffiStatic.} for context-independent procs
+- [logos-messaging/nim-ffi#137](https://github.com/logos-messaging/nim-ffi/pull/137) feat(c): CBOR-free transport for non-scalar abi = c procs
+- [logos-messaging/nim-ffi#140](https://github.com/logos-messaging/nim-ffi/pull/140) feat(codegen): {.ffiConst.} constants and {.ffi.} enums for C/C++/Rust
+- [vacp2p/nim-libp2p#2878](https://github.com/vacp2p/nim-libp2p/pull/2878) feat(cbind): list connected peers regardless of direction
+- [logos-messaging/nim-ffi#136](https://github.com/logos-messaging/nim-ffi/pull/136) feat(codegen): propagate {.ffi.} proc doc comments to generated bindings
+- [logos-messaging/nim-ffi#135](https://github.com/logos-messaging/nim-ffi/pull/135) fix(codegen): propagate the destructor status code out of <lib>_ctx_destroy
 - [logos-messaging/nim-ffi#132](https://github.com/logos-messaging/nim-ffi/pull/132) chore: reduce walls of comments
 - [logos-messaging/nim-ffi#130](https://github.com/logos-messaging/nim-ffi/pull/130) chore(codegen): unify the C and c_abi binding generators into one
 - [logos-messaging/nim-ffi#124](https://github.com/logos-messaging/nim-ffi/pull/124) feat(codegen): scalar-fast-path bindings for the abi = c header

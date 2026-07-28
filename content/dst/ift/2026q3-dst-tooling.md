@@ -36,7 +36,7 @@ adversarial conditions and control message behavior.
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-dst-tooling:general-tooling`
 * owner: Mamoutou/Alan
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -46,6 +46,7 @@ Should be made general when possible.
 
 #### Deliverables
 - Code:
+  - [vacp2p/10ksim#308](https://github.com/vacp2p/10ksim/pull/308) Post run analysis
   - [vacp2p/10ksim#346](https://github.com/vacp2p/10ksim/pull/346) Kad-dht regression sweep across versions and muxers
   - [vacp2p/10ksim#354](https://github.com/vacp2p/10ksim/pull/354) Fix command add_args
   - [vacp2p/vaclab-2#42](https://github.com/vacp2p/vaclab-2/pull/42) Add namespace variable for nWaku
@@ -55,7 +56,7 @@ Should be made general when possible.
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-dst-tooling:dashboard-improvements`
 * owner: Mamoutou
-* status: in progress (25%)
+* status: in progress (30%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -71,7 +72,7 @@ Improve first approach delivered in Q2.
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-dst-tooling:slow-proof-analysis`
 * owner: Mamoutou
-* status: in progress (40%)
+* status: in progress (50%)
 * start-date: 2026/07/09
 * end-date: 2026/09/24
 

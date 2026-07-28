@@ -24,8 +24,8 @@ Q3 continuation of [[web/status/2026q2-status-website|2026q2-status-website]]. T
 ### Blog search at status.app/blog
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:blog-search`
-* owner: Felicio
-* status: not started
+* owner: Jinho
+* status: in progress (75%)
 * start-date: 2026/07/13
 * end-date: 2026/07/31
 
@@ -44,6 +44,7 @@ Add a **search experience** to [status.app/blog](https://status.app/blog). Goals
 
 #### Deliverables
 
+- [status-im/status-web#1278](https://github.com/status-im/status-web/pull/1278) Add blog search
 - Search input + category filter shipped on [status.app/blog](https://status.app/blog)
 - Deep-linkable URL params for query + category
 - Empty / no-results states
@@ -152,7 +153,7 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:robots-txt-review`
 * owner: jinhojang6
-* status: in progress (25%)
+* status: in progress (75%)
 * start-date: 2026/07/14
 * end-date: 2026/07/18
 

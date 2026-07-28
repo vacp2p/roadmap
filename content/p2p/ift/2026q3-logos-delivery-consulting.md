@@ -52,7 +52,7 @@ required.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-delivery-consulting:service-discovery-kad`
 * owner: Gabe
-* status: in progress (21%)
+* status: in progress (28%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -63,6 +63,10 @@ bootstrap, provider record, discovery, and routing-table behavior as integration
 questions arise.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2879](https://github.com/vacp2p/nim-libp2p/pull/2879) fix(kad): flaky Get providers returns at most k closest peers
+- [libp2p/py-libp2p#1387](https://github.com/libp2p/py-libp2p/pull/1387) fix(kad-dht): don't dial ourselves on FIND_NODE, and return the target per the spec exception
+- [libp2p/py-libp2p#1398](https://github.com/libp2p/py-libp2p/pull/1398) fix(pubsub): replay recent messages once a peer's outbound stream is registered
+- [vacp2p/nim-libp2p#2862](https://github.com/vacp2p/nim-libp2p/pull/2862) chore(kad): liveness-gated bucket eviction
 - [vacp2p/nim-libp2p#2850](https://github.com/vacp2p/nim-libp2p/pull/2850) fix(kad): exclude the requester from closerPeers
 - [vacp2p/nim-libp2p#2842](https://github.com/vacp2p/nim-libp2p/pull/2842) fix(kad): target the requested bucket when refreshing
 - [vacp2p/nim-libp2p#2841](https://github.com/vacp2p/nim-libp2p/pull/2841) fix(service-disco): don't rescale bucket index by maxBuckets

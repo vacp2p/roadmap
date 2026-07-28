@@ -207,6 +207,9 @@ Continue maintaining and adjusting the logos.co intake forms as requirements evo
 
 #### Deliverables
 
+- [acid-info/admin-acid.logos.co#57](https://github.com/acid-info/admin-acid.logos.co/issues/57) feat(auto-reply): extend feature to send reply based on form data
+- [logos-co/logos-web#116](https://github.com/logos-co/logos-web/issues/116) feat(web): subscribe to newsletter on funnel form
+- [logos-co/logos-web#117](https://github.com/logos-co/logos-web/issues/117) feat(web): forward form data on newsletter subscription
 - [status-im/infra-sites#142](https://github.com/status-im/infra-sites/issues/142) chore(logos.co): update env variables & CSP
 - [logos-co/logos-web#61](https://github.com/logos-co/logos-web/pull/61) feat: limit funnel form fields to 2000 chars
 - [logos-co/logos-web#60](https://github.com/logos-co/logos-web/pull/60) chore(civi-crm): add Notion evaluation template
@@ -301,7 +304,7 @@ Host on the existing Web stack (e.g. `admin-acid.logos.co` API routes or a small
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:funnel-email-templates-admin-ui`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/08/04
 * end-date: 2026/08/29
 
@@ -313,6 +316,7 @@ If v1 is template-in-repo only, document the edit/deploy path instead of buildin
 
 #### Deliverables
 
+- [acid-info/admin-acid.logos.co#55](https://github.com/acid-info/admin-acid.logos.co/pull/55) feat(funnel): per-template recipients for internal notification emails
 - At least 2–3 production templates wired to the webhook
 - Admin UI **or** documented repo-based template workflow (decision recorded)
 - Operator note: how to add a new template and connect a Notion automation

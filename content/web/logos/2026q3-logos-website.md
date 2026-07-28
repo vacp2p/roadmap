@@ -30,6 +30,11 @@ Set up self-hosting infrastructure and deployment processes for the Logos websit
 
 #### Deliverables
 
+- [logos-co/logos-web#118](https://github.com/logos-co/logos-web/pull/118) chore: update technology stack with mix repo details
+- [logos-co/logos-web#115](https://github.com/logos-co/logos-web/pull/115) fix(web): honor URL hash on initial load
+- [logos-co/logos-web#114](https://github.com/logos-co/logos-web/pull/114) Increase small text to 12px
+- [logos-co/logos-web#113](https://github.com/logos-co/logos-web/pull/113) Align λ lockup to brand guide
+- [acid-info/admin-acid.logos.co#56](https://github.com/acid-info/admin-acid.logos.co/issues/56) Recurring meeting landing page
 - [logos-co/logos-web#107](https://github.com/logos-co/logos-web/pull/107) Track Get Started card clicks
 - Self-hosting configuration
 - Deployment documentation

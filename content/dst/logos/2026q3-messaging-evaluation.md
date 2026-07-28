@@ -73,7 +73,9 @@ Analyze logos messaging using quic from nimlibp2p and compare results with mplex
 
 #### Deliverables
 - Code:
+  - [QUIC connectivity fix branch](https://github.com/PearsonWhite/waku/commits/pwhite/quic_b778d16) and `pearsonwhite/nwaku:quic-b778d16` image
 - Reports:
+  - [DST Results Summary](https://app.notion.com/p/DST-Results-summary-d7f0381afba343c98f0d8b1ef0193044?source=copy_link#3aa8f96fb65c80d5bca0e7d4084b94e3)
   - [Waku quic vs yamux](https://app.notion.com/p/Waku-quic-vs-yamux-39b8f96fb65c806288b0e68544207b45)
   - [nWaku Regression Testing Notes](https://app.notion.com/p/nWaku-Regression-Testing-Notes-39e8f96fb65c80bea716f022bac100fa)
 

@@ -19,7 +19,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:nat-traversal-nim-libplum`
 * owner: Constantine
-* status: in progress (50%)
+* status: done
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -54,7 +54,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:thread-pool-library`
 * owner: Esteban
-* status: in progress (50%)
+* status: in progress (75%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -64,6 +64,9 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Keep the ported functionality covered by tests and suitable for downstream consumers.
 
 #### Deliverables
+- [status-im/nim-taskpools#58](https://github.com/status-im/nim-taskpools/pull/58) Set worker current task
+- [status-im/nim-taskpools#56](https://github.com/status-im/nim-taskpools/pull/56) Reduce allocs: make TaskNode intrusive to the Flowvar
+- [status-im/nim-taskpools#54](https://github.com/status-im/nim-taskpools/pull/54) Fixes #5; Event notifier is a bottleneck for very small tasks
 - [status-im/nim-taskpools#51](https://github.com/status-im/nim-taskpools/pull/51) Fix #6; Support tasks submitted from a thread that is not managed by the threadpool
 - [status-im/nim-taskpools#55](https://github.com/status-im/nim-taskpools/pull/55) Test suite based on benchs
 - [status-im/nim-taskpools#52](https://github.com/status-im/nim-taskpools/pull/52) Fix TSan detected data races
@@ -72,7 +75,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:nim-web3`
 * owner: Constantine
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -96,6 +99,8 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Ongoing maintenance and fixes across Nim core libraries.
 
 #### Deliverables
+- [Nim track-based find-references and go-to-definition announcement](https://forum.nim-lang.org/t/13904)
+- [status-im/nim-stint#175](https://github.com/status-im/nim-stint/pull/175) Replace for-loops with staticFor for StInt of size 4096 and lower
 - [nim-lang/nimble#1781](https://github.com/nim-lang/nimble/issues/1781) `nimble dump`: nimDir is empty a special version of Nim is required
 - [nim-lang/langserver#425](https://github.com/nim-lang/langserver/pull/425) Fix SIGSEGV in writeOutput when writing after stdio teardown
 - [nim-lang/langserver#426](https://github.com/nim-lang/langserver/pull/426) Prevent CancelledError escaping addProjectFileToPendingRequest killing the server

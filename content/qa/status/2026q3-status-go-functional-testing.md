@@ -129,6 +129,7 @@ This includes updating tests for changes in `status-go`, addressing regressions,
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
+- [status-im/status-go#7648](https://github.com/status-im/status-go/pull/7648) test(functional): resolve backend host ports after joining bridge network
 - [status-im/status-go#7633](https://github.com/status-im/status-go/pull/7633) test(functional): fix reliability ipv4 port publishing and skip ip-change on ipv6
 - [status-im/status-go#7584](https://github.com/status-im/status-go/pull/7584) test(functional): add #7132 community control node transfer test
 - [status-im/status-go#7612](https://github.com/status-im/status-go/pull/7612) test: skip light-client tests that are flaky under #7393

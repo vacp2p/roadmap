@@ -207,6 +207,9 @@ Continue maintaining and adjusting the logos.co intake forms as requirements evo
 
 #### Deliverables
 
+- [logos-co/logos-web#119](https://github.com/logos-co/logos-web/pull/119) feat(web): subscribe funnel opt-ins to newsletters
+- [acid-info/admin-acid.logos.co#58](https://github.com/acid-info/admin-acid.logos.co/pull/58) feat(newsletters): welcome reply for the Logos newsletter
+- [acid-info/admin-acid.logos.co#59](https://github.com/acid-info/admin-acid.logos.co/pull/59) feat(auto-reply): send replies based on submitted form data
 - [acid-info/admin-acid.logos.co#57](https://github.com/acid-info/admin-acid.logos.co/issues/57) feat(auto-reply): extend feature to send reply based on form data
 - [logos-co/logos-web#116](https://github.com/logos-co/logos-web/issues/116) feat(web): subscribe to newsletter on funnel form
 - [logos-co/logos-web#117](https://github.com/logos-co/logos-web/issues/117) feat(web): forward form data on newsletter subscription

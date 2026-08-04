@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-maintenance:maintenance`
 * owner: rramos/vlado/gabe
-* status: in progress (28%)
+* status: in progress (36%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -36,6 +36,31 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors, and bug fixes.
 
 #### Deliverables
+- [status-im/nimbus-eth2#8836](https://github.com/status-im/nimbus-eth2/pull/8836) feat: bump lsquic to v0.8.0
+- [vacp2p/nim-lsquic#132](https://github.com/vacp2p/nim-lsquic/pull/132) perf: reuse a stack WSABUF and heap-fall-back on the Windows send path
+- [vacp2p/nim-lsquic#131](https://github.com/vacp2p/nim-lsquic/pull/131) perf: compare address families directly in prepareDestAddr
+- [vacp2p/nim-lsquic#133](https://github.com/vacp2p/nim-lsquic/pull/133) perf: skip CID routing and the sockaddr bounce buffer on the packet-in path
+- [vacp2p/nim-lsquic#125](https://github.com/vacp2p/nim-lsquic/pull/125) perf: settle pending stream operations on close instead of racing
+- [vacp2p/nim-lsquic#124](https://github.com/vacp2p/nim-lsquic/pull/124) perf: add a pointer overload for stream writes
+- [vacp2p/nim-lsquic#123](https://github.com/vacp2p/nim-lsquic/pull/123) perf: take stream write payloads as sink
+- [vacp2p/nim-lsquic#121](https://github.com/vacp2p/nim-lsquic/pull/121) perf: coalesce engine ticks, gated on write size
+- [vacp2p/nim-lsquic#120](https://github.com/vacp2p/nim-lsquic/pull/120) perf: stop copying 64KB per receive wakeup under arc/orc
+- [status-im/nimbus-eth2#8811](https://github.com/status-im/nimbus-eth2/pull/8811) chore: bump lsquic and boringssl
+- [vacp2p/nim-lsquic#117](https://github.com/vacp2p/nim-lsquic/pull/117) perf: drain the UDP socket per wakeup instead of ticking per datagram
+- [vacp2p/nim-libp2p#2889](https://github.com/vacp2p/nim-libp2p/pull/2889) chore: bump lsquic
+- [vacp2p/nim-lsquic#111](https://github.com/vacp2p/nim-lsquic/pull/111) feat: configure UDP receive buffer size
+- [vacp2p/nim-lsquic#110](https://github.com/vacp2p/nim-lsquic/pull/110) feat: add back `sendmmsg`
+- [vacp2p/nim-lsquic#109](https://github.com/vacp2p/nim-lsquic/pull/109) fix: avoid copying inbound UDP datagrams
+- [litespeedtech/lsquic#670](https://github.com/litespeedtech/lsquic/pull/670) fix: MinGW build compatibility
+- [vacp2p/nim-libp2p#2900](https://github.com/vacp2p/nim-libp2p/pull/2900) refactor(pubsub): use protobuf proto editions
+- [vacp2p/nim-libp2p#2884](https://github.com/vacp2p/nim-libp2p/pull/2884) feat(cbind): nat config
+- [vacp2p/nim-libp2p#2892](https://github.com/vacp2p/nim-libp2p/pull/2892) ci: cache improvements
+- [vacp2p/nim-libp2p#2894](https://github.com/vacp2p/nim-libp2p/pull/2894) chore(make): format .nimble files
+- [vacp2p/nim-libp2p#2895](https://github.com/vacp2p/nim-libp2p/pull/2895) chore(.gitignore): cleanup
+- [vacp2p/nim-libp2p#2905](https://github.com/vacp2p/nim-libp2p/pull/2905) fix(test): guard the logging test on a dynamic chronicles sink
+- [libp2p/py-libp2p#1407](https://github.com/libp2p/py-libp2p/pull/1407) fix(pubsub): disconnect hygiene and once-per-subscription mcache replay
+- [vacp2p/nim-libp2p#2897](https://github.com/vacp2p/nim-libp2p/pull/2897) test(kad): import tables in the find test
+- [vacp2p/nim-libp2p#2883](https://github.com/vacp2p/nim-libp2p/pull/2883) feat(cbind): dial with addrs
 - [vacp2p/nim-libp2p#2881](https://github.com/vacp2p/nim-libp2p/pull/2881) ci: harden workflow permissions
 - [logos-co/logos-libp2p-module#88](https://github.com/logos-co/logos-libp2p-module/pull/88) chore: harden CI workflow permissions
 - [vacp2p/nim-libp2p#2876](https://github.com/vacp2p/nim-libp2p/pull/2876) ci: composite actions for dependencies

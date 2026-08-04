@@ -58,6 +58,11 @@ Validate the main package manager and module workflows, including install, launc
 Maintain and extend the existing Basecamp smoke, UI, sandbox, and doctest coverage as the project evolves.
 
 #### Deliverables
+- [logos-co/logos-basecamp#293](https://github.com/logos-co/logos-basecamp/pull/293) Chore/add coverage report
+- [logos-co/logos-basecamp#298](https://github.com/logos-co/logos-basecamp/pull/298) Test/basecamp package lifecycle
+- [logos-co/logos-basecamp#303](https://github.com/logos-co/logos-basecamp/pull/303) Fix/pin release test modules
+- [logos-co/logos-basecamp#301](https://github.com/logos-co/logos-basecamp/issues/301) bug: Package Manager view unresponsive after package_manager_ui unload
+- [logos-co/logos-basecamp#308](https://github.com/logos-co/logos-basecamp/issues/308) bug: uiPluginFileInstalled never emitted for QML-only packages
 - [logos-co/logos-basecamp#286](https://github.com/logos-co/logos-basecamp/pull/286) Chore/add remaining tests to CI
 - [logos-co/logos-basecamp#284](https://github.com/logos-co/logos-basecamp/pull/284) Fix/qml tests and references in flake file
 - PRs extending or stabilizing tests.

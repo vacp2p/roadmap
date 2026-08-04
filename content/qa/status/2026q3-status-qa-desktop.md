@@ -20,7 +20,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -29,7 +29,11 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Update tests for changes in Status Desktop, address regressions, investigate failures, and implement minor framework improvements needed to keep the suite reliable.
 
 #### Deliverables
-- [status-im/status-app#21545](https://github.com/status-im/status-app/pull/21545) tests(@qml): add wallet account reordering tests
+- [status-im/status-app#21731](https://github.com/status-im/status-app/pull/21731) chore(@e2e): fix seed import verification on onboarding
+- [status-im/status-app#21719](https://github.com/status-im/status-app/pull/21719) chore(@e2e): fix token naming
+- [status-im/status-app#21727](https://github.com/status-im/status-app/pull/21727) tests(@qml): port testnet popup tests from e2e to QML
+- [status-im/status-app#21728](https://github.com/status-im/status-app/issues/21728) Port skipped network and testnet modal tests to QML
+- [status-im/status-app#21679](https://github.com/status-im/status-app/pull/21679) chore(@e2e): fixes for tests
 - [status-im/status-app#21578](https://github.com/status-im/status-app/pull/21578) chore(@e2e): screenshots helper
 - [status-im/status-app#21476](https://github.com/status-im/status-app/issues/21476) Fix MacOS setup with Squish 9.2
 - [status-im/status-app#21518](https://github.com/status-im/status-app/pull/21518) tests(@qml): add tests for custom order for assets in wallet
@@ -41,7 +45,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:new-tests`
 * owner: nastya
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -50,13 +54,14 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Add or update tests for new Status Desktop features as they are planned and implemented.
 
 #### Deliverables
+- [status-im/status-app#21545](https://github.com/status-im/status-app/pull/21545) tests(@qml): add wallet account reordering tests
 - PRs / Issues / Reports
 
 ### Release Testing
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:release-testing`
 * owner: nastya
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -66,6 +71,13 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Track release risks and bugs found during manual release validation.
 
 #### Deliverables
+- [status-im/status-app#21720](https://github.com/status-im/status-app/issues/21720) Can't mute community on mobile / tablet, extra menu is not shown
+- [status-im/status-app#21733](https://github.com/status-im/status-app/issues/21733) Desktop: Change password hangs in Logout/statusNode.Stop. Restart stays disabled >60s
+- [status-im/status-app#21730](https://github.com/status-im/status-app/issues/21730) OnboardingLayout crashes on null keychain during startup / restart (TypeError: Cannot read property 'loading' of null)
+- [status-im/status-app#21694](https://github.com/status-im/status-app/issues/21694) Desktop: Assets loading for fresh account on cold start is taking about 15 seconds
+- [status-im/status-app#21732](https://github.com/status-im/status-app/issues/21732) Desktop: opening empty collectibles tab (cold start, new user profile) takes ~ 16 seconds
+- [status-im/status-app#21704](https://github.com/status-im/status-app/issues/21704) Changing network in Send modal crashes the app
+- [status-im/status-app#21678](https://github.com/status-im/status-app/issues/21678) N/A on Asset details for balance
 - [status-im/status-app#21524](https://github.com/status-im/status-app/issues/21524) iOS app crashes on swipe-to-close action
 - Bugs and follow-up issues found during 2.39 and 2.40 release testing.
 - Release testing notes / reports.
@@ -114,6 +126,9 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Improve coverage for the main performance-sensitive user flows and make the measurements useful for regression tracking.
 
 #### Deliverables
+- [status-im/status-app-benchmarks#24](https://github.com/status-im/status-app-benchmarks/pull/24) desktop: polish Flags badges and escalate chronic slows to Backlog
+- [status-im/status-app-benchmarks#23](https://github.com/status-im/status-app-benchmarks/pull/23) desktop: rename regression report to Flags and link known tickets
+- [status-im/status-app-benchmarks#22](https://github.com/status-im/status-app-benchmarks/pull/22) desktop: add missing test stats for asset first time opening
 - [status-im/status-app#21594](https://github.com/status-im/status-app/pull/21594) chore(@e2e): fix for benchmarks test
 - [status-im/status-app#21590](https://github.com/status-im/status-app/pull/21590) chore(@e2e): do not rely on is_visible property for empty activity list
 - [status-im/status-app-benchmarks#21](https://github.com/status-im/status-app-benchmarks/pull/21) desktop: post regression report on the website as well
@@ -159,7 +174,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:e2e-kyecard-mock`
 * owner: nastya
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -168,4 +183,8 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Work with infra team (if needed) to build proper app (the one that will use keycard mock), including macOS
 
 #### Deliverables
+- [status-im/status-app#21665](https://github.com/status-im/status-app/pull/21665) tests(@e2e): keycard simulator infrastructure and onboarding scenario
+- [status-im/status-app#21722](https://github.com/status-im/status-app/issues/21722) App crashes on login when creating account with keycard simulator
+- [status-im/status-app#21667](https://github.com/status-im/status-app/issues/21667) Starting keycard simulator fails in packaged app — looks for vendor/ source tree
+- [status-im/status-app#21680](https://github.com/status-im/status-app/issues/21680) Keycard Simulator Restart resets UI only, not keycard-qt simulated backend
 - PRs / Issues / Reports

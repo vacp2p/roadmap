@@ -47,6 +47,8 @@ and ensure they don't happen again.
 
 #### Deliverables
 - Code:
+  - [vacp2p/10ksim#362](https://github.com/vacp2p/10ksim/pull/362) Generate latency plots from the regression pipeline
+  - [vacp2p/10ksim#370](https://github.com/vacp2p/10ksim/pull/370) Move the box plot legend outside the axes
   - [vacp2p/dst-libp2p-test-node#42](https://github.com/vacp2p/dst-libp2p-test-node/pull/42) Shadow quic: floor lsquic engine tick re-arms
   - [vacp2p/10ksim#356](https://github.com/vacp2p/10ksim/pull/356) k8s: optional bandwidth cap on the network-delay init container
   - [vacp2p/10ksim#358](https://github.com/vacp2p/10ksim/pull/358) Regression analysis: plot delivery latency as a CDF
@@ -80,4 +82,3 @@ different implementations.
 #### Deliverables
 - Code:
 - Reports:
-

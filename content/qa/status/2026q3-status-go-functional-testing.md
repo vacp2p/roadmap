@@ -129,6 +129,8 @@ This includes updating tests for changes in `status-go`, addressing regressions,
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
+- [status-im/status-go#7669](https://github.com/status-im/status-go/pull/7669) test(functional): stabilize reliability node-pause tests
+- [status-im/status-go#7668](https://github.com/status-im/status-go/issues/7668) Historic sync delayed by up to 20s after reconnect: offline no-op attempts arm the min-interval
 - [status-im/status-go#7648](https://github.com/status-im/status-go/pull/7648) test(functional): resolve backend host ports after joining bridge network
 - [status-im/status-go#7633](https://github.com/status-im/status-go/pull/7633) test(functional): fix reliability ipv4 port publishing and skip ip-change on ipv6
 - [status-im/status-go#7584](https://github.com/status-im/status-go/pull/7584) test(functional): add #7132 community control node transfer test

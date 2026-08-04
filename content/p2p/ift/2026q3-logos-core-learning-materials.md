@@ -63,6 +63,7 @@ tutorials should be concise, runnable where practical, and aligned with the
 current Logos libp2p module API.
 
 #### Deliverables
+- [logos-co/logos-libp2p-module#92](https://github.com/logos-co/logos-libp2p-module/pull/92) docs(tutorial): followup
 - [logos-co/logos-libp2p-module#90](https://github.com/logos-co/logos-libp2p-module/pull/90) docs(tutorial): add introduction tutorial
 - [logos-co/logos-libp2p-module#87](https://github.com/logos-co/logos-libp2p-module/pull/87) docs(tutorial): add tutorials 9, 10 and 11
 - [logos-co/logos-libp2p-module#91](https://github.com/logos-co/logos-libp2p-module/pull/91) chore: drop examples
@@ -83,10 +84,10 @@ current Logos libp2p module API.
 ### Toy Projects And Examples
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-core-learning-materials:toy-projects`
-* owner: not assigned yet
-* status: not started
+* owner: Vlado
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/08/04
 
 #### Description
 Create small toy projects or executable examples that demonstrate common
@@ -94,6 +95,14 @@ workflows end to end. Examples should be easy to run locally and should serve as
 regression checks where possible.
 
 #### Deliverables
+- [logos-co/libp2p-module-demo-chat#3](https://github.com/logos-co/libp2p-module-demo-chat/pull/3) ci: adding build check and smoke test
+- [logos-co/logos-libp2p-module#95](https://github.com/logos-co/logos-libp2p-module/pull/95) feat: logs filter
+- [logos-co/logos-libp2p-module#96](https://github.com/logos-co/logos-libp2p-module/pull/96) chore: expose `libp2p_ctx_new_private_key`
+- [vacp2p/nim-libp2p#2904](https://github.com/vacp2p/nim-libp2p/pull/2904) fix(logs): adding logLevel to Libp2pConfig to avoid logs created in createLibp2pNode
+- [vacp2p/nim-libp2p#2899](https://github.com/vacp2p/nim-libp2p/pull/2899) chore(log): `libp2pSetLogLevel` changed to static
+- [vacp2p/nim-libp2p#2896](https://github.com/vacp2p/nim-libp2p/pull/2896) feat(log): add runtime logs filtering support
+- [logos-co/logos-libp2p-module#94](https://github.com/logos-co/logos-libp2p-module/pull/94) chore(readme): add demo project
+- [logos-co/libp2p-module-demo-chat#1](https://github.com/logos-co/libp2p-module-demo-chat/pull/1) initial demo chat app
 - Minimal peer discovery example
 - Minimal custom protocol or stream example, if custom protocol support is available
 - Example project documentation and validation notes

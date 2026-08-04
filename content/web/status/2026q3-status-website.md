@@ -200,6 +200,7 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 #### Deliverables
 
+- [status-im/status-web#1287](https://github.com/status-im/status-web/pull/1287) Keep canonical metadata in the document head
 - Inventory of affected URLs and chosen canonical target
 - Template or CMS fixes applied
 - Re-crawl validation on fixed set
@@ -218,6 +219,8 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 #### Deliverables
 
+- [status-im/status-web#1292](https://github.com/status-im/status-web/pull/1292) Avoid redirect chains for legacy job links
+- [status-im/status-web#1291](https://github.com/status-im/status-web/pull/1291) Collapse additional legacy help redirect chains
 - Chain map for all 21 cases
 - Direct 301s implemented
 - Verification that final URLs return 200 and correct canonical
@@ -236,6 +239,7 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 #### Deliverables
 
+- [status-im/status-web#1288](https://github.com/status-im/status-web/pull/1288) Improve crawl paths for affected help articles
 - List of 116 URLs grouped by fix strategy (link in / sitemap / noindex intentionally)
 - Internal links added for agreed orphans
 - Follow-up crawl showing improved discovery on sample

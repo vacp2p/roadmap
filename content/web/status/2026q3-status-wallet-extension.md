@@ -50,6 +50,7 @@ Replace the single recovery phrase input field with an accessible per-word form.
 
 #### Deliverables
 
+- [status-im/status-web#1286](https://github.com/status-im/status-web/pull/1286) feat(wallet): recovery phrase word grid input
 - [status-im/status-web#1280](https://github.com/status-im/status-web/pull/1280) feat(wallet): create account from the wallet selector
 - Per-word recovery phrase input component (12/24 words)
 - Accessibility review (keyboard nav, screen-reader labels, paste handling)

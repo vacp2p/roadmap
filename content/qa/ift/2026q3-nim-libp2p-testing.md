@@ -49,7 +49,7 @@ Implement tests for opt-in dial ranking and backoff behavior.
 
 * fully qualified name: `ift-ts:qa:ift:2026q3-nim-libp2p-testing:quic-repo`
 * owner: radek
-* status: in progress (40%)
+* status: in progress (80%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -58,6 +58,12 @@ Add QA coverage in the QUIC repository where it would be most useful for the bro
 Focus on targeted tests that can catch transport-level issues earlier and complement the nim-libp2p coverage.
 
 #### Deliverables
+- [vacp2p/nim-lsquic#106](https://github.com/vacp2p/nim-lsquic/pull/106) test: trackers
+- [vacp2p/nim-libp2p#2886](https://github.com/vacp2p/nim-libp2p/pull/2886) test: improve checkTrackers
+- [vacp2p/nim-lsquic#114](https://github.com/vacp2p/nim-lsquic/pull/114) test: certificate verifier and TLS config
+- [vacp2p/nim-lsquic#113](https://github.com/vacp2p/nim-lsquic/issues/113) tlsconfig: alpn protocol names are not validated against the RFC 7301 length limits
+- [vacp2p/nim-lsquic#118](https://github.com/vacp2p/nim-lsquic/pull/118) test: routing
+- [vacp2p/nim-lsquic#128](https://github.com/vacp2p/nim-lsquic/pull/128) test: stream read/write locking and timeout re-arm
 - [vacp2p/nim-lsquic#105](https://github.com/vacp2p/nim-lsquic/pull/105) test: lifecycle guards and stream peer-reset behavior
 - [vacp2p/nim-lsquic#104](https://github.com/vacp2p/nim-lsquic/pull/104) test: connection
 - [vacp2p/nim-lsquic#102](https://github.com/vacp2p/nim-lsquic/pull/102) test: improvements 2
@@ -126,4 +132,3 @@ Cover small regression fixes, flaky-test follow-ups, test updates needed by upst
 - [vacp2p/nim-libp2p#2725](https://github.com/vacp2p/nim-libp2p/pull/2725) test(transports): improve hanging test
 - [vacp2p/nim-libp2p#2714](https://github.com/vacp2p/nim-libp2p/pull/2714) test(transports): multiple addresses
 - [vacp2p/nim-libp2p#2713](https://github.com/vacp2p/nim-libp2p/issues/2713) transports: inconsistency when stopping pending accept
-

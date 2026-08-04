@@ -31,6 +31,8 @@ All the relevant information can be found in [this GitHub issue](https://github.
 This remains the short-term roadmap for replacing pieces of the Nimbus build system bit by bit while improving Nimble overall.
 
 #### Deliverables
+- [nim-lang/nimble#1798](https://github.com/nim-lang/nimble/pull/1798) Prefer the root's pinned special version when resolving a special-ver…
+- [nim-lang/nimble#1788](https://github.com/nim-lang/nimble/pull/1788) Fixes #1738: collects user's info before opening gh session
 - [nim-lang/nimble#1792](https://github.com/nim-lang/nimble/pull/1792) Makes it so special versions get a distinct cache key
 - [nim-lang/nimble#1787](https://github.com/nim-lang/nimble/pull/1787) Same special version twice should not warn
 - [nim-lang/nimble#1784](https://github.com/nim-lang/nimble/pull/1784) Fixes #1779
@@ -71,4 +73,3 @@ This remains the short-term roadmap for replacing pieces of the Nimbus build sys
 #### Deliverables
 - [nim-lang/nimble#1746](https://github.com/nim-lang/nimble/pull/1746) Replace asyncdispatch with Chronos
 - [status-im/nim-chronos#698](https://github.com/status-im/nim-chronos/pull/698) perf(http): cut per-request allocs (buffer memset, header keys, empty tables
-

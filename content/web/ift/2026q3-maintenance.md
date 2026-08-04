@@ -42,6 +42,7 @@ Execute upkeep across delivered web properties for Q3: dependency and security b
 
 #### Deliverables
 
+- [logos-co/logos-web#120](https://github.com/logos-co/logos-web/pull/120) fix: update site links, redirects, and downloads
 - [status-im/status-web#1281](https://github.com/status-im/status-web/pull/1281) Harden proxy rate limiting
 - [status-im/infra-sites#139](https://github.com/status-im/infra-sites/issues/139) Finalized self-hosting of get.status.app
 - [status-im/status-web#1285](https://github.com/status-im/status-web/pull/1285) fix(status.app): prevent desktop navbar overflow

@@ -30,7 +30,7 @@ while allow provisioning to other teams dedicated machines if they are needed.
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-dst-lab:analyze-current-stack`
 * owner: Mamoutou
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -41,8 +41,10 @@ Report findings with analysis and benchmarks of the results.
 
 #### Deliverables
 - Code:
+  - [vacp2p/vaclab-2#44](https://github.com/vacp2p/vaclab-2/pull/44) Add CPU and RAM Usage Panels in Mix dashboard
   - [vacp2p/vaclab-2#41](https://github.com/vacp2p/vaclab-2/pull/41) Deploy DST Dashboard and Update HomePage
 - Reports:
+  - DST dashboard backend and development frontend deployed with the new resource and topology features.
   - [DST Dashboard](https://dashboard.lab.vac.dev) deployed with production and development infrastructure.
   - [DST Dashboard Admin UI](https://api.dashboard.lab.vac.dev/admin/token) protected by Authentik authentication.
   - [VacLab Home](https://lab.vac.dev) updated with dashboard shortcuts and status.

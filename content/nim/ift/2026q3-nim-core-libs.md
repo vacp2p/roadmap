@@ -99,6 +99,12 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Ongoing maintenance and fixes across Nim core libraries.
 
 #### Deliverables
+- [vacp2p/nim-cbor-serialization#40](https://github.com/vacp2p/nim-cbor-serialization/pull/40) Bump to v0.4.2
+- [vacp2p/nim-cbor-serialization#39](https://github.com/vacp2p/nim-cbor-serialization/pull/39) Bump nph to 0.7.0
+- [vacp2p/nim-cbor-serialization#38](https://github.com/vacp2p/nim-cbor-serialization/pull/38) Fix #36; Compile-time CDDL parsing fails with invalid type
+- [status-im/nim-protobuf-serialization#113](https://github.com/status-im/nim-protobuf-serialization/pull/113) Bump to v0.6.1
+- [status-im/nim-protobuf-serialization#112](https://github.com/status-im/nim-protobuf-serialization/pull/112) More proto editions tests
+- [status-im/nim-protobuf-serialization#109](https://github.com/status-im/nim-protobuf-serialization/pull/109) Add proto editions pragma
 - [Nim track-based find-references and go-to-definition announcement](https://forum.nim-lang.org/t/13904)
 - [status-im/nim-stint#175](https://github.com/status-im/nim-stint/pull/175) Replace for-loops with staticFor for StInt of size 4096 and lower
 - [nim-lang/nimble#1781](https://github.com/nim-lang/nimble/issues/1781) `nimble dump`: nimDir is empty a special version of Nim is required

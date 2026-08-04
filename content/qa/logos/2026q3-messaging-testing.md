@@ -31,6 +31,8 @@ Ongoing maintenance of messaging testing frameworks.
 #### Deliverables
 - [logos-messaging/logos-delivery-interop-tests#195](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/195) fix test s26
 - [logos-messaging/logos-delivery#4003](https://github.com/logos-messaging/logos-delivery/issues/4003) portsShift double-applied: node advertises a port it isn't listening on
+- [logos-messaging/logos-delivery-interop-tests#202](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/202) Fix CI issue [reports / flaky tests]
+- [logos-messaging/logos-delivery-interop-tests#207](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/207) chore(deps): bump python-dotenv from 1.0.1 to 1.2.2
 
 ### RLN interaction with LEZ
 
@@ -60,6 +62,7 @@ Support QA for [Reliable Channel API — General Availability](https://roadmap.l
 Add API tests based on the [Reliable Channel API](https://github.com/logos-co/logos-lips/blob/master/docs/messaging/raw/reliable-channel-api.md), covering the main reliable-channel behavior exposed by the implementation.
 
 #### Deliverables
+- [logos-messaging/logos-delivery#4103](https://github.com/logos-messaging/logos-delivery/issues/4103) SIGSEGV on shutdown after restoring persisted channel state
 - [logos-messaging/logos-delivery-interop-tests#200](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/200) remove some RC04 variants /add RC05/RC06
 - [logos-messaging/logos-delivery#4065](https://github.com/logos-messaging/logos-delivery/issues/4065) bug: Channel still emits receive events after channel_close
 - [logos-messaging/logos-delivery#4063](https://github.com/logos-messaging/logos-delivery/issues/4063) bug: Reliable Channel: received event reports receiver’s senderId

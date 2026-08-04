@@ -82,8 +82,8 @@ Analyze logos messaging using quic from nimlibp2p and compare results with mplex
   
 ### Logos delivery node
 * fully qualified name: `ift-ts:dst:logos:2026q3-messaging-evaluation:logos-delivery-node`
-* owner: TBD
-* status: not started
+* owner: Pearson
+* status: in progress (45%)
 * start-date: 2026/07/28
 * end-date: 2026/08/07
 

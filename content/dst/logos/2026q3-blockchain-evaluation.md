@@ -51,19 +51,27 @@ and document behaviors and findings.
 
 
 ### Blend benchmarking
-> *Note*: This needs more input from project
-
 * fully qualified name: `ift-ts:dst:logos:2026q3-blockchain-evaluation:blendnet-benchmarking`
-* owner: TBD
+* owner: Mamoutou
 * status: not started
-* start-date: 2026/07/01
-* end-date: 2026/09/30
+* start-date: 2026/08/04
+* end-date: 2026/08/14
 
 #### Description
 
-Measure the speed and reliability of Blockchain's blendnet.
+Verifying the blend network timing assumptions.
+Logos-blockchain has some very tight block dessimination budgets, if it turns out blend is much slower, 
+they will need to increase block times.
+This requires:
 
-Schedule note: Dates reflect quarter bounds; update when actual timing is known.
+1. Distribution of how long it took for a block to propagate to nodes, the two datasets are:
+    - block broadcast directly
+    - block sent through blend and then broadcast
+
+2. Frequency of reorgs observed at various block depths
+    - For this, we have to extract the block tree, then pick the longest branch from the tree, treat that as canonical 
+branch, then measure the length of every branch extending from this canonical branch
+
 #### Deliverables
 - Code:
 - Reports:

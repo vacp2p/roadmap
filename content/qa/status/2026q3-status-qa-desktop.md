@@ -152,7 +152,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:battery-cpu-ram-usage`
 * owner: nastya
-* status: in progress (50%)
+* status: done
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -188,3 +188,33 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - [status-im/status-app#21667](https://github.com/status-im/status-app/issues/21667) Starting keycard simulator fails in packaged app — looks for vendor/ source tree
 - [status-im/status-app#21680](https://github.com/status-im/status-app/issues/21680) Keycard Simulator Restart resets UI only, not keycard-qt simulated backend
 - PRs / Issues / Reports
+
+### Performance tests for desktop application on Linux
+
+* fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:linux-performance-tests`
+* owner: nastya
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+- Add tests to track in-app performance for the desktop application on Linux from the UI side.
+- Improve coverage for the main performance-sensitive user flows and make the measurements useful for regression tracking.
+
+#### Deliverables
+- PRs / Issues
+
+### Performance tests for desktop application on Mac
+
+* fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:mac-performance-tests`
+* owner: nastya
+* status: not started
+* start-date: 2026/07/01
+* end-date: 2026/09/30
+
+#### Description
+- Add tests to track in-app performance for the desktop application on Mac from the UI side.
+- Improve coverage for the main performance-sensitive user flows and make the measurements useful for regression tracking.
+
+#### Deliverables
+- PRs / Issues

@@ -5,7 +5,7 @@ tags:
   - "web"
   - "status"
 draft: false
-description: "Q3 continuation of Status website work — blog search, copy/section reduction, A/B deployment, and a technical SEO audit-and-fix pass (errors, redirects, indexing, CWV, canonicals, internal linking, structured data)."
+description: "Q3 continuation of Status website work — blog search, RSS feed upgrades, copy/section reduction, A/B deployment, and a technical SEO audit-and-fix pass."
 ---
 
 `ift-ts:web:status:2026q3-status-website`
@@ -15,6 +15,7 @@ description: "Q3 continuation of Status website work — blog search, copy/secti
 Q3 continuation of [[web/status/2026q2-status-website|2026q2-status-website]]. The Q2 commitment covers SEO, translations, copy/section reduction, and self-hosting. Q3 adds:
 
 - **Discoverability inside the blog** at [status.app/blog](https://status.app/blog): a search field that indexes posts across the existing seven categories (News, Product, Developers, Privacy & Security, Dapps, Community, Keycard) so readers can find content by title, summary, body, and tag/category.
+- **News RSS feed upgrades** for mobile and desktop clients, preserving lists and body links and serving the revised feeds under versioned `/v2` routes.
 - A **second copy / section-reduction pass** on the main marketing pages, following up on the Q2 round once we have a few weeks of analytics + stakeholder feedback.
 - An **alternative deployment of [status.app](https://status.app/)** so marketing can run A/B tests or ship different iterations of positioning, hero copy, navigation, and CTAs without touching the canonical site.
 - A **technical SEO audit-and-fix** pass on [status.app](https://status.app/) and related Status marketing properties in `status-im/status-web` — server errors, broken URLs, indexing blocks, mobile Core Web Vitals, canonicals, redirect chains, internal linking, and structured data (separate from copy/i18n).
@@ -55,6 +56,24 @@ Add a **search experience** to [status.app/blog](https://status.app/blog). Goals
 - Confirm the source of truth for blog posts (CMS / repo / API) — drives whether index is built at deploy time or queried live.
 - Per-language indexing if multiple translations land in Q2 ([[web/status/2026q2-status-website|status-website:translations]]).
 
+### RSS feed upgrade
+
+* fully qualified name: `ift-ts:web:status:2026q3-status-website:rss-feed-upgrade`
+* owner: JulesFiliot
+* status: done
+* start-date: 2026/08/03
+* end-date: 2026/08/06
+
+#### Description
+
+Rework the Status news RSS feeds so mobile and desktop consumers retain structured lists and body links, then publish the revised feeds under versioned `/v2` routes.
+
+#### Deliverables
+
+- [status-im/status-web#1293](https://github.com/status-im/status-web/pull/1293) feat(status.app): render lists in the mobile and desktop news RSS feeds
+- [status-im/status-web#1295](https://github.com/status-im/status-web/pull/1295) feat(status.app): keep body links in the desktop news feed
+- [status-im/status-web#1297](https://github.com/status-im/status-web/pull/1297) feat(status.app): serve the reworked news feeds under /v2
+
 ### Copy Changes, Section Reduction
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:copy-changes-section-reduction`
@@ -91,6 +110,25 @@ Deploy an **alternative version of [status.app](https://status.app/)** so market
 - Variant selection mechanism (feature flag, query param, cookie, or edge split) documented
 - Analytics tagged per variant so the marketing team can read impact
 - Operator note for marketing: how to propose, deploy, and read a new iteration
+
+### Technical SEO
+
+* fully qualified name: `ift-ts:web:status:2026q3-status-website:technical-seo`
+* owner: Jinho
+* status: in progress (80%)
+* start-date: 2026/08/04
+* end-date: 2026/08/14
+
+#### Description
+
+Track the technical SEO implementation across the granular audit tasks below, beginning with mobile Core Web Vitals regressions on Status help pages. Restore static prerendering and CDN caching where appropriate and defer expensive client-side initialization that degrades page performance.
+
+#### Deliverables
+
+- [status-im/status-web#1294](https://github.com/status-im/status-web/pull/1294) fix(status.app): improve mobile core web vitals
+- Static prerendering restored for affected help pages
+- Expensive search-index initialization deferred from the initial page load
+- Representative mobile Core Web Vitals validation after deployment
 
 ### 5xx server error fix
 

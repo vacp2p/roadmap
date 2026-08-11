@@ -33,6 +33,8 @@ Propose a simple CRM solution for the Logos Circles to track:
 
 #### Deliverables
 
+- Circle CRM implementation (work in progress)
+- [Logos YouTube and X streams dashboard](https://superset.bi.status.im/superset/dashboard/logos-streams/)
 - Created a new DBT model and graphs for the `/get-started` site
 - Cleaned `build.logos.co` from site references
 - Presented Baserow as an alternative to Notion for the Logos Circles CRM

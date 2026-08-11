@@ -37,7 +37,7 @@ Extract Metrics from the LEZ to monitore the usage.
 
 ### Logos Storage Monitoring
 
-* fully qualified name: `ift-ts:bi:logos:2026q3-logos-testnet-monitoring:lez`
+* fully qualified name: `ift-ts:bi:logos:2026q3-logos-testnet-monitoring:storage`
 * owner: Claire
 * status: in progress (70%)
 * start-date: 2026/07/01
@@ -50,6 +50,7 @@ Extract and monitore Logos Storage network usage.
 
 #### Deliverables
 
+- Logos Storage metrics exploration
 - Tool for extraction (Github Repo)
 - Dashboard
 
@@ -57,7 +58,7 @@ Extract and monitore Logos Storage network usage.
 
 * fully qualified name: `ift-ts:bi:logos:2026q3-logos-testnet-monitoring:blockchain`
 * owner: Claire
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/07/01
 * end-date: 2026/09/31
 * issue: https://github.com/status-im/data-docs/issues/
@@ -68,6 +69,7 @@ Improve and update the Monitoring of Logos Blockchain
 
 #### Deliverables
 
+- Weekly node operator report
 - Tool for extraction (Github Repo)
 - Dashboard
 

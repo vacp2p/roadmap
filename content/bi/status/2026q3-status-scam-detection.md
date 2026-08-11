@@ -31,6 +31,9 @@ Build a solution to detect scam account in Status communities
 
 #### Deliverables
 
+- [Status PlayStore installation dashboard](https://superset.bi.status.im/superset/dashboard/154/?native_filters_key=I83dsKeonAs)
+- Status Python SDK development
+- Keycard dashboard upgrade
 - IFT Town Hall presentation on Status SDK usage
 - PyPI account set up for publishing the Status SDK library
 - Pipeline for Scam detection

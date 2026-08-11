@@ -101,7 +101,7 @@ Port the supporting sections of the article page. That's **Discussion** (comment
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:podcast-detail-core`
 * owner: jinhojang6
-* status: not started
+* status: in progress (90%)
 * start-date: 2026/07/07
 * end-date: 2026/07/31
 
@@ -111,6 +111,7 @@ Build the native podcast detail route at `logos.co/media/podcasts/<series>/<slug
 
 #### Deliverables
 
+- [acid-info/logos-press-engine#273](https://github.com/acid-info/logos-press-engine/pull/273) fix: render Spotify/Apple Podcasts player on episodes without Youtube
 - `/media/podcasts/[series]/[slug]` route with the episode layout and show notes
 - Embedded YouTube player set up so the sticky player (below) can drive it
 - Server-rendered metadata (title, description, canonical, OG/Twitter) per episode

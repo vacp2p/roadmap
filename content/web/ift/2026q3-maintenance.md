@@ -34,7 +34,7 @@ The maintenance commitment supports IFT's strategic objectives by:
 * owner: Felicio/Jinho/JulesFiliot
 * status: done
 * start-date: 2026/07/01
-* end-date: 2026/07/27
+* end-date: 2026/08/11
 
 #### Description
 
@@ -42,6 +42,9 @@ Execute upkeep across delivered web properties for Q3: dependency and security b
 
 #### Deliverables
 
+- [logos-co/logos-web@a537b15](https://github.com/logos-co/logos-web/commit/a537b1583bc60d7182d7984195a3f4a3210dfd0c) Update Logos funnel Notion template copy
+- [logos-co/logos-web#125](https://github.com/logos-co/logos-web/pull/125) fix(ai-review): restore Claude reviews on Opus 5
+- Completed and presented the `/ai-review` workflow presentation.
 - [logos-co/logos-web#120](https://github.com/logos-co/logos-web/pull/120) fix: update site links, redirects, and downloads
 - [status-im/status-web#1281](https://github.com/status-im/status-web/pull/1281) Harden proxy rate limiting
 - [status-im/infra-sites#139](https://github.com/status-im/infra-sites/issues/139) Finalized self-hosting of get.status.app

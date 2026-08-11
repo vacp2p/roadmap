@@ -54,7 +54,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:thread-pool-library`
 * owner: Esteban
-* status: in progress (75%)
+* status: in progress (80%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -64,6 +64,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Keep the ported functionality covered by tests and suitable for downstream consumers.
 
 #### Deliverables
+- [status-im/nim-taskpools#59](https://github.com/status-im/nim-taskpools/pull/59) `sync`: allow awaiting threads to sleep
 - [status-im/nim-taskpools#58](https://github.com/status-im/nim-taskpools/pull/58) Set worker current task
 - [status-im/nim-taskpools#56](https://github.com/status-im/nim-taskpools/pull/56) Reduce allocs: make TaskNode intrusive to the Flowvar
 - [status-im/nim-taskpools#54](https://github.com/status-im/nim-taskpools/pull/54) Fixes #5; Event notifier is a bottleneck for very small tasks
@@ -75,7 +76,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:nim-web3`
 * owner: Constantine
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -85,7 +86,9 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Review the open `nim-web3` issue backlog and close or update stale items where possible.
 
 #### Deliverables
-- PRs/Issues/Docs/Reports
+- [status-im/nim-web3#45](https://github.com/status-im/nim-web3/issues/45) Encoding of mixed dynamic/fixed arguments fails
+- [status-im/nim-web3#215](https://github.com/status-im/nim-web3/issues/215) Nested tuple encoding produces incorrect offset calculations
+- [status-im/nim-web3#220](https://github.com/status-im/nim-web3/issues/220) Objects should be transformed as tuple when generating function
 
 ### Maintenance
 
@@ -99,6 +102,11 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Ongoing maintenance and fixes across Nim core libraries.
 
 #### Deliverables
+- [status-im/nim-json-rpc#288](https://github.com/status-im/nim-json-rpc/pull/288) CI speed up
+- [status-im/nim-protobuf-serialization#114](https://github.com/status-im/nim-protobuf-serialization/pull/114) Add `readFieldPackedIntoIt` without `value` param
+- [status-im/nim-faststreams#91](https://github.com/status-im/nim-faststreams/pull/91) Add outputs `pos` comptime support
+- [nim-lang/nimble#1818](https://github.com/nim-lang/nimble/pull/1818) Docs: Install Nimble: Simplify the PowerShell oneliner command.
+- [status-im/nimbus-eth2#8818](https://github.com/status-im/nimbus-eth2/pull/8818) Feature: Use `Opt` instead of `Option` in Presto code
 - [vacp2p/nim-cbor-serialization#40](https://github.com/vacp2p/nim-cbor-serialization/pull/40) Bump to v0.4.2
 - [vacp2p/nim-cbor-serialization#39](https://github.com/vacp2p/nim-cbor-serialization/pull/39) Bump nph to 0.7.0
 - [vacp2p/nim-cbor-serialization#38](https://github.com/vacp2p/nim-cbor-serialization/pull/38) Fix #36; Compile-time CDDL parsing fails with invalid type

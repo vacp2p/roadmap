@@ -21,7 +21,7 @@ In Q3 we will continue the Nimble 1.0.0 track and migrate remaining HTTP downloa
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nimble:nimble-1.0.0`
 * owner: Juan
-* status: in progress (50%)
+* status: in progress (75%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -31,6 +31,11 @@ All the relevant information can be found in [this GitHub issue](https://github.
 This remains the short-term roadmap for replacing pieces of the Nimbus build system bit by bit while improving Nimble overall.
 
 #### Deliverables
+- [nim-lang/nimble#1817](https://github.com/nim-lang/nimble/pull/1817) Fixes win ci
+- [nim-lang/nimble#1813](https://github.com/nim-lang/nimble/pull/1813) Adds capabilities to `nimble refresh`
+- [nim-lang/nimble#1811](https://github.com/nim-lang/nimble/pull/1811) Fix/unsatisfiable message crash
+- [nim-lang/nimble#1810](https://github.com/nim-lang/nimble/pull/1810) Adds install deps. Fixes #1796
+- [nim-lang/nimble#1809](https://github.com/nim-lang/nimble/pull/1809) Lock implies setup. Fixes #179
 - [nim-lang/nimble#1798](https://github.com/nim-lang/nimble/pull/1798) Prefer the root's pinned special version when resolving a special-ver…
 - [nim-lang/nimble#1788](https://github.com/nim-lang/nimble/pull/1788) Fixes #1738: collects user's info before opening gh session
 - [nim-lang/nimble#1792](https://github.com/nim-lang/nimble/pull/1792) Makes it so special versions get a distinct cache key

@@ -44,6 +44,9 @@ Validate the integration of the Logos Messaging module inside the Logos Core pla
 - Extend the Python E2E suite that drives the Delivery module over RPC and integrate it into CI.
 
 #### Deliverables
+- [logos-messaging/logos-delivery#4077](https://github.com/logos-messaging/logos-delivery/pull/4077) test(e2e): port remaining wrapper tests from the interop repo
+- [logos-messaging/logos-delivery#4109](https://github.com/logos-messaging/logos-delivery/pull/4109) fix(persistency): own Persistency per node instead of a process-global singleton
+- [logos-messaging/logos-delivery#4103](https://github.com/logos-messaging/logos-delivery/issues/4103) bug:SIGSEGV during node shutdown after restoring persisted reliable-channel state
 - [logos-co/logos-delivery-module#51](https://github.com/logos-co/logos-delivery-module/pull/51) test: add Python e2e suite driving delivery_module over RPC
 - [logos-messaging/logos-delivery#4052](https://github.com/logos-messaging/logos-delivery/pull/4052) ci: run docker subset of the API/e2e wrapper tests
 - [logos-messaging/logos-delivery#4027](https://github.com/logos-messaging/logos-delivery/pull/4027) Add in-repo API/e2e test suite (tests-e2e)

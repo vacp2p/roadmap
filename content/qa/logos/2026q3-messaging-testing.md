@@ -21,7 +21,7 @@ and applying minor improvements to keep the frameworks functional and effective.
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-messaging-testing:maintenance`
 * owner: aya
-* status: in progress (10%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -29,6 +29,12 @@ and applying minor improvements to keep the frameworks functional and effective.
 Ongoing maintenance of messaging testing frameworks.
 
 #### Deliverables
+- [logos-messaging/logos-delivery-interop-tests#206](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/206) chore(deps): bump urllib3 from 2.2.2 to 2.7.0
+- [logos-messaging/logos-delivery-interop-tests#205](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/205) chore(deps): bump pytest from 8.0.2 to 9.0.3
+- [logos-messaging/logos-delivery-interop-tests#204](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/204) chore(deps): bump idna from 3.7 to 3.15
+- [logos-messaging/logos-delivery-interop-tests#210](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/210) update allure version to match the new pytest 9
+- [logos-messaging/logos-delivery-interop-tests#201](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/201) chore(deps): bump setuptools from 70.0.0 to 83.0.0
+- [logos-messaging/logos-delivery-interop-tests#211](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/211) chore(deps): bump virtualenv from 20.25.0 to 20.36.1
 - [logos-messaging/logos-delivery-interop-tests#195](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/195) fix test s26
 - [logos-messaging/logos-delivery#4003](https://github.com/logos-messaging/logos-delivery/issues/4003) portsShift double-applied: node advertises a port it isn't listening on
 - [logos-messaging/logos-delivery-interop-tests#202](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/202) Fix CI issue [reports / flaky tests]
@@ -53,7 +59,7 @@ Focus on library-level testing for the interaction between RLN and LEZ and repor
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-messaging-testing:reliable-channel-api-tests`
 * owner: aya
-* status: in progress (75%)
+* status: in progress (90%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -62,7 +68,7 @@ Support QA for [Reliable Channel API — General Availability](https://roadmap.l
 Add API tests based on the [Reliable Channel API](https://github.com/logos-co/logos-lips/blob/master/docs/messaging/raw/reliable-channel-api.md), covering the main reliable-channel behavior exposed by the implementation.
 
 #### Deliverables
-- [logos-messaging/logos-delivery#4103](https://github.com/logos-messaging/logos-delivery/issues/4103) SIGSEGV on shutdown after restoring persisted channel state
+- [logos-messaging/logos-delivery#4103](https://github.com/logos-messaging/logos-delivery/issues/4103) bug:SIGSEGV during node shutdown after restoring persisted reliable-channel state
 - [logos-messaging/logos-delivery-interop-tests#200](https://github.com/logos-messaging/logos-delivery-interop-tests/pull/200) remove some RC04 variants /add RC05/RC06
 - [logos-messaging/logos-delivery#4065](https://github.com/logos-messaging/logos-delivery/issues/4065) bug: Channel still emits receive events after channel_close
 - [logos-messaging/logos-delivery#4063](https://github.com/logos-messaging/logos-delivery/issues/4063) bug: Reliable Channel: received event reports receiver’s senderId

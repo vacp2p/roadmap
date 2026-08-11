@@ -5,7 +5,7 @@ tags:
   - "web"
   - "logos"
 draft: false
-description: "Q3 Logos CRM on Notion: pivot from a custom CiviCRM dashboard to Notion as database and UI. Extend intake forms, configure Notion workspaces, funnel email via MailGun webhook, and add integrations, automations, and team support."
+description: "Q3 Logos CRM work: deliver a self-hosted MVP specification and demo while expanding Notion workflows, intake forms, email automation, integrations, and team support."
 ---
 
 `ift-ts:web:logos:2026q3-logos-crm`
@@ -56,6 +56,26 @@ People Ops / Ecodev need to **send emails to leads** in the Notion BD database a
 Alternative considered: Gmail alias via Google Workspace (add alias domain + configure in Notion). Webhook path is cleaner if no alias exists yet; optional admin UI on [admin-acid.logos.co](https://admin-acid.logos.co/) for template editing.
 
 ## Task List
+
+### MVP
+
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:mvp`
+* owner: Jinho
+* status: done
+* start-date: 2026/08/03
+* end-date: 2026/08/10
+
+#### Description
+
+Define and implement an initial self-hosted Logos CRM vertical slice using Next.js and PostgreSQL. Provide a reviewable specification and seeded demo covering the core dashboard, case pipeline, people and organization directories, relationships, activities, and tasks.
+
+#### Deliverables
+
+- [logos-co/logos-web#126](https://github.com/logos-co/logos-web/pull/126) feat: add Logos CRM specification and demo
+- [Logos CRM specification and implementation tracker](https://github.com/logos-co/logos-web/issues/124)
+- [Hosted Logos CRM demo](https://logos-crm.vercel.app/)
+- Docker Compose stack for a local self-hosted demo with PostgreSQL migrations and seed data
+- Core dashboard, case, directory, relationship, activity, and task flows
 
 ### Notion workspace architecture & Movement set-up
 

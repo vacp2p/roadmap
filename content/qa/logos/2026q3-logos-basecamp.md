@@ -58,6 +58,9 @@ Validate the main package manager and module workflows, including install, launc
 Maintain and extend the existing Basecamp smoke, UI, sandbox, and doctest coverage as the project evolves.
 
 #### Deliverables
+- [logos-co/logos-basecamp#312](https://github.com/logos-co/logos-basecamp/pull/312) Test/missing dependencies
+- [logos-co/logos-basecamp#317](https://github.com/logos-co/logos-basecamp/pull/317) Test/persistence portability
+- [Logos Basecamp v0.2.3 release validation](https://github.com/logos-co/logos-basecamp/releases/tag/0.2.3), with 13 findings shared with developers.
 - [logos-co/logos-basecamp#293](https://github.com/logos-co/logos-basecamp/pull/293) Chore/add coverage report
 - [logos-co/logos-basecamp#298](https://github.com/logos-co/logos-basecamp/pull/298) Test/basecamp package lifecycle
 - [logos-co/logos-basecamp#303](https://github.com/logos-co/logos-basecamp/pull/303) Fix/pin release test modules

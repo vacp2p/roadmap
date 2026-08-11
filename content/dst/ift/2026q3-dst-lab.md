@@ -43,8 +43,11 @@ Report findings with analysis and benchmarks of the results.
 - Code:
   - [vacp2p/vaclab-2#44](https://github.com/vacp2p/vaclab-2/pull/44) Add CPU and RAM Usage Panels in Mix dashboard
   - [vacp2p/vaclab-2#41](https://github.com/vacp2p/vaclab-2/pull/41) Deploy DST Dashboard and Update HomePage
+  - [vacp2p/vaclab-2#45](https://github.com/vacp2p/vaclab-2/pull/45) Use static CPU Manager for Core Pinning
+  - [vacp2p/vaclab-2#46](https://github.com/vacp2p/vaclab-2/pull/46) Deploy Grafana Tempo and Enable Tracing Injection
 - Reports:
   - DST dashboard backend and development frontend deployed with the new resource and topology features.
   - [DST Dashboard](https://dashboard.lab.vac.dev) deployed with production and development infrastructure.
   - [DST Dashboard Admin UI](https://api.dashboard.lab.vac.dev/admin/token) protected by Authentik authentication.
   - [VacLab Home](https://lab.vac.dev) updated with dashboard shortcuts and status.
+  - Added `nftables` rules on `metal-01` for internet egress, the NodePort range, and selected TCP/UDP ingress ports.

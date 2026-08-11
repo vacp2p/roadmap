@@ -5,16 +5,89 @@ tags:
   - "web"
   - "logos"
 draft: false
-description: "Q3 continuation of the Logos website work — set up self-hosting infrastructure and deployment processes for the redesigned site."
+description: "Q3 continuation of the Logos website work — campaign and roadmap pages, release updates, newsletter flows, and self-hosting infrastructure."
 ---
 
 `ift-ts:web:logos:2026q3-logos-website`
 
 ## Description
 
-Q3 continuation of [[web/logos/2026q2-logos-website|2026q2-logos-website]]: once redesign and CMS direction are settled in Q2, move the Logos website onto **self-hosted infrastructure** with a clean deployment story.
+Q3 continuation of [[web/logos/2026q2-logos-website|2026q2-logos-website]]: deliver new campaign and roadmap pages, keep release and newsletter content current, and move the Logos website onto **self-hosted infrastructure** with a clean deployment story.
 
 ## Task List
+
+### Build the Parallel
+
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-website:build-the-parallel`
+* owner: Jinho
+* status: in progress (90%)
+* start-date: 2026/08/03
+* end-date: 2026/08/14
+
+#### Description
+
+Build the `/build-the-parallel` campaign landing page from the approved design and content, with responsive behavior and production-ready integration in the Logos website.
+
+#### Deliverables
+
+- [logos-co/logos-web#128](https://github.com/logos-co/logos-web/pull/128) feat: add /build-the-parallel landing page
+- [Build the Parallel preview](https://logos-co-web-git-web-build-the-parallel-status-im-web.vercel.app/build-the-parallel)
+- Responsive landing-page implementation ready for production review
+
+### Roadmap
+
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-website:roadmap`
+* owner: Jinho
+* status: done
+* start-date: 2026/07/08
+* end-date: 2026/08/10
+
+#### Description
+
+Add a content-backed `/roadmap` page with release timelines, overview cards, FAQs, responsive layouts, and page-specific SEO metadata.
+
+#### Deliverables
+
+- [logos-co/logos-web#101](https://github.com/logos-co/logos-web/pull/101) Add roadmap page
+- [Roadmap page preview](https://logos-co-web-git-web-roadmap-page-status-im-web.vercel.app/roadmap)
+- Roadmap content schema, route, sitemap entry, and responsive page sections
+
+### Testnet v0.2.1
+
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-website:testnet-v0.2.1`
+* owner: Jinho
+* status: done
+* start-date: 2026/08/05
+* end-date: 2026/08/05
+
+#### Description
+
+Update logos.co links and copy for Logos Testnet v0.2.1 and Basecamp v0.2.3 while preserving automatic platform downloads and release-page fallbacks.
+
+#### Deliverables
+
+- [logos-co/logos-web#127](https://github.com/logos-co/logos-web/pull/127) Update links and copy for Testnet v0.2.1 and basecamp v0.2.3
+- Updated homepage banner and Basecamp download links
+- Regression coverage and repository guidance for future release-link updates
+
+### Newsletters
+
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-website:newsletters`
+* owner: JulesFiliot
+* status: in progress (90%)
+* start-date: 2026/07/29
+* end-date: 2026/08/14
+
+#### Description
+
+Complete the Logos newsletter signup flow by forwarding submitted form data, subscribing funnel opt-ins, and sending consistent data-driven welcome replies from the Logos forms domain.
+
+#### Deliverables
+
+- [logos-co/logos-web#121](https://github.com/logos-co/logos-web/pull/121) feat: forward submitted form data on newsletter signup
+- [acid-info/admin-acid.logos.co#61](https://github.com/acid-info/admin-acid.logos.co/pull/61) fix newsletter sender configuration
+- [acid-info/admin-acid.logos.co#57](https://github.com/acid-info/admin-acid.logos.co/issues/57) data-driven auto-reply flow tested end to end
+- Auto-reply templates configured for each `logos.co` newsletter subscription
 
 ### Selfhosting
 

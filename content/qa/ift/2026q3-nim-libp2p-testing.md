@@ -49,7 +49,7 @@ Implement tests for opt-in dial ranking and backoff behavior.
 
 * fully qualified name: `ift-ts:qa:ift:2026q3-nim-libp2p-testing:quic-repo`
 * owner: radek
-* status: in progress (80%)
+* status: in progress (95%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -58,6 +58,16 @@ Add QA coverage in the QUIC repository where it would be most useful for the bro
 Focus on targeted tests that can catch transport-level issues earlier and complement the nim-libp2p coverage.
 
 #### Deliverables
+- [vacp2p/nim-lsquic#134](https://github.com/vacp2p/nim-lsquic/pull/134) test: sendPacketsOut return contract and parked-write cleanup
+- [vacp2p/nim-lsquic#135](https://github.com/vacp2p/nim-lsquic/pull/135) test: improvements + lifecycle tests
+- [vacp2p/nim-lsquic#137](https://github.com/vacp2p/nim-lsquic/pull/137) test: datagram routing, dropped initial retransmission, close vs abort
+- [vacp2p/nim-lsquic#141](https://github.com/vacp2p/nim-lsquic/pull/141) test: empty serverName and eof after a vanished peer
+- [vacp2p/nim-lsquic#136](https://github.com/vacp2p/nim-lsquic/issues/136) connection: close() resets the peer's streams while abort() does not
+- [vacp2p/nim-lsquic#138](https://github.com/vacp2p/nim-lsquic/issues/138) certificateverifier: serverName is always empty
+- [vacp2p/nim-lsquic#139](https://github.com/vacp2p/nim-lsquic/issues/139) io: packetIn's documented return contract is not implemented
+- [vacp2p/nim-lsquic#140](https://github.com/vacp2p/nim-lsquic/issues/140) stream: a read ends at eof when the connection dies without a fin
+- [vacp2p/nim-lsquic#142](https://github.com/vacp2p/nim-lsquic/issues/142) context: unidirectional streams from a peer are handled as if bidirectional
+- [vacp2p/nim-lsquic#143](https://github.com/vacp2p/nim-lsquic/issues/143) connection: remoteAddress() is stale after the peer changes path
 - [vacp2p/nim-lsquic#106](https://github.com/vacp2p/nim-lsquic/pull/106) test: trackers
 - [vacp2p/nim-libp2p#2886](https://github.com/vacp2p/nim-libp2p/pull/2886) test: improve checkTrackers
 - [vacp2p/nim-lsquic#114](https://github.com/vacp2p/nim-lsquic/pull/114) test: certificate verifier and TLS config

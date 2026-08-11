@@ -52,7 +52,7 @@ required.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-delivery-consulting:service-discovery-kad`
 * owner: Gabe
-* status: in progress (36%)
+* status: in progress (43%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -63,6 +63,10 @@ bootstrap, provider record, discovery, and routing-table behavior as integration
 questions arise.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2920](https://github.com/vacp2p/nim-libp2p/pull/2920) fix(service-disco): initialise the network size estimator
+- [vacp2p/nim-libp2p#2910](https://github.com/vacp2p/nim-libp2p/pull/2910) feat(kad): dynamic client/server mode via reachability
+- [vacp2p/nim-libp2p#2903](https://github.com/vacp2p/nim-libp2p/pull/2903) chore(kad): converge lookups on beta and confirm the k closest in a follow-up phase
+- [vacp2p/nim-libp2p#2911](https://github.com/vacp2p/nim-libp2p/pull/2911) feat(kad): send optimistic ADD_PROVIDER during lookup
 - [vacp2p/nim-libp2p#2902](https://github.com/vacp2p/nim-libp2p/pull/2902) chore(kad): batch reprovide by keyspace region
 - [vacp2p/nim-libp2p#2864](https://github.com/vacp2p/nim-libp2p/pull/2864) chore(kad): replace round-synchronized lookup with a continuous alpha-concurrency pipeline
 - [vacp2p/nim-libp2p#2863](https://github.com/vacp2p/nim-libp2p/pull/2863) chore(kad): probe peers before inserting them into the routing table

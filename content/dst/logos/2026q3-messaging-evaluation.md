@@ -83,7 +83,7 @@ Analyze logos messaging using quic from nimlibp2p and compare results with mplex
 ### Logos delivery node
 * fully qualified name: `ift-ts:dst:logos:2026q3-messaging-evaluation:logos-delivery-node`
 * owner: Pearson
-* status: in progress (45%)
+* status: in progress (95%)
 * start-date: 2026/07/28
 * end-date: 2026/08/07
 
@@ -96,6 +96,8 @@ Build image and reproduce some experiments to see if results match and if we nee
 #### Deliverables
 - Code:
 - Reports:
+  - [nWaku delivery node analysis](https://app.notion.com/p/nWaku-deliverynode-3b08f96fb65c80839c80d01484bab923?showMoveTo=true&saveParent=true)
+  - Completed the reliability experiment matrix successfully and produced message-delay plots, with one clock-skew anomaly documented for follow-up.
 
 
 

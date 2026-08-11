@@ -64,8 +64,8 @@ transport state, and start/stop controls where supported.
 ### Management UI Implementation
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-core-node-management-ui:ui-implementation`
-* owner: not assigned yet
-* status: not started
+* owner: Vlado
+* status: in progress (75%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -78,3 +78,8 @@ The UI should prioritize operational clarity over broad feature coverage.
 - Display of node identity, addresses, peers, protocols, and discovery state
 - Basic controls wired to supported node operations
 - Manual validation notes or automated UI coverage if possible
+- [logos-co/logos-libp2p-ui#2](https://github.com/logos-co/logos-libp2p-ui/pull/2) feat: initial project code
+- [logos-co/logos-libp2p-ui#3](https://github.com/logos-co/logos-libp2p-ui/pull/3) add license
+- [logos-co/logos-libp2p-ui#4](https://github.com/logos-co/logos-libp2p-ui/pull/4) feat: gossipsub screen
+- [logos-co/logos-libp2p-ui#5](https://github.com/logos-co/logos-libp2p-ui/pull/5) feat: screens with basic functionality
+- [logos-co/logos-libp2p-ui#6](https://github.com/logos-co/logos-libp2p-ui/pull/6) feat: settings

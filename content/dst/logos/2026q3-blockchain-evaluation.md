@@ -35,7 +35,7 @@ work and improvements, and it is subjected to change.
 ### Devnets (recurring)
 * fully qualified name: `ift-ts:dst:logos:2026q3-blockchain-evaluation:devnets`
 * owner: Alberto
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -47,13 +47,14 @@ and document behaviors and findings.
 
 #### Deliverables
 - Code:
+  - [vacp2p/10ksim#378](https://github.com/vacp2p/10ksim/pull/378) Files for logos-blokchain testnet
 - Reports:
 
 
 ### Blend benchmarking
 * fully qualified name: `ift-ts:dst:logos:2026q3-blockchain-evaluation:blendnet-benchmarking`
 * owner: Mamoutou
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/08/04
 * end-date: 2026/08/14
 

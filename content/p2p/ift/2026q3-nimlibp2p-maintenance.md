@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-maintenance:maintenance`
 * owner: rramos/vlado/gabe
-* status: in progress (36%)
+* status: in progress (43%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -36,6 +36,8 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors, and bug fixes.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2913](https://github.com/vacp2p/nim-libp2p/pull/2913) chore(cbind): change procs to static
+- [vacp2p/nim-libp2p#2915](https://github.com/vacp2p/nim-libp2p/pull/2915) refactor(nat): a ReachabilityObservers store for reachability subscribers
 - [status-im/nimbus-eth2#8836](https://github.com/status-im/nimbus-eth2/pull/8836) feat: bump lsquic to v0.8.0
 - [vacp2p/nim-lsquic#132](https://github.com/vacp2p/nim-lsquic/pull/132) perf: reuse a stack WSABUF and heap-fall-back on the Windows send path
 - [vacp2p/nim-lsquic#131](https://github.com/vacp2p/nim-lsquic/pull/131) perf: compare address families directly in prepareDestAddr

@@ -32,7 +32,7 @@ work and improvements, and it is subjected to change.
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-libp2p-evaluation:regression-testing`
 * owner: Alan
-* status: in progress (50%)
+* status: in progress (75%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -59,6 +59,10 @@ and ensure they don't happen again.
   - [vacp2p/10ksim#352](https://github.com/vacp2p/10ksim/pull/352) k8s: scrape gossipsub detail from cluster regression runs
   - [vacp2p/10ksim#316](https://github.com/vacp2p/10ksim/pull/316) shadow-gossipsub: select muxer and discovery (static | kad-dht)
   - [vacp2p/10ksim#351](https://github.com/vacp2p/10ksim/pull/351) Shadow: scrape gossipsub control/efficiency metrics
+  - [vacp2p/10ksim#366](https://github.com/vacp2p/10ksim/pull/366) Degraded-network, churn and partition regression scenarios
+  - [vacp2p/10ksim#377](https://github.com/vacp2p/10ksim/pull/377) Scrape the settled window for Shadow runs
+  - [vacp2p/10ksim#380](https://github.com/vacp2p/10ksim/pull/380) Fix broken imports and add tests for all imports
+  - [vacp2p/10ksim#383](https://github.com/vacp2p/10ksim/pull/383) Report Shadow mesh state under load, not at the end of the run
 - Reports:
   - [Regression testing rulebook](https://app.notion.com/p/39b8f96fb65c809e9fa7fdb075c30cfc)
   - [Nim-libp2p v2.2.0 Regression Report](https://app.notion.com/p/3978f96fb65c8042ae7dd621decae98a)

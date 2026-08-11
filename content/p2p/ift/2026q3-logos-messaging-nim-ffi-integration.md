@@ -71,15 +71,18 @@ writing compatibility tests, or adapting nim-libp2p wrappers.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-messaging-nim-ffi-integration:migration-path`
 * owner: gabe
-* status: in progress (95%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/08/11
 
 #### Description
 Define how projects can migrate from the current C bindings to the cleaner
 `nim-ffi` integration path without breaking existing users.
 
 #### Deliverables
+- [nim-lang/packages#3459](https://github.com/nim-lang/packages/pull/3459) Add ffi
+- [logos-messaging/nim-ffi#147](https://github.com/logos-messaging/nim-ffi/pull/147) fix(ffi): run the {.ffiDtor.} teardown on the recycle path
+- [logos-messaging/logos-delivery#4082](https://github.com/logos-messaging/logos-delivery/pull/4082) feat(ffi)!: migrate liblogosdelivery to the nim-ffi 0.3.0 typed C ABI
 - [logos-messaging/logos-delivery#4070](https://github.com/logos-messaging/logos-delivery/pull/4070) chore(deps)!: bump nim-ffi to 0.3.0-rc.1 (per-listener event ABI)
 - [vacp2p/nim-libp2p#2891](https://github.com/vacp2p/nim-libp2p/pull/2891) fix(cbind): bump nim-ffi for CBOR byte-string replies
 - [logos-messaging/nim-ffi#141](https://github.com/logos-messaging/nim-ffi/pull/141) fix: seq[byte] rides as a CBOR byte string on every backend

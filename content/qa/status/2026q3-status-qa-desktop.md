@@ -20,7 +20,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (50%)
+* status: in progress (91%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -29,6 +29,12 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Update tests for changes in Status Desktop, address regressions, investigate failures, and implement minor framework improvements needed to keep the suite reliable.
 
 #### Deliverables
+- [status-im/status-app#21868](https://github.com/status-im/status-app/issues/21868) Fix pin and and community link on Mac
+- [status-im/status-app#21845](https://github.com/status-im/status-app/pull/21845) chore(@e2e): wait for geometry of button in onboarding screen
+- [status-im/status-app#21752](https://github.com/status-im/status-app/issues/21752) Returning login: “Create profile” opens Log in page (NewAccountLoginPage) instead of Create profile
+- [status-im/status-app#21797](https://github.com/status-im/status-app/pull/21797) chore(@e2e): fix for nightly failures
+- [status-im/status-app#21757](https://github.com/status-im/status-app/pull/21757) chore(@e2e): missing import fix
+- [status-im/status-app#21751](https://github.com/status-im/status-app/pull/21751) chore(@e2e): fix testnet popup reference in e2e
 - [status-im/status-app#21731](https://github.com/status-im/status-app/pull/21731) chore(@e2e): fix seed import verification on onboarding
 - [status-im/status-app#21719](https://github.com/status-im/status-app/pull/21719) chore(@e2e): fix token naming
 - [status-im/status-app#21727](https://github.com/status-im/status-app/pull/21727) tests(@qml): port testnet popup tests from e2e to QML
@@ -45,7 +51,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:new-tests`
 * owner: nastya
-* status: in progress (10%)
+* status: in progress (15%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -54,6 +60,10 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Add or update tests for new Status Desktop features as they are planned and implemented.
 
 #### Deliverables
+- [status-im/status-app#21750](https://github.com/status-im/status-app/pull/21750) feat(@settings): checksum wallet address on settings
+- [status-im/status-app#21727](https://github.com/status-im/status-app/pull/21727) tests(@qml): port testnet popup tests from e2e to QML
+- [status-im/status-app#21728](https://github.com/status-im/status-app/issues/21728) Port skipped network and testnet modal tests to QML
+- [status-im/status-app#17648](https://github.com/status-im/status-app/issues/17648) Wallet address is not checksumed in wallet settings
 - [status-im/status-app#21545](https://github.com/status-im/status-app/pull/21545) tests(@qml): add wallet account reordering tests
 - PRs / Issues / Reports
 
@@ -61,7 +71,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:release-testing`
 * owner: nastya
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -71,6 +81,12 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Track release risks and bugs found during manual release validation.
 
 #### Deliverables
+- [status-im/status-app#21778](https://github.com/status-im/status-app/issues/21778) Seed phrase input component is cut by popup if status app is not full screen
+- [status-im/status-app#21758](https://github.com/status-im/status-app/pull/21758) Focus input fix
+- [status-im/status-app#21756](https://github.com/status-im/status-app/issues/21756) Typing in the seed words in confirm dialog is extremely problematic
+- [status-im/status-app#21781](https://github.com/status-im/status-app/issues/21781) No prices for NVDA token on Robinhood chain
+- [status-im/status-app#15120](https://github.com/status-im/status-app/issues/15120) Windows assets (icons) are blurry (poor quality?)
+- [status-im/status-app#19154](https://github.com/status-im/status-app/issues/19154) PCSC error on windows if card reader is not plugged in
 - [status-im/status-app#21720](https://github.com/status-im/status-app/issues/21720) Can't mute community on mobile / tablet, extra menu is not shown
 - [status-im/status-app#21733](https://github.com/status-im/status-app/issues/21733) Desktop: Change password hangs in Logout/statusNode.Stop. Restart stays disabled >60s
 - [status-im/status-app#21730](https://github.com/status-im/status-app/issues/21730) OnboardingLayout crashes on null keychain during startup / restart (TypeError: Cannot read property 'loading' of null)
@@ -126,6 +142,9 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Improve coverage for the main performance-sensitive user flows and make the measurements useful for regression tracking.
 
 #### Deliverables
+- [status-im/status-app-benchmarks#25](https://github.com/status-im/status-app-benchmarks/pull/25) desktop: fix the encoding error
+- [status-im/status-app#21732](https://github.com/status-im/status-app/issues/21732) Desktop: opening empty collectibles tab (cold start, new user profile) takes ~ 16 seconds
+- [status-im/status-app#21733](https://github.com/status-im/status-app/issues/21733) Desktop: Change password hangs in Logout/statusNode.Stop. Restart stays disabled >60s
 - [status-im/status-app-benchmarks#24](https://github.com/status-im/status-app-benchmarks/pull/24) desktop: polish Flags badges and escalate chronic slows to Backlog
 - [status-im/status-app-benchmarks#23](https://github.com/status-im/status-app-benchmarks/pull/23) desktop: rename regression report to Flags and link known tickets
 - [status-im/status-app-benchmarks#22](https://github.com/status-im/status-app-benchmarks/pull/22) desktop: add missing test stats for asset first time opening
@@ -183,6 +202,9 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Work with infra team (if needed) to build proper app (the one that will use keycard mock), including macOS
 
 #### Deliverables
+- [status-im/status-app#21871](https://github.com/status-im/status-app/issues/21871) Simulated keycard does not work in packaged build on Linux and Windows
+- [status-im/status-app#21863](https://github.com/status-im/status-app/pull/21863) chore(@ci): allow launching keycard tests in manual job
+- [status-im/status-app#21867](https://github.com/status-im/status-app/issues/21867) Update manual jenkins job to run keycard tests on demand
 - [status-im/status-app#21665](https://github.com/status-im/status-app/pull/21665) tests(@e2e): keycard simulator infrastructure and onboarding scenario
 - [status-im/status-app#21722](https://github.com/status-im/status-app/issues/21722) App crashes on login when creating account with keycard simulator
 - [status-im/status-app#21667](https://github.com/status-im/status-app/issues/21667) Starting keycard simulator fails in packaged app — looks for vendor/ source tree

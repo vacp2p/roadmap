@@ -30,6 +30,7 @@ The work includes updating fuzz targets, corpus handling, CI execution, and foll
 - Keep corpus update automation and CI execution useful, documenting constraints or infrastructure gaps when they appear.
 
 #### Deliverables
+- [logos-blockchain/lez-fuzzing#25](https://github.com/logos-blockchain/lez-fuzzing/pull/25) chore: Sync with LEZ main - parallel message vectors into action structs
 - [logos-blockchain/lez-fuzzing#23](https://github.com/logos-blockchain/lez-fuzzing/pull/23) chore: automated weekly corpus update
 - [logos-blockchain/lez-fuzzing#22](https://github.com/logos-blockchain/lez-fuzzing/pull/22) chore: automated weekly corpus update
 - [logos-blockchain/lez-fuzzing#20](https://github.com/logos-blockchain/lez-fuzzing/pull/20) fix: Add timeout to model based stateful lockstep

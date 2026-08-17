@@ -128,3 +128,17 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [status-im/nim-json-rpc#282](https://github.com/status-im/nim-json-rpc/pull/282) Restrict client raises to `JsonRpcError`
 - [status-im/nim-json-rpc#279](https://github.com/status-im/nim-json-rpc/pull/279) Support notification in rpc context for non-async method
 - [status-im/nim-json-rpc#263](https://github.com/status-im/nim-json-rpc/pull/263) Documentation book
+
+### Documentation Improvement
+
+* fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:docs-improvement`
+* owner: Constantine
+* status: in progress (25%)
+* start-date: 2026/08/01
+* end-date: 2026/08/31
+
+#### Description
+- Add missing documentation to IFT packages (e.g. Presto).
+- Improve documentation tooling (e.g. `nim doc` as mdBook replacement).
+
+#### Deliverables

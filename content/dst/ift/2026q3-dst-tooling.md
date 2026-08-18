@@ -78,7 +78,7 @@ Improve first approach delivered in Q2.
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-dst-tooling:slow-proof-analysis`
 * owner: Mamoutou
-* status: in progress (80%)
+* status: in progress (90%)
 * start-date: 2026/07/09
 * end-date: 2026/09/24
 
@@ -94,3 +94,5 @@ x6 or even higher.
   - [High RLN Proof Generation Time Debugging](https://app.notion.com/p/High-RLN-Proof-Generation-Time-Debugging-3a08f96fb65c80e197a8dbe833df3097)
   - Enabled CPU pinning on `metal-01` and measured an average RLN proof-generation time of 195 ms, about 31% lower than without pinning.
   - Enabled static CPU Manager across VacLab nodes and CPU pinning on the running mix nodes.
+  - [RLN generation and verification Grafana panels](https://grafana.lab.vac.dev/goto/cfve43sjymb5sb?orgId=1)
+  - Found RLN proof-generation latency to be CPU-frequency-bound; node-02's higher frequency reduced p95 to about 242 ms versus about 400 ms on other nodes.

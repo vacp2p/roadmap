@@ -65,9 +65,9 @@ transport state, and start/stop controls where supported.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-core-node-management-ui:ui-implementation`
 * owner: Vlado
-* status: in progress (75%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/08/18
 
 #### Description
 Implement the node management UI using the agreed Q3 scope and Logos Core APIs.
@@ -83,3 +83,11 @@ The UI should prioritize operational clarity over broad feature coverage.
 - [logos-co/logos-libp2p-ui#4](https://github.com/logos-co/logos-libp2p-ui/pull/4) feat: gossipsub screen
 - [logos-co/logos-libp2p-ui#5](https://github.com/logos-co/logos-libp2p-ui/pull/5) feat: screens with basic functionality
 - [logos-co/logos-libp2p-ui#6](https://github.com/logos-co/logos-libp2p-ui/pull/6) feat: settings
+- [logos-co/logos-libp2p-ui#12](https://github.com/logos-co/logos-libp2p-ui/pull/12) feat: save settings
+- [logos-co/logos-libp2p-ui#11](https://github.com/logos-co/logos-libp2p-ui/pull/11) feat: dht improvments
+- [logos-co/logos-libp2p-ui#10](https://github.com/logos-co/logos-libp2p-ui/pull/10) feat: input validation
+- [logos-co/logos-libp2p-ui#7](https://github.com/logos-co/logos-libp2p-ui/pull/7) test: add swarm script
+- [logos-co/logos-libp2p-ui#9](https://github.com/logos-co/logos-libp2p-ui/pull/9) feat: add TrafficScreen and more metrics
+- [logos-co/logos-libp2p-module#102](https://github.com/logos-co/logos-libp2p-module/pull/102) chore: bump nim-libp2p
+- [logos-co/logos-libp2p-ui#8](https://github.com/logos-co/logos-libp2p-ui/pull/8) fix: close with eof
+- [vacp2p/nim-libp2p#2927](https://github.com/vacp2p/nim-libp2p/pull/2927) chore: adding more metrics

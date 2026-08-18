@@ -20,9 +20,9 @@ Q3 continuation of [[web/logos/2026q2-logos-website|2026q2-logos-website]]: deli
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-website:build-the-parallel`
 * owner: Jinho
-* status: in progress (90%)
+* status: done
 * start-date: 2026/08/03
-* end-date: 2026/08/14
+* end-date: 2026/08/18
 
 #### Description
 
@@ -33,6 +33,29 @@ Build the `/build-the-parallel` campaign landing page from the approved design a
 - [logos-co/logos-web#128](https://github.com/logos-co/logos-web/pull/128) feat: add /build-the-parallel landing page
 - [Build the Parallel preview](https://logos-co-web-git-web-build-the-parallel-status-im-web.vercel.app/build-the-parallel)
 - Responsive landing-page implementation ready for production review
+
+### Past Present Future
+
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-website:past-present-future`
+* owner: Jinho
+* status: done
+* start-date: 2026/08/10
+* end-date: 2026/08/18
+
+#### Description
+
+Host the Past Present Future museum experience on `logos.co`, integrate analytics and anchored navigation, and make its media work under production constraints.
+
+#### Deliverables
+
+- [logos-co/logos-web#142](https://github.com/logos-co/logos-web/pull/142) feat(web): add Museum anchor links
+- [logos-co/logos-web#141](https://github.com/logos-co/logos-web/pull/141) fix(web): prevent ambiguous Umami events
+- [logos-co/logos-web#138](https://github.com/logos-co/logos-web/pull/138) Fix blocked museum video embeds
+- [logos-co/logos-web#137](https://github.com/logos-co/logos-web/pull/137) Fix museum YouTube embeds for production CSP
+- [logos-co/logos-web#136](https://github.com/logos-co/logos-web/pull/136) Fix museum CTA links
+- [logos-co/logos-web#133](https://github.com/logos-co/logos-web/pull/133) Optimise Past Present Future background video
+- [logos-co/logos-web#132](https://github.com/logos-co/logos-web/pull/132) feat: host Past Present Future static site
+- [Past Present Future](https://logos.co/past-present-future) production deployment
 
 ### Roadmap
 
@@ -74,9 +97,9 @@ Update logos.co links and copy for Logos Testnet v0.2.1 and Basecamp v0.2.3 whil
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-website:newsletters`
 * owner: JulesFiliot
-* status: in progress (90%)
+* status: done
 * start-date: 2026/07/29
-* end-date: 2026/08/14
+* end-date: 2026/08/18
 
 #### Description
 
@@ -84,6 +107,9 @@ Complete the Logos newsletter signup flow by forwarding submitted form data, sub
 
 #### Deliverables
 
+- [acid-info/admin-acid.logos.co#62](https://github.com/acid-info/admin-acid.logos.co/pull/62) fix(newsletters): sign unsubscribe links
+- [acid-info/admin-acid.logos.co#63](https://github.com/acid-info/admin-acid.logos.co/pull/63) fix(newsletters): require a POST to unsubscribe, add one-click headers
+- [acid-info/admin-acid.logos.co#65](https://github.com/acid-info/admin-acid.logos.co/pull/65) feat(newsletters): add unsubscribeUrl template placeholder
 - [logos-co/logos-web#121](https://github.com/logos-co/logos-web/pull/121) feat: forward submitted form data on newsletter signup
 - [acid-info/admin-acid.logos.co#61](https://github.com/acid-info/admin-acid.logos.co/pull/61) fix newsletter sender configuration
 - [acid-info/admin-acid.logos.co#57](https://github.com/acid-info/admin-acid.logos.co/issues/57) data-driven auto-reply flow tested end to end

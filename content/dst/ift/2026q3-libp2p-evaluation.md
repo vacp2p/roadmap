@@ -63,9 +63,14 @@ and ensure they don't happen again.
   - [vacp2p/10ksim#377](https://github.com/vacp2p/10ksim/pull/377) Scrape the settled window for Shadow runs
   - [vacp2p/10ksim#380](https://github.com/vacp2p/10ksim/pull/380) Fix broken imports and add tests for all imports
   - [vacp2p/10ksim#383](https://github.com/vacp2p/10ksim/pull/383) Report Shadow mesh state under load, not at the end of the run
+  - [vacp2p/dst-libp2p-test-node#43](https://github.com/vacp2p/dst-libp2p-test-node/pull/43) Ping every connection until traffic starts
+  - [vacp2p/10ksim#386](https://github.com/vacp2p/10ksim/pull/386) Record the image digest the nodes actually pulled
+  - [vacp2p/10ksim#387](https://github.com/vacp2p/10ksim/pull/387) Bound the publish request and fail a run that lost messages
+  - [vacp2p/10ksim#375](https://github.com/vacp2p/10ksim/pull/375) Stop dropping deliveries whose measured delay is negative
 - Reports:
   - [Regression testing rulebook](https://app.notion.com/p/39b8f96fb65c809e9fa7fdb075c30cfc)
   - [Nim-libp2p v2.2.0 Regression Report](https://app.notion.com/p/3978f96fb65c8042ae7dd621decae98a)
+  - [Nim-libp2p v2.3.0 Regression Report](https://app.notion.com/p/Nim-libp2p-v2-3-0-Regression-Report-39b8f96fb65c80519e7ef2fc97683811)
 
 
 ### Interop at scale

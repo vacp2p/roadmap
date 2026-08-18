@@ -32,8 +32,8 @@ artifacts during Q3.
 ### Scope And Architecture
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-anoncomms-unified-networking:scope-architecture`
-* owner: not assigned yet
-* status: not started
+* owner: Richard
+* status: in progress (10%)
 * start-date: 2026/07/01
 * end-date: 2026/07/10
 
@@ -47,4 +47,6 @@ application code.
 - Initial module responsibility map
 - Integration assumptions for libp2p, mix, and RLN-for-mix
 - List of open design questions and required decisions
+- [vacp2p/zerokit#435](https://github.com/vacp2p/zerokit/pull/435) nix: bump release-25.11 rev to pick up fetch-cargo-vendor-util-v2, and update cargoHash for v3.0.0
+- Created [nim-libp2p-mix-rln-ffi](https://github.com/logos-co/nim-libp2p-mix-rln-ffi) and [logos-libp2p-mix-rln](https://github.com/logos-co/logos-libp2p-mix-rln) for the unified Logos Core networking module.
 

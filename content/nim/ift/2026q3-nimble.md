@@ -31,6 +31,9 @@ All the relevant information can be found in [this GitHub issue](https://github.
 This remains the short-term roadmap for replacing pieces of the Nimbus build system bit by bit while improving Nimble overall.
 
 #### Deliverables
+- [nim-lang/nimble#1821](https://github.com/nim-lang/nimble/pull/1821) Adds `--refresh` flag
+- [nim-lang/nimble#1820](https://github.com/nim-lang/nimble/pull/1820) Implements global refresh
+- [nim-lang/nimble#1819](https://github.com/nim-lang/nimble/pull/1819) Refresh every globally known package with `nimble refresh -g`
 - [nim-lang/nimble#1817](https://github.com/nim-lang/nimble/pull/1817) Fixes win ci
 - [nim-lang/nimble#1813](https://github.com/nim-lang/nimble/pull/1813) Adds capabilities to `nimble refresh`
 - [nim-lang/nimble#1811](https://github.com/nim-lang/nimble/pull/1811) Fix/unsatisfiable message crash

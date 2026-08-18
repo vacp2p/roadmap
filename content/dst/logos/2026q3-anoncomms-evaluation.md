@@ -79,7 +79,7 @@ TBD
 
 * fully qualified name: `ift-ts:dst:logos:2026q3-anoncomms-evaluation:service-discovery-scenarios`
 * owner: Alberto
-* status: in progress (75%)
+* status: in progress (90%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 

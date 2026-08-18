@@ -153,3 +153,4 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Improve documentation tooling (e.g. `nim doc` as mdBook replacement).
 
 #### Deliverables
+- PRs and docs

@@ -20,7 +20,7 @@ Support libp2p work where QA help is expected, including Autotls, opt-in dial ra
 
 * fully qualified name: `ift-ts:qa:ift:2026q3-nim-libp2p-testing:autotls`
 * owner: radek
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -28,6 +28,10 @@ Support libp2p work where QA help is expected, including Autotls, opt-in dial ra
 Implement unit and integration tests for the Autotls protocol.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2930](https://github.com/vacp2p/nim-libp2p/pull/2930) fix(autotls): checkDNSRecords retry loop
+- [vacp2p/nim-libp2p#2931](https://github.com/vacp2p/nim-libp2p/pull/2931) test(autotls): broker
+- [vacp2p/nim-libp2p#2933](https://github.com/vacp2p/nim-libp2p/pull/2933) fix(autotls): renewal never fires and renewBufferTime is applied twice
+- [vacp2p/nim-libp2p#2942](https://github.com/vacp2p/nim-libp2p/pull/2942) fix(autotls): retry a failed issuance round and fix the issueRetries count
 - PRs with links to added tests
 
 ### Opt-in Dial Ranking and Backoffs Testing
@@ -49,9 +53,9 @@ Implement tests for opt-in dial ranking and backoff behavior.
 
 * fully qualified name: `ift-ts:qa:ift:2026q3-nim-libp2p-testing:quic-repo`
 * owner: radek
-* status: in progress (95%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/08/18
 
 #### Description
 Add QA coverage in the QUIC repository where it would be most useful for the broader libp2p effort.
@@ -62,6 +66,10 @@ Focus on targeted tests that can catch transport-level issues earlier and comple
 - [vacp2p/nim-lsquic#135](https://github.com/vacp2p/nim-lsquic/pull/135) test: improvements + lifecycle tests
 - [vacp2p/nim-lsquic#137](https://github.com/vacp2p/nim-lsquic/pull/137) test: datagram routing, dropped initial retransmission, close vs abort
 - [vacp2p/nim-lsquic#141](https://github.com/vacp2p/nim-lsquic/pull/141) test: empty serverName and eof after a vanished peer
+- [vacp2p/nim-lsquic#156](https://github.com/vacp2p/nim-lsquic/pull/156) test: stream credit slot leaked by a cancelled openStream
+- [vacp2p/nim-lsquic#145](https://github.com/vacp2p/nim-lsquic/issues/145) context: set the six transport parameters currently inherited from lsquic's defaults
+- [vacp2p/nim-lsquic#146](https://github.com/vacp2p/nim-lsquic/issues/146) tlsconfig: ALPN preference order is Nim's string hash order, and the negotiated protocol cannot be read
+- [vacp2p/nim-lsquic#154](https://github.com/vacp2p/nim-lsquic/issues/154) openStream leaks a stream credit slot when a parked call is cancelled
 - [vacp2p/nim-lsquic#136](https://github.com/vacp2p/nim-lsquic/issues/136) connection: close() resets the peer's streams while abort() does not
 - [vacp2p/nim-lsquic#138](https://github.com/vacp2p/nim-lsquic/issues/138) certificateverifier: serverName is always empty
 - [vacp2p/nim-lsquic#139](https://github.com/vacp2p/nim-lsquic/issues/139) io: packetIn's documented return contract is not implemented

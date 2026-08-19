@@ -42,6 +42,10 @@ nim-libp2p usage. This may include reviewing designs, contributing fixes,
 writing compatibility tests, or adapting nim-libp2p wrappers.
 
 #### Deliverables
+- [logos-messaging/nim-ffi#149](https://github.com/logos-messaging/nim-ffi/pull/149) fix(ffi): dispatch events off a snapshot so a listener can mutate the registry
+- [logos-messaging/nim-ffi#148](https://github.com/logos-messaging/nim-ffi/pull/148) fix(ffi): reset the pool slot on recycle, and give the host an opaque context token
+- [logos-messaging/nim-ffi#150](https://github.com/logos-messaging/nim-ffi/pull/150) fix(ffi): bound the request ingress queue and the request payload
+- [logos-messaging/nim-ffi#143](https://github.com/logos-messaging/nim-ffi/pull/143) abi = c header: self-contained, event-listener ABI, doc comments, ctor/dtor guard
 - [vacp2p/nim-libp2p#2780](https://github.com/vacp2p/nim-libp2p/pull/2780) chore(cbind): nim-ffi migration [9/9] — flip to libp2p.nim, delete legacy cbind
 - [vacp2p/nim-libp2p#2779](https://github.com/vacp2p/nim-libp2p/pull/2779) chore(cbind): nim-ffi migration [8/9] — relay, peerstore, metrics (API parity)
 - [vacp2p/nim-libp2p#2778](https://github.com/vacp2p/nim-libp2p/pull/2778) chore(cbind): nim-ffi migration [7/9] — service discovery + extended peer records
@@ -80,6 +84,7 @@ Define how projects can migrate from the current C bindings to the cleaner
 `nim-ffi` integration path without breaking existing users.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2909](https://github.com/vacp2p/nim-libp2p/pull/2909) chore(cbind): use nim-ffi 0.3.0
 - [nim-lang/packages#3459](https://github.com/nim-lang/packages/pull/3459) Add ffi
 - [logos-messaging/nim-ffi#147](https://github.com/logos-messaging/nim-ffi/pull/147) fix(ffi): run the {.ffiDtor.} teardown on the recycle path
 - [logos-messaging/logos-delivery#4082](https://github.com/logos-messaging/logos-delivery/pull/4082) feat(ffi)!: migrate liblogosdelivery to the nim-ffi 0.3.0 typed C ABI

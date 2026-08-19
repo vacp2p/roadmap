@@ -127,3 +127,20 @@ Generalize non-EVM balance support across the wallet (portfolio totals, per-acco
 - Non-EVM balance fetch + cache abstraction
 - Portfolio and account views surface non-EVM balances
 - Tests covering portfolio aggregation with mixed EVM + non-EVM assets
+
+### Dapp Connection
+
+* fully qualified name: `ift-ts:web:status:2026q3-status-wallet-extension:dapp-connection`
+* owner: JulesFiliot
+* status: in progress (25%)
+* start-date: 2026/08/10
+* end-date: 2026/09/30
+
+#### Description
+
+Persist dApp connections independently for each wallet account so switching accounts does not leak or discard connection state.
+
+#### Deliverables
+
+- Per-account dApp connection persistence
+- Coverage for account switching and connection restoration

@@ -20,7 +20,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (91%)
+* status: in progress (92%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -29,6 +29,9 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Update tests for changes in Status Desktop, address regressions, investigate failures, and implement minor framework improvements needed to keep the suite reliable.
 
 #### Deliverables
+- [status-im/status-app#21992](https://github.com/status-im/status-app/pull/21992) chore(@e2e): check if biometrics popup is displayed when devices are synced (on Mac)
+- [status-im/status-app#21968](https://github.com/status-im/status-app/pull/21968) chore(@e2e): fix aut shutdown on windows and make local waku fleet ports assignment cross platform
+- [status-im/status-app#21864](https://github.com/status-im/status-app/pull/21864) chore(@e2e): fix pin and community link on mac
 - [status-im/status-app#21868](https://github.com/status-im/status-app/issues/21868) Fix pin and and community link on Mac
 - [status-im/status-app#21845](https://github.com/status-im/status-app/pull/21845) chore(@e2e): wait for geometry of button in onboarding screen
 - [status-im/status-app#21752](https://github.com/status-im/status-app/issues/21752) Returning login: “Create profile” opens Log in page (NewAccountLoginPage) instead of Create profile
@@ -51,7 +54,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:new-tests`
 * owner: nastya
-* status: in progress (15%)
+* status: in progress (28%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -60,6 +63,8 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Add or update tests for new Status Desktop features as they are planned and implemented.
 
 #### Deliverables
+- [status-im/status-app#21961](https://github.com/status-im/status-app/pull/21961) tests(@e2e): get rid of toasts verifications in e2e
+- [status-im/status-app#20806](https://github.com/status-im/status-app/pull/20806) tests(@e2e): send stickers in chat
 - [status-im/status-app#21750](https://github.com/status-im/status-app/pull/21750) feat(@settings): checksum wallet address on settings
 - [status-im/status-app#21727](https://github.com/status-im/status-app/pull/21727) tests(@qml): port testnet popup tests from e2e to QML
 - [status-im/status-app#21728](https://github.com/status-im/status-app/issues/21728) Port skipped network and testnet modal tests to QML
@@ -142,6 +147,11 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Improve coverage for the main performance-sensitive user flows and make the measurements useful for regression tracking.
 
 #### Deliverables
+- [status-im/github-comment-manager#29](https://github.com/status-im/github-comment-manager/pull/29) Map status-app-benchmarks URLs to prf / bar_chart
+- [status-im/status-app#21980](https://github.com/status-im/status-app/pull/21980) feat(@ci): extend Windows benchmarks job to support PR and releases
+- [status-im/status-app-benchmarks#28](https://github.com/status-im/status-app-benchmarks/pull/28) desktop: richer PR listing cards and channel badges
+- [status-im/status-app-benchmarks#27](https://github.com/status-im/status-app-benchmarks/pull/27) desktop: isolate nightly, PR, and release benchmark channels
+- [status-im/status-app-benchmarks#26](https://github.com/status-im/status-app-benchmarks/pull/26) desktop: add deep links and collapsible scenario charts
 - [status-im/status-app-benchmarks#25](https://github.com/status-im/status-app-benchmarks/pull/25) desktop: fix the encoding error
 - [status-im/status-app#21732](https://github.com/status-im/status-app/issues/21732) Desktop: opening empty collectibles tab (cold start, new user profile) takes ~ 16 seconds
 - [status-im/status-app#21733](https://github.com/status-im/status-app/issues/21733) Desktop: Change password hangs in Logout/statusNode.Stop. Restart stays disabled >60s
@@ -193,7 +203,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:e2e-kyecard-mock`
 * owner: nastya
-* status: in progress (25%)
+* status: in progress (41%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -202,6 +212,9 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Work with infra team (if needed) to build proper app (the one that will use keycard mock), including macOS
 
 #### Deliverables
+- [status-im/status-app#21944](https://github.com/status-im/status-app/pull/21944) tests(@qml): cover keycard login, management and re-auth UI states
+- [status-im/status-app#21938](https://github.com/status-im/status-app/pull/21938) tests(@e2e): import known seed onto card and create profile with keycard simulator
+- [status-im/status-app#21875](https://github.com/status-im/status-app/pull/21875) fix(keycard): make packaged simulator work on Linux and Windows
 - [status-im/status-app#21871](https://github.com/status-im/status-app/issues/21871) Simulated keycard does not work in packaged build on Linux and Windows
 - [status-im/status-app#21863](https://github.com/status-im/status-app/pull/21863) chore(@ci): allow launching keycard tests in manual job
 - [status-im/status-app#21867](https://github.com/status-im/status-app/issues/21867) Update manual jenkins job to run keycard tests on demand

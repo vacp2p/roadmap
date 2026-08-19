@@ -115,6 +115,21 @@ Add functional tests for local notification flows.
 #### Deliverables
 - PRs and/or Issues
 
+### Keycard PUK Functional Testing
+
+* fully qualified name: `ift-ts:qa:status:2026q3-status-go-functional-testing:keycard-puk`
+* owner: magnus
+* status: done
+* start-date: 2026/08/10
+* end-date: 2026/08/18
+
+#### Description
+Restore Status Go functional coverage for Keycard PUK flows, pairings, and mobile bindings.
+
+#### Deliverables
+- [status-im/status-go#7697](https://github.com/status-im/status-go/pull/7697) test(functional): restore keycard coverage in cold-wallet vocabulary
+- [status-im/status-go#7696](https://github.com/status-im/status-go/pull/7696) test(wallet): cover keycard pairings file and mobile bindings
+
 ### Maintenance
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-go-functional-testing:maintenance`
@@ -129,6 +144,10 @@ This includes updating tests for changes in `status-go`, addressing regressions,
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
+- [status-im/status-go#7715](https://github.com/status-im/status-go/pull/7715) test(functional): drop stale strict xfail on post-reconnect delivery
+- [status-im/status-go#7712](https://github.com/status-im/status-go/issues/7712) protocol: ENS name from ContactUpdate is never queued for verification
+- [status-im/status-go#7713](https://github.com/status-im/status-go/issues/7713) protocol: ENS name is never sent on standard message paths, so automatic ENS verification never triggers
+- [status-im/status-go#7714](https://github.com/status-im/status-go/issues/7714) wallet router sends ENS release/setPubkey transactions to the token contract instead of the registrar/resolver
 - [status-im/status-go#7669](https://github.com/status-im/status-go/pull/7669) test(functional): stabilize reliability node-pause tests
 - [status-im/status-go#7668](https://github.com/status-im/status-go/issues/7668) Historic sync delayed by up to 20s after reconnect: offline no-op attempts arm the min-interval
 - [status-im/status-go#7648](https://github.com/status-im/status-go/pull/7648) test(functional): resolve backend host ports after joining bridge network

@@ -51,3 +51,4 @@ Report findings with analysis and benchmarks of the results.
   - [DST Dashboard Admin UI](https://api.dashboard.lab.vac.dev/admin/token) protected by Authentik authentication.
   - [VacLab Home](https://lab.vac.dev) updated with dashboard shortcuts and status.
   - Added `nftables` rules on `metal-01` for internet egress, the NodePort range, and selected TCP/UDP ingress ports.
+  - Deployed a dedicated NTP server on `metal-01` and synchronized all VacLab hosts to it.

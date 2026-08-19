@@ -42,6 +42,8 @@ Execute upkeep across delivered web properties for Q3: dependency and security b
 
 #### Deliverables
 
+- [logos-co/logos-web#135](https://github.com/logos-co/logos-web/pull/135) fix(web): exclude vendored static export from lint
+- [logos-co/logos-web#131](https://github.com/logos-co/logos-web/pull/131) fix(tech-stack): replace fixed section heights with min-heights
 - [logos-co/logos-web@a537b15](https://github.com/logos-co/logos-web/commit/a537b1583bc60d7182d7984195a3f4a3210dfd0c) Update Logos funnel Notion template copy
 - [logos-co/logos-web#125](https://github.com/logos-co/logos-web/pull/125) fix(ai-review): restore Claude reviews on Opus 5
 - Completed and presented the `/ai-review` workflow presentation.

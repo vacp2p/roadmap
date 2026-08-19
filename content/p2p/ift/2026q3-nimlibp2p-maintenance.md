@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-maintenance:maintenance`
 * owner: rramos/vlado/gabe
-* status: in progress (43%)
+* status: in progress (51%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -36,6 +36,24 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors, and bug fixes.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2941](https://github.com/vacp2p/nim-libp2p/pull/2941) fix(pubsub): initialize RPC handlers before connecting
+- [vacp2p/nim-lsquic#153](https://github.com/vacp2p/nim-lsquic/pull/153) fix(connection): report current remote address
+- [vacp2p/nim-lsquic#149](https://github.com/vacp2p/nim-lsquic/pull/149) feat(client): pass server name when dialing
+- [vacp2p/nim-lsquic#147](https://github.com/vacp2p/nim-lsquic/pull/147) fix(tlsconfig): validate ALPN protocol lengths
+- [vacp2p/nim-lsquic#152](https://github.com/vacp2p/nim-lsquic/pull/152) fix(stream): handle peer unidirectional streams
+- [vacp2p/nim-libp2p#2925](https://github.com/vacp2p/nim-libp2p/pull/2925) test(quic): pin nim-lsquic close fix
+- [vacp2p/nim-lsquic#144](https://github.com/vacp2p/nim-lsquic/pull/144) fix(connection): preserve queued streams after peer close
+- [vacp2p/nim-lsquic#129](https://github.com/vacp2p/nim-lsquic/pull/129) feat(benchmarks): error handling, resource-usage capture, refreshed docs
+- [vacp2p/nim-libp2p#2923](https://github.com/vacp2p/nim-libp2p/pull/2923) feat: v2.3.0
+- [vacp2p/nim-libp2p#2926](https://github.com/vacp2p/nim-libp2p/pull/2926) ci: change log lvl
+- [logos-storage/nim-libplum#18](https://github.com/logos-storage/nim-libplum/pull/18) fix: add missing libplum_units.c
+- [vacp2p/nim-libp2p#2932](https://github.com/vacp2p/nim-libp2p/pull/2932) chore(nat): bump libplum to v0.6.2
+- [vacp2p/nim-libp2p#2940](https://github.com/vacp2p/nim-libp2p/pull/2940) fix(peerstore): bound the identify stream close
+- [vacp2p/nim-libp2p#2929](https://github.com/vacp2p/nim-libp2p/pull/2929) fix(dialer): bound outbound dials so one stuck peer cannot stall the node
+- [logos-co/logos-libp2p-module#101](https://github.com/logos-co/logos-libp2p-module/pull/101) fix(gossipsub): bound the per-topic message queue and expose the ingress limits
+- [logos-co/logos-libp2p-module#99](https://github.com/logos-co/logos-libp2p-module/pull/99) fix(service-disco): advertise a caller-supplied XPR
+- [vacp2p/nim-libp2p#2919](https://github.com/vacp2p/nim-libp2p/pull/2919) feat(cbind): expose the GossipSub ingress limits in Libp2pConfig
+- [vacp2p/nim-libp2p#2917](https://github.com/vacp2p/nim-libp2p/pull/2917) fix(service-disco): let a caller advertise a full XPR
 - [vacp2p/nim-libp2p#2913](https://github.com/vacp2p/nim-libp2p/pull/2913) chore(cbind): change procs to static
 - [vacp2p/nim-libp2p#2915](https://github.com/vacp2p/nim-libp2p/pull/2915) refactor(nat): a ReachabilityObservers store for reachability subscribers
 - [status-im/nimbus-eth2#8836](https://github.com/status-im/nimbus-eth2/pull/8836) feat: bump lsquic to v0.8.0

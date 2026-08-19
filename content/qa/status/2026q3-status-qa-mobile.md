@@ -32,6 +32,7 @@ The performance work is a priority as there is an intention to use performance m
 Make the mobile performance pipeline run unattended and extend it from response times to resource usage. The response-time dashboard already covers around 39 app surfaces on a fresh account; the priority this quarter is measuring a loaded account, getting the nightly run reliable, and adding battery, CPU, and memory tracking.
 
 #### Deliverables
+- [status-im/status-app#21753](https://github.com/status-im/status-app/issues/21753) Redmi A5 resource charts for RAM, CPU, network, and battery
 - [status-im/status-app#21821](https://github.com/status-im/status-app/issues/21821) [Android] App freezes (ANR) after login when an accessibility service is active on a low-end device
 - Published low-end Redmi device performance measurements to the benchmark dashboard.
 - [status-im/status-app#21470](https://github.com/status-im/status-app/issues/21470) [Android] CPU, GPU, Battery and Device surface temperature go sharply app when actively using the app
@@ -60,6 +61,8 @@ Make the mobile performance pipeline run unattended and extend it from response 
 Restore the Android per-PR gate as a trustworthy signal. Re-triage expected-fail tests and rebalance the gate into a stable set covering onboarding, messaging, wallet, and settings journeys.
 
 #### Deliverables
+- [status-im/status-app#21377](https://github.com/status-im/status-app/pull/21377) Re-enable the edited-message check
+- [status-im/status-go#7693](https://github.com/status-im/status-go/pull/7693) Add a functional test guarding message delivery after reconnect
 - [status-im/status-app#21846](https://github.com/status-im/status-app/issues/21846) [Android] Message context menu does not open on long-press since the chat text integration
 - [status-im/status-go#7393](https://github.com/status-im/status-go/issues/7393) Light clients can silently lose messages sent immediately after contact acceptance
 - Wrote and verified a functional regression test for community messages lost after an offline-to-online transition.

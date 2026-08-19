@@ -39,9 +39,9 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:protobuf-serialization-docs`
 * owner: Constantine
-* status: in progress (25%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/08/18
 
 #### Description
 - Improve documentation for Protobuf Serialization.
@@ -64,6 +64,12 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Keep the ported functionality covered by tests and suitable for downstream consumers.
 
 #### Deliverables
+- [status-im/nimbus-eth1#4638](https://github.com/status-im/nimbus-eth1/pull/4638) Bump nim-taskpools to v0.2.1
+- [status-im/nimbus-eth2#8879](https://github.com/status-im/nimbus-eth2/pull/8879) Bump nim-taskpools to v0.2.1
+- [status-im/nim-taskpools#60](https://github.com/status-im/nim-taskpools/pull/60) Bump to v0.2.1
+- [status-im/nim-taskpools#63](https://github.com/status-im/nim-taskpools/pull/63) Clean up futexes_macos `XDeclaredButNotUsed`
+- [status-im/nim-taskpools#61](https://github.com/status-im/nim-taskpools/pull/61) Fix schedule race cond which causes a hang
+- [status-im/nim-taskpools#62](https://github.com/status-im/nim-taskpools/pull/62) Fix emscripten compile target
 - [status-im/nim-taskpools#59](https://github.com/status-im/nim-taskpools/pull/59) `sync`: allow awaiting threads to sleep
 - [status-im/nim-taskpools#58](https://github.com/status-im/nim-taskpools/pull/58) Set worker current task
 - [status-im/nim-taskpools#56](https://github.com/status-im/nim-taskpools/pull/56) Reduce allocs: make TaskNode intrusive to the Flowvar
@@ -76,7 +82,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:nim-web3`
 * owner: Constantine
-* status: in progress (25%)
+* status: in progress (90%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -86,6 +92,8 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Review the open `nim-web3` issue backlog and close or update stale items where possible.
 
 #### Deliverables
+- [status-im/nim-web3#262](https://github.com/status-im/nim-web3/pull/262) Replace ci-install.sh with `nimble test`
+- [status-im/nim-web3#263](https://github.com/status-im/nim-web3/pull/263) Cherry-pick tests for the Nim packages test suite
 - [status-im/nim-web3#45](https://github.com/status-im/nim-web3/issues/45) Encoding of mixed dynamic/fixed arguments fails
 - [status-im/nim-web3#215](https://github.com/status-im/nim-web3/issues/215) Nested tuple encoding produces incorrect offset calculations
 - [status-im/nim-web3#220](https://github.com/status-im/nim-web3/issues/220) Objects should be transformed as tuple when generating function
@@ -102,6 +110,9 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Ongoing maintenance and fixes across Nim core libraries.
 
 #### Deliverables
+- [status-im/nimbus-common-workflow#29](https://github.com/status-im/nimbus-common-workflow/pull/29) Add linux arm64 to matrix
+- [status-im/nim-json-rpc#289](https://github.com/status-im/nim-json-rpc/pull/289) Fix #285; Do not swallow cancellations in socket client
+- [status-im/nim-chronos#704](https://github.com/status-im/nim-chronos/pull/704) Docs: Improve User Guide visibility
 - [status-im/nim-json-rpc#288](https://github.com/status-im/nim-json-rpc/pull/288) CI speed up
 - [status-im/nim-protobuf-serialization#114](https://github.com/status-im/nim-protobuf-serialization/pull/114) Add `readFieldPackedIntoIt` without `value` param
 - [status-im/nim-faststreams#91](https://github.com/status-im/nim-faststreams/pull/91) Add outputs `pos` comptime support
@@ -142,3 +153,4 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Improve documentation tooling (e.g. `nim doc` as mdBook replacement).
 
 #### Deliverables
+- PRs and docs

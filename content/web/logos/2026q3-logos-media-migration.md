@@ -121,7 +121,7 @@ Build the native podcast detail route at `logos.co/media/podcasts/<series>/<slug
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:podcast-player`
 * owner: jinhojang6
-* status: not started
+* status: in progress (95%)
 * start-date: 2026/07/07
 * end-date: 2026/07/31
 

@@ -26,6 +26,10 @@ Additionally, it handle the RAG CaaS to ingest map the internal knowledge of IFT
 * [[bi/status/2026q3-status-scam-detection|status-scam-detection]]
 * [[bi/status/2026q3-status-snt-monitoring|status-snt-monitoring]]
 
+### `keycard`
+
+* [[bi/keycard/2026q3-keycard-social-media-analysis|keycard-social-media-analysis]]
+
 ### `develp`
 
 * [[bi/develp/2026q3-develp-eth-builder-bids|develp-eth-builder-bids]]

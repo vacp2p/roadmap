@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-maintenance:maintenance`
 * owner: rramos/vlado/gabe
-* status: in progress (51%)
+* status: in progress (59%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -36,6 +36,25 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors, and bug fixes.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2980](https://github.com/vacp2p/nim-libp2p/pull/2980) chore(pubsub): `sendResponse` improvement
+- [vacp2p/nim-libp2p#2969](https://github.com/vacp2p/nim-libp2p/pull/2969) feat(cbind): include peerId on IncomingStreamEvent
+- [vacp2p/nim-libp2p#2965](https://github.com/vacp2p/nim-libp2p/pull/2965) refactor(pubsub): separate app's path from protocol messages send/brodcast path
+- [vacp2p/nim-libp2p#2960](https://github.com/vacp2p/nim-libp2p/pull/2960) chore: add linter for nix dependencies
+- [vacp2p/nim-libp2p#2959](https://github.com/vacp2p/nim-libp2p/pull/2959) fix(tests): autotls DNS test segfault on Nim devel with refc
+- [vacp2p/nim-libp2p#2956](https://github.com/vacp2p/nim-libp2p/pull/2956) fix(ipaddr): compare IPv6 clients too
+- [vacp2p/nim-libp2p#2955](https://github.com/vacp2p/nim-libp2p/pull/2955) chore(tests): start/stop once
+- [vacp2p/nim-libp2p#2954](https://github.com/vacp2p/nim-libp2p/pull/2954) test(transports): unify tor transport test behavior for half closed connections
+- [vacp2p/nim-libp2p#2952](https://github.com/vacp2p/nim-libp2p/pull/2952) fix(TcpTransport): dual-stack reuse bug
+- [vacp2p/nim-libp2p#2951](https://github.com/vacp2p/nim-libp2p/pull/2951) fix(switch): prevent accept-loop resource exhaustion
+- [vacp2p/nim-libp2p#2947](https://github.com/vacp2p/nim-libp2p/pull/2947) feat(quic): add stream idle timeouts
+- [vacp2p/nim-libp2p#2946](https://github.com/vacp2p/nim-libp2p/pull/2946) fix(mplex): serve buffered data and EOF before reporting the connection down
+- [vacp2p/nim-libp2p#2945](https://github.com/vacp2p/nim-libp2p/pull/2945) fix(autonatv2): require address index on success
+- [vacp2p/nim-libp2p#2944](https://github.com/vacp2p/nim-libp2p/pull/2944) fix(ipaddr): a public IPv6 address counts as a public address
+- [libp2p/universal-connectivity#341](https://github.com/libp2p/universal-connectivity/pull/341) feat(nim-peer): use kademlia for peer discovery
+- [logos-co/logos-libp2p-module#104](https://github.com/logos-co/logos-libp2p-module/pull/104) feat: expose NAT traversal configuration options
+- [vacp2p/nim-lsquic#151](https://github.com/vacp2p/nim-lsquic/pull/151) fix(stream): distinguish EOF from connection teardown
+- [vacp2p/nim-boringssl#16](https://github.com/vacp2p/nim-boringssl/pull/16) fix(ci): update nim-libp2p compatibility setup
+- [vacp2p/nim-boringssl#15](https://github.com/vacp2p/nim-boringssl/pull/15) fix(build)!: correct BoringSSL assembly flag
 - [vacp2p/nim-libp2p#2941](https://github.com/vacp2p/nim-libp2p/pull/2941) fix(pubsub): initialize RPC handlers before connecting
 - [vacp2p/nim-lsquic#153](https://github.com/vacp2p/nim-lsquic/pull/153) fix(connection): report current remote address
 - [vacp2p/nim-lsquic#149](https://github.com/vacp2p/nim-lsquic/pull/149) feat(client): pass server name when dialing

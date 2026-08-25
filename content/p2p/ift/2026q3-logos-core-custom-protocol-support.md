@@ -52,7 +52,7 @@ semantics.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-core-custom-protocol-support:remote-stream-handling`
 * owner: gabe
-* status: not started
+* status: in progress (59%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -62,6 +62,9 @@ outbound custom protocol streams. The design should account for timeouts,
 stream reset, node shutdown, and remote module failure.
 
 #### Deliverables
+- [logos-co/logos-libp2p-module#107](https://github.com/logos-co/logos-libp2p-module/pull/107) fix(ctx): guard the libp2p context pointer against a concurrent destroy
+- [logos-co/logos-libp2p-module#106](https://github.com/logos-co/logos-libp2p-module/pull/106) fix(tests): find liblibp2p.so, so the integration tests build again
+- [logos-co/logos-libp2p-module#103](https://github.com/logos-co/logos-libp2p-module/pull/103) feat(bridge): restore the inbound accept queue, report the peer id, add pingPeer
 - Inbound stream events delivered to external modules
 - Stream read, write, close, and reset operations exposed through Logos Core
 - Tests or examples covering custom protocol registration and remote stream handling

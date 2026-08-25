@@ -54,7 +54,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:thread-pool-library`
 * owner: Esteban
-* status: in progress (80%)
+* status: in progress (95%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -110,6 +110,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Ongoing maintenance and fixes across Nim core libraries.
 
 #### Deliverables
+- [status-im/nim-json-rpc#290](https://github.com/status-im/nim-json-rpc/pull/290) Bump to v0.7.0
 - [status-im/nimbus-common-workflow#29](https://github.com/status-im/nimbus-common-workflow/pull/29) Add linux arm64 to matrix
 - [status-im/nim-json-rpc#289](https://github.com/status-im/nim-json-rpc/pull/289) Fix #285; Do not swallow cancellations in socket client
 - [status-im/nim-chronos#704](https://github.com/status-im/nim-chronos/pull/704) Docs: Improve User Guide visibility
@@ -144,7 +145,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:docs-improvement`
 * owner: Constantine
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/08/01
 * end-date: 2026/08/31
 
@@ -153,4 +154,4 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Improve documentation tooling (e.g. `nim doc` as mdBook replacement).
 
 #### Deliverables
-- PRs and docs
+- [nim-lang/Nim#26130](https://github.com/nim-lang/Nim/pull/26130) Feature: Rest: `.. include::`: Support `:start-after:` and `:end-before:` in `:literal:` mode

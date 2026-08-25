@@ -27,8 +27,8 @@ nim-libp2p functionality available under WASM constraints.
 ### WASM Feasibility
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-wasm-targets:feasibility`
-* owner: not assigned yet
-* status: not started
+* owner: Richard
+* status: in progress (30%)
 * start-date: 2026/07/01
 * end-date: 2026/07/15
 

@@ -132,9 +132,9 @@ Generalize non-EVM balance support across the wallet (portfolio totals, per-acco
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-wallet-extension:dapp-connection`
 * owner: JulesFiliot
-* status: in progress (25%)
+* status: done
 * start-date: 2026/08/10
-* end-date: 2026/09/30
+* end-date: 2026/08/25
 
 #### Description
 
@@ -142,5 +142,11 @@ Persist dApp connections independently for each wallet account so switching acco
 
 #### Deliverables
 
+- [status-im/status-web#1136](https://github.com/status-im/status-web/issues/1136) Status Wallet Extension: dApp connection RPC methods parity
+- [status-im/status-web#1303](https://github.com/status-im/status-web/pull/1303) feat(wallet): route dApp reads to the chain the dApp is on
+- [status-im/status-web#1302](https://github.com/status-im/status-web/pull/1302) feat(wallet): support eth_sendTransaction for dApps
+- [status-im/status-web#1301](https://github.com/status-im/status-web/pull/1301) feat(wallet): sign EIP-712 typed data for dApps
+- [status-im/status-web#1299](https://github.com/status-im/status-web/pull/1299) fix(wallet): gate dApp RPC on granted permission
+- [status-im/status-web#1298](https://github.com/status-im/status-web/pull/1298) fix(wallet): persist dApp connections per account
 - Per-account dApp connection persistence
 - Coverage for account switching and connection restoration

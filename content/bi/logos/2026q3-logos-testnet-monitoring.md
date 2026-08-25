@@ -58,7 +58,7 @@ Extract and monitore Logos Storage network usage.
 
 * fully qualified name: `ift-ts:bi:logos:2026q3-logos-testnet-monitoring:blockchain`
 * owner: Claire
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/31
 * issue: https://github.com/status-im/data-docs/issues/

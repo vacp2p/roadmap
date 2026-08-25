@@ -32,6 +32,7 @@ The performance work is a priority as there is an intention to use performance m
 Make the mobile performance pipeline run unattended and extend it from response times to resource usage. The response-time dashboard already covers around 39 app surfaces on a fresh account; the priority this quarter is measuring a loaded account, getting the nightly run reliable, and adding battery, CPU, and memory tracking.
 
 #### Deliverables
+- Extended the Redmi low-end resource lane and began publishing it weekly.
 - [status-im/status-app#21753](https://github.com/status-im/status-app/issues/21753) Redmi A5 resource charts for RAM, CPU, network, and battery
 - [status-im/status-app#21821](https://github.com/status-im/status-app/issues/21821) [Android] App freezes (ANR) after login when an accessibility service is active on a low-end device
 - Published low-end Redmi device performance measurements to the benchmark dashboard.
@@ -61,6 +62,7 @@ Make the mobile performance pipeline run unattended and extend it from response 
 Restore the Android per-PR gate as a trustworthy signal. Re-triage expected-fail tests and rebalance the gate into a stable set covering onboarding, messaging, wallet, and settings journeys.
 
 #### Deliverables
+- [status-im/status-app#22004](https://github.com/status-im/status-app/pull/22004) test(e2e_appium): dismiss introduce-yourself sheet
 - [status-im/status-app#21377](https://github.com/status-im/status-app/pull/21377) Re-enable the edited-message check
 - [status-im/status-go#7693](https://github.com/status-im/status-go/pull/7693) Add a functional test guarding message delivery after reconnect
 - [status-im/status-app#21846](https://github.com/status-im/status-app/issues/21846) [Android] Message context menu does not open on long-press since the chat text integration
@@ -148,7 +150,7 @@ Add smoke tests for critical journeys missing from the gate: wallet send and joi
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:keycard-ui`
 * owner: magnus
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -156,6 +158,7 @@ Add smoke tests for critical journeys missing from the gate: wallet send and joi
 Cover the new keycard on-screen flows on mobile: PIN entry, PUK unblock, onboarding, and recovery. Dev may provide a keycard test mock that makes these flows automatable without a physical card.
 
 #### Deliverables
+- [status-im/status-go#7697](https://github.com/status-im/status-go/pull/7697) test(functional): restore keycard coverage in cold-wallet vocabulary
 - Keycard page objects and locators against the new screens
 - Automated PIN, onboarding, and recovery flows once the mock is reachable in the mobile build
 - Drafted keycard QA test plan for the new simulator-based stack

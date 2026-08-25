@@ -96,9 +96,9 @@ Add a `Verifier` interface the manager calls on a heartbeat to confirm individua
 
 - fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-addr-manager:consumers`
 - owner: gabe
-- status: not started
+- status: done
 - start-date: 2026/08/25
-- end-date: 2026/09/08
+- end-date: 2026/08/25
 
 #### Description
 
@@ -106,6 +106,7 @@ Register the AutoNATv2 verifier with the manager, derive a node-level reachabili
 
 #### Deliverables
 
+- [vacp2p/nim-libp2p#2953](https://github.com/vacp2p/nim-libp2p/pull/2953) feat(addr-mgr): register the verifier and migrate the consumers
 - AutoNATv2 verifier registered with the manager; `AutonatV2Service` v1-style confidence `Deque` retired
 - Derived node-level `NetworkReachability` summary (any confirmed ⇒ Reachable) computed from per-address state for back-compat
 - `AutoRelayService` + `hpservice` read `confirmedAddrs()` where per-family detail matters, the summary only where a single flag suffices

@@ -121,7 +121,7 @@ Build the native podcast detail route at `logos.co/media/podcasts/<series>/<slug
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:podcast-player`
 * owner: jinhojang6
-* status: in progress (95%)
+* status: in progress (98%)
 * start-date: 2026/07/07
 * end-date: 2026/07/31
 
@@ -131,6 +131,7 @@ Rebuild the sticky bottom player from the current podcast experience: play/pause
 
 #### Deliverables
 
+- Fixed YouTube playback synchronization bugs.
 - Sticky bottom player with play/pause, seek, elapsed and duration, and a progress bar
 - Two-way sync between the progress bar and the YouTube IFrame player (play, pause, seek, time updates)
 - Autoplay rules and mobile behaviour handled and written down
@@ -183,7 +184,7 @@ Produce the full slug and path mapping, decide how to handle anything that isn't
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:seo-cutover`
 * owner: jinhojang6
-* status: not started
+* status: in progress (50%)
 * start-date: 2026/07/07
 * end-date: 2026/07/31
 
@@ -193,6 +194,7 @@ Make the new `/media/*` pages the canonical, indexable home for this content. Th
 
 #### Deliverables
 
+- [logos-co/logos-web#144](https://github.com/logos-co/logos-web/pull/144) fix(web): improve technical SEO metadata
 - Canonicals plus `Article` and `PodcastEpisode` JSON-LD on the new detail templates
 - Sitemap updated with `/media/articles/*` and `/media/podcasts/*`
 - Validation (Search Console coverage and rich-results checks) on a sample

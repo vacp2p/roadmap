@@ -134,7 +134,7 @@ Restore Status Go functional coverage for Keycard PUK flows, pairings, and mobil
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-go-functional-testing:maintenance`
 * owner: Egor
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -144,6 +144,9 @@ This includes updating tests for changes in `status-go`, addressing regressions,
 investigating and resolving issues, and implementing minor improvements to the testing framework as needed.
 
 #### Deliverables
+- [status-im/status-go#7716](https://github.com/status-im/status-go/issues/7716) messages.new not emitted for incoming 1:1 message on a chat created by the node's own contact request
+- [status-im/status-go#7372](https://github.com/status-im/status-go/pull/7372) test: add ENS release, visibility, and verification functional tests
+- [status-im/status-go#7365](https://github.com/status-im/status-go/pull/7365) test: add ENS management and validity tests to functional tests
 - [status-im/status-go#7715](https://github.com/status-im/status-go/pull/7715) test(functional): drop stale strict xfail on post-reconnect delivery
 - [status-im/status-go#7712](https://github.com/status-im/status-go/issues/7712) protocol: ENS name from ContactUpdate is never queued for verification
 - [status-im/status-go#7713](https://github.com/status-im/status-go/issues/7713) protocol: ENS name is never sent on standard message paths, so automatic ENS verification never triggers

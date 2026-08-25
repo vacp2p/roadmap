@@ -47,6 +47,7 @@ and ensure they don't happen again.
 
 #### Deliverables
 - Code:
+  - [vacp2p/nim-libp2p#2967](https://github.com/vacp2p/nim-libp2p/pull/2967) fix(kad): keep peer addresses when the admission probe cap is full
   - [vacp2p/10ksim#362](https://github.com/vacp2p/10ksim/pull/362) Generate latency plots from the regression pipeline
   - [vacp2p/10ksim#370](https://github.com/vacp2p/10ksim/pull/370) Move the box plot legend outside the axes
   - [vacp2p/dst-libp2p-test-node#42](https://github.com/vacp2p/dst-libp2p-test-node/pull/42) Shadow quic: floor lsquic engine tick re-arms

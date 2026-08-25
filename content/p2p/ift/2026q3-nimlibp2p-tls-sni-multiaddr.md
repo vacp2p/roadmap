@@ -27,16 +27,17 @@ dialing and listening paths.
 ### Multiaddress Representation
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-tls-sni-multiaddr:representation`
-* owner: not assigned yet
-* status: not started
+* owner: Richard
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/31
+* end-date: 2026/08/25
 
 #### Description
 Define and implement the multiaddress representation for TLS and SNI
 information, following upstream multiaddr conventions where they exist.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2963](https://github.com/vacp2p/nim-libp2p/pull/2963) feat(multiaddress): add SNI protocol support
 - TLS/SNI multiaddress parsing support
 - TLS/SNI multiaddress construction support
 - Validation for malformed or unsupported address combinations
@@ -46,16 +47,17 @@ information, following upstream multiaddr conventions where they exist.
 ### Transport Wiring
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-tls-sni-multiaddr:transport-wiring`
-* owner: not assigned yet
-* status: not started
+* owner: Richard
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/31
+* end-date: 2026/08/25
 
 #### Description
 Pass TLS/SNI information from multiaddresses into dialing and listening
 transports that need it.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2964](https://github.com/vacp2p/nim-libp2p/pull/2964) feat(websocket): support explicit SNI addresses
 - Dial path uses SNI information when present
 - Listener or advertised address handling preserves relevant TLS/SNI information
 - Tests covering TLS/SNI address parsing and transport configuration

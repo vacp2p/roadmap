@@ -21,7 +21,7 @@ In Q3 we will continue the Nimble 1.0.0 track and migrate remaining HTTP downloa
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nimble:nimble-1.0.0`
 * owner: Juan
-* status: in progress (75%)
+* status: in progress (90%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -31,6 +31,9 @@ All the relevant information can be found in [this GitHub issue](https://github.
 This remains the short-term roadmap for replacing pieces of the Nimbus build system bit by bit while improving Nimble overall.
 
 #### Deliverables
+- [nim-lang/nimble#1824](https://github.com/nim-lang/nimble/pull/1824) Add standalone PubGrub version solver library.
+- [nim-lang/nimble#1823](https://github.com/nim-lang/nimble/pull/1823) Keep lock upgrades consistent with the solution they merge into. Allow
+- [nim-lang/nimble#1822](https://github.com/nim-lang/nimble/pull/1822) Fold `nimble upgrade` into `nimble lock --refresh`
 - [nim-lang/nimble#1821](https://github.com/nim-lang/nimble/pull/1821) Adds `--refresh` flag
 - [nim-lang/nimble#1820](https://github.com/nim-lang/nimble/pull/1820) Implements global refresh
 - [nim-lang/nimble#1819](https://github.com/nim-lang/nimble/pull/1819) Refresh every globally known package with `nimble refresh -g`

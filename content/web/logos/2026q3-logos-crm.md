@@ -71,6 +71,7 @@ Define and implement an initial self-hosted Logos CRM vertical slice using Next.
 
 #### Deliverables
 
+- [Logos CRM Scout preview](https://logos-crm-git-web-logos-crm-mvp-status-im-web.vercel.app/scout)
 - [logos-co/logos-web#134](https://github.com/logos-co/logos-web/pull/134) refactor(civi-crm/web): drop CiviCRM integration
 - [logos-co/logos-web#126](https://github.com/logos-co/logos-web/pull/126) feat: add Logos CRM specification and demo
 - [Logos CRM specification and implementation tracker](https://github.com/logos-co/logos-web/issues/124)

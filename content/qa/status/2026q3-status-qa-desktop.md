@@ -29,6 +29,11 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Update tests for changes in Status Desktop, address regressions, investigate failures, and implement minor framework improvements needed to keep the suite reliable.
 
 #### Deliverables
+- [status-im/status-app#22060](https://github.com/status-im/status-app/pull/22060) fix(@e2e): handle eth-accounts update to 14.0 release
+- [status-im/status-app#22047](https://github.com/status-im/status-app/pull/22047) Fix/opened accounts propagate error
+- [status-im/status-app#22041](https://github.com/status-im/status-app/pull/22041) chore(@e2e): update macOS script for Squish setup
+- [status-im/status-app#22028](https://github.com/status-im/status-app/pull/22028) fix(@ci): move keycard e2e to top-level parallel in nightly
+- [status-im/status-app#22017](https://github.com/status-im/status-app/issues/22017) Can't send NFT on testnet
 - [status-im/status-app#21992](https://github.com/status-im/status-app/pull/21992) chore(@e2e): check if biometrics popup is displayed when devices are synced (on Mac)
 - [status-im/status-app#21968](https://github.com/status-im/status-app/pull/21968) chore(@e2e): fix aut shutdown on windows and make local waku fleet ports assignment cross platform
 - [status-im/status-app#21864](https://github.com/status-im/status-app/pull/21864) chore(@e2e): fix pin and community link on mac
@@ -54,7 +59,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:new-tests`
 * owner: nastya
-* status: in progress (28%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -63,6 +68,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Add or update tests for new Status Desktop features as they are planned and implemented.
 
 #### Deliverables
+- [status-im/status-app#22027](https://github.com/status-im/status-app/pull/22027) test(e2e): run transaction tests on Sepolia and L2 testnets
 - [status-im/status-app#21961](https://github.com/status-im/status-app/pull/21961) tests(@e2e): get rid of toasts verifications in e2e
 - [status-im/status-app#20806](https://github.com/status-im/status-app/pull/20806) tests(@e2e): send stickers in chat
 - [status-im/status-app#21750](https://github.com/status-im/status-app/pull/21750) feat(@settings): checksum wallet address on settings
@@ -138,7 +144,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:windows-performance-tests`
 * owner: nastya
-* status: in progress (75%)
+* status: in progress (90%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -147,6 +153,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Improve coverage for the main performance-sensitive user flows and make the measurements useful for regression tracking.
 
 #### Deliverables
+- [status-im/status-app-benchmarks#29](https://github.com/status-im/status-app-benchmarks/pull/29) desktop: compare PR runs to the nightly snapshot and show the GitHub PR title
 - [status-im/github-comment-manager#29](https://github.com/status-im/github-comment-manager/pull/29) Map status-app-benchmarks URLs to prf / bar_chart
 - [status-im/status-app#21980](https://github.com/status-im/status-app/pull/21980) feat(@ci): extend Windows benchmarks job to support PR and releases
 - [status-im/status-app-benchmarks#28](https://github.com/status-im/status-app-benchmarks/pull/28) desktop: richer PR listing cards and channel badges
@@ -203,7 +210,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:e2e-kyecard-mock`
 * owner: nastya
-* status: in progress (41%)
+* status: in progress (75%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -212,6 +219,13 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Work with infra team (if needed) to build proper app (the one that will use keycard mock), including macOS
 
 #### Deliverables
+- [status-im/status-app#22062](https://github.com/status-im/status-app/issues/22062) Crash when logging in with keycard with PIN (Linux / Windows)
+- [status-im/status-app#22035](https://github.com/status-im/status-app/pull/22035) tests(@e2e): import recover phrase onto keycard from settings
+- [status-im/status-app#22026](https://github.com/status-im/status-app/pull/22026) chore(@keycard): update version
+- [status-im/status-app#22010](https://github.com/status-im/status-app/pull/22010) fix(@keycard): show Reading... state while Read Keycard metadata is being delivered
+- [status-im/status-app#22007](https://github.com/status-im/status-app/pull/22007) feat(@ci): add nightly run for keycard tests with simulated keycard
+- [status-im/status-keycard-qt#34](https://github.com/status-im/status-keycard-qt/pull/34) fix: compute HASH160 without OpenSSL RIPEMD-160
+- [status-im/status-keycard-qt#33](https://github.com/status-im/status-keycard-qt/pull/33) fix(@keycard-simulator): search for java on mac
 - [status-im/status-app#21944](https://github.com/status-im/status-app/pull/21944) tests(@qml): cover keycard login, management and re-auth UI states
 - [status-im/status-app#21938](https://github.com/status-im/status-app/pull/21938) tests(@e2e): import known seed onto card and create profile with keycard simulator
 - [status-im/status-app#21875](https://github.com/status-im/status-app/pull/21875) fix(keycard): make packaged simulator work on Linux and Windows

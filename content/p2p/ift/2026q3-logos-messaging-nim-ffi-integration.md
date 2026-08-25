@@ -42,6 +42,10 @@ nim-libp2p usage. This may include reviewing designs, contributing fixes,
 writing compatibility tests, or adapting nim-libp2p wrappers.
 
 #### Deliverables
+- [logos-messaging/nim-ffi#155](https://github.com/logos-messaging/nim-ffi/pull/155) chore(ffi): drop the abi = c wire, delete dead code, collapse the duplicated support code
+- [logos-messaging/logos-delivery#4135](https://github.com/logos-messaging/logos-delivery/pull/4135) chore(ffi): bump nim-ffi to v0.3.1-rc.0
+- [logos-messaging/nim-ffi#152](https://github.com/logos-messaging/nim-ffi/pull/152) fix(ci): compile and sanitize what CI only claimed to test
+- [logos-messaging/logos-delivery#4111](https://github.com/logos-messaging/logos-delivery/pull/4111) feat(ffi): pin nim-ffi 0.3.0 and stop the node on destroy
 - [logos-messaging/nim-ffi#149](https://github.com/logos-messaging/nim-ffi/pull/149) fix(ffi): dispatch events off a snapshot so a listener can mutate the registry
 - [logos-messaging/nim-ffi#148](https://github.com/logos-messaging/nim-ffi/pull/148) fix(ffi): reset the pool slot on recycle, and give the host an opaque context token
 - [logos-messaging/nim-ffi#150](https://github.com/logos-messaging/nim-ffi/pull/150) fix(ffi): bound the request ingress queue and the request payload

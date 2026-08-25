@@ -125,6 +125,7 @@ Track the technical SEO implementation across the granular audit tasks below, be
 
 #### Deliverables
 
+- [status-im/status-web#1304](https://github.com/status-im/status-web/pull/1304) fix(status.app): technical SEO fixes surfaced
 - [status-im/status-web#1294](https://github.com/status-im/status-web/pull/1294) fix(status.app): improve mobile core web vitals
 - Static prerendering restored for affected help pages
 - Expensive search-index initialization deferred from the initial page load

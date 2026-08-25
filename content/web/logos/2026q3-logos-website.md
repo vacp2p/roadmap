@@ -57,6 +57,24 @@ Host the Past Present Future museum experience on `logos.co`, integrate analytic
 - [logos-co/logos-web#132](https://github.com/logos-co/logos-web/pull/132) feat: host Past Present Future static site
 - [Past Present Future](https://logos.co/past-present-future) production deployment
 
+### Catch No One landing page
+
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-website:landing-page`
+* owner: Jinho
+* status: in progress (90%)
+* start-date: 2026/08/19
+* end-date: 2026/09/30
+
+#### Description
+
+Build a responsive Catch No One campaign landing page for the Comms team, including a typewriter effect and event tracking.
+
+#### Deliverables
+
+- [Catch No One preview](https://logos-co-web-git-web-landing-page-status-im-web.vercel.app/catch-no-one)
+- Responsive landing page with a typewriter effect
+- Event tracking for key interactions
+
 ### Roadmap
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-website:roadmap`

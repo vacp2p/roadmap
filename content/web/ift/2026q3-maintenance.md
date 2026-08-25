@@ -42,6 +42,9 @@ Execute upkeep across delivered web properties for Q3: dependency and security b
 
 #### Deliverables
 
+- [status-im/status-web#1305](https://github.com/status-im/status-web/pull/1305) fix(release): drop stale yarn workspaces field from root package.json
+- [logos-co/logos-web#147](https://github.com/logos-co/logos-web/pull/147) fix(web): build through turbo instead of rebuilding shared deps
+- [logos-co/logos-web#146](https://github.com/logos-co/logos-web/pull/146) fix(civi-crm): validate required funnel fields on afform-submit
 - [logos-co/logos-web#135](https://github.com/logos-co/logos-web/pull/135) fix(web): exclude vendored static export from lint
 - [logos-co/logos-web#131](https://github.com/logos-co/logos-web/pull/131) fix(tech-stack): replace fixed section heights with min-heights
 - [logos-co/logos-web@a537b15](https://github.com/logos-co/logos-web/commit/a537b1583bc60d7182d7984195a3f4a3210dfd0c) Update Logos funnel Notion template copy

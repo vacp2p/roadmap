@@ -78,7 +78,7 @@ Improve first approach delivered in Q2.
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-dst-tooling:slow-proof-analysis`
 * owner: Mamoutou
-* status: in progress (90%)
+* status: in progress (92%)
 * start-date: 2026/07/09
 * end-date: 2026/09/24
 

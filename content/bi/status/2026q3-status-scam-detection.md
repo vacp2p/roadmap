@@ -20,7 +20,7 @@ Create custom Dashboard to analyse Youtube metrics.
 
 * fully qualified name: `ift-ts:bi:status:2026q3-status-scam-detection`
 * owner: Nikolay
-* status: in progress (10%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/31
 * issue: https://github.com/status-im/data-docs/issues/204
@@ -31,6 +31,8 @@ Build a solution to detect scam account in Status communities
 
 #### Deliverables
 
+- Released Status SDK 1.1.2.
+- Presented the latest Status SDK update at the IFT Town Hall.
 - [Status PlayStore installation dashboard](https://superset.bi.status.im/superset/dashboard/154/?native_filters_key=I83dsKeonAs)
 - Status Python SDK development
 - Keycard dashboard upgrade

@@ -46,11 +46,28 @@ Validate the main package manager and module workflows, including install, launc
 - PRs / Issues / Reports.
 - Notes on package manager or module compatibility gaps.
 
+### MCP tests
+
+* fully qualified name: `ift-ts:qa:logos:2026q3-logos-basecamp:mcp-tests`
+* owner: Roman
+* status: in progress (10%)
+* start-date: 2026/08/17
+* end-date: 2026/09/30
+
+#### Description
+
+Add UI integration coverage for MCP preparation, installation navigation, and Basecamp workspace application lifecycle behavior.
+
+#### Deliverables
+
+- MCP preparation and installation UI coverage
+- Workspace coverage for opening, closing, and reopening applications
+
 ### Test coverage and maintenance
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-logos-basecamp:maintenance`
 * owner: Roman
-* status: in progress (50%)
+* status: in progress (75%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -58,6 +75,7 @@ Validate the main package manager and module workflows, including install, launc
 Maintain and extend the existing Basecamp smoke, UI, sandbox, and doctest coverage as the project evolves.
 
 #### Deliverables
+- [logos-co/logos-basecamp#329](https://github.com/logos-co/logos-basecamp/pull/329) Test/module unload
 - [logos-co/logos-basecamp#312](https://github.com/logos-co/logos-basecamp/pull/312) Test/missing dependencies
 - [logos-co/logos-basecamp#317](https://github.com/logos-co/logos-basecamp/pull/317) Test/persistence portability
 - [Logos Basecamp v0.2.3 release validation](https://github.com/logos-co/logos-basecamp/releases/tag/0.2.3), with 13 findings shared with developers.

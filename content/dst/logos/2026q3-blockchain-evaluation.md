@@ -54,7 +54,7 @@ and document behaviors and findings.
 ### Blend benchmarking
 * fully qualified name: `ift-ts:dst:logos:2026q3-blockchain-evaluation:blendnet-benchmarking`
 * owner: Mamoutou
-* status: in progress (10%)
+* status: in progress (28%)
 * start-date: 2026/08/04
 * end-date: 2026/08/14
 

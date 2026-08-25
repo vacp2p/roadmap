@@ -26,6 +26,7 @@ tags:
 * [[qa/logos/2026q3-logos-basecamp|logos-basecamp ]]
 * [[qa/logos/2026q3-logos-core|logos-core ]]
 * [[qa/logos/2026q3-lez-fuzz-testing|lez-fuzz-testing ]]
+* [[qa/logos/2026q3-lez-sequencing|lez-sequencing ]]
 * [[qa/logos/2026q3-logos-messaging-integration|logos-messaging-integration ]]
 * [[qa/logos/2026q3-messaging-testing|messaging-testing ]]
 * [[qa/logos/2026q3-specs|specs ]]

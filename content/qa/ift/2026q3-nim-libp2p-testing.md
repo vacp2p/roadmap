@@ -20,7 +20,7 @@ Support libp2p work where QA help is expected, including Autotls, opt-in dial ra
 
 * fully qualified name: `ift-ts:qa:ift:2026q3-nim-libp2p-testing:autotls`
 * owner: radek
-* status: in progress (25%)
+* status: in progress (80%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -28,6 +28,20 @@ Support libp2p work where QA help is expected, including Autotls, opt-in dial ra
 Implement unit and integration tests for the Autotls protocol.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2977](https://github.com/vacp2p/nim-libp2p/issues/2977) autotls: certificate renewal is clocked off the ACME order's expiry, not the certificate's
+- [vacp2p/nim-libp2p#2976](https://github.com/vacp2p/nim-libp2p/pull/2976) test(autotls): PeerID Auth client
+- [vacp2p/nim-libp2p#2975](https://github.com/vacp2p/nim-libp2p/issues/2975) autotls: expires timestamps do not follow RFC 3339
+- [vacp2p/nim-libp2p#2973](https://github.com/vacp2p/nim-libp2p/pull/2973) test(autotls): broker bearer lifecycle
+- [vacp2p/nim-libp2p#2972](https://github.com/vacp2p/nim-libp2p/issues/2972) autotls: a rejected bearer token never triggers re-authentication
+- [vacp2p/nim-libp2p#2971](https://github.com/vacp2p/nim-libp2p/pull/2971) test(autotls): ACME client request flow
+- [vacp2p/nim-libp2p#2970](https://github.com/vacp2p/nim-libp2p/issues/2970) autotls: should the certificate and account key be stored across restarts?
+- [vacp2p/nim-libp2p#2968](https://github.com/vacp2p/nim-libp2p/pull/2968) test(autotls): acme signed requests
+- [vacp2p/nim-libp2p#2966](https://github.com/vacp2p/nim-libp2p/pull/2966) test(autotls): certificate issuance
+- [vacp2p/nim-libp2p#2962](https://github.com/vacp2p/nim-libp2p/pull/2962) test(transports): cover accept-after-stop / autotls private key and ws address downgrade
+- [vacp2p/nim-libp2p#2961](https://github.com/vacp2p/nim-libp2p/issues/2961) wstransport: accept sleeps up to 9 seconds before reporting a stopped transport closed
+- [vacp2p/nim-libp2p#2958](https://github.com/vacp2p/nim-libp2p/pull/2958) test(autotls): certificate handoff
+- [vacp2p/nim-libp2p#2957](https://github.com/vacp2p/nim-libp2p/issues/2957) autotls: no certificate is issued, and a node listening on wss hangs in switch.start
+- [vacp2p/nim-libp2p#2950](https://github.com/vacp2p/nim-libp2p/pull/2950) test(autotls): broker payload addresses, consolidate ACMEApi doubles
 - [vacp2p/nim-libp2p#2930](https://github.com/vacp2p/nim-libp2p/pull/2930) fix(autotls): checkDNSRecords retry loop
 - [vacp2p/nim-libp2p#2931](https://github.com/vacp2p/nim-libp2p/pull/2931) test(autotls): broker
 - [vacp2p/nim-libp2p#2933](https://github.com/vacp2p/nim-libp2p/pull/2933) fix(autotls): renewal never fires and renewBufferTime is applied twice

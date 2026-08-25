@@ -52,7 +52,7 @@ required.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-delivery-consulting:service-discovery-kad`
 * owner: Gabe
-* status: in progress (51%)
+* status: in progress (59%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -63,6 +63,10 @@ bootstrap, provider record, discovery, and routing-table behavior as integration
 questions arise.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2967](https://github.com/vacp2p/nim-libp2p/pull/2967) fix(kad): keep peer addresses when the admission probe cap is full
+- [vacp2p/nim-libp2p#2943](https://github.com/vacp2p/nim-libp2p/pull/2943) fix(kad): findNode no longer double-hashes a service table's target
+- [vacp2p/nim-libp2p#2939](https://github.com/vacp2p/nim-libp2p/pull/2939) chore(kad): stop re-probing a peer whose admission probe just failed
+- [vacp2p/nim-libp2p#2937](https://github.com/vacp2p/nim-libp2p/pull/2937) feat(kad): re-seed a routing table that fell below a minimum size
 - [vacp2p/nim-libp2p#2938](https://github.com/vacp2p/nim-libp2p/pull/2938) chore(kad): per-bucket IP diversity caps
 - [vacp2p/nim-libp2p#2936](https://github.com/vacp2p/nim-libp2p/pull/2936) fix(kad): an admission probe no longer waits out the dialer timeout
 - [vacp2p/nim-libp2p#2922](https://github.com/vacp2p/nim-libp2p/pull/2922) fix(service-disco): validate advert length and re-check client mode
@@ -88,8 +92,8 @@ questions arise.
 ### Opt-In Integration Path
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-delivery-consulting:opt-in-path`
-* owner: not assigned yet
-* status: not started
+* owner: Gabe
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 

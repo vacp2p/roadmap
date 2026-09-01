@@ -19,6 +19,7 @@ Major future work items on nim-libp2p (also beyond this reporting period are cap
 ### `ift:`
 * [[p2p/ift/2026q3-logos-delivery-consulting|logos-delivery-consulting]]
 * [[p2p/ift/2026q3-anoncomms-unified-networking|anoncomms-unified-networking]]
+* [[p2p/ift/2026q3-logos-core|logos-core]]
 * [[p2p/ift/2026q3-logos-core-custom-protocol-support|logos-core-custom-protocol-support]]
 * [[p2p/ift/2026q3-logos-core-node-management-ui|logos-core-node-management-ui]]
 * [[p2p/ift/2026q3-logos-core-learning-materials|logos-core-learning-materials]]

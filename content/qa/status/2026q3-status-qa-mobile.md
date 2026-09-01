@@ -32,6 +32,7 @@ The performance work is a priority as there is an intention to use performance m
 Make the mobile performance pipeline run unattended and extend it from response times to resource usage. The response-time dashboard already covers around 39 app surfaces on a fresh account; the priority this quarter is measuring a loaded account, getting the nightly run reliable, and adding battery, CPU, and memory tracking.
 
 #### Deliverables
+- Ran the Status Mobile 2.39.0-rc.2 performance gate on two devices, with clean results against 2.38.2 on the same OS.
 - Extended the Redmi low-end resource lane and began publishing it weekly.
 - [status-im/status-app#21753](https://github.com/status-im/status-app/issues/21753) Redmi A5 resource charts for RAM, CPU, network, and battery
 - [status-im/status-app#21821](https://github.com/status-im/status-app/issues/21821) [Android] App freezes (ANR) after login when an accessibility service is active on a low-end device
@@ -62,6 +63,11 @@ Make the mobile performance pipeline run unattended and extend it from response 
 Restore the Android per-PR gate as a trustworthy signal. Re-triage expected-fail tests and rebalance the gate into a stable set covering onboarding, messaging, wallet, and settings journeys.
 
 #### Deliverables
+- [status-im/status-app#22148](https://github.com/status-im/status-app/pull/22148) fix(e2e_appium): use PROFILE_NAV_BUTTON in nav recovery
+- [status-im/status-app#22155](https://github.com/status-im/status-app/pull/22155) fix(e2e_appium): wait for the profile sheet before tapping Settings
+- [status-im/status-app#22154](https://github.com/status-im/status-app/pull/22154) fix(e2e_appium): pick the peer's chat row by identity, not position
+- [status-im/status-app#22157](https://github.com/status-im/status-app/pull/22157) fix(e2e_appium): wait longer to find the emoji picker
+- [status-im/status-app#22151](https://github.com/status-im/status-app/pull/22151) fix(e2e_appium): dismiss overlays from the top down
 - [status-im/status-app#22004](https://github.com/status-im/status-app/pull/22004) test(e2e_appium): dismiss introduce-yourself sheet
 - [status-im/status-app#21377](https://github.com/status-im/status-app/pull/21377) Re-enable the edited-message check
 - [status-im/status-go#7693](https://github.com/status-im/status-go/pull/7693) Add a functional test guarding message delivery after reconnect
@@ -115,7 +121,7 @@ Add a fast Go test that checks every backend method the mobile app calls is stil
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:backend-peer-gate`
 * owner: magnus
-* status: in progress (15%)
+* status: in progress (75%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -123,6 +129,7 @@ Add a fast Go test that checks every backend method the mobile app calls is stil
 Replace flaky two-phone messaging checks with a headless status-backend acting as the second participant, while retaining the on-phone smoke as a backup.
 
 #### Deliverables
+- Proved the BrowserStack gate with one phone and one backend peer, passing 30 of 31 tests in 22 minutes.
 - A headless status-backend second-participant harness
 - 1:1 delivery and receipt asserted through the backend peer in CI without a device pair
 - Transport decided for Pi/emulator and BrowserStack paths
@@ -244,6 +251,8 @@ Get a working iOS test build into the automation so iOS coverage can be expanded
 Keep the framework healthy as the app changes: triage flaky tests, follow app refactors, continue locator migration, and continue rolling out test-traceability markers.
 
 #### Deliverables
+- [status-im/status-app#22149](https://github.com/status-im/status-app/pull/22149) test(e2e_appium): use try_click wherever a click result is branched on
+- [status-im/status-app#22150](https://github.com/status-im/status-app/pull/22150) test(e2e_appium): rename safe_click to click, add contract lint
 - [status-im/status-app#21499](https://github.com/status-im/status-app/issues/21499) Pending Requests list renders its content at the bottom of the view
 - Brittle xpath locators reduced in messaging and wallet locator files, toward `tid()` / `objectName`
 - Test-traceability markers extended beyond messaging suites to wallet and onboarding tests
@@ -254,7 +263,7 @@ Keep the framework healthy as the app changes: triage flaky tests, follow app re
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:release-testing`
 * owner: magnus
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -262,6 +271,7 @@ Keep the framework healthy as the app changes: triage flaky tests, follow app re
 Support release testing for the 2.39 and 2.40 mobile builds: exploratory testing, regression execution, and reporting issues found.
 
 #### Deliverables
+- Installed Status Mobile 2.39.0 RC1 and RC2 on lab devices.
 - [status-im/status-app#21822](https://github.com/status-im/status-app/issues/21822) [QA - Android] Verify 2.38.x clients can read SDS-wrapped community messages from master builds
 - [status-im/status-app#21823](https://github.com/status-im/status-app/issues/21823) test: cover resend after EXPIRED in the sending-status guard from #21695
 - [status-im/status-app#21776](https://github.com/status-im/status-app/issues/21776) [Android] Backup recovery phrase confirm step locks up behind an invisible full-screen overlay

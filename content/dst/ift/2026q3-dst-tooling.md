@@ -46,6 +46,7 @@ Should be made general when possible.
 
 #### Deliverables
 - Code:
+  - [vacp2p/10ksim#398](https://github.com/vacp2p/10ksim/pull/398) Affinity helpers
   - [vacp2p/10ksim#308](https://github.com/vacp2p/10ksim/pull/308) Post run analysis
   - [vacp2p/10ksim#346](https://github.com/vacp2p/10ksim/pull/346) Kad-dht regression sweep across versions and muxers
   - [vacp2p/10ksim#354](https://github.com/vacp2p/10ksim/pull/354) Fix command add_args
@@ -78,7 +79,7 @@ Improve first approach delivered in Q2.
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-dst-tooling:slow-proof-analysis`
 * owner: Mamoutou
-* status: in progress (92%)
+* status: in progress (99%)
 * start-date: 2026/07/09
 * end-date: 2026/09/24
 

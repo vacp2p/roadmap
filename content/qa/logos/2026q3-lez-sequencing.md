@@ -20,7 +20,7 @@ Add automated behavioral coverage for Logos Execution Zone sequencing as the seq
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-lez-sequencing:cucumber-tests`
 * owner: Roman
-* status: in progress (5%)
+* status: in progress (10%)
 * start-date: 2026/08/17
 * end-date: 2026/09/30
 

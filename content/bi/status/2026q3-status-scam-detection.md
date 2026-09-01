@@ -31,7 +31,9 @@ Build a solution to detect scam account in Status communities
 
 #### Deliverables
 
-- Released Status SDK 1.1.2.
+- Released Status SDK 1.1.4.
+- Integrated Hermes with the Status Python SDK.
+- Tested the Status Engagement Bot.
 - Presented the latest Status SDK update at the IFT Town Hall.
 - [Status PlayStore installation dashboard](https://superset.bi.status.im/superset/dashboard/154/?native_filters_key=I83dsKeonAs)
 - Status Python SDK development

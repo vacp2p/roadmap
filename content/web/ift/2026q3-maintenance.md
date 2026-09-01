@@ -34,7 +34,7 @@ The maintenance commitment supports IFT's strategic objectives by:
 * owner: Felicio/Jinho/JulesFiliot
 * status: done
 * start-date: 2026/07/01
-* end-date: 2026/08/11
+* end-date: 2026/09/01
 
 #### Description
 
@@ -42,6 +42,10 @@ Execute upkeep across delivered web properties for Q3: dependency and security b
 
 #### Deliverables
 
+- [logos-co/logos-web#149](https://github.com/logos-co/logos-web/pull/149) refactor(funnel): single source of truth for funnel form options
+- [status-im/status-web#1308](https://github.com/status-im/status-web/pull/1308) fix(community-dapp): unbreak vercel build broken by foundryup attestation check
+- [status-im/status-web#1309](https://github.com/status-im/status-web/pull/1309) chore: remove changesets
+- [status-im/status-web#1310](https://github.com/status-im/status-web/pull/1310) fix(status.app): restore code block background on content pages
 - [status-im/status-web#1305](https://github.com/status-im/status-web/pull/1305) fix(release): drop stale yarn workspaces field from root package.json
 - [logos-co/logos-web#147](https://github.com/logos-co/logos-web/pull/147) fix(web): build through turbo instead of rebuilding shared deps
 - [logos-co/logos-web#146](https://github.com/logos-co/logos-web/pull/146) fix(civi-crm): validate required funnel fields on afform-submit

@@ -30,8 +30,8 @@ some applications may prefer the current deterministic behavior.
 ### Dial Racing And Cancellation
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-dial-ranking-backoffs:dial-racing`
-* owner: not assigned yet
-* status: not started
+* owner: gabe
+* status: in progress (80%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -45,6 +45,8 @@ appropriate, prefer QUIC over TCP when both are available and configured, and ca
 outstanding attempts once a connection succeeds.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#3001](https://github.com/vacp2p/nim-libp2p/pull/3001) feat(dialer): overlap ranked dialing with name resolution
+- [vacp2p/nim-libp2p#2992](https://github.com/vacp2p/nim-libp2p/pull/2992) feat(dialer): collect dial candidates before dialing, behind a flag
 - Opt-in ranked dial path
 - Optional parallel dialing for selected candidate groups
 - Successful dial cancels outstanding attempts

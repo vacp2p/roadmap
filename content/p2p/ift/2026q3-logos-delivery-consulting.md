@@ -103,5 +103,6 @@ the Logos libp2p module into deployments that still need to use the existing
 bindings or a custom embedding strategy.
 
 #### Deliverables
+- [logos-co/logos-libp2p-module#103](https://github.com/logos-co/logos-libp2p-module/pull/103) feat(bridge): restore the inbound accept queue, report the peer id, add pingPeer
 - Opt-in module configuration reviewed with Logos Delivery
 - Follow-up issues or PRs for any integration gaps

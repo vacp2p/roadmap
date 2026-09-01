@@ -50,7 +50,7 @@ Validate the main package manager and module workflows, including install, launc
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-logos-basecamp:mcp-tests`
 * owner: Roman
-* status: in progress (10%)
+* status: in progress (20%)
 * start-date: 2026/08/17
 * end-date: 2026/09/30
 
@@ -60,6 +60,9 @@ Add UI integration coverage for MCP preparation, installation navigation, and Ba
 
 #### Deliverables
 
+- [logos-co/logos-basecamp#338](https://github.com/logos-co/logos-basecamp/pull/338) Test/MCP preparation UI tests
+- [logos-co/logos-basecamp#342](https://github.com/logos-co/logos-basecamp/pull/342) Test/MCP UI welcome Install now navigates to Applications
+- [logos-co/logos-basecamp#343](https://github.com/logos-co/logos-basecamp/pull/343) Test/pre-seed test_qml_only app for integration-test boot
 - MCP preparation and installation UI coverage
 - Workspace coverage for opening, closing, and reopening applications
 

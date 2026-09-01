@@ -31,6 +31,9 @@ All the relevant information can be found in [this GitHub issue](https://github.
 This remains the short-term roadmap for replacing pieces of the Nimbus build system bit by bit while improving Nimble overall.
 
 #### Deliverables
+- [nim-lang/nimble#1830](https://github.com/nim-lang/nimble/pull/1830) Don't report a SAT search that ran out of budget as unsatisfiable
+- [nim-lang/nimble#1828](https://github.com/nim-lang/nimble/pull/1828) Let `nimble list` filter versions by a version range
+- [nim-lang/nimble#1826](https://github.com/nim-lang/nimble/pull/1826) Let `nimble list` look up packages by name
 - [nim-lang/nimble#1824](https://github.com/nim-lang/nimble/pull/1824) Add standalone PubGrub version solver library.
 - [nim-lang/nimble#1823](https://github.com/nim-lang/nimble/pull/1823) Keep lock upgrades consistent with the solution they merge into. Allow
 - [nim-lang/nimble#1822](https://github.com/nim-lang/nimble/pull/1822) Fold `nimble upgrade` into `nimble lock --refresh`

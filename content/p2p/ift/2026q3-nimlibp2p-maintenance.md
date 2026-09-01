@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-maintenance:maintenance`
 * owner: rramos/vlado/gabe
-* status: in progress (59%)
+* status: in progress (66%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -36,6 +36,10 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors, and bug fixes.
 
 #### Deliverables
+- [vacp2p/nim-libp2p#2989](https://github.com/vacp2p/nim-libp2p/pull/2989) fix(bufferstream): always wake the reader when the stream closes
+- [vacp2p/nim-libp2p#2996](https://github.com/vacp2p/nim-libp2p/pull/2996) chore(ci): drop i386
+- [vacp2p/nim-libp2p#2990](https://github.com/vacp2p/nim-libp2p/pull/2990) fix(kad): drop a peer's stream as soon as it closes
+- [vacp2p/nim-libp2p#2991](https://github.com/vacp2p/nim-libp2p/pull/2991) fix(stream): free the read buffer when a BufferStream closes
 - [vacp2p/nim-libp2p#2980](https://github.com/vacp2p/nim-libp2p/pull/2980) chore(pubsub): `sendResponse` improvement
 - [vacp2p/nim-libp2p#2969](https://github.com/vacp2p/nim-libp2p/pull/2969) feat(cbind): include peerId on IncomingStreamEvent
 - [vacp2p/nim-libp2p#2965](https://github.com/vacp2p/nim-libp2p/pull/2965) refactor(pubsub): separate app's path from protocol messages send/brodcast path

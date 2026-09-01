@@ -61,9 +61,9 @@ Host the Past Present Future museum experience on `logos.co`, integrate analytic
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-website:landing-page`
 * owner: Jinho
-* status: in progress (90%)
+* status: done
 * start-date: 2026/08/19
-* end-date: 2026/09/30
+* end-date: 2026/09/01
 
 #### Description
 
@@ -71,6 +71,8 @@ Build a responsive Catch No One campaign landing page for the Comms team, includ
 
 #### Deliverables
 
+- [logos-co/logos-web#145](https://github.com/logos-co/logos-web/pull/145) feat(web): add chatcontrol landing page
+- [logos-co/logos-web#151](https://github.com/logos-co/logos-web/pull/151) fix(web): separate stacked copy in button tracking event names
 - [Catch No One preview](https://logos-co-web-git-web-landing-page-status-im-web.vercel.app/catch-no-one)
 - Responsive landing page with a typewriter effect
 - Event tracking for key interactions
@@ -117,7 +119,7 @@ Update logos.co links and copy for Logos Testnet v0.2.1 and Basecamp v0.2.3 whil
 * owner: JulesFiliot
 * status: done
 * start-date: 2026/07/29
-* end-date: 2026/08/18
+* end-date: 2026/09/01
 
 #### Description
 
@@ -125,6 +127,8 @@ Complete the Logos newsletter signup flow by forwarding submitted form data, sub
 
 #### Deliverables
 
+- [acid-info/admin-acid.logos.co#66](https://github.com/acid-info/admin-acid.logos.co/pull/66) fix(auto-reply): match template filters against array form fields
+- [acid-info/admin-acid.logos.co#67](https://github.com/acid-info/admin-acid.logos.co/pull/67) feat(auto-reply): support AND groups on a single filter field
 - [acid-info/admin-acid.logos.co#62](https://github.com/acid-info/admin-acid.logos.co/pull/62) fix(newsletters): sign unsubscribe links
 - [acid-info/admin-acid.logos.co#63](https://github.com/acid-info/admin-acid.logos.co/pull/63) fix(newsletters): require a POST to unsubscribe, add one-click headers
 - [acid-info/admin-acid.logos.co#65](https://github.com/acid-info/admin-acid.logos.co/pull/65) feat(newsletters): add unsubscribeUrl template placeholder
@@ -167,3 +171,22 @@ Set up self-hosting infrastructure and deployment processes for the Logos websit
 - [logos-co/logos-web#85](https://github.com/logos-co/logos-web/pull/85) Update testnet legal copy and add highlight modal to homepage
 - [status-im/infra-sites#146](https://github.com/status-im/infra-sites/issues/146) chore(dev.logos.co): edit CSP rules
 - [status-im/infra-sites#147](https://github.com/status-im/infra-sites/issues/147) chore(admin-acid.logos.co): add new environment variables
+
+### Funnel one-pager upload
+
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-website:funnel-one-pager-upload`
+* owner: JulesFiliot
+* status: in progress (20%)
+* start-date: 2026/08/24
+* end-date: 2026/09/30
+
+#### Description
+
+Add a Logos funnel flow for uploading a one-pager, including the upload API,
+trigger-based profile email templates, and the agreed Movement team user flow.
+
+#### Deliverables
+
+- [logos-co/logos-web#150](https://github.com/logos-co/logos-web/issues/150#issuecomment-5451681227) Upload onepager for form applicants
+- [acid-info/admin-acid.logos.co#69](https://github.com/acid-info/admin-acid.logos.co/pull/69) Trigger-event keyed profile email templates
+- [acid-info/admin-acid.logos.co#70](https://github.com/acid-info/admin-acid.logos.co/pull/70) One-pager upload endpoint

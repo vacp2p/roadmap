@@ -69,6 +69,8 @@ Improve and update the Monitoring of Logos Blockchain
 
 #### Deliverables
 
+- Updated log extraction for Logos Blockchain monitoring.
+- Logos Blockchain data extractions
 - Weekly node operator report
 - Tool for extraction (Github Repo)
 - Dashboard

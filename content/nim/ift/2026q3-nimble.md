@@ -31,6 +31,13 @@ All the relevant information can be found in [this GitHub issue](https://github.
 This remains the short-term roadmap for replacing pieces of the Nimbus build system bit by bit while improving Nimble overall.
 
 #### Deliverables
+
+- [nimble#1838](https://github.com/nim-lang/nimble/pull/1838) fix #1837: honor locked package URLs during installation
+- [nimble#1834](https://github.com/nim-lang/nimble/pull/1834) Bridges PubGrub into nimble for error messages. When SAT fails PubGrub kicks in and explains the error.
+- [nimble#1836](https://github.com/nim-lang/nimble/pull/1836) Fix dependency feature lists in declarative parser and SAT resolution (fixes #1832)
+- [nim-lang/nimble#1830](https://github.com/nim-lang/nimble/pull/1830) Don't report a SAT search that ran out of budget as unsatisfiable
+- [nim-lang/nimble#1828](https://github.com/nim-lang/nimble/pull/1828) Let `nimble list` filter versions by a version range
+- [nim-lang/nimble#1826](https://github.com/nim-lang/nimble/pull/1826) Let `nimble list` look up packages by name
 - [nim-lang/nimble#1824](https://github.com/nim-lang/nimble/pull/1824) Add standalone PubGrub version solver library.
 - [nim-lang/nimble#1823](https://github.com/nim-lang/nimble/pull/1823) Keep lock upgrades consistent with the solution they merge into. Allow
 - [nim-lang/nimble#1822](https://github.com/nim-lang/nimble/pull/1822) Fold `nimble upgrade` into `nimble lock --refresh`
@@ -82,5 +89,7 @@ This remains the short-term roadmap for replacing pieces of the Nimbus build sys
 - Remove dependency on `asyncdispatch` / OpenSSL where possible so Nimble can run on Windows without requiring OpenSSL DLLs.
 
 #### Deliverables
+
+- [nim-chronos#728](https://github.com/status-im/nim-chronos/pull/728) Adds Win32 CI with test bug
 - [nim-lang/nimble#1746](https://github.com/nim-lang/nimble/pull/1746) Replace asyncdispatch with Chronos
 - [status-im/nim-chronos#698](https://github.com/status-im/nim-chronos/pull/698) perf(http): cut per-request allocs (buffer memset, header keys, empty tables

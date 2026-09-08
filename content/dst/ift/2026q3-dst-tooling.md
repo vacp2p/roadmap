@@ -56,6 +56,9 @@ Should be made general when possible.
   - [vacp2p/10ksim#363](https://github.com/vacp2p/10ksim/pull/363) Allow non-primitive objects in ExpConfig CLI args
   - [vacp2p/10ksim#367](https://github.com/vacp2p/10ksim/pull/367) Add extra values to metadata for time intervals
 - Reports:
+- Other:
+  - Added packet-loss injection and run options for settling time, post-publish dwell, readiness gate, and shard count to message-delivery experiments.
+  - Updated the log parser for the current node log format.
 
 ### Dashboard improvements
 
@@ -96,3 +99,6 @@ x6 or even higher.
   - Enabled static CPU Manager across VacLab nodes and CPU pinning on the running mix nodes.
   - [RLN generation and verification Grafana panels](https://grafana.lab.vac.dev/goto/cfve43sjymb5sb?orgId=1)
   - Found RLN proof-generation latency to be CPU-frequency-bound; node-02's higher frequency reduced p95 to about 242 ms versus about 400 ms on other nodes.
+- Other:
+  - Confirmed matching CPU/BIOS configurations by reaching 3 GHz on node-01 under a CPU stress test.
+  - Set the CPU governor to performance on node-04 and observed frequencies around 2.5 GHz.

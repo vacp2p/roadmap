@@ -50,8 +50,8 @@ and should be modified.
 ### Logging Changes
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-log-noise-reduction:logging-changes`
-* owner: not assigned yet
-* status: not started
+* owner: vlado
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -60,6 +60,9 @@ Apply the agreed logging changes while preserving useful diagnostics for
 failures and unusual runtime behavior.
 
 #### Deliverables
+
+- [nim-libp2p#3038](https://github.com/vacp2p/nim-libp2p/pull/3038) chore(logs): standardize log fields
+- [nim-libp2p#3032](https://github.com/vacp2p/nim-libp2p/pull/3032) chore(logs): add log-severity policy
 - Log levels adjusted for noisy paths
 - Reworded messages where context or actionability is poor
 - Deduplication or rate reduction for repeated messages where needed

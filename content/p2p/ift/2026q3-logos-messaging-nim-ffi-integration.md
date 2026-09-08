@@ -42,6 +42,9 @@ nim-libp2p usage. This may include reviewing designs, contributing fixes,
 writing compatibility tests, or adapting nim-libp2p wrappers.
 
 #### Deliverables
+
+- [nim-ffi#163](https://github.com/logos-messaging/nim-ffi/pull/163) chore(ci): collapse the duplicated job matrix (104 jobs -> 29)
+- [nim-ffi#161](https://github.com/logos-messaging/nim-ffi/pull/161) chore(ffi): render the RET codes from one source, delete the vendored logging module
 - [logos-messaging/nim-ffi#155](https://github.com/logos-messaging/nim-ffi/pull/155) chore(ffi): drop the abi = c wire, delete dead code, collapse the duplicated support code
 - [logos-messaging/logos-delivery#4135](https://github.com/logos-messaging/logos-delivery/pull/4135) chore(ffi): bump nim-ffi to v0.3.1-rc.0
 - [logos-messaging/nim-ffi#152](https://github.com/logos-messaging/nim-ffi/pull/152) fix(ci): compile and sanitize what CI only claimed to test

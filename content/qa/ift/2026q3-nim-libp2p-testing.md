@@ -20,14 +20,26 @@ Support libp2p work where QA help is expected, including Autotls, opt-in dial ra
 
 * fully qualified name: `ift-ts:qa:ift:2026q3-nim-libp2p-testing:autotls`
 * owner: radek
-* status: in progress (80%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/08
 
 #### Description
 Implement unit and integration tests for the Autotls protocol.
 
 #### Deliverables
+
+- [nim-libp2p#2999](https://github.com/vacp2p/nim-libp2p/pull/2999) test(autotls): full integration flow in docker
+- [nim-libp2p#3008](https://github.com/vacp2p/nim-libp2p/pull/3008) test(autotls): move integration coverage into the docker suite
+- [nim-libp2p#3010](https://github.com/vacp2p/nim-libp2p/pull/3010) fix(autotls): raise an http error when a request url cannot be resolved
+- [nim-libp2p#3012](https://github.com/vacp2p/nim-libp2p/pull/3012) chore(autotls): rename dnsServerURL to domainSuffix
+- [nim-libp2p#3013](https://github.com/vacp2p/nim-libp2p/pull/3013) test(autotls): reuse stub helpers and improve assertions
+- [vacp2p/nim-libp2p#2982](https://github.com/vacp2p/nim-libp2p/issues/2982) autotls: the acme finalize csr keeps its base64 padding
+- [vacp2p/nim-libp2p#2983](https://github.com/vacp2p/nim-libp2p/pull/2983) test(autotls): acme utils and key authorization
+- [vacp2p/nim-libp2p#2988](https://github.com/vacp2p/nim-libp2p/pull/2988) test(autotls): config constructor and peer ID label
+- [vacp2p/nim-libp2p#2994](https://github.com/vacp2p/nim-libp2p/issues/2994) autotls: a renewed certificate never reaches the wss listener
+- [vacp2p/nim-libp2p#2995](https://github.com/vacp2p/nim-libp2p/pull/2995) test(autotls): certificate renewal is not propagated to the wss listener
+- [vacp2p/nim-libp2p#2997](https://github.com/vacp2p/nim-libp2p/pull/2997) fix(autotls): read ACME resources with POST-as-GET and CSR padding
 - [vacp2p/nim-libp2p#2977](https://github.com/vacp2p/nim-libp2p/issues/2977) autotls: certificate renewal is clocked off the ACME order's expiry, not the certificate's
 - [vacp2p/nim-libp2p#2976](https://github.com/vacp2p/nim-libp2p/pull/2976) test(autotls): PeerID Auth client
 - [vacp2p/nim-libp2p#2975](https://github.com/vacp2p/nim-libp2p/issues/2975) autotls: expires timestamps do not follow RFC 3339
@@ -143,6 +155,13 @@ Provide ongoing QA maintenance support for nim-libp2p throughout Q3.
 Cover small regression fixes, flaky-test follow-ups, test updates needed by upstream code changes, and issue-driven validation work that does not fit a larger feature-specific task.
 
 #### Deliverables
+
+- [nim-libp2p#3018](https://github.com/vacp2p/nim-libp2p/issues/3018) autorelay: stop leaves its reservation loops running
+- [nim-libp2p#3019](https://github.com/vacp2p/nim-libp2p/pull/3019) test(autorelay): stop leaves its reservation loops running - reproduction
+- [vacp2p/nim-libp2p#2985](https://github.com/vacp2p/nim-libp2p/issues/2985) flaky test: Dialer Max connections reached [macos-15-arm64 (Nim v2.2.4 / clang / refc)]
+- [vacp2p/nim-libp2p#2986](https://github.com/vacp2p/nim-libp2p/issues/2986) flaky test: Multistream :: stream limits e2e - shared budget across compatible codecs [macos-15-arm64 (Nim v2.2.10 / clang / refc)]
+- [vacp2p/nim-lsquic#162](https://github.com/vacp2p/nim-lsquic/issues/162) connection: close() schedules CONNECTION_CLOSE but never puts it on the wire
+- [vacp2p/nim-libp2p#2993](https://github.com/vacp2p/nim-libp2p/pull/2993) test(transports): quic dialer does not observe a remote connection close
 - [libp2p/unified-testing#119](https://github.com/libp2p/unified-testing/pull/119) feat: add nim to kad-dht and enable quic in hole-punch
 - [libp2p/unified-testing#78](https://github.com/libp2p/unified-testing/pull/78) feat: hole-punch nim-v2.2 peer
 - [libp2p/unified-testing#77](https://github.com/libp2p/unified-testing/pull/77) feat: transport nim-v2.2

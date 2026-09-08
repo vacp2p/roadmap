@@ -95,10 +95,12 @@ Build image and reproduce some experiments to see if results match and if we nee
 
 #### Deliverables
 - Code:
+  - [logos-delivery#4186](https://github.com/logos-messaging/logos-delivery/pull/4186) fix: fix tests (e2e, macos)
+
 - Reports:
   - [nWaku delivery node analysis](https://app.notion.com/p/nWaku-deliverynode-3b08f96fb65c80839c80d01484bab923?showMoveTo=true&saveParent=true)
   - Completed the reliability experiment matrix successfully and produced message-delay plots, with one clock-skew anomaly documented for follow-up.
-
+  - [Message delivery performance report under packet loss](https://app.notion.com/p/3cf8f96fb65c801896e8f7c38fb49269)
 
 
 ### Scalable Data Sync

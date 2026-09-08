@@ -32,6 +32,8 @@ The performance work is a priority as there is an intention to use performance m
 Make the mobile performance pipeline run unattended and extend it from response times to resource usage. The response-time dashboard already covers around 39 app surfaces on a fresh account; the priority this quarter is measuring a loaded account, getting the nightly run reliable, and adding battery, CPU, and memory tracking.
 
 #### Deliverables
+
+- Traced the 160 MB status-go memory increase to a vendor bump.
 - Ran the Status Mobile 2.39.0-rc.2 performance gate on two devices, with clean results against 2.38.2 on the same OS.
 - Extended the Redmi low-end resource lane and began publishing it weekly.
 - [status-im/status-app#21753](https://github.com/status-im/status-app/issues/21753) Redmi A5 resource charts for RAM, CPU, network, and battery
@@ -63,6 +65,8 @@ Make the mobile performance pipeline run unattended and extend it from response 
 Restore the Android per-PR gate as a trustworthy signal. Re-triage expected-fail tests and rebalance the gate into a stable set covering onboarding, messaging, wallet, and settings journeys.
 
 #### Deliverables
+
+- [status-app#22233](https://github.com/status-im/status-app/pull/22233) fix(e2e_appium): expand the message context menu before asserting on it
 - [status-im/status-app#22148](https://github.com/status-im/status-app/pull/22148) fix(e2e_appium): use PROFILE_NAV_BUTTON in nav recovery
 - [status-im/status-app#22155](https://github.com/status-im/status-app/pull/22155) fix(e2e_appium): wait for the profile sheet before tapping Settings
 - [status-im/status-app#22154](https://github.com/status-im/status-app/pull/22154) fix(e2e_appium): pick the peer's chat row by identity, not position
@@ -129,6 +133,9 @@ Add a fast Go test that checks every backend method the mobile app calls is stil
 Replace flaky two-phone messaging checks with a headless status-backend acting as the second participant, while retaining the on-phone smoke as a backup.
 
 #### Deliverables
+
+- Validated container-mode backend peers on CI runners: two peers deliver messages and five run with `-n=5`.
+- Resolved long-press failures caused by scrolling the target off-screen and lifted three expected failures.
 - Proved the BrowserStack gate with one phone and one backend peer, passing 30 of 31 tests in 22 minutes.
 - A headless status-backend second-participant harness
 - 1:1 delivery and receipt asserted through the backend peer in CI without a device pair
@@ -251,6 +258,8 @@ Get a working iOS test build into the automation so iOS coverage can be expanded
 Keep the framework healthy as the app changes: triage flaky tests, follow app refactors, continue locator migration, and continue rolling out test-traceability markers.
 
 #### Deliverables
+
+- [status-app#22307](https://github.com/status-im/status-app/pull/22307) test(e2e_appium): rename the utils package to support
 - [status-im/status-app#22149](https://github.com/status-im/status-app/pull/22149) test(e2e_appium): use try_click wherever a click result is branched on
 - [status-im/status-app#22150](https://github.com/status-im/status-app/pull/22150) test(e2e_appium): rename safe_click to click, add contract lint
 - [status-im/status-app#21499](https://github.com/status-im/status-app/issues/21499) Pending Requests list renders its content at the bottom of the view

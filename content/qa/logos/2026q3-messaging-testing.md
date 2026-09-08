@@ -105,3 +105,18 @@ Extend Sonda tool to allow more advanced testing scenarios for the Store protoco
 
 #### Deliverables
 - PRs and issues
+
+
+### Interop migration
+
+* fully qualified name: `ift-ts:qa:logos:2026q3-messaging-testing:interop-migration`
+* owner: radek
+* status: in progress (5%)
+* start-date: 2026/08/31
+* end-date: 2026/09/30
+
+#### Description
+Migrate messaging interop tests into the Logos Delivery repository.
+
+#### Deliverables
+- [logos-messaging/logos-delivery#4198](https://github.com/logos-messaging/logos-delivery/pull/4198) test(e2e): add REST e2e workflow and port the first smoke tests (migration 1)

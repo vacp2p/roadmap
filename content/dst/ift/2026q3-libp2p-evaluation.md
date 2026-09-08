@@ -68,6 +68,14 @@ and ensure they don't happen again.
   - [vacp2p/10ksim#386](https://github.com/vacp2p/10ksim/pull/386) Record the image digest the nodes actually pulled
   - [vacp2p/10ksim#387](https://github.com/vacp2p/10ksim/pull/387) Bound the publish request and fail a run that lost messages
   - [vacp2p/10ksim#375](https://github.com/vacp2p/10ksim/pull/375) Stop dropping deliveries whose measured delay is negative
+  - [nimble#1837](https://github.com/nim-lang/nimble/issues/1837) Nimble lockfile URL bug
+  - [dst-libp2p-test-node#50](https://github.com/vacp2p/dst-libp2p-test-node/pull/50) Nim-libp2p regression node 2.1.6
+  - [dst-libp2p-test-node#51](https://github.com/vacp2p/dst-libp2p-test-node/pull/51) Update lockfile for v2.1.6
+  - [dst-libp2p-test-node#52](https://github.com/vacp2p/dst-libp2p-test-node/pull/52) Nim-libp2p regression node 2.2.1
+  - [dst-libp2p-test-node#53](https://github.com/vacp2p/dst-libp2p-test-node/pull/53) Nim-libp2p regression 2.3.1
+  - [dst-libp2p-test-node#46](https://github.com/vacp2p/dst-libp2p-test-node/pull/46) Improve regression node
+  - [dst-libp2p-test-node#49](https://github.com/vacp2p/dst-libp2p-test-node/pull/49) Update README.md with tags info
+  - [dst-libp2p-test-node#54](https://github.com/vacp2p/dst-libp2p-test-node/pull/54) Fix regression build
 - Reports:
   - [Regression testing rulebook](https://app.notion.com/p/39b8f96fb65c809e9fa7fdb075c30cfc)
   - [Nim-libp2p v2.2.0 Regression Report](https://app.notion.com/p/3978f96fb65c8042ae7dd621decae98a)

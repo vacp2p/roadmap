@@ -20,7 +20,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (92%)
+* status: in progress (97%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -29,6 +29,12 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Update tests for changes in Status Desktop, address regressions, investigate failures, and implement minor framework improvements needed to keep the suite reliable.
 
 #### Deliverables
+
+- [status-app#22193](https://github.com/status-im/status-app/pull/22193) chore(@e2e): fix for port range and image dialog
+- [status-app#22312](https://github.com/status-im/status-app/pull/22312) chore(@e2e): remove custom derivation path account test
+- [status-app#22226](https://github.com/status-im/status-app/pull/22226) fix(@e2e): wait for wallet balance before Send; fix SignSendAdaptor NaN warnings
+- [status-app#22223](https://github.com/status-im/status-app/issues/22223) Balance is not showing up in Send modal
+- [status-app#22185](https://github.com/status-im/status-app/pull/22185) chore(@e2e): fix test for token details review
 - [status-im/status-app#22128](https://github.com/status-im/status-app/pull/22128) chore(@e2e): fix nightly failures and handling of activity center animation (release cherry-pick)
 - [status-im/status-app#22106](https://github.com/status-im/status-app/pull/22106) chore(@e2e): fix nightly failures and handling of activity center animation
 - [status-im/status-app#22081](https://github.com/status-im/status-app/pull/22081) chore(@e2e): add Linux/Windows Squish local setup scripts
@@ -72,6 +78,9 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Add or update tests for new Status Desktop features as they are planned and implemented.
 
 #### Deliverables
+
+- [status-app#22197](https://github.com/status-im/status-app/pull/22197) tests(@qml): add QML tests for onboarding scenarios + pinned messages modal
+- [status-app#22196](https://github.com/status-im/status-app/issues/22196) Replace onboarding scenarios with QML equivalents
 - [status-im/status-app#22054](https://github.com/status-im/status-app/pull/22054) tests(@e2e): verify transaction in activity
 - [status-im/status-app#22027](https://github.com/status-im/status-app/pull/22027) test(e2e): run transaction tests on Sepolia and L2 testnets
 - [status-im/status-app#21961](https://github.com/status-im/status-app/pull/21961) tests(@e2e): get rid of toasts verifications in e2e
@@ -87,7 +96,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:release-testing`
 * owner: nastya
-* status: in progress (50%)
+* status: in progress (80%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -97,6 +106,9 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Track release risks and bugs found during manual release validation.
 
 #### Deliverables
+
+- [status-app#22315](https://github.com/status-im/status-app/issues/22315) SIGSEGV: Illegal storage access when opening Messages after local pairing with message restore
+- [status-app#22162](https://github.com/status-im/status-app/pull/22162) fix: make Keycard work on Linux without host pcsd
 - [status-im/status-app#22164](https://github.com/status-im/status-app/pull/22164) fix(@qml): keep nested StatusDialog as an overlay Item on Linux
 - [status-im/status-app#22135](https://github.com/status-im/status-app/pull/22135) fix(@qml): keep nested StatusDialog as an overlay Item on Linux
 - [status-im/status-app#21778](https://github.com/status-im/status-app/issues/21778) Seed phrase input component is cut by popup if status app is not full screen
@@ -160,6 +172,8 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Improve coverage for the main performance-sensitive user flows and make the measurements useful for regression tracking.
 
 #### Deliverables
+
+- [status-app-benchmarks#30](https://github.com/status-im/status-app-benchmarks/pull/30) desktop: add release baseline to release pages
 - [status-im/status-app-benchmarks#29](https://github.com/status-im/status-app-benchmarks/pull/29) desktop: compare PR runs to the nightly snapshot and show the GitHub PR title
 - [status-im/github-comment-manager#29](https://github.com/status-im/github-comment-manager/pull/29) Map status-app-benchmarks URLs to prf / bar_chart
 - [status-im/status-app#21980](https://github.com/status-im/status-app/pull/21980) feat(@ci): extend Windows benchmarks job to support PR and releases
@@ -226,6 +240,14 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Work with infra team (if needed) to build proper app (the one that will use keycard mock), including macOS
 
 #### Deliverables
+
+- [status-app#22294](https://github.com/status-im/status-app/pull/22294) tests(@e2e): sign community join request with keycard
+- [status-app#22306](https://github.com/status-im/status-app/pull/22306) chore: bump status-keycard-qt version
+- [status-app#22297](https://github.com/status-im/status-app/pull/22297) chore: bump status keycard qt version
+- [status-keycard-qt#36](https://github.com/status-im/status-keycard-qt/pull/36) chore: bump keycard-qt
+- [keycard-qt#11](https://github.com/status-im/keycard-qt/pull/11) fix: send SIGN P2=ECDSA so applet 3.2 can sign
+- [status-app#22295](https://github.com/status-im/status-app/issues/22295) APDU error: SW=6a81 when entering PIN on Join community -> Share addresses request
+- [status-app#22160](https://github.com/status-im/status-app/issues/22160) Keycard onboarding fails with PC/SC 0x8010001d (no “plug in reader” screen) on Linux
 - [status-im/status-app#22101](https://github.com/status-im/status-app/pull/22101) tests(@e2e): keycard settings tests (release cherry-pick)
 - [status-im/status-app#22088](https://github.com/status-im/status-app/pull/22088) tests(@e2e): keycard settings tests
 - [status-im/status-app#22055](https://github.com/status-im/status-app/pull/22055) tests(@e2e): login with keycard

@@ -31,9 +31,9 @@ some applications may prefer the current deterministic behavior.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-dial-ranking-backoffs:dial-racing`
 * owner: gabe
-* status: in progress (80%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/08
 
 #### Description
 Design and implementthe opt-in dial ranking policy, including address grouping, 
@@ -56,10 +56,10 @@ outstanding attempts once a connection succeeds.
 ### Failed Address Backoffs
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-dial-ranking-backoffs:backoffs`
-* owner: not assigned yet
-* status: not started
+* owner: gabe
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/08
 
 #### Description
 Track failed addresses and peers so repeated dial failures can back off instead
@@ -67,6 +67,8 @@ of repeatedly trying the same bad candidates. Backoff state should reset when a
 dial succeeds.
 
 #### Deliverables
+
+- [nim-libp2p#3011](https://github.com/vacp2p/nim-libp2p/pull/3011) feat(dialer): back off the addresses and the peers that keep failing
 - Failed-address cache or equivalent backoff state
 - Per-peer backoff after repeated failures or total dial timeout
 - Exponential or configurable backoff policy

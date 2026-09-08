@@ -54,9 +54,9 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:thread-pool-library`
 * owner: Esteban
-* status: in progress (95%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/08
 
 #### Description
 - Continue improving [`nim-taskpools`](https://github.com/status-im/nim-taskpools) with fixes and missing functionality.
@@ -64,6 +64,8 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Keep the ported functionality covered by tests and suitable for downstream consumers.
 
 #### Deliverables
+
+- [nim-taskpools#67](https://github.com/status-im/nim-taskpools/pull/67) Fix #12; Allow GC type task result
 - [status-im/nimbus-eth1#4638](https://github.com/status-im/nimbus-eth1/pull/4638) Bump nim-taskpools to v0.2.1
 - [status-im/nimbus-eth2#8879](https://github.com/status-im/nimbus-eth2/pull/8879) Bump nim-taskpools to v0.2.1
 - [status-im/nim-taskpools#60](https://github.com/status-im/nim-taskpools/pull/60) Bump to v0.2.1
@@ -110,6 +112,10 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Ongoing maintenance and fixes across Nim core libraries.
 
 #### Deliverables
+
+- [nim-chronos#729](https://github.com/status-im/nim-chronos/pull/729) `asyncproc`: fix hang waiting for a child process to exit (Windows)
+- [nimbus-eth1#4691](https://github.com/status-im/nimbus-eth1/pull/4691) Bump nim-json-rpc to `d783a9e`
+- [nim-json-rpc#297](https://github.com/status-im/nim-json-rpc/pull/297) Add missing malformed framing checks to socket transport
 - [status-im/nimbus-eth2#8950](https://github.com/status-im/nimbus-eth2/pull/8950) Bump nim-json-rpc to `d783a9e`
 - [status-im/nim-json-rpc#287](https://github.com/status-im/nim-json-rpc/pull/287) Fix #262; Client side response error should contain the JSON error fields
 - [status-im/nim-json-rpc#295](https://github.com/status-im/nim-json-rpc/pull/295) Allow unknown fields
@@ -154,14 +160,18 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:docs-improvement`
 * owner: Constantine
-* status: in progress (80%)
+* status: done
 * start-date: 2026/08/01
-* end-date: 2026/08/31
+* end-date: 2026/09/08
 
 #### Description
 - Add missing documentation to IFT packages (e.g. Presto).
 - Improve documentation tooling (e.g. `nim doc` as mdBook replacement).
 
 #### Deliverables
+
+- [nim-presto#103](https://github.com/status-im/nim-presto/pull/103) Add docs
+- Merged the Nim book into Nim devel and presented it at the Townhall.
+- [Presto documentation](https://status-im.github.io/nim-presto/)
 - [nim-lang/Nim#26146](https://github.com/nim-lang/Nim/pull/26146) Support `:code:` argument in `.. include::` directive.
 - [nim-lang/Nim#26130](https://github.com/nim-lang/Nim/pull/26130) Feature: Rest: `.. include::`: Support `:start-after:` and `:end-before:` in `:literal:` mode

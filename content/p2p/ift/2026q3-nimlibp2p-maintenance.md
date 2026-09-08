@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-maintenance:maintenance`
 * owner: rramos/vlado/gabe
-* status: in progress (66%)
+* status: in progress (74%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -36,6 +36,25 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors, and bug fixes.
 
 #### Deliverables
+
+- [nim-libp2p#3035](https://github.com/vacp2p/nim-libp2p/pull/3035) fix(mplex): refine stream setup buffering
+- [nim-libp2p#3034](https://github.com/vacp2p/nim-libp2p/pull/3034) fix(crypto): improve public key parsing
+- [nim-libp2p#3007](https://github.com/vacp2p/nim-libp2p/pull/3007) fix(dialer): dial dnsaddr results without waiting for siblings
+- [nim-lsquic#166](https://github.com/vacp2p/nim-lsquic/pull/166) fix(connection): use graceful close with LSQUIC v4.9.4
+- [nim-libp2p#3020](https://github.com/vacp2p/nim-libp2p/pull/3020) chore(tests): use switch builder
+- [nim-libp2p#3021](https://github.com/vacp2p/nim-libp2p/pull/3021) chore(tests): standardize multiaddress creation
+- [nim-libp2p#3026](https://github.com/vacp2p/nim-libp2p/pull/3026) chore(wstransport): bump websock to 0.4.1
+- [nim-libp2p#3025](https://github.com/vacp2p/nim-libp2p/pull/3025) fix(rendezvous): discover no longer allocates one int per registration
+- [nim-libp2p#3037](https://github.com/vacp2p/nim-libp2p/pull/3037) fix(addr-mgr): count the peers which observe an address, not the reports
+- [nim-libp2p#3036](https://github.com/vacp2p/nim-libp2p/pull/3036) fix(floodsub): limit the entry count of the seen cache
+- [nim-libp2p#3027](https://github.com/vacp2p/nim-libp2p/pull/3027) fix(utils): make the offsettedseq apply and flushIf procs compile
+- [nim-libp2p#3029](https://github.com/vacp2p/nim-libp2p/pull/3029) fix(rendezvous): count the registrations of a peer in a table
+- [nim-libp2p#3033](https://github.com/vacp2p/nim-libp2p/pull/3033) fix(service-disco): cache the advertisement bytes so rotations keep the seqNo
+- [nim-libp2p#3024](https://github.com/vacp2p/nim-libp2p/pull/3024) chore: native hkdf and autotls pem encoding
+- [nim-libp2p#3023](https://github.com/vacp2p/nim-libp2p/pull/3023) fix(rendezvous): release expired registrations on the deletion heartbeat
+- [nim-libp2p#3017](https://github.com/vacp2p/nim-libp2p/pull/3017) fix(floodsub): punish nodes sending malformed messages
+- [nim-libp2p#3006](https://github.com/vacp2p/nim-libp2p/pull/3006) fix(cbind): guard service discovery entry points on a started switch
+- [specs#735](https://github.com/libp2p/specs/pull/735) gossipsub: downscore peers on protocol violations
 - [vacp2p/nim-libp2p#2989](https://github.com/vacp2p/nim-libp2p/pull/2989) fix(bufferstream): always wake the reader when the stream closes
 - [vacp2p/nim-libp2p#2996](https://github.com/vacp2p/nim-libp2p/pull/2996) chore(ci): drop i386
 - [vacp2p/nim-libp2p#2990](https://github.com/vacp2p/nim-libp2p/pull/2990) fix(kad): drop a peer's stream as soon as it closes

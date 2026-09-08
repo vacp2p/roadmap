@@ -115,9 +115,9 @@ Deploy an **alternative version of [status.app](https://status.app/)** so market
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:technical-seo`
 * owner: Jinho
-* status: in progress (80%)
+* status: done
 * start-date: 2026/08/04
-* end-date: 2026/08/14
+* end-date: 2026/09/01
 
 #### Description
 
@@ -125,7 +125,8 @@ Track the technical SEO implementation across the granular audit tasks below, be
 
 #### Deliverables
 
-- [status-im/status-web#1304](https://github.com/status-im/status-web/pull/1304) fix(status.app): technical SEO fixes surfaced
+- [status-im/status-web#1312](https://github.com/status-im/status-web/pull/1312) fix(status.app): declare canonical URLs as absolute on every route
+- [status-im/status-web#1304](https://github.com/status-im/status-web/pull/1304) fix(status.app): technical SEO fixes surfaced by Search Console
 - [status-im/status-web#1294](https://github.com/status-im/status-web/pull/1294) fix(status.app): improve mobile core web vitals
 - Static prerendering restored for affected help pages
 - Expensive search-index initialization deferred from the initial page load
@@ -301,3 +302,23 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 - Schema map: page types → JSON-LD templates
 - Article + FAQ schema live on agreed templates
 - Validation screenshots or Search Console rich-result checks
+
+### Performance check
+
+* fully qualified name: `ift-ts:web:status:2026q3-status-website:performance-check`
+* owner: Jinho
+* status: in progress (60%)
+* start-date: 2026/08/24
+* end-date: 2026/09/30
+
+#### Description
+
+Measure and improve Status website loading performance toward a sub-second
+target, and provide continuous monitoring and notifications for regressions
+across critical website dependencies.
+
+#### Deliverables
+
+- [status-im/status-web#1311](https://github.com/status-im/status-web/issues/1311) [Status website] Improve Website Loading Performance - Target &lt;1 Second
+- [Performance investigation preview](https://github.com/status-im/status-web/issues/1311#issuecomment-5442627684)
+- Implemented email notifications for `status.app` performance monitoring.

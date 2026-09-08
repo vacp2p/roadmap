@@ -19,8 +19,8 @@ Continue [[bi/keycard/2026q2-keycard-social-media-analysis|2026q2-keycard-social
 ### Keycard Social Media analysis
 
 * fully qualified name: `ift-ts:bi:keycard:2026q3-keycard-social-media-analysis`
-* owner: tbd
-* status: in progress (10%)
+* owner: alexis
+* status: in progress (25%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -30,4 +30,7 @@ Extract and analyze Keycard campaign and social-media data to support reporting 
 
 #### Deliverables
 
+- Reddit data extraction, dbt models, and graphs
+- Google Ads graphs
+- Blog-visit graph
 - Google Ads data extraction

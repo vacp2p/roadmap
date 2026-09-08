@@ -88,6 +88,7 @@ Perform scenarios described by annoncoms team and do measurements of those using
 
 #### Deliverables
 - Code:
+  - [vacp2p/10ksim#394](https://github.com/vacp2p/10ksim/pull/394) Service discovery changes
   - [vacp2p/10ksim#309](https://github.com/vacp2p/10ksim/pull/309) Improve service discovery experiment
 - Reports:
   - [Invalid ticket issue](https://app.notion.com/p/Invalid-ticket-log-line-answer-3a08f96fb65c80419b21ee2bf040a9e6)

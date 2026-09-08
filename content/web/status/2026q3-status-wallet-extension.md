@@ -150,3 +150,22 @@ Persist dApp connections independently for each wallet account so switching acco
 - [status-im/status-web#1298](https://github.com/status-im/status-web/pull/1298) fix(wallet): persist dApp connections per account
 - Per-account dApp connection persistence
 - Coverage for account switching and connection restoration
+
+### Maintenance
+
+* fully qualified name: `ift-ts:web:status:2026q3-status-wallet-extension:maintenance`
+* owner: JulesFiliot
+* status: done
+* start-date: 2026/08/24
+* end-date: 2026/09/01
+
+#### Description
+
+Maintain the Status Wallet Extension through release coordination, store
+publication work, and fixes for transaction reliability and session recovery.
+
+#### Deliverables
+
+- [Release coordination thread](https://discord.com/channels/864066763682218004/1542559377377075360/1542559399615275008)
+- [status-im/status-web#1315](https://github.com/status-im/status-web/pull/1315) fix(wallet): stop underpricing transactions in the fee estimator
+- [status-im/status-web#1316](https://github.com/status-im/status-web/pull/1316) fix(wallet): recover from stuck transactions instead of breaking the session

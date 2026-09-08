@@ -125,7 +125,7 @@ Add a fast Go test that checks every backend method the mobile app calls is stil
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:backend-peer-gate`
 * owner: magnus
-* status: in progress (15%)
+* status: in progress (75%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -272,7 +272,7 @@ Keep the framework healthy as the app changes: triage flaky tests, follow app re
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:release-testing`
 * owner: magnus
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -280,6 +280,7 @@ Keep the framework healthy as the app changes: triage flaky tests, follow app re
 Support release testing for the 2.39 and 2.40 mobile builds: exploratory testing, regression execution, and reporting issues found.
 
 #### Deliverables
+- Installed Status Mobile 2.39.0 RC1 and RC2 on lab devices.
 - [status-im/status-app#21822](https://github.com/status-im/status-app/issues/21822) [QA - Android] Verify 2.38.x clients can read SDS-wrapped community messages from master builds
 - [status-im/status-app#21823](https://github.com/status-im/status-app/issues/21823) test: cover resend after EXPIRED in the sending-status guard from #21695
 - [status-im/status-app#21776](https://github.com/status-im/status-app/issues/21776) [Android] Backup recovery phrase confirm step locks up behind an invisible full-screen overlay

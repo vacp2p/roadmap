@@ -176,9 +176,9 @@ Set up self-hosting infrastructure and deployment processes for the Logos websit
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-website:funnel-one-pager-upload`
 * owner: JulesFiliot
-* status: in progress (20%)
+* status: done
 * start-date: 2026/08/24
-* end-date: 2026/09/30
+* end-date: 2026/09/11
 
 #### Description
 
@@ -187,6 +187,7 @@ trigger-based profile email templates, and the agreed Movement team user flow.
 
 #### Deliverables
 
+- [logos-co/logos-web#152](https://github.com/logos-co/logos-web/pull/152) feat(web): add the one-pager upload page
 - [logos-co/logos-web#150](https://github.com/logos-co/logos-web/issues/150#issuecomment-5451681227) Upload onepager for form applicants
-- [acid-info/admin-acid.logos.co#69](https://github.com/acid-info/admin-acid.logos.co/pull/69) Trigger-event keyed profile email templates
-- [acid-info/admin-acid.logos.co#70](https://github.com/acid-info/admin-acid.logos.co/pull/70) One-pager upload endpoint
+- [acid-info/admin-acid.logos.co#69](https://github.com/acid-info/admin-acid.logos.co/pull/69) feat(funnel): key profile email templates on a trigger event
+- [acid-info/admin-acid.logos.co#70](https://github.com/acid-info/admin-acid.logos.co/pull/70) feat(funnel): one-pager upload endpoint

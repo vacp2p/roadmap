@@ -184,7 +184,7 @@ Produce the full slug and path mapping, decide how to handle anything that isn't
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:seo-cutover`
 * owner: jinhojang6
-* status: in progress (50%)
+* status: in progress (98%)
 * start-date: 2026/07/07
 * end-date: 2026/07/31
 

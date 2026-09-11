@@ -42,6 +42,11 @@ Execute upkeep across delivered web properties for Q3: dependency and security b
 
 #### Deliverables
 
+- [logos-co/logos-web#153](https://github.com/logos-co/logos-web/pull/153) fix(web): repair redirect indexing and fill SEO metadata gaps
+- [logos-co/logos-web#154](https://github.com/logos-co/logos-web/pull/154) fix(web): keep blog fetch retries safe for the static export
+- [logos-co/logos-web#155](https://github.com/logos-co/logos-web/pull/155) fix(web): i18n the builders-hub detail copy and guard against sitemap-only URLs
+- [logos-co/logos-web#160](https://github.com/logos-co/logos-web/pull/160) fix(web): add next steps to Active Circles
+- [admin-acid.logos.co#73](https://github.com/acid-info/admin-acid.logos.co/issues/73) feat(editor): font size and color selectors + missing basics
 - [logos-co/logos-web#149](https://github.com/logos-co/logos-web/pull/149) refactor(funnel): single source of truth for funnel form options
 - [status-im/status-web#1308](https://github.com/status-im/status-web/pull/1308) fix(community-dapp): unbreak vercel build broken by foundryup attestation check
 - [status-im/status-web#1309](https://github.com/status-im/status-web/pull/1309) chore: remove changesets
@@ -140,9 +145,9 @@ Consolidate the Figma teams the Web unit currently uses into a single team named
 
 * fully qualified name: `ift-ts:web:ift:2026q3-maintenance:review-workflows`
 * owner: JulesFiliot
-* status: in progress (90%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/07/18
+* end-date: 2026/09/11
 
 #### Description
 
@@ -150,7 +155,11 @@ Define and roll out **PR review workflows** that combine GitHub Copilot review w
 
 #### Deliverables
 
+- [status-im/status-web#1320](https://github.com/status-im/status-web/pull/1320) chore(ci): add AI PR review via the shared acid-info/ai-review workflow
+- [logos-co/logos-web#156](https://github.com/logos-co/logos-web/pull/156) chore(ci): call the shared AI reviewer from acid-info/ai-review
+- Created the shared [AI review repository](https://github.com/acid-info/ai-review).
 - [logos-co/logos-web#92](https://github.com/logos-co/logos-web/pull/92) feat(ci): add /ai-review dual-model PR review workflow (pilot, review-only)
+- [acid-info/admin-acid.logos.co#72](https://github.com/acid-info/admin-acid.logos.co/pull/72) chore(ci): add AI PR review via the shared acid-info/ai-review workflow
 - Written workflow: Copilot review + agent review checklist for Web PRs
 - Enabled on at least the primary repos (`status-im/status-web`, `logos-co/logos-web`)
 - Example PRs reviewed with both tools; notes on signal vs noise

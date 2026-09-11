@@ -125,6 +125,8 @@ Track the technical SEO implementation across the granular audit tasks below, be
 
 #### Deliverables
 
+- [status-im/status-web#1318](https://github.com/status-im/status-web/pull/1318) fix(status.app): stop truncating the sitemap and fix structured data gaps
+- [status-im/status-web#1319](https://github.com/status-im/status-web/pull/1319) feat(status.app): add crawlable pagination to the blog, tag and author archives
 - [status-im/status-web#1312](https://github.com/status-im/status-web/pull/1312) fix(status.app): declare canonical URLs as absolute on every route
 - [status-im/status-web#1304](https://github.com/status-im/status-web/pull/1304) fix(status.app): technical SEO fixes surfaced by Search Console
 - [status-im/status-web#1294](https://github.com/status-im/status-web/pull/1294) fix(status.app): improve mobile core web vitals
@@ -307,9 +309,9 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:performance-check`
 * owner: Jinho
-* status: in progress (60%)
+* status: done
 * start-date: 2026/08/24
-* end-date: 2026/09/30
+* end-date: 2026/09/11
 
 #### Description
 
@@ -319,6 +321,11 @@ across critical website dependencies.
 
 #### Deliverables
 
+- [acid-info/ift-pulse#2](https://github.com/acid-info/ift-pulse/pull/2) Added monitoring for 21 external services used by the Status app, with service-specific targets.
+- [acid-info/ift-pulse#4](https://github.com/acid-info/ift-pulse/pull/4) Added provider detail pages, recent results, and individual probe data.
+- [acid-info/ift-pulse#6](https://github.com/acid-info/ift-pulse/pull/6) Added in-place explanations for the Status, Measured, and Target columns.
+- [acid-info/ift-pulse#3](https://github.com/acid-info/ift-pulse/pull/3), [acid-info/ift-pulse#5](https://github.com/acid-info/ift-pulse/pull/5) Fixed Vercel and GitHub Actions pnpm setup.
+- [acid-info/ift-pulse#7](https://github.com/acid-info/ift-pulse/pull/7), [acid-info/ift-pulse#8](https://github.com/acid-info/ift-pulse/pull/8) Prevented collectors from overwriting each other’s results and fixed stale checkouts.
 - [status-im/status-web#1311](https://github.com/status-im/status-web/issues/1311) [Status website] Improve Website Loading Performance - Target &lt;1 Second
 - [Performance investigation preview](https://github.com/status-im/status-web/issues/1311#issuecomment-5442627684)
 - Implemented email notifications for `status.app` performance monitoring.

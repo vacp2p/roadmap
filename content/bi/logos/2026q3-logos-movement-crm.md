@@ -32,7 +32,6 @@ Propose a simple CRM solution for the Logos Circles to track:
 * Winnable issues.
 
 #### Deliverables
-
 - Updated the automatic Logos report.
 - Finalized the Logos Movement stream dashboard
 - Circle CRM implementation (work in progress)
@@ -42,4 +41,5 @@ Propose a simple CRM solution for the Logos Circles to track:
 - Presented Baserow as an alternative to Notion for the Logos Circles CRM
 - CRM solution
 - Dashboard for traking the KPI
+- Set up the production Circle CRM and presented it to the Logos Movement team.
 

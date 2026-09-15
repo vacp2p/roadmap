@@ -85,6 +85,7 @@ Restore the Android per-PR gate as a trustworthy signal. Re-triage expected-fail
 - A rebalanced gate marker covering onboarding, messaging, wallet, and settings journeys
 - `prs-android` job passing reliably on the rebalanced set
 - [status-im/status-app#21405](https://github.com/status-im/status-app/issues/21405) [QA - Android] Contact requests stop reaching the receiver after the 2026-07-02 status-go bump
+- Triaged the nightly failure as a harness defect and BrowserStack upload timeout, with no product regression.
 
 ### Accessibility testability contract
 
@@ -141,6 +142,10 @@ Replace flaky two-phone messaging checks with a headless status-backend acting a
 - 1:1 delivery and receipt asserted through the backend peer in CI without a device pair
 - Transport decided for Pi/emulator and BrowserStack paths
 - The on-phone delivery smoke retained as a backup pending a production-network check
+- [status-app#22349](https://github.com/status-im/status-app/pull/22349) ci: run the e2e messaging peer as a container
+- [status-app#22341](https://github.com/status-im/status-app/pull/22341) test(e2e_appium): gate messaging with a peer
+- [status-app#22340](https://github.com/status-im/status-app/pull/22340) test(e2e_appium): peer_chat, one phone plus a peer
+- [status-app#22339](https://github.com/status-im/status-app/pull/22339) test(e2e_appium): headless status-backend peer
 
 ### Wallet-send and community smokes
 

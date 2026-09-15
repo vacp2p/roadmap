@@ -191,3 +191,40 @@ trigger-based profile email templates, and the agreed Movement team user flow.
 - [logos-co/logos-web#150](https://github.com/logos-co/logos-web/issues/150#issuecomment-5451681227) Upload onepager for form applicants
 - [acid-info/admin-acid.logos.co#69](https://github.com/acid-info/admin-acid.logos.co/pull/69) feat(funnel): key profile email templates on a trigger event
 - [acid-info/admin-acid.logos.co#70](https://github.com/acid-info/admin-acid.logos.co/pull/70) feat(funnel): one-pager upload endpoint
+
+### Field Station
+
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-website:field-station`
+* owner: Jinho
+* status: in progress (95%)
+* start-date: 2026/09/07
+* end-date: 2026/09/18
+
+#### Description
+
+Build the Field Station residency page from the Figma design and updated brief, covering the residency tracks, application process, venue, activities, FAQ, and partners.
+
+#### Deliverables
+
+- [logos-web#164](https://github.com/logos-co/logos-web/pull/164) Add the Field Station residency page, reusing existing sections
+- [Field Station preview](https://logos-co-web-git-web-field-station-status-im-web.vercel.app/field-station)
+- Reused existing sections while preserving their page defaults
+- Linked the installation step to the Basecamp installation guide
+
+### PriFi
+
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-website:prifi`
+* owner: Jinho
+* status: in progress (90%)
+* start-date: 2026/09/07
+* end-date: 2026/09/18
+
+#### Description
+
+Build the PriFi landing page with a responsive Figma layout and interactive supply-chain section, and add entry points throughout the Logos website.
+
+#### Deliverables
+- [logos-co/logos-web#165](https://github.com/logos-co/logos-web/pull/165) Implemented the PriFi landing page and site-wide entry points (open)
+- [PriFi preview](https://logos-co-web-git-web-prifi-landing-page-status-im-web.vercel.app/prifi)
+- PriFi module on the homepage, with links from the homepage banner, Research menu, and footer
+- Page metadata and header colour handling

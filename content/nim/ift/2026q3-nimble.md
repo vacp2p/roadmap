@@ -75,6 +75,11 @@ This remains the short-term roadmap for replacing pieces of the Nimbus build sys
 - [nim-lang/nimble#1753](https://github.com/nim-lang/nimble/pull/1753) Adds semver pre-release version ordering and parsing support
 - [nim-lang/nimble#1751](https://github.com/nim-lang/nimble/pull/1751) Introduces resolver:min|max version selection
 - [nim-lang/nimble#1750](https://github.com/nim-lang/nimble/pull/1750) fix: extract Nim .tar.xz with tar when unxz is absent
+- [nimble#1850](https://github.com/nim-lang/nimble/pull/1850) Point the init wizard's package-type link at the Nimble guide (#1835)
+- [nimble#1852](https://github.com/nim-lang/nimble/pull/1852) Fix selective lock refresh to preserve compatible pins (fixes #1849)
+- [nimble#1848](https://github.com/nim-lang/nimble/pull/1848) Don't abort the package-list refresh on the first unreachable mirror fixes #1845
+- [nimble#1847](https://github.com/nim-lang/nimble/pull/1847) Fix lock checksum mismatches: skip Nim's bundled nimble, hash untrack…
+- [nimble#1846](https://github.com/nim-lang/nimble/pull/1846) Bump chronos to 536169b4 to fix SIGSEGV on Windows i386 (fixes #1829)
 
 ### Chronos HTTP downloads
 

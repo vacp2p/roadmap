@@ -157,7 +157,7 @@ Persist dApp connections independently for each wallet account so switching acco
 * owner: JulesFiliot
 * status: done
 * start-date: 2026/08/24
-* end-date: 2026/09/01
+* end-date: 2026/09/15
 
 #### Description
 
@@ -166,6 +166,9 @@ publication work, and fixes for transaction reliability and session recovery.
 
 #### Deliverables
 
+- [status-web#1322](https://github.com/status-im/status-web/pull/1322) fix(wallet): hide swap in production releases
+- Published version 0.1.3 on the [Chrome Web Store](https://chromewebstore.google.com/detail/status-portfolio-wallet-b/opkfeajbclhjdneghppfnfiannideafj)
+- [status-web#1323](https://github.com/status-im/status-web/pull/1323) fix(wallet): restore UNI icons and handle image failures
 - [Release coordination thread](https://discord.com/channels/864066763682218004/1542559377377075360/1542559399615275008)
 - [status-im/status-web#1315](https://github.com/status-im/status-web/pull/1315) fix(wallet): stop underpricing transactions in the fee estimator
 - [status-im/status-web#1316](https://github.com/status-im/status-web/pull/1316) fix(wallet): recover from stuck transactions instead of breaking the session

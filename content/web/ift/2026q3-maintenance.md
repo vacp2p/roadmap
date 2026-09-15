@@ -34,7 +34,7 @@ The maintenance commitment supports IFT's strategic objectives by:
 * owner: Felicio/Jinho/JulesFiliot
 * status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/01
+* end-date: 2026/09/15
 
 #### Description
 
@@ -44,7 +44,7 @@ Execute upkeep across delivered web properties for Q3: dependency and security b
 
 - [logos-co/logos-web#153](https://github.com/logos-co/logos-web/pull/153) fix(web): repair redirect indexing and fill SEO metadata gaps
 - [logos-co/logos-web#154](https://github.com/logos-co/logos-web/pull/154) fix(web): keep blog fetch retries safe for the static export
-- [logos-co/logos-web#155](https://github.com/logos-co/logos-web/pull/155) fix(web): i18n the builders-hub detail copy and guard against sitemap-only URLs
+- [logos-web#155](https://github.com/logos-co/logos-web/pull/155) fix(web): i18n the builders-hub detail copy and guard against sitemap-only URLs
 - [logos-co/logos-web#160](https://github.com/logos-co/logos-web/pull/160) fix(web): add next steps to Active Circles
 - [admin-acid.logos.co#73](https://github.com/acid-info/admin-acid.logos.co/issues/73) feat(editor): font size and color selectors + missing basics
 - [logos-co/logos-web#149](https://github.com/logos-co/logos-web/pull/149) refactor(funnel): single source of truth for funnel form options

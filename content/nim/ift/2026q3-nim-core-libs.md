@@ -155,6 +155,14 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [status-im/nim-json-rpc#282](https://github.com/status-im/nim-json-rpc/pull/282) Restrict client raises to `JsonRpcError`
 - [status-im/nim-json-rpc#279](https://github.com/status-im/nim-json-rpc/pull/279) Support notification in rpc context for non-async method
 - [status-im/nim-json-rpc#263](https://github.com/status-im/nim-json-rpc/pull/263) Documentation book
+- [langserver#446](https://github.com/nim-lang/langserver/pull/446) Remove all nested `waitFor`
+- [langserver#449](https://github.com/nim-lang/langserver/pull/449) Regression test suite
+- [langserver#451](https://github.com/nim-lang/langserver/pull/451) CI failures fix
+- [langserver#447](https://github.com/nim-lang/langserver/pull/447) Enable `nim track` tests
+- [langserver#450](https://github.com/nim-lang/langserver/pull/450) CI: enable macos and windows
+- [official-images#22227](https://github.com/docker-library/official-images/pull/22227) Add Nim 2.2.12.
+- [website#436](https://github.com/nim-lang/website/pull/436) Update information about Docker images.
+- [langserver#436](https://github.com/nim-lang/langserver/issues/436) Goto def and find ref doesn't work for some modules in constantine
 
 ### Documentation Improvement
 

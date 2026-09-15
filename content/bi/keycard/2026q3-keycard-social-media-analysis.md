@@ -29,8 +29,8 @@ Continue [[bi/keycard/2026q2-keycard-social-media-analysis|2026q2-keycard-social
 Extract and analyze Keycard campaign and social-media data to support reporting and campaign decisions.
 
 #### Deliverables
-
 - Reddit data extraction, dbt models, and graphs
 - Google Ads graphs
 - Blog-visit graph
 - Google Ads data extraction
+- Updated the Keycard report for monthly reporting.

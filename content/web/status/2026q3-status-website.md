@@ -138,9 +138,9 @@ Track the technical SEO implementation across the granular audit tasks below, be
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:5xx-server-errors`
 * owner: jinhojang6
-* status: in progress (75%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/07/11
+* end-date: 2026/09/15
 
 #### Description
 
@@ -152,6 +152,7 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 - Root-cause doc per error class
 - Fixes merged and deployed (PR)
 - Post-fix validation report (Search Console or equivalent)
+- [status-web#1321](https://github.com/status-im/status-web/pull/1321) fix(status.app): stop blog URLs with a dot or an invalid slug returning 500
 
 ### 404 audit and redirects
 

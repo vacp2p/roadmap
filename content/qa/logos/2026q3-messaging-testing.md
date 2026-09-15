@@ -111,7 +111,7 @@ Extend Sonda tool to allow more advanced testing scenarios for the Store protoco
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-messaging-testing:interop-migration`
 * owner: radek
-* status: in progress (5%)
+* status: in progress (45%)
 * start-date: 2026/08/31
 * end-date: 2026/09/30
 
@@ -120,3 +120,9 @@ Migrate messaging interop tests into the Logos Delivery repository.
 
 #### Deliverables
 - [logos-messaging/logos-delivery#4198](https://github.com/logos-messaging/logos-delivery/pull/4198) test(e2e): add REST e2e workflow and port the first smoke tests (migration 1)
+- [logos-messaging/logos-delivery#4203](https://github.com/logos-messaging/logos-delivery/pull/4203) test(e2e): remaining smoke tests and retire the interop job (migration 2)
+- [logos-messaging/logos-delivery#4206](https://github.com/logos-messaging/logos-delivery/pull/4206) test: rewrite the remaining smoke tests (migration 3)
+- [logos-messaging/logos-delivery#4222](https://github.com/logos-messaging/logos-delivery/pull/4222) test: resolve the relay tests (migration 4)
+- [logos-messaging/logos-delivery#4235](https://github.com/logos-messaging/logos-delivery/pull/4235) test: resolve the filter tests (migration 5)
+- [logos-messaging/logos-delivery#4242](https://github.com/logos-messaging/logos-delivery/pull/4242) test: resolve the lightpush tests (migration 6)
+- [logos-messaging/logos-delivery#4243](https://github.com/logos-messaging/logos-delivery/pull/4243) ci(tests): split the test job + improvements

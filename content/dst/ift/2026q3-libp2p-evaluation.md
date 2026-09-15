@@ -46,6 +46,7 @@ that have occurred in the past
 and ensure they don't happen again.
 
 #### Deliverables
+
 - Code:
   - [vacp2p/nim-libp2p#2967](https://github.com/vacp2p/nim-libp2p/pull/2967) fix(kad): keep peer addresses when the admission probe cap is full
   - [vacp2p/10ksim#362](https://github.com/vacp2p/10ksim/pull/362) Generate latency plots from the regression pipeline
@@ -76,6 +77,12 @@ and ensure they don't happen again.
   - [dst-libp2p-test-node#46](https://github.com/vacp2p/dst-libp2p-test-node/pull/46) Improve regression node
   - [dst-libp2p-test-node#49](https://github.com/vacp2p/dst-libp2p-test-node/pull/49) Update README.md with tags info
   - [dst-libp2p-test-node#54](https://github.com/vacp2p/dst-libp2p-test-node/pull/54) Fix regression build
+  - [dst-libp2p-test-node#55](https://github.com/vacp2p/dst-libp2p-test-node/pull/55) Nim-libp2p regression 2.4.0
+  - [10ksim#390](https://github.com/vacp2p/10ksim/pull/390) Cross-check log-derived delivery against the nodes' received counter
+  - [10ksim#389](https://github.com/vacp2p/10ksim/pull/389) Capture pod logs with the run as a collector fallback
+  - [10ksim#388](https://github.com/vacp2p/10ksim/pull/388) Verify each scenario's disturbance actually happened
+  - [10ksim#384](https://github.com/vacp2p/10ksim/pull/384) Read a scrape's metric folder as well as a plain CSV path
+  - [10ksim#392](https://github.com/vacp2p/10ksim/pull/392) Write scraped CSVs with a .csv suffix
 - Reports:
   - [Regression testing rulebook](https://app.notion.com/p/39b8f96fb65c809e9fa7fdb075c30cfc)
   - [Nim-libp2p v2.2.0 Regression Report](https://app.notion.com/p/3978f96fb65c8042ae7dd621decae98a)

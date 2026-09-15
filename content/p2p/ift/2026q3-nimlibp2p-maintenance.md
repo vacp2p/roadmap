@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-maintenance:maintenance`
 * owner: rramos/vlado/gabe
-* status: in progress (74%)
+* status: in progress (82%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -36,7 +36,6 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors, and bug fixes.
 
 #### Deliverables
-
 - [nim-libp2p#3035](https://github.com/vacp2p/nim-libp2p/pull/3035) fix(mplex): refine stream setup buffering
 - [nim-libp2p#3034](https://github.com/vacp2p/nim-libp2p/pull/3034) fix(crypto): improve public key parsing
 - [nim-libp2p#3007](https://github.com/vacp2p/nim-libp2p/pull/3007) fix(dialer): dial dnsaddr results without waiting for siblings
@@ -202,3 +201,52 @@ Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via i
 - [vacp2p/nim-libp2p#2743](https://github.com/vacp2p/nim-libp2p/pull/2743) ci: add build prerequisites to daily with no flags
 - [vacp2p/nim-libp2p#2738](https://github.com/vacp2p/nim-libp2p/pull/2738) ci: force save cache
 - [vacp2p/nim-libp2p#2701](https://github.com/vacp2p/nim-libp2p/pull/2701) ci: i386 temp workflow
+- [nim-libp2p#3112](https://github.com/vacp2p/nim-libp2p/pull/3112) chore(coverage): filter gcov noise from the report
+- [nim-libp2p#3116](https://github.com/vacp2p/nim-libp2p/pull/3116) chore: bump lsquic
+- [nim-libp2p#3105](https://github.com/vacp2p/nim-libp2p/pull/3105) chore(opt): rename `withValue` to `ifValue`
+- [nim-libp2p#3104](https://github.com/vacp2p/nim-libp2p/pull/3104) chore(opt): improvements
+- [nim-libp2p#3111](https://github.com/vacp2p/nim-libp2p/pull/3111) fix(quic): avoid caching partially constructed dial endpoints
+- [nim-libp2p#3084](https://github.com/vacp2p/nim-libp2p/pull/3084) chore(errors): valueOrRaise and onErrorRaise helpers
+- [nim-libp2p#3094](https://github.com/vacp2p/nim-libp2p/pull/3094) fix(service-disco): admit advertised peers through the kad admission probe
+- [nim-libp2p#3095](https://github.com/vacp2p/nim-libp2p/pull/3095) fix(service-disco): evict peers that reset discovery requests
+- [nim-libp2p#3101](https://github.com/vacp2p/nim-libp2p/pull/3101) fix(autonat): remove race in 'Peer must be not reachable and then reachable'
+- [nim-libp2p#3080](https://github.com/vacp2p/nim-libp2p/pull/3080) fix(service-discovery): stop publishing and dialing undialable addresses
+- [nim-libp2p#3100](https://github.com/vacp2p/nim-libp2p/pull/3100) fix(pubsub): stop peer tasks before connection teardown
+- [nim-libp2p#3087](https://github.com/vacp2p/nim-libp2p/pull/3087) fix(service-disco): admit registrar senders through the shared Kademlia path
+- [nim-libp2p#3099](https://github.com/vacp2p/nim-libp2p/pull/3099) chore(kad): utilize `Key` & `Value` in protobuf types
+- [nim-libp2p#3097](https://github.com/vacp2p/nim-libp2p/pull/3097) fix(tests): copy lent loop variables before asyncTest capture
+- [nim-libp2p#3086](https://github.com/vacp2p/nim-libp2p/pull/3086) chore(kad): make `Key` & `Value` distinc types
+- [nim-libp2p#3093](https://github.com/vacp2p/nim-libp2p/pull/3093) fix(service-disco): gate registrar seats on the discovery codec
+- [nim-libp2p#3088](https://github.com/vacp2p/nim-libp2p/pull/3088) fix(autonat): classify addresses per family
+- [nim-libp2p#3089](https://github.com/vacp2p/nim-libp2p/pull/3089) fix(autonatv2): require fresh inbound dialback connections
+- [nim-libp2p#3079](https://github.com/vacp2p/nim-libp2p/pull/3079) fix(nat): enforce dial-back validation and clean up relay and hole-punching lifecycles
+- [nim-libp2p#3074](https://github.com/vacp2p/nim-libp2p/pull/3074) fix(service_discovery): propagate RPC cancellation and check local ads first
+- [nim-boringssl#19](https://github.com/vacp2p/nim-boringssl/pull/19) ci(bindings): require source changes with generated bindings
+- [nim-libp2p#3091](https://github.com/vacp2p/nim-libp2p/pull/3091) fix(tests): exclude local dependencies from test discovery
+- [nim-libp2p#3068](https://github.com/vacp2p/nim-libp2p/pull/3068) fix(connmanager): restore readiness waits and tag decay on restart
+- [nim-libp2p#3070](https://github.com/vacp2p/nim-libp2p/pull/3070) fix: clean up failed negotiations and reject truncated buffer reads
+- [nim-libp2p#3085](https://github.com/vacp2p/nim-libp2p/pull/3085) chore(kad): add `Value` type
+- [nim-libp2p#3028](https://github.com/vacp2p/nim-libp2p/pull/3028) fix(rendezvous): cap the namespace table and prune empty namespaces
+- [nim-libp2p#3072](https://github.com/vacp2p/nim-libp2p/pull/3072) refactor(kademlia): unify get-value response handling
+- [nim-libp2p#3081](https://github.com/vacp2p/nim-libp2p/pull/3081) fix(autotls): handle auth edge cases and clean up pending DNS queries
+- [nim-libp2p#3073](https://github.com/vacp2p/nim-libp2p/pull/3073) fix(kademlia): track provider RPCs immediately and preserve keys on refresh
+- [nim-libp2p#3067](https://github.com/vacp2p/nim-libp2p/pull/3067) fix(cbind): exit examples safely on timeout and use local dependency paths
+- [nim-libp2p#3066](https://github.com/vacp2p/nim-libp2p/pull/3066) fix(transports): harden SOCKS5 handling and simplify transport cleanup
+- [nim-libp2p#3069](https://github.com/vacp2p/nim-libp2p/pull/3069) fix(cid): correct validation offset and hash equivalent CIDs consistently
+- [nim-lsquic#168](https://github.com/vacp2p/nim-lsquic/pull/168) refactor: simplify connection lifecycle and remove redundant transport code
+- [nim-libp2p#3071](https://github.com/vacp2p/nim-libp2p/pull/3071) chore: remove hexdump example, simplify test setup and fix cancellation handling
+- [nim-libp2p#3063](https://github.com/vacp2p/nim-libp2p/pull/3063) feat(service-discovery): measure provider discovery latency
+- [nim-libp2p#3083](https://github.com/vacp2p/nim-libp2p/pull/3083) ci: increasing timeout test workflows
+- [nim-libp2p#3056](https://github.com/vacp2p/nim-libp2p/pull/3056) fix(dialer): retain lookup results across suspended dials
+- [nim-libp2p#3065](https://github.com/vacp2p/nim-libp2p/pull/3065) refactor: simplify error handling with isOkOr
+- [nim-libp2p#3057](https://github.com/vacp2p/nim-libp2p/pull/3057) fix(service-discovery): use Unix seconds for ticket timestamps
+- [nim-libp2p#3039](https://github.com/vacp2p/nim-libp2p/pull/3039) feat(dns): full DNS message codec
+- [nim-libp2p#3055](https://github.com/vacp2p/nim-libp2p/pull/3055) fix(tor): reject DNS names exceeding SOCKS5 length limit
+- [nim-libp2p#3058](https://github.com/vacp2p/nim-libp2p/pull/3058) fix(wstransport): report closed transport without retrying
+- [nim-libp2p#3048](https://github.com/vacp2p/nim-libp2p/pull/3048) fix(autotls): keep ACME requests on the directory origin
+- [nim-libp2p#3042](https://github.com/vacp2p/nim-libp2p/pull/3042) fix(gossipsub): ignore RPCs from graylisted peers
+- [nim-libp2p#3052](https://github.com/vacp2p/nim-libp2p/pull/3052) fix(pubsub): handle non-canonical PeerId aliases
+- [nim-lsquic#167](https://github.com/vacp2p/nim-lsquic/pull/167) fix: ignore closed-stream errors in read and write callbacks
+- [nim-libp2p#3041](https://github.com/vacp2p/nim-libp2p/pull/3041) fix(autonatv2): bound dial backs
+- [nim-ffi#165](https://github.com/logos-messaging/nim-ffi/pull/165) fix(ci): assert the sanitizer is actually linked into the e2e binaries
+- [nim-libp2p#3040](https://github.com/vacp2p/nim-libp2p/pull/3040) chore(perf): rename uploadSize to responseSize

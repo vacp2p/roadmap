@@ -50,7 +50,7 @@ Validate the main package manager and module workflows, including install, launc
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-logos-basecamp:mcp-tests`
 * owner: Roman
-* status: in progress (30%)
+* status: in progress (35%)
 * start-date: 2026/08/17
 * end-date: 2026/09/30
 
@@ -75,6 +75,13 @@ Add UI integration coverage for MCP preparation, installation navigation, and Ba
 - [logos-co/logos-basecamp#343](https://github.com/logos-co/logos-basecamp/pull/343) Test/pre-seed test_qml_only app for integration-test boot
 - MCP preparation and installation UI coverage
 - Workspace coverage for opening, closing, and reopening applications
+- [logos-basecamp#387](https://github.com/logos-co/logos-basecamp/pull/387) Test/MCP UI apps inspector search filters the table
+- [logos-basecamp#386](https://github.com/logos-co/logos-basecamp/pull/386) Test/MCP UI dashboard shows version, build type and commits
+- [logos-basecamp#375](https://github.com/logos-co/logos-basecamp/pull/375) Test/MCP UI app manager dialog wording for an installed app
+- [logos-basecamp#374](https://github.com/logos-co/logos-basecamp/pull/374) Test/MCP UI app manager Details opens the Add Application dialog
+- [logos-basecamp#373](https://github.com/logos-co/logos-basecamp/pull/373) Test/MCP UI app manager context menu matches install state
+- [logos-basecamp#372](https://github.com/logos-co/logos-basecamp/pull/372) Test/MCP UI app manager reload settles without losing apps
+- [logos-basecamp#371](https://github.com/logos-co/logos-basecamp/pull/371) Test/MCP UI app manager category selection filters the grid
 
 ### Test coverage and maintenance
 

@@ -32,10 +32,10 @@ The Q3 work continues to support Logos’ strategic objectives by:
 ### Prototyping with SDK (Q3 continuation)
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-core:prototyping-with-sdk`
-* owner: Felicio
-* status: not started
+* owner: Jinho
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/25
+* end-date: 2026/09/15
 
 #### Description
 
@@ -47,3 +47,7 @@ Continue using the Logos JS SDK end-to-end in additional prototyping scenarios. 
 - Running feedback log (usability, APIs, DX), shared with maintainers
 - Issues or PRs filed against the Logos tech stack where improvements are identified
 - Short end-of-quarter summary of findings + recommended Q4 follow-ups
+- [logos-web#163](https://github.com/logos-co/logos-web/pull/163) Add References to each demo, and say what each one does in plain words
+- [logos-web#162](https://github.com/logos-co/logos-web/pull/162) Remove the file store, prove blocks instead, and add site metadata
+- [logos-web#161](https://github.com/logos-co/logos-web/pull/161) Add the Logos Storage demo
+- [logos-web#157](https://github.com/logos-co/logos-web/pull/157) Add a logos-demos app with browser-native Messaging and LEZ Blockchain demos

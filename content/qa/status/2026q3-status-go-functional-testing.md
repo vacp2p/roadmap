@@ -90,8 +90,8 @@ Test permissions at the channel level within communities.
 ### Expand nightly benchmarks
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-go-functional-testing:7094`
-* owner: TBD
-* status: not started
+* owner: Magnus
+* status: in progress (10%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -129,6 +129,11 @@ Restore Status Go functional coverage for Keycard PUK flows, pairings, and mobil
 #### Deliverables
 - [status-im/status-go#7697](https://github.com/status-im/status-go/pull/7697) test(functional): restore keycard coverage in cold-wallet vocabulary
 - [status-im/status-go#7696](https://github.com/status-im/status-go/pull/7696) test(wallet): cover keycard pairings file and mobile bindings
+- [status-go#7804](https://github.com/status-im/status-go/pull/7804) test(backend): characterize keycard defects pending a product decision
+- [status-go#7760](https://github.com/status-im/status-go/pull/7760) test(backend): cover keycard login, convert, and xpub backfill
+- [status-go#7761](https://github.com/status-im/status-go/pull/7761) test(pairing): cover keycard payload and keystore re-pair guards
+- [status-go#7759](https://github.com/status-im/status-go/pull/7759) test(protocol): cover cold-wallet keypair sync edge paths
+- [status-go#7758](https://github.com/status-im/status-go/pull/7758) test(accounts): cover cold-wallet migration and keystore guards
 
 ### Maintenance
 

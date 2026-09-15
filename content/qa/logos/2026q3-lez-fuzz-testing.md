@@ -30,7 +30,6 @@ The work includes updating fuzz targets, corpus handling, CI execution, and foll
 - Keep corpus update automation and CI execution useful, documenting constraints or infrastructure gaps when they appear.
 
 #### Deliverables
-
 - [lez-fuzzing#30](https://github.com/logos-blockchain/lez-fuzzing/pull/30) chore: automated weekly corpus update
 - [logos-blockchain/lez-fuzzing#29](https://github.com/logos-blockchain/lez-fuzzing/pull/29) chore: automated weekly corpus update
 - [logos-blockchain/lez-fuzzing#28](https://github.com/logos-blockchain/lez-fuzzing/pull/28) chore: LEZ Rust version pin
@@ -45,3 +44,4 @@ The work includes updating fuzz targets, corpus handling, CI execution, and foll
 - [logos-blockchain/lez-fuzzing#13](https://github.com/logos-blockchain/lez-fuzzing/pull/13) chore: automated weekly corpus update
 - [logos-blockchain/lez-fuzzing#14](https://github.com/logos-blockchain/lez-fuzzing/pull/14) test: Transaction ordering independence
 - [logos-blockchain/lez-fuzzing#15](https://github.com/logos-blockchain/lez-fuzzing/pull/15) test: Model based stateful lockstep
+- [lez-fuzzing#31](https://github.com/logos-blockchain/lez-fuzzing/pull/31) chore: automated weekly corpus update

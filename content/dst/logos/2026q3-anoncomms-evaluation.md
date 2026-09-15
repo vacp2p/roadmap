@@ -96,3 +96,5 @@ Perform scenarios described by annoncoms team and do measurements of those using
   - [CPU 100% and stale node issue](https://app.notion.com/p/CPU-stale-answer-3a08f96fb65c8095b9ead7b028eb30dd)
   - [Service Discovery main report](https://app.notion.com/p/Service-discovery-analysis-39d8f96fb65c8098864bdfe91b012abf)
   - [Found an issue with kad-dht when admission probe cap is full in p2p PR](https://github.com/vacp2p/nim-libp2p/pull/2967)
+- Other:
+  - Investigated another anoncomms issue; the investigation exposed a second issue that was detected and fixed.

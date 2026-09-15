@@ -36,7 +36,7 @@ adversarial conditions and control message behavior.
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-dst-tooling:general-tooling`
 * owner: Mamoutou/Alan
-* status: in progress (50%)
+* status: in progress (70%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -56,6 +56,9 @@ Should be made general when possible.
   - [vacp2p/10ksim#365](https://github.com/vacp2p/10ksim/pull/365) Refactor metrics plotting to use grouped data paths
   - [vacp2p/10ksim#363](https://github.com/vacp2p/10ksim/pull/363) Allow non-primitive objects in ExpConfig CLI args
   - [vacp2p/10ksim#367](https://github.com/vacp2p/10ksim/pull/367) Add extra values to metadata for time intervals
+  - [10ksim#401](https://github.com/vacp2p/10ksim/pull/401) Scrape interval fix
+  - [10ksim#400](https://github.com/vacp2p/10ksim/pull/400) Plot generic config
+  - [10ksim#399](https://github.com/vacp2p/10ksim/pull/399) Plot file names
 - Reports:
 - Other:
   - Added packet-loss injection and run options for settling time, post-publish dwell, readiness gate, and shard count to message-delivery experiments.
@@ -65,7 +68,7 @@ Should be made general when possible.
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-dst-tooling:dashboard-improvements`
 * owner: Mamoutou
-* status: in progress (70%)
+* status: in progress (90%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -103,3 +106,4 @@ x6 or even higher.
 - Other:
   - Confirmed matching CPU/BIOS configurations by reaching 3 GHz on node-01 under a CPU stress test.
   - Set the CPU governor to performance on node-04 and observed frequencies around 2.5 GHz.
+  - Moved most system workloads onto metal-01, including homepage, Kyverno, Longhorn UI, vmselect, and vlselect.

@@ -96,11 +96,14 @@ Build image and reproduce some experiments to see if results match and if we nee
 #### Deliverables
 - Code:
   - [logos-delivery#4186](https://github.com/logos-messaging/logos-delivery/pull/4186) fix: fix tests (e2e, macos)
+  - [vaclab-2#50](https://github.com/vacp2p/vaclab-2/pull/50) Add logos_delivery Metrics to the vmagent Keep List
+  - [10ksim#403](https://github.com/vacp2p/10ksim/pull/403) Fix the volume and dns-search calls in the waku builders
 
 - Reports:
   - [nWaku delivery node analysis](https://app.notion.com/p/nWaku-deliverynode-3b08f96fb65c80839c80d01484bab923?showMoveTo=true&saveParent=true)
   - Completed the reliability experiment matrix successfully and produced message-delay plots, with one clock-skew anomaly documented for follow-up.
   - [Message delivery performance report under packet loss](https://app.notion.com/p/3cf8f96fb65c801896e8f7c38fb49269)
+  - Ran Logos Delivery relay sanity checks on an isolated fleet of 1,000 nodes; documented the [pre-regression report](https://app.notion.com/p/3d48f96fb65c8048a262ffa463c98e1f).
 
 
 ### Scalable Data Sync

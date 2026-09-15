@@ -64,6 +64,8 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - [status-im/status-app#21517](https://github.com/status-im/status-app/issues/21517) Custom assets order from wallet settings is not applied to wallet
 - [status-im/status-app#21423](https://github.com/status-im/status-app/pull/21423) chore(@e2e): fix Squish setup on macOS
 - [status-im/status-go#7561](https://github.com/status-im/status-go/pull/7561) test(functional): use Docker-assigned ephemeral host ports
+- [status-app#22347](https://github.com/status-im/status-app/pull/22347) chore(@e2e): fix nightly failures
+- [status-app#22306](https://github.com/status-im/status-app/pull/22306) chore: bump status-keycard-qt version
 
 ### New tests
 
@@ -127,6 +129,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - [status-im/status-app#21524](https://github.com/status-im/status-app/issues/21524) iOS app crashes on swipe-to-close action
 - Bugs and follow-up issues found during 2.39 and 2.40 release testing.
 - Release testing notes / reports.
+- [status-app#22414](https://github.com/status-im/status-app/pull/22414) ci: serialise linux and macos jobs and build from system nim
 
 ### Privacy Mode
 
@@ -242,7 +245,6 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 #### Deliverables
 
 - [status-app#22294](https://github.com/status-im/status-app/pull/22294) tests(@e2e): sign community join request with keycard
-- [status-app#22306](https://github.com/status-im/status-app/pull/22306) chore: bump status-keycard-qt version
 - [status-app#22297](https://github.com/status-im/status-app/pull/22297) chore: bump status keycard qt version
 - [status-keycard-qt#36](https://github.com/status-im/status-keycard-qt/pull/36) chore: bump keycard-qt
 - [keycard-qt#11](https://github.com/status-im/keycard-qt/pull/11) fix: send SIGN P2=ECDSA so applet 3.2 can sign
@@ -270,6 +272,9 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - [status-im/status-app#21667](https://github.com/status-im/status-app/issues/21667) Starting keycard simulator fails in packaged app — looks for vendor/ source tree
 - [status-im/status-app#21680](https://github.com/status-im/status-app/issues/21680) Keycard Simulator Restart resets UI only, not keycard-qt simulated backend
 - PRs / Issues / Reports
+- [status-app#22351](https://github.com/status-im/status-app/pull/22351) tests(@e2e): sign and send transaction with keycard
+- [status-app#22330](https://github.com/status-im/status-app/pull/22330) tests(@e2e): replace with spare card and login with this keycard scenarios
+- [status-app#22306](https://github.com/status-im/status-app/pull/22306) chore: bump status-keycard-qt version
 
 ### Performance tests for desktop application on Linux
 

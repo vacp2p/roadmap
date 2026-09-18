@@ -3,52 +3,49 @@
 <h3 id="top-highlights">top highlights<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#top-highlights" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
 <li>WEB team published Status Wallet Extension 0.1.3 to the Chrome Web Store.</li>
-<li>QA team advanced LEZ sequencer-registration tests and reported multiple issues.</li>
-<li>NIM team advanced a high-impact nimlangserver fix for constantine, alongside reliability improvements and expanded regression coverage.</li>
+<li>QA team improved LEZ tests for registering sequencers and reported several issues.</li>
+<li>NIM team worked on a high-impact nimlangserver fix for Constantine and added tests to catch recurring bugs.</li>
 </ul>
 <h3 id="team-highlights">team highlights<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#team-highlights" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
-<li>BI: Set up the production Circle CRM and presented it to the Logos Movement team.</li>
-<li>BI: Extracted Blockchain node data and continued dashboard work.</li>
-<li>BI: Extracted LEZ monitoring data and continued dashboard work.</li>
+<li>BI: Set up Circle CRM for production and showed it to the Logos Movement team.</li>
+<li>BI: Collected Blockchain node data and continued building the dashboard.</li>
+<li>BI: Collected LEZ monitoring data and continued building the dashboard.</li>
 <li>BI: Updated the Keycard report for monthly reporting.</li>
-<li>DST: Investigated another anoncomms service-discovery issue; the investigation exposed a second issue that was fixed.</li>
-<li>DST: Deployed an isolated Blend testbed and reported missing traces despite normal block production.</li>
-<li>DST: Ran Logos Delivery relay checks on an isolated fleet of 1,000 nodes.</li>
-<li>DST: Moved most system workloads to metal-01 and identified excessive CPU reservations.</li>
-<li>DST: Merged regression checks for disturbances and log-derived message delivery.</li>
-<li>INFRA: Deployed LEZ releases to devnet and testnet and rotated keys.</li>
-<li>INFRA: Fixed Logos Basecamp artifact uploads, resolving module release issues.</li>
-<li>INFRA: Migrated Lido validator keys and deployed the Hoodi Validator Ejector upgrade.</li>
-<li>INFRA: Implemented <code>flock</code> usage for Nimbus beacon nodes and validator clients.</li>
-<li>INFRA: Finished downscaling Status database hosts to reduce fleet costs.</li>
-<li>INFRA: Purged and bootstrapped all attacked macOS CI hosts and wrote the incident postmortem.</li>
-<li>NIM: Fixed Nimble selective lock refresh, package-mirror handling, and lock checksum mismatches.</li>
+<li>DST: Investigated an anoncomms discovery problem and found a second issue that was fixed.</li>
+<li>DST: Set up a separate Blend test network and reported missing traces despite normal block production.</li>
+<li>DST: Tested Logos Delivery message relaying on a separate network of 1,000 nodes.</li>
+<li>DST: Moved most system services to metal-01 and found they reserved more CPU than they used.</li>
+<li>DST: Added checks that network disruptions happened as intended and message delivery matched the logs.</li>
+<li>INFRA: Deployed LEZ releases to devnet and testnet and replaced their keys.</li>
+<li>INFRA: Fixed Logos Basecamp file uploads that were blocking module releases.</li>
+<li>INFRA: Moved Lido validator keys and upgraded the Validator Ejector on Hoodi.</li>
+<li>INFRA: Added <code>flock</code> process locking to Nimbus beacon nodes and validator clients.</li>
+<li>INFRA: Reduced Status database server sizes to lower costs.</li>
+<li>INFRA: Rebuilt all attacked macOS build servers and wrote the incident report.</li>
+<li>NIM: Fixed Nimble problems with dependency locks, package downloads, and checksum checks.</li>
 <li>NIM: Updated Nim Docker images to 2.2.12.</li>
-<li>NIM: Added language-server regression tests and enabled macOS and Windows CI.</li>
-<li>P2P: Prepared nim-libp2p v2.4.0 and backported fixes to v2.3.x.</li>
-<li>P2P: Added sensitive-type redaction and rate-limited logging to nim-libp2p.</li>
-<li>P2P: Advanced dial ranking by relay and transport.</li>
-<li>QA: Migrated Logos Delivery smoke, relay, filter, and lightpush tests into the REST end-to-end workflow.</li>
-<li>QA: Expanded Logos Basecamp MCP coverage for app manager search, categories, dialogs, and inspector filtering.</li>
-<li>QA: Advanced LEZ sequencer-registration tests and filed potential issues from a trial source-code scan.</li>
-<li>QA: Expanded Status Desktop Keycard signing, spare-card login, and community-join coverage.</li>
-<li>QA: Expanded status-go cold-wallet migration, Keycard login, pairing, and synchronization coverage.</li>
-<li>QA: Merged Status Mobile messaging tests using one phone and a backend peer.</li>
-<li>SEC: The macOS CI incident remained open, with host re-attestation and fleet checks outstanding.</li>
-<li>SEC: Continued triage of dependency, code-scanning, and secret-scanning alerts.</li>
-<li>SEC: Tracked security-relevant Status merges, including WalletConnect pairing fixes.</li>
-<li>SEC: Continued monitoring npm, OAuth, and CI-tool supply-chain threats.</li>
-<li>TKE: Continued the Logos token buyback-and-make report.</li>
+<li>NIM: Added nimlangserver tests to catch recurring bugs and automated checks on macOS and Windows.</li>
+<li>P2P: Prepared nim-libp2p v2.4.0 and applied fixes to the older v2.3.x releases.</li>
+<li>P2P: Hid sensitive data in nim-libp2p logs and limited repeated messages.</li>
+<li>P2P: Worked on choosing connection attempts based on relay use and connection type.</li>
+<li>QA: Moved Logos Delivery messaging tests into the new REST end-to-end test workflow.</li>
+<li>QA: Added Logos Basecamp MCP tests for app search, categories, dialogs, and filtering.</li>
+<li>QA: Improved LEZ tests for registering sequencers and reported possible issues found by scanning the code.</li>
+<li>QA: Added Status Desktop tests for Keycard signing, spare-card login, and joining communities.</li>
+<li>QA: Added status-go tests for cold-wallet migration, Keycard login, pairing, and syncing.</li>
+<li>QA: Added Status Mobile messaging tests using one phone and a backend peer.</li>
+<li>SEC: Reported three LEZ findings, including one high-severity issue.</li>
+<li>SEC: Reviewed alerts about vulnerable dependencies, code issues, and exposed secrets.</li>
+<li>SEC: Tracked security-related Status changes, including WalletConnect pairing fixes.</li>
+<li>SEC: Monitored threats involving npm packages, OAuth, and build tools.</li>
+<li>TKE: Continued the report on the Logos token buyback-and-make model.</li>
 <li>TKE: Addressed feedback on the new proof-of-work rewards model.</li>
-<li>TKE: Cleaned up the token allocation document and discussed decisions with Finance.</li>
-<li>TKE: Finished the document on mechanisms connecting culture and economics.</li>
-<li>WEB: Published Status Wallet Extension 0.1.3 and bumped to 0.1.4 with restored UNI icons.</li>
-<li>WEB: Implemented the Field Station residency page and applied updated copy.</li>
-<li>WEB: Implemented the PriFi landing page and added site-wide entry points.</li>
-<li>WEB: Added a build guard for sitemap URLs without exported Logos website pages.</li>
-<li>WEB: Fixed invalid Status blog paths returning server errors instead of 404 responses.</li>
-<li>WEB: Merged browser-native Logos demos with live testnet data and block proof verification.</li>
+<li>TKE: Clarified the token allocation document and discussed decisions with Finance.</li>
+<li>TKE: Finished a document on ways to connect culture and economics.</li>
+<li>WEB: Published Status Wallet Extension 0.1.3 and updated 0.1.4 to fix missing UNI token icons.</li>
+<li>WEB: Built the Field Station residency page with updated text.</li>
+<li>WEB: Built the PriFi page and added links to it throughout the Logos website.</li>
 </ul>
 <h3 id="ift-tsbi">ift-ts:bi:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ift-tsbi" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ul>
@@ -609,6 +606,20 @@
 <li><code>ift:2026q3-threat-intelligence:supply-chain-attack-research</code>
 <ul>
 <li>Continued npm / OAuth / CI-tool supply-chain watch</li>
+</ul>
+</li>
+<li><code>ift:2026q3-internal-audit:logos-execution-zone-security-review</code>
+<ul>
+<li>Reported one high-severity finding: <a href="https://github.com/logos-co/audit-reports/issues/163" class="external external-link" data-link-type="github" data-github-type="issue">#163<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.</li>
+<li>Reported two findings in the Logos Execution Zone module: <a href="https://github.com/logos-co/audit-reports/issues/164" class="external external-link" data-link-type="github" data-github-type="issue">#164<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> and <a href="https://github.com/logos-co/audit-reports/issues/165" class="external external-link" data-link-type="github" data-github-type="issue">#165<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.</li>
+<li><a href="https://discordapp.com/channels/973324189794697286/1548954554199179354/1548954558011801660" class="external external-link" data-link-type="external">Discord discussion<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.</li>
+</ul>
+</li>
+<li><code>ift:2026q3-internal-audit:logos-blockchain-security-review</code>
+<ul>
+<li>Reported one finding: <a href="https://github.com/logos-co/audit-reports/issues/159" class="external external-link" data-link-type="github" data-github-type="issue">#159<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>; no fix was made because the behavior is by design.</li>
+<li>Set up and ran a node.</li>
+<li>Ran an app on testnet.</li>
 </ul>
 </li>
 </ul>

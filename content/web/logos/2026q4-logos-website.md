@@ -62,6 +62,29 @@ Document ownership, dependencies, and acceptance criteria before work that cross
 - Desktop and mobile QA covering key journeys, calls to action, video presentation, and Umami event tracking.
 - Agency handover and review notes for any work requiring external creative or technical collaboration.
 
+### Logos Zine
+
+- fully qualified name: `ift-ts:web:logos:2026q4-logos-website:logos-zine`
+- owner: Jinho
+- status: not started
+- start-date: 2026/10/12
+- end-date: 2026/12/31
+
+#### Description
+
+Deliver the initial Logos Zine page described in [logos-web#172](https://github.com/logos-co/logos-web/issues/172), at `logos.co/zine`.
+The first release will list the available issue or issues and provide PDF downloads, while keeping the content structure flexible for future issues.
+It will be responsive on desktop and mobile, but will not include a web-based reader in this phase.
+
+Before implementation, collect the final PDF, approved copy and assets, and a design wireframe or reference sites from stakeholders.
+
+#### Deliverables
+
+- A responsive `logos.co/zine` page listing the current issue and supporting additional issues without a page redesign.
+- A verified PDF download for each published issue.
+- Final copy, PDF, assets, and design references documented before implementation.
+- QA evidence for desktop and mobile presentation, issue links, and downloads.
+
 ### Ad hoc features
 
 - fully qualified name: `ift-ts:web:logos:2026q4-logos-website:ad-hoc-features`

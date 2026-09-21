@@ -6,65 +6,65 @@
       <description>Last 10 notes on IFT-TS Roadmaps and Reports</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>ift</title>
-    <link>https://roadmap.vac.dev/acz/ift/</link>
-    <guid>https://roadmap.vac.dev/acz/ift/</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 18 Sep 2026 10:22:31 GMT</pubDate>
-  </item><item>
-    <title>nes</title>
-    <link>https://roadmap.vac.dev/acz/nes/</link>
-    <guid>https://roadmap.vac.dev/acz/nes/</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 18 Sep 2026 10:22:31 GMT</pubDate>
-  </item><item>
     <title>nomos</title>
-    <link>https://roadmap.vac.dev/acz/nomos/</link>
-    <guid>https://roadmap.vac.dev/acz/nomos/</guid>
+    <link>https://roadmap.vac.dev/archive/2024h1/vac/tke/g/nomos/</link>
+    <guid>https://roadmap.vac.dev/archive/2024h1/vac/tke/g/nomos/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 18 Sep 2026 10:22:31 GMT</pubDate>
+    <pubDate>Mon, 21 Sep 2026 10:23:13 GMT</pubDate>
+  </item><item>
+    <title>status</title>
+    <link>https://roadmap.vac.dev/archive/2024h1/vac/tke/g/status/</link>
+    <guid>https://roadmap.vac.dev/archive/2024h1/vac/tke/g/status/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Mon, 21 Sep 2026 10:23:13 GMT</pubDate>
   </item><item>
     <title>waku</title>
-    <link>https://roadmap.vac.dev/acz/waku/</link>
-    <guid>https://roadmap.vac.dev/acz/waku/</guid>
+    <link>https://roadmap.vac.dev/archive/2024h1/vac/tke/g/waku/</link>
+    <guid>https://roadmap.vac.dev/archive/2024h1/vac/tke/g/waku/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 18 Sep 2026 10:22:31 GMT</pubDate>
+    <pubDate>Mon, 21 Sep 2026 10:23:13 GMT</pubDate>
   </item><item>
-    <title>codex</title>
-    <link>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/codex/</link>
-    <guid>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/codex/</guid>
+    <title>updates</title>
+    <link>https://roadmap.vac.dev/archive/2024h1/vac/updates/</link>
+    <guid>https://roadmap.vac.dev/archive/2024h1/vac/updates/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 18 Sep 2026 10:22:31 GMT</pubDate>
+    <pubDate>Mon, 21 Sep 2026 10:23:13 GMT</pubDate>
   </item><item>
-    <title>consulting</title>
-    <link>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/</link>
-    <guid>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/</guid>
+    <title>develp</title>
+    <link>https://roadmap.vac.dev/bi/develp/</link>
+    <guid>https://roadmap.vac.dev/bi/develp/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 18 Sep 2026 10:22:31 GMT</pubDate>
+    <pubDate>Mon, 21 Sep 2026 10:23:13 GMT</pubDate>
   </item><item>
-    <title>2024h1</title>
-    <link>https://roadmap.vac.dev/archive/2024h1/</link>
-    <guid>https://roadmap.vac.dev/archive/2024h1/</guid>
+    <title>finance</title>
+    <link>https://roadmap.vac.dev/bi/finance/</link>
+    <guid>https://roadmap.vac.dev/bi/finance/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 18 Sep 2026 10:22:31 GMT</pubDate>
+    <pubDate>Mon, 21 Sep 2026 10:23:13 GMT</pubDate>
   </item><item>
-    <title>archive</title>
-    <link>https://roadmap.vac.dev/archive/</link>
-    <guid>https://roadmap.vac.dev/archive/</guid>
+    <title>ift</title>
+    <link>https://roadmap.vac.dev/bi/ift/</link>
+    <guid>https://roadmap.vac.dev/bi/ift/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 18 Sep 2026 10:22:31 GMT</pubDate>
+    <pubDate>Mon, 21 Sep 2026 10:23:13 GMT</pubDate>
   </item><item>
-    <title>nescience</title>
-    <link>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/nescience/</link>
-    <guid>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/nescience/</guid>
+    <title>keycard</title>
+    <link>https://roadmap.vac.dev/bi/keycard/</link>
+    <guid>https://roadmap.vac.dev/bi/keycard/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 18 Sep 2026 10:22:31 GMT</pubDate>
+    <pubDate>Mon, 21 Sep 2026 10:23:13 GMT</pubDate>
   </item><item>
-    <title>nomos</title>
-    <link>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/nomos/</link>
-    <guid>https://roadmap.vac.dev/archive/2024h1/vac/acz/consulting/nomos/</guid>
+    <title>logos</title>
+    <link>https://roadmap.vac.dev/bi/logos/</link>
+    <guid>https://roadmap.vac.dev/bi/logos/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 18 Sep 2026 10:22:31 GMT</pubDate>
+    <pubDate>Mon, 21 Sep 2026 10:23:13 GMT</pubDate>
+  </item><item>
+    <title>rag</title>
+    <link>https://roadmap.vac.dev/bi/rag/</link>
+    <guid>https://roadmap.vac.dev/bi/rag/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Mon, 21 Sep 2026 10:23:13 GMT</pubDate>
   </item>
     </channel>
   </rss>

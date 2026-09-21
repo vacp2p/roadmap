@@ -20,11 +20,11 @@ Select concrete work with stakeholders as needs arise and record the scope and a
 
 ### Maintenance
 
-* fully qualified name: `ift-ts:web:logos:2026q4-logos-website:maintenance`
-* owner: Jinho/JulesFiliot
-* status: not started
-* start-date: 2026/10/01
-* end-date: 2026/12/31
+- fully qualified name: `ift-ts:web:logos:2026q4-logos-website:maintenance`
+- owner: Jinho/JulesFiliot
+- status: not started
+- start-date: 2026/10/01
+- end-date: 2026/12/31
 
 #### Description
 
@@ -37,13 +37,38 @@ Investigate production failures and ship necessary hotfixes, coordinating shared
 - PRs for site upkeep, dependency updates, configuration changes, and production hotfixes.
 - Verified release and content updates, with tracked operational issues and resolution notes.
 
+### Past Present Future: content update and migration
+
+- fully qualified name: `ift-ts:web:logos:2026q4-logos-website:past-present-future`
+- owner: Jinho
+- status: not started
+- start-date: 2026/10/01
+- end-date: 2026/12/31
+
+#### Description
+
+Continue the Past Present Future work with the Comms team following the Mike experience.
+Turn agreed content updates into an implementation-ready plan, including copy, calls to action, journey changes, media, and supporting assets.
+Migrate the approved experience and its assets into the existing `logos-web` repository so it can be maintained, deployed, and measured alongside the main Logos website.
+Preserve working routes, responsive behaviour, Umami tracking, and event naming through the migration.
+
+Coordinate with the agency when content, creative assets, interaction design, or technical handover requires their input.
+Document ownership, dependencies, and acceptance criteria before work that crosses the Comms, agency, and web teams begins.
+
+#### Deliverables
+
+- A prioritised, approved content and asset update list for the post-Mike experience, with owners and acceptance criteria.
+- Migration PRs in `logos-web` for the approved experience, routes, assets, responsive behaviour, and analytics integration.
+- Desktop and mobile QA covering key journeys, calls to action, video presentation, and Umami event tracking.
+- Agency handover and review notes for any work requiring external creative or technical collaboration.
+
 ### Ad hoc features
 
-* fully qualified name: `ift-ts:web:logos:2026q4-logos-website:ad-hoc-features`
-* owner: Jinho/JulesFiliot
-* status: not started
-* start-date: 2026/10/01
-* end-date: 2026/12/31
+- fully qualified name: `ift-ts:web:logos:2026q4-logos-website:ad-hoc-features`
+- owner: Jinho/JulesFiliot
+- status: not started
+- start-date: 2026/10/01
+- end-date: 2026/12/31
 
 #### Description
 

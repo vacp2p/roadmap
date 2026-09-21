@@ -18,6 +18,21 @@ The unit's work directly supports IFT's strategic objective of scaling project c
 
 [[web/preview|Roadmap Preview]]
 
+## 2026q4
+
+### `ift:`
+
+* [[web/ift/2026q4-demos|demos]]
+* [[web/ift/2026q4-maintenance|maintenance]]
+
+### `status:`
+
+* [[web/status/2026q4-status-website|status-website]]
+
+### `logos:`
+
+* [[web/logos/2026q4-logos-website|logos-website]]
+
 ## 2026q3
 
 ### `ift:`

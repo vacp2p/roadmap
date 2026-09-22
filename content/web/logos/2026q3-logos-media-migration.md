@@ -59,7 +59,7 @@ Here's the URL mapping we're aiming for:
 
 - fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:article-detail-core`
 - owner: Jinho
-- status: in progress (75%)
+- status: done
 - start-date: 2026/07/07
 - end-date: 2026/07/31
 
@@ -82,7 +82,7 @@ Content is fetched from the existing Strapi CMS. Handle loading, not-found (404)
 
 - fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:article-detail-secondary`
 - owner: Jinho
-- status: in progress (25%)
+- status: done
 - start-date: 2026/07/07
 - end-date: 2026/07/31
 
@@ -101,7 +101,7 @@ Port the supporting sections of the article page. That's **Discussion** (comment
 
 - fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:podcast-detail-core`
 - owner: Jinho
-- status: in progress (90%)
+- status: done
 - start-date: 2026/07/07
 - end-date: 2026/07/31
 
@@ -121,7 +121,7 @@ Build the native podcast detail route at `logos.co/media/podcasts/<series>/<slug
 
 - fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:podcast-player`
 - owner: Jinho
-- status: in progress (98%)
+- status: done
 - start-date: 2026/07/07
 - end-date: 2026/07/31
 
@@ -142,7 +142,7 @@ Rebuild the sticky bottom player from the current podcast experience: play/pause
 
 - fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:internal-links`
 - owner: Jinho
-- status: in progress (25%)
+- status: done
 - start-date: 2026/07/07
 - end-date: 2026/07/31
 
@@ -185,7 +185,7 @@ Produce the full slug and path mapping, decide how to handle anything that isn't
 
 - fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:seo-cutover`
 - owner: Jinho
-- status: in progress (98%)
+- status: done
 - start-date: 2026/07/07
 - end-date: 2026/07/31
 
@@ -205,7 +205,7 @@ Make the new `/media/*` pages the canonical, indexable home for this content. Th
 
 - fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:parity-qa`
 - owner: Jinho
-- status: in progress (25%)
+- status: done
 - start-date: 2026/07/07
 - end-date: 2026/07/31
 

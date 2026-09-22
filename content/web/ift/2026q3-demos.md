@@ -107,6 +107,7 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 
 - Presentation materials
 - Demo recording/documentation
+- Prepared and presented [Securing our newsletter unsubscribe links with HMAC](https://github.com/JulesFiliot/slidev-explaining-hmac-through-newsletter-unsubscribe), including presentation material, a script, and a demo.
 
 ### Biweekly 6 - IFT Townhall Demo
 

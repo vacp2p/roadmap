@@ -104,6 +104,7 @@ Build image and reproduce some experiments to see if results match and if we nee
   - Completed the reliability experiment matrix successfully and produced message-delay plots, with one clock-skew anomaly documented for follow-up.
   - [Message delivery performance report under packet loss](https://app.notion.com/p/3cf8f96fb65c801896e8f7c38fb49269)
   - Ran Logos Delivery relay sanity checks on an isolated fleet of 1,000 nodes; documented the [pre-regression report](https://app.notion.com/p/3d48f96fb65c8048a262ffa463c98e1f).
+  - [Full-scale Logos Delivery report](https://app.notion.com/p/3dc8f96fb65c81de8388ef7cdc4ee0ad): relay, lightpush, filter, and store all achieved complete delivery in the mixed-node scenario.
 
 
 ### Scalable Data Sync

@@ -22,7 +22,7 @@ Generate proofs or exploit reproductions for high-severity issues and regression
 
 * fully qualified name: `ift-ts:qa:logos:2026q4-source-code-level-qa:system-prototype`
 * owner: Roman
-* status: not started
+* status: in progress (30%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -41,3 +41,4 @@ Prototype an AI code analysis workflow covering:
 - Classified findings with supporting evidence, second-agent review results, and fix proposals.
 - Reproducible proofs or exploits for high-severity findings, with any reproduction limitations recorded.
 - Regression test PRs where feasible, with remaining test coverage gaps documented.
+- Ran two rounds of security and specification-compliance scanning on [LEZ Atomic Swaps](https://github.com/gateway-fm/lez-atomic-swaps), using manual prompts and the Bork prototype with structured input.

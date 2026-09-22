@@ -27,10 +27,10 @@ that matter for transport behavior, operational tuning, interop, and testing.
 ### nim-lsquic Configuration API
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nim-lsquic-configuration-settings:nim-lsquic-api`
-* owner: not assigned yet
-* status: not started
+* owner: Richard
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/22
 
 #### Description
 Expose selected settings through `nim-lsquic` with typed configuration and
@@ -41,6 +41,7 @@ safe defaults.
 - Typed `nim-lsquic` configuration API for selected settings
 - Validation for invalid or unsupported setting values
 - Tests covering defaults and custom setting application
+- [vacp2p/nim-lsquic#170](https://github.com/vacp2p/nim-lsquic/pull/170) feat(quic): expose engine configuration
 
 
 ### nim-libp2p QUIC Transport Wiring

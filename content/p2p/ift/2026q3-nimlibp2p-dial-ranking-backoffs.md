@@ -51,6 +51,7 @@ outstanding attempts once a connection succeeds.
 - Optional parallel dialing for selected candidate groups
 - Successful dial cancels outstanding attempts
 - Tests for direct, relay, QUIC, TCP, and mixed candidate behavior
+- [vacp2p/nim-libp2p#3110](https://github.com/vacp2p/nim-libp2p/pull/3110) feat(dialer): rank dials by relay and transport
 
 
 ### Failed Address Backoffs

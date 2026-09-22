@@ -27,8 +27,8 @@ are returned explicitly. This commitment moves selected nim-libp2p paths toward
 ### Result Conversion
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-result-error-handling:result-conversion`
-* owner: not assigned yet
-* status: not started
+* owner: Gabe
+* status: in progress (45%)
 * start-date: 2026/07/15
 * end-date: 2026/09/30
 
@@ -44,3 +44,9 @@ Prefer to keep the public API unchanged if possible.
 - Existing callers updated to handle result values
 - Tests cover success and expected failure paths
 - Migration notes for changed APIs
+- [vacp2p/nim-libp2p#3144](https://github.com/vacp2p/nim-libp2p/pull/3144) chore(result): connectivity clients
+- [vacp2p/nim-libp2p#3142](https://github.com/vacp2p/nim-libp2p/pull/3142) chore(result): wstransport
+- [vacp2p/nim-libp2p#3136](https://github.com/vacp2p/nim-libp2p/pull/3136) chore(result): upgrade managers and dialer return Result
+- [vacp2p/nim-libp2p#3143](https://github.com/vacp2p/nim-libp2p/pull/3143) chore(result): quic transport
+- [vacp2p/nim-libp2p#3137](https://github.com/vacp2p/nim-libp2p/pull/3137) chore(result): tcp and tor transports return Result internally
+- [vacp2p/nim-libp2p#3123](https://github.com/vacp2p/nim-libp2p/pull/3123) chore(result): multistream negotiation and PeerInfo.init return Result

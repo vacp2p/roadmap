@@ -45,6 +45,7 @@ Report findings with analysis and benchmarks of the results.
   - [vacp2p/vaclab-2#41](https://github.com/vacp2p/vaclab-2/pull/41) Deploy DST Dashboard and Update HomePage
   - [vacp2p/vaclab-2#45](https://github.com/vacp2p/vaclab-2/pull/45) Use static CPU Manager for Core Pinning
   - [vacp2p/vaclab-2#46](https://github.com/vacp2p/vaclab-2/pull/46) Deploy Grafana Tempo and Enable Tracing Injection
+  - Implemented a new login path for the GitHub workflow.
 - Reports:
   - DST dashboard backend and development frontend deployed with the new resource and topology features.
   - [DST Dashboard](https://dashboard.lab.vac.dev) deployed with production and development infrastructure.

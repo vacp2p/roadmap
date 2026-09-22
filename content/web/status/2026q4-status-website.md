@@ -21,7 +21,7 @@ Select concrete work with stakeholders as needs arise and record the scope and a
 ### Maintenance
 
 * fully qualified name: `ift-ts:web:status:2026q4-status-website:maintenance`
-* owner: Felicio/Jinho/JulesFiliot
+* owner: Jinho/JulesFiliot
 * status: not started
 * start-date: 2026/10/01
 * end-date: 2026/12/31
@@ -40,7 +40,7 @@ Investigate production failures and ship necessary hotfixes, coordinating shared
 ### Ad hoc features
 
 * fully qualified name: `ift-ts:web:status:2026q4-status-website:ad-hoc-features`
-* owner: Felicio/Jinho/JulesFiliot
+* owner: Jinho/JulesFiliot
 * status: not started
 * start-date: 2026/10/01
 * end-date: 2026/12/31

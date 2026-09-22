@@ -56,6 +56,10 @@ Host the Past Present Future museum experience on `logos.co`, integrate analytic
 - [logos-co/logos-web#133](https://github.com/logos-co/logos-web/pull/133) Optimise Past Present Future background video
 - [logos-co/logos-web#132](https://github.com/logos-co/logos-web/pull/132) feat: host Past Present Future static site
 - [Past Present Future](https://logos.co/past-present-future) production deployment
+- [logos-co/logos-web#174](https://github.com/logos-co/logos-web/pull/174) Update Past Present Future experience
+- [logos-co/logos-web#176](https://github.com/logos-co/logos-web/pull/176) Fix desktop Past Present Future video
+- [logos-co/logos-web#177](https://github.com/logos-co/logos-web/pull/177) Label Mike choice analytics events
+- Published the [Life’s Choices and Mike experiences](https://logos.co/past-present-future/choices) with campaign navigation and analytics.
 
 ### Catch No One landing page
 
@@ -196,9 +200,9 @@ trigger-based profile email templates, and the agreed Movement team user flow.
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-website:field-station`
 * owner: Jinho
-* status: in progress (95%)
+* status: done
 * start-date: 2026/09/07
-* end-date: 2026/09/18
+* end-date: 2026/09/22
 
 #### Description
 
@@ -210,14 +214,16 @@ Build the Field Station residency page from the Figma design and updated brief, 
 - [Field Station preview](https://logos-co-web-git-web-field-station-status-im-web.vercel.app/field-station)
 - Reused existing sections while preserving their page defaults
 - Linked the installation step to the Basecamp installation guide
+- [logos-co/logos-web#167](https://github.com/logos-co/logos-web/pull/167) Field Station: add the Coalition / Community Partners logos
+- Completed the [Field Station page](https://logos.co/field-station) with application links, partner and scholarship information, legal terms, and accessibility fixes.
 
 ### PriFi
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-website:prifi`
 * owner: Jinho
-* status: in progress (90%)
+* status: done
 * start-date: 2026/09/07
-* end-date: 2026/09/18
+* end-date: 2026/09/22
 
 #### Description
 
@@ -228,3 +234,5 @@ Build the PriFi landing page with a responsive Figma layout and interactive supp
 - [PriFi preview](https://logos-co-web-git-web-prifi-landing-page-status-im-web.vercel.app/prifi)
 - PriFi module on the homepage, with links from the homepage banner, Research menu, and footer
 - Page metadata and header colour handling
+- [logos-co/logos-web#170](https://github.com/logos-co/logos-web/pull/170) Use the PriFi hero for social previews
+- Shipped the [PriFi page](https://logos.co/prifi), including an interactive supply-chain section and links throughout the Logos website.

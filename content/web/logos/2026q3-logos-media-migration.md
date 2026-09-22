@@ -58,8 +58,8 @@ Here's the URL mapping we're aiming for:
 ### Article detail page: content, footnotes, table of contents
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:article-detail-core`
-* owner: jinhojang6
-* status: not started
+* owner: Jinho
+* status: in progress (75%)
 * start-date: 2026/07/07
 * end-date: 2026/07/31
 
@@ -81,8 +81,8 @@ Content is fetched from the existing Strapi CMS. Handle loading, not-found (404)
 ### Article detail page: Discussion, Related Articles, From The Same Authors
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:article-detail-secondary`
-* owner: jinhojang6
-* status: not started
+* owner: Jinho
+* status: in progress (25%)
 * start-date: 2026/07/07
 * end-date: 2026/07/31
 
@@ -141,8 +141,8 @@ Rebuild the sticky bottom player from the current podcast experience: play/pause
 ### Point the /media landing and internal links at the new routes
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:internal-links`
-* owner: jinhojang6
-* status: not started
+* owner: Jinho
+* status: in progress (25%)
 * start-date: 2026/07/07
 * end-date: 2026/07/31
 
@@ -159,8 +159,8 @@ Repoint the `/media` landing cards, and any in-site links that currently go to `
 ### Redirects: blog.logos.co to logos.co/media (with infra)
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:redirects-infra`
-* owner: jinhojang6
-* status: not started
+* owner: Jinho
+* status: in progress (10%)
 * start-date: 2026/07/07
 * end-date: 2026/07/31
 
@@ -179,6 +179,7 @@ Produce the full slug and path mapping, decide how to handle anything that isn't
 - 301 rules implemented in the infra or routing layer, with the infra PR linked
 - A rollout note (new pages live first, then redirects on) agreed with infra
 - A spot-check re-crawl confirming the top URLs land on the new pages
+- [status-im/infra-sites#168](https://github.com/status-im/infra-sites/issues/168) Jenkins CMS credentials, legacy URL redirects, and blog.logos.co decommissioning
 
 ### SEO cutover: canonicals, sitemap, structured data
 
@@ -203,8 +204,8 @@ Make the new `/media/*` pages the canonical, indexable home for this content. Th
 ### Parity QA and go-live
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:parity-qa`
-* owner: jinhojang6
-* status: not started
+* owner: Jinho
+* status: in progress (25%)
 * start-date: 2026/07/07
 * end-date: 2026/07/31
 

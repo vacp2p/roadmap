@@ -244,6 +244,8 @@ Continue maintaining and adjusting the logos.co intake forms as requirements evo
 - Email templates configured and tested with real test contacts
 - Intake forms kept in sync with Notion schema changes
 - Operator doc: how to tweak templates and automation rules without touching code
+- [logos-co/logos-web#168](https://github.com/logos-co/logos-web/pull/168) feat(api): add apps/api hosting the funnel intake endpoint
+- [logos-co/logos-web#173](https://github.com/logos-co/logos-web/pull/173) refactor(web): post funnel forms to apps/api
 
 ### Support existing Notion users & integration set-up
 

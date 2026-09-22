@@ -66,6 +66,9 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - [status-im/status-go#7561](https://github.com/status-im/status-go/pull/7561) test(functional): use Docker-assigned ephemeral host ports
 - [status-app#22347](https://github.com/status-im/status-app/pull/22347) chore(@e2e): fix nightly failures
 - [status-app#22306](https://github.com/status-im/status-app/pull/22306) chore: bump status-keycard-qt version
+- [status-im/status-app#22467](https://github.com/status-im/status-app/pull/22467) chore(@e2e): fix asset details view test
+- [status-im/status-app#22459](https://github.com/status-im/status-app/pull/22459) chore(@e2e): fix asset view and send ERC20 tests
+- [status-im/status-app#22441](https://github.com/status-im/status-app/pull/22441) chore(@e2e): fix metrics collection
 
 ### New tests
 
@@ -93,6 +96,8 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - [status-im/status-app#17648](https://github.com/status-im/status-app/issues/17648) Wallet address is not checksumed in wallet settings
 - [status-im/status-app#21545](https://github.com/status-im/status-app/pull/21545) tests(@qml): add wallet account reordering tests
 - PRs / Issues / Reports
+- [status-im/status-app#18214](https://github.com/status-im/status-app/issues/18214) Add coverage for dApps interactions
+- [status-im/status-app#21634](https://github.com/status-im/status-app/issues/21634) E2E: [P1] WalletConnect / dApp signature
 
 ### Release Testing
 
@@ -130,6 +135,10 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - Bugs and follow-up issues found during 2.39 and 2.40 release testing.
 - Release testing notes / reports.
 - [status-app#22414](https://github.com/status-im/status-app/pull/22414) ci: serialise linux and macos jobs and build from system nim
+- [status-im/status-app#22458](https://github.com/status-im/status-app/pull/22458) fix(Settings): remove extra gap under the title on Android
+- [status-im/status-app#22447](https://github.com/status-im/status-app/pull/22447) fix(@communities): missing channel name in permission preview (#14882)
+- [status-im/status-app#22448](https://github.com/status-im/status-app/pull/22448) chore: remove version file
+- [status-im/status-app#22444](https://github.com/status-im/status-app/issues/22444) SIGSEGV on Discover Communities when most curated communities are unknown (including featured)
 
 ### Privacy Mode
 
@@ -207,6 +216,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - [status-im/status-app-benchmarks#11](https://github.com/status-im/status-app-benchmarks/pull/11) desktop: small refactoring
 - [status-im/status-app-benchmarks#10](https://github.com/status-im/status-app-benchmarks/pull/10) desktop: add system info panel and --machine-info for Windows benchmarks
 - PRs / Issues
+- [status-im/status-app#22463](https://github.com/status-im/status-app/pull/22463) tests(@e2e): measure send message timing
 
 ### Battery, CPU, and RAM usage
 
@@ -234,7 +244,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:e2e-kyecard-mock`
 * owner: nastya
-* status: in progress (75%)
+* status: in progress (80%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -275,6 +285,11 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - [status-app#22351](https://github.com/status-im/status-app/pull/22351) tests(@e2e): sign and send transaction with keycard
 - [status-app#22330](https://github.com/status-im/status-app/pull/22330) tests(@e2e): replace with spare card and login with this keycard scenarios
 - [status-app#22306](https://github.com/status-im/status-app/pull/22306) chore: bump status-keycard-qt version
+- [status-im/status-app#22475](https://github.com/status-im/status-app/pull/22475) tests(@e2e): unblock keycard with recovery phrase and PUK scenarios
+- [status-im/status-app#22431](https://github.com/status-im/status-app/pull/22431) tests(@e2e): wrong pin blocks keycard
+- [status-im/status-app#22425](https://github.com/status-im/status-app/pull/22425) tests(@e2e): unblock card with PUK
+- [status-im/status-app#22418](https://github.com/status-im/status-app/pull/22418) tests(@e2e): factory reset keycard
+- [status-im/status-app#22370](https://github.com/status-im/status-app/pull/22370) tests(@e2e): sign message with keycard to wallet connect
 
 ### Performance tests for desktop application on Linux
 

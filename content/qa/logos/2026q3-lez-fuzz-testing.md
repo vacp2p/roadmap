@@ -45,3 +45,4 @@ The work includes updating fuzz targets, corpus handling, CI execution, and foll
 - [logos-blockchain/lez-fuzzing#14](https://github.com/logos-blockchain/lez-fuzzing/pull/14) test: Transaction ordering independence
 - [logos-blockchain/lez-fuzzing#15](https://github.com/logos-blockchain/lez-fuzzing/pull/15) test: Model based stateful lockstep
 - [lez-fuzzing#31](https://github.com/logos-blockchain/lez-fuzzing/pull/31) chore: automated weekly corpus update
+- [logos-blockchain/lez-fuzzing#32](https://github.com/logos-blockchain/lez-fuzzing/pull/32) chore: automated weekly corpus update

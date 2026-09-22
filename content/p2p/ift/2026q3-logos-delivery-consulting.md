@@ -52,7 +52,7 @@ required.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-delivery-consulting:service-discovery-kad`
 * owner: Gabe
-* status: in progress (59%)
+* status: in progress (89%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -87,6 +87,12 @@ questions arise.
 - [vacp2p/nim-libp2p#2841](https://github.com/vacp2p/nim-libp2p/pull/2841) fix(service-disco): don't rescale bucket index by maxBuckets
 - Guidance for service discovery and Kademlia configuration
 - Implementation support for integration blockers found during Q3
+- [vacp2p/nim-libp2p#3125](https://github.com/vacp2p/nim-libp2p/pull/3125) fix(service-disco): drop registrar service tables when their ads leave the cache
+- [vacp2p/nim-libp2p#3124](https://github.com/vacp2p/nim-libp2p/pull/3124) fix(service-disco): bind stored and fetched XPRs to their key
+- [vacp2p/nim-libp2p#3126](https://github.com/vacp2p/nim-libp2p/pull/3126) fix(service-disco): keep the highest seqNo ad per signer
+- [vacp2p/nim-libp2p#3109](https://github.com/vacp2p/nim-libp2p/pull/3109) refactor(service-disco): apply review follow-ups from #3080
+- [vacp2p/nim-libp2p#3134](https://github.com/vacp2p/nim-libp2p/pull/3134) fix(kad): non-blocking bootstrap
+- [vacp2p/nim-libp2p#3135](https://github.com/vacp2p/nim-libp2p/pull/3135) fix(kad): stop retrying unreachable peers during bootstrap
 
 
 ### Opt-In Integration Path

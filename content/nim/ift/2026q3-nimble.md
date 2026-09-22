@@ -80,6 +80,13 @@ This remains the short-term roadmap for replacing pieces of the Nimbus build sys
 - [nimble#1848](https://github.com/nim-lang/nimble/pull/1848) Don't abort the package-list refresh on the first unreachable mirror fixes #1845
 - [nimble#1847](https://github.com/nim-lang/nimble/pull/1847) Fix lock checksum mismatches: skip Nim's bundled nimble, hash untrack…
 - [nimble#1846](https://github.com/nim-lang/nimble/pull/1846) Bump chronos to 536169b4 to fix SIGSEGV on Windows i386 (fixes #1829)
+- [nim-lang/nimble#1867](https://github.com/nim-lang/nimble/pull/1867) Bump version 0.26.0
+- [nim-lang/nimble#1866](https://github.com/nim-lang/nimble/pull/1866) Stop tracking .claude/ local Claude Code config
+- [nim-lang/nimble#1864](https://github.com/nim-lang/nimble/pull/1864) Explain missing packages, drop the duplicate resolution error
+- [nim-lang/nimble#1863](https://github.com/nim-lang/nimble/pull/1863) Re-solve when a requirement moves onto a commit pin instead of keeping the old release
+- [nim-lang/nimble#1861](https://github.com/nim-lang/nimble/pull/1861) Stop re-prompting to download a Nim that is already in the binaries dir (fixes #1855)
+- [nim-lang/nimble#1859](https://github.com/nim-lang/nimble/pull/1859) Make `nimble dump` read-only: never install Nim (fixes #1857)
+- [nim-lang/nimble#1858](https://github.com/nim-lang/nimble/pull/1858) Update copyright to new files introduced since the Nim team took over.
 
 ### Chronos HTTP downloads
 

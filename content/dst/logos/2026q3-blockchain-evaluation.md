@@ -54,7 +54,7 @@ and document behaviors and findings.
 ### Blend benchmarking
 * fully qualified name: `ift-ts:dst:logos:2026q3-blockchain-evaluation:blendnet-benchmarking`
 * owner: Mamoutou
-* status: in progress (50%)
+* status: in progress (60%)
 * start-date: 2026/08/04
 * end-date: 2026/08/14
 
@@ -75,9 +75,11 @@ branch, then measure the length of every branch extending from this canonical br
 
 #### Deliverables
 - Code:
+  - Added a Grafana Tempo API data puller for block proposal and application timestamps.
 - Reports:
 - Other:
   - Deployed an isolated testbed for the Blend issue investigation and reported findings to Gusto.
+  - Deployed Gusto’s updated image, fixing trace injection so Blend traces reach Tempo.
 
 
 ### DA benchmarking

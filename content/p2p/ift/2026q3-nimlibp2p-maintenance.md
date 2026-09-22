@@ -28,7 +28,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-maintenance:maintenance`
 * owner: rramos/vlado/gabe
-* status: in progress (82%)
+* status: in progress (89%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -250,3 +250,13 @@ Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via i
 - [nim-libp2p#3041](https://github.com/vacp2p/nim-libp2p/pull/3041) fix(autonatv2): bound dial backs
 - [nim-ffi#165](https://github.com/logos-messaging/nim-ffi/pull/165) fix(ci): assert the sanitizer is actually linked into the e2e binaries
 - [nim-libp2p#3040](https://github.com/vacp2p/nim-libp2p/pull/3040) chore(perf): rename uploadSize to responseSize
+- [status-im/nimbus-eth2#9060](https://github.com/status-im/nimbus-eth2/pull/9060) chore: bump nim-libp2p and nim-lsquic
+- [vacp2p/nim-libp2p#3090](https://github.com/vacp2p/nim-libp2p/pull/3090) fix(muxers): preserve yamux framing when discarding stream data and remove redundant guard
+- [vacp2p/nim-lsquic#148](https://github.com/vacp2p/nim-lsquic/pull/148) docs(connection): clarify shutdown semantics
+- [vacp2p/nim-lsquic#150](https://github.com/vacp2p/nim-lsquic/pull/150) docs(io): correct packetIn return contract
+- [vacp2p/nim-libp2p#3128](https://github.com/vacp2p/nim-libp2p/pull/3128) chore(hole-punching): remove arbitary await
+- [vacp2p/nim-libp2p#3120](https://github.com/vacp2p/nim-libp2p/pull/3120) chore(protobuf): add macro for generating protobuf extension for `seq[byte]` types
+- [vacp2p/nim-libp2p#3139](https://github.com/vacp2p/nim-libp2p/pull/3139) test(kad): routing, netsize and codec helpers, builder setters, PeerBook handlers
+- [vacp2p/nim-libp2p#3138](https://github.com/vacp2p/nim-libp2p/pull/3138) fix(mplex): flaky read/write receiver tests
+- [vacp2p/nim-libp2p#3115](https://github.com/vacp2p/nim-libp2p/pull/3115) fix(interop): build peers before they run
+- [vacp2p/nim-libp2p#2071](https://github.com/vacp2p/nim-libp2p/pull/2071) chore: run cbind examples and a test_all job under AddressSanitizer

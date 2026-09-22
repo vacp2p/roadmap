@@ -42,4 +42,5 @@ Propose a simple CRM solution for the Logos Circles to track:
 - CRM solution
 - Dashboard for traking the KPI
 - Set up the production Circle CRM and presented it to the Logos Movement team.
-
+- Created an initial [Comms funnel dashboard](https://superset.bi.status.im/superset/dashboard/logos-comm-funnel).
+- [status-im/data-docs#261](https://github.com/status-im/data-docs/issues/261) Comms funnel dashboard

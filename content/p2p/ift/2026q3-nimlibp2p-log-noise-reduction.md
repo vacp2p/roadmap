@@ -51,7 +51,7 @@ and should be modified.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-log-noise-reduction:logging-changes`
 * owner: vlado
-* status: in progress (85%)
+* status: in progress (95%)
 * start-date: 2026/07/01
 * end-date: 2026/09/30
 
@@ -79,3 +79,11 @@ failures and unusual runtime behavior.
 - [nim-libp2p#3047](https://github.com/vacp2p/nim-libp2p/pull/3047) docs(logs): add log ownership section
 - [nim-libp2p#3045](https://github.com/vacp2p/nim-libp2p/pull/3045) chore(logs): add logs with background operation
 - [nim-libp2p#3044](https://github.com/vacp2p/nim-libp2p/pull/3044) chore(logs): remove unecessery logs
+- [vacp2p/nim-libp2p#3141](https://github.com/vacp2p/nim-libp2p/pull/3141) chore(logs): improve `info` related logs
+- [vacp2p/nim-libp2p#3140](https://github.com/vacp2p/nim-libp2p/pull/3140) chore(logs): tune logs for kademlia & service-discovery
+- [vacp2p/nim-libp2p#3132](https://github.com/vacp2p/nim-libp2p/pull/3132) chore(logs): improve logs for pubsub
+- [vacp2p/nim-libp2p#3133](https://github.com/vacp2p/nim-libp2p/pull/3133) chore(logs): fix noisy switch logs
+- [vacp2p/nim-libp2p#3129](https://github.com/vacp2p/nim-libp2p/pull/3129) chore(logs): add logs message check
+- [vacp2p/nim-libp2p#3122](https://github.com/vacp2p/nim-libp2p/pull/3122) chore(logs): add log summary for batched operation
+- [vacp2p/nim-libp2p#3121](https://github.com/vacp2p/nim-libp2p/pull/3121) chore(logs): improve pubsub.Message shortLog
+- [vacp2p/nim-libp2p#3119](https://github.com/vacp2p/nim-libp2p/pull/3119) chore(logs): standardize topics

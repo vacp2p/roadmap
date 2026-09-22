@@ -163,6 +163,21 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [official-images#22227](https://github.com/docker-library/official-images/pull/22227) Add Nim 2.2.12.
 - [website#436](https://github.com/nim-lang/website/pull/436) Update information about Docker images.
 - [langserver#436](https://github.com/nim-lang/langserver/issues/436) Goto def and find ref doesn't work for some modules in constantine
+- [nim-lang/langserver#466](https://github.com/nim-lang/langserver/pull/466) Replace `Future[Nimsuggest]` -> `Nimsuggest` in `Project`
+- [nim-lang/langserver#467](https://github.com/nim-lang/langserver/pull/467) Bump Nim to 2.2.12
+- [nim-lang/langserver#465](https://github.com/nim-lang/langserver/pull/465) Stop nimsuggest on startup timeout
+- [nim-lang/langserver#461](https://github.com/nim-lang/langserver/pull/461) Fix workspace configuration races and crashes
+- [nim-lang/langserver#464](https://github.com/nim-lang/langserver/pull/464) Add missing `ideDeclaration` to `suggestapi`
+- [nim-lang/langserver#463](https://github.com/nim-lang/langserver/pull/463) Fix `executeCommand` crashes
+- [nim-lang/langserver#462](https://github.com/nim-lang/langserver/pull/462) Fix nested waitFor on termination
+- [nim-lang/langserver#460](https://github.com/nim-lang/langserver/pull/460) Fix request on non-initialized `ls` crash
+- [nim-lang/langserver#459](https://github.com/nim-lang/langserver/pull/459) Fix nph missing path crash
+- [nim-lang/langserver#458](https://github.com/nim-lang/langserver/pull/458) Fix mcp crash when `structuredContent` is absent
+- [nim-lang/langserver#455](https://github.com/nim-lang/langserver/pull/455) Annotate all raises
+- [nim-lang/langserver#457](https://github.com/nim-lang/langserver/pull/457) CI avoid cancel master workflows
+- [nim-lang/langserver#456](https://github.com/nim-lang/langserver/pull/456) `utils` clean up
+- [nim-lang/langserver#453](https://github.com/nim-lang/langserver/pull/453) Improve Nimsuggest lifecycle for large projects
+- [nim-lang/Nim#26244](https://github.com/nim-lang/Nim/issues/26244) nimsuggest, nim check: nimbus-eth1: SIGSEGV: Illegal storage access. (Attempt to read from nil?)
 
 ### Documentation Improvement
 

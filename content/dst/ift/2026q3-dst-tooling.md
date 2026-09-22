@@ -107,3 +107,4 @@ x6 or even higher.
   - Confirmed matching CPU/BIOS configurations by reaching 3 GHz on node-01 under a CPU stress test.
   - Set the CPU governor to performance on node-04 and observed frequencies around 2.5 GHz.
   - Moved most system workloads onto metal-01, including homepage, Kyverno, Longhorn UI, vmselect, and vlselect.
+  - Reduced system CPU requests and moved Grafana and Rancher onto metal-01; CPU reservations now occupy 79% of the host.

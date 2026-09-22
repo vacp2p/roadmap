@@ -79,6 +79,8 @@ Execute upkeep across delivered web properties for Q3: dependency and security b
 - Removed sample Cloudinary assets
 - [Operator sunset Discord thread](https://discord.com/channels/864066763682218004/1522722281736896603/1522722529674919947)
 - Removed the status.app domain from Vercel.
+- [status-im/status-web#1325](https://github.com/status-im/status-web/pull/1325) fix(status-js): fetch the latest community and profile data from the store
+- [logos-co/logos-web#172](https://github.com/logos-co/logos-web/issues/172) Add a web page for Logos Zine
 
 ### Merge Vercel teams under IFT-TS
 

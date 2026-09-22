@@ -87,6 +87,7 @@ and ensure they don't happen again.
   - [Regression testing rulebook](https://app.notion.com/p/39b8f96fb65c809e9fa7fdb075c30cfc)
   - [Nim-libp2p v2.2.0 Regression Report](https://app.notion.com/p/3978f96fb65c8042ae7dd621decae98a)
   - [Nim-libp2p v2.3.0 Regression Report](https://app.notion.com/p/Nim-libp2p-v2-3-0-Regression-Report-39b8f96fb65c80519e7ef2fc97683811)
+  - [nim-libp2p v2.4.0 regression report](https://app.notion.com/p/3dd8f96fb65c81c194b8ce51ea753a52), covering the cluster matrix, WAN profile, adverse scenarios, Shadow, and investigation of mesh formation at the default connection cap.
 
 
 ### Interop at scale

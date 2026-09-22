@@ -330,3 +330,5 @@ across critical website dependencies.
 - [status-im/status-web#1311](https://github.com/status-im/status-web/issues/1311) [Status website] Improve Website Loading Performance - Target &lt;1 Second
 - [Performance investigation preview](https://github.com/status-im/status-web/issues/1311#issuecomment-5442627684)
 - Implemented email notifications for `status.app` performance monitoring.
+- [acid-info/ift-pulse#9](https://github.com/acid-info/ift-pulse/pull/9) API Status: added quota-safe provider monitoring across seven regions
+- Added [API provider monitoring for seven regions](https://ift-pulse.vercel.app/api-status), using each provider’s worst regional result for its overall status.

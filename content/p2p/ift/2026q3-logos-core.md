@@ -25,7 +25,7 @@ keep Logos modules building and operating reliably.
 
 - fully qualified name: `ift-ts:p2p:ift:2026q3-logos-core:maintenance`
 - owner: rramos/gabe
-- status: in progress (66%)
+- status: in progress (89%)
 - start-date: 2026/07/01
 - end-date: 2026/09/30
 
@@ -53,3 +53,4 @@ networking stack.
 - [litespeedtech/lsquic#675](https://github.com/litespeedtech/lsquic/issues/675) `lsquic_conn_close()` on an idle server-side IETF QUIC connection does not notify the peer?
 - [logos-co/logos-libp2p-module#106](https://github.com/logos-co/logos-libp2p-module/pull/106) fix(tests): find liblibp2p.so, so the integration tests build again
 - [logos-co/logos-libp2p-module#107](https://github.com/logos-co/logos-libp2p-module/pull/107) fix(ctx): guard the libp2p context pointer against a concurrent destroy
+- [logos-co/logos-libp2p-module#109](https://github.com/logos-co/logos-libp2p-module/pull/109) feat: add dialWithAddrs, bump nim-libp2p and the flake inputs

@@ -22,6 +22,7 @@ The unit's work directly supports IFT's strategic objective of scaling project c
 
 ### `ift:`
 
+* [[web/ift/2026q4-admin-acid|admin-acid]]
 * [[web/ift/2026q4-demos|demos]]
 * [[web/ift/2026q4-maintenance|maintenance]]
 

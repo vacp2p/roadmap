@@ -33,7 +33,7 @@ work and improvements, and it is subjected to change.
 
 
 ### Testnet (recurring)
-* fully qualified name: `ift-ts:dst:logos:2026q3-blockchain-evaluation:testnet`
+* fully qualified name: `ift-ts:dst:logos:2026q4-blockchain-evaluation:testnet`
 * owner: TBD
 * status: not started
 * start-date: 2026/10/01
@@ -54,7 +54,7 @@ and document behaviors and findings.
 > *Note*: This was moved from previous quarter
 > *Note*: This needs more input from project
 
-* fully qualified name: `ift-ts:dst:logos:2026q3-blockchain-evaluation:da-benchmarking`
+* fully qualified name: `ift-ts:dst:logos:2026q4-blockchain-evaluation:da-benchmarking`
 * owner: TBD
 * status: not started
 * start-date: 2026/10/01

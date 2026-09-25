@@ -43,7 +43,7 @@ TBD
 ### Mix with Discovery
 > *Note*: This needs more input from project
 
-* fully qualified name: `ift-ts:dst:logos:2026q3-anoncomms-evaluation:mix-with-discovery`
+* fully qualified name: `ift-ts:dst:logos:2026q4-anoncomms-evaluation:mix-with-discovery`
 * owner: TBD
 * status: not started
 * start-date: 2026/10/01
@@ -60,7 +60,7 @@ TBD
 ### De-MLS
 > *Note*: This needs more input from project
 
-* fully qualified name: `ift-ts:dst:logos:2026q3-anoncomms-evaluation:de-mls`
+* fully qualified name: `ift-ts:dst:logos:2026q4-anoncomms-evaluation:de-mls`
 * owner: TBD
 * status: not started
 * start-date: 2026/10/01

@@ -57,11 +57,11 @@ Here's the URL mapping we're aiming for:
 
 ### Article detail page: content, footnotes, table of contents
 
-* fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:article-detail-core`
-* owner: Jinho
-* status: in progress (75%)
-* start-date: 2026/07/07
-* end-date: 2026/07/31
+- fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:article-detail-core`
+- owner: Jinho
+- status: done
+- start-date: 2026/07/07
+- end-date: 2026/07/31
 
 #### Description
 
@@ -80,11 +80,11 @@ Content is fetched from the existing Strapi CMS. Handle loading, not-found (404)
 
 ### Article detail page: Discussion, Related Articles, From The Same Authors
 
-* fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:article-detail-secondary`
-* owner: Jinho
-* status: in progress (25%)
-* start-date: 2026/07/07
-* end-date: 2026/07/31
+- fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:article-detail-secondary`
+- owner: Jinho
+- status: done
+- start-date: 2026/07/07
+- end-date: 2026/07/31
 
 #### Description
 
@@ -99,11 +99,11 @@ Port the supporting sections of the article page. That's **Discussion** (comment
 
 ### Podcast detail page: layout, YouTube embed, metadata
 
-* fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:podcast-detail-core`
-* owner: jinhojang6
-* status: in progress (90%)
-* start-date: 2026/07/07
-* end-date: 2026/07/31
+- fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:podcast-detail-core`
+- owner: Jinho
+- status: done
+- start-date: 2026/07/07
+- end-date: 2026/07/31
 
 #### Description
 
@@ -119,11 +119,11 @@ Build the native podcast detail route at `logos.co/media/podcasts/<series>/<slug
 
 ### Podcast sticky player: bottom bar and YouTube progress sync
 
-* fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:podcast-player`
-* owner: jinhojang6
-* status: in progress (98%)
-* start-date: 2026/07/07
-* end-date: 2026/07/31
+- fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:podcast-player`
+- owner: Jinho
+- status: done
+- start-date: 2026/07/07
+- end-date: 2026/07/31
 
 #### Description
 
@@ -140,11 +140,11 @@ Rebuild the sticky bottom player from the current podcast experience: play/pause
 
 ### Point the /media landing and internal links at the new routes
 
-* fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:internal-links`
-* owner: Jinho
-* status: in progress (25%)
-* start-date: 2026/07/07
-* end-date: 2026/07/31
+- fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:internal-links`
+- owner: Jinho
+- status: done
+- start-date: 2026/07/07
+- end-date: 2026/07/31
 
 #### Description
 
@@ -158,11 +158,11 @@ Repoint the `/media` landing cards, and any in-site links that currently go to `
 
 ### Redirects: blog.logos.co to logos.co/media (with infra)
 
-* fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:redirects-infra`
-* owner: Jinho
-* status: in progress (10%)
-* start-date: 2026/07/07
-* end-date: 2026/07/31
+- fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:redirects-infra`
+- owner: Jinho
+- status: in progress (10%)
+- start-date: 2026/07/07
+- end-date: 2026/07/31
 
 #### Description
 
@@ -183,11 +183,11 @@ Produce the full slug and path mapping, decide how to handle anything that isn't
 
 ### SEO cutover: canonicals, sitemap, structured data
 
-* fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:seo-cutover`
-* owner: jinhojang6
-* status: in progress (98%)
-* start-date: 2026/07/07
-* end-date: 2026/07/31
+- fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:seo-cutover`
+- owner: Jinho
+- status: done
+- start-date: 2026/07/07
+- end-date: 2026/07/31
 
 #### Description
 
@@ -203,11 +203,11 @@ Make the new `/media/*` pages the canonical, indexable home for this content. Th
 
 ### Parity QA and go-live
 
-* fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:parity-qa`
-* owner: Jinho
-* status: in progress (25%)
-* start-date: 2026/07/07
-* end-date: 2026/07/31
+- fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:parity-qa`
+- owner: Jinho
+- status: done
+- start-date: 2026/07/07
+- end-date: 2026/07/31
 
 #### Description
 

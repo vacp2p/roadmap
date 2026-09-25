@@ -11,6 +11,12 @@ tags:
 
 [[nim/preview|Roadmap Preview]]
 
+## 2026q4
+
+### `ift:`
+* [[nim/ift/2026q4-nim-core-libs|nim-core-libs]]
+* [[nim/ift/2026q4-nimble|nimble]]
+
 ## 2026q3
 
 ### `nimbus:`
@@ -71,5 +77,4 @@ tags:
 #### `ift:`
 * [[nim/ift/2025q1-nim-ide-tooling|2025q1-nim-ide-tooling]]
 * [[nim/ift/2025q1-nimble|2025q1-nimble]]
-
 
